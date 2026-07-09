@@ -1,5 +1,6 @@
-// Prisma 7 configuration — connection URLs go HERE, not in schema.prisma
-// See: https://pris.ly/d/config-datasource
+// Prisma 7 configuration
+// NOTE: directUrl (for migrations) is passed via DIRECT_URL env var at CLI time,
+// not configured here — the build only needs DATABASE_URL for runtime queries.
 import "dotenv/config";
 import { defineConfig } from "prisma/config";
 
@@ -10,9 +11,6 @@ export default defineConfig({
     seed: "npx tsx prisma/seed.ts",
   },
   datasource: {
-    // Pooled connection (with pgbouncer) — used for runtime queries via PrismaClient
     url: process.env["DATABASE_URL"],
-    // Direct connection (no pgbouncer) — used for prisma migrate deploy
-    directUrl: process.env["DIRECT_URL"],
   },
 });
