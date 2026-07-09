@@ -2,13 +2,13 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Home, FileText, Sparkles, Bot, Menu } from "lucide-react"
+import { Home, FileText, Map, Activity, Menu } from "lucide-react"
 
 const MOBILE_NAV_ITEMS = [
   { name: "Home", href: "/dashboard", icon: Home },
+  { name: "Belajar", href: "/learning-path", icon: Map },
   { name: "Try Out", href: "/tryout/list", icon: FileText },
-  { name: "Latihan", href: "/practice", icon: Sparkles },
-  { name: "Soal Luar", href: "/tutor", icon: Bot },
+  { name: "Rapor", href: "/analytics", icon: Activity },
 ]
 
 export default function MobileNavbar({ onMenuClick }: { onMenuClick: () => void }) {
