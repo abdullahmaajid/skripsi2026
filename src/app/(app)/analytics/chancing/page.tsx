@@ -1,5 +1,6 @@
 import { prisma } from "@/lib/prisma"
 import { auth } from "@/auth"
+import { Cluster } from "@prisma/client"
 import { calculateChance } from "@/lib/chancing/calculator"
 import ChancingClient from "./ChancingClient"
 
@@ -20,24 +21,27 @@ export default async function ChancingPage() {
     ? await prisma.major.findMany({ where: { id: { in: targetIds } }, include: { university: true } })
     : []
 
-  const userClusters = Array.from(new Set(targetMajors.map(m => m.cluster)))
-  if (userClusters.length === 0) userClusters.push("SAINTEK")
+  // Collect unique Cluster enum values from the user's target majors
+  const userClusters: Cluster[] = Array.from(
+    new Set(targetMajors.map((m) => m.cluster))
+  )
+  if (userClusters.length === 0) userClusters.push(Cluster.SAINTEK)
 
-  const getKeywords = (names: string[]) => {
+  const getKeywords = (names: string[]): string[] => {
     const text = names.join(" ").toLowerCase().replace(/[^a-z0-9\s]/g, ' ')
     const words = text.split(/\s+/)
     const stopWords = ['sekolah', 'teknik', 'ilmu', 'pendidikan', 'program', 'studi', 'dan', 'fakultas', 'departemen', 'sains', 'keguruan', 'terapan']
-    return Array.from(new Set(words.filter(w => w.length > 4 && !stopWords.includes(w))))
+    return Array.from(new Set(words.filter((w) => w.length > 4 && !stopWords.includes(w))))
   }
-  const keywords = getKeywords(targetMajors.map(m => m.name))
-  
-  const keywordCondition = keywords.length > 0 
-    ? { OR: keywords.map(kw => ({ name: { contains: kw, mode: 'insensitive' as const } })) } 
+  const keywords = getKeywords(targetMajors.map((m) => m.name))
+
+  const keywordFilter = keywords.length > 0
+    ? { OR: keywords.map((kw) => ({ name: { contains: kw, mode: 'insensitive' as const } })) }
     : {}
 
   const baseWhere = {
     cluster: { in: userClusters },
-    ...keywordCondition
+    ...keywordFilter,
   }
 
   // AI Recommendation Logic
@@ -45,15 +49,15 @@ export default async function ChancingPage() {
   const safetyMajor = await prisma.major.findFirst({
     where: { ...baseWhere, id: { notIn: targetIds }, estimatedScore: { lte: Math.max(studentScore - 10, 400) } },
     orderBy: { estimatedScore: 'desc' },
-    include: { university: true }
-  }) || await prisma.major.findFirst({
+    include: { university: true },
+  }) ?? await prisma.major.findFirst({
     where: { cluster: { in: userClusters }, id: { notIn: targetIds }, estimatedScore: { lte: Math.max(studentScore - 10, 400) } },
     orderBy: { estimatedScore: 'desc' },
-    include: { university: true }
-  }) || await prisma.major.findFirst({
+    include: { university: true },
+  }) ?? await prisma.major.findFirst({
     where: { cluster: { in: userClusters }, id: { notIn: targetIds } },
-    orderBy: { estimatedScore: 'asc' }, // Absolute lowest if score is very low
-    include: { university: true }
+    orderBy: { estimatedScore: 'asc' },
+    include: { university: true },
   })
 
   // 2. Sesuai 1 (Match 1): Score >= studentScore
@@ -61,27 +65,27 @@ export default async function ChancingPage() {
   const matchMajor1 = await prisma.major.findFirst({
     where: { ...baseWhere, id: { notIn: excludedForMatch }, estimatedScore: { gte: studentScore } },
     orderBy: { estimatedScore: 'asc' },
-    include: { university: true }
-  }) || await prisma.major.findFirst({
+    include: { university: true },
+  }) ?? await prisma.major.findFirst({
     where: { cluster: { in: userClusters }, id: { notIn: excludedForMatch }, estimatedScore: { gte: studentScore } },
     orderBy: { estimatedScore: 'asc' },
-    include: { university: true }
+    include: { university: true },
   })
-  
+
   // 3. Sesuai 2 (Match 2): Score <= studentScore
   const excludedForMatch2 = [...excludedForMatch, matchMajor1?.id].filter(Boolean) as string[]
   const matchMajor2 = await prisma.major.findFirst({
     where: { ...baseWhere, id: { notIn: excludedForMatch2 }, estimatedScore: { lte: studentScore } },
     orderBy: { estimatedScore: 'desc' },
-    include: { university: true }
-  }) || await prisma.major.findFirst({
+    include: { university: true },
+  }) ?? await prisma.major.findFirst({
     where: { cluster: { in: userClusters }, id: { notIn: excludedForMatch2 }, estimatedScore: { lte: studentScore } },
     orderBy: { estimatedScore: 'desc' },
-    include: { university: true }
-  }) || await prisma.major.findFirst({
+    include: { university: true },
+  }) ?? await prisma.major.findFirst({
     where: { cluster: { in: userClusters }, id: { notIn: excludedForMatch2 } },
     orderBy: { estimatedScore: 'asc' },
-    include: { university: true }
+    include: { university: true },
   })
 
   // 4. Tantangan (Reach): Score >= studentScore + 20
@@ -89,25 +93,27 @@ export default async function ChancingPage() {
   const reachMajor = await prisma.major.findFirst({
     where: { ...baseWhere, id: { notIn: excludedForReach }, estimatedScore: { gte: studentScore + 20 } },
     orderBy: { estimatedScore: 'asc' },
-    include: { university: true }
-  }) || await prisma.major.findFirst({
+    include: { university: true },
+  }) ?? await prisma.major.findFirst({
     where: { cluster: { in: userClusters }, id: { notIn: excludedForReach }, estimatedScore: { gte: studentScore + 20 } },
     orderBy: { estimatedScore: 'asc' },
-    include: { university: true }
-  }) || await prisma.major.findFirst({
+    include: { university: true },
+  }) ?? await prisma.major.findFirst({
     where: { cluster: { in: userClusters }, id: { notIn: excludedForReach } },
-    orderBy: { estimatedScore: 'asc' }, // Fallback to a low major instead of the absolute max!
-    include: { university: true }
+    orderBy: { estimatedScore: 'asc' },
+    include: { university: true },
   })
 
-  const aiMajorsRaw = [
+  type AiEntry = { type: string; major: NonNullable<typeof safetyMajor> }
+
+  const aiMajorsRaw: AiEntry[] = [
     { type: 'Aman', major: safetyMajor },
     { type: 'Sesuai', major: matchMajor1 },
     { type: 'Sesuai', major: matchMajor2 },
-    { type: 'Tantangan', major: reachMajor }
-  ].filter(m => m.major)
+    { type: 'Tantangan', major: reachMajor },
+  ].filter((item): item is AiEntry => item.major != null)
 
-  const targetResults = targetMajors.map(m => {
+  const targetResults = targetMajors.map((m) => {
     const comp = m.applicants / m.quota
     const chance = calculateChance(studentScore, m.estimatedScore, comp)
     return {
@@ -115,12 +121,12 @@ export default async function ChancingPage() {
       estimatedScore: m.estimatedScore, quota: m.quota, applicants: m.applicants,
       competitiveness: Math.round(comp * 10) / 10,
       percentage: chance.percentage, label: chance.label, deficit: chance.deficit,
-      isTarget: true, aiType: null
+      isTarget: true, aiType: null,
     }
   })
 
-  const aiResults = aiMajorsRaw.map(item => {
-    const m = item.major!
+  const aiResults = aiMajorsRaw.map((item) => {
+    const m = item.major
     const comp = m.applicants / m.quota
     const chance = calculateChance(studentScore, m.estimatedScore, comp)
     return {
@@ -128,7 +134,7 @@ export default async function ChancingPage() {
       estimatedScore: m.estimatedScore, quota: m.quota, applicants: m.applicants,
       competitiveness: Math.round(comp * 10) / 10,
       percentage: chance.percentage, label: chance.label, deficit: chance.deficit,
-      isTarget: false, aiType: item.type
+      isTarget: false, aiType: item.type,
     }
   })
 
