@@ -1,6 +1,5 @@
 import { prisma } from "@/lib/prisma"
 import { auth } from "@/auth"
-import { Cluster } from "@prisma/client"
 import { calculateChance } from "@/lib/chancing/calculator"
 import ChancingClient from "./ChancingClient"
 
@@ -22,10 +21,10 @@ export default async function ChancingPage() {
     : []
 
   // Collect unique Cluster enum values from the user's target majors
-  const userClusters: Cluster[] = Array.from(
+  const userClusters: any[] = Array.from(
     new Set(targetMajors.map((m) => m.cluster))
   )
-  if (userClusters.length === 0) userClusters.push(Cluster.SAINTEK)
+  if (userClusters.length === 0) userClusters.push("SAINTEK")
 
   const getKeywords = (names: string[]): string[] => {
     const text = names.join(" ").toLowerCase().replace(/[^a-z0-9\s]/g, ' ')
@@ -39,7 +38,7 @@ export default async function ChancingPage() {
     ? { OR: keywords.map((kw) => ({ name: { contains: kw, mode: 'insensitive' as const } })) }
     : {}
 
-  const baseWhere = {
+  const baseWhere: any = {
     cluster: { in: userClusters },
     ...keywordFilter,
   }
