@@ -1,0 +1,324 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ============================================
+// AUTH & USER
+// ============================================
+model User {
+  id        String   @id @default(cuid())
+  name      String
+  email     String   @unique
+  password  String
+  avatar    String?
+  role      Role     @default(STUDENT)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  lastActivityAt DateTime? @updatedAt // Track last activity for dashboard metrics
+
+  profile    StudentProfile?
+  attempts   ExamAttempt[]
+  progress   ChapterProgress[]
+  irtAbility Float           @default(0.0) // θ (theta) — kemampuan siswa
+}
+
+enum Role {
+  STUDENT
+  ADMIN
+}
+
+model StudentProfile {
+  id             String  @id @default(cuid())
+  userId         String  @unique
+  school         String?
+  graduationYear Int?
+  targetMajor1Id String?
+  targetMajor2Id String?
+
+  user         User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  targetMajor1 Major? @relation("Target1", fields: [targetMajor1Id], references: [id])
+  targetMajor2 Major? @relation("Target2", fields: [targetMajor2Id], references: [id])
+}
+
+// ============================================
+// UNIVERSITY & MAJOR (Scraping Target)
+// ============================================
+model University {
+  id        String   @id @default(cuid())
+  name      String   @unique
+  code      String   @unique // Kode PTN (contoh: "001" = UI)
+  location  String // Kota/Provinsi
+  type      UniType  @default(NEGERI)
+  logoUrl   String?
+  majors    Major[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+enum UniType {
+  NEGERI
+  SWASTA
+}
+
+model Major {
+  id             String  @id @default(cuid())
+  name           String
+  code           String  @unique // Kode prodi SNBT
+  universityId   String
+  faculty        String // Fakultas
+  degree         Degree  @default(S1)
+  quota          Int // Daya tampung
+  applicants     Int // Jumlah peminat tahun lalu
+  estimatedScore Float // Estimasi skor aman (bukan "passing grade" resmi)
+  cluster        Cluster // Saintek / Soshum / Campuran
+  year           Int     @default(2025) // Tahun data
+
+  university University       @relation(fields: [universityId], references: [id], onDelete: Cascade)
+  targets1   StudentProfile[] @relation("Target1")
+  targets2   StudentProfile[] @relation("Target2")
+
+  @@index([universityId])
+  @@index([cluster, estimatedScore])
+}
+
+enum Degree {
+  S1
+  D3
+  D4
+}
+
+enum Cluster {
+  SAINTEK
+  SOSHUM
+  CAMPURAN
+}
+
+// ============================================
+// QUESTION BANK
+// ============================================
+model Subject {
+  id           String        @id @default(cuid())
+  name         String        @unique // "Penalaran Matematika", "Literasi Bahasa Indonesia", etc.
+  cluster      Cluster
+  chapters     Chapter[]
+  examSections ExamSection[]
+  subScores    SubjectScore[]
+}
+
+model Chapter {
+  id            String     @id @default(cuid())
+  name          String // "Geometri", "Aljabar Linear", etc.
+  subjectId     String
+  order         Int        @default(0)
+  theorySummary String?    @db.Text // Rangkuman materi singkat (Markdown/LaTeX)
+  subject       Subject    @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  questions     Question[]
+  progress      ChapterProgress[]
+
+  @@index([subjectId])
+}
+
+model Question {
+  id             String       @id @default(cuid())
+  chapterId      String
+  text           String       @db.Text // Mendukung LaTeX/markdown
+  imageUrl       String? // Gambar soal (jika ada)
+  difficulty     Float        @default(0.0) // IRT parameter b (logit scale: -3 to +3)
+  discrimination Float        @default(1.0) // IRT parameter a (untuk 2PL future)
+  guessing       Float        @default(0.2) // IRT parameter c (untuk 3PL future, default 1/5)
+  type           QuestionType @default(MULTIPLE_CHOICE)
+
+  chapter   Chapter            @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+  options   QuestionOption[]
+  responses QuestionResponse[]
+
+  @@index([chapterId, difficulty])
+}
+
+enum QuestionType {
+  MULTIPLE_CHOICE // Pilihan ganda biasa
+  MULTIPLE_SELECT // Pilih lebih dari satu (SNBT style)
+  TRUE_FALSE // Benar/Salah
+}
+
+model QuestionOption {
+  id         String  @id @default(cuid())
+  questionId String
+  label      String // "A", "B", "C", "D", "E"
+  text       String  @db.Text
+  imageUrl   String?
+  isCorrect  Boolean @default(false)
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@index([questionId])
+}
+
+// ============================================
+// CBT ENGINE & EXAM
+// ============================================
+model ExamTemplate {
+  id          String        @id @default(cuid())
+  name        String // "Try Out SNBT #1"
+  description String?
+  duration    Int // Durasi dalam menit
+  totalItems  Int // Jumlah soal
+  cluster     Cluster
+  isAdaptive   Boolean       @default(false) // Deprecated: Real UTBK is linear. Always false.
+  isDiagnostic Boolean      @default(false)
+  attempts    ExamAttempt[]
+  sections    ExamSection[]
+}
+
+model ExamSection {
+  id         String @id @default(cuid())
+  templateId String
+  subjectId  String
+  itemCount  Int // Jumlah soal per section
+  order      Int
+  duration   Int    @default(15) // Durasi subtes dalam menit
+
+  template ExamTemplate @relation(fields: [templateId], references: [id], onDelete: Cascade)
+  subject  Subject      @relation(fields: [subjectId], references: [id])
+}
+
+model ExamAttempt {
+  id          String        @id @default(cuid())
+  userId      String
+  templateId  String
+  status      AttemptStatus @default(IN_PROGRESS)
+  startedAt   DateTime      @default(now())
+  finishedAt  DateTime?
+  rawScore    Float? // Skor mentah (% benar)
+  irtScore    Float? // Skor IRT (θ estimasi)
+  scaledScore Float? // Skor skala SNBT (100-1000)
+
+  user      User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+  template  ExamTemplate       @relation(fields: [templateId], references: [id])
+  responses QuestionResponse[]
+  subScores SubjectScore[]
+
+  @@index([userId, startedAt])
+}
+
+enum AttemptStatus {
+  IN_PROGRESS
+  COMPLETED
+  TIMED_OUT
+  ABANDONED
+}
+
+model QuestionResponse {
+  id          String   @id @default(cuid())
+  attemptId   String
+  questionId  String
+  selectedIds String[] // Array of selected option IDs
+  isCorrect   Boolean?
+  timeSpent   Int      @default(0) // Detik yang dihabiskan per soal
+  flagged     Boolean  @default(false)
+  answeredAt  DateTime @default(now())
+
+  attempt  ExamAttempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  question Question    @relation(fields: [questionId], references: [id])
+
+  @@unique([attemptId, questionId])
+  @@index([attemptId])
+}
+
+// ============================================
+// SCORING & ANALYTICS
+// ============================================
+model SubjectScore {
+  id          String @id @default(cuid())
+  attemptId   String
+  subjectId   String
+  correct     Int
+  total       Int
+  irtTheta    Float // θ per subject
+  scaledScore Float // Skor skala per subject
+
+  attempt ExamAttempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  subject Subject     @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+
+  @@unique([attemptId, subjectId])
+}
+
+// ============================================
+// AI TUTORING & SCAFFOLDING
+// ============================================
+model TutoringSession {
+  id         String            @id @default(cuid())
+  userId     String
+  questionId String
+  level      ScaffoldLevel     @default(SOCRATIC)
+  messages   TutoringMessage[]
+  createdAt  DateTime          @default(now())
+}
+
+enum ScaffoldLevel {
+  SOCRATIC // Level 1: Pertanyaan pemandu
+  HINT // Level 2: Petunjuk parsial
+  SOLUTION // Level 3: Penjelasan lengkap
+}
+
+model TutoringMessage {
+  id        String      @id @default(cuid())
+  sessionId String
+  role      MessageRole
+  content   String      @db.Text
+  createdAt DateTime    @default(now())
+
+  session TutoringSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+}
+
+enum MessageRole {
+  USER
+  ASSISTANT
+  SYSTEM
+}
+
+// ============================================
+// SCRAPING METADATA (Deprecated: No longer used)
+// ============================================
+model ScrapeLog {
+  id          String       @id @default(cuid())
+  source      String // URL yang di-scrape
+  status      ScrapeStatus
+  recordCount Int          @default(0)
+  error       String?      @db.Text
+  duration    Int // Durasi dalam ms
+  executedAt  DateTime     @default(now())
+}
+
+enum ScrapeStatus {
+  SUCCESS
+  PARTIAL
+  FAILED
+}
+
+// ============================================
+// LEARNING PATH & PROGRESS
+// ============================================
+model ChapterProgress {
+  id           String        @id @default(cuid())
+  userId       String
+  chapterId    String
+  status       MasteryStatus @default(NOT_STARTED)
+  masteryLevel Float         @default(0.0) // 0 - 100
+  updatedAt    DateTime      @updatedAt
+
+  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  chapter Chapter @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, chapterId])
+}
+
+enum MasteryStatus {
+  NOT_STARTED
+  IN_PROGRESS
+  COMPLETED
+}

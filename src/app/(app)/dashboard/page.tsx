@@ -1,0 +1,178 @@
+import { prisma } from "@/lib/prisma"
+import DashboardClient from "./DashboardClient"
+import { redirect } from "next/navigation"
+import { auth } from "@/auth"
+
+export default async function DashboardPage() {
+  const session = await auth()
+  const userId = session?.user?.id
+
+  // Redirect admin users away from student dashboard
+  if ((session?.user as any)?.role === "ADMIN") {
+    redirect("/admin")
+  }
+
+  const user = userId ? await prisma.user.findUnique({
+    where: { id: userId },
+    include: { profile: { include: { targetMajor1: { include: { university: true } }, targetMajor2: true } } },
+  }) : null
+
+  // Track journey milestones (hoisted for access later)
+  let hasDiagnostic: any = null
+  let hasNonDiagnosticTryout: any = null
+  let hasLearningPathProgress: any = null
+  let hasPracticeActivity: any = null
+
+  if (userId && user) {
+    // Skip onboarding redirects for admin users
+    if (user.role !== "ADMIN" && !user.profile?.targetMajor1Id) {
+      redirect("/onboarding")
+    }
+
+    hasDiagnostic = await prisma.examAttempt.findFirst({
+      where: { userId, template: { is: { isDiagnostic: true } }, status: "COMPLETED" }
+    })
+    
+    if (user.role !== "ADMIN" && !hasDiagnostic) {
+      redirect("/onboarding?resume=diagnostic")
+    }
+
+    // ── Journey progress for getting-started guide ──
+    hasNonDiagnosticTryout = await prisma.examAttempt.findFirst({
+      where: { userId, template: { is: { isDiagnostic: false } }, status: "COMPLETED" }
+    })
+    hasLearningPathProgress = await prisma.chapterProgress.findFirst({
+      where: { userId }
+    })
+    hasPracticeActivity = await prisma.questionResponse.findFirst({
+      where: { attempt: { userId, template: { is: { isDiagnostic: false } } } }
+    })
+  }
+
+  // Fetch latest attempts for trend (completed only)
+  const attempts = userId ? await prisma.examAttempt.findMany({
+    where: { userId, status: "COMPLETED" },
+    orderBy: { finishedAt: "desc" },
+    take: 10,
+    select: { id: true, scaledScore: true, irtScore: true, rawScore: true, startedAt: true, finishedAt: true, template: { select: { name: true } } },
+  }) : []
+
+  // Fetch subject scores from latest attempt
+  const latestAttempt = attempts[0]
+  const subScores = latestAttempt ? await prisma.subjectScore.findMany({
+    where: { attemptId: latestAttempt.id },
+  }) : []
+
+  // Fetch subjects for radar
+  const subjects = await prisma.subject.findMany({ orderBy: { name: "asc" } })
+
+  // Build radar data
+  const targetScore = user?.profile?.targetMajor1?.estimatedScore || 700
+  const radarData = subjects.map(s => {
+    const ss = subScores.find(sc => sc.subjectId === s.id)
+    return { subject: s.name.replace("Penalaran ", "Pen. ").replace("Literasi ", "Lit. ").replace("Pengetahuan ", "Peng. ").replace("Pemahaman Bacaan & Menulis", "PBM").replace("Pengetahuan & Pemahaman Umum", "PPU"), score: ss?.scaledScore || 0, target: targetScore }
+  })
+
+  // Fetch recent activities (completed or in progress)
+  const recentAttempts = userId ? await prisma.examAttempt.findMany({
+    where: { userId },
+    orderBy: { startedAt: "desc" },
+    take: 2,
+    select: { id: true, scaledScore: true, status: true, startedAt: true, template: { select: { name: true } } },
+  }) : []
+
+  const recentActivities = recentAttempts.map(a => ({
+    title: a.template?.name || "Try Out SNBT",
+    date: a.startedAt.toLocaleDateString("id-ID", { day: "numeric", month: "short" }),
+    score: a.scaledScore || 0,
+    status: a.status === "COMPLETED" ? "Selesai" : "Sedang Berjalan",
+  }))
+
+  const targetName = user?.profile?.targetMajor1
+    ? `${user.profile.targetMajor1.name} — ${user.profile.targetMajor1.university.name}`
+    : "Belum dipilih"
+
+  // ── Dynamic Stats (Real from DB) ──
+  const tryOutCount = attempts.length
+
+  // Real soal count from questionResponse
+  const soalCount = userId ? await prisma.questionResponse.count({
+    where: { attempt: { userId, status: "COMPLETED" } },
+  }) : 0
+
+  // Real jam belajar from finishedAt - startedAt
+  const totalSeconds = attempts.reduce((sum, a) => {
+    if (a.finishedAt && a.startedAt) {
+      return sum + (new Date(a.finishedAt).getTime() - new Date(a.startedAt).getTime()) / 1000
+    }
+    return sum
+  }, 0)
+  const jamCount = parseFloat((totalSeconds / 3600).toFixed(1))
+
+  // Countdown to UTBK
+  const utbkDate = new Date('2026-05-15')
+  const hariLagi = Math.max(0, Math.ceil((utbkDate.getTime() - new Date().getTime()) / (1000 * 3600 * 24)))
+
+  // Peluang Lulus — score ratio vs target
+  const estimatedScore = user?.profile?.targetMajor1?.estimatedScore || 700
+  const peluangLulus = latestAttempt?.scaledScore
+    ? Math.min(100, Math.round((latestAttempt.scaledScore / estimatedScore) * 100))
+    : 0
+
+  // Fokus Subject (lowest radar score)
+  const sortedRadar = [...radarData].sort((a, b) => a.score - b.score)
+  const fokusSubject = sortedRadar[0]?.subject || "Penalaran Umum"
+
+  // Tren Skor (reversed so oldest → newest for line chart)
+  const trendData = [...attempts]
+    .reverse()
+    .map((a, i) => ({
+      label: `TO ${i + 1}`,
+      score: Math.round(a.scaledScore || 0),
+    }))
+
+  // Journey progress object
+  // Each step should only reflect its own actual activity:
+  // - diagnosticDone: user completed a diagnostic exam
+  // - firstTryoutDone: user completed a non-diagnostic tryout
+  // - learningPathExplored: user has chapterProgress (visited & interacted with learning path)
+  // - practiceStarted: user has answered questions in a non-diagnostic context
+  const journeyProgress = {
+    diagnosticDone: !!hasDiagnostic,
+    firstTryoutDone: !!hasNonDiagnosticTryout,
+    learningPathExplored: !!hasLearningPathProgress,
+    practiceStarted: !!hasPracticeActivity,
+  }
+
+  // Mini AI Recommendation (Safety) — use correct Prisma Cluster enum (uppercase)
+  let aiRecommendation = null
+  if (userId && latestAttempt?.scaledScore) {
+    const userCluster = user?.profile?.targetMajor1?.cluster ?? "SAINTEK"
+    aiRecommendation = await prisma.major.findFirst({
+      where: {
+        cluster: userCluster,
+        estimatedScore: { lte: latestAttempt.scaledScore },
+      },
+      orderBy: { estimatedScore: "desc" },
+    })
+  }
+
+  return (
+    <DashboardClient
+      userName={user?.name || "Siswa"}
+      targetName={targetName}
+      latestScore={latestAttempt?.scaledScore || 0}
+      irtTheta={user?.irtAbility || 0}
+      totalAttempts={tryOutCount}
+      radarData={radarData}
+      recentActivities={recentActivities}
+      stats={{ tryOutCount, soalCount, hariLagi, jamCount }}
+      fokusSubject={fokusSubject}
+      peluangLulus={peluangLulus}
+      trendData={trendData}
+      targetScoreGap={latestAttempt?.scaledScore ? Math.round(estimatedScore - latestAttempt.scaledScore) : null}
+      journeyProgress={journeyProgress}
+      aiRecommendation={aiRecommendation}
+    />
+  )
+}
