@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { PanelLeftClose, PanelLeftOpen, PanelRightClose, PanelRightOpen, X } from "lucide-react"
+import { PanelLeftClose, PanelLeftOpen, PanelRightClose, PanelRightOpen, X, Bot } from "lucide-react"
 import Sidebar from "@/components/layout/Sidebar"
 import AIChatPanel from "@/components/layout/AIChatPanel"
 import MobileNavbar from "@/components/layout/MobileNavbar"
@@ -59,9 +59,24 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: 20 }}
               onClick={() => setRightOpen(true)}
-              className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.06)] p-3 rounded-l-2xl hover:bg-slate-50 transition-colors"
+              className="hidden lg:block absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.06)] p-3 rounded-l-2xl hover:bg-slate-50 transition-colors"
             >
               <PanelRightOpen className="w-5 h-5 text-slate-500" />
+            </motion.button>
+          )}
+        </AnimatePresence>
+
+        {/* Mobile FAB Trigger for AI Chat */}
+        <AnimatePresence>
+          {showRightPanel && !actualRightOpen && (
+            <motion.button
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.8 }}
+              onClick={() => setRightOpen(true)}
+              className="lg:hidden absolute bottom-[84px] right-4 z-40 bg-[var(--accent)] text-white p-3 rounded-full shadow-[0_8px_30px_rgba(193,119,249,0.4)] hover:scale-105 transition-transform flex items-center justify-center"
+            >
+              <Bot className="w-6 h-6" />
             </motion.button>
           )}
         </AnimatePresence>
@@ -120,7 +135,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           {children}
         </main>
 
-        {/* Right: AI Chat Panel (hidden on tryout routes) */}
+        {/* Right: AI Chat Panel (Desktop) */}
         <AnimatePresence>
           {showRightPanel && actualRightOpen && (
             <motion.div
@@ -128,12 +143,46 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
               animate={{ width: "380px", opacity: 1, marginRight: 0 }}
               exit={{ width: 0, opacity: 0, marginRight: -20 }}
               transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-              className="shrink-0 flex hidden lg:flex relative overflow-hidden"
+              className="shrink-0 hidden lg:flex relative overflow-hidden"
             >
               <div className="w-[380px] h-full shrink-0">
                 <AIChatPanel onClose={() => setRightOpen(false)} />
               </div>
             </motion.div>
+          )}
+        </AnimatePresence>
+
+        {/* Right: AI Chat Panel (Mobile Drawer) */}
+        <AnimatePresence>
+          {showRightPanel && actualRightOpen && (
+            <>
+              {/* Overlay */}
+              <motion.div 
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                onClick={() => setRightOpen(false)}
+                className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-[60] lg:hidden"
+              />
+              {/* Drawer */}
+              <motion.div
+                initial={{ x: "100%" }}
+                animate={{ x: 0 }}
+                exit={{ x: "100%" }}
+                transition={{ type: "spring", bounce: 0, duration: 0.4 }}
+                className="fixed inset-y-0 right-0 w-[90%] sm:w-[380px] max-w-full bg-white z-[70] shadow-2xl flex flex-col lg:hidden"
+              >
+                <div className="flex-1 overflow-y-auto no-scrollbar pb-10">
+                  <AIChatPanel onClose={() => setRightOpen(false)} />
+                </div>
+                <button 
+                  onClick={() => setRightOpen(false)}
+                  className="absolute top-6 left-6 w-10 h-10 bg-slate-100 rounded-full flex items-center justify-center text-slate-500 hover:bg-slate-200 transition-colors z-50"
+                >
+                  <X className="w-5 h-5" />
+                </button>
+              </motion.div>
+            </>
           )}
         </AnimatePresence>
 
