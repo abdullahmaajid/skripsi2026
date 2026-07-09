@@ -128,9 +128,9 @@ export default function ReviewPage({ params }: { params: Promise<{ id: string }>
   const currentQ = data.questions[selectedIndex]
 
   return (
-    <div className="h-full flex flex-col lg:flex-row font-sans overflow-hidden bg-white">
+    <div className="h-full flex flex-col md:flex-row font-sans overflow-hidden bg-white">
       {/* Sidebar (Grid & Score) */}
-      <aside className="w-full lg:w-[340px] flex flex-col border-b lg:border-b-0 lg:border-r border-slate-100 bg-slate-50/50 shrink-0 h-[35vh] lg:h-full overflow-y-auto no-scrollbar relative">
+      <aside className="w-full md:w-[280px] lg:w-[340px] flex flex-col border-b md:border-b-0 md:border-r border-slate-100 bg-slate-50/50 shrink-0 h-[35vh] md:h-full overflow-y-auto no-scrollbar relative">
         <div className="p-6 md:p-8">
           <button onClick={() => router.push("/dashboard")} className="text-slate-400 hover:text-slate-600 text-sm mb-6 inline-flex items-center gap-2 font-bold transition-colors">
             <ArrowLeft className="w-4 h-4" /> Kembali ke Dashboard
@@ -185,8 +185,8 @@ export default function ReviewPage({ params }: { params: Promise<{ id: string }>
         </div>
       </aside>
 
-      {/* Main Content (Review Detail) */}
-      <main className="flex-1 flex flex-col h-[65vh] lg:h-full overflow-y-auto no-scrollbar relative bg-white p-6 md:p-12">
+      {/* Main Content (Review) */}
+      <div className="flex-1 flex flex-col overflow-y-auto no-scrollbar relative p-6 md:p-8 lg:p-12 xl:px-16">
          {currentQ && (
            <AnimatePresence mode="wait">
              <motion.div 

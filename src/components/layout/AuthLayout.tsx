@@ -8,7 +8,7 @@ export default function AuthLayout({ children, title = "Mulai Perjalanan UTBK-mu
   return (
     <div className="min-h-screen flex w-full font-sans bg-white overflow-hidden">
       {/* Left Panel - Marketing / Branding (Light Mode) */}
-      <div className="hidden lg:flex flex-1 relative bg-slate-50 flex-col justify-between p-12 overflow-hidden border-r border-slate-100">
+      <div className="hidden md:flex flex-1 relative bg-slate-50 flex-col justify-between p-12 overflow-hidden border-r border-slate-100">
         {/* Blurred gradient background */}
         <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-60">
           <div className="absolute -top-1/4 -left-1/4 w-[800px] h-[800px] bg-[var(--pastel-purple)] rounded-full blur-[120px]" />
@@ -82,10 +82,10 @@ export default function AuthLayout({ children, title = "Mulai Perjalanan UTBK-mu
       </div>
 
       {/* Right Panel - Form Area (Light Mode for consistency with dashboard) */}
-      <div className="w-full lg:w-[500px] xl:w-[600px] shrink-0 bg-white flex flex-col justify-center relative shadow-[-20px_0_40px_rgba(0,0,0,0.05)] z-20">
+      <div className="w-full md:w-[450px] lg:w-[500px] xl:w-[600px] shrink-0 bg-white flex flex-col justify-center relative shadow-[-20px_0_40px_rgba(0,0,0,0.05)] z-20">
         
         {/* Mobile Logo Header */}
-        <div className="lg:hidden absolute top-0 left-0 w-full p-6 flex items-center justify-center gap-2">
+        <div className="md:hidden absolute top-0 left-0 w-full p-6 flex items-center justify-center gap-2">
           <GraduationCap className="w-6 h-6 text-[var(--accent)]" />
           <span className="text-xl font-bold tracking-tight text-slate-800">Lexica</span>
         </div>
