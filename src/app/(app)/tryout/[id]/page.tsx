@@ -188,9 +188,9 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
   // Finished state
   if (isFinished) {
     return (
-      <div className="min-h-screen flex w-full font-sans bg-white overflow-hidden">
+      <div className="min-h-screen flex flex-col md:flex-row w-full font-sans bg-white overflow-hidden">
         {/* LEFT PANEL */}
-        <div className="hidden lg:flex flex-1 relative bg-slate-50 flex-col justify-between p-12 overflow-hidden border-r border-slate-100">
+        <div className="hidden md:flex flex-1 relative bg-slate-50 flex-col justify-between p-8 lg:p-12 overflow-hidden border-r border-slate-100">
           <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-60">
             <div className="absolute -top-1/4 -left-1/4 w-[800px] h-[800px] bg-[var(--pastel-purple)] rounded-full blur-[120px]" />
             <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-[var(--pastel-blue)]/40 rounded-full blur-[100px]" />
@@ -219,8 +219,8 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
         </div>
 
         {/* RIGHT PANEL */}
-        <div className="w-full lg:w-[500px] xl:w-[600px] shrink-0 bg-white flex flex-col relative shadow-[-20px_0_40px_rgba(0,0,0,0.05)] z-20">
-          <div className="lg:hidden absolute top-0 left-0 w-full p-6 flex items-center justify-center gap-2">
+        <div className="w-full md:w-[450px] lg:w-[500px] xl:w-[600px] shrink-0 bg-white flex flex-col relative shadow-[-20px_0_40px_rgba(0,0,0,0.05)] z-20">
+          <div className="md:hidden absolute top-0 left-0 w-full p-6 flex items-center justify-center gap-2">
             <CheckCircle2 className="w-6 h-6 text-[var(--accent)]" />
             <span className="text-xl font-bold tracking-tight text-slate-800">Lexica</span>
           </div>
@@ -294,10 +294,10 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
   const isFlagged = flagged[currentQ.id]
 
   return (
-    <div className="min-h-screen flex w-full font-sans bg-white overflow-hidden">
+    <div className="h-screen flex w-full font-sans bg-white overflow-hidden relative">
       
       {/* LEFT PANEL */}
-      <div className="hidden lg:flex flex-1 relative bg-slate-50 overflow-hidden border-r border-slate-100">
+      <div className={`flex-1 relative bg-slate-50 overflow-hidden border-r border-slate-100 flex-col ${showNav ? "hidden lg:flex" : "flex"}`}>
         {/* Blurred gradient background */}
         <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-60">
           <div className="absolute -top-1/4 -left-1/4 w-[800px] h-[800px] bg-[var(--pastel-purple)] rounded-full blur-[120px]" />
@@ -306,11 +306,19 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
 
         <div className="relative z-10 flex flex-col w-full max-w-4xl mx-auto p-12 justify-between">
           {/* Top: Logo */}
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-[var(--accent)]/10 flex items-center justify-center">
-              <CheckCircle2 className="w-6 h-6 text-[var(--accent)]" />
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-xl bg-[var(--accent)]/10 flex items-center justify-center">
+                <CheckCircle2 className="w-6 h-6 text-[var(--accent)]" />
+              </div>
+              <span className="text-2xl font-bold tracking-tight text-slate-800">Lexica</span>
             </div>
-            <span className="text-2xl font-bold tracking-tight text-slate-800">Lexica</span>
+            <button 
+              className="lg:hidden px-4 py-2 rounded-lg bg-white border border-slate-200 text-slate-600 shadow-sm flex items-center gap-2 font-bold text-sm"
+              onClick={() => setShowNav(true)}
+            >
+              <LayoutGrid className="w-4 h-4" /> Navigasi
+            </button>
           </div>
 
           {/* Center: Soal Content */}
@@ -408,18 +416,26 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
       </div>
     </div>
 
-      {/* RIGHT PANEL — exact same classes as AuthLayout right panel */}
-      <div className="w-full lg:w-[500px] xl:w-[600px] shrink-0 bg-white flex flex-col relative shadow-[-20px_0_40px_rgba(0,0,0,0.05)] z-20">
+      {/* RIGHT PANEL */}
+      <div className={`w-full lg:w-[400px] xl:w-[500px] shrink-0 bg-white flex-col relative shadow-[-20px_0_40px_rgba(0,0,0,0.05)] z-30 ${showNav ? "flex absolute inset-0 lg:static h-full" : "hidden lg:flex"}`}>
         
-        {/* Mobile Logo Header — copy-paste from AuthLayout */}
-        <div className="lg:hidden absolute top-0 left-0 w-full p-6 flex items-center justify-center gap-2">
-          <CheckCircle2 className="w-6 h-6 text-[var(--accent)]" />
-          <span className="text-xl font-bold tracking-tight text-slate-800">Lexica CBT</span>
+        {/* Mobile Header */}
+        <div className="lg:hidden absolute top-0 left-0 w-full p-6 flex items-center justify-between bg-white z-10 border-b border-slate-100">
+          <div className="flex items-center gap-2">
+            <CheckCircle2 className="w-6 h-6 text-[var(--accent)]" />
+            <span className="text-xl font-bold tracking-tight text-slate-800">Navigasi CBT</span>
+          </div>
+          <button 
+            onClick={() => setShowNav(false)}
+            className="px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-600 rounded-lg text-sm font-bold transition-colors"
+          >
+            Tutup
+          </button>
         </div>
 
-        {/* Scrollable Content — same structure as AuthLayout form container */}
-        <div className="w-full max-h-screen overflow-y-auto no-scrollbar">
-          <div className="w-full max-w-[420px] mx-auto px-6 py-24 md:py-12 flex flex-col min-h-screen justify-between">
+        {/* Scrollable Content */}
+        <div className="w-full h-full overflow-y-auto no-scrollbar pt-24 lg:pt-0">
+          <div className="w-full max-w-[420px] mx-auto px-6 py-8 lg:py-12 flex flex-col min-h-full justify-start">
             
             {/* Timer */}
             <div className="space-y-3">
@@ -479,7 +495,12 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
                   return (
                     <button
                       key={q.id}
-                      onClick={() => !isAdaptive && !isLockedSection && goToQuestion(idx)}
+                      onClick={() => {
+                        if (!isAdaptive && !isLockedSection) {
+                          goToQuestion(idx);
+                          if (window.innerWidth < 1024) setShowNav(false);
+                        }
+                      }}
                       disabled={isAdaptive || !!isLockedSection}
                       title={isLockedSection ? `Terkunci — bagian ${q.subject}` : undefined}
                       className={`aspect-square rounded-lg flex items-center justify-center font-bold text-sm border transition-all ${bg}`}
