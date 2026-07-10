@@ -232,7 +232,7 @@ export default function AIChatPanel({ onClose }: { onClose?: () => void }) {
 
   if (isTryoutSession) {
     return (
-      <aside className="w-full lg:w-[380px] h-full shrink-0 bg-slate-50 shadow-[0_4px_24px_rgba(0,0,0,0.02)] rounded-[2rem] flex flex-col hidden lg:flex overflow-hidden border border-slate-100 relative">
+      <aside className="w-full lg:w-[380px] h-full shrink-0 bg-slate-50 shadow-[0_4px_24px_rgba(0,0,0,0.02)] rounded-[2rem] flex flex-col overflow-hidden border border-slate-100 relative">
         <div className="absolute inset-0 bg-white/80 backdrop-blur-md flex flex-col items-center justify-center p-8 text-center z-50">
           <div className="w-16 h-16 rounded-3xl bg-rose-50 border border-rose-100 flex items-center justify-center mb-6 shadow-sm">
             <Lock className="w-8 h-8 text-rose-500 animate-pulse" />
@@ -255,7 +255,7 @@ export default function AIChatPanel({ onClose }: { onClose?: () => void }) {
   }
 
   return (
-    <aside className="w-full lg:w-[380px] h-full shrink-0 bg-slate-50 shadow-[0_4px_24px_rgba(0,0,0,0.02)] rounded-[2rem] flex flex-col hidden lg:flex overflow-hidden border border-slate-100">
+    <aside className="w-full lg:w-[380px] h-full shrink-0 bg-slate-50 shadow-[0_4px_24px_rgba(0,0,0,0.02)] rounded-[2rem] flex flex-col overflow-hidden border border-slate-100">
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: -10 }}

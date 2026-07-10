@@ -42,7 +42,8 @@ export async function POST(req: NextRequest) {
         })
       }
 
-      const formattedHistory = (history || [])
+      const trimmedFreeHistory = (history || []).slice(-4)
+      const formattedHistory = trimmedFreeHistory
         .filter((_: unknown, index: number) => index > 0)
         .map((msg: { role: string; content: string }) => ({
           role: msg.role === "assistant" ? "assistant" : "user",
@@ -58,7 +59,7 @@ export async function POST(req: NextRequest) {
       const groqRes = await fetch("https://api.groq.com/openai/v1/chat/completions", {
         method: "POST",
         headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
-        body: JSON.stringify({ model: "llama-3.3-70b-versatile", messages, temperature: 0.7, max_tokens: 512 }),
+        body: JSON.stringify({ model: "llama-3.1-8b-instant", messages, temperature: 0.6, max_tokens: 350 }),
       })
 
       if (!groqRes.ok) {
@@ -125,34 +126,37 @@ if (!resolvedCorrectAnswer) {
 
     const nextLevel = getNextScaffoldLevel(level)
 
-    // Persist TutoringSession and TutoringMessage
+    // Persist TutoringSession and TutoringMessage (non-blocking — don't await)
     if (session.user.id && questionId) {
-      try {
-        let tutoringSession = await prisma.tutoringSession.findFirst({
-          where: { userId: session.user.id, questionId },
-          orderBy: { createdAt: "desc" },
-        })
-
-        if (!tutoringSession) {
-          tutoringSession = await prisma.tutoringSession.create({
-            data: { userId: session.user.id, questionId, level },
+      const userId = session.user.id
+      ;(async () => {
+        try {
+          let tutoringSession = await prisma.tutoringSession.findFirst({
+            where: { userId, questionId },
+            orderBy: { createdAt: "desc" },
           })
-        } else {
-          await prisma.tutoringSession.update({ where: { id: tutoringSession.id }, data: { level } })
-        }
 
-        if (studentAnswer) {
+          if (!tutoringSession) {
+            tutoringSession = await prisma.tutoringSession.create({
+              data: { userId, questionId, level },
+            })
+          } else {
+            await prisma.tutoringSession.update({ where: { id: tutoringSession.id }, data: { level } })
+          }
+
+          if (studentAnswer) {
+            await prisma.tutoringMessage.create({
+              data: { sessionId: tutoringSession.id, role: "USER", content: studentAnswer },
+            })
+          }
+
           await prisma.tutoringMessage.create({
-            data: { sessionId: tutoringSession.id, role: "USER", content: studentAnswer },
+            data: { sessionId: tutoringSession.id, role: "ASSISTANT", content: response },
           })
+        } catch (dbErr) {
+          console.error("Failed to persist tutoring session:", dbErr)
         }
-
-        await prisma.tutoringMessage.create({
-          data: { sessionId: tutoringSession.id, role: "ASSISTANT", content: response },
-        })
-      } catch (dbErr) {
-        console.error("Failed to persist tutoring session:", dbErr)
-      }
+      })()
     }
 
     return NextResponse.json({ level, response, nextLevel, hasNext: nextLevel !== null })

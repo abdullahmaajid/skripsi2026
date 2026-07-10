@@ -7,6 +7,67 @@ import { Clock, Flag, ChevronLeft, ChevronRight, LayoutGrid, CheckCircle2, Loade
 import { motion } from "framer-motion"
 import MarkdownRenderer from "@/components/ui/MarkdownRenderer"
 
+function NavigationGrid({ questions, answers, flagged, currentIndex, isAdaptive, totalItems, sections, currentSectionIndex, goToQuestion }: {
+  questions: Question[]
+  answers: Record<string, string[]>
+  flagged: Record<string, boolean>
+  currentIndex: number
+  isAdaptive: boolean
+  totalItems: number
+  sections: any[]
+  currentSectionIndex: number
+  goToQuestion: (idx: number) => void
+}) {
+  return (
+    <div className="py-3">
+      <h3 className="font-bold text-slate-800 flex items-center gap-2 text-xs md:text-sm mb-2 md:mb-3">
+        <LayoutGrid className="w-4 h-4 md:w-5 md:h-5 text-[var(--accent)]" /> Navigasi Soal
+      </h3>
+      <div className="grid grid-cols-6 md:grid-cols-6 gap-1.5 md:gap-2">
+        {questions.map((q, idx) => {
+          const answered = (answers[q.id]?.length || 0) > 0;
+          const flag = flagged[q.id];
+          const isCurrent = idx === currentIndex;
+          const currentSectionSubject = sections[currentSectionIndex]?.subjectName
+          const isLockedSection = sections.length > 0 && currentSectionSubject && q.subject !== currentSectionSubject
+          
+          let bg = "bg-slate-50 hover:bg-slate-100 text-slate-500 border-slate-200"
+          if (isLockedSection) bg = "bg-slate-100 text-slate-300 border-slate-100 cursor-not-allowed"
+          else if (answered) bg = "bg-emerald-50 text-emerald-600 border-emerald-200"
+          if (flag && !isLockedSection) bg = "bg-amber-50 text-amber-600 border-amber-200"
+          if (isCurrent) bg = "bg-[var(--pastel-purple)] border-[var(--accent)] text-[var(--accent-dark)] shadow-[0_0_0_2px_rgba(193,119,249,0.15)]"
+
+          return (
+            <button
+              key={q.id}
+              onClick={() => {
+                if (!isAdaptive && !isLockedSection) {
+                  goToQuestion(idx);
+                }
+              }}
+              disabled={isAdaptive || !!isLockedSection}
+              title={isLockedSection ? `Terkunci — bagian ${q.subject}` : undefined}
+              className={`aspect-square rounded-lg flex items-center justify-center font-bold text-xs md:text-sm border transition-all ${bg}`}
+            >
+              {idx + 1}
+            </button>
+          )
+        })}
+        {isAdaptive && Array.from({ length: Math.max(0, totalItems - questions.length) }).map((_, i) => (
+          <div key={`placeholder-${i}`} className="aspect-square rounded-lg flex items-center justify-center font-bold text-xs md:text-sm border border-dashed border-slate-200 text-slate-300">
+            {questions.length + i + 1}
+          </div>
+        ))}
+      </div>
+      <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-[10px] md:text-xs text-slate-500 font-medium">
+        <div className="flex items-center gap-1.5"><div className="w-2.5 h-2.5 md:w-3 md:h-3 rounded bg-emerald-100 border border-emerald-200" /> Terjawab</div>
+        <div className="flex items-center gap-1.5"><div className="w-2.5 h-2.5 md:w-3 md:h-3 rounded bg-amber-100 border border-amber-200" /> Ragu-ragu</div>
+        <div className="flex items-center gap-1.5"><div className="w-2.5 h-2.5 md:w-3 md:h-3 rounded bg-slate-50 border border-slate-200" /> Belum</div>
+      </div>
+    </div>
+  )
+}
+
 function CbtEngineContent({ templateId }: { templateId: string }) {
   const router = useRouter()
   const searchParams = useSearchParams()
@@ -18,7 +79,6 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
     initExam, decrementTime, nextQuestion, prevQuestion, goToQuestion, moveToNextSection, toggleAnswer, toggleFlag, finishExam, appendQuestion 
   } = useCbtStore()
 
-  const [showNav, setShowNav] = useState(false)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [submitting, setSubmitting] = useState(false)
@@ -297,53 +357,47 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
     <div className="h-screen flex w-full font-sans bg-white overflow-hidden relative">
       
       {/* LEFT PANEL */}
-      <div className={`flex-1 relative bg-slate-50 overflow-hidden border-r border-slate-100 flex-col ${showNav ? "hidden lg:flex" : "flex"}`}>
+      <div className="flex-1 relative bg-slate-50 overflow-hidden border-r border-slate-100 flex-col">
         {/* Blurred gradient background */}
         <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-60">
           <div className="absolute -top-1/4 -left-1/4 w-[800px] h-[800px] bg-[var(--pastel-purple)] rounded-full blur-[120px]" />
           <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-[var(--pastel-blue)]/40 rounded-full blur-[100px]" />
         </div>
 
-        <div className="relative z-10 flex flex-col w-full max-w-4xl mx-auto p-12 justify-between">
+        <div className="relative z-10 flex flex-col w-full max-w-4xl mx-auto px-3 md:px-8 lg:px-12 py-4 md:py-8 lg:py-12 justify-between">
           {/* Top: Logo */}
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-[var(--accent)]/10 flex items-center justify-center">
-                <CheckCircle2 className="w-6 h-6 text-[var(--accent)]" />
+            <div className="flex items-center gap-2">
+              <div className="w-8 h-8 rounded-lg bg-[var(--accent)]/10 flex items-center justify-center">
+                <CheckCircle2 className="w-5 h-5 text-[var(--accent)]" />
               </div>
-              <span className="text-2xl font-bold tracking-tight text-slate-800">Lexica</span>
+              <span className="text-xl font-bold tracking-tight text-slate-800">Lexica</span>
             </div>
-            <button 
-              className="lg:hidden px-4 py-2 rounded-lg bg-white border border-slate-200 text-slate-600 shadow-sm flex items-center gap-2 font-bold text-sm"
-              onClick={() => setShowNav(true)}
-            >
-              <LayoutGrid className="w-4 h-4" /> Navigasi
-            </button>
           </div>
 
           {/* Center: Soal Content */}
-          <div className="flex-1 flex flex-col mt-10 overflow-y-auto no-scrollbar">
+          <div className="flex-1 flex flex-col mt-4 md:mt-8 overflow-y-auto no-scrollbar -mx-1 px-1">
             <div className="w-full">
             {/* Soal Header */}
-            <div className="flex justify-between items-center mb-6">
-              <div className="flex items-center gap-3">
-                <span className="text-sm font-bold text-slate-400 uppercase tracking-widest">Soal</span>
-                <span className="text-2xl font-black text-slate-900">{currentIndex + 1}<span className="text-slate-300 font-medium text-base ml-1">/ {isAdaptive ? totalItems : questions.length}</span></span>
+            <div className="flex justify-between items-center mb-3 md:mb-4">
+              <div className="flex items-center gap-2">
+                <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">Soal</span>
+                <span className="text-xl md:text-2xl font-black text-slate-900">{currentIndex + 1}<span className="text-slate-300 font-medium text-sm md:text-base ml-1">/ {isAdaptive ? totalItems : questions.length}</span></span>
               </div>
               {currentQ.type === 'MULTIPLE_SELECT' && (
-                <span className="text-xs bg-white text-[var(--accent-dark)] px-4 py-1.5 rounded-full border border-[var(--accent)]/20 font-bold tracking-wide shadow-sm">
+                <span className="text-[10px] md:text-xs bg-white text-[var(--accent-dark)] px-2.5 md:px-4 py-1 md:py-1.5 rounded-full border border-[var(--accent)]/20 font-bold tracking-wide shadow-sm">
                   Pilih &gt; 1 Jawaban
                 </span>
               )}
             </div>
             
             {/* Soal Text */}
-            <div className="text-base md:text-lg leading-relaxed mb-6 text-slate-800 font-medium">
+            <div className="text-sm md:text-base leading-relaxed mb-3 md:mb-4 text-slate-800 font-medium">
               <MarkdownRenderer content={currentQ.text} />
             </div>
 
             {/* Options */}
-            <div className="space-y-3">
+            <div className="space-y-2 md:space-y-2.5">
               {currentQ.options.map((opt) => {
                 const isSelected = currentAnswers.includes(opt.id)
                 return (
@@ -352,18 +406,18 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
                     whileTap={{ scale: 0.98 }}
                     key={opt.id}
                     onClick={() => toggleAnswer(currentQ.id, opt.id, currentQ.type === 'MULTIPLE_SELECT')}
-                    className={`w-full text-left p-3.5 md:p-4 rounded-xl border transition-all flex items-start gap-3 ${
+                    className={`w-full text-left p-2.5 md:p-3 rounded-xl border transition-all flex items-start gap-2.5 md:gap-3 ${
                       isSelected 
                         ? "bg-white border-[var(--accent)] shadow-[0_2px_15px_rgba(193,119,249,0.15)]" 
                         : "bg-white border-slate-200/60 hover:border-slate-300 shadow-sm"
                     }`}
                   >
-                    <div className={`shrink-0 w-8 h-8 rounded-lg flex items-center justify-center font-bold text-sm transition-colors ${
+                    <div className={`shrink-0 w-6 h-6 md:w-7 md:h-7 rounded-md flex items-center justify-center font-bold text-[10px] md:text-xs transition-colors ${
                       isSelected ? "bg-[var(--accent)] text-white" : "bg-slate-100 text-slate-500 border border-slate-200"
                     }`}>
                       {opt.label}
                     </div>
-                    <div className={`pt-1 text-sm md:text-base font-medium leading-relaxed ${isSelected ? "text-slate-800" : "text-slate-600"}`}><MarkdownRenderer content={opt.text} /></div>
+                    <div className={`pt-0.5 text-sm md:text-base font-medium leading-relaxed ${isSelected ? "text-slate-800" : "text-slate-600"}`}><MarkdownRenderer content={opt.text} /></div>
                   </motion.button>
                 )
               })}
@@ -372,67 +426,70 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
           </div>
 
           {/* Bottom: Nav Controls */}
-          <div className="flex items-center justify-between pt-6 mt-4">
-            <div className="flex items-center gap-3">
-            {!isAdaptive && (
+          <div className="hidden lg:block pt-4 mt-4">
+            <div className="flex items-center justify-between gap-3">
+              <div className="flex items-center gap-3">
+              {!isAdaptive && (
+                <button 
+                  onClick={prevQuestion}
+                  disabled={currentIndex === 0}
+                  className="px-5 py-3 bg-white border border-slate-200/60 disabled:opacity-40 hover:bg-slate-50 rounded-xl font-bold text-slate-600 flex items-center gap-2 transition-all shadow-sm text-sm"
+                >
+                  <ChevronLeft className="w-4 h-4" /> Sebelumnya
+                </button>
+              )}
               <button 
-                onClick={prevQuestion}
-                disabled={currentIndex === 0}
-                className="px-5 py-3 bg-white border border-slate-200/60 disabled:opacity-40 hover:bg-slate-50 rounded-xl font-bold text-slate-600 flex items-center gap-2 transition-all shadow-sm text-sm"
+                onClick={() => toggleFlag(currentQ.id)}
+                className={`px-5 py-3 border rounded-xl font-bold flex items-center gap-2 transition-all shadow-sm text-sm ${
+                  isFlagged 
+                    ? "bg-amber-50 border-amber-200 text-amber-600" 
+                    : "bg-white border-slate-200/60 hover:bg-slate-50 text-slate-600"
+                }`}
               >
-                <ChevronLeft className="w-4 h-4" /> Sebelumnya
+                <Flag className={`w-4 h-4 ${isFlagged ? "fill-amber-500 text-amber-500" : ""}`} /> Ragu-ragu
+              </button>
+            </div>
+
+            {sections.length > 0 && currentQ && currentQ.id === questions.filter(q => q.subject === sections[currentSectionIndex]?.subjectName).slice(-1)[0]?.id && currentSectionIndex < sections.length - 1 ? (
+              <button 
+                onClick={moveToNextSection}
+                className="px-7 py-3 bg-[var(--accent)] hover:bg-[var(--accent-hover)] rounded-xl font-bold text-white flex items-center gap-2 transition-all shadow-[0_4px_12px_rgba(193,119,249,0.25)] text-sm"
+              >
+                Mulai Subtes Berikutnya <ChevronRight className="w-4 h-4" />
+              </button>
+            ) : (
+              <button 
+                onClick={handleNextClick}
+                disabled={(!isAdaptive && currentIndex === questions.length - 1) || isFetchingNext}
+                className="px-7 py-3 bg-[var(--accent)] disabled:opacity-50 hover:bg-[var(--accent-hover)] rounded-xl font-bold text-white flex items-center gap-2 transition-all shadow-[0_4px_12px_rgba(193,119,249,0.25)] text-sm"
+              >
+                {isFetchingNext ? "Memuat..." : (isAdaptive && currentIndex === totalItems - 1 ? "Selesai" : "Selanjutnya")}
+                {isFetchingNext ? <Loader2 className="w-4 h-4 animate-spin" /> : <ChevronRight className="w-4 h-4" />}
               </button>
             )}
-            <button 
-              onClick={() => toggleFlag(currentQ.id)}
-              className={`px-5 py-3 border rounded-xl font-bold flex items-center gap-2 transition-all shadow-sm text-sm ${
-                isFlagged 
-                  ? "bg-amber-50 border-amber-200 text-amber-600" 
-                  : "bg-white border-slate-200/60 hover:bg-slate-50 text-slate-600"
-              }`}
-            >
-              <Flag className={`w-4 h-4 ${isFlagged ? "fill-amber-500 text-amber-500" : ""}`} /> Ragu-ragu
-            </button>
           </div>
+        </div>
 
-          {sections.length > 0 && currentQ && currentQ.id === questions.filter(q => q.subject === sections[currentSectionIndex]?.subjectName).slice(-1)[0]?.id && currentSectionIndex < sections.length - 1 ? (
-            <button 
-              onClick={moveToNextSection}
-              className="px-7 py-3 bg-[var(--accent)] hover:bg-[var(--accent-hover)] rounded-xl font-bold text-white flex items-center gap-2 transition-all shadow-[0_4px_12px_rgba(193,119,249,0.25)] text-sm"
-            >
-              Mulai Subtes Berikutnya <ChevronRight className="w-4 h-4" />
-            </button>
-          ) : (
-            <button 
-              onClick={handleNextClick}
-              disabled={(!isAdaptive && currentIndex === questions.length - 1) || isFetchingNext}
-              className="px-7 py-3 bg-[var(--accent)] disabled:opacity-50 hover:bg-[var(--accent-hover)] rounded-xl font-bold text-white flex items-center gap-2 transition-all shadow-[0_4px_12px_rgba(193,119,249,0.25)] text-sm"
-            >
-              {isFetchingNext ? "Memuat..." : (isAdaptive && currentIndex === totalItems - 1 ? "Selesai" : "Selanjutnya")}
-              {isFetchingNext ? <Loader2 className="w-4 h-4 animate-spin" /> : <ChevronRight className="w-4 h-4" />}
-            </button>
-          )}
+        {/* Mobile: Question Navigation Grid (always visible at bottom) */}
+        <div className="lg:hidden bg-white border-t border-slate-200/60 px-3 py-3 pb-[calc(8px+env(safe-area-inset-bottom))]">
+          <NavigationGrid 
+            questions={questions}
+            answers={answers}
+            flagged={flagged}
+            currentIndex={currentIndex}
+            isAdaptive={isAdaptive}
+            totalItems={totalItems}
+            sections={sections}
+            currentSectionIndex={currentSectionIndex}
+            goToQuestion={goToQuestion}
+          />
         </div>
       </div>
     </div>
 
       {/* RIGHT PANEL */}
-      <div className={`w-full lg:w-[400px] xl:w-[500px] shrink-0 bg-white flex-col relative shadow-[-20px_0_40px_rgba(0,0,0,0.05)] z-30 ${showNav ? "flex absolute inset-0 lg:static h-full" : "hidden lg:flex"}`}>
+      <div className="hidden lg:flex w-full lg:w-[400px] xl:w-[500px] shrink-0 bg-white flex-col relative shadow-[-20px_0_40px_rgba(0,0,0,0.05)] z-30 h-full">
         
-        {/* Mobile Header */}
-        <div className="lg:hidden absolute top-0 left-0 w-full p-6 flex items-center justify-between bg-white z-10 border-b border-slate-100">
-          <div className="flex items-center gap-2">
-            <CheckCircle2 className="w-6 h-6 text-[var(--accent)]" />
-            <span className="text-xl font-bold tracking-tight text-slate-800">Navigasi CBT</span>
-          </div>
-          <button 
-            onClick={() => setShowNav(false)}
-            className="px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-600 rounded-lg text-sm font-bold transition-colors"
-          >
-            Tutup
-          </button>
-        </div>
-
         {/* Scrollable Content */}
         <div className="w-full h-full overflow-y-auto no-scrollbar pt-24 lg:pt-0">
           <div className="w-full max-w-[420px] mx-auto px-6 py-8 lg:py-12 flex flex-col min-h-full justify-start">
@@ -470,58 +527,6 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
                   </div>
                 </div>
               )}
-            </div>
-
-            {/* Navigation Grid */}
-            <div className="flex-1 py-8">
-              <h3 className="font-bold text-slate-800 flex items-center gap-2 text-sm mb-4">
-                <LayoutGrid className="w-5 h-5 text-[var(--accent)]" /> Navigasi Soal
-              </h3>
-              
-              <div className="grid grid-cols-6 gap-2">
-                {questions.map((q, idx) => {
-                  const answered = (answers[q.id]?.length || 0) > 0;
-                  const flag = flagged[q.id];
-                  const isCurrent = idx === currentIndex;
-                  const currentSectionSubject = sections[currentSectionIndex]?.subjectName
-                  const isLockedSection = sections.length > 0 && currentSectionSubject && q.subject !== currentSectionSubject
-                  
-                  let bg = "bg-slate-50 hover:bg-slate-100 text-slate-500 border-slate-200"
-                  if (isLockedSection) bg = "bg-slate-100 text-slate-300 border-slate-100 cursor-not-allowed"
-                  else if (answered) bg = "bg-emerald-50 text-emerald-600 border-emerald-200"
-                  if (flag && !isLockedSection) bg = "bg-amber-50 text-amber-600 border-amber-200"
-                  if (isCurrent) bg = "bg-[var(--pastel-purple)] border-[var(--accent)] text-[var(--accent-dark)] shadow-[0_0_0_2px_rgba(193,119,249,0.15)]"
-
-                  return (
-                    <button
-                      key={q.id}
-                      onClick={() => {
-                        if (!isAdaptive && !isLockedSection) {
-                          goToQuestion(idx);
-                          if (window.innerWidth < 1024) setShowNav(false);
-                        }
-                      }}
-                      disabled={isAdaptive || !!isLockedSection}
-                      title={isLockedSection ? `Terkunci — bagian ${q.subject}` : undefined}
-                      className={`aspect-square rounded-lg flex items-center justify-center font-bold text-sm border transition-all ${bg}`}
-                    >
-                      {idx + 1}
-                    </button>
-                  )
-                })}
-                {isAdaptive && Array.from({ length: Math.max(0, totalItems - questions.length) }).map((_, i) => (
-                  <div key={`placeholder-${i}`} className="aspect-square rounded-lg flex items-center justify-center font-bold text-sm border border-dashed border-slate-200 text-slate-300">
-                    {questions.length + i + 1}
-                  </div>
-                ))}
-              </div>
-
-              {/* Legend */}
-              <div className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-xs text-slate-500 font-medium">
-                <div className="flex items-center gap-1.5"><div className="w-3 h-3 rounded bg-emerald-100 border border-emerald-200" /> Terjawab</div>
-                <div className="flex items-center gap-1.5"><div className="w-3 h-3 rounded bg-amber-100 border border-amber-200" /> Ragu-ragu</div>
-                <div className="flex items-center gap-1.5"><div className="w-3 h-3 rounded bg-slate-50 border border-slate-200" /> Belum</div>
-              </div>
             </div>
 
             {/* Submit */}

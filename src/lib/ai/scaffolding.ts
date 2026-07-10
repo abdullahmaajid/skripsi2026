@@ -49,10 +49,10 @@ export async function getScaffoldResponse(
       systemInstruction += `\n\nKONTEKS PENTING: Siswa ini menargetkan jurusan **${targetMajor}**. Sesekali (tidak setiap respons), hubungkan relevansi soal/konsep ini dengan betapa pentingnya materi ini untuk lolos ke jurusan tersebut. Buat koneksi emosional yang memotivasi siswa.`
     }
 
-    // Format history for Groq (OpenAI format)
-    // We skip the very first introductory message from the AI since it was just a client-side hardcoded greeting
-    const formattedHistory = history
-      .filter((msg, index) => index > 0) // Skip the first greeting message
+    // Trim history: only last 4 messages to keep token usage low
+    const trimmedHistory = history.slice(-4)
+    const formattedHistory = trimmedHistory
+      .filter((_, index) => index > 0 || trimmedHistory.length === 1)
       .map(msg => ({
         role: msg.role === "assistant" ? "assistant" : "user",
         content: msg.content
@@ -71,10 +71,10 @@ export async function getScaffoldResponse(
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        model: "llama-3.3-70b-versatile",
+        model: "llama-3.1-8b-instant",
         messages: messages,
-        temperature: 0.7,
-        max_tokens: 1024
+        temperature: 0.6,
+        max_tokens: level === "SOLUTION" ? 600 : 350
       })
     })
 

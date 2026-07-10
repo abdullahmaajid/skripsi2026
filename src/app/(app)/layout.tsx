@@ -2,15 +2,16 @@
 
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { PanelLeftClose, PanelLeftOpen, PanelRightClose, PanelRightOpen, X, Bot } from "lucide-react"
+import { PanelLeftClose, PanelLeftOpen, PanelRightClose, PanelRightOpen, X, Bot, Settings } from "lucide-react"
 import Sidebar from "@/components/layout/Sidebar"
 import AIChatPanel from "@/components/layout/AIChatPanel"
 import MobileNavbar from "@/components/layout/MobileNavbar"
 
-import { usePathname } from "next/navigation"
+import { usePathname, useRouter } from "next/navigation"
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname()
+  const router = useRouter()
 
   const [leftOpen, setLeftOpen] = useState(true)
   const [rightOpen, setRightOpen] = useState(true)
@@ -62,6 +63,21 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
               className="hidden lg:block absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.06)] p-3 rounded-l-2xl hover:bg-slate-50 transition-colors"
             >
               <PanelRightOpen className="w-5 h-5 text-slate-500" />
+            </motion.button>
+          )}
+        </AnimatePresence>
+
+        {/* Mobile FAB Trigger for Settings */}
+        <AnimatePresence>
+          {showRightPanel && !isActiveTryout && (
+            <motion.button
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.8 }}
+              onClick={() => router.push("/settings")}
+              className="lg:hidden absolute bottom-[140px] right-4 z-40 bg-white text-slate-600 border border-slate-200 p-3 rounded-full shadow-[0_4px_20px_rgba(0,0,0,0.08)] hover:scale-105 transition-transform flex items-center justify-center"
+            >
+              <Settings className="w-6 h-6" />
             </motion.button>
           )}
         </AnimatePresence>
@@ -187,7 +203,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         </AnimatePresence>
 
         {/* Mobile Bottom Navigation */}
-        <MobileNavbar onMenuClick={() => setMobileMenuOpen(true)} />
+        <MobileNavbar />
 
       </div>
     </div>

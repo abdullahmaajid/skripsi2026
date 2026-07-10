@@ -322,9 +322,9 @@ export default function ReviewPage({ params }: { params: Promise<{ id: string }>
                </div>
 
              </motion.div>
-           </AnimatePresence>
-         )}
-      </main>
-    </div>
+            </AnimatePresence>
+          )}
+        </div>
+      </div>
   )
 }
