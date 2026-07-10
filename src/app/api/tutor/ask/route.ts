@@ -81,39 +81,37 @@ if (!question) {
   )
 }
 
-// Resolve correct answer when not provided by the client.
-let resolvedCorrectAnswer = correctAnswer
-if (!resolvedCorrectAnswer && questionId) {
-  const dbQuestion = await prisma.question.findUnique({
-    where: { id: questionId },
-    include: { options: true },
-  })
-  const correctOpt = dbQuestion?.options.find((o) => o.isCorrect)
-  resolvedCorrectAnswer = correctOpt?.text ?? ""
-}
-
-if (!resolvedCorrectAnswer) {
-  return NextResponse.json(
-    { error: "Jawaban benar tidak tersedia." },
-    { status: 400 }
-  )
-}
-
-    // Resolve scaffolding level dynamically (respecting client state)
+    // Resolve scaffolding level
     let level: ScaffoldLevel = "SOCRATIC"
     if (currentLevel && ["SOCRATIC", "HINT", "SOLUTION"].includes(currentLevel)) {
       level = currentLevel as ScaffoldLevel
     }
 
-    // Fetch user's target major for macro-context
+    // ── PARALLEL: fetch correctAnswer (if missing) + targetMajor simultaneously ─
+    const [dbQuestion, userProfile] = await Promise.all([
+      (!resolvedCorrectAnswer && questionId)
+        ? prisma.question.findUnique({ where: { id: questionId }, include: { options: true } })
+        : Promise.resolve(null),
+      prisma.user.findUnique({
+        where: { id: session.user.id },
+        select: { profile: { select: { targetMajor1: { select: { name: true, university: { select: { name: true } } } } } } },
+      }),
+    ])
+
+    if (!resolvedCorrectAnswer) {
+      const correctOpt = dbQuestion?.options.find((o) => o.isCorrect)
+      resolvedCorrectAnswer = correctOpt?.text ?? ""
+    }
+
+    if (!resolvedCorrectAnswer) {
+      return NextResponse.json({ error: "Jawaban benar tidak tersedia." }, { status: 400 })
+    }
+
     let targetMajor: string | undefined
-    const userProfile = await prisma.user.findUnique({
-      where: { id: session.user.id },
-      include: { profile: { include: { targetMajor1: { include: { university: true } } } } },
-    })
     if (userProfile?.profile?.targetMajor1) {
       targetMajor = `${userProfile.profile.targetMajor1.name} — ${userProfile.profile.targetMajor1.university.name}`
     }
+    // ─────────────────────────────────────────────────────────────────────────
 
     const response = await getScaffoldResponse(
       level,

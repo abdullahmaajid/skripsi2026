@@ -8,8 +8,6 @@ export async function GET() {
   const session = await auth()
   const userId = session?.user?.id
 
-  console.log("[Explorer API] session:", session?.user?.email, "userId:", userId)
-
   if (!userId) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
   }
@@ -44,8 +42,6 @@ export async function GET() {
       }
     }
   })
-
-  console.log("[Explorer API] Found attempts:", attempts.length, "for user:", userId)
 
   // Format data
   const data = attempts.map(a => {

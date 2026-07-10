@@ -38,22 +38,30 @@ export async function POST(req: NextRequest) {
     let allQuestions: any[] = [];
 
     if (template.sections.length > 0) {
-      // FIX #15: Use ExamSections for per-subject question distribution
-      for (const section of template.sections) {
-        const chapters = await prisma.chapter.findMany({
-          where: { subjectId: section.subjectId },
-          select: { id: true },
-        });
-        const chapterIds = chapters.map((c) => c.id);
+      // Fetch all chapter IDs for all sections in PARALLEL
+      const sectionChapters = await Promise.all(
+        template.sections.map(section =>
+          prisma.chapter.findMany({
+            where: { subjectId: section.subjectId },
+            select: { id: true, subjectId: true },
+          })
+        )
+      );
 
-        const sectionQuestions = await prisma.question.findMany({
-          where: { chapterId: { in: chapterIds } },
-          take: section.itemCount,
-          include: { options: true, chapter: { include: { subject: true } } },
-          orderBy: { difficulty: "asc" },
-        });
-        allQuestions.push(...sectionQuestions);
-      }
+      // Fetch questions for all sections in PARALLEL
+      const sectionQuestionSets = await Promise.all(
+        template.sections.map((section, i) => {
+          const chapterIds = sectionChapters[i].map(c => c.id);
+          return prisma.question.findMany({
+            where: { chapterId: { in: chapterIds } },
+            take: section.itemCount,
+            include: { options: true, chapter: { include: { subject: true } } },
+            orderBy: { difficulty: "asc" },
+          });
+        })
+      );
+
+      allQuestions = sectionQuestionSets.flat();
     } else {
       // Fallback: grab random questions if no sections defined
       allQuestions = await prisma.question.findMany({
