@@ -87,6 +87,8 @@ if (!question) {
       level = currentLevel as ScaffoldLevel
     }
 
+    let resolvedCorrectAnswer = correctAnswer;
+
     // ── PARALLEL: fetch correctAnswer (if missing) + targetMajor simultaneously ─
     const [dbQuestion, userProfile] = await Promise.all([
       (!resolvedCorrectAnswer && questionId)
@@ -117,7 +119,7 @@ if (!question) {
       level,
       question,
       studentAnswer || "(tidak menjawab)",
-      correctAnswer,
+      resolvedCorrectAnswer,
       history || [],
       targetMajor
     )
@@ -126,8 +128,8 @@ if (!question) {
 
     // Persist TutoringSession and TutoringMessage (non-blocking — don't await)
     if (session.user.id && questionId) {
-      const userId = session.user.id
-      ;(async () => {
+      const userId = session.user.id;
+      (async () => {
         try {
           let tutoringSession = await prisma.tutoringSession.findFirst({
             where: { userId, questionId },

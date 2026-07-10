@@ -172,9 +172,10 @@ export default function AIChatPanel({ onClose }: { onClose?: () => void }) {
           }),
         });
         const data = await res.json();
+        if (!res.ok) throw new Error(data.error || "Server error");
         setMessages((prev) => [
           ...prev,
-          { role: "assistant", content: data.response },
+          { role: "assistant", content: data.response || "Maaf, tidak ada balasan dari AI." },
         ]);
         if (data.nextLevel) setScaffoldLevel(data.nextLevel);
       } else {
@@ -190,6 +191,7 @@ export default function AIChatPanel({ onClose }: { onClose?: () => void }) {
           }),
         });
         const data = await res.json();
+        if (!res.ok) throw new Error(data.error || "Server error");
         setMessages((prev) => [
           ...prev,
           {
