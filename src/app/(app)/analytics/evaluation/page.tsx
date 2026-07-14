@@ -8,6 +8,7 @@ import {
   XCircle, BrainCircuit, ChevronDown, ChevronUp, MessageSquareShare
 } from "lucide-react"
 import { useTutorChatStore } from "@/store/useTutorChatStore"
+import MarkdownRenderer from "@/components/ui/MarkdownRenderer"
 
 interface EvaluationOption {
   id: string
@@ -84,6 +85,17 @@ export default function EvaluationPage() {
     }
   }
 
+  // Compute Top 3 Kelemahan
+  const mistakesByChapter = questions.filter(q => !q.lastAnsweredCorrectly).reduce((acc, curr) => {
+    const key = curr.chapter;
+    acc[key] = (acc[key] || 0) + 1;
+    return acc;
+  }, {} as Record<string, number>);
+
+  const topMistakes = Object.entries(mistakesByChapter)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 3);
+
   return (
     <div className="space-y-6">
       {/* Header */}
@@ -114,6 +126,32 @@ export default function EvaluationPage() {
           </select>
         </div>
       </div>
+
+      {/* Top 3 Mistakes Widget */}
+      {!loading && topMistakes.length > 0 && (
+        <div className="bg-rose-50/50 border border-rose-100 rounded-2xl p-5 shadow-sm">
+          <h3 className="text-sm font-bold text-rose-800 flex items-center gap-2 mb-4">
+            <TrendingUp className="w-4 h-4 text-rose-500" /> Top 3 Bab Paling Banyak Salah
+          </h3>
+          <div className="space-y-3">
+            {topMistakes.map(([chapter, count], idx) => {
+              const maxCount = topMistakes[0][1];
+              const percentage = (count / maxCount) * 100;
+              return (
+                <div key={chapter} className="flex flex-col gap-1.5">
+                  <div className="flex justify-between items-center text-xs">
+                    <span className="font-semibold text-slate-700">{idx + 1}. {chapter}</span>
+                    <span className="font-bold text-rose-600">{count} Salah</span>
+                  </div>
+                  <div className="h-2 w-full bg-slate-100 rounded-full overflow-hidden">
+                    <div className="h-full bg-rose-400 rounded-full" style={{ width: `${percentage}%` }}></div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       {/* List */}
       {loading ? (
@@ -156,9 +194,9 @@ export default function EvaluationPage() {
                       </span>
                     )}
                   </div>
-                  <p className="text-sm font-medium text-slate-800 line-clamp-2 leading-relaxed">
-                    {q.text}
-                  </p>
+                  <div className="text-sm font-medium text-slate-800 line-clamp-2 leading-relaxed">
+                    <MarkdownRenderer content={q.text} />
+                  </div>
                 </div>
                 <div className="shrink-0 text-slate-400">
                   {expandedId === q.id ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
@@ -173,9 +211,9 @@ export default function EvaluationPage() {
                     exit={{ height: 0, opacity: 0 }}
                     className="border-t border-slate-100 bg-slate-50/50 px-5 pb-5 pt-4"
                   >
-                    <p className="text-sm font-medium text-slate-800 mb-6 leading-relaxed whitespace-pre-wrap">
-                      {q.text}
-                    </p>
+                    <div className="text-sm font-medium text-slate-800 mb-6 leading-relaxed">
+                      <MarkdownRenderer content={q.text} />
+                    </div>
                     <div className="space-y-2 mb-6">
                       {q.options.map(opt => (
                         <div 
@@ -191,9 +229,9 @@ export default function EvaluationPage() {
                           }`}>
                             {opt.label}
                           </div>
-                          <p className={`text-sm flex-1 ${opt.isCorrect ? "text-emerald-800 font-medium" : "text-slate-600"}`}>
-                            {opt.text}
-                          </p>
+                          <div className={`text-sm flex-1 ${opt.isCorrect ? "text-emerald-800 font-medium" : "text-slate-600"}`}>
+                            <MarkdownRenderer content={opt.text} />
+                          </div>
                           {opt.isCorrect && <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />}
                         </div>
                       ))}

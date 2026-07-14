@@ -25,23 +25,25 @@ export async function GET() {
       { min: 701, max: 800, label: "701-800" },
     ];
 
-    const completedAttempts = await prisma.examAttempt.findMany({
-      where: {
-        status: "COMPLETED",
-        scaledScore: {
-          not: null,
-        },
-      },
-      select: {
-        scaledScore: true,
-      },
+    // Use SubjectScore for more granular distribution (per subtes scores)
+    const subjectScores = await prisma.subjectScore.findMany({
+      select: { scaledScore: true },
     });
 
+    // Also pull ExamAttempt-level scaledScore as fallback
+    const attemptScores = await prisma.examAttempt.findMany({
+      where: { status: "COMPLETED", scaledScore: { not: null } },
+      select: { scaledScore: true },
+    });
+
+    // Combine all scores
+    const allScores = [
+      ...subjectScores.map(s => s.scaledScore),
+      ...attemptScores.map(a => a.scaledScore!),
+    ];
+
     const distribution = scoreRanges.map(range => {
-      const count = completedAttempts.filter(attempt => {
-        const score = attempt.scaledScore || 0; // Fallback for null scores
-        return score >= range.min && score <= range.max;
-      }).length;
+      const count = allScores.filter(score => score >= range.min && score <= range.max).length;
       return { scoreRange: range.label, count };
     });
 

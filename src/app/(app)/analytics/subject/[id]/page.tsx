@@ -56,19 +56,15 @@ export default function SubjectAnalyticsPage({ params }: { params: Promise<{ id:
   return (
     <div className="p-6 md:p-8 space-y-6 max-w-5xl mx-auto h-full overflow-y-auto no-scrollbar">
       {/* Header */}
-      <div>
-        <button 
-          onClick={() => router.back()}
-          className="flex items-center gap-1.5 text-xs font-semibold text-slate-500 hover:text-[var(--accent)] transition-colors mb-2"
-        >
-          <ArrowLeft className="w-4 h-4" /> Kembali
-        </button>
-        <h1 className="text-2xl md:text-3xl font-bold text-slate-800 tracking-tight flex items-center gap-2">
-          <BookOpen className="w-6 h-6 text-[var(--accent)]" /> {data.subjectName}
-        </h1>
-        <p className="text-sm text-slate-500 mt-1">
-          Analisis tingkat penguasaan materi per Bab/Topik.
-        </p>
+      <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+        <div>
+          <h1 className="text-2xl md:text-3xl font-bold text-slate-800 tracking-tight flex items-center gap-2">
+            <BookOpen className="w-6 h-6 text-[var(--accent)]" /> {data.subjectName}
+          </h1>
+          <p className="text-sm text-slate-500 mt-1">
+            Analisis tingkat penguasaan materi per Bab/Topik.
+          </p>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

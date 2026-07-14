@@ -16,33 +16,52 @@ export async function GET() {
   if (deny === "FORBIDDEN") return NextResponse.json({ error: "Forbidden" }, { status: 403 });
 
   try {
-    const sevenDaysAgo = new Date();
-    sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
-    sevenDaysAgo.setHours(0, 0, 0, 0);
+    const thirtyDaysAgo = new Date();
+    thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
+    thirtyDaysAgo.setHours(0, 0, 0, 0);
 
-    // Fetch user registrations grouped by day
-    const registrationsByDay = await prisma.user.groupBy({
-      by: ["createdAt"],
-      where: {
-        createdAt: {
-          gte: sevenDaysAgo,
-        },
-      },
-      _count: {
-        id: true,
-      },
-      orderBy: {
-        createdAt: "asc",
-      },
+    // Fetch all users created in the last 30 days
+    const recentUsers = await prisma.user.findMany({
+      where: { createdAt: { gte: thirtyDaysAgo } },
+      select: { createdAt: true },
+      orderBy: { createdAt: "asc" },
     });
 
-    const data = registrationsByDay.map(item => ({
-      date: item.createdAt.toISOString().split("T")[0],
-      registrations: item._count.id,
-      activeSessions: 0, // Placeholder until lastActivityAt issue is resolved
-    }));
+    // Fetch all exam attempts in the last 30 days (as a proxy for "active sessions")
+    const recentAttempts = await prisma.examAttempt.findMany({
+      where: { startedAt: { gte: thirtyDaysAgo } },
+      select: { startedAt: true },
+      orderBy: { startedAt: "asc" },
+    });
 
-    // TODO: Implement active sessions logic once lastActivityAt is resolved
+    // Build a map of date -> { registrations, activeSessions }
+    const dayMap: Record<string, { registrations: number; activeSessions: number }> = {};
+
+    // Seed the last 30 days so chart always shows a continuous range
+    for (let i = 0; i < 30; i++) {
+      const d = new Date(thirtyDaysAgo);
+      d.setDate(d.getDate() + i);
+      const key = d.toISOString().split("T")[0];
+      dayMap[key] = { registrations: 0, activeSessions: 0 };
+    }
+
+    for (const u of recentUsers) {
+      const key = u.createdAt.toISOString().split("T")[0];
+      if (dayMap[key]) dayMap[key].registrations++;
+    }
+
+    for (const a of recentAttempts) {
+      const key = a.startedAt.toISOString().split("T")[0];
+      if (dayMap[key]) dayMap[key].activeSessions++;
+    }
+
+    const data = Object.entries(dayMap)
+      .sort(([a], [b]) => a.localeCompare(b))
+      .map(([date, vals]) => ({
+        date: date.slice(5), // "MM-DD" format for cleaner chart labels
+        registrations: vals.registrations,
+        activeSessions: vals.activeSessions,
+      }));
 
     return NextResponse.json({ data });
   } catch (error) {

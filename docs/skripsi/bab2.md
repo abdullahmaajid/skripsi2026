@@ -28,7 +28,7 @@ Penelitian ini memilih empat metode utama yang dianggap optimal di bawah ini unt
 |---|---|---|
 | **IRT 1-Parameter Logistic (1PL)** | *Classical Test Theory* (CTT) | Memperhitungkan tingkat kesulitan soal sehingga estimasi kemampuan lebih representatif dan tidak bergantung pada populasi spesifik tes. CTT hanya memberikan skor total tanpa memperhitungkan variasi kesulitan butir soal. |
 | **Socratic Scaffolding** | *Direct Instruction* | Mendorong pemahaman konsep melalui bantuan bertahap, bukan pemberian jawaban instan. Pendekatan ini terbukti meningkatkan retensi jangka panjang dan mengurangi *rote learning*. |
-| **Groq + Llama-3.3-70B** | GPT Proprietary (OpenAI) | Latensi lebih rendah, biaya inferensi lebih efisien untuk aplikasi edukasi skala besar, serta mendukung streaming respons yang meningkatkan interaktivitas. |
+| **Groq + Llama-3.1-8B** | GPT Proprietary (OpenAI) | Latensi lebih rendah, biaya inferensi lebih efisien untuk aplikasi edukasi skala besar, serta mendukung streaming respons yang meningkatkan interaktivitas. |
 | **Analytics Route-Based** | Nested Tab Layout | Organisasi modul evaluasi sebagai route terpisah mengurangi beban kognitif siswa dengan meminimalkan elemen antarmuka yang tidak relevan dalam satu tampilan. |
 
 #### 2.1.5.1 IRT 1PL vs Classical Test Theory
@@ -39,9 +39,9 @@ Classical Test Theory (CTT) merupakan pendekatan penilaian klasik yang mengandal
 
 *Direct Instruction* mempresentasikan materi melalui penjelasan langsung dan contoh yang sudah diselesaikan. Pendekatan ini cepat, namun sering kali melatih siswa menghafal langkah tanpa memahami konsep inti (*rote learning*). Sebaliknya, *Socratic Scaffolding* mengadaptasi prinsip *Zone of Proximal Development* (Vygotsky, 1978) dengan memberikan bantuan bertingkat: SOCRATIC (pertanyaan pemandu), HINT (petunjuk parsial), dan SOLUTION (penyelesaian lengkap). Pendekatan ini terbukti meningkatkan retensi jangka panjang karena memaksa siswa merefleksikan logika pemikirannya sendiri sebelum menerima jawaban (Paul & Elder, 2007).
 
-#### 2.1.5.3 Groq + Llama-3.3 vs GPT Proprietary
+#### 2.1.5.3 Groq + Llama-3.1 vs GPT Proprietary
 
-Penggunaan model proprietary seperti GPT-4 menawarkan kualitas bahasa yang tinggi, namun memiliki kelemahan pada biaya inferensi yang mahal untuk aplikasi edukasi dengan ribuan pengguna simultan, serta latensi yang lebih tinggi. Groq mem-forward LLM (Llama-3.3-70B-versatile) pada infrastruktur LPU (Language Processing Unit) yang dioptimalkan untuk inferensi, menghasilkan *time-to-first-token* (TTFT) di bawah 100 ms. Hal ini memungkinkan respons streaming yang terasa real-time pada panel AI Tutor, sebuah kebutuhan kritis untuk menjaga alur pemikiran siswa.
+Penggunaan model proprietary seperti GPT-4 menawarkan kualitas bahasa yang tinggi, namun memiliki kelemahan pada biaya inferensi yang mahal untuk aplikasi edukasi dengan ribuan pengguna simultan, serta latensi yang lebih tinggi. Groq mem-forward LLM (Llama-3.1-8B-instant) pada infrastruktur LPU (Language Processing Unit) yang dioptimalkan untuk inferensi, menghasilkan *time-to-first-token* (TTFT) di bawah 100 ms. Hal ini memungkinkan respons streaming yang terasa real-time pada panel AI Tutor, sebuah kebutuhan kritis untuk menjaga alur pemikiran siswa.
 
 ### 2.1.6 Ringkasan Kesenjangan Penelitian
 
@@ -228,7 +228,11 @@ IRT 1PL digunakan sebagai metode penilaian utama untuk menghasilkan estimasi kem
 
 ### 2.2.9 Chancing Prediction (Prediksi Peluang Kelulusan)
 
-Metodologi prediksi kelulusan ujian seleksi umumnya bergantung pada persilangan dua variabel: nilai komposit kemampuan peserta, dibandingkan dengan standar daya tampung dan tingkat popularitas suatu program. Algoritma *Chancing Engine* menghitung rasio skor siswa terhadap estimasi skor aman jurusan, kemudian menyesuaikan dengan faktor keketatan kompetisi (*applicants / quota*) untuk menghasilkan perkiraan persentase kelulusan.
+Metodologi prediksi kelulusan ujian seleksi bergantung pada persilangan antara nilai komposit kemampuan peserta dan standar daya tampung serta tingkat popularitas suatu program. Pada penelitian ini, *Chancing Engine* menggunakan pendekatan **fungsi logistik (sigmoid)** yang dipusatkan pada estimasi skor aman jurusan, dengan kecuraman kurva ($k$) yang dipengaruhi tingkat keketatan kompetisi:
+
+$$P(x) = \frac{1}{1 + e^{-k(\text{SkorSiswa} - \text{SkorEstimasi} - \delta)}}$$
+
+Pendekatan ini dipilih karena menghasilkan transisi probabilitas yang lebih halus dan realistis dibandingkan pendekatan bucket linear sederhana, serta menghindari klaim peluang ekstrem 0% atau 100%. Parameter $\delta$ (midpoint shift) memastikan bahwa meraih skor tepat di ambang estimasi menghasilkan peluang sekitar 40% (bukan 50%), mencerminkan ketidakpastian inheren dalam proses seleksi. Label hasil dikategorikan berdasarkan persentase akhir: **AMAN** ($\ge65\%$), **BERSAING** ($\ge45\%$), **PELUANG_CUKUP** ($\ge30\%$), **SULIT** ($\ge15\%$), dan **SANGAT_SULIT** ($<15\%$).
 
 **Keterkaitan dengan Penelitian**
 Prediksi peluang kelulusan (*chancing*) digunakan untuk memberikan evaluasi kelayakan jurusan berbasis data kemampuan siswa dalam penelitian ini.
@@ -425,4 +429,4 @@ Penelitian ini mengadopsi strategi banding yang melibatkan tiga metode utama yan
 
 ---
 
-*Dokumen ini merefleksikan status penelitian pada tanggal 30 Juni 2026.*
+*Dokumen ini merefleksikan status penelitian pada tanggal 13 Juli 2026.*

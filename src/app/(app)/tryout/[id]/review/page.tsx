@@ -132,9 +132,6 @@ export default function ReviewPage({ params }: { params: Promise<{ id: string }>
       {/* Sidebar (Grid & Score) */}
       <aside className="w-full md:w-[280px] lg:w-[340px] flex flex-col border-b md:border-b-0 md:border-r border-slate-100 bg-slate-50/50 shrink-0 h-[35vh] md:h-full overflow-y-auto no-scrollbar relative">
         <div className="p-6 md:p-8">
-          <button onClick={() => router.push("/dashboard")} className="text-slate-400 hover:text-slate-600 text-sm mb-6 inline-flex items-center gap-2 font-bold transition-colors">
-            <ArrowLeft className="w-4 h-4" /> Kembali ke Dashboard
-          </button>
           
           {/* Score Card */}
           <div className="bg-white rounded-2xl p-5 border border-slate-100 shadow-[0_4px_24px_rgba(0,0,0,0.02)] mb-8">

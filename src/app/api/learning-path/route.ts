@@ -119,12 +119,21 @@ export async function GET() {
         return priority[a.status as keyof typeof priority] - priority[b.status as keyof typeof priority]
       })
 
+      // Calculate average mastery for the subject
+      const totalMastery = chapters.reduce((sum, ch) => sum + ch.mastery, 0)
+      const averageMastery = chapters.length > 0 ? totalMastery / chapters.length : 0
+
       return {
         id: sub.id,
         name: sub.name,
+        averageMastery,
         chapters
       }
     })
+
+    // Sort subjects dynamically by lowest mastery first (weakest subject appears on top)
+    // If average mastery is the same, keep alphabetical order (stable sort via initial DB order + mastery sort)
+    learningPath.sort((a, b) => a.averageMastery - b.averageMastery)
 
     return NextResponse.json({ learningPath })
   } catch (error) {

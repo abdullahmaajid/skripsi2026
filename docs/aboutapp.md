@@ -42,13 +42,13 @@ Platform Lexica didesain menggunakan arsitektur modern berkecepatan tinggi denga
 
 ### Frontend Layer
   - **Framework:** **Next.js 16.2.6 (React 19)** dengan App Router, mendukung server‑side rendering dan streaming.
-  - **State Management:** **Zustand (v5)** untuk manajemen state CBT engine, timer presisi, dan riwayat obrolan AI Tutor, termasuk `scaffoldLevel` dan `attemptsUsed`.
+  - **State Management:** **Zustand (v5)** untuk manajemen state CBT engine, timer presisi, dan riwayat obrolan AI Tutor, termasuk `scaffoldLevel`.
 - **Animasi:** **Framer Motion (^12.38.0)** untuk menghadirkan mikro-animasi halus, transisi halaman, dan efek buka-tutup modal yang premium.
 - **Styling:** **TailwindCSS v4 & Custom CSS Variables** untuk menerapkan sistem desain warna pastel-ungu dan aksen kontras modern, serta mendukung tata letak responsif.
 - **Icons:** **Lucide React** sebagai pustaka ikon vektor seragam.
 
 ### AI & Rendering Utilities
-- **AI Engine SDK (Groq API Connection):** Menghubungkan asisten tutor secara langsung ke model LLM **`llama-3.3-70b-versatile`** melalui endpoint API Groq untuk pemrosesan prompt chatbot asisten secara streaming dan terstruktur.
+- **AI Engine SDK (Groq API Connection):** Menghubungkan asisten tutor secara langsung ke model LLM **`llama-3.1-8b-instant`** melalui endpoint API Groq untuk pemrosesan prompt chatbot asisten secara streaming dan terstruktur.
 - **Format Matematika & Markdown:** **`react-markdown`**, **`remark-math`**, dan **`rehype-katex`** (berbasis **KaTeX**) untuk merender rumus matematika LaTeX kompleks secara responsif di sisi klien.
 - **Visualisasi Data:** **Recharts** untuk visualisasi bagan interaktif di dasbor analitik.
 
@@ -73,7 +73,7 @@ Sistem menyusun peta belajar siswa secara adaptif berdasarkan kelemahan dan keku
 - **Latihan Soal Terarah (Targeted Practice):** Memungkinkan siswa melakukan *drill* latihan soal khusus pada bab yang dipilih, memanggil bank soal acak khusus bab tersebut dari server menggunakan query `chapterId`.
 
 ### 3. AI Tutor & Pembahasan Scaffolding
-Lexica mengintegrasikan kecerdasan buatan berbasis model Llama-3.3 melalui Groq API untuk membimbing pola pikir siswa alih-alih hanya memberikan jawaban instan secara langsung. Pendekatan ini didesain menggunakan prinsip *Cognitive Load Theory* (Sweller, 1988) untuk meminimalkan beban kognitif yang tidak perlu (*extraneous cognitive load*).
+Lexica mengintegrasikan kecerdasan buatan berbasis model Llama-3.1 melalui Groq API untuk membimbing pola pikir siswa alih-alih hanya memberikan jawaban instan secara langsung. Pendekatan ini didesain menggunakan prinsip *Cognitive Load Theory* (Sweller, 1988) untuk meminimalkan beban kognitif yang tidak perlu (*extraneous cognitive load*).
 - **Kesempatan Kedua (Second Chance):** Jika siswa salah menjawab saat latihan, AI Tutor memberikan petunjuk kontekstual agar siswa berpikir ulang sebelum mencoba kesempatan kedua.
 - **Zero-Friction Context Injection:** Saat siswa menjawab salah, sistem secara diam-diam (*invisible*) menginjeksi metadata soal (teks soal, opsi yang dipilih siswa, dan kunci jawaban asli) ke dalam *context state* AI. Di UI siswa, kunci jawaban asli disembunyikan menggunakan masking `???` agar tidak bocor, namun AI di *backend* menerima data utuh untuk memberikan sapaan (*auto-greeting*) dan respons yang sangat kontekstual tanpa siswa harus melakukan *copy-paste* soal.
 - **Free Chat Mode:** Siswa dapat berinteraksi langsung dengan AI Tutor melalui halaman `/tutor` atau tombol "Tanya AI" pada masing-masing bab di Learning Path. AI Tutor berperan sebagai asisten materi, motivator belajar, dan penyaji strategi ujian. Prompt khusus digunakan untuk menjaga fokus percakapan pada topik pendidikan dan mencegah jawaban instan.
@@ -98,8 +98,8 @@ Seluruh modul evaluasi diri siswa diorganisir sebagai route terpisah dalam grup 
 
 ### 6. Admin Control Center
 Panel khusus pengelola untuk mengawasi operasional platform.
-- **Manajemen Soal & Pembahasan:** Menambah, mengubah, dan menghapus soal tryout lengkap dengan kunci jawaban, kesulitan, bab, dan subtest.
-- **Question Scraper:** Alat bantu input soal terotomatisasi dari database bank soal eksternal yang telah mendapat izin tertulis atau berlisensi terbuka, bukan scraping ilegal tanpa lisensi.
+  - **Manajemen Soal & Pembahasan:** Menambah, mengubah, dan menghapus soal tryout lengkap dengan kunci jawaban, kesulitan, bab, dan subtest.
+  - **Manajemen Data PTN/Prodi:** Panel CRUD untuk mengelola data universitas, program studi, daya tampung, jumlah peminat, dan estimasi skor aman.
 - **Statistik Pengguna:** Manajemen data pengguna dan pemantauan aktivitas belajar mereka.
 
 ---
@@ -134,22 +134,26 @@ $$\text{Skor SNBT} = 500 + (\theta \times 100)$$
 ---
 
 ### 2. Algoritma Perhitungan Chancing (Peluang Lulus)
-Modul Chancing menghitung persentase peluang kelulusan siswa pada program studi tujuan dengan membandingkan kemampuan siswa dengan skor aman rata-rata jurusan serta tingkat keketatan persaingan.
+Modul Chancing menghitung persentase peluang kelulusan siswa pada program studi tujuan menggunakan **fungsi logistik (sigmoid)** yang menghasilkan transisi probabilitas lebih halus dan realistis, dibandingkan pendekatan bucket linear sederhana.
 
-#### Formulasi Peluang Dasar:
-Peluang dasar dihitung melalui rasio perbandingan skor siswa terhadap skor aman jurusan (`estimatedScore`):
-$$\text{Ratio} = \frac{\text{Skor Siswa}}{\text{Skor Estimasi Jurusan}}$$
+#### Formulasi Peluang Berbasis Sigmoid:
+Peluang dihitung dengan fungsi logistik yang dipusatkan pada `estimatedScore` jurusan, dengan kecuraman kurva ($k$) yang dipengaruhi tingkat keketatan kompetisi:
 
-Persentase kelulusan dikelompokkan sebagai berikut:
-- **Ratio $\ge 1.1$ (AMAN):** $\text{Persentase} = \min(95\%, 80\% + (\text{Ratio} - 1.1) \times 100\%)$
-- **Ratio $\ge 1.0$ s.d $< 1.1$ (BERSAING):** $\text{Persentase} = 60\% + (\text{Ratio} - 1.0) \times 200\%$
-- **Ratio $\ge 0.9$ s.d $< 1.0$ (SULIT):** $\text{Persentase} = 30\% + (\text{Ratio} - 0.9) \times 300\%$
-- **Ratio $< 0.9$ (SANGAT SULIT):** $\text{Persentase} = \max(5\%, \text{Ratio} \times 30\%)$
+$$P(x) = \frac{1}{1 + e^{-k(\text{SkorSiswa} - \text{SkorEstimasi} - \delta)}}$$
 
-#### Koreksi Faktor Keketatan Kompetisi:
-Persentase dasar di atas kemudian dikalikan dengan faktor kompetisi program studi (`applicants / quota`):
-$$\text{Faktor Keketatan} = \max\left(0.5, 1 - (\text{Keketatan} - 5) \times 0.05\right)$$
-$$\text{Peluang Akhir} = \text{Persentase} \times \text{Faktor Keketatan}$$
+Di mana:
+- $k = k_\text{base} \times (1 + \log_{10}(\max(1, \text{Keketatan})) \times 0.5)$, merupakan faktor kecuraman kurva yang dinaikkan oleh kompetisi tinggi.
+- $\delta = \text{SkorEstimasi} \times 0.02$, merupakan *midpoint shift* yang menggeser titik ekuilibrium sehingga skor tepat sama dengan skor estimasi menghasilkan peluang sekitar **40%** (bukan 50%), mencerminkan kenyataan bahwa meraih nilai ambang tidak menjamin penerimaan.
+- Persentase akhir diskalakan ke rentang **3%–95%** (tidak pernah 0% atau 100%).
+
+#### Penalti Kompetisi Ekstrem:
+Jika rasio peminat/kuota melebihi 20, diterapkan penalti tambahan:
+$$\text{Penalti} = \min\left(30\%, (\text{Keketatan} - 20) \times 1\%\right)$$
+$$\text{Peluang Akhir} = \text{Peluang}_\text{sigmoid} \times (1 - \text{Penalti})$$
+
+#### Kategorisasi Label:
+Label ditentukan dari persentase akhir (bukan dari ratio):
+- **AMAN** ($\ge 65\%$), **BERSAING** ($\ge 45\%$), **PELUANG_CUKUP** ($\ge 30\%$), **SULIT** ($\ge 15\%$), **SANGAT_SULIT** ($< 15\%$)
 
 ---
 
@@ -235,10 +239,10 @@ Berikut rangkuman argumentasi ilmiah yang mendasari pemilihan masing‑masing ko
    * **Second‑Chance Learning** – Dengan tiga level scaffolding (SOCRATIC → HINT → SOLUTION) siswa mendapatkan kesempatan memperbaiki pemahaman sebelum solusi akhir, mengurangi efek menghafal.
    * **Data‑Driven Feedback** – Setiap level tercatat di `useTutorChatStore`, memungkinkan analisis kuantitatif efektivitas scaffolding, sesuatu yang tidak tersedia pada pendekatan Direct Instruction.
 
-3. **Groq / Llama‑3.3 vs OpenAI GPT**
+ 3. **Groq / Llama‑3.1 vs OpenAI GPT**
    * **Biaya Operasional** – Groq menawarkan tarif yang lebih kompetitif untuk inference skala besar, penting untuk aplikasi edukasi dengan ribuan pengguna simultan.
    * **Latency Rendah** – Infrastruktur Groq dirancang untuk streaming respons cepat, meningkatkan interaktivitas pada panel AI Tutor.
-   * **Open‑Source Flexibility** – Llama‑3.3 memungkinkan penyesuaian prompt dan kontrol yang lebih besar dibanding model proprietary.
+    * **Open‑Source Flexibility** – Llama‑3.1 memungkinkan penyesuaian prompt dan kontrol yang lebih besar dibanding model proprietary.
 
 ---
 
@@ -246,7 +250,7 @@ Berikut rangkuman argumentasi ilmiah yang mendasari pemilihan masing‑masing ko
 
 Untuk menilai fungsionalitas dan kebergunaan platform secara kuantitatif, metrik evaluasi yang digunakan adalah:
 
-1. **Pengujian Fungsional (Black-Box Testing)** – Menguji seluruh fungsi utama sistem (simulasi ujian, perhitungan skor IRT, *chancing engine*, dan *learning path*) untuk memastikan berjalan tanpa eror.
+1. **Pengujian Fungsional (Black-Box Testing)** – Menguji 27 *test case* yang mencakup seluruh fungsi utama sistem (autentikasi, simulasi ujian CBT, perhitungan skor IRT, *Chancing Engine*, *AI Tutor Scaffolding*, *Analytics*, *Learning Path*, dan panel Admin) menggunakan 6 teknik: *Equivalence Partitioning*, *Boundary Value Analysis*, *Decision Table*, *Use Case Testing*, *Error Guessing*, dan *Exploratory Testing*.
 2. **Usability (SUS)** – Survei *System Usability Scale* (SUS) untuk mengevaluasi antarmuka dan *User Experience* dengan target skor penerimaan minimal ≥ 68 (*acceptable*).
 
 ---
@@ -292,4 +296,4 @@ Lexica adalah platform persiapan UTBK‑SNBT yang menggabungkan **AI‑tutor ber
 
 ---
 
-*Dokumen ini mencerminkan status aplikasi pada tanggal 22 Juni 2026.*
+*Dokumen ini mencerminkan status aplikasi pada tanggal 13 Juli 2026.*

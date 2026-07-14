@@ -30,7 +30,16 @@ export async function GET(
         select: { irtAbility: true },
       })
       if (user) {
-        studentScore = scaleToSNBT(user.irtAbility)
+        // Fetch IRT settings from DB
+        const settings = await prisma.systemSetting.findMany({
+          where: { key: { in: ["IRT_MEAN", "IRT_SD"] } }
+        })
+        const config = { mean: 500, sd: 100 }
+        settings.forEach(s => {
+          if (s.key === "IRT_MEAN") config.mean = parseFloat(s.value)
+          if (s.key === "IRT_SD") config.sd = parseFloat(s.value)
+        })
+        studentScore = scaleToSNBT(user.irtAbility, config)
       }
     } else {
       // Fallback to query param for unauthenticated/demo
@@ -41,33 +50,67 @@ export async function GET(
     const competitiveness = major.applicants / major.quota
     const result = calculateChance(studentScore, major.estimatedScore, competitiveness)
 
-    // Populate weakSubjects from latest attempt's SubjectScores
+    // Populate weakSubjects and strongSubjects from latest attempt's SubjectScores
+    let strongSubjectNames: string[] = []
+    let scoreTrend: 'rising' | 'stable' | 'declining' | 'unknown' = 'unknown'
+
     if (session?.user?.id) {
-      const latestAttempt = await prisma.examAttempt.findFirst({
+      const recentAttempts = await prisma.examAttempt.findMany({
         where: { userId: session.user.id, status: "COMPLETED" },
         orderBy: { finishedAt: "desc" },
-        select: { id: true },
+        take: 5,
+        select: { id: true, scaledScore: true },
       })
+
+      // Score trend
+      if (recentAttempts.length >= 3) {
+        const scores = recentAttempts.slice(0, 3).map(a => a.scaledScore || 0).reverse()
+        const diffs = scores.slice(1).map((s, i) => s - scores[i])
+        const avgDiff = diffs.reduce((a, b) => a + b, 0) / diffs.length
+        if (avgDiff > 10) scoreTrend = 'rising'
+        else if (avgDiff < -10) scoreTrend = 'declining'
+        else scoreTrend = 'stable'
+      }
+
+      const latestAttempt = recentAttempts[0]
       if (latestAttempt) {
-        const subScores = await prisma.subjectScore.findMany({
+        // Weak subjects (bottom 3)
+        const weakScores = await prisma.subjectScore.findMany({
           where: { attemptId: latestAttempt.id },
           orderBy: { scaledScore: "asc" },
           take: 3,
+          include: { subject: { select: { name: true } } },
         })
-        if (subScores.length > 0) {
-          const subjects = await prisma.subject.findMany({
-            where: { id: { in: subScores.map(s => s.subjectId) } },
-          })
-          result.weakSubjects = subjects.map(s => s.name)
+        if (weakScores.length > 0) {
+          result.weakSubjects = weakScores.map(s => s.subject.name)
         }
+
+        // Strong subjects (top 2)
+        const strongScores = await prisma.subjectScore.findMany({
+          where: { attemptId: latestAttempt.id },
+          orderBy: { scaledScore: "desc" },
+          take: 2,
+          include: { subject: { select: { name: true } } },
+        })
+        strongSubjectNames = strongScores.map(s => s.subject.name)
       }
     }
 
-    // Generate recommendation based on deficit
-    if (result.deficit < 0) {
-      result.recommendation = `Kamu perlu menaikkan skor sebesar ${Math.abs(result.deficit)} poin. Fokus pada subtes terlemah${result.weakSubjects.length > 0 ? `: ${result.weakSubjects.join(", ")}` : ""} dan gunakan AI Tutor untuk memahami konsep yang lemah.`
+    // Generate behavior-aware recommendation
+    const absDeficit = Math.abs(result.deficit)
+    const weakList = result.weakSubjects.length > 0 ? result.weakSubjects.join(", ") : ""
+    const strongList = strongSubjectNames.length > 0 ? strongSubjectNames.join(" dan ") : ""
+
+    if (result.deficit >= 50) {
+      result.recommendation = `Skor kamu jauh di atas estimasi aman (+${result.deficit}). Posisimu sangat kuat!${strongList ? ` Kelebihanmu di ${strongList} jadi modal besar.` : ""} Pertahankan ritme belajar dan jangan lengah.`
+    } else if (result.deficit >= 0) {
+      result.recommendation = `Skor kamu sudah di atas estimasi aman (+${result.deficit}), tapi selisihnya tipis. ${scoreTrend === 'rising' ? 'Tren skormu naik — terus tingkatkan!' : 'Tingkatkan lagi agar posisimu lebih aman.'}${weakList ? ` Perkuat subtes: ${weakList}.` : ""}`
+    } else if (absDeficit <= 30) {
+      result.recommendation = `Selisih ${absDeficit} poin — masih sangat bisa dikejar! ${scoreTrend === 'rising' ? 'Tren skormu sedang naik, momentum bagus.' : `Fokus latihan intensif di ${weakList || 'subtes terlemah'}.`} Gunakan AI Tutor untuk konsep yang masih lemah.`
+    } else if (absDeficit <= 80) {
+      result.recommendation = `Kamu perlu menaikkan skor ${absDeficit} poin. ${weakList ? `Prioritaskan: ${weakList}` : 'Fokus pada subtes terlemah'} — ini area dengan potensi kenaikan terbesar.${scoreTrend === 'rising' ? ' Tren skormu positif, teruskan!' : ' Konsistensi latihan adalah kunci.'}`
     } else {
-      result.recommendation = `Skor kamu sudah di atas estimasi aman (+${result.deficit}). Pertahankan dan terus berlatih untuk memastikan posisimu tetap kuat.`
+      result.recommendation = `Gap ${absDeficit} poin cukup besar. ${weakList ? `Mulai dari memperkuat: ${weakList}.` : 'Fokus pada fondasi konsep dasar.'} Manfaatkan AI Tutor secara intensif dan selesaikan Try Out rutin untuk memantau progres.`
     }
 
     return NextResponse.json({

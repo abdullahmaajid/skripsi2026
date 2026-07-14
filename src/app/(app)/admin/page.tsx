@@ -67,6 +67,14 @@ export default function AdminPage() {
       href: "/admin/tryouts",
       statsText: `${stats.exams.tryouts} Paket · ${stats.exams.attempts} Partisipan`
     },
+    { 
+      title: "Pengaturan Sistem", 
+      desc: "Konfigurasi parameter global untuk IRT scoring dan Try Out UTBK", 
+      icon: <Settings className="w-5 h-5 text-slate-600" />, 
+      bgColor: "var(--pastel-blue)", 
+      href: "/admin/settings",
+      statsText: "Sistem & Scoring"
+    },
   ] : []
 
   if (error) {
@@ -83,13 +91,10 @@ export default function AdminPage() {
   }
 
   return (
-    <div className="p-6 md:p-8 space-y-8 max-w-5xl mx-auto h-full overflow-y-auto no-scrollbar">
+    <div className="p-6 md:p-8 space-y-6 h-full overflow-y-auto no-scrollbar">
       {/* Top bar */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
-          <button onClick={() => router.push("/dashboard")} className="text-slate-400 hover:text-slate-600 text-xs font-bold uppercase tracking-wider mb-2 inline-flex items-center gap-1.5 transition-colors">
-            <ArrowLeft className="w-4 h-4" /> Dashboard
-          </button>
           <h1 className="text-3xl font-bold text-slate-800 tracking-tight flex items-center gap-2">
             <Settings className="w-8 h-8 text-[var(--accent)]" /> Panel Kontrol Admin
           </h1>

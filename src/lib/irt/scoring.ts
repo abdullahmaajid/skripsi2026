@@ -33,12 +33,14 @@ export function estimateTheta(responses: {difficulty: number, correct: boolean}[
   return Math.max(-3, Math.min(3, theta)); // Clamp normal scores to [-3, 3]
 }
 
-export function scaleToSNBT(theta: number): number {
+export function scaleToSNBT(theta: number, config?: { mean: number, sd: number }): number {
   if (theta === -5.0) return 0;
   if (theta === 5.0) return 1000;
   
   // Linear transform: θ ∈ [-3, 3] → score ∈ [200, 800]
-  // Mean = 500, SD = 100
-  const score = 500 + (theta * 100);
+  const mean = config?.mean ?? 500;
+  const sd = config?.sd ?? 100;
+  
+  const score = mean + (theta * sd);
   return Math.max(0, Math.min(1000, Math.round(score)));
 }

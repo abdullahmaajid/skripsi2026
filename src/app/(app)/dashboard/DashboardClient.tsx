@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation"
 import { useState, useEffect } from "react"
-import { BarChart, Activity, Target, BrainCircuit, ArrowRight, BookOpen, TrendingUp, Sparkles, Trophy, ChevronRight, FileText, Timer, Crown, Users, Medal, CheckCircle2, Map, Zap, GraduationCap, ChevronDown, ChevronUp, Rocket } from "lucide-react"
+import { BarChart, Activity, Target, BrainCircuit, ArrowRight, BookOpen, TrendingUp, Sparkles, Trophy, ChevronRight, FileText, Timer, Crown, Users, Medal, CheckCircle2, Map, Zap, GraduationCap, ChevronDown, ChevronUp, Rocket, PartyPopper, ArrowDown, ArrowUp } from "lucide-react"
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer, LineChart, Line, XAxis, YAxis, Tooltip } from "recharts"
 import { motion, Variants, AnimatePresence } from "framer-motion"
 
@@ -155,8 +155,8 @@ function GettingStartedCard({ journey, collapsed, onToggle }: { journey: Journey
             </div>
             <div>
               <h2 className="text-base font-bold text-[var(--text-primary)] tracking-tight">Mulai dari Sini!</h2>
-              <p className="text-xs text-[var(--text-secondary)] font-medium mt-0.5">
-                {completedCount}/{totalSteps} langkah selesai — {completedCount === totalSteps ? "Luar biasa! 🎉" : "Ikuti langkah di bawah ini"}
+              <p className="text-xs text-[var(--text-secondary)] font-medium mt-0.5 flex items-center gap-1">
+                {completedCount}/{totalSteps} langkah selesai — {completedCount === totalSteps ? <><span className="text-emerald-600 font-bold">Luar biasa!</span> <PartyPopper className="w-3.5 h-3.5 text-emerald-500" /></> : "Ikuti langkah di bawah ini"}
               </p>
             </div>
           </div>
@@ -215,10 +215,10 @@ function GettingStartedCard({ journey, collapsed, onToggle }: { journey: Journey
                             <Icon className={`w-4 h-4 ${isNext ? colors.icon : "text-slate-400"}`} />
                           )}
                         </div>
-                        <span className={`text-[10px] font-bold uppercase tracking-wider ${
+                        <span className={`text-[10px] font-bold uppercase tracking-wider flex items-center gap-1 ${
                           isDone ? "text-emerald-500" : isNext ? colors.text : "text-slate-400"
                         }`}>
-                          {isDone ? "✓ Selesai" : `Langkah ${i + 1}`}
+                          {isDone ? <><CheckCircle2 className="w-3 h-3" /> Selesai</> : `Langkah ${i + 1}`}
                         </span>
                       </div>
 
@@ -341,26 +341,25 @@ export default function DashboardClient({ userName, targetName, latestScore, irt
             <motion.p variants={fadeUp} className="text-sm text-[var(--text-secondary)] mb-1 font-normal">Skor Terakhir</motion.p>
             <motion.p variants={fadeUp} className="text-2xl font-semibold text-[var(--text-primary)] tracking-tight">{latestScore > 0 ? <AnimatedNumber value={Math.round(latestScore)} /> : <span className="text-base text-[var(--text-secondary)] font-normal">Belum ada data</span>}</motion.p>
             {targetScoreGap !== null && (
-              <motion.p variants={fadeUp} className={`text-xs mt-1 font-semibold ${targetScoreGap > 0 ? "text-rose-500" : "text-emerald-500"}`}>
-                {targetScoreGap > 0 ? `↓ ${targetScoreGap} poin dari target` : `↑ ${Math.abs(targetScoreGap)} poin (Aman)`}
-              </motion.p>
+              <motion.div variants={fadeUp} className={`text-xs mt-1.5 font-semibold flex items-center gap-1 ${targetScoreGap > 0 ? "text-rose-500" : "text-emerald-500"}`}>
+                {targetScoreGap > 0 ? <><ArrowDown className="w-3 h-3" /> {targetScoreGap} poin dari target</> : <><ArrowUp className="w-3 h-3" /> {Math.abs(targetScoreGap)} poin (Aman)</>}
+              </motion.div>
             )}
           </motion.div>
         </motion.button>
 
         {/* Peluang Lulus */}
-        <motion.div variants={fadeUp} className="bg-[var(--accent-secondary)] text-white shadow-[0_4px_20px_rgba(52,186,250,0.3)] rounded-[2rem] p-6 flex flex-col justify-between hover:-translate-y-1 transition-transform relative overflow-hidden">
-          <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-3xl -mr-10 -mt-10"></div>
+        <motion.div variants={fadeUp} className="bg-sky-500 text-white shadow-[0_4px_20px_rgba(14,165,233,0.25)] rounded-[2rem] p-6 flex flex-col justify-between hover:-translate-y-1 transition-transform relative overflow-hidden">
           <motion.div variants={fastStagger} className="flex items-center justify-between relative z-10">
-            <motion.div variants={scaleIn} className="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center backdrop-blur-sm">
+            <motion.div variants={scaleIn} className="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center backdrop-blur-sm shadow-sm">
               <Target className="w-5 h-5 text-white" />
             </motion.div>
-            <motion.span variants={scaleIn} className="text-[10px] font-semibold bg-white/20 px-2.5 py-1 rounded-full backdrop-blur-sm">Proyeksi SNBT</motion.span>
+            <motion.span variants={scaleIn} className="text-[10px] font-semibold bg-white/20 px-3 py-1.5 rounded-full backdrop-blur-sm shadow-sm">Proyeksi SNBT</motion.span>
           </motion.div>
           <motion.div variants={fastStagger} className="mt-4 relative z-10">
             <motion.p variants={fadeUp} className="text-xs font-medium text-white/80 mb-0.5">Peluang Lulus</motion.p>
-            <motion.p variants={fadeUp} className="text-3xl font-semibold tracking-tight">{peluangLulus > 0 ? <><AnimatedNumber value={peluangLulus} />%</> : "—"}</motion.p>
-            <motion.p variants={fadeUp} className="text-[11px] font-medium text-white/70 mt-1">{peluangLabel}</motion.p>
+            <motion.p variants={fadeUp} className="text-4xl font-bold tracking-tight">{peluangLulus > 0 ? <><AnimatedNumber value={peluangLulus} />%</> : "—"}</motion.p>
+            <motion.p variants={fadeUp} className="text-sm font-medium text-white/90 mt-1">{peluangLabel}</motion.p>
           </motion.div>
         </motion.div>
       </motion.div>
@@ -368,32 +367,31 @@ export default function DashboardClient({ userName, targetName, latestScore, irt
       {/* ═══ 3. ACTIONABLE INSIGHTS (3 Columns) ═══ */}
       <motion.div variants={stagger} className="grid grid-cols-1 md:grid-cols-3 gap-5">
         {/* Target Harian */}
-        <motion.div variants={fadeUp} className="bg-gradient-to-br from-purple-500 to-[var(--accent)] text-white shadow-[0_4px_20px_rgba(168,85,247,0.3)] rounded-[2rem] p-6 relative overflow-hidden flex flex-col justify-between hover:-translate-y-1 transition-transform border border-transparent">
-          <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-3xl -mr-10 -mt-10"></div>
+        <motion.div variants={fadeUp} className="bg-purple-500 text-white shadow-[0_4px_20px_rgba(168,85,247,0.25)] rounded-[2rem] p-6 relative overflow-hidden flex flex-col justify-between hover:-translate-y-1 transition-transform border border-transparent">
           <div>
-            <div className="flex items-center gap-2.5 mb-4 relative z-10">
-              <div className="w-8 h-8 rounded-xl bg-white/20 backdrop-blur-sm flex items-center justify-center shadow-sm">
-                <CheckCircle2 className="w-4 h-4 text-white" />
+            <div className="flex items-center gap-3 mb-5 relative z-10">
+              <div className="w-10 h-10 rounded-xl bg-white/20 backdrop-blur-sm flex items-center justify-center shadow-sm">
+                <CheckCircle2 className="w-5 h-5 text-white" />
               </div>
-              <h3 className="text-sm font-bold text-white">Target Harian</h3>
+              <h3 className="text-base font-bold text-white tracking-tight">Target Harian</h3>
             </div>
-            <div className="space-y-3 relative z-10">
+            <div className="space-y-4 relative z-10">
               <div className="flex items-center gap-3">
-                <div className={`w-4 h-4 rounded border ${stats.soalCount >= 20 ? 'bg-white border-white text-purple-600' : 'border-white/40'} flex items-center justify-center`}>
-                  {stats.soalCount >= 20 && <CheckCircle2 className="w-3 h-3" />}
+                <div className={`w-5 h-5 rounded-full border ${stats.soalCount >= 20 ? 'bg-white border-white text-purple-600' : 'border-white/40'} flex items-center justify-center shadow-sm`}>
+                  {stats.soalCount >= 20 && <CheckCircle2 className="w-3.5 h-3.5" />}
                 </div>
                 <p className={`text-sm ${stats.soalCount >= 20 ? 'text-white/60 line-through' : 'text-white font-medium'}`}>Kerjakan 20 Soal ({Math.min(stats.soalCount, 20)}/20)</p>
               </div>
               <div className="flex items-center gap-3">
-                <div className={`w-4 h-4 rounded border ${journeyProgress.learningPathExplored ? 'bg-white border-white text-purple-600' : 'border-white/40'} flex items-center justify-center`}>
-                  {journeyProgress.learningPathExplored && <CheckCircle2 className="w-3 h-3" />}
+                <div className={`w-5 h-5 rounded-full border ${journeyProgress.learningPathExplored ? 'bg-white border-white text-purple-600' : 'border-white/40'} flex items-center justify-center shadow-sm`}>
+                  {journeyProgress.learningPathExplored && <CheckCircle2 className="w-3.5 h-3.5" />}
                 </div>
                 <p className={`text-sm ${journeyProgress.learningPathExplored ? 'text-white/60 line-through' : 'text-white font-medium'}`}>Jelajahi Learning Path</p>
               </div>
             </div>
           </div>
-          <button onClick={() => router.push("/practice")} className="mt-5 flex items-center gap-2 text-xs font-bold text-purple-700 bg-white px-4 py-2.5 rounded-xl hover:bg-purple-50 transition-colors w-full justify-center relative z-10 shadow-sm">
-            Mulai Latihan <ArrowRight className="w-3.5 h-3.5" />
+          <button onClick={() => router.push("/practice")} className="mt-6 flex items-center gap-2 text-sm font-bold text-purple-700 bg-white px-5 py-3 rounded-full hover:bg-purple-50 hover:scale-[1.02] transition-all w-full justify-center relative z-10 shadow-sm">
+            Mulai Latihan <ArrowRight className="w-4 h-4" />
           </button>
         </motion.div>
 
@@ -423,38 +421,37 @@ export default function DashboardClient({ userName, targetName, latestScore, irt
               )}
             </div>
           </div>
-          <button onClick={() => router.push("/learning-path")} className="mt-5 flex items-center gap-2 text-xs font-bold text-rose-700 bg-rose-50 px-4 py-2.5 rounded-xl hover:opacity-80 transition-opacity w-full justify-center relative z-10 shadow-sm border border-rose-100">
-            Perbaiki Sekarang <ArrowRight className="w-3.5 h-3.5" />
+          <button onClick={() => router.push("/learning-path")} className="mt-6 flex items-center gap-2 text-sm font-bold text-rose-600 bg-rose-50 px-5 py-3 rounded-full hover:bg-rose-100 hover:scale-[1.02] transition-all w-full justify-center relative z-10 shadow-sm border border-rose-100">
+            Perbaiki Sekarang <ArrowRight className="w-4 h-4" />
           </button>
         </motion.div>
 
         {/* Mini Chancing Engine */}
-        <motion.div variants={fadeUp} className="bg-gradient-to-br from-blue-400 to-indigo-500 text-white shadow-[0_4px_20px_rgba(59,130,246,0.3)] rounded-[2rem] p-6 relative overflow-hidden flex flex-col justify-between hover:-translate-y-1 transition-transform border border-transparent">
-          <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-3xl -mr-10 -mt-10"></div>
+        <motion.div variants={fadeUp} className="bg-blue-600 text-white shadow-[0_4px_20px_rgba(37,99,235,0.25)] rounded-[2rem] p-6 relative overflow-hidden flex flex-col justify-between hover:-translate-y-1 transition-transform border border-transparent">
           <div>
-            <div className="flex items-center gap-2.5 mb-4 relative z-10">
-              <div className="w-8 h-8 rounded-xl bg-white/20 backdrop-blur-sm flex items-center justify-center shadow-sm">
-                <BrainCircuit className="w-4 h-4 text-white" />
+            <div className="flex items-center gap-3 mb-5 relative z-10">
+              <div className="w-10 h-10 rounded-xl bg-white/20 backdrop-blur-sm flex items-center justify-center shadow-sm">
+                <BrainCircuit className="w-5 h-5 text-white" />
               </div>
-              <h3 className="text-sm font-bold text-white">Rekomendasi AI</h3>
+              <h3 className="text-base font-bold text-white tracking-tight">Rekomendasi AI</h3>
             </div>
             <div className="relative z-10">
               {aiRecommendation ? (
-                <div className="p-3 bg-white/10 border border-white/20 rounded-xl backdrop-blur-sm">
-                  <div className="flex items-center gap-1.5 mb-1.5">
-                    <span className="px-2 py-0.5 bg-white text-blue-600 text-[9px] font-bold uppercase rounded-full tracking-wider shadow-sm">Aman</span>
-                    <span className="text-[10px] text-white/80 font-medium">Berdasarkan Skormu</span>
+                <div className="p-4 bg-white/10 border border-white/20 rounded-2xl backdrop-blur-sm shadow-sm">
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="px-2.5 py-1 bg-white text-blue-600 text-[10px] font-bold uppercase rounded-full tracking-wider shadow-sm">Aman</span>
+                    <span className="text-[11px] text-white/90 font-medium">Berdasarkan Skormu</span>
                   </div>
-                  <p className="text-xs font-bold text-white leading-tight mb-0.5">{aiRecommendation.name}</p>
-                  <p className="text-[10px] font-medium text-white/80 truncate">{aiRecommendation.universityName}</p>
+                  <p className="text-sm font-bold text-white leading-tight mb-1">{aiRecommendation.name}</p>
+                  <p className="text-xs font-medium text-white/80 truncate">{aiRecommendation.universityName}</p>
                 </div>
               ) : (
-                <p className="text-xs text-white/80 leading-relaxed">AI akan memberikan rekomendasi cadangan jurusan setelah kamu menyelesaikan Try Out pertamamu.</p>
+                <p className="text-sm text-white/90 leading-relaxed font-medium">AI akan memberikan rekomendasi cadangan jurusan setelah kamu menyelesaikan Try Out pertamamu.</p>
               )}
             </div>
           </div>
-          <button onClick={() => router.push("/analytics/chancing")} className="mt-5 flex items-center gap-2 text-xs font-bold text-blue-600 bg-white px-4 py-2.5 rounded-xl hover:bg-blue-50 transition-colors w-full justify-center relative z-10 shadow-sm">
-            Lihat Detail Peluang <ArrowRight className="w-3.5 h-3.5" />
+          <button onClick={() => router.push("/analytics/chancing")} className="mt-6 flex items-center gap-2 text-sm font-bold text-blue-700 bg-white px-5 py-3 rounded-full hover:bg-blue-50 hover:scale-[1.02] transition-all w-full justify-center relative z-10 shadow-sm">
+            Lihat Detail Peluang <ArrowRight className="w-4 h-4" />
           </button>
         </motion.div>
       </motion.div>

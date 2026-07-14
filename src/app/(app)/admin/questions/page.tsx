@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
-import { ArrowLeft, Plus, Trash2, Edit2, Loader2, BookOpen, Layers, HelpCircle, Check, X } from "lucide-react"
+import { ChevronDown, Search, Plus, Edit2, Trash2, BookOpen, Layers, HelpCircle, Check, Loader2, ArrowLeft, Upload } from "lucide-react"
+import MarkdownRenderer from "@/components/ui/MarkdownRenderer"
 
 interface Subject {
   id: string
@@ -289,33 +290,30 @@ export default function AdminQuestionsPage() {
   })
 
   return (
-    <div className="p-6 md:p-8 space-y-6 max-w-5xl mx-auto h-full overflow-y-auto no-scrollbar">
+    <div className="p-6 md:p-8 space-y-6 h-full overflow-y-auto no-scrollbar">
       {/* Top Header */}
       <div>
-        <button onClick={() => router.push("/admin")} className="text-slate-400 hover:text-slate-600 text-xs font-bold uppercase tracking-wider mb-2 inline-flex items-center gap-1.5 transition-colors">
-          <ArrowLeft className="w-4 h-4" /> Admin Panel
-        </button>
         <h1 className="text-3xl font-bold text-slate-800 tracking-tight">Bank Soal &amp; Kurikulum</h1>
         <p className="text-sm text-slate-500 mt-1">Kelola konten materi ujian UTBK yang mencakup mata pelajaran, bab belajar, dan detail soal.</p>
       </div>
 
       {/* Tabs Menu */}
-      <div className="flex border-b border-slate-100 gap-1.5">
+      <div className="flex border-b border-slate-100 gap-1.5 overflow-x-auto no-scrollbar w-full">
         <button
           onClick={() => { setActiveTab("questions"); setFilterSubjectId(""); setFilterChapterId("") }}
-          className={`px-5 py-3 text-sm font-semibold border-b-2 transition-all inline-flex items-center gap-2 ${activeTab === "questions" ? "border-[var(--accent)] text-[var(--accent-dark)]" : "border-transparent text-slate-400 hover:text-slate-600"}`}
+          className={`px-5 py-3 text-sm font-semibold border-b-2 transition-all inline-flex items-center gap-2 shrink-0 whitespace-nowrap ${activeTab === "questions" ? "border-[var(--accent)] text-[var(--accent-dark)]" : "border-transparent text-slate-400 hover:text-slate-600"}`}
         >
           <HelpCircle className="w-4 h-4" /> Daftar Soal
         </button>
         <button
           onClick={() => { setActiveTab("chapters"); setFilterSubjectId("") }}
-          className={`px-5 py-3 text-sm font-semibold border-b-2 transition-all inline-flex items-center gap-2 ${activeTab === "chapters" ? "border-[var(--accent)] text-[var(--accent-dark)]" : "border-transparent text-slate-400 hover:text-slate-600"}`}
+          className={`px-5 py-3 text-sm font-semibold border-b-2 transition-all inline-flex items-center gap-2 shrink-0 whitespace-nowrap ${activeTab === "chapters" ? "border-[var(--accent)] text-[var(--accent-dark)]" : "border-transparent text-slate-400 hover:text-slate-600"}`}
         >
           <Layers className="w-4 h-4" /> Daftar Bab (Chapters)
         </button>
         <button
           onClick={() => setActiveTab("subjects")}
-          className={`px-5 py-3 text-sm font-semibold border-b-2 transition-all inline-flex items-center gap-2 ${activeTab === "subjects" ? "border-[var(--accent)] text-[var(--accent-dark)]" : "border-transparent text-slate-400 hover:text-slate-600"}`}
+          className={`px-5 py-3 text-sm font-semibold border-b-2 transition-all inline-flex items-center gap-2 shrink-0 whitespace-nowrap ${activeTab === "subjects" ? "border-[var(--accent)] text-[var(--accent-dark)]" : "border-transparent text-slate-400 hover:text-slate-600"}`}
         >
           <BookOpen className="w-4 h-4" /> Mata Pelajaran
         </button>
@@ -456,7 +454,10 @@ export default function AdminQuestionsPage() {
                           <span className="bg-orange-50 text-orange-600 px-2 py-0.5 rounded-full">{q.type}</span>
                         </div>
                         
-                        <p className="text-slate-800 text-sm font-medium whitespace-pre-wrap">{idx + 1}. {q.text}</p>
+                        <div className="text-slate-800 text-sm font-medium flex gap-2">
+                          <span className="shrink-0">{idx + 1}.</span>
+                          <div className="flex-1 min-w-0"><MarkdownRenderer content={q.text} /></div>
+                        </div>
                         {q.imageUrl && (
                           <div className="max-w-[200px] border border-slate-100 rounded-lg overflow-hidden my-2">
                             <img src={q.imageUrl} alt="Gambar Soal" className="object-contain max-h-32" />
@@ -467,7 +468,7 @@ export default function AdminQuestionsPage() {
                           {q.options.map(o => (
                             <div key={o.id} className={`text-xs p-2 rounded-xl flex items-center gap-2 border ${o.isCorrect ? "bg-emerald-50 text-emerald-700 border-emerald-100 font-semibold" : "bg-slate-50/50 text-slate-500 border-transparent"}`}>
                               <span className="w-5 font-bold uppercase">{o.label}.</span>
-                              <span className="flex-1">{o.text}</span>
+                              <span className="flex-1"><MarkdownRenderer content={o.text} /></span>
                               {o.isCorrect && <Check className="w-3.5 h-3.5 text-emerald-600" />}
                             </div>
                           ))}

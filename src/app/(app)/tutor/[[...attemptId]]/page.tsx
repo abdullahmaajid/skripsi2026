@@ -338,7 +338,7 @@ function TutorContent({ attemptIdParam }: { attemptIdParam?: string }) {
                   </div>
                   <div className="flex-1 min-w-0">
                     <p className="text-sm font-medium text-slate-800 truncate mb-0.5">{q.subject}</p>
-                    <p className="text-xs text-slate-500 truncate">{q.text}</p>
+                    <div className="text-xs text-slate-500 truncate"><MarkdownRenderer content={q.text} /></div>
                   </div>
                   <div className="w-6 h-6 rounded-full bg-white flex items-center justify-center group-hover:bg-[var(--accent)] transition-colors shadow-sm">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-slate-400 group-hover:text-white"><polyline points="9 18 15 12 9 6"/></svg>

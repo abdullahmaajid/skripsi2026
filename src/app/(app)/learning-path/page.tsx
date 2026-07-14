@@ -6,6 +6,28 @@ import { BookOpen, CheckCircle, Circle, PlayCircle, Lock, ArrowRight, Loader2, F
 import { useRouter } from "next/navigation"
 import MarkdownRenderer from "@/components/ui/MarkdownRenderer"
 
+function ProgressRing({ progress, size = 40, stroke = 4, color = "var(--accent)" }: { progress: number; size?: number; stroke?: number; color?: string }) {
+  const radius = (size - stroke) / 2
+  const circumference = 2 * Math.PI * radius
+  const offset = circumference - (progress / 100) * circumference
+  return (
+    <div className="relative flex items-center justify-center shrink-0" style={{ width: size, height: size }}>
+      <svg width={size} height={size} className="transform -rotate-90">
+        <circle cx={size / 2} cy={size / 2} r={radius} fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth={stroke} />
+        <motion.circle
+          cx={size / 2} cy={size / 2} r={radius} fill="none" stroke={color} strokeWidth={stroke} strokeLinecap="round"
+          initial={{ strokeDashoffset: circumference }}
+          animate={{ strokeDashoffset: offset }}
+          transition={{ duration: 1.5, ease: "easeOut", delay: 0.3 }}
+          style={{ strokeDasharray: circumference }}
+        />
+      </svg>
+      <div className="absolute inset-0 flex items-center justify-center">
+        <span className="text-[10px] font-bold text-slate-700">{Math.round(progress)}%</span>
+      </div>
+    </div>
+  )
+}
 export default function LearningPathPage() {
   const [data, setData] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
@@ -51,7 +73,8 @@ export default function LearningPathPage() {
         <div className="text-slate-600 space-y-3 leading-relaxed">
           <p><strong className="text-indigo-900 font-bold">Bagaimana rute belajar ini disusun?</strong></p>
           <ul className="list-disc pl-4 space-y-2 text-[13px] md:text-sm">
-            <li><strong>Fokus pada Kelemahan:</strong> Bab yang paling banyak kamu jawab salah saat Tryout akan didorong ke urutan <strong>paling awal</strong> (dilabeli <span className="font-semibold text-blue-600">Sedang Dipelajari</span>). Ini agar kamu bisa langsung memperbaiki kelemahan utamamu.</li>
+            <li><strong>Prioritas Mata Pelajaran:</strong> Mata pelajaran dengan rata-rata penguasaan terendah akan otomatis ditempatkan di <strong>paling atas</strong>, sehingga kamu bisa memprioritaskan area terlemahmu.</li>
+            <li><strong>Fokus pada Kelemahan Bab:</strong> Di dalam tiap mata pelajaran, bab yang paling banyak kamu jawab salah saat Tryout akan didorong ke urutan <strong>awal</strong> (dilabeli <span className="font-semibold text-blue-600">Sedang Dipelajari</span>).</li>
             <li><strong>Sistem Bertahap (Terkunci):</strong> Kamu tidak bisa melompat ke materi lanjutan jika materi dasarnya (<span className="font-semibold text-slate-500">Belum Mulai</span>) belum kamu coba pelajari.</li>
             <li><strong>Materi yang Dikuasai:</strong> Bab dengan skor penguasaan tinggi (≥70%) otomatis digeser ke urutan <strong>paling akhir</strong> agar tidak mengganggu fokus belajarmu saat ini.</li>
           </ul>
@@ -73,11 +96,22 @@ export default function LearningPathPage() {
 
           return (
             <motion.div variants={fadeUp} key={subject.id} className="bg-white rounded-3xl p-6 shadow-sm border border-slate-100">
-              <div className="flex items-center gap-3 mb-6 pb-4 border-b border-slate-100">
-                <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${color.bg} ${color.text}`}>
-                  <BookOpen className="w-5 h-5" />
+              <div className="flex items-center justify-between mb-6 pb-4 border-b border-slate-100">
+                <div className="flex items-center gap-3">
+                  <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${color.bg} ${color.text}`}>
+                    <BookOpen className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h2 className="text-xl font-bold text-slate-800">{subject.name}</h2>
+                  </div>
                 </div>
-                <h2 className="text-xl font-bold text-slate-800">{subject.name}</h2>
+                <div className="flex items-center gap-3">
+                  <div className="hidden sm:flex flex-col items-end">
+                    <span className="text-[10px] font-bold text-slate-500 uppercase tracking-wider">Penguasaan Keseluruhan</span>
+                    <span className="text-sm font-semibold text-slate-700">{Math.round(subject.averageMastery || 0)}% Selesai</span>
+                  </div>
+                  <ProgressRing progress={subject.averageMastery || 0} size={42} color={subject.averageMastery >= 70 ? "#10b981" : "var(--accent)"} />
+                </div>
               </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

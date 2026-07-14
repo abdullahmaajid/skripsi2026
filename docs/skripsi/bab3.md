@@ -11,7 +11,7 @@ Metodologi pengembangan Lexica mengacu pada pendekatan **Design Science Research
 - Rute belajar personal berbasis mastery learning
 
 ### 3.1.2 Lapisan Solusi & Arsitektur
-- **AI Tutor Layer**: LLM Llama-3.3 melalui Groq API dengan scaffolding bertingkat
+- **AI Tutor Layer**: LLM Llama-3.1 melalui Groq API dengan scaffolding bertingkat
 - **Assessment Layer**: IRT 1-PL untuk estimasi kemampuan (θ)
 - **Analytics Layer**: Dashboard terintegrasi dengan radar chart, tren, dan chancing
 - **Learning Layer**: Learning Path dengan mastery locking
@@ -37,7 +37,7 @@ src/
 │   │   ├── dashboard/         # Dashboard page
 │   │   ├── learning-path/     # Learning path page
 │   │   ├── practice/[subjectId]/ # Subject practice
-│   │   ├── analytics/         # Analytics dashboard (tabbed)
+│   │   ├── analytics/         # Analytics routes (radar, trend, evaluation, chancing, explorer)
 │   │   └── tutor/             # AI tutor page
 │   └── api/
 │       └── tutor/
@@ -48,8 +48,8 @@ src/
 │   └── chancing/calculator.ts # Chancing engine algorithm
 ├── components/
 │   └── ui/                    # Reusable UI components
-└── stores/
-    └── tutorChatStore.ts      # Zustand store for AI chat state
+└── store/
+    └── useTutorChatStore.ts      # Zustand store for AI chat state
 ```
 
 ### 3.2.2 State Management Architecture
@@ -57,7 +57,6 @@ Sistem menggunakan **Zustand (v5)** dengan dua store utama:
 
 **useTutorChatStore:**
 - Mengelola `scaffoldLevel` (SOCRATIC/HINT/SOLUTION)
-- Menyimpan `attemptsUsed` untuk tracking percobaan siswa
 - Menyimpan riwayat pesan (`messages[]`) antara siswa dan AI
 - Mengelola loading states dan error handling
 
@@ -118,7 +117,7 @@ erDiagram
 
 ### 3.4.1 Prinsip Desain Cognitive Load Theory
 Antarmuka mengadopsi prinsip CLT dengan:
-- **Konsolidasi Navigasi**: 5 menu utama (Dashboard, Belajar & Latihan, Try Out, Analitik & Evaluasi, Bantuan AI)
+- **Konsolidasi Navigasi**: 6 item menu dalam 4 grup (Dashboard, Belajar & Latihan, Try Out, Rapor & Evaluasi, Bahas Soal Luar, dan Pengaturan)
 - **Zero-Friction Context Injection**: Metadata soal otomatis diinjeksi ke AI tanpa input manual
 - **Nested Layout Analytics**: Tab navigasi di `/analytics` tanpa full-page reload
 - **Micro-animasi**: Transisi halus dengan Framer Motion untuk menjaga fokus
@@ -137,10 +136,14 @@ Antarmuka mengadopsi prinsip CLT dengan:
 - Tombol aksi: "Coba Lagi", "Ragukan", "Lihat Solusi"
 - Progress bar mastery level
 
-**Analytics Dashboard (`/(app)/analytics/`):**
-- Tab 1: Rapor & Tren (radar chart + line chart)
-- Tab 2: Evaluasi Soal (bank soal salah)
-- Tab 3: Peluang Lulus (chancing calculator)
+**Analytics Dashboard (route-based, bukan nested tab):**
+- `/analytics/radar` — Radar Kemampuan 7 subtes + Tabel Detail Per Subtes (skor, target, selisih, status) + Insight Analisis Cerdas
+- `/analytics/trend` — Tren Skor SNBT (grafik area perkembangan skor tryout dari waktu ke waktu)
+- `/analytics/evaluation` — Bank Soal Salah (*active recall*): menampilkan riwayat soal yang dijawab salah
+- `/analytics/chancing` — Daftar prodi target dengan kartu prediksi peluang kelulusan
+- `/analytics/chancing/[majorId]` — Detail prodi spesifik
+- `/analytics/explorer` — Explorer lanjutan dengan filter dinamis
+- `/analytics/subject/[id]` — Breakdown performa per topik dalam satu subtes
 
 ---
 
@@ -181,36 +184,40 @@ export function estimateTheta(responses: {difficulty: number, correct: boolean}[
 ```typescript
 // src/lib/chancing/calculator.ts
 export function calculateChance(
-  studentScore: number,
-  majorEstimated: number,
-  competitiveness: number
+  studentScore: number,    // Skor IRT scaled (200-800)
+  majorEstimated: number,  // estimatedScore dari DB
+  competitiveness: number  // applicants / quota
 ): ChanceResult {
-  const ratio = studentScore / majorEstimated;
-  let percentage: number;
-  let label: ChanceResult['label'];
-  
-  if (ratio >= 1.1) {
-    percentage = Math.min(95, 80 + (ratio - 1.1) * 100);
-    label = 'AMAN';
-  } else if (ratio >= 1.0) {
-    percentage = 60 + (ratio - 1.0) * 200;
-    label = 'BERSAING';
-  } else if (ratio >= 0.9) {
-    percentage = 30 + (ratio - 0.9) * 300;
-    label = 'SULIT';
-  } else {
-    percentage = Math.max(5, ratio * 30);
-    label = 'SANGAT_SULIT';
+  const deficit = studentScore - majorEstimated;
+
+  // Sigmoid-based probability dengan kecuraman dinamis berdasarkan kompetisi
+  const baseK = 0.04;
+  const compFactor = 1 + Math.log10(Math.max(1, competitiveness)) * 0.5;
+  const k = baseK * compFactor;
+
+  // midpointShift: skor tepat di estimatedScore → peluang ~40% (bukan 50%)
+  const midpointShift = majorEstimated * 0.02;
+  const rawProbability = 1 / (1 + Math.exp(-k * (studentScore - majorEstimated - midpointShift)));
+
+  // Skala ke 5-95%, tidak pernah 0% atau 100%
+  let percentage = 5 + rawProbability * 90;
+
+  // Penalti kompetisi ekstrem (>20:1)
+  if (competitiveness > 20) {
+    const extremePenalty = Math.min(0.3, (competitiveness - 20) * 0.01);
+    percentage *= (1 - extremePenalty);
   }
-  
-  const ketatFactor = Math.max(0.5, 1 - (competitiveness - 5) * 0.05);
-  return {
-    percentage: Math.round(Math.min(95, Math.max(5, percentage * ketatFactor))),
-    label,
-    deficit: Math.round(studentScore - majorEstimated),
-    weakSubjects: [],
-    recommendation: ''
-  };
+
+  percentage = Math.round(Math.min(95, Math.max(3, percentage)));
+
+  // Label dari persentase (bukan dari ratio)
+  const label = percentage >= 65 ? 'AMAN'
+    : percentage >= 45 ? 'BERSAING'
+    : percentage >= 30 ? 'PELUANG_CUKUP'
+    : percentage >= 15 ? 'SULIT'
+    : 'SANGAT_SULIT';
+
+  return { percentage, label, deficit: Math.round(deficit), weakSubjects: [], recommendation: '' };
 }
 ```
 
@@ -256,15 +263,19 @@ const SCAFFOLD_PROMPTS: Record<ScaffoldLevel, string> = {
 ## 3.7 Rencana Pengujian Sistem
 
 ### 3.7.1 Black-Box Testing
-Pengujian fungsional terhadap fitur utama:
-1. Autentikasi login/logout pengguna
-2. Pengerjaan tryout dengan timer per subtes
-3. Estimasi skor IRT dari respons jawaban
-4. Scaffolding AI Tutor pada latihan soal
-5. Free chat mode AI Tutor
-6. Learning path generation berdasarkan skor
-7. Chancing calculator dengan berbagai skenario ratio
-8. Navigasi tab di dashboard analytics
+Pengujian fungsional menggunakan **27 test case** yang terstruktur dalam 7 modul pengujian, dengan 6 teknik Black-Box Testing:
+
+| Modul | Jumlah TC | Teknik Dominan |
+|---|:---:|---|
+| Autentikasi & RBAC | 5 | Use Case Testing, Error Guessing |
+| CBT Simulator / Tryout | 5 | BVA (timer boundary), Use Case |
+| IRT Scoring Engine | 4 | BVA (boundary ability), EP |
+| Chancing Engine | 5 | BVA (sigmoid threshold), EP, Error Guessing |
+| AI Tutor & Socratic | 2 | Decision Table, Error Guessing |
+| Analytics & Learning Path | 3 | EP, Exploratory |
+| Admin Panel | 3 | EP, BVA, Use Case |
+
+Seluruh expected result merujuk pada Spesifikasi Kebutuhan Fungsional (FR) yang terdokumentasi pada BAB III ini, bukan pada implementasi kode internal (pure black-box approach).
 
 ### 3.7.2 System Usability Scale (SUS)
 - Target skor minimum: 68 (acceptable)

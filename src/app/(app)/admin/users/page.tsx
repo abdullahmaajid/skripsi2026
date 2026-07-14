@@ -128,13 +128,10 @@ export default function AdminUsersPage() {
   })
 
   return (
-    <div className="p-6 md:p-8 space-y-6 max-w-5xl mx-auto h-full overflow-y-auto no-scrollbar">
+    <div className="p-6 md:p-8 space-y-6 h-full overflow-y-auto no-scrollbar">
       {/* Top Navigation & Header */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
-          <button onClick={() => router.push("/admin")} className="text-slate-400 hover:text-slate-600 text-xs font-bold uppercase tracking-wider mb-2 inline-flex items-center gap-1.5 transition-colors">
-            <ArrowLeft className="w-4 h-4" /> Admin Panel
-          </button>
           <h1 className="text-3xl font-bold text-slate-800 tracking-tight flex items-center gap-2">
             <Users className="w-8 h-8 text-[var(--accent)]" /> Manajemen User
           </h1>

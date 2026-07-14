@@ -8,6 +8,7 @@ import {
   BookOpen, RotateCcw, Trophy
 } from "lucide-react"
 import { useTutorChatStore } from "@/store/useTutorChatStore"
+import MarkdownRenderer from "@/components/ui/MarkdownRenderer"
 import StatusSoal from "@/components/ui/StatusSoal"
 import FallbackHint from "@/components/ui/FallbackHint"
 
@@ -293,7 +294,7 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
         <main className="flex-1 overflow-y-auto p-6 md:p-12">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl font-bold text-slate-800 mb-6 pb-4 border-b border-slate-100">Soal {reviewIndex + 1}</h2>
-            <p className="text-lg text-slate-800 font-medium leading-relaxed mb-8 whitespace-pre-wrap">{revQ.text}</p>
+            <div className="text-lg text-slate-800 font-medium leading-relaxed mb-8"><MarkdownRenderer content={revQ.text} /></div>
             <div className="space-y-3 mb-10">
               {revQ.options.map(opt => {
                 const isSelected = userAnswers[revQ.id] === opt.id
@@ -321,7 +322,7 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
                 return (
                   <div key={opt.id} className={containerCls}>
                     <div className={labelCls}>{opt.label}</div>
-                    <p className="text-sm md:text-base font-medium text-slate-700 flex-1">{opt.text}</p>
+                    <div className="text-sm md:text-base font-medium text-slate-700 flex-1"><MarkdownRenderer content={opt.text} /></div>
                     {statusIcon}
                   </div>
                 )
@@ -388,9 +389,9 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
         {/* Question */}
         <div className="flex-1 p-6 md:p-8">
           <motion.div key={currentQ?.id} initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.3 }} className="max-w-2xl mx-auto">
-            <h2 className="text-lg md:text-xl text-slate-800 font-medium leading-relaxed mb-8">
-              {currentQ?.text}
-            </h2>
+            <div className="text-lg md:text-xl text-slate-800 font-medium leading-relaxed mb-8">
+              <MarkdownRenderer content={currentQ?.text || ""} />
+            </div>
 
             <div className="flex flex-col gap-3">
               {currentQ?.options.map((opt) => {
@@ -446,7 +447,7 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
                     className={cls}
                   >
                     <span className={labelCls}>{opt.label}</span>
-                    <p className="text-sm text-slate-700 font-medium leading-relaxed flex-1 pt-1">{opt.text}</p>
+                    <div className="text-sm text-slate-700 font-medium leading-relaxed flex-1 pt-1"><MarkdownRenderer content={opt.text} /></div>
                     {statusIcon}
                   </motion.button>
                 )
@@ -486,9 +487,9 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
                     <span className={`text-sm font-bold ${isCorrect ? "text-emerald-700" : "text-rose-600"}`}>{isCorrect ? "Benar!" : "Belum Tepat"}</span>
                   </div>
                   {!isCorrect && (
-                    <p className="text-sm text-rose-600 mt-1">
-                      Jawaban benar: <span className="font-semibold">{correctOpt?.label}. {correctOpt?.text}</span>
-                    </p>
+                    <div className="text-sm text-rose-600 mt-1 flex items-baseline gap-1">
+                      Jawaban benar: <span className="font-semibold inline-flex items-baseline gap-1">{correctOpt?.label}. <MarkdownRenderer content={correctOpt?.text || ""} /></span>
+                    </div>
                   )}
                   <p className="text-xs text-slate-500 mt-2">
                     Gunakan AI Tutor di panel kanan untuk bertanya lebih lanjut tentang soal ini.

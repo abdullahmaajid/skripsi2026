@@ -14,26 +14,26 @@ export default function AnalyticsLayout({ children }: { children: React.ReactNod
   const pathname = usePathname()
 
   return (
-    <div className="min-h-screen bg-[var(--bg-primary)] text-[var(--text-primary)] p-6 md:p-10 font-sans h-full overflow-y-auto no-scrollbar">
-      <div className="max-w-5xl mx-auto space-y-6">
+    <div className="min-h-screen bg-[var(--bg-primary)] text-[var(--text-primary)] p-4 md:p-10 font-sans h-full overflow-y-auto overflow-x-hidden no-scrollbar">
+      <div className="max-w-5xl mx-auto space-y-4 md:space-y-6">
         
         {/* Header Section */}
         <div>
-          <h1 className="text-3xl font-bold text-slate-800 tracking-tight">Analitik & Evaluasi</h1>
+          <h1 className="text-2xl md:text-3xl font-bold text-slate-800 tracking-tight">Analitik & Evaluasi</h1>
           <p className="text-sm text-slate-500 mt-1">
             Pantau perkembangan belajarmu, evaluasi kesalahan, dan lihat peluang lolos ke jurusan impian.
           </p>
         </div>
 
         {/* Tab Navigation */}
-        <div className="flex items-center gap-2 p-1.5 bg-slate-100/80 rounded-2xl w-fit border border-slate-200/50">
+        <div className="flex items-center gap-1 md:gap-2 p-1 md:p-1.5 bg-slate-100/80 rounded-2xl w-full md:w-fit border border-slate-200/50">
           {tabs.map((tab) => {
             const isActive = pathname === tab.href || pathname.startsWith(`${tab.href}/`)
             return (
               <Link
                 key={tab.name}
                 href={tab.href}
-                className={`flex items-center gap-2 px-5 py-2.5 rounded-xl font-semibold text-sm transition-all duration-300 ${
+                className={`flex items-center justify-center gap-1.5 md:gap-2 flex-1 md:flex-auto px-2 md:px-5 py-2 md:py-2.5 rounded-xl font-semibold text-xs md:text-sm transition-all duration-300 ${
                   isActive 
                     ? "bg-white text-[var(--accent-dark)] shadow-[0_2px_10px_rgba(0,0,0,0.06)]" 
                     : "text-slate-500 hover:text-slate-700 hover:bg-slate-200/50"
@@ -47,7 +47,7 @@ export default function AnalyticsLayout({ children }: { children: React.ReactNod
         </div>
 
         {/* Page Content */}
-        <div className="bg-white rounded-3xl p-6 shadow-[0_4px_24px_rgba(0,0,0,0.02)] border border-slate-100">
+        <div className="bg-white rounded-2xl md:rounded-3xl p-3 md:p-6 shadow-[0_4px_24px_rgba(0,0,0,0.02)] border border-slate-100 overflow-hidden">
           {children}
         </div>
       </div>

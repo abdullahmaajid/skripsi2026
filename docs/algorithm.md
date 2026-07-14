@@ -38,7 +38,7 @@ Simulator analitis yang menghitung persentase peluang masuk siswa ke program stu
   $$\text{Peluang Akhir} = \text{Peluang Dasar} \times \text{Faktor Koreksi}$$
 
 ### 3. Logika Scaffolding AI Tutor Bertingkat
-Sistem membimbing pemahaman siswa menggunakan Llama-3.3 via Groq API. Parameter *scaffolding* diatur secara ketat lewat *system prompt*.
+Sistem membimbing pemahaman siswa menggunakan Llama-3.1 via Groq API. Parameter *scaffolding* diatur secara ketat lewat *system prompt*.
 
 - **Level 1 (SOCRATIC):** Mengajukan pertanyaan pemancing (e.g., *"Menurutmu apa kata kunci di paragraf kedua?"*).
 - **Level 2 (HINT):** Memberikan petunjuk arah (e.g., *"Coba gunakan rumus turunan pertama..."*).

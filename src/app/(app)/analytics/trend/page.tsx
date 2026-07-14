@@ -89,12 +89,6 @@ export default function AnalyticsTrendPage() {
   return (
     <div className="min-h-screen bg-[var(--bg-primary)] text-[var(--text-primary)] p-6 md:p-10 font-sans">
       <div className="max-w-7xl mx-auto">
-        <button
-          onClick={() => router.push("/dashboard")}
-          className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] text-sm mb-4 inline-flex items-center gap-1 transition-colors"
-        >
-          <ArrowLeft className="w-4 h-4" /> Dashboard
-        </button>
         <h1 className="text-3xl font-bold mb-2 flex items-center gap-2 text-slate-800">
           <TrendingUp className="w-7 h-7 text-[var(--accent)]" /> Tren
           Perkembangan Skor
@@ -259,6 +253,9 @@ export default function AnalyticsTrendPage() {
                   <th className="text-center py-3 px-2 font-medium">
                     Perubahan
                   </th>
+                  <th className="text-center py-3 px-2 font-medium">
+                    Aksi
+                  </th>
                 </tr>
               </thead>
               <tbody>
@@ -286,6 +283,18 @@ export default function AnalyticsTrendPage() {
                         className={`py-3 px-2 text-center font-medium ${diff > 0 ? "text-emerald-600" : diff < 0 ? "text-rose-500" : "text-slate-400"}`}
                       >
                         {i === 0 ? "-" : diff > 0 ? `+${diff}` : diff}
+                      </td>
+                      <td className="py-3 px-2 text-center">
+                        {d.attemptId ? (
+                          <button
+                            onClick={() => router.push(`/tryout/${d.attemptId}/review`)}
+                            className="text-[11px] font-bold text-[var(--accent)] bg-[var(--accent)]/10 hover:bg-[var(--accent)] hover:text-white px-3 py-1.5 rounded-lg transition-colors inline-flex items-center gap-1"
+                          >
+                            Bahas Soal <ChevronRight className="w-3 h-3" />
+                          </button>
+                        ) : (
+                          <span className="text-xs text-slate-300">-</span>
+                        )}
                       </td>
                     </tr>
                   );

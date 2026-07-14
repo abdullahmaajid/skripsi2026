@@ -73,8 +73,18 @@ export async function POST(req: NextRequest) {
     )
     // ───────────────────────────────────────────────────────────────────────
 
+    // Fetch IRT settings from DB
+    const settings = await prisma.systemSetting.findMany({
+      where: { key: { in: ["IRT_MEAN", "IRT_SD"] } }
+    })
+    const config = { mean: 500, sd: 100 }
+    settings.forEach(s => {
+      if (s.key === "IRT_MEAN") config.mean = parseFloat(s.value)
+      if (s.key === "IRT_SD") config.sd = parseFloat(s.value)
+    })
+
     const theta = estimateTheta(irtInputs)
-    const scaledScore = scaleToSNBT(theta)
+    const scaledScore = scaleToSNBT(theta, config)
     const correctCount = irtInputs.filter(i => i.correct).length
     const rawScore = (correctCount / irtInputs.length) * 100
 
@@ -90,7 +100,7 @@ export async function POST(req: NextRequest) {
       }),
       ...Object.entries(subjectMap).map(([subjectId, subData]) => {
         const subTheta = estimateTheta(subData.inputs)
-        const subScaled = scaleToSNBT(subTheta)
+        const subScaled = scaleToSNBT(subTheta, config)
         return prisma.subjectScore.upsert({
           where: { attemptId_subjectId: { attemptId, subjectId } },
           update: { correct: subData.correct, total: subData.total, irtTheta: subTheta, scaledScore: subScaled },

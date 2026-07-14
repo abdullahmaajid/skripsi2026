@@ -35,14 +35,10 @@ export default function ChancingDetailPage({ params }: { params: Promise<{ major
 
   const r = data
   const pct = r.chance.percentage
-  const color = pct >= 60 ? "hsl(150,70%,45%)" : pct >= 30 ? "hsl(40,90%,50%)" : "hsl(10,80%,55%)"
+  const color = pct >= 60 ? "hsl(150,70%,45%)" : pct >= 40 ? "hsl(200,80%,50%)" : pct >= 25 ? "hsl(40,90%,50%)" : "hsl(10,80%,55%)"
 
   return (
     <div className="space-y-6">
-      <button onClick={() => router.push("/analytics/chancing")} className="text-slate-400 hover:text-slate-600 text-sm mb-6 inline-flex items-center gap-1.5 transition-colors font-medium">
-          <ArrowLeft className="w-4 h-4" /> Kembali
-        </button>
-
         <div className="bg-white border border-slate-100 rounded-3xl p-8 mb-6 shadow-[0_4px_24px_rgba(0,0,0,0.02)]">
           <div className="flex items-center gap-3 mb-2">
             <div className="w-10 h-10 rounded-xl bg-[var(--pastel-purple)] flex items-center justify-center shrink-0">

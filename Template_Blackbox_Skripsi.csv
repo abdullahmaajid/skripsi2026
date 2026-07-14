@@ -1,0 +1,28 @@
+﻿"Test Case ID";"Skenario / Modul";"Teknik Pengujian";"Prasyarat";"Data Uji";"Langkah Pengujian";"Hasil yang Diharapkan (Expected)";"Hasil Aktual";"Status";"Catatan"
+"TC-AUTH-001";"Login - Happy Path";"Use Case Testing";"User terdaftar";"email=siswa@test.com, pass=valid";"1. Buka /login
+2. Input data
+3. Klik Masuk";"Diarahkan ke dashboard, session valid";"";"";""
+"TC-AUTH-002";"Login - Password Salah";"Error Guessing";"User terdaftar";"email=siswa@test.com, pass=salah";"1. Buka /login
+2. Input data
+3. Klik Masuk";"Pesan error muncul, tetap di /login";"";"";""
+"TC-AUTH-003";"Login - Akses Lintas Peran";"State Transition";"Admin terdaftar";"Role = ADMIN, akses /dashboard";"1. Login sbg Admin
+2. Ubah URL ke /dashboard";"Sistem memaksa redirect ke /admin";"";"";""
+"TC-ONB-001";"Onboarding - Kuis (Boundary)";"BVA";"User baru";"Menjawab 0 soal, atau semua soal";"1. Masuk kuis
+2. Kosongkan semua / Jawab semua";"Skor dihitung valid tanpa error NaN/Null";"";"";""
+"TC-TRY-001";"Tryout - BVA Timer Ujian";"BVA";"Tryout Aktif";"Sisa waktu 0 detik";"1. Mulai Tryout
+2. Tunggu timer = 00:00";"Sistem auto-submit jawaban yang ada";"";"";""
+"TC-TRY-002";"Tryout - Koneksi Putus";"Error Guessing";"Sedang Tryout";"Matikan koneksi WiFi";"1. Jawab soal
+2. Matikan WiFi
+3. Klik Next";"Muncul peringatan offline, jawaban tercache lokal";"";"";""
+"TC-TRY-003";"Tryout - IRT Scoring";"Decision Table";"Tryout Selesai";"Pola benar/salah bervariasi";"1. Submit TO
+2. Cek halaman Rapor";"Nilai IRT dikalkulasi akurat berdasarkan p-value";"";"";""
+"TC-TUTOR-001";"Tutor AI - Socratic Limit";"BVA";"Akses /tutor";"User input > 1000 karakter";"1. Buka /tutor
+2. Paste teks 1500 huruf";"Peringatan batas karakter (maxLength) muncul";"";"";""
+"TC-TUTOR-002";"Tutor AI - Logic Tier";"Decision Table";"Menjawab salah 3x";"Salah ke-1, ke-2, ke-3";"1. Input salah 1 (Socratic)
+2. Salah 2 (Hint)
+3. Salah 3 (Solution)";"AI mengubah mode respons sesuai tier kesalahan";"";"";""
+"TC-ANL-001";"Analytics - Empty State";"Equivalence Part.";"Siswa baru, belum ada TO";"Data = 0";"1. Buka /analytics";"Grafik tidak crash, muncul teks ""Belum ada data""";"";"";""
+"TC-ANL-002";"Analytics - UI Responsiveness";"Exploratory";"User di HP";"Resolusi layar 360px";"1. Buka /analytics
+2. Cek Radar Chart";"Grafik tidak terpotong (overflow) / menyusut jadi 0px";"";"";""
+"TC-ADM-001";"Admin - IRT Param Validasi";"EP & BVA";"Akses /admin/settings";"Input Mean = huruf";"1. Masukkan ""ABC"" di kolom Mean
+2. Simpan";"Validasi error, form menolak input non-angka";"";"";""

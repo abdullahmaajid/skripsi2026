@@ -19,12 +19,13 @@ export async function GET() {
   const attempts = await prisma.examAttempt.findMany({
     where: { userId, status: "COMPLETED" },
     orderBy: { finishedAt: "asc" },
-    select: { scaledScore: true, irtScore: true, finishedAt: true, template: { select: { name: true } } },
+    select: { id: true, scaledScore: true, irtScore: true, finishedAt: true, template: { select: { name: true } } },
   })
 
   const data = attempts.map((a, i) => {
     const formattedDate = a.finishedAt ? new Intl.DateTimeFormat("id-ID", { month: "short", day: "numeric" }).format(a.finishedAt) : ""
     return {
+      attemptId: a.id,
       attempt: a.template.name || `TO #${i + 1}`,
       scaled: Math.round(a.scaledScore || 0),
       theta: Math.round((a.irtScore || 0) * 100) / 100,

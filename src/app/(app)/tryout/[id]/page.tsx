@@ -357,7 +357,7 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
     <div className="h-screen flex w-full font-sans bg-white overflow-hidden relative">
       
       {/* LEFT PANEL */}
-      <div className="flex-1 relative bg-slate-50 overflow-hidden border-r border-slate-100 flex-col">
+      <div className="flex-1 relative bg-slate-50 border-r border-slate-100 flex-col md:pb-0 pb-[calc(40px+env(safe-area-inset-bottom))] md:overflow-hidden overflow-y-auto">
         {/* Blurred gradient background */}
         <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-60">
           <div className="absolute -top-1/4 -left-1/4 w-[800px] h-[800px] bg-[var(--pastel-purple)] rounded-full blur-[120px]" />
@@ -426,45 +426,52 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
           </div>
 
           {/* Bottom: Nav Controls */}
-          <div className="hidden lg:block pt-4 mt-4">
-            <div className="flex items-center justify-between gap-3">
+          <div className="pt-6 mt-4 space-y-3">
+            <div className="flex items-center justify-between gap-3 md:gap-3 w-full">
               <div className="flex items-center gap-3">
               {!isAdaptive && (
                 <button 
                   onClick={prevQuestion}
                   disabled={currentIndex === 0}
-                  className="px-5 py-3 bg-white border border-slate-200/60 disabled:opacity-40 hover:bg-slate-50 rounded-xl font-bold text-slate-600 flex items-center gap-2 transition-all shadow-sm text-sm"
+                  className="p-3 md:px-5 md:py-3 bg-white border border-slate-200/60 disabled:opacity-40 hover:bg-slate-50 rounded-xl font-bold text-slate-600 flex items-center gap-1.5 md:gap-2 transition-all shadow-sm text-sm"
                 >
-                  <ChevronLeft className="w-4 h-4" /> Sebelumnya
+                  <ChevronLeft className="w-5 h-5 shrink-0" />
+                  <span className="hidden md:inline">Sebelumnya</span>
                 </button>
               )}
               <button 
                 onClick={() => toggleFlag(currentQ.id)}
-                className={`px-5 py-3 border rounded-xl font-bold flex items-center gap-2 transition-all shadow-sm text-sm ${
+                className={`p-3 md:px-5 md:py-3 border rounded-xl font-bold flex items-center gap-1.5 md:gap-2 transition-all shadow-sm text-sm ${
                   isFlagged 
                     ? "bg-amber-50 border-amber-200 text-amber-600" 
                     : "bg-white border-slate-200/60 hover:bg-slate-50 text-slate-600"
                 }`}
               >
-                <Flag className={`w-4 h-4 ${isFlagged ? "fill-amber-500 text-amber-500" : ""}`} /> Ragu-ragu
+                <Flag className={`w-5 h-5 shrink-0 ${isFlagged ? "fill-amber-500 text-amber-500" : ""}`} />
+                <span className="hidden md:inline">Ragu-ragu</span>
               </button>
             </div>
 
             {sections.length > 0 && currentQ && currentQ.id === questions.filter(q => q.subject === sections[currentSectionIndex]?.subjectName).slice(-1)[0]?.id && currentSectionIndex < sections.length - 1 ? (
               <button 
                 onClick={moveToNextSection}
-                className="px-7 py-3 bg-[var(--accent)] hover:bg-[var(--accent-hover)] rounded-xl font-bold text-white flex items-center gap-2 transition-all shadow-[0_4px_12px_rgba(193,119,249,0.25)] text-sm"
+                className="p-2.5 md:px-7 md:py-3 bg-[var(--accent)] hover:bg-[var(--accent-hover)] rounded-xl font-bold text-white flex items-center gap-1 md:gap-2 transition-all shadow-[0_4px_12px_rgba(193,119,249,0.25)] text-sm"
               >
-                Mulai Subtes Berikutnya <ChevronRight className="w-4 h-4" />
+                <span className="hidden md:inline">Mulai Subtes Berikutnya</span>
+                <span className="md:hidden">Berikutnya</span>
+                <ChevronRight className="w-4 h-4 shrink-0" />
               </button>
             ) : (
               <button 
                 onClick={handleNextClick}
                 disabled={(!isAdaptive && currentIndex === questions.length - 1) || isFetchingNext}
-                className="px-7 py-3 bg-[var(--accent)] disabled:opacity-50 hover:bg-[var(--accent-hover)] rounded-xl font-bold text-white flex items-center gap-2 transition-all shadow-[0_4px_12px_rgba(193,119,249,0.25)] text-sm"
+                className="p-2.5 md:px-7 md:py-3 bg-[var(--accent)] disabled:opacity-50 hover:bg-[var(--accent-hover)] rounded-xl font-bold text-white flex items-center gap-1 md:gap-2 transition-all shadow-[0_4px_12px_rgba(193,119,249,0.25)] text-sm"
               >
-                {isFetchingNext ? "Memuat..." : (isAdaptive && currentIndex === totalItems - 1 ? "Selesai" : "Selanjutnya")}
-                {isFetchingNext ? <Loader2 className="w-4 h-4 animate-spin" /> : <ChevronRight className="w-4 h-4" />}
+                <span className="md:hidden">
+                  {isFetchingNext ? "..." : (isAdaptive && currentIndex === totalItems - 1 ? "Selesai" : "Berikutnya")}
+                </span>
+                <span className="hidden md:inline">{isFetchingNext ? "Memuat..." : (isAdaptive && currentIndex === totalItems - 1 ? "Selesai" : "Selanjutnya")}</span>
+                {isFetchingNext ? <Loader2 className="w-4 h-4 animate-spin shrink-0" /> : <ChevronRight className="w-4 h-4 shrink-0" />}
               </button>
             )}
           </div>

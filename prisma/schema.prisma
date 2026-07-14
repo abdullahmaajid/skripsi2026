@@ -317,6 +317,13 @@ model ChapterProgress {
   @@unique([userId, chapterId])
 }
 
+model SystemSetting {
+  key         String   @id
+  value       String   @db.Text
+  description String?  @db.Text
+  updatedAt   DateTime @updatedAt
+}
+
 enum MasteryStatus {
   NOT_STARTED
   IN_PROGRESS

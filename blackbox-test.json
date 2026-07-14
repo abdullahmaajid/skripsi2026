@@ -1,0 +1,579 @@
+{
+  "test_plan_name": "UTBK App (Lexica) - Bab Pengujian Black Box Skripsi",
+  "version": "7.0 (Pure Black-Box — Spec Language Edition)",
+  "last_updated": "2026-07-13",
+  "qa_engineer_name": "Mahasiswa Peneliti",
+  "metode_utama": "Black Box Testing",
+  "catatan_metodologi": "Seluruh expected_result dan catatan merujuk pada Spesifikasi Kebutuhan Fungsional di BAB III dokumen skripsi, bukan pada implementasi kode internal. Pengujian dilakukan murni dari sisi perilaku sistem yang dapat diamati (observable behavior).",
+  "teknik_yang_digunakan": [
+    "Equivalence Partitioning (EP)",
+    "Boundary Value Analysis (BVA)",
+    "Decision Table",
+    "Use Case Testing",
+    "Error Guessing",
+    "Exploratory Testing"
+  ],
+  "test_modules": [
+
+    {
+      "module_name": "M01 — Autentikasi & Manajemen Sesi",
+      "total_tc": 5,
+      "test_cases": [
+        {
+          "id": "TC-AUTH-001",
+          "title": "Login Sukses Sebagai Siswa",
+          "requirement_ref": "FR-AUTH-01 (BAB III)",
+          "priority": "High",
+          "teknik_pengujian": "Use Case Testing",
+          "prasyarat": "Akun Siswa sudah terdaftar di database",
+          "data_uji": "email='siswa@utbk.com', password='password123'",
+          "langkah_pengujian": [
+            "1. Buka halaman /login",
+            "2. Input email dan password valid milik Siswa",
+            "3. Klik tombol 'Masuk'"
+          ],
+          "expected_result": "Autentikasi berhasil, sesi pengguna tercipta, sistem mengarahkan otomatis ke halaman /dashboard.",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": ""
+        },
+        {
+          "id": "TC-AUTH-002",
+          "title": "Login Sukses Sebagai Admin",
+          "requirement_ref": "FR-AUTH-02 (BAB III)",
+          "priority": "High",
+          "teknik_pengujian": "Use Case Testing",
+          "prasyarat": "Akun dengan peran ADMIN sudah terdaftar",
+          "data_uji": "email='admin@utbk.com', password='adminpass123'",
+          "langkah_pengujian": [
+            "1. Buka halaman /login",
+            "2. Input kredensial akun Admin",
+            "3. Klik 'Masuk'"
+          ],
+          "expected_result": "Autentikasi berhasil, sistem mengarahkan ke /admin (bukan /dashboard). Antarmuka panel admin termuat sesuai peran.",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": ""
+        },
+        {
+          "id": "TC-AUTH-003",
+          "title": "Login Gagal — Kredensial Salah",
+          "requirement_ref": "FR-AUTH-03 (BAB III)",
+          "priority": "High",
+          "teknik_pengujian": "Error Guessing",
+          "prasyarat": "Halaman login aktif dan dapat diakses",
+          "data_uji": "email='siswa@utbk.com', password='salahbanget'",
+          "langkah_pengujian": [
+            "1. Buka /login",
+            "2. Input email yang terdaftar, namun dengan password yang salah",
+            "3. Klik 'Masuk'"
+          ],
+          "expected_result": "Sistem menolak autentikasi. Muncul pesan error 'Email atau password salah'. URL tetap /login, tidak ada proses redirect ke dashboard.",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": ""
+        },
+        {
+          "id": "TC-AUTH-004",
+          "title": "Proteksi Rute — Siswa Mencoba Akses Panel Admin",
+          "requirement_ref": "FR-AUTH-04 (BAB III)",
+          "priority": "High",
+          "teknik_pengujian": "Use Case Testing",
+          "prasyarat": "Pengguna sudah login sebagai Siswa (peran STUDENT)",
+          "data_uji": "URL target = '/admin/users'",
+          "langkah_pengujian": [
+            "1. Login sebagai Siswa",
+            "2. Ubah URL di address bar browser menjadi /admin/users",
+            "3. Tekan Enter"
+          ],
+          "expected_result": "Sistem mendeteksi ketidaksesuaian peran, menolak akses, dan mengalihkan pengguna kembali ke /dashboard. Tidak ada data panel admin yang pernah termuat.",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": "Validasi RBAC sesuai FR-AUTH-04 BAB III"
+        },
+        {
+          "id": "TC-AUTH-005",
+          "title": "Proteksi Rute — Admin Mencoba Akses Dashboard Siswa",
+          "requirement_ref": "FR-AUTH-04 (BAB III)",
+          "priority": "High",
+          "teknik_pengujian": "Use Case Testing",
+          "prasyarat": "Pengguna sudah login sebagai Admin (peran ADMIN)",
+          "data_uji": "URL target = '/dashboard'",
+          "langkah_pengujian": [
+            "1. Login sebagai Admin",
+            "2. Ubah URL di address bar browser menjadi /dashboard",
+            "3. Tekan Enter"
+          ],
+          "expected_result": "Sistem mendeteksi ketidaksesuaian peran dan mengalihkan Admin kembali ke /admin. Halaman /dashboard tidak pernah termuat.",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": "Kebalikan dari TC-AUTH-004"
+        }
+      ]
+    },
+
+    {
+      "module_name": "M02 — CBT Simulator / Ujian Tryout",
+      "total_tc": 5,
+      "test_cases": [
+        {
+          "id": "TC-TRY-001",
+          "title": "Navigasi Antar Soal",
+          "requirement_ref": "FR-TRY-01 (BAB III)",
+          "priority": "High",
+          "teknik_pengujian": "Use Case Testing",
+          "prasyarat": "Tryout aktif, siswa sedang dalam sesi ujian",
+          "data_uji": "Klik tombol navigasi (Sebelumnya, Selanjutnya) dan nomor soal spesifik",
+          "langkah_pengujian": [
+            "1. Klik 'Selanjutnya' dari soal 1 ke soal 2",
+            "2. Klik 'Sebelumnya' dari soal 2 kembali ke soal 1",
+            "3. Klik langsung nomor soal ke-15 pada panel navigasi"
+          ],
+          "expected_result": "Soal yang ditampilkan berganti sesuai navigasi. Jawaban yang telah dipilih pada soal sebelumnya tidak hilang saat berpindah soal.",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": ""
+        },
+        {
+          "id": "TC-TRY-002",
+          "title": "Submit Manual Sebelum Waktu Habis",
+          "requirement_ref": "FR-TRY-03 (BAB III)",
+          "priority": "High",
+          "teknik_pengujian": "Use Case Testing",
+          "prasyarat": "Tryout aktif, timer masih berjalan",
+          "data_uji": "Soal 1-5 dijawab, soal 6-10 dikosongkan",
+          "langkah_pengujian": [
+            "1. Jawab soal nomor 1 hingga 5",
+            "2. Lewati soal nomor 6 hingga 10 (biarkan kosong)",
+            "3. Klik tombol 'Selesai / Submit'",
+            "4. Konfirmasi peringatan 'Masih ada soal yang belum dijawab'"
+          ],
+          "expected_result": "Jawaban terkirim ke server. Soal yang dikosongkan tercatat sebagai tidak dijawab. Sistem mengarahkan pengguna ke halaman rapor dengan skor yang terhitung.",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": ""
+        },
+        {
+          "id": "TC-TRY-003",
+          "title": "Auto-Submit Saat Timer Mencapai Nol",
+          "requirement_ref": "FR-TRY-04 (BAB III)",
+          "priority": "High",
+          "teknik_pengujian": "Boundary Value Analysis (BVA)",
+          "prasyarat": "Tryout aktif, siswa sedang mengerjakan soal",
+          "data_uji": "Nilai sisa waktu = 00:01 detik (batas-1) → 00:00 detik (batas bawah)",
+          "langkah_pengujian": [
+            "1. Mulai sesi tryout",
+            "2. Tunggu atau manipulasi durasi hingga sisa waktu mencapai 00:00",
+            "3. Jangan menekan tombol apapun"
+          ],
+          "expected_result": "Begitu timer menyentuh 00:00, antarmuka terkunci otomatis, jawaban yang ada terkirim ke server tanpa interaksi pengguna, dan sistem mengalihkan ke halaman rapor.",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": "BVA pada batas bawah durasi ujian (FR-TRY-04)"
+        },
+        {
+          "id": "TC-TRY-004",
+          "title": "Submit Dengan Semua Jawaban Kosong",
+          "requirement_ref": "FR-TRY-05 (BAB III)",
+          "priority": "Medium",
+          "teknik_pengujian": "Equivalence Partitioning (EP) — Partisi Kosong",
+          "prasyarat": "Tryout aktif, belum ada soal yang dijawab",
+          "data_uji": "Seluruh jawaban = null (tidak ada pilihan yang dipilih)",
+          "langkah_pengujian": [
+            "1. Mulai sesi tryout",
+            "2. Langsung klik 'Selesai' tanpa menjawab satu soal pun"
+          ],
+          "expected_result": "Sistem tidak mengalami error atau crash. Seluruh soal tercatat sebagai tidak dijawab. Skor yang dihasilkan merepresentasikan kemampuan minimum sesuai spesifikasi skala penilaian di BAB III.",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": "Sesuai FR-TRY-05 BAB III: skenario jawaban seluruhnya kosong harus menghasilkan skor minimum yang terdefinisi, bukan error."
+        },
+        {
+          "id": "TC-TRY-005",
+          "title": "Koneksi Terputus Saat Ujian Berlangsung",
+          "requirement_ref": "FR-TRY-07 (BAB III)",
+          "priority": "Medium",
+          "teknik_pengujian": "Error Guessing",
+          "prasyarat": "Sesi tryout sedang berjalan aktif",
+          "data_uji": "Status jaringan = Offline (koneksi internet diputus)",
+          "langkah_pengujian": [
+            "1. Jawab soal nomor 1 hingga 3",
+            "2. Putuskan koneksi internet perangkat",
+            "3. Jawab soal nomor 4 dan 5, lalu klik 'Selanjutnya'"
+          ],
+          "expected_result": "Sistem menampilkan indikator status offline kepada pengguna. Jawaban yang telah diinput tersimpan secara lokal di perangkat. Saat koneksi pulih, data tersinkronisasi otomatis tanpa mengulang sesi ujian.",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": ""
+        }
+      ]
+    },
+
+    {
+      "module_name": "M03 — Mesin Penilaian IRT (Rasch 1-PL / MLE)",
+      "total_tc": 4,
+      "test_cases": [
+        {
+          "id": "TC-IRT-001",
+          "title": "Penilaian IRT — Semua Jawaban Benar (Batas Atas)",
+          "requirement_ref": "FR-IRT-01 (BAB III)",
+          "priority": "High",
+          "teknik_pengujian": "Boundary Value Analysis (BVA)",
+          "prasyarat": "Kunci jawaban tryout tersedia dan dapat diverifikasi",
+          "data_uji": "Seluruh jawaban = Benar (100% correct rate)",
+          "langkah_pengujian": [
+            "1. Jawab semua soal dalam tryout dengan pilihan yang benar",
+            "2. Submit tryout",
+            "3. Periksa nilai akhir pada halaman rapor"
+          ],
+          "expected_result": "Sesuai spesifikasi sistem penilaian di BAB III, kemampuan maksimum (seluruh jawaban benar) harus menghasilkan skor SNBT pada nilai tertinggi skala yang ditetapkan (1000).",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": "BVA: batas atas kemampuan. Referensi: Spesifikasi Model IRT di BAB III — ability maksimum → skor SNBT = 1000."
+        },
+        {
+          "id": "TC-IRT-002",
+          "title": "Penilaian IRT — Semua Jawaban Salah (Batas Bawah)",
+          "requirement_ref": "FR-IRT-01 (BAB III)",
+          "priority": "High",
+          "teknik_pengujian": "Boundary Value Analysis (BVA)",
+          "prasyarat": "Tryout selesai dikerjakan",
+          "data_uji": "Seluruh jawaban = Salah (0% correct rate)",
+          "langkah_pengujian": [
+            "1. Pilih opsi yang salah pada seluruh soal tryout",
+            "2. Submit tryout",
+            "3. Periksa nilai akhir pada halaman rapor"
+          ],
+          "expected_result": "Sesuai spesifikasi sistem penilaian di BAB III, kemampuan minimum (seluruh jawaban salah) harus menghasilkan skor SNBT pada nilai terendah skala yang ditetapkan (0).",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": "BVA: batas bawah kemampuan. Referensi: Spesifikasi Model IRT di BAB III — ability minimum → skor SNBT = 0."
+        },
+        {
+          "id": "TC-IRT-003",
+          "title": "Penilaian IRT — Jawaban Campuran (Estimasi Normal)",
+          "requirement_ref": "FR-IRT-02 (BAB III)",
+          "priority": "High",
+          "teknik_pengujian": "Equivalence Partitioning (EP) — Partisi Valid",
+          "prasyarat": "Tryout dengan soal bervariasi tingkat kesulitan tersedia",
+          "data_uji": "50% jawaban benar, 50% jawaban salah secara bergantian",
+          "langkah_pengujian": [
+            "1. Jawab soal secara bergantian (benar-salah-benar-salah...)",
+            "2. Submit tryout",
+            "3. Periksa nilai skor yang ditampilkan pada halaman rapor"
+          ],
+          "expected_result": "Algoritma estimasi kemampuan berhasil konvergen menghasilkan skor. Nilai akhir berada dalam rentang normal skala SNBT (200–800) sesuai spesifikasi transformasi di BAB III. Tidak ada nilai NaN atau error.",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": "EP: partisi valid — jawaban campuran. Referensi: Spesifikasi MLE dan transformasi skala di BAB III."
+        },
+        {
+          "id": "TC-IRT-004",
+          "title": "Konsistensi Transformasi Skor SNBT",
+          "requirement_ref": "FR-IRT-03 (BAB III)",
+          "priority": "Medium",
+          "teknik_pengujian": "Boundary Value Analysis (BVA)",
+          "prasyarat": "Konfigurasi sistem menggunakan parameter default (Mean=500, SD=100) sesuai BAB III",
+          "data_uji": "Dua skenario: kemampuan tinggi (jawaban >90% benar) dan kemampuan rendah (jawaban <10% benar)",
+          "langkah_pengujian": [
+            "1. Kerjakan tryout dengan jawaban >90% benar, catat skor hasilnya",
+            "2. Kerjakan tryout lain dengan jawaban <10% benar, catat skor hasilnya",
+            "3. Bandingkan kedua skor dengan rentang yang ditetapkan di BAB III"
+          ],
+          "expected_result": "Skor pada skenario kemampuan tinggi mendekati 800, skor pada skenario kemampuan rendah mendekati 200. Keduanya konsisten dengan formula transformasi linier yang didefinisikan di BAB III: Skor = Mean + (Kemampuan × SD).",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": "Referensi: Formula transformasi linier di Spesifikasi Sistem BAB III. Bukan verifikasi kode, melainkan verifikasi keluaran terhadap spesifikasi."
+        }
+      ]
+    },
+
+    {
+      "module_name": "M04 — Chancing Engine (Kalkulator Peluang Kelulusan)",
+      "total_tc": 5,
+      "test_cases": [
+        {
+          "id": "TC-CHN-001",
+          "title": "Peluang Tinggi — Skor Jauh Di Atas Passing Grade (Label AMAN)",
+          "requirement_ref": "FR-CHN-01 (BAB III)",
+          "priority": "High",
+          "teknik_pengujian": "Equivalence Partitioning (EP) — Partisi AMAN",
+          "prasyarat": "Data skor siswa tersimpan; data estimasi nilai ambang jurusan tersedia",
+          "data_uji": "Skor Siswa=750, Nilai Ambang Jurusan=600, Rasio Kompetisi=10",
+          "langkah_pengujian": [
+            "1. Atur skor siswa menjadi 750 di database",
+            "2. Buka chancing engine untuk jurusan dengan nilai ambang estimasi 600",
+            "3. Catat label dan persentase peluang yang ditampilkan"
+          ],
+          "expected_result": "Persentase peluang yang ditampilkan >= 65%. Label yang ditampilkan adalah 'AMAN' sesuai spesifikasi kategorisasi di BAB III.",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": "EP: Partisi 'AMAN' → persentase >= 65% (Referensi: Tabel Kategorisasi Peluang di BAB III)"
+        },
+        {
+          "id": "TC-CHN-002",
+          "title": "Peluang Kritis — Skor Tepat Di Nilai Ambang Jurusan",
+          "requirement_ref": "FR-CHN-02 (BAB III)",
+          "priority": "High",
+          "teknik_pengujian": "Boundary Value Analysis (BVA)",
+          "prasyarat": "Data skor siswa dan nilai ambang jurusan tersedia",
+          "data_uji": "Skor Siswa=600, Nilai Ambang Jurusan=600, Rasio Kompetisi=10",
+          "langkah_pengujian": [
+            "1. Atur skor siswa tepat sama dengan nilai ambang estimasi jurusan (= 600)",
+            "2. Buka halaman chancing engine untuk jurusan tersebut",
+            "3. Catat persentase peluang yang ditampilkan"
+          ],
+          "expected_result": "Sesuai spesifikasi desain algoritma probabilistik di BAB III, ketika skor siswa tepat sama dengan nilai ambang, sistem dirancang menampilkan peluang yang sedikit konservatif (bukan tepat 50%) untuk mengakomodasi faktor ketidakpastian admisi. Persentase yang diharapkan berada pada rentang 38%–42%. Label yang tampil adalah 'BERSAING' atau 'PELUANG_CUKUP'.",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": "BVA di titik kritis. Toleransi: 38%–42% (Referensi: Spesifikasi Algoritma Probabilistik di BAB III)"
+        },
+        {
+          "id": "TC-CHN-003",
+          "title": "Peluang Rendah — Skor Jauh Di Bawah Passing Grade (Label SANGAT_SULIT)",
+          "requirement_ref": "FR-CHN-01 (BAB III)",
+          "priority": "Medium",
+          "teknik_pengujian": "Equivalence Partitioning (EP) — Partisi SANGAT_SULIT",
+          "prasyarat": "Data skor dan jurusan tersedia",
+          "data_uji": "Skor Siswa=300, Nilai Ambang Jurusan=700, Rasio Kompetisi=30",
+          "langkah_pengujian": [
+            "1. Atur skor siswa menjadi 300",
+            "2. Buka chancing engine untuk jurusan elite dengan nilai ambang 700"
+          ],
+          "expected_result": "Persentase peluang <= 15%. Label yang ditampilkan adalah 'SANGAT_SULIT'. Sistem tidak pernah menampilkan nilai 0% (nilai minimum yang dapat tampil adalah 3% sesuai spesifikasi BAB III).",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": "EP: Partisi 'SANGAT_SULIT'. Referensi: Spesifikasi rentang minimum peluang di BAB III."
+        },
+        {
+          "id": "TC-CHN-004",
+          "title": "Kondisi Tidak Valid — Skor Siswa Belum Tersedia",
+          "requirement_ref": "FR-CHN-03 (BAB III)",
+          "priority": "Medium",
+          "teknik_pengujian": "Error Guessing",
+          "prasyarat": "Akun Siswa baru yang belum pernah mengerjakan satu Tryout pun",
+          "data_uji": "Skor Siswa = tidak ada (belum ada data histori tryout)",
+          "langkah_pengujian": [
+            "1. Login sebagai Siswa baru yang belum memiliki histori tryout",
+            "2. Buka halaman /analytics/chancing",
+            "3. Pilih salah satu jurusan"
+          ],
+          "expected_result": "Sistem tidak crash atau menampilkan nilai tidak terdefinisi (NaN/undefined). Ditampilkan pesan informatif kepada pengguna, misal: 'Selesaikan minimal satu Tryout untuk melihat peluang kelulusan'.",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": "Invalid state edge case. Referensi: FR-CHN-03 BAB III — penanganan data kosong."
+        },
+        {
+          "id": "TC-CHN-005",
+          "title": "Pengaruh Tingkat Kompetisi Sangat Tinggi",
+          "requirement_ref": "FR-CHN-04 (BAB III)",
+          "priority": "Low",
+          "teknik_pengujian": "Boundary Value Analysis (BVA)",
+          "prasyarat": "Data jurusan dengan rasio peminat/kuota yang sangat tinggi tersedia",
+          "data_uji": "Skor Siswa=650, Nilai Ambang=620, Rasio Kompetisi=25 vs Rasio Kompetisi=10",
+          "langkah_pengujian": [
+            "1. Cek peluang untuk jurusan dengan rasio kompetisi = 25 (skor siswa 650, ambang 620)",
+            "2. Cek peluang untuk jurusan berbeda dengan rasio kompetisi = 10 (skor dan ambang sama)",
+            "3. Bandingkan kedua persentase hasil"
+          ],
+          "expected_result": "Sesuai spesifikasi di BAB III, tingkat kompetisi sangat tinggi (di atas ambang tertentu) harus menghasilkan persentase peluang yang lebih rendah dibandingkan kompetisi normal, meskipun skor dan nilai ambang jurusan identik.",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": "BVA pada ambang tingkat kompetisi tinggi. Referensi: Spesifikasi penalti kompetisi di BAB III."
+        }
+      ]
+    },
+
+    {
+      "module_name": "M05 — AI Tutor & Socratic Scaffolding",
+      "total_tc": 2,
+      "test_cases": [
+        {
+          "id": "TC-AI-001",
+          "title": "Decision Table — Perubahan Tier Respons AI",
+          "requirement_ref": "FR-TUTOR-02 (BAB III)",
+          "priority": "High",
+          "teknik_pengujian": "Decision Table",
+          "prasyarat": "Siswa berada di halaman latihan dengan fitur AI Tutor aktif",
+          "data_uji": "Jumlah percobaan jawaban salah berturut-turut: ke-1, ke-2, ke-3",
+          "langkah_pengujian": [
+            "1. Jawab soal dengan jawaban salah (percobaan 1) — amati respons AI",
+            "2. Jawab salah lagi (percobaan 2) — amati perubahan respons AI",
+            "3. Jawab salah lagi (percobaan 3) — amati respons AI"
+          ],
+          "expected_result": "Sesuai Decision Table di BAB III: percobaan salah ke-1 memicu mode Socratic (AI mengajukan pertanyaan balik), ke-2 memicu mode Hint (AI memberi petunjuk), ke-3 memicu mode Solution (AI memberikan jawaban lengkap). Tidak ada tier yang terlewat atau terbalik.",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": "Referensi: Decision Table Tier AI Tutor di BAB III"
+        },
+        {
+          "id": "TC-AI-002",
+          "title": "Penanganan Timeout Layanan AI Eksternal",
+          "requirement_ref": "FR-TUTOR-05 (BAB III)",
+          "priority": "Medium",
+          "teknik_pengujian": "Error Guessing",
+          "prasyarat": "Fitur Tutor AI aktif dan dapat diakses",
+          "data_uji": "Respons layanan AI eksternal disimulasikan lambat (melebihi batas waktu maksimum yang ditetapkan sistem)",
+          "langkah_pengujian": [
+            "1. Kirim pertanyaan ke Tutor AI",
+            "2. Gunakan fitur Network Throttle di browser untuk memblokir atau memperlambat koneksi ke server AI eksternal"
+          ],
+          "expected_result": "Setelah melewati batas waktu tunggu, sistem menampilkan pesan ramah kepada pengguna (misal: 'Tutor AI sedang sibuk, coba lagi sebentar'). Tidak ada tampilan pesan error server mentah (HTTP 500).",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": ""
+        }
+      ]
+    },
+
+    {
+      "module_name": "M06 — Analytics, Learning Path & UI Responsivitas",
+      "total_tc": 3,
+      "test_cases": [
+        {
+          "id": "TC-ANL-001",
+          "title": "Radar Chart — Empty State (Data Belum Ada)",
+          "requirement_ref": "FR-ANL-01 (BAB III)",
+          "priority": "Low",
+          "teknik_pengujian": "Equivalence Partitioning (EP) — Partisi Kosong",
+          "prasyarat": "Akun siswa baru, belum pernah mengerjakan satu Tryout pun",
+          "data_uji": "Histori skor = kosong (tidak ada data)",
+          "langkah_pengujian": [
+            "1. Buka halaman /analytics/radar sebagai siswa baru"
+          ],
+          "expected_result": "Komponen grafik tidak crash atau menampilkan error JavaScript. Ditampilkan pesan atau ilustrasi informasi kosong yang sesuai (misal: 'Belum ada data ujian untuk ditampilkan').",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": ""
+        },
+        {
+          "id": "TC-ANL-002",
+          "title": "Responsivitas Grafik Analytics di Layar Mobile",
+          "requirement_ref": "FR-UI-02 (BAB III)",
+          "priority": "Low",
+          "teknik_pengujian": "Exploratory Testing",
+          "prasyarat": "Terdapat setidaknya satu data tryout yang sudah diselesaikan",
+          "data_uji": "Viewport width = 360px (resolusi perangkat mobile standar)",
+          "langkah_pengujian": [
+            "1. Buka halaman /analytics",
+            "2. Aktifkan mode perangkat mobile di browser (DevTools > Device: Galaxy S8 atau sejenisnya)",
+            "3. Periksa tampilan Radar Chart dan Trend Chart"
+          ],
+          "expected_result": "Semua grafik menyesuaikan ukuran terhadap kontainer. Tinggi grafik tidak menyusut menjadi 0px. Tooltip dapat dibaca saat di-tap. Teks tidak terpotong (overflow).",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": ""
+        },
+        {
+          "id": "TC-LRN-001",
+          "title": "Navigasi Silabus Learning Path",
+          "requirement_ref": "FR-LRN-01 (BAB III)",
+          "priority": "Medium",
+          "teknik_pengujian": "Use Case Testing",
+          "prasyarat": "Siswa sudah login dan data silabus tersedia di database",
+          "data_uji": "Klik mata pelajaran 'Penalaran Matematika' → Klik bab 'Aljabar Dasar'",
+          "langkah_pengujian": [
+            "1. Buka /learning-path",
+            "2. Klik salah satu Mata Pelajaran",
+            "3. Klik salah satu Bab/Topik yang tersedia",
+            "4. Periksa konten yang dimuat"
+          ],
+          "expected_result": "Halaman menampilkan ringkasan materi atau daftar topik dengan benar. Fitur progres (jika ada) menampilkan status yang sesuai dengan histori belajar siswa.",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": ""
+        }
+      ]
+    },
+
+    {
+      "module_name": "M07 — Admin: Konten & Konfigurasi Sistem",
+      "total_tc": 3,
+      "test_cases": [
+        {
+          "id": "TC-ADM-001a",
+          "title": "Validasi Konfigurasi IRT — Input Tipe Data Salah",
+          "requirement_ref": "FR-ADM-06 (BAB III)",
+          "priority": "Medium",
+          "teknik_pengujian": "Equivalence Partitioning (EP) — Partisi Invalid",
+          "prasyarat": "Login sebagai Admin, buka /admin/settings",
+          "data_uji": "Input kolom 'Mean' = 'Abc' (karakter huruf, bukan angka)",
+          "langkah_pengujian": [
+            "1. Ketik 'Abc' pada kolom input Mean di halaman Settings",
+            "2. Klik tombol Simpan"
+          ],
+          "expected_result": "Validasi sistem menolak input bertipe data bukan angka. Ditampilkan pesan error 'Hanya angka yang diperbolehkan'. Data di database tidak berubah.",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": "Pemisahan dari TC-ADM-001: fokus pada validasi tipe data (EP)"
+        },
+        {
+          "id": "TC-ADM-001b",
+          "title": "Validasi Konfigurasi IRT — Nilai Negatif Di Bawah Batas",
+          "requirement_ref": "FR-ADM-06 (BAB III)",
+          "priority": "Medium",
+          "teknik_pengujian": "Boundary Value Analysis (BVA)",
+          "prasyarat": "Login sebagai Admin, buka /admin/settings",
+          "data_uji": "Input kolom 'Standar Deviasi' = -10 (batas bawah invalid)",
+          "langkah_pengujian": [
+            "1. Masukkan nilai '-10' pada kolom Standar Deviasi",
+            "2. Klik tombol Simpan"
+          ],
+          "expected_result": "Sistem menolak nilai negatif dan menampilkan pesan error 'Nilai tidak boleh kurang dari 0'. Database tidak diperbarui.",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": "Pemisahan dari TC-ADM-001: fokus pada BVA batas bawah nilai valid"
+        },
+        {
+          "id": "TC-ADM-002",
+          "title": "Alur Penerbitan Tryout Baru — End-to-End",
+          "requirement_ref": "FR-ADM-03 (BAB III)",
+          "priority": "High",
+          "teknik_pengujian": "Use Case Testing",
+          "prasyarat": "Terdapat minimal 10 soal di Bank Soal",
+          "data_uji": "Paket Tryout baru: Judul='TO Nasional VII', Durasi=120 menit, Status=Published",
+          "langkah_pengujian": [
+            "1. Buka /admin/tryouts, klik 'Buat Tryout Baru'",
+            "2. Isi semua field yang diperlukan",
+            "3. Tambahkan soal dari bank soal ke paket ini",
+            "4. Ubah toggle status menjadi 'Published'",
+            "5. Buka tab browser baru (Incognito), login sebagai Siswa, buka /tryout/list"
+          ],
+          "expected_result": "Paket Tryout baru langsung muncul di daftar Tryout milik Siswa tanpa perlu restart server. Data konsisten antara tampilan Admin dan Siswa.",
+          "actual_result": "",
+          "status": "UNTESTED",
+          "catatan": "End-to-end integration use case"
+        }
+      ]
+    }
+
+  ],
+  "rekap_hasil": {
+    "total_test_cases": 27,
+    "breakdown_per_modul": {
+      "M01_Autentikasi": 5,
+      "M02_CBT_Tryout": 5,
+      "M03_IRT_Scoring": 4,
+      "M04_Chancing_Engine": 5,
+      "M05_AI_Tutor": 2,
+      "M06_Analytics_LearningPath": 3,
+      "M07_Admin": 3
+    },
+    "breakdown_per_teknik": {
+      "Use_Case_Testing": 9,
+      "Boundary_Value_Analysis": 8,
+      "Equivalence_Partitioning": 5,
+      "Error_Guessing": 3,
+      "Decision_Table": 1,
+      "Exploratory_Testing": 1
+    },
+    "breakdown_per_priority": {
+      "High": 15,
+      "Medium": 9,
+      "Low": 3
+    },
+    "total_pass": 0,
+    "total_fail": 0,
+    "persentase_keberhasilan": "Belum dieksekusi"
+  }
+}
