@@ -536,6 +536,21 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
               )}
             </div>
 
+            {/* Navigation Grid (Desktop) */}
+            <div className="flex-1 mt-8 mb-6">
+              <NavigationGrid 
+                questions={questions}
+                answers={answers}
+                flagged={flagged}
+                currentIndex={currentIndex}
+                isAdaptive={isAdaptive}
+                totalItems={totalItems}
+                sections={sections}
+                currentSectionIndex={currentSectionIndex}
+                goToQuestion={goToQuestion}
+              />
+            </div>
+
             {/* Submit */}
             <button 
               onClick={() => finishExam()}
