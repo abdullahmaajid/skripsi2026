@@ -129,37 +129,43 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
   }, [loading, isFinished, decrementTime])
 
   // Submit answers when exam finishes
+  const [submitError, setSubmitError] = useState<string | null>(null)
+
+  const submitAnswers = async () => {
+    if (!attemptId || submitting) return
+    setSubmitting(true)
+    setSubmitError(null)
+    try {
+      const responses = questions.map((q) => ({
+        questionId: q.id,
+        selectedIds: answers[q.id] || [],
+        timeSpent: questionTimes[q.id] || 0,
+        flagged: flagged[q.id] || false,
+      }))
+
+      const res = await fetch("/api/tryout/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ attemptId, responses }),
+      })
+      const data = await res.json()
+      if (res.ok) {
+        setResult(data)
+      } else {
+        setSubmitError(data.error || `Server error (${res.status})`)
+      }
+    } catch (err: any) {
+      console.error("Submit error:", err)
+      setSubmitError("Koneksi gagal. Periksa internet dan coba lagi.")
+    } finally {
+      setSubmitting(false)
+    }
+  }
+
   useEffect(() => {
     if (!isFinished || !attemptId || result || submitting) return
-
-    async function submitAnswers() {
-      setSubmitting(true)
-      try {
-        const responses = questions.map((q) => ({
-          questionId: q.id,
-          selectedIds: answers[q.id] || [],
-          timeSpent: questionTimes[q.id] || 0,
-          flagged: flagged[q.id] || false,
-        }))
-
-        const res = await fetch("/api/tryout/submit", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ attemptId, responses }),
-        })
-        const data = await res.json()
-        if (res.ok) {
-          setResult(data)
-        }
-      } catch (err) {
-        console.error("Submit error:", err)
-      } finally {
-        setSubmitting(false)
-      }
-    }
-
     submitAnswers()
-  }, [isFinished, attemptId, answers, flagged, result, submitting])
+  }, [isFinished, attemptId]) // eslint-disable-line react-hooks/exhaustive-deps
 
   const formatTime = (seconds: number) => {
     const h = Math.floor(seconds / 3600)
@@ -293,6 +299,20 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
               {submitting ? (
                 <div className="flex items-center gap-2 text-slate-500 mb-8 font-medium">
                   <Loader2 className="w-4 h-4 animate-spin" /> Menghitung skor IRT...
+                </div>
+              ) : submitError ? (
+                <div className="w-full space-y-3 mb-8">
+                  <div className="bg-rose-50 border border-rose-100 rounded-xl p-4 text-center">
+                    <AlertTriangle className="w-6 h-6 text-rose-500 mx-auto mb-2" />
+                    <p className="text-sm font-medium text-rose-700 mb-1">Gagal mengirim jawaban</p>
+                    <p className="text-xs text-rose-500">{submitError}</p>
+                  </div>
+                  <button 
+                    onClick={submitAnswers}
+                    className="w-full py-3 bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white font-semibold rounded-xl transition-all shadow-sm"
+                  >
+                    Coba Kirim Ulang
+                  </button>
                 </div>
               ) : result ? (
                 <div className="w-full space-y-4 mb-8 mt-4">
