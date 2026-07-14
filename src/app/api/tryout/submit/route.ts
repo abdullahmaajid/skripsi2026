@@ -61,16 +61,20 @@ export async function POST(req: NextRequest) {
       if (isCorrect) subjectMap[subjectId].correct += 1
     }
 
-    // ── BATCH: upsert all responses in a transaction ───────────────────────
-    await prisma.$transaction(
-      responseRecords.map(rec =>
-        prisma.questionResponse.upsert({
-          where: { attemptId_questionId: { attemptId: rec.attemptId, questionId: rec.questionId } },
-          update: { selectedIds: rec.selectedIds, isCorrect: rec.isCorrect, timeSpent: rec.timeSpent, flagged: rec.flagged },
-          create: rec,
+    // ── FAST BATCH: delete existing responses and insert all at once ──
+    try {
+      await prisma.$transaction([
+        prisma.questionResponse.deleteMany({
+          where: { attemptId }
+        }),
+        prisma.questionResponse.createMany({
+          data: responseRecords
         })
-      )
-    )
+      ])
+    } catch (txnError) {
+      console.error("Error saving responses:", txnError);
+      return NextResponse.json({ error: "Gagal menyimpan jawaban. Coba lagi." }, { status: 500 })
+    }
     // ───────────────────────────────────────────────────────────────────────
 
     // Fetch IRT settings from DB
@@ -89,25 +93,35 @@ export async function POST(req: NextRequest) {
     const rawScore = (correctCount / irtInputs.length) * 100
 
     // ── BATCH: all final updates in a single transaction ───────────────────
-    await prisma.$transaction([
-      prisma.examAttempt.update({
-        where: { id: attemptId },
-        data: { status: "COMPLETED", finishedAt: new Date(), rawScore, irtScore: theta, scaledScore },
-      }),
-      prisma.user.update({
-        where: { id: attempt.userId },
-        data: { irtAbility: theta },
-      }),
-      ...Object.entries(subjectMap).map(([subjectId, subData]) => {
-        const subTheta = estimateTheta(subData.inputs)
-        const subScaled = scaleToSNBT(subTheta, config)
-        return prisma.subjectScore.upsert({
-          where: { attemptId_subjectId: { attemptId, subjectId } },
-          update: { correct: subData.correct, total: subData.total, irtTheta: subTheta, scaledScore: subScaled },
-          create: { attemptId, subjectId, correct: subData.correct, total: subData.total, irtTheta: subTheta, scaledScore: subScaled },
-        })
-      }),
-    ])
+    try {
+      await prisma.$transaction([
+        prisma.examAttempt.update({
+          where: { id: attemptId },
+          data: { status: "COMPLETED", finishedAt: new Date(), rawScore, irtScore: theta, scaledScore },
+        }),
+        prisma.user.update({
+          where: { id: attempt.userId },
+          data: { irtAbility: theta },
+        }),
+        prisma.subjectScore.deleteMany({
+          where: { attemptId }
+        }),
+        prisma.subjectScore.createMany({
+          data: Object.entries(subjectMap).map(([subjectId, subData]) => {
+            const subTheta = estimateTheta(subData.inputs)
+            const subScaled = scaleToSNBT(subTheta, config)
+            return { attemptId, subjectId, correct: subData.correct, total: subData.total, irtTheta: subTheta, scaledScore: subScaled }
+          })
+        }),
+      ],
+      {
+        maxWait: 10000,
+        timeout: 20000,
+      })
+    } catch (txnError) {
+      console.error("Error updating attempt status:", txnError);
+      return NextResponse.json({ error: "Gagal menyelesaikan ujian. Coba lagi." }, { status: 500 })
+    }
     // ───────────────────────────────────────────────────────────────────────
 
     return NextResponse.json({
@@ -118,9 +132,9 @@ export async function POST(req: NextRequest) {
       correct: correctCount,
       total: irtInputs.length,
     })
-  } catch (error) {
+  } catch (error: any) {
     console.error("Submit error:", error)
-    return NextResponse.json({ error: "Gagal submit jawaban." }, { status: 500 })
+    return NextResponse.json({ error: "Terjadi kesalahan server: " + (error.message || "Unknown error") }, { status: 500 })
   }
 }
 
