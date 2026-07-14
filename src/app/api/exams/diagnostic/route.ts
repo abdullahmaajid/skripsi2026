@@ -16,9 +16,7 @@ export async function POST() {
     const existingAttempt = await prisma.examAttempt.findFirst({
       where: {
         userId: session.user.id,
-        template: {
-          is: { isDiagnostic: true },
-        },
+        template: { isDiagnostic: true },
         status: "COMPLETED",
       },
     });

@@ -30,7 +30,7 @@ export default async function DashboardPage() {
     }
 
     hasDiagnostic = await prisma.examAttempt.findFirst({
-      where: { userId, template: { is: { isDiagnostic: true } }, status: "COMPLETED" }
+      where: { userId, template: { isDiagnostic: true }, status: "COMPLETED" }
     })
     
     if (user.role !== "ADMIN" && !hasDiagnostic) {
@@ -39,13 +39,13 @@ export default async function DashboardPage() {
 
     // ── Journey progress for getting-started guide ──
     hasNonDiagnosticTryout = await prisma.examAttempt.findFirst({
-      where: { userId, template: { is: { isDiagnostic: false } }, status: "COMPLETED" }
+      where: { userId, template: { isDiagnostic: false }, status: "COMPLETED" }
     })
     hasLearningPathProgress = await prisma.chapterProgress.findFirst({
       where: { userId }
     })
     hasPracticeActivity = await prisma.questionResponse.findFirst({
-      where: { attempt: { userId, template: { is: { isDiagnostic: false } } } }
+      where: { attempt: { userId, template: { isDiagnostic: false } } }
     })
   }
 
