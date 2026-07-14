@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation"
 import { motion, AnimatePresence } from "framer-motion"
 import { 
   AlertTriangle, Filter, Loader2, Bookmark, CheckCircle2, 
-  XCircle, BrainCircuit, ChevronDown, ChevronUp, MessageSquareShare
+  XCircle, BrainCircuit, ChevronDown, ChevronUp, MessageSquareShare, TrendingUp
 } from "lucide-react"
 import { useTutorChatStore } from "@/store/useTutorChatStore"
 import MarkdownRenderer from "@/components/ui/MarkdownRenderer"

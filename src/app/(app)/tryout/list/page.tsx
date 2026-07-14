@@ -23,7 +23,7 @@ export default async function TryoutListPage() {
 
   return <TryoutListClient templates={templates.map(t => {
     const isCompleted = t.attempts && t.attempts.length > 0;
-    const bestScore = isCompleted ? t.attempts[0].scaledScore : 0;
+    const bestScore = isCompleted ? (t.attempts[0].scaledScore ?? 0) : 0;
     
     return {
       id: t.id,
