@@ -296,4 +296,4 @@ Lexica adalah platform persiapan UTBK‑SNBT yang menggabungkan **AI‑tutor ber
 
 ---
 
-*Dokumen ini mencerminkan status aplikasi pada tanggal 13 Juli 2026.*
+*Dokumen ini mencerminkan status aplikasi pada tanggal 15 Juli 2026.*

@@ -1,285 +1,142 @@
-# BAB III. METODOLOGI PENELITIAN
+# BAB III. METODE TUGAS AKHIR
 
-## 3.1 Kerangka Pemikiran Sistem
+## 3.1 Metode Penelitian
 
-Metodologi pengembangan Lexica mengacu pada pendekatan **Design Science Research (DSR)** yang bertujuan menghasilkan artefak (platform perangkat lunak) yang dapat menyelesaikan masalah nyata. Kerangka pemikiran sistem terdiri dari tiga lapisan utama:
+Pada pengembangan aplikasi Lexica (Tryout & AI Tutor UTBK), proses pengembangan sistem dilakukan menggunakan metode ADDIE (Analysis, Design, Development, Implementation, dan Evaluation). Metode ini dipilih karena memiliki tahapan yang sistematis sehingga memudahkan proses analisis, perancangan, pengembangan, implementasi, dan evaluasi sistem. Setiap tahapan dilakukan secara terstruktur sehingga hasil pengembangan dapat dievaluasi sebelum dilanjutkan ke tahap berikutnya.
 
-### 3.1.1 Lapisan Masalah & Kebutuhan
-- Identifikasi *feedback gap* pada platform TryOut konvensional
-- Kebutuhan akan penilaian yang adil (IRT-based scoring)
-- Permintaan estimasi peluang kelulusan yang terukur
-- Rute belajar personal berbasis mastery learning
-
-### 3.1.2 Lapisan Solusi & Arsitektur
-- **AI Tutor Layer**: LLM Llama-3.1 melalui Groq API dengan scaffolding bertingkat
-- **Assessment Layer**: IRT 1-PL untuk estimasi kemampuan (θ)
-- **Analytics Layer**: Dashboard terintegrasi dengan radar chart, tren, dan chancing
-- **Learning Layer**: Learning Path dengan mastery locking
-
-### 3.1.3 Lapisan Implementasi & Evaluasi
-- Pengembangan berbasis Next.js 16.2.6 (React 19) dengan App Router
-- Integrasi Zustand untuk state management
-- Pengujian fungsional (Black-Box Testing)
-- Evaluasi kebergunaan (System Usability Scale)
+1. **Analysis (Analisis Kebutuhan)**
+Pada tahap ini, penulis menentukan fitur-fitur pada sistem sesuai dengan rumusan masalah yang telah ditentukan. Prosesnya meliputi identifikasi kebutuhan akan sistem penilaian yang lebih adil (berbasis *Item Response Theory* / IRT), kebutuhan estimasi peluang kelulusan (Chancing Engine), serta bimbingan belajar terpersonalisasi menggunakan AI Tutor.
+2. **Design System (Desain Sistem)**
+Tahapan perancangan sistem menggunakan *Unified Modeling Language* (UML) seperti Use Case Diagram dan Activity Diagram, serta perancangan basis data menggunakan *Entity Relationship Diagram* (ERD). Pada tahap ini juga dirancang arsitektur algoritma IRT dan fungsi Sigmoid untuk probabilitas kelulusan, serta prompt sistem untuk AI Scaffolding.
+3. **Development (Pengembangan)**
+Rancangan sistem diterapkan ke dalam bentuk kode program menggunakan teknologi modern berbasis *Next.js 16 (App Router)* untuk frontend dan backend secara *fullstack*, *Prisma ORM* untuk manajemen basis data PostgreSQL, serta integrasi Groq API untuk memproses layanan *Large Language Model* (LLM).
+4. **Implementation (Implementasi)**
+Sistem yang telah dikembangkan di-*deploy* menggunakan layanan cloud (Vercel) sehingga dapat dijalankan secara nyata. Selanjutnya dilakukan pengujian oleh responden sesuai dengan perannya, yaitu siswa dan superadmin.
+5. **Evaluation (Evaluasi)**
+Pada tahap ini dilakukan evaluasi terhadap sistem melalui dua jenis pengujian:
+- **Black-Box Testing**: Memastikan fungsionalitas fitur (CBT Simulator, IRT Scoring, Chancing, AI Tutor, Analytics) berjalan sesuai Spesifikasi Kebutuhan Fungsional (FR).
+- **System Usability Scale (SUS)**: Mengukur tingkat kemudahan penggunaan (*usability*) sistem berdasarkan penilaian pengguna akhir.
 
 ---
 
-## 3.2 Arsitektur Sistem
+## 3.2 Requirement Analysis
 
-Arsitektur Lexica mengadopsi pola **Next.js App Router Architecture** dengan konsep file-system routing yang mendukung nested layouts dan server components.
+Analisis kebutuhan sistem terbagi menjadi dua jenis, yaitu kebutuhan fungsional dan kebutuhan non-fungsional, yang disusun berdasarkan spesifikasi platform edukasi cerdas berbasis AI.
 
-### 3.2.1 Component-Based Architecture
-```
-src/
-├── app/
-│   ├── (app)/                 # Protected routes
-│   │   ├── layout.tsx         # Main app layout with navigation
-│   │   ├── dashboard/         # Dashboard page
-│   │   ├── learning-path/     # Learning path page
-│   │   ├── practice/[subjectId]/ # Subject practice
-│   │   ├── analytics/         # Analytics routes (radar, trend, evaluation, chancing, explorer)
-│   │   └── tutor/             # AI tutor page
-│   └── api/
-│       └── tutor/
-│           └── ask/route.ts   # Groq API integration
-├── lib/
-│   ├── ai/scaffolding.ts      # Scaffolding prompt logic
-│   ├── irt/scoring.ts         # IRT estimation algorithm
-│   └── chancing/calculator.ts # Chancing engine algorithm
-├── components/
-│   └── ui/                    # Reusable UI components
-└── store/
-    └── useTutorChatStore.ts      # Zustand store for AI chat state
-```
+### 3.2.1 Kebutuhan Fungsional 
 
-### 3.2.2 State Management Architecture
-Sistem menggunakan **Zustand (v5)** dengan dua store utama:
+**1. Aktor: Siswa**
+Tabel 3.1 Kebutuhan Fungsional Siswa
+| No. | Kebutuhan Fungsional |
+|:---:|---|
+| 1 | Siswa dapat melakukan registrasi dan login ke dalam sistem secara manual maupun menggunakan Google Sign-In (OAuth). |
+| 2 | Siswa dapat mengisi *Onboarding* untuk menentukan target program studi dan universitas impian. |
+| 3 | Siswa dapat mengerjakan Ujian Diagnostik dan Tryout reguler melalui CBT Simulator yang dilengkapi *timer*. |
+| 4 | Siswa dapat mengakses *Learning Path* dengan mekanisme *mastery locking* (bab terbuka secara bertahap). |
+| 5 | Siswa dapat melakukan sesi latihan soal (Mode Belajar) dengan bantuan AI Tutor yang interaktif. |
+| 6 | Siswa dapat melihat *Dashboard Analytics* (Radar chart kemahiran, Tren skor, Evaluasi jawaban salah, dan kalkulasi peluang kelulusan/Chancing). |
+| 7 | Siswa dapat mengelola profil akun dan target belajar. |
 
-**useTutorChatStore:**
-- Mengelola `scaffoldLevel` (SOCRATIC/HINT/SOLUTION)
-- Menyimpan riwayat pesan (`messages[]`) antara siswa dan AI
-- Mengelola loading states dan error handling
+**2. Aktor: Superadmin**
+Tabel 3.2 Kebutuhan Fungsional Superadmin
+| No. | Kebutuhan Fungsional |
+|:---:|---|
+| 1 | Superadmin dapat login ke dalam sistem. |
+| 2 | Superadmin dapat memantau statistik aktivitas pengguna dan distribusi skor secara global pada Dashboard. |
+| 3 | Superadmin dapat mengelola data Universitas, Program Studi (Daya tampung & Keketatan), serta parameter IRT (*difficulty, discrimination*). |
+| 4 | Superadmin dapat mengelola *Bank Soal* lengkap dengan dukungan LaTeX (MathJax) untuk rumus matematika. |
+| 5 | Superadmin dapat mengelola modul *Scraping* data eksternal untuk memperbarui basis data PTN. |
 
-**useCbtStore:**
-- Mengelola `sectionTimeLeft` untuk timer subtes
-- `currentQuestionIndex` dan navigasi soal
-- `flaggedQuestions` untuk status ragu-ragu
-- State progress ujian
+**3. Kebutuhan Fungsional Sistem**
+Tabel 3.3 Kebutuhan Fungsional Sistem
+| No. | Kebutuhan Fungsional |
+|:---:|---|
+| 1 | Sistem dapat menghitung estimasi kemampuan siswa ($\theta$) menggunakan algoritma Item Response Theory (IRT) model 1-PL/2-PL. |
+| 2 | Sistem dapat menghitung persentase peluang kelulusan (*Chancing*) menggunakan algoritma berbasis fungsi Sigmoid secara dinamis. |
+| 3 | Sistem dapat menghasilkan instruksi bimbingan berjenjang (*Scaffolding*: Socratic, Hint, Solution) secara otomatis via LLM. |
+| 4 | Sistem dapat merender notasi matematika (LaTeX) pada soal dan percakapan AI secara *real-time*. |
 
----
+### 3.2.2 Kebutuhan Non-Fungsional
 
-## 3.3 Perancangan Basis Data (Database Design)
-
-Basis data menggunakan **PostgreSQL** dengan skema Prisma yang dirancang untuk mendukung seluruh fungsionalitas sistem.
-
-### 3.3.1 Entity Relationship Diagram
-```mermaid
-erDiagram
-    User ||--o| StudentProfile : "memiliki"
-    User ||--o{ ExamAttempt : "mencoba"
-    User ||--o{ ChapterProgress : "memiliki"
-    StudentProfile ||--o| Major : "target1"
-    University ||--o{ Major : "memiliki"
-    Subject ||--o{ Chapter : "memiliki"
-    Subject ||--o{ ExamSection : "ditanyakan"
-    Chapter ||--o{ Question : "memiliki"
-    Chapter ||--o{ ChapterProgress : "kemajuan"
-    Question ||--o{ QuestionOption : "memiliki"
-    Question ||--o{ QuestionResponse : "memiliki"
-    ExamTemplate ||--o{ ExamAttempt : "memiliki"
-    ExamTemplate ||--o{ ExamSection : "memiliki"
-    ExamAttempt ||--o{ QuestionResponse : "berisi"
-    ExamAttempt ||--o{ SubjectScore : "berisi"
-```
-
-### 3.3.2 Tabel Kunci dan Relasi
-
-**Tabel User:**
-- Primary key: `id` (cuid)
-- Fields: `name`, `email` (unique), `password` (hashed), `role`, `irtAbility`
-- 1-1 relationship ke StudentProfile
-- 1-Many relationship ke ExamAttempt dan ChapterProgress
-
-**Tabel Question:**
-- Primary key: `id` (cuid)
-- Fields: `text` (with LaTeX support), `difficulty` (IRT parameter b), `discrimination`, `guessing`, `type`
-- Foreign key ke Chapter
-- 1-Many relationship ke QuestionOption
-
-**Tabel TutoringSession & TutoringMessage:**
-- Menyimpan percakapan AI Tutor per soal
-- `level` field menyimpan level scaffolding saat ini
-- `sessionId` mengarah ke questionId untuk konteks
+1. Sistem dirancang menggunakan arsitektur *Serverless* agar dapat melakukan *scaling* otomatis saat jumlah peserta Tryout melonjak.
+2. Proses perhitungan skor IRT yang berat pada sumber daya komputasi harus dapat diselesaikan dalam batas waktu toleransi *serverless function* (maksimal 10 detik).
+3. Antarmuka sistem dibuat responsif (*mobile-friendly*) dan modern (*user-friendly*) dengan mengadopsi prinsip *Cognitive Load Theory* (animasi transisi halus dan minim distraksi).
+4. Data kata sandi dilindungi menggunakan algoritma *hashing* yang aman (Bcrypt) sebelum disimpan ke basis data.
 
 ---
 
-## 3.4 Perancangan Antarmuka Pengguna (UI/UX Design)
+## 3.3 Desain Sistem
 
-### 3.4.1 Prinsip Desain Cognitive Load Theory
-Antarmuka mengadopsi prinsip CLT dengan:
-- **Konsolidasi Navigasi**: 6 item menu dalam 4 grup (Dashboard, Belajar & Latihan, Try Out, Rapor & Evaluasi, Bahas Soal Luar, dan Pengaturan)
-- **Zero-Friction Context Injection**: Metadata soal otomatis diinjeksi ke AI tanpa input manual
-- **Nested Layout Analytics**: Tab navigasi di `/analytics` tanpa full-page reload
-- **Micro-animasi**: Transisi halus dengan Framer Motion untuk menjaga fokus
+### 3.3.1 Use Case Diagram
 
-### 3.4.2 Halaman Kunci
+Terdapat dua aktor utama dalam sistem:
+1. **Siswa**: Berperan sebagai pengguna akhir yang mengonsumsi layanan edukasi. Siswa memiliki hak akses terhadap *Use Case*: Login, Mengerjakan Tryout, Latihan Soal, Melihat Analitik (Radar, Tren, Chancing), dan Interaksi AI Tutor.
+2. **Superadmin**: Berperan sebagai pengelola platform. Superadmin memiliki hak akses terhadap *Use Case*: Manajemen Soal, Manajemen Pengguna, Monitoring Statistik, dan Manajemen Data PTN.
 
-**Learning Path Page (`/(app)/learning-path/page.tsx`):**
-- Grid 3 kolom kartu bab per subtes
-- Status visual: COMPLETED (hijau), IN_PROGRESS (biru), NOT_STARTED (abu-abu)
-- Mastery locking: bab terkunci jika bab sebelumnya belum selesai
-- Tombol "Tanya AI" untuk akses Free Chat Mode
+Kedua aktor tersebut dihubungkan dengan relasi *<<include>>* pada *Use Case* Login, yang berarti autentikasi mutlak diperlukan sebelum fitur lain dapat diakses.
 
-**Practice Page (`/(app)/practice/[subjectId]/page.tsx`):**
-- Timer block per subtes
-- Panel AI Tutor kontekstual
-- Tombol aksi: "Coba Lagi", "Ragukan", "Lihat Solusi"
-- Progress bar mastery level
+### 3.3.2 Activity Diagram
 
-**Analytics Dashboard (route-based, bukan nested tab):**
-- `/analytics/radar` — Radar Kemampuan 7 subtes + Tabel Detail Per Subtes (skor, target, selisih, status) + Insight Analisis Cerdas
-- `/analytics/trend` — Tren Skor SNBT (grafik area perkembangan skor tryout dari waktu ke waktu)
-- `/analytics/evaluation` — Bank Soal Salah (*active recall*): menampilkan riwayat soal yang dijawab salah
-- `/analytics/chancing` — Daftar prodi target dengan kartu prediksi peluang kelulusan
-- `/analytics/chancing/[majorId]` — Detail prodi spesifik
-- `/analytics/explorer` — Explorer lanjutan dengan filter dinamis
-- `/analytics/subject/[id]` — Breakdown performa per topik dalam satu subtes
+Activity Diagram digunakan untuk menjelaskan alur proses yang berjalan di dalam sistem Lexica. Beberapa alur krusial meliputi:
+1. **Activity Diagram Pelaksanaan Tryout (CBT)**: Siswa memilih paket ujian -> Sistem menyiapkan lingkungan sesi dan *timer* -> Siswa menjawab soal -> Siswa submit -> Sistem memproses skor IRT secara *batch* -> Sistem menampilkan halaman *Result*.
+2. **Activity Diagram AI Tutor (Mode Belajar)**: Siswa gagal menjawab soal -> Sistem mencegat jawaban salah -> Sistem mengirimkan konteks (*blind mode*) ke LLM -> LLM memberikan respons *Socratic* -> Siswa mencoba lagi.
+3. **Activity Diagram Analitik (Chancing)**: Siswa membuka halaman prediksi -> Sistem mengambil nilai *IRT Scaled* siswa dan data ketetatan Prodi -> Sistem mengkalkulasi kurva Sigmoid -> Sistem menampilkan label peluang (Aman / Bersaing / Sulit).
 
----
+### 3.3.3 Database Entity Relationship Diagram (ERD)
 
-## 3.5 Algoritma yang Digunakan
+Sistem menggunakan basis data relasional PostgreSQL dengan desain entitas utama sebagai berikut:
+- **User & StudentProfile**: Menyimpan data autentikasi dan target jurusan siswa.
+- **Subject, Chapter, Question**: Struktur hierarki materi dan bank soal. Tabel Question menyimpan parameter spesifik IRT seperti tingkat kesulitan (*difficulty*).
+- **ExamAttempt & QuestionResponse**: Mencatat sesi ujian siswa beserta riwayat pilihan ganda dan waktu yang dihabiskan per soal.
+- **SubjectScore**: Menyimpan estimasi parameter Theta ($\theta$) per subtes.
+- **TutoringSession & TutoringMessage**: Menyimpan riwayat obrolan AI *Scaffolding* untuk tiap soal.
 
-### 3.5.1 Estimasi Kemampuan IRT (Newton-Raphson)
+### 3.3.4 Arsitektur Sistem
 
-```typescript
-// src/lib/irt/scoring.ts
-export function estimateTheta(responses: {difficulty: number, correct: boolean}[]): number {
-  let theta = 0.0;
-  const MAX_ITER = 50;
-  const TOLERANCE = 0.001;
-  
-  for (let i = 0; i < MAX_ITER; i++) {
-    let sumResidual = 0;
-    let sumInfo = 0;
-    
-    for (const r of responses) {
-      const p = 1 / (1 + Math.exp(-(theta - r.difficulty)));
-      sumResidual += (r.correct ? 1 : 0) - p;
-      sumInfo += p * (1 - p);
-    }
-    
-    if (sumInfo === 0) break;
-    const delta = sumResidual / sumInfo;
-    theta += delta;
-    
-    if (Math.abs(delta) < TOLERANCE) break;
-  }
-  
-  return Math.max(-3, Math.min(3, theta));
-}
-```
+Lexica dikembangkan menggunakan **Next.js App Router Architecture** yang mendukung *React Server Components* (RSC) untuk performa optimal.
+1. Klien berinteraksi dengan antarmuka berbasis web.
+2. Permintaan *routing* dan komputasi ditangani oleh *Next.js Edge/Serverless API*.
+3. Akses basis data dilakukan melalui *Prisma Client* yang terhubung ke *PostgreSQL Connection Pool*.
+4. Fitur kecerdasan buatan (*AI Tutor*) diintegrasikan secara *server-side* menggunakan **Groq API** (mengakses model Llama-3.1). Hal ini memastikan *Prompt* sistem (kunci jawaban) tidak terekspos ke klien.
 
-### 3.5.2 Chancing Engine Algorithm
+### 3.3.5 Perancangan Algoritma & AI Tutor
 
-```typescript
-// src/lib/chancing/calculator.ts
-export function calculateChance(
-  studentScore: number,    // Skor IRT scaled (200-800)
-  majorEstimated: number,  // estimatedScore dari DB
-  competitiveness: number  // applicants / quota
-): ChanceResult {
-  const deficit = studentScore - majorEstimated;
+**1. Algoritma Scoring Item Response Theory (IRT)**
+Lexica tidak menggunakan sistem skor bobot statis konvensional, melainkan metode Newton-Raphson untuk mengestimasi kemampuan *Latent Trait* ($\theta$) berdasarkan pola jawaban.
+Fungsi optimasi matematis iteratif digunakan hingga mencapai konvergensi (Toleransi = 0.001) untuk mencari nilai Maximum Likelihood Estimation (MLE) dari kemampuan siswa.
 
-  // Sigmoid-based probability dengan kecuraman dinamis berdasarkan kompetisi
-  const baseK = 0.04;
-  const compFactor = 1 + Math.log10(Math.max(1, competitiveness)) * 0.5;
-  const k = baseK * compFactor;
+**2. Algoritma Chancing Engine (Sigmoid Curve)**
+Alih-alih menggunakan pemotongan nilai *passing grade* linier yang kaku, sistem menggunakan kurva logistik (Sigmoid) yang disesuaikan (*steepness factor*) dengan tingkat kompetisi jurusan (jumlah peminat berbanding kuota). Semakin tinggi kompetisi, semakin curam kurva probabilitasnya, sehingga selisih skor kecil sangat menentukan.
+Rumus probabilitas: $P(x) = \frac{1}{1 + e^{-k(x - threshold)}}$
 
-  // midpointShift: skor tepat di estimatedScore → peluang ~40% (bukan 50%)
-  const midpointShift = majorEstimated * 0.02;
-  const rawProbability = 1 / (1 + Math.exp(-k * (studentScore - majorEstimated - midpointShift)));
-
-  // Skala ke 5-95%, tidak pernah 0% atau 100%
-  let percentage = 5 + rawProbability * 90;
-
-  // Penalti kompetisi ekstrem (>20:1)
-  if (competitiveness > 20) {
-    const extremePenalty = Math.min(0.3, (competitiveness - 20) * 0.01);
-    percentage *= (1 - extremePenalty);
-  }
-
-  percentage = Math.round(Math.min(95, Math.max(3, percentage)));
-
-  // Label dari persentase (bukan dari ratio)
-  const label = percentage >= 65 ? 'AMAN'
-    : percentage >= 45 ? 'BERSAING'
-    : percentage >= 30 ? 'PELUANG_CUKUP'
-    : percentage >= 15 ? 'SULIT'
-    : 'SANGAT_SULIT';
-
-  return { percentage, label, deficit: Math.round(deficit), weakSubjects: [], recommendation: '' };
-}
-```
-
-### 3.5.3 Scaffolding Prompt System
-
-```typescript
-// src/lib/ai/scaffolding.ts
-export type ScaffoldLevel = 'SOCRATIC' | 'HINT' | 'SOLUTION'
-
-const SCAFFOLD_PROMPTS: Record<ScaffoldLevel, string> = {
-  SOCRATIC: `Kamu adalah tutor UTBK... JANGAN beri jawaban langsung. Ajukan 1-2 pertanyaan Socratic...`,
-  HINT: `Kamu adalah tutor UTBK... Beri PETUNJUK PARSIAL: sebutkan konsep/rumus...`,
-  SOLUTION: `Kamu adalah tutor UTBK... Berikan PENJELASAN LENGKAP...`
-}
-```
+**3. Adaptive AI Prompting (Scaffolding System)**
+Mekanisme bimbingan tidak memberikan jawaban langsung (*Blind Mode Architecture*). Tingkat bantuan disesuaikan berdasarkan riwayat percobaan siswa:
+- **Level 1 (Socratic)**: Diberikan saat kesalahan pertama. AI hanya memberikan pertanyaan pancingan.
+- **Level 2 (Hint)**: Diberikan jika masih salah. AI memberikan sebagian konsep/rumus.
+- **Level 3 (Solution)**: Diberikan jika *stuck* total. AI menjabarkan langkah-langkah penyelesaian secara komprehensif.
 
 ---
 
-## 3.6 Metodologi Pengembangan
+## 3.4 Alat dan Bahan Tugas Akhir
 
-### 3.6.1 Pendekatan Pengembangan
-- **Metode**: Iterative Development dengan pendekatan Agile
-- **Platform**: Next.js 16.2.6 (React 19) dengan TypeScript
-- **Version Control**: Git dengan struktur branch feature/master/main
-- **Deployment Target**: Vercel atau platform cloud yang mendukung serverless
+Alat yang digunakan dalam proses pengembangan aplikasi Lexica ini meliputi:
 
-### 3.6.2 Tahapan Pengembangan
-1. **Fase 1 - Foundation**: Setup Next.js, Prisma schema, autentikasi NextAuth
-2. **Fase 2 - Core Features**: Implementasi CBT simulator, IRT scoring, question bank
-3. **Fase 3 - AI Integration**: Integrasi Groq API, scaffolding system, free chat mode
-4. **Fase 4 - Analytics**: Dashboard radar chart, chancing engine, learning path
-5. **Fase 5 - Testing**: Black-box testing, SUS evaluation, bug fixes
+### 3.4.1 Perangkat Keras (Hardware)
+- Komputer / Laptop untuk proses penulisan kode (*coding*) dan kompilasi lokal.
+- Kapasitas RAM memadai (minimal 8GB) untuk menjalankan *development server* Node.js dan eksekusi integrasi *browser* secara simultan.
 
-### 3.6.3 API Endpoints
-| Endpoint | Method | Fungsi |
-|----------|--------|--------|
-| `/api/tutor/ask` | POST | Mengirim pertanyaan ke AI Tutor (scaffolded/free chat) |
-| `/api/learning-path` | GET | Mengambil data learning path personal siswa |
-| `/api/analytics/*` | GET | Mengambil data analitik dan chancing |
+### 3.4.2 Perangkat Lunak (Software)
+- **Visual Studio Code**: Sebagai Integrated Development Environment (IDE).
+- **Node.js & npm**: *Runtime environment* dan *package manager*.
+- **Next.js (React 19)**: Framework *fullstack* utama.
+- **Prisma**: ORM untuk permodelan database.
+- **PostgreSQL**: Sistem manajemen basis data relasional.
 
----
+### 3.4.3 Layanan Kecerdasan Buatan (AI) 
+Layanan Kecerdasan Buatan (AI) yang digunakan adalah **Groq API** dengan memanfaatkan model terbuka yang sangat cepat (Llama-3.1-70b-versatile). Groq API dipilih karena kemampuannya memproses LPU (Language Processing Unit) secara *ultra-fast*, yang sangat vital untuk memberikan umpan balik (feedback) seketika (*real-time*) kepada siswa saat mode latihan berlangsung.
 
-## 3.7 Rencana Pengujian Sistem
+### 3.4.4 Dataset Pihak Ketiga
+Dataset dari pihak lain yang digunakan berupa data sekunder publik mengenai daftar Perguruan Tinggi Negeri (PTN), program studi, daya tampung, serta tingkat keketatan historis yang didapatkan dari laman resmi BP3/SNPMB.
 
-### 3.7.1 Black-Box Testing
-Pengujian fungsional menggunakan **27 test case** yang terstruktur dalam 7 modul pengujian, dengan 6 teknik Black-Box Testing:
-
-| Modul | Jumlah TC | Teknik Dominan |
-|---|:---:|---|
-| Autentikasi & RBAC | 5 | Use Case Testing, Error Guessing |
-| CBT Simulator / Tryout | 5 | BVA (timer boundary), Use Case |
-| IRT Scoring Engine | 4 | BVA (boundary ability), EP |
-| Chancing Engine | 5 | BVA (sigmoid threshold), EP, Error Guessing |
-| AI Tutor & Socratic | 2 | Decision Table, Error Guessing |
-| Analytics & Learning Path | 3 | EP, Exploratory |
-| Admin Panel | 3 | EP, BVA, Use Case |
-
-Seluruh expected result merujuk pada Spesifikasi Kebutuhan Fungsional (FR) yang terdokumentasi pada BAB III ini, bukan pada implementasi kode internal (pure black-box approach).
-
-### 3.7.2 System Usability Scale (SUS)
-- Target skor minimum: 68 (acceptable)
-- Responden: Siswa SMA, alumni, dan tutor
-- Aspek yang dinilai: kegunaan, kemudahan penggunaan, kepuasan
-
----
+### 3.4.5 Dataset Pihak Pertama
+Dataset mandiri yang disusun khusus untuk platform Lexica berupa bank soal setara UTBK-SNBT yang disusun ke dalam format JSON/Excel agar dapat diimpor secara otomatis melalui *Admin Panel* (Bulk Import) ke dalam basis data sistem, lengkap beserta informasi kunci jawaban dan parameter tingkat kesulitan IRT.
