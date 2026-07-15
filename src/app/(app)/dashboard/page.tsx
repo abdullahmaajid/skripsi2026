@@ -12,16 +12,27 @@ export default async function DashboardPage() {
     redirect("/admin")
   }
 
-  const user = userId ? await prisma.user.findUnique({
-    where: { id: userId },
-    include: { profile: { include: { targetMajor1: { include: { university: true } }, targetMajor2: true } } },
-  }) : null
+  const [user, subjects] = await Promise.all([
+    userId ? prisma.user.findUnique({
+      where: { id: userId },
+      include: { profile: { include: { targetMajor1: { include: { university: true } }, targetMajor2: true } } },
+    }) : null,
+    prisma.subject.findMany({ orderBy: { name: "asc" } })
+  ])
+
+  // Redirect admin users away from student dashboard
+  if ((session?.user as any)?.role === "ADMIN") {
+    redirect("/admin")
+  }
 
   // Track journey milestones (hoisted for access later)
   let hasDiagnostic: any = null
   let hasNonDiagnosticTryout: any = null
   let hasLearningPathProgress: any = null
   let hasPracticeActivity: any = null
+  let attempts: any[] = []
+  let recentAttempts: any[] = []
+  let soalCount = 0
 
   if (userId && user) {
     // Skip onboarding redirects for admin users
@@ -29,42 +40,45 @@ export default async function DashboardPage() {
       redirect("/onboarding")
     }
 
-    hasDiagnostic = await prisma.examAttempt.findFirst({
-      where: { userId, template: { isDiagnostic: true }, status: "COMPLETED" }
-    })
+    // Run parallel queries for user stats
+    const [diag, nonDiag, lp, practice, userAttempts, userRecent, totalSoal] = await Promise.all([
+      prisma.examAttempt.findFirst({ where: { userId, template: { isDiagnostic: true }, status: "COMPLETED" } }),
+      prisma.examAttempt.findFirst({ where: { userId, template: { isDiagnostic: false }, status: "COMPLETED" } }),
+      prisma.chapterProgress.findFirst({ where: { userId } }),
+      prisma.questionResponse.findFirst({ where: { attempt: { userId, template: { isDiagnostic: false } } } }),
+      prisma.examAttempt.findMany({
+        where: { userId, status: "COMPLETED" },
+        orderBy: { finishedAt: "desc" },
+        take: 10,
+        select: { id: true, scaledScore: true, irtScore: true, rawScore: true, startedAt: true, finishedAt: true, template: { select: { name: true } } },
+      }),
+      prisma.examAttempt.findMany({
+        where: { userId },
+        orderBy: { startedAt: "desc" },
+        take: 2,
+        select: { id: true, scaledScore: true, status: true, startedAt: true, template: { select: { name: true } } },
+      }),
+      prisma.questionResponse.count({ where: { attempt: { userId, status: "COMPLETED" } } })
+    ])
+
+    hasDiagnostic = diag
+    hasNonDiagnosticTryout = nonDiag
+    hasLearningPathProgress = lp
+    hasPracticeActivity = practice
+    attempts = userAttempts
+    recentAttempts = userRecent
+    soalCount = totalSoal
     
     if (user.role !== "ADMIN" && !hasDiagnostic) {
       redirect("/onboarding?resume=diagnostic")
     }
-
-    // ── Journey progress for getting-started guide ──
-    hasNonDiagnosticTryout = await prisma.examAttempt.findFirst({
-      where: { userId, template: { isDiagnostic: false }, status: "COMPLETED" }
-    })
-    hasLearningPathProgress = await prisma.chapterProgress.findFirst({
-      where: { userId }
-    })
-    hasPracticeActivity = await prisma.questionResponse.findFirst({
-      where: { attempt: { userId, template: { isDiagnostic: false } } }
-    })
   }
-
-  // Fetch latest attempts for trend (completed only)
-  const attempts = userId ? await prisma.examAttempt.findMany({
-    where: { userId, status: "COMPLETED" },
-    orderBy: { finishedAt: "desc" },
-    take: 10,
-    select: { id: true, scaledScore: true, irtScore: true, rawScore: true, startedAt: true, finishedAt: true, template: { select: { name: true } } },
-  }) : []
 
   // Fetch subject scores from latest attempt
   const latestAttempt = attempts[0]
   const subScores = latestAttempt ? await prisma.subjectScore.findMany({
     where: { attemptId: latestAttempt.id },
   }) : []
-
-  // Fetch subjects for radar
-  const subjects = await prisma.subject.findMany({ orderBy: { name: "asc" } })
 
   // Build radar data
   const targetScore = user?.profile?.targetMajor1?.estimatedScore || 700
@@ -73,32 +87,8 @@ export default async function DashboardPage() {
     return { subject: s.name.replace("Penalaran ", "Pen. ").replace("Literasi ", "Lit. ").replace("Pengetahuan ", "Peng. ").replace("Pemahaman Bacaan & Menulis", "PBM").replace("Pengetahuan & Pemahaman Umum", "PPU"), score: ss?.scaledScore || 0, target: targetScore }
   })
 
-  // Fetch recent activities (completed or in progress)
-  const recentAttempts = userId ? await prisma.examAttempt.findMany({
-    where: { userId },
-    orderBy: { startedAt: "desc" },
-    take: 2,
-    select: { id: true, scaledScore: true, status: true, startedAt: true, template: { select: { name: true } } },
-  }) : []
-
-  const recentActivities = recentAttempts.map(a => ({
-    title: a.template?.name || "Try Out SNBT",
-    date: a.startedAt.toLocaleDateString("id-ID", { day: "numeric", month: "short" }),
-    score: a.scaledScore || 0,
-    status: a.status === "COMPLETED" ? "Selesai" : "Sedang Berjalan",
-  }))
-
-  const targetName = user?.profile?.targetMajor1
-    ? `${user.profile.targetMajor1.name} — ${user.profile.targetMajor1.university.name}`
-    : "Belum dipilih"
-
   // ── Dynamic Stats (Real from DB) ──
   const tryOutCount = attempts.length
-
-  // Real soal count from questionResponse
-  const soalCount = userId ? await prisma.questionResponse.count({
-    where: { attempt: { userId, status: "COMPLETED" } },
-  }) : 0
 
   // Real jam belajar from finishedAt - startedAt
   const totalSeconds = attempts.reduce((sum, a) => {
@@ -130,6 +120,17 @@ export default async function DashboardPage() {
       label: `TO ${i + 1}`,
       score: Math.round(a.scaledScore || 0),
     }))
+
+  const recentActivities = recentAttempts.map(a => ({
+    title: a.template?.name || "Try Out SNBT",
+    date: a.startedAt.toLocaleDateString("id-ID", { day: "numeric", month: "short" }),
+    score: a.scaledScore || 0,
+    status: a.status === "COMPLETED" ? "Selesai" : "Sedang Berjalan",
+  }))
+
+  const targetName = user?.profile?.targetMajor1
+    ? `${user.profile.targetMajor1.name} — ${user.profile.targetMajor1.university.name}`
+    : "Belum dipilih"
 
   // Journey progress object
   // Each step should only reflect its own actual activity:
