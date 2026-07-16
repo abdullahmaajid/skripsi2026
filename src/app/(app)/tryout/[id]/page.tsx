@@ -498,7 +498,7 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
         </div>
 
         {/* Mobile: Question Navigation Grid (always visible at bottom) */}
-        <div className="lg:hidden bg-white border-t border-slate-200/60 px-3 py-3 pb-[calc(8px+env(safe-area-inset-bottom))]">
+        <div className="lg:hidden bg-white border-t border-slate-200/60 px-3 py-3 pb-[calc(8px+env(safe-area-inset-bottom))] space-y-3">
           <NavigationGrid 
             questions={questions}
             answers={answers}
@@ -510,6 +510,13 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
             currentSectionIndex={currentSectionIndex}
             goToQuestion={goToQuestion}
           />
+          <button 
+            onClick={() => finishExam()}
+            className="w-full py-3 bg-rose-50 hover:bg-rose-100 text-rose-600 font-bold rounded-xl border border-rose-100 transition-colors shadow-sm flex items-center justify-center gap-2 text-sm"
+          >
+            <CheckCircle2 className="w-4 h-4" />
+            Kumpulkan Ujian
+          </button>
         </div>
       </div>
     </div>
