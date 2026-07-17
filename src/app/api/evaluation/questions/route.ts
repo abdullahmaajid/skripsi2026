@@ -35,13 +35,22 @@ export async function GET(request: Request) {
         } : {})
       },
       orderBy: { answeredAt: "desc" },
-      include: {
+      select: {
+        questionId: true,
+        flagged: true,
+        isCorrect: true,
         question: {
-          include: {
-            options: true,
+          select: {
+            id: true,
+            text: true,
+            type: true,
+            difficulty: true,
+            options: { select: { id: true, label: true, text: true, isCorrect: true } },
             chapter: {
-              include: {
-                subject: true
+              select: {
+                name: true,
+                subjectId: true,
+                subject: { select: { name: true } }
               }
             }
           }

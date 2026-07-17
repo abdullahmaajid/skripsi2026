@@ -32,12 +32,21 @@ export async function GET(req: NextRequest) {
     // Fetch questions randomly (using raw SQL for true randomness)
     const questions = await prisma.question.findMany({
       where: { chapterId: { in: chapterIds } },
-      include: {
+      select: {
+        id: true,
+        text: true,
+        type: true,
+        difficulty: true,
         options: {
           select: { id: true, label: true, text: true, isCorrect: true },
           orderBy: { label: "asc" },
         },
-        chapter: { include: { subject: true } },
+        chapter: { 
+          select: { 
+            name: true,
+            subject: { select: { id: true, name: true } } 
+          } 
+        },
       },
       take: Math.min(limit, 50),
       // Simple shuffle: order by difficulty with some variation

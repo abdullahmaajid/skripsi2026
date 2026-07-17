@@ -10,7 +10,17 @@ export default async function ChancingPage() {
 
   const user = userId ? await prisma.user.findUnique({
     where: { id: userId },
-    include: { profile: { include: { targetMajor1: { include: { university: true } }, targetMajor2: { include: { university: true } } } } },
+    select: {
+      irtAbility: true,
+      profile: {
+        select: {
+          targetMajor1Id: true,
+          targetMajor2Id: true,
+          targetMajor1: { select: { id: true, name: true, estimatedScore: true, quota: true, applicants: true, cluster: true, university: { select: { name: true } } } },
+          targetMajor2: { select: { id: true, name: true, estimatedScore: true, quota: true, applicants: true, cluster: true, university: { select: { name: true } } } },
+        }
+      }
+    },
   }) : null
 
   // Use scaleToSNBT for consistency with API route (instead of manual formula)
@@ -19,7 +29,10 @@ export default async function ChancingPage() {
   const targetIds = [user?.profile?.targetMajor1Id, user?.profile?.targetMajor2Id].filter(Boolean) as string[]
 
   const targetMajors = targetIds.length > 0
-    ? await prisma.major.findMany({ where: { id: { in: targetIds } }, include: { university: true } })
+    ? await prisma.major.findMany({ 
+        where: { id: { in: targetIds } }, 
+        select: { id: true, name: true, estimatedScore: true, quota: true, applicants: true, cluster: true, universityId: true, university: { select: { name: true, id: true } } } 
+      })
     : []
 
   // ============================================================
@@ -161,7 +174,7 @@ export default async function ChancingPage() {
       ...extra,
     },
     orderBy: { estimatedScore: 'desc' }, // Closest to threshold = best safety pick
-    include: { university: true },
+    select: { id: true, name: true, estimatedScore: true, quota: true, applicants: true, cluster: true, universityId: true, university: { select: { name: true, id: true } } },
   })
 
   let safetyMajor = await safetyQuery() as MajorWithUni | null
@@ -172,7 +185,7 @@ export default async function ChancingPage() {
     safetyMajor = await prisma.major.findFirst({
       where: { cluster: { in: userClusters }, id: { notIn: allExcluded } },
       orderBy: { estimatedScore: 'asc' },
-      include: { university: true },
+      select: { id: true, name: true, estimatedScore: true, quota: true, applicants: true, cluster: true, universityId: true, university: { select: { name: true, id: true } } },
     }) as MajorWithUni | null
   }
 
@@ -195,7 +208,7 @@ export default async function ChancingPage() {
       ...filter,
     },
     orderBy: { estimatedScore: 'asc' },
-    include: { university: true },
+    select: { id: true, name: true, estimatedScore: true, quota: true, applicants: true, cluster: true, universityId: true, university: { select: { name: true, id: true } } },
   })
 
   let matchMajor1 = await match1Query(keywordFilter) as MajorWithUni | null
@@ -205,7 +218,7 @@ export default async function ChancingPage() {
     matchMajor1 = await prisma.major.findFirst({
       where: { cluster: { in: userClusters }, id: { notIn: allExcluded } },
       orderBy: { estimatedScore: 'asc' },
-      include: { university: true },
+      select: { id: true, name: true, estimatedScore: true, quota: true, applicants: true, cluster: true, universityId: true, university: { select: { name: true, id: true } } },
     }) as MajorWithUni | null
   }
 
@@ -232,7 +245,7 @@ export default async function ChancingPage() {
       ...filter,
     },
     orderBy: { estimatedScore: 'desc' },
-    include: { university: true },
+    select: { id: true, name: true, estimatedScore: true, quota: true, applicants: true, cluster: true, universityId: true, university: { select: { name: true, id: true } } },
   })
 
   let matchMajor2 = await match2Query(keywordFilter) as MajorWithUni | null
@@ -247,7 +260,7 @@ export default async function ChancingPage() {
         estimatedScore: { gte: match2Low, lte: match2High },
       },
       orderBy: { estimatedScore: 'desc' },
-      include: { university: true },
+      select: { id: true, name: true, estimatedScore: true, quota: true, applicants: true, cluster: true, universityId: true, university: { select: { name: true, id: true } } },
     }) as MajorWithUni | null
   }
   // Absolute fallback: next lowest score
@@ -255,7 +268,7 @@ export default async function ChancingPage() {
     matchMajor2 = await prisma.major.findFirst({
       where: { cluster: { in: userClusters }, id: { notIn: allExcluded } },
       orderBy: { estimatedScore: 'asc' },
-      include: { university: true },
+      select: { id: true, name: true, estimatedScore: true, quota: true, applicants: true, cluster: true, universityId: true, university: { select: { name: true, id: true } } },
     }) as MajorWithUni | null
   }
 
@@ -278,7 +291,7 @@ export default async function ChancingPage() {
       ...filter,
     },
     orderBy: { estimatedScore: 'asc' }, // Closest reach = most achievable
-    include: { university: true },
+    select: { id: true, name: true, estimatedScore: true, quota: true, applicants: true, cluster: true, universityId: true, university: { select: { name: true, id: true } } },
   })
 
   let reachMajor = await reachQuery(keywordFilter) as MajorWithUni | null
@@ -288,7 +301,7 @@ export default async function ChancingPage() {
     reachMajor = await prisma.major.findFirst({
       where: { cluster: { in: userClusters }, id: { notIn: allExcluded } },
       orderBy: { estimatedScore: 'asc' },
-      include: { university: true },
+      select: { id: true, name: true, estimatedScore: true, quota: true, applicants: true, cluster: true, universityId: true, university: { select: { name: true, id: true } } },
     }) as MajorWithUni | null
   }
 

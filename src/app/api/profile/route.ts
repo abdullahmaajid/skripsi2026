@@ -13,19 +13,35 @@ export async function GET() {
 
     const user = await prisma.user.findUnique({
       where: { id: userId },
-      include: {
+      select: {
+        id: true,
+        name: true,
+        email: true,
+        role: true,
+        avatar: true,
         profile: {
-          include: {
-            targetMajor1: { include: { university: true } },
-            targetMajor2: { include: { university: true } }
+          select: {
+            id: true,
+            userId: true,
+            targetMajor1Id: true,
+            targetMajor2Id: true,
+            school: true,
+            graduationYear: true,
+            targetMajor1: { select: { id: true, name: true, estimatedScore: true, cluster: true, universityId: true, university: { select: { name: true, id: true } } } },
+            targetMajor2: { select: { id: true, name: true, estimatedScore: true, cluster: true, universityId: true, university: { select: { name: true, id: true } } } }
           }
         }
       }
     })
 
     const universities = await prisma.university.findMany({
-      include: {
-        majors: true
+      select: {
+        id: true,
+        name: true,
+        majors: {
+          select: { id: true, name: true, cluster: true },
+          orderBy: { name: 'asc' }
+        }
       },
       orderBy: { name: 'asc' }
     })

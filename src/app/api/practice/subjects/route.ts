@@ -4,15 +4,17 @@ import { prisma } from "@/lib/prisma"
 export async function GET() {
   try {
     const subjects = await prisma.subject.findMany({
-      include: {
-        _count: {
-          select: { chapters: true },
-        },
+      select: {
+        id: true,
+        name: true,
+        cluster: true,
         chapters: {
-          include: {
-            _count: { select: { questions: true } },
-          },
-        },
+          select: {
+            id: true,
+            name: true,
+            _count: { select: { questions: true } }
+          }
+        }
       },
       orderBy: { name: "asc" },
     })

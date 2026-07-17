@@ -22,15 +22,17 @@ export async function GET() {
         isCorrect: false,
       },
       orderBy: { answeredAt: "desc" },
-      include: {
+      select: {
+        questionId: true,
+        isCorrect: true,
+        selectedIds: true,
         question: {
-          include: {
-            options: true,
-            chapter: {
-              include: {
-                subject: true,
-              },
-            },
+          select: {
+            text: true,
+            type: true,
+            difficulty: true,
+            options: { select: { id: true, label: true, text: true, isCorrect: true } },
+            chapter: { select: { subject: { select: { name: true } } } },
           },
         },
       },
