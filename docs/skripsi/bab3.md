@@ -31,7 +31,7 @@ Analisis kebutuhan sistem dilakukan melalui studi literatur dan analisis terhada
 Tabel 3.1 Kebutuhan Fungsional Siswa
 | No. | Kebutuhan Fungsional |
 |:---:|---|
-| 1 | Siswa dapat melakukan registrasi dan login ke dalam sistem, termasuk menggunakan akun Google (Google Sign-In). |
+| 1 | Siswa dapat melakukan registrasi dan login ke dalam sistem menggunakan kredensial email dan kata sandi. |
 | 2 | Siswa dapat mengatur target nilai belajar dan target harian sebagai dasar perencanaan pembelajaran. |
 | 3 | Siswa dapat melihat *personal plan* dan prioritas materi berdasarkan hasil penguasaan materi yang tersimpan pada sistem. |
 | 4 | Siswa dapat mengerjakan ujian melalui halaman ujian yang dilengkapi *timer* dan navigasi soal. |
@@ -73,7 +73,7 @@ d. Keamanan data dijaga dengan menerapkan enkripsi kata sandi dan proteksi sesi 
 UML dipakai untuk menggambarkan dan mendokumentasikan alur kerja *Intelligent Tutoring System* (ITS) ini berjalan. Beberapa diagram UML yang digunakan antara lain *Use Case Diagram* dan *Activity Diagram* yang memetakan aktivitas login, ujian, analitik, dan manajemen data.
 
 ### 3.3.2 Arsitektur Sistem 
-Arsitektur sistem digunakan untuk menggambarkan hubungan antar komponen utama yang membangun aplikasi. Pada penelitian ini, sistem dikembangkan menggunakan arsitektur berbasis web modern dengan **Next.js (App Router)** sebagai Framework *full-stack* utama, **Prisma ORM** sebagai penghubung basis data, dan **PostgreSQL (Neon Serverless DB)** sebagai penyimpanan data utama. Layanan autentikasi menggunakan Auth.js (termasuk Google OAuth 2.0). 
+Arsitektur sistem digunakan untuk menggambarkan hubungan antar komponen utama yang membangun aplikasi. Pada penelitian ini, sistem dikembangkan menggunakan arsitektur berbasis web modern dengan **Next.js (App Router)** sebagai Framework *full-stack* utama, **Prisma ORM** sebagai penghubung basis data, dan **PostgreSQL (Neon Serverless DB)** sebagai penyimpanan data utama. Layanan autentikasi menggunakan standar keamanan Auth.js. 
 
 Selain itu, sistem juga terintegrasi secara *server-side* dengan layanan **Groq API** sebagai penyedia *Large Language Model* (LLM) untuk memproses logika *Socratic Scaffolding*. Hal ini memastikan kerahasiaan kunci jawaban (prompt) tidak terekspos ke klien (*browser* pengguna).
 
