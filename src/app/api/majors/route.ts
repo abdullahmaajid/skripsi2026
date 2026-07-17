@@ -16,5 +16,8 @@ export async function GET(req: NextRequest) {
     include: { university: { select: { name: true, code: true } } },
     orderBy: { estimatedScore: "desc" },
   })
-  return NextResponse.json({ data: majors })
+  return NextResponse.json(
+    { data: majors },
+    { headers: { "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=86400" } }
+  )
 }

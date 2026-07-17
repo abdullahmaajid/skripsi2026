@@ -31,7 +31,7 @@ export async function GET() {
           questionCount: ch._count.questions,
         })),
       })),
-    })
+    }, { headers: { "Cache-Control": "public, s-maxage=86400, stale-while-revalidate=86400" } })
   } catch (error) {
     console.error("Subjects fetch error:", error)
     return NextResponse.json({ error: "Gagal memuat data subtes." }, { status: 500 })

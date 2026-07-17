@@ -8,5 +8,8 @@ export async function GET(req: NextRequest) {
     include: { _count: { select: { majors: true } } },
     orderBy: { name: "asc" },
   })
-  return NextResponse.json({ data: universities })
+  return NextResponse.json(
+    { data: universities },
+    { headers: { "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=86400" } }
+  )
 }
