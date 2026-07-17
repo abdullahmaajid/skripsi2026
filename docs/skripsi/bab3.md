@@ -1,12 +1,12 @@
 # BAB III. METODE TUGAS AKHIR
 
 ## 3.1 Metode Penelitian
-Pada aplikasi Tryout ini, proses pengembangan sistem dilakukan menggunakan metode ADDIE (Analysis, Design, Development, Implementation, dan Evaluation). Metode ini dipilih karena memiliki tahapan yang sistematis sehingga memudahkan proses analisis, perancangan, pengembangan, implementasi, dan evaluasi sistem. Setiap tahapan dilakukan secara terstruktur sehingga hasil pengembangan dapat dievaluasi sebelum dilanjutkan ke tahap berikutnya. Dengan demikian, sistem yang dihasilkan diharapkan dapat berfungsi sesuai dengan tujuan penelitian.
+Pada platform Lexica ini, proses pengembangan sistem dilakukan menggunakan metode ADDIE (Analysis, Design, Development, Implementation, dan Evaluation). Metode ini dipilih karena memiliki tahapan yang sistematis sehingga memudahkan proses analisis, perancangan, pengembangan, implementasi, dan evaluasi sistem. Setiap tahapan dilakukan secara terstruktur sehingga hasil pengembangan dapat dievaluasi sebelum dilanjutkan ke tahap berikutnya. Dengan demikian, sistem yang dihasilkan diharapkan dapat berfungsi sesuai dengan tujuan penelitian.
 
 1. **Analysis (Analisis Kebutuhan)**
 Pada tahap ini, penulis menentukan fitur-fitur pada sistem sesuai dengan rumusan masalah yang telah ditentukan. Prosesnya meliputi pengumpulan data, analisis kebutuhan pengguna, serta penentuan kebutuhan sistem, baik kebutuhan fungsional, maupun kebutuhan non-fungsional. Tahapan analisis dilakukan secara menyeluruh agar sistem yang dikembangkan dapat berjalan sesuai dengan tujuan penelitian.
 2. **Design System (Desain Sistem)**
-Tahapan berikutnya merancang sistem yang akan dikembangkan. Perancangan ini dibuat menggunakan *Unified Modeling Language* (UML), seperti Use Case Diagram, Activity Diagram, dan Perancangan Basis Data. Perancangan ini dirancang untuk menggambarkan bagaimana pengguna (siswa dan Superadmin) dapat berinteraksi dengan sistem. Selain itu, dalam tahap ini juga merancang struktur basis data, serta tampilan antarmuka agar sistem Tryout mudah digunakan.
+Tahapan berikutnya merancang sistem yang akan dikembangkan. Perancangan ini dibuat menggunakan *Unified Modeling Language* (UML), seperti Use Case Diagram, Activity Diagram, dan Perancangan Basis Data. Perancangan ini dirancang untuk menggambarkan bagaimana pengguna (siswa dan Superadmin) dapat berinteraksi dengan sistem. Selain itu, dalam tahap ini juga merancang struktur basis data, serta tampilan antarmuka agar platform Lexica mudah digunakan.
 3. **Development (Pengembangan)**
 Pada tahapan ini, rancangan sistem yang telah dibuat sebelumnya diterapkan ke dalam bentuk kode program. Proses pengembangannya meliputi pembuatan logika di bagian *backend*, pengelolaan basis data menggunakan ORM, serta pembuatan *frontend* yang interaktif agar sistem dapat berjalan dengan baik dan sangat responsif.
 4. **Implementation (Implementasi)**
@@ -23,7 +23,7 @@ Pada tahap ini dilakukan evaluasi terhadap sistem yang telah dikembangkan melalu
 ---
 
 ## 3.2 Requirement Analysis
-Analisis kebutuhan sistem dilakukan melalui studi literatur dan analisis terhadap platform Tryout yang telah tersedia. Hasil analisis tersebut digunakan sebagai dasar dalam menyusun kebutuhan fungsional dan non-fungsional.
+Analisis kebutuhan sistem dilakukan melalui studi literatur dan analisis terhadap platform persiapan UTBK sejenis yang telah tersedia. Hasil analisis tersebut digunakan sebagai dasar dalam menyusun kebutuhan fungsional dan non-fungsional.
 
 ### 3.2.1 Kebutuhan Fungsional 
 
@@ -62,7 +62,7 @@ Tabel 3.3 Kebutuhan Fungsional Sistem
 ### 3.2.2 Kebutuhan Non-Fungsional
 a. Sistem dirancang menggunakan arsitektur *Serverless* agar dapat melakukan penskalaan (*scaling*) otomatis dan melayani ratusan interaksi pengguna per detik (di atas 140 req/sec) tanpa kendala *timeout*.
 b. Sistem memanfaatkan mekanisme *Edge Caching* untuk mendistribusikan data statis secara instan dengan waktu muat kurang dari 20 milidetik.
-c. Sistem tetap dapat digunakan dengan baik meskipun terdapat kendala pada layanan eksternal Artificial Intelligent (terdapat mekanisme *fallback* API).
+c. Sistem tetap dapat digunakan secara mandiri untuk berlatih meskipun terdapat kendala koneksi pada layanan eksternal *Artificial Intelligent* (melalui komponen antarmuka *Fallback Hint* pengganti *chat*).
 d. Keamanan data dijaga dengan menerapkan enkripsi kata sandi dan proteksi sesi menggunakan standar Auth.js.
 
 ---
@@ -75,13 +75,13 @@ UML dipakai untuk menggambarkan dan mendokumentasikan alur kerja *Intelligent Tu
 ### 3.3.2 Arsitektur Sistem 
 Arsitektur sistem digunakan untuk menggambarkan hubungan antar komponen utama yang membangun aplikasi. Pada penelitian ini, sistem dikembangkan menggunakan arsitektur berbasis web modern dengan **Next.js (App Router)** sebagai Framework *full-stack* utama, **Prisma ORM** sebagai penghubung basis data, dan **PostgreSQL (Neon Serverless DB)** sebagai penyimpanan data utama. Layanan autentikasi menggunakan Auth.js (termasuk Google OAuth 2.0). 
 
-Selain itu, sistem juga terintegrasi secara *server-side* dengan layanan **Groq API** sebagai penyedia utama *Large Language Model* (LLM) untuk memastikan kunci jawaban tidak bocor ke klien, serta **OpenRouter API** sebagai layanan cadangan (*Fallback*) apabila layanan utama tidak dapat digunakan (misalnya akibat *rate limit*). 
+Selain itu, sistem juga terintegrasi secara *server-side* dengan layanan **Groq API** sebagai penyedia *Large Language Model* (LLM) untuk memproses logika *Socratic Scaffolding*. Hal ini memastikan kerahasiaan kunci jawaban (prompt) tidak terekspos ke klien (*browser* pengguna).
 
 ### 3.3.3 Perancangan AI Tutor
 AI Tutor dirancang sebagai komponen utama dalam ITS yang bertugas memberikan bimbingan kepada siswa. Komponen ini memiliki fitur:
-1. **Rule-Based Strategy Selector**: Menentukan strategi bimbingan berdasarkan jumlah percobaan (*attempt count*). Jika salah 1x, diberikan *Socratic Hint*. Jika salah 2x, diberikan *Step-by-Step Guidance*.
+1. **Rule-Based Strategy Selector**: Menentukan strategi bimbingan bertingkat (dikelola melalui *state* `useTutorChatStore`) berdasarkan jumlah percobaan. Jika salah 1x, AI memberikan **SOCRATIC** (pertanyaan pemandu). Jika salah 2x, AI memberikan **HINT** (petunjuk spesifik). Jika melampaui toleransi, diberikan **SOLUTION** komprehensif (mencakup Konsep, Langkah Penyelesaian, Kesalahan Umum, dan Latihan Serupa).
 2. **Mastery Tracking**: Mengukur persentase penguasaan materi (kategori Pemula, Menengah, Ahli) yang kemudian digunakan untuk menyesuaikan gaya bahasa AI Tutor.
-3. **Blind Mode Architecture**: Kunci jawaban disembunyikan dari *prompt* AI sehingga AI murni hanya memandu konsep tanpa membocorkan jawaban akhir.
+3. **Zero-Friction Context Injection**: Sistem secara rahasia menginjeksi *metadata* soal (teks soal, opsi yang dipilih siswa, dan kunci jawaban yang benar) ke dalam *context state* AI di sisi *backend*. Di antarmuka (*UI*) siswa, kunci jawaban ini di-*masking* menjadi `???` agar tidak bocor. Mekanisme ini memungkinkan AI memberikan umpan balik yang sangat spesifik dan kontekstual tanpa mengharuskan siswa mengetik ulang pertanyaannya, menjaga beban kognitif tetap rendah.
 
 ---
 
@@ -103,7 +103,7 @@ AI Tutor dirancang sebagai komponen utama dalam ITS yang bertugas memberikan bim
 - **Vercel**: Sebagai platform *cloud hosting* dan *Edge Network*.
 
 ### 3.4.3 Layanan Kecerdasan Buatan (AI) 
-Layanan Kecerdasan Buatan (AI) yang digunakan terdiri dari dua layanan utama. Layanan pertama adalah **Groq API** dengan model *llama-3.3-70b-versatile* yang berfungsi sebagai *engine* AI utama untuk menghasilkan *hint*, *feedback*, dan *study report* secara super cepat (*real-time*). Layanan kedua adalah **OpenRouter API** yang digunakan sebagai layanan cadangan (*fallback*) otomatis ketika Groq API mengalami gangguan.
+Layanan Kecerdasan Buatan (AI) yang digunakan adalah **Groq API** dengan memanfaatkan model *llama-3.3-70b-versatile* yang berfungsi sebagai *engine* AI utama. Groq API dipilih karena kemampuannya menghasilkan pemrosesan bahasa (LPU) secara sangat cepat (*real-time*), yang esensial untuk membimbing siswa tanpa adanya jeda (latensi) yang panjang pada mode latihan. Untuk mitigasi kegagalan jaringan API, antarmuka menyediakan komponen `FallbackHint` agar siswa tetap bisa melanjutkan evaluasi.
 
 ### 3.4.4 Dataset Pihak Ketiga & Pertama
 Dataset publik mengenai daftar Perguruan Tinggi Negeri (PTN), program studi, dan tingkat keketatan, dipadukan dengan dataset mandiri berupa kumpulan bank soal TKA/SNBT yang diketik dan diolah ke dalam format Excel (.xlsx) agar dapat diproses secara massal (Bulk Import) oleh sistem.
