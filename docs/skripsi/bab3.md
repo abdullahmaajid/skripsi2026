@@ -1,142 +1,109 @@
 # BAB III. METODE TUGAS AKHIR
 
 ## 3.1 Metode Penelitian
-
-Pada pengembangan aplikasi Lexica (Tryout & AI Tutor UTBK), proses pengembangan sistem dilakukan menggunakan metode ADDIE (Analysis, Design, Development, Implementation, dan Evaluation). Metode ini dipilih karena memiliki tahapan yang sistematis sehingga memudahkan proses analisis, perancangan, pengembangan, implementasi, dan evaluasi sistem. Setiap tahapan dilakukan secara terstruktur sehingga hasil pengembangan dapat dievaluasi sebelum dilanjutkan ke tahap berikutnya.
+Pada aplikasi Tryout ini, proses pengembangan sistem dilakukan menggunakan metode ADDIE (Analysis, Design, Development, Implementation, dan Evaluation). Metode ini dipilih karena memiliki tahapan yang sistematis sehingga memudahkan proses analisis, perancangan, pengembangan, implementasi, dan evaluasi sistem. Setiap tahapan dilakukan secara terstruktur sehingga hasil pengembangan dapat dievaluasi sebelum dilanjutkan ke tahap berikutnya. Dengan demikian, sistem yang dihasilkan diharapkan dapat berfungsi sesuai dengan tujuan penelitian.
 
 1. **Analysis (Analisis Kebutuhan)**
-Pada tahap ini, penulis menentukan fitur-fitur pada sistem sesuai dengan rumusan masalah yang telah ditentukan. Prosesnya meliputi identifikasi kebutuhan akan sistem penilaian yang lebih adil (berbasis *Item Response Theory* / IRT), kebutuhan estimasi peluang kelulusan (Chancing Engine), serta bimbingan belajar terpersonalisasi menggunakan AI Tutor.
+Pada tahap ini, penulis menentukan fitur-fitur pada sistem sesuai dengan rumusan masalah yang telah ditentukan. Prosesnya meliputi pengumpulan data, analisis kebutuhan pengguna, serta penentuan kebutuhan sistem, baik kebutuhan fungsional, maupun kebutuhan non-fungsional. Tahapan analisis dilakukan secara menyeluruh agar sistem yang dikembangkan dapat berjalan sesuai dengan tujuan penelitian.
 2. **Design System (Desain Sistem)**
-Tahapan perancangan sistem menggunakan *Unified Modeling Language* (UML) seperti Use Case Diagram dan Activity Diagram, serta perancangan basis data menggunakan *Entity Relationship Diagram* (ERD). Pada tahap ini juga dirancang arsitektur algoritma IRT dan fungsi Sigmoid untuk probabilitas kelulusan, serta prompt sistem untuk AI Scaffolding.
+Tahapan berikutnya merancang sistem yang akan dikembangkan. Perancangan ini dibuat menggunakan *Unified Modeling Language* (UML), seperti Use Case Diagram, Activity Diagram, dan Perancangan Basis Data. Perancangan ini dirancang untuk menggambarkan bagaimana pengguna (siswa dan Superadmin) dapat berinteraksi dengan sistem. Selain itu, dalam tahap ini juga merancang struktur basis data, serta tampilan antarmuka agar sistem Tryout mudah digunakan.
 3. **Development (Pengembangan)**
-Rancangan sistem diterapkan ke dalam bentuk kode program menggunakan teknologi modern berbasis *Next.js 16 (App Router)* untuk frontend dan backend secara *fullstack*, *Prisma ORM* untuk manajemen basis data PostgreSQL, serta integrasi Groq API untuk memproses layanan *Large Language Model* (LLM).
+Pada tahapan ini, rancangan sistem yang telah dibuat sebelumnya diterapkan ke dalam bentuk kode program. Proses pengembangannya meliputi pembuatan logika di bagian *backend*, pengelolaan basis data menggunakan ORM, serta pembuatan *frontend* yang interaktif agar sistem dapat berjalan dengan baik dan sangat responsif.
 4. **Implementation (Implementasi)**
-Sistem yang telah dikembangkan di-*deploy* menggunakan layanan cloud (Vercel) sehingga dapat dijalankan secara nyata. Selanjutnya dilakukan pengujian oleh responden sesuai dengan perannya, yaitu siswa dan superadmin.
+Pada tahapan ini, sistem yang telah dikembangkan di-*deploy* ke layanan peladen awan (*cloud serverless*) dan digunakan sesuai dengan skenario yang telah dirancang. Selanjutnya dilakukan pengujian oleh responden sesuai dengan perannya, yaitu siswa dan superadmin, untuk memastikan seluruh fitur dapat digunakan dengan baik sebelum dilakukan evaluasi.
 5. **Evaluation (Evaluasi)**
-Pada tahap ini dilakukan evaluasi terhadap sistem melalui dua jenis pengujian:
-- **Black-Box Testing**: Memastikan fungsionalitas fitur (CBT Simulator, IRT Scoring, Chancing, AI Tutor, Analytics) berjalan sesuai Spesifikasi Kebutuhan Fungsional (FR).
-- **System Usability Scale (SUS)**: Mengukur tingkat kemudahan penggunaan (*usability*) sistem berdasarkan penilaian pengguna akhir.
+Pada tahap ini dilakukan evaluasi terhadap sistem yang telah dikembangkan melalui beberapa jenis pengujian, yaitu:
+   **a. Black-Box & Performance Testing**
+   Pengujian dilakukan untuk memastikan seluruh fungsi sistem berjalan sesuai dengan kebutuhan yang telah ditentukan. Pengujian mencakup fitur autentikasi, pengelolaan bank soal, Mode Belajar, Mode Ujian, AI Tutor, Learning Analytics, serta proses impor soal. Selain itu, dilakukan *Stress Testing* (menggunakan *Autocannon*) untuk menguji ketahanan batas beban server (*throughput* dan *latency*).
+   **b. System Usability Scale (SUS)**
+   Pengujian dilakukan untuk mengukur tingkat kemudahan penggunaan (*usability*) sistem berdasarkan penilaian responden.
+   **c. Penetration Testing**
+   Pengujian keamanan dilakukan menggunakan OWASP ZAP untuk mengidentifikasi potensi kerentanan pada aplikasi web.
 
 ---
 
 ## 3.2 Requirement Analysis
-
-Analisis kebutuhan sistem terbagi menjadi dua jenis, yaitu kebutuhan fungsional dan kebutuhan non-fungsional, yang disusun berdasarkan spesifikasi platform edukasi cerdas berbasis AI.
+Analisis kebutuhan sistem dilakukan melalui studi literatur dan analisis terhadap platform Tryout yang telah tersedia. Hasil analisis tersebut digunakan sebagai dasar dalam menyusun kebutuhan fungsional dan non-fungsional.
 
 ### 3.2.1 Kebutuhan Fungsional 
 
-**1. Aktor: Siswa**
+**1. Aktor : Siswa**
 Tabel 3.1 Kebutuhan Fungsional Siswa
 | No. | Kebutuhan Fungsional |
 |:---:|---|
-| 1 | Siswa dapat melakukan registrasi dan login ke dalam sistem secara manual maupun menggunakan Google Sign-In (OAuth). |
-| 2 | Siswa dapat mengisi *Onboarding* untuk menentukan target program studi dan universitas impian. |
-| 3 | Siswa dapat mengerjakan Ujian Diagnostik dan Tryout reguler melalui CBT Simulator yang dilengkapi *timer*. |
-| 4 | Siswa dapat mengakses *Learning Path* dengan mekanisme *mastery locking* (bab terbuka secara bertahap). |
-| 5 | Siswa dapat melakukan sesi latihan soal (Mode Belajar) dengan bantuan AI Tutor yang interaktif. |
-| 6 | Siswa dapat melihat *Dashboard Analytics* (Radar chart kemahiran, Tren skor, Evaluasi jawaban salah, dan kalkulasi peluang kelulusan/Chancing). |
-| 7 | Siswa dapat mengelola profil akun dan target belajar. |
+| 1 | Siswa dapat melakukan registrasi dan login ke dalam sistem, termasuk menggunakan akun Google (Google Sign-In). |
+| 2 | Siswa dapat mengatur target nilai belajar dan target harian sebagai dasar perencanaan pembelajaran. |
+| 3 | Siswa dapat melihat *personal plan* dan prioritas materi berdasarkan hasil penguasaan materi yang tersimpan pada sistem. |
+| 4 | Siswa dapat mengerjakan ujian melalui halaman ujian yang dilengkapi *timer* dan navigasi soal. |
+| 5 | Siswa dapat memulai sesi Mode Belajar dengan bantuan AI Tutor yang memberikan *hint* adaptif saat terjadi kesalahan. |
+| 6 | Siswa dapat melihat *dashboard* analitik pembelajaran yang menampilkan statistik belajar, tren nilai, kalkulasi probabilitas lulus (*chancing*), dan rekomendasi belajar. |
+| 7 | Siswa dapat melihat riwayat pembelajaran dari seluruh aktivitas pengerjaan ujian dan latihan yang pernah dilakukan lengkap dengan *AI Study Report*. |
 
-**2. Aktor: Superadmin**
+**2. Aktor : Superadmin** 
 Tabel 3.2 Kebutuhan Fungsional Superadmin
 | No. | Kebutuhan Fungsional |
 |:---:|---|
 | 1 | Superadmin dapat login ke dalam sistem. |
-| 2 | Superadmin dapat memantau statistik aktivitas pengguna dan distribusi skor secara global pada Dashboard. |
-| 3 | Superadmin dapat mengelola data Universitas, Program Studi (Daya tampung & Keketatan), serta parameter IRT (*difficulty, discrimination*). |
-| 4 | Superadmin dapat mengelola *Bank Soal* lengkap dengan dukungan LaTeX (MathJax) untuk rumus matematika. |
-| 5 | Superadmin dapat mengelola modul *Scraping* data eksternal untuk memperbarui basis data PTN. |
+| 2 | Superadmin dapat melihat dashboard admin menampilkan informasi mengenai jumlah siswa, mata pelajaran soal, dan ujian yang tersedia. |
+| 3 | Superadmin dapat mengelola data mata pelajaran dan materi bab. |
+| 4 | Superadmin dapat mengelola bank soal, mengimpor soal dari file Excel, serta mengelola data Universitas dan Jurusan. |
+| 5 | Superadmin dapat memantau hasil sesi belajar dan hasil ujian yang dikerjakan oleh siswa. |
 
 **3. Kebutuhan Fungsional Sistem**
 Tabel 3.3 Kebutuhan Fungsional Sistem
 | No. | Kebutuhan Fungsional |
 |:---:|---|
-| 1 | Sistem dapat menghitung estimasi kemampuan siswa ($\theta$) menggunakan algoritma Item Response Theory (IRT) model 1-PL/2-PL. |
-| 2 | Sistem dapat menghitung persentase peluang kelulusan (*Chancing*) menggunakan algoritma berbasis fungsi Sigmoid secara dinamis. |
-| 3 | Sistem dapat menghasilkan instruksi bimbingan berjenjang (*Scaffolding*: Socratic, Hint, Solution) secara otomatis via LLM. |
-| 4 | Sistem dapat merender notasi matematika (LaTeX) pada soal dan percakapan AI secara *real-time*. |
+| 1 | Sistem dapat memeriksa dan menilai jawaban pilihan ganda secara otomatis berdasarkan kunci jawaban. |
+| 2 | Sistem dapat menampilkan simbol maupun rumus matematika menggunakan format LaTeX secara *real-time*. |
+| 3 | Sistem dapat memberikan bantuan pembelajaran secara adaptif pada Mode Belajar, berupa *AI Hint*, *AI Feedback*, serta pembatasan jumlah percobaan menjawab. |
+| 4 | Sistem dapat menghitung peluang kelulusan secara algoritmis berdasarkan nilai siswa dan tingkat ketetatan program studi tujuan. |
+| 5 | Sistem dapat memperbarui tingkat penguasaan materi (*Mastery Tracking*) secara otomatis berdasarkan hasil pengerjaan siswa. |
 
 ### 3.2.2 Kebutuhan Non-Fungsional
-
-1. Sistem dirancang menggunakan arsitektur *Serverless* agar dapat melakukan *scaling* otomatis saat jumlah peserta Tryout melonjak.
-2. Proses perhitungan skor IRT yang berat pada sumber daya komputasi harus dapat diselesaikan dalam batas waktu toleransi *serverless function* (maksimal 10 detik).
-3. Antarmuka sistem dibuat responsif (*mobile-friendly*) dan modern (*user-friendly*) dengan mengadopsi prinsip *Cognitive Load Theory* (animasi transisi halus dan minim distraksi).
-4. Data kata sandi dilindungi menggunakan algoritma *hashing* yang aman (Bcrypt) sebelum disimpan ke basis data.
+a. Sistem dirancang menggunakan arsitektur *Serverless* agar dapat melakukan penskalaan (*scaling*) otomatis dan melayani ratusan interaksi pengguna per detik (di atas 140 req/sec) tanpa kendala *timeout*.
+b. Sistem memanfaatkan mekanisme *Edge Caching* untuk mendistribusikan data statis secara instan dengan waktu muat kurang dari 20 milidetik.
+c. Sistem tetap dapat digunakan dengan baik meskipun terdapat kendala pada layanan eksternal Artificial Intelligent (terdapat mekanisme *fallback* API).
+d. Keamanan data dijaga dengan menerapkan enkripsi kata sandi dan proteksi sesi menggunakan standar Auth.js.
 
 ---
 
 ## 3.3 Desain Sistem
 
-### 3.3.1 Use Case Diagram
+### 3.3.1 Pemodelan Sistem dengan Unified Modeling Language (UML)
+UML dipakai untuk menggambarkan dan mendokumentasikan alur kerja *Intelligent Tutoring System* (ITS) ini berjalan. Beberapa diagram UML yang digunakan antara lain *Use Case Diagram* dan *Activity Diagram* yang memetakan aktivitas login, ujian, analitik, dan manajemen data.
 
-Terdapat dua aktor utama dalam sistem:
-1. **Siswa**: Berperan sebagai pengguna akhir yang mengonsumsi layanan edukasi. Siswa memiliki hak akses terhadap *Use Case*: Login, Mengerjakan Tryout, Latihan Soal, Melihat Analitik (Radar, Tren, Chancing), dan Interaksi AI Tutor.
-2. **Superadmin**: Berperan sebagai pengelola platform. Superadmin memiliki hak akses terhadap *Use Case*: Manajemen Soal, Manajemen Pengguna, Monitoring Statistik, dan Manajemen Data PTN.
+### 3.3.2 Arsitektur Sistem 
+Arsitektur sistem digunakan untuk menggambarkan hubungan antar komponen utama yang membangun aplikasi. Pada penelitian ini, sistem dikembangkan menggunakan arsitektur berbasis web modern dengan **Next.js (App Router)** sebagai Framework *full-stack* utama, **Prisma ORM** sebagai penghubung basis data, dan **PostgreSQL (Neon Serverless DB)** sebagai penyimpanan data utama. Layanan autentikasi menggunakan Auth.js (termasuk Google OAuth 2.0). 
 
-Kedua aktor tersebut dihubungkan dengan relasi *<<include>>* pada *Use Case* Login, yang berarti autentikasi mutlak diperlukan sebelum fitur lain dapat diakses.
+Selain itu, sistem juga terintegrasi secara *server-side* dengan layanan **Groq API** sebagai penyedia utama *Large Language Model* (LLM) untuk memastikan kunci jawaban tidak bocor ke klien, serta **OpenRouter API** sebagai layanan cadangan (*Fallback*) apabila layanan utama tidak dapat digunakan (misalnya akibat *rate limit*). 
 
-### 3.3.2 Activity Diagram
-
-Activity Diagram digunakan untuk menjelaskan alur proses yang berjalan di dalam sistem Lexica. Beberapa alur krusial meliputi:
-1. **Activity Diagram Pelaksanaan Tryout (CBT)**: Siswa memilih paket ujian -> Sistem menyiapkan lingkungan sesi dan *timer* -> Siswa menjawab soal -> Siswa submit -> Sistem memproses skor IRT secara *batch* -> Sistem menampilkan halaman *Result*.
-2. **Activity Diagram AI Tutor (Mode Belajar)**: Siswa gagal menjawab soal -> Sistem mencegat jawaban salah -> Sistem mengirimkan konteks (*blind mode*) ke LLM -> LLM memberikan respons *Socratic* -> Siswa mencoba lagi.
-3. **Activity Diagram Analitik (Chancing)**: Siswa membuka halaman prediksi -> Sistem mengambil nilai *IRT Scaled* siswa dan data ketetatan Prodi -> Sistem mengkalkulasi kurva Sigmoid -> Sistem menampilkan label peluang (Aman / Bersaing / Sulit).
-
-### 3.3.3 Database Entity Relationship Diagram (ERD)
-
-Sistem menggunakan basis data relasional PostgreSQL dengan desain entitas utama sebagai berikut:
-- **User & StudentProfile**: Menyimpan data autentikasi dan target jurusan siswa.
-- **Subject, Chapter, Question**: Struktur hierarki materi dan bank soal. Tabel Question menyimpan parameter spesifik IRT seperti tingkat kesulitan (*difficulty*).
-- **ExamAttempt & QuestionResponse**: Mencatat sesi ujian siswa beserta riwayat pilihan ganda dan waktu yang dihabiskan per soal.
-- **SubjectScore**: Menyimpan estimasi parameter Theta ($\theta$) per subtes.
-- **TutoringSession & TutoringMessage**: Menyimpan riwayat obrolan AI *Scaffolding* untuk tiap soal.
-
-### 3.3.4 Arsitektur Sistem
-
-Lexica dikembangkan menggunakan **Next.js App Router Architecture** yang mendukung *React Server Components* (RSC) untuk performa optimal.
-1. Klien berinteraksi dengan antarmuka berbasis web.
-2. Permintaan *routing* dan komputasi ditangani oleh *Next.js Edge/Serverless API*.
-3. Akses basis data dilakukan melalui *Prisma Client* yang terhubung ke *PostgreSQL Connection Pool*.
-4. Fitur kecerdasan buatan (*AI Tutor*) diintegrasikan secara *server-side* menggunakan **Groq API** (mengakses model Llama-3.1). Hal ini memastikan *Prompt* sistem (kunci jawaban) tidak terekspos ke klien.
-
-### 3.3.5 Perancangan Algoritma & AI Tutor
-
-**1. Algoritma Scoring Item Response Theory (IRT)**
-Lexica tidak menggunakan sistem skor bobot statis konvensional, melainkan metode Newton-Raphson untuk mengestimasi kemampuan *Latent Trait* ($\theta$) berdasarkan pola jawaban.
-Fungsi optimasi matematis iteratif digunakan hingga mencapai konvergensi (Toleransi = 0.001) untuk mencari nilai Maximum Likelihood Estimation (MLE) dari kemampuan siswa.
-
-**2. Algoritma Chancing Engine (Sigmoid Curve)**
-Alih-alih menggunakan pemotongan nilai *passing grade* linier yang kaku, sistem menggunakan kurva logistik (Sigmoid) yang disesuaikan (*steepness factor*) dengan tingkat kompetisi jurusan (jumlah peminat berbanding kuota). Semakin tinggi kompetisi, semakin curam kurva probabilitasnya, sehingga selisih skor kecil sangat menentukan.
-Rumus probabilitas: $P(x) = \frac{1}{1 + e^{-k(x - threshold)}}$
-
-**3. Adaptive AI Prompting (Scaffolding System)**
-Mekanisme bimbingan tidak memberikan jawaban langsung (*Blind Mode Architecture*). Tingkat bantuan disesuaikan berdasarkan riwayat percobaan siswa:
-- **Level 1 (Socratic)**: Diberikan saat kesalahan pertama. AI hanya memberikan pertanyaan pancingan.
-- **Level 2 (Hint)**: Diberikan jika masih salah. AI memberikan sebagian konsep/rumus.
-- **Level 3 (Solution)**: Diberikan jika *stuck* total. AI menjabarkan langkah-langkah penyelesaian secara komprehensif.
+### 3.3.3 Perancangan AI Tutor
+AI Tutor dirancang sebagai komponen utama dalam ITS yang bertugas memberikan bimbingan kepada siswa. Komponen ini memiliki fitur:
+1. **Rule-Based Strategy Selector**: Menentukan strategi bimbingan berdasarkan jumlah percobaan (*attempt count*). Jika salah 1x, diberikan *Socratic Hint*. Jika salah 2x, diberikan *Step-by-Step Guidance*.
+2. **Mastery Tracking**: Mengukur persentase penguasaan materi (kategori Pemula, Menengah, Ahli) yang kemudian digunakan untuk menyesuaikan gaya bahasa AI Tutor.
+3. **Blind Mode Architecture**: Kunci jawaban disembunyikan dari *prompt* AI sehingga AI murni hanya memandu konsep tanpa membocorkan jawaban akhir.
 
 ---
 
 ## 3.4 Alat dan Bahan Tugas Akhir
 
-Alat yang digunakan dalam proses pengembangan aplikasi Lexica ini meliputi:
-
 ### 3.4.1 Perangkat Keras (Hardware)
-- Komputer / Laptop untuk proses penulisan kode (*coding*) dan kompilasi lokal.
-- Kapasitas RAM memadai (minimal 8GB) untuk menjalankan *development server* Node.js dan eksekusi integrasi *browser* secara simultan.
+- Laptop pengembang (ASUS TUF Gaming F15)
+- OS: Windows 11 (64-bit)
+- Processor: Intel Core i5-10300H @2.50GHz
+- RAM: 16GB
+- Penyimpanan: 512GB SSD
 
 ### 3.4.2 Perangkat Lunak (Software)
 - **Visual Studio Code**: Sebagai Integrated Development Environment (IDE).
-- **Node.js & npm**: *Runtime environment* dan *package manager*.
-- **Next.js (React 19)**: Framework *fullstack* utama.
-- **Prisma**: ORM untuk permodelan database.
-- **PostgreSQL**: Sistem manajemen basis data relasional.
+- **Node.js & npm**: *Runtime environment* dan pengelola paket.
+- **Next.js (App Router)**: Framework *full-stack* utama pembangun aplikasi.
+- **Prisma ORM**: Sebagai *Object-Relational Mapper* untuk efisiensi *query* database.
+- **PostgreSQL (Neon DB)**: Sebagai sistem manajemen basis data *serverless*.
+- **Vercel**: Sebagai platform *cloud hosting* dan *Edge Network*.
 
 ### 3.4.3 Layanan Kecerdasan Buatan (AI) 
-Layanan Kecerdasan Buatan (AI) yang digunakan adalah **Groq API** dengan memanfaatkan model terbuka yang sangat cepat (Llama-3.1-70b-versatile). Groq API dipilih karena kemampuannya memproses LPU (Language Processing Unit) secara *ultra-fast*, yang sangat vital untuk memberikan umpan balik (feedback) seketika (*real-time*) kepada siswa saat mode latihan berlangsung.
+Layanan Kecerdasan Buatan (AI) yang digunakan terdiri dari dua layanan utama. Layanan pertama adalah **Groq API** dengan model *llama-3.3-70b-versatile* yang berfungsi sebagai *engine* AI utama untuk menghasilkan *hint*, *feedback*, dan *study report* secara super cepat (*real-time*). Layanan kedua adalah **OpenRouter API** yang digunakan sebagai layanan cadangan (*fallback*) otomatis ketika Groq API mengalami gangguan.
 
-### 3.4.4 Dataset Pihak Ketiga
-Dataset dari pihak lain yang digunakan berupa data sekunder publik mengenai daftar Perguruan Tinggi Negeri (PTN), program studi, daya tampung, serta tingkat keketatan historis yang didapatkan dari laman resmi BP3/SNPMB.
-
-### 3.4.5 Dataset Pihak Pertama
-Dataset mandiri yang disusun khusus untuk platform Lexica berupa bank soal setara UTBK-SNBT yang disusun ke dalam format JSON/Excel agar dapat diimpor secara otomatis melalui *Admin Panel* (Bulk Import) ke dalam basis data sistem, lengkap beserta informasi kunci jawaban dan parameter tingkat kesulitan IRT.
+### 3.4.4 Dataset Pihak Ketiga & Pertama
+Dataset publik mengenai daftar Perguruan Tinggi Negeri (PTN), program studi, dan tingkat keketatan, dipadukan dengan dataset mandiri berupa kumpulan bank soal TKA/SNBT yang diketik dan diolah ke dalam format Excel (.xlsx) agar dapat diproses secara massal (Bulk Import) oleh sistem.
