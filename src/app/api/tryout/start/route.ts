@@ -55,7 +55,14 @@ export async function POST(req: NextRequest) {
           return prisma.question.findMany({
             where: { chapterId: { in: chapterIds } },
             take: section.itemCount,
-            include: { options: true, chapter: { include: { subject: true } } },
+            select: {
+              id: true,
+              text: true,
+              type: true,
+              difficulty: true,
+              options: { select: { id: true, label: true, text: true } },
+              chapter: { select: { subject: { select: { name: true } } } }
+            },
             orderBy: { difficulty: "asc" },
           });
         })
@@ -66,7 +73,14 @@ export async function POST(req: NextRequest) {
       // Fallback: grab random questions if no sections defined
       allQuestions = await prisma.question.findMany({
         take: template.totalItems > 0 ? Math.min(template.totalItems, 50) : 10,
-        include: { options: true, chapter: { include: { subject: true } } },
+        select: {
+          id: true,
+          text: true,
+          type: true,
+          difficulty: true,
+          options: { select: { id: true, label: true, text: true } },
+          chapter: { select: { subject: { select: { name: true } } } }
+        },
         orderBy: { difficulty: "asc" },
       });
     }

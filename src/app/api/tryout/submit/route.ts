@@ -17,7 +17,12 @@ export async function POST(req: NextRequest) {
     const questionIds = responses.map((r: { questionId: string }) => r.questionId)
     const questions = await prisma.question.findMany({
       where: { id: { in: questionIds } },
-      include: { options: true, chapter: { include: { subject: true } } },
+      select: { 
+        id: true, 
+        difficulty: true, 
+        options: { select: { id: true, isCorrect: true } }, 
+        chapter: { select: { subject: { select: { id: true } } } } 
+      },
     })
     const questionMap = new Map(questions.map(q => [q.id, q]))
     // ───────────────────────────────────────────────────────────────────────

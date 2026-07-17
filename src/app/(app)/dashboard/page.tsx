@@ -15,7 +15,26 @@ export default async function DashboardPage() {
   const [user, subjects] = await Promise.all([
     userId ? prisma.user.findUnique({
       where: { id: userId },
-      include: { profile: { include: { targetMajor1: { include: { university: true } }, targetMajor2: true } } },
+      select: {
+        id: true,
+        name: true,
+        role: true,
+        irtAbility: true,
+        profile: {
+          select: {
+            targetMajor1Id: true,
+            targetMajor1: {
+              select: {
+                id: true,
+                name: true,
+                estimatedScore: true,
+                cluster: true,
+                university: { select: { name: true } }
+              }
+            }
+          }
+        }
+      }
     }) : null,
     prisma.subject.findMany({ orderBy: { name: "asc" } })
   ])

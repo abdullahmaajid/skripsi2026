@@ -11,13 +11,32 @@ export async function GET(
 
     const attempt = await prisma.examAttempt.findUnique({
       where: { id },
-      include: {
+      select: {
+        id: true,
+        status: true,
+        rawScore: true,
+        irtScore: true,
+        scaledScore: true,
+        startedAt: true,
+        finishedAt: true,
+        template: { select: { name: true } },
         responses: {
-          include: {
-            question: { include: { options: true, chapter: { include: { subject: true } } } },
-          },
-        },
-        template: true,
+          select: {
+            questionId: true,
+            timeSpent: true,
+            isCorrect: true,
+            selectedIds: true,
+            question: {
+              select: {
+                text: true,
+                type: true,
+                difficulty: true,
+                chapter: { select: { subject: { select: { name: true } } } },
+                options: { select: { id: true, label: true, text: true, isCorrect: true } }
+              }
+            }
+          }
+        }
       },
     })
 
