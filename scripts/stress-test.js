@@ -6,7 +6,7 @@ const path = require('path');
 const MY_COOKIE = "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiMjAzcXhWQ05YbmJ2Z180bHlnZkdaa3BQVlZydUhXVmtnc3hwcTl5Y3A5ZU9NMnA3aXFGRnd3WUwxWktrZzN5QVB0UWY4ZldOelkzcW9kVWpGY3JTLXcifQ..s0r-WDrkfAVy0lRUhExA2w.sE_x1-OhXob6qV9snNYaV48URZ65JMz5dusRuDu2yuM_oS1bxbsH4qAinRVIT8_y8qaFl5EjoAd20cSIdv6iY6eKoVQPh-CY-3kSS5WG2EAEjF5jZbxMjyOL-ZDo36HgSzIU64YQ70KP9AaFDoNCIz06ck1ZRJBoFWJAXWja1m1GvEGhVNOTfxV-z4gsJXw8H7XL6bF-P4SUqGx5b5OKcTNcvJDvmT_NsH7FAqOqyBAUX15z8UjTyWaDMI6MaBSwN4FV8ZtorStRiJo77AR57Q.NUYqSV1iWcwkP2qa7AROs-WqRs2l00H4uhy9IjCB_6s";
 
 // 2. GANTI URL INI DENGAN ENDPOINT YANG MAU DITEST
-const TARGET_URL = 'http://localhost:3000/api/learning-path';
+const TARGET_URL = 'http://localhost:3000/api/profile';
 
 async function runTest() {
   console.log(`🚀 Memulai Stress Test pada ${TARGET_URL}...`);
