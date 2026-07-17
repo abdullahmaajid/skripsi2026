@@ -48,14 +48,14 @@ Platform Lexica didesain menggunakan arsitektur modern berkecepatan tinggi denga
 - **Icons:** **Lucide React** sebagai pustaka ikon vektor seragam.
 
 ### AI & Rendering Utilities
-- **AI Engine SDK (Groq API Connection):** Menghubungkan asisten tutor secara langsung ke model LLM **`llama-3.1-8b-instant`** melalui endpoint API Groq untuk pemrosesan prompt chatbot asisten secara streaming dan terstruktur.
+- **AI Engine SDK (Groq API Connection):** Menghubungkan asisten tutor secara langsung ke model LLM **`llama-3.3-70b-versatile`** melalui endpoint API Groq untuk pemrosesan prompt chatbot asisten secara streaming dan terstruktur.
 - **Format Matematika & Markdown:** **`react-markdown`**, **`remark-math`**, dan **`rehype-katex`** (berbasis **KaTeX**) untuk merender rumus matematika LaTeX kompleks secara responsif di sisi klien.
 - **Visualisasi Data:** **Recharts** untuk visualisasi bagan interaktif di dasbor analitik.
 
-### Database & Backend Services
+### Database, Backend Services & Performance Optimization
 - **Database ORM:** **Prisma (v7.8.0)** sebagai lapisan abstraksi skema database PostgreSQL, dengan adaptor `@prisma/adapter-pg` untuk manajemen koneksi pooling yang efisien.
 - **Autentikasi Keamanan:** **NextAuth.js v5 (Beta)** terintegrasi dengan Prisma adapter untuk sesi login siswa yang aman menggunakan enkripsi sandi **bcryptjs**. NextAuth v5 dipilih karena kompatibilitas penuh dengan arsitektur Next.js App Router, dengan risiko ketidakstabilan di tingkat sesi dimitigasi melalui pengujian siklus login secara menyeluruh.
-
+- **Performa & Edge Caching:** Sistem dioptimalkan untuk mencapai throughput tinggi (> 140 req/sec) melalui strategi *Prisma Strict Select Query Pruning* (menghilangkan *over-fetching* data di sisi *backend*) dan injeksi *Cache-Control* statis melalui Vercel Edge Network. Hal ini memperkecil latensi secara signifikan, bahkan pada jaringan lambat sekalipun, yang divalidasi dengan pengujian *stress test* menggunakan *Autocannon*.
 ---
 
 ## 🚀 Bagian III: Fitur Utama & Logika Sistem
@@ -73,7 +73,7 @@ Sistem menyusun peta belajar siswa secara adaptif berdasarkan kelemahan dan keku
 - **Latihan Soal Terarah (Targeted Practice):** Memungkinkan siswa melakukan *drill* latihan soal khusus pada bab yang dipilih, memanggil bank soal acak khusus bab tersebut dari server menggunakan query `chapterId`.
 
 ### 3. AI Tutor & Pembahasan Scaffolding
-Lexica mengintegrasikan kecerdasan buatan berbasis model Llama-3.1 melalui Groq API untuk membimbing pola pikir siswa alih-alih hanya memberikan jawaban instan secara langsung. Pendekatan ini didesain menggunakan prinsip *Cognitive Load Theory* (Sweller, 1988) untuk meminimalkan beban kognitif yang tidak perlu (*extraneous cognitive load*).
+Lexica mengintegrasikan kecerdasan buatan berbasis model Llama-3.3 melalui Groq API untuk membimbing pola pikir siswa alih-alih hanya memberikan jawaban instan secara langsung. Pendekatan ini didesain menggunakan prinsip *Cognitive Load Theory* (Sweller, 1988) untuk meminimalkan beban kognitif yang tidak perlu (*extraneous cognitive load*).
 - **Kesempatan Kedua (Second Chance):** Jika siswa salah menjawab saat latihan, AI Tutor memberikan petunjuk kontekstual agar siswa berpikir ulang sebelum mencoba kesempatan kedua.
 - **Zero-Friction Context Injection:** Saat siswa menjawab salah, sistem secara diam-diam (*invisible*) menginjeksi metadata soal (teks soal, opsi yang dipilih siswa, dan kunci jawaban asli) ke dalam *context state* AI. Di UI siswa, kunci jawaban asli disembunyikan menggunakan masking `???` agar tidak bocor, namun AI di *backend* menerima data utuh untuk memberikan sapaan (*auto-greeting*) dan respons yang sangat kontekstual tanpa siswa harus melakukan *copy-paste* soal.
 - **Free Chat Mode:** Siswa dapat berinteraksi langsung dengan AI Tutor melalui halaman `/tutor` atau tombol "Tanya AI" pada masing-masing bab di Learning Path. AI Tutor berperan sebagai asisten materi, motivator belajar, dan penyaji strategi ujian. Prompt khusus digunakan untuk menjaga fokus percakapan pada topik pendidikan dan mencegah jawaban instan.

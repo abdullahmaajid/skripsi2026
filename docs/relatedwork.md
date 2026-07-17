@@ -12,7 +12,7 @@
 - **Implementasi**: Laravel + MySQL untuk pembelajaran mandiri
 - **Metode**: SDLC tradisional
 - **Keterbatasan**: Domain web development, belum ada LLM, belum ada TryOut
-- **Gap yang Diisi Lexica**: Fokus ke UTBK dengan LLM Llama-3.1
+- **Gap yang Diisi Lexica**: Fokus ke UTBK dengan LLM Llama-3.3
 
 ---
 
