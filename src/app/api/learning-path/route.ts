@@ -23,9 +23,19 @@ export async function GET() {
     // Get user responses to calculate dynamic mastery
     const responses = await prisma.questionResponse.findMany({
       where: { attempt: { userId, status: "COMPLETED" } },
-      include: { 
-        question: true,
-        attempt: true
+      select: {
+        isCorrect: true,
+        question: {
+          select: {
+            chapterId: true
+          }
+        },
+        attempt: {
+          select: {
+            id: true,
+            startedAt: true
+          }
+        }
       }
     })
 

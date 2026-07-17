@@ -10,24 +10,52 @@ import AuthLayout from "@/components/layout/AuthLayout"
 function OnboardingPlanContent() {
   const router = useRouter()
   const [loading, setLoading] = useState(true)
+  const [showSkip, setShowSkip] = useState(false)
 
   useEffect(() => {
-    // Kita panggil API learning path untuk men-generate initial state-nya
-    fetch("/api/learning-path")
+    const controller = new AbortController()
+    const timeoutId = setTimeout(() => controller.abort(), 8000) // 8s timeout
+    
+    // Munculkan tombol lewati setelah 3 detik jika masih loading
+    const skipTimer = setTimeout(() => setShowSkip(true), 3000)
+
+    fetch("/api/learning-path", { signal: controller.signal })
       .then(res => res.json())
       .then(() => {
         setLoading(false)
+        clearTimeout(skipTimer)
       })
       .catch(() => {
+        // Jika timeout atau error jaringan, kita set loading false saja
+        // agar user bisa lanjut ke dashboard tanpa stuck
         setLoading(false)
+        clearTimeout(skipTimer)
       })
+      
+    return () => {
+      clearTimeout(timeoutId)
+      clearTimeout(skipTimer)
+      controller.abort()
+    }
   }, [])
 
   if (loading) {
     return (
       <div className="flex flex-col items-center justify-center py-20 text-slate-500 gap-4">
         <Loader2 className="w-10 h-10 animate-spin text-[var(--accent)]" />
-        <p className="font-medium animate-pulse">Menyusun rute belajarmu...</p>
+        <p className="font-medium animate-pulse text-center px-4">Menyusun rute belajarmu...</p>
+        
+        {showSkip && (
+          <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-8 flex flex-col items-center gap-2">
+            <p className="text-xs text-slate-400 text-center px-4 max-w-xs">Proses ini memakan waktu lebih lama dari biasanya. Anda bisa melewati langkah ini.</p>
+            <button 
+              onClick={() => router.push("/dashboard")}
+              className="mt-2 px-6 py-2.5 bg-white border border-slate-200 text-slate-600 font-medium rounded-xl hover:bg-slate-50 transition-colors shadow-sm text-sm"
+            >
+              Lewati & Ke Dashboard
+            </button>
+          </motion.div>
+        )}
       </div>
     )
   }
