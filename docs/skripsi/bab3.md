@@ -80,7 +80,7 @@ Selain itu, sistem juga terintegrasi secara *server-side* dengan layanan **Groq 
 ### 3.3.3 Perancangan AI Tutor
 AI Tutor dirancang sebagai komponen utama dalam ITS yang bertugas memberikan bimbingan kepada siswa. Komponen ini memiliki fitur:
 1. **Rule-Based Strategy Selector**: Menentukan strategi bimbingan bertingkat (dikelola melalui *state* `useTutorChatStore`) berdasarkan jumlah percobaan. Jika salah 1x, AI memberikan **SOCRATIC** (pertanyaan pemandu). Jika salah 2x, AI memberikan **HINT** (petunjuk spesifik). Jika melampaui toleransi, diberikan **SOLUTION** komprehensif (mencakup Konsep, Langkah Penyelesaian, Kesalahan Umum, dan Latihan Serupa).
-2. **Mastery Tracking**: Mengukur persentase penguasaan materi (kategori Pemula, Menengah, Ahli) yang kemudian digunakan untuk menyesuaikan gaya bahasa AI Tutor.
+2. **Mastery Tracking**: Mengukur tingkat penguasaan materi secara spesifik per bab (dengan label: *Dikuasai*, *Sedang Dipelajari*, *Belum Mulai*) yang terintegrasi langsung dengan fitur peta belajar (*Learning Path*), serta mengakumulasi persentase subtes secara keseluruhan untuk menyesuaikan gaya bahasa (prompt) dari AI Tutor.
 3. **Zero-Friction Context Injection**: Sistem secara rahasia menginjeksi *metadata* soal (teks soal, opsi yang dipilih siswa, dan kunci jawaban yang benar) ke dalam *context state* AI di sisi *backend*. Di antarmuka (*UI*) siswa, kunci jawaban ini di-*masking* menjadi `???` agar tidak bocor. Mekanisme ini memungkinkan AI memberikan umpan balik yang sangat spesifik dan kontekstual tanpa mengharuskan siswa mengetik ulang pertanyaannya, menjaga beban kognitif tetap rendah.
 
 ---
