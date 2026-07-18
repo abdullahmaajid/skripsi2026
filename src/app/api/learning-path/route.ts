@@ -13,9 +13,19 @@ export async function GET() {
     // Fetch target major to determine cluster weights
     const studentProfile = await prisma.studentProfile.findUnique({
       where: { userId },
-      include: { targetMajor1: true }
+      include: { 
+        targetMajor1: {
+          include: { university: true }
+        }
+      }
     })
     const targetCluster = studentProfile?.targetMajor1?.cluster || "CAMPURAN"
+
+    // Fetch latest completed attempt for context
+    const latestAttempt = await prisma.examAttempt.findFirst({
+      where: { userId, status: "COMPLETED" },
+      orderBy: { finishedAt: "desc" }
+    })
 
     // Get all subjects and chapters
     const subjects = await prisma.subject.findMany({
@@ -166,7 +176,24 @@ export async function GET() {
     // Sort subjects dynamically by highest Priority Score first
     learningPath.sort((a, b) => b.priorityScore - a.priorityScore)
 
-    return NextResponse.json({ learningPath })
+    // Build userContext
+    let focusMessage = "Kamu belum menentukan target jurusan spesifik. Sistem meratakan bobot semua mata pelajaran untukmu."
+    if (targetCluster === "SAINTEK") {
+      focusMessage = "Karena target jurusanmu adalah SAINTEK, sistem memberikan **bobot ekstra (1.5x)** pada *Penalaran Matematika* dan *Pengetahuan Kuantitatif*. Pastikan kamu menguasai kedua subtes ini!"
+    } else if (targetCluster === "SOSHUM") {
+      focusMessage = "Karena target jurusanmu adalah SOSHUM, sistem memberikan **bobot ekstra (1.5x)** pada *Literasi Bahasa Indonesia* dan *Literasi Bahasa Inggris*. Ini adalah senjata utamamu!"
+    }
+
+    const userContext = {
+      targetMajor: studentProfile?.targetMajor1?.name || "Belum Memilih Jurusan",
+      targetUniversity: studentProfile?.targetMajor1?.university?.name || "",
+      targetCluster: targetCluster,
+      targetScore: studentProfile?.targetMajor1?.estimatedScore || 0,
+      latestTryoutScore: latestAttempt ? Math.round(latestAttempt.scaledScore || 0) : 0,
+      focusMessage
+    }
+
+    return NextResponse.json({ learningPath, userContext })
   } catch (error) {
     console.error("Learning path error:", error)
     return NextResponse.json({ error: "Failed to load learning path" }, { status: 500 })

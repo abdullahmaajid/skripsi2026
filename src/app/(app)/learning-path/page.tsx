@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { BookOpen, CheckCircle, Circle, PlayCircle, Lock, ArrowRight, Loader2, FileText, Sparkles, PenTool, X, Info } from "lucide-react"
+import { BookOpen, CheckCircle, Circle, PlayCircle, Lock, ArrowRight, Loader2, FileText, Sparkles, PenTool, X, Info, Target, TrendingUp, AlertTriangle } from "lucide-react"
 import { useRouter } from "next/navigation"
 import MarkdownRenderer from "@/components/ui/MarkdownRenderer"
 
@@ -30,6 +30,7 @@ function ProgressRing({ progress, size = 40, stroke = 4, color = "var(--accent)"
 }
 export default function LearningPathPage() {
   const [data, setData] = useState<any[]>([])
+  const [ctx, setCtx] = useState<any | null>(null)
   const [loading, setLoading] = useState(true)
   const [selectedChapter, setSelectedChapter] = useState<any | null>(null)
   const router = useRouter()
@@ -42,6 +43,7 @@ export default function LearningPathPage() {
       .then(r => r.json())
       .then(d => {
         setData(d.learningPath || [])
+        setCtx(d.userContext || null)
         setLoading(false)
       })
       .catch(() => setLoading(false))
@@ -66,20 +68,58 @@ export default function LearningPathPage() {
         <p className="text-slate-500 mt-2 text-sm">Rute belajarmu yang disesuaikan secara personal berdasarkan hasil ujian diagnostik dan tryout.</p>
       </motion.div>
 
-      <motion.div variants={fadeUp} className="bg-indigo-50/60 border border-indigo-100 rounded-2xl p-5 md:p-6 flex gap-4 text-sm shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
-        <div className="shrink-0 mt-0.5">
-          <Info className="w-5 h-5 text-indigo-500" />
-        </div>
-        <div className="text-slate-600 space-y-3 leading-relaxed">
-          <p><strong className="text-indigo-900 font-bold">Bagaimana rute belajar ini disusun?</strong></p>
-          <ul className="list-disc pl-4 space-y-2 text-[13px] md:text-sm">
-            <li><strong>Prioritas Mata Pelajaran:</strong> Mata pelajaran dengan rata-rata penguasaan terendah akan otomatis ditempatkan di <strong>paling atas</strong>, sehingga kamu bisa memprioritaskan area terlemahmu.</li>
-            <li><strong>Fokus pada Kelemahan Bab:</strong> Di dalam tiap mata pelajaran, bab yang paling banyak kamu jawab salah saat Tryout akan didorong ke urutan <strong>awal</strong> (dilabeli <span className="font-semibold text-blue-600">Sedang Dipelajari</span>).</li>
-            <li><strong>Sistem Bertahap (Terkunci):</strong> Kamu tidak bisa melompat ke materi lanjutan jika materi dasarnya (<span className="font-semibold text-slate-500">Belum Mulai</span>) belum kamu coba pelajari.</li>
-            <li><strong>Materi yang Dikuasai:</strong> Bab dengan skor penguasaan tinggi (≥70%) otomatis digeser ke urutan <strong>paling akhir</strong> agar tidak mengganggu fokus belajarmu saat ini.</li>
-          </ul>
-        </div>
-      </motion.div>
+      {ctx && (
+        <motion.div variants={fadeUp} className="bg-gradient-to-br from-indigo-50 to-blue-50/50 border border-indigo-100 rounded-3xl p-6 md:p-8 shadow-sm relative overflow-hidden">
+          <div className="absolute top-0 right-0 p-8 opacity-[0.03] pointer-events-none">
+            <Target className="w-48 h-48" />
+          </div>
+          
+          <div className="relative z-10 space-y-6">
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+              <div>
+                <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-indigo-100 text-indigo-700 text-xs font-bold rounded-full uppercase tracking-wider mb-3">
+                  <Sparkles className="w-3.5 h-3.5" /> Target PTN: {ctx.targetCluster}
+                </span>
+                <h2 className="text-xl md:text-2xl font-bold text-slate-800">
+                  {ctx.targetMajor}
+                </h2>
+                <p className="text-slate-500 font-medium">{ctx.targetUniversity}</p>
+              </div>
+              
+              <div className="flex gap-4">
+                <div className="bg-white/60 border border-white/40 p-4 rounded-2xl text-center min-w-[120px]">
+                  <p className="text-[10px] uppercase font-bold text-slate-500 mb-1">Skor TO Terakhir</p>
+                  <p className={`text-2xl font-black ${ctx.latestTryoutScore >= ctx.targetScore ? "text-emerald-600" : "text-slate-800"}`}>
+                    {ctx.latestTryoutScore}
+                  </p>
+                </div>
+                <div className="bg-white/60 border border-white/40 p-4 rounded-2xl text-center min-w-[120px]">
+                  <p className="text-[10px] uppercase font-bold text-indigo-500 mb-1">Target Aman</p>
+                  <p className="text-2xl font-black text-indigo-700">{ctx.targetScore}</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white/60 rounded-2xl p-4 md:p-5 border border-indigo-50/50">
+              <div className="flex items-start gap-3">
+                <div className="shrink-0 mt-0.5">
+                  <Info className="w-5 h-5 text-indigo-500" />
+                </div>
+                <div className="text-slate-600 space-y-3 text-sm leading-relaxed">
+                  <p>
+                    <strong className="text-slate-800">Kenapa rute belajar ini disusun seperti di bawah?</strong><br />
+                    <MarkdownRenderer content={ctx.focusMessage} />
+                  </p>
+                  <ul className="list-disc pl-4 space-y-1.5 text-[13px] text-slate-500">
+                    <li>Mapel dengan skor terlemah akan ditarik ke urutan teratas agar kamu fokus menambal kekurangan.</li>
+                    <li>Bab-bab yang sering kamu jawab salah saat TO akan ditandai dengan <strong>Butuh Perhatian</strong>.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+      )}
 
       <div className="space-y-8">
         {data.map((subject, sIdx) => {
