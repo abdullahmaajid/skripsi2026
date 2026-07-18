@@ -253,11 +253,11 @@ Gambar 3. 23–27 Activity Diagram CRUD Bank Soal
 
 Superadmin dapat menambah soal secara manual maupun melalui impor file Excel. Proses impor dimulai dari Superadmin mengunggah file Excel, sistem membaca dan menampilkan *preview* soal. Setelah dikonfirmasi, sistem menyimpan data ke *database*. Superadmin juga dapat mengedit dan menghapus soal yang telah tersimpan.
 
-**Monitoring Aktivitas Siswa**
+**Monitoring Aktivitas Pengguna (Manajemen User)**
 
-Gambar 3. 28 Activity Diagram Monitoring Aktivitas Siswa
+Gambar 3. 28 Activity Diagram Manajemen User
 
-Gambar 3.28 menggambarkan proses Superadmin dalam memantau aktivitas siswa. Setelah membuka menu aktivitas siswa, sistem menampilkan daftar seluruh siswa beserta riwayat ujiannya. Superadmin dapat menekan tombol Detail untuk melihat detail aktivitas siswa secara lengkap.
+Gambar 3.28 menggambarkan proses Superadmin dalam memantau aktivitas pengguna. Setelah membuka menu Manajemen User, sistem menampilkan daftar seluruh pengguna beserta atribut akun, role, nilai rata-rata IRT (θ), dan jumlah Try Out yang telah diselesaikan. Superadmin juga dapat melakukan pencarian, penyaringan berdasarkan role, serta mengubah data akun atau menghapus pengguna jika diperlukan.
 
 ### 3.3.7 Database Entity Relationship Diagram
 

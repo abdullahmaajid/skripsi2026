@@ -1,0 +1,87 @@
+[
+  {
+    "id": "3.3",
+    "title": "Activity Diagram Login",
+    "mermaidCode": "stateDiagram-v2\n    [*] --> BukaHalamanLogin : Pengguna\n    BukaHalamanLogin --> MasukkanKredensial : Pengguna\n    MasukkanKredensial --> VerifikasiData : Sistem (Auth.js)\n    \n    state if_valid <<choice>>\n    VerifikasiData --> if_valid\n    \n    if_valid --> TampilkanError : Gagal\n    TampilkanError --> MasukkanKredensial : Pengguna\n    \n    if_valid --> CekRole : Berhasil\n    state if_role <<choice>>\n    CekRole --> if_role\n    \n    if_role --> DashboardSiswa : Role = Siswa\n    if_role --> DashboardAdmin : Role = SuperAdmin\n    \n    DashboardSiswa --> [*]\n    DashboardAdmin --> [*]"
+  },
+  {
+    "id": "3.5",
+    "title": "Activity Diagram Memperbarui Profil",
+    "mermaidCode": "stateDiagram-v2\n    [*] --> BukaMenuPengaturan : Pengguna\n    BukaMenuPengaturan --> TampilkanFormProfil : Sistem\n    TampilkanFormProfil --> UbahData : Pengguna\n    UbahData --> TekanSimpan : Pengguna\n    TekanSimpan --> SimpanKeDatabase : Sistem\n    SimpanKeDatabase --> TampilkanPesanSukses : Sistem\n    TampilkanPesanSukses --> [*]"
+  },
+  {
+    "id": "3.6",
+    "title": "Activity Diagram Personal Plan (Onboarding)",
+    "mermaidCode": "stateDiagram-v2\n    [*] --> LoginBerhasil : Siswa\n    LoginBerhasil --> CekPenggunaBaru : Sistem\n    \n    state if_baru <<choice>>\n    CekPenggunaBaru --> if_baru\n    \n    if_baru --> HalamanDashboard : Tidak (Pengguna Lama)\n    if_baru --> TampilkanFormOnboarding : Ya (Siswa Baru)\n    \n    TampilkanFormOnboarding --> IsiProfilDanTargetPTN : Siswa\n    IsiProfilDanTargetPTN --> SimpanTarget : Sistem\n    SimpanTarget --> MulaiDiagnosticTryOut : Siswa\n    MulaiDiagnosticTryOut --> EvaluasiBaselineKemampuan : Sistem\n    EvaluasiBaselineKemampuan --> HalamanDashboard : Sistem\n    \n    HalamanDashboard --> [*]"
+  },
+  {
+    "id": "3.7",
+    "title": "Activity Diagram Mode Belajar (Latihan Soal)",
+    "mermaidCode": "stateDiagram-v2\n    [*] --> PilihBabMateri : Siswa\n    PilihBabMateri --> Sajikan10Soal : Sistem\n    Sajikan10Soal --> KerjakanSoal : Siswa\n    KerjakanSoal --> EvaluasiJawaban : Sistem\n    \n    state if_benar <<choice>>\n    EvaluasiJawaban --> if_benar\n    \n    if_benar --> LanjutSoalBerikutnya : Benar\n    if_benar --> CekPercobaan : Salah\n    \n    state if_attempt <<choice>>\n    CekPercobaan --> if_attempt\n    \n    if_attempt --> TampilkanSocraticHint : Percobaan Ke-1\n    TampilkanSocraticHint --> JawabUlangSecondChance : Siswa\n    JawabUlangSecondChance --> EvaluasiJawaban\n    \n    if_attempt --> TampilkanJawabanDanSolusi : Percobaan Ke-2\n    TampilkanJawabanDanSolusi --> LanjutSoalBerikutnya\n    \n    LanjutSoalBerikutnya --> CekSelesaiSemua\n    state if_selesai <<choice>>\n    CekSelesaiSemua --> if_selesai\n    if_selesai --> KerjakanSoal : Belum\n    if_selesai --> TampilkanRingkasanDanAkurasi : Selesai\n    \n    TampilkanRingkasanDanAkurasi --> UpdateMasteryTracking : Sistem\n    UpdateMasteryTracking --> [*]"
+  },
+  {
+    "id": "3.8",
+    "title": "Activity Diagram Mode Ujian (Try Out)",
+    "mermaidCode": "stateDiagram-v2\n    [*] --> PilihPaketTryOut : Siswa\n    PilihPaketTryOut --> KunciAITutor : Sistem\n    KunciAITutor --> MulaiTimerSection : Sistem\n    MulaiTimerSection --> KerjakanSoalSubtesAktif : Siswa\n    \n    KerjakanSoalSubtesAktif --> TekanKumpulkanUjian : Siswa\n    TekanKumpulkanUjian --> EvaluasiAlgoritmaIRT : Sistem\n    EvaluasiAlgoritmaIRT --> KalkulasiSkorSNBT : Sistem\n    KalkulasiSkorSNBT --> TampilkanSkorAkhir : Sistem\n    TampilkanSkorAkhir --> [*]"
+  },
+  {
+    "id": "3.9",
+    "title": "Activity Diagram Analitik Siswa",
+    "mermaidCode": "stateDiagram-v2\n    [*] --> BukaMenuAnalitik : Siswa\n    BukaMenuAnalitik --> TampilkanPilihanModul : Sistem\n    TampilkanPilihanModul --> PilihModul : Siswa\n    PilihModul --> AmbilDataPembelajaran : Sistem\n    AmbilDataPembelajaran --> OlahDataVisual : Sistem\n    OlahDataVisual --> TampilkanGrafikDanInsight : Sistem\n    TampilkanGrafikDanInsight --> [*]"
+  },
+  {
+    "id": "3.10",
+    "title": "Activity Diagram Riwayat Pembelajaran",
+    "mermaidCode": "stateDiagram-v2\n    [*] --> BukaRiwayatUjian : Siswa\n    BukaRiwayatUjian --> TampilkanDaftarSoal : Sistem\n    TampilkanDaftarSoal --> PilihSoalSpesifik : Siswa\n    PilihSoalSpesifik --> TampilkanDetailSoalDanJawabanSiswa : Sistem\n    TampilkanDetailSoalDanJawabanSiswa --> TekanTanyaPembahasanAI : Siswa\n    TekanTanyaPembahasanAI --> GeneratePembahasanLengkap : AI Tutor\n    GeneratePembahasanLengkap --> TampilkanPembahasanAI : Sistem\n    TampilkanPembahasanAI --> [*]"
+  },
+  {
+    "id": "3.11",
+    "title": "Activity Diagram Create Mata Pelajaran",
+    "mermaidCode": "stateDiagram-v2\n    [*] --> PilihMenuMataPelajaran : Superadmin\n    PilihMenuMataPelajaran --> TekanTambahData : Superadmin\n    TekanTambahData --> IsiFormulirMapel : Superadmin\n    IsiFormulirMapel --> TekanSimpan : Superadmin\n    TekanSimpan --> ValidasiData : Sistem\n    \n    state if_valid <<choice>>\n    ValidasiData --> if_valid\n    \n    if_valid --> TampilkanError : Tidak Valid\n    TampilkanError --> IsiFormulirMapel : Superadmin\n    \n    if_valid --> SimpanKeDatabase : Valid\n    SimpanKeDatabase --> TampilkanPesanSukses : Sistem\n    TampilkanPesanSukses --> [*]"
+  },
+  {
+    "id": "3.12",
+    "title": "Activity Diagram Read Mata Pelajaran",
+    "mermaidCode": "stateDiagram-v2\n    [*] --> BukaMenuMataPelajaran : Superadmin\n    BukaMenuMataPelajaran --> QueryDatabase : Sistem\n    QueryDatabase --> TampilkanTabelData : Sistem\n    TampilkanTabelData --> [*]"
+  },
+  {
+    "id": "3.13",
+    "title": "Activity Diagram Update Mata Pelajaran",
+    "mermaidCode": "stateDiagram-v2\n    [*] --> BukaMenuMataPelajaran : Superadmin\n    BukaMenuMataPelajaran --> TekanEditMapel : Superadmin\n    TekanEditMapel --> TampilkanFormDenganDataLama : Sistem\n    TampilkanFormDenganDataLama --> UbahIsiFormulir : Superadmin\n    UbahIsiFormulir --> TekanSimpan : Superadmin\n    TekanSimpan --> ValidasiData : Sistem\n    \n    state if_valid <<choice>>\n    ValidasiData --> if_valid\n    \n    if_valid --> TampilkanError : Tidak Valid\n    TampilkanError --> UbahIsiFormulir : Superadmin\n    \n    if_valid --> UpdateDatabase : Valid\n    UpdateDatabase --> TampilkanPesanSukses : Sistem\n    TampilkanPesanSukses --> [*]"
+  },
+  {
+    "id": "3.14",
+    "title": "Activity Diagram Delete Mata Pelajaran",
+    "mermaidCode": "stateDiagram-v2\n    [*] --> BukaMenuMataPelajaran : Superadmin\n    BukaMenuMataPelajaran --> TekanHapusMapel : Superadmin\n    TekanHapusMapel --> TampilkanKonfirmasi : Sistem\n    TampilkanKonfirmasi --> TekanYaHapus : Superadmin\n    TekanYaHapus --> HapusDariDatabase : Sistem\n    HapusDariDatabase --> TampilkanPesanSukses : Sistem\n    TampilkanPesanSukses --> RefreshTabel : Sistem\n    RefreshTabel --> [*]"
+  },
+  {
+    "id": "3.23",
+    "title": "Activity Diagram Create Bank Soal",
+    "mermaidCode": "stateDiagram-v2\n    [*] --> PilihMenuBankSoal : Superadmin\n    PilihMenuBankSoal --> TekanTambahSoalManual : Superadmin\n    TekanTambahSoalManual --> TampilkanFormEditorSoal : Sistem\n    TampilkanFormEditorSoal --> IsiSoalOpsiDanKunci : Superadmin\n    IsiSoalOpsiDanKunci --> TekanSimpan : Superadmin\n    TekanSimpan --> ValidasiKelengkapanSoal : Sistem\n    \n    state if_valid <<choice>>\n    ValidasiKelengkapanSoal --> if_valid\n    if_valid --> TampilkanError : Tidak Valid\n    TampilkanError --> IsiSoalOpsiDanKunci : Superadmin\n    if_valid --> SimpanSoalKeDatabase : Valid\n    SimpanSoalKeDatabase --> TampilkanSukses : Sistem\n    TampilkanSukses --> [*]"
+  },
+  {
+    "id": "3.24",
+    "title": "Activity Diagram Read Bank Soal",
+    "mermaidCode": "stateDiagram-v2\n    [*] --> BukaMenuBankSoal : Superadmin\n    BukaMenuBankSoal --> TampilkanDaftarSoal : Sistem\n    TampilkanDaftarSoal --> FilterPencarianSoal : Superadmin\n    FilterPencarianSoal --> QueryDatabaseFilter : Sistem\n    QueryDatabaseFilter --> TampilkanSoalTerfilter : Sistem\n    TampilkanSoalTerfilter --> [*]"
+  },
+  {
+    "id": "3.25",
+    "title": "Activity Diagram Update Bank Soal",
+    "mermaidCode": "stateDiagram-v2\n    [*] --> TampilkanDaftarSoal : Superadmin\n    TampilkanDaftarSoal --> TekanEditSoal : Superadmin\n    TekanEditSoal --> TampilkanFormDataLama : Sistem\n    TampilkanFormDataLama --> UbahTeksSoalAtauOpsi : Superadmin\n    UbahTeksSoalAtauOpsi --> TekanSimpan : Superadmin\n    TekanSimpan --> UpdateSoalDatabase : Sistem\n    UpdateSoalDatabase --> TampilkanPesanSukses : Sistem\n    TampilkanPesanSukses --> [*]"
+  },
+  {
+    "id": "3.26",
+    "title": "Activity Diagram Delete Bank Soal",
+    "mermaidCode": "stateDiagram-v2\n    [*] --> TampilkanDaftarSoal : Superadmin\n    TampilkanDaftarSoal --> TekanHapusSoal : Superadmin\n    TekanHapusSoal --> PopUpKonfirmasi : Sistem\n    PopUpKonfirmasi --> KonfirmasiHapus : Superadmin\n    KonfirmasiHapus --> HapusRelasiSoalDatabase : Sistem\n    HapusRelasiSoalDatabase --> TampilkanSukses : Sistem\n    TampilkanSukses --> [*]"
+  },
+  {
+    "id": "3.27",
+    "title": "Activity Diagram Import Bank Soal",
+    "mermaidCode": "stateDiagram-v2\n    [*] --> TampilkanDaftarSoal : Superadmin\n    TampilkanDaftarSoal --> TekanImportExcel : Superadmin\n    TekanImportExcel --> UnggahFileExcel : Superadmin\n    UnggahFileExcel --> ValidasiFormatFile : Sistem\n    \n    state if_valid <<choice>>\n    ValidasiFormatFile --> if_valid\n    if_valid --> TampilkanErrorFormat : Salah Format\n    TampilkanErrorFormat --> UnggahFileExcel\n    \n    if_valid --> EkstrakDataDanTampilkanPreview : Format Benar (Sistem)\n    EkstrakDataDanTampilkanPreview --> KonfirmasiImportPreview : Superadmin\n    KonfirmasiImportPreview --> SimpanMassalKeDatabase : Sistem\n    SimpanMassalKeDatabase --> TampilkanLaporanBerhasil : Sistem\n    TampilkanLaporanBerhasil --> [*]"
+  },
+  {
+    "id": "3.28",
+    "title": "Activity Diagram Manajemen User",
+    "mermaidCode": "stateDiagram-v2\n    [*] --> BukaMenuManajemenUser : Superadmin\n    BukaMenuManajemenUser --> LoadDataPengguna : Sistem\n    LoadDataPengguna --> TampilkanDaftarUserDanStatistik : Sistem\n    TampilkanDaftarUserDanStatistik --> PilihAksi : Superadmin\n    \n    state if_aksi <<choice>>\n    PilihAksi --> if_aksi\n    \n    if_aksi --> FilterAtauCariUser : Filter/Cari\n    FilterAtauCariUser --> LoadDataPengguna\n    \n    if_aksi --> TekanEditUser : Edit\n    TekanEditUser --> TampilkanFormUser : Sistem\n    TampilkanFormUser --> SimpanPerubahan : Superadmin\n    SimpanPerubahan --> UpdateDatabase : Sistem\n    UpdateDatabase --> LoadDataPengguna\n    \n    if_aksi --> TekanHapusUser : Hapus\n    TekanHapusUser --> KonfirmasiHapus : Sistem\n    KonfirmasiHapus --> HapusPermanenDatabase : Superadmin\n    HapusPermanenDatabase --> LoadDataPengguna\n    \n    TampilkanDaftarUserDanStatistik --> [*]"
+  }
+]
