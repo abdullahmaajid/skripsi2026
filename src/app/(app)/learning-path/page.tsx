@@ -127,8 +127,8 @@ export default function LearningPathPage() {
                       <div className="flex items-start justify-between mb-3">
                         <div className="flex items-center gap-2">
                           {isCompleted ? <CheckCircle className="w-5 h-5 text-emerald-500" /> : inProgress ? <PlayCircle className="w-5 h-5 text-blue-500" /> : locked ? <Lock className="w-4 h-4 text-slate-400" /> : <Circle className="w-4 h-4 text-slate-400" />}
-                          <span className={`text-xs font-bold uppercase tracking-wider ${isCompleted ? 'text-emerald-600' : inProgress ? 'text-blue-600' : 'text-slate-500'}`}>
-                            {isCompleted ? "Dikuasai" : inProgress ? "Sedang Dipelajari" : locked ? "Terkunci" : "Belum Mulai"}
+                          <span className={`text-xs font-bold uppercase tracking-wider ${isCompleted ? 'text-emerald-600' : inProgress ? (chapter.examReadiness !== null && chapter.examReadiness < 70 ? 'text-rose-600' : 'text-blue-600') : 'text-slate-500'}`}>
+                            {isCompleted ? "Dikuasai" : inProgress ? (chapter.examReadiness !== null && chapter.examReadiness < 70 ? "Butuh Perhatian" : "Sedang Dipelajari") : locked ? "Terkunci" : "Belum Mulai"}
                           </span>
                         </div>
                         <span className="text-xl font-black text-slate-200">
@@ -138,17 +138,34 @@ export default function LearningPathPage() {
                       
                       <h3 className="font-semibold text-slate-800 mb-2 pr-4">{chapter.name}</h3>
                       
-                      <div className="mt-4">
-                        <div className="flex justify-between text-[10px] font-bold text-slate-500 mb-1.5 uppercase">
-                          <span>Penguasaan</span>
-                          <span className={isCompleted ? "text-emerald-600" : inProgress ? "text-blue-600" : ""}>{chapter.mastery}%</span>
+                      <div className="mt-4 space-y-3">
+                        <div>
+                          <div className="flex justify-between text-[10px] font-bold text-slate-500 mb-1.5 uppercase">
+                            <span>Konsep (Latihan)</span>
+                            <span className={chapter.conceptMastery >= 70 ? "text-emerald-600" : "text-blue-600"}>{chapter.conceptMastery || 0}%</span>
+                          </div>
+                          <div className="h-1.5 bg-slate-200 rounded-full overflow-hidden">
+                            <div 
+                              className={`h-full rounded-full transition-all duration-1000 ${chapter.conceptMastery >= 70 ? 'bg-emerald-500' : 'bg-blue-500'}`} 
+                              style={{ width: `${chapter.conceptMastery || 0}%` }} 
+                            />
+                          </div>
                         </div>
-                        <div className="h-1.5 bg-slate-200 rounded-full overflow-hidden">
-                          <div 
-                            className={`h-full rounded-full transition-all duration-1000 ${isCompleted ? 'bg-emerald-500' : 'bg-blue-500'}`} 
-                            style={{ width: `${chapter.mastery}%` }} 
-                          />
-                        </div>
+
+                        {chapter.examReadiness !== null && (
+                          <div>
+                            <div className="flex justify-between text-[10px] font-bold text-slate-500 mb-1.5 uppercase">
+                              <span>Kesiapan Ujian (TO)</span>
+                              <span className={chapter.examReadiness >= 70 ? "text-emerald-600" : "text-rose-500"}>{chapter.examReadiness}%</span>
+                            </div>
+                            <div className="h-1.5 bg-slate-200 rounded-full overflow-hidden">
+                              <div 
+                                className={`h-full rounded-full transition-all duration-1000 ${chapter.examReadiness >= 70 ? 'bg-emerald-500' : 'bg-rose-500'}`} 
+                                style={{ width: `${chapter.examReadiness}%` }} 
+                              />
+                            </div>
+                          </div>
+                        )}
                       </div>
                     </div>
 

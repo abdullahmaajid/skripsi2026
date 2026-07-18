@@ -10,6 +10,13 @@ export async function GET() {
     }
     const userId = session.user.id
 
+    // Fetch target major to determine cluster weights
+    const studentProfile = await prisma.studentProfile.findUnique({
+      where: { userId },
+      include: { targetMajor1: true }
+    })
+    const targetCluster = studentProfile?.targetMajor1?.cluster || "CAMPURAN"
+
     // Get all subjects and chapters
     const subjects = await prisma.subject.findMany({
       include: {
@@ -87,35 +94,43 @@ export async function GET() {
     }
 
     const learningPath = subjects.map(sub => {
+      // Determine weight based on cluster
+      let weight = 1.0
+      if (targetCluster === "SAINTEK") {
+        if (sub.name === "Penalaran Matematika" || sub.name === "Pengetahuan Kuantitatif") weight = 1.5
+      } else if (targetCluster === "SOSHUM") {
+        if (sub.name === "Literasi Bahasa Indonesia" || sub.name === "Literasi Bahasa Inggris") weight = 1.5
+      }
+
       const chapters = sub.chapters.map(ch => {
         const stats = chapterStats.get(ch.id)
         const manual = manualProgressMap.get(ch.id)
         
-        let mastery = 0
         let status = "NOT_STARTED"
 
-        // Dynamic tryout mastery
-        let dynamicMastery = 0
-        if (stats && stats.total > 0) {
-          dynamicMastery = Math.round((stats.correct / stats.total) * 100)
-        }
-
-        // Manual practice mastery
-        const manualMastery = manual?.masteryLevel || 0
-
-        // Take the highest
-        mastery = Math.max(dynamicMastery, manualMastery)
+        const conceptMastery = manual?.masteryLevel || 0
+        const examReadiness = stats && stats.total > 0 ? Math.round((stats.correct / stats.total) * 100) : null
         
-        if (mastery >= 70) {
-          status = "COMPLETED"
-        } else if (mastery > 0 || (stats && stats.total > 0) || manual) {
-          status = "IN_PROGRESS"
+        // Status logic
+        if (examReadiness !== null) {
+          // If they failed the tryout (< 70), downgrade to IN_PROGRESS regardless of practice score
+          if (examReadiness >= 70 && conceptMastery >= 70) status = "COMPLETED"
+          else status = "IN_PROGRESS"
+        } else {
+          // No tryout data, rely on practice
+          if (conceptMastery >= 70) status = "COMPLETED"
+          else if (conceptMastery > 0 || manual) status = "IN_PROGRESS"
         }
+
+        // Legacy mastery for UI ring
+        const mastery = Math.max(conceptMastery, examReadiness || 0)
 
         return {
           id: ch.id,
           name: ch.name,
-          mastery,
+          mastery, // Legacy fallback
+          conceptMastery,
+          examReadiness,
           status,
           totalQuestionsDone: stats ? stats.total : 0,
           theorySummary: ch.theorySummary || null,
@@ -125,25 +140,31 @@ export async function GET() {
 
       // Sort chapters: In Progress first, then Not Started, then Completed
       chapters.sort((a, b) => {
-        const priority = { "IN_PROGRESS": 1, "NOT_STARTED": 2, "COMPLETED": 3 }
-        return priority[a.status as keyof typeof priority] - priority[b.status as keyof typeof priority]
+        const priorityMap = { "IN_PROGRESS": 1, "NOT_STARTED": 2, "COMPLETED": 3 }
+        return priorityMap[a.status as keyof typeof priorityMap] - priorityMap[b.status as keyof typeof priorityMap]
       })
 
-      // Calculate average mastery for the subject
+      // Calculate average mastery for the subject ring
       const totalMastery = chapters.reduce((sum, ch) => sum + ch.mastery, 0)
       const averageMastery = chapters.length > 0 ? totalMastery / chapters.length : 0
+
+      // Calculate Priority Score
+      const totalReadiness = chapters.reduce((sum, ch) => sum + (ch.examReadiness !== null ? ch.examReadiness : ch.conceptMastery), 0)
+      const averageReadiness = chapters.length > 0 ? totalReadiness / chapters.length : 0
+      const priorityScore = (100 - averageReadiness) * weight
 
       return {
         id: sub.id,
         name: sub.name,
         averageMastery,
+        priorityScore,
+        weight,
         chapters
       }
     })
 
-    // Sort subjects dynamically by lowest mastery first (weakest subject appears on top)
-    // If average mastery is the same, keep alphabetical order (stable sort via initial DB order + mastery sort)
-    learningPath.sort((a, b) => a.averageMastery - b.averageMastery)
+    // Sort subjects dynamically by highest Priority Score first
+    learningPath.sort((a, b) => b.priorityScore - a.priorityScore)
 
     return NextResponse.json({ learningPath })
   } catch (error) {

@@ -53,7 +53,6 @@ export async function POST(req: NextRequest) {
         totalItems: parseInt(totalItems),
         cluster: cluster || "CAMPURAN",
         isDiagnostic: !!isDiagnostic,
-        isAdaptive: false, // Deprecated: always false.
       },
     })
 

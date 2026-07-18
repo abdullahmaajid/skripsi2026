@@ -39,6 +39,8 @@ export default function ChancingClient({
   const router = useRouter()
   const trend = trendCfg[behaviorContext.scoreTrend]
 
+  const targetNeedsHelp = results.some(r => r.isTarget && r.percentage < 70)
+
   return (
     <div className="space-y-6">
       <div>
@@ -64,6 +66,29 @@ export default function ChancingClient({
               <Star className="w-3 h-3 fill-purple-500" /> Terkuat: {behaviorContext.strongSubjects[0]}
             </span>
           )}
+        </motion.div>
+      )}
+
+      {/* Bridge to Learning Path if Target chance is low */}
+      {targetNeedsHelp && (
+        <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }}
+          className="flex flex-col sm:flex-row items-center justify-between gap-4 p-4 bg-rose-50 border border-rose-200 rounded-2xl shadow-sm"
+        >
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center shrink-0 text-rose-600">
+              <AlertTriangle className="w-5 h-5" />
+            </div>
+            <div>
+              <h3 className="text-sm font-bold text-rose-800">Peluang Lolos Target Rendah!</h3>
+              <p className="text-xs text-rose-600 mt-0.5">Sistem telah menyesuaikan prioritas belajarmu berdasarkan target ini.</p>
+            </div>
+          </div>
+          <button
+            onClick={() => router.push('/learning-path')}
+            className="w-full sm:w-auto px-5 py-2.5 bg-rose-600 hover:bg-rose-700 text-white text-xs font-bold rounded-xl shadow-sm transition-colors flex items-center justify-center gap-2"
+          >
+            Tambal Kelemahan <ArrowUpRight className="w-4 h-4" />
+          </button>
         </motion.div>
       )}
 
