@@ -3,7 +3,7 @@
 import { useEffect, useState, use, Suspense } from "react"
 import { useRouter, useSearchParams } from "next/navigation"
 import { useCbtStore, Question } from "@/store/useCbtStore"
-import { Clock, Flag, ChevronLeft, ChevronRight, LayoutGrid, CheckCircle2, Loader2, AlertTriangle, Sparkles } from "lucide-react"
+import { Clock, Flag, ChevronLeft, ChevronRight, LayoutGrid, CheckCircle2, Loader2, AlertTriangle, Sparkles, Info } from "lucide-react"
 import { motion } from "framer-motion"
 import MarkdownRenderer from "@/components/ui/MarkdownRenderer"
 
@@ -322,7 +322,9 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
                       <p className="text-xl font-bold text-emerald-700">{result.correct}/{result.total}</p>
                     </div>
                     <div className="bg-[var(--pastel-blue)] border border-blue-100 rounded-2xl p-4">
-                      <p className="text-[10px] uppercase tracking-wider text-blue-600 font-bold mb-1">θ (IRT)</p>
+                      <p className="text-[10px] uppercase tracking-wider text-blue-600 font-bold mb-1 flex items-center justify-center gap-1">
+                        θ (IRT) <Info className="w-3 h-3 text-blue-400 cursor-help" title="Skor kemampuan laten berdasarkan tingkat kesulitan soal yang berhasil dijawab. (Contoh: Menjawab soal SUSAH akan memberikan skor theta yang lebih tinggi daripada menjawab soal mudah)." />
+                      </p>
                       <p className="text-xl font-bold text-blue-700">{result.theta}</p>
                     </div>
                     <div className="bg-[var(--pastel-purple)] border border-purple-100 rounded-2xl p-4">
