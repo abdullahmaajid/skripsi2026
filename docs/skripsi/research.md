@@ -32,7 +32,7 @@
 ### 3.1 Ruang Lingkup (In-Scope)
 1. Platform dibangun sebagai **aplikasi web** menggunakan Next.js 16 (App Router), bukan aplikasi mobile native.
 2. Soal-soal UTBK yang digunakan dalam *bank soal* mencakup **7 subtes** resmi: Penalaran Umum, Pengetahuan Kuantitatif, Pemahaman Bacaan & Menulis, Pengetahuan & Pemahaman Umum, Literasi Bahasa Indonesia, Literasi Bahasa Inggris, dan Penalaran Matematika.
-3. *AI Tutor* menggunakan model LLM **llama-3.3-70b-versatile** yang diakses melalui Groq API (cloud inference).
+3. *AI Tutor* menggunakan model LLM **llama-3.1-8b-instant** yang diakses melalui Groq API (cloud inference).
 4. Penilaian menggunakan model **IRT 1-PL (Rasch Model)** dengan parameter kesulitan ($b$) yang ditentukan berdasarkan *expert judgment*.
 5. Data program studi dan estimasi skor aman bersumber dari **data sekunder publik** (arsip alumni, platform bimbel, dan laporan LTMPT).
 6. Evaluasi kebergunaan dilakukan menggunakan kuesioner **System Usability Scale (SUS)**.

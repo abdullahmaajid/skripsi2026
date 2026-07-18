@@ -45,7 +45,7 @@ Tabel 3.1 Kebutuhan Fungsional Siswa
 | 5 | Siswa dapat memulai sesi Mode Belajar (Latihan Soal per Bab) dengan bantuan AI Tutor yang memberikan *scaffolding* bertingkat saat terjadi kesalahan. |
 | 6 | Siswa dapat memulai sesi Mode Ujian (Try Out) tanpa bantuan AI Tutor. |
 | 7 | Siswa dapat melihat *dashboard* analitik pembelajaran yang menampilkan statistik belajar, tren nilai, kalkulasi probabilitas lulus (*chancing*), dan rekomendasi belajar. |
-| 8 | Siswa dapat melihat riwayat pembelajaran dari seluruh aktivitas pengerjaan ujian dan latihan yang pernah dilakukan lengkap dengan *AI Study Report*. |
+| 8 | Siswa dapat melihat riwayat pembelajaran dari seluruh aktivitas pengerjaan ujian dan latihan yang pernah dilakukan. |
 | 9 | Siswa dapat mengelola profil dan mengubah informasi akun melalui halaman Pengaturan. |
 
 **2. Aktor : Superadmin**
@@ -67,9 +67,8 @@ Tabel 3.3 Kebutuhan Fungsional Sistem
 | 2 | Sistem dapat menampilkan simbol maupun rumus matematika menggunakan format LaTeX secara *real-time*. |
 | 3 | Sistem dapat memberikan bantuan pembelajaran secara adaptif pada Mode Belajar, berupa *AI Hint*, *AI Feedback*, serta pembatasan jumlah percobaan menjawab (maksimal 2 kali percobaan). |
 | 4 | Sistem dapat menghitung peluang kelulusan secara algoritmis berdasarkan nilai siswa dan tingkat keketatan program studi tujuan. |
-| 5 | Sistem dapat menghasilkan AI Study Report setelah siswa menyelesaikan sesi belajar. |
-| 6 | Sistem dapat menyusun Learning Path dan menentukan prioritas belajar berdasarkan hasil nilai yang diperoleh siswa. |
-| 7 | Sistem dapat memperbarui tingkat penguasaan materi (*Mastery Tracking*) secara otomatis berdasarkan hasil pengerjaan siswa. |
+| 5 | Sistem dapat menyusun Learning Path dan menentukan prioritas belajar berdasarkan hasil nilai yang diperoleh siswa. |
+| 6 | Sistem dapat memperbarui tingkat penguasaan materi (*Mastery Tracking*) secara otomatis berdasarkan hasil pengerjaan siswa. |
 
 ### 3.2.2 Kebutuhan Non-Fungsional
 Kebutuhan non-fungsional menggambarkan kualitas sistem secara keseluruhan dan tidak dikaitkan dengan aktor tertentu, seperti:
@@ -106,7 +105,7 @@ Berdasarkan Gambar 3.30, arsitektur sistem menggambarkan alur komunikasi antar k
 Perancangan AI Tutor dilakukan untuk menjelaskan mekanisme kerja komponen ITS yang digunakan pada Mode Belajar. Pada bagian ini dijelaskan bagaimana AI Tutor memproses jawaban siswa, menentukan strategi bimbingan berdasarkan jumlah percobaan (*attempt count*), serta menyusun *prompt* sebelum dikirimkan ke LLM. Selain itu, bagian ini juga membahas komponen pendukung seperti *Prompt Builder*, *Rule-Based Strategy Selector*, *Zero-Friction Context Injection*, *Mastery Tracking*, dan *Learning Path* yang bekerja bersama untuk menghasilkan pengalaman belajar yang adaptif sesuai dengan kemampuan masing-masing siswa.
 
 #### 3.3.4.1 Arsitektur AI Tutor
-AI Tutor dirancang sebagai komponen utama dalam *Intelligent Tutoring System* (ITS) yang bertugas memberikan bimbingan kepada siswa selama proses pembelajaran. Ketika siswa mengirimkan jawaban, sistem terlebih dahulu mengumpulkan informasi yang dibutuhkan, seperti soal, jawaban siswa, jumlah percobaan (*attempt count*), serta kunci jawaban yang benar. Selanjutnya jumlah percobaan digunakan oleh *Rule-Based Strategy Selector* untuk menentukan strategi bimbingan yang akan diberikan. Setelah itu, *Prompt Builder* menyusun *prompt* yang dikirimkan ke LLM melalui Groq API. Apabila layanan Groq API tidak dapat digunakan, sistem secara otomatis menampilkan komponen antarmuka `FallbackHint` sebagai pengganti respons AI sehingga proses pembelajaran tetap dapat berlangsung. Respons yang dihasilkan oleh LLM selanjutnya ditampilkan kepada siswa dalam bentuk *AI Hint*, *AI Feedback*, atau *AI Study Report* sesuai dengan kebutuhan pembelajaran.
+AI Tutor dirancang sebagai komponen utama dalam *Intelligent Tutoring System* (ITS) yang bertugas memberikan bimbingan kepada siswa selama proses pembelajaran. Ketika siswa mengirimkan jawaban, sistem terlebih dahulu mengumpulkan informasi yang dibutuhkan, seperti soal, jawaban siswa, jumlah percobaan (*attempt count*), serta kunci jawaban yang benar. Selanjutnya jumlah percobaan digunakan oleh *Rule-Based Strategy Selector* untuk menentukan strategi bimbingan yang akan diberikan. Setelah itu, *Prompt Builder* menyusun *prompt* yang dikirimkan ke LLM melalui Groq API. Apabila layanan Groq API tidak dapat digunakan, sistem secara otomatis menampilkan komponen antarmuka `FallbackHint` sebagai pengganti respons AI sehingga proses pembelajaran tetap dapat berlangsung. Respons yang dihasilkan oleh LLM selanjutnya ditampilkan kepada siswa dalam bentuk *AI Hint* atau *AI Feedback* sesuai dengan kebutuhan pembelajaran.
 
 Gambar 3. 31 Arsitektur AI
 
@@ -134,10 +133,10 @@ Untuk menjamin kualitas pemahaman, LLM diinstruksikan melalui *Prompt Builder* a
 3. **Kesalahan Umum** — mengidentifikasi jebakan soal yang sering mengecoh siswa.
 4. **Soal Latihan Serupa** — satu soal buatan AI yang serupa untuk memperkuat pemahaman (*active recall*).
 
-#### 3.3.4.5 AI Hint, AI Feedback, dan AI Study Report
-AI Tutor menghasilkan tiga jenis keluaran yang digunakan untuk mendukung proses pembelajaran, yaitu *AI Hint*, *AI Feedback*, dan *AI Study Report*. *AI Hint* diberikan ketika siswa masih mengalami kesulitan dalam menjawab soal pada Mode Belajar. Bentuk bantuan yang diberikan disesuaikan dengan level *scaffold* yang telah dipilih oleh *Rule-Based Strategy Selector*, yaitu berupa pertanyaan pemandu (*SOCRATIC*), petunjuk parsial (*HINT*), atau pembahasan lengkap (*SOLUTION*).
+#### 3.3.4.5 AI Hint dan AI Feedback
+AI Tutor menghasilkan dua jenis keluaran yang digunakan untuk mendukung proses pembelajaran, yaitu *AI Hint* dan *AI Feedback*. *AI Hint* diberikan ketika siswa masih mengalami kesulitan dalam menjawab soal pada Mode Belajar. Bentuk bantuan yang diberikan disesuaikan dengan level *scaffold* yang telah dipilih oleh *Rule-Based Strategy Selector*, yaitu berupa pertanyaan pemandu (*SOCRATIC*), petunjuk parsial (*HINT*), atau pembahasan lengkap (*SOLUTION*).
 
-*AI Feedback* diberikan setelah siswa menyelesaikan suatu soal. Umpan balik ini berisi penjelasan mengenai jawaban siswa, konsep yang digunakan, serta alasan mengapa jawaban tersebut benar atau kurang tepat sehingga siswa dapat memahami letak kesalahannya. Setelah seluruh sesi pembelajaran selesai, sistem menghasilkan *AI Study Report* yang berisi ringkasan hasil belajar siswa, tingkat penguasaan materi, serta rekomendasi materi yang perlu dipelajari kembali berdasarkan hasil *Mastery Tracking*. Laporan ini bertujuan membantu siswa mengetahui perkembangan belajarnya dan menentukan fokus pembelajaran berikutnya.
+*AI Feedback* diberikan setelah siswa menyelesaikan suatu soal. Umpan balik ini berisi penjelasan mengenai jawaban siswa, konsep yang digunakan, serta alasan mengapa jawaban tersebut benar atau kurang tepat sehingga siswa dapat memahami letak kesalahannya.
 
 #### 3.3.4.6 Mastery Tracking
 *Mastery Tracking* merupakan komponen pada sistem yang berfungsi memantau tingkat penguasaan materi setiap siswa secara spesifik per bab. Sistem menggunakan tabel `ChapterProgress` pada basis data untuk mencatat status penguasaan tiap bab dengan label: *Dikuasai* (mastery ≥ 70%), *Sedang Dipelajari* (mastery > 0% tetapi < 70%), dan *Belum Mulai* (belum ada aktivitas). Nilai *mastery* dihitung berdasarkan akumulasi hasil pengerjaan siswa dengan persamaan berikut:
@@ -291,7 +290,7 @@ Alat yang digunakan dalam proses pengembangan platform Lexica ini dapat dilihat 
 - **KaTeX**: Sebagai *library* render rumus matematika LaTeX secara *real-time* di sisi klien.
 
 ### 3.4.3 Layanan Kecerdasan Buatan (AI)
-Layanan Kecerdasan Buatan (AI) yang digunakan adalah **Groq API** dengan memanfaatkan model *llama-3.3-70b-versatile* yang berfungsi sebagai *engine* AI utama. Groq API dipilih karena kemampuannya menghasilkan pemrosesan bahasa (LPU) secara sangat cepat (*real-time*), yang esensial untuk membimbing siswa tanpa adanya jeda (latensi) yang panjang pada mode latihan. Untuk mitigasi kegagalan jaringan API, antarmuka menyediakan komponen `FallbackHint` agar siswa tetap bisa melanjutkan evaluasi.
+Layanan Kecerdasan Buatan (AI) yang digunakan adalah **Groq API** dengan memanfaatkan model *llama-3.1-8b-instant* yang berfungsi sebagai *engine* AI utama. Groq API dipilih karena kemampuannya menghasilkan pemrosesan bahasa (LPU) secara sangat cepat (*real-time*), yang esensial untuk membimbing siswa tanpa adanya jeda (latensi) yang panjang pada mode latihan. Untuk mitigasi kegagalan jaringan API, antarmuka menyediakan komponen `FallbackHint` agar siswa tetap bisa melanjutkan evaluasi.
 
 ### 3.4.4 Dataset Pihak Ketiga & Pertama
 

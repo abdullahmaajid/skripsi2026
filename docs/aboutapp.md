@@ -48,7 +48,7 @@ Platform Lexica didesain menggunakan arsitektur modern berkecepatan tinggi denga
 - **Icons:** **Lucide React** sebagai pustaka ikon vektor seragam.
 
 ### AI & Rendering Utilities
-- **AI Engine SDK (Groq API Connection):** Menghubungkan asisten tutor secara langsung ke model LLM **`llama-3.3-70b-versatile`** melalui endpoint API Groq untuk pemrosesan prompt chatbot asisten secara streaming dan terstruktur.
+- **AI Engine SDK (Groq API Connection):** Menghubungkan asisten tutor secara langsung ke model LLM **`llama-3.1-8b-instant`** melalui endpoint API Groq untuk pemrosesan prompt chatbot asisten secara streaming dan terstruktur.
 - **Format Matematika & Markdown:** **`react-markdown`**, **`remark-math`**, dan **`rehype-katex`** (berbasis **KaTeX**) untuk merender rumus matematika LaTeX kompleks secara responsif di sisi klien.
 - **Visualisasi Data:** **Recharts** untuk visualisasi bagan interaktif di dasbor analitik.
 

@@ -28,7 +28,7 @@ Penelitian ini memilih empat metode utama yang dianggap optimal di bawah ini unt
 |---|---|---|
 | **IRT 1-Parameter Logistic (1PL)** | *Classical Test Theory* (CTT) | Memperhitungkan tingkat kesulitan soal sehingga estimasi kemampuan lebih representatif dan tidak bergantung pada populasi spesifik tes. CTT hanya memberikan skor total tanpa memperhitungkan variasi kesulitan butir soal. |
 | **Socratic Scaffolding** | *Direct Instruction* | Mendorong pemahaman konsep melalui bantuan bertahap, bukan pemberian jawaban instan. Pendekatan ini terbukti meningkatkan retensi jangka panjang dan mengurangi *rote learning*. |
-| **Groq + Llama-3.3-70b** | GPT Proprietary (OpenAI) | Latensi lebih rendah, biaya inferensi lebih efisien untuk aplikasi edukasi skala besar, serta mendukung streaming respons yang meningkatkan interaktivitas. |
+| **Groq + Llama-3.1-8b-instant** | GPT Proprietary (OpenAI) | Latensi lebih rendah, biaya inferensi lebih efisien untuk aplikasi edukasi skala besar, serta mendukung streaming respons yang meningkatkan interaktivitas. |
 | **Analytics Route-Based** | Nested Tab Layout | Organisasi modul evaluasi sebagai route terpisah mengurangi beban kognitif siswa dengan meminimalkan elemen antarmuka yang tidak relevan dalam satu tampilan. |
 
 #### 2.1.5.1 IRT 1PL vs Classical Test Theory
@@ -39,9 +39,9 @@ Classical Test Theory (CTT) merupakan pendekatan penilaian klasik yang mengandal
 
 *Direct Instruction* mempresentasikan materi melalui penjelasan langsung dan contoh yang sudah diselesaikan. Pendekatan ini cepat, namun sering kali melatih siswa menghafal langkah tanpa memahami konsep inti (*rote learning*). Sebaliknya, *Socratic Scaffolding* mengadaptasi prinsip *Zone of Proximal Development* (Vygotsky, 1978) dengan memberikan bantuan bertingkat: SOCRATIC (pertanyaan pemandu), HINT (petunjuk parsial), dan SOLUTION (penyelesaian lengkap). Pendekatan ini terbukti meningkatkan retensi jangka panjang karena memaksa siswa merefleksikan logika pemikirannya sendiri sebelum menerima jawaban (Paul & Elder, 2007).
 
-#### 2.1.5.3 Groq + Llama-3.3 vs GPT Proprietary
+#### 2.1.5.3 Groq + Llama-3.1 vs GPT Proprietary
 
-Penggunaan model proprietary seperti GPT-4 menawarkan kualitas bahasa yang tinggi, namun memiliki kelemahan pada biaya inferensi yang mahal untuk aplikasi edukasi dengan ribuan pengguna simultan, serta latensi yang lebih tinggi. Groq mem-forward LLM (llama-3.3-70b-versatile) pada infrastruktur LPU (Language Processing Unit) yang dioptimalkan untuk inferensi, menghasilkan *time-to-first-token* (TTFT) di bawah 100 ms. Hal ini memungkinkan respons streaming yang terasa real-time pada panel AI Tutor, sebuah kebutuhan kritis untuk menjaga alur pemikiran siswa.
+Penggunaan model proprietary seperti GPT-4 menawarkan kualitas bahasa yang tinggi, namun memiliki kelemahan pada biaya inferensi yang mahal untuk aplikasi edukasi dengan ribuan pengguna simultan, serta latensi yang lebih tinggi. Groq mem-forward LLM (llama-3.1-8b-instant) pada infrastruktur LPU (Language Processing Unit) yang dioptimalkan untuk inferensi, menghasilkan *time-to-first-token* (TTFT) di bawah 100 ms. Hal ini memungkinkan respons streaming yang terasa real-time pada panel AI Tutor, sebuah kebutuhan kritis untuk menjaga alur pemikiran siswa.
 
 ### 2.1.6 Ringkasan Kesenjangan Penelitian
 
