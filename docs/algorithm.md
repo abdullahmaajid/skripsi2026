@@ -43,7 +43,7 @@ Sistem membimbing pemahaman siswa menggunakan Llama-3.3 via Groq API. Parameter 
 - **Level 1 (SOCRATIC):** Mengajukan pertanyaan pemancing (e.g., *"Menurutmu apa kata kunci di paragraf kedua?"*).
 - **Level 2 (HINT):** Memberikan petunjuk arah (e.g., *"Coba gunakan rumus turunan pertama..."*).
 - **Level 3 (SOLUTION):** Memberikan *breakdown* jawaban penuh dari A sampai Z.
-- **Zero-Friction Context Injection:** Algoritma ini berjalan di *background*. Begitu siswa menjawab salah di mode latihan, *metadata* (ID soal, isi soal, pilihan jawaban siswa, kunci jawaban rahasia) otomatis dibungkus ke dalam *payload* API. Di *frontend*, kunci jawaban ditutup dengan format `???`, namun di *backend* AI menerima kunci utuh.
+- **Zero-Friction Context Injection:** Algoritma ini berjalan di *background*. Begitu siswa menjawab salah di mode latihan, *metadata* (ID soal, isi soal, pilihan jawaban siswa, kunci jawaban rahasia) otomatis dibungkus ke dalam *payload* API. Di *frontend*, meskipun kunci jawaban ada di *client*, tampilannya ditutup dengan format `???`, namun di *backend* AI menerima kunci utuh.
 - **Target Major Context Injection:** Konteks jurusan target siswa (`targetMajor1`) di-injeksi ke prompt AI untuk personalisasi motivasi. Misal: *"Teknik Informatika UI butuh pemahaman matematika yang kuat. Yuk kuasai konsep ini!"*
 
 ### 4. Free Chat Mode AI Tutor
