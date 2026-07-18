@@ -168,7 +168,6 @@ model ExamTemplate {
   duration    Int // Durasi dalam menit
   totalItems  Int // Jumlah soal
   cluster     Cluster
-  isAdaptive   Boolean       @default(false) // Deprecated: Real UTBK is linear. Always false.
   isDiagnostic Boolean      @default(false)
   attempts    ExamAttempt[]
   sections    ExamSection[]
@@ -281,24 +280,7 @@ enum MessageRole {
   SYSTEM
 }
 
-// ============================================
-// SCRAPING METADATA (Deprecated: No longer used)
-// ============================================
-model ScrapeLog {
-  id          String       @id @default(cuid())
-  source      String // URL yang di-scrape
-  status      ScrapeStatus
-  recordCount Int          @default(0)
-  error       String?      @db.Text
-  duration    Int // Durasi dalam ms
-  executedAt  DateTime     @default(now())
-}
-
-enum ScrapeStatus {
-  SUCCESS
-  PARTIAL
-  FAILED
-}
+// Removed ScrapeLog and ScrapeStatus
 
 // ============================================
 // LEARNING PATH & PROGRESS
@@ -317,12 +299,7 @@ model ChapterProgress {
   @@unique([userId, chapterId])
 }
 
-model SystemSetting {
-  key         String   @id
-  value       String   @db.Text
-  description String?  @db.Text
-  updatedAt   DateTime @updatedAt
-}
+
 
 enum MasteryStatus {
   NOT_STARTED

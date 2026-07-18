@@ -32,7 +32,7 @@ export default async function TryoutListPage() {
       duration: t.duration,
       totalItems: Math.min(t.totalItems, questionCount),
       cluster: t.cluster,
-      isAdaptive: t.isAdaptive,
+      isAdaptive: false,
       attempts: t._count.attempts,
       isCompleted,
       bestScore
