@@ -151,6 +151,30 @@ export default async function DashboardPage() {
     ? `${user.profile.targetMajor1.name} — ${user.profile.targetMajor1.university.name}`
     : "Belum dipilih"
 
+  // ── Actionable Insight Engine ──
+  let insightData = null;
+  if (latestAttempt && sortedRadar.length > 0) {
+    const weakest = sortedRadar[0];
+    const isCritical = weakest.score < weakest.target - 100;
+    
+    insightData = {
+      type: isCritical ? "URGENT_REVIEW" : "REVIEW",
+      subject: weakest.subject,
+      score: Math.round(weakest.score),
+      target: weakest.target,
+      message: `Berdasarkan TO terakhir, skor ${weakest.subject} kamu (${Math.round(weakest.score)}) masih di bawah target (${weakest.target}). Jangan dibiarkan!`,
+      actionText: `Perkuat ${weakest.subject}`,
+      actionUrl: `/learning-path`
+    }
+  } else if (hasPracticeActivity && !latestAttempt) {
+    insightData = {
+      type: "KEEP_GOING",
+      message: "Kamu sudah banyak berlatih tapi belum mencoba Try Out. Yuk ukur kemampuan aslimu!",
+      actionText: "Mulai Try Out",
+      actionUrl: "/tryout/list"
+    }
+  }
+
   // Journey progress object
   // Each step should only reflect its own actual activity:
   // - diagnosticDone: user completed a diagnostic exam
@@ -193,6 +217,7 @@ export default async function DashboardPage() {
       targetScoreGap={latestAttempt?.scaledScore ? Math.round(estimatedScore - latestAttempt.scaledScore) : null}
       journeyProgress={journeyProgress}
       aiRecommendation={aiRecommendation}
+      insightData={insightData}
     />
   )
 }

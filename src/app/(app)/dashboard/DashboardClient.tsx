@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation"
 import { useState, useEffect } from "react"
-import { BarChart, Activity, Target, BrainCircuit, ArrowRight, BookOpen, TrendingUp, Sparkles, Trophy, ChevronRight, FileText, Timer, Crown, Users, Medal, CheckCircle2, Map, Zap, GraduationCap, ChevronDown, ChevronUp, Rocket, PartyPopper, ArrowDown, ArrowUp } from "lucide-react"
+import { BarChart, Activity, Target, BrainCircuit, ArrowRight, BookOpen, TrendingUp, Sparkles, Trophy, ChevronRight, FileText, Timer, Crown, Users, Medal, CheckCircle2, Map, Zap, GraduationCap, ChevronDown, ChevronUp, Rocket, PartyPopper, ArrowDown, ArrowUp, AlertTriangle, Flame, Info } from "lucide-react"
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer, LineChart, Line, XAxis, YAxis, Tooltip } from "recharts"
 import { motion, Variants, AnimatePresence } from "framer-motion"
 
@@ -28,6 +28,15 @@ interface Props {
   targetScoreGap: number | null
   journeyProgress: JourneyProgress
   aiRecommendation?: any
+  insightData?: {
+    type: string
+    subject?: string
+    score?: number
+    target?: number
+    message: string
+    actionText: string
+    actionUrl: string
+  } | null
 }
 
 /* ─── Animated counter ─── */
@@ -252,7 +261,7 @@ function GettingStartedCard({ journey, collapsed, onToggle }: { journey: Journey
   )
 }
 
-export default function DashboardClient({ userName, targetName, latestScore, irtTheta, totalAttempts, radarData, recentActivities, stats, fokusSubject, peluangLulus, trendData, targetScoreGap, journeyProgress, aiRecommendation }: Props) {
+export default function DashboardClient({ userName, targetName, latestScore, irtTheta, totalAttempts, radarData, recentActivities, stats, fokusSubject, peluangLulus, trendData, targetScoreGap, journeyProgress, aiRecommendation, insightData }: Props) {
   const router = useRouter()
   const hasData = radarData.some(r => r.score > 0)
   const scoreProgress = latestScore > 0 ? Math.min((latestScore / 1000) * 100, 100) : 0
@@ -321,6 +330,60 @@ export default function DashboardClient({ userName, targetName, latestScore, irt
           </motion.button>
         </div>
       </motion.div>
+
+      {/* ═══ 0. ACTIONABLE INSIGHT ENGINE (SMART ALERT) ═══ */}
+      <AnimatePresence>
+        {insightData && (
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, scale: 0.95 }}
+            className={`relative overflow-hidden rounded-[2rem] border-2 shadow-sm ${
+              insightData.type === "URGENT_REVIEW" ? "bg-rose-50 border-rose-200" 
+              : insightData.type === "REVIEW" ? "bg-orange-50 border-orange-200"
+              : "bg-blue-50 border-blue-200"
+            } p-5 md:p-6 flex flex-col sm:flex-row items-center justify-between gap-5`}
+          >
+            <div className="flex items-center gap-4">
+              <div className={`w-12 h-12 shrink-0 rounded-2xl flex items-center justify-center ${
+                insightData.type === "URGENT_REVIEW" ? "bg-rose-100 text-rose-600" 
+                : insightData.type === "REVIEW" ? "bg-orange-100 text-orange-600"
+                : "bg-blue-100 text-blue-600"
+              }`}>
+                {insightData.type === "URGENT_REVIEW" ? <AlertTriangle className="w-6 h-6" /> 
+                : insightData.type === "REVIEW" ? <Flame className="w-6 h-6" />
+                : <Info className="w-6 h-6" />}
+              </div>
+              <div>
+                <h3 className={`text-base font-bold ${
+                  insightData.type === "URGENT_REVIEW" ? "text-rose-800"
+                  : insightData.type === "REVIEW" ? "text-orange-800"
+                  : "text-blue-800"
+                }`}>
+                  {insightData.type === "KEEP_GOING" ? "Langkah Selanjutnya" : "Titik Kritis Terdeteksi!"}
+                </h3>
+                <p className={`text-sm mt-1 font-medium ${
+                  insightData.type === "URGENT_REVIEW" ? "text-rose-600/90"
+                  : insightData.type === "REVIEW" ? "text-orange-700/90"
+                  : "text-blue-600/90"
+                }`}>
+                  {insightData.message}
+                </p>
+              </div>
+            </div>
+            <button
+              onClick={() => router.push(insightData.actionUrl)}
+              className={`shrink-0 w-full sm:w-auto px-6 py-3 rounded-xl font-bold text-sm text-white shadow-sm transition-all hover:scale-105 active:scale-95 flex items-center justify-center gap-2 ${
+                insightData.type === "URGENT_REVIEW" ? "bg-rose-600 hover:bg-rose-700 shadow-rose-200"
+                : insightData.type === "REVIEW" ? "bg-orange-600 hover:bg-orange-700 shadow-orange-200"
+                : "bg-blue-600 hover:bg-blue-700 shadow-blue-200"
+              }`}
+            >
+              {insightData.actionText} <ArrowRight className="w-4 h-4" />
+            </button>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {/* ═══ 1. GETTING STARTED ═══ */}
       {!allJourneyDone && (
