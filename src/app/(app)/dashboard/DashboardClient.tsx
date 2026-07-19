@@ -509,7 +509,13 @@ export default function DashboardClient({ userName, targetName, latestScore, irt
                   <p className="text-xs font-medium text-white/80 truncate">{aiRecommendation.universityName}</p>
                 </div>
               ) : (
-                <p className="text-sm text-white/90 leading-relaxed font-medium">AI akan memberikan rekomendasi cadangan jurusan setelah kamu menyelesaikan Try Out pertamamu.</p>
+                <div className="flex-1">
+                  <p className="text-sm text-white/90 leading-relaxed font-medium">
+                    {stats.tryOutCount > 0 
+                      ? "Skormu saat ini masih menantang untuk rekomendasi jurusan aman mana pun di rumpunmu. Tetap semangat, fokus naikkan nilaimu perlahan-lahan!" 
+                      : "AI akan memberikan rekomendasi cadangan jurusan setelah kamu menyelesaikan Try Out pertamamu."}
+                  </p>
+                </div>
               )}
             </div>
           </div>

@@ -2,6 +2,7 @@ import { prisma } from "@/lib/prisma"
 import DashboardClient from "./DashboardClient"
 import { redirect } from "next/navigation"
 import { auth } from "@/auth"
+import { calculateChance } from "@/lib/chancing/calculator"
 
 export default async function DashboardPage() {
   const session = await auth()
@@ -122,14 +123,16 @@ export default async function DashboardPage() {
   const utbkDate = new Date('2026-05-15')
   const hariLagi = Math.max(0, Math.ceil((utbkDate.getTime() - new Date().getTime()) / (1000 * 3600 * 24)))
 
-  // Peluang Lulus — score ratio vs target
+  // Peluang Lulus — using real chancing formula
   const estimatedScore = user?.profile?.targetMajor1?.estimatedScore || 700
-  const peluangLulus = latestAttempt?.scaledScore
-    ? Math.min(100, Math.round((latestAttempt.scaledScore / estimatedScore) * 100))
-    : 0
+  const competitiveness = (user?.profile?.targetMajor1?.applicants || 1) / (user?.profile?.targetMajor1?.quota || 1)
+  const studentScoreSNBT = latestAttempt?.scaledScore || 0
+  const peluangLulusObj = calculateChance(studentScoreSNBT, estimatedScore, competitiveness)
+  const peluangLulus = studentScoreSNBT ? peluangLulusObj.percentage : 0
 
-  // Fokus Subject (lowest radar score)
-  const sortedRadar = [...radarData].sort((a, b) => a.score - b.score)
+  // Fokus Subject (lowest radar score, ignoring 0)
+  const validRadar = radarData.filter(r => r.score > 0)
+  const sortedRadar = [...validRadar].sort((a, b) => a.score - b.score)
   const fokusSubject = sortedRadar[0]?.subject || "Penalaran Umum"
 
   // Tren Skor (reversed so oldest → newest for line chart)
@@ -153,7 +156,19 @@ export default async function DashboardPage() {
 
   // ── Actionable Insight Engine ──
   let insightData = null;
-  if (latestAttempt && sortedRadar.length > 0) {
+  const zeroScoreSubjects = radarData.filter(r => r.score === 0);
+
+  if (latestAttempt && zeroScoreSubjects.length > 0) {
+    insightData = {
+      type: "URGENT_REVIEW",
+      subject: zeroScoreSubjects[0].subject,
+      score: 0,
+      target: targetScore,
+      message: `Ada ${zeroScoreSubjects.length} subtes yang datanya masih kosong (salah satunya ${zeroScoreSubjects[0].subject}). Segera selesaikan Try Out untuk mendapatkan pemetaan yang akurat!`,
+      actionText: "Lanjut Try Out",
+      actionUrl: "/tryout/list"
+    }
+  } else if (latestAttempt && sortedRadar.length > 0) {
     const weakest = sortedRadar[0];
     const isCritical = weakest.score < weakest.target - 100;
     
