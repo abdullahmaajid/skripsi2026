@@ -106,10 +106,10 @@ export default function LearningPathPage() {
                   <Info className="w-5 h-5 text-indigo-500" />
                 </div>
                 <div className="text-slate-600 space-y-3 text-sm leading-relaxed">
-                  <p>
-                    <strong className="text-slate-800">Kenapa rute belajar ini disusun seperti di bawah?</strong><br />
+                  <div>
+                    <strong className="text-slate-800 block mb-1">Kenapa rute belajar ini disusun seperti di bawah?</strong>
                     <MarkdownRenderer content={ctx.focusMessage} />
-                  </p>
+                  </div>
                   <ul className="list-disc pl-4 space-y-1.5 text-[13px] text-slate-500">
                     <li>Mapel dengan skor terlemah akan ditarik ke urutan teratas agar kamu fokus menambal kekurangan.</li>
                     <li>Bab-bab yang sering kamu jawab salah saat TO akan ditandai dengan <strong>Butuh Perhatian</strong>.</li>
