@@ -133,18 +133,35 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
       setIncorrectOptions((prev) => [...prev, selectedOptionId])
       setSelectedOptionId(null)
 
-      // Extreme Socratic Mode: AI knows the correct answer to guide properly, but is forbidden by prompt to leak it
-      setSelectedQuestion({
-        questionId: currentQ.id,
-        text: currentQ.text,
-        subject: currentQ.subject,
-        selectedAnswer: selected ? `${selected.label}. ${selected.text}` : "Tidak dijawab",
-        correctAnswer: correct ? `${correct.label}. ${correct.text}` : "—",
-        difficulty: currentQ.difficulty,
-        options: currentQ.options,
-        selectedIds: [selectedOptionId],
-        isSecondChance: true,
-      })
+      if (nextAttempts >= 2) {
+        // Force skip on 2nd attempt
+        setTotalAnswered(p => p + 1)
+        setHasSubmitted(true)
+        setSelectedQuestion({
+          questionId: currentQ.id,
+          text: currentQ.text,
+          subject: currentQ.subject,
+          selectedAnswer: selected ? `${selected.label}. ${selected.text}` : "Tidak dijawab",
+          correctAnswer: correct ? `${correct.label}. ${correct.text}` : "—",
+          difficulty: currentQ.difficulty,
+          options: currentQ.options,
+          selectedIds: [selectedOptionId],
+          isSecondChance: true, // we still mark as second chance so it doesn't auto-open solution
+        })
+      } else {
+        // Extreme Socratic Mode: AI knows the correct answer to guide properly, but is forbidden by prompt to leak it
+        setSelectedQuestion({
+          questionId: currentQ.id,
+          text: currentQ.text,
+          subject: currentQ.subject,
+          selectedAnswer: selected ? `${selected.label}. ${selected.text}` : "Tidak dijawab",
+          correctAnswer: correct ? `${correct.label}. ${correct.text}` : "—",
+          difficulty: currentQ.difficulty,
+          options: currentQ.options,
+          selectedIds: [selectedOptionId],
+          isSecondChance: true,
+        })
+      }
     }
   }
 
@@ -440,27 +457,15 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-4 rounded-2xl border border-rose-200 bg-rose-50 flex flex-col md:flex-row md:items-center justify-between gap-4"
+                className="mt-6 p-4 rounded-2xl border border-amber-200 bg-amber-50"
               >
-                <div>
-                  <div className="flex items-center gap-2 mb-1">
-                    <XCircle className="w-4 h-4 text-rose-500" />
-                    <span className="text-sm font-bold text-rose-700">Jawaban Belum Tepat</span>
-                  </div>
-                  <p className="text-xs text-rose-600 mt-1">
-                    Kunci jawaban disembunyikan dalam mode belajar. Coba diskusikan dengan **AI Tutor panel kanan** untuk mendapat petunjuk tanpa diberi tahu jawaban akhirnya!
-                  </p>
+                <div className="flex items-center gap-2 mb-1">
+                  <span className="animate-pulse w-2 h-2 rounded-full bg-amber-500" />
+                  <span className="text-sm font-bold text-amber-700">Kesempatan Terakhir Aktif</span>
                 </div>
-                <button
-                  onClick={() => {
-                    // Force skip question
-                    setTotalAnswered(p => p + 1)
-                    setHasSubmitted(true)
-                  }}
-                  className="px-4 py-2 bg-rose-100 hover:bg-rose-200 text-rose-700 text-xs font-bold rounded-lg transition-colors whitespace-nowrap"
-                >
-                  Nyerah & Lewati
-                </button>
+                <p className="text-xs text-amber-600 mt-1">
+                  Pilihan jawaban pertamamu belum tepat. Kunci disembunyikan dalam mode belajar. Coba pikirkan kembali konsep soal ini, atau langsung tanya di **AI Tutor panel kanan** untuk petunjuk tambahan sebelum menebak lagi!
+                </p>
               </motion.div>
             )}
 
@@ -481,7 +486,7 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
                   </div>
                   {!isCorrect && (
                     <div className="text-sm text-rose-600 mt-1">
-                      Kamu menyerah pada soal ini. Kunci jawaban dan pembahasan dapat diakses setelah seluruh sesi selesai.
+                      Batas percobaan habis. Kunci jawaban dan pembahasan utuh dapat diakses setelah seluruh sesi selesai.
                     </div>
                   )}
                   {isCorrect && (
