@@ -460,7 +460,7 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
                   <span className="text-sm font-bold text-amber-700">Kesempatan Terakhir Aktif</span>
                 </div>
                 <p className="text-xs text-amber-600 mt-1">
-                  Pilihan jawaban pertamamu belum tepat. Kunci disembunyikan dalam mode belajar. Coba pikirkan kembali konsep soal ini, atau langsung tanya di **AI Tutor panel kanan** untuk petunjuk tambahan sebelum menebak lagi!
+                  Pilihan jawaban pertamamu belum tepat. Kunci disembunyikan dalam mode belajar. Coba pikirkan kembali konsep soal ini, atau langsung tanya di <strong>AI Tutor panel kanan</strong> untuk petunjuk tambahan sebelum menebak lagi!
                 </p>
               </motion.div>
             )}
