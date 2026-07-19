@@ -30,15 +30,7 @@ export async function GET(
         select: { irtAbility: true },
       })
       if (user) {
-        // Fetch IRT settings from DB
-        const settings = await prisma.systemSetting.findMany({
-          where: { key: { in: ["IRT_MEAN", "IRT_SD"] } }
-        })
         const config = { mean: 500, sd: 100 }
-        settings.forEach(s => {
-          if (s.key === "IRT_MEAN") config.mean = parseFloat(s.value)
-          if (s.key === "IRT_SD") config.sd = parseFloat(s.value)
-        })
         studentScore = scaleToSNBT(user.irtAbility, config)
       }
     } else {
