@@ -420,11 +420,7 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
                     cls += "bg-[hsl(150,90%,96%)] border-[hsl(150,80%,75%)]"
                     labelCls += "bg-[hsl(150,75%,45%)] text-white border-[hsl(150,75%,40%)]"
                     statusIcon = <CheckCircle2 className="w-5 h-5 text-[hsl(150,75%,40%)] ml-auto shrink-0" />
-                  } else if (isCorrectOpt && !isSelected) {
-                    cls += "bg-[hsl(150,90%,96%)] border-[hsl(150,80%,75%)]"
-                    labelCls += "bg-[hsl(150,75%,45%)] text-white border-[hsl(150,75%,40%)]"
-                    statusIcon = <span className="text-[10px] ml-auto shrink-0 font-bold text-[hsl(150,75%,40%)]">Jawaban Benar</span>
-                  } else if (!isCorrectOpt && isSelected) {
+                  } else if (isPreviouslyWrong) {
                     cls += "bg-[hsl(340,90%,96%)] border-[hsl(340,80%,85%)]"
                     labelCls += "bg-[hsl(340,75%,55%)] text-white border-[hsl(340,75%,50%)]"
                     statusIcon = <XCircle className="w-5 h-5 text-[hsl(340,75%,50%)] ml-auto shrink-0" />
