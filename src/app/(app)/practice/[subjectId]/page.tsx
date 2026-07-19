@@ -114,17 +114,17 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
       setTotalAnswered((p) => p + 1)
       setHasSubmitted(true)
 
-        setSelectedQuestion({
-          questionId: currentQ.id,
-          text: currentQ.text,
-          subject: currentQ.subject,
-          selectedAnswer: selected ? `${selected.label}. ${selected.text}` : "Tidak dijawab",
-          correctAnswer: correct ? `${correct.label}. ${correct.text}` : "—",
-          difficulty: currentQ.difficulty,
-          options: currentQ.options,
-          selectedIds: [selectedOptionId],
-          isSecondChance: false,
-        })
+      setSelectedQuestion({
+        questionId: currentQ.id,
+        text: currentQ.text,
+        subject: currentQ.subject,
+        selectedAnswer: selected ? `${selected.label}. ${selected.text}` : "Tidak dijawab",
+        correctAnswer: correct ? `${correct.label}. ${correct.text}` : "—",
+        difficulty: currentQ.difficulty,
+        options: currentQ.options,
+        selectedIds: [selectedOptionId],
+        isSecondChance: false,
+      })
     } else {
       if (!userAnswers[currentQ.id]) {
         setUserAnswers(prev => ({ ...prev, [currentQ.id]: selectedOptionId }))
@@ -133,37 +133,18 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
       setIncorrectOptions((prev) => [...prev, selectedOptionId])
       setSelectedOptionId(null)
 
-      if (nextAttempts >= 2) {
-        // Track that user has practiced at least once
-        localStorage.setItem("has_practiced", "true")
-
-        setTotalAnswered((p) => p + 1)
-        setHasSubmitted(true)
-        setSelectedQuestion({
-          questionId: currentQ.id,
-          text: currentQ.text,
-          subject: currentQ.subject,
-          selectedAnswer: selected ? `${selected.label}. ${selected.text}` : "Tidak dijawab",
-          correctAnswer: correct ? `${correct.label}. ${correct.text}` : "—",
-          difficulty: currentQ.difficulty,
-          options: currentQ.options,
-          selectedIds: [selectedOptionId],
-          isSecondChance: false,
-        })
-      } else {
-        // Second chance – hide answer, mark as second chance
-        setSelectedQuestion({
-          questionId: currentQ.id,
-          text: currentQ.text,
-          subject: currentQ.subject,
-          selectedAnswer: selected ? `${selected.label}. ${selected.text}` : "Tidak dijawab",
-          correctAnswer: "???",
-          difficulty: currentQ.difficulty,
-          options: currentQ.options,
-          selectedIds: [selectedOptionId],
-          isSecondChance: true,
-        })
-      }
+      // Extreme Socratic Mode: AI knows the correct answer to guide properly, but is forbidden by prompt to leak it
+      setSelectedQuestion({
+        questionId: currentQ.id,
+        text: currentQ.text,
+        subject: currentQ.subject,
+        selectedAnswer: selected ? `${selected.label}. ${selected.text}` : "Tidak dijawab",
+        correctAnswer: correct ? `${correct.label}. ${correct.text}` : "—",
+        difficulty: currentQ.difficulty,
+        options: currentQ.options,
+        selectedIds: [selectedOptionId],
+        isSecondChance: true,
+      })
     }
   }
 
@@ -459,15 +440,27 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-4 rounded-2xl border border-amber-200 bg-amber-50"
+                className="mt-6 p-4 rounded-2xl border border-rose-200 bg-rose-50 flex flex-col md:flex-row md:items-center justify-between gap-4"
               >
-                <div className="flex items-center gap-2 mb-1">
-                  <span className="animate-pulse w-2 h-2 rounded-full bg-amber-500" />
-                  <span className="text-sm font-bold text-amber-700">Kesempatan Kedua Aktif</span>
+                <div>
+                  <div className="flex items-center gap-2 mb-1">
+                    <XCircle className="w-4 h-4 text-rose-500" />
+                    <span className="text-sm font-bold text-rose-700">Jawaban Belum Tepat</span>
+                  </div>
+                  <p className="text-xs text-rose-600 mt-1">
+                    Kunci jawaban disembunyikan dalam mode belajar. Coba diskusikan dengan **AI Tutor panel kanan** untuk mendapat petunjuk tanpa diberi tahu jawaban akhirnya!
+                  </p>
                 </div>
-                <p className="text-xs text-amber-600 mt-1">
-                  Pilihan jawaban pertamamu belum tepat. Coba pikirkan kembali konsep soal ini, atau langsung tanya dan diskusikan di **AI Tutor panel kanan** untuk petunjuk tambahan!
-                </p>
+                <button
+                  onClick={() => {
+                    // Force skip question
+                    setTotalAnswered(p => p + 1)
+                    setHasSubmitted(true)
+                  }}
+                  className="px-4 py-2 bg-rose-100 hover:bg-rose-200 text-rose-700 text-xs font-bold rounded-lg transition-colors whitespace-nowrap"
+                >
+                  Nyerah & Lewati
+                </button>
               </motion.div>
             )}
 
@@ -484,39 +477,43 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
                       ? <CheckCircle2 className="w-5 h-5 text-emerald-600" />
                       : <XCircle className="w-5 h-5 text-rose-500" />
                     }
-                    <span className={`text-sm font-bold ${isCorrect ? "text-emerald-700" : "text-rose-600"}`}>{isCorrect ? "Benar!" : "Belum Tepat"}</span>
+                    <span className={`text-sm font-bold ${isCorrect ? "text-emerald-700" : "text-rose-600"}`}>{isCorrect ? "Benar!" : "Dilewati"}</span>
                   </div>
                   {!isCorrect && (
-                    <div className="text-sm text-rose-600 mt-1 flex items-baseline gap-1">
-                      Jawaban benar: <span className="font-semibold inline-flex items-baseline gap-1">{correctOpt?.label}. <MarkdownRenderer content={correctOpt?.text || ""} /></span>
+                    <div className="text-sm text-rose-600 mt-1">
+                      Kamu menyerah pada soal ini. Kunci jawaban dan pembahasan dapat diakses setelah seluruh sesi selesai.
                     </div>
                   )}
-                  <p className="text-xs text-slate-500 mt-2">
-                    Gunakan AI Tutor di panel kanan untuk bertanya lebih lanjut tentang soal ini.
-                  </p>
+                  {isCorrect && (
+                    <p className="text-xs text-slate-500 mt-2">
+                      Gunakan AI Tutor di panel kanan untuk bertanya lebih lanjut tentang konsep ini.
+                    </p>
+                  )}
                 </motion.div>
                 {/* Button to view explanation for current question */}
-                <button
-                  onClick={() => {
-                    const correctO = currentQ?.options.find(o => o.isCorrect)
-                    const selectedO = currentQ?.options.find(o => o.id === selectedOptionId)
-                    setSelectedQuestion({
-                      questionId: currentQ!.id,
-                      text: currentQ!.text,
-                      subject: currentQ!.subject,
-                      selectedAnswer: selectedO ? `${selectedO.label}. ${selectedO.text}` : "Tidak menjawab",
-                      correctAnswer: correctO ? `${correctO.label}. ${correctO.text}` : "—",
-                      difficulty: currentQ!.difficulty,
-                      options: currentQ!.options,
-                      selectedIds: [selectedOptionId].filter(Boolean) as string[],
-                      isSecondChance: false,
-                      autoTriggerExplanation: true
-                    })
-                  }}
-                  className="mt-4 px-6 py-2 bg-[var(--accent)] text-white rounded-md hover:bg-[var(--accent-hover)] transition-colors"
-                >
-                  Lihat Pembahasan Lengkap AI
-                </button>
+                {isCorrect && (
+                  <button
+                    onClick={() => {
+                      const correctO = currentQ?.options.find(o => o.isCorrect)
+                      const selectedO = currentQ?.options.find(o => o.id === selectedOptionId)
+                      setSelectedQuestion({
+                        questionId: currentQ!.id,
+                        text: currentQ!.text,
+                        subject: currentQ!.subject,
+                        selectedAnswer: selectedO ? `${selectedO.label}. ${selectedO.text}` : "Tidak menjawab",
+                        correctAnswer: correctO ? `${correctO.label}. ${correctO.text}` : "—",
+                        difficulty: currentQ!.difficulty,
+                        options: currentQ!.options,
+                        selectedIds: [selectedOptionId].filter(Boolean) as string[],
+                        isSecondChance: false,
+                        autoTriggerExplanation: true
+                      })
+                    }}
+                    className="mt-4 px-6 py-2 bg-[var(--accent)] text-white rounded-md hover:bg-[var(--accent-hover)] transition-colors"
+                  >
+                    Lihat Pembahasan Lengkap AI
+                  </button>
+                )}
               </>
             )}
           </motion.div>
