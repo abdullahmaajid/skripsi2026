@@ -179,7 +179,9 @@ export default function AnalyticsRadarPage() {
                     return (
                       <tr key={s.subject} className="border-b border-slate-50 hover:bg-slate-50/50 transition-colors">
                         <td className="py-3 px-2 text-slate-700 font-medium">{s.subject}</td>
-                        <td className="py-3 px-2 text-center font-semibold text-slate-800">{s.score > 0 ? s.score : "—"}</td>
+                        <td className="py-3 px-2 text-center font-semibold text-slate-800">
+                          {s.score > 0 ? s.score : <span className="text-[10px] text-slate-400 font-normal italic">Belum Ada Data</span>}
+                        </td>
                         <td className="py-3 px-2 text-center text-slate-400">{s.target}</td>
                         <td className={`py-3 px-2 text-center font-medium ${s.score > 0 ? (s.diff >= 0 ? "text-emerald-600" : "text-rose-500") : "text-slate-300"}`}>
                           {s.score > 0 ? (s.diff >= 0 ? `+${s.diff}` : s.diff) : "—"}
@@ -191,7 +193,7 @@ export default function AnalyticsRadarPage() {
                               {s.status === "good" && <CheckCircle2 className="w-3 h-3" />}
                             </span>
                           ) : (
-                            <span className="text-xs text-slate-300">—</span>
+                            <span className="text-[10px] text-slate-400 bg-slate-50 border border-slate-100 px-2 py-1 rounded-md">Kerjakan TO untuk melihat</span>
                           )}
                         </td>
                       </tr>

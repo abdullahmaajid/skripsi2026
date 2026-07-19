@@ -105,6 +105,34 @@ export async function GET(
       result.recommendation = `Gap ${absDeficit} poin cukup besar. ${weakList ? `Mulai dari memperkuat: ${weakList}.` : 'Fokus pada fondasi konsep dasar.'} Manfaatkan AI Tutor secara intensif dan selesaikan Try Out rutin untuk memantau progres.`
     }
 
+    const ALL_SUBJECTS = [
+      "Penalaran Matematika", "Pengetahuan Kuantitatif", "Penalaran Umum",
+      "Literasi Bahasa Indonesia", "Literasi Bahasa Inggris",
+      "Pemahaman Bacaan & Menulis", "Pengetahuan & Pemahaman Umum"
+    ]
+    
+    let highPriority: string[] = []
+    if (major.cluster === "SAINTEK") {
+      highPriority = ["Penalaran Matematika", "Pengetahuan Kuantitatif"]
+    } else if (major.cluster === "SOSHUM") {
+      highPriority = ["Literasi Bahasa Indonesia", "Penalaran Umum", "Pemahaman Bacaan & Menulis"]
+    } else {
+      highPriority = ["Penalaran Umum", "Penalaran Matematika"] // CAMPURAN fallback
+    }
+
+    const sortedSubjects = [...ALL_SUBJECTS].sort((a, b) => {
+      const aHigh = highPriority.includes(a) ? 1 : 0
+      const bHigh = highPriority.includes(b) ? 1 : 0
+      return bHigh - aHigh
+    })
+
+    const subjectPriorities = sortedSubjects.map(name => ({
+      name,
+      isHighPriority: highPriority.includes(name),
+      isWeakness: result.weakSubjects.includes(name),
+      isStrength: strongSubjectNames.includes(name)
+    }))
+
     return NextResponse.json({
       major: {
         id: major.id,
@@ -118,6 +146,7 @@ export async function GET(
         competitiveness: Math.round(competitiveness * 10) / 10,
       },
       chance: result,
+      subjectPriorities,
       studentScore,
     })
   } catch (error) {

@@ -83,16 +83,49 @@ export default function ChancingDetailPage({ params }: { params: Promise<{ major
           </div>
         </div>
 
-        {/* Weak Subjects */}
-        {r.chance.weakSubjects && r.chance.weakSubjects.length > 0 && (
-          <div className="bg-amber-50/50 border border-amber-100 rounded-2xl p-6 mb-6">
-            <h2 className="font-bold text-amber-800 mb-3 text-sm flex items-center gap-2">
-              <AlertTriangle className="w-4 h-4 text-amber-600 shrink-0" />
-              Subtes Terlemah
+        {/* Priority Subjects */}
+        {r.subjectPriorities && r.subjectPriorities.length > 0 && (
+          <div className="bg-white border border-slate-100 rounded-3xl p-6 mb-6 shadow-[0_4px_24px_rgba(0,0,0,0.02)]">
+            <h2 className="font-bold text-slate-800 mb-4 text-base flex items-center gap-2">
+              <Lightbulb className="w-5 h-5 text-indigo-500 shrink-0" />
+              Prioritas Subtes ({r.major.cluster})
             </h2>
-            <div className="flex flex-wrap gap-2">
-              {r.chance.weakSubjects.map((s: string) => (
-                <span key={s} className="text-xs font-semibold px-3 py-1.5 bg-amber-100/50 text-amber-700 rounded-lg">{s}</span>
+            <p className="text-sm text-slate-500 mb-6 leading-relaxed">
+              Berikut adalah urutan subtes dari yang paling penting (berbobot tinggi) hingga pelengkap untuk jurusan ini. Fokuskan belajarmu pada subtes prioritas, terutama yang masih menjadi kelemahanmu.
+            </p>
+            <div className="space-y-3">
+              {r.subjectPriorities.map((s: any, idx: number) => (
+                <div key={s.name} className={`p-4 rounded-2xl border flex flex-col sm:flex-row sm:items-center justify-between gap-3 transition-colors ${
+                  s.isWeakness ? 'bg-rose-50/50 border-rose-100' : 
+                  s.isStrength ? 'bg-emerald-50/50 border-emerald-100' : 
+                  s.isHighPriority ? 'bg-indigo-50/30 border-indigo-100/50' : 'bg-slate-50 border-slate-100'
+                }`}>
+                  <div className="flex items-center gap-3">
+                    <div className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold shrink-0 ${
+                      s.isHighPriority ? 'bg-indigo-100 text-indigo-600' : 'bg-slate-200 text-slate-500'
+                    }`}>
+                      {idx + 1}
+                    </div>
+                    <span className="text-sm font-semibold text-slate-700">{s.name}</span>
+                  </div>
+                  <div className="flex items-center gap-2 pl-9 sm:pl-0">
+                    {s.isHighPriority && (
+                      <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-indigo-100 text-indigo-600">
+                        Bobot Tinggi
+                      </span>
+                    )}
+                    {s.isWeakness && (
+                      <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-rose-100 text-rose-600 flex items-center gap-1">
+                        <AlertTriangle className="w-3 h-3" /> Kelemahan
+                      </span>
+                    )}
+                    {s.isStrength && (
+                      <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-emerald-100 text-emerald-600 flex items-center gap-1">
+                        <CheckCircle2 className="w-3 h-3" /> Kekuatan
+                      </span>
+                    )}
+                  </div>
+                </div>
               ))}
             </div>
           </div>

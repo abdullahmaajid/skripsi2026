@@ -151,6 +151,20 @@ export default function ChancingClient({
             )
           })}
         </div>
+
+        {results.length > 0 && results.every(r => r.label === 'SANGAT_SULIT') && (
+          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="mt-8 p-5 bg-indigo-50/50 border border-indigo-100 rounded-2xl flex items-start gap-4">
+            <div className="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center shrink-0">
+              <Sparkles className="w-5 h-5 text-indigo-500" />
+            </div>
+            <div>
+              <h4 className="font-bold text-slate-800 mb-1">Skor kamu masih di tahap awal pembentukan!</h4>
+              <p className="text-sm text-slate-600 leading-relaxed">
+                Jangan khawatir melihat semuanya merah. Ini wajar di awal persiapan. Fokus kerjakan modul <strong>'Belum Mulai'</strong> di <em>Learning Path</em> untuk mendongkrak skormu bulan depan. Kamu pasti bisa!
+              </p>
+            </div>
+          </motion.div>
+        )}
     </div>
   )
 }
