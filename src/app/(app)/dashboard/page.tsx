@@ -165,7 +165,7 @@ export default async function DashboardPage() {
       score: 0,
       target: targetScore,
       message: `Ada ${zeroScoreSubjects.length} subtes yang datanya masih kosong (salah satunya ${zeroScoreSubjects[0].subject}). Segera selesaikan Try Out untuk mendapatkan pemetaan yang akurat!`,
-      actionText: "Lanjut Try Out",
+      actionText: "Kerjakan Try Out",
       actionUrl: "/tryout/list"
     }
   } else if (latestAttempt && sortedRadar.length > 0) {
