@@ -7,12 +7,27 @@ export async function POST(req: NextRequest) {
     const session = await auth()
     if (!session?.user?.id) return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
 
-    const { school, graduationYear, targetMajor1Id, targetMajor2Id } = await req.json()
+    const { school, graduationYear, targetMajor1Id, targetMajor2Id, aiStyle, aiEnergy } = await req.json()
 
     await prisma.studentProfile.upsert({
       where: { userId: session.user.id },
-      update: { school, graduationYear, targetMajor1Id: targetMajor1Id || null, targetMajor2Id: targetMajor2Id || null },
-      create: { userId: session.user.id, school, graduationYear, targetMajor1Id: targetMajor1Id || null, targetMajor2Id: targetMajor2Id || null },
+      update: { 
+        school, 
+        graduationYear, 
+        targetMajor1Id: targetMajor1Id || null, 
+        targetMajor2Id: targetMajor2Id || null,
+        ...(aiStyle && { aiStyle }),
+        ...(aiEnergy && { aiEnergy })
+      },
+      create: { 
+        userId: session.user.id, 
+        school, 
+        graduationYear, 
+        targetMajor1Id: targetMajor1Id || null, 
+        targetMajor2Id: targetMajor2Id || null,
+        aiStyle: aiStyle || "default",
+        aiEnergy: aiEnergy || "default"
+      },
     })
 
     return NextResponse.json({ success: true })

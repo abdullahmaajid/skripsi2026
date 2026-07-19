@@ -24,6 +24,8 @@ interface UserProfile {
   graduationYear: string
   targetMajor1Id: string
   targetMajor2Id: string
+  aiStyle: string
+  aiEnergy: string
 }
 
 export default function SettingsPage() {
@@ -36,7 +38,9 @@ export default function SettingsPage() {
     school: "",
     graduationYear: "",
     targetMajor1Id: "",
-    targetMajor2Id: ""
+    targetMajor2Id: "",
+    aiStyle: "default",
+    aiEnergy: "default"
   })
   
   // To handle dependent dropdowns
@@ -64,7 +68,9 @@ export default function SettingsPage() {
           school: p.school || "",
           graduationYear: p.graduationYear ? p.graduationYear.toString() : "",
           targetMajor1Id: p.targetMajor1Id || "",
-          targetMajor2Id: p.targetMajor2Id || ""
+          targetMajor2Id: p.targetMajor2Id || "",
+          aiStyle: p.aiStyle || "default",
+          aiEnergy: p.aiEnergy || "default"
         })
 
         if (p.targetMajor1) setTarget1UniId(p.targetMajor1.universityId)
@@ -309,6 +315,59 @@ export default function SettingsPage() {
                     {majorsForUni2.map(m => <option key={m.id} value={m.id}>{m.name} ({m.cluster})</option>)}
                   </select>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Preferensi AI Tutor */}
+        <div className="bg-white rounded-3xl p-6 md:p-8 border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.03)]">
+          <h2 className="text-lg font-bold text-slate-800 mb-6 flex items-center gap-2 pb-4 border-b border-slate-100">
+            <span className="text-[var(--accent)] font-bold text-xl">✨</span> Preferensi AI Tutor
+          </h2>
+          
+          <div className="space-y-8">
+            <div>
+              <label className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-4 block">Gaya Interaksi</label>
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+                {[
+                  { id: "default", label: "Default" },
+                  { id: "professional", label: "Profesional" },
+                  { id: "friendly", label: "Ramah & Hangat" },
+                  { id: "honest", label: "Jujur & Tegas" },
+                  { id: "quirky", label: "Nyentrik / Gen-Z" },
+                  { id: "efficient", label: "Efisien & Lugas" },
+                  { id: "sarcastic", label: "Kritis / Sarkastis" }
+                ].map(opt => (
+                  <button 
+                    type="button"
+                    key={opt.id} 
+                    onClick={() => setProfile({...profile, aiStyle: opt.id})}
+                    className={`p-3 rounded-xl border text-center transition-all ${profile.aiStyle === opt.id ? "border-[var(--accent)] bg-[var(--pastel-purple)] text-[var(--accent-dark)] font-bold ring-1 ring-[var(--accent)]" : "border-slate-200 bg-white hover:border-slate-300 text-slate-600 font-medium"}`}
+                  >
+                    {opt.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <label className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-4 block">Tingkat Energi</label>
+              <div className="flex bg-slate-50 border border-slate-200 p-1 rounded-xl max-w-md">
+                {[
+                  { id: "low", label: "Tenang" },
+                  { id: "default", label: "Normal" },
+                  { id: "high", label: "Berenergi!" }
+                ].map(opt => (
+                  <button
+                    type="button"
+                    key={opt.id}
+                    onClick={() => setProfile({...profile, aiEnergy: opt.id})}
+                    className={`flex-1 py-2.5 text-sm font-bold rounded-lg transition-all ${profile.aiEnergy === opt.id ? "bg-white text-[var(--accent-dark)] shadow-sm border border-slate-200" : "text-slate-500 hover:text-slate-700 hover:bg-slate-200/50"}`}
+                  >
+                    {opt.label}
+                  </button>
+                ))}
               </div>
             </div>
           </div>

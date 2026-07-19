@@ -27,6 +27,8 @@ export async function GET() {
             targetMajor2Id: true,
             school: true,
             graduationYear: true,
+            aiStyle: true,
+            aiEnergy: true,
             targetMajor1: { select: { id: true, name: true, estimatedScore: true, cluster: true, universityId: true, university: { select: { name: true, id: true } } } },
             targetMajor2: { select: { id: true, name: true, estimatedScore: true, cluster: true, universityId: true, university: { select: { name: true, id: true } } } }
           }
@@ -72,7 +74,7 @@ export async function PUT(req: NextRequest) {
     }
 
     const data = await req.json()
-    const { targetMajor1Id, targetMajor2Id, school, graduationYear, name, avatar } = data
+    const { targetMajor1Id, targetMajor2Id, school, graduationYear, name, avatar, aiStyle, aiEnergy } = data
 
     // Update user name and avatar if provided
     if (name || avatar !== undefined) {
@@ -93,14 +95,18 @@ export async function PUT(req: NextRequest) {
         targetMajor1Id,
         targetMajor2Id,
         school,
-        graduationYear: graduationYear ? parseInt(graduationYear) : null
+        graduationYear: graduationYear ? parseInt(graduationYear) : null,
+        ...(aiStyle && { aiStyle }),
+        ...(aiEnergy && { aiEnergy })
       },
       create: {
         userId,
         targetMajor1Id,
         targetMajor2Id,
         school,
-        graduationYear: graduationYear ? parseInt(graduationYear) : null
+        graduationYear: graduationYear ? parseInt(graduationYear) : null,
+        aiStyle: aiStyle || "default",
+        aiEnergy: aiEnergy || "default"
       }
     })
 

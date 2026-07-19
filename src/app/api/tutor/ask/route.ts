@@ -96,7 +96,7 @@ if (!question) {
         : Promise.resolve(null),
       prisma.user.findUnique({
         where: { id: session.user.id },
-        select: { profile: { select: { targetMajor1: { select: { name: true, university: { select: { name: true } } } } } } },
+        select: { profile: { select: { aiStyle: true, aiEnergy: true, targetMajor1: { select: { name: true, university: { select: { name: true } } } } } } },
       }),
     ])
 
@@ -113,6 +113,9 @@ if (!question) {
     if (userProfile?.profile?.targetMajor1) {
       targetMajor = `${userProfile.profile.targetMajor1.name} — ${userProfile.profile.targetMajor1.university.name}`
     }
+    
+    const aiStyle = userProfile?.profile?.aiStyle || "default"
+    const aiEnergy = userProfile?.profile?.aiEnergy || "default"
     // ─────────────────────────────────────────────────────────────────────────
 
     const response = await getScaffoldResponse(
@@ -121,7 +124,9 @@ if (!question) {
       studentAnswer || "(tidak menjawab)",
       resolvedCorrectAnswer,
       history || [],
-      targetMajor
+      targetMajor,
+      aiStyle,
+      aiEnergy
     )
 
     const nextLevel = getNextScaffoldLevel(level)

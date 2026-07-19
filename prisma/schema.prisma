@@ -38,6 +38,8 @@ model StudentProfile {
   graduationYear Int?
   targetMajor1Id String?
   targetMajor2Id String?
+  aiStyle        String  @default("default") // default, professional, friendly, honest, quirky, efficient, sarcastic
+  aiEnergy       String  @default("default") // high, default, low
 
   user         User   @relation(fields: [userId], references: [id], onDelete: Cascade)
   targetMajor1 Major? @relation("Target1", fields: [targetMajor1Id], references: [id])

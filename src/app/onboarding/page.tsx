@@ -21,12 +21,14 @@ function OnboardingForm() {
   const [selectedMajor1, setSelectedMajor1] = useState("")
   const [selectedMajor2, setSelectedMajor2] = useState("")
   const [search, setSearch] = useState("")
+  const [aiStyle, setAiStyle] = useState("default")
+  const [aiEnergy, setAiEnergy] = useState("default")
   const [saving, setSaving] = useState(false)
   const [startingDiagnostic, setStartingDiagnostic] = useState(false)
 
   useEffect(() => {
     if (searchParams.get("resume") === "diagnostic") {
-      setStep(4)
+      setStep(5)
     }
   }, [searchParams])
 
@@ -46,10 +48,10 @@ function OnboardingForm() {
       await fetch("/api/onboarding", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ school, graduationYear: gradYear, targetMajor1Id: selectedMajor1, targetMajor2Id: selectedMajor2 }),
+        body: JSON.stringify({ school, graduationYear: gradYear, targetMajor1Id: selectedMajor1, targetMajor2Id: selectedMajor2, aiStyle, aiEnergy }),
       })
       setSaving(false)
-      setStep(4) // Move to weighting & diagnostic
+      setStep(5) // Move to weighting & diagnostic
     } catch { setSaving(false) }
   }
 
@@ -93,7 +95,7 @@ function OnboardingForm() {
         <div className="flex items-center justify-between mb-2">
           <h2 className="text-2xl font-bold text-slate-800">Setup Profil</h2>
           <span className="text-xs font-bold px-3 py-1 bg-[var(--accent)]/10 text-[var(--accent-dark)] rounded-full">
-            Langkah {Math.min(step, 3)}/3
+            Langkah {Math.min(step, 4)}/4
           </span>
         </div>
         <p className="text-slate-500 text-sm font-medium">Lengkapi datamu agar AI bisa menyusun rencana belajarmu.</p>
@@ -171,16 +173,76 @@ function OnboardingForm() {
             <button onClick={() => signOut({ callbackUrl: "/auth/login" })} className="flex-1 py-3.5 bg-slate-100 hover:bg-slate-200 rounded-xl font-bold text-slate-800 flex items-center justify-center gap-2 transition-all">
               Batal
             </button>
-            <button onClick={handleFinish} disabled={saving} className="flex-1 py-3.5 bg-[var(--accent)] hover:bg-[var(--accent-hover)] rounded-xl font-bold disabled:opacity-50 flex items-center justify-center gap-2 text-white shadow-[0_4px_12px_rgba(193,119,249,0.25)] transition-all mt-4">
-              {saving ? <><Loader2 className="w-4 h-4 animate-spin" /> Menyimpan...</> : "Simpan Profil & Lanjut"}
+            <button onClick={() => setStep(4)} className="flex-1 py-3.5 bg-[var(--accent)] hover:bg-[var(--accent-hover)] rounded-xl font-bold disabled:opacity-50 flex items-center justify-center gap-2 text-white shadow-[0_4px_12px_rgba(193,119,249,0.25)] transition-all mt-4">
+              Lanjut <ArrowRight className="w-4 h-4" />
             </button>
           </div>
-          <button onClick={() => handleFinish()} className="w-full py-2 text-slate-500 hover:text-slate-700 text-sm font-medium transition-colors">Lewati →</button>
+          <button onClick={() => setStep(4)} className="w-full py-2 text-slate-500 hover:text-slate-700 text-sm font-medium transition-colors">Lewati →</button>
         </motion.div>
       )}
 
       {step === 4 && (
         <motion.div key="s4" initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
+          <div className="space-y-2 mb-4">
+            <h3 className="text-lg font-bold text-slate-800">Gaya & Nada AI Tutor</h3>
+            <p className="text-sm text-slate-500 leading-relaxed">Atur kepribadian AI Tutor-mu. Bagaimana kamu ingin ia membantumu belajar?</p>
+          </div>
+
+          <div className="space-y-3">
+            <label className="text-sm font-bold text-slate-700">Gaya Interaksi</label>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              {[
+                { id: "default", label: "Default", desc: "Gaya bawaan yang seimbang." },
+                { id: "professional", label: "Profesional", desc: "Rapi, formal, dan presisi." },
+                { id: "friendly", label: "Ramah", desc: "Hangat, akrab, menyemangati layaknya kakak kelas." },
+                { id: "honest", label: "Jujur & Tegas", desc: "Terus terang, langsung koreksi jika salah." },
+                { id: "quirky", label: "Nyentrik", desc: "Humoris, imajinatif, ala Gen-Z." },
+                { id: "efficient", label: "Efisien", desc: "Singkat, lugas, tanpa basa-basi." }
+              ].map(opt => (
+                <button 
+                  key={opt.id} 
+                  onClick={() => setAiStyle(opt.id)}
+                  className={`p-4 rounded-xl border text-left transition-all ${aiStyle === opt.id ? "border-[var(--accent)] bg-[var(--pastel-purple)] shadow-sm ring-1 ring-[var(--accent)]" : "border-slate-200 bg-white hover:border-slate-300"}`}
+                >
+                  <p className={`font-bold text-sm ${aiStyle === opt.id ? "text-[var(--accent-dark)]" : "text-slate-800"}`}>{opt.label}</p>
+                  <p className={`text-xs mt-1 ${aiStyle === opt.id ? "text-[var(--accent-dark)]/80" : "text-slate-500"}`}>{opt.desc}</p>
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div className="space-y-3 pt-2">
+            <label className="text-sm font-bold text-slate-700">Tingkat Energi</label>
+            <div className="flex bg-slate-100 p-1 rounded-xl">
+              {[
+                { id: "low", label: "Tenang" },
+                { id: "default", label: "Normal" },
+                { id: "high", label: "Berenergi!" }
+              ].map(opt => (
+                <button
+                  key={opt.id}
+                  onClick={() => setAiEnergy(opt.id)}
+                  className={`flex-1 py-2.5 text-sm font-bold rounded-lg transition-all ${aiEnergy === opt.id ? "bg-white text-[var(--accent-dark)] shadow-sm" : "text-slate-500 hover:text-slate-700 hover:bg-slate-200/50"}`}
+                >
+                  {opt.label}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div className="flex gap-3 mt-6">
+            <button onClick={() => setStep(3)} className="flex-1 py-3.5 bg-slate-100 hover:bg-slate-200 rounded-xl font-bold text-slate-800 flex items-center justify-center gap-2 transition-all">
+              Kembali
+            </button>
+            <button onClick={handleFinish} disabled={saving} className="flex-1 py-3.5 bg-[var(--accent)] hover:bg-[var(--accent-hover)] rounded-xl font-bold disabled:opacity-50 flex items-center justify-center gap-2 text-white shadow-[0_4px_12px_rgba(193,119,249,0.25)] transition-all">
+              {saving ? <><Loader2 className="w-4 h-4 animate-spin" /> Menyimpan...</> : "Simpan Profil & Lanjut"}
+            </button>
+          </div>
+        </motion.div>
+      )}
+
+      {step === 5 && (
+        <motion.div key="s5" initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="text-center space-y-2">
             <div className="w-16 h-16 bg-[var(--pastel-purple)] text-[var(--accent-dark)] rounded-2xl flex items-center justify-center mx-auto mb-4 border border-[var(--accent)]/20 shadow-sm">
               <BarChart3 className="w-8 h-8" />

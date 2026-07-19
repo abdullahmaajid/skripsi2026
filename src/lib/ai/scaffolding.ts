@@ -41,7 +41,9 @@ export async function getScaffoldResponse(
   studentAnswer: string,
   correctAnswer: string,
   history: { role: string, content: string }[] = [],
-  targetMajor?: string
+  targetMajor?: string,
+  aiStyle: string = "default",
+  aiEnergy: string = "default"
 ): Promise<string> {
   const apiKey = process.env.GROQ_API_KEY
   if (!apiKey) {
@@ -53,6 +55,27 @@ export async function getScaffoldResponse(
       .replace("{question}", question)
       .replace("{answer}", studentAnswer)
       .replace(/{correct}/g, correctAnswer)
+
+    // Inject AI Personality (Style and Tone)
+    let stylePrompt = ""
+    switch (aiStyle) {
+      case "professional": stylePrompt = "Bicaralah dengan nada yang rapi, presisi, dan sangat formal layaknya guru besar."; break;
+      case "friendly": stylePrompt = "Bicaralah dengan nada yang sangat ramah, hangat, akrab, dan menyemangati (seperti kakak kelas yang baik)."; break;
+      case "honest": stylePrompt = "Bicaralah secara terus terang, jujur tanpa basa-basi. Jika salah, langsung katakan salah dengan tegas tapi membangun."; break;
+      case "quirky": stylePrompt = "Bicaralah dengan gaya yang nyentrik, menyenangkan, imajinatif, dan sedikit humoris ala anak Gen-Z (gunakan kata gaul sesekali)."; break;
+      case "efficient": stylePrompt = "Bicaralah sesingkat mungkin, lugas, langsung ke intinya tanpa kalimat pengantar yang panjang."; break;
+      case "sarcastic": stylePrompt = "Bicaralah dengan nada sinis, kritis, dan sedikit sarkastis (tapi tetap bertujuan mendidik dan membuat siswa mikir keras)."; break;
+    }
+
+    let energyPrompt = ""
+    switch (aiEnergy) {
+      case "high": energyPrompt = "Gunakan tingkat energi yang sangat tinggi, seru, dan gunakan tanda seru atau emoji yang ekspresif!"; break;
+      case "low": energyPrompt = "Gunakan tingkat energi yang tenang, kalem, netral, dan jarang menggunakan emoji."; break;
+    }
+
+    if (stylePrompt || energyPrompt) {
+      systemInstruction += `\n\nATURAN GAYA BAHASA (PERSONALITY):\n- ${stylePrompt}\n- ${energyPrompt}`
+    }
 
     // Inject target major context for macro-level motivation
     if (targetMajor) {
