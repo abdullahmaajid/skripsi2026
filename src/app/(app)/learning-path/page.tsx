@@ -142,7 +142,17 @@ export default function LearningPathPage() {
                     <BookOpen className="w-5 h-5" />
                   </div>
                   <div>
-                    <h2 className="text-xl font-bold text-slate-800">{subject.name}</h2>
+                    <h2 className="text-lg md:text-xl font-bold text-slate-800 flex flex-col md:flex-row md:items-center gap-1 md:gap-3">
+                      <span>{subject.name}</span>
+                      {subject.latestScaledScore !== null && ctx?.targetScore && (
+                        <span className={`text-[10px] md:text-[11px] px-2.5 py-1 rounded-md font-bold uppercase tracking-wider border flex items-center gap-1 w-max ${
+                          subject.latestScaledScore >= ctx.targetScore ? "bg-emerald-50 text-emerald-700 border-emerald-200" : "bg-rose-50 text-rose-700 border-rose-200"
+                        }`}>
+                          <Target className="w-3 h-3" />
+                          Skor Asli: {subject.latestScaledScore} / {ctx.targetScore}
+                        </span>
+                      )}
+                    </h2>
                   </div>
                 </div>
                 <div className="flex items-center gap-3">

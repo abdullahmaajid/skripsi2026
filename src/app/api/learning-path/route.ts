@@ -24,7 +24,8 @@ export async function GET() {
     // Fetch latest completed attempt for context
     const latestAttempt = await prisma.examAttempt.findFirst({
       where: { userId, status: "COMPLETED" },
-      orderBy: { finishedAt: "desc" }
+      orderBy: { finishedAt: "desc" },
+      include: { subScores: true }
     })
 
     // Get all subjects and chapters
@@ -163,12 +164,15 @@ export async function GET() {
       const averageReadiness = chapters.length > 0 ? totalReadiness / chapters.length : 0
       const priorityScore = (100 - averageReadiness) * weight
 
+      const subScore = latestAttempt?.subScores?.find(ss => ss.subjectId === sub.id)
+
       return {
         id: sub.id,
         name: sub.name,
         averageMastery,
         priorityScore,
         weight,
+        latestScaledScore: subScore ? Math.round(subScore.scaledScore) : null,
         chapters
       }
     })
