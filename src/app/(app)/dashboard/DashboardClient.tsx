@@ -552,7 +552,7 @@ export default function DashboardClient({ userName, targetName, latestScore, irt
                       <p className="text-[10px] text-slate-400 font-medium uppercase tracking-wider">Skor</p>
                     </>
                   ) : (
-                    <span className="text-[11px] font-bold text-orange-500 bg-orange-50 px-2.5 py-1 rounded-full">Lanjut</span>
+                    <span className="text-[11px] font-bold text-orange-500 bg-orange-50 px-2.5 py-1 rounded-full">Mulai Ulang</span>
                   )}
                 </div>
               </div>
