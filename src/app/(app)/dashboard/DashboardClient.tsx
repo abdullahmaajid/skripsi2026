@@ -21,7 +21,7 @@ interface Props {
   totalAttempts: number
   radarData: { subject: string; score: number; target: number }[]
   recentActivities: { title: string; date: string; score: number; status: string }[]
-  stats: { tryOutCount: number; soalCount: number; hariLagi: number; jamCount: number }
+  stats: { tryOutCount: number; soalCount: number; hariLagi: number; jamCount: number; dailyStreak: number }
   fokusSubject: string
   peluangLulus: number
   trendData: { label: string; score: number }[]
@@ -37,6 +37,8 @@ interface Props {
     actionText: string
     actionUrl: string
   } | null
+  masteryPercentage: number
+  ranking: { rank: number; total: number }
 }
 
 /* ─── Animated counter ─── */
@@ -261,7 +263,7 @@ function GettingStartedCard({ journey, collapsed, onToggle }: { journey: Journey
   )
 }
 
-export default function DashboardClient({ userName, targetName, latestScore, irtTheta, totalAttempts, radarData, recentActivities, stats, fokusSubject, peluangLulus, trendData, targetScoreGap, journeyProgress, aiRecommendation, insightData }: Props) {
+export default function DashboardClient({ userName, targetName, latestScore, irtTheta, totalAttempts, radarData, recentActivities, stats, fokusSubject, peluangLulus, trendData, targetScoreGap, journeyProgress, aiRecommendation, insightData, masteryPercentage, ranking }: Props) {
   const router = useRouter()
   const hasData = radarData.some(r => r.score > 0)
   const scoreProgress = latestScore > 0 ? Math.min((latestScore / 1000) * 100, 100) : 0
@@ -432,18 +434,24 @@ export default function DashboardClient({ userName, targetName, latestScore, irt
         {/* Target Harian */}
         <motion.div variants={fadeUp} className="bg-purple-500 text-white shadow-[0_4px_20px_rgba(168,85,247,0.25)] rounded-[2rem] p-6 relative overflow-hidden flex flex-col justify-between hover:-translate-y-1 transition-transform border border-transparent">
           <div>
-            <div className="flex items-center gap-3 mb-5 relative z-10">
-              <div className="w-10 h-10 rounded-xl bg-white/20 backdrop-blur-sm flex items-center justify-center shadow-sm">
-                <CheckCircle2 className="w-5 h-5 text-white" />
+            <div className="flex items-center justify-between mb-5 relative z-10">
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-xl bg-white/20 backdrop-blur-sm flex items-center justify-center shadow-sm">
+                  <CheckCircle2 className="w-5 h-5 text-white" />
+                </div>
+                <h3 className="text-base font-bold text-white tracking-tight">Target Harian</h3>
               </div>
-              <h3 className="text-base font-bold text-white tracking-tight">Target Harian</h3>
+              <div className="flex items-center gap-1.5 bg-purple-600/50 px-3 py-1 rounded-full border border-purple-400/30">
+                <Flame className="w-3.5 h-3.5 text-orange-300" />
+                <span className="text-xs font-bold text-white"><AnimatedNumber value={stats.dailyStreak} /></span>
+              </div>
             </div>
             <div className="space-y-4 relative z-10">
               <div className="flex items-center gap-3">
                 <div className={`w-5 h-5 rounded-full border ${stats.soalCount >= 20 ? 'bg-white border-white text-purple-600' : 'border-white/40'} flex items-center justify-center shadow-sm`}>
                   {stats.soalCount >= 20 && <CheckCircle2 className="w-3.5 h-3.5" />}
                 </div>
-                <p className={`text-sm ${stats.soalCount >= 20 ? 'text-white/60 line-through' : 'text-white font-medium'}`}>Kerjakan 20 Soal ({Math.min(stats.soalCount, 20)}/20)</p>
+                <p className={`text-sm ${stats.soalCount >= 20 ? 'text-white/60 line-through' : 'text-white font-medium'}`}>Kerjakan 20 Soal <span className="text-[10px] font-medium opacity-70 ml-1">({Math.min(stats.soalCount, 20)}/20)</span></p>
               </div>
               <div className="flex items-center gap-3">
                 <div className={`w-5 h-5 rounded-full border ${journeyProgress.learningPathExplored ? 'bg-white border-white text-purple-600' : 'border-white/40'} flex items-center justify-center shadow-sm`}>
@@ -452,6 +460,19 @@ export default function DashboardClient({ userName, targetName, latestScore, irt
                 <p className={`text-sm ${journeyProgress.learningPathExplored ? 'text-white/60 line-through' : 'text-white font-medium'}`}>Jelajahi Learning Path</p>
               </div>
             </div>
+            
+            {/* Leaderboard Rank */}
+            {ranking.total > 1 && (
+              <div className="mt-5 py-2.5 px-4 bg-white/10 border border-white/20 rounded-xl flex items-center justify-between">
+                <div className="flex items-center gap-2.5">
+                  <Trophy className="w-4 h-4 text-amber-300" />
+                  <span className="text-xs font-semibold text-white/90">Peringkat Pesaing</span>
+                </div>
+                <div className="text-xs font-bold text-purple-700 bg-white px-2 py-1 rounded shadow-sm">
+                  #{ranking.rank} <span className="font-medium text-purple-400">/ {ranking.total}</span>
+                </div>
+              </div>
+            )}
           </div>
           <button onClick={() => router.push("/practice")} className="mt-6 flex items-center gap-2 text-sm font-bold text-purple-700 bg-white px-5 py-3 rounded-full hover:bg-purple-50 hover:scale-[1.02] transition-all w-full justify-center relative z-10 shadow-sm">
             Mulai Latihan <ArrowRight className="w-4 h-4" />
@@ -604,6 +625,20 @@ export default function DashboardClient({ userName, targetName, latestScore, irt
           <motion.div variants={fadeUp} className="bg-white shadow-[0_4px_20px_rgba(0,0,0,0.03)] rounded-[2rem] p-6 flex flex-col">
             <div className="flex items-center justify-between mb-4">
               <h3 className="text-lg font-semibold text-[var(--text-primary)]">Tren Skor</h3>
+              
+              {/* Mastery Progress */}
+              <div className="hidden lg:flex flex-1 items-center gap-4 bg-slate-50 px-4 py-2 rounded-xl mx-6 border border-slate-100">
+                <div className="flex-1">
+                  <div className="flex items-center justify-between mb-1">
+                    <span className="text-[10px] font-bold text-slate-500 uppercase tracking-wider">Penguasaan</span>
+                    <span className="text-[10px] font-bold text-[var(--accent)]">{masteryPercentage}%</span>
+                  </div>
+                  <div className="h-1.5 w-full bg-slate-200 rounded-full overflow-hidden">
+                    <div className="h-full bg-[var(--accent)] rounded-full" style={{ width: `${masteryPercentage}%` }}></div>
+                  </div>
+                </div>
+              </div>
+              
               <button onClick={() => router.push("/analytics/radar")} className="text-xs text-[var(--text-secondary)] font-medium hover:text-[var(--text-primary)] flex items-center gap-1 transition-colors">Detail <ChevronRight className="w-4 h-4" /></button>
             </div>
             <div className="flex-1 min-h-[280px]">

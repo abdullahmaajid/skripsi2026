@@ -216,6 +216,48 @@ export default async function DashboardPage() {
     })
   }
 
+  // ── Gamification ──
+  // 1. Daily Streak
+  const attemptDates = Array.from(new Set(attempts.map(a => a.startedAt.toISOString().split('T')[0]))).sort().reverse()
+  let dailyStreak = 0
+  const today = new Date().toISOString().split('T')[0]
+  const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0]
+  
+  if (attemptDates.length > 0) {
+    if (attemptDates[0] === today || attemptDates[0] === yesterday) {
+      dailyStreak = 1
+      let currentDate = new Date(attemptDates[0])
+      for (let i = 1; i < attemptDates.length; i++) {
+        currentDate.setDate(currentDate.getDate() - 1)
+        if (attemptDates[i] === currentDate.toISOString().split('T')[0]) {
+          dailyStreak++
+        } else {
+          break
+        }
+      }
+    }
+  }
+
+  // 2. Mastery Progress
+  const [totalChapters, completedChapters] = await Promise.all([
+    prisma.chapter.count(),
+    prisma.chapterProgress.count({ where: { userId, status: "COMPLETED" } })
+  ])
+  const masteryPercentage = totalChapters > 0 ? Math.round((completedChapters / totalChapters) * 100) : 0
+
+  // 3. Peringkat Jurusan
+  let competitorRank = 0
+  let totalCompetitors = 0
+  if (user?.profile?.targetMajor1Id) {
+    const competitors = await prisma.user.findMany({
+      where: { profile: { targetMajor1Id: user.profile.targetMajor1Id } },
+      select: { id: true, irtAbility: true },
+      orderBy: { irtAbility: "desc" }
+    })
+    totalCompetitors = competitors.length
+    competitorRank = competitors.findIndex(c => c.id === userId) + 1
+  }
+
   return (
     <DashboardClient
       userName={user?.name || "Siswa"}
@@ -225,7 +267,7 @@ export default async function DashboardPage() {
       totalAttempts={tryOutCount}
       radarData={radarData}
       recentActivities={recentActivities}
-      stats={{ tryOutCount, soalCount, hariLagi, jamCount }}
+      stats={{ tryOutCount, soalCount, hariLagi, jamCount, dailyStreak }}
       fokusSubject={fokusSubject}
       peluangLulus={peluangLulus}
       trendData={trendData}
@@ -233,6 +275,8 @@ export default async function DashboardPage() {
       journeyProgress={journeyProgress}
       aiRecommendation={aiRecommendation}
       insightData={insightData}
+      masteryPercentage={masteryPercentage}
+      ranking={{ rank: competitorRank, total: totalCompetitors }}
     />
   )
 }
