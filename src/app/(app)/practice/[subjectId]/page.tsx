@@ -5,7 +5,7 @@ import { useRouter, useSearchParams } from "next/navigation"
 import { motion } from "framer-motion"
 import {
   ArrowLeft, ChevronRight, Loader2, CheckCircle2, XCircle,
-  BookOpen, RotateCcw, Trophy
+  BookOpen, RotateCcw, Trophy, Flame, TrendingUp, MessageCircle
 } from "lucide-react"
 import { useTutorChatStore } from "@/store/useTutorChatStore"
 import MarkdownRenderer from "@/components/ui/MarkdownRenderer"
@@ -285,16 +285,20 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
     const accuracy = totalAnswered > 0 ? Math.round((correctCount / totalAnswered) * 100) : 0
     let feedbackText = ""
     let feedbackColor = ""
+    let FeedbackIcon = null
     if (totalAnswered > 0) {
       if (accuracy >= 80) {
-        feedbackText = "Luar biasa! Konsepmu sudah sangat matang. 🔥"
+        feedbackText = "Luar biasa! Konsepmu sudah sangat matang."
         feedbackColor = "bg-orange-50 text-orange-600 border-orange-100"
+        FeedbackIcon = Flame
       } else if (accuracy >= 50) {
-        feedbackText = "Cukup baik, tapi masih ada ruang untuk berkembang. 📈"
+        feedbackText = "Cukup baik, tapi masih ada ruang untuk berkembang."
         feedbackColor = "bg-blue-50 text-blue-600 border-blue-100"
+        FeedbackIcon = TrendingUp
       } else {
-        feedbackText = "Ayo evaluasi lagi! Jangan ragu tanya AI Tutor ya. 💪"
+        feedbackText = "Ayo evaluasi lagi! Jangan ragu tanya AI Tutor ya."
         feedbackColor = "bg-rose-50 text-rose-600 border-rose-100"
+        FeedbackIcon = MessageCircle
       }
     }
     
@@ -320,8 +324,9 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
               </div>
             </div>
             {totalAnswered > 0 && (
-              <div className={`p-3 rounded-xl border text-xs font-medium text-center mb-6 leading-relaxed ${feedbackColor}`}>
-                {feedbackText}
+              <div className={`p-3 rounded-xl border text-xs font-medium text-center mb-6 leading-relaxed flex items-center justify-center gap-2 ${feedbackColor}`}>
+                {FeedbackIcon && <FeedbackIcon className="w-4 h-4 shrink-0" />}
+                <span>{feedbackText}</span>
               </div>
             )}
             <h3 className="font-bold text-slate-800 text-sm mb-4">Navigasi Review</h3>
