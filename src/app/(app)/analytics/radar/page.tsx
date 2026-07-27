@@ -68,7 +68,7 @@ export default function AnalyticsRadarPage() {
           <div className="absolute -right-10 -top-10 opacity-5 group-hover:opacity-10 transition-opacity duration-500 pointer-events-none">
             <Sparkles className="w-64 h-64 text-[var(--accent)]" />
           </div>
-          <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[var(--accent)] to-[var(--accent-dark)] flex items-center justify-center shrink-0 shadow-lg shadow-[var(--accent)]/20 text-white z-10">
+          <div className="w-14 h-14 rounded-2xl bg-[var(--accent)] flex items-center justify-center shrink-0 shadow-sm text-white z-10">
             <Sparkles className="w-7 h-7" />
           </div>
           <div className="z-10 flex-1">
