@@ -143,7 +143,7 @@ function TutorContent({ attemptIdParam }: { attemptIdParam?: string }) {
             <div className="mb-6">
               <h1 className="text-3xl font-bold text-slate-800">Ruang Tutor AI</h1>
               <p className="text-slate-500 mt-2 text-sm">
-                Ketik/Paste soal dari sekolah atau bimbel lain di kolom chat AI, atau pilih salah satu Arsip Soal Lexica di bawah untuk kita bahas kembali!
+                Ketik/Paste materi yang belum kamu pahami di kolom chat AI, atau pilih salah satu soal dari riwayat belajarmu di bawah untuk dibahas kembali!
               </p>
             </div>
             
@@ -179,7 +179,7 @@ function TutorContent({ attemptIdParam }: { attemptIdParam?: string }) {
                   </div>
                   <div className="text-slate-600 space-y-1 text-sm leading-relaxed">
                     <strong className="text-slate-800 block mb-1">Cara Menggunakan</strong>
-                    <p>Ketik langsung pertanyaanmu di panel chat kanan, atau klik salah satu soal dari riwayat tryout-mu di bawah ini untuk dibahas secara mendalam bersama Lexica.</p>
+                    <p>Ketik langsung pertanyaanmu di panel chat kanan. Atau, pilih salah satu soal yang <strong>sudah pernah kamu kerjakan</strong> (dari Try Out, Uji Diagnostik, atau Quick Drill) di bawah ini untuk dibahas secara mendalam bersama Lexica.</p>
                   </div>
                 </div>
               </div>
