@@ -117,6 +117,8 @@ export default function PracticePage() {
               { bg: "bg-emerald-50", text: "text-emerald-600", hover: "hover:border-emerald-300", badgeBg: "bg-emerald-100/50", badgeText: "text-emerald-600" },
               { bg: "bg-amber-50", text: "text-amber-600", hover: "hover:border-amber-300", badgeBg: "bg-amber-100/50", badgeText: "text-amber-600" },
               { bg: "bg-purple-50", text: "text-purple-600", hover: "hover:border-purple-300", badgeBg: "bg-purple-100/50", badgeText: "text-purple-600" },
+              { bg: "bg-indigo-50", text: "text-indigo-600", hover: "hover:border-indigo-300", badgeBg: "bg-indigo-100/50", badgeText: "text-indigo-600" },
+              { bg: "bg-orange-50", text: "text-orange-600", hover: "hover:border-orange-300", badgeBg: "bg-orange-100/50", badgeText: "text-orange-600" },
             ];
             const color = colorList[sIdx % colorList.length];
             const Icon = subjectMeta[s.name]?.icon || BookOpen;
