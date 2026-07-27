@@ -2,12 +2,13 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Home, FileText, Map, Bot, Activity, Users, Crown, BarChart2 } from "lucide-react"
+import { Home, FileText, Map, Bot, Activity, Users, Crown, BarChart2, BookOpen } from "lucide-react"
 
 const STUDENT_MOBILE_NAV_ITEMS = [
   { name: "Home", href: "/dashboard", icon: Home },
-  { name: "Belajar", href: "/learning-path", icon: Map },
-  { name: "Try Out", href: "/tryout/list", icon: FileText },
+  { name: "Learning Path", href: "/learning-path", icon: Map },
+  { name: "Practice", href: "/practice", icon: BookOpen },
+  { name: "Tryout", href: "/tryout/list", icon: FileText },
   { name: "Rapor", href: "/analytics", icon: Activity },
   { name: "Bahas Soal", href: "/tutor", icon: Bot },
 ]

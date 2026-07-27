@@ -23,12 +23,13 @@ export async function GET() {
         id: true,
         name: true,
         email: true,
+        avatar: true,
         role: true,
         irtAbility: true,
         createdAt: true,
         _count: { select: { attempts: true } },
       },
-      orderBy: { createdAt: "desc" },
+      orderBy: { irtAbility: "desc" },
     })
     return NextResponse.json({ data: users })
   } catch (error) {

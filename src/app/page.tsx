@@ -7,7 +7,7 @@ export default function LandingPage() {
   const router = useRouter()
 
   return (
-    <div className="min-h-screen bg-neutral-950 text-white font-sans overflow-hidden">
+    <div className="min-h-screen bg-slate-50 text-slate-900 font-sans overflow-hidden">
       {/* Background Effects */}
       <div className="fixed inset-0 pointer-events-none">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-[var(--accent)]/8 rounded-full blur-[150px]" />
@@ -22,10 +22,10 @@ export default function LandingPage() {
           <span className="text-xl font-bold tracking-tight">Lexica</span>
         </div>
         <div className="flex items-center gap-3">
-          <button onClick={() => router.push("/auth/login")} className="px-5 py-2 text-sm font-medium text-neutral-300 hover:text-white transition-colors">
+          <button onClick={() => router.push("/auth/login")} className="px-5 py-2 text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">
             Masuk
           </button>
-          <button onClick={() => router.push("/auth/register")} className="px-5 py-2.5 text-sm font-semibold bg-[var(--accent)] hover:bg-[var(--accent-hover)] rounded-xl transition-all shadow-lg shadow-[color:var(--accent-glow)]">
+          <button onClick={() => router.push("/auth/register")} className="px-5 py-2.5 text-sm font-semibold text-white bg-[var(--accent)] hover:bg-[var(--accent-hover)] rounded-xl transition-all shadow-lg shadow-[var(--accent)]/20">
             Daftar Gratis
           </button>
         </div>
@@ -43,19 +43,19 @@ export default function LandingPage() {
               yang Cerdas
             </span>
           </h1>
-          <p className="text-lg md:text-xl text-neutral-400 leading-relaxed mb-10 max-w-2xl">
-            Sistem Tutoring Adaptif dengan <strong className="text-neutral-200">IRT Scoring</strong>, <strong className="text-neutral-200">AI Scaffolding</strong>, dan <strong className="text-neutral-200">Chancing Engine</strong> untuk memaksimalkan peluang lolos SNBT impianmu.
+          <p className="text-lg md:text-xl text-slate-600 leading-relaxed mb-10 max-w-2xl">
+            Sistem Tutoring Adaptif dengan <strong className="text-slate-800">IRT Scoring</strong>, <strong className="text-slate-800">AI Scaffolding</strong>, dan <strong className="text-slate-800">Chancing Engine</strong> untuk memaksimalkan peluang lolos SNBT impianmu.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <button 
               onClick={() => router.push("/auth/register")}
-              className="px-8 py-4 bg-[var(--accent)] hover:bg-[var(--accent-hover)] font-semibold rounded-xl transition-all shadow-xl shadow-[var(--accent)]/25 flex items-center justify-center gap-2 text-lg"
+              className="px-8 py-4 bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white font-semibold rounded-xl transition-all shadow-xl shadow-[var(--accent)]/25 flex items-center justify-center gap-2 text-lg"
             >
               Mulai Sekarang <ArrowRight className="w-5 h-5" />
             </button>
             <button 
               onClick={() => router.push("/tryout/list")}
-              className="px-8 py-4 bg-white/5 hover:bg-white/10 border border-white/10 font-semibold rounded-xl transition-all flex items-center justify-center gap-2"
+              className="px-8 py-4 bg-white hover:bg-slate-100 text-slate-700 border border-slate-200 shadow-sm font-semibold rounded-xl transition-all flex items-center justify-center gap-2"
             >
               Coba Demo Gratis
             </button>
@@ -67,7 +67,7 @@ export default function LandingPage() {
       <section className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-20">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Kenapa Lexica?</h2>
-          <p className="text-neutral-400 max-w-xl mx-auto">Platform persiapan UTBK paling komprehensif dengan teknologi adaptif yang menyesuaikan level belajarmu.</p>
+          <p className="text-slate-600 max-w-xl mx-auto">Platform persiapan UTBK paling komprehensif dengan teknologi adaptif yang menyesuaikan level belajarmu.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -112,13 +112,13 @@ export default function LandingPage() {
 
       {/* CTA */}
       <section className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-20">
-        <div className="bg-[var(--accent)]/15 border border-white/10 rounded-[2rem] p-12 md:p-16 text-center">
+        <div className="bg-indigo-50 border border-indigo-100 rounded-[2rem] p-12 md:p-16 text-center shadow-lg shadow-indigo-100/50">
           <Shield className="w-12 h-12 text-[var(--accent)] mx-auto mb-6" />
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Siap Menaklukkan UTBK?</h2>
-          <p className="text-neutral-400 max-w-lg mx-auto mb-8">Bergabung sekarang dan mulai persiapan cerdasmu. Gratis, tanpa kartu kredit.</p>
+          <p className="text-slate-600 max-w-lg mx-auto mb-8">Bergabung sekarang dan mulai persiapan cerdasmu. Gratis, tanpa kartu kredit.</p>
           <button
             onClick={() => router.push("/auth/register")}
-            className="px-10 py-4 bg-[var(--accent)] hover:bg-[var(--accent-hover)] font-semibold rounded-xl transition-all shadow-xl shadow-[var(--accent)]/25 text-lg"
+            className="px-10 py-4 bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white font-semibold rounded-xl transition-all shadow-xl shadow-[var(--accent)]/25 text-lg"
           >
             Daftar Gratis Sekarang
           </button>
@@ -126,7 +126,7 @@ export default function LandingPage() {
       </section>
 
       {/* Footer */}
-      <footer className="relative z-10 border-t border-white/5 py-8 text-center text-neutral-600 text-sm">
+      <footer className="relative z-10 border-t border-slate-200 py-8 text-center text-slate-500 text-sm">
         &copy; 2025 Lexica. Built with Next.js, Prisma, Groq Llama.
       </footer>
     </div>
@@ -135,12 +135,12 @@ export default function LandingPage() {
 
 function FeatureCard({ icon, title, description, color }: { icon: React.ReactNode; title: string; description: string; color: string }) {
   return (
-    <div className="bg-neutral-900/50 backdrop-blur-sm border border-white/5 rounded-2xl p-6 hover:border-white/10 transition-all group">
+    <div className="bg-white border border-slate-200 rounded-2xl p-6 hover:border-slate-300 hover:shadow-lg transition-all group">
       <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4" style={{ backgroundColor: `color-mix(in srgb, ${color} 15%, transparent)`, color }}>
         {icon}
       </div>
-      <h3 className="font-semibold text-lg mb-2">{title}</h3>
-      <p className="text-neutral-400 text-sm leading-relaxed">{description}</p>
+      <h3 className="font-semibold text-slate-800 text-lg mb-2">{title}</h3>
+      <p className="text-slate-600 text-sm leading-relaxed">{description}</p>
     </div>
   )
 }
@@ -151,8 +151,8 @@ function StepCard({ step, title, desc }: { step: number; title: string; desc: st
       <div className="w-14 h-14 rounded-2xl bg-[var(--accent)]/10 border border-[var(--accent)]/20 flex items-center justify-center text-[var(--accent)] font-bold text-xl mx-auto mb-4">
         {step}
       </div>
-      <h3 className="font-semibold text-lg mb-2">{title}</h3>
-      <p className="text-neutral-400 text-sm">{desc}</p>
+      <h3 className="font-semibold text-slate-800 text-lg mb-2">{title}</h3>
+      <p className="text-slate-600 text-sm">{desc}</p>
     </div>
   )
 }

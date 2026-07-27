@@ -69,7 +69,7 @@ export default function LearningPathPage() {
       </motion.div>
 
       {ctx && (
-        <motion.div variants={fadeUp} className="bg-gradient-to-br from-indigo-50 to-blue-50/50 border border-indigo-100 rounded-3xl p-6 md:p-8 shadow-sm relative overflow-hidden">
+        <motion.div variants={fadeUp} className="bg-gradient-to-br from-[var(--pastel-purple)] to-white border border-[var(--accent)]/20 rounded-3xl p-6 md:p-8 shadow-sm relative overflow-hidden">
           <div className="absolute top-0 right-0 p-8 opacity-[0.03] pointer-events-none">
             <Target className="w-48 h-48" />
           </div>
@@ -77,7 +77,7 @@ export default function LearningPathPage() {
           <div className="relative z-10 space-y-6">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
               <div>
-                <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-indigo-100 text-indigo-700 text-xs font-bold rounded-full uppercase tracking-wider mb-3">
+                <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-[var(--accent)]/10 text-[var(--accent-dark)] text-xs font-bold rounded-full uppercase tracking-wider mb-3">
                   <Sparkles className="w-3.5 h-3.5" /> Target PTN: {ctx.targetCluster}
                 </span>
                 <h2 className="text-xl md:text-2xl font-bold text-slate-800">
@@ -94,16 +94,16 @@ export default function LearningPathPage() {
                   </p>
                 </div>
                 <div className="bg-white/60 border border-white/40 p-4 rounded-2xl text-center min-w-[120px]">
-                  <p className="text-[10px] uppercase font-bold text-indigo-500 mb-1">Target Aman</p>
-                  <p className="text-2xl font-black text-indigo-700">{ctx.targetScore}</p>
+                  <p className="text-[10px] uppercase font-bold text-[var(--accent)] mb-1">Target Aman</p>
+                  <p className="text-2xl font-black text-[var(--accent-dark)]">{ctx.targetScore}</p>
                 </div>
               </div>
             </div>
 
-            <div className="bg-white/60 rounded-2xl p-4 md:p-5 border border-indigo-50/50">
+            <div className="bg-white/60 rounded-2xl p-4 md:p-5 border border-[var(--accent)]/10">
               <div className="flex items-start gap-3">
                 <div className="shrink-0 mt-0.5">
-                  <Info className="w-5 h-5 text-indigo-500" />
+                  <Info className="w-5 h-5 text-[var(--accent)]" />
                 </div>
                 <div className="text-slate-600 space-y-3 text-sm leading-relaxed">
                   <div>

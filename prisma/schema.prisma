@@ -39,7 +39,8 @@ model StudentProfile {
   targetMajor1Id String?
   targetMajor2Id String?
   aiStyle        String  @default("default") // default, professional, friendly, honest, quirky, efficient, sarcastic
-  aiEnergy       String  @default("default") // high, default, low
+  aiEnergy       String?  @default("default") // "low", "default", "high"
+  aiLength       String?  @default("normal") // "short", "normal", "long"
 
   user         User   @relation(fields: [userId], references: [id], onDelete: Cascade)
   targetMajor1 Major? @relation("Target1", fields: [targetMajor1Id], references: [id])
@@ -261,8 +262,8 @@ model TutoringSession {
 }
 
 enum ScaffoldLevel {
-  SOCRATIC // Level 1: Pertanyaan pemandu
-  HINT // Level 2: Petunjuk parsial
+  HINT // Level 1: Petunjuk parsial
+  SOCRATIC // Level 2: Pertanyaan pemandu
   SOLUTION // Level 3: Penjelasan lengkap
 }
 
@@ -307,4 +308,14 @@ enum MasteryStatus {
   NOT_STARTED
   IN_PROGRESS
   COMPLETED
+}
+
+// ============================================
+// SYSTEM CONFIGURATION
+// ============================================
+model SystemSetting {
+  key         String   @id
+  value       String   @db.Text
+  description String?  @db.Text
+  updatedAt   DateTime @updatedAt
 }

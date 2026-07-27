@@ -87,6 +87,27 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
     load()
   }, [subjectId, chapterId])
 
+  // Auto-select question for AI Tutor in Review Mode
+  useEffect(() => {
+    if (showReview && questions[reviewIndex]) {
+      const revQ = questions[reviewIndex]
+      const correctO = revQ.options.find(o => o.isCorrect)
+      const selectedO = revQ.options.find(o => o.id === userAnswers[revQ.id])
+      setSelectedQuestion({
+        questionId: revQ.id,
+        text: revQ.text,
+        subject: revQ.subject,
+        selectedAnswer: selectedO ? `${selectedO.label}. ${selectedO.text}` : "Tidak menjawab",
+        correctAnswer: correctO ? `${correctO.label}. ${correctO.text}` : "—",
+        difficulty: revQ.difficulty,
+        options: revQ.options,
+        selectedIds: [userAnswers[revQ.id]].filter(Boolean) as string[],
+        isReview: true,
+        autoTriggerExplanation: false
+      })
+    }
+  }, [showReview, reviewIndex, questions, userAnswers, setSelectedQuestion])
+
   // Submit answer
   const handleSubmit = async () => {
     if (!selectedOptionId || !currentQ) return
@@ -123,7 +144,7 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
         difficulty: currentQ.difficulty,
         options: currentQ.options,
         selectedIds: [selectedOptionId],
-        isSecondChance: false,
+        attemptCount: 0,
       })
     } else {
       if (!userAnswers[currentQ.id]) {
@@ -146,7 +167,7 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
           difficulty: currentQ.difficulty,
           options: currentQ.options,
           selectedIds: [selectedOptionId],
-          isSecondChance: true, // we still mark as second chance so it doesn't auto-open solution
+          attemptCount: 2,
         })
       } else {
         // Extreme Socratic Mode: AI knows the correct answer to guide properly, but is forbidden by prompt to leak it
@@ -159,7 +180,7 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
           difficulty: currentQ.difficulty,
           options: currentQ.options,
           selectedIds: [selectedOptionId],
-          isSecondChance: true,
+          attemptCount: 1,
         })
       }
     }
@@ -261,6 +282,22 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
     const revQ = questions[reviewIndex]
     const userSelectedId = userAnswers[revQ.id]
     
+    const accuracy = totalAnswered > 0 ? Math.round((correctCount / totalAnswered) * 100) : 0
+    let feedbackText = ""
+    let feedbackColor = ""
+    if (totalAnswered > 0) {
+      if (accuracy >= 80) {
+        feedbackText = "Luar biasa! Konsepmu sudah sangat matang. 🔥"
+        feedbackColor = "bg-orange-50 text-orange-600 border-orange-100"
+      } else if (accuracy >= 50) {
+        feedbackText = "Cukup baik, tapi masih ada ruang untuk berkembang. 📈"
+        feedbackColor = "bg-blue-50 text-blue-600 border-blue-100"
+      } else {
+        feedbackText = "Ayo evaluasi lagi! Jangan ragu tanya AI Tutor ya. 💪"
+        feedbackColor = "bg-rose-50 text-rose-600 border-rose-100"
+      }
+    }
+    
     return (
       <div className="h-full flex flex-col lg:flex-row overflow-hidden bg-white">
         <aside className="w-full lg:w-[320px] border-b lg:border-b-0 lg:border-r border-slate-100 bg-slate-50/50 flex flex-col shrink-0 h-[30vh] lg:h-full overflow-y-auto no-scrollbar">
@@ -268,6 +305,25 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
             <button onClick={() => setShowReview(false)} className="flex items-center gap-2 text-sm font-bold text-slate-500 hover:text-slate-800 mb-6 transition-colors">
               <ArrowLeft className="w-4 h-4" /> Kembali ke Hasil
             </button>
+            <div className="grid grid-cols-3 gap-2 w-full mb-6">
+              <div className="p-2 bg-green-50 rounded-xl border border-green-100 flex flex-col items-center justify-center">
+                <p className="text-[9px] uppercase tracking-wider text-green-600 font-bold mb-0.5">Benar</p>
+                <p className="text-sm font-bold text-green-600">{correctCount}</p>
+              </div>
+              <div className="p-2 bg-rose-50 rounded-xl border border-rose-100 flex flex-col items-center justify-center">
+                <p className="text-[9px] uppercase tracking-wider text-rose-600 font-bold mb-0.5">Salah</p>
+                <p className="text-sm font-bold text-rose-600">{totalAnswered - correctCount}</p>
+              </div>
+              <div className="p-2 bg-slate-50 rounded-xl border border-slate-200 flex flex-col items-center justify-center">
+                <p className="text-[9px] uppercase tracking-wider text-slate-600 font-bold mb-0.5">Akurasi</p>
+                <p className="text-sm font-bold text-slate-800">{accuracy}%</p>
+              </div>
+            </div>
+            {totalAnswered > 0 && (
+              <div className={`p-3 rounded-xl border text-xs font-medium text-center mb-6 leading-relaxed ${feedbackColor}`}>
+                {feedbackText}
+              </div>
+            )}
             <h3 className="font-bold text-slate-800 text-sm mb-4">Navigasi Review</h3>
             <div className="grid grid-cols-5 gap-2.5">
               {questions.map((q, idx) => {
@@ -340,7 +396,6 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
                   difficulty: revQ.difficulty,
                   options: revQ.options,
                   selectedIds: [userAnswers[revQ.id]].filter(Boolean) as string[],
-                  isSecondChance: false,
                   autoTriggerExplanation: true
                 })
               }}
@@ -506,7 +561,6 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
                         difficulty: currentQ!.difficulty,
                         options: currentQ!.options,
                         selectedIds: [selectedOptionId].filter(Boolean) as string[],
-                        isSecondChance: false,
                         autoTriggerExplanation: true
                       })
                     }}

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
 import { motion } from "framer-motion"
-import { BookOpen, Users, GraduationCap, FileText, ArrowLeft, ChevronRight, Loader2, Settings, ShieldAlert } from "lucide-react"
+import { BookOpen, Users, GraduationCap, FileText, ArrowLeft, ChevronRight, Loader2, Settings, ShieldAlert, BarChart3, Layers } from "lucide-react"
 
 interface StatsData {
   users: { students: number; admins: number; total: number }
@@ -35,6 +35,14 @@ export default function AdminPage() {
   }, [])
 
   const cards = stats ? [
+    { 
+      title: "Statistik Platform", 
+      desc: "Ringkasan kondisi platform, metrik siswa, dan analitik ujian UTBK", 
+      icon: <BarChart3 className="w-5 h-5 text-indigo-600" />, 
+      bgColor: "var(--pastel-blue)", 
+      href: "/admin/stats",
+      statsText: "Lihat Analisis"
+    },
     { 
       title: "Bank Soal & Kurikulum", 
       desc: "Kelola Mata Pelajaran, Bab, dan Bank Soal UTBK (LaTeX/Markdown)", 
@@ -95,9 +103,7 @@ export default function AdminPage() {
       {/* Top bar */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
-          <h1 className="text-3xl font-bold text-slate-800 tracking-tight flex items-center gap-2">
-            <Settings className="w-8 h-8 text-[var(--accent)]" /> Panel Kontrol Admin
-          </h1>
+          <h1 className="text-3xl font-bold text-slate-800 tracking-tight">Panel Kontrol Admin</h1>
           <p className="text-sm text-slate-500 mt-1">Kelola seluruh konten, soal, user, dan konfigurasi ujian Lexica.</p>
         </div>
       </div>
@@ -108,13 +114,80 @@ export default function AdminPage() {
           <p className="text-sm text-slate-400 mt-2 font-medium">Memuat data panel...</p>
         </div>
       ) : (
-        <div className="space-y-8">
-          {/* Quick Stats Grid */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
-            <StatCard label="Total Siswa" value={stats?.users.students || 0} icon={<Users className="w-4 h-4 text-sky-600" />} bgColor="var(--pastel-blue)" />
-            <StatCard label="Total Soal" value={stats?.curriculum.questions || 0} icon={<BookOpen className="w-4 h-4 text-purple-600" />} bgColor="var(--pastel-purple)" />
-            <StatCard label="Total Prodi" value={stats?.ptn.majors || 0} icon={<GraduationCap className="w-4 h-4 text-emerald-600" />} bgColor="var(--pastel-green)" />
-            <StatCard label="Tryout Dikerjakan" value={stats?.exams.attempts || 0} icon={<FileText className="w-4 h-4 text-rose-600" />} bgColor="var(--pastel-rose)" />
+        <div className="space-y-10">
+          {/* Quick Stats Grid - Asymmetric Bento Box */}
+          <div>
+            <h2 className="text-lg font-bold text-slate-700 mb-4">Statistik Sistem</h2>
+            <div className="grid grid-cols-1 md:grid-cols-12 gap-5">
+              {/* Primary Stat - Very Large */}
+              <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="col-span-1 md:col-span-8 bg-indigo-500 rounded-3xl p-6 md:p-8 text-white relative overflow-hidden min-h-[200px] flex flex-col justify-between">
+                <div className="relative z-10">
+                  <h3 className="text-indigo-100 font-medium text-xs md:text-sm uppercase tracking-wider flex items-center gap-2"><Users className="w-5 h-5 text-indigo-300" /> Siswa Aktif Terdaftar</h3>
+                  <p className="text-white/80 text-xs mt-2 max-w-sm leading-relaxed hidden sm:block">Total pengguna dengan role STUDENT di platform Lexica yang sedang mempersiapkan diri untuk UTBK SNBT.</p>
+                </div>
+                <div className="relative z-10 mt-6 flex items-baseline gap-2">
+                  <span className="text-6xl md:text-7xl font-black tracking-tighter">{stats?.users.students.toLocaleString("id-ID") || 0}</span>
+                  <span className="text-indigo-200 font-bold text-lg md:text-xl">Siswa</span>
+                </div>
+              </motion.div>
+              
+              {/* Secondary Stat - Question Bank */}
+              <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.05 }} className="col-span-1 md:col-span-4 bg-white border border-slate-100 rounded-3xl p-6 md:p-8 min-h-[200px] flex flex-col justify-between group hover:border-purple-200 transition-colors">
+                <div>
+                  <h3 className="text-slate-500 font-bold text-xs uppercase tracking-wider flex items-center gap-2"><BookOpen className="w-4 h-4 text-purple-500" /> Bank Soal UTBK</h3>
+                </div>
+                <div className="mt-6 flex flex-col gap-1">
+                  <span className="text-5xl md:text-6xl font-black text-slate-800 tracking-tight group-hover:text-purple-600 transition-colors">{stats?.curriculum.questions.toLocaleString("id-ID") || 0}</span>
+                  <span className="text-slate-400 font-semibold text-sm">Total Soal Evaluasi</span>
+                </div>
+              </motion.div>
+
+              {/* Sub Stats - Asymmetric Row */}
+              <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="col-span-1 md:col-span-4 bg-white border border-slate-100 rounded-3xl p-5 hover:border-blue-200 transition-colors">
+                <h3 className="text-slate-400 font-bold text-[10px] uppercase tracking-wider flex items-center gap-2 mb-4"><Layers className="w-3.5 h-3.5 text-blue-500" /> Struktur Kurikulum</h3>
+                <div className="flex items-center justify-between">
+                  <div>
+                    <p className="text-slate-800 font-black text-2xl">{stats?.curriculum.subjects || 0}</p>
+                    <p className="text-slate-500 text-xs font-semibold">Mata Pelajaran</p>
+                  </div>
+                  <div className="w-px h-8 bg-slate-100"></div>
+                  <div className="text-right">
+                    <p className="text-slate-800 font-black text-2xl">{stats?.curriculum.chapters || 0}</p>
+                    <p className="text-slate-500 text-xs font-semibold">Bab Materi</p>
+                  </div>
+                </div>
+              </motion.div>
+
+              <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="col-span-1 md:col-span-4 bg-white border border-slate-100 rounded-3xl p-5 hover:border-emerald-200 transition-colors">
+                <h3 className="text-slate-400 font-bold text-[10px] uppercase tracking-wider flex items-center gap-2 mb-4"><GraduationCap className="w-3.5 h-3.5 text-emerald-500" /> Universitas & Jurusan</h3>
+                <div className="flex items-center justify-between">
+                  <div>
+                    <p className="text-slate-800 font-black text-2xl">{stats?.ptn.universities || 0}</p>
+                    <p className="text-slate-500 text-xs font-semibold">Universitas PTN</p>
+                  </div>
+                  <div className="w-px h-8 bg-slate-100"></div>
+                  <div className="text-right">
+                    <p className="text-slate-800 font-black text-2xl">{stats?.ptn.majors || 0}</p>
+                    <p className="text-slate-500 text-xs font-semibold">Program Studi</p>
+                  </div>
+                </div>
+              </motion.div>
+
+              <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }} className="col-span-1 md:col-span-4 bg-rose-50 border border-rose-100/50 rounded-3xl p-5 flex flex-col justify-between hover:border-rose-200 transition-colors">
+                <h3 className="text-rose-500 font-bold text-[10px] uppercase tracking-wider flex items-center gap-2 mb-4"><FileText className="w-3.5 h-3.5" /> Simulasi Tryout</h3>
+                <div className="flex items-center justify-between">
+                  <div>
+                    <p className="text-rose-600 font-black text-2xl">{stats?.exams.tryouts || 0}</p>
+                    <p className="text-rose-500 text-xs font-semibold opacity-80">Paket Tersedia</p>
+                  </div>
+                  <div className="w-px h-8 bg-rose-200/50"></div>
+                  <div className="text-right">
+                    <p className="text-rose-600 font-black text-2xl">{stats?.exams.attempts || 0}</p>
+                    <p className="text-rose-500 text-xs font-semibold opacity-80">Sesi Selesai</p>
+                  </div>
+                </div>
+              </motion.div>
+            </div>
           </div>
 
           {/* Navigasi Control Panels */}
@@ -149,20 +222,6 @@ export default function AdminPage() {
           </div>
         </div>
       )}
-    </div>
-  )
-}
-
-function StatCard({ label, value, icon, bgColor }: { label: string; value: number; icon: React.ReactNode; bgColor: string }) {
-  return (
-    <div className="bg-white border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.02)] rounded-3xl p-5 flex items-center gap-4">
-      <div className="w-10 h-10 rounded-xl flex items-center justify-center shrink-0" style={{ backgroundColor: bgColor }}>
-        {icon}
-      </div>
-      <div>
-        <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">{label}</p>
-        <p className="text-2xl font-bold text-slate-800 tracking-tight mt-0.5">{value.toLocaleString("id-ID")}</p>
-      </div>
     </div>
   )
 }

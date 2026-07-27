@@ -2,10 +2,13 @@
 
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { PanelLeftClose, PanelLeftOpen, PanelRightClose, PanelRightOpen, X, Bot, Settings } from "lucide-react"
+import { PanelLeftClose, PanelLeftOpen, PanelRightClose, PanelRightOpen, X, Bot, Settings, LayoutDashboard, Shield } from "lucide-react"
+import { Toaster } from "react-hot-toast"
 import Sidebar from "@/components/layout/Sidebar"
 import AIChatPanel from "@/components/layout/AIChatPanel"
+import AdminSidebarContent from "@/components/layout/AdminSidebarContent"
 import MobileNavbar from "@/components/layout/MobileNavbar"
+import { useAdminPanelStore } from "@/store/useAdminPanelStore"
 
 import { usePathname, useRouter } from "next/navigation"
 
@@ -27,15 +30,29 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
     }
   }, [pathname])
 
-  // Hide right panel completely on active tryout routes (not list, not review) AND admin routes
+  const { content: adminPanelContent, closePanel: closeAdminPanel } = useAdminPanelStore()
+
+  useEffect(() => {
+    if (adminPanelContent) {
+      setRightOpen(true)
+    }
+  }, [adminPanelContent])
+
+  // Hide right panel completely on active tryout routes (not list, not review)
   const isActiveTryout = /^\/tryout\/[^/]+$/.test(pathname) && !pathname.includes("/list")
   const isAdmin = pathname.startsWith("/admin")
-  const actualRightOpen = (isActiveTryout || isAdmin) ? false : rightOpen
-  const showRightPanel = !isActiveTryout && !isAdmin
+  
+  const isAIChatContext = !isActiveTryout && !isAdmin
+  const isAdminContext = isAdmin
+  
+  const isAIChatVisible = isAIChatContext && rightOpen
+  const isAdminPanelVisible = isAdminContext && rightOpen
+  const showRightPanel = isAIChatVisible || isAdminPanelVisible
   const showLeftPanel = !(isActiveTryout && isDiagnosticOnboarding)
 
   return (
     <div className="h-screen flex flex-col overflow-hidden bg-[var(--background)]">
+      <Toaster position="top-center" reverseOrder={false} />
       <div className="flex-1 flex flex-col lg:flex-row overflow-hidden px-4 lg:px-4 py-4 lg:py-5 gap-4 lg:gap-4 relative">
         
         {/* Floating Open Buttons (Visible when panels are closed) */}
@@ -54,7 +71,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         </AnimatePresence>
 
         <AnimatePresence>
-          {showRightPanel && !actualRightOpen && (
+          {(isAIChatContext || isAdminContext) && !rightOpen && (
             <motion.button
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
@@ -82,17 +99,17 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           )}
         </AnimatePresence>
 
-        {/* Mobile FAB Trigger for AI Chat */}
+        {/* Mobile FAB Trigger for Panel */}
         <AnimatePresence>
-          {showRightPanel && !actualRightOpen && (
+          {(isAIChatContext || isAdminContext) && !rightOpen && (
             <motion.button
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.8 }}
               onClick={() => setRightOpen(true)}
-              className="lg:hidden absolute bottom-[84px] right-4 z-40 bg-[var(--accent)] text-white p-3 rounded-full shadow-[0_8px_30px_rgba(193,119,249,0.4)] hover:scale-105 transition-transform flex items-center justify-center"
+              className={`lg:hidden absolute bottom-[84px] right-4 z-40 text-white p-3 rounded-full shadow-[0_8px_30px_rgba(0,0,0,0.15)] hover:scale-105 transition-transform flex items-center justify-center ${isAdminContext ? 'bg-slate-800' : 'bg-[var(--accent)]'}`}
             >
-              <Bot className="w-6 h-6" />
+              {isAdminContext ? <PanelRightOpen className="w-6 h-6" /> : <Bot className="w-6 h-6" />}
             </motion.button>
           )}
         </AnimatePresence>
@@ -151,9 +168,9 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           {children}
         </main>
 
-        {/* Right: AI Chat Panel (Desktop) */}
+        {/* Right: AI Chat Panel / Admin Panel (Desktop) */}
         <AnimatePresence>
-          {showRightPanel && actualRightOpen && (
+          {showRightPanel && (
             <motion.div
               initial={{ width: 0, opacity: 0, marginRight: -20 }}
               animate={{ width: "380px", opacity: 1, marginRight: 0 }}
@@ -161,16 +178,20 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
               transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
               className="shrink-0 hidden lg:flex relative overflow-hidden"
             >
-              <div className="w-[380px] h-full shrink-0">
-                <AIChatPanel onClose={() => setRightOpen(false)} />
+              <div className="w-[380px] h-full shrink-0 flex flex-col bg-white rounded-[2rem] border border-slate-100 shadow-[0_4px_24px_rgba(0,0,0,0.02)] overflow-hidden">
+                {isAIChatVisible ? (
+                  <AIChatPanel onClose={() => setRightOpen(false)} />
+                ) : isAdminPanelVisible ? (
+                  adminPanelContent || <AdminSidebarContent onClose={() => setRightOpen(false)} />
+                ) : null}
               </div>
             </motion.div>
           )}
         </AnimatePresence>
 
-        {/* Right: AI Chat Panel (Mobile Drawer) */}
+        {/* Right: AI Chat Panel / Admin Panel (Mobile Drawer) */}
         <AnimatePresence>
-          {showRightPanel && actualRightOpen && (
+          {showRightPanel && (
             <>
               {/* Overlay */}
               <motion.div 
@@ -188,12 +209,16 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
                 transition={{ type: "spring", bounce: 0, duration: 0.4 }}
                 className="fixed inset-y-0 right-0 w-[90%] sm:w-[380px] max-w-full bg-white z-[70] shadow-2xl flex flex-col lg:hidden"
               >
-                <div className="flex-1 overflow-y-auto no-scrollbar pb-10">
-                  <AIChatPanel onClose={() => setRightOpen(false)} />
+                <div className="flex-1 overflow-y-auto no-scrollbar pb-10 flex flex-col">
+                  {isAIChatVisible ? (
+                    <AIChatPanel onClose={() => setRightOpen(false)} />
+                  ) : isAdminPanelVisible ? (
+                    adminPanelContent || <AdminSidebarContent onClose={() => setRightOpen(false)} />
+                  ) : null}
                 </div>
                 <button 
                   onClick={() => setRightOpen(false)}
-                  className="absolute top-6 left-6 w-10 h-10 bg-slate-100 rounded-full flex items-center justify-center text-slate-500 hover:bg-slate-200 transition-colors z-50"
+                  className="absolute top-6 left-6 w-10 h-10 bg-slate-100 rounded-full flex items-center justify-center text-slate-500 hover:bg-slate-200 transition-colors z-50 shadow-sm"
                 >
                   <X className="w-5 h-5" />
                 </button>

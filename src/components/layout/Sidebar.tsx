@@ -7,7 +7,7 @@ import { motion, Variants } from "framer-motion"
 import { useState, useEffect } from "react"
 import { 
   Home, FileText, BarChart2, TrendingUp, Target, Bot, Settings, 
-  GraduationCap, LogOut, Sparkles, Activity, Map, Heart, Crown, User
+  GraduationCap, LogOut, Sparkles, Activity, Map, Heart, Crown, User, BookOpen
 } from "lucide-react"
 
 const NAV_GROUPS = [
@@ -15,8 +15,9 @@ const NAV_GROUPS = [
     title: "BELAJAR & LATIHAN",
     items: [
       { name: "Dashboard", href: "/dashboard", icon: Home },
-      { name: "Belajar & Latihan", href: "/learning-path", icon: Map },
-      { name: "Try Out", href: "/tryout/list", icon: FileText },
+      { name: "Learning Path", href: "/learning-path", icon: Map },
+      { name: "Practice", href: "/practice", icon: BookOpen },
+      { name: "Tryout", href: "/tryout/list", icon: FileText },
     ]
   },
   {
@@ -28,7 +29,7 @@ const NAV_GROUPS = [
   {
     title: "BANTUAN AI",
     items: [
-      { name: "Bahas Soal Luar", href: "/tutor", icon: Bot },
+      { name: "Ruang Tutor AI", href: "/tutor", icon: Bot },
     ]
   },
   {
@@ -61,6 +62,12 @@ const ADMIN_GROUPS = [
     items: [
       { name: "Statistik", href: "/admin/stats", icon: BarChart2 },
     ]
+  },
+  {
+    title: "SISTEM",
+    items: [
+      { name: "Pengaturan", href: "/admin/settings", icon: Settings },
+    ]
   }
 ];
 
@@ -73,7 +80,7 @@ export default function Sidebar({ onClose }: { onClose?: () => void }) {
 const [profile, setProfile] = useState<{name:string; role:string; avatar?:string}>({name:"", role:""});
 
   useEffect(() => {
-    fetch("/api/profile")
+    fetch("/api/profile", { cache: "no-store" })
       .then(r => r.json())
       .then(d => {
         if (d?.user?.role === "ADMIN") {

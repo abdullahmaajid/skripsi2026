@@ -4,6 +4,9 @@ import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
 import { ChevronDown, Search, Plus, Edit2, Trash2, BookOpen, Layers, HelpCircle, Check, Loader2, ArrowLeft, Upload } from "lucide-react"
 import MarkdownRenderer from "@/components/ui/MarkdownRenderer"
+import { useAdminPanelStore } from "@/store/useAdminPanelStore"
+import { SubjectFormPanel, ChapterFormPanel, QuestionFormPanel } from "./components"
+import toast from "react-hot-toast"
 
 interface Subject {
   id: string
@@ -56,33 +59,8 @@ export default function AdminQuestionsPage() {
   const [filterChapterId, setFilterChapterId] = useState("")
   const [searchQuery, setSearchQuery] = useState("")
 
-  // Form states
-  const [showSubjectModal, setShowSubjectModal] = useState(false)
-  const [editingSubject, setEditingSubject] = useState<Subject | null>(null)
-  const [subjectForm, setSubjectForm] = useState({ name: "", cluster: "CAMPURAN" })
-
-  const [showChapterModal, setShowChapterModal] = useState(false)
-  const [editingChapter, setEditingChapter] = useState<Chapter | null>(null)
-  const [chapterForm, setChapterForm] = useState({ name: "", subjectId: "", order: 0, theorySummary: "" })
-
-  const [showQuestionModal, setShowQuestionModal] = useState(false)
-  const [editingQuestion, setEditingQuestion] = useState<Question | null>(null)
-  const [questionForm, setQuestionForm] = useState({
-    chapterId: "",
-    text: "",
-    imageUrl: "",
-    difficulty: 0,
-    type: "MULTIPLE_CHOICE",
-    options: [
-      { label: "A", text: "", isCorrect: true },
-      { label: "B", text: "", isCorrect: false },
-      { label: "C", text: "", isCorrect: false },
-      { label: "D", text: "", isCorrect: false },
-      { label: "E", text: "", isCorrect: false },
-    ] as OptionData[]
-  })
-
-  const [submitting, setSubmitting] = useState(false)
+  const openPanel = useAdminPanelStore(s => s.openPanel)
+  const closePanel = useAdminPanelStore(s => s.closePanel)
 
   // Loading triggers
   useEffect(() => {
@@ -127,36 +105,25 @@ export default function AdminQuestionsPage() {
 
   // --- CRUD SUBJECTS ---
   function openAddSubject() {
-    setEditingSubject(null)
-    setSubjectForm({ name: "", cluster: "CAMPURAN" })
-    setShowSubjectModal(true)
+    openPanel(
+      <SubjectFormPanel 
+        key="add-subject"
+        editingSubject={null} 
+        onSuccess={() => { closePanel(); fetchData(); toast.success("Data berhasil disimpan!"); }} 
+        onCancel={closePanel} 
+      />
+    )
   }
 
   function openEditSubject(s: Subject) {
-    setEditingSubject(s)
-    setSubjectForm({ name: s.name, cluster: s.cluster })
-    setShowSubjectModal(true)
-  }
-
-  async function handleSubjectSubmit(e: React.FormEvent) {
-    e.preventDefault()
-    setSubmitting(true)
-    const method = editingSubject ? "PUT" : "POST"
-    const payload = editingSubject ? { id: editingSubject.id, ...subjectForm } : subjectForm
-
-    const res = await fetch("/api/admin/subjects", {
-      method,
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    })
-    setSubmitting(false)
-    if (res.ok) {
-      setShowSubjectModal(false)
-      fetchData()
-    } else {
-      const data = await res.json()
-      alert(data.error || "Gagal menyimpan mata pelajaran")
-    }
+    openPanel(
+      <SubjectFormPanel 
+        key={`edit-subject-${s.id}`}
+        editingSubject={s} 
+        onSuccess={() => { closePanel(); fetchData(); toast.success("Data berhasil disimpan!"); }} 
+        onCancel={closePanel} 
+      />
+    )
   }
 
   async function handleDeleteSubject(id: string) {
@@ -171,36 +138,29 @@ export default function AdminQuestionsPage() {
 
   // --- CRUD CHAPTERS ---
   function openAddChapter() {
-    setEditingChapter(null)
-    setChapterForm({ name: "", subjectId: filterSubjectId || (subjects[0]?.id || ""), order: 0, theorySummary: "" })
-    setShowChapterModal(true)
+    openPanel(
+      <ChapterFormPanel 
+        key="add-chapter"
+        editingChapter={null} 
+        subjects={subjects} 
+        defaultSubjectId={filterSubjectId}
+        onSuccess={() => { closePanel(); fetchData(); toast.success("Data berhasil disimpan!"); }} 
+        onCancel={closePanel} 
+      />
+    )
   }
 
   function openEditChapter(c: Chapter) {
-    setEditingChapter(c)
-    setChapterForm({ name: c.name, subjectId: c.subjectId, order: c.order, theorySummary: c.theorySummary || "" })
-    setShowChapterModal(true)
-  }
-
-  async function handleChapterSubmit(e: React.FormEvent) {
-    e.preventDefault()
-    setSubmitting(true)
-    const method = editingChapter ? "PUT" : "POST"
-    const payload = editingChapter ? { id: editingChapter.id, ...chapterForm } : chapterForm
-
-    const res = await fetch("/api/admin/chapters", {
-      method,
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    })
-    setSubmitting(false)
-    if (res.ok) {
-      setShowChapterModal(false)
-      fetchData()
-    } else {
-      const data = await res.json()
-      alert(data.error || "Gagal menyimpan bab")
-    }
+    openPanel(
+      <ChapterFormPanel 
+        key={`edit-chapter-${c.id}`}
+        editingChapter={c} 
+        subjects={subjects} 
+        defaultSubjectId={c.subjectId}
+        onSuccess={() => { closePanel(); fetchData(); toast.success("Data berhasil disimpan!"); }} 
+        onCancel={closePanel} 
+      />
+    )
   }
 
   async function handleDeleteChapter(id: string) {
@@ -215,56 +175,29 @@ export default function AdminQuestionsPage() {
 
   // --- CRUD QUESTIONS ---
   function openAddQuestion() {
-    setEditingQuestion(null)
-    setQuestionForm({
-      chapterId: filterChapterId || (chapters[0]?.id || ""),
-      text: "",
-      imageUrl: "",
-      difficulty: 0.0,
-      type: "MULTIPLE_CHOICE",
-      options: [
-        { label: "A", text: "", isCorrect: true },
-        { label: "B", text: "", isCorrect: false },
-        { label: "C", text: "", isCorrect: false },
-        { label: "D", text: "", isCorrect: false },
-        { label: "E", text: "", isCorrect: false },
-      ]
-    })
-    setShowQuestionModal(true)
+    openPanel(
+      <QuestionFormPanel 
+        key="add-question"
+        editingQuestion={null} 
+        chapters={chapters}
+        defaultChapterId={filterChapterId}
+        onSuccess={() => { closePanel(); fetchData(); toast.success("Data berhasil disimpan!"); }} 
+        onCancel={closePanel} 
+      />
+    )
   }
 
   function openEditQuestion(q: Question) {
-    setEditingQuestion(q)
-    setQuestionForm({
-      chapterId: q.chapterId,
-      text: q.text,
-      imageUrl: q.imageUrl || "",
-      difficulty: q.difficulty,
-      type: q.type,
-      options: q.options.map(o => ({ id: o.id, label: o.label, text: o.text, isCorrect: o.isCorrect }))
-    })
-    setShowQuestionModal(true)
-  }
-
-  async function handleQuestionSubmit(e: React.FormEvent) {
-    e.preventDefault()
-    setSubmitting(true)
-    const method = editingQuestion ? "PUT" : "POST"
-    const payload = editingQuestion ? { id: editingQuestion.id, ...questionForm } : questionForm
-
-    const res = await fetch("/api/admin/questions", {
-      method,
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    })
-    setSubmitting(false)
-    if (res.ok) {
-      setShowQuestionModal(false)
-      fetchData()
-    } else {
-      const data = await res.json()
-      alert(data.error || "Gagal menyimpan soal")
-    }
+    openPanel(
+      <QuestionFormPanel 
+        key={`edit-question-${q.id}`}
+        editingQuestion={q} 
+        chapters={chapters}
+        defaultChapterId={q.chapterId}
+        onSuccess={() => { closePanel(); fetchData(); toast.success("Data berhasil disimpan!"); }} 
+        onCancel={closePanel} 
+      />
+    )
   }
 
   async function handleDeleteQuestion(id: string) {
@@ -491,229 +424,7 @@ export default function AdminQuestionsPage() {
 
         </div>
       )}
-
-      {/* --- MODAL DIALOGS --- */}
-
-      {/* 1. Subject Modal */}
-      {showSubjectModal && (
-        <div className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-          <div className="bg-white rounded-[2rem] max-w-md w-full p-6 shadow-2xl space-y-4 relative border border-slate-100">
-            <h3 className="text-xl font-bold text-slate-800">{editingSubject ? "Ubah Mata Pelajaran" : "Tambah Mata Pelajaran"}</h3>
-            <form onSubmit={handleSubjectSubmit} className="space-y-4">
-              <div>
-                <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Nama Mapel</label>
-                <input
-                  type="text"
-                  required
-                  value={subjectForm.name}
-                  onChange={e => setSubjectForm({ ...subjectForm, name: e.target.value })}
-                  className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all"
-                  placeholder="Misal: Penalaran Matematika"
-                />
-              </div>
-              <div>
-                <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Kluster Kelompok</label>
-                <select
-                  value={subjectForm.cluster}
-                  onChange={e => setSubjectForm({ ...subjectForm, cluster: e.target.value as any })}
-                  className="w-full bg-slate-50 border border-slate-200 text-slate-700 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all cursor-pointer"
-                >
-                  <option value="SAINTEK">SAINTEK</option>
-                  <option value="SOSHUM">SOSHUM</option>
-                  <option value="CAMPURAN">CAMPURAN</option>
-                </select>
-              </div>
-              <div className="flex gap-3 justify-end pt-3">
-                <button type="button" onClick={() => setShowSubjectModal(false)} className="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 rounded-xl text-slate-600 text-sm font-bold transition-all">Batal</button>
-                <button type="submit" disabled={submitting} className="px-5 py-2.5 bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white text-sm font-bold rounded-xl transition-all disabled:opacity-50">
-                  {submitting ? "Menyimpan..." : "Simpan"}
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      )}
-
-      {/* 2. Chapter Modal */}
-      {showChapterModal && (
-        <div className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-          <div className="bg-white rounded-[2rem] max-w-md w-full p-6 shadow-2xl space-y-4 relative border border-slate-100">
-            <h3 className="text-xl font-bold text-slate-800">{editingChapter ? "Ubah Bab" : "Tambah Bab Baru"}</h3>
-            <form onSubmit={handleChapterSubmit} className="space-y-4">
-              <div>
-                <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Mata Pelajaran</label>
-                <select
-                  required
-                  value={chapterForm.subjectId}
-                  onChange={e => setChapterForm({ ...chapterForm, subjectId: e.target.value })}
-                  className="w-full bg-slate-50 border border-slate-200 text-slate-700 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all cursor-pointer"
-                >
-                  <option value="">Pilih Mata Pelajaran...</option>
-                  {subjects.map(s => <option key={s.id} value={s.id}>{s.name}</option>)}
-                </select>
-              </div>
-              <div>
-                <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Nama Bab</label>
-                <input
-                  type="text"
-                  required
-                  value={chapterForm.name}
-                  onChange={e => setChapterForm({ ...chapterForm, name: e.target.value })}
-                  className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all"
-                  placeholder="Misal: Aljabar Linier"
-                />
-              </div>
-              <div>
-                <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Urutan (Order)</label>
-                <input
-                  type="number"
-                  required
-                  value={chapterForm.order}
-                  onChange={e => setChapterForm({ ...chapterForm, order: parseInt(e.target.value) || 0 })}
-                  className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all"
-                  placeholder="0"
-                />
-              </div>
-              <div>
-                <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Rangkuman Materi (Theory Summary)</label>
-                <textarea
-                  value={chapterForm.theorySummary}
-                  onChange={e => setChapterForm({ ...chapterForm, theorySummary: e.target.value })}
-                  className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-medium rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all min-h-[100px] resize-none"
-                  placeholder="Teks markdown atau LaTeX materi ringkas..."
-                />
-              </div>
-              <div className="flex gap-3 justify-end pt-3">
-                <button type="button" onClick={() => setShowChapterModal(false)} className="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 rounded-xl text-slate-600 text-sm font-bold transition-all">Batal</button>
-                <button type="submit" disabled={submitting} className="px-5 py-2.5 bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white text-sm font-bold rounded-xl transition-all disabled:opacity-50">
-                  {submitting ? "Menyimpan..." : "Simpan"}
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      )}
-
-      {/* 3. Question Modal */}
-      {showQuestionModal && (
-        <div className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-50 flex items-center justify-center p-4 overflow-y-auto">
-          <div className="bg-white rounded-[2rem] max-w-2xl w-full p-6 shadow-2xl space-y-4 my-8 relative border border-slate-100">
-            <h3 className="text-xl font-bold text-slate-800">{editingQuestion ? "Ubah Soal" : "Tambah Soal Baru"}</h3>
-            <form onSubmit={handleQuestionSubmit} className="space-y-4">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div>
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Pilih Bab</label>
-                  <select
-                    required
-                    value={questionForm.chapterId}
-                    onChange={e => setQuestionForm({ ...questionForm, chapterId: e.target.value })}
-                    className="w-full bg-slate-50 border border-slate-200 text-slate-700 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all cursor-pointer"
-                  >
-                    <option value="">Pilih Bab...</option>
-                    {chapters.map(c => <option key={c.id} value={c.id}>{c.subject.name} — {c.name}</option>)}
-                  </select>
-                </div>
-                <div>
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Kesulitan / Difficulty (b-parameter: -3 s.d +3)</label>
-                  <input
-                    type="number"
-                    step="0.01"
-                    required
-                    value={questionForm.difficulty}
-                    onChange={e => setQuestionForm({ ...questionForm, difficulty: parseFloat(e.target.value) || 0.0 })}
-                    className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Teks Soal (Markdown/LaTeX didukung)</label>
-                <textarea
-                  required
-                  value={questionForm.text}
-                  onChange={e => setQuestionForm({ ...questionForm, text: e.target.value })}
-                  className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-medium rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all min-h-[100px] resize-none"
-                  placeholder="Ketik soal di sini..."
-                />
-              </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div>
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">URL Gambar (Opsional)</label>
-                  <input
-                    type="text"
-                    value={questionForm.imageUrl}
-                    onChange={e => setQuestionForm({ ...questionForm, imageUrl: e.target.value })}
-                    className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all"
-                    placeholder="https://link-gambar.com/soal.png"
-                  />
-                </div>
-                <div>
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Tipe Soal</label>
-                  <select
-                    value={questionForm.type}
-                    onChange={e => setQuestionForm({ ...questionForm, type: e.target.value as any })}
-                    className="w-full bg-slate-50 border border-slate-200 text-slate-700 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all cursor-pointer"
-                  >
-                    <option value="MULTIPLE_CHOICE">Pilihan Ganda (Single Select)</option>
-                    <option value="MULTIPLE_SELECT">Pilihan Ganda Kompleks (Multi Select)</option>
-                    <option value="TRUE_FALSE">Benar / Salah</option>
-                  </select>
-                </div>
-              </div>
-
-              {/* OPSI JAWABAN */}
-              <div className="space-y-2.5">
-                <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1">Daftar Opsi Jawaban (Pilih Bulatan untuk Kunci Jawaban Benar)</label>
-                {questionForm.options.map((o, idx) => (
-                  <div key={idx} className="flex items-center gap-3">
-                    <input
-                      type={questionForm.type === "MULTIPLE_SELECT" ? "checkbox" : "radio"}
-                      name="correct_answer"
-                      checked={o.isCorrect}
-                      onChange={() => {
-                        if (questionForm.type === "MULTIPLE_SELECT") {
-                          const updated = [...questionForm.options]
-                          updated[idx].isCorrect = !updated[idx].isCorrect
-                          setQuestionForm({ ...questionForm, options: updated })
-                        } else {
-                          const updated = questionForm.options.map((opt, j) => ({
-                            ...opt,
-                            isCorrect: j === idx
-                          }))
-                          setQuestionForm({ ...questionForm, options: updated })
-                        }
-                      }}
-                      className="accent-[var(--accent)] w-4 h-4 cursor-pointer"
-                    />
-                    <span className="font-bold text-slate-500 text-sm w-4">{o.label}</span>
-                    <input
-                      type="text"
-                      required
-                      value={o.text}
-                      onChange={e => {
-                        const updated = [...questionForm.options]
-                        updated[idx].text = e.target.value
-                        setQuestionForm({ ...questionForm, options: updated })
-                      }}
-                      className="flex-1 bg-slate-50 border border-slate-200 text-slate-800 text-sm font-medium rounded-xl px-3 py-2 outline-none focus:border-[var(--accent)] focus:bg-white transition-all"
-                      placeholder={`Opsi ${o.label}`}
-                    />
-                  </div>
-                ))}
-              </div>
-
-              <div className="flex gap-3 justify-end pt-3">
-                <button type="button" onClick={() => setShowQuestionModal(false)} className="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 rounded-xl text-slate-600 text-sm font-bold transition-all">Batal</button>
-                <button type="submit" disabled={submitting} className="px-5 py-2.5 bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white text-sm font-bold rounded-xl transition-all disabled:opacity-50">
-                  {submitting ? "Menyimpan..." : "Simpan"}
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      )}
-
+      {/* Modals removed in favor of Sliding Panels */}
     </div>
   )
 }

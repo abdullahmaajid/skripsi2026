@@ -130,22 +130,61 @@ function TutorContent({ attemptIdParam }: { attemptIdParam?: string }) {
       difficulty: q.difficulty,
       options: q.options,
       selectedIds: q.selectedIds,
+      isReview: true
     })
   }
 
   // --- No question selected: show grid ---
   if (!selectedQuestion) {
     return (
-      <motion.div variants={stagger} initial="hidden" animate="show" className="h-full flex flex-col p-6 md:p-8 overflow-y-auto no-scrollbar">
-        <motion.div variants={fadeUp} className="flex items-center gap-3 mb-2">
-          <div className="w-10 h-10 rounded-xl bg-[var(--accent-secondary)]/10 flex items-center justify-center border border-[var(--accent-secondary)]/20 shadow-sm">
-            <Bot className="w-5 h-5 text-[var(--accent-secondary)]" />
-          </div>
-          <h1 className="text-2xl font-semibold text-slate-800 tracking-tight">Bahas Soal Luar</h1>
-        </motion.div>
-        <motion.p variants={fadeUp} className="text-slate-500 mb-8 max-w-lg font-medium">
-          Pilih salah satu soal salah di bawah untuk dibahas, atau ketik langsung soal eksternal (buku cetak, bimbel lain, TO sekolah) di panel AI Chat sebelah kanan.
-        </motion.p>
+      <motion.div variants={stagger} initial="hidden" animate="show" className="h-full flex flex-col p-6 md:p-8 overflow-y-auto no-scrollbar relative w-full">
+        <div className="max-w-5xl mx-auto w-full">
+          <motion.div variants={fadeUp} className="mb-8">
+            <div className="mb-6">
+              <h1 className="text-3xl font-bold text-slate-800">Ruang Tutor AI</h1>
+              <p className="text-slate-500 mt-2 text-sm">
+                Ketik/Paste soal dari sekolah atau bimbel lain di kolom chat AI, atau pilih salah satu Arsip Soal Lexica di bawah untuk kita bahas kembali!
+              </p>
+            </div>
+            
+            {/* Banner Section */}
+            <div className="bg-gradient-to-br from-[var(--pastel-purple)] to-white border border-[var(--accent)]/20 rounded-3xl p-6 md:p-8 shadow-sm relative overflow-hidden">
+              <div className="absolute top-0 right-0 p-8 opacity-[0.03] pointer-events-none">
+                <Bot className="w-48 h-48" />
+              </div>
+              
+              <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
+                <div>
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-[var(--accent)]/10 text-[var(--accent-dark)] text-xs font-bold rounded-full uppercase tracking-wider mb-3">
+                    <Bot className="w-3.5 h-3.5" /> Asisten Pintar
+                  </span>
+                  <h2 className="text-xl md:text-2xl font-bold text-slate-800">
+                    Tanya Lexica AI
+                  </h2>
+                  <p className="text-slate-500 font-medium mt-1 text-sm md:text-base">AI Tutor siap membantumu memahami materi dan membedah soal yang sulit.</p>
+                </div>
+                
+                <div className="flex gap-4">
+                  <div className="bg-white/60 border border-[var(--accent)]/10 p-4 rounded-2xl text-center min-w-[120px] shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
+                    <p className="text-[10px] uppercase font-bold text-slate-500 mb-1">Total Arsip</p>
+                    <p className="text-2xl font-black text-slate-800">{questions.length}</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-6 bg-white/60 rounded-2xl p-4 md:p-5 border border-[var(--accent)]/10">
+                <div className="flex items-start gap-3">
+                  <div className="shrink-0 mt-0.5">
+                    <Bot className="w-5 h-5 text-[var(--accent)]" />
+                  </div>
+                  <div className="text-slate-600 space-y-1 text-sm leading-relaxed">
+                    <strong className="text-slate-800 block mb-1">Cara Menggunakan</strong>
+                    <p>Ketik langsung pertanyaanmu di panel chat kanan, atau klik salah satu soal dari riwayat tryout-mu di bawah ini untuk dibahas secara mendalam bersama Lexica.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
         
         {loadingQuestions ? (
           <div className="flex-1 flex items-center justify-center">
@@ -185,167 +224,240 @@ function TutorContent({ attemptIdParam }: { attemptIdParam?: string }) {
                 </button>
               ))}
             </motion.div>
-            <motion.div variants={stagger} className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+            <motion.div variants={stagger} className="flex flex-col gap-6 w-full max-w-4xl relative ml-1 sm:ml-4">
+              {/* Timeline Track */}
+              <div className="absolute left-2 sm:left-3 top-8 bottom-8 w-0.5 bg-slate-100"></div>
+
               {questions
                 .filter((q) => !selectedSubjectFilter || q.subject === selectedSubjectFilter)
                 .map((q, index) => {
-              const colorConfig = subjectColors[q.subject] || subjectColors.default
-              return (
-                <motion.button
-                  variants={fadeUp}
-                  key={q.questionId}
-                  onClick={() => handleSelectQuestion(q)}
-                  className={`w-full flex flex-col text-left p-5 border ${colorConfig.border} ${colorConfig.shadow} ${colorConfig.cardBg} ${colorConfig.cardHover} rounded-[1.5rem] transition-all hover:shadow-md hover:-translate-y-0.5 group`}
-                >
-                  <div className="flex items-center justify-between mb-3 w-full">
-                    <div className="flex items-center gap-2 flex-wrap">
-                      <span className={`text-[10px] px-2.5 py-0.5 rounded-full font-semibold tracking-wide ${colorConfig.tagBg} ${colorConfig.tagText}`}>
-                        {q.subject}
-                      </span>
-                      <span className="text-[10px] text-slate-400 font-mono bg-slate-50 border border-slate-100 px-1.5 py-0.5 rounded-md">b={q.difficulty}</span>
+                const colorConfig = subjectColors[q.subject] || subjectColors.default
+                return (
+                  <motion.div variants={fadeUp} key={q.questionId} className="relative group w-full flex items-center">
+                    {/* Timeline Node */}
+                    <div className="absolute left-[1px] sm:left-[5px] top-1/2 -translate-y-1/2 w-4 h-4 rounded-full border-[3px] border-white bg-slate-300 shadow-sm z-10 transition-all duration-300 group-hover:bg-[var(--accent)] group-hover:scale-125"></div>
+
+                    <div className="w-full pl-8 sm:pl-12">
+                      <button
+                        onClick={() => handleSelectQuestion(q)}
+                        className="w-full flex flex-col sm:flex-row sm:items-center text-left p-4 sm:p-5 border transition-all duration-300 rounded-[1.25rem] relative overflow-hidden bg-white hover:bg-slate-50 border-slate-200 hover:border-[var(--accent)]/30 hover:shadow-md hover:-translate-y-0.5"
+                      >
+                        <div className={`w-1.5 h-full absolute left-0 top-0 ${colorConfig.tagBg} transition-colors group-hover:bg-[var(--accent)]`}></div>
+                        
+                        <div className="flex items-center justify-center w-12 h-12 rounded-2xl bg-white border border-slate-100 shrink-0 mr-4 md:mr-5 hidden sm:flex group-hover:scale-110 group-hover:bg-[var(--accent)] group-hover:border-[var(--accent)] transition-all duration-300 shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
+                          <BookOpen className="w-5 h-5 text-slate-400 group-hover:text-white transition-colors duration-300" />
+                        </div>
+
+                        <div className="flex-1 min-w-0 pr-4">
+                          <div className="flex flex-wrap items-center gap-2 mb-2">
+                            <span className={`text-[9px] px-2.5 py-0.5 rounded-md font-bold tracking-wider uppercase ${colorConfig.tagBg} ${colorConfig.tagText} border border-white group-hover:border-[var(--accent)]/10 transition-colors`}>
+                              {q.subject}
+                            </span>
+                            {q.isCorrect === false && (
+                              <span className="text-[9px] px-2.5 py-0.5 rounded-md font-bold tracking-wider uppercase bg-rose-50 text-rose-600 border border-rose-100">
+                                Pernah Salah
+                              </span>
+                            )}
+                            {q.difficulty >= 4 && (
+                              <span className="text-[9px] px-2.5 py-0.5 rounded-md font-bold tracking-wider uppercase bg-orange-50 text-orange-600 border border-orange-100 flex items-center gap-1.5">
+                                <span className="w-1.5 h-1.5 rounded-full bg-orange-500 animate-pulse"></span> HOTS
+                              </span>
+                            )}
+                          </div>
+                          <p className="text-sm md:text-[15px] text-slate-700 line-clamp-1 sm:line-clamp-2 group-hover:text-slate-900 transition-colors font-medium leading-relaxed">
+                            {q.text || "Teks soal tidak tersedia"}
+                          </p>
+                        </div>
+
+                        <div className="shrink-0 mt-3 sm:mt-0 flex items-center justify-end">
+                          <div className="flex items-center justify-center px-4 py-2 rounded-xl font-bold text-sm bg-slate-100 text-slate-500 group-hover:bg-[var(--accent)] group-hover:text-white transition-all duration-300 gap-1.5">
+                            Bahas <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="group-hover:translate-x-0.5 transition-transform"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                          </div>
+                        </div>
+                      </button>
                     </div>
-                    {q.isCorrect === false && (
-                      <span className="text-[10px] bg-rose-50 text-rose-500 px-2 py-0.5 rounded-md font-bold tracking-wider uppercase border border-rose-100">Salah</span>
-                    )}
-                  </div>
-                  <div className="flex-1 min-h-0 min-w-0">
-                    <p className="text-sm text-slate-600 line-clamp-4 group-hover:text-slate-900 transition-colors leading-relaxed font-medium">{q.text || "Teks soal tidak tersedia"}</p>
-                  </div>
-                </motion.button>
-              )
+                  </motion.div>
+                )
               })}
             </motion.div>
           </>
         )}
+        </div>
       </motion.div>
     )
   }
 
+  const filteredQs = questions.filter(
+    (q) => !selectedSubjectFilter || q.subject === selectedSubjectFilter
+  )
+  const currentIndex = filteredQs.findIndex(q => q.questionId === selectedQuestion.questionId)
+  const prevQ = currentIndex > 0 ? filteredQs[currentIndex - 1] : null
+  const nextQ = currentIndex !== -1 && currentIndex < filteredQs.length - 1 ? filteredQs[currentIndex + 1] : null
+
   return (
     <motion.div variants={stagger} initial="hidden" animate="show" className="h-full flex flex-col bg-white rounded-[2rem] relative overflow-hidden">
-      
-      {/* ─── Top Solid Purple Section ─── */}
-      <motion.div variants={fadeUp} className="bg-[var(--accent)] text-white px-6 py-8 md:px-8 pb-16 relative shrink-0">
-        {/* Glow effect */}
+         {/* ─── Top Purple Section ─── */}
+      <motion.div variants={fadeUp} className="bg-[var(--accent)] text-white px-8 py-8 md:px-10 md:py-10 relative shrink-0 z-10 shadow-lg">
         <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -mr-20 -mt-20"></div>
-        <div className="absolute bottom-0 left-0 w-40 h-40 bg-white/10 rounded-full blur-3xl -ml-10 -mb-10"></div>
+        <div className="absolute bottom-0 left-0 w-32 h-32 bg-white/10 rounded-full blur-2xl -ml-10 -mb-10"></div>
         
-        {/* Top Header */}
-        <div className="flex items-center justify-between mb-8 relative z-10">
-          <button onClick={clearQuestion} className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center hover:bg-white/30 transition-colors backdrop-blur-sm shadow-sm">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+        <div className="flex items-start gap-5 relative z-10">
+          <button onClick={clearQuestion} className="shrink-0 mt-0.5 w-10 h-10 rounded-full bg-white/20 flex items-center justify-center hover:bg-white/30 transition-all backdrop-blur-sm shadow-sm group">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="group-hover:-translate-x-1 transition-transform"><path d="m15 18-6-6 6-6"/></svg>
           </button>
-          <span className="text-sm font-semibold tracking-wider uppercase text-white/90">Konteks Soal</span>
-          <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center backdrop-blur-sm shadow-sm cursor-pointer hover:bg-white/30 transition-colors">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"/><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"/></svg>
-          </div>
-        </div>
-
-        {/* Center Content */}
-        <div className="flex flex-col items-center text-center relative z-10 max-w-2xl mx-auto mb-2">
-          {/* Icon placeholder like reference */}
-          <div className="w-24 h-24 rounded-full bg-white/10 backdrop-blur-md mb-6 flex items-center justify-center shadow-lg border border-white/20 p-4">
-             <BookOpen className="w-10 h-10 text-white" />
-          </div>
-          
-          <div className="flex items-center gap-2 mb-4">
-            <span className="text-[10px] font-bold tracking-wider px-3.5 py-1.5 bg-[var(--accent-dark)] rounded-full text-white shadow-sm">
-              {selectedQuestion.subject}
-            </span>
-            <span className="text-[10px] font-mono px-3.5 py-1.5 bg-white/20 rounded-full shadow-sm text-white">b = {selectedQuestion.difficulty}</span>
-          </div>
-          <div className="text-lg md:text-xl font-medium leading-relaxed px-4 w-full">
-            <MarkdownRenderer content={selectedQuestion.text} variant="dark" />
+          <div className="flex-1 min-w-0">
+            <div className="flex items-center gap-2 mb-4">
+              <span className="text-[10px] font-bold tracking-widest uppercase bg-white/20 px-3 py-1.5 rounded-full shadow-sm">
+                {selectedQuestion.subject}
+              </span>
+            </div>
+            <div className="text-lg md:text-xl font-medium leading-relaxed max-h-48 overflow-y-auto no-scrollbar">
+              <MarkdownRenderer content={selectedQuestion.text} variant="dark" />
+            </div>
           </div>
         </div>
       </motion.div>
 
-      {/* ─── Bottom White Section (Overlapping) ─── */}
-      <motion.div variants={scaleIn} className="flex-1 bg-white rounded-t-[2.5rem] -mt-8 p-6 md:p-8 relative z-20 flex flex-col shadow-[0_-10px_40px_rgba(0,0,0,0.08)] overflow-y-auto no-scrollbar pb-10">
-        
-        {/* All Options — highlighted by role */}
-        <div className="mb-8">
-          <p className="text-[10px] uppercase tracking-widest text-slate-400 font-bold mb-3 flex items-center gap-1.5">
-            <span className="w-1.5 h-1.5 rounded-full bg-slate-400"></span> Pilihan Jawaban
-          </p>
-          <div className="flex flex-col gap-2.5">
-            {(selectedQuestion.options ?? []).length === 0 ? (
-              /* fallback: no options stored — show the two-card layout */
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                <div className="p-4 bg-[hsl(340,90%,96%)] rounded-[1.25rem] border border-[hsl(340,80%,88%)]">
-                  <p className="text-[10px] uppercase tracking-widest text-[hsl(340,80%,50%)] font-bold mb-1">Jawabanmu</p>
-                  <p className="text-sm text-slate-700 font-medium">{selectedQuestion.selectedAnswer}</p>
-                </div>
-                <div className="p-4 bg-[hsl(150,90%,96%)] rounded-[1.25rem] border border-[hsl(150,80%,78%)]">
-                  <p className="text-[10px] uppercase tracking-widest text-[hsl(150,80%,40%)] font-bold mb-1">Jawaban Benar</p>
-                  <p className="text-sm text-slate-700 font-medium">{selectedQuestion.correctAnswer}</p>
-                </div>
+      {/* ─── Options Section ─── */}
+      <motion.div variants={scaleIn} className="flex-1 bg-slate-50/50 p-6 overflow-y-auto no-scrollbar">
+        <p className="text-[10px] uppercase tracking-widest text-slate-400 font-bold mb-4 flex items-center gap-1.5">
+          <span className="w-1.5 h-1.5 rounded-full bg-slate-400"></span> Pilihan Jawaban
+        </p>
+        <div className="flex flex-col gap-2">
+          {(selectedQuestion.options ?? []).length === 0 ? (
+            /* fallback */
+            <div className="grid grid-cols-1 gap-2">
+              <div className="p-3 bg-rose-50 rounded-xl border border-rose-100">
+                <p className="text-[10px] uppercase tracking-widest text-rose-500 font-bold mb-1">Jawabanmu</p>
+                <p className="text-sm text-slate-700 font-medium">{selectedQuestion.selectedAnswer}</p>
               </div>
-            ) : (
-              selectedQuestion.options.map((opt) => {
-                const isSelected = selectedQuestion.selectedIds.includes(opt.id)
-                const isCorrect  = opt.isCorrect
+              <div className="p-3 bg-emerald-50 rounded-xl border border-emerald-100">
+                <p className="text-[10px] uppercase tracking-widest text-emerald-600 font-bold mb-1">Jawaban Benar</p>
+                <p className="text-sm text-slate-700 font-medium">{selectedQuestion.correctAnswer}</p>
+              </div>
+            </div>
+          ) : (
+            selectedQuestion.options.map((opt) => {
+              const isSelected = selectedQuestion.selectedIds.includes(opt.id)
+              const isCorrect  = opt.isCorrect
 
-                let containerCls = "p-4 rounded-[1.25rem] border flex items-start gap-3 transition-all "
-                let labelCls     = "w-7 h-7 rounded-xl shrink-0 flex items-center justify-center text-xs font-bold border "
-                let statusTag: React.ReactNode = null
+              let containerCls = "p-4 md:p-5 rounded-[1.25rem] border flex items-start gap-4 transition-all duration-300 bg-white hover:bg-slate-50 border-slate-200 hover:border-[var(--accent)]/30 hover:shadow-sm"
+              let labelCls     = "w-10 h-10 md:w-11 md:h-11 rounded-[0.85rem] shrink-0 flex items-center justify-center text-base md:text-lg font-bold border transition-colors duration-300 "
+              let textCls      = "text-[15px] md:text-base text-slate-600 font-medium leading-relaxed flex-1 mt-1"
+              let statusTag: React.ReactNode = null
 
-                if (isCorrect && isSelected) {
-                  // Correct & picked — green
-                  containerCls += "bg-[hsl(150,90%,96%)] border-[hsl(150,80%,78%)]"
-                  labelCls     += "bg-[hsl(150,75%,45%)] text-white border-[hsl(150,75%,40%)]"
-                  statusTag = <span className="text-[10px] ml-auto shrink-0 font-bold text-[hsl(150,75%,40%)] bg-[hsl(150,90%,90%)] px-2 py-0.5 rounded-full">Benar</span>
-                } else if (isCorrect && !isSelected) {
-                  // Correct but NOT picked — green outline
-                  containerCls += "bg-[hsl(150,90%,96%)] border-[hsl(150,80%,78%)]"
-                  labelCls     += "bg-[hsl(150,75%,45%)] text-white border-[hsl(150,75%,40%)]"
-                  statusTag = <span className="text-[10px] ml-auto shrink-0 font-bold text-[hsl(150,75%,40%)] bg-[hsl(150,90%,90%)] px-2 py-0.5 rounded-full">Jawaban Benar</span>
-                } else if (!isCorrect && isSelected) {
-                  // Wrong & picked — red
-                  containerCls += "bg-[hsl(340,90%,96%)] border-[hsl(340,80%,85%)]"
-                  labelCls     += "bg-[hsl(340,75%,55%)] text-white border-[hsl(340,75%,50%)]"
-                  statusTag = <span className="text-[10px] ml-auto shrink-0 font-bold text-[hsl(340,75%,50%)] bg-[hsl(340,90%,92%)] px-2 py-0.5 rounded-full">Jawabanmu</span>
-                } else {
-                  // Neutral
-                  containerCls += "bg-slate-50 border-slate-100"
-                  labelCls     += "bg-slate-100 text-slate-500 border-slate-200"
-                }
-
-                return (
-                  <div key={opt.id} className={containerCls}>
-                    <span className={labelCls}>{opt.label}</span>
-                    <div className="text-sm text-slate-700 font-medium leading-relaxed flex-1">
-                      <MarkdownRenderer content={opt.text} />
-                    </div>
-                    {statusTag}
+              if (isCorrect) {
+                containerCls = "p-4 md:p-5 rounded-[1.25rem] border flex items-start gap-4 transition-all duration-300 bg-emerald-50/40 border-emerald-300 shadow-[0_4px_20px_rgba(16,185,129,0.12)] relative overflow-hidden"
+                labelCls = "w-10 h-10 md:w-11 md:h-11 rounded-[0.85rem] shrink-0 flex items-center justify-center text-base md:text-lg font-bold border bg-gradient-to-br from-emerald-400 to-emerald-600 text-white border-emerald-600 shadow-md"
+                textCls  = "text-[15px] md:text-base text-slate-800 font-semibold leading-relaxed flex-1 mt-1"
+                statusTag = (
+                  <div className="absolute top-0 right-0 -mr-6 -mt-2">
+                    <span className="text-[10px] font-black text-emerald-700 bg-emerald-200/80 backdrop-blur-sm px-8 py-1.5 shadow-sm uppercase tracking-widest transform rotate-45 block origin-bottom-left">
+                      Tepat
+                    </span>
                   </div>
                 )
-              })
-            )}
-          </div>
+              } else if (isSelected) {
+                containerCls = "p-4 md:p-5 rounded-[1.25rem] border flex items-start gap-4 transition-all duration-300 bg-rose-50/50 border-rose-200 shadow-sm opacity-90"
+                labelCls = "w-10 h-10 md:w-11 md:h-11 rounded-[0.85rem] shrink-0 flex items-center justify-center text-base md:text-lg font-bold border bg-rose-500 text-white border-rose-600 shadow-sm"
+                textCls  = "text-[15px] md:text-base text-rose-900 font-semibold leading-relaxed flex-1 mt-1"
+                statusTag = <span className="text-[10px] ml-auto shrink-0 mt-2 font-bold text-rose-600 bg-rose-100/80 px-3 py-1.5 rounded-full uppercase tracking-wider shadow-sm border border-rose-200/50">Jawabanmu</span>
+              } else {
+                labelCls += "bg-slate-50 text-slate-500 border-slate-200 group-hover:bg-slate-100 group-hover:text-slate-700 group-hover:border-slate-300"
+              }
+
+              return (
+                <div key={opt.id} className={`${containerCls} group`}>
+                  <span className={labelCls}>{opt.label}</span>
+                  <div className={textCls}>
+                    <MarkdownRenderer content={opt.text} />
+                  </div>
+                  {statusTag}
+                </div>
+              )
+            })
+          )}
         </div>
 
-        {/* Soal Lainnya (List format like reference "Lessons") */}
-        <div>
-          <h3 className="text-sm font-semibold text-slate-800 mb-4">Soal Lainnya</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
-            {questions.filter(q => q.questionId !== selectedQuestion.questionId).slice(0, 6).map((q, idx) => {
-              const cc = subjectColors[q.subject] || subjectColors.default
-              return (
-                <motion.button variants={fadeUp} key={q.questionId} onClick={() => handleSelectQuestion(q)} className="flex items-center gap-4 p-4 rounded-[1.5rem] border border-slate-100 bg-slate-50 hover:bg-slate-100 transition-colors text-left group">
-                  <div className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 ${cc.cardBg} ${cc.tagText}`}>
-                     <BookOpen className="w-4 h-4" />
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-slate-800 truncate mb-0.5">{q.subject}</p>
-                    <div className="text-xs text-slate-500 truncate"><MarkdownRenderer content={q.text} /></div>
-                  </div>
-                  <div className="w-6 h-6 rounded-full bg-white flex items-center justify-center group-hover:bg-[var(--accent)] transition-colors shadow-sm">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-slate-400 group-hover:text-white"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
-                </motion.button>
-              )
-            })}
+        {/* ─── Bottom Navigation Hub ─── */}
+        <div className="mt-10 pt-8 border-t border-slate-100 flex flex-col gap-8">
+          
+          {/* Next / Prev Buttons */}
+          <div className="flex items-center justify-between gap-4">
+            <button
+              onClick={() => prevQ && handleSelectQuestion(prevQ)}
+              disabled={!prevQ}
+              className={`flex-1 py-4 px-5 rounded-[1.25rem] font-bold text-sm flex items-center justify-center gap-3 transition-all ${
+                prevQ ? "bg-slate-100 text-slate-700 hover:bg-slate-200" : "bg-slate-50 text-slate-300 cursor-not-allowed"
+              }`}
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+              Sebelumnya
+            </button>
+            <button
+              onClick={() => nextQ && handleSelectQuestion(nextQ)}
+              disabled={!nextQ}
+              className={`flex-1 py-4 px-5 rounded-[1.25rem] font-bold text-sm flex items-center justify-center gap-3 transition-all ${
+                nextQ ? "bg-[var(--accent)] text-white hover:bg-[var(--accent-hover)] shadow-md hover:shadow-lg hover:-translate-y-0.5" : "bg-slate-50 text-slate-300 cursor-not-allowed"
+              }`}
+            >
+              Selanjutnya
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+            </button>
+          </div>
+
+          {/* Subject Filter & Snippets */}
+          <div>
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-5">
+              <h3 className="text-base font-bold text-slate-800 flex items-center gap-2">
+                <div className="w-2 h-2 rounded-full bg-[var(--accent)]"></div>
+                Daftar Soal
+              </h3>
+              <select 
+                value={selectedSubjectFilter || "ALL"}
+                onChange={(e) => {
+                  const val = e.target.value === "ALL" ? null : e.target.value
+                  setSelectedSubjectFilter(val)
+                }}
+                className="bg-slate-50 border border-slate-200 text-slate-700 text-xs font-semibold rounded-xl px-4 py-2.5 outline-none focus:border-[var(--accent)] transition-colors cursor-pointer hover:bg-slate-100"
+              >
+                <option value="ALL">Semua Kategori</option>
+                {Array.from(new Set(questions.map((q) => q.subject))).map(subj => (
+                  <option key={subj} value={subj}>{subj}</option>
+                ))}
+              </select>
+            </div>
+            
+            <div className="flex flex-col gap-3 max-h-[360px] overflow-y-auto no-scrollbar pr-2 pb-4">
+              {filteredQs.map((q, idx) => {
+                const isCurrent = q.questionId === selectedQuestion.questionId;
+                const colorConfig = subjectColors[q.subject] || subjectColors.default;
+                return (
+                  <button
+                    key={q.questionId}
+                    onClick={() => handleSelectQuestion(q)}
+                    className={`w-full shrink-0 flex flex-col text-left p-4 border transition-all rounded-[1.25rem] group relative overflow-hidden ${
+                      isCurrent 
+                        ? `bg-[var(--accent)]/5 ${colorConfig.border} shadow-sm ring-1 ring-[var(--accent)]` 
+                        : "bg-white border-slate-200 hover:border-slate-300 hover:shadow-sm"
+                    }`}
+                  >
+                    <div className={`w-1.5 h-full absolute left-0 top-0 ${isCurrent ? colorConfig.tagBg : 'bg-slate-200 group-hover:bg-slate-300'} transition-colors`}></div>
+                    
+                    <div className="pl-3">
+                      <div className="flex items-center gap-2 mb-1.5">
+                        <span className={`text-[9px] px-2.5 py-0.5 rounded-md font-bold tracking-wider uppercase ${isCurrent ? colorConfig.tagBg + ' ' + colorConfig.tagText : 'bg-slate-100 text-slate-500'}`}>
+                          {q.subject}
+                        </span>
+                      </div>
+                      <p className={`text-sm line-clamp-2 transition-colors font-medium leading-relaxed ${isCurrent ? 'text-slate-900' : 'text-slate-600 group-hover:text-slate-900'}`}>
+                        {q.text || "Teks soal tidak tersedia"}
+                      </p>
+                    </div>
+                  </button>
+                )
+              })}
+            </div>
           </div>
         </div>
 

@@ -19,7 +19,7 @@ export async function GET() {
   try {
     const questions = await prisma.question.findMany({
       include: { options: true, chapter: { include: { subject: true } } },
-      orderBy: { chapter: { subject: { name: "asc" } } },
+      orderBy: { id: "desc" },
     })
     return NextResponse.json({ data: questions })
   } catch (error) {

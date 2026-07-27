@@ -3,6 +3,9 @@
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
 import { ArrowLeft, Plus, Edit2, Trash2, Loader2, GraduationCap, BookOpen, Search } from "lucide-react"
+import { useAdminPanelStore } from "@/store/useAdminPanelStore"
+import { UniFormPanel, MajorFormPanel } from "./components"
+import toast from "react-hot-toast"
 
 interface University {
   id: string
@@ -41,34 +44,10 @@ export default function AdminScraperPage() {
   // Search & Filter
   const [searchQuery, setSearchQuery] = useState("")
   const [filterUniId, setFilterUniId] = useState("")
+  const [filterLocation, setFilterLocation] = useState("")
 
-  // Form Modals
-  const [showUniModal, setShowUniModal] = useState(false)
-  const [editingUni, setEditingUni] = useState<University | null>(null)
-  const [uniForm, setUniForm] = useState({
-    name: "",
-    code: "",
-    location: "",
-    type: "NEGERI" as "NEGERI" | "SWASTA",
-    logoUrl: ""
-  })
-
-  const [showMajorModal, setShowMajorModal] = useState(false)
-  const [editingMajor, setEditingMajor] = useState<Major | null>(null)
-  const [majorForm, setMajorForm] = useState({
-    name: "",
-    code: "",
-    universityId: "",
-    faculty: "",
-    degree: "S1" as "S1" | "D3" | "D4",
-    quota: 0,
-    applicants: 0,
-    estimatedScore: 600,
-    cluster: "SAINTEK" as "SAINTEK" | "SOSHUM" | "CAMPURAN",
-    year: 2025
-  })
-
-  const [submitting, setSubmitting] = useState(false)
+  const openPanel = useAdminPanelStore(s => s.openPanel)
+  const closePanel = useAdminPanelStore(s => s.closePanel)
 
   useEffect(() => {
     fetchData()
@@ -100,36 +79,25 @@ export default function AdminScraperPage() {
 
   // --- PTN CRUD ---
   function openAddUni() {
-    setEditingUni(null)
-    setUniForm({ name: "", code: "", location: "", type: "NEGERI", logoUrl: "" })
-    setShowUniModal(true)
+    openPanel(
+      <UniFormPanel 
+        key="add-uni"
+        editingUni={null} 
+        onSuccess={() => { closePanel(); fetchData(); toast.success("Data berhasil disimpan!"); }} 
+        onCancel={closePanel} 
+      />
+    )
   }
 
   function openEditUni(u: University) {
-    setEditingUni(u)
-    setUniForm({ name: u.name, code: u.code, location: u.location, type: u.type, logoUrl: u.logoUrl || "" })
-    setShowUniModal(true)
-  }
-
-  async function handleUniSubmit(e: React.FormEvent) {
-    e.preventDefault()
-    setSubmitting(true)
-    const method = editingUni ? "PUT" : "POST"
-    const payload = editingUni ? { id: editingUni.id, ...uniForm } : uniForm
-
-    const res = await fetch("/api/admin/universities", {
-      method,
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    })
-    setSubmitting(false)
-    if (res.ok) {
-      setShowUniModal(false)
-      fetchData()
-    } else {
-      const data = await res.json()
-      alert(data.error || "Gagal menyimpan universitas")
-    }
+    openPanel(
+      <UniFormPanel 
+        key={`edit-uni-${u.id}`}
+        editingUni={u} 
+        onSuccess={() => { closePanel(); fetchData(); toast.success("Data berhasil disimpan!"); }} 
+        onCancel={closePanel} 
+      />
+    )
   }
 
   async function handleDeleteUni(id: string) {
@@ -144,58 +112,29 @@ export default function AdminScraperPage() {
 
   // --- PRODI CRUD ---
   function openAddMajor() {
-    setEditingMajor(null)
-    setMajorForm({
-      name: "",
-      code: "",
-      universityId: filterUniId || (universities[0]?.id || ""),
-      faculty: "",
-      degree: "S1",
-      quota: 0,
-      applicants: 0,
-      estimatedScore: 600,
-      cluster: "SAINTEK",
-      year: 2025
-    })
-    setShowMajorModal(true)
+    openPanel(
+      <MajorFormPanel 
+        key="add-major"
+        editingMajor={null} 
+        universities={universities} 
+        defaultUniversityId={filterUniId} 
+        onSuccess={() => { closePanel(); fetchData(); toast.success("Data berhasil disimpan!"); }} 
+        onCancel={closePanel} 
+      />
+    )
   }
 
   function openEditMajor(m: Major) {
-    setEditingMajor(m)
-    setMajorForm({
-      name: m.name,
-      code: m.code,
-      universityId: m.universityId,
-      faculty: m.faculty,
-      degree: m.degree,
-      quota: m.quota,
-      applicants: m.applicants,
-      estimatedScore: m.estimatedScore,
-      cluster: m.cluster,
-      year: m.year
-    })
-    setShowMajorModal(true)
-  }
-
-  async function handleMajorSubmit(e: React.FormEvent) {
-    e.preventDefault()
-    setSubmitting(true)
-    const method = editingMajor ? "PUT" : "POST"
-    const payload = editingMajor ? { id: editingMajor.id, ...majorForm } : majorForm
-
-    const res = await fetch("/api/admin/majors", {
-      method,
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    })
-    setSubmitting(false)
-    if (res.ok) {
-      setShowMajorModal(false)
-      fetchData()
-    } else {
-      const data = await res.json()
-      alert(data.error || "Gagal menyimpan prodi")
-    }
+    openPanel(
+      <MajorFormPanel 
+        key={`edit-major-${m.id}`}
+        editingMajor={m} 
+        universities={universities} 
+        defaultUniversityId={m.universityId} 
+        onSuccess={() => { closePanel(); fetchData(); toast.success("Data berhasil disimpan!"); }} 
+        onCancel={closePanel} 
+      />
+    )
   }
 
   async function handleDeleteMajor(id: string) {
@@ -209,8 +148,12 @@ export default function AdminScraperPage() {
   }
 
   // Filtering lists
+  const uniqueLocations = Array.from(new Set(universities.map(u => u.location))).sort()
+  
   const filteredUnis = universities.filter(u => {
-    return u.name.toLowerCase().includes(searchQuery.toLowerCase()) || u.code.includes(searchQuery)
+    const matchSearch = u.name.toLowerCase().includes(searchQuery.toLowerCase()) || u.code.includes(searchQuery)
+    const matchLoc = filterLocation ? u.location === filterLocation : true
+    return matchSearch && matchLoc
   })
 
   const filteredMajors = majors.filter(m => {
@@ -230,7 +173,7 @@ export default function AdminScraperPage() {
       {/* Tabs */}
       <div className="flex border-b border-slate-100 gap-1.5">
         <button
-          onClick={() => { setActiveTab("universities"); setSearchQuery("") }}
+          onClick={() => { setActiveTab("universities"); setSearchQuery(""); setFilterLocation("") }}
           className={`px-5 py-3 text-sm font-semibold border-b-2 transition-all inline-flex items-center gap-2 ${activeTab === "universities" ? "border-[var(--accent)] text-[var(--accent-dark)]" : "border-transparent text-slate-400 hover:text-slate-600"}`}
         >
           <GraduationCap className="w-4 h-4" /> Daftar Universitas
@@ -245,21 +188,30 @@ export default function AdminScraperPage() {
 
       {/* Actions & Filters */}
       <div className="flex flex-col sm:flex-row justify-between gap-4">
-        <div className="flex flex-1 gap-4">
-          <div className="relative flex-1 max-w-md">
+        <div className="flex flex-1 gap-4 items-center w-full max-w-4xl">
+          <div className="relative flex-1">
             <input
               type="text"
               placeholder={activeTab === "universities" ? "Cari universitas atau kode..." : "Cari prodi atau kode..."}
               value={searchQuery}
               onChange={e => setSearchQuery(e.target.value)}
-              className="w-full bg-white border border-slate-200 text-slate-800 text-sm rounded-xl pl-10 pr-4 py-2.5 outline-none focus:border-[var(--accent)]"
+              className="w-full bg-white border border-slate-200 text-slate-800 text-sm rounded-xl pl-10 pr-4 py-2.5 outline-none focus:border-[var(--accent)] shadow-sm"
             />
             <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
           </div>
 
+          {activeTab === "universities" && (
+            <div className="w-48 shrink-0">
+              <select value={filterLocation} onChange={e => setFilterLocation(e.target.value)} className="w-full bg-white border border-slate-200 text-slate-700 text-sm rounded-xl px-3 py-2.5 outline-none cursor-pointer shadow-sm">
+                <option value="">Semua Lokasi</option>
+                {uniqueLocations.map(loc => <option key={loc} value={loc}>{loc}</option>)}
+              </select>
+            </div>
+          )}
+
           {activeTab === "majors" && (
-            <div>
-              <select value={filterUniId} onChange={e => setFilterUniId(e.target.value)} className="bg-white border border-slate-200 text-slate-700 text-sm rounded-xl px-3 py-2.5 outline-none cursor-pointer">
+            <div className="w-64 shrink-0">
+              <select value={filterUniId} onChange={e => setFilterUniId(e.target.value)} className="w-full bg-white border border-slate-200 text-slate-700 text-sm rounded-xl px-3 py-2.5 outline-none cursor-pointer shadow-sm">
                 <option value="">Semua Universitas</option>
                 {universities.map(u => <option key={u.id} value={u.id}>{u.name}</option>)}
               </select>
@@ -269,7 +221,7 @@ export default function AdminScraperPage() {
 
         <button
           onClick={activeTab === "universities" ? openAddUni : openAddMajor}
-          className="flex items-center justify-center gap-2 px-5 py-2.5 bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white font-bold text-sm rounded-xl transition-all shadow-sm self-start"
+          className="flex items-center justify-center gap-2 px-6 py-2.5 bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white font-bold text-sm rounded-xl transition-all shadow-md self-start shrink-0"
         >
           <Plus className="w-4 h-4" /> {activeTab === "universities" ? "Tambah PTN" : "Tambah Prodi"}
         </button>
@@ -369,219 +321,7 @@ export default function AdminScraperPage() {
         </div>
       )}
 
-      {/* --- MODALS --- */}
-
-      {/* 1. UNIVERSITY MODAL */}
-      {showUniModal && (
-        <div className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-          <div className="bg-white rounded-[2rem] max-w-md w-full p-6 shadow-2xl space-y-4 relative border border-slate-100">
-            <h3 className="text-xl font-bold text-slate-800">{editingUni ? "Ubah Universitas" : "Tambah Universitas Baru"}</h3>
-            <form onSubmit={handleUniSubmit} className="space-y-4">
-              <div>
-                <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Nama Universitas</label>
-                <input
-                  type="text"
-                  required
-                  value={uniForm.name}
-                  onChange={e => setUniForm({ ...uniForm, name: e.target.value })}
-                  className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all"
-                  placeholder="Misal: Universitas Indonesia"
-                />
-              </div>
-              <div className="grid grid-cols-2 gap-4">
-                <div>
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Kode PTN</label>
-                  <input
-                    type="text"
-                    required
-                    value={uniForm.code}
-                    onChange={e => setUniForm({ ...uniForm, code: e.target.value })}
-                    className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all"
-                    placeholder="Kode 3 digit (UI: 311)"
-                  />
-                </div>
-                <div>
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Tipe Kampus</label>
-                  <select
-                    value={uniForm.type}
-                    onChange={e => setUniForm({ ...uniForm, type: e.target.value as any })}
-                    className="w-full bg-slate-50 border border-slate-200 text-slate-700 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all cursor-pointer"
-                  >
-                    <option value="NEGERI">NEGERI</option>
-                    <option value="SWASTA">SWASTA</option>
-                  </select>
-                </div>
-              </div>
-              <div>
-                <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Kota / Provinsi (Lokasi)</label>
-                <input
-                  type="text"
-                  required
-                  value={uniForm.location}
-                  onChange={e => setUniForm({ ...uniForm, location: e.target.value })}
-                  className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all"
-                  placeholder="Misal: Depok, Jawa Barat"
-                />
-              </div>
-              <div>
-                <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">URL Logo (Opsional)</label>
-                <input
-                  type="text"
-                  value={uniForm.logoUrl}
-                  onChange={e => setUniForm({ ...uniForm, logoUrl: e.target.value })}
-                  className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all"
-                  placeholder="https://link-gambar.com/logo-ui.png"
-                />
-              </div>
-              <div className="flex gap-3 justify-end pt-3">
-                <button type="button" onClick={() => setShowUniModal(false)} className="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 rounded-xl text-slate-600 text-sm font-bold transition-all">Batal</button>
-                <button type="submit" disabled={submitting} className="px-5 py-2.5 bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white text-sm font-bold rounded-xl transition-all disabled:opacity-50">
-                  {submitting ? "Menyimpan..." : "Simpan"}
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      )}
-
-      {/* 2. MAJOR MODAL */}
-      {showMajorModal && (
-        <div className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-50 flex items-center justify-center p-4 overflow-y-auto">
-          <div className="bg-white rounded-[2rem] max-w-xl w-full p-6 shadow-2xl space-y-4 my-8 relative border border-slate-100">
-            <h3 className="text-xl font-bold text-slate-800">{editingMajor ? "Ubah Jurusan/Prodi" : "Tambah Prodi Baru"}</h3>
-            <form onSubmit={handleMajorSubmit} className="space-y-4">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div>
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Universitas</label>
-                  <select
-                    required
-                    value={majorForm.universityId}
-                    onChange={e => setMajorForm({ ...majorForm, universityId: e.target.value })}
-                    className="w-full bg-slate-50 border border-slate-200 text-slate-700 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all cursor-pointer"
-                  >
-                    <option value="">Pilih Kampus...</option>
-                    {universities.map(u => <option key={u.id} value={u.id}>{u.name}</option>)}
-                  </select>
-                </div>
-                <div>
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Fakultas</label>
-                  <input
-                    type="text"
-                    required
-                    value={majorForm.faculty}
-                    onChange={e => setMajorForm({ ...majorForm, faculty: e.target.value })}
-                    className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all"
-                    placeholder="Misal: Ilmu Komputer"
-                  />
-                </div>
-              </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div>
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Nama Program Studi</label>
-                  <input
-                    type="text"
-                    required
-                    value={majorForm.name}
-                    onChange={e => setMajorForm({ ...majorForm, name: e.target.value })}
-                    className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all"
-                    placeholder="Misal: Teknik Informatika"
-                  />
-                </div>
-                <div>
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Kode Prodi (Kode SNBT)</label>
-                  <input
-                    type="text"
-                    required
-                    value={majorForm.code}
-                    onChange={e => setMajorForm({ ...majorForm, code: e.target.value })}
-                    className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all"
-                    placeholder="Misal: 3111025"
-                  />
-                </div>
-              </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <div>
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Jenjang</label>
-                  <select
-                    value={majorForm.degree}
-                    onChange={e => setMajorForm({ ...majorForm, degree: e.target.value as any })}
-                    className="w-full bg-slate-50 border border-slate-200 text-slate-700 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all cursor-pointer"
-                  >
-                    <option value="S1">S1</option>
-                    <option value="D4">D4</option>
-                    <option value="D3">D3</option>
-                  </select>
-                </div>
-                <div>
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Kelompok (Cluster)</label>
-                  <select
-                    value={majorForm.cluster}
-                    onChange={e => setMajorForm({ ...majorForm, cluster: e.target.value as any })}
-                    className="w-full bg-slate-50 border border-slate-200 text-slate-700 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all cursor-pointer"
-                  >
-                    <option value="SAINTEK">SAINTEK</option>
-                    <option value="SOSHUM">SOSHUM</option>
-                    <option value="CAMPURAN">CAMPURAN</option>
-                  </select>
-                </div>
-                <div>
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Data Tahun</label>
-                  <input
-                    type="number"
-                    required
-                    value={majorForm.year}
-                    onChange={e => setMajorForm({ ...majorForm, year: parseInt(e.target.value) || 2025 })}
-                    className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all"
-                  />
-                </div>
-              </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <div>
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Daya Tampung (Kuota)</label>
-                  <input
-                    type="number"
-                    required
-                    value={majorForm.quota}
-                    onChange={e => setMajorForm({ ...majorForm, quota: parseInt(e.target.value) || 0 })}
-                    className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all"
-                  />
-                </div>
-                <div>
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Jumlah Peminat (Lalu)</label>
-                  <input
-                    type="number"
-                    required
-                    value={majorForm.applicants}
-                    onChange={e => setMajorForm({ ...majorForm, applicants: parseInt(e.target.value) || 0 })}
-                    className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all"
-                  />
-                </div>
-                <div>
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Estimasi Skor Aman</label>
-                  <input
-                    type="number"
-                    required
-                    value={majorForm.estimatedScore}
-                    onChange={e => setMajorForm({ ...majorForm, estimatedScore: parseFloat(e.target.value) || 600 })}
-                    className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all"
-                  />
-                </div>
-              </div>
-
-              <div className="flex gap-3 justify-end pt-3">
-                <button type="button" onClick={() => setShowMajorModal(false)} className="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 rounded-xl text-slate-600 text-sm font-bold transition-all">Batal</button>
-                <button type="submit" disabled={submitting} className="px-5 py-2.5 bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white text-sm font-bold rounded-xl transition-all disabled:opacity-50">
-                  {submitting ? "Menyimpan..." : "Simpan"}
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      )}
-
+      {/* Modals removed in favor of Sliding Panels */}
     </div>
   )
 }

@@ -21,8 +21,11 @@ function OnboardingForm() {
   const [selectedMajor1, setSelectedMajor1] = useState("")
   const [selectedMajor2, setSelectedMajor2] = useState("")
   const [search, setSearch] = useState("")
+  
+  // AI Prefs
   const [aiStyle, setAiStyle] = useState("default")
   const [aiEnergy, setAiEnergy] = useState("default")
+  const [aiLength, setAiLength] = useState("normal")
   const [saving, setSaving] = useState(false)
   const [startingDiagnostic, setStartingDiagnostic] = useState(false)
 
@@ -48,7 +51,15 @@ function OnboardingForm() {
       await fetch("/api/onboarding", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ school, graduationYear: gradYear, targetMajor1Id: selectedMajor1, targetMajor2Id: selectedMajor2, aiStyle, aiEnergy }),
+        body: JSON.stringify({ 
+          school, 
+          graduationYear: gradYear, 
+          targetMajor1Id: selectedMajor1, 
+          targetMajor2Id: selectedMajor2 || undefined, 
+          aiStyle, 
+          aiEnergy, 
+          aiLength 
+        }),
       })
       setSaving(false)
       setStep(5) // Move to weighting & diagnostic
@@ -223,6 +234,25 @@ function OnboardingForm() {
                   key={opt.id}
                   onClick={() => setAiEnergy(opt.id)}
                   className={`flex-1 py-2.5 text-sm font-bold rounded-lg transition-all ${aiEnergy === opt.id ? "bg-white text-[var(--accent-dark)] shadow-sm" : "text-slate-500 hover:text-slate-700 hover:bg-slate-200/50"}`}
+                >
+                  {opt.label}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div className="space-y-3 pt-2">
+            <label className="text-sm font-bold text-slate-700">Panjang Respons</label>
+            <div className="flex bg-slate-100 p-1 rounded-xl">
+              {[
+                { id: "short", label: "Pendek" },
+                { id: "normal", label: "Normal" },
+                { id: "long", label: "Panjang" }
+              ].map(opt => (
+                <button
+                  key={opt.id}
+                  onClick={() => setAiLength(opt.id)}
+                  className={`flex-1 py-2.5 text-sm font-bold rounded-lg transition-all ${aiLength === opt.id ? "bg-white text-[var(--accent-dark)] shadow-sm" : "text-slate-500 hover:text-slate-700 hover:bg-slate-200/50"}`}
                 >
                   {opt.label}
                 </button>

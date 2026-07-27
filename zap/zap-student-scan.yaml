@@ -1,0 +1,108 @@
+---
+env:
+  contexts:
+    - name: "UTBK App - Student Security Audit"
+      urls:
+        - "http://127.0.0.1:3000"
+      includePaths:
+        - "http://127.0.0.1:3000/.*"
+      excludePaths:
+        - ".*\\.css"
+        - ".*\\.js"
+        - ".*\\.png"
+        - ".*\\.jpg"
+        - ".*\\.jpeg"
+        - ".*\\.svg"
+        - ".*\\.ico"
+        - ".*\\.woff"
+        - ".*\\.woff2"
+  parameters:
+    failOnError: true
+    progressToStdout: true
+    continueOnFailure: false
+
+jobs:
+  # 1. Bypassing Authentication via NextAuth session cookie
+  - type: replacer
+    rules:
+      - description: "Auto Login Cookie Student (NextAuth)"
+        matchType: "REQ_HEADER"
+        matchString: "Cookie"
+        # GANTI <TOKEN_SISWA_DISINI> dengan token asli dari browser kamu
+        replacementString: "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiMjAzcXhWQ05YbmJ2Z180bHlnZkdaa3BQVlZydUhXVmtnc3hwcTl5Y3A5ZU9NMnA3aXFGRnd3WUwxWktrZzN5QVB0UWY4ZldOelkzcW9kVWpGY3JTLXcifQ..3WZiKLoFEV9bWkBRpYHvtA.xMSZm5gy0LyPAwEUw8c2IpOONUWPSre6vgRQSZ852lMqMn60bdgaXJMYW1bgqzdelutrDi1H9SLumL0XLMBgOxy7IKbapmwoXMViKxoQGDdGWXrpH9iOMIRyiPj6Aui3LNeVY7KNat76T-pj_0fHoKrqQ7eOQcdLFgd3wLn36PSwJ-S61Z9PIRS6O1zQTyyd07tKCU9VmmakeJHOmgqw9ezBz2CAUCXR4UHAcBa1FeohBxUh4NKbQKusvGiA1n-rFM3gUC6-YU-nsTPqsv5kTg.4kxKZa_B9TXp6Wwn4v7jJNWfefSEoMcoKqLbdq2_uq0"
+
+  # 2. Traditional Spider (Untuk memetakan HTML statis dan API routes standar)
+  - type: spider
+    parameters:
+      context: "UTBK App - Student Security Audit"
+      user: ""
+      url: "http://127.0.0.1:3000/practice"
+      maxDuration: 5
+      maxDepth: 10
+      maxChildren: 10
+      acceptCookies: false
+      handleODataParametersVisited: false
+      handleParameters: "IGNORE_COMPLETELY"
+      maxParseSizeBytes: 2621440
+      parseComments: true
+      parseGit: false
+      parseRobotsTxt: true
+      parseSitemapXml: true
+      parseSVNEntries: false
+      postForm: true
+      processForm: true
+      requestWaitTime: 200
+      sendRefererHeader: true
+      threadCount: 2
+
+  # 3. AJAX Spider (SANGAT PENTING untuk Next.js / SPA agar JS tereksekusi dan API kepanggil)
+  - type: spiderAjax
+    parameters:
+      context: "UTBK App - Student Security Audit"
+      user: ""
+      url: "http://127.0.0.1:3000/practice"
+      maxDuration: 5
+      maxCrawlDepth: 10
+      numberOfBrowsers: 2
+      browserId: "firefox-headless"
+      clickDefaultElems: true
+      clickElemsOnce: true
+      eventWait: 1000
+      maxCrawlStates: 0
+      randomInputs: true
+      reloadWait: 1000
+
+  # 4. Active Scan (Penetration Testing ke semua endpoint yang ditemukan)
+  - type: activeScan
+    parameters:
+      context: "UTBK App - Student Security Audit"
+      user: ""
+      policy: ""
+      maxRuleDurationInMins: 5
+      maxScanDurationInMins: 15
+      addQueryParam: false
+      defaultPolicy: "Default Policy"
+      delayInMs: 0
+      handleAntiCSRFTokens: false
+      injectPluginIdInHeader: false
+      scanHeadersAllRequests: false
+      threadPerHost: 2
+    policyDefinition:
+      defaultStrength: "Medium"
+      defaultThreshold: "Medium"
+
+  # 5. Generate Laporan
+  - type: report
+    parameters:
+      template: "traditional-html"
+      reportDir: "./reports"
+      reportFile: "laporan-zap-student.html"
+      reportTitle: "Laporan Audit Keamanan ZAP (Student)"
+      reportDescription: "Hasil pemindaian keamanan DAST untuk modul Siswa pada UTBK App."
+      displayReport: false
+
+  - type: report
+    parameters:
+      template: "traditional-json"
+      reportDir: "./reports"
+      reportFile: "laporan-zap-student.json"

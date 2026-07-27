@@ -18,7 +18,8 @@ interface TutorChatState {
     difficulty: number
     options: QuestionOption[]
     selectedIds: string[]
-    isSecondChance?: boolean
+    attemptCount?: number
+    isReview?: boolean
     autoTriggerExplanation?: boolean
   } | null
   scaffoldLevel: string

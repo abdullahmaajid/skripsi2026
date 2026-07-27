@@ -77,7 +77,7 @@ export default function EvaluationPage() {
       difficulty: q.difficulty,
       options: q.options,
       selectedIds: [],
-      isSecondChance: false
+      isReview: true
     })
     
     if (window.innerWidth < 1024) {
@@ -99,15 +99,13 @@ export default function EvaluationPage() {
   return (
     <div className="space-y-6">
       {/* Header */}
-      <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
-        <div>
-          <h2 className="text-xl md:text-2xl font-bold text-slate-800 tracking-tight flex items-center gap-2">
-            <AlertTriangle className="w-5 h-5 text-rose-500" /> Bank Soal Salah
-          </h2>
-          <p className="text-sm text-slate-500 mt-1">
-            Soal Try Out yang dijawab salah atau ditandai.
-          </p>
-        </div>
+      <div>
+        <h2 className="text-xl md:text-2xl font-bold mb-2 text-slate-800">
+          Bank Soal Salah
+        </h2>
+        <p className="text-[var(--text-secondary)] text-sm">
+          Soal Try Out yang dijawab salah atau ditandai.
+        </p>
       </div>
 
       {/* Filter */}

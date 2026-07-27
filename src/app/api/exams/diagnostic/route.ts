@@ -48,7 +48,6 @@ export async function POST() {
           duration: 30,
           totalItems: subjects.length > 0 ? subjects.length * 5 : 15, // 5 items per subject
           cluster: "CAMPURAN",
-          isAdaptive: false,
           isDiagnostic: true,
           sections: {
             create: subjects.map((subject, index) => ({

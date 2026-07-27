@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { useRouter } from "next/navigation"
 import { motion } from "framer-motion"
-import { Settings, Save, ArrowLeft, Loader2, Target, Clock, BookOpen, AlertTriangle } from "lucide-react"
+import { Settings, Save, ArrowLeft, Loader2, Target, Clock, BookOpen, AlertTriangle, Calendar } from "lucide-react"
 
 export default function AdminSettingsPage() {
   const router = useRouter()
@@ -16,7 +16,8 @@ export default function AdminSettingsPage() {
     IRT_MEAN: "500",
     IRT_SD: "100",
     DEFAULT_TRYOUT_DURATION: "195",
-    DEFAULT_TRYOUT_ITEMS: "155"
+    DEFAULT_TRYOUT_ITEMS: "155",
+    UTBK_DATE: "2025-04-30"
   })
 
   useEffect(() => {
@@ -174,6 +175,33 @@ export default function AdminSettingsPage() {
                 placeholder="155"
               />
               <p className="text-xs text-slate-400">Standar UTBK 2024 adalah 155 butir soal.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* UTBK Date Config Card */}
+        <div className="bg-white rounded-3xl p-6 md:p-8 shadow-[0_4px_24px_rgba(0,0,0,0.02)] border border-slate-100">
+          <div className="flex items-center gap-3 mb-6">
+            <div className="w-10 h-10 rounded-xl bg-emerald-50 flex items-center justify-center">
+              <Calendar className="w-5 h-5 text-emerald-600" />
+            </div>
+            <div>
+              <h2 className="text-xl font-bold text-slate-800">Jadwal Pelaksanaan</h2>
+              <p className="text-sm text-slate-500">Menentukan target waktu hitung mundur (countdown) di Dashboard Siswa.</p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="space-y-2">
+              <label className="text-xs font-bold text-slate-500 uppercase tracking-wider">Tanggal UTBK SNBT</label>
+              <input
+                type="date"
+                name="UTBK_DATE"
+                value={settings.UTBK_DATE}
+                onChange={handleChange}
+                className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-medium rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] transition-colors"
+              />
+              <p className="text-xs text-slate-400">Contoh: 30 April 2025.</p>
             </div>
           </div>
         </div>

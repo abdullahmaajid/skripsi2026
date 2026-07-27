@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { useRouter } from "next/navigation"
 import { motion, Variants } from "framer-motion"
-import { BookOpen, Loader2, Sparkles, Brain, FlaskConical, BookOpenCheck, Languages, PenTool, Calculator } from "lucide-react"
+import { BookOpen, Loader2, Sparkles, Brain, FlaskConical, BookOpenCheck, Languages, PenTool, Calculator, ArrowRight, PlayCircle, Zap, Target, Clock, Info } from "lucide-react"
 
 interface SubjectInfo {
   id: string
@@ -49,63 +49,108 @@ export default function PracticePage() {
   }, [])
 
   return (
-    <motion.div variants={stagger} initial="hidden" animate="show" className="h-full flex flex-col p-6 md:p-8 overflow-y-auto no-scrollbar">
-      {/* Header */}
-      <motion.div variants={fadeUp} className="flex items-center gap-3 mb-2">
-        <div className="w-10 h-10 rounded-xl bg-[var(--accent-secondary)]/10 flex items-center justify-center border border-[var(--accent-secondary)]/20 shadow-sm">
-          <Sparkles className="w-5 h-5 text-[var(--accent-secondary)]" />
+    <div className="h-full flex flex-col p-6 md:p-8 overflow-y-auto no-scrollbar relative w-full">
+      <div className="max-w-5xl mx-auto w-full">
+      
+      {/* 1. Header & Big Banner */}
+      <motion.div variants={fadeUp} initial="hidden" animate="show" className="mb-8">
+        <div className="mb-6">
+          <h1 className="text-3xl font-bold text-slate-800">Practice</h1>
+          <p className="text-slate-500 mt-2 text-sm">Latihan soal per-subtes secara acak untuk melatih insting dan kecepatan.</p>
         </div>
-        <h1 className="text-2xl font-semibold text-slate-800 tracking-tight">Mode Belajar</h1>
-      </motion.div>
-      <motion.p variants={fadeUp} className="text-slate-500 mb-8 max-w-lg font-medium">
-        Latihan soal per-subtes dengan feedback AI langsung di setiap soal. Nilaimu <span className="text-slate-400 italic">tidak</span> akan masuk ke dashboard atau Chancing.
-      </motion.p>
 
+        <div className="bg-gradient-to-br from-[var(--pastel-purple)] to-white border border-[var(--accent)]/20 rounded-3xl p-6 md:p-8 shadow-sm relative overflow-hidden">
+          <div className="absolute top-0 right-0 p-8 opacity-[0.03] pointer-events-none">
+            <Target className="w-48 h-48" />
+          </div>
+          
+          <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
+            <div>
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-[var(--accent)]/10 text-[var(--accent-dark)] text-xs font-bold rounded-full uppercase tracking-wider mb-3">
+                <Zap className="w-3.5 h-3.5" /> Mode Latihan
+              </span>
+              <h2 className="text-xl md:text-2xl font-bold text-slate-800">
+                Quick Drill
+              </h2>
+              <p className="text-slate-500 font-medium mt-1">Nilaimu tidak akan masuk ke grafik rapor atau Chancing.</p>
+            </div>
+            
+            <div className="flex gap-4">
+              <div className="bg-white/60 border border-white/40 p-4 rounded-2xl text-center min-w-[120px]">
+                <p className="text-[10px] uppercase font-bold text-slate-500 mb-1">Total Mapel</p>
+                <p className="text-2xl font-black text-slate-800">{subjects.length || 0}</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-6 bg-white/60 rounded-2xl p-4 md:p-5 border border-[var(--accent)]/10">
+            <div className="flex items-start gap-3">
+              <div className="shrink-0 mt-0.5">
+                <Info className="w-5 h-5 text-[var(--accent)]" />
+              </div>
+              <div className="text-slate-600 space-y-1 text-sm leading-relaxed">
+                <strong className="text-slate-800 block mb-1">Tips Latihan</strong>
+                <p>Sistem memberikan soal acak dari seluruh bab pada mapel pilihanmu. Manfaatkan <strong>AI Tutor</strong> jika kamu kebingungan, tapi cobalah berpikir mandiri minimal 1 menit!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+
+      {/* 2. Main Content / Grid */}
       {loading ? (
-        <div className="flex-1 flex items-center justify-center">
+        <div className="flex-1 flex items-center justify-center min-h-[200px]">
           <Loader2 className="w-8 h-8 animate-spin text-slate-400" />
         </div>
       ) : subjects.length === 0 ? (
-        <motion.div variants={fadeUp} className="flex-1 flex flex-col items-center justify-center text-slate-500">
+        <motion.div variants={fadeUp} initial="hidden" animate="show" className="flex-1 flex flex-col items-center justify-center text-slate-500 bg-white rounded-3xl border border-slate-100 p-8 shadow-sm">
           <BookOpen className="w-16 h-16 text-slate-300 mb-4" />
-          <p className="mb-2 font-medium">Belum ada soal tersedia.</p>
+          <p className="mb-2 font-medium text-slate-700">Belum ada soal tersedia.</p>
           <p className="text-sm text-slate-400">Tambahkan soal lewat Admin terlebih dahulu.</p>
         </motion.div>
       ) : (
-        <motion.div variants={stagger} className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
-          {subjects.map((s) => {
-            const meta = subjectMeta[s.name] || defaultMeta
-            const Icon = meta.icon
+        <motion.div variants={stagger} initial="hidden" animate="show" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 pb-8">
+          {subjects.map((s, sIdx) => {
+            const colorList = [
+              { bg: "bg-rose-50", text: "text-rose-600", hover: "hover:border-rose-300", badgeBg: "bg-rose-100/50", badgeText: "text-rose-600" },
+              { bg: "bg-blue-50", text: "text-blue-600", hover: "hover:border-blue-300", badgeBg: "bg-blue-100/50", badgeText: "text-blue-600" },
+              { bg: "bg-emerald-50", text: "text-emerald-600", hover: "hover:border-emerald-300", badgeBg: "bg-emerald-100/50", badgeText: "text-emerald-600" },
+              { bg: "bg-amber-50", text: "text-amber-600", hover: "hover:border-amber-300", badgeBg: "bg-amber-100/50", badgeText: "text-amber-600" },
+              { bg: "bg-purple-50", text: "text-purple-600", hover: "hover:border-purple-300", badgeBg: "bg-purple-100/50", badgeText: "text-purple-600" },
+            ];
+            const color = colorList[sIdx % colorList.length];
+            const Icon = subjectMeta[s.name]?.icon || BookOpen;
+
             return (
               <motion.button
                 variants={fadeUp}
                 key={s.id}
                 onClick={() => router.push(`/practice/${s.id}`)}
                 disabled={s.totalQuestions === 0}
-                className="group relative w-full flex flex-col text-left rounded-[1.75rem] overflow-hidden transition-all hover:shadow-lg hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed border border-slate-100 bg-white"
+                className={`group relative flex flex-col text-left bg-white rounded-3xl p-5 shadow-[0_2px_10px_rgba(0,0,0,0.02)] border border-slate-100 ${color.hover} transition-all hover:shadow-md disabled:opacity-50 disabled:cursor-not-allowed`}
               >
-                {/* Colored top bar */}
-                <div className={`h-28 ${meta.bgColor} relative overflow-hidden`}>
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-14 h-14 rounded-2xl bg-white/20 backdrop-blur-sm flex items-center justify-center border border-white/30 shadow-lg">
-                      <Icon className="w-7 h-7 text-white" />
-                    </div>
+                <div className="flex items-start justify-between mb-6 w-full">
+                  <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 ${color.bg} ${color.text}`}>
+                    <Icon className="w-6 h-6" />
                   </div>
+                  <span className={`text-[9px] font-bold tracking-wider px-2 py-1 rounded-md uppercase ${color.badgeBg} ${color.badgeText}`}>
+                    {s.cluster}
+                  </span>
                 </div>
 
-                {/* Content */}
-                <div className="p-5 flex-1 flex flex-col">
-                  <h3 className="text-sm font-semibold text-slate-800 mb-1 group-hover:text-slate-900">{s.name}</h3>
-                  <div className="flex items-center gap-2 mb-3">
-                    <span className={`text-[10px] font-bold tracking-wider px-2 py-0.5 rounded-full bg-[hsl(${meta.hsl},90%,94%)] text-[hsl(${meta.hsl},70%,40%)]`}>
-                      {s.cluster}
-                    </span>
-                  </div>
-                  <div className="mt-auto flex items-center justify-between">
-                    <span className="text-xs text-slate-400 font-medium">{s.totalQuestions} soal tersedia</span>
-                    <span className="text-xs text-[var(--accent)] font-semibold opacity-0 group-hover:opacity-100 transition-opacity">
-                      Mulai →
-                    </span>
+                <h3 className="font-bold text-slate-800 text-[15px] mb-1.5 group-hover:text-[var(--accent)] transition-colors pr-2 leading-snug line-clamp-2 min-h-[44px]">
+                  {s.name}
+                </h3>
+                <p className="text-xs font-medium text-slate-500 mb-6 flex items-center gap-1.5">
+                  <BookOpen className="w-3.5 h-3.5 opacity-70" /> {s.totalQuestions} Soal
+                </p>
+
+                <div className="mt-auto flex items-center justify-between w-full pt-4 border-t border-slate-50">
+                  <span className="text-[11px] font-bold text-slate-500 group-hover:text-[var(--accent)] transition-colors uppercase tracking-wider">
+                    Drill Sekarang
+                  </span>
+                  <div className="w-8 h-8 rounded-full bg-slate-50 flex items-center justify-center group-hover:bg-[var(--accent)] transition-colors shrink-0">
+                     <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-white transition-colors" />
                   </div>
                 </div>
               </motion.button>
@@ -113,6 +158,7 @@ export default function PracticePage() {
           })}
         </motion.div>
       )}
-    </motion.div>
+      </div>
+    </div>
   )
 }

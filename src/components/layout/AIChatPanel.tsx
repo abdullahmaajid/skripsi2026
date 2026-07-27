@@ -9,9 +9,10 @@ import {
   Sparkles,
   FileText,
   Loader2,
-  BookOpen,
   X,
   Lock,
+  MoreVertical,
+  Paperclip,
 } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTutorChatStore } from "@/store/useTutorChatStore";
@@ -84,7 +85,7 @@ export default function AIChatPanel({ onClose }: { onClose?: () => void }) {
   useEffect(() => {
     const qId = selectedQuestion?.questionId || null;
     const cacheKey = selectedQuestion
-      ? `${qId}-${selectedQuestion.selectedAnswer}-${selectedQuestion.isSecondChance}`
+      ? `${qId}-${selectedQuestion.selectedAnswer}-${selectedQuestion.attemptCount}-${selectedQuestion.isReview}`
       : null;
     if (cacheKey !== prevQuestionRef.current) {
       prevQuestionRef.current = cacheKey;
@@ -112,13 +113,30 @@ export default function AIChatPanel({ onClose }: { onClose?: () => void }) {
           }).finally(() => {
             setLoading(false);
           });
-        } else if (selectedQuestion.isSecondChance) {
+        } else if (selectedQuestion.isReview) {
           setMessages([
             {
               role: "assistant",
-              content: `Hai! Jawabanmu **(${selectedQuestion.selectedAnswer})** masih belum tepat. Jangan berkecil hati! Kamu masih punya 1 kesempatan lagi untuk mencoba.\n\nButuh petunjuk (hint), analogi, atau ingin berdiskusi dulu sebelum menjawab lagi? Tanya saja di sini!`,
+              content: `Hai! Kita sedang membahas soal ini.\n\nJawabanmu: ${selectedQuestion.selectedAnswer}\nJawaban benar: ${selectedQuestion.correctAnswer}\n\nAda yang ingin didiskusikan dari soal ini? Atau tekan tombol "Tanya Pembahasan" untuk melihat penjabaran lengkapnya!`,
             },
           ]);
+          setScaffoldLevel("SOLUTION");
+        } else if (selectedQuestion.attemptCount === 1) {
+          setMessages([
+            {
+              role: "assistant",
+              content: `Hai! Jawabanmu **(${selectedQuestion.selectedAnswer})** masih belum tepat. Kamu masih punya 1 kesempatan lagi untuk mencoba.\n\nCoba perhatikan baik-baik pertanyaan dan informasinya. Butuh petunjuk (hint)? Tanya saja di sini!`,
+            },
+          ]);
+          setScaffoldLevel("HINT");
+        } else if (selectedQuestion.attemptCount === 2) {
+          setMessages([
+            {
+              role: "assistant",
+              content: `Sayang sekali, jawabanmu **(${selectedQuestion.selectedAnswer})** masih salah. Kesempatanmu sudah habis untuk soal ini.\n\nMari kita bedah kenapa bisa salah. Coba jelaskan konsep yang kamu pakai untuk menjawab tadi, biar aku bantu koreksi!`,
+            },
+          ]);
+          setScaffoldLevel("SOCRATIC");
         } else {
           setMessages([
             {
@@ -126,13 +144,14 @@ export default function AIChatPanel({ onClose }: { onClose?: () => void }) {
               content: `Hai! Kamu ingin membahas soal:\n\n"${selectedQuestion.text}"\n\nJawabanmu: ${selectedQuestion.selectedAnswer}\nJawaban benar: ${selectedQuestion.correctAnswer}\n\nCeritakan kenapa kamu memilih jawaban itu. Aku akan bantu kamu memahami konsepnya!`,
             },
           ]);
+          setScaffoldLevel("SOCRATIC");
         }
       } else {
         setMessages([
           {
             role: "assistant",
             content:
-              "Hai! Aku adalah AI Tutor Lexica. Kamu bisa membahas soal dari luar (buku, bimbel, TO sekolah) dengan menyalin teksnya di sini, atau pilih salah satu soal salah di halaman Bahas Soal Luar!",
+              "Hai! Ketik/Paste soal dari sekolah atau bimbel lain di bawah ini, atau pilih salah satu Arsip Soal di sebelah kiri untuk kita bahas kembali!",
           },
         ]);
       }
@@ -152,6 +171,8 @@ export default function AIChatPanel({ onClose }: { onClose?: () => void }) {
     setInput("");
     setMessages((prev) => [...prev, { role: "user", content: userMsg }]);
     setLoading(true);
+
+
 
     try {
       let res: Response;
@@ -177,7 +198,7 @@ export default function AIChatPanel({ onClose }: { onClose?: () => void }) {
           ...prev,
           { role: "assistant", content: data.response || "Maaf, tidak ada balasan dari AI." },
         ]);
-        if (data.nextLevel) setScaffoldLevel(data.nextLevel);
+
       } else {
         res = await fetch("/api/tutor/ask", {
           method: "POST",
@@ -226,6 +247,10 @@ export default function AIChatPanel({ onClose }: { onClose?: () => void }) {
       label: "Solution",
       color: "bg-rose-50 text-rose-600 border-rose-200",
     },
+    DISCUSSION: {
+      label: "Discussion",
+      color: "bg-purple-50 text-purple-600 border-purple-200",
+    },
   };
 
   const quickPills = selectedQuestion
@@ -257,46 +282,40 @@ export default function AIChatPanel({ onClose }: { onClose?: () => void }) {
   }
 
   return (
-    <aside className="w-full lg:w-[380px] h-full shrink-0 bg-slate-50 shadow-[0_4px_24px_rgba(0,0,0,0.02)] rounded-[2rem] flex flex-col overflow-hidden border border-slate-100">
+    <aside className="w-full lg:w-[380px] h-full shrink-0 bg-gradient-to-b from-[#f9edff] to-[#ffedf4] shadow-[0_4px_24px_rgba(0,0,0,0.02)] rounded-[2rem] flex flex-col overflow-hidden border border-white/50 relative">
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="p-5 border-b border-slate-900/5 flex items-center justify-between bg-white z-10 relative"
+        className="px-5 py-5 flex items-center justify-between bg-white z-10 relative border-b border-purple-100 shadow-[0_2px_15px_rgba(0,0,0,0.03)]"
       >
         <div className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-xl bg-[var(--accent)] flex items-center justify-center shadow-sm">
-            {selectedQuestion ? (
-              <BookOpen className="w-5 h-5 text-white" />
-            ) : (
-              <Sparkles className="w-5 h-5 text-white" />
-            )}
-          </div>
-          <div>
-            <h3 className="text-sm font-semibold text-slate-800">
-              {selectedQuestion ? "Tutor Soal" : "AI Tutor"}
+          {onClose && (
+            <button
+              onClick={onClose}
+              className="w-8 h-8 rounded-lg bg-[#d4b3f5] flex items-center justify-center text-white hover:opacity-80 transition-opacity shadow-sm mr-1"
+            >
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+            </button>
+          )}
+          <div className="flex flex-col">
+            <h3 className="text-[15px] font-bold text-slate-800 tracking-tight">
+              {selectedQuestion ? "Tutor Soal" : "Chat with Lexica"}
             </h3>
-            <p className="text-[10px] text-slate-500 font-medium">
-              {selectedQuestion
-                ? selectedQuestion.subject
-                : "Powered by Groq · Llama 3"}
-            </p>
+            <div className="flex items-center gap-1.5 mt-0.5 justify-start">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+              <p className="text-[10px] text-slate-500 font-medium">
+                Online
+              </p>
+            </div>
           </div>
         </div>
         <div className="flex items-center gap-2">
           {selectedQuestion && (
-            <span className="text-[10px] px-2.5 py-1 rounded-full border font-semibold bg-rose-50 text-rose-600 border-rose-200">
-              Pembahasan
+            <span className={`text-[10px] px-2.5 py-1 rounded-full font-bold shadow-sm ${levelBadge[scaffoldLevel]?.color || 'bg-white text-slate-600 border-slate-200'}`}>
+              {levelBadge[scaffoldLevel]?.label || 'Tutor'}
             </span>
-          )}
-          {onClose && (
-            <button
-              onClick={onClose}
-              className="p-1.5 rounded-lg text-slate-400 hover:text-slate-600 hover:bg-slate-100 transition-colors"
-            >
-              <X className="w-4 h-4" />
-            </button>
           )}
         </div>
       </motion.div>
@@ -311,34 +330,24 @@ export default function AIChatPanel({ onClose }: { onClose?: () => void }) {
             initial={{ opacity: 0, y: 15, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             key={i}
-            className={`flex gap-2.5 max-w-[92%] ${msg.role === "user" ? "ml-auto flex-row-reverse" : "mr-auto"}`}
+            className={`flex flex-col max-w-[85%] ${msg.role === "user" ? "ml-auto items-end" : "mr-auto items-start"} mb-4`}
           >
             <div
-              className={`shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-white ${
+              className={`px-4 py-3 text-[14px] font-medium leading-relaxed shadow-[0_2px_10px_rgba(0,0,0,0.02)] ${
                 msg.role === "assistant"
-                  ? "bg-[var(--accent)] shadow-[0_2px_10px_rgba(193,119,249,0.3)]"
-                  : "bg-[var(--accent-secondary)] shadow-[0_2px_10px_rgba(52,186,250,0.3)]"
+                  ? "bg-white text-slate-600 rounded-[1.25rem] rounded-bl-sm border border-white"
+                  : "bg-[#b37be1] text-white rounded-[1.25rem] rounded-br-sm"
               }`}
             >
               {msg.role === "assistant" ? (
-                <Bot className="w-3.5 h-3.5" />
-              ) : (
-                <User className="w-3.5 h-3.5" />
-              )}
-            </div>
-            <div
-              className={`px-3.5 py-2.5 rounded-2xl text-[14px] font-medium leading-relaxed shadow-sm ${
-                msg.role === "assistant"
-                  ? "bg-[var(--accent)] text-white rounded-tl-sm shadow-[0_4px_15px_rgba(193,119,249,0.2)]"
-                  : "bg-[var(--accent-secondary)] text-white rounded-tr-sm shadow-[0_4px_15px_rgba(52,186,250,0.2)]"
-              }`}
-            >
-              {msg.role === "assistant" ? (
-                <MarkdownRenderer content={msg.content} variant="dark" />
+                <MarkdownRenderer content={msg.content} />
               ) : (
                 msg.content
               )}
             </div>
+            <span className="text-[9px] text-slate-400 font-semibold mt-1.5 px-1 tracking-wide">
+              {msg.role === "assistant" ? "Lexica" : "Kamu"} · {new Date().toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' })}
+            </span>
           </motion.div>
         ))}
 
@@ -411,41 +420,41 @@ export default function AIChatPanel({ onClose }: { onClose?: () => void }) {
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            className="flex gap-2.5"
+            className="flex flex-col max-w-[85%] mr-auto items-start mb-4"
           >
-            <div className="shrink-0 w-7 h-7 rounded-full bg-[var(--accent)] text-white flex items-center justify-center shadow-[0_2px_10px_rgba(193,119,249,0.3)]">
-              <Bot className="w-3.5 h-3.5" />
-            </div>
-            <div className="px-3.5 py-2.5 bg-[var(--accent)] text-white shadow-[0_4px_15px_rgba(193,119,249,0.2)] rounded-2xl rounded-tl-sm flex items-center gap-1.5">
+            <div className="px-4 py-4 bg-white shadow-[0_2px_10px_rgba(0,0,0,0.02)] rounded-[1.25rem] rounded-bl-sm flex items-center gap-1.5 border border-white">
               <div
-                className="w-1.5 h-1.5 rounded-full bg-white animate-bounce"
+                className="w-1.5 h-1.5 rounded-full bg-slate-300 animate-bounce"
                 style={{ animationDelay: "0ms" }}
               ></div>
               <div
-                className="w-1.5 h-1.5 rounded-full bg-white animate-bounce"
+                className="w-1.5 h-1.5 rounded-full bg-slate-300 animate-bounce"
                 style={{ animationDelay: "150ms" }}
               ></div>
               <div
-                className="w-1.5 h-1.5 rounded-full bg-white animate-bounce"
+                className="w-1.5 h-1.5 rounded-full bg-slate-300 animate-bounce"
                 style={{ animationDelay: "300ms" }}
               ></div>
             </div>
+            <span className="text-[9px] text-slate-400 font-semibold mt-1.5 px-1 tracking-wide">
+              Lexica · Mengetik...
+            </span>
           </motion.div>
         )}
       </div>
 
-      {/* Quick Pills */}
+      {/* Quick Pills (Optional, keeping them if any, just transparent BG) */}
       <motion.div
         variants={stagger}
         initial="hidden"
         animate="show"
-        className="px-4 py-2.5 flex gap-2 overflow-x-auto no-scrollbar border-t border-slate-900/5 bg-white z-10 relative"
+        className="px-4 py-2.5 flex gap-2 overflow-x-auto no-scrollbar z-10 relative bg-transparent mt-auto"
       >
         {quickPills.map((pill, i) => {
           const pastels = [
-            "bg-[var(--pastel-blue)] text-sky-700",
-            "bg-[var(--pastel-orange)] text-orange-700",
-            "bg-[var(--pastel-purple)] text-purple-700",
+            "bg-white/60 text-slate-700",
+            "bg-white/60 text-slate-700",
+            "bg-white/60 text-slate-700",
           ];
           const colorClass = pastels[i % pastels.length];
           return (
@@ -453,7 +462,7 @@ export default function AIChatPanel({ onClose }: { onClose?: () => void }) {
               variants={scaleIn}
               key={pill}
               onClick={() => setInput(pill)}
-              className={`shrink-0 text-[11px] font-medium px-3.5 py-1.5 rounded-full ${colorClass} hover:opacity-80 transition-opacity border border-transparent shadow-sm`}
+              className={`shrink-0 text-[11px] font-medium px-4 py-2 rounded-full ${colorClass} backdrop-blur-sm border border-white/50 hover:bg-white/80 transition-colors shadow-sm`}
             >
               {pill}
             </motion.button>
@@ -466,27 +475,29 @@ export default function AIChatPanel({ onClose }: { onClose?: () => void }) {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2, duration: 0.5 }}
-        className="p-3 bg-white z-10 relative pb-4"
+        className="px-4 py-4 bg-white z-10 relative border-t border-purple-100 shadow-[0_-4px_20px_rgba(0,0,0,0.02)] mt-auto"
       >
-        <div className="flex gap-2 relative">
+        <div className="flex items-center relative bg-slate-50/80 rounded-full p-1 border border-slate-100">
           <input
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && !e.shiftKey && handleSend()}
             placeholder={
-              selectedQuestion ? "Balas AI Tutor..." : "Tanya sesuatu..."
+              selectedQuestion ? "Balas AI Tutor..." : "Type your message..."
             }
             disabled={loading}
-            className="flex-1 px-4 py-3 bg-white border border-slate-200 rounded-2xl shadow-sm focus:ring-2 focus:ring-[var(--accent)]/30 focus:border-[var(--accent)] outline-none text-sm text-slate-800 transition-all placeholder:text-slate-400 disabled:opacity-50 pr-11 font-medium"
+            className="flex-1 px-5 py-3 bg-transparent outline-none text-[13px] text-slate-800 placeholder:text-slate-400 disabled:opacity-50 font-medium"
           />
-          <button
-            onClick={handleSend}
-            disabled={loading || !input.trim()}
-            className="absolute right-1.5 top-1.5 bottom-1.5 aspect-square flex items-center justify-center bg-[var(--accent)] text-white hover:bg-[var(--accent-hover)] disabled:opacity-50 rounded-xl transition-all shadow-sm"
-          >
-            <Send className="w-3.5 h-3.5" />
-          </button>
+          <div className="flex items-center gap-0.5 pr-2">
+            <button
+              onClick={handleSend}
+              disabled={loading || !input.trim()}
+              className="p-2 text-slate-700 disabled:opacity-30 hover:text-[#b37be1] transition-colors"
+            >
+              <Send className="w-5 h-5" />
+            </button>
+          </div>
         </div>
       </motion.div>
     </aside>

@@ -30,6 +30,8 @@ export default async function DashboardPage() {
                 name: true,
                 estimatedScore: true,
                 cluster: true,
+                applicants: true,
+                quota: true,
                 university: { select: { name: true } }
               }
             }
@@ -120,7 +122,8 @@ export default async function DashboardPage() {
   const jamCount = parseFloat((totalSeconds / 3600).toFixed(1))
 
   // Countdown to UTBK
-  const utbkDate = new Date('2026-05-15')
+  const settingUtbkDate = await prisma.systemSetting.findUnique({ where: { key: 'UTBK_DATE' } })
+  const utbkDate = settingUtbkDate?.value ? new Date(settingUtbkDate.value) : new Date('2025-04-30')
   const hariLagi = Math.max(0, Math.ceil((utbkDate.getTime() - new Date().getTime()) / (1000 * 3600 * 24)))
 
   // Peluang Lulus — using real chancing formula

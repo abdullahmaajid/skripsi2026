@@ -19,7 +19,6 @@ export async function GET() {
         attempt: {
           userId,
         },
-        isCorrect: false,
       },
       orderBy: { answeredAt: "desc" },
       select: {

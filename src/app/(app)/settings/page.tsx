@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
-import { Settings, Save, Loader2, UserCircle, GraduationCap, Target } from "lucide-react"
+import { Settings, Save, Loader2, UserCircle, GraduationCap, Target, Sparkles } from "lucide-react"
 
 interface Major {
   id: string
@@ -26,6 +26,7 @@ interface UserProfile {
   targetMajor2Id: string
   aiStyle: string
   aiEnergy: string
+  aiLength: string
 }
 
 export default function SettingsPage() {
@@ -40,7 +41,8 @@ export default function SettingsPage() {
     targetMajor1Id: "",
     targetMajor2Id: "",
     aiStyle: "default",
-    aiEnergy: "default"
+    aiEnergy: "default",
+    aiLength: "normal"
   })
   
   // To handle dependent dropdowns
@@ -55,7 +57,7 @@ export default function SettingsPage() {
 
   const fetchProfile = async () => {
     try {
-      const res = await fetch("/api/profile")
+      const res = await fetch("/api/profile", { cache: "no-store" })
       if (res.ok) {
         const data = await res.json()
         setUniversities(data.universities || [])
@@ -70,7 +72,8 @@ export default function SettingsPage() {
           targetMajor1Id: p.targetMajor1Id || "",
           targetMajor2Id: p.targetMajor2Id || "",
           aiStyle: p.aiStyle || "default",
-          aiEnergy: p.aiEnergy || "default"
+          aiEnergy: p.aiEnergy || "default",
+          aiLength: p.aiLength || "normal"
         })
 
         if (p.targetMajor1) setTarget1UniId(p.targetMajor1.universityId)
@@ -323,7 +326,7 @@ export default function SettingsPage() {
         {/* Preferensi AI Tutor */}
         <div className="bg-white rounded-3xl p-6 md:p-8 border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.03)]">
           <h2 className="text-lg font-bold text-slate-800 mb-6 flex items-center gap-2 pb-4 border-b border-slate-100">
-            <span className="text-[var(--accent)] font-bold text-xl">✨</span> Preferensi AI Tutor
+            <Sparkles className="w-5 h-5 text-[var(--accent)]" /> Preferensi AI Tutor
           </h2>
           
           <div className="space-y-8">
@@ -364,6 +367,26 @@ export default function SettingsPage() {
                     key={opt.id}
                     onClick={() => setProfile({...profile, aiEnergy: opt.id})}
                     className={`flex-1 py-2.5 text-sm font-bold rounded-lg transition-all ${profile.aiEnergy === opt.id ? "bg-white text-[var(--accent-dark)] shadow-sm border border-slate-200" : "text-slate-500 hover:text-slate-700 hover:bg-slate-200/50"}`}
+                  >
+                    {opt.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <label className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-4 block">Panjang Respons</label>
+              <div className="flex bg-slate-50 border border-slate-200 p-1 rounded-xl max-w-md">
+                {[
+                  { id: "short", label: "Pendek" },
+                  { id: "normal", label: "Normal" },
+                  { id: "long", label: "Panjang" }
+                ].map(opt => (
+                  <button
+                    type="button"
+                    key={opt.id}
+                    onClick={() => setProfile({...profile, aiLength: opt.id})}
+                    className={`flex-1 py-2.5 text-sm font-bold rounded-lg transition-all ${profile.aiLength === opt.id ? "bg-white text-[var(--accent-dark)] shadow-sm border border-slate-200" : "text-slate-500 hover:text-slate-700 hover:bg-slate-200/50"}`}
                   >
                     {opt.label}
                   </button>

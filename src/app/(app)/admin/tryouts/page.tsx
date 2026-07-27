@@ -3,6 +3,9 @@
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
 import { ArrowLeft, Plus, Edit2, Trash2, Loader2, FileText, Layers, Clock, Settings, ShieldAlert, Check } from "lucide-react"
+import { useAdminPanelStore } from "@/store/useAdminPanelStore"
+import { TryoutFormPanel, SectionFormPanel } from "./components"
+import toast from "react-hot-toast"
 
 interface Subject {
   id: string
@@ -43,29 +46,8 @@ export default function AdminTryoutsPage() {
   const [sections, setSections] = useState<ExamSection[]>([])
   const [loadingSections, setLoadingSections] = useState(false)
 
-  // Tryout Form Modal
-  const [showTryoutModal, setShowTryoutModal] = useState(false)
-  const [editingTryout, setEditingTryout] = useState<ExamTemplate | null>(null)
-  const [tryoutForm, setTryoutForm] = useState({
-    name: "",
-    description: "",
-    duration: 195, // default standard UTBK
-    totalItems: 155, // default standard UTBK
-    cluster: "CAMPURAN" as "SAINTEK" | "SOSHUM" | "CAMPURAN",
-    isDiagnostic: false
-  })
-
-  // Section Form Modal
-  const [showSectionModal, setShowSectionModal] = useState(false)
-  const [editingSection, setEditingSection] = useState<ExamSection | null>(null)
-  const [sectionForm, setSectionForm] = useState({
-    subjectId: "",
-    itemCount: 15,
-    order: 1,
-    duration: 15
-  })
-
-  const [submitting, setSubmitting] = useState(false)
+  const openPanel = useAdminPanelStore(s => s.openPanel)
+  const closePanel = useAdminPanelStore(s => s.closePanel)
 
   useEffect(() => {
     fetchData()
@@ -106,51 +88,25 @@ export default function AdminTryoutsPage() {
 
   // --- TRYOUT CRUD ---
   function openAddTryout() {
-    setEditingTryout(null)
-    setTryoutForm({
-      name: "",
-      description: "",
-      duration: 195,
-      totalItems: 155,
-      cluster: "CAMPURAN",
-      isDiagnostic: false
-    })
-    setShowTryoutModal(true)
+    openPanel(
+      <TryoutFormPanel 
+        key="add-tryout"
+        editingTryout={null} 
+        onSuccess={() => { closePanel(); fetchData(); setSelectedTryout(null); toast.success("Data berhasil disimpan!"); }} 
+        onCancel={closePanel} 
+      />
+    )
   }
 
   function openEditTryout(t: ExamTemplate) {
-    setEditingTryout(t)
-    setTryoutForm({
-      name: t.name,
-      description: t.description || "",
-      duration: t.duration,
-      totalItems: t.totalItems,
-      cluster: t.cluster,
-      isDiagnostic: t.isDiagnostic
-    })
-    setShowTryoutModal(true)
-  }
-
-  async function handleTryoutSubmit(e: React.FormEvent) {
-    e.preventDefault()
-    setSubmitting(true)
-    const method = editingTryout ? "PUT" : "POST"
-    const payload = editingTryout ? { id: editingTryout.id, ...tryoutForm } : tryoutForm
-
-    const res = await fetch("/api/admin/tryouts", {
-      method,
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    })
-    setSubmitting(false)
-    if (res.ok) {
-      setShowTryoutModal(false)
-      fetchData()
-      setSelectedTryout(null)
-    } else {
-      const data = await res.json()
-      alert(data.error || "Gagal menyimpan tryout")
-    }
+    openPanel(
+      <TryoutFormPanel 
+        key={`edit-tryout-${t.id}`}
+        editingTryout={t} 
+        onSuccess={() => { closePanel(); fetchData(); setSelectedTryout(null); toast.success("Data berhasil disimpan!"); }} 
+        onCancel={closePanel} 
+      />
+    )
   }
 
   async function handleDeleteTryout(id: string) {
@@ -167,49 +123,30 @@ export default function AdminTryoutsPage() {
   // --- SECTION CRUD ---
   function openAddSection() {
     if (!selectedTryout) return
-    setEditingSection(null)
-    setSectionForm({
-      subjectId: subjects[0]?.id || "",
-      itemCount: 15,
-      order: sections.length + 1,
-      duration: 15
-    })
-    setShowSectionModal(true)
+    openPanel(
+      <SectionFormPanel 
+        key="add-section"
+        editingSection={null} 
+        selectedTryoutId={selectedTryout.id} 
+        subjects={subjects} 
+        onSuccess={() => { closePanel(); loadSections(selectedTryout); toast.success("Data berhasil disimpan!"); }} 
+        onCancel={closePanel} 
+      />
+    )
   }
 
   function openEditSection(s: ExamSection) {
-    setEditingSection(s)
-    setSectionForm({
-      subjectId: s.subjectId,
-      itemCount: s.itemCount,
-      order: s.order,
-      duration: s.duration
-    })
-    setShowSectionModal(true)
-  }
-
-  async function handleSectionSubmit(e: React.FormEvent) {
-    e.preventDefault()
     if (!selectedTryout) return
-    setSubmitting(true)
-    const method = editingSection ? "PUT" : "POST"
-    const payload = editingSection 
-      ? { id: editingSection.id, ...sectionForm } 
-      : { templateId: selectedTryout.id, ...sectionForm }
-
-    const res = await fetch("/api/admin/tryouts/sections", {
-      method,
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    })
-    setSubmitting(false)
-    if (res.ok) {
-      setShowSectionModal(false)
-      loadSections(selectedTryout)
-    } else {
-      const data = await res.json()
-      alert(data.error || "Gagal menyimpan subtes")
-    }
+    openPanel(
+      <SectionFormPanel 
+        key={`edit-section-${s.id}`}
+        editingSection={s} 
+        selectedTryoutId={selectedTryout.id} 
+        subjects={subjects} 
+        onSuccess={() => { closePanel(); loadSections(selectedTryout); toast.success("Data berhasil disimpan!"); }} 
+        onCancel={closePanel} 
+      />
+    )
   }
 
   async function handleDeleteSection(id: string) {
@@ -226,9 +163,7 @@ export default function AdminTryoutsPage() {
     <div className="p-6 md:p-8 space-y-6 h-full overflow-y-auto no-scrollbar">
       {/* Top Header */}
       <div>
-        <h1 className="text-3xl font-bold text-slate-800 tracking-tight flex items-center gap-2">
-          <FileText className="w-8 h-8 text-[var(--accent)]" /> Manajemen Tryout
-        </h1>
+        <h1 className="text-3xl font-bold text-slate-800 tracking-tight">Manajemen Tryout</h1>
         <p className="text-sm text-slate-500 mt-1">Buat paket simulasi Tryout SNBT dan susun subtes/seksi materi ujian beserta alokasi waktu menitnya.</p>
       </div>
 
@@ -336,157 +271,7 @@ export default function AdminTryoutsPage() {
         </div>
       )}
 
-      {/* --- DIALOG MODALS --- */}
-
-      {/* 1. TRYOUT MODAL */}
-      {showTryoutModal && (
-        <div className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-          <div className="bg-white rounded-[2rem] max-w-md w-full p-6 shadow-2xl space-y-4 relative border border-slate-100">
-            <h3 className="text-xl font-bold text-slate-800">{editingTryout ? "Ubah Paket Tryout" : "Tambah Paket Tryout"}</h3>
-            <form onSubmit={handleTryoutSubmit} className="space-y-4">
-              <div>
-                <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Nama Paket</label>
-                <input
-                  type="text"
-                  required
-                  value={tryoutForm.name}
-                  onChange={e => setTryoutForm({ ...tryoutForm, name: e.target.value })}
-                  className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all"
-                  placeholder="Misal: Try Out UTBK Nasional #1"
-                />
-              </div>
-
-              <div>
-                <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Deskripsi Paket</label>
-                <textarea
-                  value={tryoutForm.description}
-                  onChange={e => setTryoutForm({ ...tryoutForm, description: e.target.value })}
-                  className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-medium rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all min-h-[80px] resize-none"
-                  placeholder="Deskripsi singkat tryout..."
-                />
-              </div>
-
-              <div className="grid grid-cols-2 gap-4">
-                <div>
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Durasi (Menit)</label>
-                  <input
-                    type="number"
-                    required
-                    value={tryoutForm.duration}
-                    onChange={e => setTryoutForm({ ...tryoutForm, duration: parseInt(e.target.value) || 0 })}
-                    className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all"
-                  />
-                </div>
-                <div>
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Jumlah Soal</label>
-                  <input
-                    type="number"
-                    required
-                    value={tryoutForm.totalItems}
-                    onChange={e => setTryoutForm({ ...tryoutForm, totalItems: parseInt(e.target.value) || 0 })}
-                    className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all"
-                  />
-                </div>
-              </div>
-
-              <div className="grid grid-cols-2 gap-4">
-                <div>
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Kluster</label>
-                  <select
-                    value={tryoutForm.cluster}
-                    onChange={e => setTryoutForm({ ...tryoutForm, cluster: e.target.value as any })}
-                    className="w-full bg-slate-50 border border-slate-200 text-slate-700 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all cursor-pointer"
-                  >
-                    <option value="CAMPURAN">CAMPURAN</option>
-                    <option value="SAINTEK">SAINTEK</option>
-                    <option value="SOSHUM">SOSHUM</option>
-                  </select>
-                </div>
-                <div className="flex items-center gap-2 pt-6">
-                  <input
-                    type="checkbox"
-                    id="isDiagnostic"
-                    checked={tryoutForm.isDiagnostic}
-                    onChange={e => setTryoutForm({ ...tryoutForm, isDiagnostic: e.target.checked })}
-                    className="accent-[var(--accent)] w-4.5 h-4.5 cursor-pointer"
-                  />
-                  <label htmlFor="isDiagnostic" className="text-xs font-bold text-slate-600 cursor-pointer select-none">Diagnostic Test</label>
-                </div>
-              </div>
-
-              <div className="flex gap-3 justify-end pt-3">
-                <button type="button" onClick={() => setShowTryoutModal(false)} className="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 rounded-xl text-slate-600 text-sm font-bold transition-all">Batal</button>
-                <button type="submit" disabled={submitting} className="px-5 py-2.5 bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white text-sm font-bold rounded-xl transition-all disabled:opacity-50">
-                  {submitting ? "Menyimpan..." : "Simpan"}
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      )}
-
-      {/* 2. SECTION MODAL */}
-      {showSectionModal && (
-        <div className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-          <div className="bg-white rounded-[2rem] max-w-md w-full p-6 shadow-2xl space-y-4 relative border border-slate-100">
-            <h3 className="text-xl font-bold text-slate-800">{editingSection ? "Ubah Subtes" : "Tambah Subtes Baru"}</h3>
-            <form onSubmit={handleSectionSubmit} className="space-y-4">
-              <div>
-                <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Mata Pelajaran</label>
-                <select
-                  required
-                  value={sectionForm.subjectId}
-                  onChange={e => setSectionForm({ ...sectionForm, subjectId: e.target.value })}
-                  className="w-full bg-slate-50 border border-slate-200 text-slate-700 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all cursor-pointer"
-                >
-                  <option value="">Pilih Mapel...</option>
-                  {subjects.map(s => <option key={s.id} value={s.id}>{s.name} ({s.cluster})</option>)}
-                </select>
-              </div>
-
-              <div className="grid grid-cols-3 gap-4">
-                <div>
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Soal</label>
-                  <input
-                    type="number"
-                    required
-                    value={sectionForm.itemCount}
-                    onChange={e => setSectionForm({ ...sectionForm, itemCount: parseInt(e.target.value) || 0 })}
-                    className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all"
-                  />
-                </div>
-                <div>
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Menit</label>
-                  <input
-                    type="number"
-                    required
-                    value={sectionForm.duration}
-                    onChange={e => setSectionForm({ ...sectionForm, duration: parseInt(e.target.value) || 0 })}
-                    className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all"
-                  />
-                </div>
-                <div>
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Urutan</label>
-                  <input
-                    type="number"
-                    required
-                    value={sectionForm.order}
-                    onChange={e => setSectionForm({ ...sectionForm, order: parseInt(e.target.value) || 1 })}
-                    className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-sm font-semibold rounded-xl px-4 py-3 outline-none focus:border-[var(--accent)] focus:bg-white transition-all"
-                  />
-                </div>
-              </div>
-
-              <div className="flex gap-3 justify-end pt-3">
-                <button type="button" onClick={() => setShowSectionModal(false)} className="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 rounded-xl text-slate-600 text-sm font-bold transition-all">Batal</button>
-                <button type="submit" disabled={submitting} className="px-5 py-2.5 bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white text-sm font-bold rounded-xl transition-all disabled:opacity-50">
-                  {submitting ? "Menyimpan..." : "Simpan"}
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      )}
+      {/* Modals removed in favor of Sliding Panels */}
     </div>
   )
 }

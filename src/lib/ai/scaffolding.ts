@@ -1,4 +1,4 @@
-export type ScaffoldLevel = 'SOCRATIC' | 'HINT' | 'SOLUTION'
+export type ScaffoldLevel = 'HINT' | 'SOCRATIC' | 'SOLUTION'
 
 const SCAFFOLD_PROMPTS: Record<ScaffoldLevel, string> = {
   SOCRATIC: `Kamu adalah tutor UTBK yang menerapkan metode Socratic. Siswa menjawab salah soal berikut:
@@ -27,12 +27,17 @@ ATURAN MUTLAK (HARAM DILANGGAR):
 Soal: "{question}"
 Jawaban benar: {correct}
 
-Format jawaban:
+ATURAN PENTING:
+Sampaikan setiap balasanmu dengan GAYA BAHASA DAN KEPRIBADIAN (Personality) yang telah ditentukan di bawah. Jangan terlalu kaku!
+
+JIKA siswa meminta pembahasan lengkap atau ini adalah interaksi pertama mereka meminta penjelasan, gunakan format baku ini:
 1. **Konsep yang Diuji**: [identifikasi konsep]
 2. **Langkah Penyelesaian**: [step-by-step]
 3. **Kesalahan Umum**: [yang harus dihindari]
 
-Gunakan Bahasa Indonesia, format Markdown.`
+JIKA siswa menanyakan hal yang sangat spesifik (contoh: "kenapa jawaban B salah?", "aku masih kurang paham bagian X"), abaikan format baku di atas dan jawablah pertanyaan mereka secara natural sesuai gaya bahasamu!
+
+Gunakan format Markdown.`
 }
 
 export async function getScaffoldResponse(
@@ -43,7 +48,8 @@ export async function getScaffoldResponse(
   history: { role: string, content: string }[] = [],
   targetMajor?: string,
   aiStyle: string = "default",
-  aiEnergy: string = "default"
+  aiEnergy: string = "default",
+  aiLength: string = "normal"
 ): Promise<string> {
   const apiKey = process.env.GROQ_API_KEY
   if (!apiKey) {
@@ -62,9 +68,9 @@ export async function getScaffoldResponse(
       case "professional": stylePrompt = "Bicaralah dengan nada yang rapi, presisi, dan sangat formal layaknya guru besar."; break;
       case "friendly": stylePrompt = "Bicaralah dengan nada yang sangat ramah, hangat, akrab, dan menyemangati (seperti kakak kelas yang baik)."; break;
       case "honest": stylePrompt = "Bicaralah secara terus terang, jujur tanpa basa-basi. Jika salah, langsung katakan salah dengan tegas tapi membangun."; break;
-      case "quirky": stylePrompt = "Bicaralah dengan gaya yang nyentrik, menyenangkan, imajinatif, dan sedikit humoris ala anak Gen-Z (gunakan kata gaul sesekali)."; break;
+      case "quirky": stylePrompt = "Bicaralah dengan gaya yang nyentrik, menyenangkan, dan sedikit humoris ala anak Gen-Z (gunakan kata gaul sesekali, tapi jangan berlebihan)."; break;
       case "efficient": stylePrompt = "Bicaralah sesingkat mungkin, lugas, langsung ke intinya tanpa kalimat pengantar yang panjang."; break;
-      case "sarcastic": stylePrompt = "Bicaralah dengan nada sinis, kritis, dan sedikit sarkastis (tapi tetap bertujuan mendidik dan membuat siswa mikir keras)."; break;
+      case "sarcastic": stylePrompt = "Bicaralah dengan nada sedikit sarkastis dan jenaka layaknya kritikus cerdas, TAPI pastikan kamu tetap memberikan penjelasan materi yang sangat logis, edukatif, dan tidak menghina/merendahkan."; break;
     }
 
     let energyPrompt = ""
@@ -73,8 +79,15 @@ export async function getScaffoldResponse(
       case "low": energyPrompt = "Gunakan tingkat energi yang tenang, kalem, netral, dan jarang menggunakan emoji."; break;
     }
 
-    if (stylePrompt || energyPrompt) {
-      systemInstruction += `\n\nATURAN GAYA BAHASA (PERSONALITY):\n- ${stylePrompt}\n- ${energyPrompt}`
+    let lengthPrompt = ""
+    switch (aiLength) {
+      case "short": lengthPrompt = "Buat respons SANGAT SINGKAT (1-2 kalimat saja), langsung to the point."; break;
+      case "long": lengthPrompt = "Buat respons PANJANG, detail, elaboratif, dan deskriptif."; break;
+      default: lengthPrompt = "Buat respons dengan panjang NORMAL (sewajarnya)."; break;
+    }
+
+    if (stylePrompt || energyPrompt || lengthPrompt) {
+      systemInstruction += `\n\nATURAN GAYA BAHASA & PERSONALITY:\n- Gaya: ${stylePrompt}\n- Energi: ${energyPrompt}\n- Panjang: ${lengthPrompt}\n\nGUARDRAIL MUTLAK: Walaupun kamu mengadopsi persona di atas, tugas utamamu adalah MENGAJAR. Jawabanmu harus LOGIS, MASUK AKAL, dan MENJAWAB PERTANYAAN siswa. Jangan biarkan gaya bahasamu merusak kualitas penjelasan materimu!`
     }
 
     // Inject target major context for macro-level motivation
@@ -97,6 +110,7 @@ export async function getScaffoldResponse(
       { role: "user", content: studentAnswer }
     ]
 
+    const startTime = performance.now()
     const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
       method: "POST",
       headers: {
@@ -118,6 +132,27 @@ export async function getScaffoldResponse(
     }
 
     const data = await response.json()
+    const duration = Math.round(performance.now() - startTime)
+    
+    console.log(`\n===========================================`)
+    console.log(`🧠 [AI TUTOR LOG - SCAFFOLDING MODE]`)
+    console.log(`===========================================`)
+    console.log(`📅 Waktu       : ${new Date().toLocaleString('id-ID')}`)
+    console.log(`🎯 Level       : ${level}`)
+    console.log(`⏱️ Latensi     : ${duration}ms`)
+    console.log(`📊 Model       : llama-3.1-8b-instant (Temp: 0.6, Max Tokens: ${level === "SOLUTION" ? 600 : 350})`)
+    if (data.usage) {
+      console.log(`🪙 Token       : Prompt (${data.usage.prompt_tokens}) | Completion (${data.usage.completion_tokens}) | Total (${data.usage.total_tokens})`)
+    }
+    console.log(`-------------------------------------------`)
+    console.log(`📥 PROSES KE GROQ API (Full Messages Payload):`)
+    messages.forEach((msg: any) => {
+      console.log(`[${msg.role.toUpperCase()}]\n${msg.content}\n`)
+    })
+    console.log(`-------------------------------------------`)
+    console.log(`🤖 OUTPUT AI: \n${data.choices[0].message.content}`)
+    console.log(`===========================================\n`)
+
     return data.choices[0].message.content
   } catch (error) {
     console.error("Groq API error:", error)
@@ -134,10 +169,4 @@ function getFallbackResponse(level: ScaffoldLevel, question: string, correct: st
     case 'SOLUTION':
       return `[Mode Offline - API Key Belum Diisi]\n\n📖 **Jawaban yang benar adalah: ${correct}**\n\nUntuk memahami soal ini, kamu perlu menguasai konsep dasarnya. Coba pelajari kembali materi terkait dan latihan soal serupa untuk memperkuat pemahaman.`
   }
-}
-
-export function getNextScaffoldLevel(current: ScaffoldLevel): ScaffoldLevel | null {
-  if (current === 'SOCRATIC') return 'HINT'
-  if (current === 'HINT') return 'SOLUTION'
-  return null
 }

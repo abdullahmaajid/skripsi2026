@@ -323,7 +323,7 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
                     </div>
                     <div className="bg-[var(--pastel-blue)] border border-blue-100 rounded-2xl p-4">
                       <p className="text-[10px] uppercase tracking-wider text-blue-600 font-bold mb-1 flex items-center justify-center gap-1">
-                        θ (IRT) <Info className="w-3 h-3 text-blue-400 cursor-help" title="Skor kemampuan laten berdasarkan tingkat kesulitan soal yang berhasil dijawab. (Contoh: Menjawab soal SUSAH akan memberikan skor theta yang lebih tinggi daripada menjawab soal mudah)." />
+                        θ (IRT) <Info className="w-3 h-3 text-blue-400 cursor-help"  />
                       </p>
                       <p className="text-xl font-bold text-blue-700">{result.theta}</p>
                     </div>
