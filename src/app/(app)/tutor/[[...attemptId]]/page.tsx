@@ -347,16 +347,10 @@ function TutorContent({ attemptIdParam }: { attemptIdParam?: string }) {
               let statusTag: React.ReactNode = null
 
               if (isCorrect) {
-                containerCls = "p-4 md:p-5 rounded-[1.25rem] border flex items-start gap-4 transition-all duration-300 bg-emerald-50/40 border-emerald-300 shadow-[0_4px_20px_rgba(16,185,129,0.12)] relative overflow-hidden"
-                labelCls = "w-10 h-10 md:w-11 md:h-11 rounded-[0.85rem] shrink-0 flex items-center justify-center text-base md:text-lg font-bold border bg-gradient-to-br from-emerald-400 to-emerald-600 text-white border-emerald-600 shadow-md"
-                textCls  = "text-[15px] md:text-base text-slate-800 font-semibold leading-relaxed flex-1 mt-1"
-                statusTag = (
-                  <div className="absolute top-0 right-0 -mr-6 -mt-2">
-                    <span className="text-[10px] font-black text-emerald-700 bg-emerald-200/80 backdrop-blur-sm px-8 py-1.5 shadow-sm uppercase tracking-widest transform rotate-45 block origin-bottom-left">
-                      Tepat
-                    </span>
-                  </div>
-                )
+                containerCls = "p-4 md:p-5 rounded-[1.25rem] border flex items-start gap-4 transition-all duration-300 bg-emerald-50 border-emerald-200 shadow-sm opacity-90"
+                labelCls = "w-10 h-10 md:w-11 md:h-11 rounded-[0.85rem] shrink-0 flex items-center justify-center text-base md:text-lg font-bold border bg-emerald-500 text-white border-emerald-600 shadow-sm"
+                textCls  = "text-[15px] md:text-base text-emerald-900 font-semibold leading-relaxed flex-1 mt-1"
+                statusTag = <span className="text-[10px] ml-auto shrink-0 mt-2 font-bold text-emerald-600 bg-emerald-100/80 px-3 py-1.5 rounded-full uppercase tracking-wider shadow-sm border border-emerald-200/50">Tepat</span>
               } else if (isSelected) {
                 containerCls = "p-4 md:p-5 rounded-[1.25rem] border flex items-start gap-4 transition-all duration-300 bg-rose-50/50 border-rose-200 shadow-sm opacity-90"
                 labelCls = "w-10 h-10 md:w-11 md:h-11 rounded-[0.85rem] shrink-0 flex items-center justify-center text-base md:text-lg font-bold border bg-rose-500 text-white border-rose-600 shadow-sm"
