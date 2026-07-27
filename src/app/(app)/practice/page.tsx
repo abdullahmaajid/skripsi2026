@@ -77,7 +77,7 @@ export default function PracticePage() {
             
             <div className="flex gap-4">
               <div className="bg-white/60 border border-white/40 p-4 rounded-2xl text-center min-w-[120px]">
-                <p className="text-[10px] uppercase font-bold text-slate-500 mb-1">Total Mapel</p>
+                <p className="text-[10px] uppercase font-bold text-slate-500 mb-1">Total Subtes</p>
                 <p className="text-2xl font-black text-slate-800">{subjects.length || 0}</p>
               </div>
             </div>
@@ -90,7 +90,7 @@ export default function PracticePage() {
               </div>
               <div className="text-slate-600 space-y-1 text-sm leading-relaxed">
                 <strong className="text-slate-800 block mb-1">Tips Latihan</strong>
-                <p>Sistem memberikan soal acak dari seluruh bab pada mapel pilihanmu. Manfaatkan <strong>AI Tutor</strong> jika kamu kebingungan, tapi cobalah berpikir mandiri minimal 1 menit!</p>
+                <p>Sistem memberikan soal acak dari seluruh bab pada subtes pilihanmu. Manfaatkan <strong>AI Tutor</strong> jika kamu kebingungan, tapi cobalah berpikir mandiri minimal 1 menit!</p>
               </div>
             </div>
           </div>
