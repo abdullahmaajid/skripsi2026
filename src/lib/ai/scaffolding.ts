@@ -50,10 +50,10 @@ export async function getScaffoldResponse(
   aiStyle: string = "default",
   aiEnergy: string = "default",
   aiLength: string = "normal"
-): Promise<string> {
+): Promise<{text: string, logData: any}> {
   const apiKey = process.env.GROQ_API_KEY
   if (!apiKey) {
-    return getFallbackResponse(level, question, correctAnswer)
+    return { text: getFallbackResponse(level, question, correctAnswer), logData: null }
   }
 
   try {
@@ -153,10 +153,21 @@ export async function getScaffoldResponse(
     console.log(`🤖 OUTPUT AI: \n${data.choices[0].message.content}`)
     console.log(`===========================================\n`)
 
-    return data.choices[0].message.content
+    const logData = {
+      mode: "SCAFFOLDING",
+      level,
+      timestamp: new Date().toLocaleString('id-ID'),
+      latencyMs: duration,
+      model: "llama-3.1-8b-instant",
+      usage: data.usage,
+      messages: messages,
+      output: data.choices[0].message.content
+    }
+    
+    return { text: data.choices[0].message.content, logData }
   } catch (error) {
     console.error("Groq API error:", error)
-    return getFallbackResponse(level, question, correctAnswer)
+    return { text: getFallbackResponse(level, question, correctAnswer), logData: null }
   }
 }
 

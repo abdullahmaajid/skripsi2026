@@ -76,6 +76,13 @@ export default function ReviewPage({ params }: { params: Promise<{ id: string }>
         }),
       })
       const result = await res.json()
+      if (result.aiLog) {
+        console.groupCollapsed(`🧠 [AI TUTOR LOG - ${result.aiLog.mode}]`);
+        console.log(`⏱️ Latency: ${result.aiLog.latencyMs}ms | 🪙 Tokens: ${result.aiLog.usage?.total_tokens || 0}`);
+        console.log(`📥 Payload (Messages):`, result.aiLog.messages);
+        console.log(`🤖 Output:`, result.aiLog.output);
+        console.groupEnd();
+      }
       setTutorResponses(prev => ({ ...prev, [q.questionId]: result.response }))
       if (result.nextLevel) {
         setTutorLevels(prev => ({ ...prev, [q.questionId]: result.nextLevel }))

@@ -137,7 +137,17 @@ export async function POST(req: NextRequest) {
       console.log(`🤖 OUTPUT AI: \n${data.choices[0].message.content}`)
       console.log(`===========================================\n`)
 
-      return NextResponse.json({ response: data.choices[0].message.content })
+      const aiLog = {
+        mode: "FREE CHAT",
+        timestamp: new Date().toLocaleString('id-ID'),
+        latencyMs: duration,
+        model: "llama-3.1-8b-instant",
+        usage: data.usage,
+        messages: messages,
+        output: data.choices[0].message.content
+      }
+
+      return NextResponse.json({ response: data.choices[0].message.content, aiLog })
     }
 
 // ─── Scaffolded tutoring mode ──────────────────────────────────────────────
@@ -187,7 +197,7 @@ if (!question) {
     const aiLength = userProfile?.profile?.aiLength || "normal"
     // ─────────────────────────────────────────────────────────────────────────
 
-    const response = await getScaffoldResponse(
+    const scaffoldResult = await getScaffoldResponse(
       level,
       question,
       studentAnswer || "(tidak menjawab)",
@@ -199,6 +209,8 @@ if (!question) {
       aiLength
     )
 
+    const responseText = scaffoldResult.text;
+    const aiLog = scaffoldResult.logData;
 
     // Persist TutoringSession and TutoringMessage (non-blocking — don't await)
     if (session.user.id && questionId) {
@@ -225,7 +237,7 @@ if (!question) {
           }
 
           await prisma.tutoringMessage.create({
-            data: { sessionId: tutoringSession.id, role: "ASSISTANT", content: response },
+            data: { sessionId: tutoringSession.id, role: "ASSISTANT", content: responseText },
           })
         } catch (dbErr) {
           console.error("Failed to persist tutoring session:", dbErr)
@@ -233,7 +245,7 @@ if (!question) {
       })()
     }
 
-    return NextResponse.json({ level, response })
+    return NextResponse.json({ level, response: responseText, aiLog })
   } catch (error) {
     console.error("Tutor API error:", error)
     return NextResponse.json({ error: "Terjadi kesalahan pada AI Tutor." }, { status: 500 })

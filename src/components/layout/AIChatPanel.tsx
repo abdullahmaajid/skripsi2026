@@ -193,6 +193,13 @@ export default function AIChatPanel({ onClose }: { onClose?: () => void }) {
           }),
         });
         const data = await res.json();
+        if (data.aiLog) {
+          console.groupCollapsed(`🧠 [AI TUTOR LOG - ${data.aiLog.mode}]`);
+          console.log(`⏱️ Latency: ${data.aiLog.latencyMs}ms | 🪙 Tokens: ${data.aiLog.usage?.total_tokens || 0}`);
+          console.log(`📥 Payload (Messages):`, data.aiLog.messages);
+          console.log(`🤖 Output:`, data.aiLog.output);
+          console.groupEnd();
+        }
         if (!res.ok) throw new Error(data.error || "Server error");
         setMessages((prev) => [
           ...prev,
@@ -212,6 +219,13 @@ export default function AIChatPanel({ onClose }: { onClose?: () => void }) {
           }),
         });
         const data = await res.json();
+        if (data.aiLog) {
+          console.groupCollapsed(`🧠 [AI TUTOR LOG - ${data.aiLog.mode}]`);
+          console.log(`⏱️ Latency: ${data.aiLog.latencyMs}ms | 🪙 Tokens: ${data.aiLog.usage?.total_tokens || 0}`);
+          console.log(`📥 Payload (Messages):`, data.aiLog.messages);
+          console.log(`🤖 Output:`, data.aiLog.output);
+          console.groupEnd();
+        }
         if (!res.ok) throw new Error(data.error || "Server error");
         setMessages((prev) => [
           ...prev,
