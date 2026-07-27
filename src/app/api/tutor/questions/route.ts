@@ -37,12 +37,12 @@ export async function GET() {
       },
     })
 
-    // Group by questionId to deduplicate and take only the latest response
+    // Group by question text to deduplicate (in case of seeded duplicate questions) and take only the latest response
     const uniqueQuestionsMap = new Map()
 
     for (const r of responses) {
-      if (!uniqueQuestionsMap.has(r.questionId)) {
-        uniqueQuestionsMap.set(r.questionId, {
+      if (!uniqueQuestionsMap.has(r.question.text)) {
+        uniqueQuestionsMap.set(r.question.text, {
           questionId: r.questionId,
           text: r.question.text,
           type: r.question.type,
