@@ -517,21 +517,23 @@ async function main() {
       duration: 195,
       totalItems: 35,
       cluster: Cluster.SAINTEK,
-      isAdaptive: false,
+      isDiagnostic: false,
     },
   })
 
   const template2 = await prisma.examTemplate.upsert({
-    where: { id: 'tryout-snbt-2' },
+    where: {
+      id: "tryout-snbt-2"
+    },
     update: {},
     create: {
-      id: 'tryout-snbt-2',
-      name: 'Try Out SNBT #2 (Adaptif)',
-      description: 'Paket simulasi adaptif — soal menyesuaikan kemampuanmu.',
+      id: "tryout-snbt-2",
+      name: "Try Out SNBT #2 (Adaptif)",
+      description: "Paket simulasi adaptif — soal menyesuaikan kemampuanmu.",
       duration: 120,
       totalItems: 20,
       cluster: Cluster.SAINTEK,
-      isAdaptive: true,
+      isDiagnostic: true,
     },
   })
   console.log('✅ 2 exam templates')

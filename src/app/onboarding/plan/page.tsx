@@ -11,6 +11,7 @@ function OnboardingPlanContent() {
   const router = useRouter()
   const [loading, setLoading] = useState(true)
   const [showSkip, setShowSkip] = useState(false)
+  const [isRedirecting, setIsRedirecting] = useState(false)
 
   useEffect(() => {
     const controller = new AbortController()
@@ -124,11 +125,24 @@ function OnboardingPlanContent() {
       </motion.div>
 
       <button 
-        onClick={() => router.push("/dashboard")} 
-        className="w-full py-4 bg-[var(--accent)] hover:bg-[var(--accent-hover)] rounded-xl font-bold text-white shadow-[0_4px_15px_rgba(193,119,249,0.3)] transition-all flex items-center justify-center gap-2 group"
+        onClick={() => {
+          setIsRedirecting(true)
+          router.push("/dashboard")
+        }}
+        disabled={isRedirecting}
+        className="w-full py-4 bg-[var(--accent)] hover:bg-[var(--accent-hover)] rounded-xl font-bold text-white shadow-[0_4px_15px_rgba(193,119,249,0.3)] transition-all flex items-center justify-center gap-2 group disabled:opacity-70 disabled:cursor-wait"
       >
-        Mulai Belajar di Dashboard 
-        <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+        {isRedirecting ? (
+          <>
+            <Loader2 className="w-5 h-5 animate-spin" />
+            Memuat Dashboard...
+          </>
+        ) : (
+          <>
+            Mulai Belajar di Dashboard 
+            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+          </>
+        )}
       </button>
     </div>
   )
