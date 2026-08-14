@@ -34,7 +34,10 @@ export async function GET(req: NextRequest) {
         where,
         skip,
         take: limit,
-        include: { subject: { select: { name: true } } },
+        include: { 
+          subject: { select: { name: true } },
+          _count: { select: { questions: true } }
+        },
         orderBy: [{ subject: { name: "asc" } }, { order: "asc" }],
       }),
       prisma.chapter.count({ where })

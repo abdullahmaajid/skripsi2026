@@ -352,6 +352,7 @@ export default function AdminQuestionsPage() {
                       <th className="py-3 px-5">Mapel</th>
                       <th className="py-3 px-5">Urutan</th>
                       <th className="py-3 px-5">Nama Bab</th>
+                      <th className="py-3 px-5 text-center">Total Soal</th>
                       <th className="py-3 px-5">Rangkuman Materi</th>
                       <th className="py-3 px-5 text-right">Aksi</th>
                     </tr>
@@ -362,6 +363,7 @@ export default function AdminQuestionsPage() {
                         <td className="py-3.5 px-5 font-semibold text-slate-500 text-xs">{c.subject.name}</td>
                         <td className="py-3.5 px-5 font-mono text-slate-600">{c.order}</td>
                         <td className="py-3.5 px-5 font-bold text-slate-800">{c.name}</td>
+                        <td className="py-3.5 px-5 text-center font-semibold text-slate-500">{c._count?.questions || 0}</td>
                         <td className="py-3.5 px-5 text-slate-400 text-xs max-w-[200px] truncate">{c.theorySummary || "-"}</td>
                         <td className="py-3.5 px-5 text-right flex justify-end gap-1.5">
                           <button onClick={() => openEditChapter(c)} className="p-2 text-slate-400 hover:text-[var(--accent)] hover:bg-slate-50 rounded-xl transition-colors"><Edit2 className="w-4 h-4" /></button>
@@ -370,7 +372,7 @@ export default function AdminQuestionsPage() {
                       </tr>
                     ))}
                     {!loading && paginatedChapters.length === 0 && (
-                      <tr><td colSpan={5} className="py-8 text-center text-slate-400">Belum ada bab terdaftar...</td></tr>
+                      <tr><td colSpan={6} className="py-8 text-center text-slate-400">Belum ada bab terdaftar...</td></tr>
                     )}
                   </tbody>
                 </table>
