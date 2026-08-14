@@ -30,8 +30,8 @@ export function AdminPageHeader({
       </div>
       
       <div className="relative z-10 space-y-6">
-        <div className="flex flex-wrap xl:flex-nowrap items-start xl:items-center justify-between gap-6">
-          <div className="flex-1 min-w-[280px]">
+        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+          <div>
             <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-[var(--accent)]/10 text-[var(--accent-dark)] text-xs font-bold rounded-full uppercase tracking-wider mb-3 shadow-sm border border-[var(--accent)]/10">
               <Sparkles className="w-3.5 h-3.5" /> {badgeText}
             </span>
@@ -39,13 +39,15 @@ export function AdminPageHeader({
               {title}
             </h2>
             <p className="text-slate-500 font-medium mt-1 leading-relaxed">{subtitle}</p>
+            {children && (
+              <div className="mt-4">
+                {children}
+              </div>
+            )}
           </div>
           
-          <div className="flex flex-wrap items-center gap-4 w-full xl:w-auto">
-            {children}
-            
-            {stats && stats.length > 0 && (
-              <div className="flex flex-wrap gap-4">
+          {stats && stats.length > 0 && (
+            <div className="flex gap-4">
                 {stats.map((stat, idx) => (
                   <div key={idx} className="bg-white/70 backdrop-blur-sm border border-white/60 shadow-[0_4px_20px_rgba(0,0,0,0.02)] p-4 rounded-2xl text-center min-w-[120px] transition-all hover:bg-white/90">
                     <p className={`text-[10px] uppercase font-bold mb-1 flex items-center justify-center gap-1.5 ${idx % 2 === 0 ? "text-slate-500" : "text-[var(--accent)]"}`}>
@@ -57,9 +59,8 @@ export function AdminPageHeader({
                     </p>
                   </div>
                 ))}
-              </div>
-            )}
-          </div>
+            </div>
+          )}
         </div>
 
         {infoTitle && infoList && (
