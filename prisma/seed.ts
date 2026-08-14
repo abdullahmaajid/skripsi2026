@@ -139,14 +139,19 @@ async function main() {
     })
     for (let i = 0; i < s.chapters.length; i++) {
       const chapName = s.chapters[i]
-      await prisma.chapter.create({
-        data: {
-          name: chapName,
-          subjectId: subj.id,
-          order: i + 1,
-          theorySummary: `# Rangkuman ${chapName}\n\nIni adalah rangkuman materi ringkas mengenai **${chapName}** untuk persiapan subtes **${s.name}**.\n\n### Konsep Utama\n1. **Definisi:** Konsep fundamental dan terminologi dasar yang wajib dipahami.\n2. **Rumus Esensial & Aturan:** Pendekatan matematis, pola logika, atau aturan bahasa yang relevan.\n3. **Tips Ujian:** Strategi eliminasi pilihan jawaban salah dan cara penyelesaian cepat.\n\nLatihlah soal secara berkala untuk memperkuat pemahaman Anda!`,
-        },
+      const existingChap = await prisma.chapter.findFirst({
+        where: { subjectId: subj.id, name: chapName }
       })
+      if (!existingChap) {
+        await prisma.chapter.create({
+          data: {
+            name: chapName,
+            subjectId: subj.id,
+            order: i + 1,
+            theorySummary: `# Rangkuman ${chapName}\n\nIni adalah rangkuman materi ringkas mengenai **${chapName}** untuk persiapan subtes **${s.name}**.\n\n### Konsep Utama\n1. **Definisi:** Konsep fundamental dan terminologi dasar yang wajib dipahami.\n2. **Rumus Esensial & Aturan:** Pendekatan matematis, pola logika, atau aturan bahasa yang relevan.\n3. **Tips Ujian:** Strategi eliminasi pilihan jawaban salah dan cara penyelesaian cepat.\n\nLatihlah soal secara berkala untuk memperkuat pemahaman Anda!`,
+          },
+        })
+      }
     }
   }
   console.log(`✅ ${subjects.length} subjects, ${subjects.reduce((a, s) => a + s.chapters.length, 0)} chapters`)
