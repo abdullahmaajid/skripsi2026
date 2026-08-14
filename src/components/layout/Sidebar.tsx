@@ -77,7 +77,7 @@ const fadeRight: Variants = { hidden: { opacity: 0, x: -15 }, show: { opacity: 1
 export default function Sidebar({ onClose }: { onClose?: () => void }) {
   const pathname = usePathname()
   const [isAdmin, setIsAdmin] = useState(false);
-const [profile, setProfile] = useState<{name:string; role:string; avatar?:string}>({name:"", role:""});
+const [profile, setProfile] = useState<{name:string; role:string; avatar?:string}>({name:"\u00A0", role:"\u00A0"});
 
   useEffect(() => {
     fetch("/api/profile", { cache: "no-store" })
