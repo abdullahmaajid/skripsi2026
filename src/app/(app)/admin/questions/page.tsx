@@ -369,8 +369,8 @@ export default function AdminQuestionsPage() {
                         </td>
                       </tr>
                     ))}
-                    {filteredChapters.length === 0 && (
-                      <tr><td colSpan={5} className="py-8 text-center text-slate-400">Belum ada bab terdaftar</td></tr>
+                    {!loading && paginatedChapters.length === 0 && (
+                      <tr><td colSpan={5} className="py-8 text-center text-slate-400">Belum ada bab terdaftar...</td></tr>
                     )}
                   </tbody>
                 </table>
