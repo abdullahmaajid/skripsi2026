@@ -240,7 +240,7 @@ export default function AdminQuestionsPage() {
         stats={[
           { label: "Mata Pelajaran", value: subjects.length, icon: <BookOpen className="w-3.5 h-3.5" /> },
           { label: "Total Bab", value: chapters.length, icon: <Layers className="w-3.5 h-3.5" /> },
-          { label: "Total Soal", value: totalQuestions, icon: <FileText className="w-3.5 h-3.5" /> },
+          { label: "Total Soal", value: questions.length, icon: <FileText className="w-3.5 h-3.5" /> },
         ]}
       />
 
