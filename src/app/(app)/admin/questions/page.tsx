@@ -234,6 +234,9 @@ export default function AdminQuestionsPage() {
   const filteredChapters = chapters.filter(c => {
     return filterSubjectId ? c.subjectId === filterSubjectId : true
   })
+  
+  const paginatedChapters = filteredChapters.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage)
+  const totalChapterPages = Math.ceil(filteredChapters.length / itemsPerPage)
 
   return (
     <div className="p-6 md:p-8 space-y-6 h-full overflow-y-auto no-scrollbar">
@@ -342,7 +345,7 @@ export default function AdminQuestionsPage() {
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-slate-50">
-                    {filteredChapters.map(c => (
+                    {paginatedChapters.map(c => (
                       <tr key={c.id} className="hover:bg-slate-50/50">
                         <td className="py-3.5 px-5 font-semibold text-slate-500 text-xs">{c.subject.name}</td>
                         <td className="py-3.5 px-5 font-mono text-slate-600">{c.order}</td>
@@ -360,6 +363,29 @@ export default function AdminQuestionsPage() {
                   </tbody>
                 </table>
               </div>
+              
+              {/* Pagination Controls */}
+              {totalChapterPages > 1 && (
+                <div className="flex justify-center items-center gap-4 py-4">
+                  <button 
+                    onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+                    disabled={currentPage === 1}
+                    className="px-5 py-2.5 bg-white border border-slate-200 hover:bg-slate-50 text-slate-600 rounded-xl text-sm font-bold disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-sm"
+                  >
+                    Sebelumnya
+                  </button>
+                  <span className="text-sm font-bold text-slate-400">
+                    Halaman <span className="text-slate-700">{currentPage}</span> dari <span className="text-slate-700">{totalChapterPages}</span>
+                  </span>
+                  <button 
+                    onClick={() => setCurrentPage(p => Math.min(totalChapterPages, p + 1))}
+                    disabled={currentPage === totalChapterPages}
+                    className="px-5 py-2.5 bg-white border border-slate-200 hover:bg-slate-50 text-slate-600 rounded-xl text-sm font-bold disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-sm"
+                  >
+                    Selanjutnya
+                  </button>
+                </div>
+              )}
             </div>
           )}
 

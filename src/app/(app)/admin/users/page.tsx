@@ -155,6 +155,14 @@ export default function AdminUsersPage() {
   const [searchQuery, setSearchQuery] = useState("")
   const [filterRole, setFilterRole] = useState("")
 
+  // Pagination
+  const [currentPage, setCurrentPage] = useState(1)
+  const itemsPerPage = 20
+
+  useEffect(() => {
+    setCurrentPage(1)
+  }, [searchQuery, filterRole])
+
   const openPanel = useAdminPanelStore(s => s.openPanel)
   const closePanel = useAdminPanelStore(s => s.closePanel)
 
@@ -256,6 +264,9 @@ export default function AdminUsersPage() {
     const matchRole = filterRole ? u.role === filterRole : true
     return matchSearch && matchRole
   })
+  
+  const paginatedUsers = filteredUsers.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage)
+  const totalPages = Math.ceil(filteredUsers.length / itemsPerPage)
 
   // Summary Stats
   const totalStudents = users.filter(u => u.role === "STUDENT").length
@@ -368,7 +379,7 @@ export default function AdminUsersPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100">
-                {filteredUsers.map(u => (
+                {paginatedUsers.map((u, idx) => (
                   <tr key={u.id} className="hover:bg-slate-50/60 transition-colors group">
                     <td className="py-4 px-6">
                       <div className="flex items-center gap-3">
@@ -416,6 +427,29 @@ export default function AdminUsersPage() {
               </tbody>
             </table>
           </div>
+          
+          {/* Pagination Controls */}
+          {totalPages > 1 && (
+            <div className="flex justify-center items-center gap-4 pt-4">
+              <button 
+                onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+                disabled={currentPage === 1}
+                className="px-5 py-2.5 bg-white border border-slate-200 hover:bg-slate-50 text-slate-600 rounded-xl text-sm font-bold disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-sm"
+              >
+                Sebelumnya
+              </button>
+              <span className="text-sm font-bold text-slate-400">
+                Halaman <span className="text-slate-700">{currentPage}</span> dari <span className="text-slate-700">{totalPages}</span>
+              </span>
+              <button 
+                onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+                disabled={currentPage === totalPages}
+                className="px-5 py-2.5 bg-white border border-slate-200 hover:bg-slate-50 text-slate-600 rounded-xl text-sm font-bold disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-sm"
+              >
+                Selanjutnya
+              </button>
+            </div>
+          )}
         </div>
       )}
     </div>

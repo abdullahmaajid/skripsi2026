@@ -44,6 +44,14 @@ export default function AdminScraperPage() {
 
   // Search & Filter
   const [searchQuery, setSearchQuery] = useState("")
+  
+  // Pagination
+  const [currentPage, setCurrentPage] = useState(1)
+  const itemsPerPage = 20
+
+  useEffect(() => {
+    setCurrentPage(1)
+  }, [activeTab, filterLocation, filterUniId, searchQuery])
   const [filterUniId, setFilterUniId] = useState("")
   const [filterLocation, setFilterLocation] = useState("")
 
@@ -162,6 +170,12 @@ export default function AdminScraperPage() {
     const matchUni = filterUniId ? m.universityId === filterUniId : true
     return matchSearch && matchUni
   })
+  
+  const paginatedUnis = filteredUnis.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage)
+  const totalUniPages = Math.ceil(filteredUnis.length / itemsPerPage)
+  
+  const paginatedMajors = filteredMajors.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage)
+  const totalMajorPages = Math.ceil(filteredMajors.length / itemsPerPage)
 
   return (
     <div className="p-6 md:p-8 space-y-6 h-full overflow-y-auto no-scrollbar">
@@ -247,8 +261,9 @@ export default function AdminScraperPage() {
 
           {/* PTN LIST */}
           {activeTab === "universities" && (
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {filteredUnis.map(u => (
+            <div className="space-y-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {paginatedUnis.map(u => (
                 <div key={u.id} className="bg-white border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.01)] rounded-2xl p-5 flex justify-between items-center group">
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 rounded-xl bg-slate-50 flex items-center justify-center border border-slate-100 overflow-hidden">
@@ -273,8 +288,32 @@ export default function AdminScraperPage() {
                   </div>
                 </div>
               ))}
-              {filteredUnis.length === 0 && (
-                <div className="col-span-2 text-center py-16 text-slate-400 border border-dashed border-slate-200 rounded-2xl">Tidak ada universitas ditemukan</div>
+                {filteredUnis.length === 0 && (
+                  <div className="col-span-2 text-center py-16 text-slate-400 border border-dashed border-slate-200 rounded-2xl">Tidak ada universitas ditemukan</div>
+                )}
+              </div>
+              
+              {/* Pagination Controls */}
+              {totalUniPages > 1 && (
+                <div className="flex justify-center items-center gap-4 py-4">
+                  <button 
+                    onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+                    disabled={currentPage === 1}
+                    className="px-5 py-2.5 bg-white border border-slate-200 hover:bg-slate-50 text-slate-600 rounded-xl text-sm font-bold disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-sm"
+                  >
+                    Sebelumnya
+                  </button>
+                  <span className="text-sm font-bold text-slate-400">
+                    Halaman <span className="text-slate-700">{currentPage}</span> dari <span className="text-slate-700">{totalUniPages}</span>
+                  </span>
+                  <button 
+                    onClick={() => setCurrentPage(p => Math.min(totalUniPages, p + 1))}
+                    disabled={currentPage === totalUniPages}
+                    className="px-5 py-2.5 bg-white border border-slate-200 hover:bg-slate-50 text-slate-600 rounded-xl text-sm font-bold disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-sm"
+                  >
+                    Selanjutnya
+                  </button>
+                </div>
               )}
             </div>
           )}
@@ -297,7 +336,7 @@ export default function AdminScraperPage() {
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-slate-100">
-                    {filteredMajors.map(m => (
+                    {paginatedMajors.map(m => (
                       <tr key={m.id} className="hover:bg-slate-50/30">
                         <td className="py-3.5 px-5">
                           <span className="font-mono text-slate-600 font-semibold">{m.code}</span>
@@ -328,6 +367,29 @@ export default function AdminScraperPage() {
                   </tbody>
                 </table>
               </div>
+              
+              {/* Pagination Controls */}
+              {totalMajorPages > 1 && (
+                <div className="flex justify-center items-center gap-4 p-6 border-t border-slate-100">
+                  <button 
+                    onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+                    disabled={currentPage === 1}
+                    className="px-5 py-2.5 bg-white border border-slate-200 hover:bg-slate-50 text-slate-600 rounded-xl text-sm font-bold disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-sm"
+                  >
+                    Sebelumnya
+                  </button>
+                  <span className="text-sm font-bold text-slate-400">
+                    Halaman <span className="text-slate-700">{currentPage}</span> dari <span className="text-slate-700">{totalMajorPages}</span>
+                  </span>
+                  <button 
+                    onClick={() => setCurrentPage(p => Math.min(totalMajorPages, p + 1))}
+                    disabled={currentPage === totalMajorPages}
+                    className="px-5 py-2.5 bg-white border border-slate-200 hover:bg-slate-50 text-slate-600 rounded-xl text-sm font-bold disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-sm"
+                  >
+                    Selanjutnya
+                  </button>
+                </div>
+              )}
             </div>
           )}
 

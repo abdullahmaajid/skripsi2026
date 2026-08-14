@@ -42,6 +42,10 @@ export default function AdminTryoutsPage() {
   const [subjects, setSubjects] = useState<Subject[]>([])
   const [loading, setLoading] = useState(true)
 
+  // Pagination
+  const [currentPage, setCurrentPage] = useState(1)
+  const itemsPerPage = 10
+
   // Selected tryout for section management
   const [selectedTryout, setSelectedTryout] = useState<ExamTemplate | null>(null)
   const [sections, setSections] = useState<ExamSection[]>([])
@@ -193,7 +197,7 @@ export default function AdminTryoutsPage() {
             </div>
 
             <div className="space-y-4">
-              {tryouts.map(t => (
+              {tryouts.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage).map(t => (
                 <div 
                   key={t.id} 
                   onClick={() => loadSections(t)}
@@ -223,6 +227,29 @@ export default function AdminTryoutsPage() {
               ))}
               {tryouts.length === 0 && (
                 <div className="text-center py-16 text-slate-400 border border-dashed border-slate-200 rounded-[2rem]">Belum ada paket Tryout terdaftar</div>
+              )}
+              
+              {/* Pagination Controls */}
+              {Math.ceil(tryouts.length / itemsPerPage) > 1 && (
+                <div className="flex justify-center items-center gap-4 py-2">
+                  <button 
+                    onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+                    disabled={currentPage === 1}
+                    className="px-4 py-2 bg-white border border-slate-200 hover:bg-slate-50 text-slate-600 rounded-xl text-sm font-bold disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-sm"
+                  >
+                    Sebelumnya
+                  </button>
+                  <span className="text-sm font-bold text-slate-400">
+                    <span className="text-slate-700">{currentPage}</span> / <span className="text-slate-700">{Math.ceil(tryouts.length / itemsPerPage)}</span>
+                  </span>
+                  <button 
+                    onClick={() => setCurrentPage(p => Math.min(Math.ceil(tryouts.length / itemsPerPage), p + 1))}
+                    disabled={currentPage === Math.ceil(tryouts.length / itemsPerPage)}
+                    className="px-4 py-2 bg-white border border-slate-200 hover:bg-slate-50 text-slate-600 rounded-xl text-sm font-bold disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-sm"
+                  >
+                    Selanjutnya
+                  </button>
+                </div>
               )}
             </div>
           </div>
