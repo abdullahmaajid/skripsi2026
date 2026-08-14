@@ -120,14 +120,14 @@ export default function AdminPage() {
             <h2 className="text-lg font-bold text-slate-700 mb-4">Statistik Sistem</h2>
             <div className="grid grid-cols-1 md:grid-cols-12 gap-5">
               {/* Primary Stat - Very Large */}
-              <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="col-span-1 md:col-span-8 bg-indigo-500 rounded-3xl p-6 md:p-8 text-white relative overflow-hidden min-h-[200px] flex flex-col justify-between">
+              <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="col-span-1 md:col-span-8 bg-[var(--accent)] rounded-3xl p-6 md:p-8 text-white relative overflow-hidden min-h-[200px] flex flex-col justify-between">
                 <div className="relative z-10">
-                  <h3 className="text-indigo-100 font-medium text-xs md:text-sm uppercase tracking-wider flex items-center gap-2"><Users className="w-5 h-5 text-indigo-300" /> Siswa Aktif Terdaftar</h3>
+                  <h3 className="text-white/90 font-medium text-xs md:text-sm uppercase tracking-wider flex items-center gap-2"><Users className="w-5 h-5 text-white/70" /> Siswa Aktif Terdaftar</h3>
                   <p className="text-white/80 text-xs mt-2 max-w-sm leading-relaxed hidden sm:block">Total pengguna dengan role STUDENT di platform Lexica yang sedang mempersiapkan diri untuk UTBK SNBT.</p>
                 </div>
                 <div className="relative z-10 mt-6 flex items-baseline gap-2">
                   <span className="text-6xl md:text-7xl font-black tracking-tighter">{stats?.users.students.toLocaleString("id-ID") || 0}</span>
-                  <span className="text-indigo-200 font-bold text-lg md:text-xl">Siswa</span>
+                  <span className="text-white/80 font-bold text-lg md:text-xl">Siswa</span>
                 </div>
               </motion.div>
               
