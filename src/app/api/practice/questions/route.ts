@@ -31,16 +31,25 @@ export async function GET(req: NextRequest) {
     }
 
     const safeLimit = Math.min(limit, 50)
-    const chapterIdsJoined = Prisma.join(chapterIds)
 
-    // Fetch random question IDs (using raw SQL for true randomness)
-    const randomIdsResult = await prisma.$queryRaw<{id: string}[]>`
-      SELECT id FROM "Question"
-      WHERE "chapterId" IN (${chapterIdsJoined})
-      ORDER BY RANDOM()
-      LIMIT ${safeLimit}
-    `
-    const randomIds = randomIdsResult.map(r => r.id)
+    // Optimization: Avoid ORDER BY RANDOM() in SQL for better database performance.
+    // Instead, fetch all matching IDs, shuffle them in memory, and pick the required amount.
+    const allMatchingQuestions = await prisma.question.findMany({
+      where: { chapterId: { in: chapterIds } },
+      select: { id: true },
+    })
+
+    if (allMatchingQuestions.length === 0) {
+      return NextResponse.json({ questions: [] })
+    }
+
+    // Fisher-Yates shuffle algorithm for true randomness
+    for (let i = allMatchingQuestions.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [allMatchingQuestions[i], allMatchingQuestions[j]] = [allMatchingQuestions[j], allMatchingQuestions[i]];
+    }
+
+    const randomIds = allMatchingQuestions.slice(0, safeLimit).map(q => q.id)
 
     if (randomIds.length === 0) {
       return NextResponse.json({ questions: [] })
