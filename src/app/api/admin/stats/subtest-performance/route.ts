@@ -49,7 +49,10 @@ export async function GET() {
       averageScore: count > 0 ? sum / count : 0,
     }));
 
-    return NextResponse.json({ data });
+    return NextResponse.json(
+      { data },
+      { headers: { "Cache-Control": "public, s-maxage=300, stale-while-revalidate=600" } }
+    );
   } catch (error) {
     console.error("Subtest performance API error:", error);
     return NextResponse.json({ error: "Gagal memuat performa subtes" }, { status: 500 });

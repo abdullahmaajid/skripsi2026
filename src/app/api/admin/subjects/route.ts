@@ -24,7 +24,10 @@ export async function GET() {
       },
       orderBy: { name: "asc" }
     })
-    return NextResponse.json({ data: subjects })
+    return NextResponse.json(
+      { data: subjects },
+      { headers: { "Cache-Control": "public, s-maxage=300, stale-while-revalidate=600" } }
+    )
   } catch (error) {
     console.error("GET subjects error:", error)
     return NextResponse.json({ error: "Gagal memuat mata pelajaran" }, { status: 500 })
