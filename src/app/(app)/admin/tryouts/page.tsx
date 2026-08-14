@@ -169,7 +169,7 @@ export default function AdminTryoutsPage() {
         icon={<NotebookPen className="w-8 h-8" />}
         badgeText="KELOLA UJIAN"
         stats={[
-          { label: "Total Paket", value: tryouts.length, icon: <BookOpen className="w-3.5 h-3.5" /> },
+          { label: "Total Paket", value: tryouts.length },
         ]}
         infoTitle="Penting untuk diketahui saat menyusun Tryout:"
         infoList={[

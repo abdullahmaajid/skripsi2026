@@ -50,8 +50,7 @@ export function AdminPageHeader({
             <div className="flex gap-4">
                 {stats.map((stat, idx) => (
                   <div key={idx} className="bg-white/70 backdrop-blur-sm border border-white/60 shadow-[0_4px_20px_rgba(0,0,0,0.02)] p-4 rounded-2xl text-center min-w-[120px] transition-all hover:bg-white/90">
-                    <p className={`text-[10px] uppercase font-bold mb-1 flex items-center justify-center gap-1.5 ${idx % 2 === 0 ? "text-slate-500" : "text-[var(--accent)]"}`}>
-                      {stat.icon}
+                    <p className={`text-[10px] uppercase font-bold mb-1 ${idx % 2 === 0 ? "text-slate-500" : "text-[var(--accent)]"}`}>
                       {stat.label}
                     </p>
                     <p className={`text-2xl font-black ${idx % 2 === 0 ? "text-slate-800" : "text-[var(--accent-dark)]"}`}>

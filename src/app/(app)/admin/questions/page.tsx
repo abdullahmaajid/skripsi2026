@@ -238,8 +238,8 @@ export default function AdminQuestionsPage() {
           "Soal dikelompokkan ke dalam Bab Materi tertentu untuk memastikan sebaran tryout merata."
         ]}
         stats={[
-          { label: "Total Bab", value: chapters.length, icon: <Layers className="w-3.5 h-3.5" /> },
-          { label: "Total Soal", value: questions.length, icon: <FileText className="w-3.5 h-3.5" /> },
+          { label: "Total Bab", value: chapters.length },
+          { label: "Total Soal", value: questions.length },
         ]}
       />
 

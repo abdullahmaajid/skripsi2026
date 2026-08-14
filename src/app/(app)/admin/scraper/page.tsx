@@ -178,8 +178,8 @@ export default function AdminScraperPage() {
           "Jika data Prodi tidak lengkap, rekomendasi jurusan di dasbor siswa tidak akan akurat."
         ]}
         stats={[
-          { label: "Universitas", value: universities.length, icon: <GraduationCap className="w-3.5 h-3.5" /> },
-          { label: "Total Prodi", value: majors.length, icon: <BookOpen className="w-3.5 h-3.5" /> },
+          { label: "Universitas", value: universities.length },
+          { label: "Total Prodi", value: majors.length },
         ]}
       />
 

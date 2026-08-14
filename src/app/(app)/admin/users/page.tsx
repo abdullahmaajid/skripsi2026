@@ -280,8 +280,8 @@ export default function AdminUsersPage() {
           "Hapus pengguna hanya jika benar-benar melanggar ketentuan, karena aksi ini permanen."
         ]}
         stats={[
-          { label: "Total Siswa", value: totalStudents, icon: <User className="w-3.5 h-3.5" /> },
-          { label: "Rata-rata Theta", value: avgTheta.toFixed(2), icon: <Activity className="w-3.5 h-3.5" /> },
+          { label: "Total Siswa", value: totalStudents },
+          { label: "Rata-rata Theta", value: avgTheta.toFixed(2) },
         ]}
       >
         <div className="flex-1"></div>
