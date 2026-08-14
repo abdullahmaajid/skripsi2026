@@ -59,6 +59,15 @@ export default function AdminQuestionsPage() {
   const [filterSubjectId, setFilterSubjectId] = useState("")
   const [filterChapterId, setFilterChapterId] = useState("")
   const [searchQuery, setSearchQuery] = useState("")
+  
+  // Pagination
+  const [currentPage, setCurrentPage] = useState(1)
+  const itemsPerPage = 20
+
+  // Reset page when filter changes
+  useEffect(() => {
+    setCurrentPage(1)
+  }, [filterSubjectId, filterChapterId, searchQuery])
 
   const openPanel = useAdminPanelStore(s => s.openPanel)
   const closePanel = useAdminPanelStore(s => s.closePanel)
@@ -218,6 +227,9 @@ export default function AdminQuestionsPage() {
     const matchSearch = searchQuery ? q.text.toLowerCase().includes(searchQuery.toLowerCase()) : true
     return matchSubject && matchChapter && matchSearch
   })
+
+  const paginatedQuestions = filteredQuestions.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage)
+  const totalPages = Math.ceil(filteredQuestions.length / itemsPerPage)
 
   const filteredChapters = chapters.filter(c => {
     return filterSubjectId ? c.subjectId === filterSubjectId : true
@@ -389,7 +401,7 @@ export default function AdminQuestionsPage() {
               </div>
 
               <div className="space-y-4">
-                {filteredQuestions.map((q, idx) => (
+                {paginatedQuestions.map((q, idx) => (
                   <div key={q.id} className="bg-white border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.01)] rounded-2xl p-5 hover:border-slate-200 transition-all">
                     <div className="flex justify-between items-start gap-4">
                       <div className="flex-1 space-y-3">
@@ -401,7 +413,7 @@ export default function AdminQuestionsPage() {
                         </div>
                         
                         <div className="text-slate-800 text-sm font-medium flex gap-2">
-                          <span className="shrink-0">{idx + 1}.</span>
+                          <span className="shrink-0">{(currentPage - 1) * itemsPerPage + idx + 1}.</span>
                           <div className="flex-1 min-w-0"><MarkdownRenderer content={q.text} /></div>
                         </div>
                         {q.imageUrl && (
@@ -430,6 +442,29 @@ export default function AdminQuestionsPage() {
                 ))}
                 {filteredQuestions.length === 0 && (
                   <div className="text-center py-16 text-slate-400 border border-dashed border-slate-200 rounded-2xl">Tidak ada soal yang sesuai filter</div>
+                )}
+                
+                {/* Pagination Controls */}
+                {totalPages > 1 && (
+                  <div className="flex justify-center items-center gap-4 py-6">
+                    <button 
+                      onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+                      disabled={currentPage === 1}
+                      className="px-5 py-2.5 bg-white border border-slate-200 hover:bg-slate-50 text-slate-600 rounded-xl text-sm font-bold disabled:opacity-50 disabled:cursor-not-allowed transition-all"
+                    >
+                      Sebelumnya
+                    </button>
+                    <span className="text-sm font-bold text-slate-400">
+                      Halaman <span className="text-slate-700">{currentPage}</span> dari <span className="text-slate-700">{totalPages}</span>
+                    </span>
+                    <button 
+                      onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+                      disabled={currentPage === totalPages}
+                      className="px-5 py-2.5 bg-white border border-slate-200 hover:bg-slate-50 text-slate-600 rounded-xl text-sm font-bold disabled:opacity-50 disabled:cursor-not-allowed transition-all"
+                    >
+                      Selanjutnya
+                    </button>
+                  </div>
                 )}
               </div>
             </div>
