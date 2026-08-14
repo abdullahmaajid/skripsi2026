@@ -53,9 +53,9 @@ Siswa dapat memantau kemajuan belajar mereka per bab atau topik, dengan indikato
 
 Fitur standar untuk registrasi, login, dan pengelolaan profil pengguna. Siswa dapat memasukkan informasi pribadi, riwayat sekolah, dan pilihan target jurusan/universitas impian mereka.
 
-### 8. Ekstraksi Soal via PDF (PDF Parsing)
+### 8. Ekstraksi Soal via PDF (PDF Parsing - Developer Tool)
 
-Dilengkapi dengan *tools* untuk mengekstrak dan mem-parsing data soal langsung dari dokumen PDF. Memudahkan admin dalam mengimpor ribuan soal secara otomatis ke dalam *database* tanpa *data entry* manual.
+Dilengkapi dengan kumpulan *script* khusus (*developer tools*) untuk mengekstrak dan mem-parsing data soal langsung dari dokumen PDF. Fitur internal ini dirancang untuk memudahkan developer dalam memigrasi dan mengimpor ribuan data soal secara otomatis ke dalam *database* tanpa perlu melakukan *data entry* manual.
 
 ### 9. Optimasi Skalabilitas & Performa (Enterprise-Grade)
 
