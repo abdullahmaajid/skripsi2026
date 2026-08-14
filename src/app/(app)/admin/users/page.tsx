@@ -281,7 +281,6 @@ export default function AdminUsersPage() {
         ]}
         stats={[
           { label: "Total Siswa", value: totalStudents, icon: <User className="w-3.5 h-3.5" /> },
-          { label: "Admin", value: totalAdmins, icon: <Shield className="w-3.5 h-3.5" /> },
           { label: "Rata-rata Theta", value: avgTheta.toFixed(2), icon: <Activity className="w-3.5 h-3.5" /> },
         ]}
       >

@@ -180,7 +180,6 @@ export default function AdminScraperPage() {
         stats={[
           { label: "Universitas", value: universities.length, icon: <GraduationCap className="w-3.5 h-3.5" /> },
           { label: "Total Prodi", value: majors.length, icon: <BookOpen className="w-3.5 h-3.5" /> },
-          { label: "Lokasi / Provinsi", value: uniqueLocations.length, icon: <MapPin className="w-3.5 h-3.5" /> },
         ]}
       />
 
