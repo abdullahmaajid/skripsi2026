@@ -44,6 +44,8 @@ export default function AdminScraperPage() {
 
   // Search & Filter
   const [searchQuery, setSearchQuery] = useState("")
+  const [filterUniId, setFilterUniId] = useState("")
+  const [filterLocation, setFilterLocation] = useState("")
   
   // Pagination
   const [currentPage, setCurrentPage] = useState(1)
@@ -52,8 +54,6 @@ export default function AdminScraperPage() {
   useEffect(() => {
     setCurrentPage(1)
   }, [activeTab, filterLocation, filterUniId, searchQuery])
-  const [filterUniId, setFilterUniId] = useState("")
-  const [filterLocation, setFilterLocation] = useState("")
 
   const openPanel = useAdminPanelStore(s => s.openPanel)
   const closePanel = useAdminPanelStore(s => s.closePanel)
