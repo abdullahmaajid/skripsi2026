@@ -2,9 +2,10 @@
 
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
-import { ChevronDown, Search, Plus, Edit2, Trash2, BookOpen, Layers, HelpCircle, Check, Loader2, ArrowLeft, Upload } from "lucide-react"
+import { ArrowLeft, Loader2, Plus, HelpCircle, FileText, Database, BookOpen, Layers, Edit2, Trash2, Search, Check, ChevronDown, Upload } from "lucide-react"
 import MarkdownRenderer from "@/components/ui/MarkdownRenderer"
 import { useAdminPanelStore } from "@/store/useAdminPanelStore"
+import { AdminPageHeader } from "@/components/layout/AdminPageHeader"
 import { SubjectFormPanel, ChapterFormPanel, QuestionFormPanel } from "./components"
 import toast from "react-hot-toast"
 
@@ -225,10 +226,16 @@ export default function AdminQuestionsPage() {
   return (
     <div className="p-6 md:p-8 space-y-6 h-full overflow-y-auto no-scrollbar">
       {/* Top Header */}
-      <div>
-        <h1 className="text-3xl font-bold text-slate-800 tracking-tight">Bank Soal &amp; Kurikulum</h1>
-        <p className="text-sm text-slate-500 mt-1">Kelola konten materi ujian UTBK yang mencakup mata pelajaran, bab belajar, dan detail soal.</p>
-      </div>
+      <AdminPageHeader
+        title="Bank Soal & Kurikulum"
+        subtitle="Kelola konten materi ujian UTBK yang mencakup mata pelajaran, bab belajar, dan detail soal."
+        icon={<Database className="w-8 h-8" />}
+        stats={[
+          { label: "Mata Pelajaran", value: subjects.length, icon: <BookOpen className="w-3.5 h-3.5" /> },
+          { label: "Total Bab", value: chapters.length, icon: <Layers className="w-3.5 h-3.5" /> },
+          { label: "Total Soal", value: totalQuestions, icon: <FileText className="w-3.5 h-3.5" /> },
+        ]}
+      />
 
       {/* Tabs Menu */}
       <div className="flex border-b border-slate-100 gap-1.5 overflow-x-auto no-scrollbar w-full">

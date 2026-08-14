@@ -2,8 +2,9 @@
 
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
-import { ArrowLeft, Plus, Edit2, Trash2, Loader2, FileText, Layers, Clock, Settings, ShieldAlert, Check } from "lucide-react"
+import { ArrowLeft, Loader2, Plus, Edit2, Trash2, Clock, Layers, NotebookPen, BookOpen, FileText, Settings, ShieldAlert, Check } from "lucide-react"
 import { useAdminPanelStore } from "@/store/useAdminPanelStore"
+import { AdminPageHeader } from "@/components/layout/AdminPageHeader"
 import { TryoutFormPanel, SectionFormPanel } from "./components"
 import toast from "react-hot-toast"
 
@@ -162,10 +163,14 @@ export default function AdminTryoutsPage() {
   return (
     <div className="p-6 md:p-8 space-y-6 h-full overflow-y-auto no-scrollbar">
       {/* Top Header */}
-      <div>
-        <h1 className="text-3xl font-bold text-slate-800 tracking-tight">Manajemen Tryout</h1>
-        <p className="text-sm text-slate-500 mt-1">Buat paket simulasi Tryout SNBT dan susun subtes/seksi materi ujian beserta alokasi waktu menitnya.</p>
-      </div>
+      <AdminPageHeader
+        title="Manajemen Tryout"
+        subtitle="Buat paket simulasi Tryout SNBT dan susun subtes/seksi materi ujian beserta alokasi waktu menitnya."
+        icon={<NotebookPen className="w-8 h-8" />}
+        stats={[
+          { label: "Total Paket", value: tryouts.length, icon: <BookOpen className="w-3.5 h-3.5" /> },
+        ]}
+      />
 
       {loading ? (
         <div className="flex justify-center py-20"><Loader2 className="w-8 h-8 text-[var(--accent)] animate-spin" /></div>

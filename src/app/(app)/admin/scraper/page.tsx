@@ -2,8 +2,9 @@
 
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
-import { ArrowLeft, Plus, Edit2, Trash2, Loader2, GraduationCap, BookOpen, Search } from "lucide-react"
+import { ArrowLeft, Loader2, Plus, Edit2, Trash2, Search, GraduationCap, MapPin, Building, BookOpen, Layers } from "lucide-react"
 import { useAdminPanelStore } from "@/store/useAdminPanelStore"
+import { AdminPageHeader } from "@/components/layout/AdminPageHeader"
 import { UniFormPanel, MajorFormPanel } from "./components"
 import toast from "react-hot-toast"
 
@@ -165,10 +166,16 @@ export default function AdminScraperPage() {
   return (
     <div className="p-6 md:p-8 space-y-6 h-full overflow-y-auto no-scrollbar">
       {/* Top Header */}
-      <div>
-        <h1 className="text-3xl font-bold text-slate-800 tracking-tight">Universitas &amp; Jurusan (PTN)</h1>
-        <p className="text-sm text-slate-500 mt-1">Kelola data universitas negeri/swasta beserta daftar program studi, kuota tampung, dan nilai passing grade.</p>
-      </div>
+      <AdminPageHeader
+        title="Universitas & Jurusan (PTN)"
+        subtitle="Kelola data universitas negeri/swasta beserta daftar program studi, kuota tampung, dan nilai passing grade."
+        icon={<Building className="w-8 h-8" />}
+        stats={[
+          { label: "Universitas", value: universities.length, icon: <GraduationCap className="w-3.5 h-3.5" /> },
+          { label: "Total Prodi", value: majors.length, icon: <BookOpen className="w-3.5 h-3.5" /> },
+          { label: "Lokasi / Provinsi", value: uniqueLocations.length, icon: <MapPin className="w-3.5 h-3.5" /> },
+        ]}
+      />
 
       {/* Tabs */}
       <div className="flex border-b border-slate-100 gap-1.5">

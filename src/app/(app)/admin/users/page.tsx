@@ -4,6 +4,7 @@ import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
 import { ArrowLeft, Loader2, Users, Plus, Edit2, Trash2, Shield, User, Key, Flame, Activity } from "lucide-react"
 import { useAdminPanelStore } from "@/store/useAdminPanelStore"
+import { AdminPageHeader } from "@/components/layout/AdminPageHeader"
 import toast from "react-hot-toast"
 
 interface UserData {
@@ -267,15 +268,21 @@ export default function AdminUsersPage() {
   return (
     <div className="p-6 md:p-8 space-y-8 h-full overflow-y-auto no-scrollbar">
       {/* Top Navigation & Header */}
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-        <div>
-          <h1 className="text-3xl font-bold text-slate-800 tracking-tight">Manajemen User</h1>
-          <p className="text-sm text-slate-500 mt-1">Kelola akun siswa dan administrator, ubah hak akses, dan pantau performa IRT siswa.</p>
-        </div>
+      <AdminPageHeader
+        title="Manajemen User"
+        subtitle="Kelola akun siswa dan administrator, ubah hak akses, dan pantau performa IRT siswa."
+        icon={<Users className="w-8 h-8" />}
+        stats={[
+          { label: "Total Siswa", value: totalStudents, icon: <User className="w-3.5 h-3.5" /> },
+          { label: "Admin", value: totalAdmins, icon: <Shield className="w-3.5 h-3.5" /> },
+          { label: "Rata-rata Theta", value: avgTheta.toFixed(2), icon: <Activity className="w-3.5 h-3.5" /> },
+        ]}
+      >
+        <div className="flex-1"></div>
         <button onClick={openAddUser} className="flex items-center gap-2 px-5 py-2.5 bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white font-bold text-sm rounded-xl transition-all shadow-sm shrink-0">
           <Plus className="w-4 h-4" /> Tambah User
         </button>
-      </div>
+      </AdminPageHeader>
 
       {/* Summary Cards */}
       {!loading && users.length > 0 && (
