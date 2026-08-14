@@ -11,6 +11,30 @@ interface MarkdownRendererProps {
   variant?: "light" | "dark"  // dark = white text on colored bg (chat bubble)
 }
 
+// Pre-process raw LaTeX so that un-wrapped \begin{...} \end{...} gets wrapped in $$
+// and fixes single backslash newline typos from JSON stringification.
+const preprocessLaTeX = (text: string) => {
+  if (!text) return "";
+  
+  // Find \begin{...} blocks
+  const envRegex = /(\\begin{[a-zA-Z*]+}[\s\S]*?\\end{[a-zA-Z*]+})/g;
+  
+  return text.replace(envRegex, (match, p1, offset, string) => {
+    // Check if it's already wrapped in $ or $$
+    const before = string.slice(Math.max(0, offset - 2), offset);
+    const after = string.slice(offset + match.length, offset + match.length + 2);
+    
+    // Fix single backslash newlines (e.g., "\ " -> "\\ ") which is a common parsing error
+    let fixedMatch = match.replace(/\\ /g, '\\\\ ');
+    
+    if (before.includes('$') || after.includes('$')) {
+      return fixedMatch;
+    }
+    
+    return `\n$$\n${fixedMatch}\n$$\n`;
+  });
+}
+
 export default function MarkdownRenderer({ content, className = "", variant = "light" }: MarkdownRendererProps) {
   const isDark = variant === "dark"
 
@@ -25,6 +49,8 @@ export default function MarkdownRenderer({ content, className = "", variant = "l
   const quoteBg = isDark ? "border-white/40 bg-white/5" : "border-[var(--accent)] bg-[var(--pastel-purple)]"
   const quoteText = isDark ? "text-white/90" : "text-slate-700"
   const hrColor = isDark ? "border-white/10" : "border-slate-100"
+
+  const processedContent = preprocessLaTeX(content)
 
   return (
     <div className={`markdown-prose ${className}`}>
@@ -111,7 +137,7 @@ export default function MarkdownRenderer({ content, className = "", variant = "l
           ),
         }}
       >
-        {content}
+        {processedContent}
       </ReactMarkdown>
     </div>
   )
