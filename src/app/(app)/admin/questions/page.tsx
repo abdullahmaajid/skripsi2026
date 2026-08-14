@@ -66,6 +66,7 @@ export default function AdminQuestionsPage() {
   const [totalQPages, setTotalQPages] = useState(1)
   const [totalCPages, setTotalCPages] = useState(1)
   const [totalQCount, setTotalQCount] = useState(0)
+  const [totalCCount, setTotalCCount] = useState(0)
   const itemsPerPage = 20
 
   // Debounce search
@@ -108,7 +109,10 @@ export default function AdminQuestionsPage() {
         const dataChapters = await resChapters.json()
         const dataSubjects = await resSubjects.json()
         setChapters(dataChapters.data || [])
-        if (dataChapters.meta) setTotalCPages(dataChapters.meta.totalPages || 1)
+        if (dataChapters.meta) {
+          setTotalCPages(dataChapters.meta.totalPages || 1)
+          setTotalCCount(dataChapters.meta.total || 0)
+        }
         setSubjects(dataSubjects.data || [])
       } else {
         if (debouncedSearch) params.append("search", debouncedSearch)
@@ -127,6 +131,9 @@ export default function AdminQuestionsPage() {
         if (dataQ.meta) {
           setTotalQPages(dataQ.meta.totalPages || 1)
           setTotalQCount(dataQ.meta.total || 0)
+        }
+        if (dataC.meta) {
+          setTotalCCount(dataC.meta.total || 0)
         }
         setChapters(dataC.data || [])
         setSubjects(dataS.data || [])
@@ -265,8 +272,8 @@ export default function AdminQuestionsPage() {
           "Soal dikelompokkan ke dalam Bab Materi tertentu untuk memastikan sebaran tryout merata."
         ]}
         stats={[
-          { label: "Total Bab", value: chapters.length },
-          { label: "Total Soal", value: questions.length },
+          { label: "Total Bab", value: totalCCount },
+          { label: "Total Soal", value: totalQCount },
         ]}
       />
 
