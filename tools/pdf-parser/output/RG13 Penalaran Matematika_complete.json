@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Tari saman merupakan tarian tradisional dari daerah Aceh yang dimainkan dengan jumlah penari ganjil. Tari jaipong merupakan tarian tradisional dari daerah Jawa Barat yang dimainkan secara berpasangan. Diketahui terdapat 25 siswa yang akan dibagi ke dalam beberapa kelompok untuk memainkan dua tarian tersebut. Jika setiap kelompok tari saman terdiri dari 7 orang dan semua siswa harus ikut menari, banyak cara menentukan jumlah kelompok yang mungkin adalah ....",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan data pace rata-rata lima orang pelari pada tabel berikut! Pace merupakan suatu besaran yang menyatakan waktu yang dibutuhkan untuk menempuh jarak tertentu. Jika pada suatu perlombaan, jarak lintasan lari yang harus ditempuh kelima pelari tersebut adalah 10 km, pernyataan berikut ini yang tepat adalah ...",
+      "options": [
+        "Pelari A dan C menyelesaikan perlombaan melebihi 1,5 jam.",
+        "Pelari C merupakan pelari pertama yang menyentuh garis finis.",
+        "Pelari D merupakan pelari terakhir yang menyentuh garis finis.",
+        "Pelari B, D, dan E menyelesaikan perlombaan dalam waktu kurang dari 1 jam.",
+        "Hanya pelari D yang berhasil menyelesaikan perlombaan dalam waktu kurang dari 1 jam."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui banyak kacang hijau tanpa kulit yang digunakan adalah $\\frac{4}{5}$ dari banyak tepung ketan. Sementara itu, banyak gula pasir yang digunakan untuk membuat kulit kue sama dengan 25% dari banyak gula pasir yang digunakan untuk membuat isian kue. Jika $a - \\frac{3}{4}b = c$, perbandingan banyak santan yang digunakan untuk membuat isian kue dan kulit kue adalah ....",
+      "options": [
+        "1 : 10",
+        "1 : 5",
+        "2 : 5",
+        "3 : 5",
+        "4 : 5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Prinda, Qeisya, dan Resti memiliki beberapa jenis buah favorit yang saling beririsan satu sama lain. Prinda menyukai 8 jenis buah, Resti menyukai 11 jenis buah, dan Qeisya menyukai 12 jenis buah. Qeisya menyukai 5 jenis buah favorit Resti. Diketahui terdapat 2 jenis buah favorit ketiganya dan 2 jenis buah yang hanya disukai Prinda dan Resti. Sementara itu, terdapat 2 jenis buah hanya disukai oleh Prinda. Jika tidak ada jenis buah yang sama sekali tidak disukai ketiganya, banyak jenis buah yang hanya disukai oleh Qeisya adalah ... buah.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Di toko sembako milik Pak Tono, terdapat 28 karung gula yang masing-masing beratnya sama. Pak Tono mengirimkan $\\frac{2}{5}$ gula di tokonya ke toko Pak Musri. Kemudian, $\\frac{3}{4}$ dari sisa gula yang ada dikirimkan ke toko Bu Dhilah. Selanjutnya, $\\frac{1}{2}$ dari gula yang tersisa dikirimkan ke toko Pak Bagus. Jika setelah pengiriman ke tiga toko tersebut, gula yang tersisa adalah 294 kg, berat gula yang ada pada masing-masing karung mula-mula adalah ... kg.",
+      "options": [
+        "140",
+        "145",
+        "168",
+        "190",
+        "196"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bu Andin berbelanja di warung Bu Entin setiap 4 hari sekali. Bu Bunga, Bu Cindra, dan Bu Desi berbelanja di warung Bu Entin berturut-turut setiap 9 hari sekali, 3 hari sekali, dan 6 hari sekali. Diketahui mereka berempat berbelanja bersama di warung Bu Entin pada tanggal 20 Oktober 2022. Jika Bu Entin akan pergi ke pasar dua hari sebelum mereka berempat berbelanja bersama lagi dalam waktu terdekat, Bu Entin akan pergi ke pasar pada tanggal ... November 2022.",
+      "options": [
+        "23",
+        "24",
+        "25",
+        "26",
+        "28"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan grafik tersebut, selisih volume air di tangki A dan B pada pukul 13.00 adalah ... liter.",
+      "options": [
+        "300",
+        "350",
+        "400",
+        "450",
+        "500"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan grafik tersebut, laju rata-rata pertambahan volume air pada tangki B dari pukul 13.00 sampai pukul 17.00 adalah ... liter/jam.",
+      "options": [
+        "18,75",
+        "25,5",
+        "37,5",
+        "45,5",
+        "57,5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Isoton dari atom $_{19}^{39}\\text{K}$ adalah ....",
+      "options": [
+        "$_{20}^{40}\\text{Ca}$",
+        "$_{18}^{39}\\text{Ar}$",
+        "$_{36}^{84}\\text{Kr}$",
+        "$_{16}^{32}\\text{S}$",
+        "$_{19}^{41}\\text{K}$"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan data tersebut, urutan negara yang memproduksi total energi listrik dari yang terkecil hingga terbesar pada tahun 2010 sampai 2012 adalah ....",
+      "options": [
+        "Jepang, Tiongkok, Rusia, dan Prancis",
+        "Jepang, Rusia, Prancis, dan Tiongkok",
+        "Tiongkok, Jepang, Rusia, dan Prancis",
+        "Tiongkok, Rusia, Jepang, dan Prancis",
+        "Rusia, Tiongkok, Prancis, dan Jepang"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang sesuai dengan grafik pertumbuhan bakteri pengurai tersebut adalah ...",
+      "options": [
+        "Selisih jumlah koloni bakteri antara hari ke-20 dan 40 adalah $5 \\times 10^8$.",
+        "Jumlah koloni bakteri pada hari ke-10 dan 50 bernilai sama.",
+        "Jumlah koloni bakteri mencapai puncaknya pada hari ke-20.",
+        "Puncak jumlah koloni bakteri berada di angka $3,5 \\times 10^8$.",
+        "Jumlah koloni bakteri pada hari ke-10 adalah $1 \\times 10^9$."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Luas lantai bangunan Barrataga tersebut adalah ... m².",
+      "options": [
+        "154",
+        "115,5",
+        "44",
+        "38,5",
+        "22"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Luas permukaan yang tampak dari bangunan Barrataga tersebut adalah ... m².",
+      "options": [
+        "217,5",
+        "202,9",
+        "188,4",
+        "173,8",
+        "135,3"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Volume bangunan Barrataga tersebut adalah ... m³.",
+      "options": [
+        "\\frac{21.511}{240}\\pi",
+        "\\frac{14.651}{240}\\pi",
+        "\\frac{13.720}{240}\\pi",
+        "\\frac{7.791}{240}\\pi",
+        "\\frac{6.860}{240}\\pi"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika luas daerah yang berwarna oranye adalah 65 satuan luas dan luas daerah yang berwarna biru adalah 129 satuan luas, luas daerah yang berwarna merah adalah ... satuan luas.",
+      "options": [
+        "36",
+        "30",
+        "25",
+        "20",
+        "16"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sarah menghabiskan uang sebesar Rp107.000,00 untuk membeli ketiga jenis materai tersebut. Jika banyak masing-masing jenis materai yang dibeli membentuk bilangan asli berurutan, banyak materai yang dibeli Sarah adalah ....",
+      "options": [
+        "18",
+        "16",
+        "15",
+        "14",
+        "12"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika di sebuah jalan tol terdapat marka garis utuh dengan luas $60\\text{ m}^2$, sebuah mobil yang melalui marka tersebut dilarang berpindah jalur sepanjang ... m.",
+      "options": [
+        "350",
+        "400",
+        "450",
+        "500",
+        "600"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika panjang bambu ke-6 dan ke-11 pada angklung tersebut berturut-turut adalah 54 cm dan 38 cm, jumlah semua panjang bambu yang bernada \"do\" pada setiap oktaf adalah ... cm.",
+      "options": [
+        "58",
+        "68",
+        "100",
+        "126",
+        "129"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika pada tahun 2040 ada sebanyak 350 juta jiwa penduduk Indonesia, penduduk yang tidak berada pada usia produktif kurang lebih ada sebanyak ... juta jiwa.",
+      "options": [
+        "140",
+        "150",
+        "160",
+        "190",
+        "200"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dari contoh restrukturisasi kredit tersebut, selisih sisa cicilan kendaraan pelanggan tersebut sebelum dan sesudah adanya restrukturisasi kredit pada dealer X adalah ....",
+      "options": [
+        "Rp8.000.000,00",
+        "Rp6.000.000,00",
+        "Rp4.000.000,00",
+        "Rp3.000.000,00",
+        "Rp1.000.000,00"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

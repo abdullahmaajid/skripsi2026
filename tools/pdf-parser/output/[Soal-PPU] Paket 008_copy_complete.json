@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Kalimat yang tidak logis dalam bacaan di atas adalah kalimat?",
+      "options": [
+        "(1)",
+        "(7)",
+        "(6)",
+        "(4)",
+        "(5)"
+      ],
+      "correctAnswer": "(5)",
+      "explanation": null
+    },
+    {
+      "text": "Kata “bahkan” dalam kalimat 7… ide yang ada pada kalimat 6.",
+      "options": [
+        "menjelaskan",
+        "memperinci",
+        "menguraikan",
+        "mengontraskan",
+        "menegaskan"
+      ],
+      "correctAnswer": "menegaskan",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang memiliki makna denotasi dalam bacaan adalah? kecuali...",
+      "options": [
+        "(4)",
+        "(2)",
+        "(5)",
+        "(3)",
+        "(7)"
+      ],
+      "correctAnswer": "(7)",
+      "explanation": null
+    },
+    {
+      "text": "Frasa membentuk sel darah merah, kesehatan jantung, menurunkan peradangan, dan meningkatkan kecantikan Pada kalimat (8) dapat diperbaiki menjadi?",
+      "options": [
+        "pembentuk sel darah merah, kesehatan jantung, penurun peradangan, dan meningkatkan kecantikan.",
+        "kebentukan sel darah merah, kesehatan jantung, menurunkan peradangan, dan meningkatkan kecantikan.",
+        "membentuk sel darah merah, menysehatan jantung, menurunkan peradangan, dan peningkatkan kecantikan.",
+        "membentuk sel darah merah, menyehatan jantung, menurunkan peradangan, dan meningkatkan kecantikan.",
+        "membentuk sel darah merah, kesehatan jantung, menurunkan peradangan, dan meningkatkan kecantikan."
+      ],
+      "correctAnswer": "membentuk sel darah merah, kesehatan jantung, menurunkan peradangan, dan meningkatkan kecantikan.",
+      "explanation": null
+    },
+    {
+      "text": "Kata yang memiliki makna serupa dengan kata “menghilangkan” pada kalimat 6 adalah?",
+      "options": [
+        "mencairkan",
+        "menjelantahkan",
+        "meleburkan",
+        "mengeluarkan",
+        "menyampingkan"
+      ],
+      "correctAnswer": "meleburkan",
+      "explanation": null
+    },
+    {
+      "text": "Kata dalam bacaan tersebut yang memiliki makna yang sebenarnya adalah? kecuali",
+      "options": [
+        "menarik (kalimat 10)",
+        "diterbitkan(kalimat 1)",
+        "kerja (kalimat 8)",
+        "keterampilan (kalimat 9)",
+        "obrolan (kalimat 6)"
+      ],
+      "correctAnswer": "menarik (kalimat 10)",
+      "explanation": null
+    },
+    {
+      "text": "Kata “tablet” pada kalimat (2) memiliki makna bertingkat?",
+      "options": [
+        "alat",
+        "komunikasi",
+        "fasilitas",
+        "perangkat seluler",
+        "media"
+      ],
+      "correctAnswer": "perangkat seluler",
+      "explanation": null
+    },
+    {
+      "text": "Hubungan kalimat 6 dan 7 dalam bacaan di atas adalah?",
+      "options": [
+        "penambahan",
+        "pertentangan",
+        "penjelasan",
+        "penguraian",
+        "kelanjutan"
+      ],
+      "correctAnswer": "penambahan",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat (6) akan lebih bermakna bila dilengkapi dengan kata-kata?",
+      "options": [
+        "bisa-memakai",
+        "untuk-melalui",
+        "jika-akan",
+        "dengan-memakai",
+        "dapat-melalui"
+      ],
+      "correctAnswer": "dapat-melalui",
+      "explanation": null
+    },
+    {
+      "text": "Kata “menawarkan” pada kalimat 3 memiliki proses pembentukan yang serupa dengan kata?",
+      "options": [
+        "Linda membeli kue di pasar tradisional",
+        "Makanan itu rasanya menyehatkan",
+        "Dosen itu memiliki materi yang komprehensif",
+        "Ronald memakan sayur buatan ibunya",
+        "Loli memesan minuman melalui aplikasi daring"
+      ],
+      "correctAnswer": "Makanan itu rasanya menyehatkan",
+      "explanation": null
+    },
+    {
+      "text": "Bentuk me-kan pada kata menghancurkan di kalimat (1) memiliki kesamaan makna yang sama dengan…",
+      "options": [
+        "Ia memiliki mobil Ferrari.",
+        "Dalam pertemuan itu, ia sering membelikan baju untuk ayahnya",
+        "Pertemuan itu untuk melaksanakan tugas negara",
+        "korupsi merupakan tindakan tercela.",
+        "buah nanas dapat menurunkan kolesterol"
+      ],
+      "correctAnswer": "buah nanas dapat menurunkan kolesterol",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang tidak logis dalam bacaan di atas terdapat pada kalimat?",
+      "options": [
+        "(1)",
+        "(2)",
+        "(6)",
+        "(4)",
+        "(7)"
+      ],
+      "correctAnswer": "(4)",
+      "explanation": null
+    },
+    {
+      "text": "Sinonim yang tepat untuk kata “spektakuler” pada kalimat (1) adalah?",
+      "options": [
+        "bahana",
+        "luar biasa sekali",
+        "seru",
+        "dahsyat",
+        "terlampau"
+      ],
+      "correctAnswer": "dahsyat",
+      "explanation": null
+    },
+    {
+      "text": "Kata “melekat” pada kalimat (3) memiliki makna, yakni?",
+      "options": [
+        "terpaut",
+        "menempel benar-benar",
+        "terpaku pada sesuatu",
+        "terpakai pada sesuatu",
+        "karib sekali"
+      ],
+      "correctAnswer": "menempel benar-benar",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang tidak logis di bawah ini adalah?kecuali...",
+      "options": [
+        "Karla menyatakan bahwa ia tidak memiliki uang seperser pun",
+        "Mari kita lanjutkan ke acara berikutnya",
+        "Dina, seorang dokter Rumah Sakit Dr. Sardjito, memiliki anak perempuan",
+        "Dilan membelikan kepada Milea",
+        "Amanda menjelaskan mengenai khasiat wortel"
+      ],
+      "correctAnswer": "Dina, seorang dokter Rumah Sakit Dr. Sardjito, memiliki anak perempuan",
+      "explanation": null
+    },
+    {
+      "text": "Apabila gagasan di atas dipisahkan menjadi dua paragraf yang padu dan utuh, pengelompokan kalimatnya adalah?",
+      "options": [
+        "1-2-3) dan (4-5-6-7-8-9)",
+        "(1-2-3-4) dan (5-6-7-8-9)",
+        "(1-2-3-4-5) dan (6-7-8-9)",
+        "(1-2-3-4-5-6) dan (7-8-9)",
+        "(1-2-3-4-5-6-7) dan (8-9)"
+      ],
+      "correctAnswer": "(1-2-3-4-5-6) dan (7-8-9)",
+      "explanation": null
+    },
+    {
+      "text": "Kata \"likuiditas\" pada kalimat (8) mengandung makna?",
+      "options": [
+        "jatuh tempo barang",
+        "uang kas yang ada pada suatu instansi",
+        "kewajiban membayar utang pada waktunya",
+        "fluktuatif utang yang ada",
+        "pengelolaan uang kas perusahaan"
+      ],
+      "correctAnswer": "kewajiban membayar utang pada waktunya",
+      "explanation": null
+    },
+    {
+      "text": "Kata \"efek\" pada kalimat (4) berhubungan dengan kata?",
+      "options": [
+        "jera",
+        "sebab",
+        "pendorong",
+        "penghambat",
+        "dampak"
+      ],
+      "correctAnswer": "dampak",
+      "explanation": null
+    },
+    {
+      "text": "Hubungan kalimat (8) dan (9) pada kalimat di atas adalah?",
+      "options": [
+        "sebab-akibat",
+        "akibat-sebab",
+        "penambahan",
+        "pertentangan",
+        "perluasan"
+      ],
+      "correctAnswer": "sebab-akibat",
+      "explanation": null
+    },
+    {
+      "text": "\"Akar pohon itu hampir merusak bangunan di sekitarnya.\" Kalimat yang mengandung makna polisemi dengan kalimat di atas adalah?",
+      "options": [
+        "Pohon itu tumbuh di depan halaman rumahku.",
+        "dikerjakannya tugas-tugasku kemarin.",
+        "Masyarakat percaya akar masalah ini, yakni kurangnya komunikasi.",
+        "Akar tumbuhan itu berkhasiat.",
+        "Elang menanam bibit tumbuhan di depan rumahnya."
+      ],
+      "correctAnswer": "Masyarakat percaya akar masalah ini, yakni kurangnya komunikasi.",
+      "explanation": null
+    }
+  ]
+}

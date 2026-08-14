@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Pilihlah kalimat berikut ini yang menggunakan tanda baca dengan benar...",
+      "options": [
+        "Ibu membeli beberapa barang di pasar, seperti: telur. daging. dan sayur.",
+        "Ibu membeli beberapa barang di pasar. Seperti telur, daging, dan sayur.",
+        "Ibu membeli beberapa barang di pasar, seperti telur, daging, dan sayur.",
+        "Ibu membeli beberapa barang di pasar; seperti telur daging, dan sayur.",
+        "Ibu membeli beberapa barang. Di pasar, seperti telur daging, dan sayur."
+      ],
+      "correctAnswer": "Ibu membeli beberapa barang di pasar, seperti telur, daging, dan sayur.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah kalimat yang salah dalam penggunaan tanda titik?",
+      "options": [
+        "Hari ini saya membaca buku.",
+        "Buku itu adalah miliknya.",
+        "Mari kita pergi ke taman",
+        "Andi sedang belajar di kamar.",
+        "Saya minum air putih setiap hari."
+      ],
+      "correctAnswer": "Mari kita pergi ke taman",
+      "explanation": null
+    },
+    {
+      "text": "Manakah penggunaan kata depan \"ke\" yang benar?",
+      "options": [
+        "Saya akan pergi ke dalam taman sebentar.",
+        "Adik mengantar buku ini ke perpustakaan.",
+        "Kami sedang mengerjakan tugas ke sekolah.",
+        "Surat itu dikirim ke atas meja kerja Ayah.",
+        "Ibu memberikan makanan ke meja makan."
+      ],
+      "correctAnswer": "Adik mengantar buku ini ke perpustakaan.",
+      "explanation": null
+    },
+    {
+      "text": "Kata depan \"di\" digunakan dengan benar dalam kalimat...",
+      "options": [
+        "Saya menaruh buku di atas meja.",
+        "Mereka sedang berdiri di luar kota.",
+        "Kami akan pergi di taman sore nanti.",
+        "Rani menyimpan piring di dapur kepada ibu.",
+        "Kakak datang di sekolah untuk belajar."
+      ],
+      "correctAnswer": "Saya menaruh buku di atas meja.",
+      "explanation": null
+    },
+    {
+      "text": "Pilihlah kalimat dengan konjungsi waktu yang tepat...",
+      "options": [
+        "Kami belajar di rumah sebab cuaca buruk.",
+        "Mereka sedang makan ketika tamu datang.",
+        "Adik tetap bermain di luar meskipun hujan turun.",
+        "Saya membawa payung agar tidak kehujanan.",
+        "Kakak membantu ibu sehingga pekerjaan selesai cepat."
+      ],
+      "correctAnswer": "Mereka sedang makan ketika tamu datang.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah kalimat yang menggunakan konjungsi syarat dengan benar?",
+      "options": [
+        "Saya akan membantumu jika kamu memintanya.",
+        "Kami tetap berangkat meskipun hujan turun.",
+        "Dia belajar dengan giat supaya mendapatkan nilai bagus.",
+        "Anak-anak bermain di taman sebelum pulang ke rumah.",
+        "Adik menangis karena mainannya hilang."
+      ],
+      "correctAnswer": "Saya akan membantumu jika kamu memintanya.",
+      "explanation": null
+    },
+    {
+      "text": "Bacalah paragraf berikut: \"Hutan tropis memiliki peran penting bagi kehidupan di bumi. Hutan ini menghasilkan oksigen yang kita hirup setiap hari. Selain itu, hutan tropis juga menjadi habitat bagi ribuan spesies hewan dan tumbuhan.\" Gagasan pokok paragraf tersebut adalah:",
+      "options": [
+        "Hutan tropis menghasilkan oksigen.",
+        "Hutan tropis menjadi habitat berbagai spesies.",
+        "Hutan tropis memiliki peran penting bagi kehidupan.",
+        "Hutan tropis memberikan banyak manfaat.",
+        "Hutan tropis harus dilestarikan."
+      ],
+      "correctAnswer": "Hutan tropis memiliki peran penting bagi kehidupan.",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang perlu diperhatikan untuk menentukan gagasan pokok?",
+      "options": [
+        "Perhatikan semua contoh yang diberikan dalam paragraf.",
+        "Fokus pada kalimat pertama paragraf.",
+        "Temukan ide utama yang mendasari seluruh isi paragraf.",
+        "Gagasan pokok selalu berisi angka atau fakta.",
+        "Gagasan pokok selalu berada di akhir paragraf."
+      ],
+      "correctAnswer": "Temukan ide utama yang mendasari seluruh isi paragraf.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah yang merupakan contoh judul yang mencerminkan tema tentang lingkungan?",
+      "options": [
+        "\"Pendidikan untuk Masa Depan\"",
+        "\"Tantangan Global: Perubahan Iklim\"",
+        "\"Kehidupan Sosial di Kota\"",
+        "\"Ekonomi dan Kesejahteraan\"",
+        "\"Teknologi dan Inovasi\""
+      ],
+      "correctAnswer": "\"Tantangan Global: Perubahan Iklim\"",
+      "explanation": null
+    },
+    {
+      "text": "Topik utama dari sebuah artikel tentang kesehatan mental yang tepat adalah...",
+      "options": [
+        "Penyakit jantung",
+        "Pengaruh teknologi pada kesehatan",
+        "Menjaga kesehatan tubuh",
+        "Dampak stres dan kecemasan",
+        "Cara hidup sehat"
+      ],
+      "correctAnswer": "Dampak stres dan kecemasan",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang dimaksud dengan judul dalam sebuah teks?",
+      "options": [
+        "Gagasan utama yang ingin disampaikan penulis.",
+        "Kalimat pembuka yang memperkenalkan topik.",
+        "Nama atau sebutan yang diberikan untuk menggambarkan isi teks.",
+        "Pokok permasalahan yang dibahas dalam teks.",
+        "Penutupan atau kesimpulan teks."
+      ],
+      "correctAnswer": "Nama atau sebutan yang diberikan untuk menggambarkan isi teks.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah yang merupakan contoh tema tentang teknologi?",
+      "options": [
+        "Manfaat Olahraga untuk Kesehatan",
+        "Perkembangan Smartphone dan Dampaknya",
+        "Kebijakan Pemerintah dalam Bidang Pendidikan",
+        "Penyebab Polusi Udara di Kota",
+        "Keanekaragaman Hayati di Indonesia"
+      ],
+      "correctAnswer": "Perkembangan Smartphone dan Dampaknya",
+      "explanation": null
+    },
+    {
+      "text": "\"Pemanasan global adalah salah satu isu besar yang dihadapi dunia saat ini. Pemanasan global terjadi karena meningkatnya emisi gas rumah kaca akibat aktivitas manusia, seperti pembakaran bahan bakar fosil dan deforestasi. Akibatnya, suhu rata-rata permukaan bumi terus meningkat, sehingga menyebabkan ___ (13) pada pola cuaca di seluruh dunia.\" Pilihan untuk melengkapi (13) yang tepat adalah...",
+      "options": [
+        "Perbaikan",
+        "Stabilitas",
+        "Perubahan",
+        "Kehancuran",
+        "Kekacauan"
+      ],
+      "correctAnswer": "Perubahan",
+      "explanation": null
+    },
+    {
+      "text": "\"Indonesia memiliki keanekaragaman budaya yang sangat kaya. Salah satu contohnya adalah seni tari. Setiap daerah di Indonesia memiliki tarian tradisionalnya masing-masing yang menjadi cerminan budaya lokal. Tarian tradisional ini biasanya ditampilkan pada acara-acara adat, seperti pernikahan, upacara keagamaan, dan ___ (14).\" Pilihan untuk melengkapi (14) adalah...",
+      "options": [
+        "Olahraga",
+        "Festival budaya",
+        "Pendidikan formal",
+        "Acara militer",
+        "Rapat pemerintah"
+      ],
+      "correctAnswer": "Festival budaya",
+      "explanation": null
+    },
+    {
+      "text": "\"Adik bermain bola.\" Kalimat tersebut memiliki pola...",
+      "options": [
+        "S-P-Pel",
+        "S-P-K",
+        "S-P",
+        "S-P-O-K",
+        "S-P-Pel"
+      ],
+      "correctAnswer": "S-P",
+      "explanation": null
+    }
+  ]
+}

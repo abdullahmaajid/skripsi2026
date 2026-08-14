@@ -1,0 +1,304 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan bacaan di atas, tuntutan terhadap Apple terjadi akibat ...",
+      "options": [
+        "Kekeliruan Apple dalam mempromosikan AirTag sebagai alat penguntit",
+        "Keputusan Pengadilan Distrik California Utara, San Francisco, Amerika Serikat yang memenangkan penggugat",
+        "Penyalahgunaan AirTag untuk menguntit seseorang",
+        "Kekhawatiran pengguna terhadap AirTag",
+        "Kampanye media dari Apple untuk mempromosikan AirTag"
+      ],
+      "correctAnswer": "Penyalahgunaan AirTag untuk menguntit seseorang",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks tersebut, diketahui fakta-fakta berikut, kecuali ...",
+      "options": [
+        "AirTag diiklankan dalam media massa sebagai alat anti penguntit oleh Apple",
+        "Dua orang menggugat Apple atas penyalahgunaan AirTag sebagai alat penguntit",
+        "Pengadilan dilakukan di Distrik California Utara, San Francisco, Amerika Serikat",
+        "AirTag merupakan alat yang lebih besar dari koin untuk menguntit seseorang",
+        "Artikel Fast Company 22 April 2021 menyatakan AirTag merupakan alat anti penguntit"
+      ],
+      "correctAnswer": "AirTag merupakan alat yang lebih besar dari koin untuk menguntit seseorang",
+      "explanation": null
+    },
+    {
+      "text": "Pertanyaan yang bisa dibuat berdasarkan teks tersebut adalah ...",
+      "options": [
+        "Berapa banyak nominal gugatan hukum kepada Apple karena penyalahgunaan AirTag?",
+        "Kapan artikel yang berisi promosi AirTag sebagai alat anti penguntit dipublikasikan?",
+        "Bagaimana respon Apple terhadap gugatan yang diberikan?",
+        "Mengapa AirTag berukuran seperti koin?",
+        "Siapa saja yang mendesain AirTag sebagai alat pelacak benda yang mudah hilang?"
+      ],
+      "correctAnswer": "Kapan artikel yang berisi promosi AirTag sebagai alat anti penguntit dipublikasikan?",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks tersebut, apakah yang dimaksud dengan aplikasi Zenly ...",
+      "options": [
+        "Aplikasi yang dibeli oleh Snap pada 2017",
+        "Aplikasi berbasis peta untuk melacak lokasi satu sama lain",
+        "Aplikasi yang bekerja secara mandiri tanpa integrasi dari SnapChat",
+        "Aplikasi unik yang akan ditutup 61 hari lagi",
+        "Aplikasi yang didirikan dengan modal 250-350 juta dollar AS"
+      ],
+      "correctAnswer": "Aplikasi berbasis peta untuk melacak lokasi satu sama lain",
+      "explanation": null
+    },
+    {
+      "text": "Sejak artikel tersebut dipublikasikan, berapa lama lagi aplikasi Zenly akan ditutup ...",
+      "options": [
+        "30 hari",
+        "61 hari",
+        "3 bulan",
+        "6 tahun",
+        "10 tahun"
+      ],
+      "correctAnswer": "61 hari",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks tersebut Berpakah nilai akuisisi Zenly oleh Snap ...",
+      "options": [
+        "50 juta Dollar",
+        "100 juta Dollar",
+        "150 juta Dollar",
+        "250-350 juta Dollar",
+        "Tidak diketahui"
+      ],
+      "correctAnswer": "250-350 juta Dollar",
+      "explanation": null
+    },
+    {
+      "text": "Bola dalam Piala Dunia 2022 memiliki sensor dengan fungsi ...",
+      "options": [
+        "Mendeteksi bola dengan kecepatan 500 frame per detik",
+        "Mengisi daya untuk digunakan selama 6 jam",
+        "Memudahkan pemain dalam menendang bola",
+        "Menjadi Video Assistant Refree (VAR)",
+        "Melacak lokasi dan membantu keputusan wasit dalam pertandingan"
+      ],
+      "correctAnswer": "Melacak lokasi dan membantu keputusan wasit dalam pertandingan",
+      "explanation": "Sensor seberat 14 gram tersebut berfungsi sebagai sensor pelacakan secara real time untuk membantu wasit menentukan berbagai macam keputusan, seperti apakah bola keluar lapangan atau melewati garis gawang."
+    },
+    {
+      "text": "Kata \"real time\" pada paragraf pertama dapat diindonesiakan menjadi ...",
+      "options": [
+        "Seketika",
+        "Secepatnya",
+        "Dengan jeda",
+        "Berlarut-larut",
+        "Dengan cepat"
+      ],
+      "correctAnswer": "Seketika",
+      "explanation": "Real time dalam konteks pelacakan langsung data di lapangan dapat diterjemahkan menjadi seketika."
+    },
+    {
+      "text": "Berdasarkan teks tersebut, kapan layanan SMS untuk ponsel dirilis ...",
+      "options": [
+        "1991",
+        "1992",
+        "1993",
+        "2000",
+        "2012"
+      ],
+      "correctAnswer": "1993",
+      "explanation": "Berdasarkan teks pada paragraf kedua, disebutkan bahwa layanan SMS dirilis untuk ponsel pada tahun 1993."
+    },
+    {
+      "text": "Berdasarkan teks tersebut, apakah salah satu fungsi SMS yang masih digunakan hingga saat ini ...",
+      "options": [
+        "Mengembalikan kejayaan ponsel",
+        "Berkomunikasi dengan intens",
+        "Mengirim kode OTP",
+        "Menggantikan fungsi WhatsApp",
+        "Mengirim ucapan natal"
+      ],
+      "correctAnswer": "Mengirim kode OTP",
+      "explanation": "Berdasarkan paragraf terakhir, layanan SMS kini masih digunakan untuk OTP (one time password), pengingat janji temu, atau otentikasi masuk."
+    },
+    {
+      "text": "Berdasarkan teks tersebut, produk lokal harus didorong pertumbuhannya dengan",
+      "options": [
+        "Digunakan oleh kementerian negara",
+        "Dibeli oleh Menteri Koordinator Bidang Kemaritiman dan Investasi Luhut Binsar Pandjaitan",
+        "Dialokasikan dengan APBN",
+        "Diberikan pinjaman sebesar Rp 400 triliun",
+        "Disuntikkan investasi sebesar 100 miliar dollar AS"
+      ],
+      "correctAnswer": "Digunakan oleh kementerian negara",
+      "explanation": "Teks menyatakan bahwa dampak tersebut sangat besar jika produk lokal tersebut masuk dalam transaksi belanja kementerian, lembaga, dan instansi negara."
+    },
+    {
+      "text": "Apa saja manfaat dari pembelian produk lokal jika lembaga negara membeli produk lokal",
+      "options": [
+        "Memasukkan transaksi ke dalam belanja kementerian dan lembaga negara",
+        "Membuka lapangan kerja dan berkontribusi terhadap pertumbuhan ekonomi nasional",
+        "Meningkatkan perputaran ekonomi sebesar 400 triliun rupiah",
+        "Menginvestasikan 100 miliar dollar kepada pengusaha lokal",
+        "Menghabiskan anggaran belanja pemerintah sebesar 1.200 triliun rupiah"
+      ],
+      "correctAnswer": "Membuka lapangan kerja dan berkontribusi terhadap pertumbuhan ekonomi nasional",
+      "explanation": "Berdasarkan teks, dampak dari transaksi pembelian produk lokal mulai dari pembukaan lapangan kerja sampai dengan kontribusi terhadap pertumbuhan ekonomi nasional."
+    },
+    {
+      "text": "Mengapa Herdy Harman optimis target wisata di Indonesia bisa didorong tumbuh pada tahun 2023 mendatang...",
+      "options": [
+        "Pariwisata Indonesia memiliki potensi yang beragam untuk dimaksimalkan",
+        "Pariwisata Indonesia memiliki banyak turis lokal",
+        "Pariwisata Indonesia memiliki acara yang unik",
+        "Pariwisata Indonesia memiliki rata- rata piknik yang rendah",
+        "Pariwisata Indonesia memiliki kontribusi besar dalam perekonomian"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf tersebut berapa nominal biaya layanan yang dibebankan kepada penjual di situs Tokopedia...",
+      "options": [
+        "1,4 persen",
+        "0,4 persen",
+        "Maksimal Rp 10.000",
+        "Kurang dari Rp.10.000",
+        "Tetap Rp.10.000"
+      ],
+      "correctAnswer": "Maksimal Rp 10.000",
+      "explanation": null
+    },
+    {
+      "text": "Kata \"proyeksi\" pada paragraf di atas memiliki sinonim, KECUALI...",
+      "options": [
+        "Antisipasi",
+        "Estimasi",
+        "Kurasi",
+        "Prediksi",
+        "Ramalan"
+      ],
+      "correctAnswer": "Kurasi",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks tersebut, kalimat manakah yang merupakan solusi meningkatkan pelayanan sektor kelautan...",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5)"
+      ],
+      "correctAnswer": "(4)",
+      "explanation": null
+    },
+    {
+      "text": "Menurut bacaan, aspek-aspek pendukung digitalisasi pelayaran antara lain...",
+      "options": [
+        "Pengaturan tarif petikemas, standar layanan penumpang, pengelolaan kapal milik negara",
+        "Adaptasi sektor digital untuk menjaga kinerja dan kelangsungan usaha",
+        "Digitalisasi terhadap kapal dan pelayaran",
+        "Menjawab tantangan bisnis maritim secara global",
+        "Mendukung kegiatan operasional yang bersih dan efisien"
+      ],
+      "correctAnswer": "Pengaturan tarif petikemas, standar layanan penumpang, pengelolaan kapal milik negara",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa cara kedua, untuk mengurangi kecepatan mobil lebih dianjurkan...",
+      "options": [
+        "Membuat mobil berhenti secara perlahan dan terukur",
+        "Mensukseskan deselerasi",
+        "Mempercepat laju mobil",
+        "Menahan beban mobil",
+        "Membuat mobil bekerja lebih ringan"
+      ],
+      "correctAnswer": "Membuat mobil berhenti secara perlahan dan terukur",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks tersebut, mengapa upaya ilmuwan mencoba menghidupkan virus zombi merupakan langkah yang berbahaya...",
+      "options": [
+        "Menyoroti bahaya pencairan permafrost",
+        "Kekhawatiran memicu pandemi baru",
+        "Memberikan kesulitan bagi manusia",
+        "Menghilangkan jejak sejarah",
+        "Mengembangkan mikroba dan virus zaman prasejarah"
+      ],
+      "correctAnswer": "Kekhawatiran memicu pandemi baru",
+      "explanation": null
+    },
+    {
+      "text": "Penulisan kata serapan di bawah ini benar KECUALI...",
+      "options": [
+        "kualitas",
+        "kuitansi",
+        "kuesioner",
+        "jadual",
+        "jumat"
+      ],
+      "correctAnswer": "jadual",
+      "explanation": null
+    },
+    {
+      "text": "Inti paragraf di atas adalah",
+      "options": [
+        "Kegiatan dasar kultur jaringan dan rekayasa genetika",
+        "Dua kegiatan dasar modern dilakukan melalui bioteknologi pertanian",
+        "Pengisolasian jaringan dan sel-sel tumbuhan",
+        "Bioteknologi modern akan dikembangkan",
+        "Penanaman kultur jaringan diluar tumbuhan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Gagasan utama paragraf di atas adalah ...",
+      "options": [
+        "NASA selesai menguji coba sistem komunikasi baru internet antarplanet.",
+        "jaringan internet antarplanet secara otomatis menyebarkan informasi.",
+        "jaringan internet antarplanet tidak memerlukan bantuan tenaga manusia.",
+        "wahana antariksa selalu melakukan komunikasi langsung dengan bumi.",
+        "sistem baru internet antarplanet NASA bernama Spirit dan Opportunity."
+      ],
+      "correctAnswer": "NASA selesai menguji coba sistem komunikasi baru internet antarplanet.",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang sesuai dengan kutipan di atas adalah...",
+      "options": [
+        "Albertonykus borealis adalah dinosaurus terkecil di dunia.",
+        "Albertonykus borealis ditemukan jutaan tahun silam.",
+        "Albertonykus borealis hidup di Asia dan Amerika Selatan.",
+        "Albertonykus borealis sama dengan alvarersaurus.",
+        "Albertonykus borealis ditemukan di Amerika Utara."
+      ],
+      "correctAnswer": "Albertonykus borealis ditemukan di Amerika Utara.",
+      "explanation": "Teks menyatakan bahwa Albertonykus borealis merupakan dinosaurus terkecil yang pernah hidup di Amerika Utara."
+    },
+    {
+      "text": "Berdasarkan isi bacaan di atas, pernyataan berikut ini benar, kecuali",
+      "options": [
+        "Konflik Palestina dan Israel bukan hanya persoalan kedua bangsa itu",
+        "Dalam penyelesaian konflik Palestina dan Israel antara hasil perundingan dan kenyataan di lapangan sering tidak sejalan",
+        "Sampai saat ini belum ada perundingan yang dapat menyelesaikan konflik Palestina dan Israel",
+        "Hanya perundingan para elite kedua negara yang dapat menyelesaikan konflik Palestina dan Israel",
+        "Masyarakat di Timur Tengah belum memiliki pandangan yang sama dalam menyelesaikan konflik Palestina dan Israel"
+      ],
+      "correctAnswer": "Hanya perundingan para elite kedua negara yang dapat menyelesaikan konflik Palestina dan Israel",
+      "explanation": "Teks menyatakan bahwa persoalan konflik ini bukan persoalan elite belaka, melainkan telah menyebar menjadi persoalan masyarakat Timur Tengah secara umum."
+    },
+    {
+      "text": "Pikiran utama pernyataan di atas adalah",
+      "options": [
+        "para koruptor selamat dari hukuman",
+        "tahun 2002 adalah tahun kebebasan koruptor",
+        "para hakim tidak punya keberanian menjatuhkan hukuman",
+        "vonis yang dijatuhkan harus melihat hadir atau tidaknya terdakwa.",
+        "setiap pesakitan yang dijatuhi hukuman tidak harus menjalani hukuman."
+      ],
+      "correctAnswer": "para hakim tidak punya keberanian menjatuhkan hukuman",
+      "explanation": "Kesimpulan dari teks yang menyatakan bahwa hakim hanya berani menghukum terdakwa jika tidak hadir di pengadilan merujuk pada kurangnya keberanian hakim."
+    }
+  ]
+}

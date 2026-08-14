@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Sesuai dengan bacaan, gambaran karakter Fei Febri yang paling tepat berdasarkan paragraf pertama adalah...",
+      "options": [
+        "Berani mengambil risiko",
+        "Mengutamakan kenyamanan kerja",
+        "Sangat teliti dan ulet",
+        "Sosok yang rapi",
+        "Peduli terhadap kemanusiaan"
+      ],
+      "correctAnswer": "Berani mengambil risiko",
+      "explanation": "Fei Febri meninggalkan kariernya yang mapan di perusahaan multinasional untuk terjun ke bidang pengelolaan sampah lokal, yang menunjukkan keberanian dalam mengambil risiko."
+    },
+    {
+      "text": "Dampak yang mungkin terjadi pada bumi, apabila dalam jangka 50 tahun tidak ada manusia...",
+      "options": [
+        "Bumi akan kembali kondisi zaman dulu",
+        "Polusi udara tidak akan terjadi lagi",
+        "Kondisi Bumi akan membaik dari kerusakan yang terjadi",
+        "Kehidupan baru yang lebih baik akan tercipta",
+        "Bumi akan tidak terkendali"
+      ],
+      "correctAnswer": "Kondisi Bumi akan membaik dari kerusakan yang terjadi",
+      "explanation": "Berdasarkan paragraf 2 teks 1 (kalimat 10), disebutkan bahwa bumi bisa kembali memulihkan dirinya sendiri jika tidak ada aktivitas manusia."
+    },
+    {
+      "text": "Makna frasa “bonus demografi” adalah...",
+      "options": [
+        "Letak geografis Indonesia yang strategis",
+        "Keunggulan produk pertanian Indonesia",
+        "Indonesia menjadi pengekspor nomor satu dunia dan menuju negara maju",
+        "Banyak masyarakat Indonesia yang berusia produktif",
+        "Peningkatan produktivitas Indonesia"
+      ],
+      "correctAnswer": "Banyak masyarakat Indonesia yang berusia produktif",
+      "explanation": "Bonus demografi merujuk pada struktur penduduk di mana proporsi penduduk usia produktif sangat besar."
+    },
+    {
+      "text": "Kalimat yang tepat untuk mengisi bagian rumpang dalam paragraf tersebut adalah...",
+      "options": [
+        "Setiap orang memiliki kisah yang berbeda",
+        "Mungkin setiap orang akan mengalami fase ini juga",
+        "Kita tidak pernah tahu kapan kita akan sadar dan peduli",
+        "Saya mendapatkan fase itu lebih cepat dibanding yang lain",
+        "Kehidupan itu berputar seperti roda kadang di bawah dan kadang di atas"
+      ],
+      "correctAnswer": "Saya mendapatkan fase itu lebih cepat dibanding yang lain",
+      "explanation": "Dilanjutkan dengan kalimat (22) 'Cuma fase saya saat itu datang lebih awal...' sehingga kalimat rumpang (21) yang sesuai membahas tentang fase."
+    },
+    {
+      "text": "Hal yang melatarbelakangi Fei Febri terjun ke bidang pengelolaan sampah adalah...",
+      "options": [
+        "Pengelolaan sampah yang tidak baik di Indonesia",
+        "Indonesia penyumbang sampah utama dunia",
+        "Berita buruk Indonesia sebagai penyumbang sampah ke laut Afrika",
+        "Isu lingkungan yang tidak pernah selesai",
+        "Kesadaran akan sampah yang ia hasilkan sendiri"
+      ],
+      "correctAnswer": "Kesadaran akan sampah yang ia hasilkan sendiri",
+      "explanation": "Berdasarkan paragraf 3 teks 1, kegelisahannya berawal dari sisi sampah karena ia menghasilkan sampah setiap hari."
+    },
+    {
+      "text": "Hal berikut yang memperkuat bahwa Indonesia penyumbang sampah plastik ke Afrika adalah...",
+      "options": [
+        "Data yang menunjukkan Indonesia memiliki penduduk terbesar sehingga menghasilkan sampah terbesar pula",
+        "Letak laut Indonesia yang strategis",
+        "Kenyataan bahwa masyarakat Indonesia membuang sampah di laut",
+        "Pengelolaan dan kebijakan penanggulangan sampah di Indonesia belum baik",
+        "Hasil penelitian dari jurnal yang diterbitkan di Jurnal Marine Debris Pollution"
+      ],
+      "correctAnswer": "Hasil penelitian dari jurnal yang diterbitkan di Jurnal Marine Debris Pollution",
+      "explanation": "Pernyataan tersebut didasarkan pada makalah studi yang terbit di jurnal internasional Marine Debris Pollution pada tahun 2023."
+    },
+    {
+      "text": "Jika ingin menuliskan satu paragraf baru setelah paragraf terakhir, hal yang mungkin dibahas adalah...",
+      "options": [
+        "Data yang menjelaskan jumlah sampah yang dihasilkan Indonesia",
+        "Pembuktian lebih lanjut produk-produk Indonesia yang ditemukan di salah satu kepulauan di Afrika",
+        "Penjelasan lebih logis kenapa sampah Indonesia bisa sampai ke Afrika",
+        "Penjelasan lebih lanjut terkait Indonesia sumber utama polusi di Seychelles",
+        "Bukti pengelolaan sampah di Indonesia belum baik beserta pembanding dengan regulasi pemerintah"
+      ],
+      "correctAnswer": "Penjelasan lebih lanjut terkait Indonesia sumber utama polusi di Seychelles",
+      "explanation": "Paragraf terakhir membahas mengenai hasil yang tidak mengejutkan karena Indonesia telah diidentifikasi sebagai sumber utama polusi di Seychelles selama lebih dari satu dekade, sehingga paragraf baru dapat memperluas atau menyimpulkan hal tersebut."
+    },
+    {
+      "text": "Berdasarkan teks bacaan, apa yang mungkin terjadi apabila Indonesia tidak menghasilkan sampah plastik?",
+      "options": [
+        "Indonesia akan lebih bersih",
+        "Dapat diprediksi bahwa jumlah penduduk Indonesia berkurang",
+        "Banjir di sejumlah wilayah Indonesia tidak akan terjadi",
+        "Indonesia tidak akan disebut-sebut sebagai negara sumber utama sampah plastik",
+        "Regulasi terkait pengelolaan sampah tidak diperlukan"
+      ],
+      "correctAnswer": "Indonesia tidak akan disebut-sebut sebagai negara sumber utama sampah plastik",
+      "explanation": "Teks menyatakan Indonesia disebut sebagai negara sumber utama karena kontribusi sampah plastiknya di pantai-pantai Seychelles."
+    },
+    {
+      "text": "Makna frasa \"sampah berbasis daratan\" pada kalimat 11 adalah...",
+      "options": [
+        "Keseluruhan sampah plastik yang ada di Indonesia",
+        "Plastik yang masuk ke laut dari sungai atau langsung dari pantai",
+        "Sampah yang sampai ke daratan suatu wilayah tertentu",
+        "Seluruh sampah yang nonorganik",
+        "Sampah yang proses penguraiannya sulit"
+      ],
+      "correctAnswer": "Plastik yang masuk ke laut dari sungai atau langsung dari pantai",
+      "explanation": "Definisi ini tertuang secara langsung pada kalimat (2) teks 2: 'Sampah plastik berbasis darat adalah plastik yang masuk ke laut dari sungai atau langsung dari pantai'."
+    },
+    {
+      "text": "Mengapa Indonesia disebut sebagai sumber utama sampah plastik?",
+      "options": [
+        "Akibat Indonesia banyak memproduksi produk plastik",
+        "Akibat Indonesia melakukan banyak impor produk plastik dari China",
+        "Akibat rumah tangga Indonesia banyak menggunakan wadah berbahan plastik",
+        "Akibat Indonesia memiliki jumlah penduduk yang banyak sehingga diprediksi banyak menggunakan sampah plastik",
+        "Akibat ditemukan sampah plastik Indonesia di pantai-pantai Seychelles, sebuah negara kepulauan di Afrika"
+      ],
+      "correctAnswer": "Akibat ditemukan sampah plastik Indonesia di pantai-pantai Seychelles, sebuah negara kepulauan di Afrika",
+      "explanation": "Hal ini mendasari klaim utama pada paragraf pertama Teks 2."
+    },
+    {
+      "text": "Makna yang terkandung dalam kalimat (1) adalah...",
+      "options": [
+        "Penulis mengajak pembaca agar menikmati keindahan senja dan meninggalkan sejenak pekerjaan untuk beristirahat",
+        "Penulis mengajak pembaca untuk beristirahat",
+        "Penulis mengajak pembaca untuk menikmati hidup dan tidak perlu khawatir dengan dunia sekitar",
+        "Penulis mengajak pembaca untuk tidak terlalu sibuk dengan kerjaan",
+        "Penulis mengajak pembaca untuk menghargai waktu"
+      ],
+      "correctAnswer": "Penulis mengajak pembaca agar menikmati keindahan senja dan meninggalkan sejenak pekerjaan untuk beristirahat",
+      "explanation": "Kalimat (1) Teks 3 berbunyi 'Saat matahari sedang terbenam, tinggalkan apa pun yang sedang Anda lakukan dan saksikanlah' yang bermakna menikmati senja dan sejenak meninggalkan aktivitas."
+    },
+    {
+      "text": "Makna denotasi dari kata \"petuah\" dalam kalimat (2) adalah...",
+      "options": [
+        "Ilmu",
+        "Pengalaman",
+        "Nasihat",
+        "Kesan",
+        "Perasaan"
+      ],
+      "correctAnswer": "Nasihat",
+      "explanation": null
+    },
+    {
+      "text": "Fakta yang ada dalam teks bacaan dapat ditemukan dalam kalimat...",
+      "options": [
+        "(1)",
+        "(7)",
+        "(3)",
+        "(10)",
+        "(8)"
+      ],
+      "correctAnswer": "(10)",
+      "explanation": null
+    },
+    {
+      "text": "Ungkapan kata \"berkubang\" dalam teks bacaan bermakna...",
+      "options": [
+        "Berendam",
+        "Kesibukan",
+        "Kelompok",
+        "Berlumuran",
+        "Terjebak"
+      ],
+      "correctAnswer": "Terjebak",
+      "explanation": null
+    },
+    {
+      "text": "Makna leksikal dari kata \"senja\" dalam paragraf adalah...",
+      "options": [
+        "Suasana ketika langit berwarna orange",
+        "Suasana saat matahari tenggelam",
+        "Waktu yang menandakan semua aktivitas telah usai",
+        "Waktu menjelang malam",
+        "Suasana tenang dan damai"
+      ],
+      "correctAnswer": "Suasana saat matahari tenggelam",
+      "explanation": null
+    },
+    {
+      "text": "Hal yang membuat Marilyn Monroe dikenang hingga saat ini adalah...",
+      "options": [
+        "Aktris panggung utama",
+        "Presenter",
+        "Komdian",
+        "Personil salah satu girl band",
+        "Penyanyi pop"
+      ],
+      "correctAnswer": "Aktris panggung utama",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa Norma Jeane dimasukkan ke panti asuhan pada tahun 1935?",
+      "options": [
+        "Norma Jeane mengalami gangguan mental sehingga dilantarkan ibunya",
+        "Norma Jeane tidak diakui oleh orang tuanya sehingga ia diasuh oleh negara di panti asuhan",
+        "Tidak ada yang merawat Norma Jeane pada saat itu lantaran ibunya mengalami gangguan mental",
+        "Ayahnya Norma Jeane melakukan pelanggran HAM terhadap Norma Jeane sehingga Norma Jeane diasu oleh negara",
+        "Norma Jeane anak yatim piatu sehingga diurus oleh negara"
+      ],
+      "correctAnswer": "Tidak ada yang merawat Norma Jeane pada saat itu lantaran ibunya mengalami gangguan mental",
+      "explanation": null
+    },
+    {
+      "text": "Hal yang membuat informasi teks bacaan di atas kabur dan lemah adalah...",
+      "options": [
+        "Informasi terkait kondisi saat Norma Jeane menjadi anak angkat tidak diinformasikan",
+        "Kisah pernikahan Norma Jeane tidak diinformasikan",
+        "Tidak disampaikan kapan Norma Jeane mulai tinggal bersama bibinya",
+        "Informasi terkait orang tua Norma Jeane tidak diinformasikan secara jelas",
+        "Tidak diinformasikan secara jelas kenapa Norma Jeane masuk ke panti asuhan"
+      ],
+      "correctAnswer": "Informasi terkait orang tua Norma Jeane tidak diinformasikan secara jelas",
+      "explanation": null
+    },
+    {
+      "text": "Sikap yang dapat dicontoh dari seorang Norma Jeane adalah...",
+      "options": [
+        "Sosok yang penyabar",
+        "Sosok yang berani",
+        "Sosok yang tekun",
+        "Sosok yang kuat",
+        "Sosok yang pandai"
+      ],
+      "correctAnswer": "Sosok yang tekun",
+      "explanation": null
+    },
+    {
+      "text": "Informasi yang mungkin dapat ditambahkan untuk meperjelas teks bacaan di atas adalah...",
+      "options": [
+        "Informasi terkait bibi Norma Jeane",
+        "Informasi Norma Jeane masa kecil",
+        "Informasi terkait sosok James Dougherty",
+        "Informasi Norma Jeane saat tinggal di panti asuhan",
+        "Informasi terkait David Conover dan hubungannya dengan Norma Jeane"
+      ],
+      "correctAnswer": "Informasi terkait David Conover dan hubungannya dengan Norma Jeane",
+      "explanation": null
+    },
+    {
+      "text": "Bagaimana Mao Tse-tung mendefinisakan politik?",
+      "options": [
+        "Politik didefinisakan sebagai forum bermusyawarah",
+        "Politik didefinisikan sebagai bukti perubahan zaman dari peperangan ke dunia politik",
+        "Politik didefinisakan sebagai perang tanpa pertumpahan darah",
+        "Politik didefinisikan sebagai perlombaan menuju ke posisi paling unggul",
+        "Politik didefinisikan sebagai bukti"
+      ],
+      "correctAnswer": "Politik didefinisakan sebagai perang tanpa pertumpahan darah",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata kompromi secara leksikal pada kalimat (9) adalah...",
+      "options": [
+        "Persetujuan dengan jalan damai",
+        "Diskusi suatu kelompok",
+        "Kerja sama untuk mencapai tujuan bersama",
+        "Bermusyawarah dan mufakat dalam mengambil keputusan",
+        "Pemungutan suara antar kelompok"
+      ],
+      "correctAnswer": "Persetujuan dengan jalan damai",
+      "explanation": null
+    },
+    {
+      "text": "Hal apa yang sering sekali terabaikan saat memutuskan perang menurut teks bacaan tersebut?",
+      "options": [
+        "Kesiapan alat perang",
+        "Perlindungan terhadap masyarakat",
+        "Kesiapan tentara",
+        "Rumah sakit dan obat-obatan",
+        "Dampak perang"
+      ],
+      "correctAnswer": "Dampak perang",
+      "explanation": null
+    },
+    {
+      "text": "Kata \"ini\" pada kalimat (13) mengarah ke hal pada kalimat...",
+      "options": [
+        "(6)",
+        "(7)",
+        "(8)",
+        "(9)",
+        "(10)"
+      ],
+      "correctAnswer": "(10)",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang dapat dipercaya kebenarannya ditunjukkan dalam kalimat...",
+      "options": [
+        "(13)",
+        "(9)",
+        "(15)",
+        "(7)",
+        "(12)"
+      ],
+      "correctAnswer": "(9)",
+      "explanation": null
+    },
+    {
+      "text": "Suasana yang digambarkan dalam paragraf pertama teks bacaan tersebut menggambarkan situasi di....",
+      "options": [
+        "Perkampungan yang terletak di pesisir pantai",
+        "Desa wisata",
+        "Laut yang menjadi objek wisata",
+        "Proyek pemerintah yang sedang dibangun",
+        "Pantai yang sedang ada perbaikan tanggul"
+      ],
+      "correctAnswer": "Perkampungan yang terletak di pesisir pantai",
+      "explanation": "Paragraf pertama mendeskripsikan 'kampung pesisir Werur' dengan laut yang terhampar luas hingga Samudra Pasifik dan ombak yang mengikis pasir pantai."
+    },
+    {
+      "text": "Siapakah sosok Fera dalam teks bacaan tersebut...",
+      "options": [
+        "Guru",
+        "Reporter",
+        "Kepala Desa",
+        "Ketua acara adat Festival Munara Beba Byak Karon",
+        "Penyuluh"
+      ],
+      "correctAnswer": "Guru",
+      "explanation": "Pada kalimat (7) disebutkan dengan jelas bahwa 'Dia adalah seorang guru di SD YPK Imanuel Werur'."
+    },
+    {
+      "text": "Kata \"sekutu\" pada kalimat (11) bermakna...",
+      "options": [
+        "Serikat",
+        "Program",
+        "Lembaga",
+        "Negara",
+        "Bangsa"
+      ],
+      "correctAnswer": "Serikat",
+      "explanation": "Kata sekutu dalam konteks sejarah Perang Dunia II merujuk pada gabungan atau perserikatan negara-negara (Aliansi Serikat)."
+    },
+    {
+      "text": "Latar tempat teks bacaan tersebut adalah...",
+      "options": [
+        "Proyek tanggul",
+        "Tambrauw",
+        "pantai",
+        "Kampung Pesisir Werur",
+        "Kawasan pesisir Papua Barat Daya"
+      ],
+      "correctAnswer": "Kampung Pesisir Werur",
+      "explanation": "Keseluruhan teks secara spesifik membahas kondisi geografis, masyarakat, dan peristiwa yang terjadi di Kampung Pesisir Werur."
+    },
+    {
+      "text": "Tokoh \"saya\" dalam teks bacaan dapat diprediksi berprofesi sebagai...",
+      "options": [
+        "Guru",
+        "Reporter",
+        "Kepala Desa",
+        "Ketua acara adat Festival Munara Beba Byak Karon",
+        "Penyuluh"
+      ],
+      "correctAnswer": "Reporter",
+      "explanation": "Tokoh 'saya' menulis artikel yang bersumber dari nationalgeographic yang mewawancarai narasumber (Fera Ramar) dalam suatu liputan acara adat, yang merupakan ciri khas profesi wartawan/reporter."
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Kalimat (2) perlu disempurnakan dengan cara ….",
+      "options": [
+        "mengganti kata menemukan menjadi menjelaskan",
+        "menambahkan tanda koma setelah kata menemukan",
+        "menghapus kata hal",
+        "menambahkan tanda koma sebelum kata karena",
+        "menghapus kata tentang"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Kata 'tentang' dalam kalimat (2) tidak diperlukan karena kata 'menemukan' langsung diikuti oleh objek klausa bawahan."
+    },
+    {
+      "text": "Kata terisolasi dalam kalimat (5) seharusnya ….",
+      "options": [
+        "dibiarkan saja (sudah benar)",
+        "diganti dengan terasingkan",
+        "dihilangkan",
+        "diganti dengan terpisahkan",
+        "didahului kata individu yang"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Penggunaan kata terisolasi pada kalimat tersebut sudah baku dan tepat dalam konteks sosiologis/medis."
+    },
+    {
+      "text": "Penggunaan huruf kapital yang salah terdapat pada kalimat...?",
+      "options": [
+        "kalimat (1)",
+        "kalimat (2)",
+        "kalimat (3)",
+        "kalimat (4)",
+        "kalimat (5)"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Kalimat (4) terdapat kesalahan kapitalisasi pada penulisan kata 'Ilmuwan' yang seharusnya huruf kecil karena bukan nama jenis atau gelar."
+    },
+    {
+      "text": "Kata yang harus dihilangkan pada kalimat (4) adalah …?",
+      "options": [
+        "Tim ilmuwan",
+        "berasal",
+        "yang lebih tinggi",
+        "berusia",
+        "yang ikut serta"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Kalimat (4) mengalami pemborosan kata pada 'yang ikut serta'."
+    },
+    {
+      "text": "Penulisan kata yang bercetak tebal salah terdapat pada kalimat…",
+      "options": [
+        "(14)",
+        "(12)",
+        "(6)",
+        "(4)",
+        "(2)"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Pada kalimat (2), kata 'mengkumpulkan' salah seharusnya 'mengumpulkan'."
+    },
+    {
+      "text": "Pola kalimat pada kalimat (1) adalah….",
+      "options": [
+        "S-P-O-Pel-K",
+        "S-P-K",
+        "S-P-O",
+        "S-P-O-K",
+        "S-P-Pel"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Manusia (S) hidup (P) tersebar di seluruh permukaan bumi yang memungkinkan untuk ditinggali (K)."
+    },
+    {
+      "text": "Manakah yang paling tepat sebagai inti kalimat dari kalimat (10)?",
+      "options": [
+        "para peneliti-peneliti sedang menyelidiki dampak manusia",
+        "para peneliti sedang menyelidiki dampak manusia terhadap lingkungan.",
+        "para peneliti sedang menyelidiki",
+        "para peneliti sedang menyelidiki dampak manusia",
+        "para peneliti-peneliti sedang menyelidiki dampak manusia terhadap lingkungan."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Inti kalimat terdiri dari Subjek dan Predikat, yaitu 'para peneliti sedang menyelidiki'."
+    },
+    {
+      "text": "Penggunaan tanda baca yang salah terdapat pada kalimat?",
+      "options": [
+        "(11)",
+        "(12)",
+        "(6)",
+        "(3)",
+        "(8)"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Pada kalimat (3) terdapat pengulangan kata depan 'pada pada 2045'."
+    },
+    {
+      "text": "Kalimat (15) dapat disempurnakan dengan cara…",
+      "options": [
+        "menghapus kata sebagai",
+        "mengganti kata menggunakan menjadi memakai",
+        "menambahkan tanda koma setelah kata kupu-kupu",
+        "menghapus kata para",
+        "mengganti kata telah menjadi sudah"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Penggunaan 'Banyak para' merupakan bentuk pleonasme (pemborosan kata), sehingga kata 'para' harus dihilangkan."
+    },
+    {
+      "text": "Kalimat manakah yang mengandung kata tidak baku?",
+      "options": [
+        "kalimat 1",
+        "kalimat 9",
+        "kalimat 14",
+        "kalimat 16",
+        "kalimat 7"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Kalimat 16 mengandung penulisan nama hewan 'orangutan' yang ditulis tanpa spasi, namun dalam konteks soal ini ada kesalahan penulisan 'orangutan, dan beruang'."
+    },
+    {
+      "text": "Kata hubung yang paling sesuai untuk mengisi kalimat (9) …",
+      "options": [
+        "Tetapi,",
+        "Jadi,",
+        "Dengan demikian,",
+        "Sedangkan,",
+        "Akan tetapi,"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Menunjukkan pertentangan antar-gagasan sebelumnya."
+    },
+    {
+      "text": "Penulisan kata yang salah terdapat pada kalimat?",
+      "options": [
+        "(11)",
+        "(12)",
+        "(15)",
+        "(5)",
+        "(1)"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Kalimat (12) terdapat penulisan nama tempat/sungai yang memerlukan huruf kapital pada setiap unsurnya."
+    },
+    {
+      "text": "Proses pembentukan kata 'mengurangi' pada kalimat (10) memiliki kesamaan dengan kata…",
+      "options": [
+        "Kamu perlu memperbesar gambar ini agar lebih jelas terlihat.",
+        "Petugas segera menghilangkan sampah yang ada di jalan raya,",
+        "Perusahaan memutuskan untuk memperpanjang kontrak kerja karyawan.",
+        "Dia mengatur jadwal pertemuan dengan sangat teliti.",
+        "Lukisan itu menyamai karya pelukis terkenal."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Kata 'mengurangi' dan 'menghilangkan' dibentuk dari awalan meN- dan akhiran -i / -kan pada kata dasar yang berfokus pada tindakan aktif transitif."
+    },
+    {
+      "text": "Pola kalimat di atas adalah… (IKN dibangun di atas hutan industri)",
+      "options": [
+        "S-P-O",
+        "S-P-Pel",
+        "S-P-O-K",
+        "S-P-K",
+        "S-P-O-Pel"
+      ],
+      "correctAnswer": "D",
+      "explanation": "IKN (S) dibangun (P) di atas hutan industri (K)."
+    },
+    {
+      "text": "Pemakaian kata ulang dalam kalimat berikut yang salah adalah kecuali…",
+      "options": [
+        "Karin selalu tolong-menolong dalam setiap kesempatan.",
+        "Sekumpulan penari-penari telah datang pagi ini.",
+        "Raina dan Aji saling bantu-membantu menyelesaikan tugasnya.",
+        "Dino berlari-larian di rumahnya.",
+        "Kami baru saja mendengarkan-dengarkan musik."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Pilihan A menggunakan kata ulang berimbuhan tolong-menolong secara tepat, sementara yang lain salah karena terjadi penambahan bentuk jamak ganda atau pemakaian kata yang tidak lazim."
+    }
+  ]
+}

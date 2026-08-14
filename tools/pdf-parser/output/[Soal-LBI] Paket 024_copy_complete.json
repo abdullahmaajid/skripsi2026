@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Manakah pernyataan yang benar berdasarkan teks?",
+      "options": [
+        "Istana Al-Hamra dibangun di tengah hutan lebat yang hijau",
+        "Arsitektur istana ini dihiasi dengan pola geometris dan kaligrafi",
+        "Istana Al-Hamra tidak memiliki sistem pengairan sehingga tidak ada tumbuhan yang bisa tumbuh di sekitarnya",
+        "Istana Al-Hamra baru dibangun dalam beberapa dekade terakhir",
+        "Istana ini terletak di tepi sungai besar yang menjadi sumber kehidupan utamanya"
+      ],
+      "correctAnswer": "Arsitektur istana ini dihiasi dengan pola geometris dan kaligrafi",
+      "explanation": "Teks menyatakan: 'Dibangun dengan arsitektur yang megah, istana ini memiliki dinding-dinding yang diukir dengan kaligrafi indah dan pola geometris yang rumit.'"
+    },
+    {
+      "text": "Apa simpulan utama dari teks bacaan di atas?",
+      "options": [
+        "Istana Al-Hamra adalah bangunan baru yang masih dalam tahap pembangunan",
+        "Istana ini tidak memiliki keunikan karena berada di tengah padang",
+        "Meskipun berada di tengah gurun, Istana Al-Hamra memiliki sistem pengairan yang membuatnya tetap hijau dan nyaman dihuni",
+        "Istana ini tidak menarik perhatian siapa pun karena lokasinya yang terpencil",
+        "Tidak ada sejarah penting yang terkait dengan Istana Al-Hamra"
+      ],
+      "correctAnswer": "Meskipun berada di tengah gurun, Istana Al-Hamra memiliki sistem pengairan yang membuatnya tetap hijau dan nyaman dihuni",
+      "explanation": "Simpulan utama mencakup keseluruhan isi teks tentang keberadaan istana di tengah gurun dan kecanggihan sistem pengairannya yang menciptakan suasana sejuk."
+    },
+    {
+      "text": "Apa makna kata \"kaligrafi\" dalam teks?",
+      "options": [
+        "Seni menulis indah dengan gaya khas",
+        "Teknik membangun bangunan besar",
+        "Ilmu yang mempelajari pola geometris",
+        "Sistem irigasi kuno yang digunakan di gurun",
+        "Gaya arsitektur khas Eropa"
+      ],
+      "correctAnswer": "Seni menulis indah dengan gaya khas",
+      "explanation": "Kaligrafi secara umum adalah seni menulis indah dengan menggunakan pena atau alat tulis lain yang menghasilkan bentuk huruf atau tulisan artistik."
+    },
+    {
+      "text": "Apa yang dimaksud dengan \"warisan budaya\" dalam teks?",
+      "options": [
+        "Sesuatu yang diwariskan oleh nenek moyang dan memiliki nilai sejarah atau budaya",
+        "Sebuah bangunan yang ditinggalkan begitu saja tanpa perawatan",
+        "Tempat tinggal bagi para wisatawan yang mengunjungi daerah gurun",
+        "Sistem pengairan kuno yang ditemukan di istana-istana tua",
+        "Hanya benda fisik yang berhubungan dengan sejarah tanpa nilai budaya"
+      ],
+      "correctAnswer": "Sesuatu yang diwariskan oleh nenek moyang dan memiliki nilai sejarah atau budaya",
+      "explanation": "Warisan budaya merujuk pada peninggalan masa lalu yang diwariskan turun-temurun dan memiliki nilai penting bagi sejarah serta identitas budaya."
+    },
+    {
+      "text": "Apa tema utama dari teks di atas?",
+      "options": [
+        "Sejarah teh di dunia",
+        "Perkembangan perdagangan teh di Jepang",
+        "Makna dan filosofi dalam tradisi minum teh Jepang",
+        "Cara membuat teh hijau Jepang",
+        "Peran teh dalam kehidupan masyarakat modern"
+      ],
+      "correctAnswer": "Makna dan filosofi dalam tradisi minum teh Jepang",
+      "explanation": "Teks membahas tentang upacara minum teh di Jepang (chanoyu/sado), aturan, makna filosofis, serta prinsip wabi-sabi."
+    },
+    {
+      "text": "Bagaimana watak Sen no Rikyū berdasarkan teks?",
+      "options": [
+        "Sombong dan keras kepala",
+        "Sederhana dan penuh kebijaksanaan",
+        "Kaya raya dan materialistis",
+        "Pemalas dan tidak peduli terhadap budaya",
+        "Hanya tertarik pada aspek bisnis teh"
+      ],
+      "correctAnswer": "Sederhana dan penuh kebijaksanaan",
+      "explanation": "Sen no Rikyū menyempurnakan prinsip wabi-sabi yang menekankan keindahan dalam kesederhanaan dan ketidaksempurnaan."
+    },
+    {
+      "text": "Manakah pernyataan yang tidak sesuai dengan isi teks?",
+      "options": [
+        "Upacara minum teh di Jepang disebut chanoyu atau sado",
+        "Upacara minum teh memiliki makna filosofis yang mendalam dan berakar pada ajaran Zen",
+        "Sen no Rikyū adalah tokoh yang mengembangkan prinsip wabi-sabi dalam upacara minum teh",
+        "Tradisi minum teh di Jepang berkembang tanpa adanya aturan tertentu",
+        "Teishu harus menjalani pelatihan bertahun-tahun untuk menguasai seni upacara minum teh"
+      ],
+      "correctAnswer": "Tradisi minum teh di Jepang berkembang tanpa adanya aturan tertentu",
+      "explanation": "Teks menyatakan bahwa tradisi ini 'berkembang menjadi seni tersendiri dengan aturan yang sangat terperinci', sehingga pernyataan (D) tidak sesuai."
+    },
+    {
+      "text": "Apa simpulan utama dari teks bacaan di atas?",
+      "options": [
+        "Tradisi minum teh di Jepang hanyalah kebiasaan tanpa makna khusus",
+        "Upacara minum teh di Jepang adalah warisan budaya yang memiliki nilai filosofi dan estetika tinggi",
+        "Minum teh di Jepang tidak memiliki aturan tertentu dan dilakukan secara bebas",
+        "Sen no Rikyū memperkenalkan teh ke Jepang dari Tiongkok",
+        "Teh hanya digunakan sebagai minuman biasa di Jepang tanpa nilai tradisional"
+      ],
+      "correctAnswer": "Upacara minum teh di Jepang adalah warisan budaya yang memiliki nilai filosofi dan estetika tinggi",
+      "explanation": "Simpulan ini merangkum keseluruhan isi teks yang menjelaskan bahwa teh bukan sekadar minuman, melainkan tradisi dengan filosofi mendalam."
+    },
+    {
+      "text": "Apa ide pokok dari teks \"Putri Shalala\"?",
+      "options": [
+        "Putri Shalala menangis karena merasa sedih",
+        "Air mata Putri Shalala berubah menjadi mutiara yang menyelamatkan kerajaan dari kemarau",
+        "Raja dan ratu selalu berusaha membuat Putri Shalala bahagia",
+        "Seorang tabib tua memberi tahu cara mengatasi kemarau",
+        "Rakyat bersorak setelah kemarau berakhir"
+      ],
+      "correctAnswer": "Air mata Putri Shalala berubah menjadi mutiara yang menyelamatkan kerajaan dari kemarau",
+      "explanation": "Ide pokok teks tersebut adalah kisah air mata Putri Shalala yang bermutivasi mengakhiri kemarau panjang di kerajaannya."
+    },
+    {
+      "text": "Manakah pernyataan yang benar berdasarkan teks?",
+      "options": [
+        "Putri Shalala sering menangis sehingga mutiara berlimpah di kerajaan",
+        "Raja dan ratu sengaja membuat Putri Shalala menangis untuk mendapatkan mutiara",
+        "Putri Shalala tidak bisa menangis karena selalu bahagia",
+        "Air mata Putri Shalala dapat memanggil hujan dan menyelamatkan kerajaan",
+        "Kemarau terjadi karena ulah Putri Shalala"
+      ],
+      "correctAnswer": "Air mata Putri Shalala dapat memanggil hujan dan menyelamatkan kerajaan",
+      "explanation": "Berdasarkan teks, tabib menyatakan bahwa hanya air mata tulus sang putri yang dapat memanggil hujan, dan terbukti saat ia menangis hujan turun."
+    },
+    {
+      "text": "Apa arti kata \"pengorbanan\" dalam teks?",
+      "options": [
+        "Kehilangan sesuatu demi kepentingan orang lain",
+        "Berusaha mendapatkan sesuatu untuk diri sendiri",
+        "Melupakan kejadian yang menyakitkan",
+        "Menyembunyikan sesuatu agar tidak diketahui orang lain",
+        "Mengumpulkan kekayaan dengan cara tertentu"
+      ],
+      "correctAnswer": "Kehilangan sesuatu demi kepentingan orang lain",
+      "explanation": "Putri Shalala merelakan kebahagiaannya yang selalu terjaga dan merasakan kesedihan mendalam demi menolong rakyatnya dari kemarau."
+    },
+    {
+      "text": "Manakah pernyataan berikut yang sesuai dengan makna teks?",
+      "options": [
+        "Putri Shalala egois karena tidak ingin menangis",
+        "Kerajaan menjadi makmur setelah Putri Shalala mengorbankan kebahagiaannya",
+        "Raja dan ratu memaksa Putri Shalala untuk menangis",
+        "Air mata Putri Shalala tidak memiliki kekuatan apa pun",
+        "Kemarau di kerajaan terjadi karena hujan turun terlalu sering sebelumnya"
+      ],
+      "correctAnswer": "Kerajaan menjadi makmur setelah Putri Shalala mengorbankan kebahagiaannya",
+      "explanation": "Teks menunjukkan bahwa sang putri merelakan kebahagiaannya untuk menangis demi menyelamatkan rakyatnya, sehingga kerajaan kembali makmur."
+    },
+    {
+      "text": "Apa amanat yang dapat diambil dari puisi \"Senja di Ujung Desa\"?",
+      "options": [
+        "Senja adalah waktu yang paling indah untuk bermain",
+        "Kehangatan keluarga dan kebersamaan membawa kebahagiaan",
+        "Petani selalu bekerja keras tanpa kenal lelah",
+        "Burung-burung selalu pulang ke sarang saat senja tiba",
+        "Desa adalah tempat yang jauh lebih baik daripada kota"
+      ],
+      "correctAnswer": "Kehangatan keluarga dan kebersamaan membawa kebahagiaan",
+      "explanation": "Bait terakhir puisi menggambarkan keluarga yang berkumpul dengan penuh cinta di rumah kecil saat malam menjelang, menyampaikan pesan kehangatan keluarga."
+    },
+    {
+      "text": "Manakah pernyataan berikut yang sesuai dengan isi puisi \"Senja di Ujung Desa\"?",
+      "options": [
+        "Senja membuat desa menjadi sunyi tanpa kehidupan",
+        "Anak-anak merasa sedih saat senja tiba",
+        "Petani pulang ke rumah dengan perasaan gembira setelah bekerja",
+        "Lampu-lampu di desa hanya dinyalakan saat dini hari",
+        "Burung-burung mencari makan di malam hari"
+      ],
+      "correctAnswer": "Petani pulang ke rumah dengan perasaan gembira setelah bekerja",
+      "explanation": "Hal ini sesuai dengan baris puisi: 'Petani kembali dengan senyum, Menghitung hasil panen yang makmur.'"
+    },
+    {
+      "text": "Apa makna dari kata \"filamen\" dalam teks tersebut?",
+      "options": [
+        "Alat yang digunakan untuk menghasilkan cahaya dalam lampu",
+        "Bagian dalam lampu yang mudah rusak",
+        "Bahan bakar untuk lampu pijar",
+        "Alat yang digunakan untuk menyala dalam lampu neon",
+        "Komponen yang digunakan dalam pembuatan bola lampu"
+      ],
+      "correctAnswer": "Alat yang digunakan untuk menghasilkan cahaya dalam lampu",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang sesuai dengan isi teks?",
+      "options": [
+        "Lampu pertama kali ditemukan oleh Humphry Davy",
+        "Lampu neon adalah lampu yang ditemukan pertama kali",
+        "Lampu pijar menggunakan filamen sebagai sumber cahaya",
+        "Lampu hanya digunakan untuk penerangan di rumah saja",
+        "Semua lampu menggunakan filamen untuk menghasilkan cahaya"
+      ],
+      "correctAnswer": "Lampu pijar menggunakan filamen sebagai sumber cahaya",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang dimaksud dengan lampu LED berdasarkan teks tersebut?",
+      "options": [
+        "Lampu yang pertama kali ditemukan oleh Thomas Edison",
+        "Lampu yang lebih hemat energi dibandingkan dengan lampu pijar dan neon",
+        "Lampu yang menggunakan filamen untuk menghasilkan cahaya",
+        "Lampu yang hanya digunakan di rumah-rumah",
+        "Lampu yang ditemukan sebelum lampu pijar"
+      ],
+      "correctAnswer": "Lampu yang lebih hemat energi dibandingkan dengan lampu pijar dan neon",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks, apa saja fungsi lampu dalam kehidupan manusia?",
+      "options": [
+        "Sebagai alat untuk menciptakan suasana yang nyaman dan aman",
+        "Hanya untuk menerangi jalanan",
+        "Hanya digunakan di rumah-rumah",
+        "Sebagai bahan bakar alternatif",
+        "Untuk menggantikan cahaya matahari"
+      ],
+      "correctAnswer": "Sebagai alat untuk menciptakan suasana yang nyaman dan aman",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang dimaksud dengan kata \"tibia\" dalam teks tersebut?",
+      "options": [
+        "Tulang besar yang terletak di depan kaki",
+        "Tulang kecil yang terletak di samping tibia",
+        "Tulang yang terletak di bagian tubuh bagian atas",
+        "Bagian tulang yang mudah patah",
+        "Bagian dari tulang belakang"
+      ],
+      "correctAnswer": "Tulang besar yang terletak di depan kaki",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang sesuai dengan isi teks?",
+      "options": [
+        "Tibia adalah tulang kecil yang terletak di bagian belakang kaki",
+        "Tulang kering berfungsi sebagai penyangga dan pelindung organ dalam tubuh",
+        "Tulang kering hanya berperan dalam pergerakan tubuh saat berjalan",
+        "Cedera tulang kering jarang terjadi pada atlet",
+        "Olahraga teratur tidak berhubungan dengan kesehatan tulang kering"
+      ],
+      "correctAnswer": "Tulang kering berfungsi sebagai penyangga dan pelindung organ dalam tubuh",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang harus dilakukan untuk menjaga kesehatan tulang kering menurut teks?",
+      "options": [
+        "Melakukan olahraga teratur dan menghindari aktivitas fisik",
+        "Mengonsumsi makanan yang rendah kalsium",
+        "Berhati-hati saat beraktivitas fisik dan memastikan asupan kalsium yang cukup",
+        "Melakukan olahraga berat tanpa perawatan tubuh",
+        "Menghindari olahraga sama sekali"
+      ],
+      "correctAnswer": "Berhati-hati saat beraktivitas fisik dan memastikan asupan kalsium yang cukup",
+      "explanation": null
+    },
+    {
+      "text": "Apa fungsi utama dari tulang kering dalam tubuh?",
+      "options": [
+        "Menjadi penyangga dan pelindung bagi organ dalam tubuh",
+        "Hanya untuk memperkuat tulang belakang",
+        "Menjadi tempat produksi darah",
+        "Berfungsi sebagai tempat penyimpanan lemak",
+        "Menjaga keseimbangan tubuh"
+      ],
+      "correctAnswer": "Menjadi penyangga dan pelindung bagi organ dalam tubuh",
+      "explanation": null
+    },
+    {
+      "text": "Apa makna kata \"hiruk-pikuk\" dalam kalimat pertama teks tersebut?",
+      "options": [
+        "Keadaan yang sepi dan tenang",
+        "Suasana ramai dan bising",
+        "Keadaan yang penuh dengan bunga",
+        "Tempat yang sangat jauh",
+        "Suasana yang nyaman"
+      ],
+      "correctAnswer": "Suasana ramai dan bising",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan mana yang benar berdasarkan teks tersebut?",
+      "options": [
+        "Taman kota hanya digunakan untuk kegiatan olahraga",
+        "Taman kota sangat sepi dan tidak ada pengunjung",
+        "Taman kota menjadi tempat bagi berbagai komunitas untuk berkumpul",
+        "Taman kota tidak memiliki fasilitas bagi pengunjung",
+        "Taman kota hanya digunakan oleh pekerja yang lelah setelah bekerja"
+      ],
+      "correctAnswer": "Taman kota menjadi tempat bagi berbagai komunitas untuk berkumpul",
+      "explanation": null
+    },
+    {
+      "text": "Apa ide pokok dari teks tersebut?",
+      "options": [
+        "Keadaan tahun kota sangat penting bagi kehidupan perkotaan",
+        "Taman kota hanya digunakan untuk kegiatan olahraga",
+        "Taman kota penuh dengan orang-orang yang berjualan",
+        "Taman kota tidak memiliki fasilitas untuk anak-anak",
+        "Taman kota hanya digunakan oleh orang yang bekerja di kantor"
+      ],
+      "correctAnswer": "Keadaan tahun kota sangat penting bagi kehidupan perkotaan",
+      "explanation": null
+    },
+    {
+      "text": "Apa saja fasilitas yang disediakan di taman kota berdasarkan teks tersebut?",
+      "options": [
+        "Taman kota hanya menyediakan bangku taman",
+        "Taman kota menyediakan fasilitas seperti bangku taman, jalur jogging, dan tempat bermain anak",
+        "Taman kota tidak menyediakan fasilitas apa pun",
+        "Taman kota hanya menyediakan tempat bermain anak",
+        "Taman kota hanya menyediakan jalur jogging"
+      ],
+      "correctAnswer": "Taman kota menyediakan fasilitas seperti bangku taman, jalur jogging, dan tempat bermain anak",
+      "explanation": null
+    },
+    {
+      "text": "Apa makna kata \"vulkanik\" dalam teks tersebut?",
+      "options": [
+        "Berhubungan dengan kehidupan manusia",
+        "Berhubungan dengan lautan",
+        "Berhubungan dengan aktivitas gunung berapi",
+        "Berhubungan dengan pertanian",
+        "Berhubungan dengan perubahan iklim"
+      ],
+      "correctAnswer": "Berhubungan dengan aktivitas gunung berapi",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan mana yang benar berdasarkan teks tersebut?",
+      "options": [
+        "Gunung Merapi terletak di Pulau Sumatra",
+        "Letusan Gunung Merapi selalu menyebabkan kerusakan di seluruh Indonesia",
+        "Gunung Merapi memberikan manfaat berupa kesuburan tanah di sekitarnya",
+        "Gunung Merapi sudah tidak aktif lagi sejak zaman kolonial",
+        "Gunung Merapi tidak menimbulkan dampak bagi kehidupan masyarakat"
+      ],
+      "correctAnswer": "Gunung Merapi memberikan manfaat berupa kesuburan tanah di sekitarnya",
+      "explanation": null
+    },
+    {
+      "text": "Apa ide pokok dari teks tersebut?",
+      "options": [
+        "Gunung Merapi tidak pernah meletus",
+        "Merapi merupakan gunung berapi aktif yang memberikan manfaat dan bahaya bagi masyarakat",
+        "Gunung Merapi hanya berbahaya bagi tanaman pertanian",
+        "Gunung Merapi terletak di luar Indonesia",
+        "Gunung Merapi tidak memberikan dampak apa-apa bagi kehidupan masyarakat"
+      ],
+      "correctAnswer": "Merapi merupakan gunung berapi aktif yang memberikan manfaat dan bahaya bagi masyarakat",
+      "explanation": null
+    },
+    {
+      "text": "Apa dampak dari aktivitas Gunung Merapi berdasarkan teks tersebut?",
+      "options": [
+        "Aktivitas Gunung Merapi hanya berdampak pada masyarakat luar Jawa",
+        "Aktivitas Gunung Merapi tidak berbahaya sama sekali",
+        "Aktivitas Gunung Merapi menimbulkan dampak besar bagi lingkungan dan masyarakat",
+        "Aktivitas Gunung Merapi hanya mempengaruhi pertanian di Pulau Sumatra",
+        "Aktivitas Gunung Merapi tidak menimbulkan dampak bagi lingkungan sekitar"
+      ],
+      "correctAnswer": "Aktivitas Gunung Merapi menimbulkan dampak besar bagi lingkungan dan masyarakat",
+      "explanation": null
+    }
+  ]
+}

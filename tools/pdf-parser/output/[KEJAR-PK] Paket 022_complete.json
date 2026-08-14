@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Garis $j$ tegak lurus garis $y = 2x + 1$, jika $j$ melalui $(1,2)$ dan $(a,b)$. Berapa nilai $\\frac{a-5}{b} = \\dots$",
+      "options": [
+        "-2",
+        "-1",
+        "0",
+        "1",
+        "2"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui gambar! Daerah yang diarsir dapat direpresentasikan sebagai...",
+      "options": [
+        "(A \\cap B) \\cup (A \\cap C)",
+        "A^c \\cup B^c \\cup C^c",
+        "(A \\cup B) - (B \\cup C)",
+        "A \\cap B \\cap C",
+        "(A \\cap B) \\cup (B \\cap C)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Untuk $x \\neq -\\frac{2}{3}, x \\neq 1, x \\neq 2$ hasil kali $\\frac{x^3 + x^2 - 2x}{3x^2 - x - 2}$ oleh $\\frac{2}{x+2}$ adalah...",
+      "options": [
+        "\\frac{3x+2}{2x}",
+        "\\frac{3x-2}{2x}",
+        "\\frac{2x}{3x+2}",
+        "\\frac{2x}{3x-2}",
+        "\\frac{x}{x-1}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Nilai $x$ yang diperbolehkan dari $\\frac{2}{10-x}$ adalah...",
+      "options": [
+        "x > 0",
+        "x < 20",
+        "0 < x < 20",
+        "x = 10",
+        "x < 10 dan x > 10"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Operasi $@$ pada himpunan bilangan bulat didefinisikan dengan aturan $a @ b = (a + b)^2$. Nilai $-1 @ -4$ adalah...",
+      "options": [
+        "4",
+        "9",
+        "16",
+        "25",
+        "36"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui gambar. Berapa besar $\\angle DBC = \\dots$",
+      "options": [
+        "15^\\circ",
+        "30^\\circ",
+        "45^\\circ",
+        "60^\\circ",
+        "75^\\circ"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui gambar. Jika panjang sisi persegi sebesar $8\\text{ cm}$, berapa luas area yang di arsir...",
+      "options": [
+        "(4 - \\pi)",
+        "2(4 - \\pi)",
+        "3(4 - \\pi)",
+        "4(4 - \\pi)",
+        "5(4 - \\pi)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bulan Januari harga barang $\\text{Rp}50.000.000,00$. Bulan Februari harga naik $10\\%$. Selama bulan Maret harga barang bulan Februari didiskon sebesar $10\\%$. Harga barang bulan Maret adalah...",
+      "options": [
+        "\\text{Rp}49.500.000,00",
+        "\\text{Rp}50.000.000,00",
+        "\\text{Rp}40.000.000,00",
+        "\\text{Rp}52.500.000,00",
+        "\\text{Rp}48.500.000,00"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ketika $8$ dibagi dengan $12$, sisanya adalah...",
+      "options": [
+        "1/3",
+        "2/3",
+        "4",
+        "8",
+        "12"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Seorang Ibu berencana memiliki tiga anak. Peluang seorang ibu memiliki tepat dua anak laki-laki dan satu perempuan adalah...",
+      "options": [
+        "4/8",
+        "1/8",
+        "2/8",
+        "3/8",
+        "5/8"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $x, 2x, 3x$ adalah sudut dari segitiga dan $y$ adalah setengah dari salah satu sudut persegi panjang manakah pernyataan yang benar.\n1) Sudut terbesar segitiga tersebut adalah $90^\\circ$\n2) y > 2x\n3) y = 45^\\circ\n4) 3x > y",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Usia A 26 Tahun, usia C sama dengan rata-rata usia A dan B. Adapun usia D adalah 28 tahun lebih tua daripada A dan 18 tahun lebih tua daripada B.\nManakah pernyataan berikut yang benar?\n1) Selisih usia A dan C adalah 14 tahun\n2) A lebih tua daripada B\n3) Rata-rata usia B dan C adalah 35 tahun\n4) Usia C adalah 18 tahun",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika panjang dua sisi terpendek segitiga siku-siku adalah $7\\text{ cm}$ dan $24\\text{ cm}$. Manakah pernyataan di bawah berikut yang benar?\na. Kelilingnya adalah $56\\text{ cm}$\nb. Luas segitiga tersebut adalah $84\\text{ cm}^2$\nc. Sisi miring segitiga tersebut adalah $25\\text{ cm}$\nd. Keliling > luas",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui $f(x) = -4x - 7$. Manakah pernyataan yang benar antara hubungan P dan Q jika P = f(-3) dan Q = f(3)",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Nilai mata kuliah Tomi pada semester I yang lalu adalah Agama = 90, Pengantar Akuntansi = 80, Bahasa Indonesia = 75, Matematika Ekonomi = 90, Bahasa Inggris = 80, Pancasila = 80, Pengantar Perpajakan = 60. Dari data tersebut, Manakah hubungan yang benara antara kuantitas P (Nilai tengah/Median) dan Q (Rata-rata)?",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

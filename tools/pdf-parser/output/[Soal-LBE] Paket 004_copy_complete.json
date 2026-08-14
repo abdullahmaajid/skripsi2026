@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "What is the main idea of the passage?",
+      "options": [
+        "Intelligence and talent contribute to success",
+        "Grit helps individuals overcome challenges",
+        "Perseverance is a key factor in achieving success",
+        "Hard work is necessary to improve skills",
+        "Research explores different factors that influence success"
+      ],
+      "correctAnswer": "Perseverance is a key factor in achieving success",
+      "explanation": null
+    },
+    {
+      "text": "What is the stated main idea of the passage?",
+      "options": [
+        "Exercise improves both physical and mental well-being",
+        "Physical fitness is the primary goal of regular exercise",
+        "Regular exercise helps reduce stress and improve cognitive function",
+        "Exercise contributes to better memory and concentration",
+        "Engaging in physical activity leads to increased energy levels"
+      ],
+      "correctAnswer": "Exercise improves both physical and mental well-being",
+      "explanation": null
+    },
+    {
+      "text": "What is the main idea of the passage?",
+      "options": [
+        "Different plants have unique adaptations that help them survive in various environments",
+        "Cacti are the most adaptable plants because they can store water",
+        "Mangrove trees cannot survive in freshwater environments",
+        "Venus flytraps rely entirely on insects for survival",
+        "All plants have the same adaptations to survive in different environments"
+      ],
+      "correctAnswer": "Different plants have unique adaptations that help them survive in various environments",
+      "explanation": null
+    },
+    {
+      "text": "What is the main idea of the passage?",
+      "options": [
+        "Homing pigeons are the most skilled navigators among birds",
+        "Sea turtles rely only on ocean currents to find their way",
+        "Insects navigate by following the position of the sun alone",
+        "Animals use various methods to navigate their environment",
+        "The Earth's magnetic field is the primary navigation tool for all animals"
+      ],
+      "correctAnswer": "Animals use various methods to navigate their environment",
+      "explanation": null
+    },
+    {
+      "text": "What is the main idea of the passage?",
+      "options": [
+        "GTA has sparked controversy while maintaining a strong cultural influence",
+        "GTA's portrayal of violence has led to bans and criticism from various groups",
+        "Despite criticism, GTA remains one of the most anticipated game franchises",
+        "GTA's controversial themes have fueled ongoing debates about gaming and morality",
+        "GTA has left a lasting impact on gaming and pop culture"
+      ],
+      "correctAnswer": "GTA has sparked controversy while maintaining a strong cultural influence",
+      "explanation": null
+    },
+    {
+      "text": "What is the main idea of the passage?",
+      "options": [
+        "The iPhone 16 introduces new features while competing in the smartphone market.",
+        "Apple continues to refine the iPhone series with each new release",
+        "The iPhone 16 struggles to attract consumers due to minimal upgrades",
+        "Apple's focus on innovation keeps the iPhone 16 ahead of its competitors",
+        "The smartphone market is evolving, and Apple must adapt to stay relevant"
+      ],
+      "correctAnswer": "The iPhone 16 introduces new features while competing in the smartphone market.",
+      "explanation": null
+    },
+    {
+      "text": "Which option best represents the central idea of the passage?",
+      "options": [
+        "Feminist historians reshaped historical studies by proving that men played a minor role in shaping history",
+        "The exclusion of women from historical narratives was a result of early historians focusing primarily on male figures",
+        "National Women's History Month was created to celebrate women's contributions and challenge traditional historical perspectives",
+        "Women's historical contributions were long ignored, but the development of women's history as a discipline brought recognition",
+        "The study of history has always included both men and women equally, with no need for additional recognition"
+      ],
+      "correctAnswer": "Women's historical contributions were long ignored, but the development of women's history as a discipline brought recognition",
+      "explanation": null
+    },
+    {
+      "text": "What is the main point of the first paragraph?",
+      "options": [
+        "Authorities have imposed a lockdown in Kochi due to a fire at a waste facility",
+        "The fire at the Brahmapuram waste plant started due to negligence in waste disposal",
+        "The government has successfully contained the fire at the waste plant in Kerala",
+        "A fire at a waste plant in Kochi has created a toxic smoke cover, leading to health concerns",
+        "Residents in Kochi are protesting against the waste plant for causing environmental pollution"
+      ],
+      "correctAnswer": "A fire at a waste plant in Kochi has created a toxic smoke cover, leading to health concerns",
+      "explanation": null
+    },
+    {
+      "text": "What is the primary idea of the second paragraph?",
+      "options": [
+        "The government has permanently shut down the Brahmapuram waste plant",
+        "Local authorities have prevented all future landfill fires in India through strict regulations",
+        "Firefighters have completely extinguished the fire in Kochi despite its challenges",
+        "Waste plant fires in India are a recurring problem due to methane buildup",
+        "Residents of Kochi believe that the waste plant fire was deliberately started"
+      ],
+      "correctAnswer": "Waste plant fires in India are a recurring problem due to methane buildup",
+      "explanation": null
+    },
+    {
+      "text": "What is the main idea of the third paragraph?",
+      "options": [
+        "Most firefighters and residents have recovered from the toxic smoke exposure",
+        "The Kerala government has dismissed concerns about the fire's health impact",
+        "Local hospitals are overwhelmed with respiratory cases due to the fire",
+        "The pollution control board has banned all waste processing plants in Kochi",
+        "The fire has affected the health of both residents and firefighters"
+      ],
+      "correctAnswer": "The fire has affected the health of both residents and firefighters",
+      "explanation": null
+    },
+    {
+      "text": "What is the central focus of the passage?",
+      "options": [
+        "Fires at waste plants in India, like the one in Kochi, often happen due to methane buildup, causing toxic smoke and health risks",
+        "Waste management challenges in India contribute to frequent landfill fires and pollution issues",
+        "Firefighters and local authorities are working to control the fire and minimize its impact",
+        "The health effects of toxic smoke from the fire have raised concerns among officials and residents",
+        "Environmental hazards in urban areas continue to pose risks to public safety and infrastructure"
+      ],
+      "correctAnswer": "Fires at waste plants in India, like the one in Kochi, often happen due to methane buildup, causing toxic smoke and health risks",
+      "explanation": null
+    },
+    {
+      "text": "What is the primary focus of the passage?",
+      "options": [
+        "Gene editing can be used to eliminate all genetic disorders in humans",
+        "CRISPR works by randomly modifying DNA sequences in living organisms",
+        "The main purpose of CRISPR is to create genetically modified crops",
+        "CRISPR is a powerful gene-editing technology with significant potential and ethical concerns",
+        "Ethical concerns are the main reason why CRISPR should not be used in scientific research"
+      ],
+      "correctAnswer": "CRISPR is a powerful gene-editing technology with significant potential and ethical concerns",
+      "explanation": null
+    },
+    {
+      "text": "What is the main idea of the passage?",
+      "options": [
+        "The gold standard links a country's currency to a fixed amount of gold",
+        "Gold is a valuable metal used in many industries",
+        "Countries no longer use the gold standard in their economies",
+        "The value of currency changes based on government policies",
+        "Paper money is more convenient than gold for daily transactions"
+      ],
+      "correctAnswer": "The gold standard links a country's currency to a fixed amount of gold",
+      "explanation": null
+    },
+    {
+      "text": "What is the main idea of the passage?",
+      "options": [
+        "Cultivated meat offers a sustainable and ethical alternative to traditional meat",
+        "Scientists are developing new ways to produce meat without farming animals",
+        "Traditional meat production is more natural than cultivated meat",
+        "Cultivated meat is the same as plant-based meat substitutes",
+        "Meat consumption will decrease in the future due to new food technologies"
+      ],
+      "correctAnswer": "Cultivated meat offers a sustainable and ethical alternative to traditional meat",
+      "explanation": null
+    },
+    {
+      "text": "What is the main idea of the passage?",
+      "options": [
+        "Evolution is a process that causes genetic changes in species over time",
+        "Scientists use fossils and molecular data to study past life forms",
+        "Evolution explains how species change over time and share a common ancestor",
+        "Some species evolve quickly, while others remain unchanged for millions of years",
+        "Observable changes in populations provide evidence that evolution is still happening today"
+      ],
+      "correctAnswer": "Evolution explains how species change over time and share a common ancestor",
+      "explanation": null
+    }
+  ]
+}

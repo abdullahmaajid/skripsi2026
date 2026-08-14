@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Dopamine is released in the nucleus accumbens",
+        "Dopamine evolved to reward survival-promoting behaviors",
+        "Dopamine directly causes feelings of love and happiness",
+        "Dopamine depletion is linked to Parkinson's disease",
+        "Social media notifications can trigger dopamine release"
+      ],
+      "correctAnswer": "Dopamine directly causes feelings of love and happiness",
+      "explanation": "The text explicitly states that dopamine is not directly responsible for happiness or love."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Dopamine is referred to as the \"feel-good neurotransmitter\"",
+        "There are seven distinct dopamine receptor types",
+        "Dopamine reinforces behaviors that triggered its release",
+        "The nigrostriatal pathway is involved in motor control",
+        "Gambling wins can activate dopamine release"
+      ],
+      "correctAnswer": "There are seven distinct dopamine receptor types",
+      "explanation": "The text mentions there are five distinct receptor types (D1-D5), not seven."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Powerwall is a home battery system",
+        "Powerwall 3 offers 13.5 kWh of energy storage",
+        "Homes with Powerwall maintained power during California wildfires",
+        "Powerwall units cannot be stacked or combined",
+        "Tesla's energy division extends beyond electric vehicles"
+      ],
+      "correctAnswer": "Powerwall units cannot be stacked or combined",
+      "explanation": "The text states that Powerwall can be stacked in configurations of up to 10 units."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "The Hornsdale Power Reserve uses Tesla batteries",
+        "Tesla holds approximately 34% of the global grid-scale battery market",
+        "Megapack installations have transformed grid stability",
+        "The Hornsdale installation saved an estimated $500 million in its first two years",
+        "Tesla's battery installations have grown at a compound annual rate of 62%"
+      ],
+      "correctAnswer": "The Hornsdale installation saved an estimated $500 million in its first two years",
+      "explanation": "The text states it saved an estimated $116 million, not $500 million."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Praying mantises rely on camouflage and patience",
+        "Mantis strikes are faster than the blink of a human eye",
+        "Mantises can remain motionless for days without moving",
+        "Mantises possess stereoscopic vision",
+        "The mantis strike occurs in 5-10 milliseconds"
+      ],
+      "correctAnswer": "Mantises can remain motionless for days without moving",
+      "explanation": "The text states they can remain motionless for hours, not days."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Mantises have compound eyes and simple eyes",
+        "Mantises are the only known invertebrates with 3D vision",
+        "Female mantises always consume males after mating",
+        "Larger mantis species can capture hummingbirds",
+        "Research on mantis vision was published in Current Biology"
+      ],
+      "correctAnswer": "Female mantises always consume males after mating",
+      "explanation": "The text states that this behavior occurs in fewer than 30% of natural mating encounters."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Rachel Zegler stars as Snow White",
+        "The film is scheduled for release in March 2025",
+        "The original animated film was released in 1937",
+        "Tim Burton is directing the adaptation",
+        "Gal Gadot plays the Evil Queen"
+      ],
+      "correctAnswer": "Tim Burton is directing the adaptation",
+      "explanation": "The text states that Marc Webb is directing."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Peter Dinklage criticized the project",
+        "The film's budget exceeds $200 million",
+        "The adaptation will include songs from the original film",
+        "Production completed without any controversies",
+        "New songs are being created by Benj Pasek and Justin Paul"
+      ],
+      "correctAnswer": "Production completed without any controversies",
+      "explanation": "The production faced significant controversy and delays after Peter Dinklage's criticism."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "The Wizarding World of Harry Potter first opened in 2010",
+        "Hagrid's attraction features the longest roller coaster track in Florida",
+        "The Harry Potter book series consists of nine volumes",
+        "The film franchise grossed more than $7.7 billion",
+        "The newest attraction in Tokyo uses augmented reality"
+      ],
+      "correctAnswer": "The Harry Potter book series consists of nine volumes",
+      "explanation": "The text states it is a seven-book series."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "The book series has been translated into 80 languages",
+        "Visitor numbers exceeded 40 million annually before the pandemic",
+        "The Harry Potter merchandise sales reached $5.4 billion in 2023",
+        "J.K. Rowling's public statements have had no impact on the brand",
+        "The Tokyo attraction is called \"Harry Potter: Spellbound\""
+      ],
+      "correctAnswer": "J.K. Rowling's public statements have had no impact on the brand",
+      "explanation": "The text notes that controversies surrounding Rowling's public statements affected some fan engagement."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "MotoGP motorcycles can exceed speeds of 360 km/h",
+        "Riders experience up to 1.7G of force during braking",
+        "The 2024 season brought changes to aerodynamic regulations",
+        "Modern MotoGP bikes weigh approximately 200 kilograms",
+        "Carbon fiber is used in MotoGP motorcycle frames"
+      ],
+      "correctAnswer": "Modern MotoGP bikes weigh approximately 200 kilograms",
+      "explanation": "The text states the engines weigh just 157 kilograms."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "MotoGP bikes accelerate from 0-100 km/h in under 2.5 seconds",
+        "Airbag race suits deploy within 15 milliseconds",
+        "MotoGP engines generate over 240 horsepower",
+        "Electric motors have completely replaced combustion engines in MotoGP",
+        "Seamless transmission technology is used in MotoGP"
+      ],
+      "correctAnswer": "Electric motors have completely replaced combustion engines in MotoGP",
+      "explanation": "The text discusses race bikes generating power from 1000cc engines with carbon fiber frames and seamless transmissions, not electric motors."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Oceans have absorbed about 90% of excess heat from greenhouse gas emissions",
+        "Sea level rise is caused solely by melting ice with no contribution from thermal expansion",
+        "The ocean s pH has decreased by 0.1 units since pre-industrial times",
+        "Coral reefs may experience severe annual bleaching by 2050",
+        "Marine heatwaves have increased in frequency by 50% over the past century"
+      ],
+      "correctAnswer": "Sea level rise is caused solely by melting ice with no contribution from thermal expansion",
+      "explanation": "The text states that thermal expansion contributes approximately 42% to observed sea-level rise alongside melting ice."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Ocean acidification threatens organisms that build shells",
+        "The IPCC is mentioned in relation to sea level projections",
+        "The Woods Hole Oceanographic Institution conducted research cited in the text",
+        "Ocean temperature has increased by approximately 2\\degree C in the upper 100 meters",
+        "Thermal expansion contributes about 42% to observed sea-level rise"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Dopamine neurons generate prediction error signals",
+        "Dopamine release occurs in the hippocampus",
+        "We more easily remember surprising events due to dopamine mechanisms",
+        "The enhanced plasticity window lasts approximately 2-3 hours",
+        "Dopamine disruptions contribute to cognitive symptoms in several conditions"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

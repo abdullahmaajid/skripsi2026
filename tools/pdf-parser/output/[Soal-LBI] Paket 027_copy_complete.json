@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Makna kata ketegangan dalam kalimat (1) teks bacaan di atas secara leksikal adalah...",
+      "options": [
+        "Pertentangan yang keras",
+        "Kondisi panik",
+        "Keadaan yang tidak menentu",
+        "Menghadapi ketidakpastian",
+        "Situasi terancam"
+      ],
+      "correctAnswer": "Pertentangan yang keras",
+      "explanation": null
+    },
+    {
+      "text": "Pada teks bacaan penulis menggunakan kata ganti \"kita\" seperti pada kalimat (1) teks bacaan yang memiliki makna bahwa penulis bermaksud untuk...",
+      "options": [
+        "Mengajak pembaca sebagai penikmat cerita",
+        "Mengajak pembaca ikut terlibat dalam cerita",
+        "Mengajak pembaca di luar konteks cerita",
+        "Mengajak pembaca sebagai orang kedua dalam teks bacaan",
+        "Mengajak pembaca sebagai orang ketiga dalam teks bacaan"
+      ],
+      "correctAnswer": "Mengajak pembaca ikut terlibat dalam cerita",
+      "explanation": null
+    },
+    {
+      "text": "Berikut ini hal yang membuat teks bacaan terkesan kurang memiliki informasi yang selaras adalah...",
+      "options": [
+        "Tidak menginformasikan asal usul kombucha",
+        "Tidak menginformasikan siapa penemu kombucha",
+        "Tidak menyajikan latar belakang yang jelas",
+        "Tidak disebutkan tata cara pembuatan kombucha",
+        "Tidak memiliki topik yang jelas yang dibahas"
+      ],
+      "correctAnswer": "Tidak menginformasikan siapa penemu kombucha",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi teks bacaan yang dimaksud dengan kombucha adalah...",
+      "options": [
+        "Teh yang berasal dari Jepang",
+        "Minuman yang berasal dari ketegangan yang timbul",
+        "Istilah untuk limbah yang berasal dari nuklir",
+        "Teh yang berasal dari Tiongkok",
+        "Minuman ini hasil kerja sama Tiongkok dan Jepang"
+      ],
+      "correctAnswer": "Teh yang berasal dari Tiongkok",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang membuat kombucha menjadi minuman yang begitu unik...",
+      "options": [
+        "Karena kombucha tercipta dari reaksi nuklir",
+        "Karena hasil penemuan ilmuwan yang tidak sengaja",
+        "Karena minuman turun temurun nenek moyang Tiongkok",
+        "Karena dapat mengurangi paparan radiasi",
+        "Karena difermentasi dangan jamur"
+      ],
+      "correctAnswer": "Karena difermentasi dangan jamur",
+      "explanation": null
+    },
+    {
+      "text": "Hal apa yang sedang dikhawatirkan belakangan ini berdasarkan informasi pada teks bacaan...",
+      "options": [
+        "Kondisi demografis",
+        "Peperangan",
+        "Penipisan lapisan ozon",
+        "Efek rumah kaca",
+        "Polusi udara"
+      ],
+      "correctAnswer": "Polusi udara",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa kualitas udara menjadi hal yang sangat mengkhawatirkan?",
+      "options": [
+        "Kualitas udara memengaruhi kesehatan",
+        "Kualitas udara memengaruhi aktivitas pekerjaan",
+        "Kualitas udara memengaruhi transportasi",
+        "Kualitas udara memengaruhi kinerja",
+        "Kualitas udara memengaruhi kualitas produk pertanian"
+      ],
+      "correctAnswer": "Kualitas udara memengaruhi kesehatan",
+      "explanation": null
+    },
+    {
+      "text": "Jika ingin menulis satu paragraf baru setelah paragraf terakhir maka hal yang paling mungkin untuk dibahas adalah...",
+      "options": [
+        "Sumber pencemaran udara",
+        "Informasi terkait negara yang tidak berpolusi",
+        "Cara mengatasi efek negatif polusi udara",
+        "Hasil penelitian terkait polusi udara",
+        "Penyakit yang timbul dari polusi udara"
+      ],
+      "correctAnswer": "Cara mengatasi efek negatif polusi udara",
+      "explanation": null
+    },
+    {
+      "text": "Hal apa yang membuat polusi udara berbahaya...",
+      "options": [
+        "Berdampak pada kinerja",
+        "Membuat kualitas produk pertanian menurun",
+        "Memengaruhi aktivitas pekerjaan",
+        "Memengaruhi kinerja seseorang",
+        "Mengandung bahan kimia, bakteri, dan lainnya"
+      ],
+      "correctAnswer": "Mengandung bahan kimia, bakteri, dan lainnya",
+      "explanation": null
+    },
+    {
+      "text": "Informasi dalam teks bacaan yang belum terjawab adalah...",
+      "options": [
+        "Cara mengurangi efek negatif dari polusi udara",
+        "Hal yang terkandung dalam udara yang berpolusi",
+        "Efek dari polusi udara",
+        "Sumber polusi udara",
+        "Informasi terkait indeks kualitas udara"
+      ],
+      "correctAnswer": "Cara mengurangi efek negatif dari polusi udara",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa para ilmuan dapat mengklaim bahwa pada tahun 2050, sekitar 800 juta orang di seluruh dunia hidup dengan nyeri punggung...",
+      "options": [
+        "Hal ini didasarkan pada tinjauan aktivitas manusia",
+        "Hal ini didasarkan pengamatan struktur tulang bayi lahir",
+        "Hal ini didasarkan pada analisis data selama 30 tahun",
+        "Hal ini didasarkan pada kualiatas makanan saat ini",
+        "Hal ini diprediksi dari kualitas udara saat ini"
+      ],
+      "correctAnswer": "Hal ini didasarkan pada analisis data selama 30 tahun",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang dikhawatirkan peneliti dari nyeri punggung...",
+      "options": [
+        "Perekonomian dunia tidak berjalan dengan baik",
+        "Manusia akan terbatas melakukan aktivitas",
+        "Tidak ada manusia lagi yang normal",
+        "Generasi kedepannya akan kelainan",
+        "Krisis perawatan kesehatan di seluruh dunia"
+      ],
+      "correctAnswer": "Krisis perawatan kesehatan di seluruh dunia",
+      "explanation": null
+    },
+    {
+      "text": "Peningktana kasus nyeri punggung paling besar di...",
+      "options": [
+        "Eropa",
+        "Asia",
+        "Amerika",
+        "Australia",
+        "Eropa timur"
+      ],
+      "correctAnswer": "Asia",
+      "explanation": null
+    },
+    {
+      "text": "Informasi yang dirasa perlu ditambahkan dalam teks bacaan adalah...",
+      "options": [
+        "Cara mengatasi nyeri punggung",
+        "Negara yang belum ada kasus nyeri punggung",
+        "Penderita nyeri punggung",
+        "Penelitian terkait nyeri punggung",
+        "Fakta dari nyeri punggung"
+      ],
+      "correctAnswer": "Cara mengatasi nyeri punggung",
+      "explanation": null
+    },
+    {
+      "text": "Topik dari teks bacaan tersebut adalah...",
+      "options": [
+        "Kondisi kesehatan dunia",
+        "Kekhawatiran peneliti",
+        "Negara dengan masyarakat terkena nyeri punggu tertinggi",
+        "Penelitian tahun 2050",
+        "Nyeri punggung"
+      ],
+      "correctAnswer": "Nyeri punggung",
+      "explanation": null
+    },
+    {
+      "text": "Hal apa yang sangat mengkhawatirkan yang dapat timbul dari suhu panas ekstrem...",
+      "options": [
+        "Kebakaran",
+        "Melelehnya es di kutup",
+        "Tsunami",
+        "Kematian",
+        "Kekeringan"
+      ],
+      "correctAnswer": "Kematian",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa suhu panas ekstrem kurang mendapat perhatian padahal dapat menyebabkan kematian...",
+      "options": [
+        "Jumlah kematian tidak langsung terlihat",
+        "Karena diangap hal biasa akibat musim",
+        "Dampaknya belum terasa jelas",
+        "Tidak menganggu aktivitas dan kondisi sekitar",
+        "Masih dapat dikontrol"
+      ],
+      "correctAnswer": "Jumlah kematian tidak langsung terlihat",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan di bawah ini yang tidak sesuai dengan informasi yang ada pada teks bacaan adalah...",
+      "options": [
+        "Keringat sebagian besar terdiri atas air",
+        "Gelombang panas adalah salah satu bahaya alam yang paling berbahaya",
+        "Keringat dapat mengimbangi efek penyakit pada tubuh kita",
+        "Suhu panas menyebabkan kematian",
+        "Keringat mengandung natrium, klorida, kalium, kalsium dan magnesium"
+      ],
+      "correctAnswer": "Suhu panas menyebabkan kematian",
+      "explanation": null
+    },
+    {
+      "text": "Topik dari teks bacaan tersebut adalah...",
+      "options": [
+        "Kematian",
+        "Efek rumah kaca",
+        "Suhu panas ekstrem",
+        "Hasil penelitian ilmuan",
+        "Alasan berkeringat"
+      ],
+      "correctAnswer": "Suhu panas ekstrem",
+      "explanation": null
+    },
+    {
+      "text": "Hal apa yang terjadi bila keringat pada manusia tidak lagi efektif lawan suhu panas...",
+      "options": [
+        "Kematian",
+        "Alergi",
+        "Kanker kulit",
+        "Kondisi tidak normal",
+        "Masalah paru-paru"
+      ],
+      "correctAnswer": "Kematian",
+      "explanation": null
+    },
+    {
+      "text": "Hal apa yang sering diderita oleh orang pada umumnya saat musim pancaroba...",
+      "options": [
+        "Pilek dan batuk",
+        "Alergi",
+        "Tifus",
+        "Alergi dan batuk",
+        "Demam dan alergi"
+      ],
+      "correctAnswer": "Pilek dan batuk",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa pilek sering disertai batuk?",
+      "options": [
+        "Karena pilek sama dengan batuk",
+        "Batuk merupakan bagian dari pilek",
+        "Virus batuk masih sama dengan firus pilek",
+        "Virus menyerang tenggorokan dulu baru menimbulkan pilek efek dari hal tersebut",
+        "Senyawa mediator yang dilepas oleh tubuh pada saat pilek yang membuat batuk terjadi"
+      ],
+      "correctAnswer": "Senyawa mediator yang dilepas oleh tubuh pada saat pilek yang membuat batuk terjadi",
+      "explanation": null
+    },
+    {
+      "text": "Mediator yang dilepaskan oleh tubuh saat melawan virus pilek, kecuali...",
+      "options": [
+        "Bradikinin",
+        "Tachykinin",
+        "Peptida",
+        "Leukotrien",
+        "Prabmaktin"
+      ],
+      "correctAnswer": "Prabmaktin",
+      "explanation": null
+    },
+    {
+      "text": "Produk lendir yang berlebih saat pilek dapat menimbulkan...",
+      "options": [
+        "Ingus",
+        "Influenza",
+        "Batuk",
+        "Polip",
+        "Sinus"
+      ],
+      "correctAnswer": "Batuk",
+      "explanation": null
+    },
+    {
+      "text": "Sebenarnya batuk juga memiliki dampak postif bagi kesehatan, yakni...",
+      "options": [
+        "Meredakan gatal pada tenggorokan",
+        "Membuat pernapasan lega",
+        "Meredakan flu",
+        "Membuat tenggorakan terasa lebih lega",
+        "Membersihkan saluran pernapasan"
+      ],
+      "correctAnswer": "Membersihkan saluran pernapasan",
+      "explanation": null
+    },
+    {
+      "text": "Saat umur semakin bertambah, tubuh kita akan menunjukkan tanda-tanda...",
+      "options": [
+        "Penyakit",
+        "Penurunan daya ingat",
+        "Lemah",
+        "Cepat lelah",
+        "Penuaan"
+      ],
+      "correctAnswer": "Penuaan",
+      "explanation": null
+    },
+    {
+      "text": "Penuaan secara biologis juga dapat terjadi akibat...",
+      "options": [
+        "Stress",
+        "Polusi",
+        "Paparan radiasi",
+        "Sakit-sakitan",
+        "Pekerjaan"
+      ],
+      "correctAnswer": "Stress",
+      "explanation": null
+    },
+    {
+      "text": "Penuan sering sekali dikaitkan dengan perubahan pada wajah dan rambut padahal ada hal lain pada tubuh yang ikut juga mengalami penuaan, yakni...",
+      "options": [
+        "Tenaga",
+        "Suara",
+        "Sel",
+        "Struktur tulang",
+        "Mudah lelah"
+      ],
+      "correctAnswer": "Sel",
+      "explanation": null
+    },
+    {
+      "text": "Topik dari teks bacaan tersebut adalah...",
+      "options": [
+        "Hasil penelitian",
+        "Penuaan",
+        "Stress",
+        "Usia",
+        "Human body"
+      ],
+      "correctAnswer": "Penuaan",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa penuaan kronologis tidak dapat dihindar...",
+      "options": [
+        "Stres terus bertambah tidak dapat dihindar",
+        "Makanan yang dikonsumsi memengaruhi penuaan secara nyata",
+        "Usia terus bertambah tanpa bisa dihentikan",
+        "Akibat terlalu lelah bekerja dan harus bekerja tanpa henti",
+        "Faktor genetika yang tidak bisa dihindari"
+      ],
+      "correctAnswer": "Usia terus bertambah tanpa bisa dihentikan",
+      "explanation": null
+    }
+  ]
+}

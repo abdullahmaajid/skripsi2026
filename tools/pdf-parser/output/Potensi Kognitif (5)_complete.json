@@ -1,0 +1,484 @@
+{
+  "questions": [
+    {
+      "text": "Sebuah keluarga memiliki 6 orang anak yang diberi nama R, A, C, H, E, dan L. keluarga tersebut membagikan 100 kelereng kepada setiap anak tidak sama banyak.\n- R memiliki 10 kelereng lebih sedikit daripada E\n- Jumlah kelereng A, C, dan H sama dengan jumlah kelereng E\n- C memiliki 5 kelereng lebih sedikit daripada L dan R\n- H adalah pemilik kelereng paling sedikit\nDari pernyataan informasi yang diberikan jawablah soal berikut dengan benar.\nSiapa pemilik kelereng paling banyak?",
+      "options": [
+        "R",
+        "A",
+        "C",
+        "H",
+        "E"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah keluarga memiliki 6 orang anak yang diberi nama R, A, C, H, E, dan L. keluarga tersebut membagikan 100 kelereng kepada setiap anak tidak sama banyak.\n- R memiliki 10 kelereng lebih sedikit daripada E\n- Jumlah kelereng A, C, dan H sama dengan jumlah kelereng E\n- C memiliki 5 kelereng lebih sedikit daripada L dan R\n- H adalah pemilik kelereng paling sedikit\nDari pernyataan informasi yang diberikan jawablah soal berikut dengan benar.\nJika L memiliki jumlah kelereng 20 buah lalu setiap anak diurutkan dari pemiliki kelereng paling banyak, maka pernyataan manakah yang tidak mungkin benar?",
+      "options": [
+        "E berada diurutan ke-1",
+        "L berada diurutan ke-4",
+        "L dan R berada diurutan yang sama",
+        "R berada diurutan ke-2",
+        "A berada diurutan ke-2 terakhir"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Alex merupakan warga Bandung yang memiliki keinginan untuk berlibur akhir tahun ke luar negeri. Ia diberi bekal Rp10.000.000,00 oleh orang tuanya untuk berlibur dengan catatan ia harus menyisakan uang tersebut sebesar Rp2.500.000,00 untuk keperluan spp sekolah di awal tahun baru nanti. Alex berencana untuk pergi berlibur ke negara terdekat di Asia Tenggara. Berikut informasi tiket pesawat pulang-pergi yang diterima oleh Alex:\n[Tabel Informasi Tiket Pesawat]\nAlex berencana untuk menghabiskan uangnya sebesar Rp5.000.000,00 ketika ia berlibur. Ia berniat membelikan beberapa barang untuk pacarnya:\n[Tabel Harga Barang]\nNegara mana yang paling memungkinkan Alex untuk pergi berlibur dan membeli barang-barang untuk pacarnya namun pesan dari orang tuanya tetap terlaksana?",
+      "options": [
+        "Malaysia",
+        "Singapura",
+        "Thailand",
+        "Vietnam",
+        "Philipina"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kelompokkan gambar-gambar di bawah ini ke dalam tiga kelompok berdasarkan ciri-cirinya yang identik.",
+      "options": [
+        "1,3,9 ; 2,5,6 ; 4,7,8",
+        "1,3,9 ; 2,7,8 ; 4,5,6",
+        "1,2,4 ; 3,5,7 ; 6,8,9",
+        "1,3,6 ; 2,4,8 ; 5,7,9",
+        "Tidak ada yang benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Tabel tersebut berisi voucher dan kode unik, kode unik yang berlaku hanya kode unik dangan huruf konsonan dan angka ganjil. Kode yang tidak berlaku adalah...",
+      "options": [
+        "Toko buku",
+        "Toko kue",
+        "Toko elektronik",
+        "Toko olahraga",
+        "Supermarket"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah dadu dilemparkan tiga kali dan tiga posisinya yang berbeda diberikan pada gambar di bawah. Temukan angka pada sisi yang berseberangan dengan sisi yang menunjukkan angka 3!",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kepala marketing mengatakan bahwa omzet bisnis bulan ini meningkat. Hal ini disebabkan oleh promosi besar-besaran pada awal bulan.\nManakah pernyataan di bawah ini yang memperkuat argument dari kepala marketing?",
+      "options": [
+        "Promosi besar-besaran di awal bulan belum pernah diterapkan pada bulan sebelumnya",
+        "Selain promosi besar-besaran pada awal bulan, tim marketing juga menggunakan strategi lain",
+        "Tim marketing tidak melakukan promosi",
+        "Omzet bulan sebelumnya lebih besar dari omzet bulan ini",
+        "Promosi besar-besaran hanya berpengaruh pada jumlah pembeli, bukan omzet"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dalam rapat pengurus OSIS yang bertempat di ruang organisasi dihadiri oleh 8 orang dan membentuk posisi duduk melingkar. Alif sebagai ketua OSIS duduk di antara bendahara dan sekretaris, yaitu Akmal dan Mia. Halimah duduk berhadapan dengan Ardan dan berada di antara Dita dan Akmal. Posisi Saiful berhadapan dengan Alif dan berada di antara Dita dan Rio.\nSiapakah yang duduk berseberangan dengan Mia?",
+      "options": [
+        "Saiful",
+        "Halimah",
+        "Ardan",
+        "Rio",
+        "Dita"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dalam rapat pengurus OSIS yang bertempat di ruang organisasi dihadiri oleh 8 orang dan membentuk posisi duduk melingkar. Alif sebagai ketua OSIS duduk di antara bendahara dan sekretaris, yaitu Akmal dan Mia. Halimah duduk berhadapan dengan Ardan dan berada di antara Dita dan Akmal. Posisi Saiful berhadapan dengan Alif dan berada di antara Dita dan Rio.\nSiapakah yang duduk berseberangan dengan Rio?",
+      "options": [
+        "Halimah",
+        "Dita",
+        "Akmal",
+        "Mia",
+        "Saiful"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Misal pernyataan \"siswa mengikuti kelas daring selama pandemi\" bernilai benar dan pernyataan \"ilmu pengetahuan yang didapat kurang maksimal\" bernilai benar, maka pernyataan \"jika siswa mengikuti kelas daring selama pandemi maka ilmu pengetahuan yang didapat kurang maksimal\" akan bernilai...",
+      "options": [
+        "Salah",
+        "Benar",
+        "Bisa benar, bisa salah",
+        "Campuran",
+        "Tidak dapat ditentukan nilai kebenarannya"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika Sandy makan, maka dia tidak kenyang. Jika tidak kenyang berarti haus.\nPernyataan mana di bawah ini yang jika BENAR membuat kesimpulan premis di atas salah?\n(1) Sandy makan berarti dia haus\n(2) Sandy makan, maka dia tidak kenyang\n(3) Sandy tidak haus, maka dia tidak makan\n(4) Sandy tidak haus, maka dia makan",
+      "options": [
+        "Semua benar",
+        "(1) dan (3)",
+        "(2) dan (4)",
+        "(4) saja",
+        "(1), (2), dan (3)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah lab melakukan pengujian kepada satu bakteri. Bakteri ini mampu untuk membelah dirinya menjadi dua bagian setiap 1 menit. Untuk memudahkan pemantauan, seorang professor meletakkan bakteri tersebut dalam sebuah wadah. Setelah 30 menit, dikabarkan bahwa wadah tersebut penuh setengahnya. Pada menit ke-berapa wadah tersebut akan penuh oleh bakteri?",
+      "options": [
+        "45 menit",
+        "37 menit",
+        "31 menit",
+        "50 menit",
+        "60 menit"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Terdapat bilangan dengan 2 digit yang jika angka-angka bilangan tersebut dijumlahkan akan menghasilkan 10 dan jika dikurangi akan menghasilkan 4. Bilangan tersebut adalah...",
+      "options": [
+        "64",
+        "55",
+        "84",
+        "51",
+        "73"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Delapan orang sedang mengantre di sebuah bank. Delapan orang tersebut adalah Alpha, Beta, Gamma, Delta, Epsilon, Zeta, Eta, Theta.\n(1) Gamma berada di urutan terakhir karena bangun terlambat\n(2) Alpha lebih dulu dating dibanding Delta\n(3) Ada tepat satu orang yang datang setelah Beta dan sebelum Epsilon\n(4) Delta datang tepat setelah Epsilon\nJika Beta berada di antrean ketiga, manakah pernyataan yang pasti benar?",
+      "options": [
+        "Keempat pilihan jawaban lain salah",
+        "Epsilon berada di antrean keenam",
+        "Delta berada di antrean pertama",
+        "Epsilon berada di antrean kelima",
+        "Theta dating sebelum Beta"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Delapan orang sedang mengantre di sebuah bank. Delapan orang tersebut adalah Alpha, Beta, Gamma, Delta, Epsilon, Zeta, Eta, Theta.\n(1) Gamma berada di urutan terakhir karena bangun terlambat\n(2) Alpha lebih dulu dating dibanding Delta\n(3) Ada tepat satu orang yang datang setelah Beta dan sebelum Epsilon\n(4) Delta datang tepat setelah Epsilon\nJika antrean pertama maju untuk dilayani teller dan Delta maju menjadi antrean kelima, manakah pernyataan yang pasti benar?",
+      "options": [
+        "Alpha menjadi berada di urutan kedua",
+        "Keempat pilihan jawaban lain salah",
+        "Alpha menjadi berada di urutan keempat",
+        "Beta menjadi berada di antrean kedua",
+        "Beta akan maju setelah Delta"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui $A = \\{13, 11, 10, 9, 6, 7, 4, 3\\}$. Lima anggota A diambil secara acak. Peluang terambilnya lima anggota tersebut berjumlah genap adalah...",
+      "options": [
+        "\\frac{1}{2}",
+        "25/56",
+        "5/12",
+        "\\frac{1}{4}",
+        "5/56"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar di bawah ini! Tentukan nilai y!",
+      "options": [
+        "27",
+        "39",
+        "32",
+        "24",
+        "31"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Siswa IPS menyatakan, \"manusia adalah makhluk social\". Siswa IPA menyatakan, \"manusia adalah biologi tunggal\". Fenomena sosial menunjukkan : \"gotong royong merupakan jati diri bangsa\".\nManakah pernyataan berikut yang PALING TEPAT mengenai FENOMENA SOSIAL tersebut?",
+      "options": [
+        "Memperlemah pernyataan siswa IPS",
+        "Memperlemah pernyataan siswa IPA",
+        "Memperkuat pernyataan siswa IPA",
+        "Memperkuat pernyataan siswa IPS",
+        "Tidak terkait dengan kedua pernyataan siswa"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika \"KELVIN\" ditulis sebagai \"LDMUJM\" dan \"ALPHA\" ditulis sebagai \"BKQGB\", maka \"GRAVITASI\" ditulis sebagai...",
+      "options": [
+        "YGSTGBSLH",
+        "OJKEDSKNY",
+        "TYHSKMHQW",
+        "HQBUJSBRJ",
+        "YGWKHSWNT"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika Rita rajin belajar dan patuh pada orang tua, maka ibu akan membelikan sepeda. Ibu tidak membelikan sepeda.\nSimpulan yang tepat adalah...",
+      "options": [
+        "Rita rajin belajar dan Rita patuh pada orang tua.",
+        "Rita tidak rajin belajar dan Rita tidak patuh pada orang tua.",
+        "Rita tidak rajin belajar atau Rita tidak patuh pada orang tua.",
+        "Rita rajin belajar dan Rita tidak patuh pada orang tua.",
+        "Rita rajin belajar dan Rita tidak patuh pada orang tua."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Poin 1 menyatakan E memiliki 10 kelereng lebih banyak daripada R. Poin 2 menyatakan jumlah A, C, dan H sama dengan E yang berarti setiap jumlah yang dimiliki oleh A, C, dan H tidak sebanyak jumlah E. Poin 3 menyatakan secara tersirat bahwa jumlah kelereng L dan R sama banyak. Poin 4 menyatakan bahwa H adalah pemilik kelereng paling sedikit. Jadi, E merupakan pemilik kelereng paling banyak dikarenakan baik R, A, C, H, dan L tidak ditemukan informasi yang menyatakan memiliki lebih banyak kelereng daripada E.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Poin 1 menyatakan E memiliki 10 kelereng lebih banyak daripada R. Poin 2 menyatakan jumlah A, C, dan H sama dengan E yang berarti setiap jumlah yang dimiliki oleh A, C, dan H tidak sebanyak jumlah E. Poin 3 menyatakan secara tersirat bahwa jumlah kelereng L dan R sama banyak. Poin 4 menyatakan bahwa H adalah pemilik kelereng paling sedikit. Jadi, E merupakan pemilik kelereng paling banyak dikarenakan baik R, A, C, H, dan L tidak ditemukan informasi yang menyatakan memiliki lebih banyak kelereng daripada E."
+    },
+    {
+      "text": "Dalam soal dinyatakan L memiliki kelereng 20 butir. Dikatakan dengan Poin 3 maka R juga memiliki kelereng 20 dan C memiliki 15. Dikatakan dengan Poin 1 maka E memiliki 30. Dikatakan dengan Poin 2 maka A + C + H = 30. Jika C sama dengan 15 maka A + H = 15. Sudah dapat dipastikan urutan dari pemilik yang paling banyak hingga paling sedikit adalah E, L, & R, C, A, H. Maka pernyataan yang paling tidak mungkin benar adalah L berada di urutan ke-4.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Dalam soal dinyatakan L memiliki kelereng 20 butir. Dikatakan dengan Poin 3 maka R juga memiliki kelereng 20 dan C memiliki 15. Dikatakan dengan Poin 1 maka E memiliki 30. Dikatakan dengan Poin 2 maka A + C + H = 30. Jika C sama dengan 15 maka A + H = 15. Sudah dapat dipastikan urutan dari pemilik yang paling banyak hingga paling sedikit adalah E, L, & R, C, A, H. Maka pernyataan yang paling tidak mungkin benar adalah L berada di urutan ke-4."
+    },
+    {
+      "text": "Total uang yang dimiliki: 10.000.000. Keperluan untuk spp: 2.500.000. Keperluan untuk membeli barang: 6.650.000. Total uang spp dan barang: $2.500.000 + 6.650.000 = 9.150.000$. $10.000.000 - 9.150.000 = 850.000$. Tiket pesawat yang mampu dibeli dengan uang 850.000 agar mencukupi segala kebutuhan adalah Negara Malaysia.",
+      "options": [
+        "Malaysia",
+        "Singapura",
+        "Thailand",
+        "Brunei",
+        "Filipina"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Total uang yang dimiliki: 10.000.000. Keperluan untuk spp: 2.500.000. Keperluan untuk membeli barang: 6.650.000. Total uang spp dan barang: $2.500.000 + 6.650.000 = 9.150.000$. $10.000.000 - 9.150.000 = 850.000$. Tiket pesawat yang mampu dibeli dengan uang 850.000 agar mencukupi segala kebutuhan adalah Negara Malaysia."
+    },
+    {
+      "text": "1, 3, 9 memiliki satu elemen yang didasarkan di dalam elemen yang berbeda. 2, 5, 6 memiliki dua garis yang saling tegak lurus dari membagi gambar menjadi empat bagian. 4, 7, 8 memiliki dua elemen serupa (yang tidak berukuran sama) yang saling menempel.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "A",
+      "explanation": "1, 3, 9 memiliki satu elemen yang didasarkan di dalam elemen yang berbeda. 2, 5, 6 memiliki dua garis yang saling tegak lurus dari membagi gambar menjadi empat bagian. 4, 7, 8 memiliki dua elemen serupa (yang tidak berukuran sama) yang saling menempel."
+    },
+    {
+      "text": "Pada voucher toko elektronik, terdapat huruf vocal dan angka genap, sehingga voucher tersebut tidak berlaku.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Pada voucher toko elektronik, terdapat huruf vocal dan angka genap, sehingga voucher tersebut tidak berlaku."
+    },
+    {
+      "text": "Angka 3 muncul paling sering pada ketiga gambar di atas. Dari ketiga gambar ini, jelas bahwa 1, 2, 5, dan 4 terletak bersebelahan dengan 3. Jelas, 6 terletak berseberangan dengan sisi yang menunjukkan angka 3.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Angka 3 muncul paling sering pada ketiga gambar di atas. Dari ketiga gambar ini, jelas bahwa 1, 2, 5, dan 4 terletak bersebelahan dengan 3. Jelas, 6 terletak berseberangan dengan sisi yang menunjukkan angka 3."
+    },
+    {
+      "text": "Pada kalimat 2 disebutkan bahwa hal ini disebabkan oleh promosi besar-besaran pada awal bulan, sehingga dapat diketahui bahwa promosi besar-besaran belum pernah diterapkan pada bulan sebelumnya.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Pada kalimat 2 disebutkan bahwa hal ini disebabkan oleh promosi besar-besaran pada awal bulan, sehingga dapat diketahui bahwa promosi besar-besaran belum pernah diterapkan pada bulan sebelumnya."
+    },
+    {
+      "text": "Untuk mempermudah dalam menjawab soal tipe ini dapat dengan membuat gambar berupa garis dan membaginya sesuai nama-nama yang ada dalam soal. Alif duduk diantara Akmal dan Mia. Halimah duduk berhadapan dengan Ardani. Halimah duduk di antara Dita dan Akmal. Saiful berhadapan dengan Alif. Saiful di antara Dita dan Rio. Oleh karena itu, yang duduk berseberangan dengan Mia adalah Dita.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Untuk mempermudah dalam menjawab soal tipe ini dapat dengan membuat gambar berupa garis dan membaginya sesuai nama-nama yang ada dalam soal. Alif duduk diantara Akmal dan Mia. Halimah duduk berhadapan dengan Ardani. Halimah duduk di antara Dita dan Akmal. Saiful berhadapan dengan Alif. Saiful di antara Dita dan Rio. Oleh karena itu, yang duduk berseberangan dengan Mia adalah Dita."
+    },
+    {
+      "text": "Berdasarkan susunan duduk melingkar pada pembahasan soal nomor 9, maka yang duduk berseberangan dengan Rio adalah Akmal.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Berdasarkan susunan duduk melingkar pada pembahasan soal nomor 9, maka yang duduk berseberangan dengan Rio adalah Akmal."
+    },
+    {
+      "text": "Menurut tabel kebenaran implikasi di atas, jika p benar dan q benar, maka p \\rightarrow q akan bernilai benar.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Menurut tabel kebenaran implikasi di atas, jika p benar dan q benar, maka p \\rightarrow q akan bernilai benar."
+    },
+    {
+      "text": "Dari premis 1 dan 2 berdasarkan konsep jika \\dots maka \\dots kita dapat mengambil kesimpulan bahwa jika Sandy makan, maka dia haus. Ingat rumus ini: P \\rightarrow Q, Q \\rightarrow R. Maka, P \\rightarrow R, ini sama dengan \\sim R \\rightarrow \\sim P. Pernyataan (1) menyatakan bahwa Sandy makan berarti dia haus ini adalah kesimpulan yang benar. Berarti pernyataan (1) salah. Pernyataan (2) menyatakan bahwa Sandy makan, maka dia tidak kenyang. Ini adalah pengulangan dari premis 1. sehingga bukan jawabannya. Dengan mengecek kedua pernyataan saja, kamu sudah bisa menemukan jawaban yang benar adalah D, pernyataan (4) saja. Pernyataan (4) menyatakan bahwa Sandy haus, maka dia makan. Ini adalah pernyataan yang mengingkari premis. Yang benar adalah jika Sandy haus, maka dia tidak makan (pernyataan (3)).",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Dari premis 1 dan 2 berdasarkan konsep jika \\dots maka \\dots kita dapat mengambil kesimpulan bahwa jika Sandy makan, maka dia haus. Ingat rumus ini: P \\rightarrow Q, Q \\rightarrow R. Maka, P \\rightarrow R, ini sama dengan \\sim R \\rightarrow \\sim P. Pernyataan (1) menyatakan bahwa Sandy makan berarti dia haus ini adalah kesimpulan yang benar. Berarti pernyataan (1) salah. Pernyataan (2) menyatakan bahwa Sandy makan, maka dia tidak kenyang. Ini adalah pengulangan dari premis 1. sehingga bukan jawabannya. Dengan mengecek kedua pernyataan saja, kamu sudah bisa menemukan jawaban yang benar adalah D, pernyataan (4) saja. Pernyataan (4) menyatakan bahwa Sandy haus, maka dia makan. Ini adalah pernyataan yang mengingkari premis. Yang benar adalah jika Sandy haus, maka dia tidak makan (pernyataan (3))."
+    },
+    {
+      "text": "Dari soal, kita mengetahui bahwa bakteri akan membelah diri setiap 1 menit. Artinya dari yang awalnya satu bakteri, maka pada menit ke-2 akan menjadi dua, pada menit ke-3 akan menjadi empat, menit ke-4 akan menjadi 8, dst. Pada menit ke-30 dikabarkan bahwa setengah wadah terisi oleh bakteri. Yang menjadi pertanyaan adalah berapa lama lagi bakteri akan memenuhi wadah? Ingat, bahwa setiap bakteri akan membelah diri setiap 1 menit. Oleh karena itu waktu yang dibutuhkan oleh bakteri sebanyak setengah wadah agar ini dapat penuh hanya 1 menit! Mudah bukan? Setengah wadah bakteri dalam satu menit akan menggandakan diri setengah wadah lagi, sehingga wadah akan terisi penuh. Untuk itu, jawaban yang benar adalah 30 + 1 = 31 menit. Jawabannya adalah pilihan C.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Dari soal, kita mengetahui bahwa bakteri akan membelah diri setiap 1 menit. Artinya dari yang awalnya satu bakteri, maka pada menit ke-2 akan menjadi dua, pada menit ke-3 akan menjadi empat, menit ke-4 akan menjadi 8, dst. Pada menit ke-30 dikabarkan bahwa setengah wadah terisi oleh bakteri. Yang menjadi pertanyaan adalah berapa lama lagi bakteri akan memenuhi wadah? Ingat, bahwa setiap bakteri akan membelah diri setiap 1 menit. Oleh karena itu waktu yang dibutuhkan oleh bakteri sebanyak setengah wadah agar ini dapat penuh hanya 1 menit! Mudah bukan? Setengah wadah bakteri dalam satu menit akan menggandakan diri setengah wadah lagi, sehingga wadah akan terisi penuh. Untuk itu, jawaban yang benar adalah 30 + 1 = 31 menit. Jawabannya adalah pilihan C."
+    },
+    {
+      "text": "Model matematika dari soal ini adalah: x + y = 10, x - y = 4. Eliminasi kedua persamaan sehingga diperoleh: x = 7 dan y = 3.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Model matematika dari soal ini adalah: x + y = 10, x - y = 4. Eliminasi kedua persamaan sehingga diperoleh: x = 7 dan y = 3."
+    },
+    {
+      "text": "Perhatikan pernyataan ketiga dan pernyataan pada soal. Pada pernyataan ketiga, terdapat satu orang yang datang setelah Beta dan sebelum Epsilon. Lalu ada pernyataan, Beta berada di antrean ketiga. Maka setelah Beta akan ada satu orang yang mengisi antrean keempat, dan Epsilon setelahnya atau di antrean kelima.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Perhatikan pernyataan ketiga dan pernyataan pada soal. Pada pernyataan ketiga, terdapat satu orang yang datang setelah Beta dan sebelum Epsilon. Lalu ada pernyataan, Beta berada di antrean ketiga. Maka setelah Beta akan ada satu orang yang mengisi antrean keempat, dan Epsilon setelahnya atau di antrean kelima."
+    },
+    {
+      "text": "Perhatikan pernyataan ketiga dan keempat serta pernyataan pada soal. Pada pernyataan ketiga, terdapat satu orang yang berada di antrean sebelah Beta dan sebelum Epsilon. Lalu pada pernyataan keempat, Delta berada tepat setelah Epsilon. Maka, Beta akan berada di antrean ketiga sebelum Delta. Pada soal, dinyatakan bahwa Delta maju menjadi antrean kelima. Maka, sudah pasti Beta berada di antrean kedua.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Perhatikan pernyataan ketiga dan keempat serta pernyataan pada soal. Pada pernyataan ketiga, terdapat satu orang yang berada di antrean sebelah Beta dan sebelum Epsilon. Lalu pada pernyataan keempat, Delta berada tepat setelah Epsilon. Maka, Beta akan berada di antrean ketiga sebelum Delta. Pada soal, dinyatakan bahwa Delta maju menjadi antrean kelima. Maka, sudah pasti Beta berada di antrean kedua."
+    },
+    {
+      "text": "n=8 disusun lima-lima: n(S) = C_8^5 = \\frac{8!}{3!5!} = \\frac{8.7.6.5!}{3.2.1.5!} = 56. Bilangan ganjil ada lima buah, sementara bilangan genap ada tiga buah. n(A) berjumlah genap, berarti harus (dua bilangan ganjil dan tiga bilangan genap) atau (empat bilangan ganjil dan satu bilangan genap). n(A) = C_5^2 C_3^3 + C_5^4 C_3^1 = 10 + 15 = 25. P(A) = \\frac{n(A)}{n(S)} = 25/56 (B)",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "B",
+      "explanation": "n=8 disusun lima-lima: n(S) = C_8^5 = \\frac{8!}{3!5!} = \\frac{8.7.6.5!}{3.2.1.5!} = 56. Bilangan ganjil ada lima buah, sementara bilangan genap ada tiga buah. n(A) berjumlah genap, berarti harus (dua bilangan ganjil dan tiga bilangan genap) atau (empat bilangan ganjil dan satu bilangan genap). n(A) = C_5^2 C_3^3 + C_5^4 C_3^1 = 10 + 15 = 25. P(A) = \\frac{n(A)}{n(S)} = 25/56 (B)"
+    },
+    {
+      "text": "Pola perhitungan bilangan untuk kedua gambar tersebut adalah sebagai berikut: 1. Kalikan kedua bilangan yang terdapat lingkaran. 2. Kalikan juga kedua bilangan pada kotak persegi. 3. Bagilah hasil perkalian pada langkah kesatu dan kedua. Sehingga dapat diperoleh perhitungan: Pada gambar A, 1. 60 \\times 3 = 180, 2. 12 \\times 5 = 60, 3. 180 : 60 = 3. Angka 3 diletakkan pada banguni segitiga dalam gambar pertama. Pada gambar B, 1. 13 \\times 18 = 234, 2. 2 \\times 3 = 6, 3. 234 : 6 = 39. Angka 39 diletakkan pada bangun segitiga dalam gambar kedua. Berdasarkan penjelasan tersebut, nilai y adalah 39. Oleh karena itu, jawaban yang tepat adalah E.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Pola perhitungan bilangan untuk kedua gambar tersebut adalah sebagai berikut: 1. Kalikan kedua bilangan yang terdapat lingkaran. 2. Kalikan juga kedua bilangan pada kotak persegi. 3. Bagilah hasil perkalian pada langkah kesatu dan kedua. Sehingga dapat diperoleh perhitungan: Pada gambar A, 1. 60 \\times 3 = 180, 2. 12 \\times 5 = 60, 3. 180 : 60 = 3. Angka 3 diletakkan pada banguni segitiga dalam gambar pertama. Pada gambar B, 1. 13 \\times 18 = 234, 2. 2 \\times 3 = 6, 3. 234 : 6 = 39. Angka 39 diletakkan pada bangun segitiga dalam gambar kedua. Berdasarkan penjelasan tersebut, nilai y adalah 39. Oleh karena itu, jawaban yang tepat adalah E."
+    },
+    {
+      "text": "Siswa IPS menyatakan manusia adalah makhluk sosial. Makhluk sosial berartikan bahwa manusia tidak mampu hidup sendiri dari memerlukan orang lain dalam melakukan sesuatu. Siswa IPA menyatakan manusia merupakan bilogi tunggal dimana dalam tubuh manusia hanya ada 1 jiwa secara normal. Fenomena sosial yang disebut adalah gotong royong. Gotong royong merupakan kegiatan masyarakat yang dilakukan secara bersama untuk mencapai tujuan atau hasil tertentu. Oleh karena itu, pernyataan tersebut membenarkan bahwa manusia adalah makhluk sosial.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Siswa IPS menyatakan manusia adalah makhluk sosial. Makhluk sosial berartikan bahwa manusia tidak mampu hidup sendiri dari memerlukan orang lain dalam melakukan sesuatu. Siswa IPA menyatakan manusia merupakan bilogi tunggal dimana dalam tubuh manusia hanya ada 1 jiwa secara normal. Fenomena sosial yang disebut adalah gotong royong. Gotong royong merupakan kegiatan masyarakat yang dilakukan secara bersama untuk mencapai tujuan atau hasil tertentu. Oleh karena itu, pernyataan tersebut membenarkan bahwa manusia adalah makhluk sosial."
+    },
+    {
+      "text": "Jika tulisan KELVIN dipecah menjadi ganjil dan genap, maka didapat pola: K, L, I ditulis sebagai L, M, J. E, V, N ditulis sebagai D, U, M. Huruf dengan urutan ganjil ditulis ulang dengan huruf setelahnya (contohnya huruf K ditulis sebagai L); sementara huruf berurutan genap ditulis ulang dengan huruf sebelumnya (contohnya E ditulis D). Maka, kata Gravitasi ditulis menjadi HQBUISBRJ. G, A, T, A, I = H, B, J, B, J. R, V, T, S = Q, U, S, R.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Jika tulisan KELVIN dipecah menjadi ganjil dan genap, maka didapat pola: K, L, I ditulis sebagai L, M, J. E, V, N ditulis sebagai D, U, M. Huruf dengan urutan ganjil ditulis ulang dengan huruf setelahnya (contohnya huruf K ditulis sebagai L); sementara huruf berurutan genap ditulis ulang dengan huruf sebelumnya (contohnya E ditulis D). Maka, kata Gravitasi ditulis menjadi HQBUISBRJ. G, A, T, A, I = H, B, J, B, J. R, V, T, S = Q, U, S, R."
+    },
+    {
+      "text": "Misalkan: p = Rita rajin belajar, q = Rita patuh pada orang tua, r = Ibu membelikan sepeda. Sehingga, jika diselesaikan secara matematis: pernyataan 1: (p \\land q) \\implies r. pernyataan 2: \\sim r. kesimpulan: \\sim (p \\land q) \\equiv \\sim p \\lor \\sim q. Jadi, kesimpulannya adalah Rita tidak rajin belajar atau Rita tidak patuh pada orang tua.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Misalkan: p = Rita rajin belajar, q = Rita patuh pada orang tua, r = Ibu membelikan sepeda. Sehingga, jika diselesaikan secara matematis: pernyataan 1: (p \\land q) \\implies r. pernyataan 2: \\sim r. kesimpulan: \\sim (p \\land q) \\equiv \\sim p \\lor \\sim q. Jadi, kesimpulannya adalah Rita tidak rajin belajar atau Rita tidak patuh pada orang tua."
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Pada saat pukul 04.30 sore, seorang anak yang berdiri di tengah lapangan memiliki panjang bayangan 225 cm. Jika tinggi anak tersebut 135 cm, maka panjang bayangan anak lain yang memiliki tinggi 120 cm adalah ...",
+      "options": [
+        "180 cm",
+        "200 cm",
+        "240 cm",
+        "260 cm",
+        "280 cm"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pak Dio akan memasang keramik di teras rumah. Keramik yang akan digunakan berukuran $25\\text{ cm} \\times 25\\text{ cm}$ dan diperlukan 40 buah keramik. Jika digunakan keramik yang berukuran $50\\text{ cm} \\times 50\\text{ cm}$ maka jumlah keramik yang diperlukan adalah ...",
+      "options": [
+        "10 buah",
+        "15 buah",
+        "18 buah",
+        "20 buah",
+        "25 buah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $a = 14$ & $b > 2$, maka ...",
+      "options": [
+        "2a - 4b > 20",
+        "2a - 4b > 21",
+        "2a - 4b < 20",
+        "2a - 4b < 21",
+        "2a - 4b < 22"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Luas daerah yang berwarna gelap pada gambar di atas adalah ...",
+      "options": [
+        "98\\text{ cm}^2",
+        "104\\text{ cm}^2",
+        "110\\text{ cm}^2",
+        "116\\text{ cm}^2",
+        "122\\text{ cm}^2"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Lima orang teman akan berkumpul untuk pergi ke Museum bersama, yaitu Wahid, Walid, Habib, Hadib, dan Labib. Mereka datang dalam waktu yang berbeda-beda. Labib datang paling akhir. Walid datang tepat sebelum Wahid dan sesudah Hadib. Habib datang diantara Walid dan Hadib. Orang yang datang pada urutan ke tiga adalah ...",
+      "options": [
+        "Wahid",
+        "Walid",
+        "Habib",
+        "Hadib",
+        "Labib"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $a = 25\\% c$ dan $b = 8a$, jika $a$, $b$, dan $c$ merupakan bilangan yang lebih dari 0, maka manakah hubungan yang tepat antara kuantitas P dan Q berikut berdasarkan informasi yang diberikan? Kuantitas P: $b$. Kuantitas Q: $3c$.",
+      "options": [
+        "P > Q",
+        "Q > P",
+        "P = Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan salah satu dari tiga pilihan diatas.",
+        "Informasi lain"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ida dan Andi mengikuti perlombaan. Dalam perlombaan tersebut, peluang Andi tidak mendapat juara yaitu tiga kali Ida. Jika dalam perlombaan, peluang Ida tidak mendapat juara adalah \\frac{1}{12}, maka berapakah peluang Andi mendapat juara?",
+      "options": [
+        "\\frac{1}{2}",
+        "\\frac{1}{4}",
+        "\\frac{5}{8}",
+        "\\frac{3}{4}",
+        "\\frac{1}{5}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diberikan $p, q, r, s$ sebagai bilangan bulat dengan $p < q$ dan $r < s$. Rata-rata dari $p$ dan $q$ adalah $r$ dan rata-rata $r$ dan $s$ adalah $q$. Jika $s - p = 48$, tentukanlah nilai $q - r$!",
+      "options": [
+        "14",
+        "16",
+        "18",
+        "20",
+        "Informasi tidak cukup untuk menjawab soal"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Seorang pedagang orio suprimie menyatakan bahwa pendapatan maksimumnya tercapai ketika dia menjual 1250 orio suprimie setiap bulan. Untuk setiap orio yang dia jual jika terjual diatas atau dibawah 1250 orio maka pendapatannya akan berkurang sebanyak 1500 rupiah. Manakah persamaan berikut yang bisa digunakan untuk mencari berapa jumlah orio yang dia jual jika ternyata pendapatannya berkurang sebanyak 250.000? ($s$ adalah jumlah orio yang terjual)",
+      "options": [
+        "15 |s - 250| = 250.000",
+        "1500 |s - 250| = 250.000",
+        "1500 |s - 1250| = 250.000",
+        "1500 (s - 1250) = 250.000",
+        "1500 (s - 250.000) = 1250"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berikut adalah persamaan pertumbuhan ekonomi yang terjadi di Negara SainsIn : $G(t) = \\frac{r^t}{n_0}$ dimana G adalah angka pertumbuhan ekonomi yang bergantung pada variabel waktu, t, dalam tahun (nilai $n_0$ dan $r^t$ adalah tetapan konstanta, dengan $r > 1$). Tentukan pernyataan berikut yang PALING BENAR!",
+      "options": [
+        "Hubungan G(t) dengan t bersifat linear yang mana pertumbuhan nilai G bertambah sebesar r tiap tahunnya.",
+        "Hubungan G(t) dengan t bersifat linear yang mana pertumbuhan nilai G dimulai dari n_0",
+        "Hubungan G(t) dengan t bersifat eksponensial yang mana pertumbuhan nilai G bertambah sebesar r lebihnya dari tahun sebelumnya.",
+        "Hubungan G(t) dengan t bersifat eksponensial yang mana pertumbuhan nilai G bertambah sebesar r kali lipat dari tahun sebelumnya.",
+        "Hubungan G(t) dengan t bersifat eksponensial yang mana pertumbuhan nilai G berkurang sebesar n_0 kali lipat dari sebelumnya."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui tujuh bilangan asli memiliki median dan rata-rata sama dengan 8. Manakah hubungan yang benar antara kuantitatif P & Q berikut berdasarkan informasi? Kuantitas P: Selisih bilangan terbesar dan terkecil. Kuantitas Q: 29",
+      "options": [
+        "Kuantitas P lebih besar daripada kuantitas Q",
+        "Kuantitas P lebih kecil daripada kuantitas Q",
+        "Kuantitas P sama dengan kuantitas Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan hubungan kuantitas P & Q.",
+        "Data tidak valid"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui himpunan $Q = \\{k, l, m, n\\}$. Manakah dari informasi berikut yang tepat terkait himpunan Q? (1) Ada 5 himpunan bagian Q yang memiliki 2 anggota. (2) Ada 4 himpunan bagian Q yang memiliki 3 anggota. (3) Ada 3 himpunan bagian Q yang memiliki 1 anggota. (4) Total ada 16 variasi himpunan bagian dari Q.",
+      "options": [
+        "(1), (2), dan (3) SAJA yang benar",
+        "(1) dan (3) SAJA yang benar",
+        "(2) dan (4) SAJA yang benar",
+        "HANYA (4) yang benar",
+        "SEMUA pilihan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui a & b adalah bilangan prima berbeda kurang dari 31. Tentukan manakah dari angka berikut yang dapat menjadi hasil penjumlahan kedua bilangan tadi: (1) 12, (2) 52, (3) 22, (4) 6.",
+      "options": [
+        "(1), (2), dan (3) SAJA yang benar",
+        "(1) dan (3) SAJA yang benar",
+        "(2) dan (4) SAJA yang benar",
+        "HANYA (4) yang benar",
+        "SEMUA pilihan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada gambar berikut diketahui panjang QR 5 cm lebihnya dari 3 kali panjang PQ. Jika panjang PR adalah 53 cm, maka panjang PQ adalah...",
+      "options": [
+        "8 cm",
+        "10 cm",
+        "12 cm",
+        "14 cm",
+        "16 cm"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Peluang untuk Bandi menang pada pertandingan bulutangkis adalah \\frac{1}{3}. Turnamen tersebut menggunakan sistem gugur. Bandi berjuang berawal dari babak perempat final. Sehingga, peluang Bandi mendapat gelar Juara Pertama adalah...",
+      "options": [
+        "(\\frac{1}{3})^3",
+        "3(\\frac{1}{3})^3",
+        "3(\\frac{2}{3})^3",
+        "(\\frac{2}{3})^3",
+        "\\frac{1}{3}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

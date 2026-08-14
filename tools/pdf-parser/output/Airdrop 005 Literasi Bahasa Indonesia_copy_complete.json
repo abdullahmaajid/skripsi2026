@@ -1,0 +1,139 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan Teks 1, apakah pernyataan berikut benar atau salah: Perang Dunia II mempercepat perkembangan teknologi seperti radar dan mesin jet.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Berdasarkan teks, perang mempercepat perkembangan teknologi, seperti radar dan mesin jet."
+    },
+    {
+      "text": "Berdasarkan Teks 1, apakah pernyataan berikut benar atau salah: Perang Dunia II menyebabkan jutaan orang tewas dan kerusakan besar di seluruh dunia.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Berdasarkan teks, jutaan orang tewas dan banyak kota hancur akibat Perang Dunia II."
+    },
+    {
+      "text": "Berdasarkan Teks 1, apakah pernyataan berikut benar atau salah: Perang Dunia II hanya melibatkan negara-negara Eropa dan Amerika Serikat.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Berdasarkan teks, perang melibatkan banyak negara di seluruh dunia termasuk Jepang, Italia, Uni Soviet, dan Inggris."
+    },
+    {
+      "text": "Berdasarkan Teks 1, apakah pernyataan berikut benar atau salah: Setelah Perang Dunia II, Perserikatan Bangsa-Bangsa (PBB) dibentuk untuk mencegah konflik di masa depan.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Berdasarkan teks, PBB dibentuk untuk bertujuan mencegah konflik besar lainnya."
+    },
+    {
+      "text": "Berdasarkan Teks 1, apakah pernyataan berikut benar atau salah: Serangan bom atom di Hiroshima dan Nagasaki menyebabkan Jepang menyerah.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Berdasarkan teks, Amerika Serikat menjatuhkan bom atom di Hiroshima dan Nagasaki yang memaksa Jepang menyerah."
+    },
+    {
+      "text": "Berdasarkan Teks 1, apakah pernyataan berikut benar atau salah: Perang di Eropa berakhir dengan penyerahan Jepang pada 2 September 1945.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Berdasarkan teks, perang di Eropa berakhir pada 8 Mei 1945 dengan menyerahnya Jerman, sedangkan Jepang menyerah pada 2 September 1945."
+    },
+    {
+      "text": "Berdasarkan Teks 1, apakah pernyataan berikut benar atau salah: Sekutu berhasil melakukan invasi besar-besaran di Normandia pada tahun 1944, yang dikenal sebagai D-Day.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Berdasarkan teks, invasi di Normandia pada tahun 1944 dikenal sebagai D-Day."
+    },
+    {
+      "text": "Berdasarkan Teks 1, apakah pernyataan berikut benar atau salah: Serangan Jepang di Pearl Harbor terjadi pada 7 Desember 1941.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Berdasarkan teks, serangan mendadak di Pearl Harbor terjadi pada 7 Desember 1941."
+    },
+    {
+      "text": "Berdasarkan Teks 1, apakah pernyataan berikut benar atau salah: Jerman dipimpin oleh Adolf Hitler selama Perang Dunia II.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Berdasarkan teks, Nazi Jerman dipimpin oleh Adolf Hitler."
+    },
+    {
+      "text": "Berdasarkan Teks 1, apakah pernyataan berikut benar atau salah: Perang Dunia II dimulai pada tahun 1939 ketika Jerman menginvasi Prancis.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Berdasarkan teks, perang dimulai ketika Jerman menginvasi Polandia."
+    },
+    {
+      "text": "Berdasarkan Teks 2, apakah pernyataan berikut benar atau salah: Mesir Kuno menjadi salah satu peradaban paling makmur karena adanya sungai Nil dan kemampuan mereka membangun piramida.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Berdasarkan teks, sungai Nil dan kemampuan membangun piramida serta kemakmuran saling berkaitan dalam sejarah Mesir."
+    },
+    {
+      "text": "Berdasarkan Teks 2, apakah pernyataan berikut benar atau salah: Sungai Nil berperan penting dalam pertanian Mesir Kuno.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Berdasarkan teks, Sungai Nil memberikan tanah yang subur untuk pertanian."
+    },
+    {
+      "text": "Berdasarkan Teks 2, apakah pernyataan berikut benar atau salah: Piramida dibangun untuk keperluan perdagangan dan penyimpanan makanan.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Berdasarkan teks, piramida dibangun sebagai makam dan tempat peristirahatan abadi bagi firaun."
+    },
+    {
+      "text": "Berdasarkan Teks 2, apakah pernyataan berikut benar atau salah: Para Firaun hanya dianggap sebagai pemimpin politik di Mesir Kuno.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Berdasarkan teks, firaun tidak hanya sebagai pemimpin politik, tetapi juga sebagai pemimpin spiritual."
+    },
+    {
+      "text": "Berdasarkan Teks 2, apakah pernyataan berikut benar atau salah: Piramida Agung Giza dibangun pada masa pemerintahan Firaun Khufu.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Berdasarkan teks, Piramida Agung Giza dibangun di bawah perintah Firaun Khufu."
+    }
+  ]
+}

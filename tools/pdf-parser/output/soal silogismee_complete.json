@@ -1,0 +1,838 @@
+{
+  "questions": [
+    {
+      "text": "Susilo adalah siswa yang paling pandai di kelasnya. Edi kalah pandai dibanding Leonardo. Tetapi Leonardo sama pandainya dengan Viki. Viki lebih pandai dari Natsir. Maka….",
+      "options": [
+        "Leonardo tidak lebih pandai dari Edi.",
+        "Edi tidak kalah pandai dari Susilo.",
+        "Viki lebih pandai dari Susilo.",
+        "Viki lebih pandai dari Edi.",
+        "Natsir lebih pandai dari Leonardo."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua karyawan harus hadir dalam rapat rutin. Sementara office boy adalah karyawan. Maka….",
+      "options": [
+        "Semua yang hadir dalam rapat rutin adalah office boy.",
+        "Sementara peserta rapat rutin bukan karyawan.",
+        "Sementara peserta rapat rutin adalah office boy.",
+        "Semua office boy hadir dalam rapat rutin.",
+        "Semua yang hadir bukan office boy."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Tabungan Anita lebih banyak dari jumlah tabungan Kiki dan Beti. Tabungan Beti lebih banyak dari tabungan Kiki. Tabungan Dian lebih banyak dari jumlah tabungan Anita, Beti, dan Kiki. Maka….",
+      "options": [
+        "Tabungan Anita lebih banyak daripada Tabungan Dian.",
+        "Jumlah tabungan Dian dan Kiki sama dengan jumlah tabungan Anita dan Beti.",
+        "Tabungan Dian merupakan jumlah tabungan Anita, Beti, dan Kiki.",
+        "Yang mempunyai tabungan paling banyak adalah Anita.",
+        "Kiki mempunyai tabungan paling sedikit."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua penyanyi adalah artis. Sementara penyanyi adalah bintang film. Maka….",
+      "options": [
+        "Sementara bintang film adalah artis.",
+        "Sementara artis adalah bukan penyanyi.",
+        "Semua bintang film adalah artis.",
+        "sementara penyanyi bukan bintang film",
+        "Sementara penyanyi bukan artis."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ketika ayah dan ibu Hermawan menikah, masing-masing telah mempunyai seorang anak. Sekarang Hermawan lahir persis setahun setelah perkawinan tersebut, dan memiliki 4 orang saudara. Maka….",
+      "options": [
+        "Hermawan memiliki 2 orang adik kandung.",
+        "Hermawan merupakan anak tertua dalam keluarga.",
+        "Hermawan tidak memiliki saudara tiri.",
+        "Hermawan memiliki 4 orang adik.",
+        "Hermawan merupakan anak tunggal dari perkawinan kedua."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika pernyataan: \"Semua dokter adalah laki-laki\" adalah salah, maka…",
+      "options": [
+        "Sementara dokter adalah laki-laki.",
+        "Sementara laki-laki adalah bukan dokter.",
+        "Sementara dokter adalah bukan laki-laki.",
+        "Tidak ada dokter yang bukan laki-laki.",
+        "Tidak ada kesimpulan yang benar."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Merpati terbang ke utara. Merpati adalah burung.",
+      "options": [
+        "Beberapa burung terbang ke utara.",
+        "Semua burung adalah merpati.",
+        "Tidak setiap merpati yang terbang ke utara adalah burung",
+        "Burung bukan merpati.",
+        "Tidak semua burung merpati terbang ke utara."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua kertas gambar sangat berguna. Sebagian kertas yang sangat berguna harganya murah. Maka …",
+      "options": [
+        "Semua kertas gambar harganya murah.",
+        "Semua kertas yang harganya murah adalah kertas gambar.",
+        "Sebagian kertas harganya murah.",
+        "Kertas yang murah sangat berguna",
+        "Semua kertas yang sangat berguna adalah kertas gambar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Hesti, Beli, Penky, dan Meli adalah mahasiswa satu angkatan dari universitas yang sama. Hesti lulus sebelum Beli, tetapi sesudah Penky, dan Meli lulus sebelum Hesti.",
+      "options": [
+        "Hesti lulus sebelum Penky.",
+        "Beli lulus paling akhir.",
+        "Meli lulus paling awal,",
+        "Penky lulus paling awal.",
+        "Penky dan Meli lulus pada waktu yang sama."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pengurus koperasi seharusnya berjiwa sosial. Sebagian ketua RT pernah menjadi pengurus koperasi.",
+      "options": [
+        "Ketua RT itu selalu berjiwa sosial",
+        "Semua orang yang pernah menjadi ketua RT adalah pengurus koperasi",
+        "Sebagian pengurus koperasi ingin menjadi ketua RT.",
+        "Semua pengurus koperasi berjiwa sosial.",
+        "Sebagian ketua RT seharusnya berjiwa sosial."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Beberapa dosen bergabung dalam tim karawitan. Tim karawitan tidak ada yang menjadi pemain tenis.",
+      "options": [
+        "Ada beberapa dosen yang menjadi pemain tenis.",
+        "Beberapa dosen bukan pemain tenis.",
+        "Tidak ada dosen yang menjadi pemain tenis.",
+        "Beberapa pemain tenis bukanlah merupakan tim karawitan.",
+        "Tim karawitan hanya cocok menjadi dosen"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua burung tidak bersirip. Semua kuda makan rumput.",
+      "options": [
+        "Burung tidak makan rumput.",
+        "Kuda tidak bersirip.",
+        "Burung dan kuda tidak bersirip dan tidak makan rumput.",
+        "Burung sama dengan kuda.",
+        "Tidak bisa ditarik kesimpulan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ada 5 mahasiswa A, B, C, D dan E yang mengikuti seminar. A dan B berasal dari fakultas yang sama, D dan E juga berasal dari fakultas yang sama. Bila mahasiswa yang berasal dari fakultas yang sama tidak boleh duduk berdekatan, kemungkinan posisi tempat duduk mereka dalam satu deretan adalah …",
+      "options": [
+        "A, D, E, B, C",
+        "A, B, C, D, E",
+        "E, C, D, A, B",
+        "A, C, E, D, B",
+        "D, C, A, E, B"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua guide pandai berbahasa asing. Fido bukanlah seorang guide.",
+      "options": [],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "15. Beberapa mobil berwarna hitam. Semua mobil mempunyai roda.",
+      "options": [
+        "Mobil yang mempunyai roda berwarna hitam.",
+        "Roda mobil berwarna hitam",
+        "Ada mobil berwarna hitam yang mempunyai roda.",
+        "Semua mobil berwarna hitam dan mempunyai roda.",
+        "Beberapa mobil berwarna hitam dan mempunyai roda."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "16. Semua sepeda motor dilengkapi speedometer. Sebagian sepeda motor berwarna hitam.",
+      "options": [
+        "Sebagian sepeda motor tidak berwarna hitam dan tidak dilengkapi speedometer.",
+        "Sebagian sepeda motor berwarna hitam dan tidak dilengkapi speedometer.",
+        "Semua sepeda motor berwarna hitam dan dilengkapi speedometer.",
+        "Semua sepeda motor yang berwarna hitam dilengkapi speedometer.",
+        "Semua sepeda motor tidak berwarna hitam dan tidak dilengkapi speedometer."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "17. Selama semester ini Budi belum pernah mendapat nilai lebih baik daripada temantemannya. Heru termasuk dari separuh siswa yang terpandai di kelasnya. Agus lebih pandai daripada Heru dalam pelajaran matematika, tetapi ulangan biologinya lebih rendah daripada hasil ulangan Budi.",
+      "options": [
+        "Agus lebih bodoh daripada Heru",
+        "Budi lebih bodoh daripada Heru",
+        "Heru lebih bodoh daripada Budi",
+        "Agus, Heru dan Budi adalah teman sekelas",
+        "Agus dan Budi bukan teman sekelas"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "18. Tidak semua sarjana yang pandai lolos ujian CPNS. Semua sarjana yang bodoh tidak lolos ujian CPNS. Tidak semua sarjana yang pandai selalu mempunyai nilai ijazah yang lebih baik daripada, yang lebih bodoh. Purdi mempunyai nilai ijazah yang lebih buruk daripada Alan.",
+      "options": [
+        "Alan lebih pandai daripada Purdi",
+        "Tidak mungkin Purdi akan lolos ujian CPNS.",
+        "Mungkin Purdi dan Alan akan lolos ujian CPNS.",
+        "Tidak mungkin Purdi dan Alan adalah satu alumni",
+        "Tidak mungkin Alan akan lolos ujian CPNS."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "19. Keluarga Sanarhadi mempunyai 5 orang anak. Sananhadi lahir sebelum Wana Hadi. Wana Hadi lahir sesudah Yana Hadi, tetapi sebelum Alex Hadi. Yan Hadi lahir sesudah Zani Hadi. Vira Hadi lahir sesudah Alex Hadi.",
+      "options": [
+        "Wana Hadi lebih tua daripada Yan Hadi.",
+        "Yan Hadi lebih muda daripada Alex Hadi.",
+        "Vira Hadi paling tua.",
+        "Zani Hadi paling tua.",
+        "Yan Hadi paling tua."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "20. Semua hewan adalah makhluk hidup. Semua makhluk hidup akan mati. Kijang adalah hewan bertanduk. Tidak semua hewan bertanduk memakan rumput.",
+      "options": [
+        "Kijang dapat memakan rumput.",
+        "Kijang tidak dapat memakan rumput.",
+        "Semua hewan tidak akan mati.",
+        "Semua hewan akan mati.",
+        "Tidak semua hewan bertanduk akan mati."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "21. Semua bayi minum ASI. Sebagian bayi diberi makanan tambahan. Semua bayi minum ASI dan diberi makanan tambahan.",
+      "options": [
+        "Bayi yang minum ASI biasanya diberi makanan tambahan.",
+        "Sebagian bayi minum ASI dan diberi makanan tambahan.",
+        "Bayi yang diberi makanan tambahan harus minum ASI.",
+        "Semua bayi minum ASI, dan tidak dapat diberi makanan tambahan",
+        "Semua bayi minum ASI dan diberi makanan tambahan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "22. Semua murid SD 01 pandai. Sebagian besar murid SD 01 berasal dari orang kaya.",
+      "options": [
+        "Semua murid yang pandai adalah murid SD 01.",
+        "Sebagian besar murid SD 01 kaya dan pandai.",
+        "Sebagian besar murid yang kaya dan pandai adalah murid SD 01.",
+        "Sebagian besar murid SD 01 kaya dan kurang pandai.",
+        "Semua Siswa SD 01 pandai dan kaya."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "23. Semua wisatawan asing mempunyai paspor. Sebagian wisatawan asing membawa kamera.",
+      "options": [
+        "Semua wisatawan asing mempunyai paspor dan membawa kamera",
+        "Sebagian wisatawan asing yang membawa kamera mempunyai paspor.",
+        "Sebagian wisatawan asing yang membawa kamera tidak mempunyai paspor.",
+        "Sebagian wisatawan asing yang tidak membawa kamera mempunyai paspor.",
+        "Semua yang membawa kamera adalah wisatawan asing."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "24. Semua anggota paguyuban harus hadir dalam pertemuan rutin. Sementara purnakarya adalah anggota paguyuban.",
+      "options": [
+        "Semua yang hadir dalam pertemuan rutin adalah purnakarya.",
+        "Sementara yang hadir dalam pertemuan rutin bukan anggota paguyuban.",
+        "Sementara yang hadir dalam pertemuan rutin adalah purnakarya",
+        "Semua purnakarya hadir dalam pertemuan rutin",
+        "Semua yang hadir bukan purnakarya"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "25. Semua penyanyi dangdut pandai bergoyang. Nurlaila adalah penyanyi, tetapi tidak bisa bergoyang.",
+      "options": [
+        "Nurlaila bukan penyanyi",
+        "Nurlaila penyanyi Pop",
+        "Nurlaila penyanyi Keroncong",
+        "Nurlaila bukan penyanyi dangdut",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "26. Beberapa mahasiswa menjadi guru les privat. Guru les privat tidak ada yang menjadi penyanyi.",
+      "options": [
+        "Ada beberapa mahasiswa yang menjadi penyanyi.",
+        "Beberapa mahasiswa bukan penyanyi",
+        "Tidak ada mahasiswa yang menjadi penyanyi.",
+        "Beberapa penyanyi bukanlah guru les privat.",
+        "Penyanyi hanya cocok menjadi guru les privat."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "27. Semua jenis ikan bernapas dengan insang. Ikan paus bernapas dengan paru-paru.",
+      "options": [
+        "Sementara jenis ikan bernapas dengan paru-paru.",
+        "Semua ikan paus bernapas dengan insang.",
+        "Sementara ikan paus bernapas dengan insang.",
+        "Semua ikan paus termasuk jenis ikan.",
+        "Semua ikan paus bukan termasuk jenis ikan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "28. Semua penyelam adalah perenang. Sementara penyelam adalah pelaut.",
+      "options": [
+        "Sementara pelaut adalah perenang.",
+        "Sementara perenang bukan penyelam.",
+        "Semua pelaut adalah perenang.",
+        "Sementara penyelam bukan pelaut.",
+        "Sementara penyelam bukan perenang."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Tidak semua hipotesis penelitian terbukti benar. Sementara penelitian disertasi tidak menguji hipotesis.",
+      "options": [
+        "Sementara doktor tidak menulis disertasi.",
+        "Sementara hipotesis disertasi terbukti benar.",
+        "Semua hipotesis disertasi terbukti benar.",
+        "Semua hipotesis penelitian terbukti benar.",
+        "Semua doktor, hipotesis disertasinya benar."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua guru adalah pegawai negeri. Sebagian guru adalah penulis.",
+      "options": [
+        "Sebagian penulis adalah pegawai negeri.",
+        "Sebagian pegawai negeri adalah guru.",
+        "Sebagian penulis adalah guru.",
+        "Semua penulis adalah pegawai negeri.",
+        "Semua guru adalah penulis."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua penulis harus kreatif. Sementara sutradara tidak kreatif.",
+      "options": [
+        "Sementara sutradara bukan penulis.",
+        "Tidak ada penulis yang menjadi sutradara.",
+        "Sementara orang yang kreatif bukan penulis.",
+        "Sementara sutradara kreatif.",
+        "Semua sutradara kreatif."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua anggota BEM (Badan Eksekutif Mahasiswa) harus hadir dalam rapat. Sementara mahasiswa adalah anggota BEM.",
+      "options": [
+        "Semua mahasiswa hadir dalam rapat",
+        "Semua yang hadir bukan mahasiswa.",
+        "Sementara peserta rapat adalah mahasiswa.",
+        "Sementara peserta rapat bukan anggota BEM.",
+        "Semua yang hadir dalam rapat adalah mahasiswa."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua atlet yang dipilih mengikuti pertandingan All England adalah seorang pemain yang kawakan. Sementara Taufik Hidayat adalah atlet bulu tangkis yang kawakan.",
+      "options": [
+        "Semua pemain yang kawakah adalah atlet bulu tangkis.",
+        "Sementara pemain yang kawakan bukan atlet bulu tangkis.",
+        "Sementara atlet bulu tangkis bukan pemain yang kawakan.",
+        "Sementara atlet bulu tangkis mengikuti perfandingan All England.",
+        "Sementara pemain kawakan tidak mengikuti pertandingan All England."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua pengendara sepeda motor harus memakai helm. Sementara pengendara sepeda motor memakai sarung tangan.",
+      "options": [
+        "Semua pengendara sepeda motor tidak memakai sarung tangan.",
+        "Sementara pengendara sepeda motor tidak memakai helm.",
+        "Sementara pengendara sepeda motor memakai helm dan sarung tangan.",
+        "Sementara pengendara sepeda motor tidak memakai helm dan memakai sarung tangan.",
+        "Sementara pengendara sepeda motor tidak memakai helm dan ticlak memakai sarung tangan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua insinyur sipil pandai matematika. Andi bukan insinyur sipil.",
+      "options": [
+        "Andi tidak pandai dalam matematika.",
+        "Andi adalah sarjana hukum.",
+        "Andi bukan sarjana.",
+        "Andi pandai dalam matematika.",
+        "Tidak ada kesimpulan yang benar."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pembalap harus lulus uji ketahanan fisik. Sebagian pembalap sedang menderita sakit flu.",
+      "options": [
+        "Pembalap yang lulus uji ketahanan fisik adalah pembalap yang sakit flu.",
+        "Hanya sebagian saja pembalap yang lulus uji ketahanan fisik.",
+        "Ada pembalap yang lulus uji ketahanan fisik tetapi sakit flu.",
+        "Tidak ada pembalap yang sakit flu yang dapat lulus uji ketahanan fisik.",
+        "Semua pembalap yang sedang sakit flu tidak ikut uji ketahanan fisik."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua siswa diminta mempersiapkan diri ulangan. Sebagian siswa mendapat nilai baik dalam ulangan.",
+      "options": [
+        "Semua siswa mempersiapkan diri dan mendapat nilai baik.",
+        "Sebagian siswa tidak mempersiapkan diri dan tidak mendapat nilai baik.",
+        "Sebagian siswa tidak mempersiapkan diri tapi mendapat nilai baik.",
+        "Semua siswa mempersiapkan diri.",
+        "Sebagian siswa sudah diminta mempersiapkan diri dan mendapat nilai baik."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Beberapa benda yang memuai adalah logam. Semua logam adalah benda padat.",
+      "options": [
+        "Hanya logam yang memuai merupakan benda padat.",
+        "Benda yang bukan logam tidak memuai.",
+        "Beberapa benda padat dapat memuai.",
+        "Benda padat dapat memuai.",
+        "Benda yang memuai adalah logam."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua pengusaha membayar pajak. Beberapa pengusaha dermawan.",
+      "options": [
+        "Semua pengusaha yang dermawan membayar pajak",
+        "Beberapa pengusaha dermawan tidak membayar pajak.",
+        "Pengusaha yang membayar pajak adalah pengusaha yang dermawan.",
+        "Pengusaha yang dermawan belum tentu membayar pajak.",
+        "Membayar pajak tidak merupakan suatu keharusan bagi pengusaha."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sementara sarjana adalah guru. Semua guru harus mengajar.",
+      "options": [
+        "Sementara Pengajar adalah sarjana.",
+        "Sementara pengajar bukan guru.",
+        "Sementara guru tidak mengajar.",
+        "Sementara pengajar adalah guru.",
+        "Semua sarjana harus mengajar."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua karyawan harus mengenakan dasi. Sementara karyawan mengenakan jas.",
+      "options": [
+        "Sementara karyawan tidak mengenakan dasi.",
+        "Semua pekerja tidak mengenakan jas.",
+        "Sementara karyawan mengenakan dasi dan jas.",
+        "Sementara karyawan tidak mengenakan dasi dan mengenakan jas.",
+        "Sementara karyawan tidak mengenakan dasi dan tidak mengenakan jas."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua pegawai berangkat pagi. Sebagian pegawai mengendarai mobil.",
+      "options": [
+        "Semua pegawai yang mengendarai mobil berangkat pagi.",
+        "Sebagian pegawai yang mengendarai mobil berangkat pagi.",
+        "Semua pegawai yang mengendarai mobil berangkat pagi.",
+        "Semua pegawai mengendarai mobil.",
+        "Semua pegawai tidak mengendarai mobil."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sementara seniman berada pada kedudukan utama. Semua yang berada pada kedudukan utama menjadi sejahtera hidupnya.",
+      "options": [
+        "Sementara seniman tidak berada pada kedudukan utama.",
+        "Sementara yang menjadi sejahtera hidupnya adalah seniman.",
+        "Sementara yang berada pada kedudukan utama adalah seniman.",
+        "Sementara seniman tidak sejahtera hidupnya.",
+        "Semua seniman berada pada kedudukan utama."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua pengendara sepeda motor yang melewati jalan utama harus mengenakan helm. Sementara siswa yang bersepeda motor tidak memiliki helm.",
+      "options": [
+        "Semua siswa tidak boleh melewati jalan utama.",
+        "Semua siswa bersepeda motor boleh melewati jalan utama.",
+        "Semua siswa bersepeda motor tidak boleh melewati jalan utama.",
+        "Semua siswa bersepeda motor harus mengenakan helm.",
+        "Sementara murid bersepeda motor diperbolehkan untuk melewati jalan utama."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua sepeda motor dilengkapi spion. Sementara sepeda motor berwarna biru.",
+      "options": [
+        "Sementara sepeda motor tidak berwarna biru dan tidak dilengkapi spion.",
+        "Sementara sepeda motor berwarna biru dan tidak dilengkapi spion.",
+        "Semua sepeda motor berwarna biru dan dilengkapi spion.",
+        "Semua sepeda motor berwarna biru dilengkapi spion.",
+        "Semua sepeda motor tidak berwarna biru dan dilengkapi spion."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua jenis kera tidak memiliki ekor. Sebagian jenis kera berwarna hitam.",
+      "options": [
+        "Sebagian jenis kera berwarna hitam memiliki ekor.",
+        "Sebagian jenis kera yang tidak berwarna hitam tidak memiliki ekor.",
+        "Semua jenis kera berwarna hitam tidak memiliki ekor.",
+        "Semua jenis kera berwarna hitam dan tidak memiliki ekor.",
+        "Semua jenis kera tidak berwarna hitam dan tidak memiliki ekor."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Siswa yang belajar dengan sungguh-sungguh akan lulus dengan nilai baik. Ita lulus dengan nilai baik.",
+      "options": [
+        "Ita belajar dengan sungguh-sungguh.",
+        "Semua siswa yang lulus dengan nilai baik belajar sungguh-sungguh.",
+        "Tidak ada hubungan antara kesungguhan dalam belajar dan kelulusan dengan nilai baik.",
+        "Semua siswa lulus dengan nilai baik.",
+        "Siswa yang tidak belajar dengan sungguh-sungguh lulus dengan nilai yang tidak baik."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua pekerja harus mengenakan topi pengaman. Sementara pekerja mengenakan sarung tangan.",
+      "options": [
+        "Sementara pekerja tidak mengenakan topi pengaman dan tidak mengenakan sarung tangan.",
+        "Sementara pekerja tidak mengenakan topi pengaman",
+        "Sementara pekerja mengenakan topi pengaman dan sarung tangan",
+        "Semua pekerja tidak mengenakan sarung tangan",
+        "Sementara pekerja mengenakan topi pengaman dan tidak mengenakan sarung tangan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Tabungan Andrea lebih banyak daripada jumlah tabungan Bertha dan Intan. Tabungan Bertha lebih banyak daripada tabungan Intan. Tabungan Diana lebih banyak daripada jumlah tabungan Andrea, Bertha, dan Intan.",
+      "options": [
+        "Tabungan Andrea lebih banyak daripada tabungan Diana.",
+        "Jumlah tabungan Diana dan Intan sama dengan jumlah tabungan Andrea dan Bertha.",
+        "Tabungan Diana merupakan penjumlahan Andrea, Bertha, dan Intan.",
+        "Yang mempunyai tabungan paling banyak adalah Andrea.",
+        "Intan mempunyai tabungan paling sedikit."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ketika ayah dan ibu Edric menikah, masing-masing telah memiliki dua orang anak. Edric lahir persis setahun setelah perkawinan tersebut, dan sekarang memiliki 6 saudara.",
+      "options": [
+        "Edric memiliki 6 orang adik.",
+        "Edric merupakan anak tunggal dari perkawinan kedua",
+        "Edric memiliki 2 orang adik kandung",
+        "Edric merupakan anak tertua dalam keluarga.",
+        "Edric tidak memiliki saudara tiri"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika pernyataan “Semua Dokter adalah perempuan” salah, maka:",
+      "options": [
+        "Sementara dokter adalah bukan perempuan.",
+        "Tidak ada dokter yang bukan perempuan.",
+        "Tidak ada kesimpulan yang benar.",
+        "Sementara dokter adalah perempuan.",
+        "Sementara perempuan adalah bukan dokter."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Tidak semua sarjana yang pandai lolos ujian CPNS. Semua sarjana yang bodoh tidak lolos ujian CPNS. Tidak semua sarjana yang pandai selalu mempunyai nilai ijazah yang lebih baik daripada yang lebih bodoh. Amika mempunyai nilai ijazah yang lebih buruk daripada Tri.",
+      "options": [
+        "Tidak mungkin Amika akan lolos ujian CPNS.",
+        "Tidak mungkin Amika dan Tri adalah satu alumni.",
+        "Tri lebih pandai daripada Amika.",
+        "Tidak mungkin Tri akan lolos ujian CPNS.",
+        "Mungkin Amika dan Tri akan lolos ujian CPNS."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua burung tidak bersirip. Semua kuda makan rumput.",
+      "options": [
+        "Burung dan kuda tidak bersirip dan tidak makan rumput.",
+        "Burung sama dengan kuda.",
+        "Tidak bisa ditarik kesimpulan.",
+        "Burung tidak makan rumput.",
+        "Kuda tidak bersirip."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Beberapa dosen bergabung dalam tim Karawitan. Tim Karawitan tidak ada yang menjadi pemain tenis.",
+      "options": [
+        "Ada beberapa dosen yang menjadi pemain tenis",
+        "Beberapa dosen bukan pemain tenis.",
+        "Tidak ada dosen yang menjadi pemain tenis.",
+        "Beberapa pemain tenis bukanlah merupakan tim Karawitan.",
+        "Tim Karawitan hanya cocok menjadi dosen."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua guide pandai berbahasa asing. Fido bukanlah seorang guide.",
+      "options": [
+        "Fido tidak pandai berbahasa asing.",
+        "Fido adalah sarjana sastra.",
+        "Fido bukan sarjana.",
+        "Fido pandai berbahasa asing.",
+        "Tidak ada kesimpulan yang benar."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua dosen adalah sarjana. Sementara dosen adalah ahli bahasa. Jadi….",
+      "options": [
+        "Sementara ahli bahasa adalah sarjana",
+        "Sementara sarjana adalah dosen",
+        "Sementara ahli bahasa adalah dosen",
+        "Semua ahli bahasa adalah sarjana",
+        "Walaupun sarjana, tetapi bukan ahli bahasa"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua buah yang manis berulat. Sebagian buah yang telah masak rasanya manis. Jadi….",
+      "options": [
+        "sebagian buah yang telah masak berulat",
+        "Sebagian buah yang manis berulat",
+        "Semua buah yang telah masak berulat",
+        "Sebagian buah yang berulat rasanya manis",
+        "Semua buah yang tidak berulat belum masak."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua orang yang bertitel MBA hidup dengan makmur. Sebagian orang yang bertitel MBA melakukan usaha wiraswasta. Jadi….",
+      "options": [
+        "Semua wiraswasta bertitel MBA.",
+        "Semua wiraswasta hidup makmur.",
+        "Semua wiraswasta yang hidupnya makmur bertitel MBA.",
+        "Semua MBA yang hidupnya makmur adalah wiraswastawan",
+        "Semua MBA yang berwiraswasta hidup dengan makmur."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua insinyur sipil pandai matematika. Sarwono bukan insinyur sipil. Jadi....",
+      "options": [
+        "Sarwono tidak pandai dalam matematika",
+        "Sarwono adalah sarjana sastra",
+        "Sarwono bukan sarjana",
+        "Sarwono pandai dalam matematika",
+        "Tidak ada kesimpulan yang benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Maya selalu memberi hadiah barang-barang mahal. Andi diberi hadiah dasi oleh Maya. Jadi....",
+      "options": [
+        "Maya selalu memberi hadiah dasi.",
+        "Dasi adalah barang mahal",
+        "Andi selalu diberi hadiah barang-barang mahal",
+        "tak ada hadiah yang tidak mahal.",
+        "Dasi pemberian Maya mahal."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Tidak ada dua gaun rancangan desainer X yang memiliki model yang sama. Gaun A dan B adalah rancangan desainer X. jadi ....",
+      "options": [
+        "Sebagian gaun rancangan desainer X",
+        "Semua desainer merancang gaun dengan mode seperti gaun A dan B",
+        "Gaun A dan B tidak memiliki mode yang sama",
+        "Gaun yang modenya tidak sama berasal dari desaine X saja",
+        "Gaun A dan B pasti memiliki mode yang sama karena rancangan desainer X."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua ilmuwan selalu memiliki wawasan yang luas. Ilham seorang ilmuwan yang tidak suka membaca. Jadi ....",
+      "options": [
+        "Ilham seorang ilmuwan yang tidak suka memiliki wawasan luas",
+        "Walaupun tidak suka membaca Ilham memiliki wawasan yang luas",
+        "Semua ilmuwan tidak suka membaca",
+        "Membaca tidak menambah wawasan seorang ilmuwan",
+        "Ilham tidak suka membaca karena sudah menjadi ilmuwan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua anak pandai bernyanyi. Sebagian anak pandai memainkan gitar. Sebagian anak yang bermain gitar juga juga pandai meniup suling. Jadi ...",
+      "options": [
+        "Anak yang pandai bermain gitar tentu pandai bernyanyi",
+        "Anak yang pandai bermain tentu pandai bernyanyi",
+        "Anak untuk pandai meniup suling tentu pandai bernyanyi",
+        "Anak yang pandai bernyanyi belum tentu dapat bermain suling",
+        "Sebagian anak pandai bernyanyi, bermain gitar, dan meniup suling"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua siswa diminta mempersiapkan diri untuk ulangan. Sebagian siswa mendapat nilai baik dalam ulangan. Jadi ....",
+      "options": [
+        "Semua siswa mempersiapkan diri dan mendapat nilai baik",
+        "Sebagian sisa tidak mempersiapkan diri dan tidak mendapat nilai baik",
+        "Sebagian siswa tidak mempersiapkan diri tapi mendapat nilai baik",
+        "Semua siswa mempersiapkan diri",
+        "Sebagian siswa sudah diminta mempersiapkan diri dan mendapat nilai baik."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua mahasiswa yang belajar pasti lulus ujian. Sebagian mahasiswa yang lulus ujian ternyata tidak belajar. Jadi ....",
+      "options": [
+        "Semua mahasiswa belajar",
+        "Semua mahasiswa belajar, dan lulus ujian",
+        "Sebagian mahasiswa belajar dan lulus ujian",
+        "Semua mahasiswa yang tidak belajar tidak lulus ujian.",
+        "Tidak semua mahasiswa yang lulus ujian belajar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua wisatawan selalu mengunjungi kota yang memiliki kesenian daerah. Kota Batu memiliki banyak kesenian daerah. Jadi....",
+      "options": [
+        "Hanya wisatawan mengunjungi Kota Batu.",
+        "Sebagian wisatawan tidak mengunjungi Kota Batu.",
+        "Semua yang mengunjungi kota Batu adalah wisatawan.",
+        "Semua wisatawan selalu mengunjungi Kota Batu.",
+        "Kadang-kadang wisatawan enggan mengunjungi Kota Batu"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua sepeda memiliki lampu. Sebagian lampu berwarna merah. Jadi....",
+      "options": [
+        "Semua sepeda memiliki lampu merah.",
+        "Tidak semua lampu sepeda berwarna merah",
+        "Lampu merah bagian perlengkapan semua sepeda.",
+        "Sebagian sepeda memiliki lampu berwarna merah.",
+        "Tidak ada jawaban yang benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dalam suatu perjamuan makan, jika disajikan nasi goreng maka ayam goreng juga disajikan. Jika ayam goreng disajikan maka buah-buahan juga disajikan. Jadi....",
+      "options": [
+        "Jika ayam goreng disajikan maka buahbuahan juga disajikan.",
+        "Jika nasi goreng tidak disajikan maka buahbuahan tidak disajikan.",
+        "Jika ayam goreng disajikan maka nasi goreng juga disajikan.",
+        "Jika buah-buahan tidak disajikan maka nasi goreng tidak disajikan.",
+        "Jika buah-buahan disajikan maka ayam goreng juga disajikan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua wisatawan asing memiliki paspor. Sebagian wisatawan asing berpaspor Belanda. Jadi....",
+      "options": [
+        "Wisatawan asing yang berpaspor adalah wisatawan Belanda.",
+        "Semua wisatawan asing berpaspor Belanda",
+        "Yang berpaspor Belanda pasti wisatawan",
+        "Sebagian wisatawan asing tidak berpaspor Belanda",
+        "Semua wisatawan Belanda berpaspor asing"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua karyawan PT Kondang ikut unjuk rasa. Sebagian karyawan berstatus honorer. Jadi ....",
+      "options": [
+        "Karyawan PT Kondang yang berstatus honorer juga ikut unjuk rasa.",
+        "Sebagian karyawan PT Kondang tidak ikut unjuk rasa.",
+        "Karyawan PT Kondang yang ikut unjuk rasa pasti berstatus honorer",
+        "Sebagian karyawan PT. Kondang berstatus honorer.",
+        "Karyawan PT Kondang berunjuk rasa karena berstatus honorer"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

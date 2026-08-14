@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "text": "Apabila Sarah memiliki budget Rp 50.000 dan ingin mengefektifkan hari weekendnya untuk healing, pilihan di bawah ini yang paling direkomendasikan adalah ....",
+      "options": [
+        "Pergi ke TMII dan wahana bermain",
+        "Pergi ke TMII dan festival",
+        "Pergi berpiknik dan ke TMII",
+        "Pergi ke festival dan berpiknik",
+        "Pergi ke festival dan wahana bermain"
+      ],
+      "correctAnswer": "Pergi ke TMII dan festival",
+      "explanation": "Tiket masuk TMII Rp 25.000 dan tiket masuk festival Rp 15.000. Total budget yang dibutuhkan adalah Rp 40.000, yang masih berada di bawah budget Sarah sebesar Rp 50.000."
+    },
+    {
+      "text": "Suatu negara dikatakan kaya akan sumber daya dalam negeri ketika jumlah impor sumber daya dari negara tersebut rendah. Berdasarkan grafik di atas apa yang menggambarkan kondisi negara X pada tahun 2021 dibandingkan tahun sebelumnya ....",
+      "options": [
+        "Negara X adalah negara yang kaya minyak mentah dan hasil minyak sejak dulu",
+        "Negara X mengalami kenaikan permintaan kebutuhan dalam negeri",
+        "Negara X mampu mencukupi kebutuhan dari hasil tambang minyak mentah dan hasil minyak dalam negeri",
+        "Negara X tidak mampu mencukupi kebutuhan dari hasil tambang minyak mentah dan hasil minyak dalam negeri.",
+        "Negara X kurang mampu mencukupi kebutuhan dari hasil tambang minyak mentah dan hasil minyak dalam negeri"
+      ],
+      "correctAnswer": "Negara X mampu mencukupi kebutuhan dari hasil tambang minyak mentah dan hasil minyak dalam negeri",
+      "explanation": "Berdasarkan definisi pada soal, jika impor rendah (seperti pada tahun 2021 dalam grafik), maka negara tersebut mampu mencukupi kebutuhan dari hasil tambang dalam negeri."
+    },
+    {
+      "text": "Presiden Jokowi menghadiri KTT G20 di Bali atau Opening FIFA World Cup di Qatar. Ternyata Presiden Jokowi tidak menghadiri Opening FIFA World Cup di Qatar. Maka ....",
+      "options": [
+        "Presiden Jokowi menghadiri acara lain selain Opening FIFA World Cup",
+        "Presiden Jokowi tidak menghadiri acara selain KTT G20 di Bali",
+        "Presiden Jokowi pasti menghadiri KTT G20 di Bali",
+        "Presiden Jokowi menghadiri KTT G20 di Bali",
+        "Tidak ada yang benar, karena bisa jadi Presiden Jokowi menghadiri acara selain KTT G20 dan Opening FIFA World Cup"
+      ],
+      "correctAnswer": "Presiden Jokowi pasti menghadiri KTT G20 di Bali",
+      "explanation": "Menggunakan prinsip silogisme disjungtif (p atau q, bukan q, maka p)."
+    },
+    {
+      "text": "Apabila XL Axiata bukan operator terbaik pada kategori kecepatan unduh, maka ....",
+      "options": [
+        "XL Axiata tidak menetapkan fokus pembangunan jaringan yaitu meningkatkan kapasitas, efisiensi, serta optimasi",
+        "Berdasarkan hasil survey OpenSignal, XL Axiata menjadi operator terbaik karena signalnya yang kuat",
+        "XL Axiata menetapkan fokus pembangunan jaringan yaitu meningkatkan kapasitas, efisiensi, serta optimasi",
+        "XL Axiata menjadi satu-satunya operator terbaik dari hasil terbaru survey OpenSignal",
+        "Berdasarkan hasil survey OpenSignal, XL Axiata menjadi operator incaran public"
+      ],
+      "correctAnswer": "XL Axiata tidak menetapkan fokus pembangunan jaringan yaitu meningkatkan kapasitas, efisiensi, serta optimasi",
+      "explanation": "Implikasi logis dari teks bacaan."
+    },
+    {
+      "text": "Simpulan yang paling tepat adalah....",
+      "options": [
+        "Berbagai jenis olahan ayam termasuk makanan populer di kampus X",
+        "Ayam katsu lebih banyak dibeli daripada jenis ayam lainnya",
+        "Peminat ayam karage hanya mahasiswa FK",
+        "Ayam geprek tidak diminati oleh mahasiswa FK dan FT",
+        "Tidak semua olahan ayam yang disukai mahasiswa FT"
+      ],
+      "correctAnswer": "Berbagai jenis olahan ayam termasuk makanan populer di kampus X",
+      "explanation": "Dari premis mengenai kantin teknik, kantin FK, dan survei mahasiswa FISIP, dapat disimpulkan bahwa berbagai olahan ayam sangat populer di kampus X."
+    },
+    {
+      "text": "Semua yang suka bermain catur pasti suka sepakbola. Carlsen suka bermain sepak bola. Apakah simpulan yang sesuai dengan 2 premis di atas?",
+      "options": [
+        "Carlsen suka bermain catur",
+        "Carlsen tidak suka bermain catur",
+        "Carlsen suka bermain catur dan bermain sepakbola",
+        "Carlsen tidak suka bermain sepakbola",
+        "Tidak ada simpulan yang sesuai"
+      ],
+      "correctAnswer": "Tidak ada simpulan yang sesuai",
+      "explanation": "Premis kedua menyatakan Carlsen suka sepakbola (menempati posisi akibat), sehingga tidak bisa ditarik kesimpulan pasti apakah ia suka catur atau tidak (menghindari kesalahan fallacy of the converse)."
+    },
+    {
+      "text": "1) Hari ini Alex jalan-jalan ke taman kota\n2) Setelah jalan-jalan, suasana hati Alex menjadi baik\nManakah di bawah ini yang menggambarkan pernyataan (1) dan (2)?",
+      "options": [
+        "Pernyataan (1) adalah sebab dan pernyataan (2) adalah akibat",
+        "Pernyataan (2) adalah sebab dan pernyataan (1) adalah akibat",
+        "Pernyataan (1) dan (2) adalah penyebab, namun tidak saling berhubungan",
+        "Pernyataan (1) dan (2) adalah akibat dari dua penyebab yang tidak berhubungan",
+        "Pernyataan (1) dan (2) adalah akibat dari penyebab yang sama"
+      ],
+      "correctAnswer": "Pernyataan (1) adalah sebab dan pernyataan (2) adalah akibat",
+      "explanation": "Jalan-jalan ke taman kota adalah sebab yang membuat suasana hati Alex menjadi baik (akibat)."
+    },
+    {
+      "text": "Berdasarkan paragraf pada bacaan di atas, maka pernyataan di bawah ini yang tidak setara adalah ...",
+      "options": [
+        "Ada orang menganggap membahas keluarga akan sangat menyenangkan dan penuh haru.",
+        "Banyak orang menganggap membahas keluarga akan sangat menyenangkan dan penuh haru.",
+        "Beberapa orang menganggap membahas keluarga akan sangat menyenangkan dan penuh haru.",
+        "Tidak semua orang menganggap membahas keluarga akan sangat menyenangkan dan penuh haru.",
+        "Setiap orang menganggap bahwa membahas keluarga akan sangat menyenangkan dan penuh haru."
+      ],
+      "correctAnswer": "Setiap orang menganggap bahwa membahas keluarga akan sangat menyenangkan dan penuh haru.",
+      "explanation": "Teks menyatakan 'sebagian orang', yang setara dengan ada, banyak, beberapa, dan tidak semua orang. Pernyataan 'setiap orang' bertentangan dengan 'sebagian orang'."
+    },
+    {
+      "text": "Berdasarkan informasi tersebut manakah pernyataan berikut yang benar?",
+      "options": [
+        "lemak dan gula yang berubah cepat akan mempercepat sistem metabolisme tubuh.",
+        "Penumpukan lemak dalam tubuh akan mempercepat sistem metabolisme tubuh",
+        "Kandungan didalam jeruk nipis meningkatkan konsumsi karbohidrat.",
+        "Makan dalam jumlah banyak mempercepat sistem metabolisme tubuh.",
+        "Kandungan jeruk nipis memperlambat penumpukan lemak dalam tubuh."
+      ],
+      "correctAnswer": "Kandungan jeruk nipis memperlambat penumpukan lemak dalam tubuh.",
+      "explanation": "Sesuai dengan isi teks bahwa metabolisme yang cepat mengubah lemak/gula menjadi energi dan memperlambat penumpukan lemak."
+    },
+    {
+      "text": "Kesimpulan yang paling tepat ...",
+      "options": [
+        "Jahe tidak baik dikonsumsi tetapi bermanfaat bagi tubuh",
+        "Jahe bermanfaat bagi kesehatan tubuh",
+        "Jahe baik dikonsumsi dan bermanfaat bagi kesehatan tubuh",
+        "Bahan yang mengandung vitamin sudah dipastikan itu jahe",
+        "Vitamin pada jahe bermanfaat bagi kesehatan, tetapi tidak untuk kandungan gulanya"
+      ],
+      "correctAnswer": "Jahe baik dikonsumsi dan bermanfaat bagi kesehatan tubuh",
+      "explanation": "Jahe memiliki vitamin, dan semua bahan yang mengandung vitamin baik dikonsumsi serta bermanfaat bagi kesehatan."
+    }
+  ]
+}

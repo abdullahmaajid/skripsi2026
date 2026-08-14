@@ -141,7 +141,7 @@ export default function ReviewPage({ params }: { params: Promise<{ id: string }>
         <div className="p-6 md:p-8">
           
           {/* Score Card */}
-          <div className="bg-white rounded-2xl p-5 border border-slate-100 shadow-[0_4px_24px_rgba(0,0,0,0.02)] mb-8">
+          <div className="bg-white rounded-3xl p-5 border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.03)] mb-8">
              <h2 className="font-bold text-slate-800 text-base mb-4 leading-tight">{data.templateName}</h2>
              <div className="grid grid-cols-2 gap-3">
                <div className="bg-emerald-50/80 rounded-xl p-3 border border-emerald-100/50">

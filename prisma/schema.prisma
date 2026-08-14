@@ -10,20 +10,20 @@ datasource db {
 // AUTH & USER
 // ============================================
 model User {
-  id        String   @id @default(cuid())
-  name      String
-  email     String   @unique
-  password  String
-  avatar    String?
-  role      Role     @default(STUDENT)
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  id             String    @id @default(cuid())
+  name           String
+  email          String    @unique
+  password       String
+  avatar         String?
+  role           Role      @default(STUDENT)
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
   lastActivityAt DateTime? @updatedAt // Track last activity for dashboard metrics
 
   profile    StudentProfile?
   attempts   ExamAttempt[]
   progress   ChapterProgress[]
-  irtAbility Float           @default(0.0) // θ (theta) — kemampuan siswa
+  irtAbility Float             @default(0.0) // θ (theta) — kemampuan siswa
 }
 
 enum Role {
@@ -39,8 +39,8 @@ model StudentProfile {
   targetMajor1Id String?
   targetMajor2Id String?
   aiStyle        String  @default("default") // default, professional, friendly, honest, quirky, efficient, sarcastic
-  aiEnergy       String?  @default("default") // "low", "default", "high"
-  aiLength       String?  @default("normal") // "short", "normal", "long"
+  aiEnergy       String? @default("default") // "low", "default", "high"
+  aiLength       String? @default("normal") // "short", "normal", "long"
 
   user         User   @relation(fields: [userId], references: [id], onDelete: Cascade)
   targetMajor1 Major? @relation("Target1", fields: [targetMajor1Id], references: [id])
@@ -104,8 +104,8 @@ enum Cluster {
 // QUESTION BANK
 // ============================================
 model Subject {
-  id           String        @id @default(cuid())
-  name         String        @unique // "Penalaran Matematika", "Literasi Bahasa Indonesia", etc.
+  id           String         @id @default(cuid())
+  name         String         @unique // "Penalaran Matematika", "Literasi Bahasa Indonesia", etc.
   cluster      Cluster
   chapters     Chapter[]
   examSections ExamSection[]
@@ -113,12 +113,12 @@ model Subject {
 }
 
 model Chapter {
-  id            String     @id @default(cuid())
+  id            String            @id @default(cuid())
   name          String // "Geometri", "Aljabar Linear", etc.
   subjectId     String
-  order         Int        @default(0)
-  theorySummary String?    @db.Text // Rangkuman materi singkat (Markdown/LaTeX)
-  subject       Subject    @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  order         Int               @default(0)
+  theorySummary String?           @db.Text // Rangkuman materi singkat (Markdown/LaTeX)
+  subject       Subject           @relation(fields: [subjectId], references: [id], onDelete: Cascade)
   questions     Question[]
   progress      ChapterProgress[]
 
@@ -165,15 +165,15 @@ model QuestionOption {
 // CBT ENGINE & EXAM
 // ============================================
 model ExamTemplate {
-  id          String        @id @default(cuid())
-  name        String // "Try Out SNBT #1"
-  description String?
-  duration    Int // Durasi dalam menit
-  totalItems  Int // Jumlah soal
-  cluster     Cluster
-  isDiagnostic Boolean      @default(false)
-  attempts    ExamAttempt[]
-  sections    ExamSection[]
+  id           String        @id @default(cuid())
+  name         String // "Try Out SNBT #1"
+  description  String?
+  duration     Int // Durasi dalam menit
+  totalItems   Int // Jumlah soal
+  cluster      Cluster
+  isDiagnostic Boolean       @default(false)
+  attempts     ExamAttempt[]
+  sections     ExamSection[]
 }
 
 model ExamSection {
@@ -205,6 +205,7 @@ model ExamAttempt {
   subScores SubjectScore[]
 
   @@index([userId, startedAt])
+  @@index([userId, status])
 }
 
 enum AttemptStatus {
@@ -300,9 +301,8 @@ model ChapterProgress {
   chapter Chapter @relation(fields: [chapterId], references: [id], onDelete: Cascade)
 
   @@unique([userId, chapterId])
+  @@index([userId, status])
 }
-
-
 
 enum MasteryStatus {
   NOT_STARTED

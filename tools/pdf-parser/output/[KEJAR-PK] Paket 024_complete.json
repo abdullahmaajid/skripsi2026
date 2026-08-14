@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Di suatu kota terdapat sebuah taman berbentuk belah ketupat dengan sisi sepanjang 75 meter dan sebuah kolam renang umum berbentuk lingkaran dengan jari-jari 42 meter. Manakah bentuk yang menyatakan hubungan kuantitas antara nilai P dan nilai Q? P: Luas taman berbentuk belah ketupat, Q: Luas kolam renang berbentuk lingkaran",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah bentuk yang menyatakan hubungan kuantitas antara nilai P dan nilai Q. P: Hasil perkalian bilangan prima yang terletak antara 15 sampai 25, Q: \\sqrt{289} \\times 361 \\times 529",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapa tabungan Ka Ican saat ini jika Ia menyisipkan pendapatannya sebanyak 30% selama bekerja? (1) Pendapatan Ka Ican Rp. 20.000.000 per bulan (2) Ka Ican sudah bekerja selama 3 tahun",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jumlah dari suatu himpunan bilangan adalah 465. Berapa rata-ratanya? (1) Terdapat 6 bilangan di himpunan itu (2) Bilangan terbesar di himpunan adalah 122 dan yang terkecil 14",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapa nilai dari x? (1) x^2 = 625 (2) x^{1/2} = 5",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Rama membuat kue selama 3 jam dan Rani membuat kue selama 2 jam. Manakah bentuk hubungan yang menyataan kuantitas P dan Q? P: Andi membuat kue selama 2/3 dari waktu Rama, Q: Waktu Jaka membuat sama dengan lama Rani dalam membuat kue",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Terdapat segitiga samakaki dengan sisi AB adalah alas segitiga, AC dan BC adalah sisi sama kaki segitiga tersebut. Jika panjang AB = 10 dan AC = 13. Manakah bentuk hubungan yang menyataan kuantitas P dan Q? P: Luas segitiga ABC, Q: 2 kali keliling segitiga ABC",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui barisan geometri U_n dengan U_2 = 3. Berapakah jumlah dari suku ke-10? (1) U_5 = 9 (2) U_1 = 1",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Rata-rata aritmatika dari bilangan bulat a, b, c, d, dan e adalah 80. Apakah mungkin terdapat dua bilangan bulat lebih besar dari 80? (1) Tiga dari bilangan bulat tersebut lebih kecil dari 60. (2) Tidak ada bilangan bulat yang sama dengan 80",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapa luas seluruh permukaan balok Y? (1) Ukuran permukan balok Y adalah 2 dan 3 meter. (2) Volume balok Y adalah 12 meter.",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Rata-rata dari empat donasi yang diberikan ke sebuah badan amal adalah Rp100.000. Dua dari empat donasi tersebut memiliki nilai Rp110.000 dan Rp90.000. Manakah bentuk hubungan yang menyataan kuantitas P dan Q? P: Rata-rata dua donasi lainnya, Q: Rp100.000",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Terdapat persegi panjang dengan sisi 14 cm dan 48 cm. Manakah bentuk hubungan yang menyataan kuantitas P dan Q? P: Panjang garis diagonal persegi panjang, Q: 7 x sisi terpendek",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapa panjang QT. Putuskan apakah pernyataan (1) dan (2) berikut cukup runtuk menjawab pertanyaan tersebut! (1) PQ = 10 (2) PS = 25",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapakah luas segitiga PQR jika panjang SQ = 20 cm dan ST sejajar dengan PQ? (1) RT = 9 cm (2) PT = 15 cm",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada perjalanan terkini dari Jakarta ke Bogor, Ali berkendara selama lima jam. Pada jam pertama, kecepatan rata-ratanya adalah x kilometer per jam dan kecepatan rata-ratanya adalah y kilometer per jam untuk empat jam ke depan. Berapa kecepatan rata-ratanya, dalam kilometer per jam, untuk keseluruhan perjalanannya? (1) x + y = 50 (2) 2x + y = 70",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

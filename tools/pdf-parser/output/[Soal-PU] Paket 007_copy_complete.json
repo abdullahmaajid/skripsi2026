@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": [
+        "Mengonsumsi makanan yang mengandung lemak berlebih akan meningkatkan energi di siang hari.",
+        "Penambahan berat badan karena lemak berdampak baik bagi Kesehatan tubuh.",
+        "Kelebihan kalori akibat lemak dapat berdampak pada tubuh yang sulit untuk bergerak aktif.",
+        "Lesu di siang hari selalu disebabkan oleh konsumsi makanan tinggi lemak.",
+        "Mengonsumsi makanan lemak yang cukup akan membuat tubuh sulit untuk bergerak aktif."
+      ],
+      "correctAnswer": "Kelebihan kalori akibat lemak dapat berdampak pada tubuh yang sulit untuk bergerak aktif.",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI SALAH?",
+      "options": [
+        "Buah nanas baik untuk dikonsumsi karena dapat mencegah infeksi penyakit.",
+        "Kandungan vitamin C pada nanas dapat memicu penyakit maag seperti seperti mual dan perut kembung.",
+        "Kandungan enzim bromelain pada nanas tidak baik bagi seseorang yang menderita maag.",
+        "Vitamin C pada nanas dapat mencegah seseorang tertular penyakit musiman seperti flu.",
+        "Walaupun dapat memicu gejala maag, mengonsumsi nanas tidak mengganggu pencernaan."
+      ],
+      "correctAnswer": "Kandungan vitamin C pada nanas dapat memicu penyakit maag seperti seperti mual dan perut kembung.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah simpulan berikut yang BENAR?",
+      "options": [
+        "Mahasiswa yang tidak meraih nilai ujian tinggi berarti tidak dapat mengatur waktunya dengan baik.",
+        "Mahasiswa tidak meraih nilai ujian tinggi jika dapat mengatur waktunya dengan baik.",
+        "Mahasiswa dapat meraih nilai ujian tinggi jika tidak dapat mengatur waktunyua dengan baik.",
+        "Mahasiswa dapat mengatur waktunya dengan baik jika dapat meraih nilai ujian tinggi.",
+        "Mahasiswa yang tidak mengatur waktunya dengan baik akan dapat meraih nilai ujian tinggi."
+      ],
+      "correctAnswer": "Mahasiswa yang tidak meraih nilai ujian tinggi berarti tidak dapat mengatur waktunya dengan baik.",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks bacaan tersebut, apabila intensitas hujan di arab tidak meningkat secara ekstrem. Manakah simpulan yang tepat?",
+      "options": [
+        "Banjir di wilayah Arab semakin luas.",
+        "Tanah di wilayah Arab akan tetap kering.",
+        "Tidak akan terjadi banjir besar di wilayah Arab.",
+        "Tidak akan muncul vegetasi hijau di wilayah Arab.",
+        "Tidak dapat disimpulkan."
+      ],
+      "correctAnswer": "Tidak dapat disimpulkan.",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks tersebut, apabila saat ini wilayah Jakarta dan sekitarnya sedang musim hujan. Manakah simpulan yang benar?",
+      "options": [
+        "Sebagian besar wilayah di Jakarta akan terendam banjir.",
+        "Tidak ada wilayah di Jakarta yang akan terendam banjir.",
+        "Penduduk terpaksa akan mengungsi ke tempat aman.",
+        "Sebagian penduduk tidak akan mengungsi.",
+        "Tidak dapat disimpulkan."
+      ],
+      "correctAnswer": "Penduduk terpaksa akan mengungsi ke tempat aman.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan-pernyataan berikut yang MEMPERLEMAH pendapat ahli psikologi tersebut?",
+      "options": [
+        "Pekerja milenial banyak memiliki ide menarik untuk tempat kerjanya.",
+        "Pekerja milenial memiliki etos kerja yang tinggi.",
+        "Sedikit perusahaan yang mengeluhkan kinerja dan kontribusi pekerja milenial.",
+        "Banyak perusahaan mengeluhkan kinerja dan kontribusi pekerja milenial.",
+        "Banyak pekerja milenial yang bekerja di sebuah perusahaan dalam jangka waktu lama."
+      ],
+      "correctAnswer": "Banyak perusahaan mengeluhkan kinerja dan kontribusi pekerja milenial.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan-pernyataan berikut yang MEMPERLEMAH pendapat dokter tersebut?",
+      "options": [
+        "Mengonsumsi sayur dan buah yang mengandung antioksidan mampu menangkal efek radikal bebas.",
+        "Jika tidak ingin mengalami penuaan dini alangkah baiknya mengonsumsi buah nanas.",
+        "Pola makan sehat dapat dilakukan dengan mengonsumsi buah dan sayur serta olahraga teratur.",
+        "Seseorang yang mengonsumsi nanas berpotensi terhindar dari penuaan dini.",
+        "Seseorang yang mengonsumsi sayur dan buah dapat berpotensi untuk terkena penyakit kronis."
+      ],
+      "correctAnswer": "Seseorang yang mengonsumsi sayur dan buah dapat berpotensi untuk terkena penyakit kronis.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang paling tepat mengenai data tersebut yaitu?",
+      "options": [
+        "Memperkuat pernyataan A.",
+        "Memperlemah pernyataan A.",
+        "Memperkuat pernyataan B.",
+        "Memperlemah pernyataan B.",
+        "Tidak relevan dengan pernyataan A dan B."
+      ],
+      "correctAnswer": "Memperkuat pernyataan B.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan.",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": "Simpulan tidak relevan dengan informasi yang diberikan.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan.",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": "Simpulan tersebut mungkin benar.",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan data di atas, tahun keberapa Toko A memperoleh persentase keuntungan terbesar?",
+      "options": [
+        "Tahun ke-1",
+        "Tahun ke-2",
+        "Tahun ke-3",
+        "Tahun ke-4",
+        "Tahun ke-5"
+      ],
+      "correctAnswer": "Tahun ke-1",
+      "explanation": "Persentase keuntungan dihitung dengan rumus ((Pendapatan - Modal) / Modal) * 100%. Tahun ke-1: ((150 - 50) / 50) * 100% = 200%. Tahun ke-2: ((200 - 100) / 100) * 100% = 100%. Tahun ke-3: ((250 - 100) / 100) * 100% = 150%. Tahun ke-4: ((250 - 150) / 150) * 100% = 66.6%. Tahun ke-5: ((300 - 200) / 200) * 100% = 50%. Jadi, persentase terbesar adalah pada Tahun ke-1."
+    },
+    {
+      "text": "Diantara ke lima siswa tersebut, siswa mana yang paling berprestasi?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Nilai akhir = (0.7 * Nilai Akademik) + (0.3 * Nilai Non-Akademik). Siswa A: 0.7(70) + 0.3(80) = 49 + 24 = 73. Siswa B: 0.7(80) + 0.3(80) = 56 + 24 = 80. Siswa C: 0.7(90) + 0.3(50) = 63 + 15 = 78. Siswa D: 0.7(90) + 0.3(60) = 63 + 18 = 81. Siswa E: 0.7(80) + 0.3(70) = 56 + 21 = 77. Nilai tertinggi adalah siswa D."
+    },
+    {
+      "text": "Jumlah pengunjung wisata A selama lima hari berturut-turut adalah 41, 44, 49, 52, dan 57 orang. Sementara itu, jumlah pengunjung kebun binatang B dalam lima hari yang sama adalah 110, 115, 125, 130, dan 140 orang. Jika tren jumlah pengunjung tersebut bersifat konstan, berapa orang pengunjung wisata A dan B pada hari keenam?",
+      "options": [
+        "60 dan 155 orang.",
+        "60 dan 145 orang.",
+        "62 dan 155 orang.",
+        "62 dan 145 orang.",
+        "65 dan 155 orang."
+      ],
+      "correctAnswer": "60 dan 145 orang.",
+      "explanation": "Pola A: 41 (+3) 44 (+5) 49 (+3) 52 (+5) 57. Pola berikutnya adalah +3, sehingga hari ke-6 adalah 57 + 3 = 60. Pola B: 110 (+5) 115 (+10) 125 (+5) 130 (+10) 140. Pola berikutnya adalah +5, sehingga hari ke-6 adalah 140 + 5 = 145."
+    },
+    {
+      "text": "Jumlah pengunjung perpustakaan A selama tujuh hari berturut-turut adalah 1205, 1208, 1213, 1220, 1229, 1240, dan 1253 orang. Sementara itu, jumlah pengunjung perpustakaan B dalam tujuh hari yang sama adalah 210, 212, 216, 222, 230, 240, dan 252 orang. Jika tren jumlah pengunjung tersebut bersifat konstan, berapa orang pengunjung perpustakaan A dan B pada hari kedelapan?",
+      "options": [
+        "1268 dan 293 orang.",
+        "1268 dan 266 orang.",
+        "1270 dan 281 orang.",
+        "1270 dan 264 orang.",
+        "1272 dan 281 orang."
+      ],
+      "correctAnswer": "1268 dan 266 orang.",
+      "explanation": "Pola A: selisih antar suku bertambah +2 setiap langkah (+3, +5, +7, +9, +11, +13). Maka penambahan untuk hari ke-8 adalah +15. 1253 + 15 = 1268. Pola B: selisih bertambah +1 setiap langkah (+2, +4, +6, +8, +10, +12). Maka penambahan untuk hari ke-8 adalah +14. 252 + 14 = 266."
+    },
+    {
+      "text": "Jumlah siswa yang mengunjungi perpustakaan sekolah selama enam hari berturut-turut adalah 120, 123, 121, 124, 122, dan 125 siswa. Jika tren kunjungan tersebut bersifat konstan, berapa jumlah siswa berkunjung ke perpustakaan pada hari ke-7?",
+      "options": [
+        "127 siswa",
+        "126 siswa",
+        "125 siswa",
+        "124 siswa",
+        "123 siswa"
+      ],
+      "correctAnswer": "123 siswa",
+      "explanation": "Pola barisan: 120 (+3) 123 (-2) 121 (+3) 124 (-2) 122 (+3) 125. Karena pola selisihnya adalah +3, -2, +3, -2, +3, maka operasi berikutnya adalah -2. Jadi, 125 - 2 = 123."
+    }
+  ]
+}

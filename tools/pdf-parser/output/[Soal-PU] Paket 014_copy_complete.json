@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan yang sesuai dengan bacaan?",
+      "options": [
+        "Perubahan iklim akan menyebabkan deforestasi atau penggundulan hutan.",
+        "Tanah akan rentan terhadap erosi ketika terjadi perubahan iklim.",
+        "Keseimbangan ekosistem hanya dipengaruhi oleh penggundulan hutan.",
+        "Hilangnya habitat berbagai spesies dapat disebabkan oleh penebangan pohon secara masif.",
+        "Kesuburan lahan yang berkurang pasti disebabkan oleh penggundulan hutan."
+      ],
+      "correctAnswer": "Hilangnya habitat berbagai spesies dapat disebabkan oleh penebangan pohon secara masif.",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan yang tidak sesuai dengan bacaan?",
+      "options": [
+        "Dampak buruk akibat penggundulan dapat diatasi dengan berbagai hal.",
+        "Penggundulan hutan dapat dikurangi dengan memberikan kesadaran ke masyarakat.",
+        "Penghijauan kota dapat membantu mengurangi dampak buruk deforestasi.",
+        "Reboisasi dan penghijauan selalu berdampak positif bagi lingkungan.",
+        "Untuk mengurangi konsumsi produk kayu ilegal tidak diperlukan kesadaran masyarakat."
+      ],
+      "correctAnswer": "Untuk mengurangi konsumsi produk kayu ilegal tidak diperlukan kesadaran masyarakat.",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan yang sesuai dengan bacaan?",
+      "options": [
+        "Kehidupan biota laut dapat terancam oleh sampah plastik.",
+        "Sampah plastik menimbulkan banyak kepunahan biota laut.",
+        "Burung di laut tidak bisa mengonsumsi plastik.",
+        "Tubuh manusia dapat beradaptasi dari mikroplastik.",
+        "Rantai makanan hanya bisa dirusak oleh polusi plastik."
+      ],
+      "correctAnswer": "Kehidupan biota laut dapat terancam oleh sampah plastik.",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan yang tidak sesuai dengan bacaan?",
+      "options": [
+        "Permasalahan polusi plastik bisa diatasi dengan mengurangi penggunaan bahan plastik.",
+        "Menggalakkan kantong kain berdampak positif bagi lingkungan.",
+        "Penggunaan plastik sekali pakai adalah kunci utama dalam menjaga kebersihan.",
+        "Kunci utama dalam menjaga kebersihan lingkungan adalah kesadaran individu.",
+        "Penggunaan plastik sekali pakai bisa mengurangi permasalahan lingkungan."
+      ],
+      "correctAnswer": "Penggunaan plastik sekali pakai adalah kunci utama dalam menjaga kebersihan.",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, manakah pernyataan yang PALING DIDUKUNG oleh bacaan tersebut?",
+      "options": [
+        "Biota laut seperti ikan dan burung yang menelan plastik baik untuk dikonsumsi oleh manusia.",
+        "Polusi plastik dapat mengancam kepunahan banyak spesies organisme terutama tumbuhan laut.",
+        "Polusi plastik yang mengancam ekosistem laut dapat berkurang jika ada kesadaran individu dalam masyarakat.",
+        "Sampah plastik yang sudah terlanjur masuk ke laut dapat diolah kembali dengan teknologi saat ini.",
+        "Manusia akan memiliki kesadaran dalam menjaga lingkungan saat ekosistem sudah terancam."
+      ],
+      "correctAnswer": "Polusi plastik yang mengancam ekosistem laut dapat berkurang jika ada kesadaran individu dalam masyarakat.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah DUA SIMPULAN yang PALING DIDUKUNG oleh bacaan tersebut? 1) Rutin mengonsumsi buah-buahan dapat memenuhi kebutuhan antioksidan yang mampu mencegah bahaya radikal bebas. 2) Radikal bebas di dalam tubuh berdampak pada kerusakan sel yang membuat antioksidan melemah. 3) Kandungan antioksidan dalam tubuh pada dasarnya sudah dapat memenuhi kebutuhan untuk menangkal radikal bebas. 4) Kerusakan sel akibat radikal bebas dapat dicegah dengan mengonsumsi makanan yang mengandung antioksidan. 5) Untuk memenuhi antioksidan dalam tubuh hanya dapat dilakukan dengan mengonsumsi buah-buahan.",
+      "options": [
+        "1 dan 2",
+        "1 dan 4",
+        "2 dan 3",
+        "3 dan 5",
+        "4 dan 5"
+      ],
+      "correctAnswer": "1 dan 4",
+      "explanation": null
+    },
+    {
+      "text": "Manakah DUA SIMPULAN yang PALING DIDUKUNG oleh bacaan tersebut? 1) Semakin banyak buah pir yang dikonsumsi maka potensi terkena penyakit jantung akan semakin besar. 2) Untuk menjaga kesehatan kulit dokter menyarankan pasiennya untuk rutin mengonsumsi buah pir. 3) Buah pir memiliki beberapa kandungan yang berperan dalam menurunkan risiko penyakit jantung karena mampu mengontrol tekanan darah. 4) Vitamin C yang terdapat pada buah pir akan berdampak pada munculnya permasalahan di sistem pencernaan. 5) Kandungan serat yang berada pada buah pir baik untuk mendukung kesehatan kulit dan memperlambah tanda penuaan.",
+      "options": [
+        "1 dan 2",
+        "1 dan 4",
+        "2 dan 4",
+        "3 dan 5",
+        "4 dan 5"
+      ],
+      "correctAnswer": "3 dan 5",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang paling tepat mengenai data tersebut yaitu? A menyatakan \"Kolesterol membantu tubuh dalam produksi vitamin D ketika kulit terpapar sinar matahari. Vitamin D sangat penting untuk kesehatan tulang, sistem kekebalan tubuh, dan fungsi otak.\" B menyatakan \"Kolesterol yang terlalu tinggi, terutama kolesterol jahat (LDL), bisa meningkatkan risiko penyakit jantung.\" Data menjelaskan bahwa beberapa lansia yang memiliki kadar kolesterol rendah memiliki sistem kekebalan tubuh yang rendah.",
+      "options": [
+        "Memperkuat pernyataan A.",
+        "Memperlemah pernyataan A.",
+        "Memperkuat pernyataan B.",
+        "Memperlemah pernyataan B.",
+        "Tidak relevan dengan pernyataan A dan B."
+      ],
+      "correctAnswer": "Memperkuat pernyataan A.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang paling tepat mengenai data tersebut yaitu? A menyatakan \"Inflasi yang stabil dan terkendali mendorong perusahaan untuk meningkatkan produksi karena ada permintaan yang meningkat.\" B menyatakan \"Inflasi menyebabkan kenaikan harga bahan baku, jika harga bahan baku naik, perusahaan harus menaikkan harga barangnya, yang bisa mengurangi daya beli konsumen.\" Data menjelaskan bahwa Negara Konoha saat ini mengalami krisis ekonomi dan penurunan daya beli konsumen karena pandemi virus.",
+      "options": [
+        "Memperkuat pernyataan A.",
+        "Memperlemah pernyataan A.",
+        "Memperkuat pernyataan B.",
+        "Memperlemah pernyataan B.",
+        "Tidak relevan dengan pernyataan A dan B."
+      ],
+      "correctAnswer": "Memperkuat pernyataan B.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang paling tepat mengenai data tersebut yaitu? A menyatakan \"Menabung sejak dini membantu memastikan kehidupan yang lebih nyaman di masa tua tanpa bergantung sepenuhnya pada orang lain.\" B menyatakan \"Tabungan bisa menjadi penyelamat saat terjadi keadaan darurat, seperti kehilangan pekerjaan, biaya kesehatan mendadak, atau perbaikan kendaraan.\" Data menjelaskan bahwa sebagian besar orang yang rutin menabung sejak muda memiliki kehidupan masa tua yang independen dan bahagia.",
+      "options": [
+        "Memperkuat pernyataan A.",
+        "Memperlemah pernyataan A.",
+        "Memperkuat pernyataan B.",
+        "Memperlemah pernyataan B.",
+        "Tidak relevan dengan pernyataan A dan B."
+      ],
+      "correctAnswer": "Memperkuat pernyataan A.",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi pada bacaan, berikut adalah kalimat yang MEMPERLEMAH dan TIDAK MEMPERLEMAH pernyataan tersebut. (Soal No. 11)",
+      "options": [
+        "Tidak ada kepala daerah dan pejabat Negara Konoha tidak melakukan korupsi.",
+        "Banyak kebijakan publik di Negara Konoha memprioritaskan peningkatan infrastruktur pendidikan.",
+        "Banyak daerah di Negara Konoha yang saat ini belum memiliki bangunan sekolah yang layak.",
+        "Hampir semua wilayah di Negara Konoha sudah memiiliki perguruan tinggi.",
+        "Banyak kebijakan dan aturan hukum di Negara Konoha yang berpihak terhadap anti korupsi dan kekerasan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi pada bacaan, berikut adalah kalimat yang MEMPERLEMAH dan TIDAK MEMPERLEMAH pernyataan tersebut. (Soal No. 12)",
+      "options": [
+        "Dokter tidak menyarankan konsumsi semangka karena bisa menyebabkan sembelit.",
+        "Banyak orang yang mengonsumsi semangka memiliki pencernaan yang sehat.",
+        "Beberapa orang tetap mengalami permasalahan pencernaan walaupun rutin mengonsumsi semangka.",
+        "Banyak orang berhasil sembuh dari sembelit setelah mengonsumsi semangka.",
+        "Beberapa orang tersedak saat memakan semangka dengan terburu buru."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi pada bacaan, berikut adalah kalimat yang MEMPERLEMAH dan TIDAK MEMPERLEMAH pernyataan tersebut. (Soal No. 13)",
+      "options": [
+        "Sebagian besar padi yang ditanam pada lahan baru dari perluasan di Negara A mengalami gagal panen.",
+        "Banyak lahan perluasan di Negara A memiliki tingkat kesuburan tanah yang rendah.",
+        "Hampir semua lahan pertanian di Negara A subur untuk ditanami banyak tanaman termasuk padi.",
+        "Semakin luas lahan pertanian makan semakin banyak hasil produksi tanaman padi.",
+        "Sebagian kecil tanaman padi hanya tumbuh di dataran tinggi."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf 1, manakah simpulan yang tepat jika risiko terkena diabetes dan kolesterol tinggi berkurang?",
+      "options": [
+        "Kadar gula dan kolesterol dalam tubuh tetap normal.",
+        "Kadar gula dan kolesterol dalam tubuh tidak normal.",
+        "Tidak rutin mengonsumsi buah aprikot.",
+        "Rutin mengonsumsi buah aprikot.",
+        "Tidak dapat disimpulkan."
+      ],
+      "correctAnswer": "Rutin mengonsumsi buah aprikot.",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf 2, manakah simpulan yang tepat jika tidak terjadi keluhan berupa lemas, pusing, sakit kepala, atau haus?",
+      "options": [
+        "Tubuh tidak mengalami dehidrasi.",
+        "Tubuh pasti mengalami dehidrasi.",
+        "Tubuh mungkin mengalami dehidrasi.",
+        "Tubuh sedang mengalami dehidrasi.",
+        "Tidak dapat disimpulkan."
+      ],
+      "correctAnswer": "Tubuh tidak mengalami dehidrasi.",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf 1, manakah simpulan yang tepat jika anak menonoton televisi tanpa pengawasan orangtua?",
+      "options": [
+        "Anak tidak memiliki masalah emosional dan sosial.",
+        "Anak memiliki masalah emosional tetapi tidak masalah sosial.",
+        "Anak cenderung akan meniru apa yang ia lihat di televisi.",
+        "Anak mungkin akan meniru apa yang ia lihat di televisi.",
+        "Tidak dapat disimpulkan."
+      ],
+      "correctAnswer": "Anak cenderung akan meniru apa yang ia lihat di televisi.",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf 2, manakah simpulan yang tepat jika terjadi pertambahan ukuran minus pada mata yang telah memiliki mata minus?",
+      "options": [
+        "Sering menghabiskan waktu menonton televisi.",
+        "Mentonton televisi tanpa pengawasan orang tua.",
+        "Jarang menghabiskan waktu menonton televisi.",
+        "Telah mengalami rabun jauh.",
+        "Tidak dapat disimpulkan."
+      ],
+      "correctAnswer": "Sering menghabiskan waktu menonton televisi.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut? (Soal No. 18)",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan.",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": "Simpulan tersebut pasti benar.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut? (Soal No. 19)",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan.",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": "Simpulan tersebut pasti salah.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut? (Soal No. 20)",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan.",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": "Simpulan tidak relevan dengan informasi yang diberikan.",
+      "explanation": null
+    },
+    {
+      "text": "Jika bobot nilai capaian akademik $60\\%$, sedangkan bobot nilai keaktifan dalam kegiatan $40\\%$. Diantara kelima siswa tersebut, siswa mana yang paling berprestasi?",
+      "options": [
+        "Siswa A",
+        "Siswa B",
+        "Siswa C",
+        "Siswa D",
+        "Siswa E"
+      ],
+      "correctAnswer": "Siswa A",
+      "explanation": "Nilai Siswa A = $85(0.6) + 90(0.4) = 51 + 36 = 87$. Nilai Siswa B = $70(0.6) + 95(0.4) = 42 + 38 = 80$. Nilai Siswa C = $95(0.6) + 60(0.4) = 57 + 24 = 81$. Nilai Siswa D = $90(0.6) + 70(0.4) = 54 + 28 = 82$. Nilai Siswa E = $80(0.6) + 90(0.4) = 48 + 36 = 84$. Siswa A memiliki nilai tertinggi."
+    },
+    {
+      "text": "Jika bobot nilai capaian akademik $80\\%$, sedangkan bobot nilai keaktifan dalam kegiatan $20\\%$. Diantara kelima siswa tersebut, siswa mana yang paling berprestasi?",
+      "options": [
+        "Siswa A",
+        "Siswa B",
+        "Siswa C",
+        "Siswa D",
+        "Siswa E"
+      ],
+      "correctAnswer": "Siswa C",
+      "explanation": "Nilai Siswa A = $85(0.8) + 90(0.2) = 68 + 18 = 86$. Nilai Siswa B = $70(0.8) + 95(0.2) = 56 + 19 = 75$. Nilai Siswa C = $95(0.8) + 60(0.2) = 76 + 12 = 88$. Nilai Siswa D = $90(0.8) + 70(0.2) = 72 + 14 = 86$. Nilai Siswa E = $80(0.8) + 90(0.2) = 64 + 18 = 82$. Siswa C memiliki nilai tertinggi."
+    },
+    {
+      "text": "Berdasarkan teks di atas, manakah informasi yang dibutuhkan untuk mengetahui suara yang didapat C?",
+      "options": [
+        "1 dan 3",
+        "3 dan 5",
+        "1, 4, dan 5",
+        "1, 2, 4, dan 5",
+        "1, 2, 3, 4, dan 5"
+      ],
+      "correctAnswer": "3 dan 5",
+      "explanation": "Untuk mencari C, berdasarkan premis (3) C hanya mendapat setengah suara dari yang didapat D ($C = \\frac{1}{2}D$) dan premis (5) D mendapat sebanyak 320 suara ($D = 320$). Maka informasi 3 dan 5 sudah cukup."
+    },
+    {
+      "text": "Berdasarkan teks di atas, manakah informasi yang dibutuhkan untuk mengetahui suara yang didapat B?",
+      "options": [
+        "1 dan 3",
+        "3 dan 5",
+        "1, 4, dan 5",
+        "1, 2, 4, dan 5",
+        "1, 2, 3, 4, dan 5"
+      ],
+      "correctAnswer": "1, 4, dan 5",
+      "explanation": "Dari (5) D = 320, dari (1) A = $\\frac{3}{2}D$, dan dari (4) B = $\\frac{1}{4}A$. Jadi informasi 1, 4, dan 5 dibutuhkan."
+    },
+    {
+      "text": "Berdasarkan teks di atas, manakah informasi yang dibutuhkan untuk mengetahui suara yang didapat E?",
+      "options": [
+        "1 dan 3",
+        "3 dan 5",
+        "1, 4, dan 5",
+        "1, 2, 4, dan 5",
+        "1, 2, 3, 4, dan 5"
+      ],
+      "correctAnswer": "1, 2, 4, dan 5",
+      "explanation": "Untuk mencari E, kita perlu mencari B terlebih dahulu (membutuhkan 1, 4, dan 5), lalu menggunakan premis (2) yang menyatakan B mendapatkan suara yang sama banyak dengan E ($B = E$). Maka informasi 1, 2, 4, dan 5 dibutuhkan."
+    },
+    {
+      "text": "Berdasarkan teks tersebut, manakah yang tepat terkait urutan orang yang mendapat suara terbanyak hingga paling sedikit?",
+      "options": [
+        "B, E, A, C, D",
+        "B, A, C, E, D",
+        "A, D, B, E, C",
+        "A, D, C, B, E",
+        "C, A, B, D, E"
+      ],
+      "correctAnswer": "A, D, C, B, E",
+      "explanation": "D = 320, A = $\\frac{3}{2}(320) = 480$, C = $\\frac{1}{2}(320) = 160$, B = $\\frac{1}{4}(480) = 120$, E = B = 120. Urutan dari terbanyak: A (480), D (320), C (160), B (120), E (120)."
+    },
+    {
+      "text": "1, 5, 3, 8, 5, 11, 7, \\dots\\ Manakah nilai yang tepat untuk mengisi barisan tersebut?",
+      "options": [
+        "15",
+        "14",
+        "13",
+        "12",
+        "11"
+      ],
+      "correctAnswer": "14",
+      "explanation": "Pola dua barisan atau selang-seling: Suku ganjil ($1, 3, 5, 7, \\dots$ bertambah 2), suku genap ($5, 8, 11, \\dots$ bertambah 3). Suku selanjutnya adalah $11 + 3 = 14$."
+    },
+    {
+      "text": "20, 22, 23, 27, 29, 30, 34, \\dots, \\dots\\ Manakah nilai yang tepat untuk mengisi barisan tersebut?",
+      "options": [
+        "36, 37",
+        "37, 38",
+        "39, 40",
+        "41, 42",
+        "43, 44"
+      ],
+      "correctAnswer": "36, 37",
+      "explanation": "Pola penambahan: $+2, +1, +4, +2, +1, +4, \\dots$ Dari 34 ditambah 2 menjadi 36, lalu ditambah 1 menjadi 37."
+    },
+    {
+      "text": "1, 4, 8, 10, 13, 26, 28, 31, \\dots, 64\\ Manakah nilai yang tepat untuk mengisi barisan tersebut?",
+      "options": [
+        "60",
+        "61",
+        "62",
+        "63",
+        "64"
+      ],
+      "correctAnswer": "62",
+      "explanation": "Pola operasi: $+3, \\times 2, +2, +3, \\times 2, +2, +3, \\times 2$. Suku setelah 31 adalah $31 \\times 2 = 62$."
+    },
+    {
+      "text": "2, 5, 7, 12, \\dots\\ Manakah nilai yang tepat untuk mengisi barisan tersebut?",
+      "options": [
+        "15",
+        "17",
+        "19",
+        "21",
+        "23"
+      ],
+      "correctAnswer": "19",
+      "explanation": "Pola Fibonacci (penjumlahan dua suku sebelumnya): $2 + 5 = 7$, $5 + 7 = 12$, $7 + 12 = 19$."
+    }
+  ]
+}

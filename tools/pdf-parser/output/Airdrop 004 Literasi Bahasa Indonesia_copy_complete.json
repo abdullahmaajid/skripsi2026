@@ -1,0 +1,139 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan Teks 1, tentukan apakah pernyataan berikut Benar atau Salah: \"Christopher Columbus melakukan ekspedisi untuk menemukan Benua Amerika.\"",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Tujuan Columbus adalah menemukan jalur pelayaran baru ke Asia dengan cara berlayar ke barat melalui Samudra Atlantik."
+    },
+    {
+      "text": "Berdasarkan Teks 1, tentukan apakah pernyataan berikut Benar atau Salah: \"Ekspedisi Columbus didanai oleh raja dan ratu Spanyol.\"",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Pada tahun 1492, seorang penjelajah asal Italia bernama Christopher Columbus melakukan sebuah ekspedisi yang didanai oleh Raja Ferdinand dan Ratu Isabella dari Spanyol."
+    },
+    {
+      "text": "Berdasarkan Teks 1, tentukan apakah pernyataan berikut Benar atau Salah: \"Columbus tiba di Asia pada akhir ekspedisinya pada tahun 1492.\"",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Meskipun Columbus tidak pernah sampai ke Asia, ia tiba di sebuah pulau di Karibia yang sekarang dikenal sebagai Bahama."
+    },
+    {
+      "text": "Berdasarkan Teks 1, tentukan apakah pernyataan berikut Benar atau Salah: \"Columbus menamakan penduduk asli yang ia temui sebagai 'Indian' karena ia mengira telah tiba di India.\"",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Columbus mengira bahwa ia telah tiba di Asia, lebih tepatnya di daerah sekitar India, sehingga ia menyebut penduduk asli yang ia temui sebagai 'Indian'."
+    },
+    {
+      "text": "Berdasarkan Teks 1, tentukan apakah pernyataan berikut Benar atau Salah: \"Penemuan Columbus membuka jalan bagi kolonisasi Eropa di Amerika.\"",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Penemuan Amerika membuka jalan bagi kolonisasi Eropa di Benua Baru, yang membawa dampak besar bagi penduduk asli."
+    },
+    {
+      "text": "Berdasarkan Teks 1, tentukan apakah pernyataan berikut Benar atau Salah: \"Columbus adalah orang pertama yang menemukan Benua Amerika.\"",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Columbus tidak 'menemukan' Amerika dalam arti bahwa benua tersebut sudah dihuni oleh penduduk asli selama ribuan tahun."
+    },
+    {
+      "text": "Berdasarkan Teks 1, tentukan apakah pernyataan berikut Benar atau Salah: \"Penemuan Amerika oleh Columbus membawa perubahan besar di seluruh dunia.\"",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Ekspedisinya membawa dampak besar bagi penduduk asli dan perubahan besar di seluruh dunia."
+    },
+    {
+      "text": "Berdasarkan Teks 2, tentukan apakah pernyataan berikut Benar atau Salah: \"Revolusi Industri menyebabkan peningkatan polusi udara dan air.\"",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Polusi udara dan air meningkat drastis akibat penggunaan mesin dan pabrik yang terus beroperasi."
+    },
+    {
+      "text": "Berdasarkan Teks 2, tentukan apakah pernyataan berikut Benar atau Salah: \"Revolusi Industri membantu mempercepat globalisasi dan menciptakan fondasi bagi masyarakat modern.\"",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Inovasi-inovasi dari periode ini membantu mendorong perkembangan globalisasi dan menciptakan fondasi bagi masyarakat modern."
+    },
+    {
+      "text": "Berdasarkan Teks 2, tentukan apakah pernyataan berikut Benar atau Salah: \"Mesin uap hanya digunakan untuk menggerakkan pabrik-pabrik, bukan untuk transportasi.\"",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Mesin uap juga digunakan untuk transportasi, yang menjadi lebih cepat dengan ditemukannya lokomotif dan kapal uap."
+    },
+    {
+      "text": "Berdasarkan Teks 2, tentukan apakah pernyataan berikut Benar atau Salah: \"Kondisi kerja di pabrik selama Revolusi Industri sangat baik dan aman bagi para pekerja.\"",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Kondisi kerja di pabrik-pabrik seringkali buruk, dengan jam kerja yang panjang, upah rendah, dan risiko kecelakaan yang tinggi."
+    },
+    {
+      "text": "Berdasarkan Teks 2, tentukan apakah pernyataan berikut Benar atau Salah: \"Kota-kota besar di Inggris seperti Manchester dan Birmingham berkembang pesat karena menjadi pusat industri.\"",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Kota-kota besar seperti Manchester dan Birmingham berkembang pesat sebagai pusat industri."
+    },
+    {
+      "text": "Berdasarkan Teks 2, tentukan apakah pernyataan berikut Benar atau Salah: \"Revolusi Industri menyebabkan banyak orang berpindah dari desa ke kota.\"",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Banyak orang berpindah dari desa ke kota untuk bekerja di pabrik-pabrik."
+    },
+    {
+      "text": "Berdasarkan Teks 2, tentukan apakah pernyataan berikut Benar atau Salah: \"James Watt adalah penemu mesin uap yang berperan penting dalam Revolusi Industri.\"",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Salah satu penemuan paling penting pada masa ini adalah mesin uap yang dikembangkan oleh James Watt."
+    },
+    {
+      "text": "Berdasarkan Teks 2, tentukan apakah pernyataan berikut Benar atau Salah: \"Revolusi Industri dimulai di Amerika pada abad ke-18.\"",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Revolusi Industri dimulai di Inggris pada akhir abad ke-18."
+    }
+  ]
+}

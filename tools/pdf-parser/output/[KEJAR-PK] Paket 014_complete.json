@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Gradien garis yang melalui titik $(6, -n)$ dan $(18, 0)$ adalah $5$, maka gradien garis yang melalui titik $(3, n)$ dan titik pusat $O(0, 0)$ adalah \\dots",
+      "options": [
+        "\\frac{3}{2}",
+        "\\frac{5}{2}",
+        "-\\frac{3}{2}",
+        "-\\frac{5}{2}",
+        "-\\frac{1}{2}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui gambar. Jika $X^c$ adalah komplemen $X$, maka daerah yang diarsir dapat dinyatakan dengan \\dots",
+      "options": [
+        "(A \\cap B) \\cup (B \\cap D)",
+        "(A \\cup C) \\cup (C \\cup D)",
+        "A \\cap B^c",
+        "B^c \\cap D",
+        "(A \\cap B^c) \\cup (B^c \\cap D)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Hasil pembagian $\\frac{x^3 - 5x^2 + 6x}{x^2 - x - 6}$ oleh $\\frac{2}{x + 2}$ adalah \\dots",
+      "options": [
+        "\\frac{x^2 - 2x}{2}",
+        "x^2 - x",
+        "x^2 - 2x",
+        "\\frac{2}{x^2 - 2x}",
+        "\\frac{x^2 + 2x}{2}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Untuk membuat sepatu, diperlukan $4$ jam kerja mesin mold dan $2$ jam kerja mesin press. Sedangkan untuk membuat topi, diperlukan $5$ jam kerja mesin mold dan $3$ jam kerja mesin press. Setiap hari kedua mesin tersebut bekerja tidak lebih dari $15$ jam. Jika setiap hari dapat dihasilkan $x$ sepatu dan $y$ topi, maka model matematika yang tepat adalah \\dots",
+      "options": [
+        "4x + 2y \\le 15 \\text{ dan } 5x + 3y \\le 15, x \\ge 0, y \\ge 0",
+        "4x + 5y \\le 15 \\text{ dan } 2x + 3y \\le 15, x \\ge 0, y \\ge 0",
+        "3x + 2y \\le 15 \\text{ dan } 5x + 3y \\le 15, x \\ge 0, y \\ge 0",
+        "4x + 2y \\le 15 \\text{ dan } 3x + 3y \\le 15, x \\ge 0, y \\ge 0",
+        "3x + 2y \\le 15 \\text{ dan } 5x + 2y \\le 15, x \\ge 0, y \\ge 0"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Operasi $@$ pada himpunan bilangan bulat didefinisikan dengan aturan $a @ b = (a + b)^2 + ax + by$, jika $1 @ 2 = 5$ dan $2 @ 3 = 9$, berapa kuantitas $x = \\dots$",
+      "options": [
+        "30",
+        "20",
+        "24",
+        "-20",
+        "-30"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar! Berapakah besar sudut $\\angle BFC = \\dots$",
+      "options": [
+        "40^\\circ",
+        "80^\\circ",
+        "20^\\circ",
+        "30^\\circ",
+        "Tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapa perbandingan luas trapesium ABEF dengan ACDF \\dots",
+      "options": [
+        "\\frac{1}{2}",
+        "3/10",
+        "\\frac{1}{4}",
+        "1/5",
+        "1/6"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $4$ botol jus apel dicampur dengan $5$ botol jus tomat dan $3$ botol jus anggur, maka ada berapa bagian jus apel pada campuran tersebut?",
+      "options": [
+        "1/6",
+        "\\frac{1}{4}",
+        "1/3",
+        "4/9",
+        "2/3"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Banyak bilangan kuadrat sekaligus bilangan pangkat tiga diantara $1$ sampai $100$ adalah \\dots",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bilangan ganjil lima angka yang memuat semua angka $1, 2, 4, 6,$ dan $9$ ada sebanyak \\dots",
+      "options": [
+        "4",
+        "5",
+        "24",
+        "48",
+        "120"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Nilai $a = 0,5$, $b = 2,25$, dan $c = \\sqrt{10a^2 - \\sqrt{b}}$. Manakah pernyataan di bawah yang benar\\n1) $a > c$\\n2) $b > c$\\n3) $b - c < 1$\\n4) $a + c < b$",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ari memperoleh nilai secara berurutan $85, 83, 80, 77,$ dan $60$ untuk $5$ mata pelajaran. Di pelajaran ke $6$ Ari memperoleh nilai $83$.\\n1) Rata-rata $5$ pelajaran Ari lebih besar dibanding rata-rata setelah ditambah nilai ke-$6$\\n2) Median nilai Ari lebih besar dibanding rata-rata $6$ pelajaran\\n3) Rata-rata $5$ pelajarannya adalah $78$\\n4) Rata-rata $6$ pelajarannya adalah $78$",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $2 < x < 6$ dan $6 < y < 11$. Manakah pernyataan yang pasti benar?\\n1) $x < y$\\n2) $x + y < 8$\\n3) $y - x = 0$\\n4) $x < y$",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Terdapat sebuah persamaan fungsi $f(x, y) = x^2 - 2y + 2$. Manakah bentuk yang menyatakan hubungan kuantitas antara nilai P dan nilai Q.\\nP: \\frac{x-2}{y-2} \\quad | \\quad Q: \\frac{x-2}{y-2}",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah hubungan yang benar antara kuantitas P dan Q berdasarkan informasi yang diberikan?\\nP: 33,33\\% \\text{ dari } 3333 \\quad | \\quad Q: 10\\% \\text{ dari } 10.000",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

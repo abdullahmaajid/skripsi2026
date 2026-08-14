@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Jika sebuah smartphone dibuat oleh Perusahaan A, desainnya premium, berwarna emas, dan memiliki performa tinggi. Jika smartphone Z memiliki desain biasa, berwarna hitam, dan performa standar, manakah simpulan yang BENAR?",
+      "options": [
+        "Perusahaan A sudah kehilangan reputasinya",
+        "Smartphone Z adalah produk gagal",
+        "Smartphone Z tidak dibuat oleh Perusahaan A",
+        "Smartphone Z harganya murah",
+        "Smartphone Z pernah dibuat oleh Perusahaan A"
+      ],
+      "correctAnswer": "Smartphone Z tidak dibuat oleh Perusahaan A",
+      "explanation": null
+    },
+    {
+      "text": "Platform streaming musik seperti Spotify dan Apple Music menghadirkan kurator playlist yang sering kali memilih lagu-lagu tertentu untuk memengaruhi selera musik pendengar. Oleh karena itu, kurator playlist memiliki peran penting dalam membentuk preferensi musik masyarakat di Kota Y. Berdasarkan informasi di atas, manakah pernyataan yang BENAR?",
+      "options": [
+        "Sebagian besar pendengar playlist adalah warga Kota Y",
+        "Selera musik masyarakat Kota Y hanya dipengaruhi oleh kurator playlist",
+        "Penggunaan platform streaming musik memberikan dampak negatif bagi masyarakat Kota Y",
+        "Pilihan lagu yang dibagikan oleh kurator playlist memengaruhi preferensi musik masyarakat Kota Y",
+        "Platform streaming musik merupakan satu-satunya wadah untuk mendengarkan musik bagi masyarakat Kota Y"
+      ],
+      "correctAnswer": "Pilihan lagu yang dibagikan oleh kurator playlist memengaruhi preferensi musik masyarakat Kota Y",
+      "explanation": null
+    },
+    {
+      "text": "Sering mengonsumsi makanan cepat saji dapat meningkatkan risiko obesitas pada anak-anak. Anak-anak di negara Z mengonsumsi makanan cepat saji setiap hari. Berdasarkan paragraf di atas, manakah pernyataan yang PASTI BENAR?",
+      "options": [
+        "Semua anak di negara Z mengalami obesitas akibat makanan cepat saji",
+        "Anak-anak yang tinggal di perkotaan lebih sering mengonsumsi makanan cepat saji",
+        "Mengonsumsi makanan cepat saji hanya berdampak negatif bagi anak-anak",
+        "Semua anak di negara Z memiliki akses ke makanan cepat saji",
+        "Anak-anak di negara Z berisiko mengalami obesitas"
+      ],
+      "correctAnswer": "Anak-anak di negara Z berisiko mengalami obesitas",
+      "explanation": null
+    },
+    {
+      "text": "Jika ibu menjemur pakaian, Anisa menyapu lantai. Anisa menyapu lantai, sehingga ayah memasang gas. Ayah tidak memasang gas. Berdasarkan informasi tersebut, manakah simpulan berikut yang BENAR?",
+      "options": [
+        "Ibu menjemur pakaian",
+        "Anisa menyapu lantai",
+        "Ayah memasang gas",
+        "Jika Anisa menyapu lantai, maka ibu menjemur pakaian",
+        "Ibu tidak menjemur pakaian"
+      ],
+      "correctAnswer": "Ibu tidak menjemur pakaian",
+      "explanation": null
+    },
+    {
+      "text": "Keamanan siber di negara Wakanda termasuk tidak baik karena sering kali diretas oleh peretas anonim. Selama tiga tahun terakhir, terjadi sepuluh kali peretasan di berbagai situs yang dimiliki pemerintah negara Wakanda. Setiap kali terjadi peretasan, pemerintah hanya merilis pernyataan bahwa peretasan tersebut tidak berbahaya. Berdasarkan paragraf di atas, manakah kejadian yang PALING MUNGKIN BENAR mengenai negara Wakanda?",
+      "options": [
+        "Pemerintah negara Wakanda telah memahami pola-pola peretasan yang dilakukan",
+        "Situs pemerintahan di negara Wakanda dibuat dengan asal-asalan dan tidak teliti",
+        "Masyarakat negara Wakanda sering melakukan protes agar pemerintah lebih serius",
+        "Setidaknya terdapat sepuluh rilis dari pemerintah negara Wakanda terkait peretasan",
+        "Pemerintah negara Wakanda memiliki pemahaman tinggi terkait keamanan siber"
+      ],
+      "correctAnswer": "Setidaknya terdapat sepuluh rilis dari pemerintah negara Wakanda terkait peretasan",
+      "explanation": null
+    },
+    {
+      "text": "Mengonsumsi air putih yang cukup sangat penting untuk menghidrasi tubuh. Namun, angka konsumsi air putih di Kota A lebih rendah dibandingkan Kota B. Berdasarkan paragraf di atas, manakah peristiwa yang PALING MUNGKIN BENAR mengenai kesehatan?",
+      "options": [
+        "Angka dehidrasi di Kota A lebih tinggi dibandingkan Kota B",
+        "Warga Kota A pasti tidak cukup minum air putih setiap hari",
+        "Warga Kota A dan Kota B tidak memahami pentingnya minum air putih",
+        "Tingkat kebugaran warga Kota B lebih tinggi dibanding Kota A",
+        "Warga Kota A lebih sering mengonsumsi minuman manis daripada air putih"
+      ],
+      "correctAnswer": "Angka dehidrasi di Kota A lebih tinggi dibandingkan Kota B",
+      "explanation": null
+    },
+    {
+      "text": "Jika Maria belajar dengan giat, maka ia akan lulus ujian. Jika Maria lulus ujian, maka ia akan mendapat beasiswa. Maria tidak mendapat beasiswa. Berdasarkan informasi tersebut, manakah simpulan berikut yang BENAR?",
+      "options": [
+        "Maria belajar dengan giat",
+        "Maria lulus ujian tetapi tidak mendapat beasiswa",
+        "Maria tidak belajar dengan giat",
+        "Jika Maria mendapat beasiswa, maka ia pasti belajar dengan giat",
+        "Maria lulus ujian"
+      ],
+      "correctAnswer": "Maria tidak belajar dengan giat",
+      "explanation": null
+    },
+    {
+      "text": "Produk A dikenal memiliki banyak ulasan positif dari pengguna yang merasa puas dengan kualitasnya. Namun, beberapa orang juga mengeluhkan harga yang lebih tinggi dibandingkan dengan produk serupa. Produk A mungkin akan menjadi pilihan yang baik bagi banyak orang. Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar",
+        "Simpulan tersebut pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan tersebut mungkin benar",
+      "explanation": null
+    },
+    {
+      "text": "Keberagaman budaya di Indonesia sangatlah kaya dan menjadi daya tarik bagi wisatawan domestik maupun mancanegara. Indonesia memiliki berbagai suku, bahasa, dan adat istiadat yang membuat negara ini unik. Banyak destinasi wisata yang menawarkan pengalaman budaya, seperti festival tradisional, seni pertunjukan, dan kuliner khas daerah. Namun, keberagaman ini juga memerlukan upaya pelestarian agar budaya lokal tetap lestari di tengah arus globalisasi. Manakah simpulan yang PALING DIDUKUNG oleh bacaan tersebut?",
+      "options": [
+        "Keberagaman budaya di Indonesia tidak memberikan dampak pada sektor pariwisata",
+        "Keberagaman budaya Indonesia perlu dijaga agar tidak punah di era globalisasi",
+        "Festival dan seni tradisional tidak mempengaruhi daya tarik wisata Indonesia",
+        "Indonesia tidak memerlukan upaya pelestarian budaya karena sudah cukup dikenal",
+        "Kuliner tradisional Indonesia tidak memiliki daya tarik bagi wisatawan"
+      ],
+      "correctAnswer": "Keberagaman budaya Indonesia perlu dijaga agar tidak punah di era globalisasi",
+      "explanation": null
+    },
+    {
+      "text": "Bagi seorang penulis, menulis secara rutin adalah kunci untuk meningkatkan keterampilan menulisnya. Seperti seorang musisi yang perlu berlatih alat musiknya setiap hari agar mahir, seorang penulis yang jarang menulis akan kesulitan mengembangkan gaya penulisan dan kreativitas. Jika seorang penulis tidak mengasah kemampuannya, dia cenderung mengalami kebuntuan ide dan kehilangan kualitas tulisannya. Berdasarkan paragraf tersebut, jika menulis bagi seorang penulis disamakan dengan latihan rutin yang diperlukan oleh seorang musisi, manakah di bawah ini simpulan yang PALING MUNGKIN BENAR?",
+      "options": [
+        "Menulis secara rutin akan membuat penulis tidak mengalami kebuntuan ide",
+        "Seorang penulis hanya bisa sukses jika memiliki bakat menulis yang besar",
+        "Penulis yang jarang menulis akan kesulitan meningkatkan keterampilan menulisnya",
+        "Menulis dengan rutin tidak berpengaruh terhadap kualitas tulisan penulis",
+        "Kebuntuan ide pada penulis disebabkan oleh kurangnya minat terhadap menulis"
+      ],
+      "correctAnswer": "Penulis yang jarang menulis akan kesulitan meningkatkan keterampilan menulisnya",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan yang PASTI SALAH?",
+      "options": [
+        "Kedondong dapat meningkatkan daya tahan tubuh",
+        "Mengonsumsi kedondong dapat menyebabkan gangguan pencernaan jika berlebihan",
+        "Mengonsumsi kedondong berlebihan tidak mempengaruhi kesehatan",
+        "Konsumsi kedondong secara berlebihan dapat menyebabkan gangguan pencernaan",
+        "Kedondong memberikan manfaat bagi tubuh apabila dikonsumsi dalam jumlah yang tepat"
+      ],
+      "correctAnswer": "Mengonsumsi kedondong berlebihan tidak mempengaruhi kesehatan",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf tersebut, apabila penggunaan energi terbarukan semakin meningkat, manakah simpulan yang tepat?",
+      "options": [
+        "Ketergantungan pada bahan bakar fosil akan berkurang",
+        "Biaya instalasi energi terbarukan akan semakin tinggi",
+        "Penggunaan energi terbarukan akan menyebabkan lebih banyak polusi",
+        "Ketergantungan pada energi terbarukan akan menghambat perekonomian",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Ketergantungan pada bahan bakar fosil akan berkurang",
+      "explanation": null
+    },
+    {
+      "text": "Manakah simpulan yang TIDAK DIDUKUNG oleh bacaan tersebut?",
+      "options": [
+        "Teknologi mempermudah pembelajaran jarak jauh bagi siswa di daerah terpencil",
+        "Akses internet yang terbatas di beberapa wilayah menjadi hambatan dalam pembelajaran online",
+        "Pembelajaran online dapat menggantikan sepenuhnya peran guru dalam pendidikan",
+        "Pembelajaran digital menawarkan berbagai platform yang berguna untuk siswa dan guru",
+        "Interaksi langsung dengan guru masih penting dalam proses pembelajaran"
+      ],
+      "correctAnswer": "Pembelajaran online dapat menggantikan sepenuhnya peran guru dalam pendidikan",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang PALING TEPAT mengenai hasil survei tersebut?",
+      "options": [
+        "Memperkuat pernyataan pakar A",
+        "Memperlemah pernyataan pakar A",
+        "Memperkuat pernyataan pakar B",
+        "Memperlemah pernyataan pakar B",
+        "Tidak relevan dengan pernyataan pakar A dan B"
+      ],
+      "correctAnswer": "Memperkuat pernyataan pakar B",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang PALING TEPAT mengenai hasil survei tersebut?",
+      "options": [
+        "Memperkuat pernyataan pakar A",
+        "Memperlemah pernyataan pakar A",
+        "Memperkuat pernyataan pakar B",
+        "Memperlemah pernyataan pakar B",
+        "Tidak relevan dengan pernyataan pakar A dan B"
+      ],
+      "correctAnswer": "Tidak relevan dengan pernyataan pakar A dan B",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi tersebut, manakah simpulan berikut yang BENAR?",
+      "options": [
+        "Andre tidak akan bermimpi indah malam ini",
+        "Andre tidak membaca buku hari ini",
+        "Andre akan bermimpi indah malam ini",
+        "Jika Andre bermimpi indah, maka ia pasti telah membaca buku",
+        "Jika Andre tidak membaca buku, maka ia tidak akan bermimpi indah"
+      ],
+      "correctAnswer": "Andre akan bermimpi indah malam ini",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar",
+        "Simpulan tersebut mungkin benar",
+        "Simpulan tersebut pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan tersebut mungkin benar",
+      "explanation": null
+    },
+    {
+      "text": "Manakah simpulan yang BENAR berdasarkan informasi di atas?",
+      "options": [
+        "Calon legislatif yang memiliki visi jelas dan aktif kampanye di media sosial lebih kecil peluangnya untuk terpilih",
+        "Calon legislatif yang memiliki visi yang jelas dan aktif di media sosial lebih besar peluangnya untuk terpilih",
+        "Calon legislatif yang tidak memiliki visi yang jelas tetap memiliki peluang yang besar untuk terpilih",
+        "Semua caleg yang aktif kampanye di media sosial pasti akan terpilih",
+        "Calon legislatif yang tidak aktif di media sosial pasti tidak akan terpilih"
+      ],
+      "correctAnswer": "Calon legislatif yang memiliki visi yang jelas dan aktif di media sosial lebih besar peluangnya untuk terpilih",
+      "explanation": null
+    },
+    {
+      "text": "Simpulan yang paling tepat adalah...",
+      "options": [
+        "Semua warga kota mencemari alam",
+        "Sebagian warga kota mencemari alam",
+        "Semua warga kota menjaga kebersihan lingkungan",
+        "Sebagian warga kota tidak mencemari alam",
+        "Warga kota tidak mempengaruhi kebersihan alam"
+      ],
+      "correctAnswer": "Sebagian warga kota mencemari alam",
+      "explanation": null
+    },
+    {
+      "text": "Simpulan yang paling tepat adalah...",
+      "options": [
+        "Semua perusahaan teknologi yang berkembang pesat mengabaikan kesejahteraan karyawan",
+        "Beberapa perusahaan teknologi mengutamakan kesejahteraan karyawan lebih dari inovasi",
+        "Sebagian perusahaan teknologi yang fokus pada inovasi mengabaikan kesejahteraan karyawan",
+        "Semua perusahaan teknologi memiliki budaya kerja yang mendorong inovasi dan kreativitas",
+        "Tidak ada perusahaan teknologi yang mengabaikan kesejahteraan karyawan"
+      ],
+      "correctAnswer": "Sebagian perusahaan teknologi yang fokus pada inovasi mengabaikan kesejahteraan karyawan",
+      "explanation": null
+    },
+    {
+      "text": "Diantara ke lima toko tersebut, toko mana yang kinerja totalnya paling tinggi?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diantara ke lima toko tersebut, toko mana yang kinerja totalnya paling sedikit?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Untuk membuat campuran cat warna, Zara memerlukan 4 jenis bahan. Bahan-bahan tersebut adalah cat merah, cat kuning, cat biru, dan cat putih. Takaran yang dibutuhkan untuk masing-masing bahan adalah 5:5:4:6 untuk membuat campuran cat per 100 liter.\\nJika Zara ingin membuat campuran cat sebanyak 500 liter, berapakah berat cat biru yang dibutuhkan?",
+      "options": [
+        "40 liter",
+        "60 liter",
+        "80 liter",
+        "100 liter",
+        "120 liter"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Untuk membuat campuran cat warna, Zara memerlukan 4 jenis bahan. Bahan-bahan tersebut adalah cat merah, cat kuning, cat biru, dan cat putih. Takaran yang dibutuhkan untuk masing-masing bahan adalah 5:5:4:6 untuk membuat campuran cat per 100 liter.\\nJika Zara ingin membuat campuran cat sebanyak 600 liter, berapakah berat cat biru yang dibutuhkan?",
+      "options": [
+        "145 liter",
+        "160 liter",
+        "150 liter",
+        "130 liter",
+        "120 liter"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Untuk membuat campuran cat warna, Zara memerlukan 4 jenis bahan. Bahan-bahan tersebut adalah cat merah, cat kuning, cat biru, dan cat putih. Takaran yang dibutuhkan untuk masing-masing bahan adalah 5:5:4:6 untuk membuat campuran cat per 100 liter.\\nJika Zara ingin membuat campuran cat sebanyak 600 liter, berapakah berat cat kuning yang dibutuhkan?",
+      "options": [
+        "145 liter",
+        "160 liter",
+        "150 liter",
+        "130 liter",
+        "120 liter"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Untuk membuat campuran cat warna, Zara memerlukan 4 jenis bahan. Bahan-bahan tersebut adalah cat merah, cat kuning, cat biru, dan cat putih. Takaran yang dibutuhkan untuk masing-masing bahan adalah 6:4:4:6 untuk membuat campuran cat per 100 liter.\\nJika Zara ingin membuat campuran cat sebanyak 600 liter, berapakah berat cat merah yang dibutuhkan?",
+      "options": [
+        "145 liter",
+        "160 liter",
+        "180 liter",
+        "130 liter",
+        "120 liter"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan data di atas, tahun keberapa Anantaloka memperoleh persentase keuntungan terbesar?",
+      "options": [
+        "Tahun ke-1",
+        "Tahun ke-2",
+        "Tahun ke-3",
+        "Tahun ke-4",
+        "Tahun ke-5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan data di atas, tahun keberapa Anantaloka memperoleh persentase keuntungan terkecil?",
+      "options": [
+        "Tahun ke-1",
+        "Tahun ke-2",
+        "Tahun ke-3",
+        "Tahun ke-4",
+        "Tahun ke-5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jumlah penjualan mie Warkop Agam setelah lebaran mengalami lonjakan tinggi. Pada hari pertama hingga hari ke tujuh penjualan mie secara berturut-turut adalah 13, 17, 21, 25, 29, 33, dan 37 (dalam karton). Jika lonjakan penjualan bersifat konstan, berapa banyak karton indome terjual pada hari ke 8?",
+      "options": [
+        "42",
+        "37",
+        "41",
+        "45",
+        "40"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jumlah penjualan kurma di Toko Baba pada awal bulan Ramadhan mengalami lonjakan tinggi. Pada hari pertama hingga hari ke tujuh penjualan kurma secara berturut-turut adalah 19, 25, 31, 37, 43, 49, dan 55 (dalam box). Jika lonjakan penjualan bersifat konstan, berapa banyak box kurma terjual pada hari ke 8?",
+      "options": [
+        "62",
+        "61",
+        "63",
+        "64",
+        "60"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

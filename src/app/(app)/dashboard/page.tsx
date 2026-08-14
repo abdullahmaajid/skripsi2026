@@ -3,6 +3,7 @@ import DashboardClient from "./DashboardClient"
 import { redirect } from "next/navigation"
 import { auth } from "@/auth"
 import { calculateChance } from "@/lib/chancing/calculator"
+import { getCachedSyllabus } from "@/lib/cache"
 
 export default async function DashboardPage() {
   const session = await auth()
@@ -13,7 +14,8 @@ export default async function DashboardPage() {
     redirect("/admin")
   }
 
-  const [user, subjects] = await Promise.all([
+  // 1. Initial Batch Fetch
+  const [user, subjects, settingUtbkDate] = await Promise.all([
     userId ? prisma.user.findUnique({
       where: { id: userId },
       select: {
@@ -39,74 +41,107 @@ export default async function DashboardPage() {
         }
       }
     }) : null,
-    prisma.subject.findMany({ orderBy: { name: "asc" } })
+    getCachedSyllabus(),
+    prisma.systemSetting.findUnique({ where: { key: 'UTBK_DATE' } })
   ])
 
-  // Redirect admin users away from student dashboard
-  if ((session?.user as any)?.role === "ADMIN") {
-    redirect("/admin")
-  }
-
   // Track journey milestones (hoisted for access later)
-  let hasDiagnostic: any = null
-  let hasNonDiagnosticTryout: any = null
-  let hasLearningPathProgress: any = null
-  let hasPracticeActivity: any = null
+  let hasDiagnostic = false
+  let hasNonDiagnosticTryout = false
+  let hasLearningPathProgress = false
+  let hasPracticeActivity = false
   let attempts: any[] = []
   let recentAttempts: any[] = []
   let soalCount = 0
+  let completedChapters = 0
+  let competitorRank = 0
+  let totalCompetitors = 0
 
   if (userId && user) {
-    // Skip onboarding redirects for admin users
-    if (user.role !== "ADMIN" && !user.profile?.targetMajor1Id) {
+    // Skip onboarding redirects for admin users (already redirected above, but just in case)
+    if (!user.profile?.targetMajor1Id) {
       redirect("/onboarding")
     }
 
-    // Run parallel queries for user stats
-    const [diag, nonDiag, lp, practice, userAttempts, userRecent, totalSoal] = await Promise.all([
-      prisma.examAttempt.findFirst({ where: { userId, template: { isDiagnostic: true }, status: "COMPLETED" } }),
-      prisma.examAttempt.findFirst({ where: { userId, template: { isDiagnostic: false }, status: "COMPLETED" } }),
-      prisma.chapterProgress.findFirst({ where: { userId } }),
-      prisma.questionResponse.findFirst({ where: { attempt: { userId, template: { isDiagnostic: false } } } }),
-      prisma.examAttempt.findMany({
-        where: { userId, status: "COMPLETED" },
-        orderBy: { finishedAt: "desc" },
-        take: 10,
-        select: { id: true, scaledScore: true, irtScore: true, rawScore: true, startedAt: true, finishedAt: true, template: { select: { name: true } } },
-      }),
+    // 2. Parallel Secondary Fetch (eliminating waterfall & O(N) memory leak)
+    const [
+      allAttempts,
+      lp,
+      practice,
+      totalSoal,
+      completedChaps,
+      competitorsHigherScore,
+      competitorsTotal
+    ] = await Promise.all([
+      // Fetch all attempts in single pass (subScores included)
       prisma.examAttempt.findMany({
         where: { userId },
-        orderBy: { startedAt: "desc" },
-        take: 2,
-        select: { id: true, scaledScore: true, status: true, startedAt: true, template: { select: { name: true } } },
+        orderBy: { finishedAt: "desc" }, // latest finished first
+        select: {
+          id: true,
+          scaledScore: true,
+          irtScore: true,
+          rawScore: true,
+          startedAt: true,
+          finishedAt: true,
+          status: true,
+          template: { select: { name: true, isDiagnostic: true } },
+          subScores: true
+        }
       }),
-      prisma.questionResponse.count({ where: { attempt: { userId, status: "COMPLETED" } } })
+      prisma.chapterProgress.findFirst({ where: { userId } }),
+      prisma.questionResponse.findFirst({ where: { attempt: { userId, template: { isDiagnostic: false } } } }),
+      prisma.questionResponse.count({ where: { attempt: { userId, status: "COMPLETED" } } }),
+      prisma.chapterProgress.count({ where: { userId, status: "COMPLETED" } }),
+      // O(1) memory rank counting
+      prisma.user.count({
+        where: {
+          profile: { targetMajor1Id: user.profile.targetMajor1Id },
+          irtAbility: { gt: user.irtAbility }
+        }
+      }),
+      prisma.user.count({
+        where: { profile: { targetMajor1Id: user.profile.targetMajor1Id } }
+      })
     ])
 
-    hasDiagnostic = diag
-    hasNonDiagnosticTryout = nonDiag
-    hasLearningPathProgress = lp
-    hasPracticeActivity = practice
-    attempts = userAttempts
-    recentAttempts = userRecent
-    soalCount = totalSoal
+    // Process attempts in-memory (0(1) DB calls instead of 4)
+    attempts = allAttempts.filter(a => a.status === "COMPLETED")
+    recentAttempts = [...allAttempts].sort((a, b) => b.startedAt.getTime() - a.startedAt.getTime()).slice(0, 2)
+    hasDiagnostic = attempts.some(a => a.template.isDiagnostic)
+    hasNonDiagnosticTryout = attempts.some(a => !a.template.isDiagnostic)
     
-    if (user.role !== "ADMIN" && !hasDiagnostic) {
+    hasLearningPathProgress = !!lp
+    hasPracticeActivity = !!practice
+    soalCount = totalSoal
+    completedChapters = completedChaps
+    
+    competitorRank = competitorsHigherScore + 1
+    totalCompetitors = competitorsTotal
+    
+    if (!hasDiagnostic) {
       redirect("/onboarding?resume=diagnostic")
     }
   }
 
-  // Fetch subject scores from latest attempt
+  // Fetch subject scores from latest attempt (already included in the single-pass fetch!)
   const latestAttempt = attempts[0]
-  const subScores = latestAttempt ? await prisma.subjectScore.findMany({
-    where: { attemptId: latestAttempt.id },
-  }) : []
+  const subScores = latestAttempt?.subScores || []
 
   // Build radar data
   const targetScore = user?.profile?.targetMajor1?.estimatedScore || 700
   const radarData = subjects.map(s => {
-    const ss = subScores.find(sc => sc.subjectId === s.id)
-    return { subject: s.name.replace("Penalaran ", "Pen. ").replace("Literasi ", "Lit. ").replace("Pengetahuan ", "Peng. ").replace("Pemahaman Bacaan & Menulis", "PBM").replace("Pengetahuan & Pemahaman Umum", "PPU"), score: ss?.scaledScore || 0, target: targetScore }
+    const ss = subScores.find((sc: any) => sc.subjectId === s.id)
+    return { 
+      subject: s.name
+        .replace("Penalaran ", "Pen. ")
+        .replace("Literasi ", "Lit. ")
+        .replace("Pengetahuan ", "Peng. ")
+        .replace("Pemahaman Bacaan & Menulis", "PBM")
+        .replace("Pengetahuan & Pemahaman Umum", "PPU"), 
+      score: ss?.scaledScore || 0, 
+      target: targetScore 
+    }
   })
 
   // ── Dynamic Stats (Real from DB) ──
@@ -122,7 +157,6 @@ export default async function DashboardPage() {
   const jamCount = parseFloat((totalSeconds / 3600).toFixed(1))
 
   // Countdown to UTBK
-  const settingUtbkDate = await prisma.systemSetting.findUnique({ where: { key: 'UTBK_DATE' } })
   const utbkDate = settingUtbkDate?.value ? new Date(settingUtbkDate.value) : new Date('2025-04-30')
   const hariLagi = Math.max(0, Math.ceil((utbkDate.getTime() - new Date().getTime()) / (1000 * 3600 * 24)))
 
@@ -194,19 +228,14 @@ export default async function DashboardPage() {
   }
 
   // Journey progress object
-  // Each step should only reflect its own actual activity:
-  // - diagnosticDone: user completed a diagnostic exam
-  // - firstTryoutDone: user completed a non-diagnostic tryout
-  // - learningPathExplored: user has chapterProgress (visited & interacted with learning path)
-  // - practiceStarted: user has answered questions in a non-diagnostic context
   const journeyProgress = {
-    diagnosticDone: !!hasDiagnostic,
-    firstTryoutDone: !!hasNonDiagnosticTryout,
-    learningPathExplored: !!hasLearningPathProgress,
-    practiceStarted: !!hasPracticeActivity,
+    diagnosticDone: hasDiagnostic,
+    firstTryoutDone: hasNonDiagnosticTryout,
+    learningPathExplored: hasLearningPathProgress,
+    practiceStarted: hasPracticeActivity,
   }
 
-  // Mini AI Recommendation (Safety) — use correct Prisma Cluster enum (uppercase)
+  // Mini AI Recommendation (Safety)
   let aiRecommendation = null
   if (userId && latestAttempt?.scaledScore) {
     const userCluster = user?.profile?.targetMajor1?.cluster ?? "SAINTEK"
@@ -242,24 +271,8 @@ export default async function DashboardPage() {
   }
 
   // 2. Mastery Progress
-  const [totalChapters, completedChapters] = await Promise.all([
-    prisma.chapter.count(),
-    prisma.chapterProgress.count({ where: { userId, status: "COMPLETED" } })
-  ])
+  const totalChapters = subjects.reduce((sum, s) => sum + s.chapters.length, 0)
   const masteryPercentage = totalChapters > 0 ? Math.round((completedChapters / totalChapters) * 100) : 0
-
-  // 3. Peringkat Jurusan
-  let competitorRank = 0
-  let totalCompetitors = 0
-  if (user?.profile?.targetMajor1Id) {
-    const competitors = await prisma.user.findMany({
-      where: { profile: { targetMajor1Id: user.profile.targetMajor1Id } },
-      select: { id: true, irtAbility: true },
-      orderBy: { irtAbility: "desc" }
-    })
-    totalCompetitors = competitors.length
-    competitorRank = competitors.findIndex(c => c.id === userId) + 1
-  }
 
   return (
     <DashboardClient

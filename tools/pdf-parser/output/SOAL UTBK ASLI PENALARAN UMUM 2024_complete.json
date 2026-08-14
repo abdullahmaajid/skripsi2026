@@ -1,0 +1,520 @@
+{
+  "questions": [
+    {
+      "text": "Semua peternak sapi yang menjadi juara lomba peternakan sehat memiliki pemahaman nutrisi ternak sapi sesuai jenisnya. Beberapa peternak sapi yang memiliki pemahaman nutrisi sesuai jenis sapi mampu mengidentifikasi varietas sapi lebih baik daripada peternak lain. Berdasarkan informasi di atas, manakah simpulan berikut yang PALING BENAR?",
+      "options": [
+        "Sebagian peternak sapi perah bukan peternak sapi yang menjadi juara lomba peternak sehat.",
+        "Sebagian peternak sapi yang menjadi juara lomba peternakan sehat memiliki pemahaman nutrisi ternak sapi sesuai jenisnya.",
+        "Sebagian peternak sapi yang memiliki pemahaman terhadap nutrisi sapi sesuai jenisnya adalah peternak sapi perah.",
+        "Sebagian peternak sapi yang menjadi juara lomba peternakan sehat mampu mengidentifikasi varietas sapi lebih baik daripada peternak lain.",
+        "Sebagian peternak yang memiliki pemahaman terhadap nutrisi sapi sesuai jenisnya tidak mampu mengidentifikasi varietas sapi lebih baik daripada peternak lain."
+      ],
+      "correctAnswer": "Sebagian peternak sapi yang menjadi juara lomba peternakan sehat memiliki pemahaman nutrisi ternak sapi sesuai jenisnya.",
+      "explanation": null
+    },
+    {
+      "text": "Semua penari tradisional di pentas seni di Kota X memiliki keterampilan memainkan gamelan. Beberapa penari yang terampil memainkan gamelan mampu menyanyikan lagu daerah lebih baik dari penari lain. Berdasarkan informasi di atas, manakah simpulan berikut yang PALING BENAR?",
+      "options": [
+        "Sebagian penari tradisional di pentas seni di Kota X mampu menyanyikan lagu daerah lebih baik daripada penari lain.",
+        "Sebagian penari yang memiliki keterampilan memainkan gamelan juga menjadi penari latar.",
+        "Sebagian penari tradisional di pentas seni di Kota X memiliki keterampilan memainkan gamelan.",
+        "Sebagian penari yang menjadi penari latar bukan penari tradisional di pentas seni di Kota X.",
+        "Sebagian penari yang memiliki keterampilan memainkan gamelan tidak mampu menyanyikan lagu daerah lebih baik daripada penari lain."
+      ],
+      "correctAnswer": "Sebagian penari tradisional di pentas seni di Kota X memiliki keterampilan memainkan gamelan.",
+      "explanation": null
+    },
+    {
+      "text": "Jika hasil karya akan dipajang pada pameran bulan depan, karya tersebut terdiri dari setidaknya lima bahan baku lokal, pernah diikutkan dalam lomba, dan menjadi ikon di kota asalnya. Jika sebuah karya mengandung tiga bahan baku lokal, belum pernah diikutkan dalam kompetisi, dan belum dikenal oleh masyarakat setempat, manakah simpulan yang BENAR?",
+      "options": [
+        "Karya tersebut adalah karya yang kreatif.",
+        "Karya tersebut perlu diikutkan dalam lomba.",
+        "Karya tersebut tidak dipajang pada pameran bulan mendatang.",
+        "Karya tersebut hemat bahan baku.",
+        "Karya tersebut perlu disosialisasikan kepada masyarakat."
+      ],
+      "correctAnswer": "Karya tersebut tidak dipajang pada pameran bulan mendatang.",
+      "explanation": null
+    },
+    {
+      "text": "Apabila dalang dalam pergelaran wayang kulit tidak datang, sebagian pemain musik tradisional tidak tampil. Kondisi tersebut terjadi apabila panitia tidak mengundang dalang. Manakah simpulan yang berikut yang BENAR?",
+      "options": [
+        "Sebagian pemain musik tradisional tidak tampil apabila panitia tidak mengundang dalang.",
+        "Sebagian pemain musik tradisional tidak tampil apabila panitia mengundang dalang.",
+        "Panitia mengundang para pemain musik tradisional apabila tidak mengundang dalang.",
+        "Panitia tidak mengundang dalang apabila pemain musik tradisional datang.",
+        "Sebagian pemain musik tradisional tampil apabila panitia tidak mengundang dalang."
+      ],
+      "correctAnswer": "Sebagian pemain musik tradisional tidak tampil apabila panitia tidak mengundang dalang.",
+      "explanation": null
+    },
+    {
+      "text": "Jika seorang guru menjadi idola para murid, guru tersebut santun dalam bertutur kata, bersedia membantu murid yang kesulitan, dan memberikan materi ajar yang mudah dipahami. Jika seorang guru berkata kasar, mementingkan dirinya sendiri, dan memberikan penjelasan secara rumit, manakah simpulan yang BENAR?",
+      "options": [
+        "Guru tersebut bukan guru teladan.",
+        "Guru tersebut egois.",
+        "Guru tersebut tidak memahami materi.",
+        "Guru tersebut belum berpengalaman.",
+        "Guru tersebut tidak menjadi idola para murid."
+      ],
+      "correctAnswer": "Guru tersebut tidak menjadi idola para murid.",
+      "explanation": null
+    },
+    {
+      "text": "Apabila jumlah pengunjung tidak meningkat, sebagian pameran usaha kecil tidak memenuhi target penjualan. Kondisi tersebut terjadi apabila media sosial tidak dimanfaatkan untuk pemasaran. Manakah simpulan berikut yang BENAR?",
+      "options": [
+        "Sebagian kegiatan pameran usaha kecil tidak memenuhi target penjualan apabila media sosial dimanfaatkan untuk pemasaran.",
+        "Media sosial dimanfaatkan untuk pemasaran apabila kegiatan pameran usaha kecil memenuhi target penjualan.",
+        "Sebagian kegiatan pameran usaha kecil tidak memenuhi target penjualan apabila media sosial tidak dimanfaatkan untuk pemasaran.",
+        "Sebagian kegiatan pameran usaha kecil memenuhi target penjualan apabila media sosial tidak dimanfaatkan untuk pemasaran.",
+        "Media sosial tidak dimanfaatkan untuk pemasaran apabila kegiatan pameran usaha kecil memenuhi target penjualan."
+      ],
+      "correctAnswer": "Sebagian kegiatan pameran usaha kecil tidak memenuhi target penjualan apabila media sosial tidak dimanfaatkan untuk pemasaran.",
+      "explanation": null
+    },
+    {
+      "text": "Eksploitasi minyak bumi di Pulau X menyebabkan terjadinya kerusakan lingkungan, kerusakan lingkungan ini mengakibatkan penurunan kualitas hidup masyarakat setempat. Meskipun belum pernah terjadi demonstrasi terhadap penolakan eksploitasi minyak bumi, banyak masyarakat yang tidak puas dengan kesejahteraan hidup mereka karena penurunan kualitas hidup masyarakat setempat. Berdasarkan informasi di atas, manakah pernyataan di bawah ini yang BENAR?",
+      "options": [
+        "Masyarakat tidak puas dengan kesejahteraan hidup mereka walaupun terjadi eksploitasi minyak bumi di Pulau X.",
+        "Kerusakan lingkungan terjadi karena demonstrasi terhadap penolakan eksploitasi minyak bumi.",
+        "Penurunan kualitas hidup masyarakat menyebabkan demonstrasi terhadap penolakan eksploitasi minyak bumi.",
+        "Eksploitasi minyak bumi di Pulau X menyebabkan penurunan kualitas hidup masyarakat setempat.",
+        "Tidak adanya demonstrasi terhadap penolakan eksploitasi minyak bumi menyebabkan eksploitasi minyak bumi di Pulau X."
+      ],
+      "correctAnswer": "Eksploitasi minyak bumi di Pulau X menyebabkan penurunan kualitas hidup masyarakat setempat.",
+      "explanation": null
+    },
+    {
+      "text": "Tingginya tekanan pekerjaan dapat menyebabkan rendahnya kreativitas pegawai. Upaya untuk menurunkan tekanan pekerjaan dapat dilakukan dengan mengelola stress. Risiko menurunnya kreativitas akan berkurang jika peningkatan tekanan pekerjaan dapat diatasi. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": [
+        "Pengelolaan stress pasti menurunkan tekanan pekerjaan.",
+        "Pegawai memiliki kreativitas rendah karena tidak memiliki kemampuan mengelola stress.",
+        "Pegawai mengalami tekanan pekerjaan karena tidak kreatif dalam bekerja.",
+        "Pegawai yang mampu mengelola stress pasti memiliki tingkat kreativitas yang rendah.",
+        "Peningkatan kreativitas pegawai dapat dilakukan dengan mengelola stress."
+      ],
+      "correctAnswer": "Peningkatan kreativitas pegawai dapat dilakukan dengan mengelola stress.",
+      "explanation": null
+    },
+    {
+      "text": "Lampu LED adalah jenis lampu yang paling hemat pemakaian listriknya. Makin hemat pemakaian listrik sebuah lampu, makin banyak jenis lampu tersebut dipilih oleh masyarakat. Berdasarkan informasi di atas, manakah pernyataan sebab-akibat berikut yang PALING MUNGKIN BENAR?",
+      "options": [
+        "Hematnya pemakaian listrik pada lampu berkontribusi pada banyaknya jenis lampu yang dipilih masyarakat.",
+        "Tingkat penjualan jenis lampu lain lebih rendah karena pemakaian listriknya tidak hemat.",
+        "Keputusan untuk membeli suatu jenis lampu bergantung pada seberapa tebal kabel listrik yang ada pada lampu tersebut.",
+        "Jenis lampu LED memiliki ketebalan kabel listrik yang besar di antara lampu-lampu lain.",
+        "Tingginya angka penjualan suatu jenis lampu pasti disebabkan pemakaian listrik yang hemat."
+      ],
+      "correctAnswer": "Hematnya pemakaian listrik pada lampu berkontribusi pada banyaknya jenis lampu yang dipilih masyarakat.",
+      "explanation": null
+    },
+    {
+      "text": "X memenangkan lomba lari apabila tidak mengalami cedera kaki yang parah. Apabila mengikuti turnamen lari marathon, X tidak masuk sekolah selama sebulan. Apabila X tidak memenangkan lomba lari atau tidak masuk sekolah selama sebulan, manakah simpulan berikut yang BENAR?",
+      "options": [
+        "X mengalami cedera kaki yang parah atau X tidak mengikuti turnamen lari marathon.",
+        "X tidak mengalami cedera kaki yang parah, tetapi X mengikuti turnamen lari marathon.",
+        "X tidak mengalami cedera kaki yang parah atau X mengikuti turnamen lari marathon.",
+        "X mengalami cedera kaki yang parah dan X tidak mengikuti turnamen lari marathon.",
+        "X tidak mengalami cedera kaki yang parah dan X mengikuti turnamen lari marathon."
+      ],
+      "correctAnswer": "X mengalami cedera kaki yang parah atau X tidak mengikuti turnamen lari marathon.",
+      "explanation": null
+    },
+    {
+      "text": "Hobi memelihara binatang dapat meningkatkan kualitas hidup karena ada perasaan puas dan bahagia. Selain itu, hobi memelihara binatang juga dapat mencegah kesepian dan menurunkan risiko penyakit jantung. Namun demikian, binatang jenis tertentu dapat menyebabkan masalah kesehatan, yaitu alergi dan infeksi parasit sehingga dapat menurunkan kualitas hidup. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": [
+        "Beberapa masalah kesehatan muncul karena memelihara binatang jenis tertentu.",
+        "Seseorang yang hobi memelihara binatang sering mengalami alergi.",
+        "Penyakit jantung terjadi karena seseorang tidak merasa bahagia.",
+        "Seseorang yang mengalami kesepian dapat diatasi dengan memelihara binatang jenis tertentu.",
+        "Infeksi parasit yang dialami semua orang disebabkan hobi memelihara binatang."
+      ],
+      "correctAnswer": "Beberapa masalah kesehatan muncul karena memelihara binatang jenis tertentu.",
+      "explanation": null
+    },
+    {
+      "text": "Pada masa jabatan Kepala Desa Z, banyak warga yang mengikuti kerja bakti setiap minggu. Pada masa jabatan Kepala Desa W, lebih sedikit warga yang mengikuti kerja bakti setiap minggu. Manakah pernyataan berikut yang PALING MUNGKIN menjelaskan perbedaan kedua kondisi tersebut?",
+      "options": [
+        "Kepala Desa Z membuat program yang menarik bagi warganya untuk mengikuti kerja bakti setiap minggu.",
+        "Pada masa jabatan Kepala Desa W, lingkungan desa yang dipimpinnya sudah cukup bersih.",
+        "Pada masa jabatan Kepala Desa Z, banyak warga menyadari pentingnya kebersihan lingkungan.",
+        "Banyak warga yang sibuk bekerja pada saat Kepala Desa W menjabat.",
+        "Pada masa jabatan Kepala Desa Z, kekeluargaan di antara warga cukup kuat."
+      ],
+      "correctAnswer": "Kepala Desa Z membuat program yang menarik bagi warganya untuk mengikuti kerja bakti setiap minggu.",
+      "explanation": null
+    },
+    {
+      "text": "Keberhasilan kampanye program kesehatan masyarakat dipengaruhi oleh partisipasi masyarakat dan efektivitas penyuluhan. Efektivitas penyuluhan dapat terlihat dari sejauh mana masyarakat paham terhadap informasi kesehatan yang disampaikan dan penerapan perilaku sehat setelah penyuluhan. Partisipasi masyarakat yang tinggi juga akan meningkatkan dampak positif bagi program kesehatan yang tercermin dalam meningkatnya pola hidup sehat dan tingginya tingkat kesadaran masyarakat. Jika terjadi peningkatan pola hidup sehat, manakah di bawah ini simpulan yang PALING MUNGKIN BENAR?",
+      "options": [
+        "Partisipasi masyarakat dalam program Kesehatan tinggi.",
+        "Kampanye program Kesehatan masyarakat berhasil dilaksanakan.",
+        "Masyarakat paham terhadap informasi Kesehatan yang disampaikan.",
+        "Masyarakat menerapkan pola hidup sehat setelah penyuluhan.",
+        "Penyuluhan Kesehatan efektif dilaksanakan."
+      ],
+      "correctAnswer": "Masyarakat menerapkan pola hidup sehat setelah penyuluhan.",
+      "explanation": null
+    },
+    {
+      "text": "Pada tahun ini, lima sekolah masing-masing menerima siswa baru laki-laki sebanyak 80% dari jumlah siswa laki-laki tahun lalu dan siswa baru perempuan sebanyak 90% dari jumlah siswa perempuan tahun lalu. Data sekolah: K(70L, 45P), L(50L, 55P), M(75L, 35P), N(65L, 40P), O(55L, 50P). Manakah sekolah yang menerima siswa paling BANYAK pada tahun ini?",
+      "options": [
+        "K",
+        "L",
+        "M",
+        "N",
+        "O"
+      ],
+      "correctAnswer": "K",
+      "explanation": null
+    },
+    {
+      "text": "Pada tahun ini, lima sekolah masing-masing menerima siswa baru laki-laki sebanyak 80% dari jumlah siswa laki-laki tahun lalu dan siswa baru perempuan sebanyak 90% dari jumlah siswa perempuan tahun lalu. Data sekolah: K(70L, 45P), L(50L, 55P), M(75L, 35P), N(65L, 40P), O(55L, 50P). Manakah sekolah yang menerima siswa paling BANYAK pada tahun ini?",
+      "options": [
+        "K",
+        "L",
+        "M",
+        "N",
+        "O"
+      ],
+      "correctAnswer": "K",
+      "explanation": null
+    },
+    {
+      "text": "Perusahaan X terkenal karena inovasi dari kualitas produk elektroniknya yang unggul dibandingkan dengan perusahaan teknologi lain. Keberhasilan ini juga ditandai dengan penjualan yang meningkat pada setiap tahun. Setiap kali perusahaan mencapai target penjualan triwulan, manajemen perusahaan memberikan bonus kepada semua pegawainya. Berdasarkan data sejak tahun 2000, perusahaan tersebut selalu berhasil melebihi target penjualannya setidaknya dua kali dalam setahun. Berdasarkan paragraf di atas, manakah di bawah ini, peristiwa yang PALING MUNGKIN BENAR mengenai perusahaan X?",
+      "options": [
+        "Jumlah penjualan produk elektronik Perusahaan X akan terus meningkat setiap tahun.",
+        "Sebelum tahun 2000, pegawai tidak pernah mendapat bonus.",
+        "Pegawai akan mendapatkan setidaknya dua kali bonus setiap tahun.",
+        "Perusahaan menjadi lebih dikenal setelah tahun 2000.",
+        "Sebelum tahun 2000, Perusahaan X tidak pernah mencapai target penjualan."
+      ],
+      "correctAnswer": "Pegawai akan mendapatkan setidaknya dua kali bonus setiap tahun.",
+      "explanation": null
+    },
+    {
+      "text": "Pengelolaan sampah yang efektif sering kali dilakukan dengan cara memisahkan sampah organik dan anorganik untuk mempermudah proses daur ulang sampah. Masyarakat di wilayah X mengalami kesulitan dalam pemisahan sampah karena kurangnya fasilitas dan kesadaran warga. Namun, kelompok pencinta lingkungan mulai mengadakan edukasi daur ulang sampah dan memberikan fasilitas tempat sampah secara gratis. Berdasarkan paragraf tersebut, manakah yang PALING MUNGKIN menjadi asumsi yang mendasari argumen di atas?",
+      "options": [
+        "Sampah organik dan anorganik memiliki dampak yang sama terhadap lingkungan.",
+        "Kesadaran warga adalah satu-satunya faktor yang mempersulit proses daur ulang sampah.",
+        "Masyarakat di Wilayah X tidak memilah sampah sebelum mendapatkan edukasi dari kelompok pencinta lingkungan.",
+        "Kelompok pencinta lingkungan juga memberikan edukasi dari fasilitas gratis untuk program selain daur ulang sampah.",
+        "Masyarakat dapat mulai memisahkan sampah setelah mendapatkan edukasi dan fasilitas tempat sampah gratis."
+      ],
+      "correctAnswer": "Masyarakat dapat mulai memisahkan sampah setelah mendapatkan edukasi dan fasilitas tempat sampah gratis.",
+      "explanation": null
+    },
+    {
+      "text": "Wisata pantai banyak diminati wisatawan karena pemandangan yang indah dan banyak wahana. Salah satu wisata pantai yang banyak dikunjungi adalah pantai M, yang memiliki pasir yang putih dan karang yang eksotis. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": [
+        "Semua wisata Pantai memiliki pasir yang putih.",
+        "Hanya Pantai M yang memiliki karang yang eksotis.",
+        "Wisatawan mengunjungi Pantai M karena pemandangan yang indah.",
+        "Wisata Pantai selain Pantai M belum tentu memiliki banyak wahana.",
+        "Wisata Pantai yang memiliki pemandangan yang indah pasti memiliki karang yang eksotis."
+      ],
+      "correctAnswer": "Wisatawan mengunjungi Pantai M karena pemandangan yang indah.",
+      "explanation": null
+    },
+    {
+      "text": "Air minum dalam kemasan botol plastik mengandung berbagai mineral yang dibutuhkan oleh tubuh dan memiliki manfaat praktis. Akan tetapi, mengonsumsi air minum dalam kemasan botol plastik secara masif dapat memberikan dampak negatif bagi lingkungan. Sampah botol plastik dari air kemasan dapat mencemari lingkungan karena sulit terurai. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI SALAH?",
+      "options": [
+        "Botol plastik air kemasan tidak baik bagi keseimbangan lingkungan.",
+        "Air minum kemasan botol plastik praktis dan mudah untuk dibawa.",
+        "Mengonsumsi air minum kemasan botol plastik tidak memengaruhi pencemaran lingkungan.",
+        "Air minum dalam kemasan botol plastik memiliki nutrisi yang dibutuhkan oleh tubuh.",
+        "Botol plastik tidak mudah terurai sehingga dapat mencemari lingkungan."
+      ],
+      "correctAnswer": "Mengonsumsi air minum kemasan botol plastik tidak memengaruhi pencemaran lingkungan.",
+      "explanation": null
+    },
+    {
+      "text": "Kesadaran masyarakat akan pentingnya gaya hidup sehat meningkat. Pakar kesehatan menyebutkan bahwa harga makanan sehat identik dengan mahal sehingga hanya dapat dijangkau oleh golongan masyarakat tertentu. Pernyataan: 1. Penjualan makanan sehat banyak dijumpai di berbagai pusat perbelanjaan modern di kota. 2. Faktor ekonomi menjadi penghambat orang untuk menerapkan gaya hidup sehat. 3. Masyarakat terbiasa makan makanan sehat karena sudah menjadi tradisi. 4. Agar lebih hemat, masyarakat menanam sendiri bahan-bahan makanan sehat di rumahnya. 5. Makanan sehat banyak dikonsumsi oleh kelompok golongan menengah ke atas. Manakah pernyataan-pernyataan diatas yang MEMPERLEMAH pendapat pakar kesehatan tersebut?",
+      "options": [
+        "1 dan 2",
+        "1 dan 3",
+        "2 dan 3",
+        "3 dan 4",
+        "4 dan 5"
+      ],
+      "correctAnswer": "3 dan 4",
+      "explanation": null
+    },
+    {
+      "text": "Kehadiran sahabat di sekolah dapat mendukung proses belajar seorang siswa. Seperti gula yang menambahkan rasa manis di minuman, kehadiran sahabat dapat memberikan pengalaman menyenangkan dalam kehidupan sosial siswa. Jika hubungan dengan sahabat terjalin baik, kebahagiaan siswa dalam belajar di sekolah akan meningkat sehingga motivasi belajarnya meningkat. Berdasarkan paragraf tersebut, jika kehadiran sahabat disamakan dengan gula, manakah di bawah ini simpulan yang PALING MUNGKIN BENAR?",
+      "options": [
+        "Kehadiran sahabat ibarat gula yang memberikan pengalaman menyenangkan saat di sekolah.",
+        "Tingkat kebahagiaan siswa terus meningkat jika jumlah sahabatnya makin banyak.",
+        "Makin banyak sahabat, makin banyak pengalaman yang menyenangkan sekolah.",
+        "Menurunnya kebahagiaan siswa hanya disebabkan oleh tidak hadirnya sahabat di sekolah.",
+        "Jika siswa memiliki sahabat di sekolah, kebahagiaan siswa selama belajar akan meningkat."
+      ],
+      "correctAnswer": "Kehadiran sahabat ibarat gula yang memberikan pengalaman menyenangkan saat di sekolah.",
+      "explanation": null
+    },
+    {
+      "text": "Pakar budaya A menyatakan, \"perang menjadi salah satu ancaman dalam kelestarian budaya karena banyaknya warisan budaya yang rusak selama perang.\" Pakar budaya B menyatakan, \"budaya menjadi salah satu solusi untuk mencegah terjadinya perang karena sarat akan kearifan lokal yang turun temurun.\" Data menyebutkan bahwa \"terdapat konsensus bersama untuk tidak menyerang situs-situs budaya selama peperangan terjadi.\" Manakah pernyataan berikut yang PALING TEPAT mengenai data tersebut?",
+      "options": [
+        "Memperkuat pernyataan pakar budaya A.",
+        "Memperlemah pernyataan pakar budaya A.",
+        "Memperkuat pernyataan pakar budaya B.",
+        "Memperlemah pernyataan pakar budaya B.",
+        "Tidak relevan dengan pernyataan pakar budaya A dan B."
+      ],
+      "correctAnswer": "Memperkuat pernyataan pakar budaya B.",
+      "explanation": null
+    },
+    {
+      "text": "Untuk mengikuti undian berhadiah mobil di Supermarket RF, pembeli harus memiliki kupon undian yang telah ditulisi identitas diri dan kupon tersebut harus dimasukkan ke dalam kotak undian di Supermarket RF. Semua kupon undian yang sudah ditulisi identitasnya sudah dimasukkan oleh E ke dalam kotak undian di Supermarket RF. Simpulan: E memiliki peluang besar untuk mendapatkan hadiah mobil dari Supermarket RF. Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar",
+        "Simpulan tersebut mungkin benar",
+        "Simpulan tersebut pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan tersebut mungkin benar",
+      "explanation": null
+    },
+    {
+      "text": "Pemilik Restoran K mengatakan bahwa sejak diberlakukannya kebijakan bebas rokok selama satu bulan terakhir, jumlah pengunjung restoran meningkat. Manakah pernyataan berikut yang jika benar akan MEMPERKUAT pernyataan pemilik Restoran K?",
+      "options": [
+        "Sebagian besar pengunjung restoran tidak peduli dengan kebijakan bebas rokok di restoran K.",
+        "Pada bulan sebelumnya, restoran K mengadakan promosi diskon besar-besaran untuk menarik pengunjung.",
+        "Kebijakan dilarang merokok di Restoran K belum diterapkan satu bulan yang lalu.",
+        "Pengunjung di Restoran K tetap banyak walaupun kebijakan bebas rokok tidak diterapkan.",
+        "Restoran lain di sekitar Restoran K juga tidak memperbolehkan pembelinya merokok."
+      ],
+      "correctAnswer": "Sebagian besar pengunjung restoran tidak peduli dengan kebijakan bebas rokok di restoran K.",
+      "explanation": null
+    },
+    {
+      "text": "Gaya kepemimpinan milenial menghargai pendekatan tim. Hasil penelitian menyebutkan bahwa pemimpin milenial akan mempertimbangkan latar belakang dan kontribusi anggota tim dan melakukan pendekatan personal. Simpulan: 1. Pemimpin milenial memastikan setiap anggotanya nyaman bekerja. 2. Pemimpin milenial menjaga keseimbangan antara relasi dan tugas. 3. Pemimpin milenial lebih menghargai setiap individu dalam timnya. 4. Pemimpin milenial memastikan semua tugas terselesaikan sesuai dengan rencana. 5. Pemimpin milenial berusaha mengenali karakteristik tiap individu anggota timnya. Manakah DUA simpulan yang PALING DIDUKUNG oleh bacaan tersebut?",
+      "options": [
+        "1 dan 2",
+        "2 dan 3",
+        "2 dan 4",
+        "3 dan 4",
+        "3 dan 5"
+      ],
+      "correctAnswer": "3 dan 5",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan data pada diagram batang (PLTG vs PLTA dari tahun 2017 hingga 2021), pada tahun berapakah persentase daya listrik PLTA paling kecil?",
+      "options": [
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021"
+      ],
+      "correctAnswer": "2017",
+      "explanation": null
+    },
+    {
+      "text": "Berikut adalah diagram batang horizontal yang menampilkan data daya listrik yang dihasilkan oleh pembangkit listrik tenaga gas (PLTG) dan pembangkit listrik tenaga air (PLTA) dari tahun 2017 hingga 2021. Jika pada tahun 2022 terjadi peningkatan daya listrik sebesar 10% dibandingkan tahun 2021, manakah pernyataan berikut yang paling tepat untuk menggambarkan situasi pembangkitan daya listrik pada tahun 2023?",
+      "options": [
+        "Pembangkitkan daya Listrik PLTG menurun dibandingkan tahun sebelumnya.",
+        "Daya Listrik PLTA lebih besar daripada tahun sebelumnya.",
+        "Daya Listrik PLTG lebih kecil dibandingkan PLTA.",
+        "Pembangkitkan daya Listrik PLTA menurun dibandingkan tahun sebelumnya.",
+        "Daya listrik PLTG sama dengan tahun sebelumnya"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diagram Bar Horizontal menunjukkan nilai ekspor dan impor perdagangan bahan pangan dari bulan Maret hingga Juli. Berdasarkan data pada diagram, pada bulan berapakah persentase ekspor paling kecil?",
+      "options": [
+        "Maret",
+        "April",
+        "Mei",
+        "Juni",
+        "Juli"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diagram Bar Horizontal menunjukkan nilai ekspor dan impor perdagangan bahan pangan dari bulan Maret hingga Juli. Jika pada bulan Agustus nilai ekspor dan impor mengalami penurunan 10% dibandingkan bulan sebelumnya, manakah pernyataan berikut yang paling tepat untuk menggambarkan situasi perdagangan bahan pangan pada bulan September?",
+      "options": [
+        "Nilai ekspor lebih kecil dibandingkan bulan Juli.",
+        "Nilai impor lebih kecil dibandingkan bulan sebelumnya.",
+        "Nilai ekspor meningkat daripada bulan sebelumnya.",
+        "Nilai impor sama dengan bulan sebelumnya.",
+        "Nilai impor menurun daripada bulan sebelumnya."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diagram menunjukkan data jarak dan waktu tempuh pembalap sepeda A dan B dari etape-1 sampai etape-5. Berdasarkan data dalam grafik tersebut, pada etape ke berapakah pembalap sepeda A mengayuh dengan kecepatan paling rendah?",
+      "options": [
+        "Etape 1",
+        "Etape 2",
+        "Etape 3",
+        "Etape 4",
+        "Etape 5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah di antara bilangan berikut yang paling mendekati hasil pengurangan $2,34 - 1\\frac{3}{5}$",
+      "options": [
+        "65%",
+        "70%",
+        "75%",
+        "80%",
+        "85%"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah di antara bilangan berikut yang PALING mendekati hasil perkalian $\\frac{3}{5} \\times 1,20$",
+      "options": [
+        "55%",
+        "60%",
+        "65%",
+        "70%",
+        "75%"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah toko pecah belah memberikan diskon 30% untuk semua jenis perabot. Jika harga selusin piring setelah diskon adalah Rp105.000,00, berapakah harga selusin piring tersebut sebelum mendapatkan diskon?",
+      "options": [
+        "Rp96.000,00",
+        "Rp150.000,00",
+        "Rp350.000,00",
+        "Rp600.000,00",
+        "Rp720.000,00"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah restoran menawarkan diskon 20% untuk semua jenis makanan. Jika harga makanan setelah diskon Rp240.000,00, berapakah harga makanan tersebut sebelum mendapatkan diskon?",
+      "options": [
+        "Rp300.000,00",
+        "Rp400.000,00",
+        "Rp640.000,00",
+        "Rp720.000,00",
+        "Rp1.200.000,00"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Harga perhiasan emas dua tahun yang lalu lebih murah 15% daripada harga perhiasan emas pada saat ini. Apabila harga perhiasan emas dua tahun yang lalu adalah Rp34.000.000,00, berapakah harga perhiasan emas saat ini?",
+      "options": [
+        "Rp5.100.000,00",
+        "Rp6.000.000,00",
+        "Rp28.900.000,00",
+        "Rp39.100.000,00",
+        "Rp40.000.000,00"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diagram garis di bawah menunjukkan data hubungan antara jarak tempuh dan kecepatan kereta api P, Q, R, S, dan T. Dari data pada diagram, kereta dengan waktu tempuh paling kecil adalah ...",
+      "options": [
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diagram garis di bawah menunjukkan data hubungan antara jumlah penderita penyakit X dan pasien penyakit X yang sudah sembuh di rumah sakit P, Q, R, S, dan T. Dari data pada diagram, rumah sakit dengan jumlah TERBANYAK penderita X yang belum sembuh adalah...",
+      "options": [
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui X, Y, dan Z adalah pusat penelitian ilmu sosial. Berikut adalah informasi ketiga pusat penelitian tersebut pada bulan ini:\ni) Pusat penelitian X dan Y memiliki jumlah peneliti lebih banyak pada bulan ini dibandingkan dengan bulan lalu.\nii) Perbandingan jumlah peneliti di Pusat penelitian X dan Z adalah 2:5.\niii) Jumlah peneliti di Pusat Peneliti Y adalah tiga kali dari jumlah peneliti di Pusat Penelitian Z.\niv) Jumlah peneliti di Pusat Penelitian Z bulan lalu adalah 30 orang dan meningkat sebesar 20% pada bulan ini.\nInformasi manakah yang dapat digunakan untuk menentukan jumlah peneliti di Pusat Penelitian X pada bulan ini?",
+      "options": [
+        "i dan iii",
+        "i dan iv",
+        "ii dan iii",
+        "ii dan iv",
+        "iii dan iv"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui J, K, dan L adalah Perusahaan transportasi darat. Berikut adalah informasi mengenai ketiga Perusahaan tersebut pada bulan ini:\ni. Perusahaan J dan K memiliki jumlah penumpang sebanyak 7000 orang.\nii. Perbandingan jumlah penumpang di Perusahaan J dan L adalah 5 : 7.\niii. Jumlah penumpang di Perusahaan K adalah dua kali lipat dari jumlah penumpang di Perusahaan L.\niv. Jumlah penumpang di Perusahaan J pada bulan lalu adalah 1,800 orang dan bertambah 20% pada bulan ini.\nInformasi manakah yang dapat digunakan untuk menentukan jumlah penumpang di perusahaan K pada bulan ini?",
+      "options": [
+        "i dan ii",
+        "i dan iii",
+        "i dan iv",
+        "ii dan iii",
+        "ii dan iv"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bahan pembuatan tempe adalah kacang kedelai, kacang tolo, kacang hijau, dan ragi. Tiga bahan pertama memiliki perbandingan berturut-turut 8:4:1. Berat ragi adalah 12,5% dari berat kacang kedelai. Jika berat ragi yang digunakan adalah 20 gram, berapa gram berat kacang hijau yang digunakan?",
+      "options": [
+        "20",
+        "40",
+        "60",
+        "80",
+        "100"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bahan pembuatan kecap adalah pasta kedelai, gula cair, garam, dan air. Tiga bahan pertama memiliki perbandingan berturut-turut 3:2:1, volume air adalah 25% dari volume gula cair. Jika air yang digunakan adalah 2 liter, berapa volume pasta kedelai yang digunakan?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Komposisi cabai dan terigu untuk membuat kue adalah 6:4. Jika untuk membuat 5 bungkus kue dibutuhkan 180 gram cabai, berat terigu yang dibutuhkan untuk membuat 15 bungkus kue adalah…",
+      "options": [
+        "180 gram",
+        "240 gram",
+        "360 gram",
+        "400 gram",
+        "460 gram"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Lima tim memperebutkan juara lomba debat di fakultas Z. Penilaian didasarkan pada total nilai dalam aspek keluasan pengetahuan dan kemampuan komunikasi dengan bobot 6:4. Berdasarkan data di atas, manakah tim yang terpilih sebagai juara debat di Fakultas Z?",
+      "options": [
+        "K",
+        "L",
+        "M",
+        "N",
+        "O"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

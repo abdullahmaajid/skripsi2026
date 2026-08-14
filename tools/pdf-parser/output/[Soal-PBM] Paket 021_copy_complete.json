@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Manakah kalimat yang mengandung kesalahan dalam penulisan kata?",
+      "options": [
+        "Seorang penjelajah harus memiliki keberanian tinggi untuk menghadapi berbagai rintangan",
+        "Banyak ilmuwan yang menjelajahi wilayah terpencil untuk meneliti flora dan fauna",
+        "Marco Polo menulis perjalanannya dalam sebuah buku yang menjadi salah satu referensi penting sejarah",
+        "Christopher Columbus melakukan ekplorasi untuk menemukan jalur pelayaran baru ke Asia",
+        "Penjelajah modern saat ini tidak hanya menjelajahi daratan, tetapi juga dasar laut dan luar angkasa"
+      ],
+      "correctAnswer": "Christopher Columbus melakukan ekplorasi untuk menemukan jalur pelayaran baru ke Asia",
+      "explanation": "Kata 'ekplorasi' tidak baku, seharusnya 'eksplorasi'."
+    },
+    {
+      "text": "Pilihlah kata yang paling tepat untuk melengkapi kalimat berikut: \"Seorang penjelajah sering menghadapi berbagai tantangan __________ mereka harus memiliki kesiapan fisik dan mental yang kuat.\"",
+      "options": [
+        "meskipun",
+        "sehingga",
+        "namun",
+        "serta",
+        "bahkan"
+      ],
+      "correctAnswer": "sehingga",
+      "explanation": "Menyatakan hubungan sebab akibat."
+    },
+    {
+      "text": "Pilihlah kalimat yang lebih efektif sebagai perbaikan dari kalimat berikut: \"Seorang penjelajah harus memiliki keberanian tinggi, dan juga seorang penjelajah harus memiliki rasa ingin tahu yang besar dalam menjelajahi dunia.\"",
+      "options": [
+        "Seorang penjelajah harus memiliki keberanian tinggi dan juga memiliki rasa ingin tahu yang besar dalam menjelajahi dunia.",
+        "Keberanian tinggi dan rasa ingin tahu besar harus dimiliki oleh seorang penjelajah dalam menjelajahi dunia.",
+        "Seorang penjelajah memiliki keberanian tinggi dalam menjelajahi dunia serta harus memiliki rasa ingin tahu besar.",
+        "Seorang penjelajah harus memiliki keberanian tinggi, juga dia harus memiliki rasa ingin tahu besar dalam menjelajahi dunia.",
+        "Keberanian dan rasa ingin tahu besar harus dimiliki oleh seorang penjelajah dalam menjelajahi dunia."
+      ],
+      "correctAnswer": "Seorang penjelajah harus memiliki keberanian tinggi dan juga memiliki rasa ingin tahu yang besar dalam menjelajahi dunia.",
+      "explanation": "Menghilangkan pemborosan kata."
+    },
+    {
+      "text": "Urutan yang paling tepat untuk menyusun paragraf berikut agar menjadi paragraf yang padu adalah..\n1. Keingintahuan dan keberanian mereka telah membawa banyak manfaat bagi dunia, seperti penemuan wilayah baru dan perkembangan ilmu pengetahuan.\n2. Seorang penjelajah harus memiliki tekad yang kuat untuk menghadapi berbagai tantangan di medan yang belum dikenal.\n3. Namun, tidak semua perjalanan berjalan dengan mulus. Banyak penjelajah yang menghadapi bahaya besar di perjalanan mereka.\n4. Mereka sering menghadapi cuaca ekstrem, keterbatasan makanan, dan medan yang sulit.",
+      "options": [
+        "2 - 1 - 3 - 4",
+        "1 - 2 - 3 - 4",
+        "2 - 3 - 4 - 1",
+        "3 - 4 - 2 - 1",
+        "1 - 3 - 2 - 4"
+      ],
+      "correctAnswer": "2 - 3 - 4 - 1",
+      "explanation": "Urutan kalimat yang logis membentuk kepaduan paragraf."
+    },
+    {
+      "text": "Kalimat berikut kurang efektif:\n\"Penjelajah tidak hanya menjelajahi daratan, tetapi juga menjelajahi lautan dan luar angkasa.\"\nPilihlah perbaikan kalimat yang lebih efektif.",
+      "options": [
+        "Penjelajah menjelajahi daratan, lautan, dan luar angkasa.",
+        "Penjelajah tidak hanya menjelajahi daratan, tetapi juga lautan dan luar angkasa.",
+        "Penjelajah menjelajahi berbagai tempat, seperti daratan, lautan, dan luar angkasa.",
+        "Tidak hanya menjelajahi daratan, penjelajah juga menjelajahi lautan dan luar angkasa.",
+        "Penjelajah lebih suka menjelajahi daratan, tetapi ada juga yang menjelajahi lautan dan luar angkasa."
+      ],
+      "correctAnswer": "Penjelajah tidak hanya menjelajahi daratan, tetapi juga lautan dan luar angkasa.",
+      "explanation": "Menghindari pengulangan kata kerja menjelajahi."
+    },
+    {
+      "text": "Pilihlah kalimat yang paling efektif untuk menyempurnakan kalimat berikut:\n\"Hutan memiliki banyak manfaat bagi kehidupan manusia. Oleh karena itu __________.\"",
+      "options": [
+        "manusia seharusnya menjaga kelestariannya dengan menebang pohon seperlunya.",
+        "kita perlu melakukan reboisasi agar hutan tetap hijau.",
+        "hutan harus dimanfaatkan dengan cara yang benar agar tidak habis.",
+        "kita sebaiknya tidak menebang hutan karena penting bagi kehidupan.",
+        "banyak orang sadar akan pentingnya hutan, sehingga mereka mencoba menjaganya."
+      ],
+      "correctAnswer": "manusia seharusnya menjaga kelestariannya dengan menebang pohon seperlunya.",
+      "explanation": "Merupakan bentuk penyempurnaan yang logis sesuai dengan kalimat sebelumnya."
+    },
+    {
+      "text": "Manakah kata yang sebaiknya dihilangkan agar kalimat berikut menjadi lebih efektif?\n\"Eksploitasi hutan yang berlebihan menyebabkan dampak buruk bagi lingkungan sekitar.\"",
+      "options": [
+        "Eksploitasi",
+        "Hutan",
+        "Yang",
+        "Berlebihan",
+        "Sekitar"
+      ],
+      "correctAnswer": "Sekitar",
+      "explanation": "Kata sekitar tidak diperlukan karena makna lingkungan sudah merujuk secara umum."
+    },
+    {
+      "text": "Judul yang paling sesuai dengan isi teks adalah...",
+      "options": [
+        "Manfaat Hutan dan Ancaman terhadap Kelestariannya",
+        "Hutan sebagai Sumber Daya yang Tak Terbatas",
+        "Reboisasi: Satu satunya Solusi untuk Menyelamatkan Hutan",
+        "Cara Memanfaatkan Hutan secara Bijak",
+        "Akibat Buruk Eksploitasi Hutan"
+      ],
+      "correctAnswer": "Manfaat Hutan dan Ancaman terhadap Kelestariannya",
+      "explanation": "Mencakup keseluruhan isi paragraf tentang manfaat dan eksploitasi."
+    },
+    {
+      "text": "Manakah kalimat yang memiliki makna sama dengan kalimat berikut?\n\"Hutan memiliki peran penting dalam menjaga keseimbangan ekosistem dengan menyerap karbon dioksida.\"",
+      "options": [
+        "Hutan sangat berpengaruh dalam menjaga keseimbangan ekosistem dan memproduksi oksigen.",
+        "Hutan berfungsi menjaga stabilitas ekosistem dengan menyerap karbon dioksida.",
+        "Hutan membantu menjaga kesuburan tanah dengan menyerap karbon dioksida.",
+        "Keseimbangan ekosistem dapat terganggu jika hutan tidak mampu menyerap karbon dioksida.",
+        "Hutan menyerap karbon dioksida dan menghasilkan udara segar bagi makhluk hidup."
+      ],
+      "correctAnswer": "Hutan berfungsi menjaga stabilitas ekosistem dengan menyerap karbon dioksida.",
+      "explanation": "Makna stabil ekosistem bersesuaian dengan keseimbangan ekosistem."
+    },
+    {
+      "text": "Manakah kalimat yang mengandung kesalahan dalam penulisan kata?",
+      "options": [
+        "Hutan memiliki fungsi ekologis yang sangat penting bagi kehidupan.",
+        "Pemerintah menerapkan kebijakan pengelolaan hutan secara berkelanjutan.",
+        "Deforestasi yang tidak terkendali dapat menyebabkan bencana alam seperti tanah longsor.",
+        "Upaya pelestarian hutan harus melibatkan masyarakat secara menyeluruh.",
+        "Reboisasi dapat membantu mengurangi erosi tanah akibat penggundulan hutan yang tidak bertangung jawab."
+      ],
+      "correctAnswer": "Reboisasi dapat membantu mengurangi erosi tanah akibat penggundulan hutan yang tidak bertangung jawab.",
+      "explanation": "Kata 'bertangung' tidak baku, seharusnya 'bertanggung'."
+    },
+    {
+      "text": "Di manakah sebaiknya kalimat berikut ditempatkan agar sesuai dengan alur teks?\n\"Banyak orang kini lebih memilih berkomunikasi melalui media sosial daripada bertemu langsung.\"",
+      "options": [
+        "Setelah kalimat pertama",
+        "Setelah kalimat kedua",
+        "Setelah kalimat ketiga",
+        "Setelah kalimat keempat",
+        "Tidak perlu dimasukkan ke dalam teks"
+      ],
+      "correctAnswer": "Setelah kalimat kedua",
+      "explanation": "Menjelaskan lebih lanjut mengenai dampak negatif teknologi dalam interaksi sosial."
+    },
+    {
+      "text": "Manakah kalimat yang salah dalam penggunaan tanda koma?",
+      "options": [
+        "Dengan adanya teknologi, manusia dapat berkomunikasi dengan lebih mudah.",
+        "Teknologi memberikan manfaat di berbagai bidang, seperti pendidikan, kesehatan, dan transportasi.",
+        "Kemajuan teknologi membawa dampak positif, dan juga negatif, dalam kehidupan manusia.",
+        "Untuk menghindari dampak negatif, teknologi harus digunakan secara bijak.",
+        "Banyak orang menggunakan teknologi setiap hari, tanpa menyadari dampaknya."
+      ],
+      "correctAnswer": "Banyak orang menggunakan teknologi setiap hari, tanpa menyadari dampaknya.",
+      "explanation": "Penggunaan koma sebelum 'tanpa' tidak diperlukan."
+    },
+    {
+      "text": "Manakah kalimat yang paling efektif?",
+      "options": [
+        "Teknologi sangat banyak memberikan berbagai macam manfaat kepada kehidupan manusia dalam berbagai aspek yang ada.",
+        "Dalam kehidupan manusia, banyak manfaat yang diberikan oleh teknologi dalam berbagai aspek kehidupan.",
+        "Teknologi memberikan banyak manfaat bagi kehidupan manusia dalam berbagai aspek.",
+        "Teknologi dalam kehidupan manusia banyak memberikan aspek manfaat yang luas.",
+        "Banyak sekali manfaat yang diberikan oleh teknologi bagi kehidupan manusia di segala aspek yang berbeda-beda."
+      ],
+      "correctAnswer": "Teknologi memberikan banyak manfaat bagi kehidupan manusia dalam berbagai aspek.",
+      "explanation": "Padat, jelas, dan tidak boros kata."
+    },
+    {
+      "text": "Manakah kalimat yang menggunakan huruf kapital dengan benar?",
+      "options": [
+        "Teknologi sangat membantu manusia dalam berbagai bidang, misalnya Pendidikan, Kesehatan, dan Transportasi.",
+        "penggunaan teknologi yang bijak akan memberikan manfaat yang optimal bagi masyarakat.",
+        "Dengan adanya teknologi, masyarakat dapat mengakses informasi dengan cepat melalui Internet.",
+        "Dalam kehidupan sehari-hari, teknologi digunakan dalam berbagai aktivitas Seperti bekerja, belajar, dan berkomunikasi.",
+        "Kemajuan teknologi saat ini berkembang pesat terutama dalam bidang komunikasi dan Informasi."
+      ],
+      "correctAnswer": "Dengan adanya teknologi, masyarakat dapat mengakses informasi dengan cepat melalui Internet.",
+      "explanation": "Penulisan huruf kapital pada kata internet mengikuti Pedoman Umum Ejaan Bahasa Indonesia (PUEBI)."
+    },
+    {
+      "text": "Susunlah kalimat-kalimat berikut agar menjadi paragraf yang padu!\n1. Salah satu manfaat teknologi adalah mempermudah komunikasi antarindividu.\n2. Teknologi juga mempermudah manusia dalam bidang transportasi dengan hadirnya kendaraan yang semakin canggih.\n3. Namun, di balik manfaatnya, teknologi juga memiliki dampak negatif seperti mengurangi interaksi sosial secara langsung.\n4. Oleh karena itu, penggunaan teknologi harus dilakukan dengan bijak agar dampak negatifnya dapat diminimalisir.\n5. Saat ini, perkembangan teknologi semakin pesat dan memberikan dampak yang besar bagi kehidupan manusia.\nManakah susunan yang paling tepat?",
+      "options": [
+        "1 - 2 - 3 - 4 - 5",
+        "5 - 1 - 2 - 3 - 4",
+        "3 - 1 - 2 - 5 - 4",
+        "5 - 3 - 1 - 2 - 4",
+        "1 - 5 - 2 - 3 - 4"
+      ],
+      "correctAnswer": "5 - 1 - 2 - 3 - 4",
+      "explanation": "Susunan yang logis dimulai dari kalimat umum (5) mengenai perkembangan teknologi, diikuti oleh contoh manfaat (1 dan 2), dampak negatif (3), dan diakhiri dengan kesimpulan serta saran (4)."
+    },
+    {
+      "text": "Manakah kata yang paling tepat untuk menggantikan kata \"mencemari\" dalam kalimat berikut?\n\"Asap kendaraan bermotor mencemari udara dan berdampak buruk bagi kesehatan manusia.\"",
+      "options": [
+        "Merusak",
+        "Mengotori",
+        "Menghancurkan",
+        "Mengganggu",
+        "Merugikan"
+      ],
+      "correctAnswer": "Mengotori",
+      "explanation": "Kata \"mencemari\" memiliki arti membuat kotor, sehingga sinonim yang paling tepat untuk konteks udara adalah \"mengotori\"."
+    },
+    {
+      "text": "Manakah inti dari kalimat berikut?\n\"Polusi udara yang disebabkan oleh aktivitas manusia dapat menimbulkan berbagai penyakit berbahaya.\"",
+      "options": [
+        "Polusi udara dapat menimbulkan berbagai penyakit berbahaya.",
+        "Penyakit berbahaya timbul akibat aktivitas manusia.",
+        "Aktivitas manusia berbahaya bagi kesehatan.",
+        "Polusi udara timbul akibat aktivitas manusia.",
+        "Penyakit berbahaya disebabkan oleh polusi udara."
+      ],
+      "correctAnswer": "Polusi udara dapat menimbulkan berbagai penyakit berbahaya.",
+      "explanation": "Inti kalimat (pola dasar kalimat: S-P) terletak pada subjek utama dan predikat utamanya, yaitu polusi udara dapat menimbulkan berbagai penyakit berbahaya."
+    },
+    {
+      "text": "Pilihlah kalimat hasil penggabungan yang paling efektif dari dua kalimat berikut:\n\"Polusi udara sangat berbahaya bagi kesehatan manusia.\"\n\"Banyak orang tidak menyadari bahaya polusi udara.\"",
+      "options": [
+        "Polusi udara sangat berbahaya bagi kesehatan manusia karena banyak orang tidak menyadarinya.",
+        "Bahaya polusi udara sangat berisiko, tetapi banyak orang tidak menyadarinya.",
+        "Banyak orang tidak menyadari bahwa polusi udara sangat berbahaya bagi kesehatan manusia.",
+        "Banyak orang tidak menyadari dampak polusi udara, padahal sangat berbahaya bagi kesehatan manusia.",
+        "Polusi udara yang berbahaya bagi kesehatan manusia tidak disadari oleh banyak orang."
+      ],
+      "correctAnswer": "Banyak orang tidak menyadari dampak polusi udara, padahal sangat berbahaya bagi kesehatan manusia.",
+      "explanation": "Penggabungan yang paling efektif dan menunjukkan pertentangan yang logis menggunakan konjungsi \"padahal\" untuk menghubungkan kedua gagasan tersebut."
+    },
+    {
+      "text": "Pilihlah kata yang paling tepat untuk mengisi bagian rumpang dalam kalimat berikut:\n\"Untuk mengurangi polusi udara, pemerintah harus __________ penggunaan kendaraan pribadi di perkotaan.\"",
+      "options": [
+        "Meningkatkan",
+        "Mengurangi",
+        "Menghentikan",
+        "Membatasi",
+        "Mengawasi"
+      ],
+      "correctAnswer": "Membatasi",
+      "explanation": "Untuk konteks kebijakan pemerintah terhadap penggunaan kendaraan pribadi guna menekan polusi, kata \"membatasi\" adalah pilihan yang paling tepat secara gramatikal dan kontekstual."
+    },
+    {
+      "text": "Manakah kalimat yang mengandung kesalahan dalam penulisan kata?",
+      "options": [
+        "Polusi udara dapat menyebabkan gangguan pernafasan seperti asma dan bronkitis.",
+        "Upaya penghijauan dapat membantu mengurangi dampak pencemaran udara di perkotaan.",
+        "Penggunaan kendaraan bermotor yang berlebihan meningkatkan kadar karbon dioksida di udara.",
+        "Peningkatan jumlah kendaraan di kota-kota besar berkontribusi terhadap kualitas udara yang semakin buruk.",
+        "Pemerintah mengimbau masyarakat untuk mengurangi emisi gas buang demi menjaga lingkungan."
+      ],
+      "correctAnswer": "Polusi udara dapat menyebabkan gangguan pernafasan seperti asma dan bronkitis.",
+      "explanation": "Kata \"pernafasan\" pada pilihan A tidak baku. Seharusnya ditulis \"pernapasan\" sesuai dengan kaidah bahasa Indonesia yang benar."
+    }
+  ]
+}

@@ -1,0 +1,962 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan teks bacaan tersebut, pernyataan yang paling BENAR adalah ...",
+      "options": [
+        "Nilai merek Pepsi mengalahkan Coca-Cola.",
+        "Pendapatan PepsiCo naik sejak tahun 2013.",
+        "Pendapatan Coca-Cola Company turun pada tahun 2015.",
+        "Pendapatan Coca-Cola Company lebih besar dari PepsiCo.",
+        "Pendapatan tahunan PepsiCo naik 1,8% pada tahun 2015."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks bacaan tersebut, pernyataan yang paling TIDAK BENAR adalah ...",
+      "options": [
+        "Penurunan pendapatan Coca-Cola Company sebesar 33,65% sejak tahun 2013.",
+        "Coca-Cola lebih laku daripada Pepsi.",
+        "Sebanyak 40% merek perusahaan PepsiCo adalah minuman.",
+        "Nilai merek Coca-Cola pada tahun 2018 sebesar US$ 31,86 miliar.",
+        "Pertumbuhan pendapatan PepsiCo lebih baik daripada Coca-Cola Company."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf ketiga, pernyataan yang paling TIDAK SESUAI adalah ...",
+      "options": [
+        "Coca-Cola lebih terkenal dari Pepsi.",
+        "Pendapatan PepsiCo lebih besar dari Coca-Cola Company.",
+        "Pendapatan Coca-Cola Company tahun 2018 lebih kecil dari tahun sebelumnya.",
+        "Pendapatan PepsiCo pada tahun 2018 lebih besar dari tahun sebelumnya.",
+        "Columbia Pictures adalah anak perusahaan dari Coca-Cola Company."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf terakhir, pernyataan yang paling SESUAI dengan bacaan tersebut adalah ...",
+      "options": [
+        "Pendapatan Pepsi lebih besar dari Coca-Cola.",
+        "Coca-Cola adalah minuman bersoda paling bernilai kedua di dunia pada tahun 2018.",
+        "Nilai merek Coca-Cola berada di urutan enam dunia.",
+        "Sprite dan Mountain Dew berada di bawah naungan perusahaan yang sama.",
+        "Pepsi adalah pesaing terberat Coca-Cola"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apa yang paling TIDAK MUNGKIN terjadi apabila pendapatan PepsiCo terus naik?",
+      "options": [
+        "Selisih pendapatan PepsiCo dengan Coca-Cola Company semakin besar.",
+        "Anak perusahaan PepsiCo akan semakin banyak.",
+        "Mountain Dew akan semakin laku.",
+        "Secara keseluruhan, Coca-Cola Company akan sulit bersaing dengan PepsiCo.",
+        "Keuntungan PepsiCo akan semakin besar."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apa yang paling MUNGKIN terjadi apabila konsumsi minuman bersoda oleh masyarakat terus menurun?",
+      "options": [
+        "Nilai merek Pepsi akan tetap naik.",
+        "Nilai merek Coca-Cola akan tetap naik.",
+        "Coca-Cola akan semakin laku.",
+        "Pendapatan merek Pepsi akan menurun.",
+        "Tidak akan ada dampak apa-apa."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apa dampak yang terjadi akibat penurunan konsumsi minuman bersoda terhadap kedua perusahaan tersebut?",
+      "options": [
+        "Penjualan produk Coca-Cola dan Pepsi tetap stabil.",
+        "Coca-Cola Company dan PepsiCo mencari peluang bisnis baru.",
+        "Pembelian produk Mountain Dew bertambah.",
+        "Pembelian produk Sprite bertambah.",
+        "Pendapatan Coca-Cola Company dan PepsiCo menurun dari tahun sebelumnya."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apakah yang bukan merupakan \"Akibat tiket Pesawat naik\"?",
+      "options": [
+        "inflasi tahun ini menjadi 0,35%",
+        "penyebab utama dari inflasi",
+        "inflasi tidak hanya saat liburan anak-anak sekolah",
+        "Ambon inflasi tertinggi dibanding kota kota lain",
+        "tidak ada jawaban yang benar (Semua opsi merupakan akibat)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf 1, pernyataan yang PALING BENAR adalah ...",
+      "options": [
+        "total inflasi Maret menjadi 0,35% pada Maret 2019",
+        "inflasi 0,11 persen dikarenakan naiknya tiket pesawat",
+        "inflasi di Ambon membuat tiket untuk pergi ke Ambon menjadi yang paling mahal",
+        "dari teks di atas, inflasi tertinggi pada bulan yang sama terjadi dua tahun lalu",
+        "inflasi saat ini tidak terkendali"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf 2, pernyataan yang paling TIDAK BENAR adalah ...",
+      "options": [
+        "Jika kenaikan harga tiket pesawat ini tidak berlangsung sejak awal tahun 2019, maka itu adalah hal yang biasa",
+        "salah satu alasan tiket pesawat naik adalah peraturan menteri",
+        "penurunan harga beras, daging ayam ras, dan ikan segar membuat deflasi sebesar 0,01%",
+        "masing-masing dari kelompok bahan makanan mengalami deflasi 0,03%",
+        "dinaikannya tiket kereta memiliki harapan untuk menstabilkan tarif angkatan udara"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf 3, manakah pernyataan yang paling BENAR ...",
+      "options": [
+        "kecilnya kontribusi kenaikan tiket pesawat untuk inflasi",
+        "Pada pekan keempat Maret 2019, tingkat inflasi adalah 0,14% menurut Badan Pusat Statistik",
+        "naiknya inflasi mendorong kenaikan harga tiket pesawat",
+        "Inflasi tidak akan terjadi jika tiket pesawat tidak naik",
+        "Pemerintah dan BI berharap target inflasi dari tahun 2018 tetap sama"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dalam teks tersebut, apakah kontributor inflasi kedua tertinggi",
+      "options": [
+        "kenaikan tiket pesawat",
+        "bawang merah",
+        "bawang putih",
+        "cabai merah",
+        "cabai hijau"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika tahun depan harga tiket pesawat turun tetapi inflasi berada di rentang 5%, maka pernyataan yang tidak mungkin terjadi adalah ...",
+      "options": [
+        "adanya kontributor lain yang lebih berkontribusi banyak terhadap inflasi",
+        "target tidak tercapai",
+        "tiket pesawat tidak berpengaruh pada inflasi",
+        "tarif angkatan udara bisa saja sudah stabil",
+        "karena kemungkinan tingkat inflasi tahun ini 2,51% maka peningkatan tersebut memperlihatkan efektivitas pemerintah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "-2, -4, -6, ..., -16, -26",
+      "options": [
+        "-10",
+        "-12",
+        "-14",
+        "-8",
+        "-15"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "3, 5, 8, ..., 20, ..., 44. Angka-angka yang paling tepat untuk melengkapi deret tersebut secara berturut-turut adalah ....",
+      "options": [
+        "13 dan 31",
+        "12 dan 32",
+        "14 dan 30",
+        "11 dan 24",
+        "15 dan 33"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar di bawah ini! Nilai X dan Y secara berturut-turut adalah ....",
+      "options": [
+        "3 dan 1",
+        "1 dan 3",
+        "0 dan 3",
+        "3 dan 0",
+        "2 dan 7"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar di bawah ini! Nilai Z adalah ....",
+      "options": [
+        "3",
+        "-1",
+        "-28",
+        "2",
+        "16"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapakah angka yang harus diisi?\n\n| 49 | 64 | 1 |\n| 9 | ? | 36 |\n| 81 | 25 | 16 |",
+      "options": [
+        "4",
+        "18",
+        "27",
+        "57",
+        "100"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bila $x$ dan $y$ bilangan bulat yang memenuhi $7 < x < 9$ dan $6 < y < 8$ maka . . .",
+      "options": [
+        "$x$ atau $y$ negatif",
+        "$x$ sama dengan $y$",
+        "$x$ lebih kecil daripada $y$",
+        "$x$ lebih besar daripada $y$",
+        "hubungan $x$ dan $y$ tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kuantitas A : $32\\%$ dari $720$\nKuantitas B : $240$",
+      "options": [
+        "Kuantitas A lebih besar",
+        "Kuantitas B lebih besar",
+        "Kuantitas A = Kuantitas B",
+        "Hubungan tidak dapat ditentukan dari informasi yang diberikan",
+        "Betul semua"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jenis kata pada soal nomor (1) adalah …",
+      "options": [
+        "pronomina",
+        "verbal",
+        "ajektiva",
+        "nomina",
+        "aposisi"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata yang paling tepat untuk melengkapi titik-titik nomor (2) adalah ….",
+      "options": [
+        "kempisi",
+        "dikempiskan",
+        "dikempis",
+        "kempisi",
+        "mengempisi"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata satuan panjang yang paling tepat untuk melengkapi titik-titik nomor (3) adalah ….",
+      "options": [
+        "3 M",
+        "3M",
+        "3 meter",
+        "3 Meter",
+        "3 metter"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertimbangkan apakah kata yang digarismiringkan harus diperbaiki?",
+      "options": [
+        "TIDAK PERLU DIPERBAIKI",
+        "Desa jatirogo",
+        "desajatirogo",
+        "Desa Jatirogo",
+        "DesaJatirogo"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jenis kata yang dimiringkan pada teks tersebut adalah ….",
+      "options": [
+        "nomina abstrak",
+        "numeralia",
+        "adjektiva",
+        "verbal",
+        "nomina"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Penetapan konjungsi yang tidak benar pada teks tersebut adalah ….",
+      "options": [
+        "karena (kalimat ketiga)",
+        "dan (kalimat keempat)",
+        "yang (kalimat ketujuh)",
+        "semua benar",
+        "semua salah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bagaimana penulisan yang benar pada kata yang bercetak tebal pada teks di atas ….",
+      "options": [
+        "harus huruf kapital semua",
+        "tidak perlu diperbaiki karena sudah benar",
+        "harus digarismiringkan dan ditebalkan",
+        "harus diawali huruf kapital",
+        "harus digarismiringkan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Frasa yang digarisbawahi pada kalimat yang bercetak tebal menduduki fungsi sebagai ….",
+      "options": [
+        "subjek",
+        "predikat",
+        "objek",
+        "keterangan",
+        "pelengkap"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertimbangkan apakah frasa bernomor (1) apakah harus diperbaiki atau tidak?",
+      "options": [
+        "TIDAK PERLU DIPERBAIKI",
+        "di tengahtengah",
+        "Di Tengah Tengah",
+        "diTengahtengah",
+        "di tengah-tengah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jenis kata bernomor (1) pada teks di atas termasuk ke dalam jenis kata ....",
+      "options": [
+        "adjektiva",
+        "numeralia",
+        "nominal",
+        "verbal",
+        "adverbia"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertimbangkan apakah bagian bernomor (3) perlu diperbaiki atau tidak ....",
+      "options": [
+        "tidak perlu diperbaiki",
+        "populer",
+        "populerpun",
+        "populer",
+        "pun"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata atau tanda baca yang harus dihilangkan atau diperbaiki pada kalimat yang dicetak tebal agar sesuai dengan kaidah penulisan dalam bahasa Indonesia adalah ....",
+      "options": [
+        "mengganti kata “dalam” menjadi “pada”",
+        "menghilangkan tanda baca koma setelah kata bangsa",
+        "menghilangkan kata “yang mana” dengan “di mana”",
+        "menghilangkan kata “mana” pada frasa “yang mana”",
+        "menambahkan tanda baca koma setelah kata “sehari-hari”"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertimbangkan apakah bagian bernomor (1) perlu diperbaiki atau tidak ....",
+      "options": [
+        "tidak perlu diperbaiki",
+        "menghilangnya",
+        "menghilang",
+        "hilang",
+        "terhilangnya"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertimbangkan apakah bagian bernomor (2) perlu diperbaiki atau tidak ....",
+      "options": [
+        "tidak perlu diperbaiki",
+        "World Health Organization (WHO)",
+        "World Health Organization (WHO)",
+        "World Health Organization “WHO”",
+        "“World Helath Organization” (WHO)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertimbangkan apakah bagian bernomor (3) perlu diperbaiki atau tidak ....",
+      "options": [
+        "tidak perlu diperbaiki",
+        "diperkirakan",
+        "mengirakan",
+        "memperkirakan",
+        "Mengira-ngira"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertimbangkan apakah bagian bernomor (2) perlu diperbaiki atau tidak ....",
+      "options": [
+        "tidak perlu diperbaiki",
+        "dua milyar",
+        "2 milyar",
+        "dua miliar",
+        "2.000.000.000,00"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata yang paling tepat untuk melengkapi titik-titik pada bagian bernomor (5) adalah ....",
+      "options": [
+        "mengatakan",
+        "menyatakan",
+        "menginformasikan",
+        "mengetahui",
+        "mencatat"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertimbangkan apakah bagian bernomor (6) perlu diperbaiki atau tidak ....",
+      "options": [
+        "tidak perlu diperbaiki",
+        "immobilisasi",
+        "imobilisasi",
+        "immobilisi",
+        "imobilisi"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kesalahan yang terdapat pada kalimat bercetak tebal adalah ....",
+      "options": [
+        "tidak adanya tanda baca titik setelah angka dua pada penulisan tahun 2014",
+        "penggunaan tanda baca titik pada penulisan 18.1 yang seharusnya menggunakan tanda baca komapenggunaan tanda baca titik pada penulisan 18.1 yang seharusnya menggunakan tanda baca koma",
+        "penulisan angka 18.1 juta yang disingkat",
+        "kurangnya imbuhan me- pada kata “capai”",
+        "penulisan lansia yang seharusnya tidak disingkat"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kesalahan yang terdapat pada kalimat bercetak tebal adalah ....",
+      "options": [
+        "penulisan inkontinensia, depresi, dan malnutrisi, dan insomnia yang dicetak miring",
+        "kurangnya tanda baca titik dua setelah kata yaitu",
+        "tanda baca titik dan koma yang salah pada sumber kutipan",
+        "tidak adanya tanda baca titik setelah tanda kurung tutup kata “insomnia”",
+        "penulisan lansia yang seharusnya tidak disingkat"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Gagasan utama paragraf pertama adalah ....",
+      "options": [
+        "Adalah tugas pendukung-pendukungnya untuk mengisi kemerdekaan.",
+        "Minggu-minggu pertama setelah proklamasi adalah minggu-minggu yang “melarutkan” ideologi-ideologi yang menjurangi persatuan.",
+        "Sekarang ia datang dengan segala keterbatasannya.",
+        "Berpuluh-puluh tahun cita-cita kemerdekaan Indonesia merupakan mimpi yang indah dari jauh.",
+        "Kemerdekaan adalah sebuah mimpi yang menjadi kenyataan tetapi juga merupakan sebuah gedung besar yang kosong."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Gagasan utama paragraf pertama terletak di kalimat awal yang mencakup keseluruhan isi paragraf tersebut mengenai minggu-minggu pertama proklamasi."
+    },
+    {
+      "text": "Kata kader pada paragraf ke-2 teks di atas memiliki arti yaitu ....",
+      "options": [
+        "perwira atau bintara dalam ketentaraan",
+        "orang yang memiliki semangat luar biasa",
+        "orang yang bertugas dalam kegiatan penyuluhan keluarga berencana",
+        "orang yang diharapkan akan memegang peran penting",
+        "orang yang membantu pelaksanaan kegiatan partai"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Dalam konteks teks dan kamus, kader berarti orang yang diharapkan akan memegang peran penting dalam organisasi atau gerakan."
+    },
+    {
+      "text": "Pernyataan berikut yang sesuai dengan isi teks, yaitu ....",
+      "options": [
+        "Grup Menteng 31 kemudian mendirikan Barisan Buruh Indonesia pada tanggal 15 September dan juga mendirikan Barisan Rakyat (untuk peternak).",
+        "Di antara pimpinan lainnya terdapat D. N. Aidit (komunis), Pardjono, A. M. Hanafi, Kusnadi, Djohan Nur, dan Chalid Rasjidi.",
+        "Para pemuda komunis yang ada pada zaman itu berpikir dan bertindak sesuai dengan sikap dari seorang kader komunis.",
+        "Baik Aidit maupun Lukman dalam gerakan-gerakan pemuda/buruh di Jakarta yang waktu itu pasif memimpin pengisian kemerdekaan Indonesia bersama-sama dengan pemuda lain.",
+        "Sekarang ia datang dengan segala keterbatasannya. Kemerdekaan adalah sebuah mimpi yang menjadi kenyataan tetapi juga merupakan sebuah gedung besar yang kosong."
+      ],
+      "correctAnswer": "E",
+      "explanation": "Pernyataan pada opsi E sesuai persis dengan kalimat yang ada di paragraf pertama teks."
+    },
+    {
+      "text": "Simpulan yang tepat dari teks tersebut adalah :",
+      "options": [
+        "Pengisian kemerdekaan Indonesia dilakukan oleh para pemuda komunis.",
+        "Organisasi yang didirikan oleh para pemuda komunis memiliki tujuan kedua selain mengisi kemerdekaan.",
+        "Apapun latar belakangnya, sebagai manusia Indonesia harus membuat kemerdekaan negara ini tidak sia-sia.",
+        "“Generasi milenial” zaman itu memiliki peran penting dalam mengisi kemerdekaan.",
+        "Buruh dan tani memiliki peran yang sangat besar dalam pengisian kemerdekaan."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Teks membahas bagaimana para pemuda (generasi masa itu) berperan aktif dan mengambil bagian dalam mengisi awal kemerdekaan Indonesia."
+    },
+    {
+      "text": "Pernyataan berikut yang benar dan sesuai dengan teks, kecuali ....",
+      "options": [
+        "Sultan Agung memiliki dua permaisuri, yakni Ratu Kulon yang merupakan putri dari Sultan Cirebon, dan Ratu Wetan yang merupakan putri dari Tumenggung Upasanta.",
+        "Namun, usaha Sultan Agung yang direalisasikan pada tahun 1626 dan 1628 tersebut tidak membawa hasil.",
+        "Konon waktu itu, Pangeran Puger menukar bayi yang dilahirkan istrinya dengan bayi yang dilahirkan Dyah Banowati (istri Sunan Adi Prabu Hanyakrawati).",
+        "Bersama pasukannya, Sultan Agung menaklukkan Wirasaba (Mojoagung, Jombang) pada tahun 1615, Lasem dan Pasuruhan (1616), Pajang (1617), Madura (1624), Surabaya (1624), dan Blambangan (1640).",
+        "Raden Mas Rangsang (selanjutnya disebut Sultan Agung) merupakan putra Sunan Adi Prabu Hanyakrawati yang lahir dari Dyah Banowati."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Di dalam teks, tahun serangan Sultan Agung ke Batavia adalah 1628 dan 1629, bukan 1626 dan 1628."
+    },
+    {
+      "text": "Simpulan yang tepat untuk menjelaskan paragraf ketiga adalah ....",
+      "options": [
+        "Sultan Agung memiliki strategi perang yang hebat karena berhasil memperluas daerah kerajaan Mataram.",
+        "Sultan Agung hebat dalam melakukan tindakan persuasif sehingga banyak daerah yang mau menjadi bagian dari kerajaan Mataram.",
+        "Pasukan Mataram gagal menyerang Batavia karena adanya kendala dalam jumlah armada dan transportasi.",
+        "Usaha Sultan Agung dalam menaklukkan Batavia gagal karena daerah jajahannya terlalu luas sehingga mempermudah musuh dalam melakukan ancaman.",
+        "Karena berhasil menaklukkan Surabaya dan memiliki hasrat yang kuat, Sultan Agung akhirnya gagal dalam menaklukkan Batavia."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Paragraf ketiga menjelaskan keberhasilan Sultan Agung melakukan ekspansi wilayah dan menaklukkan banyak daerah meskipun gagal di Batavia."
+    },
+    {
+      "text": "Ide pokok pada paragraf ketiga terdapat pada kalimat ....",
+      "options": [
+        "Sesudah berhasil menaklukkan Surabaya, Sultan Agung berhasrat menaklukkan Banten.",
+        "Bahkan, pasukan Mataram yang menyerang Batavia berhasil diporakporandakan oleh VOC.",
+        "Sementara menjadi raja, Sultan Agung melakukan ekspansi wilayah kekuasaan.",
+        "Namun, usaha Sultan Agung yang direalisasikan pada tahun 1628 dan 1629 tersebut tidak membawa hasil.",
+        "Agar usahanya tersebut mendapat hasil, Sultan Agung harus menaklukkan VOC yang menjadi penghalangnya."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Kalimat pertama paragraf ketiga menjadi kalimat utama yang memuat ide pokok mengenai ekspansi wilayah kekuasaan oleh Sultan Agung."
+    },
+    {
+      "text": "Simpulan yang tepat dari teks tersebut adalah ....",
+      "options": [
+        "Sultan Agung bisa membuat Mataram mencapai masa kejayaannya karena dukungan dari orang tua dan kedua permaisurinya.",
+        "Setelah berhasil menaklukkan banyak daerah termasuk Batavia pada 1628, Sultan Agung layak disebut sebagai sultan yang berpengaruh besar dalam sejarah Mataram.",
+        "Banyak masyarakat Mataram yang mendapatkan akibat buruk dari gagalnya ekspansi wilayah yang dilakukan oleh Sultan Agung pada 1624.",
+        "Walaupun dipandang buruk oleh minoritas masyarakat, bukanlah menjadi penghalang bagi Sultan Agung dalam mencapai kejayaannya sebagai raja.",
+        "Sultan Agung berhasil menjadikan Mataram sebagai kerajaan yang besar."
+      ],
+      "correctAnswer": "E",
+      "explanation": "Secara keseluruhan, teks menceritakan garis besar kehidupan, silsilah, hingga perluasan wilayah kekuasaan Sultan Agung yang menjadikan Mataram kerajaan besar."
+    },
+    {
+      "text": "Arti kata “buah bibir“ yang terdapat pada paragraf 2 adalah ....",
+      "options": [
+        "bahan pembicaraan",
+        "bahan gosip",
+        "bahan pendiskusian",
+        "hasil dari pembicaraan",
+        "hasil diskusi"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Buah bibir adalah ungkapan yang berarti bahan pembicaraan orang banyak."
+    },
+    {
+      "text": "Pernyataan berikut yang sesuai dengan isi teks, yaitu ....",
+      "options": [
+        "Seorang agamis dan suci bernama Candra mencoba mendapatkan seorang gadis brengsek bernama Karen.",
+        "Kisah cinta yang tak terduga terjadi antara dua insan yang memiliki latar belakang yang berbeda, yaitu agamis dan realistis.",
+        "Candra memutuskan untuk mencari kesenangan “di depan mata” dan meninggalkan yang berjarak jauh.",
+        "Karena kesalahan Candra, akhirnya Karen memutuskan untuk pergi meninggalkannya.",
+        "Yang memicu konflik adalah karena Karen dan Candra terpisahkan oleh jarak."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Candra mulai tergoda oleh Aisyah yang ada di dekatnya karena merasa terpisahkan oleh jarak dengan Karen yang berada di tempat lain."
+    },
+    {
+      "text": "Ringkasan yang tepat untuk teks tersebut adalah ....",
+      "options": [
+        "Sepasang kekasih yang tidak terduga dan menjadi bahan pembicaraan, yaitu Aisyah dan Candra hidup sebagai sepasang insan yang berbahagia walaupun memiliki latar belakang sifat yang berbeda. Candra mulai tidak setia karena mereka terpisahkan oleh jarak dan tergoda kepada Karen yang ternyata sudah memiliki pacar. Namun, kesalahan Candra tetap dimaafkan oleh Aisyah karena telah jujur dan terbuka.",
+        "Sepasang kekasih yang tidak terduga dan menjadi bahan pembicaraan, yaitu Karen dan Candra hidup sebagai sepasang insan yang berbahagia walaupun memiliki latar belakang sifat yang berbeda. Karen mulai tidak setia karena mereka terpisahkan oleh jarak dan tergoda kepada Wandi yang ternyata sudah memiliki pacar. Namun, kesalahan Karen tetap dimaafkan oleh Candra karena telah jujur dan terbuka.",
+        "Sepasang kekasih yang tidak terduga dan menjadi bahan pembicaraan, yaitu Karen dan Candra hidup sebagai sepasang insan yang berbahagia walaupun memiliki latar belakang sifat yang berbeda.",
+        "Karen dan Candra berpisah karena jarak, namun kembali bersama setelah berbagai rintangan.",
+        "Kisah cinta Karen dan Candra kandas selamanya karena pengkhianatan."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Opsi C mencakup bagian awal ringkasan yang tepat menggambarkan keseluruhan premis cerita romansa antara Karen dan Candra."
+    },
+    {
+      "text": "Gagasan utama dari paragraf pertama cuplikan teks tersebut adalah ....",
+      "options": [
+        "Karen adalah seorang remaja gereja yang memiliki paras bagai bidadari dan hati bagai merpati.",
+        "Dia suka sekali membantu orang dan menyemangati orang.",
+        "Kehidupan percintaan seorang Karen dengan orang lain memang rumit.",
+        "Ada seorang brengsek bernama Candra mencoba untuk mendekati dirinya.",
+        "Ekspektasi seorang Candra yang terlalu tinggi tanpa disadari ternyata berhasil untuk terwujud"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "The main idea of the passage is ....",
+      "options": [
+        "Central Park is democratic by design.",
+        "Olmsted was a talented designer.",
+        "New York City is a democratic city.",
+        "More parks should be designed without centers.",
+        "Central Park is commonly used by many people for various purposes."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "The word commonplace in the last sentence of the passage most nearly means ....",
+      "options": [
+        "mediocre",
+        "ordinary",
+        "normal",
+        "inclusive",
+        "trite"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "In the passage, the author describes specific features of the park in order to ....",
+      "options": [
+        "show how well the author know the park.",
+        "provide evidence that the park has no center.",
+        "suggest the organization of the rest of the passage.",
+        "present both sides of an argument.",
+        "demonstrate of how large the park is."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "The passage suggests that Olmsted’s design ....",
+      "options": [
+        "did not succeed in creating a democratic playground",
+        "was radically different from other park designs.",
+        "was like most other parks being designed at the time.",
+        "was inspired by similar parks in Europe.",
+        "was initially very unpopular with New Yorkers."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "According to the passage, the main difference between gardeners and parents is ....",
+      "options": [
+        "Gardeners have to clean up spent petals, prune, and week unlike parents.",
+        "Plants become dependent on gardeners for water on hot summer days.",
+        "Gardeners have to apply insecticide and fertilizer unlike parents.",
+        "Unlike gardeners, parents have to provide children with vitamin supplements, food, and medicines.",
+        "Gardeners’ responsibilities never lessens year after year unlike parents who will enjoy decreasing responsibility with advancing years."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "The sentence \\( \\text{\\\"Like gardeners, parents find their children dependent upon them for food and nourishment.\\\"} \\) can be restated as ....",
+      "options": [
+        "Children rely on their parents for food as though a plant begs the gardener for water.",
+        "Just as parents to their children, gardeners are dependent for food and nourishment.",
+        "Plants depends on the gardeners for food and nourishment as parents to their children.",
+        "Gardeners are dependent for food and nourishment like parents to their children.",
+        "Children are dependent to parents just as gardeners to plants."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "The organizational pattern of the passage is ....",
+      "options": [
+        "cause and effect",
+        "chronological",
+        "problem and solution",
+        "order of importance",
+        "compare and contrast"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "The word 'spent' in the passage means ....",
+      "options": [
+        "Finished",
+        "Turned off",
+        "Dried",
+        "Bloomed",
+        "Grown"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Hubungan antara P dan Q dengan \\( P = \\frac{x^4 - 1}{x^3 - x^2 + x - 1} \\) dan \\( Q = x + 1 \\) adalah ....",
+      "options": [
+        "P > Q",
+        "P = Q",
+        "P < Q",
+        "P dan Q tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika \\( 2^x + 3^y = 8 \\) dan \\( 2^{\\frac{x}{y}} = 3 \\), maka nilai \\( \\frac{1}{x} + \\frac{1}{y} = \\dots \\)",
+      "options": [
+        "\\log_6 2",
+        "\\log_6 6",
+        "\\log_6 3",
+        "\\log_6 4",
+        "\\log_6 4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika diketahui \\( \\log x^2 - \\log y = 1 \\) dan \\( \\log x^2 + \\log y^2 = 16 \\), maka nilai \\( y - x = \\dots \\)",
+      "options": [
+        "9",
+        "99",
+        "990",
+        "9900",
+        "99000"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui:\n\\( x^2 + xy + xz = 1 \\)\n\\( y^2 + yz + yx = 6 \\)\n\\( z^2 + zx + zy = 9 \\)\nMaka nilai z adalah...",
+      "options": [
+        "\\frac{3}{4}",
+        "\\frac{3}{16}",
+        "\\frac{3}{8}",
+        "\\frac{9}{4}",
+        "\\frac{9}{16}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika \\( x = 2021^3 - 2019^3 \\), maka nilai dari \\( \\sqrt[6]{\\frac{x - 2}{6}} \\) adalah...",
+      "options": [
+        "2018",
+        "2020",
+        "2019",
+        "2021",
+        "2022"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Misalkan x, y, dan z menyatakan bilangan real yang memenuhi persamaan. Berapakah nilai x? Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut.\n(1) z = 1\n(2) x + y = 5",
+      "options": [
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan.",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup.",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "22, 14, 6, 36, 28, 8, 81, 40, y. Berapakah y = ...?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "14",
+        "15"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika nilai maksimum \\( f(x) = 3 \\sin 2x - 4 \\cos 2x + 3m \\) adalah 11, maka nilai maksimum dari \\( g(x) = 10 - \\frac{5m}{3 \\cos 2x - 4 \\sin 2x + 7} \\) adalah ...",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "7"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Suatu garis pada bilangan $xy$ melalui titik $\\left(\\frac{1}{2}, -2\\right)$ dan mempunyai gradien $2$. Manakah titik dengan koordinat berikut yang terletak pada garis itu?\n1. $(0, -3)$\n2. $(1, 1)$\n3. $(2, 1)$\n4. $(1, 3)$",
+      "options": [
+        "1, 2, 3 benar",
+        "1 dan 3 benar",
+        "2 dan 4 benar",
+        "4 saja yang benar",
+        "Benar semua"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Satu adonan beton dibuat dari $a$ bagian semen, dan $1$ bagian pasir. Telah digunakan $3$ bagian semen dan $5$ bagian pasir untuk membuat beberapa adonan beton tersebut. Manakah hubungan yang benar antara kuantitas $P$ dan $Q$ berikut?\nP: $5a$\nQ: $4$",
+      "options": [
+        "P < Q",
+        "P > Q",
+        "P = Q",
+        "Informasi tidak cukup",
+        "Tidak ada pilihan yang tepat"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar berikut! Daerah yang diarsir dapat dinyatakan sebagai ....",
+      "options": [
+        "$(A \\cup (B \\cup C)) - (C \\cup A)$",
+        "$((A \\cup B) - C) \\cup (A \\cup B \\cup C)$",
+        "$(B - (A \\cup C)) \\cup (A \\cup B \\cup C)$",
+        "$((A - B) \\cup C) \\cup ((B \\cup C) - A)$",
+        "$((C \\cup A) - B) \\cup (A \\cup B \\cup C)$"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Mana yang nilainya paling besar?",
+      "options": [
+        "\\frac{1}{3} \\times 11\\%",
+        "\\frac{1}{2} \\times 33\\%",
+        "\\frac{1}{6} \\times 22\\%",
+        "\\frac{1}{6} \\times 44\\%",
+        "\\frac{1}{4} \\times 50\\%"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dari pola berikut, tentukan nilai $x$!",
+      "options": [
+        "6",
+        "8",
+        "7",
+        "10",
+        "11"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika informasi yang diberikan seperti pada gambar, berapa nilai $x$?\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut:\n1. Nilai $a$ diketahui\n2. Nilai $b$ diketahui",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) saja tidak cukup.",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) saja tidak cukup.",
+        "DUA pernyataan bersama-sama cukup untuk menjawab pertanyaan, tetapi SATU saja tidak cukup.",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) saja cukup.",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapa luas daerah berwarna abu-abu?\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut:\n1. Nilai $r$ diketahui\n2. Nilai $x$ diketahui",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) saja tidak cukup.",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) saja tidak cukup.",
+        "DUA pernyataan bersama-sama cukup untuk menjawab pertanyaan, tetapi SATU saja tidak cukup.",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) saja cukup.",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "$n$ adalah bilangan ganjil terbesar yang tidak lebih dari $x$ dan habis dibagi $9$.\nManakah hubungan yang benar antara kuantitas $P$ dan $Q$ berikut berdasarkan informasi yang diberikan?\nP: Banyaknya faktor prima dari $n$ jika $x \\le 1000$\nQ: Banyaknya faktor prima dari $n$ jika $x \\le 100$",
+      "options": [
+        "P > Q",
+        "Q > P",
+        "P = Q",
+        "Informasi yang diberikan tidak cukup untuk menentukan hubungan P dan Q pada opsi di atas",
+        "P dan Q bernilai sama besar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "$3n$ habis dibagi $9$.\n$4$ membagi habis $n$.\n$a$ habis dibagi $6$.\n$n > a > 0$\nManakah hubungan yang benar antara kuantitas $P$ dan $Q$ berikut berdasarkan informasi yang diberikan?\nP: nilai minimal $n$ yang mungkin\nQ: nilai minimal dari $3a$",
+      "options": [
+        "P > Q",
+        "Q > P",
+        "P = Q",
+        "Informasi yang diberikan tidak cukup untuk menentukan hubungan P dan Q pada opsi di atas",
+        "P tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika diberikan $2$ bola identik, $3$ kubus identik, dan $1$ limas segitiga, berapa banyaknya cara menyusun keenam bangun tersebut pada suatu garis melintang jika paling tidak ada $2$ kubus yang disusun bersebelahan",
+      "options": [
+        "20",
+        "30",
+        "40",
+        "60",
+        "120"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "$a$ bilangan ganjil.\n$b$ bilangan genap.\nManakah dari keempat pernyataan berikut yang bernilai benar?\n1. $3a^2 + ab - a$ genap\n2. $3b^2 - 2a^2 + a$ genap\n3. $ab^2 - ab + 3a$ ganjil\n4. $3a^2b - 2a^2 + 4a$ ganjil",
+      "options": [
+        "(1), (2), (3)",
+        "(1), (3)",
+        "(2), (4)",
+        "(4)",
+        "Keempat pernyataan bernilai salah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "1, 1, 2, 3, 4, 5, 8, ....",
+      "options": [
+        "6",
+        "7",
+        "9",
+        "10",
+        "11"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

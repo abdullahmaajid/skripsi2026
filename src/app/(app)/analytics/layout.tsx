@@ -49,14 +49,14 @@ export default function AnalyticsLayout({ children }: { children: React.ReactNod
         </div>
 
         {/* Banner Section */}
-        <div className="bg-gradient-to-br from-[var(--pastel-blue)] to-white border border-blue-500/20 rounded-3xl p-6 md:p-8 shadow-sm relative overflow-hidden">
+        <div className="bg-gradient-to-br from-[var(--pastel-purple)] to-white border border-[var(--accent)]/20 rounded-3xl p-6 md:p-8 shadow-sm relative overflow-hidden">
           <div className="absolute top-0 right-0 p-8 opacity-[0.03] pointer-events-none">
             <BarChart2 className="w-48 h-48" />
           </div>
           
           <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
             <div>
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-blue-50 text-blue-600 text-xs font-bold rounded-full uppercase tracking-wider mb-3">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-[var(--accent)]/10 text-[var(--accent-dark)] text-xs font-bold rounded-full uppercase tracking-wider mb-3">
                 <Activity className="w-3.5 h-3.5" /> Pusat Data
               </span>
               <h2 className="text-xl md:text-2xl font-bold text-slate-800">
@@ -73,10 +73,10 @@ export default function AnalyticsLayout({ children }: { children: React.ReactNod
             </div>
           </div>
 
-          <div className="mt-6 bg-white/60 rounded-2xl p-4 md:p-5 border border-blue-500/10">
+          <div className="mt-6 bg-white/60 rounded-2xl p-4 md:p-5 border border-[var(--accent)]/10">
             <div className="flex items-start gap-3">
               <div className="shrink-0 mt-0.5">
-                <BarChart2 className="w-5 h-5 text-blue-500" />
+                <BarChart2 className="w-5 h-5 text-[var(--accent)]" />
               </div>
               <div className="text-slate-600 space-y-1 text-sm leading-relaxed">
                 <strong className="text-slate-800 block mb-1">Info Pemrosesan Data</strong>

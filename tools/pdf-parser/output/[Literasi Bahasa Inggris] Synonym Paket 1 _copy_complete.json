@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "text": "The word \"nature\" in paragraph 2 is closest in meaning to which of the following?",
+      "options": [
+        "characteristic",
+        "existence",
+        "quality",
+        "state",
+        "kind"
+      ],
+      "correctAnswer": "characteristic",
+      "explanation": null
+    },
+    {
+      "text": "The word \"amazing\" in paragraph 4 is closest meaning to which of the following?",
+      "options": [
+        "well-known",
+        "outstanding",
+        "striking",
+        "surprising",
+        "unusual"
+      ],
+      "correctAnswer": "surprising",
+      "explanation": null
+    },
+    {
+      "text": "The word \"exacerbate\" in paragraph 5 is closest in meaning to which of the following?",
+      "options": [
+        "exaggerate",
+        "evoke",
+        "worsen",
+        "cause",
+        "irritate"
+      ],
+      "correctAnswer": "worsen",
+      "explanation": null
+    },
+    {
+      "text": "The word “issue” in paragraph 2 can be replaced by …",
+      "options": [
+        "Reason",
+        "Occasion",
+        "Origin",
+        "Problem",
+        "Implication"
+      ],
+      "correctAnswer": "Problem",
+      "explanation": null
+    },
+    {
+      "text": "The phrase “carrying out” in paragraph 2 can be replaced by …",
+      "options": [
+        "Halt",
+        "Consume",
+        "Fulfil",
+        "Achieve",
+        "Implement"
+      ],
+      "correctAnswer": "Implement",
+      "explanation": null
+    },
+    {
+      "text": "The underlined word 'dwindling' in paragraph above means ...",
+      "options": [
+        "shrinking",
+        "expanding",
+        "increasing",
+        "varying",
+        "lengthening"
+      ],
+      "correctAnswer": "shrinking",
+      "explanation": null
+    },
+    {
+      "text": "The underlined word \"maintain\" in paragraph above most likely means …",
+      "options": [
+        "take care of",
+        "state",
+        "recover",
+        "remove",
+        "add"
+      ],
+      "correctAnswer": "take care of",
+      "explanation": null
+    },
+    {
+      "text": "The underlined word \"exonerate\" in paragraph above can be replaced by ...",
+      "options": [
+        "punish",
+        "sentence",
+        "acquit",
+        "praise",
+        "arson"
+      ],
+      "correctAnswer": "acquit",
+      "explanation": null
+    },
+    {
+      "text": "The word “accompaniment” in paragraph above is closest in meaning to",
+      "options": [
+        "Two types of musical instruments played at the same time",
+        "A pianist who plays one part of a piece of music while someone else sings",
+        "Music that is played as a background to a song",
+        "To escort someone to for somewhere",
+        "To make something more adequate"
+      ],
+      "correctAnswer": "Music that is played as a background to a song",
+      "explanation": null
+    },
+    {
+      "text": "The word ‘dock’ in paragraph above means…",
+      "options": [
+        "Land",
+        "Air",
+        "Launch",
+        "Rise",
+        "Grant"
+      ],
+      "correctAnswer": "Land",
+      "explanation": null
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan paragraf di atas, manakah pernyataan yang PASTI BENAR?",
+      "options": [
+        "Membakar lemper sebelum disantap akan membuatnya cepat basi",
+        "Tingkat kematangan lemper diukur dari seberapa gosong kulit luarnya",
+        "Tingkat higienitas alat masak berpengaruh pada cepat atau lambatnya pembasian lemper",
+        "Lemper hanya bisa disantap dalam waktu tiga hari",
+        "Lemper tidak akan lebih awet apabila dimasukkan ke kulkas"
+      ],
+      "correctAnswer": "Tingkat higienitas alat masak berpengaruh pada cepat atau lambatnya pembasian lemper",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf di atas, manakah pernyataan yang PASTI BENAR?",
+      "options": [
+        "Kurma merupakan buah yang hanya ada pada bulan ramadhan",
+        "Kurma menjadi primadona saat hari valentine",
+        "Kurma adalah buah yang tidak baik untuk kesehatan",
+        "Kurma menjadi buah yang banyak diburu selama bulan ramadhan",
+        "Mengonsumsi kurma saat berbuka bukan merupakan sunah Nabi Muhammad SAW"
+      ],
+      "correctAnswer": "Kurma menjadi buah yang banyak diburu selama bulan ramadhan",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf di atas, manakah pernyataan yang PASTI SALAH?",
+      "options": [
+        "Kolak asli hanya terbuat dari irisan pisang, singkong, ubi yang dicampur gula aren dan santan.",
+        "Kolak merupakan bentuk akulturasi kebudayaan lokal dan Timur Tengah",
+        "Kolak merupakan perpaduan antara makanan manis serta bahan lokal nusantara",
+        "Kolak merupakan makanan yang sudah populer sejak lama",
+        "Kolak adalah salah satu makanan yang diingat, khususnya ketika berbuka puasa"
+      ],
+      "correctAnswer": "Kolak asli hanya terbuat dari irisan pisang, singkong, ubi yang dicampur gula aren dan santan.",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf di atas, manakah pernyataan yang PASTI BENAR?",
+      "options": [
+        "Ngadulag telah dilaksanakan sejak zaman Sunan Gunungjati",
+        "Ngadulag adalah salah satu kebudayaan dari Jawa Timur",
+        "Ngadulag dilakukan hanya pada saat sahur",
+        "Tradisi ngadulag dilakukan pada masa Ramadhan, khususnya di Jawa Barat",
+        "Ngadulag hanya dilakukan oleh anak-anak"
+      ],
+      "correctAnswer": "Tradisi ngadulag dilakukan pada masa Ramadhan, khususnya di Jawa Barat",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf di atas, manakah pernyataan yang PASTI SALAH?",
+      "options": [
+        "Kanker kolorektal menempati posisi ketiga dengan insiden kasus terbanyak di Indonesia, setelah kanker serviks dan kanker payudara, dengan 25.997 kasus yang dilaporkan pada tahun 2022.",
+        "Sebanyak 1.400 pasien kanker kolorektal berusia di bawah 40 tahun, dengan rincian 968 pasien berusia 30-39 tahun dan 446 pasien berusia 20-29 tahun.",
+        "Angka kasus kanker kolorektal diperkirakan akan terus meningkat jika tidak ada perubahan signifikan dalam gaya hidup dan pola konsumsi makanan.",
+        "Banyak kasus kanker kolorektal ditangani pada stadium lanjut, sehingga peluang kesembuhan lebih rendah dibandingkan jika teridentifikasi pada stadium awal.",
+        "Bila tidak ada perubahan, angka pengidap kanker kolorektal akan menurun"
+      ],
+      "correctAnswer": "Bila tidak ada perubahan, angka pengidap kanker kolorektal akan menurun",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf di atas, manakah pernyataan yang PASTI SALAH?",
+      "options": [
+        "Gen Z berbeda dengan generasi milenial, yang tumbuh dengan televisi kabel dan telepon rumah sambil mengalami kebangkitan internet.",
+        "Gen Z hidup sepenuhnya dalam dunia digital dan sangat akrab dengan teknologi digital.",
+        "Sebagian besar Gen Z tidak mengingat kehidupan sebelum adanya smartphone, karena mereka lahir dan tumbuh di era di mana smartphone sudah menjadi bagian integral dari kehidupan sehari-hari.",
+        "Gen Z tidak terisolasi dari dunia digital",
+        "Gen Z terisolasi dari dunia digital dan lebih akrab dengan teknologi analog seperti televisi kabel dan telepon rumah."
+      ],
+      "correctAnswer": "Gen Z terisolasi dari dunia digital dan lebih akrab dengan teknologi analog seperti televisi kabel dan telepon rumah.",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan premis di atas, manakah simpulan yang TEPAT?",
+      "options": [
+        "Rina akan mendapatkan nilai yang buruk.",
+        "Rina akan mendapatkan nilai yang baik.",
+        "Rina tidak perlu belajar karena sudah pintar.",
+        "Rina akan sering bolos sekolah.",
+        "Rina tidak peduli dengan tugas sekolah."
+      ],
+      "correctAnswer": "Rina akan mendapatkan nilai yang baik.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan yang paling tepat mengenai hasil penelitian tersebut?",
+      "options": [
+        "Memperkuat pernyataan pakar A",
+        "Memperlemah pernyataan pakar A",
+        "Memperkuat pernyataan pakar B",
+        "Memperlemah pernyataan pakar B",
+        "Tidak relevan dengan pernyataan pakar A dan pakar B"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan yang paling tepat mengenai hasil penelitian tersebut?",
+      "options": [
+        "Memperkuat pernyataan pakar A.",
+        "Memperlemah pernyataan pakar A",
+        "Memperkuat pernyataan pakar B",
+        "Memperlemah pernyataan pakar B",
+        "Tidak relevan dengan pernyataan pakar A dan pakar B"
+      ],
+      "correctAnswer": "Tidak relevan dengan pernyataan pakar A dan pakar B",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan yang paling tepat mengenai hasil penelitian tersebut?",
+      "options": [
+        "Memperkuat pernyataan pakar A",
+        "Memperlemah pernyataan pakar A",
+        "Memperkuat pernyataan pakar B",
+        "Memperlemah pernyataan pakar B",
+        "Tidak relevan dengan pernyataan pakar A dan pakar B"
+      ],
+      "correctAnswer": "Memperkuat pernyataan pakar B",
+      "explanation": null
+    },
+    {
+      "text": "Studi terbaru mengungkapkan bahwa suplemen vitamin C dosis tinggi ternyata tidak memberikan manfaat signifikan dalam mencegah pilek atau flu. Dalam sebuah analisis dari 30 penelitian, ditemukan bahwa konsumsi vitamin C dosis tinggi hanya mengurangi durasi pilek sekitar 8% pada orang dewasa dan 14% pada anak-anak, tetapi tidak efektif dalam mencegah infeksi. Vitamin C, meskipun dikenal sebagai antioksidan kuat yang mendukung sistem kekebalan tubuh, tidak dapat menggantikan peran pola makan seimbang dan gaya hidup sehat. Para ahli menyarankan agar masyarakat fokus pada konsumsi buah dan sayuran alami yang kaya vitamin C, seperti jeruk dan brokoli, daripada mengandalkan suplemen dosis tinggi yang berpotensi menimbulkan efek samping jika dikonsumsi berlebihan. Manakah pernyataan di bawah ini yang MEMPERLEMAH pernyataan di atas?",
+      "options": [
+        "1, 3, dan 5",
+        "1, 3, dan 4",
+        "2, 3, dan 4",
+        "1, dan 5",
+        "Hanya 1 saja"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Studi terbaru mengungkapkan bahwa minum air putih dalam jumlah berlebihan justru dapat membahayakan kesehatan. Meskipun hidrasi yang cukup penting untuk fungsi tubuh, konsumsi air melebihi kebutuhan harian dapat menyebabkan hiponatremia, yaitu kondisi di mana kadar natrium dalam darah turun drastis. Gejalanya meliputi mual, sakit kepala, hingga dalam kasus parah, kejang dan koma. Para ahli menyarankan untuk minum air sesuai kebutuhan individu, biasanya sekitar 2-3 liter per hari, dan tidak memaksakan diri untuk minum berlebihan hanya karena tren atau anjuran umum. Keseimbangan adalah kunci utama dalam menjaga kesehatan tubuh. Manakah pernyataan di bawah ini yang MEMPERLEMAH pernyataan di atas?",
+      "options": [
+        "1, 3, dan 5",
+        "1, 3, dan 4",
+        "2, 3, dan 4",
+        "1 dan 4",
+        "Hanya 3 saja"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah studi mengungkapkan bahwa olahraga berlebihan tanpa pemulihan yang cukup justru dapat merusak kesehatan tubuh. Meskipun aktivitas fisik penting untuk menjaga kebugaran, latihan intensif tanpa istirahat yang memadai dapat menyebabkan sindrom overtraining, yang ditandai dengan kelelahan kronis, penurunan performa, dan risiko cedera yang lebih tinggi. Gejalanya meliputi nyeri otot berkepanjangan, gangguan tidur, hingga penurunan sistem kekebalan tubuh. Para ahli menyarankan untuk menjaga keseimbangan antara latihan dan pemulihan, dengan memberikan waktu istirahat yang cukup serta nutrisi yang tepat. Manakah pernyataan di bawah ini yang MEMPERLEMAH pernyataan di atas?",
+      "options": [
+        "2, 3, dan 5",
+        "1, 3, dan 4",
+        "2, 3, dan 4",
+        "1 dan 4",
+        "Hanya 3 saja"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada tahun-tahun sebelumnya, tingkat absensi karyawan di perusahaan Y sangat tinggi. Namun, dalam beberapa tahun terakhir, tingkat absensi di perusahaan Y menurun secara signifikan. Manakah pernyataan berikut yang PALING MUNGKIN menjelaskan perbedaan kondisi tersebut?",
+      "options": [
+        "Perusahaan Y mengurangi jumlah hari libur yang diberikan kepada karyawan dalam beberapa tahun terakhir.",
+        "Perusahaan Y menerapkan sistem insentif bagi karyawan yang memiliki tingkat kehadiran tinggi",
+        "Perusahaan Y mengurangi jumlah karyawan yang bekerja di bagian produksi",
+        "Perusahaan Y meningkatkan jumlah jam kerja per minggu",
+        "Perusahaan Y mengurangi fasilitas kesehatan yang disediakan bagi karyawan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dalam lima tahun terakhir, tingkat produktivitas di perusahaan A meningkat secara signifikan, sementara tingkat resign karyawan menurun drastis. Pada periode yang sama, perusahaan A juga meluncurkan beberapa program baru terkait pengembangan karyawan dan manajemen kinerja. Manakah pernyataan berikut yang PALING MUNGKIN menjelaskan kondisi tersebut?",
+      "options": [
+        "Perusahaan A mengurangi jam kerja karyawan secara signifikan dalam lima tahun terakhir",
+        "Perusahaan A meningkatkan insentif finansial dan non-finansial bagi karyawan yang menunjukkan kinerja tinggi",
+        "Perusahaan A memindahkan lokasi pabrik ke daerah dengan biaya operasional lebih rendah",
+        "Perusahaan A mengurangi jumlah proyek yang dikerjakan secara tim dan lebih fokus pada pekerjaan individu",
+        "Perusahaan A mengalihkan sebagian besar operasionalnya ke sistem otomatisasi berbasis teknologi"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Andi adalah seorang petani yang selalu memantau cuaca untuk merencanakan aktivitasnya. Ia tahu bahwa jika hari ini hujan, maka ladangnya akan basah. Suatu pagi, Andi pergi ke ladang dan melihat bahwa ladangnya tidak basah. Manakah kesimpulan yang paling tepat?",
+      "options": [
+        "Hari ini tidak hujan",
+        "Hari ini hujan",
+        "Ladang basah karena hujan",
+        "Jika ladang basah, maka hari ini hujan",
+        "Ladang tidak basah karena tidak hujan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Budi tahu bahwa jika ia menulis kode dengan rapi dan terstruktur, maka program yang ia buat akan berjalan lancar tanpa bug. Suatu hari, Budi menulis kode dengan sangat rapi dan terstruktur untuk proyek barunya. Berdasarkan hal tersebut manakah kesimpulan yang PALING TEPAT?",
+      "options": [
+        "Program Budi tidak berjalan lancar",
+        "Program Budi berjalan lancar tanpa bug",
+        "Jika program berjalan lancar, maka Budi menulis kode dengan rapi",
+        "Budi tidak menulis kode dengan rapi",
+        "Program Budi mengalami banyak bug karena kodenya tidak terstruktur"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang akan MEMPERKUAT argumen Direktur Keuangan tersebut?",
+      "options": [
+        "Anggaran rumah sakit tahun ini dialokasikan paling banyak untuk pembelian alat medis berteknologi tinggi dari produsen luar negeri",
+        "Sebagian produsen luar negeri menawarkan harga alat medis yang tidak lebih mahal daripada produsen lokal",
+        "Jumlah alat medis yang dibeli dari produsen luar negeri tidak lebih banyak daripada dari produsen lokal",
+        "Sebagian biaya operasional untuk pengeluaran selain pembelian alat medis mengalami penurunan",
+        "Beberapa alat medis dari produsen luar negeri memiliki fitur yang lebih canggih daripada alat medis lokal"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Laporan keuangan kedai kopi H menunjukkan peningkatan biaya operasional yang signifikan pada tahun ini. Pemilik kedai kopi tersebut menyatakan bahwa penggunaan biji kopi spesial impor menjadi penyebab utama pemborosan anggaran. Manakah pernyataan berikut yang akan MEMPERLEMAH argumen Pemilik Kedai Kopi tersebut?",
+      "options": [
+        "Anggaran kedai kopi tahun ini dialokasikan paling banyak untuk pembelian biji kopi lokal",
+        "Sebagian biji kopi spesial impor memiliki harga yang tidak lebih murah daripada biji kopi lokal",
+        "Jumlah biji kopi spesial impor yang digunakan lebih banyak daripada biji kopi lokal",
+        "Sebagian biaya operasional untuk pengeluaran selain biji kopi mengalami peningkatan",
+        "Biji kopi spesial impor memiliki kualitas yang lebih bagus daripada biji kopi lokal"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Konsumsi gula berlebihan dapat menyebabkan seseorang terkena diabetes. Andi tidak mengonsumsi gula. Manakah kesimpulan yang PALING TEPAT berdasarkan informasi tersebut?",
+      "options": [
+        "Andi tidak akan terkena diabetes",
+        "Andi berisiko tinggi terkena diabetes",
+        "Andi mengurangi konsumsi gula secara signifikan",
+        "Konsumsi gula tidak berpengaruh pada kesehatan",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan tabel berikut untuk menjawab soal nomor 21-22! Nilai akhir siswa berprestasi di suatu sekolah ditentukan dengan menjumlahkan nilai capaian akademik dan nilai keaktifan dalam kegiatan. Bobot nilai capaian akademik $80\\%$, sedangkan bobot nilai keaktifan kegiatan non-akademik $20\\%$. Berikut adalah nilai lima siswa terbaik di sekolah. Siswa E: Nilai akademik 9, Nilai non-akademik 6. Siswa F: Nilai akademik 6, Nilai non-akademik 7. Siswa G: Nilai akademik 8, Nilai non-akademik 6. Siswa H: Nilai akademik 8, Nilai non-akademik 7. Siswa I: Nilai akademik 10, Nilai non-akademik 8. Diantara ke lima siswa tersebut, siswa mana yang paling berprestasi?",
+      "options": [
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan tabel berikut untuk menjawab soal nomor 21-22! Nilai akhir siswa berprestasi di suatu sekolah ditentukan dengan menjumlahkan nilai capaian akademik dan nilai keaktifan dalam kegiatan. Bobot nilai capaian akademik $80\\%$, sedangkan bobot nilai keaktifan kegiatan non-akademik $20\\%$. Berikut adalah nilai lima siswa terbaik di sekolah. Siswa E: Nilai akademik 9, Nilai non-akademik 6. Siswa F: Nilai akademik 6, Nilai non-akademik 7. Siswa G: Nilai akademik 8, Nilai non-akademik 6. Siswa H: Nilai akademik 8, Nilai non-akademik 7. Siswa I: Nilai akademik 10, Nilai non-akademik 8. Diantara ke lima siswa tersebut, siswa mana yang berada di urutan ke-3 berprestasi?",
+      "options": [
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Di sebuah lomba balap sepeda, terdapat enam peserta: Adam, Ben, Cindy, Dela, Elia, dan Fikri. Hasil balapan menunjukkan urutan finis mereka berdasarkan beberapa petunjuk berikut: Adam finis lebih cepat daripada Cindy, tetapi lebih lambat daripada Ben. Dela finis lebih cepat daripada Elia. Fikri finis lebih lambat daripada Dela. Cindy finis lebih cepat daripada Fikri, namun tidak lebih cepat dari Dela. Berdasarkan informasi di atas, siapakah yang finis di urutan terakhir?",
+      "options": [
+        "Adam",
+        "Ben",
+        "Dela",
+        "Cindy",
+        "Elia"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Di sebuah lomba memancing, ada lima peserta: Leo, Mita, Nando, Oki, dan Pita. Hasil tangkapan ikan mereka adalah sebagai berikut: Nando menang lebih banyak ikan dari Oki, tetapi kurang dari Mita. Pita menang lebih banyak ikan dari Oki, dan Leo menang lebih banyak dari Pita. Mita menang lebih banyak ikan daripada Nando. Siapakah yang mendapatkan ikan paling sedikit?",
+      "options": [
+        "Leo",
+        "Mila",
+        "Nando",
+        "Oki",
+        "Pita"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah di antara bilangan-bilangan berikut ini yang bernilai paling kecil?",
+      "options": [
+        "\\frac{1}{8} \\times 160",
+        "0,2 \\times 15",
+        "\\frac{1}{10} \\times 100",
+        "\\frac{1}{4} \\times 40",
+        "\\frac{1}{6} \\times 72"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Budi menjual televisi seharga Rp4.500.000 dan mengalami kerugian sebesar $10\\%$. Harga awal televisi tersebut adalah?",
+      "options": [
+        "Rp5.000.000",
+        "Rp5.100.000",
+        "Rp5.200.000",
+        "Rp5.300.000",
+        "Rp5.400.000"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Untuk membuat sabun, Rudi memerlukan 5 jenis bahan. Bahan terdiri dari minyak kelapa, soda api, air, pewarna, dan pewangi. Takaran yang dibutuhkan untuk masing-masing minyak kelapa, soda api, air, pewarna, dan pewangi adalah 9 : 4 : 4 : 2 : 1 untuk membuat sabun per kilonya. Jika Rudi mendapat pesanan untuk membuat 200 kg sabun, berapa berat soda api yang dibutuhkan?",
+      "options": [
+        "20 kg",
+        "25 kg",
+        "30 kg",
+        "35 kg",
+        "40 kg"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Untuk membuat sabun, Rudi memerlukan 5 jenis bahan. Bahan terdiri dari minyak kelapa, soda api, air, pewarna, dan pewangi. Takaran yang dibutuhkan untuk masing-masing minyak kelapa, soda api, air, pewarna, dan pewangi adalah 9 : 4 : 4 : 2 : 1 untuk membuat sabun per kilonya. Jika Rudi mendapat pesanan untuk membuat 300 kg sabun, berapa berat minyak kelapa yang dibutuhkan?",
+      "options": [
+        "120 kg",
+        "125 kg",
+        "130 kg",
+        "135 kg",
+        "140 kg"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jumlah pengunjung toko Koffe dari awal pembukaannya secara berturut turut adalah 130, 111, 135, 122, 140, 133, dan 145. Jika jumlah pengunjung toko berubah secara konstan, berapa pengunjung yang datang pada hari ke 8?",
+      "options": [
+        "155",
+        "145",
+        "144",
+        "141",
+        "143"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jumlah pengunjung toko Koffe dari awal pembukaannya secara berturut turut adalah 13, 9, 15, 12, 17, 15, 19 Jika jumlah pengunjung toko berubah secara konstan, berapa pengunjung yang datang pada hari ke 9?",
+      "options": [
+        "21",
+        "24",
+        "23",
+        "25",
+        "27"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Manakah pernyataan berikut yang benar berdasarkan teks?",
+      "options": [
+        "Hutan hujan tropis tidak berperan dalam mengurangi efek perubahan iklim",
+        "Deforestasi tidak berdampak pada kelangsungan hidup spesies hewan dan tumbuhan",
+        "Reboisasi merupakan salah satu langkah untuk melestarikan hutan hujan tropis",
+        "Semakin luas hutan yang ditebang, semakin baik kualitas udara di bumi",
+        "Hutan hujan tropis tidak memiliki pengaruh terhadap ekosistem global"
+      ],
+      "correctAnswer": "Reboisasi merupakan salah satu langkah untuk melestarikan hutan hujan tropis",
+      "explanation": null
+    },
+    {
+      "text": "Simpulan yang tepat berdasarkan teks adalah...",
+      "options": [
+        "Deforestasi harus terus dilakukan agar manusia bisa memperoleh lebih banyak lahan untuk pemukiman",
+        "Hutan hujan tropis hanya penting bagi satwa liar dan tidak berpengaruh pada kehidupan manusia",
+        "Kerusakan hutan hujan tropis dapat memberikan dampak buruk terhadap keseimbangan lingkungan dan keberlanjutan hidup makhluk hidup",
+        "Hutan hujan tropis dapat ditebang sesuka hati karena tidak memiliki peran penting dalam ekosistem",
+        "Pemanasan global tidak dipengaruhi oleh hilangnya hutan hujan tropis"
+      ],
+      "correctAnswer": "Kerusakan hutan hujan tropis dapat memberikan dampak buruk terhadap keseimbangan lingkungan dan keberlanjutan hidup makhluk hidup",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata mitigasi dalam teks di atas adalah...",
+      "options": [
+        "Upaya untuk memperburuk dampak bencana alam",
+        "Proses meningkatkan aktivitas vulkanik agar tanah lebih subur",
+        "Langkah-langkah yang dilakukan untuk mengurangi risiko bencana",
+        "Cara mempercepat letusan gunung berapi secara alami",
+        "Metode menghentikan seluruh aktivitas gunung berapi secara permanen"
+      ],
+      "correctAnswer": "Langkah-langkah yang dilakukan untuk mengurangi risiko bencana",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang dimaksud dengan gunung berapi dorman dalam teks?",
+      "options": [
+        "Gunung berapi yang masih aktif dan sering meletus",
+        "Gunung berapi yang tidak pernah mengalami letusan sama sekali",
+        "Gunung berapi yang sudah mati dan tidak menunjukkan aktivitas vulkanik lagi",
+        "Gunung berapi yang tidak meletus dalam waktu lama tetapi masih berpotensi aktif",
+        "Gunung berapi yang setiap hari mengeluarkan lava dan abu vulkanik"
+      ],
+      "correctAnswer": "Gunung berapi yang tidak meletus dalam waktu lama tetapi masih berpotensi aktif",
+      "explanation": null
+    },
+    {
+      "text": "Tema utama dari teks di atas adalah...",
+      "options": [
+        "Keindahan alam Rusia yang memesona",
+        "Sumber daya alam Rusia yang sangat terbatas",
+        "Sejarah dan pengaruh pemimpin besar dalam perkembangan Rusia",
+        "Kehidupan sosial masyarakat Rusia di abad ke-21",
+        "Hubungan Rusia dengan negara-negara lain di dunia"
+      ],
+      "correctAnswer": "Sejarah dan pengaruh pemimpin besar dalam perkembangan Rusia",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks, watak Pyotr I (Peter the Great) dapat digambarkan sebagai berikut, kecuali...",
+      "options": [
+        "Visioner dan berpikiran maju",
+        "Tegas dalam kepemimpinan",
+        "Berani mengambil keputusan besar",
+        "Pasif dan tidak ingin melakukan perubahan",
+        "Berusaha membawa Rusia menjadi negara yang lebih kuat"
+      ],
+      "correctAnswer": "Pasif dan tidak ingin melakukan perubahan",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang salah berdasarkan teks?",
+      "options": [
+        "Amazon adalah hutan hujan terbesar di dunia",
+        "Amazon disebut sebagai paru-paru dunia karena menghasilkan oksigen dalam jumlah besar",
+        "Amazon hanya terletak di wilayah Brasil",
+        "Deforestasi di Amazon berdampak pada perubahan iklim global",
+        "Banyak spesies di Amazon belum teridentifikasi oleh para ilmuwan"
+      ],
+      "correctAnswer": "Amazon hanya terletak di wilayah Brasil",
+      "explanation": null
+    },
+    {
+      "text": "Simpulan yang tepat berdasarkan teks adalah...",
+      "options": [
+        "Amazon merupakan hutan yang tidak memiliki peran penting dalam ekosistem global",
+        "Deforestasi di Amazon tidak berdampak pada lingkungan secara keseluruhan",
+        "Amazon adalah ekosistem yang kaya dan memiliki peran penting bagi keseimbangan lingkungan dunia",
+        "Meskipun luas, Amazon bukanlah hutan yang memiliki keanekaragaman hayati tinggi",
+        "Tidak ada upaya yang dilakukan untuk melindungi hutan Amazon dari kerusakan"
+      ],
+      "correctAnswer": "Amazon adalah ekosistem yang kaya dan memiliki peran penting bagi keseimbangan lingkungan dunia",
+      "explanation": null
+    },
+    {
+      "text": "Ide pokok dari teks di atas adalah...",
+      "options": [
+        "Samudra merupakan rumah bagi banyak spesies laut",
+        "Pencemaran laut menjadi ancaman serius bagi kehidupan di dalamnya",
+        "Samudra memiliki peran penting dalam menjaga keseimbangan iklim dan ekonomi",
+        "Sampah plastik dan limbah industri merupakan penyebab utama pencemaran laut",
+        "Kampanye kesadaran lingkungan sangat diperlukan untuk menyelamatkan laut"
+      ],
+      "correctAnswer": "Samudra memiliki peran penting dalam menjaga keseimbangan iklim dan ekonomi",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang benar berdasarkan teks?",
+      "options": [
+        "Samudra hanya memiliki peran dalam sektor ekonomi dan transportasi",
+        "Pencemaran laut tidak berdampak pada kehidupan spesies laut",
+        "Sampah plastik dan limbah industri adalah penyebab utama pencemaran laut",
+        "Upaya pengurangan pencemaran laut tidak diperlukan karena dampaknya kecil",
+        "Samudra hanya menutupi sekitar 50% dari permukaan bumi"
+      ],
+      "correctAnswer": "Sampah plastik dan limbah industri adalah penyebab utama pencemaran laut",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata kecerdikan dalam teks di atas adalah...",
+      "options": [
+        "Kemampuan seseorang dalam melakukan tipu daya",
+        "Kebiasaan seseorang untuk bertindak curang",
+        "Kepandaian dalam berpikir dan menemukan Solusi",
+        "Keberanian dalam menghadapi musuh tanpa rasa takut",
+        "Sikap seseorang yang selalu mencari keuntungan pribadi"
+      ],
+      "correctAnswer": "Kepandaian dalam berpikir dan menemukan Solusi",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang benar berdasarkan teks?",
+      "options": [
+        "Aladdin menemukan lampu ajaib di istana kerajaan",
+        "Jin dalam lampu ajaib hanya bisa mengabulkan satu permintaan",
+        "Penyihir jahat ingin merebut lampu ajaib untuk menguasai dunia",
+        "Aladdin menggunakan lampu ajaib untuk menjadi seorang raja",
+        "Putri Jasmine jatuh cinta kepada Aladdin hanya karena kekayaannya"
+      ],
+      "correctAnswer": "Penyihir jahat ingin merebut lampu ajaib untuk menguasai dunia",
+      "explanation": null
+    },
+    {
+      "text": "Amanat yang terkandung dalam puisi di atas adalah...",
+      "options": [
+        "Hidup adalah perjalanan yang harus dijalani dengan penuh keberanian dan harapan",
+        "Setiap manusia harus takut menghadapi rintangan karena bisa saja gagal",
+        "Cahaya bintang di langit adalah penentu keberhasilan seseorang",
+        "Menyerah adalah pilihan terbaik ketika menghadapi badai kehidupan",
+        "Hanya orang kaya yang bisa melewati badai kehidupan dengan mudah"
+      ],
+      "correctAnswer": "Hidup adalah perjalanan yang harus dijalani dengan penuh keberanian dan harapan",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang benar berdasarkan puisi?",
+      "options": [
+        "Penyair menggambarkan seseorang yang mudah menyerah ketika menghadapi rintangan",
+        "Puisi ini menceritakan tentang keindahan bintang di langit malam",
+        "Penyair menggunakan simbol bintang redup untuk menggambarkan kesedihan dan tantangan hidup",
+        "Puisi ini hanya membahas tentang kekayaan dan kesuksesan seseorang",
+        "Dalam puisi, dikatakan bahwa seseorang tidak bisa bangkit setelah jatuh"
+      ],
+      "correctAnswer": "Penyair menggunakan simbol bintang redup untuk menggambarkan kesedihan dan tantangan hidup",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata evakuasi dalam teks di atas adalah...",
+      "options": [
+        "Pengungsian atau pemindahan orang dari tempat berbahaya ke tempat yang lebih aman",
+        "Peningkatan aktivitas gunung berapi yang menimbulkan letusan dahsyat",
+        "Pemantauan terhadap kondisi suatu wilayah secara terus-menerus",
+        "Pengolahan tanah yang dilakukan untuk meningkatkan hasil pertanian.",
+        "Ritual adat yang dilakukan oleh masyarakat sekitar gunung berapi"
+      ],
+      "correctAnswer": "Pengungsian atau pemindahan orang dari tempat berbahaya ke tempat yang lebih aman",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang benar berdasarkan teks?",
+      "options": [
+        "Gunung Merapi sudah tidak aktif lagi dan aman untuk ditinggali",
+        "Pemerintah tidak memiliki peran dalam mengantisipasi letusan Gunung Merapi",
+        "Tanah di sekitar Gunung Merapi subur sehingga banyak dimanfaatkan untuk pertanian",
+        "Wisatawan tidak diperbolehkan mendaki Gunung Merapi karena sangat berbahaya",
+        "Tidak ada masyarakat yang tinggal di sekitar Gunung Merapi karena risikonya terlalu tinggi"
+      ],
+      "correctAnswer": "Tanah di sekitar Gunung Merapi subur sehingga banyak dimanfaatkan untuk pertanian",
+      "explanation": null
+    },
+    {
+      "text": "Apa alasan utama masyarakat tetap tinggal di sekitar Gunung Merapi meskipun berisiko tinggi?",
+      "options": [
+        "Mereka percaya bahwa Gunung Merapi tidak akan meletus lagi",
+        "Mereka diharuskan oleh pemerintah untuk tetap tinggal di sana",
+        "Tanah di sekitar Merapi sangat subur dan cocok untuk pertanian",
+        "Mereka tidak mengetahui bahaya letusan gunung berapi",
+        "Mereka ingin melakukan penelitian tentang aktivitas vulkanik"
+      ],
+      "correctAnswer": "Tanah di sekitar Merapi sangat subur dan cocok untuk pertanian",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa pemerintah dan tim penyelamat harus selalu siap siaga di sekitar Gunung Merapi?",
+      "options": [
+        "Agar dapat membantu wisatawan yang ingin mendaki Gunung Merapi",
+        "Untuk memastikan bahwa masyarakat sekitar tetap tinggal di daerah tersebut",
+        "Karena Gunung Merapi sering mengalami letusan yang dapat membahayakan warga",
+        "Untuk mencegah tanah longsor akibat erosi di sekitar gunung",
+        "Agar masyarakat dapat terus melakukan upacara adat tanpa gangguan"
+      ],
+      "correctAnswer": "Karena Gunung Merapi sering mengalami letusan yang dapat membahayakan warga",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata ceroboh dalam teks di atas adalah...",
+      "options": [
+        "Tidak berhati-hati dalam bertindak",
+        "Suka membantu orang lain",
+        "Bijaksana dalam mengambil Keputusan",
+        "Memiliki keberanian dalam menghadapi tantangan",
+        "Bertindak dengan penuh kehati-hatian"
+      ],
+      "correctAnswer": "Tidak berhati-hati dalam bertindak",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang benar berdasarkan teks?",
+      "options": [
+        "Babayaga selalu digambarkan sebagai penyihir yang baik dan bijaksana",
+        "Rumah Babayaga bisa bergerak sendiri karena memiliki kaki ayam",
+        "Babayaga selalu memberikan hadiah kepada orang yang datang ke rumahnya",
+        "Setiap orang yang bertemu Babayaga akan dimangsa olehnya",
+        "Babayaga hanya muncul dalam cerita-cerita modern, bukan cerita rakyat"
+      ],
+      "correctAnswer": "Rumah Babayaga bisa bergerak sendiri karena memiliki kaki ayam",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang menentukan apakah Babayaga akan membantu seseorang atau mencelakainya?",
+      "options": [
+        "Seberapa kaya seseorang yang datang ke rumah Babayaga",
+        "Apakah orang tersebut berasal dari keluarga bangsawan atau rakyat biasa",
+        "Kecerdikan dan keberanian orang yang datang ke rumah Babayaga",
+        "Seberapa banyak hadiah yang diberikan kepada Babayaga",
+        "Apakah orang tersebut memiliki kemampuan sihir yang lebih kuat darinya"
+      ],
+      "correctAnswer": "Kecerdikan dan keberanian orang yang datang ke rumah Babayaga",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa Babayaga dianggap sebagai tokoh yang penuh teka-teki?",
+      "options": [
+        "Karena ia memiliki rumah yang sangat besar dan mewah",
+        "Karena ia bisa menjadi baik atau jahat tergantung pada orang yang menemuinya",
+        "Karena ia selalu menolong semua orang tanpa kecuali",
+        "Karena ia adalah seorang ratu yang menyamar sebagai penyihir",
+        "Karena ia tidak pernah muncul dalam cerita rakyat, hanya legenda modern"
+      ],
+      "correctAnswer": "Karena ia bisa menjadi baik atau jahat tergantung pada orang yang menemuinya",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata pengorbanan dalam teks di atas adalah...",
+      "options": [
+        "Kesediaan untuk memberikan sesuatu demi kebahagiaan orang lain",
+        "Keinginan untuk memiliki sesuatu yang diidamkan",
+        "Perasaan bahagia karena berhasil mencapai tujuan",
+        "Tindakan mengambil sesuatu dengan paksa dari orang lain",
+        "Ketidakpedulian terhadap perasaan orang lain"
+      ],
+      "correctAnswer": "Kesediaan untuk memberikan sesuatu demi kebahagiaan orang lain",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang benar berdasarkan teks?",
+      "options": [
+        "Qais dijuluki Majnun karena ia dikenal sebagai seorang penyair yang sangat berbakat",
+        "Laila dan Majnun akhirnya bersatu setelah bertahun-tahun berpisah",
+        "Orang tua Laila menyetujui hubungan mereka dan merestui pernikahan mereka",
+        "Majnun memilih mengasingkan diri di padang pasir karena kesedihannya",
+        "Laila tidak pernah mencintai Majnun dan memilih pria lain dengan sukarela"
+      ],
+      "correctAnswer": "Majnun memilih mengasingkan diri di padang pasir karena kesedihannya",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang menyebabkan Majnun dijuluki dengan nama tersebut?",
+      "options": [
+        "Karena ia menjadi seorang raja yang bijaksana",
+        "Karena ia mengalami kegilaan akibat cintanya kepada Laila",
+        "Karena ia memiliki kekuatan gaib dan bisa menghilang",
+        "Karena ia adalah seorang petualang yang suka mengembara",
+        "Karena ia seorang penyair terkenal yang selalu dicintai banyak orang"
+      ],
+      "correctAnswer": "Karena ia mengalami kegilaan akibat cintanya kepada Laila",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa kisah Laila dan Majnun dianggap sebagai lambang cinta sejati?",
+      "options": [
+        "Karena mereka berhasil membuktikan bahwa cinta sejati bisa mengalahkan segalanya",
+        "Karena meskipun tidak bisa bersama, mereka tetap setia satu sama lain hingga akhir hayat",
+        "Karena mereka melawan takdir dan akhirnya bisa menikah di akhir cerita",
+        "Karena mereka berdua berasal dari keluarga kerajaan yang kaya dan berpengaruh",
+        "Karena Laila dan Majnun tidak pernah mengalami kesedihan dalam hubungan mereka"
+      ],
+      "correctAnswer": "Karena meskipun tidak bisa bersama, mereka tetap setia satu sama lain hingga akhir hayat",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata ekstrem dalam teks di atas adalah...",
+      "options": [
+        "Suatu kondisi yang sangat sulit atau luar biasa",
+        "Keadaan yang nyaman dan menyenangkan",
+        "Lingkungan yang aman dan ramah bagi manusia",
+        "Wilayah yang memiliki banyak penduduk asli",
+        "Tempat yang memiliki suhu stabil sepanjang tahun"
+      ],
+      "correctAnswer": "Suatu kondisi yang sangat sulit atau luar biasa",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang benar berdasarkan teks?",
+      "options": [
+        "Antarktika memiliki banyak kota besar yang dihuni oleh penduduk asli",
+        "Antarktika adalah benua yang paling utara di Bumi",
+        "Suhu di Antarktika bisa mencapai -80\\degree\\text{C} saat musim dingin",
+        "Penguin dan anjing laut tidak dapat bertahan hidup di Antarktika karena suhu yang terlalu dingin",
+        "Perjanjian Antarktika memungkinkan negara-negara untuk mengklaim wilayah di sana"
+      ],
+      "correctAnswer": "Suhu di Antarktika bisa mencapai -80\\degree\\text{C} saat musim dingin",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa banyak ilmuwan melakukan penelitian di Antarktika?",
+      "options": [
+        "Karena mereka ingin membangun kota dan menetap di sana",
+        "Karena Antarktika memiliki sumber daya alam yang sangat melimpah untuk dieksploitasi",
+        "Karena Antarktika memiliki lingkungan unik yang dapat memberikan informasi tentang perubahan iklim dan kehidupan laut",
+        "Karena Antarktika adalah tempat terbaik untuk melakukan latihan militer",
+        "Karena Antarktika adalah wilayah yang paling nyaman untuk dihuni oleh manusia"
+      ],
+      "correctAnswer": "Karena Antarktika memiliki lingkungan unik yang dapat memberikan informasi tentang perubahan iklim dan kehidupan laut",
+      "explanation": null
+    },
+    {
+      "text": "Apa tujuan utama dari Perjanjian Antarktika?",
+      "options": [
+        "Untuk memastikan bahwa Antarktika digunakan untuk penelitian ilmiah dan tujuan damai",
+        "Untuk membangun kota-kota besar dan permukiman di Antarktika",
+        "Untuk memungkinkan eksploitasi sumber daya alam di Antarktika oleh negara-negara tertentu",
+        "Untuk membagi Antarktika menjadi beberapa wilayah milik berbagai negara",
+        "Untuk menjadikan Antarktika sebagai pusat perdagangan dunia"
+      ],
+      "correctAnswer": "Untuk memastikan bahwa Antarktika digunakan untuk penelitian ilmiah dan tujuan damai",
+      "explanation": null
+    }
+  ]
+}

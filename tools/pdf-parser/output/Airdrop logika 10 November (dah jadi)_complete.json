@@ -1,0 +1,196 @@
+{
+  "questions": [
+    {
+      "text": "Apabila ingin bermain bianglala, seseorang harus memiliki tinggi badan minimal 150 cm dan membawa tiket. Shira memiliki tinggi badan 162 cm dan membawa tiket.\nSimpulan berdasarkan informasi tersebut Shira bisa menaiki wahana bianglala.\nManakah pernyataan berikut yang menggambarkan kualitas tersebut?",
+      "options": [
+        "Simpulan pasti benar",
+        "Simpulan mungkin benar",
+        "Simpulan pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan pasti benar",
+      "explanation": "Shira memenuhi semua syarat (tinggi badan >= 150 cm dan membawa tiket), sehingga simpulan pasti benar."
+    },
+    {
+      "text": "Apabila ingin menaiki pesawat, seseorang wajib memiliki tiket, membawa passport, dan membawa tas. Lulu mempunyai tiket, membawa tas, dan membawa pouch berisi berkas-berkas.\nSimpulan berdasarkan informasi tersebut Lulu dapat menaiki pesawat.\nManakah pernyataan berikut yang menggambarkan kualitas tersebut?",
+      "options": [
+        "Simpulan pasti benar",
+        "Simpulan mungkin benar",
+        "Simpulan pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan tidak dapat dinilai karena informasi tidak cukup",
+      "explanation": "Lulu tidak ada informasi mengenai passport, sehingga informasi tidak cukup untuk memastikan."
+    },
+    {
+      "text": "Apabila ingin menghadiri konferensi lingkungan, wajib mendaftarkan diri melalui website, membayar registrasi, dan mendapatkan slot. Rubby mendaftarkan diri melalui website, membayar registrasi, dan tidak mendapatkan slot.\nSimpulan berdasarkan informasi tersebut Rubby berhasil menghadiri konferensi lingkungan.\nManakah pernyataan berikut yang menggambarkan kualitas tersebut?",
+      "options": [
+        "Simpulan pasti benar",
+        "Simpulan mungkin benar",
+        "Simpulan pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan pasti salah",
+      "explanation": "Rubby tidak mendapatkan slot, padahal mendapatkan slot adalah syarat wajib, sehingga simpulan pasti salah."
+    },
+    {
+      "text": "Apabila ingin lulus dari Fakultas Psikologi, maka wajib mengambil 144 SKS, mengikuti sidang proposal, dan menghadiri wisuda. Shani mengambil 144 SKS, mengikuti sidang, dan menghadiri acara.\nSimpulan berdasarkan informasi tersebut Shani lulus dari Fakultas Psikologi.\nManakah pernyataan berikut yang menggambarkan kualitas tersebut?",
+      "options": [
+        "Simpulan pasti benar",
+        "Simpulan mungkin benar",
+        "Simpulan pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan tidak dapat dinilai karena informasi tidak cukup",
+      "explanation": "Istilah 'menghadiri acara' tidak dapat dipastikan sama dengan 'menghadiri wisuda', jadi informasi kurang."
+    },
+    {
+      "text": "Seseorang dapat memenangkan juara menulis apabila latihan dengan konsisten, mendapat bimbingan penuh, dan gigih. Lyn latihan dengan konsisten, mendapat bimbingan penuh, dan gigih.\nSimpulan berdasarkan informasi tersebut Lyn dapat memenangkan juara piano.\nManakah pernyataan berikut yang menggambarkan kualitas tersebut?",
+      "options": [
+        "Simpulan pasti benar",
+        "Simpulan mungkin benar",
+        "Simpulan pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan tidak relevan dengan informasi yang diberikan",
+      "explanation": "Informasi membahas juara menulis, tetapi simpulan membahas juara piano, sehingga tidak relevan."
+    },
+    {
+      "text": "Semua penerima beasiswa yang mendapatkan IPK minimal 3,5 dan memenangkan minimal 2 lomba berhak untuk diperpanjang program beasiswanya. Ruru mendapatkan IPK 3,62 dan memenangkan 4 perlombaan.\nKesimpulan berdasarkan informasi tersebut Ruru tidak berhak mendapatkan perpanjangan beasiswa.\nManakah pernyataan berikut yang menggambarkan kualitas tersebut?",
+      "options": [
+        "Simpulan pasti benar",
+        "Simpulan mungkin benar",
+        "Simpulan pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan pasti salah",
+      "explanation": "Ruru memenuhi kedua syarat (IPK >= 3.5 dan lomba >= 2), sehingga simpulan bahwa dia tidak berhak adalah pasti salah."
+    },
+    {
+      "text": "Untuk menjadi seorang pengacara, seseorang harus lulus pendidikan sarjana hukum dengan mengambil sertifikat PERADI. Lala saat ini sedang menjalani pendidikan sarjana hukum.\nSimpulan berdasarkan informasi tersebut Lala belum bisa menjadi pengacara.\nManakah pernyataan berikut yang menggambarkan kualitas tersebut?",
+      "options": [
+        "Simpulan pasti benar",
+        "Simpulan mungkin benar",
+        "Simpulan pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan pasti benar",
+      "explanation": "Lala baru menjalani pendidikan sarjana hukum dan belum lulus atau bersertifikat PERADI, maka simpulan pasti benar."
+    },
+    {
+      "text": "Seseorang dinyatakan terkena cacar monyet apabila pembengkakan kelenjar dan muncul bintik kemerahan berisi cairan yang terasa gatal. Bernard saat ini mengalami pembengkakan kelenjar dan muncul bintik kemerahan.\nSimpulan berdasarkan informasi tersebut Bernard saat ini sedang mengidap cacar monyet.\nManakah pernyataan berikut yang menggambarkan kualitas tersebut?",
+      "options": [
+        "Simpulan pasti benar",
+        "Simpulan mungkin benar",
+        "Simpulan pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan mungkin benar",
+      "explanation": "Gejala belum lengkap (belum tentu berisi cairan dan terasa gatal), sehingga simpulannya mungkin benar."
+    },
+    {
+      "text": "Seseorang diperbolehkan untuk masuk ke gudang apabila menggunakan APD, sudah mencuci tangan, dan memiliki izin dari ketua. Ridho telah mendapatkan izin dari ketua, mencuci tangan, dan tidak menggunakan APD.\nSimpulan berdasarkan informasi tersebut Ridho tidak diperbolehkan masuk ke gudang.\nManakah pernyataan berikut yang menggambarkan kualitas tersebut?",
+      "options": [
+        "Simpulan pasti benar",
+        "Simpulan mungkin benar",
+        "Simpulan pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan pasti benar",
+      "explanation": "Ridho tidak menggunakan APD, padahal APD adalah syarat wajib, sehingga simpulan pasti benar."
+    },
+    {
+      "text": "Seseorang yang terkena anemia memiliki ciri, yaitu kelelahan, sakit kepala, dan sesak napas. Indira mudah kelelahan dan sakit kepala.\nSimpulan berdasarkan informasi tersebut Indira menderita Leukemia.\nManakah pernyataan berikut yang menggambarkan kualitas tersebut?",
+      "options": [
+        "Simpulan pasti benar",
+        "Simpulan mungkin benar",
+        "Simpulan pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan tidak relevan dengan informasi yang diberikan",
+      "explanation": "Informasi tentang anemia tidak cukup relevan untuk menyimpulkan Leukemia."
+    },
+    {
+      "text": "Seseorang yang terkena penyakit thalasemia akan memiliki ciri berikut, yaitu badan lemah, kulit kekuningan (jaundice), dan urin gelap. Hari ini kulit Doni tampak berbeda dibandingkan kemarin.\nSimpulan berdasarkan informasi tersebut Doni menderita Thalasemia.\nManakah pernyataan berikut yang menggambarkan kualitas tersebut?",
+      "options": [
+        "Simpulan pasti benar",
+        "Simpulan mungkin benar",
+        "Simpulan pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan tidak dapat dinilai karena informasi tidak cukup",
+      "explanation": "Informasi hanya menyebutkan kulit Doni tampak berbeda tanpa kejelasan apakah sesuai dengan ciri thalasemia."
+    },
+    {
+      "text": "Pembuatan cookies dinyatakan berhasil apabila tidak terlalu manis, berwarna gelap, dan ringan. Hasil cookies buatan Feya memiliki rasa yang pas, ringan, dan berwarna unik.\nSimpulan berdasarkan informasi tersebut Feya ahli membuat cookies.\nManakah pernyataan berikut yang menggambarkan kualitas tersebut?",
+      "options": [
+        "Simpulan pasti benar",
+        "Simpulan mungkin benar",
+        "Simpulan pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan tidak relevan dengan informasi yang diberikan",
+      "explanation": "Teks membahas kriteria cookies berhasil, bukan membahas tingkat keahlian Feya."
+    },
+    {
+      "text": "Dalam beberapa periode belakang terdapat regulasi yang baru. Apabila ingin memasuki bioskop menunjukkan KTP, berumur lebih dari 17 tahun, dan menunjukkan tiket. Edrina telah membeli tiket dan berumur lebih dari 17 tahun.\nSimpulan berdasarkan informasi tersebut Edrina dapat masuk bioskop.\nManakah pernyataan berikut yang menggambarkan kualitas tersebut?",
+      "options": [
+        "Simpulan pasti benar",
+        "Simpulan mungkin benar",
+        "Simpulan pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan tidak dapat dinilai karena informasi tidak cukup",
+      "explanation": "Tidak ada informasi apakah Edrina menunjukkan KTP atau tidak."
+    },
+    {
+      "text": "Syarat untuk claim garansi laptop x adalah membawa uang minimal Rp5.500.000 dan kartu garansi. Nella tidak membawa uang cash dan tidak membawa kartu garansi.\nSimpulan berdasarkan informasi tersebut Nella tidak dapat claim garansi.\nManakah pernyataan berikut yang menggambarkan kualitas tersebut?",
+      "options": [
+        "Simpulan pasti benar",
+        "Simpulan mungkin benar",
+        "Simpulan pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan pasti benar",
+      "explanation": "Nella tidak membawa kartu garansi dan tidak membawa uang yang disyaratkan, maka simpulan pasti benar."
+    },
+    {
+      "text": "Apabila ingin mendaftarkan anak ke SMP 50 diperlukan ijazah SD, uang pendaftaran Rp50.000, dan Sertifikat prestasi. Fiyu membawa ijazah SD, uang pendaftaran Rp50.000, dan Sertifikat lomba berenang.\nSimpulan berdasarkan informasi tersebut Fiyu dapat mendaftar SMP 50.",
+      "options": [
+        "Simpulan pasti benar",
+        "Simpulan mungkin benar",
+        "Simpulan pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang menggambarkan kualitas tersebut?",
+      "options": [
+        "Simpulan pasti benar",
+        "Simpulan mungkin benar",
+        "Simpulan pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Diantara grafik berikut yang TIDAK menyatakan y sebagai fungsi dari x adalah...",
+      "options": [
+        "Grafik A",
+        "Grafik B",
+        "Grafik C",
+        "Grafik D",
+        "Grafik E"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sepotong kayu beratnya 20 gram. Setelah dikeringkan di panas matahari, beratnya menjadi 12 gram. Berapa persen kandungan air dalam kayu basah tersebut?",
+      "options": [
+        "80 %",
+        "40 %",
+        "33,3 %",
+        "25 %",
+        "20 %"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Misalkan segitiga ABC sama sisi. Jika $AD = DC = 4$, maka luas segiempat ABCD adalah ...",
+      "options": [
+        "16\\sqrt{3} - 8",
+        "16\\sqrt{2} - 8",
+        "8\\sqrt{3} - 8",
+        "4\\sqrt{3} - 8",
+        "8"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $m$ pulpen dibeli dengan harga $n$ rupiah per buah dan $n$ pulpen dibeli dengan harga $m$ rupiah per buah, maka harga pulpen tersebut per buah adalah ...",
+      "options": [
+        "m / n",
+        "mn / (m + n)",
+        "2mn / (m + n)",
+        "(m + n) / 2mn",
+        "(m + n) / 2"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Umur Rasya $\\frac{1}{3}$ kali umur ayahnya. Umur ibunya $\\frac{5}{6}$ kali umur ayahnya. Jika umur Rasya 18 tahun, maka umur ibunya adalah ...",
+      "options": [
+        "35 tahun",
+        "45 tahun",
+        "48 tahun",
+        "49 tahun",
+        "54 tahun"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Misalkan himpunan $S = \\{\\text{bilangan asli}\\}$, $P = \\{1, 2, 3, 4, 5, 6\\}$ dan $Q = \\{4, 5, 6, 7, 8, 9\\}$. Jika $P^c$ adalah komplemen dari $P$, maka $P^c - Q^c$ adalah ....",
+      "options": [
+        "\\{7, 8, 9\\}",
+        "\\{1, 2, 3\\}",
+        "\\{2, 3\\}",
+        "\\{4, 5, 6\\}",
+        "\\{10, 11, 12, ...\\}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Nilai $x$ pada gambar berikut ini adalah ...",
+      "options": [
+        "104",
+        "106",
+        "108",
+        "110",
+        "112"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertidaksamaan dengan daerah yang diarsir sebagai representasi himpunan penyelesaiannya adalah ...",
+      "options": [
+        "x - y^2 \\ge 0",
+        "y - x^2 \\le 0",
+        "y - x^2 < 0",
+        "y - x^2 > 0",
+        "y - x^2 \\ge 0"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dalam suatu kompetisi, peluang team A menjadi juara sepertiga dari peluang team B menjadi juara. Jika peluang team B menjuarai kompetisi adalah \\frac{4}{5}, maka peluang team A tidak menjuarai kompetisi adalah ...",
+      "options": [
+        "\\frac{2}{5}",
+        "\\frac{2}{15}",
+        "\\frac{11}{15}",
+        "\\frac{2}{45}",
+        "\\frac{4}{215}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui garis $g$ melalui titik $A(2, 1)$ dan sejajar dengan garis $2x - y + 8 = 0$. Dibawah ini, titik yang terletak pada garis $g$ adalah ...",
+      "options": [
+        "(5, 4)",
+        "(4, 3)",
+        "(3, 2)",
+        "(1, -1)",
+        "Tidak ada"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada sebuah kantong terdapat 3 bola merah dan 2 bola putih. Akan diambil 2 bola satu per satu tanpa pengembalian. Jika peluang terambil bola berwarna sama adalah $p$, maka nilai $p$ terletak pada interval $q < p < 1$. Nilai $q$ yang mungkin adalah ...",
+      "options": [
+        "1/3",
+        "1/4",
+        "2/7",
+        "2/5",
+        "1/2"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Median lima bilangan 2, x, 14, 6, 3 adalah x. Manakah hubungan yang benar antara kuantitas P dan Q berikut berdasarkan informasi yang diberikan?",
+      "options": [
+        "P > Q",
+        "Q > P",
+        "P = Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan salah satu dari tiga pilihan di atas",
+        "Tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sepasang sepatu bekas dibeli dengan harga Rp 200.000,00. Diperlukan Rp 40.000,00 untuk memperbaiki sol sepatu tersebut. Harga jual sepatu tersebut lebih rendah daripada Rp 300.000,00. Manakah hubungan yang benar antara kuantitas P dan Q berikut berdasarkan informasi yang diberikan?",
+      "options": [
+        "P > Q",
+        "Q > P",
+        "P = Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan salah satu dari tiga pilihan di atas",
+        "Tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Misalkan titik A (x, y) menyatakan koordinat suatu titik pada bidang-xy dengan x + y \\neq 0. Apakah titik A berada di kuadran II ? Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut?",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada segitiga di bawah, apakah z > y > x ? Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut.",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "Dua pernyataan BERSAMA SAMA cukup untuk menjawab pertanyaan, tetapi pernyataan SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

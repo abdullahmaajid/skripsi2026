@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Dalam kalimat \"Ia sangat antusias dalam mengerjakan tugas tersebut,\" kata \"antusias\" memiliki makna...",
+      "options": [
+        "Gembira",
+        "Bergairah",
+        "Suka cita",
+        "Biasa saja",
+        "Sangat ingin"
+      ],
+      "correctAnswer": "Bergairah",
+      "explanation": null
+    },
+    {
+      "text": "Pada kalimat \"Buku ini sangat komprehensif dalam membahas topik tersebut,\" kata \"komprehensif\" berarti...",
+      "options": [
+        "Detail",
+        "Luas dan mendalam",
+        "Wawasan",
+        "Dangkal",
+        "Padat"
+      ],
+      "correctAnswer": "Luas dan mendalam",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"arogan\" dalam kalimat \"Dia dianggap arogan oleh teman-temannya\" adalah...",
+      "options": [
+        "Congkak",
+        "Kikir",
+        "Lokek",
+        "Derma",
+        "Kedekut"
+      ],
+      "correctAnswer": "Congkak",
+      "explanation": null
+    },
+    {
+      "text": "Kata \"integritas\" pada kalimat \"Pemimpin yang baik harus memiliki integritas tinggi\" bermakna...",
+      "options": [
+        "Keberanian",
+        "Kejujuran dan konsistensi",
+        "Kecerdasan",
+        "Ketekunan",
+        "keuletan"
+      ],
+      "correctAnswer": "Kejujuran dan konsistensi",
+      "explanation": null
+    },
+    {
+      "text": "Dalam kalimat \"Pemerintah berupaya menanggulangi masalah kemiskinan,\" kata \"menanggulangi\" berarti...",
+      "options": [
+        "Mengabaikan",
+        "Mencegah",
+        "Mengatasi",
+        "Membiarkan",
+        "Menyelesaikan"
+      ],
+      "correctAnswer": "Mengatasi",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"kontroversi\" dalam kalimat \"Keputusan tersebut menimbulkan kontroversi di masyarakat\" adalah...",
+      "options": [
+        "Perdebatan",
+        "Persetujuan",
+        "Kesepakatan",
+        "Kesunyian",
+        "Ketidaksetujuan"
+      ],
+      "correctAnswer": "Perdebatan",
+      "explanation": null
+    },
+    {
+      "text": "Kata \"esensial\" pada kalimat \"Vitamin C merupakan zat esensial bagi tubuh\" memiliki makna...",
+      "options": [
+        "Tidak penting",
+        "Sangat penting",
+        "Cukup penting",
+        "Mendesak",
+        "Opsional"
+      ],
+      "correctAnswer": "Sangat penting",
+      "explanation": null
+    },
+    {
+      "text": "Dalam kalimat \"Wajahnya tampak cerah setelah mendapat kabar baik,\" kata \"cerah\" berarti...",
+      "options": [
+        "Bersinar",
+        "Gembira",
+        "Berseri",
+        "Gelap",
+        "Gemilang"
+      ],
+      "correctAnswer": "Berseri",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"inovatif\" dalam kalimat \"Perusahaan ini terkenal karena produk-produknya yang inovatif\" adalah...",
+      "options": [
+        "Konvensional",
+        "Baru",
+        "Murah",
+        "Mudah digunakan",
+        "Tradisional"
+      ],
+      "correctAnswer": "Baru",
+      "explanation": null
+    },
+    {
+      "text": "Pada kalimat \"Tindakan tersebut dianggap sebagai penghinaan oleh banyak orang,\" kata \"penghinaan\" berarti...",
+      "options": [
+        "Kekerasan",
+        "Nista",
+        "Penghormatan",
+        "Intoleran",
+        "Hina"
+      ],
+      "correctAnswer": "Nista",
+      "explanation": null
+    },
+    {
+      "text": "Kata \"dramatik\" pada kalimat \"Perubahan cuaca yang dramatik mengejutkan para nelayan\" memiliki makna...",
+      "options": [
+        "Biasa saja",
+        "Mendadak",
+        "Tak karuan",
+        "Pelan-pelan",
+        "Tidak signifikan"
+      ],
+      "correctAnswer": "Mendadak",
+      "explanation": null
+    },
+    {
+      "text": "Dalam kalimat \"Pekerjaan ini memerlukan ketelitian tinggi,\" kata \"ketelitian\" berarti...",
+      "options": [
+        "Keuletan",
+        "Keakuratan",
+        "Kemahiran",
+        "Kecerdasan",
+        "Keberanian"
+      ],
+      "correctAnswer": "Keakuratan",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"efisiensi\" dalam kalimat \"Perusahaan harus meningkatkan efisiensi produksi\" adalah...",
+      "options": [
+        "Perbaikan",
+        "Penghematan",
+        "Persetujuan",
+        "Penggunaan",
+        "pemaksimalan"
+      ],
+      "correctAnswer": "Penghematan",
+      "explanation": null
+    },
+    {
+      "text": "Kata \"proaktif\" pada kalimat \"Karyawan diharapkan proaktif dalam menyelesaikan masalah\" memiliki makna...",
+      "options": [
+        "Pasif",
+        "Berinisiatif",
+        "Tekun",
+        "Peduli",
+        "Berani"
+      ],
+      "correctAnswer": "Berinisiatif",
+      "explanation": null
+    },
+    {
+      "text": "Dalam kalimat \"Ia adalah seorang pembicara yang sangat persuasif,\" kata \"persuasif\" berarti...",
+      "options": [
+        "Membosankan",
+        "Mampu meyakinkan",
+        "Penuh semangat",
+        "Pandai bicara",
+        "Acuh tak acuh"
+      ],
+      "correctAnswer": "Mampu meyakinkan",
+      "explanation": null
+    }
+  ]
+}

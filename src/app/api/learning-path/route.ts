@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server"
 import { prisma } from "@/lib/prisma"
+import { getCachedSyllabus } from "@/lib/cache"
 import { auth } from "@/auth"
 
 export async function GET() {
@@ -10,52 +11,56 @@ export async function GET() {
     }
     const userId = session.user.id
 
-    // Fetch target major to determine cluster weights
-    const studentProfile = await prisma.studentProfile.findUnique({
-      where: { userId },
-      include: { 
-        targetMajor1: {
-          include: { university: true }
+    // Execute independent database queries concurrently to eliminate waterfall
+    const [
+      studentProfile,
+      latestAttempt,
+      subjects,
+      responses,
+      chapterProgressRecords
+    ] = await Promise.all([
+      // Fetch target major to determine cluster weights
+      prisma.studentProfile.findUnique({
+        where: { userId },
+        include: { 
+          targetMajor1: {
+            include: { university: true }
+          }
         }
-      }
-    })
+      }),
+      // Fetch latest completed attempt for context
+      prisma.examAttempt.findFirst({
+        where: { userId, status: "COMPLETED" },
+        orderBy: { finishedAt: "desc" },
+        include: { subScores: true }
+      }),
+      // Get all subjects and chapters (from cache)
+      getCachedSyllabus(),
+      // Get user responses to calculate dynamic mastery
+      prisma.questionResponse.findMany({
+        where: { attempt: { userId, status: "COMPLETED" } },
+        select: {
+          isCorrect: true,
+          question: {
+            select: {
+              chapterId: true
+            }
+          },
+          attempt: {
+            select: {
+              id: true,
+              startedAt: true
+            }
+          }
+        }
+      }),
+      // Fetch manual ChapterProgress (updated via Latihan Bab)
+      prisma.chapterProgress.findMany({
+        where: { userId }
+      })
+    ])
+
     const targetCluster = studentProfile?.targetMajor1?.cluster || "CAMPURAN"
-
-    // Fetch latest completed attempt for context
-    const latestAttempt = await prisma.examAttempt.findFirst({
-      where: { userId, status: "COMPLETED" },
-      orderBy: { finishedAt: "desc" },
-      include: { subScores: true }
-    })
-
-    // Get all subjects and chapters
-    const subjects = await prisma.subject.findMany({
-      include: {
-        chapters: {
-          orderBy: { order: "asc" }
-        }
-      },
-      orderBy: { name: "asc" }
-    })
-
-    // Get user responses to calculate dynamic mastery
-    const responses = await prisma.questionResponse.findMany({
-      where: { attempt: { userId, status: "COMPLETED" } },
-      select: {
-        isCorrect: true,
-        question: {
-          select: {
-            chapterId: true
-          }
-        },
-        attempt: {
-          select: {
-            id: true,
-            startedAt: true
-          }
-        }
-      }
-    })
 
     // Group responses by chapter and attempt
     const chapterAttempts = new Map()
@@ -95,10 +100,6 @@ export async function GET() {
       }
     }
 
-    // Fetch manual ChapterProgress (updated via Latihan Bab)
-    const chapterProgressRecords = await prisma.chapterProgress.findMany({
-      where: { userId }
-    })
     const manualProgressMap = new Map()
     for (const p of chapterProgressRecords) {
       manualProgressMap.set(p.chapterId, p)

@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 import { prisma } from "@/lib/prisma"
+import { Prisma } from "@prisma/client"
 
 export async function GET(req: NextRequest) {
   try {
@@ -29,9 +30,24 @@ export async function GET(req: NextRequest) {
       chapterIds = chapters.map((c) => c.id)
     }
 
-    // Fetch questions randomly (using raw SQL for true randomness)
+    const safeLimit = Math.min(limit, 50)
+    const chapterIdsJoined = Prisma.join(chapterIds)
+
+    // Fetch random question IDs (using raw SQL for true randomness)
+    const randomIdsResult = await prisma.$queryRaw<{id: string}[]>`
+      SELECT id FROM "Question"
+      WHERE "chapterId" IN (${chapterIdsJoined})
+      ORDER BY RANDOM()
+      LIMIT ${safeLimit}
+    `
+    const randomIds = randomIdsResult.map(r => r.id)
+
+    if (randomIds.length === 0) {
+      return NextResponse.json({ questions: [] })
+    }
+
     const questions = await prisma.question.findMany({
-      where: { chapterId: { in: chapterIds } },
+      where: { id: { in: randomIds } },
       select: {
         id: true,
         text: true,
@@ -47,13 +63,11 @@ export async function GET(req: NextRequest) {
             subject: { select: { id: true, name: true } } 
           } 
         },
-      },
-      take: Math.min(limit, 50),
-      // Simple shuffle: order by difficulty with some variation
-      orderBy: { difficulty: "asc" },
+      }
     })
 
-    // Shuffle the questions client-side for randomness
+    // Shuffle the questions client-side to ensure the order of returned questions
+    // matches the random order from DB (since findMany doesn't guarantee order by `in`)
     const shuffled = questions.sort(() => Math.random() - 0.5)
 
     return NextResponse.json({

@@ -1,0 +1,208 @@
+{
+  "questions": [
+    {
+      "text": "Pernyataan yang tidak berhubungan dengan teks bacaan di atas adalah...",
+      "options": [
+        "Fajar Alfian/Muhammad Rian Ardianto dan Mohammad Ahsan/Hendra Setiawan siap menghadapi lawan",
+        "Fajar/Rian berhadapan dengan pasangan China, He Ji Ting/Zhou Hao Dong",
+        "Fajar/Rian mengatakan ingin meraih gelar karena sepanjang karier mereka, gelar juara di Birmingham belum diraih",
+        "Rian mengatakan ia dan Fajar tidak pernah kalah dari He/Zhou",
+        "Fajar/Rian belum pernah meraih gelar juara di Birmingham"
+      ],
+      "correctAnswer": "Rian mengatakan ia dan Fajar tidak pernah kalah dari He/Zhou",
+      "explanation": "Dalam teks disebutkan bahwa Rian mengatakan ia dan Fajar pernah kalah dari He/Zhou."
+    },
+    {
+      "text": "Tema yang mungkin benar dari teks bacaan di atas adalah...",
+      "options": [
+        "Semifinal ganda putra All England 2023",
+        "Fajar/Rian juara bertahan",
+        "Catatan head to head",
+        "Gelar juara di Birmingham",
+        "Strategi khusus Fajar/Rian"
+      ],
+      "correctAnswer": "Semifinal ganda putra All England 2023",
+      "explanation": "Teks membahas persiapan ganda putra Indonesia menghadapi semifinal All England 2023."
+    },
+    {
+      "text": "Pernyataan berikut ini yang mampu memperjelas paragraf kedua teks bacaan adalah...",
+      "options": [
+        "Dengan demikian, mereka akan mampu mengalahkan juara bertahan Fikri/Bagas",
+        "Oleh karena itu, mereka berusaha keras dan tidak akan lengah agar berhasil meraih juara tersebut",
+        "Mereka yakin dapat mengalahkan He/Zhou",
+        "He/Zhou adalah lawan yang sulit untuk dikalahkan",
+        "He/Zhou tidak pernah terkalahkan oleh siapapun termasuk Fajar/Rian"
+      ],
+      "correctAnswer": "Oleh karena itu, mereka berusaha keras dan tidak akan lengah agar berhasil meraih juara tersebut",
+      "explanation": "Paragraf kedua membahas tentang kewaspadaan, target, dan pengalaman Fajar/Rian dalam mengincar gelar juara."
+    },
+    {
+      "text": "Gagasan pokok teks bacaan tersebut adalah...",
+      "options": [
+        "Fajar/Rian mengatakan ingin meraih gelar di Birmingham",
+        "Fajar/Rian menjuarai Super 750 Denmark Terbuka 2022 dan Super 1000 Malaysia Terbuka 2023",
+        "Fajar/Rian siap menghadapi lawan dari China untuk meraih gelar juara di All England 2023",
+        "Pemain Jepang, Takuro Hoki/Yugo Kobayashi",
+        "Penampilan mengesankan Takuro Hoki/Yugo Kobayashi"
+      ],
+      "correctAnswer": "Fajar/Rian siap menghadapi lawan dari China untuk meraih gelar juara di All England 2023",
+      "explanation": "Gagasan pokok mencakup keseluruhan isi teks, yaitu kesiapan Fajar/Rian menghadapi lawan di All England 2023."
+    },
+    {
+      "text": "Keberpihakan penulis dalam teks bacaan tersebut kepada...",
+      "options": [
+        "Fajar/Rian",
+        "Takuro Hoki/Yugo Kobayashi",
+        "He/Zhou",
+        "Ahsan/Hendra",
+        "Fikri/Bagas"
+      ],
+      "correctAnswer": "Fajar/Rian",
+      "explanation": "Penulis menyoroti perjuangan dan persiapan pasangan Fajar/Rian."
+    },
+    {
+      "text": "Apa yang diinginkan oleh Fajar/Rian berdasarkan teks bacaan tersebut?",
+      "options": [
+        "Mengalahkan He/Zhou",
+        "Meraih gelar juara di Birmingham",
+        "Menjadi juara bertahan",
+        "Menjuarai Super 750 Denmark Terbuka",
+        "Mengalahkan Ahsan/Hendra"
+      ],
+      "correctAnswer": "Meraih gelar juara di Birmingham",
+      "explanation": "Di teks disebutkan bahwa gelar juara di Birmingham belum pernah diraih sepanjang karier mereka."
+    },
+    {
+      "text": "Berdasarkan teks bacaan tersebut, siapa unggulan keempat yang ditaklukkan oleh pasangan China, He Ji Ting/Zhou Hao Dong?",
+      "options": [
+        "Fajar/Rian",
+        "He/Zhou",
+        "Ahsan/Hendra",
+        "Fikri/Bagas",
+        "Takuro Hoki/Yugo Kobayashi"
+      ],
+      "correctAnswer": "Takuro Hoki/Yugo Kobayashi",
+      "explanation": "Teks menyatakan He Ji Ting/Zhou Hao Dong menekuk unggulan keempat dari Jepang, Takuro Hoki/Yugo Kobayashi."
+    },
+    {
+      "text": "Pertanyaan dibawah ini yang jawabannya tidak ditemukan dalam teks bacaan adalah...",
+      "options": [
+        "Hipotesis apa yang diuji oleh University of Surrey?",
+        "Apa itu sistem sirkadian?",
+        "Berapa peserta yang dilibatkan untuk melakukan penelitian ini?",
+        "Apa saja perbedaan jam lapar perempuan dan laki-laki?",
+        "Berapa jam sekali tingkat kelaparan diukur?"
+      ],
+      "correctAnswer": "Apa saja perbedaan jam lapar perempuan dan laki-laki?",
+      "explanation": "Teks hanya melibatkan peserta pria, tidak membahas perbedaan jam lapar antara perempuan dan laki-laki."
+    },
+    {
+      "text": "Topik yang mungkin benar dari teks bacaan tersebut...",
+      "options": [
+        "Perasaan lapar di waktu yang sama",
+        "Penelitian melibatkan 24 orang",
+        "Pengukuran glukosa 15 menit sekali",
+        "Penelitian Profesor Jonathan Johnston dari University of Surrey",
+        "Tingkat kelaparan setiap orang"
+      ],
+      "correctAnswer": "Perasaan lapar di waktu yang sama",
+      "explanation": "Topik utama teks adalah mengapa tubuh merasa lapar pada waktu yang sama setiap hari berkaitan dengan sistem sirkadian."
+    },
+    {
+      "text": "Pernyataan berikut ini yang memperlemah teks bacaan adalah...",
+      "options": [
+        "Kadar glukosa peserta yang mengonsumsi makanan kecil terus meningkat",
+        "Untuk membuktikan rasa lapar waktu yang sama dilakukan studi laboratorium selama delapan hari",
+        "Rasa lapar datang berbeda-beda waktu tiap hari",
+        "Penelitian tersebut ingin membuktikan rasa lapar di waktu yang sama",
+        "Kadar glukosa peserta yang mengonsumsi makanan besar mulai menurun"
+      ],
+      "correctAnswer": "Rasa lapar datang berbeda-beda waktu tiap hari",
+      "explanation": "Teks menguji hipotesis bahwa tubuh merasa lapar pada waktu yang sama, sehingga pernyataan bahwa rasa lapar datang berbeda-beda memperlemah teks."
+    },
+    {
+      "text": "Apa yang dicoba dijelaskan oleh peneliti berdasarkan teks bacaan tersebut...",
+      "options": [
+        "Membuktikan bagaimana rasa lapar pada setiap orang",
+        "Memperjelas hubungan glukosa dengan rasa lapar",
+        "Membuktikan hubungan makan makanan besar dan kecil dengan rasa lapar",
+        "Memperjelas hubungan glukosa setiap orang dengan makanan yang dikonsumsinya",
+        "Mencoba menjelaskan kenapa tubuh selalu merasa lapar pada waktu yang sama setiap hari"
+      ],
+      "correctAnswer": "Mencoba menjelaskan kenapa tubuh selalu merasa lapar pada waktu yang sama setiap hari",
+      "explanation": "Hal ini dinyatakan pada paragraf awal teks."
+    },
+    {
+      "text": "Jika kamu membaca teks dengan seksama hubungan antara kalimat (14) dan (15) adalah...",
+      "options": [
+        "Saling bertentangan",
+        "Saling memperjelas",
+        "Kalimat (15) memperinci (14)",
+        "Kalimat (15) merupakan contoh",
+        "Saling memperkuat, tetapi dengan argumen berbeda"
+      ],
+      "correctAnswer": "Saling bertentangan",
+      "explanation": "Kalimat 14 menunjukkan peningkatan konsentrasi glukosa awal, sedangkan kalimat 15 menunjukkan penurunan kadar glukosa pada kelompok tertentu."
+    },
+    {
+      "text": "Berdasarkan teks bacaan apa itu sistem sirkadian?",
+      "options": [
+        "Sistem glukosa",
+        "Perubahan pola makan",
+        "Dampak rasa lapar",
+        "Sistem siklus kebiasaan",
+        "Perubahan fisiologis, termasuk metabolisme"
+      ],
+      "correctAnswer": "Perubahan fisiologis, termasuk metabolisme",
+      "explanation": "Definisi sistem sirkadian secara tersurat ada pada kalimat (3)."
+    },
+    {
+      "text": "Apa yang dilakukan peneliti untuk mempelajari lebih lanjut terkait hipotesis kenapa rasa lapar datang di waktu yang sama setiap hari?",
+      "options": [
+        "Melibatkan seluruh peneliti untuk studi laboratorium mengenai rasa lapar yang datang pada waktu yang sama",
+        "Mempelajari lebih lanjut penelitian-penelitian sebelumnya",
+        "Mereka melakukan studi laboratorium kepada 24 peserta pria selama delapan hari",
+        "Menciptakan alat untuk mengukur rasa lapar setiap hari",
+        "Melakukan perbandingan rasa lapar pada setiap orang"
+      ],
+      "correctAnswer": "Mereka melakukan studi laboratorium kepada 24 peserta pria selama delapan hari",
+      "explanation": "Metode penelitian disebutkan pada paragraf kedua teks 2."
+    },
+    {
+      "text": "Paragraf pertama teks bacaan tersebut berfungsi sebagai...",
+      "options": [
+        "Pembuka",
+        "Penjabaran masalah",
+        "Penjelas",
+        "Konflik",
+        "Penutup"
+      ],
+      "correctAnswer": "Penjabaran masalah",
+      "explanation": "Paragraf pertama menjabarkan studi baru dan permasalahan pandangan tentang uang dan kebahagiaan."
+    },
+    {
+      "text": "Pernyataan yang tidak berhubungan dengan teks bacaan di atas adalah...",
+      "options": [
+        "Uang dijadikan indikator oleh banyak orang untuk mendapatkan kebahagian",
+        "Kebahagiaan sehari-hari meningkat ketika pendapatan tahunan meningkat",
+        "Kebanyakan orang pendapatan yang lebih besar dikaitkan dengan kebahagiaan yang lebih besar",
+        "Bagi orang yang kaya secara finansial uang bukanlah sumber kebahagian seutuhnya",
+        "Uang merupakan indikator kebahagian sepenuhnya"
+      ],
+      "correctAnswer": "Uang merupakan indikator kebahagian sepenuhnya",
+      "explanation": "Teks menyatakan bahwa anggapan uang sebagai indikator kebahagiaan tidak sepenuhnya benar."
+    },
+    {
+      "text": "Apa yang ditemukan dari studi yang dilakukan oleh Daniel Kahneman dan Angus Deaton dari Princeton University?",
+      "options": [
+        "Setiap orang memiliki standar kebahagian berbeda",
+        "Kebahagiaan sehari-hari meningkat ketika pendapatan tahunan meningkat",
+        "Orang dengan finansial yang baik banyak yang tidak bahagia",
+        "Pendapatan bukan indikator utama kebahagian",
+        "Kebanyakan orang belum tentu bahagia dengan finansial yang tinggi"
+      ],
+      "correctAnswer": "Kebahagiaan sehari-hari meningkat ketika pendapatan tahunan meningkat",
+      "explanation": "Sesuai dengan isi teks pada paragraf kedua mengenai studi Kahneman dan Deaton."
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan paragraf 1, manakah pernyataan yang MUNGKIN SALAH?",
+      "options": [
+        "Perubahan iklim telah merubah produk pangan dan berdampak pada Kesehatan manusia",
+        "Peningkatan karbon dioksida di atmosfer berdampak pada penurunan hasil pertanian",
+        "Daerah-daerah tropis memiliki produksi pangan yang tinggi dibanding daerah lainnya",
+        "Jika tidak terjadi perubahan iklim maka tidak berdampak pada perubahan produksi pangan atau kesehatan manusia",
+        "Kenaikan suhu dan perubahan pola curah hujan berdampak pada penurunan hasil produksi jagung, padi, dan gandum"
+      ],
+      "correctAnswer": "Jika tidak terjadi perubahan iklim maka tidak berdampak pada perubahan produksi pangan atau kesehatan manusia",
+      "explanation": "Pernyataan D mungkin salah karena meskipun tidak terjadi perubahan iklim, perubahan produksi pangan atau kesehatan manusia masih bisa dipengaruhi oleh faktor lain."
+    },
+    {
+      "text": "Berdasarkan paragraf 2, manakah pernyataan yang BENAR?",
+      "options": [
+        "Jika hama tanaman tidak meningkat maka kenaikan suhu karena perubahan iklim telah terjadi",
+        "Jika hama tanaman tidak meningkat maka kenaikan suhu karena perubahan iklim tidak terjadi",
+        "Jika tidak terjadi perubahan iklim maka jama-hama tidak akan memperluas jangkauan mereka",
+        "Jika hama-hama memperluas jangkauan mereka maka akan terjadi perubahan iklim",
+        "Populasi hama akan meningkat jika pemangsa hama seperti burung mengubah waktu migrasi"
+      ],
+      "correctAnswer": "Populasi hama akan meningkat jika pemangsa hama seperti burung mengubah waktu migrasi",
+      "explanation": "Berdasarkan teks, predator pemangsa hama seperti burung yang mengubah waktu migrasi berakibat pada ledakan (peningkatan) populasi hama."
+    },
+    {
+      "text": "Berdasarkan paragraf 3, manakah pernyataan yang BENAR?",
+      "options": [
+        "Jika tidak terjadi kenaikan suhu lautan maka ikan-ikan di tropis tidak bergerak kearah kutub mencari tempat dingin",
+        "Jika ikan-ikan di tropis tidak bergerak kearah kutub mencari tempat yang lebih dingin maka tidak terjadi kenaikan suhu lautan",
+        "Jika ikan-ikan di tropis bergerak kearah kutub mencari tempat yang lebih dingin maka terjadi kenaikan suhu lautan",
+        "Penurunan produksi pangan tidak mempengaruhi pertumbuhan populasi manusia 50 tahun ke depan",
+        "Populasi manusia dalam 50 tahun ke depan sangat dipengaruhi oleh penurunan produksi pangan"
+      ],
+      "correctAnswer": "Populasi manusia dalam 50 tahun ke depan sangat dipengaruhi oleh penurunan produksi pangan",
+      "explanation": "Teks menyatakan bahwa penurunan produksi pangan menimbulkan kekhawatiran karena hampir seluruh pertumbuhan populasi manusia dalam 50 tahun ke depan diprediksi terjadi di daerah tropis."
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, manakah pernyataan yang PASTI SALAH?",
+      "options": [
+        "Seseorang yang mengalami permasalahan dengkuran saat tidur dianjurkan melakukan posisi tidur tengkurap",
+        "Seseorang yang sering mengalami nyeri leher tidak disarankan untuk melakukan posisi tidur tengkurap.",
+        "Lidah tidak akan menutup jalan napas saat seseorang tidur tengkurap",
+        "Tidur tengkurap hanya memberikan dampak buruk bagi seseorang yang punya permasalahan dengkuran saat tidur",
+        "Posisi tidur tengkurap lebih baik daripada posisi tidur yang lainnya bagi tubuh."
+      ],
+      "correctAnswer": "Tidur tengkurap hanya memberikan dampak buruk bagi seseorang yang punya permasalahan dengkuran saat tidur",
+      "explanation": "Pernyataan D pasti salah karena tidur tengkurap memberikan manfaat (mengurangi dengkuran) bagi orang yang mendengkur, bukan hanya dampak buruk."
+    },
+    {
+      "text": "Manakah pernyataan berikut yang paling tepat mengenai data tersebut yaitu?",
+      "options": [
+        "Memperkuat pernyataan A",
+        "Memperlemah pernyataan A",
+        "Memperkuat pernyataan B",
+        "Memperlemah pernyataan B",
+        "Tidak relevan dengan pernyataan A dan B"
+      ],
+      "correctAnswer": "Tidak relevan dengan pernyataan A dan B",
+      "explanation": "Data mengenai penggunaan transportasi umum karena penurunan harga dan kemudahan akses tidak berhubungan dengan polusi udara, kebersihan sungai/danau, maupun limbah industri."
+    },
+    {
+      "text": "Manakah pernyataan berikut yang paling tepat mengenai data tersebut yaitu?",
+      "options": [
+        "Memperkuat pernyataan A",
+        "Memperlemah pernyataan A",
+        "Memperkuat pernyataan B",
+        "Memperlemah pernyataan B",
+        "Tidak relevan dengan pernyataan A dan B"
+      ],
+      "correctAnswer": "Memperkuat pernyataan A",
+      "explanation": "Data menunjukkan banyak orang yang mengonsumsi buah mengandung vitamin C merasa kulitnya lebih sehat, yang mendukung pernyataan A bahwa vitamin C membantu mencegah masalah kulit."
+    },
+    {
+      "text": "Berdasarkan informasi pada bacaan, berikut adalah kalimat yang memperlemah dan tidak memperlemah bacaan. (Perhatikan tabel pada soal)",
+      "options": [
+        "1 dan 2 memperlemah, 3, 4, dan 5 tidak memperlemah",
+        "1 dan 3 memperlemah, 2, 4, dan 5 tidak memperlemah",
+        "3 dan 5 memperlemah, 1, 2, dan 4 tidak memperlemah",
+        "Semua benar",
+        "Semua salah"
+      ],
+      "correctAnswer": null,
+      "explanation": "Soal berbentuk matriks kategori benar/salah pada tabel di dokumen asli."
+    },
+    {
+      "text": "Manakah pernyataan berikut yang paling tepat mengenai data tersebut yaitu?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan tersebut pasti benar.",
+      "explanation": "Waktu terbaik adalah Mei dan Juni (musim kemarau). Saat ini bulan Februari (bukan Mei dan Juni), sehingga simpulan bahwa saat ini bukan waktu terbaik adalah pasti benar."
+    },
+    {
+      "text": "Manakah pernyataan berikut yang paling tepat mengenai data tersebut yaitu?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan tersebut pasti salah.",
+      "explanation": "Syarat menjadi wakil rakyat adalah tamat sarjana DAN berkomitmen. Surya belum menamatkan pendidikan sarjana, sehingga simpulan bahwa ia pasti direkomendasikan adalah pasti salah."
+    },
+    {
+      "text": "Manakah kelas yang memiliki persentase lulusan tertinggi?",
+      "options": [
+        "Kelas A",
+        "Kelas B",
+        "Kelas C",
+        "Kelas D",
+        "Kelas E"
+      ],
+      "correctAnswer": "Kelas C",
+      "explanation": "Persentase lulusan dihitung dari Lulus dibagi Total Siswa (Lulus + Tidak Lulus). Kelas A: 15/20 = 75%, Kelas B: 20/30 = 66.6%, Kelas C: 24/30 = 80%, Kelas D: 30/50 = 60%, Kelas E: 25/40 = 62.5%. Jadi yang tertinggi adalah Kelas C."
+    },
+    {
+      "text": "Manakah kelas yang memiliki jumlah siswa paling banyak?",
+      "options": [
+        "Kelas A",
+        "Kelas B",
+        "Kelas C",
+        "Kelas D",
+        "Kelas E"
+      ],
+      "correctAnswer": "Kelas D",
+      "explanation": "Jumlah total siswa (Lulus + Tidak Lulus) setiap kelas: Kelas A = 20, Kelas B = 30, Kelas C = 30, Kelas D = 50, Kelas E = 40. Kelas dengan jumlah terbanyak adalah Kelas D."
+    },
+    {
+      "text": "Kota X telah mengadakan pemilihan walikota secara langsung yang diikuti oleh seratus ribu penduduknya. Calon A mendapat setengah suara yang didapatkan calon B. Sedangkan, calon C hanya mendapat suara sebanyak sepuluh ribu suara. Berapa suara yang didapatkan oleh calon A?",
+      "options": [
+        "10 ribu",
+        "30 ribu",
+        "50 ribu",
+        "60 ribu",
+        "80 ribu"
+      ],
+      "correctAnswer": "30 ribu",
+      "explanation": "Total suara = 100 ribu. Suara C = 10 ribu, sisa untuk A dan B adalah 100 - 10 = 90 ribu. Diketahui A = 1/2 B atau B = 2A. Maka A + 2A = 90 ribu -> 3A = 90 ribu -> A = 30 ribu."
+    },
+    {
+      "text": "Kota X telah mengadakan pemilihan walikota secara langsung yang diikuti oleh seratus ribu penduduknya. Calon A mendapat setengah suara yang didapatkan calon B. Sedangkan, calon C hanya mendapat suara sebanyak sepuluh ribu suara. Berapa suara yang didapatkan oleh calon B?",
+      "options": [
+        "10 ribu",
+        "30 ribu",
+        "50 ribu",
+        "60 ribu",
+        "80 ribu"
+      ],
+      "correctAnswer": "60 ribu",
+      "explanation": "Berdasarkan perhitungan sebelumnya, A = 30 ribu dan B = 2 * A = 60 ribu."
+    },
+    {
+      "text": "3, 5, 9, 15, 16, 19, 24, 26, 30, 36, ... Manakah yang tepat untuk mengisi pola barisan tersebut?",
+      "options": [
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
+      "correctAnswer": "39",
+      "explanation": "Perhatikan pola selisih antar suku berikutnya secara bergantian."
+    },
+    {
+      "text": "3, 6, 9, 15, 24, 39, ..., 102, 165 Manakah yang tepat untuk mengisi pola barisan tersebut?",
+      "options": [
+        "63",
+        "75",
+        "81",
+        "92",
+        "100"
+      ],
+      "correctAnswer": "63",
+      "explanation": "Ini adalah pola Fibonacci (penjumlahan dua suku sebelumnya): 3 + 6 = 9, 6 + 9 = 15, 9 + 15 = 24, 15 + 24 = 39, 24 + 39 = 63."
+    }
+  ]
+}

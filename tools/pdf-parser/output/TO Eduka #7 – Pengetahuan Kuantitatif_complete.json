@@ -1,0 +1,182 @@
+{
+  "questions": [
+    {
+      "text": "Diketahui a, b \\in \\mathbb{Z} dan a \\odot b = 5a + 2b - 3ab. Manakah kesimpulan yang benar untuk nilai P dan Q di atas jika P = 3 \\odot 5 dan Q = 2 \\odot 6?",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "Tidak dapat ditarik kesimpulan"
+      ],
+      "correctAnswer": "P < Q",
+      "explanation": "P = 3 \\odot 5 = 5(3) + 2(5) - 3(3)(5) = 15 + 10 - 45 = -20. Q = 2 \\odot 6 = 5(2) + 2(6) - 3(2)(6) = 10 + 12 - 36 = -14. Karena -20 < -14, maka P < Q."
+    },
+    {
+      "text": "Manakah pernyataan di bawah ini yang kurang tepat?\n1) Pertidaksamaan akan berubah tanda apabila variabel pengali/pembagi bernilai negatif\n2) Jika a > 5 dan b < 3, maka nilai a - b akan lebih besar daripada 2\n3) Jika a > 1 dan a^{f(x)} > a^{g(x)}, maka solusinya adalah f(x) > g(x)\n4) Jika a dan b adalah bilangan bulat positif yang memenuhi a^b = a^{20} - a^{19}, maka nilai a + b adalah 19.",
+      "options": [
+        "(1), (2), dan (3)",
+        "(1) dan (3)",
+        "(2) dan (4)",
+        "(4) saja",
+        "Semua benar"
+      ],
+      "correctAnswer": "(4) saja",
+      "explanation": "Pernyataan (4) kurang tepat karena jika a^b = a^{20} - a^{19}, untuk bilangan bulat positif, tidak menghasilkan a + b = 19 secara konsisten."
+    },
+    {
+      "text": "Diketahui sebuah data hasil riset pengunjung art exhibition selama 5 hari adalah sebagai berikut:\nHari ke-1: 26\nHari ke-2: 54\nHari ke-3: 36\nHari ke-4: 30\nHari ke-5: 49\nManakah kesimpulan yang benar untuk nilai P dan Q berdasarkan data di atas, jika P adalah rata-rata pengunjung 3 hari terakhir dan Q adalah rata-rata pengunjung hari ke-1, 2, dan 4?",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "Tidak dapat ditarik kesimpulan"
+      ],
+      "correctAnswer": "P > Q",
+      "explanation": "3 hari terakhir (hari 3, 4, 5) = (36 + 30 + 49) / 3 = 115 / 3 = 38.33. Hari ke-1, 2, dan 4 = (26 + 54 + 30) / 3 = 110 / 3 = 36.67. Maka P > Q."
+    },
+    {
+      "text": "Suatu hari seseorang membeli gadget bekas seharga Rp2.500.000,00. Kemudian, ia menjual kembali gadget tersebut dengan harga Rp3.400.000,00. Manakah kesimpulan yang benar mengenai keuntungan yang ia peroleh?",
+      "options": [
+        "Lebih dari 50%",
+        "Kurang dari 50%",
+        "Sama dengan 50%",
+        "Kurang dari 20%",
+        "Lebih dari 100%"
+      ],
+      "correctAnswer": "Kurang dari 50%",
+      "explanation": "Keuntungan = 3.400.000 - 2.500.000 = 900.000. Persentase keuntungan = (900.000 / 2.500.000) * 100% = 36% (kurang dari 50%)."
+    },
+    {
+      "text": "Jumlah dua bilangan asli genap yang lebih kecil daripada 7 adalah p. Jika p merupakan hasil kali dua bilangan prima, maka nilai p yang mungkin adalah...",
+      "options": [
+        "(1), (2), dan (3) SAJA yang benar.",
+        "(1) dan (3) SAJA yang benar.",
+        "(2) dan (4) SAJA yang benar.",
+        "HANYA (4) SAJA yang benar.",
+        "SEMUA pilihan benar."
+      ],
+      "correctAnswer": "(1) dan (3) SAJA yang benar.",
+      "explanation": "Bilangan asli genap < 7 adalah 2, 4, 6. Kemungkinan jumlah dua bilangan: 2+4=6, 2+6=8, 4+6=10. Nilai p adalah 6, 8, 10, atau 14. Yang merupakan hasil kali dua bilangan prima adalah 6 (2x3) dan 10 (2x5)."
+    },
+    {
+      "text": "Nindha diberi 4 bilangan gurunya dan ditugasi untuk menentukan bilangan mana saja yang habis dibagi 15:\n1) 11115\n2) 15111\n3) 12345\n4) 54320\nBilangan mana sajakah yang habis dibagi 15?",
+      "options": [
+        "(1), (2) dan (3) SAJA yang benar",
+        "(1) dan (3) SAJA yang benar",
+        "(2) dan (4) SAJA yang benar",
+        "Hanya (4) SAJA yang benar",
+        "SEMUA BENAR"
+      ],
+      "correctAnswer": "(1) dan (3) SAJA yang benar",
+      "explanation": "Bilangan habis dibagi 15 jika habis dibagi 3 dan 5. Bilangan 1) 11115 (jumlah digit 9, berakhiran 5) habis. Bilangan 3) 12345 (jumlah digit 15, berakhiran 5) habis."
+    },
+    {
+      "text": "Berikut bilangan mana saja yang habis dibagi 7?\n1) 1042\n2) 3637\n3) 6353\n4) 7098",
+      "options": [
+        "(1), (2) dan (3) SAJA yang benar",
+        "(1) dan (3) SAJA yang benar",
+        "(2) dan (4) SAJA yang benar",
+        "HANYA (4) yang benar",
+        "Tidak ada pilihan yang benar"
+      ],
+      "correctAnswer": "HANYA (4) yang benar",
+      "explanation": "7098 dibagi 7 menghasilkan 1014 (habis dibagi 7)."
+    },
+    {
+      "text": "Operasi \\odot pada himpunan bilangan bulat didefinisikan dengan aturan a \\odot b = b(b + a) - 1, nilai 2 \\odot (3 \\odot (-1)) adalah ....",
+      "options": [
+        "-14",
+        "-10",
+        "-9",
+        "2",
+        "10"
+      ],
+      "correctAnswer": "2",
+      "explanation": "Hitung 3 \\odot (-1) = -1(-1 + 3) - 1 = -1(2) - 1 = -3. Selanjutnya hitung 2 \\odot (-3) = -3(-3 + 2) - 1 = -3(-1) - 1 = 3 - 1 = 2."
+    },
+    {
+      "text": "Di suatu kandang terdapat 40 ekor ayam, 15 ekor diantaranya jantan. Di antara ayam jantan tersebut, 7 ekor berwarna putih. Jika banyak ayam berwarna putih adalah 22 ekor, maka banyak ayam betina yang tidak berwarna putih adalah ....",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "10",
+        "15"
+      ],
+      "correctAnswer": "10",
+      "explanation": "Total ayam = 40. Ayam jantan = 15, betina = 25. Ayam putih total = 22, jantan putih = 7, maka betina putih = 22 - 7 = 15. Betina tidak putih = total betina - betina putih = 25 - 15 = 10."
+    },
+    {
+      "text": "Perbandingan uang Asep dan Habibi adalah 5 : 4, sedangkan perbandingan uang Habibi dan Ryan adalah 3 : 2. Jika jumlah uang Ryan dan Asep adalah Rp184.000,00. Manakah hubungan yang benar antara kuantitas P dan Q berikut berdasarkan informasi yang diberikan?\nP: Jumlah uang Asep, Ryan dan Habibi\nQ: 3 kali jumlah uang Habibi",
+      "options": [
+        "P > Q",
+        "P = Q",
+        "P < Q",
+        "Informasi yang diberikan tidak cukup untuk menjawab pertanyaan",
+        "P \\le Q"
+      ],
+      "correctAnswer": "P < Q",
+      "explanation": "Misalkan A:H = 5:4 = 15:12 dan H:R = 3:2 = 12:8. Perbandingan A:H:R = 15:12:8. Asep = 15x, Habibi = 12x, Ryan = 8x. Jumlah Asep dan Ryan = 23x = 184.000 -> x = 8.000. P = (15+12+8)8.000 = 35 * 8.000 = 280.000. Q = 3 * (12 * 8.000) = 3 * 96.000 = 288.000. Jadi P < Q."
+    },
+    {
+      "text": "Jika garis l melewati titik (0, -2.5), maka hubungan antara garis k dan l adalah ....",
+      "options": [
+        "Tegak lurus",
+        "Saling asing",
+        "Berimpit",
+        "Sejajar",
+        "Tidak dapat ditentukan"
+      ],
+      "correctAnswer": "Tegak lurus",
+      "explanation": "Berdasarkan gambar grafik garis k dan l, posisi garis saling tegak lurus."
+    },
+    {
+      "text": "Rumah Upin, Jarjit, dan Ehsan membentuk sebuah segitiga. Rumah Mail terletak tepat di tengah rumah Upin dan Jarjit. Rumah Fizi terletak tepat di tengah rumah Upin dan Ehsan. Jarak dari rumah Upin ke Jarjit adalah 300 meter. Jarak dari rumah Jarjit ke Ehsan adalah 500 meter. Jarak dari rumah Ehsan ke Upin adalah 600 meter. Jarak dari rumah Fizi ke rumah Mail adalah ... meter.",
+      "options": [
+        "150",
+        "250",
+        "300",
+        "400",
+        "450"
+      ],
+      "correctAnswer": "250",
+      "explanation": "Berdasarkan teorema garis tengah segitiga, jarak Fizi ke Mail adalah setengah dari panjang sisi di hadapannya, yaitu sisi Jarjit-Ehsan = 500 / 2 = 250 meter."
+    },
+    {
+      "text": "Diketahui panjang BE = EF = FC = 6 cm dan panjang DH = HG = GC = 4 cm, maka luas daerah yang diarsir adalah ....",
+      "options": [
+        "36 cm^2",
+        "54 cm^2",
+        "72 cm^2",
+        "108 cm^2",
+        "216 cm^2"
+      ],
+      "correctAnswer": "72 cm^2",
+      "explanation": "Perhitungan luas daerah yang diarsir menggunakan konsep luas segitiga dengan alas dan tinggi yang sesuai pada gambar."
+    },
+    {
+      "text": "Akar-akar persamaan kuadrat 2x^2 - 12x + 2 = 0 adalah \\alpha dan \\beta. Persamaan kuadrat baru yang akar-akarnya (\\alpha + 3) dan (\\beta + 3) adalah...",
+      "options": [
+        "x^2 + 12x - 28 = 0",
+        "x^2 - 12x - 28 = 0",
+        "x^2 + 12x + 28 = 0",
+        "-x^2 - 12x + 28 = 0",
+        "x^2 - 12x + 28 = 0"
+      ],
+      "correctAnswer": "x^2 - 12x + 28 = 0",
+      "explanation": "Substitusi x dengan (x - 3) pada persamaan awal: 2(x - 3)^2 - 12(x - 3) + 2 = 0 -> 2(x^2 - 6x + 9) - 12x + 36 + 2 = 0 -> 2x^2 - 12x + 18 - 12x + 38 = 0 -> 2x^2 - 24x + 56 = 0, disederhanakan menjadi x^2 - 12x + 28 = 0."
+    },
+    {
+      "text": "Diketahui suatu bilangan yang terdiri dari 2 digit. Apabila bilangan tersebut ditukar urutan digitnya, maka menghasilkan bilangan baru yang bernilai 4,5 kali dari bilangan awal, maka bilangan berapakah itu?",
+      "options": [
+        "11",
+        "24",
+        "18",
+        "42",
+        "81"
+      ],
+      "correctAnswer": "18",
+      "explanation": "Misal bilangan 10a + b. Jika ditukar 10b + a = 4.5(10a + b). Untuk a = 1, b = 8, maka 18 ditukar jadi 81. 81 = 4.5 * 18 (benar)."
+    }
+  ]
+}

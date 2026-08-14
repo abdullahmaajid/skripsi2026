@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Perhatikan teks berikut ini.\n\n“Setiap pagi, Pak Ronald selalu mengantarkan anak-anaknya ke sekolah.”\n\nApa makna gramatikal dari kata mengantarkan dalam kalimat tersebut?",
+      "options": [
+        "Mengantar seseorang ke suatu tempat",
+        "Mengantar barang dengan cepat",
+        "Mengantar dengan tujuan tertentu",
+        "Mengantar untuk menyelesaikan pekerjaan",
+        "Mengantar barang tanpa tujuan"
+      ],
+      "correctAnswer": "Mengantar seseorang ke suatu tempat",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan teks berikut ini.\n\n“Para peneliti mengembangkan teknologi baru yang bertujuan untuk mengurangi polusi udara dan meningkatkan kualitas hidup masyarakat.”\n\nApa makna gramatikal dari kata mengembangkan dalam kalimat tersebut?…",
+      "options": [
+        "Membuat sesuatu menjadi lebih rumit",
+        "Meningkatkan sesuatu menjadi lebih baik",
+        "Menyebarkan informasi yang tidak tepat",
+        "Mengubah sesuatu menjadi lebih buruk",
+        "Menciptakan sesuatu tanpa tujuan"
+      ],
+      "correctAnswer": "Meningkatkan sesuatu menjadi lebih baik",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan teks berikut ini.\n\n“Dimas terpilih sebagai kepala tim dalam proyek tersebut. Ia merasa bangga sekaligus memiliki tanggung jawab besar. Teman-temannya percaya bahwa ia adalah sosok yang cocok memimpin.”\n\nDalam kalimat di atas, kata kepala mengandung makna polisemi?….",
+      "options": [
+        "Kepala sebagai bagian tubuh.",
+        "Kepala tim sebagai posisi atau jabatan.",
+        "Kepala tim yang berhubungan dengan pemikiran.",
+        "Kepala sebagai tanda kepemimpinan yang terbentuk alami.",
+        "Kepala sebagai bentuk simbolis untuk menunjukkan usia."
+      ],
+      "correctAnswer": "Kepala tim sebagai posisi atau jabatan.",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan penggalan paragraf di bawah ini.\n\n“Di ujung pasar, Edo membeli tank untuk koleksi mainannya. Di tempat yang sama, ia bertemu sepupunya yang sedang membeli tang untuk memperbaiki peralatan rumah.”\n\nDalam teks di atas, terdapat homofon. Manakah pasangan kata berikut yang merupakan contoh homofon dalam teks tersebut?…",
+      "options": [
+        "Ujung dan terang",
+        "Pasar dan peralatan",
+        "Koleksi dan memperbaiki",
+        "Rumah dan mainan",
+        "Tank dan tang"
+      ],
+      "correctAnswer": "Tank dan tang",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan teks berikut.\n\n“Setiap pagi, Pak Amir berangkat ke ladang untuk menanam padi. Di ladangnya yang luas, ia menanam berbagai jenis padi untuk memenuhi kebutuhan sehari-hari.”\n\nMakna leksikal dari kata padi dalam teks di atas adalah…?",
+      "options": [
+        "Kebutuhan hidup sehari-hari",
+        "Ladang tempat bercocok tanam",
+        "Tanaman yang diolah menjadi beras",
+        "Hasil panen dari ladang Pak Amir",
+        "Makanan pokok penduduk Indonesia"
+      ],
+      "correctAnswer": "Tanaman yang diolah menjadi beras",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan teks di bawah ini\n\n“Ibu menyediakan makanan untuk kami setiap pagi. Beliau memastikan makanan tersedia sebelum kami berangkat ke sekolah.”\n\nKata menyediakan dalam kalimat di atas memiliki makna imbuhan me-kan yang menunjukkan.…",
+      "options": [
+        "Melakukan sesuatu tanpa tujuan tertentu",
+        "Melakukan sesuatu untuk keperluan bersama",
+        "Melakukan sesuatu untuk diri sendiri",
+        "Melakukan sesuatu dengan segera",
+        "Melakukan sesuatu untuk persiapan"
+      ],
+      "correctAnswer": "Melakukan sesuatu untuk persiapan",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan teks berikut.\n\n“Para siswa diajarkan untuk selalu mendahulukan kepentingan bersama dalam kegiatan kelas agar tercipta suasana yang harmonis.”\n\nImbuhan me-kan pada kata mendahulukan dalam kalimat tersebut menunjukkan makna...",
+      "options": [
+        "Melakukan sesuatu terlebih dahulu untuk diri sendiri",
+        "Memprioritaskan sesuatu dibandingkan yang lain",
+        "Melakukan sesuatu secara bersama-sama",
+        "Melakukan sesuatu dengan terburu-buru",
+        "Mengutamakan hal-hal yang tidak penting"
+      ],
+      "correctAnswer": "Memprioritaskan sesuatu dibandingkan yang lain",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan teks berikut.\n\n“Dila membelikan adiknya mainan baru sebagai hadiah ulang tahun. Ia tahu adiknya sangat senang dengan mainan tersebut.”\n\nMakna imbuhan me-kan pada kata membelikan dalam kalimat di atas adalah…",
+      "options": [
+        "Membeli untuk diri sendiri",
+        "Membeli dan menyimpannya untuk nanti",
+        "Membeli sesuatu dengan cara khusus",
+        "Membeli sesuatu untuk orang lain",
+        "Membeli banyak barang sekaligus"
+      ],
+      "correctAnswer": "Membeli sesuatu untuk orang lain",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan teks di bawah ini.\n\n“Dia memiliki ambisi untuk menjadi seorang dokter terkemuka dan selalu berusaha mencapai cita-citanya.”\n\nApa makna asosiasi yang terkandung dalam kata ambisi dalam kalimat tersebut?…",
+      "options": [
+        "Keinginan yang kuat untuk berhasil",
+        "Perasaan khawatir tentang masa depan",
+        "Kepastian mengenai tujuan hidup",
+        "Kemandekan dalam mencapai tujuan",
+        "Ketulusan dalam melakukan sesuatu"
+      ],
+      "correctAnswer": "Keinginan yang kuat untuk berhasil",
+      "explanation": null
+    },
+    {
+      "text": "Makna imbuhan me(N)-kan pada kalimat \"Guru itu mengajarkan Bahasa Inggris kepada muridnya\" sama dengan makna imbuhan me(N)-kan yang terdapat pada kalimat ….",
+      "options": [
+        "Santi membersihkan meja setelah makan.",
+        "Pak Amir membelikan buah untuk istrinya.",
+        "Andi menjelaskan masalah itu kepada teman-temannya.",
+        "Wina memasukkan buku ke dalam tasnya.",
+        "Roni meletakkan piring di atas meja makan."
+      ],
+      "correctAnswer": "Pak Amir membelikan buah untuk istrinya.",
+      "explanation": null
+    },
+    {
+      "text": "Makna imbuhan ke- pada kalimat \"Benda itu kejatuhan debu dari atap\" sama dengan makna imbuhan ke- pada kalimat ....",
+      "options": [
+        "Dia terkena cipratan air saat hujan.",
+        "Tanaman di kebun terbakar karena panas.",
+        "Rumah itu terkena sinar matahari pagi.",
+        "Jalanan menjadi tergelincir karena hujan.",
+        "Mereka kebanjiran akibat hujan deras semalam."
+      ],
+      "correctAnswer": "Mereka kebanjiran akibat hujan deras semalam.",
+      "explanation": null
+    },
+    {
+      "text": "Makna imbuhan ter- pada kalimat \"Dia terpilih sebagai ketua kelas yang baru\" sama dengan makna imbuhan ter- pada kalimat …..",
+      "options": [
+        "Mereka terdampar di pulau itu karena badai.",
+        "Piring itu terjatuh dari meja.",
+        "Buku itu terbaca sampai habis dalam sehari.",
+        "Tino tercatat sebagai murid terbaik di kelasnya.",
+        "Naskah itu tercetak dengan tinta tebal."
+      ],
+      "correctAnswer": "Tino tercatat sebagai murid terbaik di kelasnya.",
+      "explanation": null
+    },
+    {
+      "text": "Makna imbuhan di- pada kalimat \"Kue itu disajikan untuk para tamu yang datang\" sama dengan makna imbuhan di- pada kalimat …",
+      "options": [
+        "Taman tersebut dihias dengan bunga warna-warni.",
+        "Buku itu dibeli oleh ibuku di toko.",
+        "Minuman dingin untuk tamu.",
+        "Bunga itu ditanam di halaman belakang.",
+        "Rumah itu dicat ulang tahun lalu."
+      ],
+      "correctAnswer": "Taman tersebut dihias dengan bunga warna-warni.",
+      "explanation": null
+    },
+    {
+      "text": "Makna imbuhan me(N)-kan pada kalimat \"Sinta menghadiahkan buku kepada adiknya sebagai kenang-kenangan\" sama dengan makna imbuhan me(N)-kan yang terdapat pada kalimat ....",
+      "options": [
+        "Budi menyalakan lampu ketika hari mulai gelap.",
+        "Pak Amir mendekatkan mikrofon ke mulutnya.",
+        "Ibu membawakan bekal untuk anak-anaknya.",
+        "Ayah memperbaiki pintu yang rusak.",
+        "Mereka mencarikan tempat tinggal untuk kerabatnya."
+      ],
+      "correctAnswer": "Ibu membawakan bekal untuk anak-anaknya.",
+      "explanation": null
+    },
+    {
+      "text": "Makna imbuhan ber- pada kalimat \"Mereka berdiskusi mengenai rencana proyek baru\" sama dengan makna imbuhan ber- pada kalimat ….",
+      "options": [
+        "Dian bersepeda di taman pada akhir pekan.",
+        "Anak itu bergembira di pesta ulang tahun.",
+        "Kakak berlari setiap pagi di lapangan.",
+        "Ayah bekerja di kantor pemerintah.",
+        "Mereka berlatih bersama untuk pertandingan"
+      ],
+      "correctAnswer": "Mereka berlatih bersama untuk pertandingan",
+      "explanation": null
+    }
+  ]
+}

@@ -88,7 +88,7 @@ export default function TryoutListClient({ templates }: { templates: Template[] 
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.1 }}
                 onClick={() => handleStart(t.id)}
-                className={`group relative flex flex-col text-left bg-white rounded-3xl p-5 md:p-6 shadow-[0_2px_10px_rgba(0,0,0,0.02)] border border-slate-100 ${cardHover} transition-all hover:shadow-md`}
+                className={`group relative flex flex-col text-left bg-white rounded-3xl p-5 md:p-6 border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.03)] ${cardHover} hover:shadow-md transition-all`}
               >
                 <div className="flex items-start justify-between mb-5 w-full">
                   <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 ${iconBg}`}>

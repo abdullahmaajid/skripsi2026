@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Perhatikan teks berikut untuk menjawab soal nomor 1 – 3.\n\nPak Adi akan memberikan nilai kepada empat siswa yang mengikuti remedial mata pelajaran matematika, berikut adalah informasi penilaiannya:\n1) A mendapat nilai dua pertiga dari yang didapat C.\n2) B mendapat nilai setengah dari yang didapat D.\n3) C mendapat sepuluh poin lebih tinggi dari D.\n4) D mendapatkan nilai sebesar 80 poin.\n\nBerdasarkan bacaan tersebut, manakah informasi yang dibutuhkan untuk mengetahui nilai yang didapat C?",
+      "options": [
+        "4 saja.",
+        "3 dan 4.",
+        "1, 3, dan 4.",
+        "2, 3, dan 4.",
+        "1, 2, 3, dan 4."
+      ],
+      "correctAnswer": "3 dan 4.",
+      "explanation": "Untuk mencari nilai C, kita hanya memerlukan informasi (3) dan (4). Dari (4), D = 80. Dari (3), C = D + 10 = 80 + 10 = 90."
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, manakah informasi yang dibutuhkan untuk mengetahui nilai yang didapat A?",
+      "options": [
+        "4 saja.",
+        "3 dan 4.",
+        "1, 3, dan 4.",
+        "2, 3, dan 4.",
+        "1, 2, 3, dan 4."
+      ],
+      "correctAnswer": "1, 3, dan 4.",
+      "explanation": "Untuk mencari nilai A, kita memerlukan (1), (3), dan (4). Dari (4) dan (3), kita dapatkan C = 90. Kemudian dari (1), A = \\frac{2}{3} \\times C = \\frac{2}{3} \\times 90 = 60."
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, urutan siswa yang mendapat nilai terendah hingga tertinggi yaitu?",
+      "options": [
+        "B, C, D, A",
+        "B, A, C, D",
+        "B, A, D, C",
+        "A, B, D, C",
+        "A, B, C, D"
+      ],
+      "correctAnswer": "B, A, D, C",
+      "explanation": "Nilai masing-masing siswa:\nA = 60\nB = 40 (dari setengah D)\nC = 90\nD = 80\nUrutan dari terendah ke tertinggi: B (40), A (60), D (80), C (90)."
+    },
+    {
+      "text": "1210, 1215, 1230, 1275, \\dots\n\nManakah yang tepat untuk mengisi pola barisan tersebut?",
+      "options": [
+        "1350",
+        "1410",
+        "1525",
+        "1615",
+        "1760"
+      ],
+      "correctAnswer": "1410",
+      "explanation": "Pola penambahan:\n1210 ke 1215 (+5)\n1215 ke 1230 (+15 = 5 \\times 3)\n1230 ke 1275 (+45 = 15 \\times 3)\nMaka suku selanjutnya ditambah 45 \\times 3 = 135.\n1275 + 135 = 1410."
+    },
+    {
+      "text": "Perhatikan grafik untuk menjawab soal nomor 5 dan 6.\nBerikut adalah jumlah kriminalitas (dalam ribu) yang terjadi di Kota A selama lima tahun terakhir (2020: 150, 2021: 180, 2022: 260, 2023: 230, 2024: 215).\n\nBerapakah persentase peningkatan tingkat kriminalitas pada tahun 2021 dibanding dengan tahun sebelumnya?",
+      "options": [
+        "10%",
+        "20%",
+        "30%",
+        "40%",
+        "50%"
+      ],
+      "correctAnswer": "20%",
+      "explanation": "Peningkatan dari 2020 ke 2021 = 180 - 150 = 30.\nPersentase peningkatan = \\frac{30}{150} \\times 100\\% = 20\\%."
+    },
+    {
+      "text": "Berapakah persentase penurunan tingkat kriminalitas pada tahun 2023 dibanding dengan tahun sebelumnya?",
+      "options": [
+        "11%",
+        "15%",
+        "19%",
+        "23%",
+        "28%"
+      ],
+      "correctAnswer": "11%",
+      "explanation": "Penurunan dari 2022 ke 2023 = 260 - 230 = 30.\nPersentase penurunan = \\frac{30}{260} \\times 100\\% \\approx 11.53\\% \\approx 11\\%."
+    },
+    {
+      "text": "Perhatikan teks berikut untuk menjawab soal nomor 7 – 9.\n\nPerut buncit timbul oleh karena asupan makanan yang melebihi energi yang diperlukan untuk aktivitas fisik. Apabila Anda makan terlalu banyak, khususnya makanan yang tinggi gula dan kurang berolahraga, Anda akan mengalami penumpukan lemak pada tubuh, termasuk lemak di perut yang menimbulkan buncit.\n\nPerut buncit yang dibiarkan nantinya akan berdampak pada peningkatan produksi kolesterol buruk dalam darah. Tingginya kolesterol buruk tersebut kemudian akan menyebabkan penyempitan arteri yang nantinya akan meningkatkan risiko terjadinya serangan jantung.\n\nBerdasarkan paragraf 1, manakah simpulan yang tepat jika lemak di perut tidak menimbulkan buncit?",
+      "options": [
+        "Tubuh mengalami penumpukan lemak yang banyak.",
+        "Tidak banyak mengonsumsi makanan yang tinggi gula atau tidak kurang berolahraga.",
+        "Tidak makanan yang tinggi gula dan kurang berolahraga.",
+        "Asupan makanan melebihi energi yang diperlukan.",
+        "Cukup sering melakukan aktivitas fisik."
+      ],
+      "correctAnswer": "Tidak banyak mengonsumsi makanan yang tinggi gula atau tidak kurang berolahraga.",
+      "explanation": "Berdasarkan prinsip kontraposisi dari kalimat pertama dan kedua paragraf 1, jika tidak buncit, maka tidak terjadi kondisi penyebab utamanya (tidak makan terlalu banyak/tinggi gula atau cukup berolahraga)."
+    },
+    {
+      "text": "Berdasarkan bacaan, manakah simpulan yang tepat jika seseorang mengalami penumpukan lemak dan membiarkan perutnya buncit?",
+      "options": [
+        "Kadar kolesterol akan tinggi dan pelebaran arteri.",
+        "Meningkatnya risiko terjadinya serangan jantung.",
+        "Menurunnya kadar kolesterol dalam darah.",
+        "Menurunnya risiko terjadinya serangan jantung.",
+        "Dapat berpotensi terkena stroke."
+      ],
+      "correctAnswer": "Meningkatnya risiko terjadinya serangan jantung.",
+      "explanation": "Dinyatakan dalam teks paragraf 2: 'Perut buncit yang dibiarkan nantinya akan berdampak pada peningkatan produksi kolesterol buruk... yang nantinya akan meningkatkan risiko terjadinya serangan jantung.'"
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, manakah pernyataan yang PASTI SALAH?",
+      "options": [
+        "Kurang olahraga adalah salah satu penyebab serangan jantung.",
+        "Semakin banyak konsumsi makanan tinggi gula potensi serangan jantung semakin tinggi.",
+        "Kadar kolesterol di dalam tubuh tidak mempengaruhi penyempitan arteri.",
+        "Perut akan semakin buncit ketika lemak di dalam tubuh semakin banyak.",
+        "Kolesterol buruk dalam tubuh dapat menyebabkan serangan jantung."
+      ],
+      "correctAnswer": "Kadar kolesterol di dalam tubuh tidak mempengaruhi penyempitan arteri.",
+      "explanation": "Teks menyatakan bahwa kolesterol buruk menyebabkan penyempitan arteri, sehingga pernyataan bahwa kadar kolesterol tidak mempengaruhi penyempitan arteri adalah pasti salah."
+    },
+    {
+      "text": "Manfaat kunyit tak hanya untuk melezatkan masakan, tetapi juga baik untuk kesehatan tubuh. Berkat sifat antiinflamasi, antimikroba, dan antioksidannya, konsumsi kunyit bisa mengatasi berbagai permasalahan kulit, termasuk jerawat, eksim, dan psoriasis. Manfaat kunyit untuk kulit juga diketahui dapat membantu mempercepat penyembuhan luka pada kulit dengan mengurangi peradangannya.\n\nBerdasarkan bacaan tersebut, manakah pernyataan yang PASTI SALAH?",
+      "options": [
+        "Kurangnya konsumsi kunyit dapat menyebabkan permasalah kulit.",
+        "Remaja yang mengalami permasalah jerawat dapat di atasi dengan konsumsi kunyit.",
+        "Konsumsi kunyit dapat menyebabkan terhambatnya penyembuhan luka.",
+        "Psoriasis dapat sembuh jika mengonsumsi sesuatu yang mengandung antimikroba.",
+        "Semakin banyak konsumsi kunyit akan semakin baik bagi kesehatan kulit."
+      ],
+      "correctAnswer": "Konsumsi kunyit dapat menyebabkan terhambatnya penyembuhan luka.",
+      "explanation": "Teks menyatakan bahwa kunyit justru membantu mempercepat penyembuhan luka, sehingga pernyataan bahwa konsumsi kunyit menghambat penyembuhan luka adalah pasti salah."
+    },
+    {
+      "text": "Di Negara X Angkatan bersenjata meliputi Tentara, Polisi, dan Korps Pemuda. Semua anggota Angkatan bersenjata pandai menembak dan beladiri. Yanto sangat pandai melakukan beladiri, tetapi tidak pandai menembak.\n\nSimpulan berdasarkan informasi tersebut adalah Yanto adalah Korps Pemuda yang tidak pandai menembak.\n\nManakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": "Simpulan tersebut pasti salah.",
+      "explanation": "Semua anggota angkatan bersenjata wajib pandai menembak. Karena Yanto tidak pandai menembak, maka Yanto dipastikan BUKAN bagian dari angkatan bersenjata (tentara, polisi, maupun korps pemuda). Oleh karena itu, simpulan bahwa Yanto adalah Korps Pemuda adalah pasti salah."
+    },
+    {
+      "text": "Lemak atau lipid bertindak sebagai penyimpan energi dan menjaga tubuh tetap hangat dengan menyediakan lapisan insulasi di bawah kulit. Lapisan lemak ini juga digunakan untuk melindungi organ tubuh seperti ginjal dari kerusakan. Keju, mentega, telur, dan alpukat makanan yang kaya akan lemak.\n\nManakah DUA SIMPULAN yang PALING DIDUKUNG oleh bacaan tersebut?",
+      "options": [
+        "Konsumsi keju dan mentega dapat membuat organ tubuh lebih terlindungi dari kerusakan.",
+        "Banyaknya konsumsi lemak mungkin dapat menyebabkan perut buncit dan obesitas.",
+        "Seseorang akan memiliki cadangan energi jika mengonsumsi makanan mengandung lemak.",
+        "Alpukat yang dikonsumsi dengan telur dapat membuat kerusakan pada lapisan kulit.",
+        "Suhu tubuh akan tetap relatif hangat walaupun jarang mengonsumsi lemak."
+      ],
+      "correctAnswer": "Seseorang akan memiliki cadangan energi jika mengonsumsi makanan mengandung lemak.",
+      "explanation": "Simpulan yang paling didukung adalah lemak bertindak sebagai penyimpan energi (cadangan energi) yang didapat dari makanan kaya lemak, dan keju/mentega merupakan makanan kaya lemak yang menyediakan perlindungan."
+    },
+    {
+      "text": "A menyatakan \"Agar kulit lebih terjaga seseorang dapat mengonsumsi makanan yang mengandung antioksidan, terutama buah dan sayuran.\" B menyatakan \"Banyak melakukan olahraga dan mengurangi konsumsi garam dapat membuat kulit menjadi lebih kencang dan sehat.\" Data menunjukkan bahwa banyak orang yang berolahraga memiliki kulit yang lebih sehat dan tidak keriput. Manakah pernyataan berikut yang paling tepat mengenai data tersebut?",
+      "options": [
+        "Memperkuat pernyataan A.",
+        "Memperlemah pernyataan A.",
+        "Memperkuat pernyataan B.",
+        "Memperlemah pernyataan B.",
+        "Tidak relevan dengan pernyataan A dan B."
+      ],
+      "correctAnswer": "Memperkuat pernyataan B.",
+      "explanation": "Data menunjukkan bahwa banyak orang yang berolahraga memiliki kulit yang lebih sehat dan tidak keriput, yang sejalan dengan pernyataan B mengenai manfaat olahraga."
+    },
+    {
+      "text": "A menyatakan \"Mata yang terlalu sering terpapar sinar ultraviolet secara langsung lebih berisiko mengalami kerusakan.\" B menyatakan \"Merokok dapat meningkatkan risiko terjadinya kerusakan saraf optik yang mampu menyebabkan kebutaan pada mata.\" Data menunjukkan bahwa banyak orang yang matanya rusak disebabkan karena menatap layar komputer atau ponsel terlalu lama. Manakah pernyataan berikut yang paling tepat mengenai data tersebut?",
+      "options": [
+        "Memperkuat pernyataan A.",
+        "Memperlemah pernyataan A.",
+        "Memperkuat pernyataan B.",
+        "Memperlemah pernyataan B.",
+        "Tidak relevan dengan pernyataan A dan B."
+      ],
+      "correctAnswer": "Tidak relevan dengan pernyataan A dan B.",
+      "explanation": "Data tentang mata rusak karena menatap layar komputer/ponsel tidak berkaitan langsung dengan paparan sinar ultraviolet (A) maupun merokok (B)."
+    },
+    {
+      "text": "Berdasarkan informasi pada bacaan, berikut adalah kalimat yang MEMPERLEMAH dan TIDAK MEMPERLEMAH pernyataan tersebut.",
+      "options": [
+        "Daun singkong adalah sayuran murah yang kaya akan manfaat bagi tubuh.",
+        "Seseorang yang memiliki permasalahan kolesterol disarankan mengonsumsi daun singkong.",
+        "Konsumsi daun singkong dapat menyebabkan permasalahan pencernaan.",
+        "Kadar gula yang rendah membuat daun singkong dapat menjadi penyebab kolesterol.",
+        "Seseorang yang ingin meningkatkan berat badan disarankan mengonsumsi daun singkong."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pak Rais akan memberikan nilai kepada empat siswa yang mengikuti remedial mata pelajaran matematika, berikut adalah informasi penilaiannya: 1) B mendapat nilai dua kali lipat dari yang didapat D. 2) C mendapat nilai dua pertiga dari yang didapat A. 3) C mendapat sepuluh poin lebih tinggi dari D. 4) A mendapatkan nilai sebesar 75 poin. Berdasarkan bacaan tersebut, manakah informasi yang dibutuhkan untuk mengetahui nilai yang didapat B?",
+      "options": [
+        "4 saja.",
+        "2 dan 4.",
+        "1, 3, dan 4.",
+        "2, 3, dan 4.",
+        "1, 2, 3, dan 4."
+      ],
+      "correctAnswer": "1, 2, 3, dan 4.",
+      "explanation": "Untuk mencari B, kita perlu tahu D dari persamaan (1). D dapat dicari dari C (persamaan 3). C dapat dicari dari A (persamaan 2). Dan A diketahui dari (4)."
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, manakah informasi yang dibutuhkan untuk mengetahui nilai yang didapat C?",
+      "options": [
+        "4 saja.",
+        "2 dan 4.",
+        "1, 3, dan 4.",
+        "2, 3, dan 4.",
+        "1, 2, 3, dan 4."
+      ],
+      "correctAnswer": "2 dan 4.",
+      "explanation": "C didapat langsung dari perhitungan C = 2/3 dari A, dengan A = 75."
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, urutan siswa yang mendapat nilai terendah hingga tertinggi yaitu?",
+      "options": [
+        "D, C, A, B",
+        "D, C, B, A",
+        "C, D, A, B",
+        "C, D, B, A",
+        "A, B, C, D"
+      ],
+      "correctAnswer": "D, C, A, B",
+      "explanation": "A = 75, C = 50, D = 40, B = 80. Urutan dari terendah ke tertinggi adalah D (40), C (50), A (75), B (80)."
+    },
+    {
+      "text": "2, 5, 14, 41, 122, ... Manakah yang tepat untuk mengisi pola barisan tersebut?",
+      "options": [
+        "365",
+        "321",
+        "287",
+        "254",
+        "163"
+      ],
+      "correctAnswer": "365",
+      "explanation": "Pola penambahan dikali 3 dan ditambah atau pola selisih: 3, 9, 27, 81, berikutnya selisih 243. Maka 122 + 243 = 365."
+    },
+    {
+      "text": "Berapakah persentase peningkatan tingkat kecelakaan pada tahun 2021 dibanding dengan tahun sebelumnya?",
+      "options": [
+        "5%",
+        "15%",
+        "25%",
+        "35%",
+        "45%"
+      ],
+      "correctAnswer": "25%",
+      "explanation": "Tahun 2020 = 16, Tahun 2021 = 20. Peningkatan = (20 - 16) / 16 * 100% = 4 / 16 * 100% = 25%."
+    },
+    {
+      "text": "Berapakah persentase peningkatan tingkat kecelakaan pada tahun 2023 dibanding dengan tahun sebelumnya?",
+      "options": [
+        "45%",
+        "50%",
+        "55%",
+        "60%",
+        "65%"
+      ],
+      "correctAnswer": "50%",
+      "explanation": "Tahun 2022 = 22, Tahun 2023 = 33. Peningkatan = (33 - 22) / 22 * 100% = 11 / 22 * 100% = 50%."
+    },
+    {
+      "text": "Berdasarkan data tersebut, manakah simpulan data yang PALING TEPAT?",
+      "options": [
+        "Jumlah kecelakaan selalu meningkat selama lima tahun terakhir.",
+        "Jumlah kecelakaan selalu menurun selama lima tahun terakhir.",
+        "Tahun 2022 memiliki jumlah kecelakaan tertinggi selama lima tahun terakhir.",
+        "Tahun 2023 memiliki jumlah kecelakaan tertinggi selama lima tahun terakhir.",
+        "Tahun 2024 memiliki penurunan jumlah kecelakaan dari tahun sebelumnya."
+      ],
+      "correctAnswer": "Tahun 2023 memiliki jumlah kecelakaan tertinggi selama lima tahun terakhir.",
+      "explanation": "Nilai kecelakaan pada 2023 adalah 33 ribu, yang merupakan nilai tertinggi dari data 5 tahun terakhir."
+    },
+    {
+      "text": "Berdasarkan paragraf 1, manakah simpulan yang tepat apabila Indonesia memasukkan ekosistem konservasi laut seperti hutan mangrove, padang lamun, dan terumbu karang dalam perencanaan Kawasan Konservasi Laut (KKL)?",
+      "options": [
+        "Tidak terjaminnya produksi makanan laut yang berkelanjutan.",
+        "Terjaminnya produksi makanan laut yang berkelanjutan.",
+        "Keberadaan Kawasan Konservasi Laut (KKL) akan semakin terancam.",
+        "Tidak memberikan kemananan kerja bagi masyarakat pesisir.",
+        "Tidak dapat disimpulkan."
+      ],
+      "correctAnswer": "Terjaminnya produksi makanan laut yang berkelanjutan.",
+      "explanation": "Paragraf 1 menyatakan bahwa KKL dapat menjamin produksi makanan laut yang berkelanjutan jika Indonesia memasukkan ekosistem penting tersebut."
+    },
+    {
+      "text": "Berdasarkan paragraf 2, manakah simpulan yang tepat apabila di pulau Jawa tidak berpenduduk padat?",
+      "options": [
+        "Hutan mangrove di kawasan yang tidak dilindungi telah mengalami deforestasi dan degradasi dalam skala besar.",
+        "Hutan mangrove di kawasan yang dilindungi telah mengalami deforestasi dan tidak terdegradasi dalam skala besar.",
+        "Hutan mangrove di kawasan yang dilindungi telah mengalami deforestasi atau tidak terdegradasi dalam skala besar.",
+        "Jumlah Kawasan Konservasi Laut (KKL) yang sedikit akan tetap membahayakan ekosistem penting.",
+        "Tidak dapat disimpulkan."
+      ],
+      "correctAnswer": "Tidak dapat disimpulkan.",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, manakah pernyataan yang PASTI SALAH?",
+      "options": [
+        "Hilangnya hutan mangrove tidak mempengaruhi pendapatan rumah tangga masyarakat pesisir.",
+        "Jumlah penduduk yang padat dapat membahayakan ekosistem hutan mangrove di pesisir.",
+        "Kemanan masyarakat pesisir dapat menjamin produksi makanan laut yang berkelanjutan.",
+        "Kawasan Konservasi Laut (KKL) berpotensi memulihkan ekosistem yang terdegradasi sekaligus meningkatkan penghidupan masyarakat pesisir.",
+        "Ekosistem penting di laut dapat terancam jika Kawasan Konservasi Laut (KKL) semakin berkurang."
+      ],
+      "correctAnswer": "Hilangnya hutan mangrove tidak mempengaruhi pendapatan rumah tangga masyarakat pesisir.",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, manakah pernyataan yang PASTI SALAH?",
+      "options": [
+        "Rasa amis pada makanan dapat hilang dengan menambahkan jeruk nipis pada makanan.",
+        "Jeruk nipis dapat menghambat metabolisme karena kandungan asam nitrat.",
+        "Sebagian besar orang berhasil diet dengan mengonsumsi jeruk nipis.",
+        "Kalori dalam tubuh lebih banyak terbakar jika metabolisme meningkat.",
+        "Mengonsumsi jeruk nipis membantu membakar kalori lebih banyak karena peningkatan metabolisme."
+      ],
+      "correctAnswer": "Jeruk nipis dapat menghambat metabolisme karena kandungan asam nitrat.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang paling tepat mengenai data tersebut?",
+      "options": [
+        "Memperkuat pernyataan A.",
+        "Memperlemah pernyataan A.",
+        "Memperkuat pernyataan B.",
+        "Memperlemah pernyataan B.",
+        "Tidak relevan dengan pernyataan A dan B."
+      ],
+      "correctAnswer": "Memperkuat pernyataan B.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang paling tepat mengenai data tersebut?",
+      "options": [
+        "Memperkuat pernyataan A.",
+        "Memperlemah pernyataan A.",
+        "Memperkuat pernyataan B.",
+        "Memperlemah pernyataan B.",
+        "Tidak relevan dengan pernyataan A dan B."
+      ],
+      "correctAnswer": "Memperlemah pernyataan A.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": "Simpulan tersebut pasti benar.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": "Simpulan tersebut mungkin benar.",
+      "explanation": null
+    }
+  ]
+}

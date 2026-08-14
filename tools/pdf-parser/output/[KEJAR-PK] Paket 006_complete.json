@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Seseorang sendirian dapat menyelesaikan suatu pekerjaan dalam $j$ jam dan asistenya sendiri dapat menyelesaikan pekerjaan tersebut dalam $k$ jam. Jika mereka bekerja bersama-sama, berapa jamkah yang diperlukan untuk menyelesaikan pekerjaan tersebut?",
+      "options": [
+        "\\frac{j+k}{jk}",
+        "\\frac{1}{2}(j+k)",
+        "\\frac{1}{2}jk",
+        "\\frac{jk}{j+k}",
+        "\\frac{j+k}{j}"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "Terdapat sebuah barisan aritmatika dengan suku ketiga adalah 13 dan suku ketujuh adalah 29, berapakah jumlah dari suku ke 5 ...",
+      "options": [
+        "65",
+        "21",
+        "44",
+        "50",
+        "25"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Carilah penyelesaian $\\frac{x+y}{2}$ dikurang $\\frac{y-2x}{3}$ ...",
+      "options": [
+        "\\frac{7x+y}{6}",
+        "\\frac{7x-y}{6}",
+        "\\frac{-7x+y}{6}",
+        "\\frac{-7x-y}{6}",
+        "\\frac{7x-y}{-6}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Daerah penyelesaian yang memenuhi pertidaksamaan $2x + 3y \\le 12$, $y \\le 0$, $x \\le 0$ berada pada kuadran ...",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "II dan IV"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "Operasi $@$ pada himpunan bilangan bulat didefinisikan dengan aturan $a@b = (a+b)a + m$. Jika nilai $-2@-1 = 6$ berapa nilai $m = ...$",
+      "options": [
+        "3",
+        "-2",
+        "-1",
+        "0",
+        "1"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui gambar. Berapa besar $\\angle DBC = ...$",
+      "options": [
+        "15^\\circ",
+        "30^\\circ",
+        "45^\\circ",
+        "60^\\circ",
+        "75^\\circ"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $xy = 3$ dan $x^2 + y^2 = 6$, maka $(x + y)^2$ ...",
+      "options": [
+        "$(x + y)^2$ lebih besar daripada 12",
+        "$(x + y)^2$ lebih kecil daripada 12",
+        "$(x + y)^2$ sama dengan 12",
+        "$(x + y)^2$ sama dengan 15",
+        "$(x + y)^2$ lebih kecil dari 10"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bangun datar dengan simetri lipat paling sedikit adalah ...",
+      "options": [
+        "Layang-layang",
+        "Segitiga sama kaki",
+        "Belah ketupat",
+        "Trapesium sama kaki",
+        "Jajar genjang"
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "A, B, C, D, dan E adalah barisan angka dengan beda sebesar 5. Berapakah Jumlah suku ke-5 dari barisan angka tersebut? \n1) nilai A sebesar 7 \n2) nilai B sebesar 12",
+      "options": [
+        "pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "Manakah di antara bangun berikut yang memiliki rusuk berjumlah 6? \n1) Kubus \n2) Prisma segi empat \n3) Balok \n4) Limas segitiga",
+      "options": [
+        "1, 2, 3 SAJA yang benar",
+        "1 dan 3 SAJA yang benar",
+        "2 dan 4 SAJA yang benar",
+        "HANYA 4 yang benar",
+        "SEMUA PILIHAN Benar"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "$2 \\text{ lusin} + 1 \\text{ gross} + 12 \\text{ buah} = ... \\text{ kodi}$",
+      "options": [
+        "7 kodi",
+        "8 kodi",
+        "9 kodi",
+        "10 kodi",
+        "11 kodi"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bulan Januari harga barang Rp50.000.000,00. Bulan Februari harga naik 10%. Selama bulan Maret harga barang bulan Februari didiskon sebesar 10%. Harga barang bulan Maret adalah ...",
+      "options": [
+        "Rp49.500.000,00",
+        "Rp50.000.000,00",
+        "Rp40.000.000,00",
+        "Rp52.500.000,00",
+        "Rp48.500.000,00"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Pengendara X berangkat dari Kota Pekalongan dengan kecepatan $60 \\text{ km/jam}$, 1 jam kemudian, pengendara Y berangkat dari Kota Pekalongan melalui jalur yang sama dengan pengendara X dengan kecepatan $80 \\text{ km/jam}$. Jika hingga 2 jam kemudian kedua pengendara masih terus berkendara tanpa henti, apakah pengendara Y berhasil menyusul pengendara X dan berapa jarak antara kedua pengendara saat itu?",
+      "options": [
+        "Pengendara Y belum berhasil menyusul, jarak keduanya 40 km",
+        "Pengendara Y belum berhasil menyusul, jarak keduanya 20 km",
+        "Pengendara Y tepat menyusul pengendara X sehingga jarak keduanya 0 km",
+        "Pengendara Y berhasil menyusul pengendara X, jarak keduanya 20 km",
+        "Pengendara Y berhasil menyusul pengendara X, jarak keduanya 40 km"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Pertidaksamaan berikut yang berlaku untuk setiap x bilangan real adalah ... \n1) $4^x \\le 5^x$ \n2) $4^{-x} \\le 5^x$ \n3) $4^{-x} \\le 5^{-x}$ \n4) $4^x \\le 5^{-x}$",
+      "options": [
+        "1, 2, dan 3 benar",
+        "1 dan 3 benar",
+        "2 dan 4 benar",
+        "4 saja benar",
+        "Semua jawaban benar"
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "Manakah bentuk yang menyatakan hubungan kuantitas antara nilai P dan nilai Q.",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

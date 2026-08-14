@@ -1,0 +1,1207 @@
+{
+  "questions": [
+    {
+      "text": "Sebuah tangki berisi campuran air dan alkohol dengan perbandingan $4 : 3$. Jika $5$ liter alkohol ditambahkan ke dalam tangki, perbandingan air dan alkohol menjadi $4 : 5$. Jumlah air di dalam adalah ...",
+      "options": [
+        "8 liter",
+        "10 liter",
+        "12 liter",
+        "15 liter",
+        "16 liter"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Misalkan air = $4x$ dan alkohol = $3x$. Setelah ditambah $5$ liter alkohol, perbandingannya menjadi $4x / (3x + 5) = 4 / 5$. Dari persamaan ini didapatkan $20x = 12x + 20 \\rightarrow 8x = 20 \\rightarrow x = 2,5$. Jumlah air = $4(2,5) = 10$ liter."
+    },
+    {
+      "text": "$32$ siswa laki - laki dan $20$ siswa perempuan ikut kerja bakti. Jika peserta kerja bakti ditambah beberapa guru laki - laki dan guru perempuan, maka perbandingan jumlah laki – laki dan perempuan menjadi $3 : 4$. Jumlah seluruh peserta kerja bakti yang mungkin adalah ...",
+      "options": [
+        "52",
+        "64",
+        "81",
+        "84",
+        "86"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Total peserta setelah ditambah guru harus habis dibagi $(3 + 4 = 7)$. Dari pilihan yang ada, $81$ dapat dibagi menjadi beberapa kemungkinan perbandingan."
+    },
+    {
+      "text": "Perbandingan antara ukuran pada gambar dan aslinya, sebagai berikut: Ukuran gambar : ukuran asli = $3 : 90$. Apabila terdapat sebuah persegi panjang dengan luas $810 \\text{ m}^2$ dengan ukuran lebar $18 \\text{ m}$, maka panjang pada gambar adalah ...",
+      "options": [
+        "1,5 cm",
+        "2 cm",
+        "2,5 cm",
+        "3 cm",
+        "3,5 cm"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Luas = $810$, lebar = $18$, maka panjang asli = $810 / 18 = 45 \\text{ m}$. Skala = $3 : 90 = 1 : 30$. Panjang pada gambar = $45 \\text{ m} / 30 = 1,5 \\text{ m} = 150 \\text{ cm}$ (atau perhitungan skala langsung)."
+    },
+    {
+      "text": "Dalam sebuah kelas, jumlah siswa yang berasal dari daerah A adalah $20\\%$. Jika $\\frac{3}{4}$ dari jumlah siswa daerah $A$ adalah $24$ siswa, jumlah siswa kelas tersebut adalah ...",
+      "options": [
+        "75",
+        "80",
+        "90",
+        "120",
+        "160"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Jumlah siswa daerah A ($A$) memenuhi $\\frac{3}{4} A = 24$, sehingga $A = 32$. Karena daerah A adalah $20\\%$ dari total siswa ($T$), maka $0,2T = 32 \\rightarrow T = 160$."
+    },
+    {
+      "text": "Untuk membuat $3$ potong kain dibutuhkan $16$ gulung benang. Jika $8$ gulung benang harganya $\\text{Rp}72.000,00$ harga produksi sepotong kain adalah ...",
+      "options": [
+        "Rp27.000,00",
+        "Rp48.000,00",
+        "Rp96.000,00",
+        "Rp144.000,00",
+        "Rp132.000,00"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Harga $1$ gulung benang = $72.000 / 8 = 9.000$. Untuk $3$ potong kain dibutuhkan $16$ gulung benang, total biaya = $16 \\times 9.000 = 144.000$. Biaya sepotong kain = $144.000 / 3 = 48.000$."
+    },
+    {
+      "text": "Untuk menanggulangi luberan lumpur, warga sebuah desa mengoperasikan $6$ buah pompa dengan kecepatan konstan dan sama mampu memindahkan lumpur sebanyak $67,5 \\text{ m}^3$ tiap menit. Dengan kecepatan yang sama berapa banyak lumpur yang dapat dipindahkan oleh $10$ pompa selama $4$ menit?",
+      "options": [
+        "162 \\text{ m}^3",
+        "450 \\text{ m}^3",
+        "675 \\text{ m}^3",
+        "2700 \\text{ m}^3",
+        "3000 \\text{ m}^3"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Kecepatan $1$ pompa = $67,5 / 6 = 11,25 \\text{ m}^3$/menit. Volume oleh $10$ pompa selama $4$ menit = $10 \\times 11,25 \\times 4 = 450 \\text{ m}^3$."
+    },
+    {
+      "text": "Sebanyak $12$ orang pekerja dapat menyelesaikan sebuah proyek dalam $16$ hari. Jika setelah $4$ hari bekerja terdapat $4$ orang pekerja yang sakit sehingga tidak bisa meneruskan bekerja. Pada kondisi tersebut proyek dapat diselesaikan dalam waktu ... hari.",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21",
+        "22"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Sisa pekerjaan = $12$ pekerja $\\times (16 - 4)$ hari = $144$ pekerja-hari. Sisa pekerja = $12 - 4 = 8$ orang. Sisa waktu = $144 / 8 = 18$ hari. Total waktu = $4 + 18 = 22$ hari."
+    },
+    {
+      "text": "Sembilan orang dapat menyelesaikan suatu pekerjaan dalam $48$ hari. Jika diinginkan pekerjaan tersebut selesai $3$ minggu lebih cepat, maka tambahan pekerja yang dibutuhkan adalah ...",
+      "options": [
+        "5 orang",
+        "6 orang",
+        "7 orang",
+        "8 orang",
+        "9 orang"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Pekerjaan awal = $9 \\times 48 = 432$ orang-hari. Selesai $3$ minggu ($21$ hari) lebih cepat berarti waktu = $48 - 21 = 27$ hari. Kebutuhan pekerja = $432 / 27 = 16$ orang. Tambahan pekerja = $16 - 9 = 7$ orang."
+    },
+    {
+      "text": "Sembilan orang dapat menyelesaikan suatu pekerjaan dalam waktu $48$ hari, jika diinginkan pekerjaan tersebut selesai $3$ minggu lebih cepat, maka perlu ditambah pekerja sebanyak ... orang",
+      "options": [
+        "5 orang",
+        "7 orang",
+        "9 orang",
+        "11 orang",
+        "12 orang"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Sama dengan soal nomor 8, tambahan pekerja = $7$ orang."
+    },
+    {
+      "text": "Pembuatan pos ronda dapat dikerjakan oleh $8$ orang dalam waktu $15$ hari, Jika terdapat $3$ orang yang izin, tambahan waktu yang diperlukan untuk menyelesaikan pembuatan pos ronda adalah ...",
+      "options": [
+        "5 hari",
+        "9 hari",
+        "15 hari",
+        "24 hari",
+        "40 hari"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Total pekerjaan = $8 \\times 15 = 120$ pekerja-hari. Pekerja yang ada = $8 - 3 = 5$ orang. Waktu yang diperlukan = $120 / 5 = 24$ hari. Tambahan waktu = $24 - 15 = 9$ hari."
+    },
+    {
+      "text": "Seseorang naik motor dan menempuh jarak $72 \\text{ km}$ dalam waktu $1$ jam, kecepatan yang harus ditambahkan supaya ia dapat sampai tujuan dalam waktu $40$ menit adalah ...",
+      "options": [
+        "11\\text{ km/jam}",
+        "36 \\text{ km/jam}",
+        "48 \\text{ km/jam}",
+        "72 \\text{ km/jam}",
+        "108 \\text{ km/jam}"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Kecepatan awal = $72 \\text{ km/jam}$. Waktu baru = $40 / 60 = 2/3$ jam. Kecepatan baru = $72 / (2/3) = 108 \\text{ km/jam}$. Tambahan kecepatan = $108 - 72 = 36 \\text{ km/jam}$."
+    },
+    {
+      "text": "Jarak kota A dan kota B dapat ditempuh dengan menggunakan mobil dalam waktu $5$ jam dengan kecepatan $90 \\text{ km/jam}$. Ketika mobil tersebut mengurangi kecepatannya sebesar $45 \\text{ km/jam}$, mobil tersebut akan tiba di kota B dalam ...",
+      "options": [
+        "9 jam",
+        "10 jam",
+        "15 jam",
+        "18 jam",
+        "20 jam"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Jarak = $5 \\times 90 = 450 \\text{ km}$. Kecepatan baru = $90 - 45 = 45 \\text{ km/jam}$. Waktu baru = $450 / 45 = 10$ jam."
+    },
+    {
+      "text": "Berdasarkan data tersebut persentase penurunan penjualan mobil terkecil terjadi pada ...",
+      "options": [
+        "Agen P, Maret – April",
+        "Agen Q, Maret – April",
+        "Agen Q, April – Mei",
+        "Agen R, Maret – April",
+        "Agen R, Mei – Juni"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Menganalisis data tabel penjualan agen untuk penurunan terkecil."
+    },
+    {
+      "text": "Berdasarkan data tersebut, manakah pernyataan berikut yang paling tepat untuk memperkirakan penjualan mobil di tiga agen P, Q, dan R pada bulan Agustus?",
+      "options": [
+        "Penjualan mobil di Agen P akan lebih kecil dibandingkan bulan sebelumnya",
+        "Penjualan mobil di Agen Q akan sama dengan bulan Mei",
+        "Total penjualan mobil akan sama dibandingkan bulan sebelumnya",
+        "Penjualan mobil di agen P akan sama dengan penjualan mobil di agen Q",
+        "Penjualan mobil di Agen R akan meningkat dari bulan sebelumnya"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Analisis tren data pada tabel grafik."
+    },
+    {
+      "text": "Berdasarkan data tersebut persentase kenaikan gaji terbesar terjadi pada bidang ...",
+      "options": [
+        "Akuntansi, tahun 2014 – 2015",
+        "Akuntansi, tahun 2017 – 2018",
+        "Pemasaran, tahun 2014 – 2015",
+        "Pemasaran, tahun 2015 – 2016",
+        "Manajemen, tahun 2016 – 2017"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Menghitung persentase kenaikan terbesar dari data tabel bidang pekerjaan."
+    },
+    {
+      "text": "Berdasarkan data tersebut, manakah pernyataan berikut yang paling tepat untuk memprediksi perkembangan gaji tiga bidang pekerjaan pada tahun 2019?",
+      "options": [
+        "Gaji bidang akuntansi akan lebih besar daripada bidang pemasaran",
+        "Gaji bidang pemasaran akan lebih besar daripada tahun sebelumnya",
+        "Gaji bidang manajemen akan naik dua kali lipat dibanding gaji tahun 2016",
+        "Kenaikan gaji bidang pemasaran akan sama dengan dibandingkan gaji bidang akuntansi",
+        "Selisih gaji bidang pemasaran dan akuntansi akan lebih kecil daripada selisih gaji bidang pemasaran dan menajemen"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Menganalisis tren kenaikan dari data historis."
+    },
+    {
+      "text": "Berdasarkan data tersebut, rata – rata tiga pengadaan tiga jenis baterai terbesar kedua terjadi pada tahun ...",
+      "options": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Menghitung rata-rata total pengadaan ketiga baterai tiap tahun dan menentukan yang terbesar kedua."
+    },
+    {
+      "text": "Berdasarkan data tersebut, manakah pernyataan berikut yang paling tepat untuk memperkirakan pengadaan baterai pada tahun 2015?",
+      "options": [
+        "Pengadaan tiga jenis baterai akan lebih banyak dibandingkan tahun sebelumnya",
+        "Pengadaan baterai jenis alkalin akan lebih banyak dari tahun sebelumnya",
+        "Pengadaan baterai jenis lithium akan sama dengan tahun sebelumnya",
+        "Pengadaan baterai jensi Zn-C akan lebih banyak dibandingkan jenis alkalin",
+        "Pengadaan baterai jenis alkalin akan lebih sedikit dibandingkan tahun sebelumnya."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Banyaknya pesan voicemail masuk yang tak terhapus di telepon pintar seseorang setiap hari selama lima hari disajikan dengan diagram garis. (1) Persentase kenaikan benyaknya pesan masuk pada hari Senin – Rabu kurang dari 150% (2) Pada hari Senin dan Kamis banyaknya pesan masuk di telepon orang tersebut kurang dari 15 (3) Kenaikan relatif terbesar banyaknya pesan masuk di telepon orang tersebut terjadi pada hari Selasa – Rabu (4) Rata – rata perubahan banyaknya pesan masuk di telepon orang tersebut dua hari berurutan pada hari Senin – Jumat lebih kecil daripada 1",
+      "options": [
+        "(1), (2) dan (3) SAJA yang benar",
+        "(1) dan (3) SAJA yang benar",
+        "(2) dan (4) SAJA yang benar",
+        "HANYA (4) yang benar",
+        "SEMUA pilihan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Suhu kopi di dalam lemari es sejak pukul 06.00 disajikan dengan diagram garis. (1) Rata – rata penurunan suhu per jam pada pukul 08.00 – 12.00 lebih tinggi daripada rata – rata penurunan suhu pada pukul 06.00 – 10.00 (2) Pada pukul 06.00 – 08.00, suhu kopi turun $30^\\circ\\text{C}$ (3) Rata – rata penurunan suhu per jam terendah terjadi pada pukul 10.00 – 12.00 (4) Rata – rata penurunan suhu per jam pada pukul 06.00 – 08.00 lebih tinggi daripada rata – rata penurunan suhu pada pukul 08.00 – 14.00",
+      "options": [
+        "(1), (2) dan (3) SAJA yang benar",
+        "(1) dan (3) SAJA yang benar",
+        "(2) dan (4) SAJA yang benar",
+        "HANYA (4) yang benar",
+        "SEMUA pilihan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Banyaknya ternak di sebuah kecamatan setiap tahun selama lima tahun disajikan dengan diagram garis. (1) Persentasi kenaikan banyaknya ternak pada tahun 2015 – 2017 adalah 150% (2) Kenaikan relatif tertinggi terjadi pada tahun 2017 – 2018 (3) Maksimum banyaknya ternak di kecamatan itu terjadi pada tahun 2018 (4) Rata – rata perubahan banyaknya ternak dua tahun berurutan pada tahun 2015 – 2019 lebih besar daripada 125",
+      "options": [
+        "(1), (2), dan (3) SAJA yang benar",
+        "(1) dan (3) SAJA yang benar",
+        "(2) dan (4) SAJA yang benar",
+        "HANYA (4) yang benar",
+        "SEMUA pilihan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berikut adalah isi lemari laci Budi: \nJenis Pakaian | Laci 1 (helai) | Laci 2 (helai)\nKaus merah | 1 | 2\nKemeja merah | 1 | 2\nKaus biru | 2 | 3\nKemeja biru | 1 | 3\nJika Budi mengambil pakaian di laci 1 dan laci 2 masing masing secara acak, manakah peristiwa yang paling mungkin terjadi?",
+      "options": [
+        "Budi mengambil 2 buah pakaian warna merah",
+        "Budi mengambil 2 buah pakaian warna biru",
+        "Budi mengambil 2 buah kemeja",
+        "Budi mengambil 2 buah kaos",
+        "Budi mengambil 2 buah kemeja warna biru"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berikut ini adalah isi lemari pakaian milik Dito:\nJenis Pakaian | Lemari Kiri (helai) | Lemari Kanan (helai)\nKaus polos | 3 | 3\nKaus bergambar | 6 | 5\nCelana polos | 2 | 3\nCelana bergambar | 4 | 4\nJika Dito mengambil pakaian di lemari sebelah kiri dan kanan masing – masing 1 secara acak, peristiwa yang paling mungkin terjadi?",
+      "options": [
+        "Dito mengambil dua buah kaus",
+        "Dito mengambil dua buah celana",
+        "Dito mengambil dua buah kaus bergambar",
+        "Dito mengambil dua buah pakaian polos",
+        "Dito mengambil dua buah pakaian bergambar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Toko Mebel “A” memberikan undian kepada Dede yang harus diambil dari kotak A dan B sebagai berikut:\nHadiah Undian | Kotak A (buah) | Kotak B (buah)\nKursi merah | 2 | 1\nKursi biru | 5 | 1\nMeja merah | 2 | 1\nMeja biru | 1 | 2\nJika Dede mengambil undian dari kotak A dan B masing masing 1 secara acak, manakah peristiwa yang paling mungkin terjadi?",
+      "options": [
+        "Dede mendapatkan 2 buah kursi",
+        "Dede mendapatkan 2 buah kemeja",
+        "Dede mendapatkan 2 buah mebel berwarna merah",
+        "Dede mendapatkan 2 buah mebel berwarna biru",
+        "Dede mendapatkan 2 kursi berwarna biru"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan data bahasa hipotesis berikut:\nhtalkuq − elang, seekor elang\nzdong? − kelinci, seekor kelinci\nzdingo? − banyak kelinci\nledome izdingo?k htalkuq − elang melihat banyak kelinci\nBerdasarkan data di atas, bagaimana cara mengatakan ‘banyak kelinci melihat elang’ dengan menggunakan bahasa tersebut?",
+      "options": [
+        "ledome zdingo? Htalkuqi",
+        "htalkuq ledomeki zdingo?",
+        "ledome ihtalkuqk zdingo?",
+        "Htalkuqk ledomek zdingo",
+        "Ledome ihtalkuq zdingo?k"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan data bahasa hipotesis berikut:\nskvîḓa − cumi – cumi, seekor cumi – cumi\nklĕmawu − banyak kerang\nklĕma − kerang, sebuah kerang\nskvîḓa neklĕmawue ngutade − cumi – cumi mengintai banyak kerang\nBerdasarkan data di atas, bagaimana cara mengatakan ‘banyak kerang mengintai cumi – cumi’ dengan menggunakan bahasa tersebut?",
+      "options": [
+        "neklĕmawue ngutade skvîḓa",
+        "ngutade neskvîḓae klĕmawu",
+        "klĕmawu neskvîḓae ngutade",
+        "neklĕmawue nengutadee skvîḓa",
+        "klĕmawu ngutade neskvîḓae"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berikut adalah beberapa kata yang diterjemahkan dari bahasa buatan:\ntouankin berarti penyakit berbahaya\nreyankin berarti hewan berbahaya\ntouklima berarti penyakit otak\nKata apakah yang mungkin berarti “penyakit jiwa”?",
+      "options": [
+        "reyklima",
+        "klimankin",
+        "tourey",
+        "touklusta",
+        "ankinklima"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berikut adalah beberapa kata yang diterjemahkan dari bahasa buatan:\ngaumasan berarti pabrik makanan\nmasanhuki berarti makanan sehat\nmilshou berarti kotak panas\nKata apakah yang mungkin berarti “sehat bugar”?",
+      "options": [
+        "milhuki",
+        "hukipong",
+        "hukishou",
+        "hukimasan",
+        "goushou"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan data bahasa hipotesis berikut:\nx’rdi?ok - anak kucing, seekor anak kucing\nxlom’bot - banyak tikus\nyxlom’bot - tikus, seekor tikus\nx’rdi?ok eyxolom’bote yxemu - anak tikus menggigiti tikus\nBerdasarkan data di atas, bagaimana cara mengatakan ‘banyak tikus menggigiti anak kucing’ dengan menggunakan bahasa tersebut?",
+      "options": [
+        "xlom’bot ex’rdi?oke yxemu",
+        "xlom’bot yxemu ex’rdi?oke",
+        "yxlom’bot ex’rdi?ok yxemu",
+        "xlom’bot xemu yes’rdi?oke",
+        "yxlom’bot x’rdi?oke yxemu"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Seorang detektif menemukan sebuah kode bertuliskan “MMVFOHSX”, setelah dipecahkan oleh detektif kode tersebut menjadi “UTBKSKUY”. Lalu sang detektif menemukan sebuah kode lain yaitu “KXGVJDYS”. Apakah arti kode tersebut?",
+      "options": [
+        "ADAHAHA",
+        "SEMANGAT",
+        "SEMANGUT",
+        "MENANGIS",
+        "BELADIRI"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika G V T N + G H W H U = 10, Maka R A N Z + R Z C N G = …",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "p = 10, yogvg vxkyojkt vkxzsgs otjutkyog = …",
+      "options": [
+        "yukngxzu",
+        "yukqgxtu",
+        "yhe",
+        "nghohok",
+        "puquco"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika GHWHU + GVTN = 10 maka YVZN - RZCNG + QNH = \\dots",
+      "options": [
+        "3",
+        "-1",
+        "-2",
+        "-3",
+        "2"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika matriks $\\begin{pmatrix} 2 & -2 \\\\ 1 & x + 3 \\end{pmatrix}$ memiliki determinan 4, maka nilai $x$ adalah \\dots",
+      "options": [
+        "-2",
+        "-1",
+        "0",
+        "1",
+        "2"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika matriks $\\begin{pmatrix} 2 & 3 \\\\ -2 & 3 - x \\end{pmatrix}$ memiliki determinan 2, maka nilai $x$ adalah \\dots",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui matriks $A = \\begin{pmatrix} 2 & x - 2 \\\\ x - 1 & 2 \\end{pmatrix}$. Jika $x_1$ dan $x_2$ memenuhi $\\det(A) = 0$ maka nilai $x_1 + x_2 = \\dots$",
+      "options": [
+        "-3",
+        "-2",
+        "0",
+        "2",
+        "3"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika matriks $M = \\begin{pmatrix} p & 100 \\\\ 10 & 1 \\end{pmatrix}$. Jika $\\det(M) = p^2$, nilai dari $p - p^2$ adalah \\dots",
+      "options": [
+        "-1000",
+        "-100",
+        "0",
+        "100",
+        "1000"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika matriks $M = \\begin{pmatrix} x - 6 & -5 \\\\ 1 & x \\end{pmatrix}$ merupakan matriks singular, dan $x > 0$ maka nilai $x$ terkecil yang mungkin adalah \\dots",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui matriks $A = \\begin{pmatrix} 2 & 3 \\\\ -1 & -2 \\end{pmatrix}$, $B = \\begin{pmatrix} 6 & 12 \\\\ -4 & -10 \\end{pmatrix}$ dan $A^2 = xA + yB$. Nilai $\\frac{x}{y} = \\dots$",
+      "options": [
+        "-4",
+        "-3",
+        "-2",
+        "-1",
+        "0"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika matriks $\\begin{pmatrix} 2 & x + 3 \\\\ -2 & 1 \\end{pmatrix}$ memiliki determinan 10, maka nilai $x$ adalah \\dots",
+      "options": [
+        "-2",
+        "-1",
+        "0",
+        "1",
+        "2"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diberikan 4 bangun datar :\\n(1) Persegi\\n(2) Belah ketupat, bukan persegi\\n(3) Lingkaran\\n(4) Layang-layang\\nBanyaknya bangun yang memiliki tepat 2 simetri putar dan tepat 2 simetri lipat adalah \\dots",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diberikan 4 bangun datar :\\n(1) Segienam beraturan\\n(2) Persegi\\n(3) Segitiga sama sisi\\n(4) Trapesium sama kaki\\nBanyaknya bangun yang memiliki tepat 2 simetri putar dan tepat 2 simetri lipat adalah \\dots",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Fungsi $\\alpha$ didefinisikan oleh $\\alpha(w \\oplus x \\otimes y \\ominus z) = x + (-w) \\times 2y - z$. Nilai $\\alpha(2 \\oplus 3 \\otimes 1 \\ominus 4)$ adalah \\dots",
+      "options": [
+        "14",
+        "7",
+        "-2",
+        "-5",
+        "-12"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Fungsi $\\epsilon$ didefinisikan oleh $\\epsilon(w \\otimes x \\ominus y \\oplus z) = y + (-w) - z \\times (-x)$. Nilai $\\epsilon(1 \\oplus 2 \\otimes 4 \\ominus 3)$ adalah \\dots",
+      "options": [
+        "-3",
+        "0",
+        "4",
+        "9",
+        "11"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Fungsi $\\beta$ didefinisikan oleh $\\alpha(w \\oplus x \\otimes y \\ominus z) = w : x + y \\times (-z)$. Nilai $\\alpha(3 \\oplus 1 \\otimes 2 \\ominus -3)$ adalah \\dots",
+      "options": [
+        "-15",
+        "-3",
+        "9",
+        "15",
+        "18"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $x_1$ dan $x_2$ memenuhi $(f(x))^2 + 2 = 3f(x)$ untuk $f(x) = 2x + 3$ maka nilai $x_1 + x_2 = \\dots$",
+      "options": [
+        "-\\frac{3}{2}",
+        "-1",
+        "-\\frac{1}{2}",
+        "\\frac{1}{2}",
+        "\\frac{3}{2}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $x_1$ dan $x_2$ memenuhi $(f(x))^2 = 2f(x) + 15$ untuk $f(x) = x - 4$ maka nilai $x_1 \\cdot x_2 = \\dots$",
+      "options": [
+        "9",
+        "7",
+        "1",
+        "-1",
+        "-7"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $f(x) = 2x - 1$ dan $6f(x^2) - f^2(x) = 6x^2 - x$ dipenuhi oleh $x_1$ dan $x_2$, maka nilai $x_1 + x_2 = \\dots$",
+      "options": [
+        "-\\frac{5}{2}",
+        "-\\frac{3}{2}",
+        "-\\frac{1}{2}",
+        "\\frac{3}{2}",
+        "\\frac{5}{2}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Nilai $x$ yang memenuhi sistem persamaan $f^2(x) - 6f(x) = -8$ dengan $f(x) = \\frac{1}{2}x$ adalah \\dots",
+      "options": [
+        "3 atau 4",
+        "2 atau 6",
+        "4 atau 6",
+        "4 atau 8",
+        "2 atau 8"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui $x^2 - x - 2 = 0$ dan $2xy + 3y = 7$. Kuantitas P: $x_1 \\cdot x_2$, Kuantitas Q: $y_1 \\cdot y_2$. Manakah hubungan yang benar antara kuantitas P dan Q berdasarkan informasi yang diberikan?",
+      "options": [
+        "Kuantitas P lebih besar daripada kuantitas Q",
+        "Kuantitas P lebih kecil daripada kuantitas Q",
+        "Kuantitas P sama dengan kuantitas Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan hubungan kuantitas P dan Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Barisan $b_1, b_2, b_3, \\dots$ memenuhi $b_1 = -10$, $b_3 = -2$, dan $b_{n+2} = 3b_{n+1} - b_n$ untuk setiap bilangan asli $n$. Nilai $b_2 + b_4$ adalah \\dots",
+      "options": [
+        "-6",
+        "-3",
+        "0",
+        "3",
+        "6"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Barisan $b_1, b_2, b_3, \\dots$ memenuhi $b_5 = 10$, $b_3 = 1$, dan $b_{n+2} = 3b_{n+1} + b_n$ untuk setiap bilangan asli $n$. Nilai $b_4 + b_1$ adalah \\dots",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata sandi 4 simbol berbeda disusun dari 2 angka dan 2 huruf vokal dengan pola: Angka | Huruf Vokal | Angka | Huruf Vokal. Ketentuan: Angka pertama ganjil; Angka kedua berasal dari $\\{1, 2, 4\\}$; Huruf pertama bukan A; Huruf kedua O. Banyaknya semua kata sandi yang dapat disusun adalah \\dots",
+      "options": [
+        "36",
+        "42",
+        "45",
+        "56",
+        "60"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata sandi 4 simbol berbeda disusun dari 2 angka dan 2 huruf vokal dengan pola: Angka | Huruf Vokal | Angka | Huruf Vokal. Ketentuan: Angka pertama genap; Angka kedua berasal dari $\\{1, 2, 4\\}$; Huruf pertama bukan U; Huruf kedua E. Banyaknya semua kata sandi yang dapat disusun adalah \\dots",
+      "options": [
+        "36",
+        "48",
+        "45",
+        "56",
+        "60"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata sandi 4 simbol berbeda disusun dari 2 angka dan 2 huruf vokal dengan pola: Angka | Huruf Vokal | Angka | Huruf Vokal. Ketentuan: Angka pertama ganjil; Angka kedua berasal dari $\\{1, 2, 3, 5\\}$; Huruf pertama bukan A; Huruf kedua O. Banyaknya semua kata sandi yang dapat disusun adalah \\dots",
+      "options": [
+        "40",
+        "51",
+        "68",
+        "85",
+        "100"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Di dalam sebuah kantong terdapat 5 kelereng merah dan 3 kelereng biru. Seorang anak mengambil 4 kelereng dari kantong tersebut. Kuantitas P: Banyak cara terambilnya 3 kelereng merah dan 1 kelereng biru. Kuantitas Q: Banyak cara terambilnya 2 kelereng merah dan 2 kelereng biru. Manakah hubungan yang benar antara kuantitas P dan Q?",
+      "options": [
+        "Kuantitas P lebih besar daripada kuantitas Q",
+        "Kuantitas P lebih kecil daripada kuantitas Q",
+        "Kuantitas P sama dengan kuantitas Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan hubungan kuantitas P dan Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diberikan $6$ huruf konsonan $S, B, M, P, T, N$ serta $4$ huruf vokal $a, i, u, o$. Dari huruf tersebut akan dibuat password yang terdiri atas $6$ huruf dengan $4$ huruf konsonan dan $2$ huruf vokal berbeda. Banyak password yang terbentuk adalah ...",
+      "options": [
+        "90",
+        "120",
+        "1200",
+        "2400",
+        "3600"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diberikan $5$ huruf konsonan $J, K, L, M, N$ serta $4$ huruf vokal $a, u, e, o$. Dari huruf tersebut akan dibuat password yang terdiri atas $2$ huruf konsonan dan $2$ huruf vokal. Banyak password yang terbentuk adalah ...",
+      "options": [
+        "720",
+        "120",
+        "60",
+        "30",
+        "10"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dari sejumlah $1100$ relawan, $650$ relawan pernah dikirim ke Kalimantan dan $750$ relawan pernah dikirim ke Sulawesi. Jika $x$ dan $y$ berturut turut menyatakan maksimum yang mungkin dan minimum yang mungkin jumlah relawan yang pernah dikirim ke Kalimantan dan Sulawesi, maka $x - y$ adalah ...",
+      "options": [
+        "650",
+        "450",
+        "350",
+        "200",
+        "100"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada pemilihan ketua OSIS suatu SMA dengan dua calon Alfa dan Beta, calon pemilih diberi kebebasan untuk memilih satu calon, dua calon, atau TIDAK memilih keduanya. Dari $500$ siswa yang memilih diperoleh hasil Alfa $400$ suara dan Beta $300$ suara. Jika $x$ dan $y$ berturut – turut menyatakan jumlah minimum yang mungkin dan maksimum yang mungkin suara yang memilih kedua calon Alfa dan Beta, maka nilai $y - x$ adalah ...",
+      "options": [
+        "300",
+        "250",
+        "200",
+        "150",
+        "100"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ada $100$ siswa di suatu sekolah, $60$ siswa mengikuti ekstrakurikuler basket, $60$ siswa mengikuti ekstrakurikuler paskibra. Jika $p$ adalah jumlah minimum siswa yang mengikuti keduanya dan $q$ adalah jumlah maksimum siswa yang mengikuti keduanya, maka selisih $p$ dan $q$ adalah ...",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "40",
+        "50"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dari $950$ relawan, $550$ relawan pernah dikirim ke Papua dan $650$ relawan pernah ke Sumatera. Jika $x$ dan $y$ beturut – turut menyatakan jumlah maksimum yang mungkin dan minimum yang mungkin jumlah relawan yang pernah dikirim ke Papua dan Sumatera, maka $x - y$ adalah ...",
+      "options": [
+        "400",
+        "300",
+        "200",
+        "100",
+        "50"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bilangan asli $n$ bersisa $5$ jika dibagi $6$ dan bersisa $2$ jika dibagi $5$. Di antara bilangan berikut yang mungkin merupakan nilai untuk $n$ adalah ... (1) $29$ (2) $32$ (3) $45$ (4) $77$",
+      "options": [
+        "(1), (2) dan (3) SAJA yang benar",
+        "(1) dan (3) SAJA yang benar",
+        "(2) dan (4) SAJA yang benar",
+        "HANYA (4) yang benar",
+        "SEMUA pilihan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bilangan asli $n$ bersisa $2$ jika dibagi $7$ dan bersisa $4$ jika dibagi $5$. Di antara bilangan berikut yang mungkin merupakan nilai untuk $n$ adalah ... (1) $37$ (2) $49$ (3) $65$ (4) $79$",
+      "options": [
+        "(1), (2) dan (3) SAJA yang benar",
+        "(1) dan (3) SAJA yang benar",
+        "(2) dan (4) SAJA yang benar",
+        "HANYA (4) yang benar",
+        "SEMUA pilihan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bilangan asli $n$ bersisa $5$ jika dibagi $7$ dan bersisa $3$ jika dibagi $4$. Di antara bilangan berikut yang mungkin merupakan nilai untuk $n$ adalah ... (1) $35$ (2) $47$ (3) $61$ (4) $75$",
+      "options": [
+        "(1), (2) dan (3) SAJA yang benar",
+        "(1) dan (3) SAJA yang benar",
+        "(2) dan (4) SAJA yang benar",
+        "HANYA (4) yang benar",
+        "SEMUA pilihan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Penurunan volume air di dalam tangki per jam berkisar $0,4$ liter sampai dengan $0,7$ liter. Saat ini volume air di dalam tangki $896$ liter. Manakah hubungan yang benar antara kuantitas P dan Q berikut berdasarkan informasi yang diberikan? P: $894$, Q: Volume air di tangki $4$ jam kemudian (liter)",
+      "options": [
+        "Kuantitas P lebih besar daripada kuantitas Q",
+        "Kuantitas P lebih kecil daripada kuantitas Q",
+        "Kuantitas P sama dengan kuantitas Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan hubungan kuantitas P dan Q",
+        "Informasi yang diberikan tidak cukup"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertambahan tinggi tanaman per hari berkisar $0,4$ cm sampai dengan $0,8$ cm. Hari ini tinggi tanaman $140$ cm. Manakah hubungan yang benar antara kuantitas P dan Q berikut berdasarkan informasi yang diberikan? P: $9$, Q: Waktu yang diperlukan (hari) agar tinggi tanaman $144$ cm",
+      "options": [
+        "Kuantitas P lebih besar daripada kuantitas Q",
+        "Kuantitas P lebih kecil daripada kuantitas Q",
+        "Kuantitas P sama dengan kuantitas Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan hubungan kuantitas P dan Q",
+        "Informasi yang diberikan tidak cukup"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kemampuan terbang suatu drone tiap tahun menurun ketinggiannya pada rentang $0,5$ m – $0,8$ m. Pada tahun pertama drone tersebut dapat terbang dengan ketinggian maksimal $365$ m. P: $363,8$, Q: tahun ke - 4. Manakah hubungan yang benar antara kuantitas P dan Q berdasarkan informasi yang diberikan?",
+      "options": [
+        "Kuantitas P lebih besar daripada kuantitas Q",
+        "Kuantitas P lebih kecil daripada kuantitas Q",
+        "Kuantitas P sama dengan kuantitas Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan hubungan kuantitas P dan Q",
+        "Informasi yang diberikan tidak cukup"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Penurunan hasil pertanian per tahun berkisar $0,6$ ton sampai dengan $0,9$ ton. Tahun ini hasil panen pertanian $328$ ton. P: $324,3$, Q: Hasil panen pertanian $3$ tahun yang akan datang (ton). Manakah hubungan yang benar antara kuantitas P dan Q berikut berdasarkan informasi yang diberikan?",
+      "options": [
+        "Kuantitas P lebih besar daripada kuantitas Q",
+        "Kuantitas P lebih kecil daripada kuantitas Q",
+        "Kuantitas P sama dengan kuantitas Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan hubungan kuantitas P dan Q",
+        "Informasi yang diberikan tidak cukup"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Di antara pernyataan berikut, manakah yang menunjukkan kesalahan gambar grafik fungsi $f(x) = -x + 1$ dan $g(x) = 2^x - 1$? (1) Grafik $y = f(x)$ memotong sumbu $-y$ di $(0, 2)$ (2) Grafik $y = f(x)$ di atas grafik $y = g(x)$ untuk $x < 1$ (3) Grafik $y = f(x)$ dan $y = g(x)$ berpotongan di $(1, 1)$ (4) Grafik $y = g(x)$ melalui $(0, 0)$",
+      "options": [
+        "(1), (2) dan (3) SAJA yang benar",
+        "(1) dan (3) SAJA yang benar",
+        "(2) dan (4) SAJA yang benar",
+        "HANYA (4) yang benar",
+        "SEMUA pilihan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Di antara pernyataan berikut, manakah yang menunjukkan kesalahan gambar grafik fungsi $f(x) = -x + 7$ dan $g(x) = 2^x + 2$? (1) Grafik $y = g(x)$ selalu di atas sumbu $-x$ (2) Grafik $y = g(x)$ di atas grafik $y = f(x)$ untuk $x > 2$ (3) Grafik $y = g(x)$ melalui $(0, 3)$ (4) Grafik $y = f(x)$ melalui $(0, 8)$",
+      "options": [
+        "(1), (2) dan (3) SAJA yang benar",
+        "(1) dan (3) SAJA yang benar",
+        "(2) dan (4) SAJA yang benar",
+        "HANYA (4) yang benar",
+        "SEMUA pilihan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $y_1 = 2^x - 4$ dan $y_2 = 2 - x$ manakah pernyataan yang benar sesuai gambar di atas?",
+      "options": [
+        "$y_1$ memotong sumbu x di $(2, 0)$",
+        "$y_2$ diatas $y_1$ untuk $x > 2$",
+        "$y_1$ dan $y_2$ berpotongan di $(2, 0)$",
+        "$y_2$ di bawah $y_1$ untuk $x > 3$",
+        "$y_1$ di bawah $y_2$ untuk $x > 2$"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Di antara pernyataan berikut, manakah yang menunjukkan kesalahan gambar grafik fungsi $f(x) = -x + 3$ dan $g(x) = 2^x - 1$? (1) Grafik $y = f(x)$ di bawah sumbu $-x$ untuk $x > 2$ (2) Grafik $y = g(x)$ melalui titik $(0, 0)$ (3) Grafik $y = f(x)$ di bawah grafik $y = g(x)$ untuk $x > 1$ (4) Grafik $y = f(x)$ dan $y = g(x)$ berpotongan tepat di satu titik",
+      "options": [
+        "(1), (2), dan (3) SAJA yang benar",
+        "(1) dan (3) SAJA yang benar",
+        "(2) dan (4) SAJA yang benar",
+        "HANYA (4) yang benar",
+        "SEMUA pilihan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Lima bilangan asli yang sudah diurutkan dari yang terkecil sampai terbesar yakni $2, 2, a, b, c$ memiliki rata – rata 4. Bilangan terbesarnya sama dengan 3 kali mediannya. Manakah hubungan yang benar antara kuantitas P dan Q berikut berdasarkan informasi yang diberikan?\nP: Median lima bilangan\nQ: 5",
+      "options": [
+        "Kuantitas P lebih besar daripada kuantitas Q",
+        "Kuantitas P lebih kecil daripada kuantitas Q",
+        "Kuantitas P sama dengan kuantitas Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan hubungan kuantitas P dan Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Setelah ditambahkan tiga bilangan asli ke tujuh bilangan, yakni $1, 2, 3, 4, 7, 12, 13$ rata – rata dan mediannya menjadi 8. Manakah hubungan yang benar antara kuantitas P dan Q berikut berdasarkan informasi yang diberikan?\nP: Median dari tiga bilangan yang ditambahkan\nQ: 12",
+      "options": [
+        "Kuantitas P lebih besar daripada kuantitas Q",
+        "Kuantitas P lebih kecil daripada kuantitas Q",
+        "Kuantitas P sama dengan kuantitas Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan hubungan kuantitas P dan Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui data berikut: $1, 2, 3, 4, 5, 6, 7$. Apabila salah satu datum diganti dengan angka 34, maka rata – rata nya menjadi dua kali median.\nP: Angka yang diganti\nQ: 6",
+      "options": [
+        "Kuantitas P lebih besar daripada kuantitas Q",
+        "Kuantitas P lebih kecil daripada kuantitas Q",
+        "Kuantitas P sama dengan kuantitas Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan hubungan kuantitas P dan Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diberikan $0 < x < 2$. Manakah hubungan yang benar antara kuantitas P dan Q berikut berdasarkan informasi yang diberikan?\nP: $\\frac{1 - 4^x}{1 - 2^x}$\nQ: $\\frac{2^{x+1} - 2}{2}$",
+      "options": [
+        "Kuantitas P lebih besar daripada kuantitas Q",
+        "Kuantitas P lebih kecil daripada kuantitas Q",
+        "Kuantitas P sama dengan kuantitas Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan hubungan kuantitas P dan Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diberikan $x > 2$. Manakah hubungan yang benar antara kuantitas P dan Q berikut berdasarkan informasi yang diberikan?\nP: $\\frac{1 - 4^x}{4^x(1 + 2^x)}$\nQ: $4^{-x} - 2^{-x}$",
+      "options": [
+        "Kuantitas P lebih besar daripada kuantitas Q",
+        "Kuantitas P lebih kecil daripada kuantitas Q",
+        "Kuantitas P sama dengan kuantitas Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan hubungan kuantitas P dan Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $0 < x < 1$ manakah hubungan yang benar antara kuantitas P dan Q berikut berdasarkan informasi yang diberikan?\nP: $\\frac{1 - x^m}{1 - x^{m+4} \\cdot x^{m-4}}$\nQ: $x^2 + 1$",
+      "options": [
+        "Kuantitas P lebih besar daripada kuantitas Q",
+        "Kuantitas P lebih kecil daripada kuantitas Q",
+        "Kuantitas P sama dengan kuantitas Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan hubungan kuantitas P dan Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $0 < x < 1$ manakah hubungan yang benar antara kuantitas P dan Q berikut berdasarkan informasi yang diberikan?\nP: $\\frac{1 - 2^x}{1 - (2^{x-1})(2^x+1)}$\nQ: $\\frac{2^x}{2^x+1}$",
+      "options": [
+        "Kuantitas P lebih besar daripada kuantitas Q",
+        "Kuantitas P lebih kecil daripada kuantitas Q",
+        "Kuantitas P sama dengan kuantitas Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan hubungan kuantitas P dan Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Segitiga ABC sama kaki dengan $AB = AC$. Jika $BQ, AC$, dan $CR$ berpotongan di tepat satu titik, berapakah besar $\\angle CAB$?\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut:\n(1) $CR$ dan $BQ$ adalah garis bagi\n(2) $\\angle ABQ = 20^\\circ$",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA - SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Segitiga ABC sama sisi dengan $AC = 10$. Jika $BE, AD$ dan $CF$ berpotongan di titik G, berapakah panjang $BE$?\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut:\n(1) $CF$ dan $AD$ adalah garis sumbu\n(2) $BE$ dan $AD$ adalah garis tinggi",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA - SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui segitiga ABC seperti pada gambar di atas. Jika $AB = BC$, berapakah besar sudut RCB?\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut:\n(1) $\\angle CAB = 40^\\circ$\n(2) $PB$ dan $AQ$ adalah garis bagi",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA - SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui segitiga ABC seperti pada gambar di atas. Jika $AB = BC$, berapakah besar sudut CBR?\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut:\n(1) $\\angle BAC = 50^\\circ$\n(2) $AQ$ adalah garis bagi",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA - SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui garis $l_1 : y = mx + b$ dan $l_2 : y = 2x + 1$. Garis $l_1$ memotong sumbu $-x$ di $A(1, 0)$. Apakah kedua garis berpotongan di kuadran kedua?\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut:\n(1) $m < -1$\n(2) $b < 1$",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA - SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui garis $l_1 : y = mx + k$ dan $l_2 : y = 2x - 5$. Garis $l_1$ memotong sumbu $-x$ di $P(-1, 0)$. Apakah kedua garis berpotongan di kuadran ketiga?\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut:\n(1) $m < 0$\n(2) $0 < k < 2$",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA - SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui Garis $l_1 : y = mx + b$ dan $l_2 : y = 2x + 1$. Garis $l_1$ memotong sumbu $-x$ di $A(1, 0)$. Apakah kedua garis berpotongan di kuadran ketiga?\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut:\n(1) $m < 0$\n(2) $b < 1$",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA - SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Titik $P$ terletak pada kurva $y = x^2 + 4x + 7$ serta dua titik berbeda $Q$ dan $R$ terletak pada garis $y = 2x + 1$. Jika titik $P$ dan $Q$ terletak pada garis $y = 4$, apa koordinat titik $R$?\\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut\\n(1) Garis $PR$ sejajar sumbu $-y$\\n(2) Titik $R$ berada pada kuadran III",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA - SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Titik $P$ terletak pada kurva $y = x^2 + 2$ serta dua titik berbeda $Q$ dan $R$ terletak pada garis $x + y = -2$. Jika titik $P$ dan $Q$ terletak pada garis $y = 6$, apa koordinat titik $R$?\\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut\\n(1) Garis $PR$ sejajar sumbu $QR$\\n(2) Titik $R$ terletak pada garis singgung kurva di titik $P$",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA - SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui parabola $f(x) = x^2 - x + 1$ dan dua buah garis singgungnya yaitu $P$ dan $Q$. Jika absis titik potong $P$ dan $Q$ adalah $1$, berapa ordinat titik potongnya?\\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut\\n(1) Garis $P$ dan $Q$ saling tegak lurus\\n(2) Gradien garis $P$ dan $Q$ adalah $-1$",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA - SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Titik $P$, $Q$, dan $R$ terletak pada kurva $y = 2 - x^2$. Jika titik $P$ dan $Q$ terletak pada garis $y = x$. Apa koordinat $R$?\\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut\\n(1) Garis $y = -2x$ melalui $R$\\n(2) Kemiringan garis $QR$ negatif",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA - SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui parabola $y = x^2$\\nTentukan apakah garis $g$ memotong parabola?\\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut\\n(1) Garis $g$ memotong sumbu $x$ positif\\n(2) Garis $g$ memotong sumbu $y$ negatif",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA - SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $f(x) = x^2 - x$ dan $g(x) = 2x - 1$ maka $(f \\circ g)(x) = \\dots$",
+      "options": [
+        "$4x^2 - 2x + 1$",
+        "$4x^2 - 3x + 1$",
+        "$4x^2 - 4x + 2$",
+        "$4x^2 - 5x + 2$",
+        "$4x^2 - 6x + 2$"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "Jika $g(2x^3) = 2x^3 - 3$. Jika $h(x) = 5x + 2$ maka $(g \\circ h)(x)$ adalah \\dots",
+      "options": [
+        "$5x^3 + 2$",
+        "$5x^3 - 1$",
+        "$5x - 13$",
+        "$5x + 1$",
+        "$5x - 1$"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Jika $f(x) = 1 - x^2$, $g(x) = 2x$ dan $h(x) = 1 - x$ maka $(f \\circ g \\circ h)(x) = \\dots$",
+      "options": [
+        "$-2x^2 + 5x - 1$",
+        "$-2x^2 - 4x + 1$",
+        "$-2x^2 - 4x - 3$",
+        "$-4x^2 - 8x + 3$",
+        "$-4x^2 + 8x - 3$"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "Diketahui $g(x + 2) = 2x + 1$ dan $(f \\circ g)(x) = 3x^2 - 2x + 1$. Nilai dari $f(-1)$ adalah \\dots",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Diketahui fungsi $f$ dan $g$, dengan $g(x) = f(2x^3 + 2)$. Jika diketahui $g'(1) = 2$ maka nilai dari $f'(4) = \\dots$",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "Diketahui $10^{2020} - 10^{2019} = pq^r$\\nBerapakah nilai dari $p - q + r$?",
+      "options": [
+        "2018",
+        "-2018",
+        "2019",
+        "-2019",
+        "2020"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "Diketahui $y = x^2 - x + 2$. Persamaan garis singgung di titik dengan absis $1$ adalah \\dots",
+      "options": [
+        "$y = x + 1$",
+        "$y = x + 1$",
+        "$y = 2x - 1$",
+        "$y = 2x + 1$",
+        "$y = 2x + 2$"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Titik di bawah ini yang dilalui persamaan garis yang melalui titik $(3, 4)$ dan tegak lurus garis $y = -\\frac{1}{2}x + 4$ adalah \\dots\\n(1) $(2, 4)$\\n(2) $(2, 2)$\\n(3) $(1, 2)$\\n(4) $(0, -2)$",
+      "options": [
+        "(1), (2) dan (3) SAJA yang benar",
+        "(1) dan (3) SAJA yang benar",
+        "(2) dan (4) SAJA yang benar",
+        "HANYA (4) yang benar",
+        "SEMUA pilihan benar"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Kurva $y = -x^2 - 2x + 8$ dan garis $y = 2x + 3$ akan berpotongan di titik \\dots",
+      "options": [
+        "$(0, 3)$",
+        "$(-1, 1)$",
+        "$(-5, -7)$",
+        "$(-6, -9)$",
+        "$(-7, -11)$"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    }
+  ]
+}

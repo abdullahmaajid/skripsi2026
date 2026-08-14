@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Perhatikan teks berikut untuk menjawab soal nomor 1-3. Bu Indah akan memberikan nilai kepada empat siswa yang mengikuti remedial mata pelajaran matematika, berikut adalah informasi penilaiannya: 1) D mendapat nilai seperempat dari yang didapat C. 2) C mendapat nilai dua kali lipat dari yang didapat A. 3) B mendapat nilai tiga perdua yang didapat A. 4) A mendapatkan nilai sebesar 50 poin. Berdasarkan bacaan tersebut, manakah informasi yang dibutuhkan untuk mengetahui nilai yang didapat C?",
+      "options": [
+        "4 saja.",
+        "2 dan 4.",
+        "1, 3, dan 4.",
+        "2, 3, dan 4.",
+        "1, 2, 3, dan 4."
+      ],
+      "correctAnswer": "2 dan 4.",
+      "explanation": "Untuk mengetahui nilai C, kita memerlukan informasi bahwa C bernilai dua kali A (2) dan nilai A adalah 50 (4)."
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, berapakah nilai yang didapatkan oleh D?",
+      "options": [
+        "25 poin",
+        "40 poin",
+        "55 poin",
+        "60 poin",
+        "80 poin"
+      ],
+      "correctAnswer": "25 poin",
+      "explanation": "A = 50. C = 2 * A = 100. D = 1/4 * C = 25."
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, urutan siswa yang mendapat nilai terendah hingga tertinggi yaitu?",
+      "options": [
+        "D, C, A, B",
+        "D, C, B, A",
+        "D, A, B, C",
+        "C, D, A, B",
+        "C, D, B, A"
+      ],
+      "correctAnswer": "D, A, B, C",
+      "explanation": "Nilai masing-masing: D = 25, A = 50, B = 75, C = 100. Urutan dari terendah ke tertinggi adalah D, A, B, C."
+    },
+    {
+      "text": "8, 10, 13, 17, 19, 22, ... Manakah yang tepat untuk mengisi pola barisan tersebut?",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28"
+      ],
+      "correctAnswer": "26",
+      "explanation": "Pola penambahan: +2, +3, +4, lalu berulang menjadi +2, +3, +4. Setelah 22 ditambah 4 menjadi 26."
+    },
+    {
+      "text": "Perhatikan tabel berikut untuk menjawab soal nomor 5 dan 6. Berikut adalah jumlah pengunjung tiga wisata di Kota A selama lima tahun terakhir (Wisata A 2022: 1500, Wisata A 2023: 2400). Berapakah persentase peningkatan jumlah pengunjung wisata A pada tahun 2023 dibanding tahun sebelumnya?",
+      "options": [
+        "30%",
+        "40%",
+        "50%",
+        "60%",
+        "70%"
+      ],
+      "correctAnswer": "60%",
+      "explanation": "Peningkatan = 2400 - 1500 = 900. Persentase = (900 / 1500) * 100% = 60%."
+    },
+    {
+      "text": "Perhatikan tabel berikut untuk menjawab soal nomor 5 dan 6. Berikut adalah jumlah pengunjung tiga wisata di Kota A selama lima tahun terakhir (Wisata C 2023: 1800, Wisata C 2024: 2700). Berapakah persentase peningkatan jumlah pengunjung wisata C pada tahun 2024 dibanding tahun sebelumnya?",
+      "options": [
+        "30%",
+        "40%",
+        "50%",
+        "60%",
+        "70%"
+      ],
+      "correctAnswer": "50%",
+      "explanation": "Peningkatan = 2700 - 1800 = 900. Persentase = (900 / 1800) * 100% = 50%."
+    },
+    {
+      "text": "Perhatikan teks untuk soal nomor 7-9. Berdasarkan paragraf 1, manakah pernyataan yang PASTI BENAR?",
+      "options": [
+        "Pembunuhan terhadap orangutan cenderung tidak terlalu banyak beberapa tahun terakhir.",
+        "Sebagian orangutan yang terbunuh disebabkan oleh orangutan yang menyerang kebun penduduk.",
+        "Hampir semua orangutan yang terbunuh dikarenakan membuat penduduk takut.",
+        "Jumlah pembunuhan orangutan relatif sedikit karena hal tersebut tabu di masyarakat.",
+        "Jika orangutan tidak menyerang kebun penduduk maka dapat dipastikan tidak ada pembunuhan orangutan."
+      ],
+      "correctAnswer": "Sebagian orangutan yang terbunuh disebabkan oleh orangutan yang menyerang kebun penduduk.",
+      "explanation": "Teks menyebutkan salah satu alasan pembunuhan adalah karena orangutan menyerang kebun penduduk."
+    },
+    {
+      "text": "Berdasarkan paragraf 2, manakah simpulan yang tepat jika terjadi pembukaan lahan untuk perkebunan kelapa sawit?",
+      "options": [
+        "Habitat orangutan tidak tergerus.",
+        "Habitat orangutan semakin luas.",
+        "Habitat orangutan semakin jauh dengan pemukiman penduduk.",
+        "Habitat orangutan semakin dekat dengan pemukiman penduduk.",
+        "Tidak dapat disimpulkan."
+      ],
+      "correctAnswer": "Habitat orangutan semakin dekat dengan pemukiman penduduk.",
+      "explanation": "Sesuai dengan paragraf 2 bahwa pembukaan lahan mendorong habitat tergerus dan semakin dekat dengan pemukiman."
+    },
+    {
+      "text": "Berdasarkan paragraf 3, manakah pernyataan yang PASTI SALAH?",
+      "options": [
+        "Banyak orangutan yang diperdagangkan untuk kemudian dipelihara.",
+        "Sebagian anak orangutan yang dijual untuk dijadikan bahan pertunjukan atraksi.",
+        "Membela diri adalah satu-satunya alasan tingginya angka pembunuhan terhadap orangutan.",
+        "Jika induk orangutan terbunuh maka anaknya akan diambil dan kemudian dipelihara.",
+        "Banyak orangutan yang dijual dalam perdagangan satwa liar."
+      ],
+      "correctAnswer": "Membela diri adalah satu-satunya alasan tingginya angka pembunuhan terhadap orangutan.",
+      "explanation": "Pernyataan ini pasti salah karena paragraf menyebutkan alasan lain seperti menangkap bayi orangutan untuk diperdagangkan."
+    },
+    {
+      "text": "Sebagian siswa di SMA Sukamiksu menyukai olahraga sepakbola, semua yang menyukai olahraga sepakbola menyukai jus buah dan kopi. Gita adalah siswa di SMA Sukamiksu yang tidak menyukai jus buah atau kopi. Berdasarkan bacaan tersebut, manakah simpulan yang tepat?",
+      "options": [
+        "Gita pasti menyukai sepakbola.",
+        "Gita mungkin menyukai sepakbola.",
+        "Gita tidak menyukai sepakbola.",
+        "Gita menyukai sepakbola walaupun tidak menyukai kopi.",
+        "Gita menyukai sepakbola walaupun tidak menyukai jus buah."
+      ],
+      "correctAnswer": "Gita tidak menyukai sepakbola.",
+      "explanation": "Jika menyukai sepakbola maka harus menyukai jus buah dan kopi. Karena Gita tidak menyukai salah satunya (jus buah atau kopi), maka Gita pasti tidak menyukai sepakbola (modus tollens)."
+    },
+    {
+      "text": "Ketika sering belajar di rumah, siswa A dapat mencapai hasil belajar yang lebih baik. Namun, ketika A belajar di kelas, hasil belajarnya cenderung kurang optimal. Manakah pernyataan berikut yang PALING MUNGKIN menjelaskan perbedaan kedua kondisi tersebut?",
+      "options": [
+        "Siswa A merasa lebih nyaman belajar di kelas daripada di rumah.",
+        "Siswa A merasa lebih tenang belajar di rumah daripada di kelas.",
+        "Siswa A sering terganggu oleh kebisingan anggota keluarga di rumah.",
+        "Siswa A dapat berinteraksi dengan teman sebaya ketika belajar di kelas.",
+        "Siswa A sulit bertanya jika tidak sedang berada di kelas."
+      ],
+      "correctAnswer": "Siswa A merasa lebih tenang belajar di rumah daripada di kelas.",
+      "explanation": "Kondisi belajar di rumah memberikan hasil lebih baik, yang berarti suasana di rumah lebih mendukung atau tenang dibandingkan di kelas."
+    },
+    {
+      "text": "Majalah yang diletakkan dalam rak berkode X diterbitkan oleh penerbit A. Majalah yang diletakkan dalam rak berkode X memiliki harga yang mahal. Tidak ada satupun majalah kesehatan di dalam rak tersebut. Simpulan yang tepat tentang penerbit A adalah …",
+      "options": [
+        "Tidak menerbitkan majalah yang mahal.",
+        "Tidak menerbitkan majalah yang tidak mahal.",
+        "Menerbitkan majalah yang tidak mahal.",
+        "Menerbitkan majalah kesehatan yang mahal.",
+        "Menerbitkan majalah kesehatan yang tidak mahal."
+      ],
+      "correctAnswer": "Tidak menerbitkan majalah yang tidak mahal.",
+      "explanation": "Rak X berisi majalah terbitan A dan semuanya mahal. Oleh karena itu, penerbit A menerbitkan majalah yang mahal (sehingga tidak menerbitkan majalah yang tidak mahal)."
+    },
+    {
+      "text": "Semua siswa kelas A dapat berbahasa Jepang.\\nSemua siswa kelas A yang menduduki ranking 10 besar juga dapat berbahasa Prancis.\\nSimpulan yang tepat tentang semua siswa kelas A adalah …",
+      "options": [
+        "Yang dapat berbahasa Prancis, menduduki ranking 10 besar dan tidak dapat berbahasa Jepang.",
+        "Yang dapat berbahasa Prancis, tidak menduduki ranking 10 besar dan dapat berbahasa Jepang.",
+        "Yang tidak dapat berbahasa Prancis, tidak menduduki ranking 10 besar dan dapat berbahasa Jepang.",
+        "Yang tidak dapat berbahasa Prancis, menduduki ranking 10 besar dan dapat berbahasa Jepang.",
+        "Yang tidak dapat berbahasa Prancis, tidak menduduki ranking 10 besar dan tidak dapat berbahasa Jepang."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "A menyatakan, “Jika Desa KKK meningkatkan fasilitas wisata maka jumlah wisatawan yang datang juga akan meningkat.”\\nB menyatakan, “Peningkatan jumlah wisatawan di Desa X akan membantu meningkatkan perekonomian penduduk Desa X.”\\nData menunjukkan bahwa peningkatan infrastruktur di Desa X diapresiasi dan mendapat penghargaan dari pemerintah tingkat pusat.\\nManakah pernyataan berikut yang paling tepat mengenai data tersebut?",
+      "options": [
+        "Memperkuat pernyataan A.",
+        "Memperlemah pernyataan A.",
+        "Memperkuat pernyataan B.",
+        "Memperlemah pernyataan B.",
+        "Tidak relevan dengan pernyataan A dan B."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Saat memasuki tahun ajaran baru, kepala sekolah SMA C menjelaskan bahwa siswa kelas 12 yang mendapat nilai ujian tertinggi atau menjuarai lomba tingkat nasional akan mendapat beasiswa untuk kuliah nanti. Indah adalah siswa kelas 12 di SMA C yang mendapat nilai ujian tertinggi.\\nSimpulan berdasarkan informasi tersebut adalah Indah akan mendapatkan beasiswa.\\nManakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Krisna akan membagikan buah tangan coklat dari kampung halamannya kepada empat teman kelasnya, berikut adalah ketentuan pembagiannya:\\n1) A mendapat setengah bagian dari yang didapat C.\\n2) B mendapat seperempat bagian dari total coklat yang diberikan.\\n3) D mendapat setengah coklat yang didapatkan B.\\n4) Total coklat yang diberikan kepada empat temannya sebanyak 10 lusin.\\nBerdasarkan bacaan tersebut, manakah informasi yang dibutuhkan untuk mengetahui coklat yang didapat A?",
+      "options": [
+        "4 saja.",
+        "2 dan 4.",
+        "1, 3, dan 4.",
+        "2, 3, dan 4.",
+        "1, 2, 3, dan 4."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, berapakah coklat yang didapatkan oleh A dan C?",
+      "options": [
+        "25 dan 50 coklat.",
+        "25 dan 45 coklat.",
+        "30 dan 60 coklat.",
+        "50 dan 25 coklat.",
+        "60 dan 30 coklat."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, urutan yang mendapat coklat paling sedikit hingga yang paling banyak yaitu?",
+      "options": [
+        "D, B, A, C",
+        "D, A, B, C",
+        "B, A, C, D",
+        "B, D, C, A",
+        "A, C, B, D"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapakah persentase peningkatan jumlah pengunjung wisata B pada tahun 2021 dibanding tahun sebelumnya?",
+      "options": [
+        "15%",
+        "25%",
+        "35%",
+        "45%",
+        "55%"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapakah persentase peningkatan jumlah pengunjung wisata C pada tahun 2023 dibanding tahun sebelumnya?",
+      "options": [
+        "15%",
+        "25%",
+        "35%",
+        "45%",
+        "55%"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "$145, 153, 148, 158, 151, 163, \\dots, \\dots$\\nManakah yang tepat untuk mengisi pola barisan tersebut?",
+      "options": [
+        "153, 167",
+        "154, 168",
+        "155, 168",
+        "156, 170",
+        "156, 172"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "$4, 5, 9, 14, 23, 37, \\dots$\\nManakah yang tepat untuk mengisi pola barisan tersebut?",
+      "options": [
+        "58",
+        "60",
+        "62",
+        "64",
+        "66"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dua per tiga luas kawasan permukaan Bumi adalah lautan. Wilayah kedaulatan Indonesia sendiri 75 persen adalah laut tropis. Dari angka itu, kita mengetahui bahwa banyak negara di dunia, termasuk Indonesia, menggantungkan kebutuhannya pada luasnya laut. Pada awal tahun 2023 gelombang panas bawah laut mengancam terumbu karang yang sangat diperlukan dalam ekosistem bawah laut dan pesisir.\\nBerdasarkan paragraf 1, manakah pernyataan yang PASTI BENAR?",
+      "options": [
+        "Kurang dari sepertiga Kawasan permukaan Bumi ditutupi oleh lautan.",
+        "Wilayah Indonesia sebagaian besarnya terdiri oleh daratan tropis.",
+        "Banyak negara di dunia menggantungkan kebutuhan pada laut yang luas.",
+        "Negara yang memiliki wilayah perairan yang luas pasti menggantungkan dirinya pada laut.",
+        "Gelombang panas bawah laut tidak mengancam ekosistem pesisir."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kemudian, menurut penelitian WMO (Badan Meteorologi Dunia) melaporkan bahwa dalam 4 tahun ke depan suhu permukaan laut di dunia akan meningkat 1,5° C. Kenaikan suhu tersebut berdampak pada rusaknya terumbu karang dan rumput laut di Kawasan Indonesia. Kemudian, hal tersebut nantinya berdampak pada penurunan jumlah tangkapan ikan.\\nBerdasarkan paragraf 2, manakah simpulan yang tepat jika tidak terjadi penurunan jumlah tangkapan ikan?",
+      "options": [
+        "Dalam 4 tahun ke depan tidak terjadi peningkatan suhu permukaan laut di dunia sebesar 1,5° C.",
+        "Dalam 4 tahun ke depan terjadi peningkatan suhu permukaan laut di dunia sebesar 1,5° C.",
+        "Rusaknya terumbu karang dan rumput laut di Kawasan Indonesia.",
+        "Rusaknya terumbu karang atau rumput laut di Kawasan Indonesia.",
+        "Tidak dapat disimpulkan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf 2, manakah pernyataan yang PASTI SALAH?",
+      "options": [
+        "Rusaknya terumbu karang disebabkan karena kenaikan suhu permukaan laut.",
+        "Rusaknya rumput laut dapat disebabkan karena kenaikan suhu permukaan laut.",
+        "Rusaknya terumbu karang dan rumput laut tidak berdampak pada penurunan jumlah tangkapan ikan.",
+        "Empat tahun ke depan suhu permukaan laut di dunia akan meningkat 1,5° C.",
+        "Suhu permukaan laut sangat berpengaruh terhadap ekosistem bawah laut."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua pemuda di Desa X bekerja sebagai petani. Sebagian pemuda tersebut bekerja sebagai petani cengkih. Pemuda yang bekerja sebagai petani cengkih dapat mengendarai sepeda motor. Surya adalah pemuda dari Desa X yang tidak dapat mengendarai sepeda motor. Berdasarkan bacaan tersebut, manakah simpulan yang tepat?",
+      "options": [
+        "Surya adalah pemuda yang bekerja sebagai petani cengkih.",
+        "Surya bukan pemuda yang bekerja sebagai petani cengkih.",
+        "Surya bekerja tambahan menjadi petani cengkih.",
+        "Surya adalah petani cengkih yang tidak dapat mengendarai sepeda motor.",
+        "Surya adalah petani yang dapat mengenderai sepeda motor."
+      ],
+      "correctAnswer": "Surya bukan pemuda yang bekerja sebagai petani cengkih.",
+      "explanation": "Premis menyatakan bahwa pemuda petani cengkih dapat mengendarai sepeda motor. Surya tidak dapat mengendarai sepeda motor, sehingga ia pasti bukan petani cengkih."
+    },
+    {
+      "text": "Pada hari libur nasional, tidak ada kegiatan belajar mengajar kecuali kegiatan teater. Hari Rabu adalah salah satu dari hari libur nasional. Simpulan yang tepat adalah ...",
+      "options": [
+        "Kegiatan belajar mengajar dilaksanakan, meskipun di hari Rabu.",
+        "Kegiatan belajar mengajar dilaksanakan, kecuali pada hari Rabu.",
+        "Kegiatan belajar mengajar tidak dilaksanakanan, kecuali hari Rabu.",
+        "Kegiatan belajar mengajar dan teater dilaksanakan pada hari Rabu.",
+        "Kegiatan belajar mengajar dan teater tidak dilaksanakan pada hari Rabu."
+      ],
+      "correctAnswer": "Kegiatan belajar mengajar tidak dilaksanakanan, kecuali hari Rabu.",
+      "explanation": "Pada hari libur nasional tidak ada KBM kecuali teater. Hari Rabu adalah hari libur nasional, maka pada hari Rabu tidak ada KBM reguler kecuali kegiatan teater."
+    },
+    {
+      "text": "Para pedagang di Jatinegara memiliki pinjaman uang di Bank Rakyat. Bank Rakyat mensyaratkan jaminan dari orang yang meminjam uang. Simpulan yang tepat adalah ...",
+      "options": [
+        "Para pedagang berhubungan di Bank Rakyat yang berasal dari Jatinegara.",
+        "Para pedagang di Jatinegara tidak memiliki jaminan di Bank Rakyat.",
+        "Para pedagang di Jatinegara memiliki jaminan di Bank Rakyat.",
+        "Para pedagang yang memiliki jaminan berhutang di Bank Rakyat.",
+        "Para pedagang di Jatinegara tidak berhutang di Bank Rakyat."
+      ],
+      "correctAnswer": "Para pedagang di Jatinegara memiliki jaminan di Bank Rakyat.",
+      "explanation": "Pedagang Jatinegara meminjam di Bank Rakyat, dan pinjaman mensyaratkan jaminan, maka para pedagang tersebut memiliki jaminan di Bank Rakyat."
+    },
+    {
+      "text": "A menyatakan, “Buah akan terjual lebih mahal jika memiliki rasa yang manis dan lembut teksturnya.” B menyatakan, “Harga buah sangat ditentukan oleh tingkat kesulitan penanaman buahnya.” Data menunjukkan bahwa harga Nanas saat ini relatif murah karena tingginya permintaan dari masyarakat. Manakah pernyataan berikut yang paling tepat mengenai data tersebut?",
+      "options": [
+        "Memperkuat pernyataan A.",
+        "Memperlemah pernyataan A.",
+        "Memperkuat pernyataan B.",
+        "Memperlemah pernyataan B.",
+        "Tidak relevan dengan pernyataan A dan B."
+      ],
+      "correctAnswer": "Tidak relevan dengan pernyataan A dan B.",
+      "explanation": "Data membahas harga nanas yang murah karena tingginya permintaan, sedangkan pernyataan A membahas rasa dan tekstur, dan B membahas kesulitan penanaman."
+    },
+    {
+      "text": "Wilayah yang memiliki sumber daya alam dan sumber daya manusia melimpah akan memiliki pertumbuhan ekonomi yang tinggi. Pertumbuhan ekonomi yang tinggi akan membuat penduduk wilayah tersebut sangat sejahtera. Desa A memiliki sumber daya alam dan sumber daya manusia yang melimpah. Simpulan berdasarkan informasi tersebut adalah penduduk Desa A sangat sejahtera. Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": "Simpulan tersebut pasti benar.",
+      "explanation": "Sesuai silogisme: SDA & SDM melimpah -> Pertumbuhan ekonomi tinggi -> Sangat sejahtera. Desa A memiliki SDA & SDM melimpah, maka simpulannya pasti benar."
+    }
+  ]
+}

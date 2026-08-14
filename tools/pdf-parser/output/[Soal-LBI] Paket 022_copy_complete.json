@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Pilih pernyataan yang benar berdasarkan teks di atas.",
+      "options": [
+        "Sculab memungkinkan eksperimen laboratorium tanpa memerlukan peralatan fisik sama sekali",
+        "Sculab dapat diakses dari berbagai lokasi, memberikan efisiensi dalam penelitian ilmiah",
+        "Semua eksperimen di laboratorium dapat digantikan oleh Sculab secara sempurna",
+        "Sculab hanya dapat digunakan oleh ilmuwan profesional dan tidak oleh mahasiswa",
+        "Teknologi Sculab mengharuskan pengguna berada di laboratorium fisik untuk melakukan simulasi"
+      ],
+      "correctAnswer": "Sculab dapat diakses dari berbagai lokasi, memberikan efisiensi dalam penelitian ilmiah",
+      "explanation": null
+    },
+    {
+      "text": "Simpulan yang tepat berdasarkan teks di atas adalah...",
+      "options": [
+        "Sculab menggantikan sepenuhnya kebutuhan akan laboratorium fisik dalam penelitian ilmiah",
+        "Sculab merupakan inovasi digital yang memungkinkan eksperimen laboratorium dilakukan secara virtual, meskipun tetap memiliki keterbatasan",
+        "Sculab tidak memiliki manfaat yang signifikan karena eksperimen tetap memerlukan laboratorium nyata",
+        "Sculab hanya digunakan untuk simulasi teori tanpa adanya praktik eksperimen",
+        "Sculab adalah platform eksklusif yang hanya dapat digunakan oleh para peneliti senior"
+      ],
+      "correctAnswer": "Sculab merupakan inovasi digital yang memungkinkan eksperimen laboratorium dilakukan secara virtual, meskipun tetap memiliki keterbatasan",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"aksesibilitas\" dalam teks di atas adalah...",
+      "options": [
+        "Kemudahan dalam menggunakan dan mengakses sesuatu",
+        "Ketidakmampuan untuk melakukan sesuatu dengan cepat",
+        "Keahlian khusus yang diperlukan dalam bidang penelitian ilmiah",
+        "Biaya yang dikeluarkan untuk memperoleh sesuatu",
+        "Kebutuhan akan peralatan yang kompleks dalam penelitian"
+      ],
+      "correctAnswer": "Kemudahan dalam menggunakan dan mengakses sesuatu",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang dimaksud dengan \"simulasi eksperimen\" dalam teks di atas?",
+      "options": [
+        "Proses penelitian yang hanya dilakukan dalam laboratorium fisik",
+        "Percobaan yang dilakukan dalam bentuk digital atau virtual untuk meniru eksperimen nyata",
+        "Teknik khusus dalam melakukan eksperimen dengan menggunakan alat-alat tradisional",
+        "Proses pengujian yang memerlukan bahan kimia nyata dalam laboratorium",
+        "Metode eksperimen yang tidak memerlukan peran ilmuwan atau mahasiswa"
+      ],
+      "correctAnswer": "Percobaan yang dilakukan dalam bentuk digital atau virtual untuk meniru eksperimen nyata",
+      "explanation": null
+    },
+    {
+      "text": "Tema utama dari teks \"Rumah Pohon di Hutan Kecil\" adalah...",
+      "options": [
+        "Keindahan alam yang harus dijaga oleh anak-anak",
+        "Kerja sama dan persahabatan dalam membangun sesuatu bersama",
+        "Bahaya membangun rumah pohon tanpa pengawasan orang dewasa",
+        "Pentingnya memiliki tempat rahasia untuk bermain",
+        "Keberanian menghadapi bahaya di alam liar"
+      ],
+      "correctAnswer": "Kerja sama dan persahabatan dalam membangun sesuatu bersama",
+      "explanation": null
+    },
+    {
+      "text": "Watak tokoh Dani dalam cerita tersebut dapat digambarkan sebagai...",
+      "options": [
+        "Pemalas dan selalu menghindari tanggung jawab",
+        "Kreatif dan suka menghias rumah pohon",
+        "Pemimpin yang bertanggung jawab dan peduli dengan teman-temannya",
+        "Cerdas dalam merancang sistem tali katrol",
+        "Selalu bercanda dan membuat suasana menyenangkan"
+      ],
+      "correctAnswer": "Pemimpin yang bertanggung jawab dan peduli dengan teman-temannya",
+      "explanation": null
+    },
+    {
+      "text": "Pilih pernyataan yang tidak sesuai dengan isi teks.",
+      "options": [
+        "Dani bertindak sebagai pemimpin yang memastikan keamanan rumah pohon",
+        "Siska memiliki jiwa kreatif dan menghias rumah pohon dengan kain warna-warni",
+        "Anton menciptakan sistem tali katrol untuk membantu membawa barang ke atas",
+        "Rudi adalah anak yang serius dan jarang bercanda",
+        "Rumah pohon hampir roboh akibat angin kencang, tetapi mereka berhasil memperbaikinya bersama-sama"
+      ],
+      "correctAnswer": "Rudi adalah anak yang serius dan jarang bercanda",
+      "explanation": null
+    },
+    {
+      "text": "Kesimpulan yang paling tepat berdasarkan cerita adalah...",
+      "options": [
+        "Rumah pohon mereka rusak dan akhirnya ditinggalkan karena terlalu berbahaya",
+        "Persahabatan dan kerja sama membuat mereka mampu menghadapi tantangan bersama",
+        "Mereka membangun rumah pohon tanpa tujuan yang jelas dan akhirnya menyesal",
+        "Angin kencang menghancurkan rumah pohon, sehingga mereka tidak bisa bermain lagi",
+        "Mereka menyadari bahwa membangun rumah pohon adalah pekerjaan sia-sia"
+      ],
+      "correctAnswer": "Persahabatan dan kerja sama membuat mereka mampu menghadapi tantangan bersama",
+      "explanation": null
+    },
+    {
+      "text": "Ide pokok paragraf pertama dalam teks di atas adalah...",
+      "options": [
+        "Penggunaan tumbuhan dan ritual dalam pengobatan tradisional",
+        "Peran Hippokrates dalam perkembangan ilmu kedokteran",
+        "Perkembangan kedokteran dari pengobatan tradisional hingga ilmu berbasis sains",
+        "Sejarah kedokteran di Mesir kuno",
+        "Cara diagnosis penyakit pada zaman Yunani kuno"
+      ],
+      "correctAnswer": "Perkembangan kedokteran dari pengobatan tradisional hingga ilmu berbasis sains",
+      "explanation": null
+    },
+    {
+      "text": "Pilih pernyataan yang sesuai dengan isi teks...",
+      "options": [
+        "Hippokrates menemukan antibiotik pertama yang digunakan dalam dunia kedokteran",
+        "Pada abad pertengahan, ilmu kedokteran berkembang pesat tanpa hambatan",
+        "Andreas Vesalius adalah ilmuwan yang melakukan studi anatomi berdasarkan pembedahan manusia",
+        "Louis Pasteur menemukan mikroskop yang membuka wawasan tentang mikroorganisme",
+        "Sejarah kedokteran dimulai pada masa Renaisans dengan munculnya berbagai studi ilmiah"
+      ],
+      "correctAnswer": "Andreas Vesalius adalah ilmuwan yang melakukan studi anatomi berdasarkan pembedahan manusia",
+      "explanation": null
+    },
+    {
+      "text": "Apa makna kata \"anatomi\" dalam teks di atas?",
+      "options": [
+        "Ilmu yang mempelajari struktur tubuh makhluk hidup",
+        "Cabang ilmu yang berfokus pada penyembuhan penyakit",
+        "Ilmu yang mempelajari mikroorganisme dan pengaruhnya terhadap kesehatan",
+        "Metode pengobatan dengan menggunakan bahan alami",
+        "Teknik bedah yang digunakan dalam pengobatan modern"
+      ],
+      "correctAnswer": "Ilmu yang mempelajari struktur tubuh makhluk hidup",
+      "explanation": null
+    },
+    {
+      "text": "Pilih pernyataan yang paling sesuai dengan isi teks...",
+      "options": [
+        "Mikroskop ditemukan oleh Louis Pasteur, yang kemudian mengembangkan teori kuman",
+        "Alexander Fleming menemukan antibiotik yang membantu pengobatan berbagai penyakit infeksi",
+        "Pada masa Renaisans, praktik medis mengalami kemunduran akibat pengaruh agama",
+        "Sejarah kedokteran dimulai dari studi anatomi yang dilakukan oleh Hippokrates",
+        "Pada zaman Mesir kuno, ilmu kedokteran belum berkembang dan hanya mengandalkan ramalan"
+      ],
+      "correctAnswer": "Alexander Fleming menemukan antibiotik yang membantu pengobatan berbagai penyakit infeksi",
+      "explanation": null
+    },
+    {
+      "text": "Pesan moral yang dapat diambil dari puisi di atas adalah...",
+      "options": [
+        "Kita harus menikmati keindahan pagi setiap hari",
+        "Cahaya matahari membawa keberuntungan bagi semua orang",
+        "Hidup ini harus dijalani dengan penuh semangat dan harapan",
+        "Malam adalah waktu yang tidak berguna karena hanya membawa kegelapan",
+        "Embun pagi hanya memberikan kesejukan bagi tanaman"
+      ],
+      "correctAnswer": "Hidup ini harus dijalani dengan penuh semangat dan harapan",
+      "explanation": null
+    },
+    {
+      "text": "Pilih pernyataan yang sesuai dengan isi puisi...",
+      "options": [
+        "Matahari dalam puisi melambangkan semangat baru yang membawa harapan",
+        "Embun pagi hanya berfungsi sebagai penyegar udara di pagi hari",
+        "Puisi ini membahas tentang kesedihan seseorang di pagi hari",
+        "Gelap dalam puisi ini menggambarkan keindahan malam yang menenangkan",
+        "Puisi ini mengajarkan bahwa kita harus selalu bergantung pada matahari untuk menjalani hidup"
+      ],
+      "correctAnswer": "Matahari dalam puisi melambangkan semangat baru yang membawa harapan",
+      "explanation": null
+    },
+    {
+      "text": "Apa makna kata \"nit\" dalam teks di atas?",
+      "options": [
+        "Serangga kecil yang hidup di kulit kepala manusia",
+        "Telur kutu yang menempel di helaian rambut",
+        "Proses berkembang biaknya kutu rambut",
+        "Parasit yang menyebabkan iritasi pada kulit kepala",
+        "Bentuk dewasa dari kutu rambut"
+      ],
+      "correctAnswer": "Telur kutu yang menempel di helaian rambut",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan yang benar berdasarkan teks?",
+      "options": [
+        "Kutu rambut dapat menyebar melalui udara dan air",
+        "Telur kutu dapat berpindah sendiri dari satu rambut ke rambut lain",
+        "Kutu rambut hanya dapat hidup pada manusia dan tidak bisa bertahan tanpa inang",
+        "Iritasi akibat kutu rambut dapat menyebabkan penyakit serius",
+        "Seseorang hanya bisa terkena kutu rambut jika tidak menjaga kebersihan rambutnya"
+      ],
+      "correctAnswer": "Kutu rambut hanya dapat hidup pada manusia dan tidak bisa bertahan tanpa inang",
+      "explanation": null
+    },
+    {
+      "text": "Bagaimana cara utama penyebaran kutu rambut?",
+      "options": [
+        "Melalui makanan yang terkontaminasi kutu rambut",
+        "Dengan kontak langsung antara rambut yang terinfeksi dan rambut sehat",
+        "Melalui udara yang mengandung telur kutu",
+        "Dengan mandi menggunakan air yang mengandung kutu rambut",
+        "Dari hewan peliharaan seperti anjing dan kucing"
+      ],
+      "correctAnswer": "Dengan kontak langsung antara rambut yang terinfeksi dan rambut sehat",
+      "explanation": null
+    },
+    {
+      "text": "Apa makna kata \"iritasi\" dalam teks di atas?",
+      "options": [
+        "Perasaan gatal dan tidak nyaman akibat sesuatu yang mengganggu kulit",
+        "Luka terbuka pada kulit akibat gigitan kutu rambut",
+        "Penyakit serius yang disebabkan oleh infeksi kulit kepala",
+        "Reaksi tubuh yang membuat seseorang tidak bisa terkena kutu rambut",
+        "Kondisi kulit yang selalu kering dan tidak bisa menghasilkan minyak alami"
+      ],
+      "correctAnswer": "Perasaan gatal dan tidak nyaman akibat sesuatu yang mengganggu kulit",
+      "explanation": null
+    },
+    {
+      "text": "Apa makna kata \"emulsi\" dalam teks di atas?",
+      "options": [
+        "Proses pemecahan lemak menjadi asam amino",
+        "Cara tubuh menyerap lemak langsung dari makanan",
+        "Proses pencampuran lemak dengan cairan empedu agar lebih mudah dicerna",
+        "Pengubahan empedu menjadi enzim yang membantu pencernaan",
+        "Pemisahan lemak dari makanan agar tidak diserap tubuh"
+      ],
+      "correctAnswer": "Proses pencampuran lemak dengan cairan empedu agar lebih mudah dicerna",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan yang benar berdasarkan teks?",
+      "options": [
+        "Empedu dihasilkan oleh kantung empedu dan langsung digunakan untuk mencerna makanan",
+        "Cairan empedu hanya mengandung garam empedu tanpa zat lain",
+        "Jika produksi empedu terganggu, seseorang bisa mengalami gangguan pencernaan",
+        "Enzim lipase diproduksi oleh kantung empedu dan digunakan untuk memecah lemak",
+        "Batu empedu terbentuk akibat kekurangan garam empedu dalam tubuh"
+      ],
+      "correctAnswer": "Jika produksi empedu terganggu, seseorang bisa mengalami gangguan pencernaan",
+      "explanation": null
+    },
+    {
+      "text": "Apa fungsi utama empedu dalam sistem pencernaan?",
+      "options": [
+        "Menghasilkan enzim yang membantu pencernaan karbohidrat",
+        "Menyerap lemak langsung ke dalam aliran darah",
+        "Memecah lemak menjadi asam lemak yang dapat diserap tubuh",
+        "Menyaring racun dari makanan sebelum diserap oleh tubuh",
+        "Membantu enzim lipase dalam mencerna lemak dengan cara mengemulsikannya"
+      ],
+      "correctAnswer": "Membantu enzim lipase dalam mencerna lemak dengan cara mengemulsikannya",
+      "explanation": null
+    },
+    {
+      "text": "Apa makna kata \"bilirubin\" dalam teks di atas?",
+      "options": [
+        "Senyawa yang membantu pencernaan karbohidrat dalam usus halus",
+        "Pigmen dalam empedu yang berasal dari pemecahan sel darah merah",
+        "Hormon yang dihasilkan oleh hati untuk membantu produksi empedu",
+        "Zat yang menyebabkan terbentuknya batu empedu dalam kantung empedu",
+        "Enzim yang berperan dalam pemecahan lemak menjadi molekul lebih kecil"
+      ],
+      "correctAnswer": "Pigmen dalam empedu yang berasal dari pemecahan sel darah merah",
+      "explanation": null
+    },
+    {
+      "text": "Apa makna kata \"duodenum\" dalam teks di atas?",
+      "options": [
+        "Bagian usus besar yang menyerap air dari makanan",
+        "Bagian pertama dari usus halus setelah lambung",
+        "Organ pencernaan yang menghasilkan enzim pencernaan",
+        "Kelenjar yang menghasilkan empedu untuk mencerna lemak",
+        "Bagian terakhir dari usus halus sebelum menuju usus besar"
+      ],
+      "correctAnswer": "Bagian pertama dari usus halus setelah lambung",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan yang benar mengenai usus 12 jari berdasarkan teks?",
+      "options": [
+        "Usus 12 jari berfungsi sebagai tempat produksi empedu dan enzim pencernaan",
+        "Usus 12 jari adalah organ terakhir dalam sistem pencernaan manusia",
+        "Di dalam usus 12 jari, makanan bercampur dengan enzim dari pankreas dan empedu",
+        "Usus 12 jari tidak berperan dalam penyerapan zat gizi",
+        "Setelah diproses di usus 12 jari, makanan langsung dikeluarkan dari tubuh"
+      ],
+      "correctAnswer": "Di dalam usus 12 jari, makanan bercampur dengan enzim dari pankreas dan empedu",
+      "explanation": null
+    },
+    {
+      "text": "Apa fungsi utama usus 12 jari dalam sistem pencernaan?",
+      "options": [
+        "Menyaring racun dalam makanan sebelum diserap oleh tubuh",
+        "Memproduksi enzim yang membantu pemecahan protein dan karbohidrat.",
+        "Mengolah dan mencampur makanan dengan enzim dari pankreas serta empedu",
+        "Menyimpan sisa makanan sebelum dikeluarkan dari tubuh",
+        "Menyerap air dan membentuk feses sebelum dibuang ke luar tubuh"
+      ],
+      "correctAnswer": "Mengolah dan mencampur makanan dengan enzim dari pankreas serta empedu",
+      "explanation": null
+    },
+    {
+      "text": "Apa makna kata \"enzim\" dalam teks di atas?",
+      "options": [
+        "Zat kimia yang membantu mempercepat proses pencernaan makanan",
+        "Hormon yang dihasilkan oleh pankreas untuk meningkatkan pencernaan lemak",
+        "Protein dalam makanan yang dipecah oleh tubuh menjadi energi",
+        "Cairan yang dihasilkan usus untuk mencerna karbohidrat dan lemak",
+        "Zat yang dihasilkan hati untuk membersihkan darah dari racun"
+      ],
+      "correctAnswer": "Zat kimia yang membantu mempercepat proses pencernaan makanan",
+      "explanation": null
+    },
+    {
+      "text": "Apa makna kata \"maaf\" dalam teks di atas?",
+      "options": [
+        "Perasaan sedih yang muncul akibat kesalahan sendiri",
+        "Ungkapan permohonan untuk membenarkan suatu kesalahan",
+        "Pengakuan atas kesalahan yang diiringi dengan permintaan pengampunan",
+        "Tindakan memperbaiki diri agar tidak mengulangi kesalahan",
+        "Proses menghilangkan perasaan bersalah tanpa perlu meminta izin"
+      ],
+      "correctAnswer": "Pengakuan atas kesalahan yang diiringi dengan permintaan pengampunan",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan yang sesuai dengan isi teks?",
+      "options": [
+        "Meminta maaf cukup dilakukan dengan kata-kata tanpa perlu adanya perubahan sikap",
+        "Seseorang yang meminta maaf berarti tidak akan mengulangi kesalahan yang sama",
+        "Memberi maaf adalah tanda kebesaran hati dan empati seseorang",
+        "Meminta maaf selalu membuat orang lain langsung melupakan kesalahan yang telah dilakukan",
+        "Permintaan maaf hanya dibutuhkan jika seseorang merasa bersalah"
+      ],
+      "correctAnswer": "Memberi maaf adalah tanda kebesaran hati dan empati seseorang",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa meminta maaf saja tidak cukup dalam beberapa situasi?",
+      "options": [
+        "Karena orang yang telah terluka butuh waktu untuk memaafkan",
+        "Karena permintaan maaf tidak selalu dianggap tulus oleh orang lain.",
+        "Karena kesalahan hanya bisa diperbaiki dengan memberikan hadiah",
+        "Karena tindakan perbaikan dan perubahan sikap juga dibutuhkan",
+        "Karena permintaan maaf hanya efektif jika dilakukan berulang kali"
+      ],
+      "correctAnswer": "Karena tindakan perbaikan dan perubahan sikap juga dibutuhkan",
+      "explanation": null
+    },
+    {
+      "text": "Apa makna kata \"empati\" dalam teks di atas?",
+      "options": [
+        "Kemampuan memahami dan merasakan perasaan orang lain",
+        "Keinginan untuk membalas kebaikan yang telah diterima",
+        "Perasaan bersalah yang muncul setelah melakukan kesalahan",
+        "Sikap menerima keadaan tanpa mempertanyakan alasannya",
+        "Perilaku yang menunjukkan belas kasihan kepada orang lain"
+      ],
+      "correctAnswer": "Kemampuan memahami dan merasakan perasaan orang lain",
+      "explanation": null
+    }
+  ]
+}

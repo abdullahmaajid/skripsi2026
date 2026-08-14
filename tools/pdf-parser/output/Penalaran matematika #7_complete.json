@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Dari tahun 2014 sampai tahun 2022, kenaikan gaji tertinggi terjadi pada tahun ....",
+      "options": [
+        "2014",
+        "2015",
+        "2018",
+        "2021",
+        "2022"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Rata-rata kenaikan gaji karyawan PT Hampir Sejahtera selama 9 tahun adalah ....",
+      "options": [
+        "5.25%",
+        "5,5%",
+        "5,75%",
+        "6%",
+        "6,25%"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan grafik, kenaikan gaji berada pada rentang selama ... tahun",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Memasuki awal tahun 2022, gaji Surya adalah Rp 5.000.000. Kenaikan gaji Surya di tahun 2022 adalah ...",
+      "options": [
+        "Rp250.000",
+        "Rp300.000",
+        "Rp265.000",
+        "Rp325.000",
+        "Rp400.000"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada awal tahun 2015, gaji Jessica adalah Rp8.300.000. Namun, pada bulan Mei 2015 Jessica memutuskan untuk pindah ke PT Setiawan Maju dengan alasan bahwa gaji yang ditawarkan oleh PT Setiawan Maju lebih tinggi daripada bila dia menunggu kenaikan gaji yang diberikan oleh PT Hampir Sejahtera. Berapakah gaji yang mungkin ditawarkan oleh PT Setiawan Maju kepada Jessica?",
+      "options": [
+        "Rp8.500.000",
+        "Rp8.650.000",
+        "Rp8.800.000",
+        "Rp8.950.000",
+        "Tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapa banyak orang yang mengikuti survei secara keseluruhan?",
+      "options": [
+        "40",
+        "58",
+        "98",
+        "100",
+        "200"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapa banyak orang yang suka bubur tidak diaduk?",
+      "options": [
+        "19 orang",
+        "21 orang",
+        "37 orang",
+        "42 orang",
+        "60 orang"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapa banyak perempuan yang ikut survei?",
+      "options": [
+        "19 orang",
+        "21 orang",
+        "37 orang",
+        "42 orang",
+        "60 orang"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapa banyak orang yang suka bubur diaduk atau laki – laki?",
+      "options": [
+        "21",
+        "40",
+        "58",
+        "77",
+        "98"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Salah satu orang yang disurvei Ramon ternyata adalah Pak Eko Bramantyo. Berapa besar peluang Pak Eko Bramantyo suka bubur tidak diaduk?",
+      "options": [
+        "19%",
+        "40%",
+        "42%",
+        "47,5%",
+        "95,24%"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ukuran Teh Cukup Murah yang paling ekonomis adalah .... (Suatu barang ekonomis jika harga per satuannya rendah)",
+      "options": [
+        "Ukuran 350 ml",
+        "Ukuran 500 ml",
+        "Ukuran 1,36 liter",
+        "Selain ukuran 500 ml",
+        "Semua ukuran sama ekonomisnya"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Teh cukup murah paling banyak yang bisa dibeli Ika adalah sebanyak ... botol",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Teh cukup murah paling banyak yang bisa dibeli Ika adalah sebanyak ... ml.",
+      "options": [
+        "1360",
+        "1850",
+        "2100",
+        "2220",
+        "2410"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kembalian terbanyak yang mungkin diterima oleh Ika saat membeli Teh Cukup Murah adalah sebanyak ... (Asumsikan bahwa Ika menggunakan pecahan uang terkecil yang cukup untuk membeli Teh Cukup Murah)",
+      "options": [
+        "Rp21.200,00",
+        "Rp18.400,00",
+        "Rp12.000,00",
+        "Rp6.200,00",
+        "Rp3.400,00"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perut Ika ternyata sering kembung ketika terlalu banyak minum Teh Cukup Murah. Dari semua kasus kembung yang Ika alami, Ika mendapati bahwa perutnya baru akan kembung setelah Ika meminum Teh Cukup Murah sebanyak sekitar 1 liter. Jika Ika ingin membeli Teh Cukup Murah sebanyak-banyaknya, maka pilihan yang paling ekonomis adalah membeli ....",
+      "options": [
+        "1 botol 350 ml dan 1 botol ukuran 500 ml",
+        "2 botol ukuran 350 ml dan 1 botol ukuran 500 ml",
+        "1 botol ukuran 1,36 liter",
+        "3 botol ukuran 350 ml",
+        "2 botol ukuran 500 ml"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Model matematika yang menyatakan ruang maksimum pada Chicago Deep Dish yang tersedia untuk keju dan saus tomat adalah ... (Gunakan $z$ untuk menyatakan jari-jari pizza dan $a$ untuk menyatakan tinggi dinding pizza jika dibutuhkan.)",
+      "options": [
+        "$V_{pizza} = \\pi z^2 a$",
+        "$L_{alas} = \\pi z^2$",
+        "$L_{dinding} = 2 \\pi za$",
+        "$V_{kejudansaus} = \\frac{2}{3} \\pi z^3$",
+        "Tidak dapat diketahui"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ukuran Chicago Deep Dish yang sering dipesan Jacob adalah ukuran jumbo. Jika tinggi dinding pizzanya adalah 2 inci, maka adonan pizza tersebut harus setidaknya berukuran seluas ... $\\text{inci}^2$. (Gunakan $\\pi \\approx 3,14$ jika dibutuhkan)",
+      "options": [
+        "1243,44",
+        "1017,36",
+        "379,94",
+        "367,38",
+        "254,34"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Amy, pacar Jacob, memesan 2 loyang pizza Chicago Deep Dish berukuran kecil untuknya dan Jacob. Amy berpikir bahwa dia akan mendapatkan pizza lebih banyak dengan memesan 2 loyang berukuran kecil ketimbang 1 loyang berukuran jumbo. Ternyata, pesanan Amy... 1 loyang berukuran jumbo. (Gunakan $\\pi \\approx 3,14$ jika dibutuhkan)",
+      "options": [
+        "Lebih banyak 33% daripada",
+        "Lebih banyak 28,26 $\\text{inci}^2$ daripada",
+        "Sama saja dengan",
+        "Lebih sedikit 28,26 $\\text{inci}^2$ daripada",
+        "Lebih sedikit 33% daripada"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Potongan pizza pesanan Jacob kini ... potongan pizza pesanan biasanya.",
+      "options": [
+        "Hanya sebesar 50% dari",
+        "Sebesar $\\frac{2}{3}$ dari",
+        "Sama saja dengan",
+        "50% lebih besar daripada",
+        "2 kali lipat lebih besar daripada"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pizza pesanan Jacob kini ... pizza pesanan biasanya.",
+      "options": [
+        "Hanya sebesar 50% dari",
+        "Sebesar $\\frac{2}{3}$ dari",
+        "Sama saja dengan",
+        "50% lebih besar daripada",
+        "2 kali lipat lebih besar daripada"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

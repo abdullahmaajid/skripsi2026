@@ -1,0 +1,508 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan bacaan tersebut, manakah simpulan berikut yang benar?",
+      "options": [
+        "Banyak anak usia sekolah yang tidak bisa mendapatkan kesempatan pendidikan apabila alokasi anggaran tidak merata.",
+        "Banyak anak usia sekolah yang bisa mendapatkan kesempatan pendidikan apabila alokasi anggaran merata.",
+        "Banyak anak usia sekolah yang tidak bisa mendapatkan kesempatan pendidikan apabila alokasi anggaran merata.",
+        "Alokasi anggaran tidak merata apabila banyak anak usia sekolah yang bisa mendapatkan kesempatan pendidikan.",
+        "Alokasi anggaran merata apabila banyak anak usia sekolah yang tidak bisa mendapatkan kesempatan pendidikan."
+      ],
+      "correctAnswer": "Banyak anak usia sekolah yang tidak bisa mendapatkan kesempatan pendidikan apabila alokasi anggaran tidak merata.",
+      "explanation": "Simpulan yang benar sesuai teks adalah jika fasilitas/anggaran pendidikan tidak memadai/merata, maka banyak anak yang tidak mendapatkan kesempatan pendidikan."
+    },
+    {
+      "text": "Manakah informasi berikut yang memperkuat pernyataan \"Banyak anak usia sekolah yang tidak bisa mendapatkan kesempatan pendidikan, terutama yang tinggal di daerah terpencil\"?",
+      "options": [
+        "Rata-rata jumlah anak yang tidak bisa bersekolah lebih banyak dibandingkan di pusat kota.",
+        "Peningkatan jumlah sekolah yang didirikan di daerah terpencil lebih tinggi dibandingkan di kota.",
+        "Fasilitas yang disediakan sekolah di daerah terpencil cenderung lebih sedikit dibandingkan di kota.",
+        "Sebagian besar sekolah di daerah terpencil membebaskan biaya sekolah untuk anak usia sekolah.",
+        "Jumlah anak usia sekolah yang terdaftar di daerah terpencil lebih sedikit dibandingkan di pusat kota."
+      ],
+      "correctAnswer": "Rata-rata jumlah anak yang tidak bisa bersekolah lebih banyak dibandingkan di pusat kota.",
+      "explanation": "Pernyataan yang memperkuat adalah yang menunjukkan tingginya ketidakkesempatan bersekolah di daerah terpencil."
+    },
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan berikut yang benar?",
+      "options": [
+        "Banjir disebabkan oleh kebiasaan membuang sampah sembarangan",
+        "Air yang tidak tersalurkan dengan baik menyebabkan saluran air tersumbat.",
+        "Banjir yang terjadi menyebabkan saluran air tersumbat",
+        "Program kebersihan yang tidak efektif menyebabkan saluran air tersumbat",
+        "Banyaknya sampah yang dibuang sembarangan membuat kerja bakti rutin dilaksanakan."
+      ],
+      "correctAnswer": "Banjir disebabkan oleh kebiasaan membuang sampah sembarangan",
+      "explanation": "Sampah sembarangan membuat saluran air terhambat, menyebabkannya tidak mengalir, lalu terjadi banjir."
+    },
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan berikut yang pasti benar?",
+      "options": [
+        "Seseorang yang tidak menggunakan botol plastik tidak menyumbang pencemaran lingkungan.",
+        "Kesadaran masyarakat meningkat karena penggunaan botol plastik dibatasi.",
+        "Ketika masyarakat menggunakan sedotan logam, tingkat pencemaran lingkungan dapat berkurang.",
+        "Penggunaan sedotan plastik menjadi penyumbang terbesar masalah pencemaran sampah plastik.",
+        "Harga sedotan logam lebih murah daripada plastik."
+      ],
+      "correctAnswer": "Ketika masyarakat menggunakan sedotan logam, tingkat pencemaran lingkungan dapat berkurang.",
+      "explanation": "Penggunaan sedotan logam (yang dapat dipakai ulang) berdampak pada berkurangnya tingkat pencemaran lingkungan."
+    },
+    {
+      "text": "Berdasarkan pernyataan tersebut, manakah yang paling mungkin menjadi akibat lamanya waktu memasak rendang?",
+      "options": [
+        "Rendang adalah masakan yang sulit dibuat.",
+        "Rendang hanya dimasak untuk acara-acara khusus.",
+        "Rendang lebih banyak disukai daripada masakan lainnya.",
+        "Rendang dimasak dengan mengunakan banyak rempah-rempah.",
+        "Rendang yang dimasak dengan cepat kurang digemari orang."
+      ],
+      "correctAnswer": "Rendang yang dimasak dengan cepat kurang digemari orang.",
+      "explanation": "Karena makin lama dimasak makin enak rasanya, rendang yang dimasak cepat mungkin tidak selezat itu (kurang digemari)."
+    },
+    {
+      "text": "Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan pasti benar",
+        "Simpulan mungkin benar",
+        "Simpulan pasti salah",
+        "Simpulan mungkin salah",
+        "Simpulan tidak dapat dinilai karna informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan pasti salah",
+      "explanation": "Teks menyatakan pembaca beralih ke internet menyebabkan kerugian, sehingga simpulan bahwa berita di internet *tidak* menyebabkan kerugian bertentangan secara langsung (pasti salah)."
+    },
+    {
+      "text": "Manakah pernyataan berikut yang dapat memperlemah pendapat aktivis lingkungan tersebut?",
+      "options": [
+        "Penggunaan air minum kemasan dianggap lebih praktis.",
+        "Banyak penjual barang memberikan kantong plastik gratis",
+        "Pengunaan plastik sekali pakai merupakan kebiasaan masyarakat.",
+        "Saat ini, masyarakat lebih banyak menggunakan tas pribadi saat berbelanja.",
+        "Pelaku industri belum menggunakan plastik ramah lingkungan."
+      ],
+      "correctAnswer": "Saat ini, masyarakat lebih banyak menggunakan tas pribadi saat berbelanja.",
+      "explanation": "Pendapat aktivis menyatakan penyebab sampah plastik adalah plastik sekali pakai. Penggunaan tas pribadi memperlemah argumen tersebut karena menunjukkan pengurangan penggunaan kantong plastik sekali pakai."
+    },
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan berikut yang pasti salah?",
+      "options": [
+        "Orang yang tidak makan buah berpotensi kekurangan gizi.",
+        "Enam dari tujuh orang yang mengonsumsi buah tidak mengalami serangan jantung.",
+        "Mengonsumsi sayur yang mengandung magnesium meningkatkan tekanan darah.",
+        "Serangan jantung merupakan penyebab kematian yang paling tinggi sejauh ini.",
+        "Orang yang memiliki kolesterol tinggi tidak mengonsumsi buah dan sayur."
+      ],
+      "correctAnswer": "Mengonsumsi sayur yang mengandung magnesium meningkatkan tekanan darah.",
+      "explanation": "Teks menyatakan sayur mengandung magnesium yang terbukti dapat menurunkan tekanan darah, sehingga pernyataan bahwa magnesium meningkatkan tekanan darah pasti salah."
+    },
+    {
+      "text": "Manakah pernyataan berikut yang akan memperkuat argumen kepala sekolah SMA X tersebut?",
+      "options": [
+        "Metode belajar aktif belum pernah diterapkan pada tahun sebelumnya.",
+        "Selain metode belajar aktif, semua guru juga menggunakan berbagai metode mengajar lain.",
+        "Jumlah siswa yang lulus dengan nilai yang baik juga makin meningkat.",
+        "Semua mata pelajaran telah tercapai capaian pembelajarannya.",
+        "Guru-guru sudah menerapkan metode belajar aktif sejak belasan tahun yang lalu."
+      ],
+      "correctAnswer": "Metode belajar aktif belum pernah diterapkan pada tahun sebelumnya.",
+      "explanation": "Hal ini memperkuat bahwa kenaikan nilai tahun ini disebabkan oleh penerapan metode baru tersebut (metode belajar aktif)."
+    },
+    {
+      "text": "Lawan kata signifikan yang terdapat pada kalimat (1) adalah...",
+      "options": [
+        "Kompleks",
+        "Sepele",
+        "Samar",
+        "Besar",
+        "Kabur"
+      ],
+      "correctAnswer": "Sepele",
+      "explanation": "Signifikan berarti penting atau berarti besar. Lawan kata yang paling tepat dalam konteks ini adalah sepele."
+    },
+    {
+      "text": "Kalimat manakah pada bacaan di atas yang berpola dasar sama dengan kalimat Para ahli mempertanyakan apakah gejala alam tersebut menggambarkan perubahan pola iklim dari tahun ke tahun?",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5)"
+      ],
+      "correctAnswer": "(2)",
+      "explanation": "Kalimat acuan berpola S-P-O (majemuk bertingkat dengan anak kalimat sebagai objek). Kalimat (2) memiliki struktur serupa: 'Muncul pertanyaan penting [S] yang dicoba untuk dicari jawabannya oleh para ilmuwan [P], yakni bagaimana...'."
+    },
+    {
+      "text": "Dimanakah sebaiknya posisi kalimat \"Hal itu sekaligus dapat mendorong siswa untuk gemar membaca\" pada bacaan di atas?",
+      "options": [
+        "Antara kalimat (3) dan (4).",
+        "Antara kalimat (4) dan (5).",
+        "Antara kalimat (5) dan (6).",
+        "Setelah kalimat (6).",
+        "Setelah kalimat (2)."
+      ],
+      "correctAnswer": "Antara kalimat (5) dan (6).",
+      "explanation": "Kalimat tersebut membahas kebiasaan membaca siswa, yang sangat cocok disisipkan sebelum kalimat (6) yang menyimpulkan hubungan erat antara kebiasaan membaca."
+    },
+    {
+      "text": "Tujuan penulisan kalimat \"Perbaikan itu harus disertai oleh pengembangan sumber daya guru\" pada kalimat (2) bacaan diatas adalah...",
+      "options": [
+        "memberi penekanan bahwa guru satu-satunya faktor penentu keberhasilan pendidikan bahasa.",
+        "memberi contoh mengenai peran guru dalam perubahan dan kurikulum bahasa.",
+        "menambahkan informasi bahwa guru merupakan salah satu unsur dalam pendidikan bahasa.",
+        "menggambarkan bagaimana pendidikan bahasa menyertai pengembangan guru.",
+        "menyanggah argumen yang menantang pengembangan sumber daya guru."
+      ],
+      "correctAnswer": "menambahkan informasi bahwa guru merupakan salah satu unsur dalam pendidikan bahasa.",
+      "explanation": "Kalimat ini berfungsi melengkapi argumen pada kalimat (1) bahwa perbaikan tidak hanya pada taktik/kurikulum, tetapi juga sumber daya guru."
+    },
+    {
+      "text": "Imbuhan me-kan pada kata mengecilkan dalam kalimat asisten peneliti diminta mengecilkan ukuran spesimen yang digunakan memiliki makna yang sama dengan imbuhan me-kan pada kata bernomor...",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": "2",
+      "explanation": "Kata mengecilkan berarti 'menjadikan kecil' (kausatif). Pada teks, nomor (1) membesarkan (menjadikan besar)."
+    },
+    {
+      "text": "Perhatikan kutipan berikut. Mempelajari transisi dari tanaman air ke tanaman darat. Kutipan tersebut menjadi kalimat logis jika dilanjutkan dengan...",
+      "options": [
+        "semua genetik diteliti titik awal perkembangannya oleh peneliti.",
+        "para peneliti dapat menentukan titik awal semua perkembangan genetik.",
+        "perkembangan semua titik awal genetik dapat ditentukan oleh para peneliti",
+        "dapat ditentukan oleh para peneliti perkembangan dari titik awal semua genetik.",
+        "titik awal dapat ditentukan peneliti terkait dengan perkembangan semua genetik"
+      ],
+      "correctAnswer": "para peneliti dapat menentukan titik awal semua perkembangan genetik.",
+      "explanation": "Frasa awal adalah keterangan tujuan/gerundial, sehingga subjek pelaku yang tepat setelahnya adalah 'para peneliti'."
+    },
+    {
+      "text": "Ungkapan yang digunakan oleh penulis untuk mengibaratkan sesuatu seperti manusia pada bacaan di atas adalah...",
+      "options": [
+        "oleh-oleh khas Bengkulu dalam kalimat (4).",
+        "motif bunga rafflesia dalam kalimat (7).",
+        "sang penebar bau busuk dalam kalimat (7).",
+        "bunga bangkai dalam kalimat (7).",
+        "batik tangan dalam kalimat (7)."
+      ],
+      "correctAnswer": "sang penebar bau busuk dalam kalimat (7).",
+      "explanation": "Penggunaan kata 'sang' mengibaratkan bunga Rafflesia seperti manusia (personifikasi)."
+    },
+    {
+      "text": "Bentuk pasif dari kalimat aktif banyak orang mengagumi motif bunga Rafflesia memiliki pola sama dengan pola kalimat...",
+      "options": [
+        "(1)",
+        "(3)",
+        "(4)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(3)",
+      "explanation": "Struktur kalimat aktif transitif (S-P-O-K) yang jika dipasifkan sesuai dengan pola kalimat (3)."
+    },
+    {
+      "text": "Frasa manakah pada bacaan di atas yang berkandungan jenis kata yang sama dengan jenis kata saat pada frasa saat itu?",
+      "options": [
+        "Frasa sekarang ini dalam kalimat (1).",
+        "Frasa dari lahir dalam kalimat (2).",
+        "Frasa kita ini dalam kalimat (3).",
+        "Frasa pada bumi dalam kalimat (5).",
+        "Frasa semua hal dalam kalimat (7)."
+      ],
+      "correctAnswer": "Frasa sekarang ini dalam kalimat (1).",
+      "explanation": "'Saat' adalah nomina penunjuk waktu, sama seperti frasa penunjuk waktu 'sekarang ini'."
+    },
+    {
+      "text": "Dalam kalimat (4), frasa mengotori bumi, rusaknya bumi, dan membuat tidak indahnya lagi bumi akan memiliki kesejajaran bentuk jika diperbaiki menjadi...",
+      "options": [
+        "mengotori bumi, merusak bumi, dan bumi ini dijadikan tidak indah lagi.",
+        "mengotori bumi, merusak bumi, dan tidak indahnya bumi.",
+        "bumi dikotori, bumi dirusak, dan membuat bumi tidak seindah dulu.",
+        "mengotori bumi, merusak bumi, dan bumi ini dibuat menjadi tidak indah lagi.",
+        "mengotori bumi, merusak bumi, dan membuat bumi ini menjadi tidak indah lagi."
+      ],
+      "correctAnswer": "E",
+      "explanation": "Frasa harus sejajar bentuknya, yaitu menggunakan verba meN-kan atau meN-: mengotori, merusak, dan membuat."
+    },
+    {
+      "text": "Apabila gagasan bacaan diatas dipisahkan menjadi dua paragraf, bagaimanakah pengelompokan kalimatnya agar menjadi paragraf padu dan utuh?",
+      "options": [
+        "{(1)-(2)-(3)} dan {(4)-(5)-(6)-(7)-(8)-(9)}",
+        "{(1)-(2)-(3)-(4)} dan {(5)-(6)-(7)-(8)-(9)}",
+        "{(1)-(2)-(3)-(4)-(5)} dan {(6)-(7)-(8)-(9)}",
+        "{(1)-(2)-(3)-(4)-(5)-(6)} dan {(7)-(8)-(9)}",
+        "{(1)-(2)-(3)-(4)-(5)-(6)-(7)} dan {(8)-(9)}"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Kalimat (1)-(5) membahas tentang ciri-ciri abad ke-21, sedangkan kalimat (6)-(9) membahas tentang pergeseran sistem pendidikan ke arah TIK dan transformasinya."
+    },
+    {
+      "text": "Kalimat (8) di atas mewadahi maksud penulis untuk...",
+      "options": [
+        "merangkum pendapat para ahli tentang penggunaan TIK di sekolah dalam proses belajar mengajar.",
+        "mendukung penelitian tentang pemanfaatan TIK sebagai strategi jitu dalam meningkatkan pelayanan administrasi pendidikan.",
+        "menawarkan solusi sistem komputerisasi multimedia di setiap sekolah untuk memudahkan para siswa mencari bahan-bahan pelajaran.",
+        "mendorong dunia pendidikan agar secara holistik memanfaatkan TIK yang mencakup kurikulum, fasilitas, pelayanan, dan sistem pembelajaran.",
+        "memberikan penekanan agar para siswa menggunakan TIK baik di sekolah maupun di luar."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Kalimat (8) menyatakan bahwa abad ini memerlukan transformasi pendidikan secara menyeluruh yang berkaitan dengan pemanfaatan TIK secara holistik."
+    },
+    {
+      "text": "Gagasan paragraf 2 akan menjadi runtut jika susunan kalimatnya adalah...",
+      "options": [
+        "(5) – (3) – (4) – (6)",
+        "(5) – (3) – (6) – (4)",
+        "(5) – (4) – (6) – (3)",
+        "(5) – (6) – (3) – (4)",
+        "(5) – (6) – (4) – (3)"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Susunan runtut untuk paragraf kedua dimulai dengan kalimat (5) syarat/cara, diikuti (3) keputusan mempelajari pola makan, (6) contoh nyata, dan (4) penerapan."
+    },
+    {
+      "text": "Cara lain untuk menyampaikan gagasan pada kalimat (4) adalah...",
+      "options": [
+        "makanan sehat baru yang harus kita konsumsi berporsi kecil setiap hari.",
+        "setiap hari makanan sehat baru yang porsinya kecil dan baru harus kita konsumsi.",
+        "kita harus mengonsumsi satu porsi kecil makanan sehat baru setiap hari.",
+        "makanan yang sehat baru harus kita konsumsi setiap hari.",
+        "setiap hari konsumsi kita adalah makanan sehat baru berporsi kecil."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Penyampaian gagasan yang setara dan lebih gramatikal terdapat pada opsi C."
+    },
+    {
+      "text": "Gagasan pada kalimat (4) dan (5) akan menjadi selaras bila keduanya dihubungkan dengan...",
+      "options": [
+        "walaupun demikian.",
+        "oleh karena itu.",
+        "dari itu.",
+        "dengan demikian.",
+        "lebih jauh lagi."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Kalimat (4) dan (5) menunjukkan hubungan pertentangan/kontras (paradoks), sehingga konjungsi yang tepat adalah 'walaupun demikian'."
+    },
+    {
+      "text": "Kata yang memiliki makna denotatif 'kontradiksi' terdapat pada kalimat...",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5)"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Kata 'paradoks' pada kalimat (5) bersinonim dengan kontradiksi."
+    },
+    {
+      "text": "Kata manakah pada bacaan di atas yang pola bentukan katanya dapat digunakan untuk membentuk kata lain?",
+      "options": [
+        "Kata ancaman dalam kalimat (1)",
+        "Kata adalah dalam kalimat (5)",
+        "Kata sebagai dalam kalimat (5)",
+        "Kata sinyal dalam kalimat (6)",
+        "Kata bahaya dalam kalimat (6)"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Kata 'ancaman' berasal dari kata dasar 'ancam' dengan sufiks -an, yang dapat diturunkan menjadi berbagai bentuk kata lain (mengancam, terancam, dll)."
+    },
+    {
+      "text": "Frasa manakah pada bacaan diatas yang pola maknanya sama dengan frasa sambutan hangat?",
+      "options": [
+        "Frasa sifat emosi dalam kalimat (1)",
+        "Frasa jenis kelamin dalam kalimat (2)",
+        "Frasa pihak ketiga dalam kalimat (3)",
+        "Frasa para psikolog dalam kalimat (5)",
+        "Frasa ikatan sosial dalam kalimat (7)"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Frasa 'sambutan hangat' bermakna metaforis/kiasan, begitu pula dengan 'ikatan sosial' (bukan ikatan secara fisik)."
+    },
+    {
+      "text": "Apa inti teks tersebut?",
+      "options": [
+        "Penelitian membuktikan bahwa berolahraga sebelum sarapan lebih baik daripada setelah sarapan.",
+        "Para peneliti di Inggris membuat penelitian tentang perbandingan penurunan berat badan pada peserta obesitas.",
+        "Banyak orang belum paham kapan waktu terbaik untuk berolahraga, apakah sebelum atau sesudah sarapan.",
+        "Berolahraga sebelum atau sesudah sarapan memiliki kelebihan dan kekurangan masing-masing.",
+        "Para peneliti menganjurkan agar kita berolahraga sebelum sarapan karena otot kita lebih responsif terhadap insulin."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Keseluruhan teks membahas perbandingan serta keunggulan berolahraga sebelum sarapan dibandingkan setelah sarapan berdasarkan penelitian."
+    },
+    {
+      "text": "Kata kadar dalam kalimat (2) bermakna ....",
+      "options": [
+        "ukuran",
+        "tingkat",
+        "jumlah",
+        "kandungan",
+        "unsur"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Kata 'kadar' dalam konteks 'kadar gula' merujuk pada isi atau kandungan zat."
+    },
+    {
+      "text": "Mengapa pada paragraf pertama perlu ditambahkan kalimat?",
+      "options": [
+        "Perlu disebutkan alasan atas pertanyaan yang terdapat pada kalimat (1).",
+        "Diperlukan penjelasan hubungan peningkatan kadar gula dengan sarapan setelah kalimat (2).",
+        "Penyebab pusing atau pingsan pada kalimat (3) perlu dijelaskan lebih lanjut.",
+        "Perlu dijelaskan pengertian membakar lemak pada kalimat (4).",
+        "Perlu dijelaskan pengertian perut kosong pada kalimat (4)."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Kalimat (2) menyebutkan peningkatan kadar gula yang dipakai saat pembakaran energi, sehingga perlu penjelasan lanjutan mengenai hubungan tersebut."
+    },
+    {
+      "text": "Tanda baca yang salah terdapat pada kalimat...",
+      "options": [
+        "(4)",
+        "(6)",
+        "(8)",
+        "(9)",
+        "(10)"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Kalimat (8) 'Hasil belum meyakinkan.' merupakan kalimat minor yang kurang tepat tanda bacanya atau memerlukan perbaikan struktur."
+    },
+    {
+      "text": "Kata itu pada kalimat (4) merujuk...",
+      "options": [
+        "fungsi pendapat seseorang dalam berdiskusi.",
+        "pendapat seseorang yang berupa kritik.",
+        "tingkah laku satu kelompok dalam diskusi.",
+        "dominasi pendapat seseorang dalam satu kelompok.",
+        "akibat tidak ada diskusi dalam sebuah kelompok."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Kata 'itu' merujuk pada kondisi di mana pendapat satu kelompok menjadi motor tunggal (dominasi pendapat)."
+    },
+    {
+      "text": "Anda perlu menambahkan kalimat berikut dalam paragraf pertama. Bahkan, diskusi bisa menghasilkan pendapat baru yang berbeda dengan gagasan awal. Kalimat tersebut paling tepat ditempatkan setelah...",
+      "options": [
+        "kalimat (2).",
+        "kalimat (3).",
+        "kalimat (4).",
+        "kalimat (6).",
+        "kalimat (7)."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Kalimat tambahan tersebut cocok diletakkan setelah kalimat (2) yang membahas pendiskusian dan penguatan pendapat."
+    },
+    {
+      "text": "Penulisan kata diuji/cobakan seharusnya...",
+      "options": [
+        "diuji-cobakan.",
+        "diuji cobakan.",
+        "diujicobakan.",
+        "di-uji coba-kan.",
+        "di-ujicoba-kan."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Bentuk gabungan kata yang mendapat awalan dan akhiran sekaligus ditulis serangkai menjadi 'diujicobakan'."
+    },
+    {
+      "text": "Tujuan penulis menghasilkan teks tersebut adalah...",
+      "options": [
+        "menjelaskan diskusi dalam kelompok.",
+        "mendeskripsikan peranan diskusi.",
+        "menjelaskan manfaat diskusi.",
+        "menjelaskan cara melihat diskusi.",
+        "menguraikan kelebihan diskusi."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Teks tersebut menjelaskan pentingnya diskusi serta manfaatnya dalam melahirkan gagasan dan menghindari dominasi pendapat tunggal."
+    },
+    {
+      "text": "Kata membantu pada kalimat (9) tidak tepat sehingga harus diganti dengan kata...",
+      "options": [
+        "mendorong.",
+        "mempermudah.",
+        "mempercepat.",
+        "menguatkan.",
+        "merangsang."
+      ],
+      "correctAnswer": "E",
+      "explanation": "Zat kimia memicu atau merangsang pertumbuhan jerawat, sehingga kata 'membantu' kurang tepat konteksnya."
+    },
+    {
+      "text": "Kalimat manakah yang paling tepat sebagai perluasan kalimat (8) agar padu dengan kalimat yang lain?",
+      "options": [
+        "Masalahnya, hasilnya belum meyakinkan.",
+        "Diduga hasilnya belum meyakinkan.",
+        "Terbukti, hasilnya belum meyakinkan.",
+        "Hasilnya adalah penelitian itu belum meyakinkan.",
+        "Sayangnya, hasil yang diperoleh belum meyakinkan."
+      ],
+      "correctAnswer": "E",
+      "explanation": "Perluasan dengan kata penghubung antarkalimat 'Sayangnya' membuat kalimat (8) lebih padu dan mengalir dengan kalimat (7) dan (9)."
+    },
+    {
+      "text": "Apa makna kalimat (2) pada teks tersebut?",
+      "options": [
+        "Jerawat dapat disebabkan oleh senyawa di udara yang tercemar dan paparan sinar matahari akibat polusi.",
+        "Jerawat muncul akibat polusi senyawa di udara dan paparan sinar matahari yang tercemar.",
+        "Senyawa di udara yang tercemar dan paparan sinar matahari menjadi penyebab munculnya jerawat.",
+        "Polusi senyawa di udara yang tercemar dan paparan sinar matahari menjadi penyebab munculnya jerawat.",
+        "Polusi penyebab jerawat adalah senyawa di udara tercemar dan sinar matahari yang terpapar."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apa judul teks yang paling tepat untuk tulisan tersebut?",
+      "options": [
+        "Tradisi Panjat Pinang di Indonesia.",
+        "Tradisi Cioko sebagai Gerebek Arwah Gentayangan.",
+        "Perkembangan Tradisi Cioko Menjadi Panjat Pinang.",
+        "Kemeriahan Perayaan Kemerdekaan dan Tradisi.",
+        "Panjat Pinang dan Panjat Bambu Cioko."
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat manakah yang merupakan perpaduan kalimat (2) dan (3)?",
+      "options": [
+        "Dalam lomba itu, sekelompok orang berusaha memanjat batang pinang yang dibaluri minyak pelumas dan di puncaknya menjuntai aneka hadiah, sementara penonton bersorak-sorai tatkala para pemanjat di ketinggian tertentu tiba-tiba melorot.",
+        "Dalam lomba itu, sekelompok orang berusaha memanjat batang pinang yang dibaluri minyak pelumas dan di puncaknya menjuntai aneka hadiah sehingga penonton bersorak-sorai tatkala para pemanjat di ketinggian tertentu tiba-tiba melorot.",
+        "Dalam lomba itu, sekelompok orang berusaha memanjat batang pinang yang dibaluri minyak pelumas dan di puncaknya menjuntai aneka hadiah dan penonton bersorak-sorai tatkala para pemanjat di ketinggian tertentu tiba-tiba melorot.",
+        "Dalam lomba itu, sekelompok orang berusaha memanjat batang pinang yang dibaluri minyak pelumas dan di puncaknya menjuntai aneka hadiah ketika penonton bersorak-sorai tatkala para pemanjat di ketinggian tertentu tiba-tiba melorot.",
+        "Dalam lomba itu, sekelompok orang berusaha memanjat batang pinang yang dibaluri minyak pelumas dan di puncaknya menjuntai aneka hadiah lalu penonton bersorak-sorai tatkala para pemanjat di ketinggian tertentu tiba-tiba melorot."
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang menyebabkan ketidakpaduan ide paragraf kedua adalah...",
+      "options": [
+        "kalimat (6).",
+        "kalimat (7).",
+        "kalimat (8).",
+        "kalimat (9).",
+        "kalimat (10)."
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat mana yang merupakan hasil perbaikan kalimat (7)?",
+      "options": [
+        "Dalam atraksi itu diadakan perayaan gerebek arwah gentayangan di mana di Indonesia dinamakan Cioko.",
+        "Atraksi itu diadakan dalam perayaan gerebek arwah gentayangan yang mana di Indonesia dinamakan Cioko.",
+        "Atraksi itu diadakan dalam perayaan gerebek arwah gentayangan yang di Indonesia dinamakan Cioko.",
+        "Dalam atraksi itu diadakan perayaan gerebek arwah gentayangan dan di Indonesia dinamakan Cioko.",
+        "Atraksi yang diadakan dalam perayaan gerebek arwah gentayangan di Indonesia dinamakan Cioko."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

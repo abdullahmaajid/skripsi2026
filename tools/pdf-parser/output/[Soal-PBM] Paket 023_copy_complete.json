@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Kata yang salah dalam teks bacaan di atas adalah...",
+      "options": [
+        "zaman",
+        "informasi",
+        "edukasi",
+        "komunikasi",
+        "teknologi"
+      ],
+      "correctAnswer": "edukasi",
+      "explanation": null
+    },
+    {
+      "text": "Kata yang tepat untuk melengkapi kalimat berikut adalah:\n\"Namun, tidak semua orang dapat mengikuti perkembangan ini dengan __.\"",
+      "options": [
+        "pelan",
+        "mudah",
+        "lambat",
+        "biasa",
+        "ringan"
+      ],
+      "correctAnswer": "mudah",
+      "explanation": null
+    },
+    {
+      "text": "Perbaikan yang tepat untuk kalimat \"Beberapa orang, terutama yang sudah lanjut usia, kesulitan dalam menggunakan teknologi baru.\" adalah...",
+      "options": [
+        "Beberapa orang terutama yang sudah lanjut usia, kesulitan menggunakan teknologi baru.",
+        "Beberapa orang terutama yang sudah lanjut usia kesulitan menggunakan teknologi baru.",
+        "Beberapa orang terutama yang sudah lanjut usia kesulitan dalam menggunakan teknologi baru.",
+        "Beberapa orang, terutama yang sudah lanjut usia, mengalami kesulitan dalam menggunakan teknologi baru.",
+        "Beberapa orang, terutama yang sudah lanjut usia, kesulitan untuk menggunakan teknologi baru."
+      ],
+      "correctAnswer": "Beberapa orang, terutama yang sudah lanjut usia, mengalami kesulitan dalam menggunakan teknologi baru.",
+      "explanation": null
+    },
+    {
+      "text": "Susunan paragraf yang tepat dari teks bacaan adalah...",
+      "options": [
+        "1 - 2 - 3 - 4 - 5",
+        "1 - 3 - 2 - 4 - 5",
+        "2 - 1 - 3 - 4 - 5",
+        "3 - 1 - 4 - 2 - 5",
+        "1 - 2 - 4 - 3 - 5"
+      ],
+      "correctAnswer": "1 - 2 - 3 - 4 - 5",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"optimal\" dalam teks bacaan adalah...",
+      "options": [
+        "sepenuhnya",
+        "kurang maksimal",
+        "hampir berhasil",
+        "sederhana",
+        "tidak berkembang"
+      ],
+      "correctAnswer": "sepenuhnya",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang lebih sempurna untuk menggantikan kalimat \"Ia menghela napas, merasa ragu tentang masa depannya.\" adalah...",
+      "options": [
+        "Ia menghela napas panjang sambil menatap langit, hatinya dipenuhi kebimbangan tentang masa depan.",
+        "Ia menarik napas dalam-dalam dan merasa sangat sedih memikirkan kehidupannya.",
+        "Napasnya tertahan sejenak, lalu ia menunduk dengan perasaan putus asa.",
+        "Gadis itu menghela napas, lalu beranjak pergi tanpa tahu harus berbuat apa.",
+        "Ia menarik napas, menoleh ke sawah, dan bertanya dalam hati apa yang akan terjadi di masa depan."
+      ],
+      "correctAnswer": "Ia menghela napas panjang sambil menatap langit, hatinya dipenuhi kebimbangan tentang masa depan.",
+      "explanation": null
+    },
+    {
+      "text": "Kata yang sebaiknya dihilangkan dalam teks agar lebih efektif adalah...",
+      "options": [
+        "pagi",
+        "sepoi-sepoi",
+        "luas",
+        "pelan",
+        "tentang"
+      ],
+      "correctAnswer": "pelan",
+      "explanation": null
+    },
+    {
+      "text": "Judul yang paling sesuai untuk kutipan novel di atas adalah...",
+      "options": [
+        "Laila dan Kota Impian",
+        "Pagi yang Cerah di Desa",
+        "Kebimbangan di Beranda",
+        "Angin Sepoi-sepoi Membawa Harapan",
+        "Perjalanan Seorang Gadis"
+      ],
+      "correctAnswer": "Kebimbangan di Beranda",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang maknanya sama dengan \"Apakah aku harus tetap di sini atau pergi ke kota mengejar impianku?\" adalah...",
+      "options": [
+        "Aku harus pergi ke kota untuk mengejar impian, tidak ada pilihan lain.",
+        "Aku bimbang antara tinggal di desa atau merantau demi impian.",
+        "Aku ingin tetap di sini dan mengejar impian di desa.",
+        "Aku akan berusaha mengejar impian di kota meskipun berat.",
+        "Kota adalah tempat terbaik bagiku untuk meraih masa depan."
+      ],
+      "correctAnswer": "Aku bimbang antara tinggal di desa atau merantau demi impian.",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat di bawah ini yang mengandung kesalahan penulisan kata adalah...",
+      "options": [
+        "Mentari bersinar cerah di langit biru.",
+        "Laila menghela nafas panjang sebelum mengambil keputusan.",
+        "Sawah yang terbentang luas menambah keindahan desa.",
+        "Ia memandangi cakrawala dengan penuh harapan.",
+        "Angin sepoi-sepoi berhembus membawa kesejukan pagi."
+      ],
+      "correctAnswer": "Laila menghela nafas panjang sebelum mengambil keputusan.",
+      "explanation": null
+    },
+    {
+      "text": "Di manakah tempat yang paling tepat untuk menyisipkan kalimat \"Ia merasa enggan meninggalkan rumah yang telah ia tinggali sejak kecil.\" dalam teks bacaan?",
+      "options": [
+        "Setelah kalimat pertama",
+        "Setelah kalimat kedua",
+        "Setelah kalimat ketiga",
+        "Setelah kalimat keempat",
+        "Setelah kalimat terakhir"
+      ],
+      "correctAnswer": "Setelah kalimat ketiga",
+      "explanation": null
+    },
+    {
+      "text": "Manakah kalimat yang salah dalam penggunaan tanda koma?",
+      "options": [
+        "Di tepi sungai yang tenang, Raka duduk termenung.",
+        "Matanya menatap arus air yang mengalir pelan, seakan membawa pikirannya pergi jauh.",
+        "\"Apa, aku akan bisa beradaptasi di tempat baru?\" pikirnya.",
+        "Bayangan tentang sekolah baru, teman baru, dan lingkungan yang asing membuat hatinya gelisah.",
+        "Ia baru saja mendapat kabar bahwa keluarganya akan pindah ke kota lain."
+      ],
+      "correctAnswer": "\"Apa, aku akan bisa beradaptasi di tempat baru?\" pikirnya.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah perbaikan yang paling efektif untuk kalimat \"Matanya menatap arus air yang mengalir pelan, seakan membawa pikirannya pergi jauh.\"?",
+      "options": [
+        "Matanya menatap air yang mengalir pelan, pikirannya melayang jauh.",
+        "Ia melihat air sungai mengalir pelan, pikirannya seolah terbawa pergi.",
+        "Matanya menatap arus sungai yang mengalir perlahan, seakan pikirannya ikut terbawa.",
+        "Pandangannya tertuju pada sungai yang tenang, pikirannya pergi jauh.",
+        "Matanya tertuju pada air sungai yang perlahan mengalir membawa pikirannya."
+      ],
+      "correctAnswer": "Matanya menatap arus sungai yang mengalir perlahan, seakan pikirannya ikut terbawa.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah kalimat berikut yang benar dalam penggunaan huruf kapital?",
+      "options": [
+        "Raka merasa cemas harus pindah ke Kota lain.",
+        "\"Apa aku akan bisa beradaptasi di tempat baru?\" Pikirnya.",
+        "Ia duduk di tepi sungai yang mengalir ke laut jawa.",
+        "Raka tinggal di Desa kecil dekat hutan.",
+        "Bayangan tentang Sekolah baru, teman baru, dan lingkungan yang asing membuatnya gelisah."
+      ],
+      "correctAnswer": "\"Apa aku akan bisa beradaptasi di tempat baru?\" Pikirnya.",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat \"Bayangan tentang sekolah baru, teman baru, dan lingkungan yang asing membuat hatinya gelisah.\" dapat diperbaiki menjadi...",
+      "options": [
+        "Bayangan sekolah baru, teman baru, dan lingkungan asing membuatnya gelisah.",
+        "Sekolah baru, teman baru, dan lingkungan asing membuat hatinya penuh bayangan.",
+        "Bayangan tentang lingkungan asing, sekolah baru, dan teman baru membuatnya cemas.",
+        "Ia membayangkan sekolah baru, teman baru, dan lingkungan asing yang membuatnya gelisah.",
+        "Bayangan tentang sekolah, teman, dan lingkungan asing membuatnya sangat gelisah."
+      ],
+      "correctAnswer": "Bayangan sekolah baru, teman baru, dan lingkungan asing membuatnya gelisah.",
+      "explanation": null
+    },
+    {
+      "text": "Kata \"menggenggam\" dalam teks dapat diganti dengan kata lain yang memiliki makna serupa, kecuali...",
+      "options": [
+        "Memegang",
+        "Mencengkeram",
+        "Mengapit",
+        "Menggamit",
+        "Menggenggam erat"
+      ],
+      "correctAnswer": "Mengapit",
+      "explanation": null
+    },
+    {
+      "text": "Apakah inti dari kalimat \"Ia menghela napas panjang, merasa kecewa karena angin sore tadi terlalu kencang.\"?",
+      "options": [
+        "Ia napas panjang",
+        "Ia merasa kecewa",
+        "Angin sore terlalu kencang",
+        "Ia menghela napas dan kecewa",
+        "Kecewa karena angin sore"
+      ],
+      "correctAnswer": "Ia merasa kecewa",
+      "explanation": null
+    },
+    {
+      "text": "Bagaimana cara paling efektif menggabungkan dua kalimat berikut?\n1. Langit yang semula biru cerah kini berubah menjadi jingga keemasan.\n2. Senja mulai turun di desa kecil itu.",
+      "options": [
+        "Senja turun di desa kecil dan langit yang semula biru cerah berubah menjadi jingga keemasan.",
+        "Langit yang biru cerah kini jingga keemasan ketika senja mulai turun di desa kecil itu.",
+        "Langit biru cerah berubah warna, senja turun di desa kecil itu dengan keindahannya.",
+        "Senja mulai turun di desa kecil ketika langit berubah warna dari biru cerah menjadi jingga keemasan.",
+        "Langit desa kecil berubah dari biru cerah menjadi jingga keemasan saat senja mulai turun."
+      ],
+      "correctAnswer": "Senja mulai turun di desa kecil ketika langit berubah warna dari biru cerah menjadi jingga keemasan.",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat berikut memiliki bagian yang hilang. Pilihlah kata yang tepat untuk melengkapinya! \"Aku harus membuat layang-layang baru,\" pikirnya dengan penuh ___.",
+      "options": [
+        "Kecewa",
+        "Kesedihan",
+        "Tekad",
+        "Harapan",
+        "Kesal"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah kalimat berikut yang mengandung kesalahan dalam penggunaan kata?",
+      "options": [
+        "Tubuh tetap sehat meskipun tanpa pola hidup sehat.",
+        "Jika seseorang menerapkan pola hidup sehat, tubuh akan lebih kuat terhadap penyakit.",
+        "Pola hidup sehat tidak berpengaruh terhadap kesehatan tubuh.",
+        "Jika seseorang tidak menerapkan pola hidup sehat, tubuhnya pasti akan selalu sakit.",
+        "Dengan pola hidup sehat, seseorang akan terbebas dari segala penyakit."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

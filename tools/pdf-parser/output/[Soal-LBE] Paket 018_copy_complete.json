@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Arctic sea ice has been increasing since 1979",
+        "The Greenland Ice Sheet could raise sea levels by 7.4 meters",
+        "Arctic warming is comparable to historical patterns over the past millennium",
+        "Arctic amplification means the region is warming more slowly than global averages",
+        "Arctic nations have reached consensus on resource extraction in newly accessible areas"
+      ],
+      "correctAnswer": "The Greenland Ice Sheet could raise sea levels by 7.4 meters",
+      "explanation": "Text 1 states that 'The Greenland Ice Sheet, containing enough water to raise global sea levels by 7.4 meters if completely melted...'"
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Summer sea ice reached its lowest recorded extent in 2012",
+        "Satellite measurements of Arctic ice began in 1950",
+        "Greenland ice loss has been negligible over the past two decades",
+        "Darker ocean water reflects more solar radiation than white ice",
+        "The Arctic is warming at half the global average rate"
+      ],
+      "correctAnswer": "Summer sea ice reached its lowest recorded extent in 2012",
+      "explanation": "Text 1 states that 'Summer sea ice extent reached a record low in September 2012...'"
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "The Amazon Rainforest contains approximately 60% of Brazil's landmass",
+        "Scientists have identified most of the Amazon's species",
+        "The Amazon spans nine South American countries",
+        "Western pharmaceuticals contain compounds from desert plants only",
+        "The Amazon has lost 50% of its forest cover in the past 17 years"
+      ],
+      "correctAnswer": "The Amazon spans nine South American countries",
+      "explanation": "Text 2 states that 'The Amazon Rainforest spans approximately 5.5 million square kilometers across nine South American countries...'"
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "The Amazon recycles about 20% of the world's oxygen",
+        "The forest has experienced minimal deforestation in recent decades",
+        "The Amazon stores approximately 23 billion tons of carbon",
+        "Deforestation has been primarily caused by urban development",
+        "The Amazon contains fewer than 1,000 bird species"
+      ],
+      "correctAnswer": "The Amazon recycles about 20% of the world's oxygen",
+      "explanation": "Text 2 states that the forest plays a crucial role 'storing an estimated 123 billion tons of carbon and recycling about 20% of the world's oxygen.'"
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Wildebeest migration follows seasonal rainfall patterns",
+        "The migration route covers approximately 500 kilometers",
+        "Most wildebeest births occur throughout the year",
+        "Predators kill approximately half the wildebeest population annually",
+        "Wildebeest typically cross the Zambezi River during migration"
+      ],
+      "correctAnswer": "Wildebeest migration follows seasonal rainfall patterns",
+      "explanation": "Text 3 states that 'This 1,800-kilometer circular journey follows seasonal rainfall patterns...'"
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Female wildebeest are significantly larger than males",
+        "The migration involves about 3 million wildebeest",
+        "Wildebeest calving occurs over a three-week period",
+        "The migration has minimal impact on soil fertility",
+        "The animals migrate to escape predators rather than find food"
+      ],
+      "correctAnswer": "Wildebeest calving occurs over a three-week period",
+      "explanation": "Text 3 states that 'Their synchronized calving season in February produces approximately 500,000 calves within a three-week period...'"
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "The tundra is characterized by dense forests",
+        "Permafrost refers to permanently frozen subsoil",
+        "The tundra's growing season lasts approximately six months",
+        "Tundra plants typically grow tall to capture maximum sunlight",
+        "Permafrost thawing reduces greenhouse gas emissions"
+      ],
+      "correctAnswer": "Permafrost refers to permanently frozen subsoil",
+      "explanation": "Text 4 states that 'The Arctic tundra, characterized by its treeless landscape and permanently frozen subsoil (permafrost)...'"
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Arctic temperatures are rising more slowly than global averages",
+        "Permafrost contains approximately 1,700 billion tons of organic carbon",
+        "The tundra covers about 25% of Earth's land surface",
+        "Indigenous knowledge is irrelevant for tundra conservation",
+        "Tundra ecosystems are highly resistant to climate change impacts"
+      ],
+      "correctAnswer": "Permafrost contains approximately 1,700 billion tons of organic carbon",
+      "explanation": "Text 4 states that 'Research from the University of Alaska indicates that permafrost contains approximately 1,700 billion tons of organic carbon...'"
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Kalimantan is the Malaysian portion of Borneo",
+        "Peat deposits in Kalimantan can reach depths of up to 20 meters",
+        "Peat soils are typically alkaline and nutrient-rich",
+        "Kalimantan has experienced minimal forest loss since the 1980s",
+        "Draining peatlands reduces their flammability"
+      ],
+      "correctAnswer": "Peat deposits in Kalimantan can reach depths of up to 20 meters",
+      "explanation": "Text 5 states that Kalimantan 'contains some of the world's most extensive tropical peat forests, with peat deposits reaching depths of up to 20 meters...'"
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "The Heart of Borneo initiative aims to conserve 220,000 square kilometers of forest",
+        "Peatland fires in 2015 produced minimal carbon emissions",
+        "Kalimantan contains few endangered species",
+        "Rewetting degraded peatlands has been ineffective in reducing fires",
+        "Oil palm plantations have contributed to peatland restoration"
+      ],
+      "correctAnswer": "The Heart of Borneo initiative aims to conserve 220,000 square kilometers of forest",
+      "explanation": "Text 5 states that 'The Heart of Borneo initiative, launched in 2007 by Indonesia, Malaysia, and Brunei, aims to conserve 220,000 square kilometers of connected forests.'"
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "The Amazon River originates in the Peruvian Andes",
+        "The river discharges less water than most major rivers",
+        "Water levels in the Amazon remain constant year-round",
+        "The Amazon contains fewer fish species than the Mississippi River",
+        "The Amazon flows westward across South America"
+      ],
+      "correctAnswer": "The Amazon River originates in the Peruvian Andes",
+      "explanation": null
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "The Amazon River dolphin is typically blue in color",
+        "The river's sediment has minimal ecological importance",
+        "During the rainy season, the Amazon can reach widths of up to 50 kilometers",
+        "Hydroelectric development has had no impact on the river system",
+        "The Amazon contributes about 5% of freshwater entering the oceans"
+      ],
+      "correctAnswer": "During the rainy season, the Amazon can reach widths of up to 50 kilometers",
+      "explanation": null
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "The Himalayan glaciers are called \"The Third Pole\"",
+        "Himalayan glaciers feed five major river systems",
+        "Most Himalayan glaciers are currently advancing",
+        "Glacial retreat has minimal impact on water security in South Asia",
+        "Warming in the Himalayas occurs at slower rates than global averages"
+      ],
+      "correctAnswer": "The Himalayan glaciers are called \"The Third Pole\"",
+      "explanation": null
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Artificial ice stupas store water for summer electricity generation",
+        "Himalayan glaciers have gained ice mass since 2000",
+        "Himalayan glaciers provide water to nearly 1.9 billion people",
+        "Traditional flooding methods use less water than modern irrigation",
+        "The Himalayas contain approximately 150,000 glaciers"
+      ],
+      "correctAnswer": "Himalayan glaciers provide water to nearly 1.9 billion people",
+      "explanation": null
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "The forest floor receives abundant sunlight",
+        "The canopy layer typically forms at 30-40 meters above ground",
+        "Most rainforest biodiversity is found exclusively on the forest floor",
+        "Buttress roots have minimal importance for tall trees",
+        "Canopy research techniques have remained unchanged since the 1950s"
+      ],
+      "correctAnswer": "The canopy layer typically forms at 30-40 meters above ground",
+      "explanation": null
+    }
+  ]
+}

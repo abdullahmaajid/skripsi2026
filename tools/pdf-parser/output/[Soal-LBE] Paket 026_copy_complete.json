@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Which of the following numbered sentences from the text is an OPINION?",
+      "options": [
+        "(3)",
+        "(4)",
+        "(5)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(3)",
+      "explanation": null
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is a FACT?",
+      "options": [
+        "(1)",
+        "(3)",
+        "(4)",
+        "(5)",
+        "(7)"
+      ],
+      "correctAnswer": "(1)",
+      "explanation": null
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an OPINION?",
+      "options": [
+        "(1)",
+        "(2)",
+        "(4)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(4)",
+      "explanation": null
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is a FACT?",
+      "options": [
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5)",
+        "(7)"
+      ],
+      "correctAnswer": "(2)",
+      "explanation": null
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an OPINION?",
+      "options": [
+        "(1)",
+        "(4)",
+        "(5)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(1)",
+      "explanation": null
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is a FACT?",
+      "options": [
+        "(1)",
+        "(2)",
+        "(4)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(2)",
+      "explanation": null
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an OPINION?",
+      "options": [
+        "(2)",
+        "(4)",
+        "(5)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(6)",
+      "explanation": null
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is a FACT?",
+      "options": [
+        "(1)",
+        "(2)",
+        "(4)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(1)",
+      "explanation": null
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an OPINION?",
+      "options": [
+        "(3)",
+        "(4)",
+        "(5)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(4)",
+      "explanation": null
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is a FACT?",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(5)",
+        "(7)"
+      ],
+      "correctAnswer": "(2)",
+      "explanation": null
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an OPINION?",
+      "options": [
+        "(1)",
+        "(3)",
+        "(5)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(3)",
+      "explanation": "Sentence (3) contains a subjective judgment ('most beneficial activity') which makes it an opinion."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is a FACT?",
+      "options": [
+        "(1)",
+        "(2)",
+        "(4)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(2)",
+      "explanation": "Sentence (2) states an objective, verifiable scientific fact about the Amazon rainforest producing 20% of the world's oxygen supply."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an OPINION?",
+      "options": [
+        "(1)",
+        "(3)",
+        "(5)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(5)",
+      "explanation": "Sentence (5) uses the prescriptive word 'should', expressing a personal recommendation or opinion."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is a FACT?",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(5)",
+        "(7)"
+      ],
+      "correctAnswer": "(2)",
+      "explanation": "Sentence (2) cites an attribution and statistic from the International Energy Agency, making it a verifiable fact."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an OPINION?",
+      "options": [
+        "(2)",
+        "(3)",
+        "(4)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(4)",
+      "explanation": "Sentence (4) uses subjective and superlative terms like 'absolutely masterful' and 'exceptional creativity', which constitute an opinion."
+    }
+  ]
+}

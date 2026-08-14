@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Semua kendaraan listrik ramah lingkungan dan tidak menghasilkan emisi gas berbahaya. Sebagian kendaraan listrik memiliki harga yang lebih terjangkau dibandingkan kendaraan berbahan bakar fosil. Berdasarkan informasi tersebut, manakah pernyataan yang tepat?",
+      "options": [
+        "Semua kendaraan listrik tidak ramah lingkungan",
+        "Sebagian kendaraan listrik yang mahal tidak ramah lingkungan",
+        "Semua kendaraan listrik menghasilkan emisi gas berbahaya",
+        "Sebagian kendaraan listrik yang memiliki harga terjangkau ramah lingkungan",
+        "Semua kendaraan listrik yang ramah lingkungan memiliki harga yang mahal"
+      ],
+      "correctAnswer": "Sebagian kendaraan listrik yang memiliki harga terjangkau ramah lingkungan",
+      "explanation": "Berdasarkan premis pertama (semua kendaraan listrik ramah lingkungan) dan premis kedua (sebagian kendaraan listrik memiliki harga yang terjangkau), dapat disimpulkan bahwa sebagian kendaraan listrik yang memiliki harga terjangkau adalah ramah lingkungan."
+    },
+    {
+      "text": "Semua tanaman hias membutuhkan cahaya matahari untuk tumbuh dengan baik. Sebagian tanaman hias memiliki perawatan yang mudah. Berdasarkan informasi tersebut, manakah pernyataan berikut yang tepat?",
+      "options": [
+        "Semua tanaman hias memerlukan banyak perawatan dan perhatian",
+        "Sebagian tanaman hias yang mudah perawatannya tidak membutuhkan cahaya matahari",
+        "Sebagian tanaman hias yang memiliki perawatan mudah membutuhkan Cahaya matahari",
+        "Semua tanaman hias yang membutuhkan cahaya matahari memerlukan perawatan yang mudah",
+        "Semua tanaman hias yang memiliki perawatan mudah tidak memerlukan cahaya matahari"
+      ],
+      "correctAnswer": "Sebagian tanaman hias yang memiliki perawatan mudah membutuhkan Cahaya matahari",
+      "explanation": "Karena semua tanaman hias membutuhkan cahaya matahari dan sebagian tanaman hias perawatannya mudah, maka irisan keduanya menyatakan bahwa sebagian tanaman hias dengan perawatan mudah juga membutuhkan cahaya matahari."
+    },
+    {
+      "text": "Semua jenis kopi mengandung kafein dalam jumlah tertentu. Sebagian kopi memiliki rasa yang lebih pahit. Berdasarkan informasi tersebut, manakah pernyataan berikut yang tepat?",
+      "options": [
+        "Semua kopi tidak mengandung kafein dalam jumlah tertentu",
+        "Sebagian kopi yang lebih pahit tidak mengandung kafein",
+        "Semua kopi memiliki rasa yang pahit",
+        "Sebagian kopi yang memiliki rasa yang pahit mengandung kafein",
+        "Sebagian kopi tidak mengandung kafein"
+      ],
+      "correctAnswer": "Sebagian kopi yang memiliki rasa yang pahit mengandung kafein",
+      "explanation": "Karena semua kopi mengandung kafein, maka bagian dari kopi yang memiliki rasa lebih pahit pasti juga mengandung kafein."
+    },
+    {
+      "text": "Data dari Kementerian Pertanian Thailand menyatakan bahwa pada tahun 2023, produksi beras di Thailand mengalami penurunan sebanyak 5% dibandingkan tahun 2022, dari 20 juta ton menjadi 19 juta ton. Manakah pernyataan berikut yang PALING MUNGKIN BENAR menjelaskan perbedaan kedua kondisi tersebut?",
+      "options": [
+        "Pada tahun 2023, pemerintah Thailand memperkenalkan teknologi baru untuk meningkatkan produksi beras",
+        "Produksi beras di Thailand lebih rendah pada tahun 2023 dibandingkan tahun 2022 karena cuaca yang kurang mendukung",
+        "Pada tahun 2023, lebih sedikit petani beras di Thailand beralih ke tanaman lain yang lebih menguntungkan",
+        "Pemerintah Thailand menaikkan subsidi untuk pertanian beras pada tahun 2023",
+        "Pada tahun 2023, produksi beras di Thailand lebih tinggi dibandingkan tahun 2022"
+      ],
+      "correctAnswer": "Produksi beras di Thailand lebih rendah pada tahun 2023 dibandingkan tahun 2022 karena cuaca yang kurang mendukung",
+      "explanation": "Pernyataan yang logis untuk menjelaskan penurunan produksi beras adalah faktor negatif seperti cuaca yang kurang mendukung."
+    },
+    {
+      "text": "Kalimantan, yang dikenal sebagai salah satu pulau dengan hutan tropis terbesar di Indonesia, menghadapi ancaman serius terhadap kelestarian hutannya. Pada tahun 2023, pemerintah Indonesia melaporkan bahwa 500 ribu hektar lahan hutan di Kalimantan telah rusak akibat konversi lahan untuk perkebunan kelapa sawit dan penebangan liar. Sebagai respons, pemerintah mulai memperketat aturan untuk izin pembukaan lahan dan meningkatkan upaya pemantauan serta penegakan hukum untuk mencegah kerusakan lebih lanjut. Manakah pernyataan berikut yang PASTI BENAR terkait dengan berita tersebut?",
+      "options": [
+        "Pemerintah Indonesia meningkatkan izin pembukaan lahan di Kalimantan pada tahun 2023",
+        "Pada tahun 2023, 500 ribu hektar hutan Kalimantan mengalami kerusakan akibat konversi lahan dan penebangan liar",
+        "Hutan Kalimantan pada tahun 2023 sepenuhnya aman dari ancaman kerusakan",
+        "Pemerintah Indonesia tidak melakukan tindakan apapun terkait kerusakan hutan di Kalimantan pada tahun 2023",
+        "Konversi lahan di Kalimantan hanya disebabkan oleh penebangan liar, bukan oleh perkebunan kelapa sawit"
+      ],
+      "correctAnswer": "Pada tahun 2023, 500 ribu hektar hutan Kalimantan mengalami kerusakan akibat konversi lahan dan penebangan liar",
+      "explanation": "Pernyataan ini secara langsung menyatakan fakta yang tertulis dalam teks laporan pemerintah Indonesia."
+    },
+    {
+      "text": "Berdasarkan teks di atas, manakah pernyataan berikut yang PASTI SALAH?",
+      "options": [
+        "Perusahaan-perusahaan sawit di Pulang Pisau dan Kapuas terus melanggar aturan terkait pengelolaan gambut",
+        "AGL mendapat sanksi administrasi pada tahun 2018 setelah kembali terlibat dalam kebakaran hutan dan lahan",
+        "PT Agrindo Green Lestari (AGL) dan Citra Agro Abadi (CAA) tidak terlibat dalam kerusakan gambut di Kalimantan Tengah",
+        "Pemerintah telah mencabut izin kedua anak usaha Ciliandry Anky Abadi Group karena tidak mematuhi aturan pengelolaan lingkungan",
+        "Studi Pantau Gambut dan Kaoem Telapak menganalisis praktik perusahaan-perusahaan sawit di Pulang Pisau dan Kapuas"
+      ],
+      "correctAnswer": "PT Agrindo Green Lestari (AGL) dan Citra Agro Abadi (CAA) tidak terlibat dalam kerusakan gambut di Kalimantan Tengah",
+      "explanation": "Teks menyatakan bahwa AGL dan CAA diduga sengaja melakukan kanalisasi dan terlibat dalam kerusakan gambut, sehingga pernyataan yang menyebutkan mereka tidak terlibat adalah pasti salah."
+    },
+    {
+      "text": "Semua yang suka mendaki gunung adalah petualang sejati. Sebagian petualang sejati suka berkemah di hutan. Berdasarkan pemahaman logika, kesimpulan kalimat di atas adalah?",
+      "options": [
+        "Semua yang suka mendaki gunung suka berkemah di hutan",
+        "Sebagian yang suka mendaki suka berkemah di hutan",
+        "Semua petualang sejati suka berkemah di hutan",
+        "Tidak ada petualang sejati yang suka berkemah di hutan",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Tidak dapat disimpulkan",
+      "explanation": "Premis pertama menggunakan 'Semua', sedangkan premis kedua menggunakan 'Sebagian' dengan term tengah tidak terdistribusi secara penuh, sehingga kesimpulan yang pasti tidak dapat ditarik."
+    },
+    {
+      "text": "Raksasa Premier League Liverpool resmi teken kontrak sponsor baru dengan raksasa produsen apparel asal Jerman, Adidas, Senin (10/03/2025). Adidas akan menggantikan sponsor Liverpool saat ini yaitu Nike. Sebelumnya, produsen apparel asal Amerika ini sudah lima tahun mendampingi The Reds berlaga. Per 1 Agustus 2025 nanti, Adidas akan resmi jadi sponsor jersey baru Liverpool. Konon, kontrak ini bernilai 70 juta pounds alias sekitar Rp1.4 triliun per musimnya. CEO Liverpool, Billy Hogan, menyambut hangat kembalinya Adidas. Pasalnya The Reds punya sejarah yang indah bersama apparel tersebut. Berdasarkan teks di atas, manakah pernyataan berikut yang MUNGKIN BENAR?",
+      "options": [
+        "Nike akan menggantikan Adidas sebagai sponsor utama Liverpool mulai Agustus 2025",
+        "Kontrak sponsor baru dengan Adidas bernilai 70 juta pounds per musim",
+        "Billy Hogan merasa kecewa dengan kembalinya Adidas ke Liverpool",
+        "Adidas akan menjadi sponsor Liverpool hingga tahun 2030",
+        "Sebelumnya, Adidas sudah bekerja sama dengan Liverpool selama lima tahun terakhir"
+      ],
+      "correctAnswer": "Kontrak sponsor baru dengan Adidas bernilai 70 juta pounds per musim",
+      "explanation": "Pernyataan ini secara eksplisit disebutkan di dalam teks berita."
+    },
+    {
+      "text": "Berdasarkan pemahaman logika, kesimpulan yang BENAR adalah?",
+      "options": [
+        "Perusahaan X telah menghentikan produksi jam tangan dengan desain premium",
+        "Jam tangan Z adalah produk berkualitas tinggi",
+        "Jam tangan Z tidak diproduksi oleh Perusahaan X",
+        "Jam tangan Z pasti lebih mahal daripada jam tangan dari Perusahaan X",
+        "Jam tangan Z memiliki fitur pelacakan kesehatan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks di atas, manakah pernyataan berikut yang PASTI SALAH?",
+      "options": [
+        "Tajikistan adalah investor terbesar dari kawasan Asia Tengah di Indonesia dengan total investasi mencapai 5 juta dolar AS dalam lima tahun terakhir",
+        "Menlu Sugiono berharap Tajikistan akan terus memperluas investasinya di Indonesia, terutama di sektor hilirisasi industri mineral",
+        "Menlu Sugiono menyarankan agar Indonesia lebih banyak mengimpor produk dari Tajikistan",
+        "Pada pertemuan tersebut, Menlu Sugiono dan Duta Besar Tajikistan menegaskan komitmen kedua negara dalam memperkuat kerja sama ekonomi",
+        "Indonesia dan Tajikistan telah menjalin hubungan diplomatik selama 30 tahun"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf tersebut, jika pendekatan berbasis teknologi disamakan dengan media digital seperti video pembelajaran, manakah di bawah ini simpulan yang PASTI SALAH?",
+      "options": [
+        "Penggunaan teknologi dalam pendidikan dapat meningkatkan pemahaman siswa",
+        "Media digital dapat membuat proses belajar lebih interaktif dan fleksibel",
+        "Pembelajaran berbasis teknologi tidak efektif dalam meningkatkan keterlibatan siswa",
+        "Teknologi dapat mempermudah akses siswa terhadap materi pembelajaran",
+        "Pendekatan berbasis teknologi dapat mempercepat proses belajar siswa"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan pemahaman logika, kesimpulan kalimat di atas adalah?",
+      "options": [
+        "Semua yang memiliki mobil merah memiliki hobi bersepeda",
+        "Sebagian yang memiliki mobil merah memiliki hobi bersepeda",
+        "Semua pekerja kantoran memiliki hobi bersepeda",
+        "Tidak ada pekerja kantoran yang memiliki hobi bersepeda",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan pemahaman logika, kesimpulan yang BENAR adalah?",
+      "options": [
+        "Penerbit A telah berhenti menerbitkan buku fiksi ilmiah",
+        "Buku Y diterbitkan oleh Penerbit A",
+        "Buku Y bukan diterbitkan oleh Penerbit A",
+        "Buku Y adalah karya fiksi ilmiah",
+        "Buku Y lebih tipis dari buku yang diterbitkan oleh Penerbit A"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf tersebut, jika teknologi medis canggih disamakan dengan alat diagnostik modern, manakah di bawah ini simpulan yang PASTI SALAH?",
+      "options": [
+        "Teknologi medis canggih dapat membantu dalam deteksi dini penyakit",
+        "Pengobatan dengan teknologi medis canggih dapat meningkatkan peluang penyembuhan",
+        "Teknologi medis canggih tidak berpengaruh pada efektivitas pengobatan",
+        "Teknologi medis canggih dapat menyelamatkan lebih banyak nyawa",
+        "Teknologi medis canggih memungkinkan diagnosis penyakit yang lebih cepat dan akurat"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, manakah pernyataan yang BENAR?",
+      "options": [
+        "Jika wilayah tersebut tidak memiliki curah hujan tinggi, maka wilayah tersebut pasti memiliki biodiversitas tanaman yang rendah",
+        "Jika wilayah tersebut memiliki suhu yang hangat, maka pasti memiliki biodiversitas tanaman yang rendah",
+        "Wilayah dengan curah hujan tinggi dan suhu hangat cenderung memiliki biodiversitas tanaman yang rendah",
+        "Wilayah dengan curah hujan tinggi dan suhu hangat cenderung memiliki biodiversitas tanaman yang tinggi",
+        "Suhu yang hangat tidak berpengaruh terhadap keberagaman spesies tanaman di suatu wilayah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan berikut yang paling tepat mengenai survei tersebut adalah?",
+      "options": [
+        "Memperkuat pernyataan A",
+        "Memperlemah pernyataan A",
+        "Memperkuat pernyataan B",
+        "Memperlemah pernyataan B",
+        "Tidak relevan dengan pernyataan A dan B"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf di atas, pernyataan yang pasti benar adalah...",
+      "options": [
+        "Semua mahasiswa yang datang lebih awal tidak bisa memanfaatkan ruang baca untuk persiapan ujian",
+        "Mahasiswa yang tidak menunjukkan kartu mahasiswa tidak dapat memanfaatkan ruang baca",
+        "Semua mahasiswa diperbolehkan menggunakan ruang baca tanpa syarat",
+        "Mahasiswa yang terlambat tidak dapat menggunakan ruang baca",
+        "Ruang baca diperuntukkan hanya bagi mahasiswa yang akan mengikuti ujian"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi di atas, apabila keduanya mengikuti tes ujian PNS, manakah kesimpulan yang sesuai?",
+      "options": [
+        "Jika Dani lolos, maka Budi pasti lolos",
+        "Dani lolos sedangkan Budi tidak lolos",
+        "Apabila Budi lolos, maka Dani juga lolos",
+        "Keduanya tidak lolos",
+        "Tidak ada kesimpulan"
+      ],
+      "correctAnswer": "Dani lolos sedangkan Budi tidak lolos",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang jika benar akan MEMPERKUAT pernyataan pengamat X?",
+      "options": [
+        "Banyak rumah sakit di negara maju mulai mengadopsi AI untuk membantu diagnosa penyakit dan mempercepat pengobatan",
+        "Penggunaan alat medis konvensional masih lebih dominan dibandingkan dengan teknologi AI di rumah sakit",
+        "Sistem kesehatan di negara berkembang mengalami stagnasi dalam adopsi teknologi baru",
+        "AI belum terbukti meningkatkan efisiensi operasional dan mengurangi biaya rumah sakit secara signifikan",
+        "Kurangnya pelatihan dalam penggunaan AI di kalangan tenaga medis menghambat pengembangan teknologi tersebut"
+      ],
+      "correctAnswer": "Banyak rumah sakit di negara maju mulai mengadopsi AI untuk membantu diagnosa penyakit dan mempercepat pengobatan",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi di atas, manakah pernyataan di bawah ini yang BENAR?",
+      "options": [
+        "Y melakukan penelitian ini karena kota-kota dengan polusi tinggi tidak dapat mengurangi tingkat polusi",
+        "Kota-kota dengan polusi tinggi tetap tidak mengurangi polusi karena hasil penelitian Y",
+        "Meningkatnya polusi udara menyebabkan penduduk kota mengalami gangguan pernapasan",
+        "Y melakukan penelitian untuk mengurangi tingkat polusi di kota-kota dengan polusi tinggi",
+        "Penelitian Y menunjukkan bahwa polusi udara memiliki efek yang tidak signifikan terhadap kesehatan manusia"
+      ],
+      "correctAnswer": "Meningkatnya polusi udara menyebabkan penduduk kota mengalami gangguan pernapasan",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang jika benar akan MEMPERLEMAH pernyataan pengamat B?",
+      "options": [
+        "Banyak petani mulai menggunakan teknologi presisi untuk memantau kelembapan tanah dan kesehatan tanaman",
+        "Penggunaan drone dalam pemantauan tanaman telah terbukti meningkatkan hasil panen dan mengurangi pemborosan sumber daya",
+        "Teknologi pertanian modern memerlukan investasi awal yang besar dan pelatihan yang memadai, yang sulit dijangkau oleh petani kecil",
+        "Pemerintah telah memberikan subsidi kepada petani untuk mempermudah akses mereka terhadap teknologi pertanian modern",
+        "Beberapa negara telah berhasil mengimplementasikan pertanian presisi secara luas dengan hasil yang sangat positif"
+      ],
+      "correctAnswer": "Teknologi pertanian modern memerlukan investasi awal yang besar dan pelatihan yang memadai, yang sulit dijangkau oleh petani kecil",
+      "explanation": null
+    },
+    {
+      "text": "Manakah peserta yang menjadi juara lomba kicau burung?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "Manakah peserta yang menjadi juara ketiga lomba kicau burung?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Kecepatan suatu mobil berbanding terbalik dengan waktu yang diperlukan untuk menempuh jarak yang sama. Jika sebuah mobil membutuhkan waktu 6 jam untuk menempuh suatu jarak, berapa jam waktu yang dibutuhkan mobil tersebut jika kecepatannya diperbesar menjadi dua kali lipat?",
+      "options": [
+        "2 jam",
+        "3 jam",
+        "4 jam",
+        "5 jam",
+        "12 jam"
+      ],
+      "correctAnswer": "3 jam",
+      "explanation": null
+    },
+    {
+      "text": "Seorang petani membeli 3 karung pupuk dengan harga Rp30.000,00 per karung dan 2 alat penyiram dengan harga masing-masing RpX. Jika total biaya yang dikeluarkan petani tersebut adalah Rp120.000,00, berapakah harga satu alat penyiram (RpX)?",
+      "options": [
+        "Rp20.000,00",
+        "Rp15.000,00",
+        "Rp30.000,00",
+        "Rp35.000,00",
+        "Rp40.000,00"
+      ],
+      "correctAnswer": "Rp15.000,00",
+      "explanation": null
+    },
+    {
+      "text": "Seorang tukang kayu dapat menyelesaikan pekerjaan pembuatan meja dalam 8 jam jika ia bekerja seorang diri. Jika ada 2 tukang kayu yang bekerja bersama, berapa lama waktu yang dibutuhkan untuk menyelesaikan pekerjaan yang sama?",
+      "options": [
+        "2 jam",
+        "3 jam",
+        "4 jam",
+        "6 jam",
+        "8 jam"
+      ],
+      "correctAnswer": "4 jam",
+      "explanation": null
+    },
+    {
+      "text": "Sebuah kolam renang dapat diisi penuh dalam waktu 12 jam dengan menggunakan 1 pompa air. Jika pemilik kolam renang menggunakan 3 pompa air dengan kapasitas yang sama dan bekerja secara bersamaan, berapa lama waktu yang dibutuhkan untuk mengisi kolam renang tersebut hingga penuh?",
+      "options": [
+        "2 jam",
+        "3 jam",
+        "4 jam",
+        "6 jam",
+        "8 jam"
+      ],
+      "correctAnswer": "4 jam",
+      "explanation": null
+    },
+    {
+      "text": "Lima pekerja dapat memanen seluruh kebun jeruk dalam waktu 6 hari. Jika pemilik kebun hanya mempekerjakan 3 orang pekerja dengan kemampuan yang sama, berapa hari yang dibutuhkan untuk memanen seluruh kebun jeruk tersebut?",
+      "options": [
+        "8 hari",
+        "9 hari",
+        "10 hari",
+        "12 hari",
+        "15 hari"
+      ],
+      "correctAnswer": "10 hari",
+      "explanation": "Perbandingan berbalik nilai: 5 pekerja x 6 hari = 3 pekerja x H hari. H = (5 x 6) / 3 = 10 hari."
+    },
+    {
+      "text": "Banyak pengunjung laki-laki Kantin Hikmah selama enam hari berturut-turut adalah 14, 19, 17, 21, 20, dan 23. Sementara itu, pengunjung perempuan Kantin Hikmah selama enam hari yang sama adalah 7, 11, 9, 13, 11, dan 15. Jika tren kunjungan tersebut bersifat konstan, berapa jumlah pengunjung Kantin Hikmah pada hari ke-7?",
+      "options": [
+        "32 pengunjung",
+        "36 pengunjung",
+        "34 pengunjung",
+        "35 pengunjung",
+        "26 pengunjung"
+      ],
+      "correctAnswer": "36 pengunjung",
+      "explanation": "Pola laki-laki: +5, -2, +4, -1, +3. Pola perempuan: +4, -2, +4, -2, +4."
+    },
+    {
+      "text": "Jumlah pembeli kebab Abah Ali dalam enam bulan berturut-turut adalah 280, 290, 300, 320, 320 dan 350. Jika jumlah pembeli kebab Abah Ali bersifat konstan, berapa jumlah pembeli Kebab pada bulan ke 7?",
+      "options": [
+        "320",
+        "360",
+        "340",
+        "310",
+        "300"
+      ],
+      "correctAnswer": "340",
+      "explanation": "Analisis pola kenaikan jumlah pembeli per bulan."
+    }
+  ]
+}

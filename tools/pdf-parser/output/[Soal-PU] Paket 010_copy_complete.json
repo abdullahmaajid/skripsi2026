@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan teks bacaan, manakah pernyataan yang PASTI BENAR?",
+      "options": [
+        "Di dalam buah pepaya mengandung beta-karoten, beta-kriptoksantin, atau likopen",
+        "Menurut penelitian, pepaya dilaporkan mengandung provitamin A yang dapat mengurangi vitamin A",
+        "Pepaya memiliki kandungan antioksidan yang tidak lebih tinggi dibandingkan pisang dan apel",
+        "Memakan pepaya dapat melindungi jantung dari berbagai penyakit kardiovaskular",
+        "Pepaya hanya tumbuh di dataran rendah yang kering"
+      ],
+      "correctAnswer": "Memakan pepaya dapat melindungi jantung dari berbagai penyakit kardiovaskular",
+      "explanation": "Berdasarkan teks pada paragraf pertama, disebutkan bahwa \"Pepaya kaya akan antioksidan yang membantu melindungi jantung dari berbagai penyakit kardiovaskular.\""
+    },
+    {
+      "text": "Berdasarkan teks bacaan, manakah pernyataan yang PASTI SALAH?",
+      "options": [
+        "Salak memiliki berbagai kandungan gizi lain yang dapat menangkal beragam penyakit kronis",
+        "Salak mengandung pektik yang dapat mencegah berkembang biaknya sel-sel kanker",
+        "Salak merupakan buah berbiji dan kaya dengan berbagai nutrisi",
+        "Salak memiliki kandungan vitamin C rendah, oleh karena itu salak ampuh mengatasi diare",
+        "Salak dapat membantu meningkatkan kinerja otak"
+      ],
+      "correctAnswer": "Salak memiliki kandungan vitamin C rendah, oleh karena itu salak ampuh mengatasi diare",
+      "explanation": "Teks menyebutkan bahwa salak memiliki kandungan vitamin C tinggi yang membuatnya ampuh mengatasi diare, sehingga pernyataan bahwa kandungan vitamin C-nya rendah adalah pasti salah."
+    },
+    {
+      "text": "Berdasarkan teks bacaan, manakah pernyataan yang PALING BENAR?",
+      "options": [
+        "Waktu tidur setiap orang sudah ditentukan semenjak ia lahir",
+        "Semua orang tidur dengan waktu yang seragam",
+        "Waktu tidur yang berlebih tidak termasuk ke dalam gangguan medis",
+        "Kebanyakan tidur dapat membuat seseorang mengalami berbagai gejala buruk",
+        "Kondisi tidur berlebihan menyebabkan orang menderita kantuk atau dapat berkurang dengan tidur sore"
+      ],
+      "correctAnswer": "Kebanyakan tidur dapat membuat seseorang mengalami berbagai gejala buruk",
+      "explanation": "Teks menyatakan bahwa tidur berlebihan membuat seseorang mengalami gejala kecemasan, energi rendah, dan masalah memori (gejala buruk)."
+    },
+    {
+      "text": "Berdasarkan teks bacaan, manakah pernyataan yang PALING BENAR?",
+      "options": [
+        "Depresi dapat terjadi pada semua orang, hal itu menunjukkan bahwa depresi merupakan perasaan sedih biasa",
+        "Depresi dapat menyembuhkan masalah fisik dan emosional yang serius",
+        "Seseorang yang mengalami depresi dapat menampakkan ekspresi bahagia",
+        "Depresi adalah perasaan sedih yang tidak dapat mempengaruhi cara berpikir dan berperilaku",
+        "Depresi adalah masalah serius yang dapat disembuhkan dengan hanya meminum obat"
+      ],
+      "correctAnswer": "Seseorang yang mengalami depresi dapat menampakkan ekspresi bahagia",
+      "explanation": "Teks menyatakan bahwa beberapa profesional kesehatan menemukan bahwa seseorang yang depresi bisa tampak bahagia."
+    },
+    {
+      "text": "Berdasarkan teks bacaan, manakah pernyataan yang MUNGKIN SALAH?",
+      "options": [
+        "Peran teknologi dalam diagnosis penyakit telah membawa revolusi besar",
+        "Dengan hadirnya teknologi dalam dunia kesehatan memungkinkan deteksi dini dan akurat",
+        "Teknologi dapat membantu identifikasi pola penyakit",
+        "Dokter tidak terbantu dengan hadirnya teknologi dalam pekerjaannya",
+        "Analisis medis dapat dilakukan secara lebih cepat dengan tingkat akurasi yang lebih tinggi"
+      ],
+      "correctAnswer": "Dokter tidak terbantu dengan hadirnya teknologi dalam pekerjaannya",
+      "explanation": "Teks secara jelas menyatakan bahwa teknologi justru membantu dokter mendeteksi penyakit dan menganalisis data, sehingga pernyataan bahwa dokter tidak terbantu adalah yang mungkin salah."
+    },
+    {
+      "text": "Manakah kesimpulan yang paling benar berdasarkan premis di atas? Premis 1: Polusi udara dapat menyebabkan seseorang terkena penyakit pernapasan. Premis 2: Ardi tinggal di wilayah kota yang index polusi udaranya tinggi.",
+      "options": [
+        "Ardi mungkin terkena penyakit pernapasan",
+        "Ardi tidak mungkin terkena penyakit pernapasan",
+        "Kemungkinan Ardi terkena penyakit sangat tinggi",
+        "Selama tinggal di kota, Ardi menghirup napas segar",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Ardi mungkin terkena penyakit pernapasan",
+      "explanation": "Karena polusi udara dapat menyebabkan penyakit pernapasan dan Ardi tinggal di wilayah dengan polusi tinggi, maka Ardi mungkin terkena penyakit pernapasan."
+    },
+    {
+      "text": "Opsi manakah yang paling menggambarkan simpulan di atas? Premis 1: Syarat seseorang dinyatakan sah sebagai warga negara adalah memiliki KTP, SK menteri, dan Telah tinggal selama lebih dari 3 bulan. Premis 2: Andre adalah WNA yang ingin menjadi warga negara, Ia telah tinggal 2 bulan dan sudah memiliki SK menteri. Kesimpulan: Andre sudah dapat dinyatakan sah sebagai warga negara.",
+      "options": [
+        "Simpulan pasti benar",
+        "Simpulan mungkin benar",
+        "Simpulan pasti salah",
+        "Simpulan mungkin salah",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan pasti salah",
+      "explanation": "Andre baru tinggal selama 2 bulan (syaratnya lebih dari 3 bulan) dan belum tentu memiliki KTP, sehingga kesimpulan bahwa ia sudah sah sebagai warga negara adalah pasti salah."
+    },
+    {
+      "text": "Manakah pernyataan yan paling MENDUKUNG teks di atas? (Teks tentang Stres)",
+      "options": [
+        "Stres yang terkelola dapat memicu gangguan mental seperti kecemasan",
+        "Dampak stres tidak merugikan",
+        "Stres dapat dicegah dengan melakukan berbagai kegiatan olahraga atau melalui bantuan profesional",
+        "Stres dapat datang tanpa adanya tekanan atau tantangan",
+        "Stres tidak berpengaruh pada konsentrasi seseorang"
+      ],
+      "correctAnswer": "Stres dapat dicegah dengan melakukan berbagai kegiatan olahraga atau melalui bantuan profesional",
+      "explanation": "Pernyataan ini sejalan dengan kalimat terakhir teks yang menyebutkan langkah-langkah pencegahan seperti berolahraga atau mencari bantuan profesional."
+    },
+    {
+      "text": "Manakah simpulan yang tepat?",
+      "options": [
+        "Nilai tradisional Desa Sukamaju masih dipegang teguh oleh masyarakat",
+        "Modernisasi tidak terjadi di Desa Sukamaju",
+        "Nilai-nilai tradisional Desa Sukamaju mulai memudar",
+        "Nilai-nilai tradisional Desa Sukamaju telah memudar",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika solidaritas sosial dalam suatu komunitas kuat, maka ketahanan masyarakat dalam menghadapi bencana akan meningkat. Ketahanan masyarakat Desa Tangguh dalam menghadapi bencana tidak meningkat. Manakah simpulan yang tepat?",
+      "options": [
+        "Solidaritas sosial Desa Tangguh kuat",
+        "Solidaritas sosial Desa Tangguh tidak kuat",
+        "Solidaritas sosial Desa Tangguh mungkin kuat",
+        "Solidaritas sosial Desa Tangguh lebih kuat dari Desa Minor",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan di bawah ini yang MEMPERKUAT hasil penelitian di atas?",
+      "options": [
+        "Stres merupakan dampak dari banyaknya kegiatan bermeditasi",
+        "Berkomunikasi secara tatap muka menyebabkan kemungkinan stress meningkat",
+        "Berbagai masalah kesehatan dapat diakibatkan oleh stres",
+        "Melihat sosial media berjam-jam tidak akan mengakibatkan stres",
+        "Stres hanya disebabkan oleh faktor yang berada di luar diri kita"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah di bawah ini pernyataan yang MEMPERLEMAH isi bacaan?",
+      "options": [
+        "Farel merupakan penggemar kikil sapi. Ia memakannya hampir tiap hari dan tidak berdampak apa-apa",
+        "Karena jarang makan, tubuh lebih sering mengalami gerd",
+        "Nilai ujian Rendi turun karena tidak sarapan sebelum ujian",
+        "Kebiasaan makan di tengah malam membuat sulit tidur sehingga membuat tubuh mengalami stres",
+        "Rani merupakan pengidap depresi. Menurut pskiater hal itu adalah akibat dari pola makan yang tidak teratur"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua lapangan luas dan terbuka. Sebagian lapangan dijadikan ladang. Simpulan yang dapat ditarik adalah?",
+      "options": [
+        "Semua lapangan dijadikan ladang",
+        "Semua yang luas dan terbuka adalah lapangan",
+        "Sebagian lapangan luas atau terbuka",
+        "Semua yang luas dan terbuka dijadikan ladang",
+        "Sebagian yang luas dan terbuka dijadikan ladang"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang PALING TEPAT mengenai hasil survey tersebut?",
+      "options": [
+        "Memperkuat sosiolog",
+        "Memperlemah sosiolog",
+        "Memperkuat psikolog",
+        "Memperlemah psikolog",
+        "Tidak relevan dengan sosiolog dan psikolog"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks, manakah pernyataan yang TEPAT?",
+      "options": [
+        "Informasi yang didapatkan dari internet cenderung homogen",
+        "Internet cenderung berdampak negatif bagi penggunanya",
+        "Anak-anak yang menggunakan internet pasti tidak melukai dirinya sendiri",
+        "Internet dapat memberikan keuntungan dan kerugian",
+        "Internet dapat membuat seseorang memiliki kepribadian yang sama sesuai kenyataannya"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi di atas, manakah pernyataan SEBAB AKIBAT berikut yang paling mungkin benar?",
+      "options": [
+        "Penurunan jumlah penduduk akan memberikan dampak positif dari semua sisi",
+        "Laju pertumbuhan penduduk yang meningkat disebabkan situasi sosial ekonomi yang buruk",
+        "Pertumbuhan penduduk wajib diturunkan untuk mendapatkan situasi sosial ekonomi yang lebih baik",
+        "Pasangan yang tidak mengikuti program keluarga berencana akan membuat jumlah kelahiran anak meningkat",
+        "Sebagian pasangan di Indonesia mengikuti program keluarga berencana untuk membantu mengontrol jumlah kelahiran anak"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apabila terjadi bencana, banyak warga mengungsi. Warga tidak mengungsi. Simpulan manakah yang PALING TEPAT?",
+      "options": [
+        "Tidak akan tidak terjadi bencana",
+        "Terjadi bencana",
+        "Warga mungkin mengungsi",
+        "Bencana tidak terjadi",
+        "Sebagian bencana terjadi"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apabila terjadi resesi global, banyak perusahaan melakukan pemutusan hubungan kerja. Banyak perusahaan tidak melakukan pemutusan hubungan kerja. Simpulan manakah yang PALING TEPAT?",
+      "options": [
+        "Tidak terjadi resesi global",
+        "Angka pengangguran menurun",
+        "Perusahaan mengalami keuntungan",
+        "Banyak pekerja yang tidak terdampak resesi",
+        "Terjadi terjadi pemutusan hubungan kerja massal"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua sarung bermotif kotak-kotak. Sebagian kebaya adalah sarung. Mana simpulan yang paling tepat?",
+      "options": [
+        "Semua sarung adalah kebaya",
+        "Semua kebaya bermotif kotak-kotak",
+        "Sebagian kebaya bermotif kotak-kotak",
+        "Semua yang bermotif kotak-kotak adalah kebaya",
+        "Sebagian yang bermotif kotak-kotak adalah sarung"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Imitasi memegang peranan yang sangat penting dalam proses interaksi sosial yang dapat mendorong seseorang memenuhi nilai dan kaidah yang berlaku. Dalam hal ini, imitasi tidak berlangsung dengan sendirinya. Sebelum seseorang mengimitasi orang lain, dia harus menerima, mengagumi, dan menghormati orang yang diimitasi. Berdasarkan informasi di atas, pernyataan berikut yang PASTI BENAR adalah ...",
+      "options": [
+        "Burung beo mengikuti perkataan pemiliknya karena menghormati pemiliknya",
+        "Pelajar yang mencotek hasil kerjaan temannya dikarenakan temannya dihormati",
+        "Seorang anak yang mengagumi orang tuanya akan meniru sikap dan tindakannya",
+        "Seorang anak yang terkena perundungan berpotensi melakukan perundungan kembali",
+        "Elektronik merk A meniru merk B disebabkan merk B dikagumi pemilik perusahaan merk A"
+      ],
+      "correctAnswer": "Seorang anak yang mengagumi orang tuanya akan meniru sikap dan tindakannya",
+      "explanation": "Berdasarkan teks, sebelum mengimitasi seseorang, seseorang harus menerima, mengagumi, dan menghormati orang tersebut."
+    },
+    {
+      "text": "Beberapa dosen adalah ilmuwan.\nSemua ilmuwan adalah orang yang mampu melakukan penelitian.\nBerdasarkan dua pernyataan di atas, simpulan yang paling tepat adalah...",
+      "options": [
+        "Beberapa dosen mampu melakukan penelitian",
+        "Semua orang yang melakukan penelitian adalah dosen",
+        "Semua ilmuwan adalah dosen",
+        "Beberapa orang yang mampu melakukan penelitian pasti dosen",
+        "Beberapa orang yang bukan dosen mampu melakukan penelitian"
+      ],
+      "correctAnswer": "Beberapa dosen mampu melakukan penelitian",
+      "explanation": "Silogisme: Beberapa dosen adalah ilmuwan, semua ilmuwan adalah mampu melakukan penelitian, maka beberapa dosen mampu melakukan penelitian."
+    },
+    {
+      "text": "Saat memilih universitas, tentunya jarak dari rumah menjadi pertimbangan. Penelitian menunjukkan mahasiswa yang kuliah jauh dari rumah akan memiliki kemandirian dan pengembangan diri yang baik. Hal ini akan menjadi nilai tambah ketika mencari pekerjaan atau menjalankan pekerjaan nanti. Berdasarkan informasi di atas, pernyataan berikut yang PASTI SALAH adalah ...",
+      "options": [
+        "Kemandirian seseorang bisa didapatkan ketika kuliah jauh dari rumah",
+        "Seseorang yang kuliah jauh dari rumah cenderung memiliki kemandirian yang baik",
+        "Seseorang yang mandiri berpotensi diterima kerja lebih mudah dibandingkan yang belum mandiri",
+        "Universitas yang berada di perkotaan kemungkinan memiliki mahasiswa yang berasal dari luar daerah",
+        "Kemandirian dan pengembangan diri hanya bisa didapatkan oleh seseorang yang kuliah jauh dari rumah"
+      ],
+      "correctAnswer": "Kemandirian dan pengembangan diri hanya bisa didapatkan oleh seseorang yang kuliah jauh dari rumah",
+      "explanation": "Pernyataan mutlak dengan kata 'hanya' tidak didukung oleh teks yang hanya menyatakan bahwa kuliah jauh dari rumah akan memiliki kemandirian dan pengembangan diri yang baik, tanpa mengecualikan cara lain."
+    },
+    {
+      "text": "Tarif parkir motor seharga Rp6.000,00 untuk 2 jam pertama dan untuk selanjutnya Rp1.000,00 setiap jam. Jika Pak Deryl membayar Rp16.000,00 untuk sekali parkir, berapa lama Pak Deryl parkir?",
+      "options": [
+        "1/6 hari",
+        "1/8 hari",
+        "1/2 hari",
+        "3/4 hari",
+        "1 hari"
+      ],
+      "correctAnswer": "1/2 hari",
+      "explanation": "Total biaya = Rp16.000,00. Biaya 2 jam pertama = Rp6.000,00. Sisa biaya = Rp16.000,00 - Rp6.000,00 = Rp10.000,00. Sisa jam = Rp10.000,00 / Rp1.000,00 = 10 jam. Total waktu parkir = 2 + 10 = 12 jam. 12 jam = 12/24 hari = 1/2 hari."
+    },
+    {
+      "text": "Harga kaos bola lebih mahal Rp5.000,00 dibandingkan harga bola. Jika Kenzi membeli satu kaos bola dan satu bola kemudian membayar Rp105.000,00, harga kaos bola sebesar ...",
+      "options": [
+        "Rp5.000,00",
+        "Rp50.000,00",
+        "Rp55.000,00",
+        "Rp100.000,00",
+        "Rp105.000,00"
+      ],
+      "correctAnswer": "Rp55.000,00",
+      "explanation": "Kaos = Bola + 5000. Kaos + Bola = 105000 -> (Bola + 5000) + Bola = 105000 -> 2 x Bola = 100000 -> Bola = 50000. Harga kaos bola = 50000 + 5000 = 55000."
+    },
+    {
+      "text": "Manakah nilai berikut yang terkecil?",
+      "options": [
+        "7% dari 7",
+        "30% dari 2",
+        "8% dari 6",
+        "20% dari 4",
+        "9% dari 7"
+      ],
+      "correctAnswer": "8% dari 6",
+      "explanation": "A = 0.49, B = 0.6, C = 0.48, D = 0.8, E = 0.63. Yang terkecil adalah C (0.48)."
+    },
+    {
+      "text": "Diantara ke lima siswa tersebut, siswa mana yang paling berprestasi?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Dihitung berdasarkan rumus Nilai Akhir = (Nilai Akademik x 80%) + (Nilai Non-Akademik x 20%). Siswa E memiliki nilai akhir tertinggi."
+    },
+    {
+      "text": "Diantara ke lima siswa tersebut, siswa mana yang paling tidak berprestasi?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Dihitung berdasarkan nilai akhir dengan bobot 80% akademik dan 20% non-akademik, siswa A memiliki hasil paling kecil."
+    },
+    {
+      "text": "Lima peserta ujian, yaitu Q, R, S, T, U, mengikuti seleksi masuk Perguruan Tinggi Negeri. Nilai Tes Penalaran Umum (PU) mereka sebagai berikut. Nilai U lebih tinggi dari R, tetapi U lebih rendah dari S. Nilai R lebih tinggi dari Q dan T lebih rendah dari Q. Dari data tersebut, peserta dengan nilai Penalaran Umum tertinggi adalah ...",
+      "options": [
+        "Q",
+        "R",
+        "S",
+        "T",
+        "T"
+      ],
+      "correctAnswer": "S",
+      "explanation": "Urutan dari tinggi ke rendah: S > U > R > Q > T. Yang tertinggi adalah S."
+    },
+    {
+      "text": "Jumlah pengunjung toko Koffe dari awal pembukaannya secara berturut turut adalah 1, 2, 6, 12, 16, 32, 36. Jika jumlah pengunjung toko berubah secara konstan, berapa pengunjung yang datang pada hari ke 8?",
+      "options": [
+        "38",
+        "40",
+        "72",
+        "76",
+        "102"
+      ],
+      "correctAnswer": "72",
+      "explanation": "Pola deret: +1, x3, +6, +4 (atau pola selang-seling). Hari ke-8 dilanjutkan dengan pola x2 dari hari ke-7 (36 x 2 = 72)."
+    },
+    {
+      "text": "Jumlah pengunjung toko Koffe dari awal pembukaannya secara berturut turut adalah 6, 9, 12, 15, 18, 21, 24. Jika jumlah pengunjung toko berubah secara konstan, berapa pengunjung yang datang pada hari ke 9?",
+      "options": [
+        "24",
+        "28",
+        "26",
+        "30",
+        "32"
+      ],
+      "correctAnswer": "30",
+      "explanation": "Deret aritmetika dengan beda +3: 6, 9, 12, 15, 18, 21, 24. Hari ke-8 adalah 27, dan hari ke-9 adalah 30."
+    }
+  ]
+}

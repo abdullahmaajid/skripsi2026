@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Perhatikan teks di bawah ini, manakah yang menggunakan format \"Penyebab (_______) Akibat\"?\n(1) Kekurangan nutrisi penting dalam diet sehari-hari sering mengakibatkan masalah kesehatan seperti anemia dan kekurangan vitamin.\n(2) Kurangnya aktivitas fisik dapat menyebabkan penambahan berat badan, akibatnya munculnya berbagai masalah kesehatan.\n(3) Diskriminasi terhadap kelompok tertentu menyebabkan ketegangan dan konflik yang berkepanjangan.\n(4) Ketika kita berbicara dengan orang yang dipercaya, kita bisa merasa lebih lega dan mengurangi beban emosional.",
+      "options": [
+        "(1) dan (3)",
+        "(1), (2), dan (3)",
+        "(2) dan (4)",
+        "(1), (2), (3), dan (4)",
+        "Tidak ada yang benar"
+      ],
+      "correctAnswer": "b. (1), (2), dan (3)",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan teks di bawah ini, manakah yang menggunakan format \"Penyebab (_______) Akibat\"?\n(1) Ketidakmampuan anak untuk berkonsentrasi di kelas dapat diakibatkan oleh masalah kesehatan mental yang tidak terdiagnosis.\n(2) Kalau lubang hitam benar-benar bisa dijelajahi, mungkin kita akan menemukan fenomena fisika yang belum pernah diketahui.\n(3) Keterbatasan akses terhadap informasi keuangan disebabkan oleh kurangnya sarana edukasi yang mudah diakses.\n(4) Jika seseorang tidak melakukan pemanasan sebelum berolahraga, akibatnya risiko cedera otot dan sendi akan meningkat.",
+      "options": [
+        "(1) dan (3)",
+        "(1), (2), dan (3)",
+        "(2) dan (4)",
+        "(1), (2), (3), dan (4)",
+        "Tidak ada yang benar"
+      ],
+      "correctAnswer": "e. Tidak ada yang benar",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan teks di bawah ini, manakah yang menggunakan format \"Akibat (_______) Penyebab\"?\n(1) Jika masyarakat beralih ke energi terbarukan, maka dampak negatif perubahan iklim bisa dikurangi.\n(2) Teknologi blockchain semakin populer, sehingga transaksi digital menjadi lebih aman dan transparan.\n(3) Ketika kita menjaga pola tidur yang baik, kesehatan mental juga cenderung lebih stabil.\n(4) Diet yang tidak teratur dan tidak sehat dapat mengakibatkan gangguan pencernaan dan masalah metabolisme.",
+      "options": [
+        "(1) dan (3)",
+        "(1), (2), dan (3)",
+        "(2) dan (4)",
+        "(1), (2), (3), dan (4)",
+        "Tidak ada yang benar"
+      ],
+      "correctAnswer": "e. Tidak ada yang benar",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan teks di bawah ini, manakah yang menggunakan format \"Penyebab (_______) Akibat\"?\n(1) Jika emisi gas rumah kaca terus meningkat, maka suhu global akan semakin panas.\n(2) Krisis finansial pribadi sering disebabkan oleh kebiasaan belanja yang tidak terkendali.\n(3) Apabila peradaban Yunani kuno tidak mengembangkan demokrasi, mungkin sistem politik modern akan berbeda.\n(4) Akibat penggunaan teknologi digital, seni rupa kini dapat diakses dan dinikmati oleh lebih banyak orang.",
+      "options": [
+        "(1) dan (3)",
+        "(1), (2), dan (3)",
+        "(2) dan (4)",
+        "(1), (2), (3), dan (4)",
+        "Tidak ada yang benar"
+      ],
+      "correctAnswer": "a. (1) dan (3)",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan teks di bawah ini, manakah yang menggunakan format \"Akibat (_______) Penyebab\"?\n(1) Pengembangan mobil otonom semakin maju karena algoritma AI dapat memproses data sensor dalam waktu nyata.\n(2) Seni kontemporer terus bertransformasi dan menciptakan pengalaman baru bagi penontonnya akibat eksplorasi estetika yang berbeda.\n(3) Kurangnya akses ke sumber belajar yang memadai di daerah terpencil dapat diakibatkan oleh ketidakadilan dalam distribusi pendidikan.\n(4) Mengatur waktu untuk berolahraga dengan baik dapat meningkatkan produktivitas, akibatnya pekerjaan dan studi pun dapat dilakukan lebih efisien.",
+      "options": [
+        "(1) dan (3)",
+        "(1), (2), dan (3)",
+        "(2) dan (4)",
+        "(1), (2), (3), dan (4)",
+        "Tidak ada yang benar"
+      ],
+      "correctAnswer": "d. (1), (2), (3), dan (4)",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan teks di bawah ini, manakah yang menggunakan format \"Penyebab (_______) Akibat\"?\n(1) Filsafat eksistensialisme menarik banyak perhatian sebab ia berfokus pada kebebasan individu dan tanggung jawab pribadi.\n(2) Teknologi cloud memungkinkan penyimpanan data yang efisien, sehingga biaya operasional perusahaan dapat ditekan.\n(3) Ketidakpuasan orang tua terhadap sistem pendidikan sering diakibatkan oleh kurangnya komunikasi antara sekolah dan keluarga.\n(4) Kalau Bumi terkena dampak badai matahari besar, sistem komunikasi dan satelit bisa terganggu.",
+      "options": [
+        "(1) dan (3)",
+        "(1), (2), dan (3)",
+        "(2) dan (4)",
+        "(1), (2), (3), dan (4)",
+        "Tidak ada yang benar"
+      ],
+      "correctAnswer": "c. (2) dan (4)",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan teks di bawah ini, manakah yang menggunakan format \"Akibat (_______) Penyebab\"?\n(1) Banyak perusahaan mulai mengadopsi AI karena dapat meningkatkan efisiensi kerja.\n(2) Kita akan kesulitan mempelajari sejarah peradaban kuno, apabila tidak ada peninggalan tulisan seperti prasasti atau manuskrip.\n(3) Socrates dikenal sebagai bapak filsafat Barat sebab ia menekankan pentingnya berpikir kritis dan introspeksi.\n(4) Kebijakan pemerintah yang tidak adil menyebabkan banyak orang kehilangan hak-hak dasar mereka.",
+      "options": [
+        "(1) dan (3)",
+        "(1), (2), dan (3)",
+        "(2) dan (4)",
+        "(1), (2), (3), dan (4)",
+        "Tidak ada yang benar"
+      ],
+      "correctAnswer": "b. (1), (2), dan (3)",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan teks di bawah ini, manakah yang menggunakan format \"Penyebab (_______) Akibat\"?\n(1) Kalau astronot menghabiskan waktu terlalu lama di luar angkasa, kesehatan tulang dan otot mereka bisa terpengaruh.\n(2) Kurangnya pendidikan tentang hak asasi manusia menyebabkan masyarakat tidak sadar akan hak-hak yang seharusnya mereka miliki.\n(3) Jika kita mulai menabung dari sekarang, maka kita akan memiliki dana yang cukup untuk liburan impian tahun depan.\n(4) Dia belajar dengan giat setiap malam, sehingga nilainya di sekolah selalu memuaskan.",
+      "options": [
+        "(1) dan (3)",
+        "(1), (2), dan (3)",
+        "(2) dan (4)",
+        "(1), (2), (3), dan (4)",
+        "Tidak ada yang benar"
+      ],
+      "correctAnswer": "d. (1), (2), (3), dan (4)",
+      "explanation": null
+    },
+    {
+      "text": "Salah satu prinsip gaya hidup minimalis adalah mengurangi distraksi dari barang-barang yang tidak perlu. Dengan mengurangi distraksi, seseorang dapat lebih fokus pada tujuan hidup dan meningkatkan produktivitas. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI SALAH?",
+      "options": [
+        "Mengurangi distraksi dapat meningkatkan fokus.",
+        "Gaya hidup minimalis dapat meningkatkan produktivitas.",
+        "Distraksi dari barang yang tidak perlu tidak berpengaruh pada tujuan hidup.",
+        "Fokus pada tujuan hidup dapat meningkatkan kesejahteraan.",
+        "Barang yang tidak perlu dapat mengganggu konsentrasi."
+      ],
+      "correctAnswer": "c. Distraksi dari barang yang tidak perlu tidak berpengaruh pada tujuan hidup.",
+      "explanation": null
+    },
+    {
+      "text": "Tanaman teh biasanya tumbuh di daerah pegunungan dengan ketinggian antara 800 hingga 2.000 meter di atas permukaan laut. Tanaman ini membutuhkan curah hujan yang cukup tinggi dan iklim sejuk. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": [
+        "Semua tanaman teh ditanam di dataran rendah.",
+        "Sebagian tanaman teh bisa tumbuh di ketinggian 1.500 meter.",
+        "Teh hanya bisa tumbuh di ketinggian di atas 2.000 meter.",
+        "Semua tanaman teh bisa tumbuh di daerah pantai.",
+        "Tanaman teh membutuhkan curah hujan rendah untuk tumbuh."
+      ],
+      "correctAnswer": "b. Sebagian tanaman teh bisa tumbuh di ketinggian 1.500 meter.",
+      "explanation": null
+    },
+    {
+      "text": "Gaya hidup minimalis dapat membantu seseorang untuk hidup lebih teratur dan terencana. Dengan demikian, individu dapat mencapai tujuan dengan lebih efisien dan meraih kesejahteraan yang lebih baik. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI SALAH?",
+      "options": [
+        "Gaya hidup minimalis dapat membantu mencapai tujuan.",
+        "Hidup yang teratur dapat meningkatkan kesejahteraan.",
+        "Gaya hidup minimalis tidak berpengaruh pada perencanaan hidup.",
+        "Hidup terencana dapat mengurangi rasa cemas.",
+        "Mencapai tujuan hidup dapat memberikan rasa puas."
+      ],
+      "correctAnswer": "c. Gaya hidup minimalis tidak berpengaruh pada perencanaan hidup.",
+      "explanation": null
+    },
+    {
+      "text": "Kelapa sawit merupakan tanaman yang tumbuh baik di dataran rendah dengan ketinggian kurang dari 500 meter di atas permukaan laut. Tanaman ini juga memerlukan iklim tropis dengan curah hujan yang cukup tinggi. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": [
+        "Semua kelapa sawit tumbuh di dataran tinggi.",
+        "Sebagian kelapa sawit tumbuh pada ketinggian 100 meter di atas permukaan laut.",
+        "Kelapa sawit tidak bisa tumbuh di ketinggian di atas 500 meter.",
+        "Semua kelapa sawit bisa tumbuh di daerah beriklim kering.",
+        "Kelapa sawit hanya bisa tumbuh di ketinggian di atas 500 meter."
+      ],
+      "correctAnswer": "Sebagian kelapa sawit tumbuh pada ketinggian 100 meter di atas permukaan laut.",
+      "explanation": "Kelapa sawit tumbuh di dataran rendah dengan ketinggian kurang dari 500 meter, sehingga ketinggian 100 meter berada dalam kisaran tersebut."
+    },
+    {
+      "text": "Gaya hidup minimalis juga dapat mengurangi beban mental, karena individu tidak perlu mengurus banyak barang dan dapat lebih fokus pada hal-hal yang penting. Hal ini dapat berdampak positif pada kesehatan mental dan fisik. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI SALAH?",
+      "options": [
+        "Mengurangi barang dapat mengurangi beban mental.",
+        "Gaya hidup minimalis tidak berpengaruh pada kesehatan fisik.",
+        "Fokus pada hal penting dapat meningkatkan kesehatan mental.",
+        "Beban mental yang ringan dapat berkontribusi pada kesehatan yang lebih baik.",
+        "Gaya hidup minimalis dapat memberikan dampak positif pada kehidupan."
+      ],
+      "correctAnswer": "Gaya hidup minimalis tidak berpengaruh pada kesehatan fisik.",
+      "explanation": "Teks menyatakan bahwa gaya hidup minimalis dapat berdampak positif pada kesehatan fisik, sehingga pernyataan bahwa gaya hidup minimalis tidak berpengaruh pada kesehatan fisik adalah pasti salah."
+    },
+    {
+      "text": "Padi biasanya ditanam di dataran rendah dengan ketinggian di bawah 1.000 meter. Tanaman ini membutuhkan air yang melimpah serta iklim tropis untuk tumbuh subur. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": [
+        "Semua padi ditanam di ketinggian di atas 1.000 meter.",
+        "Sebagian padi bisa tumbuh di daerah dengan curah hujan rendah.",
+        "Padi tumbuh optimal di daerah yang memiliki banyak air.",
+        "Padi hanya bisa tumbuh di dataran tinggi.",
+        "Semua padi ditanam di iklim sedang."
+      ],
+      "correctAnswer": "Padi tumbuh optimal di daerah yang memiliki banyak air.",
+      "explanation": "Tanaman padi membutuhkan air yang melimpah serta iklim tropis untuk tumbuh subur."
+    },
+    {
+      "text": "Penerapan gaya hidup minimalis dapat menciptakan lingkungan yang lebih bersih dan teratur. Lingkungan yang bersih dapat meningkatkan kenyamanan dan kesehatan penghuninya. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI SALAH?",
+      "options": [
+        "Lingkungan yang bersih dapat meningkatkan kenyamanan.",
+        "Gaya hidup minimalis dapat menciptakan kekacauan.",
+        "Kebersihan lingkungan berkontribusi pada kesehatan.",
+        "Gaya hidup minimalis berfokus pada pengurangan barang.",
+        "Kesehatan penghuni dapat dipengaruhi oleh kondisi lingkungan."
+      ],
+      "correctAnswer": "Gaya hidup minimalis dapat menciptakan kekacauan.",
+      "explanation": "Teks menyebutkan gaya hidup minimalis dapat menciptakan lingkungan yang bersih dan teratur, sehingga pernyataan menciptakan kekacauan adalah pasti salah."
+    }
+  ]
+}

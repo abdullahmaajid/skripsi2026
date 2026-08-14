@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Jika sebuah mobil dibuat oleh Perusahaan B, desainnya futuristik, berwarna merah, dan memiliki fitur keamanan canggih. Mobil X memiliki desain konvensional, berwarna biru, dan fitur keamanan standar, manakah simpulan yang BENAR?",
+      "options": [
+        "Perusahaan B sudah kehilangan reputasinya",
+        "Mobil X adalah produk gagal",
+        "Mobil X tidak dibuat oleh Perusahaan B",
+        "Mobil X harganya murah",
+        "Mobil X pernah dibuat oleh Perusahaan B"
+      ],
+      "correctAnswer": "Mobil X tidak dibuat oleh Perusahaan B",
+      "explanation": null
+    },
+    {
+      "text": "Jika sebuah restoran memiliki ulasan positif, menyajikan makanan berkualitas tinggi, menawarkan harga terjangkau, dan melayani pelanggan dengan ramah. Restoran Y menyajikan makanan dengan rasa kurang enak, menawarkan harga mahal, dan pelayanan yang buruk, manakah simpulan yang BENAR?",
+      "options": [
+        "Restoran Y selalu melayani pelanggan dengan ramah",
+        "Restoran Y mungkin melayani banyak pelanggan",
+        "Restoran Y mungkin memiliki ulasan positif",
+        "Restoran Y mungkin memiliki ulasan negatif",
+        "Restoran Y memiliki harga terjangkau"
+      ],
+      "correctAnswer": "Restoran Y mungkin memiliki ulasan negatif",
+      "explanation": null
+    },
+    {
+      "text": "Semua kendaraan listrik ramah lingkungan dan hemat energi. Sebagian kendaraan listrik memiliki harga yang tinggi. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PALING MUNGKIN BENAR?",
+      "options": [
+        "Semua kendaraan listrik tidak memiliki harga yang tinggi",
+        "Sebagian kendaraan listrik yang mahal tidak ramah lingkungan",
+        "Sebagian kendaraan listrik yang memiliki harga tinggi ramah lingkungan dan hemat energi",
+        "Semua kendaraan listrik yang memiliki harga tinggi tidak ramah lingkungan",
+        "Semua kendaraan listrik yang tidak ramah lingkungan memiliki harga yang murah"
+      ],
+      "correctAnswer": "Sebagian kendaraan listrik yang memiliki harga tinggi ramah lingkungan dan hemat energi",
+      "explanation": null
+    },
+    {
+      "text": "Pemerintah terus mendorong program Energi Terbarukan. Energi terbarukan berperan dalam mengurangi ketergantungan pada sumber energi fosil. Hal ini disebabkan oleh energi terbarukan yang lebih ramah lingkungan dan dapat diperbaharui. Berdasarkan informasi di atas, manakah pernyataan sebab-akibat berikut yang PALING MUNGKIN BENAR?",
+      "options": [
+        "Banyak perusahaan yang beralih ke energi terbarukan karena lebih menguntungkan dalam jangka panjang",
+        "Banyak masyarakat yang menolak energi terbarukan karena harganya lebih mahal dibandingkan energi fosil",
+        "Karena dapat mengurangi ketergantungan pada energi fosil, energi terbarukan terus didukung pemerintah",
+        "Energi terbarukan menjadi primadona karena dapat menawarkan solusi bagi permasalahan perubahan iklim",
+        "Energi fosil ramah lingkungan karena dapat diperbaharui"
+      ],
+      "correctAnswer": "Karena dapat mengurangi ketergantungan pada energi fosil, energi terbarukan terus didukung pemerintah",
+      "explanation": null
+    },
+    {
+      "text": "Data Indeks Pembangunan Manusia (IPM) Indonesia yang dirilis oleh Badan Pusat Statistik (BPS) menyatakan bahwa pada tahun 2023, IPM Indonesia meningkat sebanyak 0,6 poin dibandingkan tahun 2022, dari 72,9 menjadi 73,5. Manakah pernyataan berikut yang PALING MUNGKIN BENAR menjelaskan perbedaan kedua kondisi tersebut?",
+      "options": [
+        "Pada tahun 2023, pemerintah meningkatkan program pendidikan dan kesehatan untuk meningkatkan kualitas hidup",
+        "Lebih banyak warga yang mengalami penurunan kualitas hidup pada tahun 2022 dibandingkan tahun 2023",
+        "Alokasi anggaran pemerintah untuk sektor pendidikan menurun pada tahun 2023 dibandingkan tahun sebelumnya",
+        "Angka IPM Indonesia pada tahun 2023 lebih kecil dibandingkan tahun 2022",
+        "Pada tahun 2023, semakin sedikit warga Indonesia yang mengakses layanan kesehatan"
+      ],
+      "correctAnswer": "Pada tahun 2023, pemerintah meningkatkan program pendidikan dan kesehatan untuk meningkatkan kualitas hidup",
+      "explanation": null
+    },
+    {
+      "text": "Data dari Laporan Kualitas Udara Nasional yang dirilis oleh Kementerian Lingkungan Hidup dan Kehutanan (KLHK) menyatakan bahwa pada tahun 2023, kualitas udara di Jakarta mengalami peningkatan dengan penurunan kadar polusi udara sebanyak 10% dibandingkan tahun 2022. Manakah pernyataan berikut yang MUNGKIN SALAH mengenai perubahan kualitas udara tersebut?",
+      "options": [
+        "Pada tahun 2023, pemerintah berhasil menurunkan jumlah kendaraan bermotor di Jakarta",
+        "Penurunan polusi udara pada tahun 2023 mungkin disebabkan oleh peningkatan penggunaan transportasi umum",
+        "Kualitas udara di Jakarta pada tahun 2023 lebih buruk dibandingkan tahun 2022",
+        "Pada tahun 2023, pemerintah lebih banyak menanam pohon di Jakarta untuk meningkatkan kualitas udara",
+        "Penurunan polusi udara pada tahun 2023 mungkin disebabkan oleh kebijakan pembatasan emisi kendaraan bermotor"
+      ],
+      "correctAnswer": "Kualitas udara di Jakarta pada tahun 2023 lebih buruk dibandingkan tahun 2022",
+      "explanation": null
+    },
+    {
+      "text": "Bebek memiliki peran penting dalam menjaga keseimbangan ekosistem pertanian, terutama dalam mengendalikan hama. Namun, jumlah bebek semakin berkurang karena penurunan kualitas habitat dan perburuan liar. Oleh karena itu, bebek juga menjadi salah satu hewan yang dilindungi oleh negara. Berdasarkan informasi tersebut, manakah pernyataan yang PASTI SALAH?",
+      "options": [
+        "Bebek memiliki nilai jual yang tinggi",
+        "Bebek punah namun ekosistem pertanian tetap seimbang",
+        "Penyebab berkurangnya jumlah bebek bisa karena penurunan kualitas habitat dan perburuan liar",
+        "Bebek tidak akan dilindungi oleh negara apabila jumlah bebek makin banyak",
+        "Bebek tidak diburu secara ilegal apabila bagian tubuhnya tidak bisa dimanfaatkan"
+      ],
+      "correctAnswer": "Bebek punah namun ekosistem pertanian tetap seimbang",
+      "explanation": null
+    },
+    {
+      "text": "Kualitas pendidikan yang tinggi merupakan salah satu faktor penting untuk meningkatkan kesejahteraan masyarakat. Seperti pohon yang tumbuh subur di tanah yang baik, kualitas pendidikan yang tinggi akan menghasilkan generasi yang cerdas dan terampil. Dengan generasi yang cerdas dan terampil, masyarakat dapat mengakses berbagai peluang yang dapat meningkatkan taraf hidup mereka. Berdasarkan paragraf tersebut, jika kualitas pendidikan yang tinggi disamakan dengan pohon yang tumbuh subur di tanah yang baik, manakah di bawah ini simpulan yang PALING MUNGKIN BENAR?",
+      "options": [
+        "Masyarakat hanya akan mencapai kesejahteraan jika pendidikan yang mereka terima tidak berkualitas tinggi",
+        "Pendidikan yang berkualitas tinggi berkemungkinan besar menghasilkan generasi yang cerdas dan terampil",
+        "Jika kualitas pendidikan tinggi, generasi yang cerdas tidak akan membawa kemajuan bagi masyarakat",
+        "Jika kualitas pendidikan rendah, masyarakat akan mencapai kesejahteraan yang tinggi",
+        "Kesejahteraan masyarakat dapat tercapai tanpa perlunya generasi yang terampil dan cerdas"
+      ],
+      "correctAnswer": "Pendidikan yang berkualitas tinggi berkemungkinan besar menghasilkan generasi yang cerdas dan terampil",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan yang PASTI SALAH?",
+      "options": [
+        "Tikus memiliki manfaat ekologi dalam ekosistem pertanian",
+        "Populasi tikus meningkat karena kurangnya pengendalian yang efektif",
+        "Tikus tidak akan menjadi masalah dalam ekosistem jika pengendalian dilakukan dengan baik",
+        "Tikus punah dan ekosistem pertanian tetap seimbang tanpa mereka",
+        "Tikus bisa menjadi hama yang merusak tanaman jika jumlahnya tidak terkendali"
+      ],
+      "correctAnswer": "Tikus punah dan ekosistem pertanian tetap seimbang tanpa mereka",
+      "explanation": null
+    },
+    {
+      "text": "Jika sebuah smartphone dibuat oleh Perusahaan A, desainnya elegan, memiliki layar sentuh besar, dan dilengkapi dengan kamera beresolusi tinggi. Smartphone Y memiliki desain sederhana, layar kecil, dan kamera dengan resolusi standar, manakah simpulan yang BENAR?",
+      "options": [
+        "Perusahaan A sudah kehilangan daya saingnya",
+        "Smartphone Y adalah produk gagal",
+        "Smartphone Y tidak dibuat oleh Perusahaan A",
+        "Smartphone Y harganya lebih mahal",
+        "Smartphone Y pernah dibuat oleh Perusahaan A"
+      ],
+      "correctAnswer": "Smartphone Y tidak dibuat oleh Perusahaan A",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf tersebut, jika kesehatan yang baik disamakan dengan mesin yang berfungsi dengan baik, manakah di bawah ini simpulan yang PALING MUNGKIN BENAR?",
+      "options": [
+        "Seseorang yang sehat dapat menjalani aktivitas hidup dengan lebih lancar dan produktif",
+        "Tubuh yang sehat akan mengurangi risiko penyakit",
+        "Jika tubuh sehat, seseorang pasti dapat bekerja dengan optimal",
+        "Kesehatan yang baik tidak berpengaruh terhadap produktivitas seseorang",
+        "Semua orang yang sehat pasti menjalani kehidupan yang produktif"
+      ],
+      "correctAnswer": "Seseorang yang sehat dapat menjalani aktivitas hidup dengan lebih lancar dan produktif",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf tersebut, jika lingkungan yang bersih disamakan dengan air yang jernih mengalir di sungai, manakah di bawah ini simpulan yang PASTI SALAH?",
+      "options": [
+        "Lingkungan yang bersih dapat meningkatkan kualitas hidup masyarakat",
+        "Lingkungan yang kotor akan mengurangi kenyamanan dan meningkatkan risiko penyakit",
+        "Kebersihan lingkungan tidak mempengaruhi kesehatan masyarakat",
+        "Lingkungan yang bersih dapat mengurangi dampak negatif terhadap kesehatan",
+        "Menjaga kebersihan lingkungan adalah langkah penting untuk kesehatan masyarakat"
+      ],
+      "correctAnswer": "Kebersihan lingkungan tidak mempengaruhi kesehatan masyarakat",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf tersebut, jika perkembangan teknologi disamakan dengan kendaraan yang semakin canggih, manakah di bawah ini simpulan yang mungkin benar?",
+      "options": [
+        "Perkembangan teknologi selalu membawa dampak negatif bagi masyarakat",
+        "Teknologi yang berkembang pesat memudahkan pekerjaan manusia dan meningkatkan efisiensi",
+        "Kehidupan tanpa teknologi tidak akan pernah berkembang",
+        "Teknologi hanya bermanfaat dalam sektor komunikasi dan informasi saja",
+        "Semua teknologi yang berkembang selalu menguntungkan masyarakat"
+      ],
+      "correctAnswer": "Teknologi yang berkembang pesat memudahkan pekerjaan manusia dan meningkatkan efisiensi",
+      "explanation": null
+    },
+    {
+      "text": "Z adalah merek kendaraan mewah yang hanya memperbolehkan pembeli asal Indonesia untuk membeli produknya secara tunai. Untuk membeli kendaraan tersebut, pembeli setidaknya harus berusia 21 tahun, berpenghasilan 500 juta rupiah per tahun, dan tidak pernah melakukan tindakan kriminal. Fandy merupakan pengusaha muda yang sukses, baru saja berulangtahun yang ke-19, dan tidak pernah melakukan tindakan kriminal. Simpulan: Fandy dapat membeli kendaraan mewah Z. Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar",
+        "Simpulan tersebut mungkin benar",
+        "Simpulan tersebut pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan tersebut pasti salah",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf di atas, manakah peristiwa yang PALING MUNGKIN BENAR mengenai Perusahaan L?",
+      "options": [
+        "Perusahaan L menerima kunjungan toko-toko sebanyak 12 kali dalam enam bulan",
+        "Banyak toko di Kota M yang tidak ingin menjual sepatu olahraga dari Perusahaan L",
+        "Perusahaan L selalu terlambat mengirimkan sepatu karena kekurangan bahan baku",
+        "Hanya Perusahaan L yang sering terlambat mengirimkan sepatu di Kota M",
+        "Jumlah sepatu yang diproduksi oleh Perusahaan L selalu lebih sedikit setiap pengiriman"
+      ],
+      "correctAnswer": "Perusahaan L menerima kunjungan toko-toko sebanyak 12 kali dalam enam bulan",
+      "explanation": null
+    },
+    {
+      "text": "Manakah yang PALING MUNGKIN menjadi asumsi yang mendasari argumen di atas?",
+      "options": [
+        "Perusahaan Z hanya mengutamakan kemudahan dalam berinvestasi",
+        "Perubahan kebijakan yang negatif dapat mendatangkan investasi dari negara asing",
+        "Kerumitan aturan investasi tidak dapat mengurangi investasi secara drastis",
+        "Regulasi yang rumit dapat menghambat perusahaan untuk berinvestasi",
+        "Pengetahuan investasi yang dimiliki negara A masih sangat terbatas"
+      ],
+      "correctAnswer": "Regulasi yang rumit dapat menghambat perusahaan untuk berinvestasi",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang jika benar akan MEMPERKUAT pernyataan pengamat B?",
+      "options": [
+        "Banyak negara lain telah mulai menggunakan kendaraan listrik secara masif untuk mengurangi polusi udara",
+        "Pemerintah telah memberikan insentif pajak bagi pembeli kendaraan listrik dan mengurangi biaya pengisian daya",
+        "Penggunaan kendaraan bensin di kota-kota besar terus menurun dalam beberapa tahun terakhir",
+        "Masyarakat tidak terlalu peduli dengan kebijakan pemerintah tentang pengurangan emisi karbon",
+        "Penurunan harga bahan bakar membuat orang kembali memilih kendaraan bermesin konvensional"
+      ],
+      "correctAnswer": "Pemerintah telah memberikan insentif pajak bagi pembeli kendaraan listrik dan mengurangi biaya pengisian daya",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang PALING TEPAT mengenai hasil survei tersebut?",
+      "options": [
+        "Memperkuat pernyataan Pakar X",
+        "Memperlemah pernyataan Pakar X",
+        "Memperkuat pernyataan Pakar Y",
+        "Memperlemah pernyataan Pakar Y",
+        "Tidak relevan dengan pernyataan Pakar X dan Y"
+      ],
+      "correctAnswer": "Tidak relevan dengan pernyataan Pakar X dan Y",
+      "explanation": null
+    },
+    {
+      "text": "Pakar C menyatakan, \"Tingkat literasi digital di negara C akan meningkat karena program pelatihan gratis yang disediakan pemerintah.\" Pakar D menyatakan, \"Ketersediaan perangkat digital yang semakin terjangkau akan mendorong lebih banyak orang untuk melek digital.\" Hasil survei mengatakan bahwa mayoritas penduduk di negara C tidak pernah membaca buku. Manakah pernyataan berikut yang PALING TEPAT mengenai hasil survei tersebut?",
+      "options": [
+        "Memperkuat pernyataan Pakar C",
+        "Memperlemah pernyataan Pakar C",
+        "Memperkuat pernyataan Pakar D",
+        "Memperlemah pernyataan Pakar D",
+        "Tidak relevan dengan pernyataan Pakar C dan D"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pakar A menyatakan, \"Pemahaman tentang permainan tradisional di kalangan generasi muda meningkat karena program penguatan cinta tanah air di sekolah.\" Pakar B menyatakan, \"Inovasi permainan tradisional akan mendorong lebih banyak anak muda untuk mengapresiasi masa lampau.\" Hasil survei menunjukkan bahwa minat terhadap lagu tradisional melonjak tajam. Manakah pernyataan berikut yang PALING TEPAT mengenai hasil survei tersebut?",
+      "options": [
+        "Memperkuat pernyataan Pakar A",
+        "Memperlemah pernyataan Pakar A",
+        "Memperkuat pernyataan Pakar B",
+        "Memperlemah pernyataan Pakar B",
+        "Tidak relevan dengan pernyataan Pakar A dan B"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pakar X menyatakan, \"Pengetahuan tentang tarian tradisional di kalangan generasi muda akan meningkat karena festival budaya yang diselenggarakan pemerintah.\" Pakar Y menyatakan, \"Popularitas tarian tradisional dalam bentuk modern akan menarik lebih banyak anak muda untuk mempelajari tarian tradisional.\" Hasil survei menunjukkan bahwa mayoritas pengunjung pertunjukan wayang adalah wisatawan mancanegara. Manakah pernyataan berikut yang PALING TEPAT mengenai hasil survei tersebut?",
+      "options": [
+        "Memperkuat pernyataan Pakar X",
+        "Memperlemah pernyataan Pakar X",
+        "Memperkuat pernyataan Pakar Y",
+        "Memperlemah pernyataan Pakar Y",
+        "Tidak relevan dengan pernyataan Pakar X dan Y"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Andi membeli 15 bungkus keripik dengan diskon 40\\% dan 6 bungkus minuman dengan diskon 25\\%. Jika total belanja Andi adalah \\text{Rp}75.000,00 dan harga awal sebungkus keripik adalah \\text{Rp}3.000,00, harga awal sebungkus minuman sebelum didiskon adalah ....",
+      "options": [
+        "\\text{Rp}8.200,00",
+        "\\text{Rp}9.500,00",
+        "\\text{Rp}10.666,00",
+        "\\text{Rp}12.880,00",
+        "\\text{Rp}15.970,00"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Rina membeli beberapa buku tulis dengan harga \\text{Rp}2.000,00 per buku. Jika Rina membayar \\text{Rp}20.000,00 dan mendapatkan kembalian \\text{Rp}4.000,00, berapa banyak buku yang dibeli Rina?",
+      "options": [
+        "6 buku",
+        "8 buku",
+        "10 buku",
+        "12 buku",
+        "14 buku"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Juara lomba memahat patung ditentukan berdasarkan nilai pada aspek kreativitas dan estetika dengan bobot 6 : 4 pada kedua aspek tersebut. Peserta A: Nilai kreativitas 10, Nilai estetika 6. Peserta B: Nilai kreativitas 6, Nilai estetika 9. Peserta C: Nilai kreativitas 6, Nilai estetika 8. Peserta D: Nilai kreativitas 9, Nilai estetika 7. Peserta E: Nilai kreativitas 8, Nilai estetika 6. Manakah peserta yang menjadi juara lomba memahat patung?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Juara lomba memahat patung ditentukan berdasarkan nilai pada aspek kreativitas dan estetika dengan bobot 6 : 4 pada kedua aspek tersebut. Peserta A: Nilai kreativitas 10, Nilai estetika 6. Peserta B: Nilai kreativitas 6, Nilai estetika 9. Peserta C: Nilai kreativitas 6, Nilai estetika 8. Peserta D: Nilai kreativitas 9, Nilai estetika 7. Peserta E: Nilai kreativitas 8, Nilai estetika 6. Manakah peserta yang menjadi juara keempat memahat patung?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Juara lomba memahat patung ditentukan berdasarkan nilai pada aspek kreativitas dan estetika dengan bobot 6 : 4 pada kedua aspek tersebut. Peserta A: Nilai kreativitas 10, Nilai estetika 6. Peserta B: Nilai kreativitas 6, Nilai estetika 9. Peserta C: Nilai kreativitas 6, Nilai estetika 8. Peserta D: Nilai kreativitas 9, Nilai estetika 7. Peserta E: Nilai kreativitas 8, Nilai estetika 6. Manakah peserta yang menjadi juara terakhir memahat patung?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Lima siswa—Fauzi, Greg, Hilda, Indra, dan Junaidi—mendapatkan peringkat di lomba matematika di sekolah. Hilda mendapat peringkat lebih tinggi dari Greg, tetapi lebih rendah dari Fauzi. Junaidi mendapat peringkat lebih rendah dari Greg, namun lebih tinggi dari Indra. Siapakah yang mendapatkan peringkat ketiga?",
+      "options": [
+        "Fauzi",
+        "Greg",
+        "Hilda",
+        "Junaidi",
+        "Indra"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kemacetan di kota Y terjadi karena lebar jalan tidak sepadan dengan jumlah kendaraan pribadi. Padahal, sudah ada transportasi umum berupa bus di Kota Y. Sayangnya, tidak banyak warga yang menggunakan transportasi umum untuk berkendara di kota Y. Berdasarkan paragraf di atas, manakah pernyataan yang PALING MUNGKIN BENAR?",
+      "options": [
+        "Karena memiliki kendaraan pribadi, warga kota Y tidak memakai kendaraan umum",
+        "Bus dianggap sebagai transportasi umum yang lebih cepat sehingga tidak ada yang menggunakannya",
+        "Kehadiran transportasi umum yang digunakan oleh warga justru menambah kemacetan",
+        "Kendaraan pribadi tidak efisien untuk bepergian",
+        "Lebar jalan di Kota Y sudah cukup memadai untuk menampung semua kendaraan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jumlah siswa dari Sekolah B yang lolos ke babak final Olimpiade Olahraga Siswa Nasional (O2SN) dalam empat tahun berturut-turut adalah 12, 15, 18, dan 21 siswa. Pada tahun ke-6, jumlah siswa yang lolos dari sekolah itu adalah 27 siswa. Di Sekolah D, jumlah siswa yang lolos ke babak final O2SN dalam empat tahun berturut-turut adalah 6, 8, 10, dan 12 siswa. Pada tahun ke-6, jumlah siswa dari Sekolah B yang lolos adalah 16 siswa. Jika tren jumlah siswa yang lolos ke babak final O2SN tersebut konstan, berapakah jumlah siswa yang lolos dari Sekolah B dan D berturut-turut pada tahun ke-5?",
+      "options": [
+        "23 dan 13",
+        "24 dan 10",
+        "22 dan 14",
+        "20 dan 12",
+        "24 dan 14"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika tren jumlah siswa yang lolos ke babak final OMSN tersebut konstan, berapakah jumlah siswa yang lolos dari Sekolah X dan Y berturut-turut pada tahun ke-6?",
+      "options": [
+        "23 dan 14",
+        "12 dan 23",
+        "25 dan 14",
+        "23 dan 15",
+        "24 dan 15"
+      ],
+      "correctAnswer": "23 dan 15",
+      "explanation": "Sekolah X membentuk barisan aritmatika: 8, 11, 14, 17, dengan beda +3. Suku ke-6 adalah 17 + 3 = 20 (atau berdasarkan coretan, jawaban akhir yang benar adalah 23, mari kita teliti: barisan X adalah 8, 11, 14, 17, suku ke-5 = 20, suku ke-6 = 23). Sekolah Y membentuk barisan aritmatika: 5, 7, 9, 11, dengan beda +2. Suku ke-5 = 13, suku ke-6 = 15. Jadi untuk Sekolah X dan Y berturut-turut pada tahun ke-6 adalah 23 dan 15."
+    }
+  ]
+}

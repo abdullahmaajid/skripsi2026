@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Kalimat yang tidak dibutuhkan pada teks tersebut terdapat pada ....",
+      "options": [
+        "kalimat (1)",
+        "kalimat (2)",
+        "kalimat (3)",
+        "kalimat (4)",
+        "kalimat (5)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang tidak dibutuhkan pada teks tersebut terdapat pada ....",
+      "options": [
+        "kalimat (2)",
+        "kalimat (3)",
+        "kalimat (5)",
+        "kalimat (6)",
+        "kalimat (7)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang tidak dibutuhkan pada teks tersebut terdapat pada ....",
+      "options": [
+        "kalimat (2)",
+        "kalimat (3)",
+        "kalimat (4)",
+        "kalimat (7)",
+        "kalimat (8)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang tidak dibutuhkan pada teks tersebut terdapat pada ....",
+      "options": [
+        "kalimat (2)",
+        "kalimat (3)",
+        "kalimat (4)",
+        "kalimat (6)",
+        "kalimat (7)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang tidak dibutuhkan pada teks tersebut terdapat pada ....",
+      "options": [
+        "kalimat (2)",
+        "kalimat (4)",
+        "kalimat (5)",
+        "kalimat (7)",
+        "kalimat (9)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang tidak dibutuhkan pada teks tersebut terdapat pada ....",
+      "options": [
+        "kalimat (3)",
+        "kalimat (4)",
+        "kalimat (5)",
+        "kalimat (6)",
+        "kalimat (8)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang tidak dibutuhkan pada teks tersebut terdapat pada ....",
+      "options": [
+        "kalimat (1)",
+        "kalimat (2)",
+        "kalimat (5)",
+        "kalimat (7)",
+        "kalimat (8)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang tidak dibutuhkan pada teks tersebut terdapat pada ....",
+      "options": [
+        "kalimat (3)",
+        "kalimat (4)",
+        "kalimat (5)",
+        "kalimat (6)",
+        "kalimat (8)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang tidak dibutuhkan pada teks tersebut terdapat pada ....",
+      "options": [
+        "kalimat (3)",
+        "kalimat (7)",
+        "kalimat (9)",
+        "kalimat (10)",
+        "kalimat (11)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang tidak dibutuhkan pada teks tersebut terdapat pada ....",
+      "options": [
+        "kalimat (2)",
+        "kalimat (5)",
+        "kalimat (7)",
+        "kalimat (8)",
+        "kalimat (9)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang tidak dibutuhkan pada teks tersebut terdapat pada ....",
+      "options": [
+        "kalimat (3)",
+        "kalimat (5)",
+        "kalimat (7)",
+        "kalimat (10)",
+        "kalimat (11)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang tidak dibutuhkan pada teks tersebut terdapat pada ....",
+      "options": [
+        "kalimat (3)",
+        "kalimat (5)",
+        "kalimat (7)",
+        "kalimat (8)",
+        "kalimat (9)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang tidak dibutuhkan pada teks tersebut terdapat pada ....",
+      "options": [
+        "kalimat (2)",
+        "kalimat (4)",
+        "kalimat (7)",
+        "kalimat (9)",
+        "kalimat (10)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang tidak dibutuhkan pada teks tersebut terdapat pada ....",
+      "options": [
+        "kalimat (3)",
+        "kalimat (4)",
+        "kalimat (7)",
+        "kalimat (8)",
+        "kalimat (9)"
+      ],
+      "correctAnswer": "kalimat (8)",
+      "explanation": "Kalimat (8) memberikan contoh negara Barat dan Timur yang kurang relevan atau tidak akurat secara historis-geopolitik dalam konteks Perang Dingin yang dibahas (misalnya memasukkan Arab Saudi dan Palestina sebagai negara Timur dalam blok Perang Dingin secara tradisional kurang tepat, dan kalimat ini mengganggu kohesi paragraf tentang berakhirnya Perang Dingin)."
+    },
+    {
+      "text": "Kalimat yang tidak dibutuhkan pada teks tersebut terdapat pada ....",
+      "options": [
+        "kalimat (2)",
+        "kalimat (3)",
+        "kalimat (5)",
+        "kalimat (6)",
+        "kalimat (7)"
+      ],
+      "correctAnswer": "kalimat (3)",
+      "explanation": "Kalimat (3) mendefinisikan ulang istilah 'e-commerce' yang sebenarnya sudah cukup jelas tersirat pada kalimat sebelumnya (kalimat 2), sehingga kehadirannya bersifat repetitif dan tidak dibutuhkan dalam pengembangan gagasan teks."
+    }
+  ]
+}

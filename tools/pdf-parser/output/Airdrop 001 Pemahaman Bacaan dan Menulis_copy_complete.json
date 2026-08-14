@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Perhatikan teks berikut ini.\n\n(1)Takhrij hadis adalah proses penting dalam kajian ilmu hadis. (2) Para ulama yang men-takhrij hadis-hadis bertujuan untuk memastikan keaslian dan keabsahan sebuah riwayat. (3)Dalam hal ini, hadis-hadis yang dianggap syahid, yaitu yang memiliki penguat dari sanad lain yang mirip, akan diperhatikan lebih lanjut. (4)Namun, tidak semua hadis yang diteliti memiliki derajat yang sama. (5) Beberapa hadis bisa mengalami pendaifan karena kelemahan sanad atau matan. (6)Oleh karena itu, proses takhrij sangat diperlukan untuk memisahkan hadis yang sahih dari yang lemah.\n\nPada teks di atas, kalimat manakah yang benar penulisan katanya sesuai kaidah, kecuali…",
+      "options": [
+        "Kalimat (1)",
+        "Kalimat (2)",
+        "Kalimat (3)",
+        "Kalimat (4)",
+        "Kalimat (5)"
+      ],
+      "correctAnswer": "Kalimat (3)",
+      "explanation": "Kata \"syahid\" dalam kalimat (3) seharusnya ditulis \"sahid\" karena sudah diserap ke dalam bahasa Indonesia."
+    },
+    {
+      "text": "Kalimat di bawah ini yang ditulis dengan benar sesuai kaidah adalah….",
+      "options": [
+        "Setiap hari Jumat ada mata pelajaran bahasa Indonesia di kelas itu.",
+        "Harga batik solo di Pasar Tanah Abang Jakarta sangat bervariasi.",
+        "Presiden Republik Indonesia beberapa waktu yang lalu menghadiri sidang tahunan PBB.",
+        "Kita dapat membeli jeruk Bali di pasar tradisional.",
+        "Sudah beberapa tahun yang lalu mereka tinggal di jalan Jenderal Sudirman."
+      ],
+      "correctAnswer": "Presiden Republik Indonesia beberapa waktu yang lalu menghadiri sidang tahunan PBB.",
+      "explanation": "Penulisan jabatan dan nama lembaga negara ditulis dengan huruf kapital. Pilihan lainnya salah karena: 'Jumat' (seharusnya 'Jumat' sudah benar, tetapi 'bahasa Indonesia' huruf b kecil sudah benar, namun 'batik solo' seharusnya 'batik Solo' atau 'batik solo' sebagai nama jenis? 'batik solo' -> 'batik Solo' karena Solo adalah nama geografis asal batik tersebut; 'jeruk Bali' -> 'jeruk bali' karena merupakan nama jenis buah; 'jalan Jenderal Sudirman' -> 'Jalan Jenderal Sudirman' karena diikuti nama jalan)."
+    },
+    {
+      "text": "Perhatikan teks berikut ini.\n\n(1)Pada hari Senin yang cerah, Sungai Musi tampak megah mengalir di Sumatra Selatan. (2) Sungai ini menjadi bagian penting dalam kehidupan masyarakat setempat. (3) Selain itu, Sungai Musi merupakan salah satu ikon alam yang terkenal di Negara Indonesia. (4) Sungai ini mengalir dari Bukit Barisan hingga bermuara di Selat Bangka. (5) Selama berabad-abad, Sungai Musi telah berperan penting dalam mendukung perekonomian dan budaya setempat.\n\nPada teks di atas, kalimat manakah yang tidak tepat penulisan katanya….",
+      "options": [
+        "Kalimat (3)",
+        "Kalimat (4)",
+        "Kalimat (1)",
+        "Kalimat (2)",
+        "Kalimat (5)"
+      ],
+      "correctAnswer": "Kalimat (3)",
+      "explanation": "Pada kalimat (3), penulisan \"Negara Indonesia\" tidak tepat. Kata \"negara\" seharusnya ditulis dengan huruf kecil karena bukan merupakan bagian dari nama resmi negara (seperti Republik Indonesia), melainkan hanya kata penunjuk jenis wilayah geografis/politik."
+    },
+    {
+      "text": "Perhatikan penggalan paragraf di bawah ini.\n\n(1)Kacang dieng (Vicia faba) merupakan salah satu jenis kacang yang banyak dibudidayakan di dataran tinggi Dieng, Indonesia. (2)Kacang ini dikenal memiliki kandungan protein yang tinggi serta rasa yang khas. (3) Selain dimanfaatkan sebagai bahan pangan, kacang dieng juga sering dijadikan camilan setelah digoreng atau direbus. (4) Tanaman ini tumbuh subur di wilayah dengan iklim sejuk dan tanah yang subur, sehingga cocok ditanam di kawasan pegunungan.\n\nAgar menjadi efektif, kalimat (1) perlu diperbaiki dengan cara…",
+      "options": [
+        "menghilangkan kata banyak pada kalimat.",
+        "mengganti penulisan “kacang dieng” menjadi “Kacang Dieng”.",
+        "menambahkan kata adalah sebelum kata merupakan.",
+        "menulis menggunakan huruf miring pada kata Vicia faba.",
+        "menghilangkan kata dataran."
+      ],
+      "correctAnswer": "menulis menggunakan huruf miring pada kata Vicia faba.",
+      "explanation": "Nama ilmiah atau bahasa asing seperti \"Vicia faba\" harus ditulis dengan huruf miring (italic)."
+    },
+    {
+      "text": "Kalimat di bawah ini yang menggunakan aturan sesuai kaidah adalah ….",
+      "options": [
+        "Ibu membeli terung Belanda di Pasar Senin.",
+        "Andin mendapatkan oleh-oleh berupa batik Cirebon dari temannya.",
+        "Sudah lama dia berpisah dengan Ibunya karena belajar di luar negeri.",
+        "Kata Adik, “Besok Ayah pulang dari luar kota, bu.”",
+        "Banyak turis mancanegara yang berkunjung ke pulau Komodo pada perayaan tahun baru."
+      ],
+      "correctAnswer": "Andin mendapatkan oleh-oleh berupa batik Cirebon dari temannya.",
+      "explanation": "Penulisan 'batik Cirebon' menggunakan huruf kapital pada 'Cirebon' karena merujuk pada kekhasan budaya/geografis asal batik tersebut. Pilihan lainnya salah karena: 'terung Belanda' seharusnya 'terung belanda' (nama jenis), 'Ibunya' seharusnya 'ibunya' (bukan sapaan langsung), 'bu' seharusnya 'Bu' (sapaan langsung), 'pulau Komodo' seharusnya 'Pulau Komodo' (diikuti nama diri geografis)."
+    },
+    {
+      "text": "Perhatikan teks di bawah ini\n\n(1)Lingkungan yang sehat adalah tanggung jawab bersama semua orang. (2)Setiap individu harus menjaga kebersihan dengan tidak membuang sampah sembarangan. (3)Selain itu, pemerintah juga bertanggungjawab dalam menyediakan fasilitas yang mendukung kebersihan dan kelestarian lingkungan. (4)Dengan kerja sama yang baik antara masyarakat dan pemerintah, kondisi lingkungan dapat tetap terjaga. (5)Oleh karena itu, kesadaran akan pentingnya menjaga lingkungan harus terus ditingkatkan di semua lapisan masyarakat.\n\nKata yang penulisannya salah terdapat pada kalimat…",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5)"
+      ],
+      "correctAnswer": "(3)",
+      "explanation": "Kata \"bertanggungjawab\" pada kalimat (3) seharusnya ditulis terpisah menjadi \"bertanggung jawab\" karena gabungan kata tersebut hanya mendapat awalan (ber-), bukan gabungan awalan dan akhiran sekaligus."
+    },
+    {
+      "text": "Kalimat di bawah ini yang benar dalam penulisan kata adalah kecuali…",
+      "options": [
+        "Pemerintah dan masyarakat harus bekerja sama untuk mengatasi masalah sosial di perkotaan.",
+        "Banyak tunawisma yang membutuhkan bantuan agar bisa mendapatkan tempat tinggal yang layak.",
+        "Minyak goreng nonkolesterol semakin populer di kalangan masyarakat yang peduli dengan kesehatan.",
+        "Setelah menyelesaikan program pasca sarjana, ia mendapatkan kesempatan bekerja di sebuah perusahaan multinasional.",
+        "Alat ini dirancang dengan fitur multifungsi sehingga dapat digunakan untuk berbagai keperluan rumah tangga."
+      ],
+      "correctAnswer": "Setelah menyelesaikan program pasca sarjana, ia mendapatkan kesempatan bekerja di sebuah perusahaan multinasional.",
+      "explanation": "Bentuk terikat \"pasca\" harus ditulis serangkai dengan kata yang mengikutinya, sehingga penulisan yang benar adalah \"pascasarjana\"."
+    },
+    {
+      "text": "Kalimat di bawah ini yang terdapat kesalahan penulisan kata adalah kecuali …..",
+      "options": [
+        "Kami menyampaikan bela sungkawa yang mendalam atas kepergian beliau.",
+        "Dia selalu memakai kacamata saat membaca agar matanya tidak cepat lelah.",
+        "Olah raga rutin sangat penting untuk menjaga kesehatan tubuh.",
+        "Orangtua berperan besar dalam membentuk karakter dan pendidikan anak.",
+        "Limbah radio aktif harus ditangani dengan sangat hati-hati agar tidak mencemari lingkungan."
+      ],
+      "correctAnswer": "Dia selalu memakai kacamata saat membaca agar matanya tidak cepat lelah.",
+      "explanation": "Kalimat B ditulis dengan benar karena \"kacamata\" ditulis serangkai. Pilihan lainnya salah karena: \"bela sungkawa\" seharusnya \"belasungkawa\", \"olah raga\" seharusnya \"olahraga\", \"orangtua\" seharusnya \"orang tua\", dan \"radio aktif\" seharusnya \"radioaktif\"."
+    },
+    {
+      "text": "Perhatikan teks di bawah ini.\n\n(1)Kesehatan mental adalah aspek penting yang sering diabaikan dalam kehidupan sehari-hari. (2)Banyak orang mengalami tekanan yang menyebabkan mereka merasa tertekan atau berada dibawah beban berat. (3)Oleh karena itu, menjaga keseimbangan antara pekerjaan dan istirahat sangatlah penting. (4)Selain itu, dukungan dari keluarga dan teman juga bisa membantu meringankan beban. (5)Dengan perhatian yang tepat, kesehatan mental dapat terjaga dengan baik.\n\nPada teks di atas, kalimat (2) perlu diperbaiki dengan cara…",
+      "options": [
+        "menambahkan tanda koma (,) setelah kata orang.",
+        "menghilangkan kata menyebabkan",
+        "mengganti kata merasa menjadi terasa.",
+        "mengganti penulisan dibawah menjadi di bawah.",
+        "Tidak perlu diperbaiki"
+      ],
+      "correctAnswer": "mengganti penulisan dibawah menjadi di bawah.",
+      "explanation": "Kata depan \"di\" yang menunjukkan tempat/posisi harus ditulis terpisah dari kata yang mengikutinya, sehingga \"dibawah\" harus diperbaiki menjadi \"di bawah\"."
+    },
+    {
+      "text": "Kalimat di bawah ini yang memiliki kesalahan penulisan kata adalah….",
+      "options": [
+        "Mereka pun turut mendukung pembangunan pasar tradisional itu.",
+        "Walaupun hari masih pagi, para pegawai kantor itu sudah banyak yang datang.",
+        "Jangankan dua kali sekali pun dia belum pernah datang ke rumahku.",
+        "Mahasiswa diminta keluar ruang kuliah satu per satu secara tertib.",
+        "Per lebar gelaran tikarnya agar dapat memuat banyak tamu!"
+      ],
+      "correctAnswer": "Per lebar gelaran tikarnya agar dapat memuat banyak tamu!",
+      "explanation": "Kata \"Per lebar\" seharusnya ditulis serangkai menjadi \"Perlebar\" karena \"per-\" di sini berfungsi sebagai imbuhan (prefiks) pembentuk kata kerja."
+    },
+    {
+      "text": "Kalimat di bawah ini memiliki penulisan kata yang tepat adalah kecuali…..",
+      "options": [
+        "Rumah Sakit Cipto Mangunkusumo merupakan salah satu rumah sakit terbesar dan terkemuka di Indonesia yang memberikan layanan medis berkualitas.",
+        "Korban kecelakaan lalu lintas itu dibawa ke Puskesmas terdekat.",
+        "Kementerian Kesehatan RI telah menegaskan setiap rumah sakit tidak boleh menolak pasien miskin.",
+        "Sekarang layanan Rumah Sakit Fatmawati Jakarta Selatan sudah sangat baik.",
+        "Posyandu tersebut memberikan makanan bergizi bagi balita."
+      ],
+      "correctAnswer": "Korban kecelakaan lalu lintas itu dibawa ke Puskesmas terdekat.",
+      "explanation": "Kata \"Puskesmas\" pada kalimat B seharusnya ditulis dengan huruf kecil (\"puskesmas\") karena tidak diikuti oleh nama diri puskesmas tersebut."
+    },
+    {
+      "text": "Perhatikan kalimat berikut.\n\nSemua bandara di Indonesia telah menempatkan bahasa Indonesia di tempat paling atas dalam menuliskan papan petunjuk.\n\nPada kalimat di atas, perlu diperbaiki dengan cara …..",
+      "options": [
+        "menambahkan kata negara sebelum kata Indonesia.",
+        "mengganti penulisan bandara menjadi Bandara.",
+        "menghilangkan kata dalam.",
+        "mengganti penulisan bahasa Indonesia menjadi Bahasa Indonesia.",
+        "Tidak perlu diperbaiki."
+      ],
+      "correctAnswer": "Tidak perlu diperbaiki.",
+      "explanation": "Kalimat tersebut sudah ditulis dengan benar sesuai kaidah bahasa Indonesia. Kata \"bandara\" ditulis dengan huruf kecil karena bersifat umum, dan \"bahasa Indonesia\" ditulis dengan huruf kecil pada kata \"bahasa\" dan huruf kapital pada \"Indonesia\"."
+    },
+    {
+      "text": "Kalimat di bawah ini salah dalam penulisannya adalah…",
+      "options": [
+        "Setiap orang mendapatkan bantuan beras seberat 20 kg.",
+        "Luas tanah itu lebih dari 5.000 meter.",
+        "Koruptor itu divonis 15 tahun penjara dan denda sebanyak 2 miliar rupiah.",
+        "Harga sepeda motor itu Rp43.000.000,00.",
+        "Ruang kerjanya di Gedung Merapi, Lantai tiga, Kamar 201."
+      ],
+      "correctAnswer": "Ruang kerjanya di Gedung Merapi, Lantai tiga, Kamar 201.",
+      "explanation": "Kata \"Lantai\" pada \"Lantai tiga\" seharusnya ditulis dengan huruf kecil (\"lantai tiga\") karena bukan merupakan bagian dari nama diri geografi atau nama lembaga resmi."
+    },
+    {
+      "text": "Perhatikan teks di bawah ini.\n\n(1)Menteri Keuangan RI baru saja mengumumkan kebijakan fiskal yang bertujuan untuk menstabilkan perekonomian nasional. (2)Dalam rapat kabinet, Menteri Keuangan RI mensampaikan pentingnya menjaga defisit anggaran agar tidak terlalu besar. (3)Selain itu, Menteri Keuangan RI juga menegaskan perlunya reformasi pajak guna meningkatkan penerimaan negara. (4)Untuk mengatasi krisis global, Menteri Keuangan RI telah mengusulkan beberapa strategi jangka panjang yang fokus pada penguatan investasi domestik. (5)Di akhir pertemuan, Menteri Keuangan RI menekankan sinergi di antara kementerian sangat penting untuk mencapai pertumbuhan ekonomi yang berkelanjutan.\n\nPada teks di atas, kalimat manakah yang memiliki kesalahan dalam penulisan kata….",
+      "options": [
+        "Kalimat (1)",
+        "Kalimat (2)",
+        "Kalimat (5)",
+        "Kalimat (4)",
+        "Kalimat (3)"
+      ],
+      "correctAnswer": "Kalimat (2)",
+      "explanation": "Kata \"mensampaikan\" pada kalimat (2) salah. Sesuai kaidah peluluhan fonem K-P-T-S, awalan me- bertemu kata dasar yang diawali huruf 's' (sampaikan) akan luluh menjadi 'ny', sehingga penulisan yang benar adalah \"menyampaikan\"."
+    },
+    {
+      "text": "Manakah penulisan kata yang tidak sesuai dengan ejaan yang benar….",
+      "options": [
+        "matahari, perilaku, kasatmata",
+        "acapkali, wiraswasta, sukarela",
+        "bumiputra, dukacita, segitiga",
+        "sapu tangan, apalagi, rumah sakit",
+        "tanda tangan, kaki tangan, puspawarna"
+      ],
+      "correctAnswer": "sapu tangan, apalagi, rumah sakit",
+      "explanation": "Berdasarkan EYD Edisi V, kata \"saputangan\" ditulis serangkai (gabungan kata yang sudah padu), sehingga penulisan terpisah \"sapu tangan\" pada pilihan D adalah tidak tepat."
+    }
+  ]
+}

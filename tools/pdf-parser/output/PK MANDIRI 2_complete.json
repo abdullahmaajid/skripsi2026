@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Jika $a^3 > b^2 > 1$, maka pernyataan yang benar adalah ...",
+      "options": [
+        "a selalu lebih besar dari b",
+        "a tidak pernah lebih besar dari b",
+        "a sama dengan b",
+        "a belum tentu lebih besar dari b",
+        "3a + 2b > 6"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar berikut : Jika AD = DB dan AC = CD, maka x - y = ...",
+      "options": [
+        "15^\\circ",
+        "20^\\circ",
+        "25^\\circ",
+        "30^\\circ",
+        "35^\\circ"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada gambar persegi panjang ABCD titik E berada pada sisi AB. Jika AB = 10, dan AD = 5, maka luas daerah yang diarsir adalah ...",
+      "options": [
+        "45",
+        "40",
+        "35",
+        "30",
+        "25"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika a dan b adalah angka-angka pada bilangan yang memenuhi (100a + b)((2a + b)/4) = 2024, maka nilai b = ...",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika x = 10a, y = 3b, z = 7c dan x : y : z = 10 : 3 : 7, maka \\frac{7x + 2y + 5z}{8a + b + 3c} = ...",
+      "options": [
+        "\\frac{111}{12}",
+        "\\frac{7}{6}",
+        "\\frac{8}{15}",
+        "\\frac{108}{123}",
+        "\\frac{135}{202}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kadar karbon dari senyawa kimia yang beratnya 2,8 gram adalah 90%. Setelah 10 tahun kadar karbon pada senyawa tersebut turun menjadi 85%. Berat senyawa sekarang adalah ...",
+      "options": [
+        "2,1 gram",
+        "2,3 gram",
+        "2,5 gram",
+        "2,6 gram",
+        "2,7 gram"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika 2n + 1 dibagi 7 bersisa 5, maka jika 4n dibagi 7 akan bersisa ...",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "Tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar berikut. Tentukan nilai x ...",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar berikut. Tentukan nilai y ...",
+      "options": [
+        "55",
+        "53",
+        "49",
+        "44",
+        "42"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Nilai x pada gambar adalah ...",
+      "options": [
+        "44",
+        "30",
+        "16",
+        "9",
+        "7"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah kubus rusuknya 8 cm. Semua sisinya dicat biru. Kubus itu dipotong-potong menjadi kubus-kubus kecil dengan rusuk 2 cm. Maka peluang terambil kubus tidak bercat biru adalah ...",
+      "options": [
+        "1/8",
+        "1/4",
+        "1/2",
+        "3/8",
+        "3/16"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Syarat agar dapat diterima di universitas adalah nilai TPS tidak kurang dari 700 dan nilai TKA tidak kurang dari 650, Sedangkan jumlah nilai keduanya tidak kurang dari 1300. Seorang siswa yang jumlah 2 kali nilai TPS dan satu kali nilai TKA sama dengan 2065, maka siswa tersebut ...",
+      "options": [
+        "Pasti diterima",
+        "Pasti ditolak",
+        "Diterima asal nilai TPS lebih dari 750",
+        "Diterima asal nilai TKA lebih dari 670",
+        "Diterima hanya jika nilai TPS 650"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Untuk masuk ke tahap seleksi berikutnya diberikan soal level A dan level B. Soal bagian level A terdiri dari 4 pertanyaan, peserta diwajibkan menjawab keempat pertanyaan, sementara itu untuk soal level B terdiri atas 5 pertanyaan, peserta harus menjawab minimal 3 pertanyaan. Peserta boleh memilih untuk mengerjakan level A atau level B terlebih dahulu. Dalam berapa cara peserta mengerjakan soal tersebut?",
+      "options": [
+        "16 cara",
+        "28 cara",
+        "32 cara",
+        "48 cara",
+        "72 cara"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Hasil dari 4^6 + 4^6 + 4^6 + 4^6 + 4^6 + 4^6 + 4^6 + 4^6 = 32^{n-3}, maka nilai n = ...",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah persegi panjang berukuran 24 \\times 32 akan dibuat bujur sangkar dengan memakai seluruh bagian persegi panjang. Berapa banyak bujur sangkar yang mungkin dibuat?",
+      "options": [
+        "7",
+        "6",
+        "5",
+        "4",
+        "Tidak ada yang benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perbandingan perserta UTBK Soshum dan Saintek adalah di sebuah sekolah adalah 3 : 5. Di antara berikut, jumlah peserta UTBK di sekolah tersebut adalah ...",
+      "options": [
+        "208",
+        "235",
+        "224",
+        "286",
+        "Tidak ada yang benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika di sebuah toko terdapat sebanyak x lampu merek A dan sebanyak y lampu merek B, dan jumlah seluruh lampu adalah 108. Maka pernyataan berikut yang benar adalah ...",
+      "options": [
+        "x = 2y",
+        "x = 3y",
+        "x = 5y",
+        "x = 7y",
+        "Tidak ada yang benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui sebuah lingkaran, dimana di dalamnya terdapat lingkaran yang saling bersinggungan, maka luas diluar ketiga lingkaran kecil tetapi di dalam lingkaran besar adalah? Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut? (1) Diketahui jari-jari lingkaran kecil (2) Diketahui luas lingkaran besar",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+        "Baik pernyataan (1) SAJA maupun pernyataan (2) SAJA cukup untuk menjawab pertanyaan.",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika a dan b bilangan real, maka \\frac{2a - 3b}{a} = ...? Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut? (1) \\frac{b - a}{a} nilainya diketahui (2) ab nilainya diketahui",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+        "Baik pernyataan (1) SAJA maupun pernyataan (2) SAJA cukup untuk menjawab pertanyaan.",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui lima bilangan a, b, c, d, e terurut. Rata-rata semua bilangan adalah 8,1. Jika median sama dengan bilangan kedua. Maka mediannya adalah ... Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut? (1) Rata-rata a, d, e adalah 7,5 (2) Jangkauan data = 9",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+        "Baik pernyataan (1) SAJA maupun pernyataan (2) SAJA cukup untuk menjawab pertanyaan.",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

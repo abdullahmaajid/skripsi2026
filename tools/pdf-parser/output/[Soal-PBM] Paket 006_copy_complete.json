@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Kata yang penulisannya salah terdapat pada kalimat...",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5)"
+      ],
+      "correctAnswer": "(3)",
+      "explanation": "Kata 'bertanggungjawab' pada kalimat (3) penulisannya salah karena seharusnya dipisah menjadi 'bertanggung jawab'."
+    },
+    {
+      "text": "Kalimat di bawah ini yang benar dalam penulisan kata adalah kecuali...",
+      "options": [
+        "Pemerintah dan masyarakat harus bekerja sama untuk mengatasi masalah sosial di perkotaan",
+        "Banyak tunawisma yang membutuhkan bantuan agar bisa mendapatkan tempat tinggal yang layak",
+        "Minyak goreng nonkolesterol semakin populer di kalangan masyarakat yang peduli dengan kesehatan",
+        "Setelah menyelesaikan program pasca sarjana, ia mendapatkan kesempatan bekerja di sebuah perusahaan multinasional",
+        "Alat ini dirancang dengan fitur multifungsi sehingga dapat digunakan untuk berbagai keperluan rumah tangga"
+      ],
+      "correctAnswer": "Setelah menyelesaikan program pasca sarjana, ia mendapatkan kesempatan bekerja di sebuah perusahaan multinasional",
+      "explanation": "Bentuk terikat 'pasca-' harus dirangkai dengan kata yang mengikutinya, sehingga penulisan yang benar adalah 'pascasarjana', bukan 'pasca sarjana'."
+    },
+    {
+      "text": "Kalimat di bawah ini yang terdapat kesalahan penulisan kata adalah kecuali .....",
+      "options": [
+        "Kami menyampaikan bela sungkawa yang mendalam atas kepergian beliau",
+        "Dia selalu memakai kacamata saat membaca agar matanya tidak cepat lelah",
+        "Olah raga rutin sangat penting untuk menjaga kesehatan tubuh",
+        "Orangtua berperan besar dalam membentuk karakter dan pendidikan anak",
+        "Limbah radio aktif harus ditangani dengan sangat hati-hati agar tidak mencemari lingkungan"
+      ],
+      "correctAnswer": "Dia selalu memakai kacamata saat membaca agar matanya tidak cepat lelah",
+      "explanation": "Pilihan B menggunakan kata 'kacamata' yang sudah benar penulisannya. Pilihan A salah (bela sungkawa -> belasungkawa), C salah (olah raga -> olahraga), D salah (Orangtua -> Orang tua), E salah (radio aktif -> radioaktif)."
+    },
+    {
+      "text": "Pada teks di atas, kalimat (2) perlu diperbaiki dengan cara...",
+      "options": [
+        "menambahkan tanda koma (,) setelah kata orang",
+        "menghilangkan kata menyebabkan",
+        "mengganti kata merasa menjadi terasa",
+        "mengganti penulisan dibawah menjadi di bawah",
+        "Tidak perlu diperbaiki"
+      ],
+      "correctAnswer": "mengganti penulisan dibawah menjadi di bawah",
+      "explanation": "Kata 'dibawah' pada kalimat (2) teks kedua merupakan kata depan yang menunjukkan tempat, sehingga penulisannya harus dipisah menjadi 'di bawah'."
+    },
+    {
+      "text": "Kalimat di bawah ini yang memiliki kesalahan penulisan kata adalah....",
+      "options": [
+        "Mereka pun turut mendukung pembangunan pasar tradisional itu",
+        "Walaupun hari masih pagi, para pegawai kantor itu sudah banyak yang datang",
+        "Jangankan dua kali sekali pun dia belum pernah datang ke rumahku",
+        "Mahasiswa diminta keluar ruang kuliah satu per satu secara tertib",
+        "Per lebar gelaran tikarnya agar dapat memuat banyak tamu!"
+      ],
+      "correctAnswer": "Per lebar gelaran tikarnya agar dapat memuat banyak tamu!",
+      "explanation": "Awalan per- atau bentuk gabung yang bermakna 'buatlah menjadi' ditulis serangkai, sehingga seharusnya ditulis 'perlebar', bukan 'Per lebar'."
+    },
+    {
+      "text": "Kalimat di bawah ini yang menggunakan aturan sesuai EYD adalah kecuali ....",
+      "options": [
+        "Karena laporan praktikumnya terlambat, mereka ditegur dosen",
+        "Dita membaca buku fiksi; Rian membaca artikel; Syifa membaca majalah",
+        "Tahun ini bangsa Indonesia merayakan Hari Ulang Tahun Ke-79 Republik Indonesia",
+        "Tahun ini di Bandung tiga ratus sembilan puluh orang guru telah lulus sertifikasi guru",
+        "Sudah diterima uang sebesar Rp4.500.000,00 (empat juta lima ratus ribu rupiah) untuk pembelian sebuah televisi merek Jos"
+      ],
+      "correctAnswer": "Tahun ini di Bandung tiga ratus sembilan puluh orang guru telah lulus sertifikasi guru",
+      "explanation": "Bilangan di atas dua kata yang tidak ditulis dengan angka harus ditulis menggunakan huruf secara lengkap jika berada di awal kalimat, atau jika ditulis angka sebaiknya menggunakan angka untuk kejelasan nominal besar seperti jumlah orang."
+    },
+    {
+      "text": "Kata yang tepat untuk mengisi kata rumpang pada kalimat (4) adalah......",
+      "options": [
+        "benar-benar",
+        "cukup",
+        "lebih",
+        "kurang",
+        "kurang lebih"
+      ],
+      "correctAnswer": "lebih",
+      "explanation": "Kalimat (4): 'Dengan minum susu sebelum beraktifitas, tubuh akan lebih bertenaga dan lebih siap menjalani berbagai kegiatan.'"
+    },
+    {
+      "text": "Kata yang tepat untuk mengisi kata rumpang pada kalimat (6) adalah....",
+      "options": [
+        "menurunkan",
+        "meningkatkan",
+        "mengurangi",
+        "melindungi",
+        "menyesuaikan"
+      ],
+      "correctAnswer": "meningkatkan",
+      "explanation": "Susu bermanfaat dalam menjaga kesehatan otot dan meningkatkan kekebalan tubuh."
+    },
+    {
+      "text": "Kata hubung yang tepat untuk mengisi kata rumpang di kalimat (9).....",
+      "options": [
+        "Namun,",
+        "Sedangkan,",
+        "Oleh karena itu,",
+        "Dan,",
+        "Padahal,"
+      ],
+      "correctAnswer": "Oleh karena itu,",
+      "explanation": "Kalimat (9) menyatakan kesimpulan dari kalimat-kalimat sebelumnya mengenai konsumsi susu."
+    },
+    {
+      "text": "Penulisan kata yang tidak sesuai dengan kaidah terdapat pada...",
+      "options": [
+        "Kata “memberikan” pada kalimat (1)",
+        "Kata “mengandung” pada kalimat (2)",
+        "Kata “beraktifitas” pada kalimat (4)",
+        "Kata “disesuaikan” pada kalimat (7)",
+        "Kata “menyebabkan” pada kalimat (8)"
+      ],
+      "correctAnswer": "Kata “beraktifitas” pada kalimat (4)",
+      "explanation": "Bentuk baku dari 'beraktifitas' adalah 'beraktivitas' karena unsur serapan dari 'activity' menggunakan huruf 'v'."
+    },
+    {
+      "text": "Kalimat di bawah ini yang menggunakan aturan sesuai EYD adalah kecuali ....",
+      "options": [
+        "Terimalah bingkisan ini sebagai hadiah atas keberhasilanmu pada ujian masuk UGM dan diterima di Fakultas Ekonomi.",
+        "Dalam waktu dua bulan, penelitian itu harus kamu selesaikan.",
+        "Gedung Fakultas Peternakan terletak di bagian Timur sendiri di kawasan kampus ini.",
+        "Para ahli hukum berusaha merumuskan kerangka undang-undang untuk mencegah terjadinya pelanggaran hak-hak asasi manusia.",
+        "Setelah diberitahu oleh dokter, dia bersedia untuk menjalani operasi agar penyakitnya sembuh."
+      ],
+      "correctAnswer": "Gedung Fakultas Peternakan terletak di bagian Timur sendiri di kawasan kampus ini.",
+      "explanation": "Kata 'Timur' tidak perlu menggunakan huruf kapital karena tidak diikuti nama geografi spesifik, cukup ditulis 'timur'."
+    },
+    {
+      "text": "Kata yang tepat untuk mengisi kata rumpang pada kalimat (1) adalah......",
+      "options": [
+        "mengelola",
+        "merancang",
+        "membangun",
+        "menciptakan",
+        "mengembangkan"
+      ],
+      "correctAnswer": "merancang",
+      "explanation": "Konteks kalimat (1) berkaitan dengan merancang dan memproduksi mobil balap."
+    },
+    {
+      "text": "Pada teks tersebut, manakah kata yang ditulis tidak sesuai dengan kaidah...",
+      "options": [
+        "memproduksi pada kalimat (1)",
+        "di tingkat pada kalimat (3)",
+        "performa pada kalimat (4)",
+        "di harapkan pada kalimat (9)",
+        "berkolaborasi pada kalimat (6)"
+      ],
+      "correctAnswer": "di harapkan pada kalimat (9)",
+      "explanation": "Kata 'di harapkan' pada kalimat (9) seharusnya ditulis serangkai 'diharapkan' karena merupakan bentuk kata kerja pasif."
+    },
+    {
+      "text": "Kata hubung yang tepat untuk mengisi kata rumpang di kalimat (3).....",
+      "options": [
+        "tidak hanya,",
+        "bukan hanya,",
+        "untuk hanya,",
+        "ketika",
+        "tetapi"
+      ],
+      "correctAnswer": "tidak hanya,",
+      "explanation": "Pasangan konjungsi korelatif yang tepat untuk kalimat (3) adalah 'tidak hanya ..., tetapi juga ...'."
+    },
+    {
+      "text": "Struktur kalimat (7) adalah...",
+      "options": [
+        "S-P-O",
+        "S-P-O-K",
+        "K-S-P-O",
+        "K-S-P-K",
+        "K-S-P-Pel"
+      ],
+      "correctAnswer": "K-S-P-Pel",
+      "explanation": "Kalimat (7): 'Dengan dukungan yang tepat (K), diharapkan (P) sektor pertanian (S) dapat berkembang dan menghasilkan lebih banyak produk berkualitas tinggi (Pel).'"
+    },
+    {
+      "text": "Bu Veronika mengajari siswanya menulis aksara Jawa. Pola kalimat ini adalah....",
+      "options": [
+        "S-P-O-Pel-K",
+        "S-P-O-Pel",
+        "S-P-O",
+        "S-P-O-K",
+        "S-P-Pel"
+      ],
+      "correctAnswer": "S-P-O-Pel",
+      "explanation": "Bu Veronika (S) mengajari (P) siswanya (O) menulis aksara Jawa (Pel)."
+    },
+    {
+      "text": "Manakah yang paling tepat sebagai inti kalimat dari kalimat (1)?",
+      "options": [
+        "Teknologi pertanian",
+        "Teknologi pertanian semakin berkembang",
+        "Teknologi pertanian semakin berkembang pesat",
+        "Teknologi pertanian semakin berkembang pesat terutama dalam penggunaan mesin modern",
+        "Teknologi pertanian semakin berkembang pesat dalam mengolah lahan mereka"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat manakah yang paling efektif sebagai hasil penggabungan kalimat (6) dan (7)?",
+      "options": [
+        "Dukungan yang tepat dari pemerintah akan memudahkan petani dalam meningkatkan hasil pertanian",
+        "Pemerintah harus memberikan dukungan berupa pelatihan dan pembiayaan agar petani dapat memanfaatkan teknologi ini secara maksimal dalam meningkatkan hasil pertanian yang berkualitas",
+        "Dukungan pemerintah dalam bentuk pelatihan dan pembiayaan sangat dibutuhkan petani agar dapat mengoptimalkan teknologi pertanian",
+        "Pembiayaan dan pelatihan untuk petani sangat diperlukan agar teknologi pertanian dapat diterapkan dengan baik",
+        "Petani harus mendapatkan dukungan yang tepat dari pemerintah untuk memanfaatkan teknologi pertanian"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata yang paling tepat menggantikan kata \"investasi\" dalam kalimat (5) adalah ....",
+      "options": [
+        "Pembiayaan",
+        "Dukungan",
+        "Modal",
+        "Dana",
+        "Subsidi"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat manakah yang mengandung kata tidak baku?",
+      "options": [
+        "kalimat 1",
+        "kalimat 2",
+        "kalimat 4",
+        "kalimat 6",
+        "kalimat 7"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

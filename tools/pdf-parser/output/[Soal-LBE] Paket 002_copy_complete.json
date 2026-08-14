@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "A: \"Did you receive our inquiry? When will we receive your confirmation?\"\nB: \"My apology. It seems that ________. Could you possibly resend it?\"",
+      "options": [
+        "we mislay your letter",
+        "your letter is mislaid",
+        "we had mislaid your letter",
+        "your letter has been mislaid",
+        "your letter was mislaid"
+      ],
+      "correctAnswer": "your letter has been mislaid",
+      "explanation": "The context implies a past action with relevance to the present (the letter is missing now). The present perfect passive 'has been mislaid' correctly fits this description."
+    },
+    {
+      "text": "_______ a new policy related to the establishment of business was released, entrepreneurs had found it difficult to get a license for their new businesses.",
+      "options": [
+        "When",
+        "After",
+        "Since",
+        "Until",
+        "While"
+      ],
+      "correctAnswer": "Until",
+      "explanation": "Until indicates that up to the time the new policy was released, entrepreneurs faced difficulties getting a license."
+    },
+    {
+      "text": "A: \"Excuse me. Could you tell me which bus I should take to get to Plaza Indonesia?\"\nB: \"Sorry, I don’t know. You _________ ask the driver.\"",
+      "options": [
+        "could have",
+        "had better",
+        "ought to have",
+        "must have",
+        "would rather"
+      ],
+      "correctAnswer": "had better",
+      "explanation": "'Had better' is used to give advice or make a strong recommendation about what someone should do in the present situation."
+    },
+    {
+      "text": "By the time Mr. Arifin retires, his youngest child will have graduated from university. This means that Mr. Arifin ______ when his youngest son graduates.",
+      "options": [
+        "will still work",
+        "will retire",
+        "doesn’t want to retire",
+        "wants to work",
+        "doesn’t want to work"
+      ],
+      "correctAnswer": "will still work",
+      "explanation": "Since he retires after his youngest child graduates, he is still working at the time of graduation."
+    },
+    {
+      "text": "How many persons is the cake for?",
+      "options": [
+        "2",
+        "5",
+        "6",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "6",
+      "explanation": "According to the recipe's yield section: 'Yield : 6 servings'."
+    },
+    {
+      "text": "The goal of the text is to tell about …",
+      "options": [
+        "how to beat cream cheese",
+        "how to blend sugar and vanilla",
+        "how to bake chocolate cheese and cake",
+        "how make chocolate cheese cake",
+        "how to make mini sweet chocolate chips"
+      ],
+      "correctAnswer": "how make chocolate cheese cake",
+      "explanation": "The recipe title and directions describe how to make a chocolate cheesecake."
+    },
+    {
+      "text": "The second paragraph is about…",
+      "options": [
+        "KOFIC announcement about 6.000 Won cinema discount to attract people to watch movies",
+        "Korean Film Council (KOFIC) push people to watch cinema",
+        "KOFIC coupon distributed in several cinemas",
+        "Discount given to support Korean film industry",
+        "KOFIC cinema discount amidst COVID-19 mass infections in Seoul"
+      ],
+      "correctAnswer": "KOFIC announcement about 6.000 Won cinema discount to attract people to watch movies",
+      "explanation": "Paragraph 2 details the announcement regarding the 6,000 won discount per movie ticket."
+    },
+    {
+      "text": "How is the last sentence of paragraph 1 related to paragraph 2 …",
+      "options": [
+        "Paragraph 1 give statement about movie ticket discount and paragraph 2 describing the statement from paragraph 1",
+        "Paragraph 1 give conclusion about paragraph 2 statement",
+        "Paragraph 1 identified problem discussed in paragraph 2",
+        "Paragraph 1 state problem discussed in paragraph 2",
+        "Paragraph 1 summarize the paragraph 2"
+      ],
+      "correctAnswer": "Paragraph 1 give statement about movie ticket discount and paragraph 2 describing the statement from paragraph 1",
+      "explanation": "Paragraph 1 introduces the general idea of discount coupons, and paragraph 2 provides specific details/description about them."
+    },
+    {
+      "text": "The word cinemagoers in paragraph 2 can best be replaced by",
+      "options": [
+        "Monologue",
+        "Spectator",
+        "Audience",
+        "Participant",
+        "Player"
+      ],
+      "correctAnswer": "Audience",
+      "explanation": "Cinemagoers refers to people who go to the cinema to watch movies, synonymous with audience or moviegoers."
+    },
+    {
+      "text": "Why The Korean Film Council (KOFIC) give movie ticket discount coupon across theatres in Korea…",
+      "options": [
+        "Minimize Coronavirus impact to Korean movie industry",
+        "Prevent coronavirus in Korea theatres",
+        "Attract people to attend to cinema during Coronavirus pandemic",
+        "Give discount to Korean cinemagoers",
+        "Announce cinema discount all over Korea"
+      ],
+      "correctAnswer": "Attract people to attend to cinema during Coronavirus pandemic",
+      "explanation": "The text states the film industry is ushering people to cinemas with discount coupons despite fears concerning the Coronavirus."
+    },
+    {
+      "text": "The primary purpose of this passage is to…",
+      "options": [
+        "Blame Bill Gates creates COVID-19 pandemic worldwide",
+        "Wuhan city biological laboratory suspected making biological weapon",
+        "Evolution of SARS Cov-2 to become Coronavirus",
+        "Coronavirus pandemic affect global community",
+        "Explain coronavirus in scientific way despite plenty conspiracy theories behind it"
+      ],
+      "correctAnswer": "Explain coronavirus in scientific way despite plenty conspiracy theories behind it",
+      "explanation": "The passage discusses various conspiracy theories and refutes them with scientific context provided by a researcher."
+    },
+    {
+      "text": "The word \"plethora\" in paragraph 1 can best be replaced by…",
+      "options": [
+        "Flooding",
+        "Many",
+        "A bit",
+        "A little to",
+        "Probability"
+      ],
+      "correctAnswer": "Many",
+      "explanation": "Plethora means a large or excessive amount of something, similar in meaning to 'many'."
+    },
+    {
+      "text": "How coronavirus spread within humans…",
+      "options": [
+        "Coronavirus evolve and survive by infecting human",
+        "Coronavirus origin in China as biological weapons program",
+        "Infecting animals’ intestine and its respiratory system thus infecting human",
+        "Designed intentionally made by major pharmaceutical companies",
+        "Coronavirus exist since 1965 as at the time"
+      ],
+      "correctAnswer": "Infecting animals’ intestine and its respiratory system thus infecting human",
+      "explanation": "The text mentions it infected mammals and birds, affecting respiratory systems and eventually humans."
+    },
+    {
+      "text": "The writer’s background to write this passage is to…",
+      "options": [
+        "Explain the spread of Coronavirus to human",
+        "Show the evolution process of Coronavirus",
+        "Mention the regions infected by Coronavirus",
+        "Give the statement from Sultan Hasanuddin researcher about Coronavirus",
+        "Tell the facts about Coronavirus to clarify conspiracy theories behind it"
+      ],
+      "correctAnswer": "Tell the facts about Coronavirus to clarify conspiracy theories behind it",
+      "explanation": "The author presents conspiracy theories followed by scientific facts and expert statements to address them."
+    },
+    {
+      "text": "What is the topic of the passage?",
+      "options": [
+        "he art of teaching geography",
+        "The world’s physical geography",
+        "Topical approaches in teaching geography",
+        "Different strategies in teaching geography",
+        "The geographical topics in the national curriculum"
+      ],
+      "correctAnswer": "The geographical topics in the national curriculum",
+      "explanation": "The text discusses how geography is approached and taught across key stages within the National Curriculum."
+    },
+    {
+      "text": "The underlined word 'seasonal' in paragraph 2 means ....",
+      "options": [
+        "Serial",
+        "Cyclical",
+        "Current",
+        "Regular",
+        "Situational"
+      ],
+      "correctAnswer": "Cyclical",
+      "explanation": null
+    },
+    {
+      "text": "According to the passage, key stage 2 focuses more on ....",
+      "options": [
+        "The Tropics of Cancer and Capricorn",
+        "Broader geographical abilities",
+        "Patterns of climate change",
+        "Geographical physics",
+        "The trip to Iceland"
+      ],
+      "correctAnswer": "Broader geographical abilities",
+      "explanation": null
+    },
+    {
+      "text": "An appropriate title for the text is ...",
+      "options": [
+        "Linguistic Analysis Program: A New Invention",
+        "Psychological Analysis in US Presidents’ Speeches",
+        "How the Use of Articles and Pronouns Reveals Our Characters.",
+        "What Your Choice of Words Says About Your Personality",
+        "Low-level Words That Give Clues to Large-Scale Behavior"
+      ],
+      "correctAnswer": "What Your Choice of Words Says About Your Personality",
+      "explanation": null
+    },
+    {
+      "text": "According to the text, how does LIWC help analyze president candidates’ speeches?",
+      "options": [
+        "It does the quantitative analysis, which was later used by psychologists",
+        "It helps the psychologist reveal the candidates’ hidden motives",
+        "It makes analysis of nouns and verbs used by the candidates during their speeches",
+        "It counts how many inappropriate words are used by the candidates",
+        "It provides psychological research on the connection of word usage and people’s personality"
+      ],
+      "correctAnswer": "It does the quantitative analysis, which was later used by psychologists",
+      "explanation": null
+    },
+    {
+      "text": "According to the text, which of the following statements about LIWC is FALSE?",
+      "options": [
+        "The software cannot detect unconscious use of words",
+        "The software is able to count certain words and analyze the numbers",
+        "By using LIWC, we learn about the characteristics of the US presidential candidates",
+        "LIWC’s result confirms that people’s characters affect their word usage",
+        "The software works on the basis of the psychologists’ analysis design"
+      ],
+      "correctAnswer": "The software cannot detect unconscious use of words",
+      "explanation": null
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "questions": [
+    {
+      "text": "Bentuk sederhana dari penjumlahan dua bilangan antara $\\frac{1}{4}$ dan \\frac{6}{12} adalah.....",
+      "options": [
+        "\\frac{1}{12}",
+        "\\frac{1+\\frac{7}{2}}{4}",
+        "\\frac{3}{4}",
+        "\\frac{4}{3}",
+        "\\frac{1}{12}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Persamaan kuadrat $3x^2 - 2px + 6$ memiliki nilai diskriminan $28$, dengan $p$ adalah bilangan bulat negatif. Nilai $p$ dari persamaan kuadrat tersebut adalah....",
+      "options": [
+        "-5",
+        "-6",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": "-5",
+      "explanation": "D = b^2 - 4ac, 28 = (-2p)^2 - 4(3)(6), 28 = 4p^2 - 72, 100 = 4p^2, p^2 = 25, p = -5"
+    },
+    {
+      "text": "Fungsi linear $y = 2x - 7$ menyinggung kurva $y = x^2 - kx + 2$ Dimana $k$ adalah bilangan bulat positif.\n\n| P | Q |\n|---|---|\n| k | 4 |",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "P = Q",
+      "explanation": "y_garis = y_kurva, 2x - 7 = x^2 - kx + 2, x^2 - (k+2)x + 9 = 0, D = b^2 - 4ac = 0, (k+2)^2 - 36 = 0, k = 4"
+    },
+    {
+      "text": "Kurva $y = x^2 + kx + 5$ tidak dilalui oleh garis $y = 3x - k$. Maka interval nilai $k$ yang memenuhi adalah....",
+      "options": [
+        "-11 < k < 1",
+        "-1 < k < 11",
+        "-3 < k < 4",
+        "-4 < k < 3",
+        "-5 < k < 2"
+      ],
+      "correctAnswer": "-1 < k < 11",
+      "explanation": "D < 0 for no intersection, y_garis = y_kurva, 3x - k = x^2 + kx + 5, x^2 + (k-3)x + (5+k) = 0, D = (k-3)^2 - 4(5+k) < 0, k^2 - 10k - 11 < 0, -1 < k < 11"
+    },
+    {
+      "text": "Diberikan persamaan garis lurus $k$ yaitu $px - y = 1$ berpotongan dengan garis $l$ di satu titik yaitu $4x - 2y = 2$. Maka nilai $p$ adalah",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "7"
+      ],
+      "correctAnswer": "2",
+      "explanation": "px - y = 1 => 2(px - y = 1) => 2px - 2y = 2. Since 4x - 2y = 2, 2p = 4, p = 2"
+    },
+    {
+      "text": "Sebuah segitiga siku-siku $ABC$ dengan siku-siku di $B$, memiliki nilai $\\sin \\alpha = \\frac{3}{7}$. Jika $\\beta$ adalah sudut di $A$ maka nilai dari $\\sin^2 \\alpha - \\cos^2 \\beta$ adalah.....",
+      "options": [
+        "\\frac{1}{2}",
+        "\\frac{3}{7}",
+        "\\frac{2\\sqrt{10}}{7}",
+        "0",
+        "\\frac{7}{2\\sqrt{10}}"
+      ],
+      "correctAnswer": "0",
+      "explanation": "In right triangle ABC with right angle B, angle A and angle C are complementary, so sin(alpha) = cos(beta), thus sin^2(alpha) - cos^2(beta) = 0"
+    },
+    {
+      "text": "Nilai $x$ sebagai solusi dari persamaan: $3^{2x+3} = \\sqrt[3]{27^{x+5}}$ Adalah....",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": "2",
+      "explanation": "3^{2x+3} = (3^3)^{(x+5)/3} = 3^{x+5}, 2x+3 = x+5, x = 2"
+    },
+    {
+      "text": "Diketahui $\\Delta ABC$ dan $\\Delta ADE$ sebangun.\n\n| P | Q |\n|---|---|\n| \\frac{1}{2}p + 8 | 3q - 20 |\n\nJika koordinat $E(p, q)$ manakah hubungan yang tepat antara kuantitas $P$ dan $Q$?",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "Tidak dapat ditentukan hubungan keduanya"
+      ],
+      "correctAnswer": "P < Q",
+      "explanation": "Using similarity ratios, E(p,q) = (40/3, 16). P = 1/2(40/3) + 8 = 44/3 = 14.66. Q = 3(16) - 20 = 28. Q > P."
+    },
+    {
+      "text": "Diketahui $\\Delta ABC$ dan $\\Delta ADE$ sebangun. Perbandingan luas kedua segitiga adalah ...",
+      "options": [
+        "2 : 1",
+        "4 : 1",
+        "9 : 4",
+        "5 : 2",
+        "5 : 3"
+      ],
+      "correctAnswer": "9 : 4",
+      "explanation": "Ratio of sides is 3:2, so ratio of areas is 3^2 : 2^2 = 9 : 4"
+    },
+    {
+      "text": "Jika $\\log_6 3 = x$ dan $\\log_6 2 = y$ maka $\\log_9 \\frac{2}{27} \\sqrt{2}$ dalam $x$ dan $y$ adalah....",
+      "options": [
+        "\\frac{3y - 6x}{2}",
+        "\\frac{6y - 3x}{2}",
+        "\\frac{6y - x}{2}",
+        "\\frac{3y - 6x}{3}",
+        "\\frac{y - x}{3}"
+      ],
+      "correctAnswer": "\\frac{3y - 6x}{2}",
+      "explanation": "Change base to 6. log_9 (2 / (27*sqrt(2))) = (log_6 2 - log_6 27 - 1/2 log_6 2) / log_6 9..."
+    },
+    {
+      "text": "Nilai mutlak $|5x - 6| - 4 = 10$ memiliki solusi $x$ yaitu...",
+      "options": [
+        "\\{4, 1\\frac{3}{5}\\}",
+        "\\{4, -1\\frac{3}{5}\\}",
+        "\\{-1\\frac{3}{5}, 0\\}",
+        "\\{2\\}",
+        "\\{4\\}"
+      ],
+      "correctAnswer": "\\{4, -1\\frac{3}{5}\\}",
+      "explanation": "|5x - 6| = 14, 5x - 6 = 14 or 5x - 6 = -14, 5x = 20 => x = 4, 5x = -8 => x = -8/5 = -1 3/5"
+    },
+    {
+      "text": "Diketahui $u_1, u_2, u_3$ sebagai barisan aritmetika. Jika suku ketiga ditambah dengan suku pertama akan membentuk barisan geometri. Maka nilai dari $\\frac{u_3}{u_1}$ adalah....",
+      "options": [
+        "6",
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "correctAnswer": "3",
+      "explanation": "u_1, u_2, u_3 in AP means u_2 = u_1 + b, u_3 = u_1 + 2b. u_3 + u_1 forms GP with u_1, u_2, u_3+u_1 => u_2^2 = u_1(u_3+u_1)... Solving gives u_3/u_1 = 3"
+    },
+    {
+      "text": "Diketahui kubus $ABCD.EFGH$ memiliki rusuk $5$ satuan Panjang. Maka perbandingan diagonal bidang dan diagonal ruangnya adalah....",
+      "options": [
+        "\\frac{1}{\\sqrt{3}}",
+        "\\frac{\\sqrt{3}}{3}",
+        "\\frac{\\sqrt{6}}{3}",
+        "\\frac{1}{6}",
+        "\\frac{\\sqrt{6}}{2}"
+      ],
+      "correctAnswer": "\\frac{\\sqrt{6}}{3}",
+      "explanation": "Diagonal bidang = s\\sqrt{2}, Diagonal ruang = s\\sqrt{3}. Ratio = \\sqrt{2}/\\sqrt{3} = \\sqrt{6}/3"
+    },
+    {
+      "text": "Diberikan balok $ABCD.EFGH$ dengan $AB = 5$ satuan panjang, dan $BC = 4$ satuan panjang. Jika luas bidang diagonal $ABGH$ adalah $20\\sqrt{2}$ satuan luas. Maka tinggi balok adalah.... Satuan panjang",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "correctAnswer": "4",
+      "explanation": "Area of diagonal plane ABGH = AB * BG = 20\\sqrt{2}, 5 * BG = 20\\sqrt{2} => BG = 4\\sqrt{2}. CG = \\sqrt{BG^2 - BC^2} = \\sqrt{(4\\sqrt{2})^2 - 4^2} = \\sqrt{32 - 16} = 4"
+    },
+    {
+      "text": "Perhatikan gambar berikut! Tentukan hubungan kuantitas antara P dan Q berikut!\n\n| P | Q |\n|---|---|\n| x | y |",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "Tidak dapat ditentukan hubungan keduanya"
+      ],
+      "correctAnswer": "P < Q",
+      "explanation": "Based on angle relations in the triangle diagram, y > x, hence P < Q"
+    }
+  ]
+}

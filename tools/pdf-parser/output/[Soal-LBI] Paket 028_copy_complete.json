@@ -1,0 +1,304 @@
+{
+  "questions": [
+    {
+      "text": "Inti bacaan di atas adalah ...",
+      "options": [
+        "Dinas Perhubungan Gunungkidul telah melakukan kajian terhadap moda transportasi di wilayah tersebut",
+        "Kajian angkutan di Gunungkidul menyimpulkan perlunya penataan angkutan di daerah tersebut",
+        "Pemerintah Daerah Gunungkidul akan melakukan peleburan angkutan perkotaan dan angkutan pedesaan",
+        "Moda transportasi di Gunungkidul tidak cukup efektif",
+        "Terjadi penyusutan jumlah angkutan yang cukup signifikan"
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang tidak berhubungan dengan isi bacaan di atas adalah ...",
+      "options": [
+        "Angkutan perkotaan temyata menambah beban konsumen",
+        "Penumpang dari desa harus naik angkutan lebih dari satu kali untuk menuju pusat pemerintahan",
+        "Biaya perpanjangan trayek yang mahal membuat pemilik angkutan tidak memperpanjang izin trayeknya",
+        "Terjadi perubahan jumlah kendaraan di Gunungkidul",
+        "Penumpang semakin berkurang sehingga banyak angkutan yang tidak beroperasi"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Ide pokok bacaan di atas adalah ...",
+      "options": [
+        "kekayaan budaya Lombok",
+        "membaca naskah lontar sebagai tradisi di Lombok",
+        "pembaca lontar yang populer di Lombok",
+        "isi naskah lontar Lombok",
+        "perlunya pelestarian naskah lontar Lombok"
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "Inti bacaan di atas adalah ...",
+      "options": [
+        "Membaca naskah lontar menjadi tradisi di Lombok",
+        "Tradisi membaca naskah lontar sudah mulai ditinggalkan",
+        "Naskah lontar memiliki banyak ajaran",
+        "Membaca naskah lontar dilakukan dalam acara tertentu",
+        "Pembaca naskah lontar sudah lanjut usia"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang berhubungan dengan isi bacaan di atas adalah ...",
+      "options": [
+        "Naskah lontar tergerus oleh kemajuan teknologi",
+        "Ada banyak naskah lontar yang hilang",
+        "Generasi muda sudah tidak tertarik membaca naskah lontar",
+        "Nari adalah salah seorang pembaca naskah lontar",
+        "Ada lomba membaca naskah lontar"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang dapat menjadi perbaikan kalimat (7) adalah....",
+      "options": [
+        "Pembelian S-400 kepada Turki tidak berkonsisten dengan berbagai komitmen-komitmennya terhadap NATO.",
+        "Turki tidak konsisten dengan berbagai komitmen-komitmennya terhadap NATO.",
+        "Pembelian S-400 oleh Turki tidak konsisten dengan komitmen-komitmennya terhadap NATO.",
+        "Pembelian S-400 oleh Turki tidak konsisten kepada NATO.",
+        "Turki tidak konsisten dengan membeli S-400."
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Fakta terkait pembelian S400 oleh Turki terdapat pada kalimat....",
+      "options": [
+        "Kalimat (2)",
+        "Kalimat (5)",
+        "Kalimat (8)",
+        "Kalimat (1)",
+        "Kalimat (3)"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Inti kalimat (3) adalah....",
+      "options": [
+        "Gedung Putih menyebutkan Turki tetap menjadi mitra strategis",
+        "Turki tetap menjadi mitra strategis yang penting",
+        "Kerjasama keamanan akan berlanjut",
+        "Gedung Putih menyebutkan Turki",
+        "Mitra strategis yang penting dan bahwa kerjasama keamanan akan berlanjut"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "Simpulan bacaan di atas adalah....",
+      "options": [
+        "Turki tidak akan menjual S-400 yang dibeli dari Rusia",
+        "Amerika Serikat memperingatkan anggota NATO untuk tidak jadi membeli S-400 dari Rusia",
+        "Pembelian S-400 merupakan pelanggaran komitmen Turki terhadap NATO",
+        "Pembelian senjata buatan Rusia terlarang bagi anggota NATO",
+        "Amerika Serikat akan tetap bekerja sama dengan Turki dalam program F-35"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Simpulan yang sesuai dengan bacaan di atas adalah ...",
+      "options": [
+        "Kerajaan Banten adalah salah satu kerajaan Islam di Indonesia",
+        "Keraton Surosowan merupakan bukti bahwa Kerajaan Banten pernah berjaya",
+        "Para peneliti pernah melakukan penggalian di Situs Keraton Surosowan",
+        "Keraton Surosowan dibangun pada masa Sultan Hasanuddin",
+        "Keraton Surosowan saat ini hanya berupa puing-puing"
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang tidak sesuai dengan isi bacaan di atas adalah ...",
+      "options": [
+        "Keraton Surosowan dibangun kembali pada masa Belanda",
+        "Keraton Surosowan tidak hanya merupakan tempat tinggal raja dan keluarganya",
+        "Sisa-sisa bangunan Keraton Surosowan masih dapat ditemukan sampai saat ini",
+        "Sultan-sultan yang telah membangun Keraton Surosowan adalah Sultan Hasanudin dan Sultan Haji",
+        "Para arkeolog telah melakukan penggalian pada situs Keraton Surosowan sejak tahun 1960-an"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat topik paragraf kedua di atas adalah ....",
+      "options": [
+        "Keraton Surosowan mengalami pasang surut.",
+        "Keraton itu kemudian hancur dan dibangun kembali oleh Sultan Haji tahun 1680 sampai dengan 1681.",
+        "Keraton ini mengalami kehancuran kembali oleh Belanda.",
+        "Keraton Surosowan hanya berupa puing-puing.",
+        "Keraton itu dibangun kembali oleh Sultan Haji tahun 1680 sampai dengan 1681."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang tidak berhubungan dengan bacaan di atas adalah ...",
+      "options": [
+        "FOMO lebih banyak dialami oleh perempuan",
+        "FOMO adalah penyakit yang sama dengan nomophobia",
+        "Pengguna media sosial yang sangat tinggi membuat FOMO semakin fenomenal",
+        "Kemajuan teknologi membuat orang kecanduan menggunakan perangkat digital dalam hubungan sosial",
+        "Kecenderungan tertinggi FOMO dialami oleh orang di bawah usia 30 tahun"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Maksud “fenomenal” dalam bacaan di atas adalah ...",
+      "options": [
+        "Ajaib",
+        "Menghebohkan",
+        "Luar biasa",
+        "Menggejala",
+        "Bombastis"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Simpulan bacaan di atas adalah ...",
+      "options": [
+        "FOMO lebih banyak dialami oleh perempuan yang usianya di bawah 30 tahun",
+        "Nomophobia dipicu oleh FOMO",
+        "Kemajuan teknologi memunculkan sindrom baru yang menjadi perhatian khusus",
+        "FOMO adalah sindrom baru yang menjadi perhatian khusus",
+        "Media sosial membuat orang cenderung mengalami nomophobia dan FOMO"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertanyaan yang jawabannya terdapat dalam bacaan di atas adalah ...",
+      "options": [
+        "Mengapa FOMO menjadi pemicu terjadinya nomophobia?",
+        "Di mana dilakukan penelitian terkait FOMO dan nomophobia?",
+        "Kapan FOMO mulai fenomenal?",
+        "Mengapa orang takut dan gelisah ketika tidak menggenggam telepon genggam?",
+        "Apa hasil penelitian yang ada dalam jurnal Computers in Human Behaviour?"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang sesuai dengan teks tersebut adalah …",
+      "options": [
+        "Pembersihan Monas sudah dianggarkan dalam APBD 2023",
+        "Pembersihan Monas sudah direncanakan namun belum dilakukan",
+        "Pembersihan Monas dapat langsung dilaksanakan",
+        "Sumber dana pembersihan Monas telah dianggarkan dari SP3L, dan KLB 2023",
+        "Pembersihan Monas telah dilakukan tahun 2023"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dana pembersihan Monas didapatkan dari",
+      "options": [
+        "Anggaran Pendapatan Belanja Nasional",
+        "Bantuan negara lain",
+        "Urunan masyarakat Jakarta",
+        "Pengusaha di Jakarta",
+        "Corporate social responsibility"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ide pokok bacaan di atas adalah ....",
+      "options": [
+        "berdirinya negara Ethiopia",
+        "letak negara Ethiopia",
+        "usia negara Ethiopia",
+        "ciri ciri geografis negara Ethiopia",
+        "keadaan alam negara Ethiopia"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan berikut berhubungan, baik secara eksplisit maupun implisit, dengan bacaan di atas kecuali ....",
+      "options": [
+        "Ethiopia menempati peringkat 10 dunia dalam hal ternak karena kualitasnya yang baik",
+        "Kekeringan merupakan salah satu masalah serius yang dihadapi Ethiopia",
+        "Ethiopia termasuk negara penghasil kopi dunia",
+        "Krisis pangan yang terjadi di Ethiopia pernah menggemparkan dunia",
+        "Jumlah ternak di Ethiopia cukup banyak"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf tersebut, manakah di bawah ini pernyataan yang benar?",
+      "options": [
+        "Normal baru akan dilaksanakan tahun depan",
+        "New normal membuka kembali aktivitas masyarakat",
+        "New normal tidak mengizinkan masyarakat untuk keluar rumah",
+        "Pandemi virus corona bermula di Indonesia",
+        "PSBB dilaksanakan sejak bulan April"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf tersebut, manakah di bawah ini pernyataan yang benar?",
+      "options": [
+        "Selama pandemi corona masyarakat diperbolehkan keluar rumah untuk membeli makanan",
+        "Hanya Shopee yang mengalami lonjakan permintaan produk kuliner",
+        "Produk makanan siap masak paling banyak dicari di platform",
+        "Saat pandemi produk makanan dan minuman sulit didapatkan",
+        "Kopi kemasan merupakan produk yang paling banyak diburu"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ide pokok paragraf di atas adalah ...",
+      "options": [
+        "Fosil mamalia",
+        "asal fosil mamalia",
+        "silsilah mamalia",
+        "keragaman spesies mamalia",
+        "perubahan spesies mamalia"
+      ],
+      "correctAnswer": "silsilah mamalia",
+      "explanation": "Ide pokok paragraf pertama membahas mengenai pohon silsilah mamalia yang diperbarui berdasarkan analisis 904 fosil mamalia berplasenta."
+    },
+    {
+      "text": "Simpulan paragraf di atas adalah ...",
+      "options": [
+        "Suhu rata-rata atmosfer, laut, dan daratan meningkat",
+        "Tumpukan karbon dioksida, metana, dan dinito oksida mengumpul di atmosfer",
+        "Gas rumah kaca akan menghalangi sinar matahari ke bumi",
+        "Pemanasan global muncul karena peningkatan rerata suhu atmosfer",
+        "Jumlah gas rumah kaca dapat dihitung dan direduksi"
+      ],
+      "correctAnswer": "Pemanasan global muncul karena peningkatan rerata suhu atmosfer",
+      "explanation": "Simpulan paragraf merangkum gagasan utama bahwa pemanasan global terjadi dan diidentifikasi dari peningkatan suhu rata-rata atmosfer, laut, dan daratan yang disebabkan gas rumah kaca."
+    },
+    {
+      "text": "Pernyataan yang tidak dikemukakan dalam paragraf di atas adalah",
+      "options": [
+        "Jumlah partikel ring purba berkurang",
+        "Partikel-partikel saling berhubungan",
+        "Temuan itu dapat mengungkap sistem satelit lain",
+        "Letak orbit satelit kecil tidak berjauhan",
+        "Beberapa satelit kecil tidak berada dalam cincin"
+      ],
+      "correctAnswer": "Temuan itu dapat mengungkap sistem satelit lain",
+      "explanation": "Pernyataan mengenai temuan yang dapat mengungkap sistem satelit lain tidak disebutkan dalam teks tentang cincin dan satelit Saturnus."
+    }
+  ]
+}

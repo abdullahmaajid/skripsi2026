@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Jambu merupakan buah manis yang biasanya dikonsumsi dalam bentuk jus. Jambu biji ternyata kaya akan kandungan serat, vitamin, dan antioksidan. Selain itu, jambu biji mengandung karoten, yakni likopen, yang merupakan senyawa pemberi warna merah pada buah. Salah satu manfaat jambu biji ternyata mempunyai potensi meningkatkan daya ingat. Pasalnya, jambu biji memiliki kandungan vitamin B dan kalium yang bisa membantu melancarkan sirkulasi darah ke otak. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": [
+        "Warna merah pada jambu biji disebabkan oleh glikopen",
+        "Jambu biji berpotensi meningkatkan daya ingat karena kandungan vitamin C dan likopen",
+        "Kandungan kalium dan vit B pada jambu biji dapat membantu melancarkan sirkulasi darah ke otak",
+        "Jika terlalu banyak memakan jambu biji dapat menyebabkan usus buntu",
+        "Jambu biji sering dikonsumsi dalam bentuk makanan ringan"
+      ],
+      "correctAnswer": "Kandungan kalium dan vit B pada jambu biji dapat membantu melancarkan sirkulasi darah ke otak",
+      "explanation": "Berdasarkan teks, jambu biji memiliki kandungan vitamin B dan kalium yang bisa membantu melancarkan sirkulasi darah ke otak, sehingga meningkatkan daya ingat. Pernyataan C sesuai persis dengan informasi tersebut."
+    },
+    {
+      "text": "Anggapan yang beredar bahwa kangkung menyebabkan kantuk karena kadar kaliumnya yang tinggi hanyalah mitos, karena sebenarnya kandungan kalium pada kangkung tidaklah terlalu tinggi, sehingga kita juga perlu mengonsumsi makanan tinggi kalium lainnya untuk mencukupi kebutuhan nutrisi harian. Efek kantuk yang didapat dari konsumsi kangkung bisa saja hanya sugesti ataupun karena jenis makanan pendamping lainnya yang biasanya mengandung karbohidrat atau indeks glikemik yang tinggi, terutama jika dikonsumsi dalam jumlah banyak pada satu waktu. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI SALAH?",
+      "options": [
+        "Kandungan kalium pada kangkung tidak terlalu tinggi",
+        "Diperlukan kalium untuk mencukupi kebutuhan nutrisi harian",
+        "Kangkung bukan satu-satunya sumber kalium, sehingga kita perlu menggonsumsi makanan tinggi kalium lain",
+        "Anggapan bahwa kangkung menyebabkan kantuk adalah mitos",
+        "Jika mengonsumsi makanan yang mengandung karbohidrat atau indeks glikemik tinggi dan disandingkan dengan kangkung pada satu waktu maka tidak akan berefek apa-apa"
+      ],
+      "correctAnswer": "Jika mengonsumsi makanan yang mengandung karbohidrat atau indeks glikemik tinggi dan disandingkan dengan kangkung pada satu waktu maka tidak akan berefek apa-apa",
+      "explanation": "Teks menyatakan bahwa efek kantuk bisa terjadi karena makanan pendamping yang mengandung karbohidrat atau indeks glikemik tinggi jika dikonsumsi dalam jumlah banyak, sehingga opsi E yang menyatakan 'tidak akan berefek apa-apa' bertentangan dengan isi teks."
+    },
+    {
+      "text": "Manfaat seledri untuk anemia dapat diperoleh dari bagian bijinya. Beberapa penelitian menunjukkan bahwa 1 sendok makan biji seledri mampu memenuhi hampir 17% kebutuhan harian tubuh akan zat besi. Oleh karena itu, mengonsumsi biji seledri dinilai bermanfaat bagi orang yang perlu meningkatkan kadar hemoglobin, misalnya penderita anemia atau kekurangan darah. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": [
+        "Kandungan dan manfaat seledri hanya terletak di bagian daunnya",
+        "2 sendok biji seledri mampu memenuhi 30% kebutuhan harian tubuh akan zat besi",
+        "Biji seledri dinilai tidak bermanfaat bagi orang yang kekurangan hemoglobin",
+        "Jika terlalu banyak memakan biji seleddri dapat menyebabkan penyakit anemia",
+        "Kandungan zat besi yang tinggi pada seledri membuatnya bermanfaat bagi penderita anemia ataupun kekurangan darah"
+      ],
+      "correctAnswer": "Kandungan zat besi yang tinggi pada seledri membuatnya bermanfaat bagi penderita anemia ataupun kekurangan darah",
+      "explanation": "Berdasarkan teks, 1 sendok makan biji seledri mampu memenuhi hampir 17% kebutuhan zat besi, menjadikannya bermanfaat bagi penderita anemia atau kekurangan darah karena membantu meningkatkan kadar hemoglobin."
+    },
+    {
+      "text": "Tuti Kasih dalam buku Pertanda menjelaskan, pada zaman dahulu, kejatuhan cicak dianggap sebagai pertanda kematian. Jika cicak jatuh tepat di depan seseorang dan menghadap ke arahnya, diyakini orang tersebut akan meninggal dalam 40 hari. Cicak tidak jatuh tepat di depan seseorang dan menghadap ke arahnya. Berdasarkan informasi teersebut, manakah kesimpulan yang tepat?",
+      "options": [
+        "Orang tidak kejatuhan cicak",
+        "Jika orang meninggal maka cicak tidak jatuh",
+        "Cicak jatuh maka orang akan meninggal",
+        "Orang tersebut akan meninggal",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Tidak dapat disimpulkan",
+      "explanation": "Premis berbentuk implikasi: P (Cicak jatuh tepat di depan seseorang dan menghadap ke arahnya) -> Q (Orang tersebut akan meninggal dalam 40 hari). Premis kedua menyatakan negasi anteseden: ~P (Cicak tidak jatuh tepat di depan seseorang dan menghadap ke arahnya). Ini adalah bentuk Fallacy of the Inverse, sehingga kesimpulan yang sah adalah tidak dapat disimpulkan."
+    },
+    {
+      "text": "Insomnia adalah kondisi ketika tubuh tidak mendapatkan cukup tidur yang diperlukan. Menurut Cleveland Clinic, sekitar 10% populasi dunia mengalami susah tidur yang tergolong kondisi medis. Insomnia tidak tergolong gangguan yang berbahaya tetapi cukup mengganggu aktivitas sehari-hari. Insomnia terjadi ketika penderita susah tidur, atau tidak dapat tidur di waktu yang seharusnya, sehingga tubuh tidak mendapat istirahat yang cukup pada saat malam hari. Gangguan ini dapat memengaruhi kualitas tidur dan menyebabkan kelelahan di siang hari. Berdasarkan informasi tersebut, manakah simpulan yang paling tepat?",
+      "options": [
+        "Insomnia membuat seseorang tertidur lelap",
+        "Dalam persentase 10% populasi dunia maka pasti terdapat 4% anak muda yang mengalami insomnia",
+        "Gangguan tidur atau insomnia tidak tergolong ke dalam kondisi medis",
+        "Insomnia terjadi ketika penderita tertidur pulas dan mendapat istirahat cukup pada malam hari",
+        "Insomnia merupakan gangguan tidur yang dapa memengaruhi kualitas tidur dan menyebabkan kelelahan di siang hari"
+      ],
+      "correctAnswer": "Insomnia merupakan gangguan tidur yang dapa memengaruhi kualitas tidur dan menyebabkan kelelahan di siang hari",
+      "explanation": "Pernyataan E merupakan rangkuman yang paling tepat dan sesuai dengan kalimat terakhir pada teks bacaan mengenai definisi dan dampak dari insomnia."
+    },
+    {
+      "text": "Sebagian orang menyebut, manggis dan durian merupakan contoh dua jenis buah yang tidak boleh dikonsumsi berbarengan. Namun, apakah pernyataan tersebut benar? Melansir Channel News Asia, makan manggis selagi mengonsumsi durian, bukan merupakan larangan. Manggis boleh saja dimakan bersama durian. Begitu pun sebaliknya, tak ada keharusan untuk mengonsumsi manggis dan durian pada waktu yang sama. Dr Benjamin Loh, dokter residen, seorang dokter residen di DTAP Clinic Bencoolen, mengatakan, kandungan manggis justru dapat memberikan efek baik bagi tubuh. Mengonsumsi Manggis dan durian secara bersamaan dapat memberikan efek baik bagi tubuh seseorang. Berdasarkan informasi tersebut, bagaimana kualitas simpulan di atas?",
+      "options": [
+        "Simpulan tersebut pasti benar",
+        "Simpulan tersebut mungkin benar",
+        "Simpulan tersebut tidak valid",
+        "Simpulan tersebut pasti salah",
+        "Simpulan tersebut tidak relevan"
+      ],
+      "correctAnswer": "Simpulan tersebut mungkin benar",
+      "explanation": null
+    },
+    {
+      "text": "Durian adalah buah yang mengandung banyak vitamin, namun tinggi kalori. Pada durian yang terlalu matang, terkandung alkohol akibat fermentasi. Hal itu dapat meningkatkan metabolisme dan menyebabkan meningkatnya denyut jantung pada beberapa orang yang sensitif. Berdasarkan informasi tersebut, manakah simpulan yang PASTI BENAR?",
+      "options": [
+        "Kandungan vitamin pada Durian lebih banyak dari buah lain",
+        "Memakan buah Durian hanya akan membuat tubuh lebih gemuk",
+        "Jika kita banyak mengonsumsi buah Durian, maka kesehatan pun akan terjaga",
+        "Konsumsi buah durian lokal dapat membantu petani Durian",
+        "Alkohol pada Durian diakibatkan oleh proses fermentasi, hal ini dapat meningkatkan metabolisme dan denyut jantung pada orang yang sensitif"
+      ],
+      "correctAnswer": "Alkohol pada Durian diakibatkan oleh proses fermentasi, hal ini dapat meningkatkan metabolisme dan denyut jantung pada orang yang sensitif",
+      "explanation": null
+    },
+    {
+      "text": "Tidak ada larangan khusus untuk minum kopi dan makan durian. Begitu juga dengan batas minum kopi setelah makan durian, tidak ada rekomendasi pasti. Namun, segala sesuatu yang berlebihan tetap tidak baik, termasuk mengonsumsi durian dan kopi, khususnya bagi penderita diabetes. Karena, durian memiliki kadar gula yang tinggi sehingga berpotensi menyebabkan lonjakan kadar gula darah. Mengonsumsi Kafein dan durian secara bersamaan dapat memberikan efek baik bagi tubuh seseorang. Berdasarkan informasi tersebut, bagaimana kualitas simpulan di atas?",
+      "options": [
+        "Simpulan tersebut pasti benar",
+        "Simpulan tersebut mungkin benar",
+        "Simpulan tersebut pasti salah",
+        "Simpulan tersebut tidak valid",
+        "Simpulan tersebut tidak relevan"
+      ],
+      "correctAnswer": "Simpulan tersebut tidak relevan",
+      "explanation": null
+    },
+    {
+      "text": "Air kelapa mengandung kalium yang cukup tinggi. Sementara itu, obat-obatan hipertensi mengandung kalium atau meningkatkan kadar kalium di tubuh. Mengonsumsi air kelapa setelah minum obat menyebabkan kalium di tubuh meningkat drastis. Hal ini bisa menyebabkan hiperkalemia atau kelebihan kalium di darah. Hiperkalemia menyebabkan otot melemah, kesemutan, mati rasa, sesak napas, dan jantung berdebar. Mengonsumsi air kelapa setelah meminum obat dapat mempercepat efek penyembuhan bagi tubuh seseorang. Berdasarkan informasi tersebut, bagaimana kualitas simpulan di atas?",
+      "options": [
+        "Simpulan tersebut pasti benar",
+        "Simpulan tersebut mungkin benar",
+        "Simpulan tersebut pasti salah",
+        "Simpulan tersebut tidak valid",
+        "Simpulan tersebut tidak relevan"
+      ],
+      "correctAnswer": "Simpulan tersebut pasti salah",
+      "explanation": null
+    },
+    {
+      "text": "Tim sepak bola tidak akan menang apabila mereka tidak bermain dengan strategi yang baik. Hal itu terjadi ketika tim tidak menganalisis kekuatan dan kelemahan lawan. Manakah simpulan yang paling benar?",
+      "options": [
+        "Tim sepak bola tidak menang karena tidak menganalisis kekuatan dan kelemahan lawan.",
+        "Tim sepak bola tidak menang apabila mereka bermain dengan strategi yang baik.",
+        "Tim sepak bola tidak menganalisis kekuatan dan kelemahan lawan sehingga mereka tidak bermain dengan strategi yang baik.",
+        "Tim sepak bola tidak menang karena mereka tidak bermain dengan strategi yang baik dan tidak menganalisis kekuatan dan kelemahan lawan.",
+        "Tim sepak bola tidak menganalisis kekuatan dan kelemahan lawan, tetapi mereka tetap menang."
+      ],
+      "correctAnswer": "Tim sepak bola tidak menganalisis kekuatan dan kelemahan lawan sehingga mereka tidak bermain dengan strategi yang baik.",
+      "explanation": null
+    },
+    {
+      "text": "Tegar marah hanya jika ada yang mengganggunya. Tegar tidak marah. Berdasarkan teks, manakah simpulan yang benar?",
+      "options": [
+        "Ada yang mengusik tegar",
+        "Tegar baru saja diberi hadiah",
+        "Tidak ada yang mengusik tegar",
+        "Hanya jika diberi hadiah tegar tidak marah",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Tidak ada yang mengusik tegar",
+      "explanation": null
+    },
+    {
+      "text": "Orang yang jarang keluar rumah cenderung kurang terkena paparan sinar matahari. Jika orang kurang terpapar sinar matahari maka akan lebih mudah sakit. Budi adalah pekerja pabrik yang setiap harinya bekerja di dalam ruangan dan jarang keluar rumah. Berdasarkan konsekuensi logis, apa kemungkinan yang akan terjadi terhadap Budi?",
+      "options": [
+        "Budi akan baik-baik saja",
+        "Budi akan mudah sakit",
+        "Budi jarang terpapar sinar matahari sehingga ia selalu berbahagia",
+        "Budi akan mendapat gaji yang tinggi",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Budi akan mudah sakit",
+      "explanation": null
+    },
+    {
+      "text": "Banjir rob adalah banjir yang disebabkan oleh meluapnya air pasang. Banjir rob terjadi karena naiknya permukaan air laut yang kemudian membuat air laut masuk ke wilayah daratan. Banjir rob adalah fenomena yang sering terjadi di beberapa daerah di Indonesia Biasanya banjir ini terjadi di daerah pesisir. Berdasarkan informasi di atas, manakah kesimpulan yang tepat apabila air pasang meluap?",
+      "options": [
+        "Terjadi banjir rob",
+        "Tidak terjadi banjir rob",
+        "Air laut akan ikut meluap",
+        "Air laut akan tetap stabil",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Terjadi banjir rob",
+      "explanation": null
+    },
+    {
+      "text": "Salah satu masalah kulit yang sering dialami kucing adalah kutu. Kutu bisa membuat kucing merasa tidak nyaman, bahkan menyebabkan infeksi. Infeksi kemudian dapat menyebabkan luka pada tubuh kucing. Manakah kesimpulan logis yang sesuai apabila tubuh kucing tidak mengalami luka?",
+      "options": [
+        "Terdapat kutu di tubuh kucing",
+        "Tidak terdapat kutu di tubuh kucing",
+        "Kucing merasa tidak nyaman",
+        "Kucing tidak mengalami kecelakaan",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Tidak terdapat kutu di tubuh kucing",
+      "explanation": null
+    },
+    {
+      "text": "Menurut penelitian, mendengkur merupakan cara kucing mengurangi kecemasan mereka. Kucing tidak mendengkur. Manakah kesimpulan logis berdasarkan informasi tersebut?",
+      "options": [
+        "Kucing tidak sedang merasakan rasa cemas",
+        "Kucing mungkin merasakan rasa cemas",
+        "Kucing akan merasakan cemas",
+        "Kucing sedang dalam ketenangan",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Tidak dapat disimpulkan",
+      "explanation": null
+    },
+    {
+      "text": "Banjir merupakan bencana alam yang disebabkan hanya apabila manusia memotong daging rusa. Ahmad merupakan seorang pemburu, Ia kemarin menemukan Rusa dan kemudian memotong dagingnya untuk dimasak. Berdasarkan informasi di atas, manakah pernyataan di bawah ini yang BENAR?",
+      "options": [
+        "Ahmad memotong daging Rusa sehingga kemudian terjadi banjir",
+        "Banjir tidak terjadi meskipun daging Rusa telah dipotong",
+        "Ahmad tidak memburu Rusa dan tidak terjadi banjir",
+        "Banjir terjadi sementara Ahmad pergi berburu",
+        "Ahmad tidak memotong daging Rusa sehingga banjir tidak terjadi"
+      ],
+      "correctAnswer": "Ahmad memotong daging Rusa sehingga kemudian terjadi banjir",
+      "explanation": null
+    },
+    {
+      "text": "Blue Lock merupakan seri anime yang sedang banyak diperbincangkan. Banyak fans anime yang menghujatnya dikarenakan kualitas grafik yang dianggap lebih rendah kualitasnya dibanding anime seri lain. Berdasarkan informasi di atas, manakah pernyataan di bawah ini yang BENAR?",
+      "options": [
+        "Kualitas grafik yang rendah mengakibatkan anime Blue Lock di hujat",
+        "Jika anime Blue Lock dihujat maka kualitas grafiknya rendah",
+        "Banyak fans anime sangat menyukai kualitas grafik anime Blue Lock",
+        "Blue Lock sedang tidak banyak diperbincangkan karena kualitasnya",
+        "Blue Lock tidak dihujat dan banyak diperbincangkan"
+      ],
+      "correctAnswer": "Kualitas grafik yang rendah mengakibatkan anime Blue Lock di hujat",
+      "explanation": null
+    },
+    {
+      "text": "Dalam diskusi, Menteri pertahanan menyatakan kebijakan pembelian senjata hadir tidak hanya sebagai kebijakan atau program dari pemerintah pusat, melainkan sebagai gerakan dan respon terkait kemungkinan terjadinya perang di area maritim Indonesia hingga kemungkinan PD ke-3. Manakah pernyataan di bawah ini yang MEMPERLEMAH pernyataan di atas? Tabel pernyataan: 1. Ketegangan antara Rusia dan Amerika semakin meningkat, seiring diadakannya kebijakan boikot terhadap produk Rusia (Memperlemah: Tidak, Tidak memperlemah: Ya); 2. Amerika terus mengusahakan upaya komunikasi ke berbagai negara di dunia untuk membuat klausul perdamaian dunia (Memperlemah: Ya, Tidak memperlemah: Tidak); 3. Akhir-akhir ini terjadi ketegangan di Laut China Selatan yang berbatasan dengan Indonesia (Memperlemah: Tidak, Tidak memperlemah: Ya); 4. Perjanjian militer di negara Asia Tenggara semakin diperkuat, guna mencapai tujuan berupa perdamaian di dunia (Memperlemah: Ya, Tidak memperlemah: Tidak); 5. Malaysia mulai mengonfirmasi dan mengeklaim wilayah resmi dari Indonesia (Memperlemah: Tidak, Tidak memperlemah: Ya).",
+      "options": [
+        "1, 2, dan 3",
+        "1, 2, dan 5",
+        "1, 2, dan 4",
+        "2 dan 4",
+        "5 saja"
+      ],
+      "correctAnswer": "2 dan 4",
+      "explanation": null
+    },
+    {
+      "text": "A menyatakan: Kebijakan pengembangan dana pensiun bagi PNS merupakan kebijakan strategis dan perlu didukung. B menyatakan: Kebijakan yang terbilang eksklusif cenderung akan menimbulkan ketidaksetujuan masyarakat. Survei menunjukkan bahwa persentase kemungkinan demo besar-besaran naik dari 30% menjadi 80%. Pernyataan berikut yang paling tepat mengenai survei yaitu?",
+      "options": [
+        "Memperkuat pernyataan A",
+        "Memperlemah pernyataan A",
+        "Memperkuat pernyataan B",
+        "Memperlemah pernyataan B",
+        "Tidak relevan dengan pernyataan A dan B"
+      ],
+      "correctAnswer": "Memperkuat pernyataan B",
+      "explanation": null
+    },
+    {
+      "text": "A menyatakan: Kebijakan mengenai pembuatan patung kuda perlu ditinjau kembali, karena hal tersebut dapat menjadi pemicu korupsi. B menyatakan: Korupsi di Indonesia tergolong rendah. Data menunjukkan bahwa tingkat ketidakpuasan rakyat terhadap presiden sangat rendah. Pernyataan berikut yang paling tepat mengenai data yaitu?",
+      "options": [
+        "Memperkuat pernyataan A",
+        "Memperlemah pernyataan A",
+        "Memperkuat pernyataan B",
+        "Memperlemah pernyataan B",
+        "Tidak relevan dengan pernyataan A dan B"
+      ],
+      "correctAnswer": "Tidak relevan dengan pernyataan A dan B",
+      "explanation": null
+    },
+    {
+      "text": "A menyatakan: Kebijakan pengembangan Ibu kota baru memerlukan bantuan dari lembaga swasta. B menyatakan: Aliran dana dari pemerintah untuk pembangunan ibu kota diberhentikan secara paksa. Data menunjukkan adanya upaya pemerintah untuk mengefisiensi anggaran besar-besaran khususnya pada sektor manufaktur. Pernyataan berikut yang paling tepat mengenai survei yaitu?",
+      "options": [
+        "Memperkuat pernyataan A",
+        "Memperlemah pernyataan A",
+        "Memperkuat pernyataan B",
+        "Memperlemah pernyataan B",
+        "Tidak relevan dengan pernyataan A dan B"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Di antara ke lima siswa tersebut, siswa mana yang berpotensi menjadi siswa paling berprestasi?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apabila persentase nilai akademik bernilai $30\\%$ dan non-akademik bernilai $70\\%$. Siswa mana yang berpotensi menempati urutan ke $3$ paling berprestasi?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apabila persentase nilai akademik bernilai $30\\%$ dan non-akademik bernilai $70\\%$. Siswa mana yang berpotensi menempati urutan ke $5$ paling berprestasi?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Untuk membuat Kue, Andre memerlukan $5$ jenis bahan. Bahan terdiri dari air, tepung beras, tepung maizena, gula dan juga ragi. Takaran yang dibutuhkan untuk masing-masing air, tepung beras, tepung maizena, gula dan juga ragi adalah $4 : 8 : 2 : 3 : 3$ untuk membuat kue perkilonya. Jika Andre mendapat pesanan katering dan memerlukan sedikitnya $200\\text{kg}$ kue, berapakah berat tepung beras yang dibutuhkan?",
+      "options": [
+        "80kg",
+        "30kg",
+        "20kg",
+        "60kg",
+        "70kg"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Untuk membuat Kue, Andre memerlukan $5$ jenis bahan. Bahan terdiri dari air, tepung beras, tepung maizena, gula dan juga ragi. Takaran yang dibutuhkan untuk masing-masing air, tepung beras, tepung maizena, gula dan juga ragi adalah $4 : 8 : 2 : 3 : 3$ untuk membuat kue perkilonya. Jika Andre mendapat pesanan katering dan memerlukan sedikitnya $100\\text{kg}$ kue, berapakah berat ragi yang dibutuhkan?",
+      "options": [
+        "13kg",
+        "12kg",
+        "10kg",
+        "14kg",
+        "15kg"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Untuk membuat Kue, Andre memerlukan $5$ jenis bahan. Bahan terdiri dari air, tepung beras, tepung maizena, gula dan juga ragi. Takaran yang dibutuhkan untuk masing-masing air, tepung beras, tepung maizena, gula dan juga ragi adalah $4 : 8 : 2 : 3 : 3$ untuk membuat kue perkilonya. Jika Andre mendapat pesanan katering dan memerlukan sedikitnya $300\\text{kg}$ kue, berapakah berat gula yang dibutuhkan?",
+      "options": [
+        "45kg",
+        "50kg",
+        "55kg",
+        "40kg",
+        "38kg"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "$0, 1, 1, 3, 2, 5, 3, 7, x$. Angka yang tepat untuk mengisi $x$ adalah...",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "7",
+        "2"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "$5, 4, 3, 5, 1, 6, x, y$. Angka yang tepat untuk mengisi $x$ dan $y$ adalah...",
+      "options": [
+        "-1 dan 7",
+        "-2 dan 6",
+        "7 dan -1",
+        "3 dan 7",
+        "1 dan 7"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "$1, 1, 2, 3, 5, 8, 13, 21, x, y$. Angka yang tepat untuk mengisi $x$ dan $y$ adalah...",
+      "options": [
+        "71 dan 48",
+        "53 dan 53",
+        "34 dan 55",
+        "84 dan 71",
+        "53 dan 71"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

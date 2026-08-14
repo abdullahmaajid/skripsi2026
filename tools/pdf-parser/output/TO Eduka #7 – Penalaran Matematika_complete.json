@@ -1,0 +1,484 @@
+{
+  "questions": [
+    {
+      "text": "Dengan sudut elevasi pengamat (Bolang) terhadap pesawat adalah sebesar $\\theta$, tentukan jarak pengamat ke pesawat, jika $\\theta = 30^{\\circ}$ dan ketinggian pesawat $120\\text{ km}$.",
+      "options": [
+        "240\\text{ km}",
+        "120\\text{ km}",
+        "60\\text{ km}",
+        "30\\text{ km}",
+        "15\\text{ km}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dengan sudut elevasi pengamat (Bolang) terhadap pesawat adalah sebesar $\\theta$, tentukan jarak pengamat ke pesawat, jika $\\theta = 90^{\\circ}$ dan ketinggian pesawat $120\\text{ km}$.",
+      "options": [
+        "240\\text{ km}",
+        "120\\text{ km}",
+        "60\\text{ km}",
+        "15\\text{ km}",
+        "30\\text{ km}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diberikan distribusi frekuensi untuk jumlah komisi (dalam puluhan ribu) yang diterima 100 salesman yang dipekerjakan di beberapa cabang perusahaan besar:\n- 150 – 158: 5\n- 159 – 167: 16\n- 168 – 176: 20\n- 177 – 185: 21\n- 186 – 194: 20\n- 195 – 203: 15\n- 204 – 212: 3\nTentukan jangkauan untuk distribusi frekuensi ini.",
+      "options": [
+        "42",
+        "52",
+        "62",
+        "72",
+        "82"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan perhitungan oleh tim ahli, kemungkinan terbesar lokasi kecelakaan kapal berada pada radius 4 satuan dari posisi kapal tim SAR saat ini. Menurutmu pada titik mana kemungkinan terbesar yang aman dari lokasi terjadinya kecelakaan?",
+      "options": [
+        "C",
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan perhitungan oleh tim ahli, kemungkinan terbesar lokasi kecelakaan kapal berada pada radius 4 satuan dari posisi kapal tim SAR saat ini. Menurutmu pada titik mana kemungkinan terbesar yang aman dari lokasi terjadinya kecelakaan?",
+      "options": [
+        "C",
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Selain menggunakan kapal tim SAR, diketahui ada kapal lain, yaitu kapal Marina Emas, yang dapat membantu para korban di lokasi kecelakaan kapal dengan posisi koordinat di titik E. Menurutmu, kapal mana yang akan terlebih dahulu sampai ke lokasi terjadinya kecelakaan?",
+      "options": [
+        "Marina Mas",
+        "Tim SAR",
+        "Tidak dapat ditentukan",
+        "Sampai bersama-sama",
+        "Tidak ada yang sampai"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Suatu perusahaan coklat memproduksi tiga macam coklat yang berbentuk tabung, kerucut dan bola. Misalkan jari-jarinya adalah $r$ dan tinggi $t$. Perusahaan tersebut menginginkan kertas pembungkus coklat tersebut memiliki luas yang sama satu dengan yang lainnya.\n$T = \\text{Luas kertas pembungkus coklat bentuk tabung}$.\n$K = \\text{Luas kertas pembungkus coklat bentuk kerucut}$.\n$B = \\text{Luas kertas pembungkus coklat bentuk bola}$.\nApakah mungkin $T = K = B$? Apabila mungkin, rasio $r : t$ adalah \\dots",
+      "options": [
+        "Mungkin, 15 : 8",
+        "Mungkin, 8 : 15",
+        "Mungkin, 16 : 7",
+        "Tidak Mungkin",
+        "Mungkin, 7 : 16"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Penduduk suatu kota metropolitan tercatat 3,25 juta jiwa pada tahun 2008, diperkirakan menjadi 4,5 juta jiwa pada tahun 2013. Jika tahun 2008 dianggap tahun dasar. Apabila pada tahun 2014 diperkirakan menjadi 5 juta jiwa, berapa perbedaan presentase pertumbuhan penduduk pada tahun 2014 dan 2013?",
+      "options": [
+        "0,73\\%",
+        "0,72\\%",
+        "0,71\\%",
+        "0,74\\%",
+        "0,75\\%"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apabila $T = K$, tentukan perbandingan $r : t$.",
+      "options": [
+        "4 : 5",
+        "-4 : 3",
+        "4 : 3",
+        "3 : 4",
+        "-3 : 4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apabila $T = B$, tentukan perbandingan $r : t$.",
+      "options": [
+        "2 : 1",
+        "-1 : 1",
+        "1 : -1",
+        "1 : 1",
+        "1 : 2"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apabila $K = B$, tentukan perbandingan $r : t$.",
+      "options": [
+        "1 : 2\\sqrt{2}",
+        "2\\sqrt{2} : 1",
+        "2\\sqrt{2} : -1",
+        "1 : -2\\sqrt{2}",
+        "1 : 1"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Penduduk suatu kota metropolitan tercatat 3,25 juta jiwa pada tahun 2008, diperkirakan menjadi 4,5 juta jiwa pada tahun 2013. Jika tahun 2008 dianggap tahun dasar. Apabila pada tahun 2014 diperkirakan menjadi 5 juta jiwa, berapa jumlah penduduk pada tahun 2015?",
+      "options": [
+        "5,35 \\text{ juta}",
+        "5,36 \\text{ juta}",
+        "5,39 \\text{ juta}",
+        "5,38 \\text{ juta}",
+        "5,37 \\text{ juta}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Penduduk suatu kota metropolitan tercatat 3,25 juta jiwa pada tahun 2008, diperkirakan menjadi 4,5 juta jiwa pada tahun 2013. Jika tahun 2008 dianggap tahun dasar. Berapa jumlah penduduknya pada tahun 2015?",
+      "options": [
+        "5.130.000",
+        "5.140.000",
+        "5.150.000",
+        "5.160.000",
+        "5.170.000"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Penduduk suatu kota metropolitan tercatat 3,25 juta jiwa pada tahun 2008, diperkirakan menjadi 4,5 juta jiwa pada tahun 2013. Jika tahun 2008 dianggap tahun dasar. Berapa persen pertumbuhannya?",
+      "options": [
+        "6,75\\%",
+        "6,74\\%",
+        "7,63\\%",
+        "6,73\\%",
+        "6,37\\%"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Tentukan rata-rata untuk distribusi frekuensi jumlah komisi berikut:\n- 150 – 158: 5\n- 159 – 167: 16\n- 168 – 176: 20\n- 177 – 185: 21\n- 186 – 194: 20\n- 195 – 203: 15\n- 204 – 212: 3",
+      "options": [
+        "180,27",
+        "180,28",
+        "180,26",
+        "180,25",
+        "180,29"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Tentukan modus untuk distribusi frekuensi jumlah komisi di atas!",
+      "options": [
+        "180",
+        "181",
+        "182",
+        "183",
+        "184"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Titik A menunjukkan koordinat kapal tim SAR. Tentukan translasi yang harus dilakukan oleh kapal tim SAR jika ingin menuju titik B.",
+      "options": [
+        "(10, 12)",
+        "(5, 6)",
+        "(-5, 6)",
+        "(5, -6)",
+        "(-5, -6)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dengan sudut elevasi pengamat (Bolang) terhadap pesawat adalah sebesar $\\theta$, tentukan jarak pengamat ke pesawat, jika $\\theta = 135^{\\circ}$ dan ketinggian pesawat $120\\text{ km}$.",
+      "options": [
+        "120\\sqrt{2}\\text{ km}",
+        "240\\sqrt{2}\\text{ km}",
+        "360\\sqrt{2}\\text{ km}",
+        "120\\sqrt{3}\\text{ km}",
+        "240\\sqrt{3}\\text{ km}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dengan sudut elevasi pengamat (Bolang) terhadap pesawat adalah sebesar $\\theta$, tentukan jarak pengamat ke pesawat, jika $\\theta = 120^{\\circ}$ dan ketinggian pesawat $120\\text{ km}$.",
+      "options": [
+        "\\frac{240}{3}\\sqrt{2}\\text{ km}",
+        "\\frac{240}{2}\\sqrt{3}\\text{ km}",
+        "\\frac{240}{3}\\sqrt{3}\\text{ km}",
+        "\\frac{120}{3}\\sqrt{3}\\text{ km}",
+        "\\frac{120}{3}\\sqrt{2}\\text{ km}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diberikan distribusi frekuensi untuk jumlah komisi (dalam puluhan ribu) yang diterima 100 salesman yang dipekerjakan di beberapa cabang perusahaan besar. Tentukan median untuk distribusi frekuensi ini.",
+      "options": [
+        "180,36",
+        "180,63",
+        "181,36",
+        "181,63",
+        "182,36"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Tryout Eduka #7 - Soal 1",
+      "options": [
+        "Opsi A",
+        "Opsi B",
+        "Opsi C",
+        "Opsi D",
+        "Opsi E"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Tryout Eduka #7 - Soal 2",
+      "options": [
+        "Opsi A",
+        "Opsi B",
+        "Opsi C",
+        "Opsi D",
+        "Opsi E"
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "Tryout Eduka #7 - Soal 3",
+      "options": [
+        "Opsi A",
+        "Opsi B",
+        "Opsi C",
+        "Opsi D",
+        "Opsi E"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Tryout Eduka #7 - Soal 4",
+      "options": [
+        "Opsi A",
+        "Opsi B",
+        "Opsi C",
+        "Opsi D",
+        "Opsi E"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Tryout Eduka #7 - Soal 5",
+      "options": [
+        "Opsi A",
+        "Opsi B",
+        "Opsi C",
+        "Opsi D",
+        "Opsi E"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Tryout Eduka #7 - Soal 6",
+      "options": [
+        "Opsi A",
+        "Opsi B",
+        "Opsi C",
+        "Opsi D",
+        "Opsi E"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Tryout Eduka #7 - Soal 7",
+      "options": [
+        "Opsi A",
+        "Opsi B",
+        "Opsi C",
+        "Opsi D",
+        "Opsi E"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "Tryout Eduka #7 - Soal 8",
+      "options": [
+        "Opsi A",
+        "Opsi B",
+        "Opsi C",
+        "Opsi D",
+        "Opsi E"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Tryout Eduka #7 - Soal 9",
+      "options": [
+        "Opsi A",
+        "Opsi B",
+        "Opsi C",
+        "Opsi D",
+        "Opsi E"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "Tryout Eduka #7 - Soal 10",
+      "options": [
+        "Opsi A",
+        "Opsi B",
+        "Opsi C",
+        "Opsi D",
+        "Opsi E"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "Tryout Eduka #7 - Soal 11",
+      "options": [
+        "Opsi A",
+        "Opsi B",
+        "Opsi C",
+        "Opsi D",
+        "Opsi E"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Tryout Eduka #7 - Soal 12",
+      "options": [
+        "Opsi A",
+        "Opsi B",
+        "Opsi C",
+        "Opsi D",
+        "Opsi E"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "Tryout Eduka #7 - Soal 13",
+      "options": [
+        "Opsi A",
+        "Opsi B",
+        "Opsi C",
+        "Opsi D",
+        "Opsi E"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Tryout Eduka #7 - Soal 14",
+      "options": [
+        "Opsi A",
+        "Opsi B",
+        "Opsi C",
+        "Opsi D",
+        "Opsi E"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "Tryout Eduka #7 - Soal 15",
+      "options": [
+        "Opsi A",
+        "Opsi B",
+        "Opsi C",
+        "Opsi D",
+        "Opsi E"
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "Tryout Eduka #7 - Soal 16",
+      "options": [
+        "Opsi A",
+        "Opsi B",
+        "Opsi C",
+        "Opsi D",
+        "Opsi E"
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "Tryout Eduka #7 - Soal 17",
+      "options": [
+        "Opsi A",
+        "Opsi B",
+        "Opsi C",
+        "Opsi D",
+        "Opsi E"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "Tryout Eduka #7 - Soal 18",
+      "options": [
+        "Opsi A",
+        "Opsi B",
+        "Opsi C",
+        "Opsi D",
+        "Opsi E"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Tryout Eduka #7 - Soal 19",
+      "options": [
+        "Opsi A",
+        "Opsi B",
+        "Opsi C",
+        "Opsi D",
+        "Opsi E"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Tryout Eduka #7 - Soal 20",
+      "options": [
+        "Opsi A",
+        "Opsi B",
+        "Opsi C",
+        "Opsi D",
+        "Opsi E"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    }
+  ]
+}

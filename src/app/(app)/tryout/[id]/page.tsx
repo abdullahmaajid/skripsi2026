@@ -3,8 +3,8 @@
 import { useEffect, useState, use, Suspense } from "react"
 import { useRouter, useSearchParams } from "next/navigation"
 import { useCbtStore, Question } from "@/store/useCbtStore"
-import { Clock, Flag, ChevronLeft, ChevronRight, LayoutGrid, CheckCircle2, Loader2, AlertTriangle, Sparkles, Info } from "lucide-react"
-import { motion } from "framer-motion"
+import { Clock, Flag, ChevronLeft, ChevronRight, LayoutGrid, CheckCircle2, Loader2, AlertTriangle, Sparkles, Info, BookOpen, Calculator, PenTool, Globe, Scale } from "lucide-react"
+import { motion, AnimatePresence } from "framer-motion"
 import MarkdownRenderer from "@/components/ui/MarkdownRenderer"
 
 function NavigationGrid({ questions, answers, flagged, currentIndex, isAdaptive, totalItems, sections, currentSectionIndex, goToQuestion }: {
@@ -63,6 +63,171 @@ function NavigationGrid({ questions, answers, flagged, currentIndex, isAdaptive,
         <div className="flex items-center gap-1.5"><div className="w-2.5 h-2.5 md:w-3 md:h-3 rounded bg-emerald-100 border border-emerald-200" /> Terjawab</div>
         <div className="flex items-center gap-1.5"><div className="w-2.5 h-2.5 md:w-3 md:h-3 rounded bg-amber-100 border border-amber-200" /> Ragu-ragu</div>
         <div className="flex items-center gap-1.5"><div className="w-2.5 h-2.5 md:w-3 md:h-3 rounded bg-slate-50 border border-slate-200" /> Belum</div>
+      </div>
+    </div>
+  )
+}
+
+function TryoutPreparation({ templateId, onStart }: { templateId: string, onStart: () => void }) {
+  const router = useRouter()
+  const [template, setTemplate] = useState<any>(null)
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    fetch(`/api/tryout/${templateId}/details`)
+      .then(res => res.json())
+      .then(data => {
+        if (data.data) setTemplate(data.data)
+        setLoading(false)
+      })
+      .catch(() => setLoading(false))
+  }, [templateId])
+
+  if (loading) {
+    return <div className="min-h-screen flex items-center justify-center bg-slate-50"><Loader2 className="w-10 h-10 animate-spin text-[var(--accent)]" /></div>
+  }
+
+  if (!template) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-slate-50 flex-col gap-4">
+        <AlertTriangle className="w-12 h-12 text-rose-500" />
+        <h2 className="text-xl font-bold">Tryout tidak ditemukan</h2>
+        <button onClick={() => router.push('/tryout/list')} className="px-6 py-2 bg-slate-900 text-white rounded-lg">Kembali</button>
+      </div>
+    )
+  }
+
+  const getSubjectIcon = (name: string) => {
+    if (name.includes('Kuantitatif') || name.includes('Matematika')) return <Calculator className="w-5 h-5" />
+    if (name.includes('Bacaan') || name.includes('Literasi')) return <BookOpen className="w-5 h-5" />
+    if (name.includes('Inggris')) return <Globe className="w-5 h-5" />
+    if (name.includes('Penalaran')) return <Scale className="w-5 h-5" />
+    return <PenTool className="w-5 h-5" />
+  }
+
+  return (
+    <div className="min-h-screen bg-slate-50 pb-20 selection:bg-[var(--accent)] selection:text-white">
+      {/* Premium Header */}
+      <div className="relative overflow-hidden bg-white border-b border-slate-200 pt-8 pb-12 px-6">
+        <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-[var(--accent)] to-[var(--accent-secondary)]" />
+        <div className="max-w-6xl mx-auto mt-6">
+          <button onClick={() => router.push('/tryout/list')} className="text-sm font-medium text-slate-500 hover:text-slate-900 flex items-center gap-2 transition-colors mb-6">
+            <ChevronLeft className="w-4 h-4" /> Kembali ke Daftar Tryout
+          </button>
+          
+          <div className="flex flex-col md:flex-row md:items-start justify-between gap-6">
+            <div>
+              <div className="inline-flex items-center gap-2 px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-xs font-bold mb-4 border border-blue-100 uppercase tracking-wider">
+                <CheckCircle2 className="w-3.5 h-3.5" /> Resmi UTBK SNBT
+              </div>
+              <h1 className="text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight mb-3">
+                {template.name}
+              </h1>
+              <p className="text-slate-600 max-w-2xl leading-relaxed">
+                {template.description || "Simulasi Tryout UTBK SNBT dengan format resmi 7 Subtes (TPS & Literasi). Soal diseleksi khusus dan dilengkapi dengan sistem penilaian Item Response Theory (IRT)."}
+              </p>
+            </div>
+            
+            <div className="flex md:flex-col gap-3 shrink-0">
+              <div className="px-5 py-4 bg-slate-50 border border-slate-200 rounded-2xl flex flex-col justify-center items-center">
+                <span className="text-[10px] text-slate-500 uppercase tracking-wider font-bold mb-1">Total Waktu</span>
+                <div className="text-2xl font-black text-slate-800 flex items-center gap-2">
+                  <Clock className="w-5 h-5 text-[var(--accent)]" /> {template.duration}m
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="max-w-6xl mx-auto px-6 mt-8 grid grid-cols-1 lg:grid-cols-4 gap-8">
+        
+        {/* Left Column: Subtests */}
+        <div className="lg:col-span-3 space-y-6">
+          <h2 className="text-xl font-bold text-slate-800 flex items-center gap-2">
+            <LayoutGrid className="w-6 h-6 text-[var(--accent)]" /> Struktur Ujian ({template.sections.length} Subtes)
+          </h2>
+          
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {template.sections.map((section: any, idx: number) => {
+              const colorList = [
+                { bg: "bg-rose-50", text: "text-rose-600", hover: "hover:border-rose-300", badgeBg: "bg-rose-100/50", badgeText: "text-rose-600" },
+                { bg: "bg-blue-50", text: "text-blue-600", hover: "hover:border-blue-300", badgeBg: "bg-blue-100/50", badgeText: "text-blue-600" },
+                { bg: "bg-emerald-50", text: "text-emerald-600", hover: "hover:border-emerald-300", badgeBg: "bg-emerald-100/50", badgeText: "text-emerald-600" },
+                { bg: "bg-amber-50", text: "text-amber-600", hover: "hover:border-amber-300", badgeBg: "bg-amber-100/50", badgeText: "text-amber-600" },
+                { bg: "bg-purple-50", text: "text-purple-600", hover: "hover:border-purple-300", badgeBg: "bg-purple-100/50", badgeText: "text-purple-600" },
+                { bg: "bg-indigo-50", text: "text-indigo-600", hover: "hover:border-indigo-300", badgeBg: "bg-indigo-100/50", badgeText: "text-indigo-600" },
+                { bg: "bg-orange-50", text: "text-orange-600", hover: "hover:border-orange-300", badgeBg: "bg-orange-100/50", badgeText: "text-orange-600" },
+              ];
+              const color = colorList[idx % colorList.length];
+
+              return (
+                <motion.div 
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: idx * 0.05 }}
+                  key={section.id} 
+                  className={`group relative flex flex-col text-left bg-white rounded-3xl p-5 border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.03)] ${color.hover} transition-all hover:shadow-md`}
+                >
+                  <div className="flex items-start justify-between mb-4 w-full">
+                    <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 ${color.bg} ${color.text} font-black text-xl`}>
+                      {idx + 1}
+                    </div>
+                    <span className={`text-[10px] font-bold tracking-wider px-2.5 py-1.5 rounded-md uppercase ${color.badgeBg} ${color.badgeText}`}>
+                      {section.duration} mnt
+                    </span>
+                  </div>
+
+                  <h3 className="font-bold text-slate-800 text-[15px] mb-1.5 group-hover:text-[var(--accent)] transition-colors leading-snug">
+                    {section.subject.name}
+                  </h3>
+                  <p className="text-xs font-medium text-slate-500 mt-auto flex items-center gap-1.5">
+                    <BookOpen className="w-3.5 h-3.5 opacity-70" /> {section.itemCount} Soal
+                  </p>
+                </motion.div>
+              )
+            })}
+          </div>
+        </div>
+
+        {/* Right Column: Rules & Start Button */}
+        <div className="space-y-6">
+          <div className="bg-white rounded-3xl border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.03)] p-6 sticky top-6">
+            <h3 className="font-bold text-slate-900 mb-4 flex items-center gap-2 text-lg">
+              <AlertTriangle className="w-5 h-5 text-amber-500" /> Tata Tertib
+            </h3>
+            
+            <ul className="space-y-4 text-sm text-slate-600 mb-8">
+              <li className="flex items-start gap-3">
+                <div className="w-1.5 h-1.5 rounded-full bg-[var(--accent)] mt-1.5 shrink-0" />
+                <span>Ujian terdiri dari <strong>7 subtes</strong> yang akan berjalan secara berurutan.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="w-1.5 h-1.5 rounded-full bg-[var(--accent)] mt-1.5 shrink-0" />
+                <span>Waktu akan <strong>otomatis berpindah</strong> ke subtes berikutnya jika habis.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="w-1.5 h-1.5 rounded-full bg-rose-500 mt-1.5 shrink-0" />
+                <span>Kamu <strong>TIDAK BISA KEMBALI</strong> ke subtes sebelumnya jika waktu sudah habis.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="w-1.5 h-1.5 rounded-full bg-[var(--accent)] mt-1.5 shrink-0" />
+                <span>Mode ini mensimulasikan UTBK asli (Tidak ada bantuan AI Tutor).</span>
+              </li>
+            </ul>
+
+            <motion.button
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              onClick={onStart}
+              className="w-full py-4 bg-[var(--accent)] hover:bg-[#5b2bd5] text-white font-bold rounded-2xl shadow-[0_4px_14px_rgba(100,52,246,0.25)] hover:shadow-[0_6px_20px_rgba(100,52,246,0.35)] transition-all flex items-center justify-center gap-2 text-lg group"
+            >
+              Mulai Ujian <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            </motion.button>
+            <p className="text-center text-xs text-slate-400 mt-4 font-medium">Hanya bisa dikerjakan 1 kali percobaan per sesi.</p>
+          </div>
+        </div>
+
       </div>
     </div>
   )
@@ -400,6 +565,15 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
           {/* Center: Soal Content */}
           <div className="flex-1 flex flex-col mt-4 md:mt-8 overflow-y-auto no-scrollbar -mx-1 px-1">
             <div className="w-full">
+            {/* Subtest Indicator */}
+            {currentQ.subject && (
+              <div className="mb-3">
+                <span className="inline-flex items-center gap-1.5 px-2.5 py-1 bg-[var(--pastel-purple)] text-[var(--accent-dark)] text-[10px] font-bold rounded-md uppercase tracking-wider border border-[var(--accent)]/20 shadow-sm">
+                  <BookOpen className="w-3 h-3" /> {currentQ.subject}
+                </span>
+              </div>
+            )}
+
             {/* Soal Header */}
             <div className="flex justify-between items-center mb-3 md:mb-4">
               <div className="flex items-center gap-2">
@@ -598,9 +772,19 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
 export default function CbtEnginePage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = use(params)
   
+  // Periksa apakah user sudah mulai (state CBT store memiliki questions)
+  const { questions } = useCbtStore()
+  const [isStarted, setIsStarted] = useState(false)
+
+  const shouldRenderEngine = isStarted || questions.length > 0;
+  
   return (
     <Suspense fallback={<div className="h-screen flex items-center justify-center"><Loader2 className="w-8 h-8 animate-spin text-[var(--accent)]" /></div>}>
-      <CbtEngineContent templateId={id} />
+      {shouldRenderEngine ? (
+        <CbtEngineContent templateId={id} />
+      ) : (
+        <TryoutPreparation templateId={id} onStart={() => setIsStarted(true)} />
+      )}
     </Suspense>
   )
 }

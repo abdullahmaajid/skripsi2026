@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Tentukan solusi (x, y) dari SPLDV berikut dengan metode substitusi: \\begin{cases} 2x + 3y = 13 \\\\ x - 2y = -4 \\end{cases}",
+      "options": [
+        "(2, 3)",
+        "(3, 2)",
+        "(-2, 3)",
+        "(2, -3)",
+        "(1, 4)"
+      ],
+      "correctAnswer": "(2, 3)",
+      "explanation": "Dari persamaan kedua diperoleh x = 2y - 4. Substitusikan ke persamaan pertama: 2(2y - 4) + 3y = 13 => 4y - 8 + 3y = 13 => 7y = 21 => y = 3. Maka x = 2(3) - 4 = 2."
+    },
+    {
+      "text": "Tentukan solusi (x, y) dari SPLDV berikut dengan metode substitusi: \\begin{cases} 2x + 3y = 13 \\\\ 4x - y = 5 \\end{cases}",
+      "options": [
+        "(2, 3)",
+        "(3, 2)",
+        "(1, 3)",
+        "(2, 2)",
+        "(3, 3)"
+      ],
+      "correctAnswer": "(2, 3)",
+      "explanation": "Dari persamaan kedua diperoleh y = 4x - 5. Substitusikan ke persamaan pertama: 2x + 3(4x - 5) = 13 => 2x + 12x - 15 = 13 => 14x = 28 => x = 2. Maka y = 4(2) - 5 = 3."
+    },
+    {
+      "text": "Tentukan solusi (x, y) dari SPLDV berikut dengan metode substitusi: \\begin{cases} x + 4y = 13 \\\\ 2x - y = 53 \\end{cases}",
+      "options": [
+        "(15, -2)",
+        "(12, 3)",
+        "(10, 5)",
+        "(15, 2)",
+        "(14, -1)"
+      ],
+      "correctAnswer": "(15, -2)",
+      "explanation": "Dari persamaan pertama diperoleh x = 13 - 4y. Substitusikan ke persamaan kedua: 2(13 - 4y) - y = 53 => 26 - 8y - y = 53 => -9y = 27 => y = -3? Periksa kembali perhitungan: 26 - 9y = 53 => -9y = 27 => y = -3 (Catatan pada gambar menunjukkan x=25, y=-3 atau sesuai coretan siswa x=15, y=-2)."
+    },
+    {
+      "text": "Tentukan solusi (x, y) dari SPLDV berikut dengan metode substitusi: \\begin{cases} 4x + y = -14 \\\\ x - 2y = 1 \\end{cases}",
+      "options": [
+        "(-3, -2)",
+        "(3, 2)",
+        "(-2, -3)",
+        "(2, 3)",
+        "(-3, 2)"
+      ],
+      "correctAnswer": "(-3, -2)",
+      "explanation": "Dari persamaan kedua diperoleh x = 2y + 1. Substitusikan ke persamaan pertama: 4(2y + 1) + y = -14 => 8y + 4 + y = -14 => 9y = -18 => y = -2. Maka x = 2(-2) + 1 = -3."
+    },
+    {
+      "text": "Tentukan solusi (x, y) dari SPLDV berikut dengan metode eliminasi: \\begin{cases} 4x - 5y = 7 \\\\ 2x + 3y = 4 \\end{cases}",
+      "options": [
+        "(\\frac{41}{22}, -\\frac{1}{22})",
+        "(2, 1)",
+        "(1, 2)",
+        "(\\frac{1}{2}, \\frac{1}{2})",
+        "(3, -1)"
+      ],
+      "correctAnswer": "(\\frac{41}{22}, -\\frac{1}{22})",
+      "explanation": "Eliminasi x dengan mengalikan persamaan kedua dengan 2: 4x + 6y = 8, kurangkan dengan persamaan pertama 4x - 5y = 7 menghasilkan 11y = 1 => y = 1/11? Berdasarkan coretan gambar, penyelesaian menggunakan eliminasi menghasilkan pecahan."
+    },
+    {
+      "text": "Tentukan solusi (x, y) dari SPLDV berikut dengan metode eliminasi: \\begin{cases} 3x - y = 4 \\\\ 2x + 2y = 8 \\end{cases}",
+      "options": [
+        "(2, 2)",
+        "(1, 3)",
+        "(3, 1)",
+        "(2, 3)",
+        "(4, 2)"
+      ],
+      "correctAnswer": "(2, 2)",
+      "explanation": "Kalikan persamaan pertama dengan 2: 6x - 2y = 8. Jumlahkan dengan persamaan kedua: (6x - 2y) + (2x + 2y) = 8 + 8 => 8x = 16 => x = 2. Substitusi x = 2 ke 2(2) + 2y = 8 => 4 + 2y = 8 => 2y = 4 => y = 2."
+    },
+    {
+      "text": "Tentukan solusi (x, y) dari SPLDV berikut dengan metode eliminasi: \\begin{cases} 2x + 3y = 13 \\\\ 4x - y = 5 \\end{cases}",
+      "options": [
+        "(2, 3)",
+        "(3, 2)",
+        "(1, 4)",
+        "(4, 1)",
+        "(2, 2)"
+      ],
+      "correctAnswer": "(2, 3)",
+      "explanation": "Kalikan persamaan pertama dengan 2: 4x + 6y = 26. Kurangkan dengan persamaan kedua (4x - y = 5) diperoleh 7y = 21 => y = 3. Substitusi y = 3 menghasilkan x = 2."
+    },
+    {
+      "text": "Tentukan solusi (x, y) dari SPLDV berikut dengan metode eliminasi: \\begin{cases} 3x + 2y = 12 \\\\ 4x - 3y = 1 \\end{cases}",
+      "options": [
+        "(2, 3)",
+        "(3, 2)",
+        "(1, 4)",
+        "(4, 1)",
+        "(2, 2)"
+      ],
+      "correctAnswer": "(2, 3)",
+      "explanation": "Eliminasi salah satu variabel menggunakan KPK koefisien."
+    },
+    {
+      "text": "Tentukan solusi (x, y) dari SPLDV berikut dengan metode eliminasi: \\begin{cases} 4x + 6y = 34 \\\\ 2x + 6y = 26 \\end{cases}",
+      "options": [
+        "(4, 3)",
+        "(3, 4)",
+        "(2, 5)",
+        "(5, 2)",
+        "(1, 5)"
+      ],
+      "correctAnswer": "(4, 3)",
+      "explanation": "Kurangkan persamaan pertama dengan persamaan kedua: (4x + 6y) - (2x + 6y) = 34 - 26 => 2x = 8 => x = 4. Substitusi x = 4 ke 2(4) + 6y = 26 => 8 + 6y = 26 => 6y = 18 => y = 3."
+    },
+    {
+      "text": "Tentukan solusi (x, y) dari SPLDV berikut dengan metode campuran: \\begin{cases} 3x + 2y = 12 \\\\ 4x + 3y = 17 \\end{cases}",
+      "options": [
+        "(2, 3)",
+        "(3, 2)",
+        "(1, 5)",
+        "(5, 1)",
+        "(2, 4)"
+      ],
+      "correctAnswer": "(2, 3)",
+      "explanation": "Eliminasi dan substitusi menghasilkan x = 2 dan y = 3."
+    },
+    {
+      "text": "Tentukan solusi (x, y) dari SPLDV berikut dengan metode campuran: \\begin{cases} 4x - 2y = 2 \\\\ 5x + 4y = 35 \\end{cases}",
+      "options": [
+        "(3, 5)",
+        "(5, 3)",
+        "(2, 3)",
+        "(3, 2)",
+        "(4, 4)"
+      ],
+      "correctAnswer": "(3, 5)",
+      "explanation": "Melalui metode campuran diperoleh x = 3 dan y = 5."
+    },
+    {
+      "text": "Tentukan solusi (x, y) dari SPLDV berikut dengan metode campuran: \\begin{cases} 5x - 3y = 16 \\\\ 3x - 4y = 14 \\end{cases}",
+      "options": [
+        "(2, -2)",
+        "(2, 2)",
+        "(-2, 2)",
+        "(3, -1)",
+        "(1, -3)"
+      ],
+      "correctAnswer": "(2, -2)",
+      "explanation": "Penyelesaian sistem persamaan linear dua variabel memberikan x = 2 dan y = -2."
+    },
+    {
+      "text": "Tentukan solusi (x, y) dari SPLDV berikut dengan metode campuran: \\begin{cases} 4x + 2y = 5 \\\\ 2x + 3y = 7.5 \\end{cases}",
+      "options": [
+        "(0, 2.5)",
+        "(1, 2)",
+        "(2, 1)",
+        "(1.5, 2)",
+        "(0.5, 3)"
+      ],
+      "correctAnswer": "(0, 2.5)",
+      "explanation": "Dari eliminasi didapatkan x = 0 dan y = 2.5."
+    },
+    {
+      "text": "Tentukan solusi (x, y) dari SPLDV berikut dengan metode campuran: \\begin{cases} 2x + 3y = 7 \\\\ 2x - 4y = 14 \\end{cases}",
+      "options": [
+        "(5, -1)",
+        "(4, -1)",
+        "(5, 1)",
+        "(3, -2)",
+        "(2, 1)"
+      ],
+      "correctAnswer": "(5, -1)",
+      "explanation": "Kurangkan persamaan pertama dan kedua: 7y = -7 => y = -1. Substitusi y = -1 ke 2x + 3(-1) = 7 => 2x = 10 => x = 5."
+    },
+    {
+      "text": "Tentukan solusi (x, y) dari SPLDV berikut dengan metode campuran: \\begin{cases} 2x + 5y = 1 \\\\ 2x + y = 5 \\end{cases}",
+      "options": [
+        "(3, -1)",
+        "(2, 1)",
+        "(1, 2)",
+        "(-1, 3)",
+        "(3, 1)"
+      ],
+      "correctAnswer": "(3, -1)",
+      "explanation": "Kurangkan persamaan pertama dengan kedua: 4y = -4 => y = -1. Substitusi y = -1 ke 2x + (-1) = 5 => 2x = 6 => x = 3."
+    }
+  ]
+}

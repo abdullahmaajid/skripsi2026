@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Pernyataan yang tidak berhubungan dengan informasi dalam teks bacaan adalah...",
+      "options": [
+        "Peningkatan suhu ekstrem telah mengancam populasi lebah",
+        "Perubahan iklim dapat meningkatkan dampak pestisida",
+        "Suhu lingkungan dapat memengaruhi perilaku lebah",
+        "Terdapat dampak yang pasti dalam perubahan iklim",
+        "Penurunan kinerja penerbangan pada lebah pada suhu tertinggi"
+      ],
+      "correctAnswer": "Terdapat dampak yang pasti dalam perubahan iklim",
+      "explanation": null
+    },
+    {
+      "text": "Tema yang mungkin benar dari teks bacaan tersebut adalah...",
+      "options": [
+        "Lebah",
+        "Peptisida",
+        "Perubahan iklim",
+        "Penemuan peneliti",
+        "Studi terbaru"
+      ],
+      "correctAnswer": "Lebah",
+      "explanation": null
+    },
+    {
+      "text": "“Semakin meningkat perubahan iklim semakin terancam pula kehidupan makhluk hidup di Bumi.” Jika kalimat di atas ditembahkan dalam teks bacaan maka akan...",
+      "options": [
+        "Melemahkan",
+        "Memperkuat",
+        "Mempertentangkan",
+        "Mempersempit",
+        "Memperluas"
+      ],
+      "correctAnswer": "Memperkuat",
+      "explanation": null
+    },
+    {
+      "text": "Hubungan antara kalimat (5) dan (6) adalah...",
+      "options": [
+        "Bertentangan",
+        "Menambah informasi",
+        "Mempersempit",
+        "Tanggapan pribadi penulis",
+        "Memperinci masalah"
+      ],
+      "correctAnswer": "Bertentangan",
+      "explanation": null
+    },
+    {
+      "text": "Hal apa yang memengaruhi prilaku lebah?",
+      "options": [
+        "Suhu rendah lingkungan",
+        "Peptisida",
+        "Tanaman",
+        "Perilaku manusia",
+        "Suhu tinggi lingkungan"
+      ],
+      "correctAnswer": "Peptisida",
+      "explanation": null
+    },
+    {
+      "text": "Hasil yang didapat dari studi yang dilakukan dalam teks bacaan adalah...",
+      "options": [
+        "Peptisida memengaruhi tingkah laku lebah",
+        "Lebah tidak tahan dalam kondisi lingkungan yang dingin",
+        "Penurunan kinerja penerbangan pada lebah pada suhu tertinggi",
+        "Keberlangsungan hidup lebah sangat bergantung pada ketersedian tanaman",
+        "Semakin tingginya suhu lingkungan prilaku lebah akan semakin aktif"
+      ],
+      "correctAnswer": "Penurunan kinerja penerbangan pada lebah pada suhu tertinggi",
+      "explanation": null
+    },
+    {
+      "text": "Hal apa yang dipelajari oleh peneliti berdasarkan teks bacaan tersebut?",
+      "options": [
+        "Analisis faktor-faktor jenis lebah yang mampu bertahan dalam lingkungan dengan tiga tingkat suhu",
+        "Tingkat ketahanan lebih dalam suhu dingin dan suhu tinggi",
+        "Pengaruh ketersediaan tanaman dan proses keberlangsungan hidup lebah",
+        "Faktor-faktor perubahan prilaku lebah secara internal dan eksternal",
+        "Enam perilaku lebah besar di bawah pengaruh dua jenis pestisida pada tiga suhu"
+      ],
+      "correctAnswer": "Enam perilaku lebah besar di bawah pengaruh dua jenis pestisida pada tiga suhu",
+      "explanation": null
+    },
+    {
+      "text": "Gagasan pokok dari teks bacaan tersebut adalah...",
+      "options": [
+        "Langkah penting dalam menentukan apakah planet yang mengorbit bintang aktif kecil",
+        "Tidak ada teleskop sebelumnya yang memiliki kepekaan untuk mengukur cahaya redup mid-infrared seperti itu",
+        "Kemampuan Webb untuk mengarakterisasi eksoplanet seukuran Bumi",
+        "Penemuan tujuh planet berbatu yang mengorbit bintang kerdil merah ultradingin (atau kerdil M) 40 tahun cahaya dari Bumi",
+        "Teleskop Antariksa James Webb NASA digunakan mengukur suhu planet ekstrasurya berbatu TRAPPIST-1 b"
+      ],
+      "correctAnswer": "Teleskop Antariksa James Webb NASA digunakan mengukur suhu planet ekstrasurya berbatu TRAPPIST-1 b",
+      "explanation": null
+    },
+    {
+      "text": "Hasil penelitian tim internasional terhadap suhu planet ekstrasurya berbatu TRAPPIST-1 b adalah...",
+      "options": [
+        "Planet-planet ini adalah kesamaan ukuran dan massanya dengan planet-planet berbatu di dalam tata surya kita",
+        "Tidak ada teleskop sebelumnya yang memiliki kepekaan untuk mengukur cahaya redup mid-infrared seperti itu",
+        "Planet yang mengorbit bintang aktif kecil seperti TRAPPIST-1 dapat menopang atmosfer yang dibutuhkan untuk mendukung kehidupan",
+        "Siang hari planet tersebut memiliki suhu sekitar 226 derajat celcius dan menunjukkan bahwa planet tersebut tidak memiliki atmosfer yang signifikan",
+        "Penemuan tujuh planet berbatu yang mengorbit bintang kerdil merah ultradingin (atau kerdil M) 40 tahun cahaya dari Bumi"
+      ],
+      "correctAnswer": "Siang hari planet tersebut memiliki suhu sekitar 226 derajat celcius dan menunjukkan bahwa planet tersebut tidak memiliki atmosfer yang signifikan",
+      "explanation": null
+    },
+    {
+      "text": "Ilustrasi yang tepat untuk teks bacaan tersebut adalah...",
+      "options": [
+        "Video kondisi luar angkasa",
+        "Kurva tingkat keberhasilan penggunaan teleskop",
+        "Gambar Teleskop Antariksa James Webb NASA",
+        "Gambar kondisi di markas NASA",
+        "Data peneliti proyek tersebut"
+      ],
+      "correctAnswer": "Gambar Teleskop Antariksa James Webb NASA",
+      "explanation": null
+    },
+    {
+      "text": "Topik yang mungkin benar dari teks bacaan tersebut adalah...",
+      "options": [
+        "Penemuan baru peneliti NASA",
+        "Teleskop Antariksa James Webb NASA",
+        "Peneliti antariksa",
+        "NASA",
+        "Planet ekstrasurya berbatu"
+      ],
+      "correctAnswer": "Teleskop Antariksa James Webb NASA",
+      "explanation": null
+    },
+    {
+      "text": "Kata \"ini\" dalam kalimat (4) merujuk kepada...",
+      "options": [
+        "Hasil penemuan",
+        "Peneliti dari NASA",
+        "Teleskop antariksa",
+        "Planet ekstrasurya terkecil",
+        "Planet berbatu"
+      ],
+      "correctAnswer": "Hasil penemuan",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan berikut yang bertentangan dengan isi teks bacaan adalah...",
+      "options": [
+        "Kemampuan Webb untuk mengarakterisasi eksoplanet seukuran Bumi",
+        "Planet-planet ini memiliki kesamaan ukuran dan massanya dengan planet-planet berbatu di dalam tata surya kita",
+        "Penemuan tujuh planet berbatu yang mengorbit bintang kerdil merah ultradingin",
+        "Teleskop sebelumnya memiliki kepekaan yang serupa dengan Webb",
+        "Tim peneliti internasional telah menggunakan Teleskop Antariksa James Webb NASA"
+      ],
+      "correctAnswer": "Teleskop sebelumnya memiliki kepekaan yang serupa dengan Webb",
+      "explanation": null
+    },
+    {
+      "text": "Jika kita ingin menentukan judul dari teks bacaan tersebut maka judul yang sesuai adalah...",
+      "options": [
+        "Tim peneliti internasional telah menggunakan Teleskop Antariksa James Webb NASA",
+        "Kehidupan di luar tata surya kita",
+        "Astronom Gunakan James Webb Mengukur Suhu Planet Ekstrasurya Berbatu",
+        "Hasil penelitian terbaru yang ditunjukkan oleh NASA",
+        "Tingkat keberhasilan penggunaan Teleskop Antariksa James Webb NASA"
+      ],
+      "correctAnswer": "Astronom Gunakan James Webb Mengukur Suhu Planet Ekstrasurya Berbatu",
+      "explanation": null
+    },
+    {
+      "text": "Paragraf pertama teks bacaan tersebut berfungsi sebagai...",
+      "options": [
+        "Pembuka",
+        "Penjelas",
+        "Penutup",
+        "Penarik kesimpulan",
+        "Pandangan berbeda"
+      ],
+      "correctAnswer": "Pembuka",
+      "explanation": null
+    },
+    {
+      "text": "Hal apa yang dilaporkan oleh para ilmuwan dalam teks bacaan tersebut...",
+      "options": [
+        "Jumlah atom oksigen yang lebih besar dari yang diperkirakan",
+        "Beberapa analisis paling rinci tentang bahan organik dari dua meteorit",
+        "Campuran kompleks bahan organik yang ditemukan di Bumi",
+        "Informasi baru tentang alam semesta",
+        "Memberikan jendela ke asal usul kehidupan itu sendiri"
+      ],
+      "correctAnswer": "Beberapa analisis paling rinci tentang bahan organik dari dua meteorit",
+      "explanation": null
+    },
+    {
+      "text": "“Informasi baru mengenai kehidupan dapat merusak informasi-informasi sebelumnya yang ditemukan.” Pernyataan berikut yang jika ditambahkan dalam teks bacaan maka akan...",
+      "options": [
+        "Melemahkan",
+        "Memperkuat",
+        "Mempertentangkan",
+        "Mempersempit",
+        "Memperluas"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Hubungan kalimat (5) dan (6) teks bacaan tersebut adalah...",
+      "options": [
+        "Bertentengan",
+        "Kesimpulan",
+        "Informasi sebelumnya",
+        "Penambahan informasi",
+        "Informasi setelahnya"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang mengandung pemborosan kata ditunjukkan dalam kalimat...",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Tema yang mungkin benar dari teks bacaan adalah...",
+      "options": [
+        "Meteorit",
+        "Peneliti",
+        "Antariksa",
+        "Kehidupan baru",
+        "Jendela baru"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Topik yang mungkin benar dari teks bacaan tersebut adalah...",
+      "options": [
+        "Adat Biak Karon",
+        "Festival Munara Beba",
+        "Pelestarian adat",
+        "Pertikaian Pulau Biak",
+        "Pelestarian alam"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "“Festival Munara Beba dilakukan untuk penolakan kebudayaan asing agar tidak masuk dan mencampuri Adat Biak.” Jika kalimat di atas ditambahkan dalam tesk bacaan maka...",
+      "options": [
+        "Melemahkan",
+        "Memperkuat",
+        "Mempertentangkan",
+        "Mempersempit",
+        "Memperluas"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Hubungan kalimat (25) dan (26) dalam teks bacaan adalah...",
+      "options": [
+        "Memperkuat",
+        "Memperlemah",
+        "Memperinci",
+        "Memberikan contoh",
+        "Mempersempit informasi"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Hal apa yang menjadi alasan pertikaian di Pulau Biak?",
+      "options": [
+        "Perebutan wilayah",
+        "Masuknya budaya asing yang memengaruhi pandangan beberapa orang",
+        "Terjadinya perang saudara",
+        "Perselisihan pengaruh antara Kesultanan Ternate dan Kesultanan Tidore",
+        "Pertikaian yang diakibatkan dari ketidaksetujuan terhadap terpilihnya kepala suku baru"
+      ],
+      "correctAnswer": "Perselisihan pengaruh antara Kesultanan Ternate dan Kesultanan Tidore",
+      "explanation": null
+    },
+    {
+      "text": "Ilustrasi yang tepat untuk teks bacaan adalah...",
+      "options": [
+        "Kurva tingkat pengunjung di Pulau Biak",
+        "Diagram tingkat kepedulian lingkungan masyarakat di Pulau Biak",
+        "Gambar suasana Festival Munara Beba",
+        "Data masyarakat Pulau Biak",
+        "Video pertikaian di Pulau Biak"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertanyaan berikut ini yang jawabannya tidak dapat ditemukan dalam teks bacaan adalah...",
+      "options": [
+        "Bagaimana sejarah hadirnya Festival Munara Beba?",
+        "Apa yang menyebabkan pertikaian di Pulau Biak?",
+        "Simbol apa saja yang terdapat di perahu mereka?",
+        "Apa tujuan dari Festival Munara Beba?",
+        "Di mana keberadaan adat Biak Karon?"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Tujuan dari Festival Munara Beba Byak-Karon adalah untuk...",
+      "options": [
+        "Menarik kembali kebiasaan tradisi leluhur mereka",
+        "Memilih kepala adat yang baru",
+        "Wujudan rasa syukur atas keberhasilan panen dan keberkahan hidup",
+        "Mengenang jasa para pahlawan dan leluhur",
+        "Memperkenalkan nilai kehidupan kepada anak-anak dan tata krama"
+      ],
+      "correctAnswer": "Menarik kembali kebiasaan tradisi leluhur mereka",
+      "explanation": null
+    },
+    {
+      "text": "Hal apa yang membuat orang Biak kerap disebut sebagai \"viking dari Papua\"?",
+      "options": [
+        "Keahlian dan ketangguhan mereka",
+        "Kecerdasan mereka",
+        "Hidup berpindah-pindah dan suka menguasai wilayah lain",
+        "Suka merampas hak orang lain",
+        "Sudah menjelajah ke banyak wilayah"
+      ],
+      "correctAnswer": "Keahlian dan ketangguhan mereka",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks bacaan, apa makna dari kata \"Karon\"?",
+      "options": [
+        "Perahu",
+        "Kekuasan",
+        "Adat budaya",
+        "Ombak",
+        "Daratan"
+      ],
+      "correctAnswer": "Ombak",
+      "explanation": null
+    },
+    {
+      "text": "Gagasan utama dari paragraf ketiga teks bacaan tersebut adalah...",
+      "options": [
+        "Kawasan yang selalu disinggahi orang Biak",
+        "Perjalanan pulang-pergi Biak-Raja Ampat",
+        "Karon adalah istilah orang Biak",
+        "Viking dari Papua",
+        "Keahlian dan ketangguhan orang Biak"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

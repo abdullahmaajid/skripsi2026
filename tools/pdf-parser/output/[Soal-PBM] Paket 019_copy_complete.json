@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Kata \"membangun\" dalam teks dapat digantikan dengan kata yang memiliki makna serupa, kecuali...",
+      "options": [
+        "mendirikan",
+        "membuat",
+        "merancang",
+        "meningkatkan",
+        "mengembangkan"
+      ],
+      "correctAnswer": "meningkatkan",
+      "explanation": "Kata \"membangun\" bersinonim dengan mendirikan, membuat, merancang, dan mengembangkan, sedangkan meningkatkan memiliki arti yang berbeda."
+    },
+    {
+      "text": "Manakah inti dari kalimat berikut? \"Kemacetan lalu lintas di kota-kota besar menjadi permasalahan yang semakin sulit diatasi.\"",
+      "options": [
+        "Kemacetan lalu lintas sulit diatasi",
+        "Lalu lintas kota besar bermasalah",
+        "Permasalahan kemacetan terjadi di kota besar",
+        "Kemacetan sulit diatasi",
+        "Kota besar mengalami kemacetan"
+      ],
+      "correctAnswer": "Kemacetan lalu lintas sulit diatasi",
+      "explanation": "Inti kalimat (subjek dan predikat utama) dari kalimat tersebut adalah Kemacetan lalu lintas sulit diatasi."
+    },
+    {
+      "text": "Pilihlah penggabungan yang paling efektif dari dua kalimat berikut: 1. Kondisi ini menyebabkan pemborosan waktu. 2. Selain itu, kondisi ini meningkatkan polusi udara.",
+      "options": [
+        "Kondisi ini menyebabkan pemborosan waktu dan juga meningkatkan polusi udara.",
+        "Kondisi ini menyebabkan pemborosan waktu, tetapi juga meningkatkan polusi udara.",
+        "Kondisi ini tidak hanya menyebabkan pemborosan waktu, tetapi juga meningkatkan polusi udara.",
+        "Selain kondisi ini menyebabkan pemborosan waktu, juga meningkatkan polusi udara.",
+        "Kondisi ini menyebabkan pemborosan waktu yang juga menyebabkan peningkatan polusi udara."
+      ],
+      "correctAnswer": "Kondisi ini tidak hanya menyebabkan pemborosan waktu, tetapi juga meningkatkan polusi udara.",
+      "explanation": "Penggunaan konjungsi korelatif \"tidak hanya ..., tetapi juga ...\" adalah bentuk penggabungan kalimat yang paling efektif dan baku untuk menyatakan dua dampak sekaligus."
+    },
+    {
+      "text": "Pilihlah kata yang paling tepat untuk melengkapi kalimat berikut: \"Pemerintah menerapkan sistem ganjil-genap sebagai salah satu cara untuk ______ kemacetan di kota besar.\"",
+      "options": [
+        "menghilangkan",
+        "mengurangi",
+        "menghindari",
+        "meniadakan",
+        "menuntaskan"
+      ],
+      "correctAnswer": "mengurangi",
+      "explanation": "Dalam konteks kemacetan lalu lintas, kata \"mengurangi\" adalah yang paling tepat karena kemacetan umumnya tidak dapat langsung dihilangkan atau ditiadakan sepenuhnya secara instan."
+    },
+    {
+      "text": "Pilihlah kata yang paling tepat untuk melengkapi kalimat berikut: \"Pemerintah dan masyarakat harus bekerja sama dalam menangani kemacetan agar solusi yang diterapkan dapat berjalan dengan ______.\"",
+      "options": [
+        "sukses",
+        "optimal",
+        "maksimal",
+        "sempurna",
+        "berhasil"
+      ],
+      "correctAnswer": "optimal",
+      "explanation": "Kata \"optimal\" paling tepat digunakan untuk menyertai kata \"berjalan dengan\" dalam konteks kinerja kebijakan atau solusi."
+    },
+    {
+      "text": "Di manakah tempat yang paling tepat untuk menyisipkan kalimat berikut dalam paragraf pertama? \"Gempa bumi sering terjadi di daerah yang berada di perbatasan lempeng tektonik, seperti Indonesia, Jepang, dan Meksiko.\"",
+      "options": [
+        "Sebelum kalimat pertama",
+        "Setelah kalimat pertama",
+        "Setelah kalimat kedua",
+        "Sebelum kalimat terakhir",
+        "Tidak perlu disisipkan"
+      ],
+      "correctAnswer": "Setelah kalimat pertama",
+      "explanation": "Kalimat tersebut menjelaskan lebih lanjut tentang penyebab terjadinya gempa yang dibahas pada kalimat pertama."
+    },
+    {
+      "text": "Manakah kalimat yang menggunakan tanda koma dengan benar?",
+      "options": [
+        "Gempa bumi dapat menyebabkan tanah longsor tsunami dan kerusakan bangunan.",
+        "Saat gempa terjadi, penting bagi masyarakat tetap tenang dan mencari tempat yang aman.",
+        "Pemerintah lembaga terkait dan masyarakat harus bekerja sama dalam menghadapi bencana.",
+        "Dalam mitigasi bencana masyarakat harus diberikan edukasi mengenai evakuasi.",
+        "Kita harus waspada terhadap gempa bumi, karena sering terjadi tanpa peringatan."
+      ],
+      "correctAnswer": "Saat gempa terjadi, penting bagi masyarakat tetap tenang dan mencari tempat yang aman.",
+      "explanation": "Penggunaan tanda koma setelah keterangan waktu \"Saat gempa terjadi\" sudah benar."
+    },
+    {
+      "text": "Manakah perbaikan yang paling efektif untuk kalimat berikut? \"Pemerintah melakukan berbagai langkah dalam mengurangi risiko akibat gempa bumi supaya masyarakat dapat terlindungi dari bahaya yang ditimbulkan.\"",
+      "options": [
+        "Pemerintah melakukan berbagai upaya mitigasi gempa agar masyarakat terlindungi dari bahaya.",
+        "Dalam mengurangi risiko gempa bumi, pemerintah melakukan berbagai cara supaya masyarakat terlindungi.",
+        "Pemerintah membuat langkah-langkah untuk mengurangi risiko gempa agar bahaya bisa dicegah.",
+        "Agar masyarakat lebih aman, pemerintah membuat upaya dalam mengurangi risiko gempa bumi.",
+        "Berbagai langkah dilakukan oleh pemerintah dalam mengurangi risiko akibat gempa bumi agar masyarakat terlindungi."
+      ],
+      "correctAnswer": "Pemerintah melakukan berbagai upaya mitigasi gempa agar masyarakat terlindungi dari bahaya.",
+      "explanation": "Pilihan ini lebih ringkas, padat, dan menggunakan kosakata yang lebih baku serta efektif."
+    },
+    {
+      "text": "Manakah kalimat yang menggunakan huruf kapital dengan benar?",
+      "options": [
+        "Gempa bumi sering terjadi di daerah Asia Tenggara, khususnya di indonesia.",
+        "Lembaga penanggulangan bencana Nasional telah memberikan himbauan kepada masyarakat.",
+        "Pemerintah Kota Jakarta mengadakan simulasi bencana setiap bulan.",
+        "Saat terjadi gempa, masyarakat diminta mengikuti instruksi dari gubernur.",
+        "Badan Meteorologi, klimatologi, dan Geofisika (BMKG) memberikan peringatan dini tentang gempa bumi."
+      ],
+      "correctAnswer": "Pemerintah Kota Jakarta mengadakan simulasi bencana setiap bulan.",
+      "explanation": "Nama geografi dan unsur pemerintahan ditulis menggunakan huruf kapital dengan benar pada pilihan C."
+    },
+    {
+      "text": "Pilihlah kata yang paling tepat untuk melengkapi kalimat berikut: \"Masyarakat harus selalu waspada terhadap gempa bumi karena bencana ini dapat terjadi secara ______ tanpa ada tanda-tanda sebelumnya.\"",
+      "options": [
+        "perlahan",
+        "tiba-tiba",
+        "berulang",
+        "berkala",
+        "bertahap"
+      ],
+      "correctAnswer": "tiba-tiba",
+      "explanation": "Konteks \"tanpa ada tanda-tanda sebelumnya\" menunjukkan bahwa bencana gempa bumi terjadi secara tiba-tiba."
+    },
+    {
+      "text": "Manakah kalimat yang paling efektif untuk menggantikan kalimat berikut? \"Pemanasan global adalah fenomena yang terjadi akibat kenaikan suhu bumi yang disebabkan oleh banyak faktor yang dilakukan manusia.\"",
+      "options": [
+        "Pemanasan global terjadi karena manusia meningkatkan suhu bumi melalui berbagai aktivitas.",
+        "Pemanasan global adalah fenomena yang terjadi karena suhu bumi meningkat akibat aktivitas manusia.",
+        "Pemanasan global adalah fenomena yang menyebabkan suhu bumi meningkat karena manusia.",
+        "Pemanasan global adalah peningkatan suhu bumi yang dilakukan oleh manusia melalui berbagai cara.",
+        "Pemanasan global adalah fenomena yang suhu bumi meningkat karena aktivitas manusia."
+      ],
+      "correctAnswer": "Pemanasan global adalah fenomena yang terjadi karena suhu bumi meningkat akibat aktivitas manusia.",
+      "explanation": "Pilihan ini memiliki struktur kalimat yang padu, logis, dan gramatikal."
+    },
+    {
+      "text": "Kalimat berikut mengandung kata yang seharusnya dihilangkan agar lebih efektif: \"Namun, langkah-langkah ini memerlukan kerja sama yang sangat penting dari semua pihak, baik pemerintah, industri, maupun masyarakat.\" Kata yang seharusnya dihilangkan adalah...",
+      "options": [
+        "Namun",
+        "langkah-langkah",
+        "sangat",
+        "penting",
+        "dari"
+      ],
+      "correctAnswer": "sangat",
+      "explanation": "Kata \"sangat\" redundan karena frasa \"kerja sama yang penting\" sudah menunjukkan urgensi tanpa perlu penguatan berlebihan."
+    },
+    {
+      "text": "Manakah judul yang paling sesuai dengan isi teks?",
+      "options": [
+        "Penyebab dan Dampak Pemanasan Global",
+        "Dampak Pemanasan Global bagi Kehidupan Manusia",
+        "Cara Mencegah Pemanasan Global dengan Energi Terbarukan",
+        "Peran Pemerintah dalam Mengatasi Pemanasan Global",
+        "Bagaimana Perubahan Iklim Mempengaruhi Dunia"
+      ],
+      "correctAnswer": "Penyebab dan Dampak Pemanasan Global",
+      "explanation": "Teks membahas penyebab (aktivitas manusia, gas rumah kaca) sekaligus dampak (perubahan iklim, es mencair, naiknya permukaan laut) dari pemanasan global."
+    },
+    {
+      "text": "Manakah kalimat yang memiliki makna sama dengan kalimat berikut?\n\"Tanpa tindakan nyata, dampak pemanasan global akan semakin parah dan berakibat buruk bagi kehidupan di masa depan.\"",
+      "options": [
+        "Jika tidak ada tindakan konkret, pemanasan global akan semakin buruk dan membahayakan kehidupan di kemudian hari.",
+        "Jika semua orang bertindak, dampak pemanasan global dapat dikendalikan dan tidak terlalu berbahaya.",
+        "Tindakan nyata diperlukan agar pemanasan global tidak mengganggu kehidupan sekarang dan nanti.",
+        "Dampak pemanasan global yang buruk akan terjadi jika tidak ada tindakan.",
+        "Tanpa adanya kesadaran, pemanasan global akan terus meningkat dan sulit dikendalikan."
+      ],
+      "correctAnswer": "Jika tidak ada tindakan konkret, pemanasan global akan semakin buruk dan membahayakan kehidupan di kemudian hari.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah kalimat yang mengandung kesalahan penulisan kata?",
+      "options": [
+        "Pemanasan global terjadi akibat aktivitas manusia, seperti pembakaran bahan bakar fosil dan deforestasi.",
+        "Pengurangan emisi karbon menjadi salah satu langkah dalam menekan laju pemanasan global.",
+        "Kesadaran individu dan kolektif sangat di perlukan untuk mengatasi permasalahan ini.",
+        "Jika tidak ada upaya nyata, dampak pemanasan global akan terus meningkat.",
+        "Para ilmuwan terus meneliti solusi untuk mengurangi dampak perubahan iklim."
+      ],
+      "correctAnswer": "Kesadaran individu dan kolektif sangat di perlukan untuk mengatasi permasalahan ini.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah kalimat yang mengandung kesalahan dalam penulisan kata?",
+      "options": [
+        "Teknologi digital telah menjadi bagian yang tak terpisahkan dari kehidupan manusia modern.",
+        "Kemajuan teknologi juga menimbulkan tantangan baru, seperti keamana data dan penyebaran informasi yang tidak benar.",
+        "Pendidikan dan kesadaran digital menjadi kunci dalam menghadapi tantangan tersebut.",
+        "Masyarakat perlu memahami bagaimana menggunakan teknologi secara bijak dan memilah informasi yang valid.",
+        "Dengan demikian, teknologi digital dapat dimanfaatkan secara optimal untuk meningkatkan kualitas hidup."
+      ],
+      "correctAnswer": "Kemajuan teknologi juga menimbulkan tantangan baru, seperti keamana data dan penyebaran informasi yang tidak benar.",
+      "explanation": null
+    },
+    {
+      "text": "Pilihlah kata yang paling tepat untuk melengkapi kalimat berikut:\n\"____ teknologi digital berkembang pesat, masih banyak masyarakat yang belum memahami cara menggunakannya dengan aman.\"",
+      "options": [
+        "Oleh karena itu",
+        "Walaupun",
+        "Agar",
+        "Jika",
+        "Karena"
+      ],
+      "correctAnswer": "Walaupun",
+      "explanation": null
+    },
+    {
+      "text": "Manakah kalimat yang paling efektif sebagai perbaikan dari kalimat berikut?\n\"Pentingnya kesadaran masyarakat dalam menggunakan teknologi digital dengan baik agar tidak terjadi penyalahgunaan teknologi yang dapat merugikan.\"",
+      "options": [
+        "Kesadaran masyarakat dalam menggunakan teknologi digital penting agar tidak terjadi penyalahgunaan yang merugikan.",
+        "Teknologi digital harus digunakan dengan baik agar masyarakat tidak menyalahgunakannya.",
+        "Masyarakat perlu memiliki kesadaran agar teknologi digital tidak disalahgunakan.",
+        "Kesadaran masyarakat dalam pemanfaatan teknologi digital penting untuk menghindari dampak negatif.",
+        "Teknologi digital bisa disalahgunakan jika masyarakat tidak menggunakannya dengan baik."
+      ],
+      "correctAnswer": "Kesadaran masyarakat dalam menggunakan teknologi digital penting agar tidak terjadi penyalahgunaan yang merugikan.",
+      "explanation": null
+    },
+    {
+      "text": "Susunlah urutan yang paling logis untuk paragraf berikut:\n1. Oleh karena itu, pemahaman terhadap keamanan digital sangat penting agar data pribadi tidak mudah diretas.\n2. Salah satu tantangan dalam era digital adalah meningkatnya kasus kejahatan siber yang dapat merugikan pengguna internet.\n3. Kejahatan siber meliputi pencurian data, peretasan akun, serta penyebaran virus yang dapat merusak sistem.\n4. Dengan memahami cara melindungi informasi pribadi, pengguna dapat mengurangi risiko menjadi korban kejahatan siber.",
+      "options": [
+        "2 - 3 - 1 - 4",
+        "2 - 1 - 3 - 4",
+        "1 - 2 - 3 - 4",
+        "3 - 2 - 4 - 1",
+        "2 - 3 - 4 - 1"
+      ],
+      "correctAnswer": "2 - 3 - 1 - 4",
+      "explanation": null
+    },
+    {
+      "text": "Manakah kalimat berikut yang menggunakan tanda koma dengan benar?",
+      "options": [
+        "Teknologi digital, telah mengubah berbagai aspek kehidupan, seperti komunikasi, pekerjaan, dan pendidikan.",
+        "Dengan memahami keamanan digital, pengguna dapat melindungi data pribadi dan, mengurangi risiko kejahatan siber.",
+        "Masyarakat perlu meningkatkan kesadaran digital, agar tidak mudah tertipu oleh informasi palsu.",
+        "Internet memungkinkan akses informasi yang cepat, efisien, dan membantu meningkatkan produktivitas.",
+        "Keamanan digital adalah hal yang sangat penting, untuk menghindari pencurian data dan kejahatan siber."
+      ],
+      "correctAnswer": "Internet memungkinkan akses informasi yang cepat, efisien, dan membantu meningkatkan produktivitas.",
+      "explanation": null
+    }
+  ]
+}

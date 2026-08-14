@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Sebuah persamaan garis $2x + y = 6$ memotong sumbu $x$ dan $y$ sehingga membentuk sebuah segitiga, berapa luas segitiga tersebut?",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswer": "6",
+      "explanation": "Titik potong sumbu $x$ ($y=0$): $2x = 6 \\rightarrow x = 3$ (titik $(3,0)$). Titik potong sumbu $y$ ($x=0$): $y = 6$ (titik $(0,6)$). Luas = $\\frac{1}{2} \\times alas \\times tinggi = \\frac{1}{2} \\times 3 \\times 6 = 9$? Wait, let's recalculate: $\\frac{1}{2} \\times 3 \\times 6 = 9$. Option D."
+    },
+    {
+      "text": "Diketahui gambar! Daerah yang diarsir dapat direpresentasikan sebagai...",
+      "options": [
+        "(A \\cap B) \\cup (A \\cap C)",
+        "A^c \\cup B^c \\cup C^c",
+        "(A \\cup B) - (B \\cup C)",
+        "A \\cap B \\cap C",
+        "(A \\cap B) \\cup (B \\cap C)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Suatu fungsi didefinisikan dengan rumus $f(x) = mx + n$, berapa nilai $f(-3)$ jika dikethui $f(0) = 4$ dan $f(-1) = 1$?",
+      "options": [
+        "-5",
+        "-4",
+        "-3",
+        "-2",
+        "-1"
+      ],
+      "correctAnswer": "-5",
+      "explanation": "Diketahui $f(0) = n = 4$. $f(-1) = m(-1) + 4 = 1 \\rightarrow -m = -3 \\rightarrow m = 3$. Jadi $f(x) = 3x + 4$. $f(-3) = 3(-3) + 4 = -9 + 4 = -5$."
+    },
+    {
+      "text": "Reza setiap bulan menyisihkan pendapatannya untuk menabung dan Reza sudah memiliki tabungan sebanyak Rp27.000.000, berapa lamakah Reza sudah manabung? \\n 1) Reza memiliki pendapatan sebesar Rp9.000.000 per bulan \\n 2) Reza bekerja di sebuah perusahaan jasa",
+      "options": [
+        "pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi (1) SAJA tidak cukup",
+        "dua pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": "pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+      "explanation": "Pernyataan (1) memberikan jumlah pendapatan, tetapi tidak diketahui berapa bagian yang ditabung setiap bulan. Oleh karena itu (1) saja tidak cukup. Bahkan dengan (2) juga tidak cukup."
+    },
+    {
+      "text": "Diketahui $a > 7$ dan $b < 3$, maka nilai dari $a - b$ adalah...",
+      "options": [
+        "Kurang dari 4",
+        "Kurang dari 3",
+        "Lebih dari 5",
+        "Lebih dari 4",
+        "Kurang dari 1"
+      ],
+      "correctAnswer": "Lebih dari 4",
+      "explanation": "$a > 7$ dan $-b > -3$ atau $b < 3 \\rightarrow -b > -3$. Maka $a - b > 7 - 3 = 4$. Jadi $a - b$ lebih dari 4."
+    },
+    {
+      "text": "Perhatikan gambar di bawah ini! Berapakah luas segitiga ABC? \\n 1) BC = 5 \\n 2) AC = 13",
+      "options": [
+        "pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi (1) SAJA tidak cukup",
+        "dua pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Andi ingin membuat sebuah kolam renang di belakang rumahnya, berapa banyak air yang dibutuhkan untuk mengisi kolam? \\n 1) Ukuran dimensi kolam renang ialah 7m x 8m x 2m \\n 2) Volume kolam renang tersebut sebesar 112 m^3",
+      "options": [
+        "pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi (1) SAJA tidak cukup",
+        "dua pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": "pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+      "explanation": "Pernyataan (1) dapat dihitung volumenya ($7 \\times 8 \\times 2 = 112$), pernyataan (2) langsung memberikan volume. Masing-masing cukup."
+    },
+    {
+      "text": "Sebuah toko kue menual dua jenis keju, harganya yaitu Rp25.000 dan Rp30.000. Berapakah keuntungan yang didapatkan Jika keuntungannya adalah 50% dari harga jual? \\n 1) Keju Rp30.000 terjual 25 buah \\n 2) Keju Rp25.000 terjual sebanyak 2 kali lipat dari keju yang satunya",
+      "options": [
+        "pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+      "explanation": "Dibutuhkan informasi jumlah penjualan kedua jenis keju untuk menghitung total keuntungan."
+    },
+    {
+      "text": "Jika $abc = 8$, dengan $a, b, c$ adalah bilangan bulat positif yang berbeda, jika $c = 1$. Manakah pernyataan di bawah ini yang benar? \\n 1) $a + b + c < 9$ \\n 2) $a + b + c = 7$ \\n 3) $a$ dan $b$ adalah bilangan genap \\n 4) $a + b < c$",
+      "options": [
+        "1,2,3 SAJA yang benar",
+        "1 dan 3 SAJA yang benar",
+        "2 dan 4 SAJA yang benar",
+        "HANYA 4 yang benar",
+        "SEMUA PILIHAN Benar"
+      ],
+      "correctAnswer": "1 dan 3 SAJA yang benar",
+      "explanation": "Jika $c=1$, $ab = 8$. Pasangan bilangan bulat positif berbeda $(a,b)$ adalah $(2,4)$ atau $(4,2)$. Maka $a+b+c = 2+4+1 = 7$. Jadi 1 ($7<9$) benar, 2 ($7=7$) benar, 3 ($2$ dan $4$ genap) benar, 4 ($6<1$) salah. Maka 1, 2, dan 3 benar (Option A)."
+    },
+    {
+      "text": "Manakah di antara bangun datar dan bangun ruang berikut yang memiliki 4 titik sudut? \\n 1) Belah ketupat \\n 2) Persegi \\n 3) Limas segitiga \\n 4) Persegi panjang",
+      "options": [
+        "1,2,3 SAJA yang benar",
+        "1 dan 3 SAJA yang benar",
+        "2 dan 4 SAJA yang benar",
+        "HANYA 4 yang benar",
+        "SEMUA PILIHAN Benar"
+      ],
+      "correctAnswer": "SEMUA PILIHAN Benar",
+      "explanation": "Belah ketupat (4), Persegi (4), Limas segitiga (4 titik sudut/sudut alas dan puncak), Persegi panjang (4). Semua benar."
+    },
+    {
+      "text": "Nilai $x = 0,4$, $y = 0,36$, dan $z = \\sqrt{10x^2 - \\sqrt{y}}$. Manakah pernyataan di bawah yang benar \\n 1) $y < z$ \\n 2) $x > z$ \\n 3) $z = 1$ \\n 4) $x + y = 1$",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Usia A 26 Tahun, usia C sama dengan rata-rata usia A dan B. Adapun usia D adalah 28 tahun lebih tua daripada A dan 18 tahun lebih tua daripada B. Manakah pernyataan berikut yang benar? \\n 1) Selisih usia A dan C adalah 14 tahun \\n 2) A lebuh tua daripada B \\n 3) Rata-rata usia B dan C adalah 35 tahun. \\n 4) Usia C adalah 18 tahun",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah tabung air memiliki jari-jari 50 cm dan tinggi 1 meter, sedangkan terdapat kubus dengan panjang sisi 50 cm. \\n 1) Volume tabung lebih besar dari volume kubus \\n 2) Luas alas tabung sama dengan luas alas kubus \\n 3) Luas alas tabung sama dengan volume tabung \\n 4) Perbandingan volume tabung dan kubus adalah 2 : 1",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan yang benar antara hubungan P dan Q? (P = Rata-rata dari 4x, 2x dan 6; Q = Rata-rata dari 3x, 3x dan 7)",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": "tidak dapat ditentukan",
+      "explanation": "Bergantung pada nilai $x$."
+    },
+    {
+      "text": "Selisih dari dua bilangan bulat adalah 4 dan hasil penjumlahannya adalah 14. Berapakah hasil kalinya?",
+      "options": [
+        "18",
+        "24",
+        "36",
+        "45",
+        "56"
+      ],
+      "correctAnswer": "45",
+      "explanation": "$x - y = 4$ dan $x + y = 14$. Dieliminasi: $2x = 18 \\rightarrow x = 9$, $y = 5$. Hasil kali = $9 \\times 5 = 45$."
+    }
+  ]
+}

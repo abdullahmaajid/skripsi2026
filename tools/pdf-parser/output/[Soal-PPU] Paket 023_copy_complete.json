@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Apa makna kata struktural dalam kalimat berikut? \\n\\n\"Indonesia juga mengalami masalah struktural di pasar kerja, di mana lebih dari 80% tenaga kerjanya berada di sektor informal.\"",
+      "options": [
+        "Pengelompokan berdasarkan pekerjaan",
+        "Pengaturan dan keterkaitan",
+        "Pembagian berdasarkan wilayah",
+        "Jenjang karier atau jabatan",
+        "Sistem pembayaran dalam perusahaan"
+      ],
+      "correctAnswer": "Pengaturan dan keterkaitan",
+      "explanation": "Kata struktural berkaitan dengan susunan, struktur, atau sistem pengaturan dan keterkaitan antarbagian dalam suatu sistem."
+    },
+    {
+      "text": "Pada kalimat, \"Menerapkan sistem kerja empat hari bukan hanya soal produktivitas atau efisiensi kerja,\" apakah fungsi imbuhan me- pada kata menerapkan?",
+      "options": [
+        "Menyatakan seseorang yang membuat aturan",
+        "Menyatakan adanya pelaksanaan atau penerapan",
+        "Menyatakan hasil dari sebuah aturan",
+        "Menyatakan proses peningkatan kinerja",
+        "Menyatakan pengukuran tingkat keberhasilan"
+      ],
+      "correctAnswer": "Menyatakan adanya pelaksanaan atau penerapan",
+      "explanation": "Imbuhan me- pada kata 'menerapkan' berfungsi untuk menyatakan proses atau perbuatan melakukan/melaksanakan suatu hal."
+    },
+    {
+      "text": "Manakah sinonim paling tepat untuk menggantikan kata memutuskan pada kalimat, \"banyak faktor yang perlu diperhatikan sebelum Indonesia memutuskan untuk benar-benar mengadopsi sistem kerja empat hari ini\"?",
+      "options": [
+        "memikirkan",
+        "mengajukan",
+        "mengusahakan",
+        "menetapkan",
+        "mempertimbangkan"
+      ],
+      "correctAnswer": "menetapkan",
+      "explanation": "Kata 'memutuskan' dalam konteks mengambil kepastian atau keputusan akhir memiliki sinonim 'menetapkan'."
+    },
+    {
+      "text": "Pada teks tersebut terdapat kesalahan penulisan kata, yaitu…",
+      "options": [
+        "Kata mengadopsi pada kalimat (4)",
+        "Kata keseluruhan pada kalimat (6)",
+        "Kata produktivitas pada kalimat (5)",
+        "Kata menerapkannya pada kalimat (3)",
+        "Kata mentawarkan pada kalimat (2)"
+      ],
+      "correctAnswer": "Kata mentawarkan pada kalimat (2)",
+      "explanation": "Bentuk baku dari kata 'mentawarkan' seharusnya 'menawarkan'."
+    },
+    {
+      "text": "Kata berada pada kalimat (7) memiliki makna…",
+      "options": [
+        "Berasal",
+        "Menempati",
+        "Berperan",
+        "Mengambil",
+        "Mencapai"
+      ],
+      "correctAnswer": "Menempati",
+      "explanation": "Kata 'berada' dalam konteks 'tenaga kerjanya berada di sektor informal' bermakna menempati atau menduduki suatu posisi."
+    },
+    {
+      "text": "Frasa yang berfungsi sebagai frasa preposisional terdapat pada kalimat…",
+      "options": [
+        "Sistem kerja empat hari bukan hanya soal produktivitas atau efisiensi kerja.",
+        "Melihat lebih dalam, banyak faktor yang perlu diperhatikan.",
+        "Indonesia mengalami masalah struktural di pasar kerja.",
+        "Gagasan ini menawarkan harapan bagi keseimbangan hidup yang lebih baik.",
+        "Namun, juga soal kesiapan ekonomi secara keseluruhan."
+      ],
+      "correctAnswer": "Indonesia mengalami masalah struktural di pasar kerja.",
+      "explanation": "Frasa preposisional ditandai dengan adanya preposisi seperti 'di', 'ke', atau 'dari'. Pada pilihan tersebut, frasa 'di pasar kerja' didahului preposisi 'di'."
+    },
+    {
+      "text": "Sinonim yang paling tepat untuk kata mendorong pada kalimat, \"Pemerintah Indonesia juga mendorong penggunaan kendaraan listrik,\" adalah…",
+      "options": [
+        "Mengarahkan",
+        "Menyokong",
+        "Menyebabkan",
+        "Menegur",
+        "Mengambil"
+      ],
+      "correctAnswer": "Menyokong",
+      "explanation": "Kata 'mendorong' dalam arti mendukung atau memajukan memiliki sinonim terdekat 'menyokong'."
+    },
+    {
+      "text": "Makna imbuhan pada kata menghasilkan dalam kalimat \"Kendaraan berbasis listrik ini dianggap lebih ramah lingkungan karena tidak menghasilkan emisi gas buang,\" adalah…",
+      "options": [
+        "Menyebabkan sesuatu terjadi",
+        "Membuat sesuatu menjadi nyata",
+        "Menciptakan sesuatu yang baru",
+        "Menghilangkan sesuatu",
+        "Menghentikan suatu proses"
+      ],
+      "correctAnswer": "Menyebabkan sesuatu terjadi",
+      "explanation": "Imbuhan me-kan pada 'menghasilkan' bermakna menyebabkan sesuatu terjadi atau memunculkan sesuatu."
+    },
+    {
+      "text": "Kalimat berikut yang dapat melengkapi ide di akhir teks adalah…",
+      "options": [
+        "Pengembangan teknologi akan terus berfokus pada kendaraan ramah lingkungan.",
+        "Pemerintah seharusnya juga mengurangi pajak kendaraan listrik impor.",
+        "Investor mulai tertarik pada peluang pengembangan stasiun pengisian listrik.",
+        "Peningkatan infrastruktur diharapkan dapat mendukung lebih banyak penggunaan kendaraan listrik.",
+        "Konsumen beralih pada opsi transportasi yang lebih ekonomis."
+      ],
+      "correctAnswer": "Peningkatan infrastruktur diharapkan dapat mendukung lebih banyak penggunaan kendaraan listrik.",
+      "explanation": "Kalimat ini selaras dengan kalimat (8) sebelumnya yang membahas tentang tantangan pengembangan infrastruktur dan kesiapan pasar."
+    },
+    {
+      "text": "Di bawah ini manakah yang termasuk klausa…",
+      "options": [
+        "Mobil listrik",
+        "Terus berinovasi",
+        "Para produsen kendaraan listrik pun terus berinovasi.",
+        "Pemerintah Indonesia",
+        "Semakin banyak stasiun pengisian kendaraan listrik"
+      ],
+      "correctAnswer": "Para produsen kendaraan listrik pun terus berinovasi.",
+      "explanation": "Klausa adalah satuan gramatikal yang minimal terdiri atas subjek dan predikat. Kalimat tersebut memiliki struktur subjek dan predikat yang lengkap."
+    },
+    {
+      "text": "Di bawah manakah penulisannya yang benar…",
+      "options": [
+        "Memproklamirkan",
+        "Mengorganisir",
+        "Merubah",
+        "hipotesa",
+        "antarnegara"
+      ],
+      "correctAnswer": "antarnegara",
+      "explanation": "Penulisan gabungan kata 'antarnegara' sudah sesuai dengan kaidah EYD (bentuk terikat 'antar-' digabung dengan kata berikutnya). Pilihan lain seperti merubah (seharusnya mengubah), hipotesa (seharusnya hipotesis)."
+    },
+    {
+      "text": "Di antara kalimat-kalimat berikut, manakah yang salah dalam penggunaan kata turunannya?",
+      "options": [
+        "Pemerintah melakukan pendistribusian bantuan secara merata.",
+        "Penelitian terbaru menunjukkan perkembangan teknologi dalam bidang kesehatan.",
+        "Mereka berencana untuk memperbaiki kualitas pelayanan.",
+        "Perusahaan tersebut memroduksi berbagai macam kendaraan listrik untuk memenuhi permintaan pasar yang terus meningkat.",
+        "Para siswa diberikan motivasi oleh guru untuk lebih giat belajar."
+      ],
+      "correctAnswer": "Perusahaan tersebut memroduksi berbagai macam kendaraan listrik untuk memenuhi permintaan pasar yang terus meningkat.",
+      "explanation": "Bentuk baku dari 'memroduksi' adalah 'memproduksi' (huruf p tidak luluh karena diikuti konsonan rangkap pr)."
+    },
+    {
+      "text": "Pernyataan berikut ini berhubungan dengan kata “seruan”, kecuali…",
+      "options": [
+        "Panggilan",
+        "Ajakan",
+        "Anjuran",
+        "Peringatan",
+        "Perbaikan"
+      ],
+      "correctAnswer": "Perbaikan",
+      "explanation": "Kata 'seruan' berkaitan dengan makna memanggil, mengajak, menganjurkan, atau memperingatkan. Sedangkan 'perbaikan' tidak termasuk ke dalam makna seruan."
+    },
+    {
+      "text": "Bentuk kalimat yang tidak baku adalah…",
+      "options": [
+        "Para korban gempa bumi di Bengkulu membutuh bantuan obat-obatan dan tenda untuk membuat tempat tinggal darurat.",
+        "Para mahasiswa sedang berdiskusi untuk menemukan langkah-langkah pemberantasan korupsi.",
+        "Presiden akan berada di Yogyakarta selama satu minggu memantau penanganan para korban gempa di wilayah Bantul.",
+        "Polisi akan menangkap para pengedar narkoba untuk menyelamatkan generasi muda.",
+        "Pihak kejaksaan akan ungkapkan beberapa kasus korupsi yang dilakukan oleh pejabat negara."
+      ],
+      "correctAnswer": "Pihak kejaksaan akan ungkapkan beberapa kasus korupsi yang dilakukan oleh pejabat negara.",
+      "explanation": "Kalimat tersebut tidak baku karena predikatnya berupa kata kerja pasif/aktif yang tidak konsisten atau kurang imbuhan yang tepat ('akan ungkapkan' seharusnya 'akan mengungkapkan')."
+    },
+    {
+      "text": "Kata yang memiliki makna serupa dengan rehabilitasi adalah…",
+      "options": [
+        "Penyembuhan",
+        "Kerusakan",
+        "Perusakan",
+        "Pengabaian",
+        "Pembangunan"
+      ],
+      "correctAnswer": "Penyembuhan",
+      "explanation": "Rehabilitasi adalah proses pemulihan kepada keadaan semula atau penyembuhan (misalnya dari sakit atau ketergantungan)."
+    },
+    {
+      "text": "Kata yang memiliki antonim dari kata eksogami adalah…",
+      "options": [
+        "Heterogami",
+        "Endogami",
+        "Monogami",
+        "Poligami",
+        "Tidak berkelompok"
+      ],
+      "correctAnswer": "Endogami",
+      "explanation": "Eksogami adalah sistem pernikahan di luar suku atau kelompok sendiri, sedangkan endogami adalah pernikahan di dalam lingkungan sendiri (kelompok sama)."
+    },
+    {
+      "text": "Dari kalimat berikut, manakah yang mengandung frasa adjektival?",
+      "options": [
+        "Buku baru itu sedang dibaca.",
+        "Cuaca hari ini terasa sangat sejuk.",
+        "Layanan kesehatan sedang bermasalah.",
+        "Kandungan di makanan ini sedang diteliti lebih lanjut.",
+        "Rumahnya di samping universitas tersebut."
+      ],
+      "correctAnswer": "Cuaca hari ini terasa sangat sejuk.",
+      "explanation": "Frasa adjektival adalah frasa yang inti pembentukannya berupa kata sifat (adjektiva). 'sangat sejuk' merupakan frasa adjektival."
+    },
+    {
+      "text": "Kementerian Lingkungan Hidup berkomitmen untuk _________ upaya pelestarian lingkungan hidup di seluruh wilayah Indonesia. Kata manakah yang sesuai untuk mengisi kalimat rumpang di atas?",
+      "options": [
+        "memfasilitasi",
+        "mengurangi",
+        "menambah",
+        "menghambat",
+        "memulai"
+      ],
+      "correctAnswer": "memfasilitasi",
+      "explanation": "Kata 'memfasilitasi' adalah kata kerja yang paling logis dan padu untuk mendampingi frasa 'upaya pelestarian lingkungan hidup'."
+    },
+    {
+      "text": "Konjungsi yang tepat untuk mengisi pada kalimat (5) adalah...",
+      "options": [
+        "Sedangkan",
+        "Namun",
+        "Selain itu",
+        "Meskipun",
+        "Sementara itu"
+      ],
+      "correctAnswer": "Selain itu",
+      "explanation": null
+    },
+    {
+      "text": "Yang termasuk frasa verbal dalam teks di atas adalah...",
+      "options": [
+        "Semua anak",
+        "Di daerah terpencil",
+        "Taraf hidup",
+        "anak-anak",
+        "dapat belajar"
+      ],
+      "correctAnswer": "dapat belajar",
+      "explanation": null
+    }
+  ]
+}

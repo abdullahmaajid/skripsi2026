@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Which specific concern about remote work does CorporateClimber emphasize in their response?",
+      "options": [
+        "Work-life balance challenges",
+        "Limited career advancement opportunities",
+        "Technical difficulties with remote systems",
+        "Reduced productivity at home",
+        "Higher expectations from management"
+      ],
+      "correctAnswer": "Limited career advancement opportunities",
+      "explanation": null
+    },
+    {
+      "text": "Which two respondents directly contradict each other regarding the impact of remote work?",
+      "options": [
+        "WorkFromAnywhere and DigitalNomad",
+        "CorporateClimber and DigitalNomad",
+        "ParentInTech and ProductivityCoach",
+        "WorkFromAnywhere and ParentInTech",
+        "DigitalNomad and ProductivityCoach"
+      ],
+      "correctAnswer": "CorporateClimber and DigitalNomad",
+      "explanation": null
+    },
+    {
+      "text": "According to ParentInTech, what specific strategy helps maintain work-life balance when working remotely?",
+      "options": [
+        "Taking frequent breaks throughout the day",
+        "Working part-time instead of full-time",
+        "Having a physically separate workspace",
+        "Hiring additional childcare help",
+        "Scheduling meetings only during school hours"
+      ],
+      "correctAnswer": "Having a physically separate workspace",
+      "explanation": null
+    },
+    {
+      "text": "Based on the responses, which factor appears most critical for remote work success that wasn't mentioned in Tyler's original question?",
+      "options": [
+        "Technical equipment quality",
+        "Personal discipline and work style",
+        "Geographic location",
+        "Job industry type",
+        "Educational background"
+      ],
+      "correctAnswer": "Personal discipline and work style",
+      "explanation": null
+    },
+    {
+      "text": "Which respondent provides the most balanced view of remote work, acknowledging both benefits and challenges?",
+      "options": [
+        "WorkFromAnywhere",
+        "CorporateClimber",
+        "DigitalNomad",
+        "ParentInTech",
+        "ProductivityCoach"
+      ],
+      "correctAnswer": "WorkFromAnywhere",
+      "explanation": null
+    },
+    {
+      "text": "If Tyler values both career advancement and family time, which two perspectives would be most important to consider?",
+      "options": [
+        "WorkFromAnywhere and DigitalNomad",
+        "CorporateClimber and ParentInTech",
+        "DigitalNomad and ProductivityCoach",
+        "WorkFromAnywhere and ProductivityCoach",
+        "CorporateClimber and DigitalNomad"
+      ],
+      "correctAnswer": "CorporateClimber and ParentInTech",
+      "explanation": null
+    },
+    {
+      "text": "What term best describes DigitalNomad's perspective on remote work?",
+      "options": [
+        "Cautiously optimistic",
+        "Enthusiastically positive",
+        "Deeply concerned",
+        "Objectively neutral",
+        "Professionally skeptical"
+      ],
+      "correctAnswer": "Enthusiastically positive",
+      "explanation": null
+    },
+    {
+      "text": "Which response suggests a middle-ground approach rather than fully committing to remote work immediately?",
+      "options": [
+        "WorkFromAnywhere",
+        "CorporateClimber",
+        "DigitalNomad",
+        "ParentInTech",
+        "ProductivityCoach"
+      ],
+      "correctAnswer": "WorkFromAnywhere",
+      "explanation": null
+    },
+    {
+      "text": "From these responses, which aspect of remote work appears to have the most variability in how people experience it?",
+      "options": [
+        "Financial impact",
+        "Technology requirements",
+        "Effect on work relationships",
+        "Impact on productivity",
+        "Commute time savings"
+      ],
+      "correctAnswer": "Impact on productivity",
+      "explanation": null
+    },
+    {
+      "text": "What underlying assumption do all respondents make about Tyler's situation?",
+      "options": [
+        "That Tyler has children",
+        "That Tyler works in the technology sector",
+        "That Tyler has the option to work remotely",
+        "That Tyler is looking for career advancement",
+        "That Tyler has a dedicated home office"
+      ],
+      "correctAnswer": "That Tyler has the option to work remotely",
+      "explanation": null
+    },
+    {
+      "text": "What specific daily driving distance does Jayden mention in their original question?",
+      "options": [
+        "20 miles",
+        "30 miles",
+        "40 miles",
+        "50 miles",
+        "60 miles"
+      ],
+      "correctAnswer": "40 miles",
+      "explanation": null
+    },
+    {
+      "text": "According to EVEnthusiast, which aspect of electric vehicle ownership has resulted in significant financial benefits?",
+      "options": [
+        "Lower insurance rates",
+        "Government tax incentives",
+        "Increased vehicle resale value",
+        "Reduced fuel and maintenance costs",
+        "Solar panel integration"
+      ],
+      "correctAnswer": "Reduced fuel and maintenance costs",
+      "explanation": null
+    },
+    {
+      "text": "Which two respondents present the most contrasting views on electric vehicle practicality?",
+      "options": [
+        "EVEnthusiast and GreenCommuter",
+        "RuralDriver and PracticalChoices",
+        "EVEnthusiast and RuralDriver",
+        "MechanicPerspective and GreenCommuter",
+        "RuralDriver and GreenCommuter"
+      ],
+      "correctAnswer": "EVEnthusiast and RuralDriver",
+      "explanation": null
+    },
+    {
+      "text": "What alternative to a fully electric vehicle does MechanicPerspective suggest?",
+      "options": [
+        "A conventional hybrid vehicle",
+        "A plug-in hybrid vehicle",
+        "A fuel-efficient gas vehicle",
+        "A diesel vehicle",
+        "Public transportation"
+      ],
+      "correctAnswer": "A plug-in hybrid vehicle",
+      "explanation": null
+    },
+    {
+      "text": "According to GreenCommuter, what factor significantly affects the environmental impact of an electric vehicle?",
+      "options": [
+        "The vehicle's color and design",
+        "The driver's acceleration habits",
+        "The source of electricity used for charging",
+        "The age of the battery",
+        "The type of tires installed"
+      ],
+      "correctAnswer": "The source of electricity used for charging",
+      "explanation": null
+    },
+    {
+      "text": "Which important consideration for potential EV owners does PracticalChoices highlight that others don't mention?",
+      "options": [
+        "Vehicle maintenance schedule",
+        "Battery longevity concerns",
+        "Living situation and charging access",
+        "Road trip planning",
+        "Environmental benefits"
+      ],
+      "correctAnswer": "Living situation and charging access",
+      "explanation": null
+    },
+    {
+      "text": "Based on all responses, what appears to be the most significant concern about EVs for long-distance travel?",
+      "options": [
+        "Higher highway energy consumption",
+        "Limited trunk space for luggage",
+        "Charging infrastructure availability and charging time",
+        "Poor performance in extreme weather",
+        "Higher toll road fees"
+      ],
+      "correctAnswer": "Charging infrastructure availability and charging time",
+      "explanation": null
+    },
+    {
+      "text": "How many hours does Morgan report spending on social media daily?",
+      "options": [
+        "2 hours",
+        "3 hours",
+        "4 hours",
+        "5 hours",
+        "6 hours"
+      ],
+      "correctAnswer": "4 hours",
+      "explanation": null
+    },
+    {
+      "text": "Which specific strategy does MindfulTech suggest for changing social media habits?",
+      "options": [
+        "Deleting all social media accounts permanently",
+        "Using social media only on computer browsers at scheduled times",
+        "Installing apps that block social media access",
+        "Switching to alternative social platforms",
+        "Creating a separate phone for social media use"
+      ],
+      "correctAnswer": "Using social media only on computer browsers at scheduled times",
+      "explanation": null
+    },
+    {
+      "text": "According to DataScientist, what distinction is important when considering social media's impact on mental health?",
+      "options": [
+        "The specific platforms being used",
+        "The user's age and gender",
+        "Passive scrolling versus active engagement",
+        "Morning versus evening usage",
+        "Professional versus personal content"
+      ],
+      "correctAnswer": "Passive scrolling versus active engagement",
+      "explanation": null
+    },
+    {
+      "text": "Which respondent describes experiencing withdrawal-like symptoms after changing their social media habits?",
+      "options": [
+        "MindfulTech",
+        "ContentCreator",
+        "DataScientist",
+        "DigitalDetoxer",
+        "BalancedApproach"
+      ],
+      "correctAnswer": "DigitalDetoxer",
+      "explanation": null
+    },
+    {
+      "text": "Which two respondents represent the most extreme opposing viewpoints on social media usage?",
+      "options": [
+        "MindfulTech and ContentCreator",
+        "ContentCreator and DataScientist",
+        "DataScientist and DigitalDetoxer",
+        "DigitalDetoxer and BalancedApproach",
+        "ContentCreator and DigitalDetoxer"
+      ],
+      "correctAnswer": "ContentCreator and DigitalDetoxer",
+      "explanation": null
+    },
+    {
+      "text": "What specific benefit of reduced social media use does MindfulTech mention that DigitalDetoxer also references?",
+      "options": [
+        "Improved sleep quality",
+        "Reduced anxiety",
+        "Better romantic relationships",
+        "Increased productivity at work",
+        "Financial savings"
+      ],
+      "correctAnswer": "Reduced anxiety",
+      "explanation": null
+    },
+    {
+      "text": "Based on all responses, which factor appears most critical in determining whether social media has a positive or negative impact?",
+      "options": [
+        "The specific platforms used",
+        "The total time spent online",
+        "How consciously and intentionally it's used",
+        "The user's age and generation",
+        "Whether it's used for work or personal reasons"
+      ],
+      "correctAnswer": "How consciously and intentionally it's used",
+      "explanation": null
+    },
+    {
+      "text": "How much time does Alex have before their trip to Japan?",
+      "options": [
+        "Three months",
+        "Six months",
+        "Nine months",
+        "One year",
+        "Two years"
+      ],
+      "correctAnswer": "Six months",
+      "explanation": "Alex states in the first message: 'I want to learn Japanese for an upcoming trip to Japan in six months.'"
+    },
+    {
+      "text": "According to LinguistPro, which learning schedule is more effective for language acquisition?",
+      "options": [
+        "Intensive weekend workshops",
+        "Multiple hours once per week",
+        "Short daily practice sessions",
+        "Overnight immersion camps",
+        "Morning-only study periods"
+      ],
+      "correctAnswer": "Short daily practice sessions",
+      "explanation": "LinguistPro states: 'Consistency is more important than marathon sessions - 30 minutes daily beats 3 hours once weekly.'"
+    },
+    {
+      "text": "Which Japanese writing system does LinguistPro recommend learning first?",
+      "options": [
+        "Kanji",
+        "Hiragana and katakana",
+        "Romaji",
+        "Keigo",
+        "Furigana"
+      ],
+      "correctAnswer": "Hiragana and katakana",
+      "explanation": "LinguistPro advises: 'Start with hiragana and katakana (the phonetic alphabets) before attempting kanji characters.'"
+    },
+    {
+      "text": "Which unique perspective does TokyoExpat contribute that others don't emphasize?",
+      "options": [
+        "Using language learning apps",
+        "Cultural context of communication",
+        "Grammar structure importance",
+        "Vocabulary memorization techniques",
+        "Language exchange benefits"
+      ],
+      "correctAnswer": "Cultural context of communication",
+      "explanation": "TokyoExpat recommends 'focusing on cultural context alongside language. Japanese communication relies heavily on social context and relationship dynamics...'"
+    },
+    {
+      "text": "Which two respondents disagree about the importance of learning formal Japanese (keigo)?",
+      "options": [
+        "LinguistPro and AppDeveloper",
+        "AppDeveloper and ImmersionTeacher",
+        "ImmersionTeacher and TokyoExpat",
+        "TokyoExpat and PragmaticLearner",
+        "PragmaticLearner and LinguistPro"
+      ],
+      "correctAnswer": "TokyoExpat and PragmaticLearner",
+      "explanation": "TokyoExpat advises to 'Learn basic keigo (politeness levels)', whereas PragmaticLearner says 'Don't waste time on keigo (formal language) yet - plain form is perfectly acceptable for tourists.'"
+    },
+    {
+      "text": "What language learning principle does PragmaticLearner explicitly mention?",
+      "options": [
+        "The communicative approach",
+        "The audio-lingual method",
+        "The grammar-translation method",
+        "The 80/20 principle",
+        "The silent way"
+      ],
+      "correctAnswer": "The 80/20 principle",
+      "explanation": "PragmaticLearner explicitly states: 'The 80/20 principle applies to language learning - 20% of the language covers 80% of daily conversations.'"
+    }
+  ]
+}

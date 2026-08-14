@@ -118,7 +118,7 @@ export default function AnalyticsRadarPage() {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6 mb-4 md:mb-8">
         {/* Radar Chart */}
-        <motion.div variants={itemVariants} className="bg-white border border-slate-100 rounded-3xl p-5 md:p-6 shadow-[0_8px_30px_rgba(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.06)] transition-shadow duration-300">
+        <motion.div variants={itemVariants} className="bg-white border border-slate-100 rounded-3xl p-5 md:p-6 shadow-[0_4px_20px_rgba(0,0,0,0.03)] hover:shadow-md hover:border-slate-200 transition-all duration-300">
           <h2 className="text-base md:text-lg font-semibold mb-4 md:mb-6 text-slate-800 flex items-center gap-2">
             <Target className="w-5 h-5 text-[var(--accent)]" /> Radar Kemampuan vs Target
           </h2>
@@ -148,7 +148,7 @@ export default function AnalyticsRadarPage() {
         </motion.div>
 
         {/* Trend Area Chart */}
-        <motion.div variants={itemVariants} className="bg-white border border-slate-100 rounded-3xl p-5 md:p-6 shadow-[0_8px_30px_rgba(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.06)] transition-shadow duration-300">
+        <motion.div variants={itemVariants} className="bg-white border border-slate-100 rounded-3xl p-5 md:p-6 shadow-[0_4px_20px_rgba(0,0,0,0.03)] hover:shadow-md hover:border-slate-200 transition-all duration-300">
           <h2 className="text-base md:text-lg font-semibold mb-4 md:mb-6 flex items-center gap-2 text-slate-800">
             <TrendingUp className="w-5 h-5 text-[var(--accent)]" /> Tren Skor SNBT
           </h2>
@@ -191,7 +191,7 @@ export default function AnalyticsRadarPage() {
       </div>
 
       {/* Subject Breakdown Table */}
-      <motion.div variants={itemVariants} className="bg-white border border-slate-100 rounded-3xl p-5 md:p-6 shadow-[0_8px_30px_rgba(0,0,0,0.03)] overflow-hidden">
+      <motion.div variants={itemVariants} className="bg-white border border-slate-100 rounded-3xl p-5 md:p-6 shadow-[0_4px_20px_rgba(0,0,0,0.03)] overflow-hidden">
         <h2 className="text-base md:text-lg font-semibold mb-4 md:mb-6 text-slate-800">Detail Per Subtes</h2>
         {hasRadarData ? (
           <div className="overflow-x-auto no-scrollbar">

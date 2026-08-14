@@ -1,0 +1,196 @@
+{
+  "questions": [
+    {
+      "text": "Suatu klub tenis beranggotakan 6 orang, akan mengikuti sebuah turnamen. Klub tersebut akan membuat susunan pemain yang terdiri dari 2 tim tunggal dan 1 tim ganda. Jika setiap pemain tidak diperbolehkan bermain dua kali, maka banyaknya susunan yang bisa dibentuk adalah...",
+      "options": [
+        "60",
+        "90",
+        "120",
+        "180",
+        "360"
+      ],
+      "correctAnswer": "90",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan dibawah ini yang benar?\n(1) Bilangan irasional adalah suatu bilangan yang tidak bisa dinyatakan dalam bentuk pecahan.\n(2) Bilangan 6512 habis dibagi 8.\n(3) Suatu bilangan habis dibagi 9 jika jumlah angka - angkanya habis dibagi 9.\n(4) Bilangan 532 habis dibagi 11.",
+      "options": [
+        "(1), (2), dan (3)",
+        "(1) dan (3)",
+        "(2) dan (4)",
+        "(4) saja",
+        "Semua benar"
+      ],
+      "correctAnswer": "(1), (2), dan (3)",
+      "explanation": null
+    },
+    {
+      "text": "Kotak A berisi 6 bola hijau dan 4 bola biru. Kotak B berisi 4 bola hijau dan 6 bola biru. Jika dari masing - masing kotak akan diambil sebuah bola secara acak, maka peluang bahwa kedua bola berwarna sama adalah...",
+      "options": [
+        "\\frac{1}{4}",
+        "\\frac{24}{100}",
+        "\\frac{12}{25}",
+        "\\frac{3}{25}",
+        "\\frac{4}{25}"
+      ],
+      "correctAnswer": "\\frac{12}{25}",
+      "explanation": null
+    },
+    {
+      "text": "Wildan menyimpan uangnya sebesar Rp2.000.000,- sebagai tabungan kedalam Bank X. Jika Wildan berencana mengambil uang tersebut setelah 3 tahun, dan Bank X memberikan bunga sebesar 10% pertahunnya, maka berapakah uang yang akan diterima Wildan?",
+      "options": [
+        "Rp2.000.000,-.",
+        "Rp2.200.000,-.",
+        "Rp2.400.000,-.",
+        "Rp2.600.000,-.",
+        "Rp2.800.000,-."
+      ],
+      "correctAnswer": "Rp2.600.000,-.",
+      "explanation": null
+    },
+    {
+      "text": "Diketahui median dan rata - rata dari empat bilangan asli yang telah diurutkan mulai dari yang terkecil adalah 8. Kemudian, selisih antara data terbesar dan terkecilnya adalah 10 dan modusnya tunggal. Misalkan $P$ adalah Hasil pangkat dua dari angka modus dan $Q$ adalah Hasil kali data ketiga dan keempat. Manakah pernyataan yang benar mengenai P dan Q?",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "Hubungan P dan Q tidak dapat ditentukan",
+        "Tidak ada"
+      ],
+      "correctAnswer": "P < Q",
+      "explanation": null
+    },
+    {
+      "text": "Nilai $x$ yang memenuhi persamaan $5+f^{-1}(x-1)=6$ dengan $f(1)=5$ adalah...",
+      "options": [
+        "-4",
+        "-2",
+        "0",
+        "2",
+        "4"
+      ],
+      "correctAnswer": "4",
+      "explanation": null
+    },
+    {
+      "text": "Sebuah bola dijatuhkan kelantai dari ketinggian 2 meter. Setiap kali bola itu memantul, ia mencapai ketinggian tiga per empat dari ketinggian yang dicapai sebelumnya. Panjang lintasan bola dari pantulan ke-2 sampai berhenti adalah ... m.",
+      "options": [
+        "9",
+        "9,25",
+        "9,5",
+        "9,75",
+        "10"
+      ],
+      "correctAnswer": "9",
+      "explanation": null
+    },
+    {
+      "text": "Diketahui persamaan:\n$x-2y+z=-3$\n$y-2z=1$\n$-x+3y+2z=9$\nNilai dari $x + y + z$ adalah...",
+      "options": [
+        "1",
+        "3",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": "6",
+      "explanation": null
+    },
+    {
+      "text": "Jika $P=\\{x \\mid x^2-5x \\ge 0\\}$ dan $Q=\\{x \\mid 3x-x^2 \\ge 0\\}$, maka $P \\cap Q$ adalah...",
+      "options": [
+        "\\{3,4\\}",
+        "\\{3,5\\}",
+        "\\{0\\}",
+        "\\{0,5\\}",
+        "\\{\\emptyset\\}"
+      ],
+      "correctAnswer": "\\{0\\}",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan dibawah ini yang benar?\n(1) Syarat agar persamaan kuadrat memiliki dua akar real berlainan tanda adalah $D>0$, $x_1+x_2=0$, dan $b=0$.\n(2) Hasil selisih dari akar - akar persamaan kuadrat adalah $-\\frac{\\sqrt{D}}{a}$\n(3) Jika $a > 0$, dan selisih akar - akar persamaan kuadrat $5x^2-10ax+8a=0$ sama dengan 3, maka nilai $a^2-a$ adalah $15/4$.\n(4) Jika $f(x^2)+2f(x)=1$ dan $f(x)=3x+5$, maka nilai $x_1+x_2$ adalah $-2$.",
+      "options": [
+        "(1), (2), dan (3)",
+        "(1) dan (3)",
+        "(2) dan (4)",
+        "(4) saja",
+        "Semua benar"
+      ],
+      "correctAnswer": "(1) dan (3)",
+      "explanation": null
+    },
+    {
+      "text": "Diketahui fungsi kuadrat $f(x)=4x^2-14x-8$, manakah titik potong grafik fungsi kuadrat terhadap sumbu - sumbunya yang mungkin?\n(1) $(0,-8)$\n(2) $(4,0)$\n(3) $(-\\frac{1}{2},0)$\n(4) $(\\frac{1}{2},0)$",
+      "options": [
+        "(1), (2), dan (3)",
+        "(1) dan (3)",
+        "(2) dan (4)",
+        "(4) saja",
+        "Semua benar"
+      ],
+      "correctAnswer": "(1), (2), dan (3)",
+      "explanation": null
+    },
+    {
+      "text": "Jumlah semua bilangan genap antara 10 dan 50 adalah...",
+      "options": [
+        "24",
+        "840",
+        "48",
+        "700",
+        "650"
+      ],
+      "correctAnswer": "840",
+      "explanation": null
+    },
+    {
+      "text": "Suatu hari pelatih timnas menyusun posisi 6 orang pemain volinya yaitu Kageyama, Hinata, Sukishima, Nishinoya, Miya Atsumu, dan Miya Osamu. Posisi keenam orang tersebut dibentuk melingkar dengan syarat Kageyama dan Hinata harus bersebelahan. Misalkan P adalah susunan pemain yang dapat dibentuk oleh pelatih mereka dan Q adalah susunan pemain yang dapat dibentuk oleh pelatih jika Kageyama dan Hinata tidak boleh bersebelahan. Tentukan hubungan yang benar antara P dan Q berikut!",
+      "options": [
+        "P > Q",
+        "Q > P",
+        "P = Q",
+        "Hubungan P dan Q tidak dapat ditentukan",
+        "Tidak ada"
+      ],
+      "correctAnswer": "Q > P",
+      "explanation": null
+    },
+    {
+      "text": "Jika $6(3^{40})(^2\\log a) + 3^{41}(^2\\log a) = 3^{43}$, maka nilai $a$ adalah ...",
+      "options": [
+        "\\frac{1}{8}",
+        "\\frac{1}{4}",
+        "4",
+        "8",
+        "16"
+      ],
+      "correctAnswer": "8",
+      "explanation": null
+    },
+    {
+      "text": "14.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "15.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    }
+  ]
+}

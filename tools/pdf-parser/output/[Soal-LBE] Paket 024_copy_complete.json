@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Hydropower produces less electricity than wind in the United States",
+        "Transmission systems operate at high voltages to minimize energy loss",
+        "The Pearl Street Station initially used alternating current (AC)",
+        "Smart meters cover approximately 75% of U.S. households",
+        "Utilities invest about $63 billion annually in grid infrastructure"
+      ],
+      "correctAnswer": "C",
+      "explanation": "The text states that the Pearl Street Station initially used a direct current (DC) system, making statement C false."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Coal is the primary source of electricity generation in the United States",
+        "Thomas Edison's Pearl Street Station opened in 1882",
+        "Modern transmission lines typically operate at 50,000 volts maximum",
+        "Renewable energy sources are completely stable and predictable",
+        "Smart grid technology has been widely rejected by utilities"
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text mentions that Thomas Edison's Pearl Street Station opened in 1882."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Russia launched its full-scale invasion in February 2021",
+        "The invasion included attacks from multiple fronts including Belarus",
+        "Russia had previously annexed Crimea in 2014",
+        "The United States has provided HIMARS rocket systems to Ukraine",
+        "The conflict created Europe's largest refugee crisis since World War II"
+      ],
+      "correctAnswer": "A",
+      "explanation": "The text states the invasion occurred on February 24, 2022, not 2021."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "International sanctions have had no effect on Russia's economy",
+        "European countries reduced their gas consumption by 18% during a specific period",
+        "The conflict has displaced fewer than 1 million people from Ukraine",
+        "Military aid to Ukraine has been limited to non-lethal equipment",
+        "The fighting in eastern Ukraine began in 2020"
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text notes that member states reduced gas consumption by 18% between August 2022 and March 2023."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Real Madrid was founded in 1902",
+        "The club has won 20 UEFA Champions League titles",
+        "Francisco Gento won six European Cups",
+        "El Clásico refers to the rivalry between Real Madrid and FC Barcelona",
+        "Real Madrid is structured as a member-owned club"
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text mentions a record 14 UEFA Champions League titles, not 20."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Real Madrid received its \"Real\" designation in 1950",
+        "AC Milan has won more European Cups than Real Madrid",
+        "The Santiago Bernabéu Stadium has a capacity of 81,044",
+        "Real Madrid is owned by a single wealthy individual",
+        "Florentino Pérez has never returned to the presidency after his first term"
+      ],
+      "correctAnswer": "C",
+      "explanation": "The text states that the Santiago Bernabéu Stadium currently seats 81,044 spectators."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "The NBA was founded as the Basketball Association of America",
+        "The three-point line was implemented in the 1960s",
+        "Analytics have caused a decline in mid-range jump shots",
+        "International players represent about 25% of NBA rosters",
+        "The current NBA media rights deal is worth $24 billion"
+      ],
+      "correctAnswer": "B",
+      "explanation": "The three-point line was implemented in the 1979-1980 season, not the 1960s."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "NBA teams averaged more three-point attempts in the league's early years",
+        "The league has never employed female referees",
+        "The average NBA salary is approximately $9.5 million",
+        "The NBA's international expansion has been unsuccessful",
+        "Television rights represent a minor revenue source for the NBA"
+      ],
+      "correctAnswer": "C",
+      "explanation": "The text states the average annual salary rose to approximately $9.5 million for the 2022-2023 season."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "The Achilles tendon connects the calf muscles to the heel bone",
+        "The Achilles can withstand forces up to 12.5 times body weight during running",
+        "Most athletes return to 100% of pre-injury performance after Achilles ruptures",
+        "Recovery from surgical repair typically takes 6-9 months",
+        "Fluoroquinolone antibiotics are a risk factor for Achilles injuries"
+      ],
+      "correctAnswer": "C",
+      "explanation": "The text notes a performance decline and that approximately 30% never return to pre-injury performance levels."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Achilles injuries are most common in teenagers",
+        "Non-operative treatment has a higher re-rupture rate than surgical intervention",
+        "Achilles tendinopathy responds poorly to eccentric strengthening",
+        "The Achilles is the weakest tendon in the human body",
+        "Corticosteroid injections help prevent Achilles injuries"
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text indicates lower re-rupture rates with surgical intervention (3.5%) compared to non-operative treatment (12.6%)."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Antibiotic development has accelerated rapidly since 1980",
+        "Teixobactin was discovered using the iChip platform",
+        "The World Health Organization describes antimicrobial resistance as a \"slow-motion pandemic\"",
+        "Artificial intelligence has helped identify new antibacterial compounds",
+        "The UK has piloted a subscription model for antibiotic access"
+      ],
+      "correctAnswer": "Antibiotic development has accelerated rapidly since 1980",
+      "explanation": "The text states that antibiotic development has slowed dramatically since the \"golden age\" of discovery between 1940 and 1960, with only nine new classes approved since 1980."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Economic incentives for antibiotic development are very strong",
+        "Teixobactin targets bacterial cell wall synthesis",
+        "Most soil bacteria are easily cultured in laboratory settings",
+        "Antibiotic stewardship has no effect on pharmaceutical company revenues",
+        "Halicin was discovered through traditional screening methods"
+      ],
+      "correctAnswer": "Teixobactin targets bacterial cell wall synthesis",
+      "explanation": "The text explicitly states that Teixobactin represents the first member of a potentially new class targeting cell wall synthesis."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "CBCT imaging produces 3D images of oral structures",
+        "Digital dentistry requires higher radiation doses than conventional methods",
+        "CAD/CAM systems can produce same-day dental restorations",
+        "Air abrasion technology can remove decay without traditional drilling",
+        "Silver diamine fluoride can arrest caries progression"
+      ],
+      "correctAnswer": "Digital dentistry requires higher radiation doses than conventional methods",
+      "explanation": "The text states that CBCT provides detailed 3D imaging with radiation doses 10-100 times lower than conventional CT scans, not higher."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Laser dentistry typically increases bleeding during procedures",
+        "AI algorithms show lower diagnostic accuracy than human dentists",
+        "CAD/CAM systems eliminate the need for traditional impression materials",
+        "Bioactive materials prevent ion release in dental restorations",
+        "CBCT imaging produces only 2D radiographs"
+      ],
+      "correctAnswer": "CAD/CAM systems eliminate the need for traditional impression materials",
+      "explanation": "The text mentions that CAD/CAM systems enable same-day fabrication... eliminating traditional impression materials."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "One Direction released a total of three studio albums",
+        "\"What Makes You Beautiful\" reached number one in the UK",
+        "The group continues to tour occasionally since their hiatus",
+        "None of the members have achieved success as solo artists",
+        "One Direction's music receives minimal streaming today"
+      ],
+      "correctAnswer": "\"What Makes You Beautiful\" reached number one in the UK",
+      "explanation": "The text states that their debut single \"What Makes You Beautiful\" reached number one in the UK."
+    }
+  ]
+}

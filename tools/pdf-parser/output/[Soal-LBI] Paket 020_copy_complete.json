@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Pernyataan yang benar berdasarkan teks adalah...",
+      "options": [
+        "Tembok Raksasa Cina dibangun hanya oleh Dinasti Ming",
+        "Tembok Raksasa Cina memiliki panjang lebih dari 21.000 kilometer",
+        "Tembok Raksasa Cina dapat dengan jelas terlihat dari luar angkasa dengan mata telanjang",
+        "Fungsi utama Tembok Raksasa Cina adalah untuk jalur perdagangan antarwilayah",
+        "Pembangunan Tembok Raksasa Cina baru dimulai pada abad ke-10 Masehi"
+      ],
+      "correctAnswer": "Tembok Raksasa Cina memiliki panjang lebih dari 21.000 kilometer",
+      "explanation": "Berdasarkan teks, Tembok Raksasa membentang lebih dari 21.000 kilometer."
+    },
+    {
+      "text": "Simpulan yang paling tepat dari teks adalah...",
+      "options": [
+        "Tembok Raksasa Cina dibangun hanya untuk kepentingan Dinasti Ming",
+        "Tembok Raksasa Cina adalah benteng pertahanan yang dibangun selama beberapa dinasti dan memiliki fungsi lain selain pertahanan",
+        "Tembok Raksasa Cina adalah satu-satunya bangunan buatan manusia yang terlihat dari luar angkasa dengan mata telanjang",
+        "Pembangunan Tembok Raksasa Cina tidak memiliki tujuan yang jelas",
+        "Tembok Raksasa Cina hanya berfungsi sebagai jalur perdagangan antarwilayah Cina"
+      ],
+      "correctAnswer": "Tembok Raksasa Cina adalah benteng pertahanan yang dibangun selama beberapa dinasti dan memiliki fungsi lain selain pertahanan",
+      "explanation": "Teks menjelaskan pembangunan dimulai oleh Dinasti Qin dan terus diperluas dinasti lain, serta memiliki fungsi sebagai benteng, komunikasi, dan pengawasan."
+    },
+    {
+      "text": "Makna kata \"pertahanan\" dalam teks adalah...",
+      "options": [
+        "Usaha untuk melindungi atau menjaga sesuatu dari serangan musuh",
+        "Cara berkomunikasi antara satu wilayah dengan wilayah lain",
+        "Sarana perdagangan untuk meningkatkan perekonomian suatu wilayah",
+        "Teknik pembangunan tembok yang digunakan oleh Dinasti Ming",
+        "Sistem peringatan dini untuk menghindari bencana alam"
+      ],
+      "correctAnswer": "Usaha untuk melindungi atau menjaga sesuatu dari serangan musuh",
+      "explanation": "Kata pertahanan merujuk pada perlindungan dari serangan musuh sesuai konteks kalimat pertama."
+    },
+    {
+      "text": "Apa arti kata \"kanopi\" dalam kalimat \"Tembok Raksasa Cina membentang melewati berbagai medan, seperti pegunungan, gurun, dan padang rumput, yang terkadang memiliki kanopi alami dari pepohonan\"?",
+      "options": [
+        "Sebuah atap alami yang terbentuk dari ranting dan daun pohon",
+        "Lapisan tanah yang menutupi hutan hujan",
+        "Bagian dalam dari sebuah bangunan yang digunakan sebagai tempat berteduh",
+        "Struktur buatan manusia yang melindungi jalan raya dari hujan",
+        "Dinding yang dibangun sebagai pelindung dari musuh"
+      ],
+      "correctAnswer": "Sebuah atap alami yang terbentuk dari ranting dan daun pohon",
+      "explanation": "Kanopi alami dari pepohonan merujuk pada atap alami yang dibentuk oleh dedaunan dan ranting pohon."
+    },
+    {
+      "text": "Tema utama teks bacaan di atas adalah...",
+      "options": [
+        "Teknik melukis yang digunakan oleh manusia purba",
+        "Perkembangan seni modern dari zaman prasejarah hingga saat ini",
+        "Penemuan lukisan gua tertua di dunia dan maknanya bagi sejarah manusia",
+        "Kehidupan manusia purba di Sulawesi dan kebiasaan berburu mereka",
+        "Perbandingan antara lukisan prasejarah dan seni kontemporer"
+      ],
+      "correctAnswer": "Penemuan lukisan gua tertua di dunia dan maknanya bagi sejarah manusia",
+      "explanation": "Teks membahas penemuan lukisan gua tertua di Sulawesi dan pembuktian keterampilan seni serta budaya manusia purba."
+    },
+    {
+      "text": "Berdasarkan teks, bagaimana watak para ilmuwan yang meneliti lukisan gua tersebut?",
+      "options": [
+        "Ambisius dan egois",
+        "Teliti dan ingin tahu",
+        "Pemarah dan terburu-buru",
+        "Pasif dan kurang peduli",
+        "Serakah dan tidak bertanggung jawab"
+      ],
+      "correctAnswer": "Teliti dan ingin tahu",
+      "explanation": "Ilmuwan berusaha memahami makna di balik gambar dan cara pembuatannya, menunjukkan sifat ingin tahu dan teliti."
+    },
+    {
+      "text": "Pernyataan yang salah berdasarkan teks adalah...",
+      "options": [
+        "Lukisan gua yang ditemukan di Sulawesi diperkirakan berusia lebih dari 45.000 tahun",
+        "Lukisan tersebut menggambarkan sosok babi liar yang sedang berdiri",
+        "Penemuan ini membuktikan bahwa seni telah ada sejak zaman prasejarah",
+        "Lukisan gua ini ditemukan di wilayah Amerika Selatan",
+        "Para ilmuwan meneliti makna di balik gambar dan bahan yang digunakan oleh manusia purba"
+      ],
+      "correctAnswer": "Lukisan gua ini ditemukan di wilayah Amerika Selatan",
+      "explanation": "Lukisan tersebut ditemukan di Pulau Sulawesi, Indonesia, bukan di Amerika Selatan."
+    },
+    {
+      "text": "Simpulan yang paling tepat dari teks adalah...",
+      "options": [
+        "Lukisan gua tertua di dunia ditemukan di Sulawesi, membuktikan bahwa seni telah ada sejak zaman prasejarah",
+        "Ilmuwan menemukan teknik baru dalam membuat lukisan prasejarah di gua-gua",
+        "Lukisan gua di Sulawesi adalah satu-satunya bukti seni yang ada dari zaman prasejarah",
+        "Penemuan ini menunjukkan bahwa manusia purba tidak memiliki budaya atau cara berpikir simbolis",
+        "Lukisan gua di Sulawesi masih menjadi misteri karena tidak ada yang tahu siapa yang melukisnya"
+      ],
+      "correctAnswer": "Lukisan gua tertua di dunia ditemukan di Sulawesi, membuktikan bahwa seni telah ada sejak zaman prasejarah",
+      "explanation": "Simpulan merangkum inti penemuan dan pembuktian adanya seni sejak prasejarah."
+    },
+    {
+      "text": "Ide pokok paragraf pertama dalam teks di atas adalah...",
+      "options": [
+        "Proses pengolahan kopi sebelum dapat dikonsumsi",
+        "Berbagai jenis kopi yang ada di dunia",
+        "Asal-usul kopi sebagai minuman yang digemari",
+        "Manfaat dan bahaya kafein dalam kopi",
+        "Kopi sebagai minuman dengan sejarah panjang"
+      ],
+      "correctAnswer": "Proses pengolahan kopi sebelum dapat dikonsumsi",
+      "explanation": "Paragraf pertama menjelaskan popularitas kopi serta tahap-tahap pemrosesannya hingga diseduh."
+    },
+    {
+      "text": "Pernyataan yang benar berdasarkan teks adalah...",
+      "options": [
+        "Semua jenis kopi memiliki rasa yang sama",
+        "Kopi hanya dikonsumsi di negara-negara penghasilnya",
+        "Kopi dapat meningkatkan kewaspadaan karena mengandung kafein",
+        "Tidak ada efek samping dari konsumsi kopi berlebihan",
+        "Kopi hanya diperdagangkan di Brasil dan Vietnam"
+      ],
+      "correctAnswer": "Kopi dapat meningkatkan kewaspadaan karena mengandung kafein",
+      "explanation": "Teks menyatakan kafein dapat merangsang sistem saraf pusat untuk meningkatkan kewaspadaan."
+    },
+    {
+      "text": "Makna kata \"komoditas\" dalam teks adalah...",
+      "options": [
+        "Bahan makanan pokok yang dibutuhkan banyak orang",
+        "Barang dagangan yang diperjualbelikan dalam perdagangan",
+        "Minuman khas yang memiliki rasa unik",
+        "Hasil pertanian yang hanya dikonsumsi oleh masyarakat tertentu",
+        "Produk yang tidak memiliki nilai ekonomi tinggi"
+      ],
+      "correctAnswer": "Barang dagangan yang diperjualbelikan dalam perdagangan",
+      "explanation": "Komoditas merujuk pada benda atau barang niaga/dagangan utama."
+    },
+    {
+      "text": "Pernyataan yang benar mengenai kata \"kafein\" dalam teks adalah...",
+      "options": [
+        "Kafein adalah zat yang membuat kopi memiliki aroma khas",
+        "Kafein dapat mengurangi kantuk dan meningkatkan kewaspadaan",
+        "Kafein hanya terdapat dalam kopi Robusta",
+        "Kafein tidak memiliki dampak negatif bagi kesehatan",
+        "Kafein adalah zat tambahan yang dicampurkan ke dalam kopi"
+      ],
+      "correctAnswer": "Kafein dapat mengurangi kantuk dan meningkatkan kewaspadaan",
+      "explanation": "Teks menyebutkan bahwa orang mengonsumsi kopi untuk meningkatkan kewaspadaan dan mengurangi rasa kantuk karena kafein."
+    },
+    {
+      "text": "Amanat yang terkandung dalam puisi tersebut adalah...",
+      "options": [
+        "Kita harus terus mencari cinta meskipun sulit",
+        "Kehidupan selalu berjalan, meskipun ada perpisahan",
+        "Keindahan senja di pelabuhan tidak tergantikan",
+        "Tidak ada gunanya mengenang masa lalu",
+        "Laut dan kapal adalah lambang kebebasan"
+      ],
+      "correctAnswer": "Kehidupan selalu berjalan, meskipun ada perpisahan",
+      "explanation": "Puisi Chairil Anwar menggambarkan perpisahan dan rasa rindu di pelabuhan kecil dengan kapal yang berlayar."
+    },
+    {
+      "text": "Pernyataan yang benar tentang puisi tersebut adalah...",
+      "options": [
+        "Puisi ini menceritakan tentang seseorang yang menanti kekasihnya",
+        "Suasana dalam puisi ini menggambarkan kebahagiaan dan keceriaan",
+        "Kapal dalam puisi melambangkan perpisahan dan perjalanan hidup",
+        "Puisi ini menggambarkan kegembiraan saat melihat senja di pelabuhan",
+        "Tema utama puisi ini adalah keindahan alam di tepi laut"
+      ],
+      "correctAnswer": "Kapal dalam puisi melambangkan perpisahan dan perjalanan hidup",
+      "explanation": "Baris 'Kapal pun berlayar ke seberang. Masih bergetar rasa rindu' mengindikasikan simbol perpisahan."
+    },
+    {
+      "text": "Makna kata \"grafit\" dalam teks tersebut adalah...",
+      "options": [
+        "Jenis kayu khusus yang digunakan untuk membuat pensil",
+        "Bahan utama dalam pembuatan pensil yang berasal dari karbon",
+        "Campuran antara tinta dan tanah liat untuk menghasilkan warna hitam",
+        "Cairan hitam pekat yang digunakan sebagai tinta pada pensil mekanik",
+        "Bahan tambahan dalam pembuatan pensil warna untuk menghasilkan berbagai warna"
+      ],
+      "correctAnswer": "Bahan utama dalam pembuatan pensil yang berasal dari karbon",
+      "explanation": "Grafit adalah bentuk alotrop karbon yang digunakan sebagai isi pensil."
+    },
+    {
+      "text": "Pernyataan yang benar mengenai pensil berdasarkan teks adalah...",
+      "options": [
+        "Pensil pertama kali ditemukan dalam bentuk kayu yang diisi tinta",
+        "Grafit digunakan dalam pensil sejak awal tanpa campuran lain",
+        "Pensil lebih tahan lama dibandingkan pena karena tidak mudah patah",
+        "Pensil lebih disukai dalam seni karena dapat dihapus dengan mudah",
+        "Semua pensil modern menggunakan tinta sebagai bahan utamanya"
+      ],
+      "correctAnswer": "Pensil lebih disukai dalam seni karena dapat dihapus dengan mudah",
+      "explanation": null
+    },
+    {
+      "text": "Apa keunggulan utama pensil dibandingkan pena menurut teks?",
+      "options": [
+        "Pensil lebih murah dibandingkan pena",
+        "Pensil lebih tahan terhadap air dibandingkan pena",
+        "Pensil lebih mudah digunakan dibandingkan pena",
+        "Pensil dapat dihapus sehingga memungkinkan koreksi",
+        "Pensil memiliki banyak warna dibandingkan pena"
+      ],
+      "correctAnswer": "Pensil dapat dihapus sehingga memungkinkan koreksi",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"ketahanan\" dalam teks tersebut adalah...",
+      "options": [
+        "Kemampuan pensil untuk tidak mudah rusak atau patah",
+        "Daya serap pensil terhadap kertas saat menulis",
+        "Kemampuan pensil menghasilkan warna lebih gelap",
+        "Kemampuan pensil dalam menghasilkan garis yang lebih tajam",
+        "Kemampuan pensil dalam menyerap tinta dengan lebih baik"
+      ],
+      "correctAnswer": "Kemampuan pensil untuk tidak mudah rusak atau patah",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"antioksidan\" dalam teks adalah...",
+      "options": [
+        "Zat yang dapat mencegah atau mengurangi kerusakan sel akibat radikal bebas",
+        "Senyawa yang menyebabkan rasa pahit dalam cokelat hitam",
+        "Bahan kimia yang digunakan untuk mengawetkan cokelat dalam waktu lama",
+        "Gula alami yang terkandung dalam kakao untuk memberi rasa manis",
+        "Zat yang dapat menyebabkan alergi pada sebagian orang yang mengonsumsi cokelat"
+      ],
+      "correctAnswer": "Zat yang dapat mencegah atau mengurangi kerusakan sel akibat radikal bebas",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang benar mengenai cokelat berdasarkan teks adalah...",
+      "options": [
+        "Cokelat pertama kali dikonsumsi dalam bentuk permen oleh bangsa Aztek",
+        "Konsumsi cokelat dalam jumlah besar dapat meningkatkan kecerdasan",
+        "Cokelat mengandung zat yang dapat merangsang hormon kebahagiaan",
+        "Semua jenis cokelat memiliki manfaat kesehatan yang sama",
+        "Cokelat pertama kali ditemukan di Eropa sebelum menyebar ke seluruh dunia"
+      ],
+      "correctAnswer": "Cokelat mengandung zat yang dapat merangsang hormon kebahagiaan",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa cokelat hitam dianggap lebih sehat dibanding cokelat susu?",
+      "options": [
+        "Cokelat hitam lebih manis daripada cokelat susu",
+        "Cokelat hitam memiliki lebih sedikit kandungan gula dan lebih banyak antioksidan",
+        "Cokelat hitam lebih mudah dicerna oleh tubuh dibanding cokelat susu",
+        "Cokelat hitam memiliki lebih banyak kandungan susu dibanding cokelat susu",
+        "Cokelat hitam lebih tahan lama dibanding cokelat susu"
+      ],
+      "correctAnswer": "Cokelat hitam memiliki lebih sedikit kandungan gula dan lebih banyak antioksidan",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"khasiat\" dalam teks adalah...",
+      "options": [
+        "Manfaat atau kegunaan suatu bahan terhadap kesehatan",
+        "Cara kerja suatu zat dalam tubuh manusia",
+        "Kandungan gizi dalam makanan atau minuman",
+        "Rasa khas yang dimiliki oleh suatu makanan",
+        "Senyawa kimia yang terkandung dalam bahan alami"
+      ],
+      "correctAnswer": "Manfaat atau kegunaan suatu bahan terhadap kesehatan",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"antiinflamasi\" dalam teks adalah...",
+      "options": [
+        "Kemampuan untuk melawan peradangan dalam tubuh",
+        "Zat yang menyebabkan peningkatan energi secara cepat",
+        "Kandungan yang memberikan warna ungu pada kulit manggis",
+        "Senyawa yang meningkatkan rasa manis pada buah",
+        "Proses fermentasi alami yang terjadi dalam buah manggis"
+      ],
+      "correctAnswer": "Kemampuan untuk melawan peradangan dalam tubuh",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang benar berdasarkan teks adalah...",
+      "options": [
+        "Kulit manggis tidak memiliki manfaat bagi kesehatan",
+        "Manggis hanya dapat tumbuh di daerah beriklim dingin",
+        "Daging buah manggis memiliki kandungan vitamin C yang tinggi",
+        "Buah manggis dapat bertahan lama tanpa perlu penyimpanan khusus",
+        "Manggis pertama kali ditemukan di Eropa sebelum menyebar ke Asia Tenggara"
+      ],
+      "correctAnswer": "Daging buah manggis memiliki kandungan vitamin C yang tinggi",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa kulit manggis sering diolah menjadi produk kesehatan?",
+      "options": [
+        "Karena kulit manggis memiliki rasa yang sangat manis",
+        "Karena kulit manggis memiliki antioksidan yang bermanfaat bagi kesehatan",
+        "Karena daging buah manggis tidak memiliki kandungan gizi",
+        "Karena kulit manggis lebih lezat dibandingkan daging buahnya",
+        "Karena kulit manggis dapat langsung dikonsumsi tanpa diolah"
+      ],
+      "correctAnswer": "Karena kulit manggis memiliki antioksidan yang bermanfaat bagi kesehatan",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"ekstrak\" dalam teks adalah...",
+      "options": [
+        "Zat atau cairan yang diperoleh dengan mengekstraksi suatu bahan",
+        "Sisa atau limbah dari hasil pengolahan suatu bahan alami",
+        "Bagian terluar dari buah yang melindungi dagingnya",
+        "Proses pengolahan makanan yang melibatkan pemanasan tinggi",
+        "Senyawa beracun yang terkandung dalam buah-buahan tropis"
+      ],
+      "correctAnswer": "Zat atau cairan yang diperoleh dengan mengekstraksi suatu bahan",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"elektron valensi\" dalam teks adalah...",
+      "options": [
+        "Elektron yang terdapat pada inti atom suatu unsur",
+        "Elektron yang berada pada lapisan terluar atom dan menentukan sifat kimia unsur",
+        "Elektron yang memiliki muatan positif dalam inti atom",
+        "Elektron yang selalu berada dalam keadaan stabil tanpa berikatan dengan unsur lain",
+        "Elektron yang berpindah-pindah di antara unsur dalam satu golongan"
+      ],
+      "correctAnswer": "Elektron yang berada pada lapisan terluar atom dan menentukan sifat kimia unsur",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang benar berdasarkan teks adalah...",
+      "options": [
+        "Golongan dalam tabel periodik ditunjukkan oleh baris horizontal",
+        "Dmitri Mendeleev menemukan semua unsur dalam tabel periodik modern",
+        "Unsur dalam satu golongan memiliki jumlah elektron valensi yang sama",
+        "Unsur transuranium adalah unsur yang banyak ditemukan di alam",
+        "Nomor atom dalam tabel periodik disusun secara acak tanpa pola tertentu"
+      ],
+      "correctAnswer": "Unsur dalam satu golongan memiliki jumlah elektron valensi yang sama",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa unsur dalam satu golongan memiliki sifat kimia yang mirip?",
+      "options": [
+        "Karena unsur dalam satu golongan memiliki jumlah proton yang sama",
+        "Karena unsur dalam satu golongan memiliki nomor atom yang berurutan",
+        "Karena unsur dalam satu golongan memiliki jumlah elektron valensi yang sama",
+        "Karena unsur dalam satu golongan hanya terdiri dari unsur gas mulia",
+        "Karena unsur dalam satu golongan selalu mengalami perubahan wujud yang sama"
+      ],
+      "correctAnswer": "Karena unsur dalam satu golongan memiliki jumlah elektron valensi yang sama",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"transuranium\" dalam teks adalah...",
+      "options": [
+        "Unsur yang lebih ringan daripada uranium dalam tabel periodik",
+        "Unsur yang memiliki sifat identik dengan uranium",
+        "Unsur yang memiliki nomor atom lebih besar dari uranium dan dibuat melalui reaksi nuklir",
+        "Unsur yang ditemukan secara alami di kerak bumi bersama uranium",
+        "Unsur yang hanya dapat ditemukan dalam bentuk gas di atmosfer"
+      ],
+      "correctAnswer": "Unsur yang memiliki nomor atom lebih besar dari uranium dan dibuat melalui reaksi nuklir",
+      "explanation": null
+    }
+  ]
+}

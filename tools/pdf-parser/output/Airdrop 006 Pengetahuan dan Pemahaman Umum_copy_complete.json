@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Kata “mitigasi” pada kalimat (1) berasosiasi dengan...",
+      "options": [
+        "Risiko",
+        "Dampak",
+        "Pengurangan",
+        "Penyelesaian",
+        "Krisis"
+      ],
+      "correctAnswer": "C. Pengurangan",
+      "explanation": "Mitigasi berkaitan dengan tindakan mengurangi dampak bencana atau risiko."
+    },
+    {
+      "text": "Kata hubung yang paling sesuai untuk mengisi kalimat (3) adalah...",
+      "options": [
+        "Oleh karena itu",
+        "Jadi,",
+        "Untuk itu,",
+        "Namun,",
+        "Tetapi,"
+      ],
+      "correctAnswer": "D. Namun,",
+      "explanation": "Kalimat (3) menyatakan pertentangan dengan kalimat sebelumnya, sehingga kata hubung antarkalimat yang tepat adalah Namun."
+    },
+    {
+      "text": "Kata \"akuakultur\" pada kalimat (7) berasosiasi dengan....",
+      "options": [
+        "Peternakan darat",
+        "Pertanian tanaman",
+        "Budidaya perikanan",
+        "Pengolahan makanan",
+        "Perlindungan alam"
+      ],
+      "correctAnswer": "C. Budidaya perikanan",
+      "explanation": "Akuakultur adalah bentuk pemeliharaan dan penangkaran berbagai jenis hewan atau tumbuhan air."
+    },
+    {
+      "text": "Makna imbuhan pada kata “mengestimasi\" dalam kalimat (9) adalah ....?",
+      "options": [
+        "Memberikan penilaian terhadap sesuatu secara pasti",
+        "Menentukan hasil secara akurat berdasarkan data",
+        "Membuat perkiraan berdasarkan data atau informasi",
+        "Melakukan perhitungan dengan metode statistik",
+        "Menganalisis hasil secara terperinci"
+      ],
+      "correctAnswer": "C. Membuat perkiraan berdasarkan data atau informasi",
+      "explanation": "Mengestimasi berarti memperkirakan atau menaksir berdasarkan data yang ada."
+    },
+    {
+      "text": "Kalimat pasif yang benar dari kalimat (6) \"Tim peneliti menganalisis spasial lintas sektor\" adalah…?",
+      "options": [
+        "Spasial lintas sektor dianalisa oleh tim peneliti.",
+        "Spasial lintas sektor sedang dianalisis tim peneliti.",
+        "Spasial lintas sektor telah dianalisis tim peneliti.",
+        "Spasial lintas sektor dianalisis oleh tim peneliti.",
+        "Spasial lintas sektor akan dianalisis oleh tim peneliti."
+      ],
+      "correctAnswer": "D. Spasial lintas sektor dianalisis oleh tim peneliti.",
+      "explanation": "Bentuk pasif baku dari menganalisis adalah dianalisis."
+    },
+    {
+      "text": "Hubungan antara kalimat (1) dan (2) pada bacaan di atas adalah…",
+      "options": [
+        "Penegasan sebab-akibat",
+        "Penjelasan hubungan kronologis",
+        "Perbandingan antara dua hal",
+        "Penjelasan tambahan berupa ilustrasi",
+        "Kontradiksi terhadap pernyataan awal"
+      ],
+      "correctAnswer": "A. Penegasan sebab-akibat",
+      "explanation": "Kalimat (2) menjelaskan alasan (sebab) mengapa melindungi gajah berarti menyelamatkan bumi."
+    },
+    {
+      "text": "Bentuk pe-an dari kata pemanasan pada kalimat (3) memiliki makna yang sama dengan bentuk pe-an pada kalimat…",
+      "options": [
+        "Pembersihan rumah dilakukan setiap hari untuk menjaga kebersihan.",
+        "Penyembuhan luka dapat dipercepat dengan perawatan yang baik.",
+        "Pengeringan pakaian dilakukan di bawah sinar matahari.",
+        "Pembasahan lahan dilakukan sebelum menanam benih.",
+        "Perusahaan perminyakan mengelola eksploitasi minyak dan gas bumi."
+      ],
+      "correctAnswer": "C. Pengeringan pakaian dilakukan di bawah sinar matahari.",
+      "explanation": "Pemanasan bermakna proses menjadi panas, sama seperti pengeringan yang bermakna proses menjadi kering."
+    },
+    {
+      "text": "Makna yang lebih luas dari kata \"biji\" pada kalimat (7) adalah…",
+      "options": [
+        "Benih",
+        "Tanaman",
+        "Hasil panen",
+        "Bagian tanaman",
+        "Tanaman baru"
+      ],
+      "correctAnswer": "D. Bagian tanaman",
+      "explanation": "Biji merupakan salah satu bagian dari organ tumbuhan/tanaman."
+    },
+    {
+      "text": "Makna kata \"berkecambah” pada kalimat (10) adalah…",
+      "options": [
+        "Menjadi tunas",
+        "Mengeluarkan akar",
+        "Memulai proses pertumbuhan",
+        "Menghasilkan buah baru",
+        "Memecah biji menjadi dua"
+      ],
+      "correctAnswer": "C. Memulai proses pertumbuhan",
+      "explanation": "Berkecambah bermakna mulai tumbuh menjadi tumbuhan kecil (tunas/mulai tumbuh)."
+    },
+    {
+      "text": "Frasa “karbon tinggi” memiliki jenis serupa dengan?",
+      "options": [
+        "lima gelas",
+        "sedang bertugas",
+        "pohon besar",
+        "dari Aceh",
+        "kurang teliti"
+      ],
+      "correctAnswer": "C. pohon besar",
+      "explanation": "Karbon tinggi adalah frasa atributif (Nomina + Adjektiva), serupa dengan pohon besar."
+    },
+    {
+      "text": "Kata “lebat” memiliki beberapa makna, kecuali…",
+      "options": [
+        "Rapat",
+        "Padat",
+        "Tumbuh subur",
+        "Jarang",
+        "Menghijau"
+      ],
+      "correctAnswer": "D. Jarang",
+      "explanation": "Lebat berarti sarat, padat, rapat, atau subur, bukan jarang."
+    },
+    {
+      "text": "Kalimat manakah yang tidak mengandung makna konotasi…",
+      "options": [
+        "Dia memiliki hati yang besar.",
+        "Matahari terbenam dengan indah di ufuk barat.",
+        "Pohon-pohon di hutan itu berdiri tegak dan kokoh.",
+        "Lautan biru tampak luas tak terbatas.",
+        "Dia datang terlambat karena kemacetan."
+      ],
+      "correctAnswer": "E. Dia datang terlambat karena kemacetan.",
+      "explanation": "Kalimat E bermakna denotatif (sebenarnya), sedangkan yang lain mengandung makna kias/konotatif."
+    },
+    {
+      "text": "Persamaan kata “inovasi” pada teks di atas adalah…",
+      "options": [
+        "Pembaruan",
+        "Penemuan",
+        "Pendobrak",
+        "Penambahan",
+        "Peningkatan"
+      ],
+      "correctAnswer": "A. Pembaruan",
+      "explanation": "Inovasi berarti pemasukan atau pengenalan hal-hal yang baru; pembaruan."
+    },
+    {
+      "text": "Antonim dari kata \"konsumerisme\" pada kalimat (6) adalah....",
+      "options": [
+        "Minimalisme",
+        "Kapitalisme",
+        "Hedonisme",
+        "Ekspansionisme",
+        "Sosialisme"
+      ],
+      "correctAnswer": "A. Minimalisme",
+      "explanation": "Konsumerisme berkaitan dengan gaya hidup boros, sedangkan minimalisme adalah gaya hidup hemat/sederhana."
+    },
+    {
+      "text": "Makna mempromosikan pada kalimat (2) adalah…",
+      "options": [
+        "Mempengaruhi",
+        "Menghargai",
+        "Menyembunyikan",
+        "Menciptakan",
+        "Menyebarkan"
+      ],
+      "correctAnswer": "E. Menyebarkan",
+      "explanation": "Mempromosikan dalam konteks memperkenalkan atau menyebarluaskan suatu gagasan/citra."
+    }
+  ]
+}

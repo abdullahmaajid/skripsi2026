@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan teks di atas, manakah pernyataan yang PASTI SALAH?",
+      "options": [
+        "Momen Lebaran dapat memicu lonjakan harga kebutuhan pokok",
+        "Warga memprioritaskan membeli kebutuhan makan sehari-hari daripada kebutuhan lainnya",
+        "Daya beli warga semakin melemah selama 15 tahun terakhir",
+        "Kehidupan frugal menjadi pilihan hidup bagi sebagian besar warga",
+        "Penghasilan warga semakin meningkat dalam 15 tahun terakhir"
+      ],
+      "correctAnswer": "Penghasilan warga semakin meningkat dalam 15 tahun terakhir",
+      "explanation": "Teks menyatakan bahwa penghasilan warga pas-pasan dan semakin menipis selama 15 tahun terakhir, sehingga pernyataan bahwa penghasilan warga semakin meningkat adalah pasti salah."
+    },
+    {
+      "text": "Berdasarkan teks di atas, manakah pernyataan yang PASTI BENAR?",
+      "options": [
+        "Cantengan hanya dialami oleh orang dewasa",
+        "Cantengan terjadi pada masa anak-anak karena jaringan sekitar kuku masih lunak",
+        "Penyebab cantengan pada orang tua adalah karena kuku yang terlalu keras",
+        "Pemotongan kuku yang terlalu dalam tidak berpengaruh pada perkembangan cantengan",
+        "Orang tua lebih mudah merawat dan memotong kuku mereka karena penglihatan yang terbatas"
+      ],
+      "correctAnswer": "Cantengan terjadi pada masa anak-anak karena jaringan sekitar kuku masih lunak",
+      "explanation": "Teks menyatakan secara eksplisit bahwa pada masa anak-anak, cantengan biasa terjadi sebab jaringan di sekitar kukunya masih lunak."
+    },
+    {
+      "text": "Berdasarkan paragraf tersebut, manakah di bawah ini simpulan yang PASTI SALAH?",
+      "options": [
+        "Mengelupas bibir dapat menjadi tanda gangguan jika memengaruhi kualitas hidup",
+        "Kebiasaan mengelupas bibir tidak selalu menunjukkan masalah kesehatan mental",
+        "Mengelupas bibir menjadi gangguan ketika menyebabkan kesulitan beraktivitas",
+        "Semua kebiasaan mengelupas bibir pasti menunjukkan adanya masalah kesehatan mental",
+        "Mengelupas bibir bisa menjadi gangguan jika memengaruhi produktivitas seseorang"
+      ],
+      "correctAnswer": "Semua kebiasaan mengelupas bibir pasti menunjukkan adanya masalah kesehatan mental",
+      "explanation": "Paragraf menyatakan bahwa kebiasaan mengelupas bibir tidak bisa dijadikan tanda pasti apakah seseorang memiliki masalah kesehatan mental atau tidak, sehingga pernyataan bahwa semua kebiasaan tersebut pasti menunjukkan masalah kesehatan mental adalah pasti salah."
+    },
+    {
+      "text": "Berdasarkan teks tersebut, manakah pernyataan yang MENDUKUNG teks di atas?",
+      "options": [
+        "Kepercayaan pada mitos seperti mata kedutan lebih kuat pada masyarakat yang hidup di daerah terpencil",
+        "Mitos tentang mata kedutan dipercayai oleh masyarakat China karena keberuntungan dianggap sangat berharga",
+        "Keberuntungan dan mata kedutan hanya dipercaya oleh masyarakat yang tidak memiliki pendidikan formal",
+        "Mata kedutan dipandang sebagai pertanda buruk yang berkaitan dengan peristiwa negatif dalam kehidupan",
+        "Kepercayaan terhadap mitos mata kedutan semakin memudar seiring dengan kemajuan teknologi"
+      ],
+      "correctAnswer": "Mitos tentang mata kedutan dipercayai oleh masyarakat China karena keberuntungan dianggap sangat berharga",
+      "explanation": "Teks menyatakan bahwa bagi masyarakat China, keberuntungan merupakan sesuatu yang sangat berharga dan dikaitkan dengan mata sebelah kiri kedutan sebagai pertanda keberuntungan."
+    },
+    {
+      "text": "Berdasarkan paragraf tersebut, jika tinnitus disamakan dengan kondisi dering di telinga, manakah di bawah ini simpulan yang PASTI SALAH?",
+      "options": [
+        "Tinnitus bisa mempengaruhi kedua telinga sekaligus",
+        "Tinnitus dapat menyebabkan gangguan tidur dan masalah kesehatan mental seperti depresi",
+        "Tinnitus hanya menimbulkan suara berdenging di telinga tanpa suara lain",
+        "Suara yang didengar oleh penderita tinnitus tidak berasal dari luar telinga",
+        "Tinnitus adalah kondisi yang umum terjadi pada orang dewasa"
+      ],
+      "correctAnswer": "Tinnitus hanya menimbulkan suara berdenging di telinga tanpa suara lain",
+      "explanation": "Teks menyebutkan bahwa seseorang dengan tinnitus juga dapat mendengar suara-suara lain seperti bersiul, berkicau, berbisik, bergumam, atau berdecit, sehingga pernyataan bahwa tinnitus hanya menimbulkan suara berdenging tanpa suara lain adalah pasti salah."
+    },
+    {
+      "text": "Berdasarkan paragraf tersebut, jika diabetes tipe 2 disamakan dengan peningkatan kadar gula darah, manakah di bawah ini simpulan yang PASTI SALAH?",
+      "options": [
+        "Diabetes tipe 2 dapat mempengaruhi berbagai organ tubuh seperti mata, ginjal, dan saraf",
+        "Diabetes tipe 2 disebabkan oleh pola makan yang buruk dan kurangnya aktivitas fisik",
+        "Diabetes tipe 2 dapat dikelola dengan obat-obatan dan perubahan gaya hidup sehat",
+        "Diabetes tipe 2 hanya dapat mempengaruhi organ tubuh tertentu saja",
+        "Pengelolaan diabetes tipe 2 membutuhkan perubahan gaya hidup yang sehat"
+      ],
+      "correctAnswer": "Diabetes tipe 2 hanya dapat mempengaruhi organ tubuh tertentu saja",
+      "explanation": "Teks menyatakan bahwa peningkatan kadar gula darah berdampak pada berbagai organ tubuh, seperti mata, ginjal, dan saraf, sehingga simpulan bahwa diabetes tipe 2 hanya mempengaruhi organ tertentu saja adalah pasti salah."
+    },
+    {
+      "text": "Berdasarkan paragraf tersebut, jika energi terbarukan disamakan dengan sumber energi ramah lingkungan, manakah di bawah ini simpulan yang PASTI SALAH?",
+      "options": [
+        "Energi terbarukan dapat mengurangi polusi udara",
+        "Energi terbarukan dapat menggantikan bahan bakar fosil yang tidak dapat diperbaharui",
+        "Penggunaan energi terbarukan sepenuhnya bebas dari tantangan dan hambatan",
+        "Teknologi tenaga surya dapat menghasilkan energi listrik dari sinar matahari",
+        "Energi terbarukan dapat menjadi pilihan yang lebih baik untuk masa depan"
+      ],
+      "correctAnswer": "Penggunaan energi terbarukan sepenuhnya bebas dari tantangan dan hambatan",
+      "explanation": "Teks menyatakan bahwa masih ada tantangan dalam pengembangan teknologi dan infrastruktur, sehingga pernyataan bahwa penggunaannya sepenuhnya bebas dari tantangan adalah pasti salah."
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, manakah pernyataan yang BENAR?",
+      "options": [
+        "Olahraga lari hanya bermanfaat bagi kesehatan jantung dan tidak mempengaruhi stamina tubuh",
+        "Lari adalah olahraga yang sulit dilakukan karena memerlukan peralatan khusus",
+        "Lari dapat membantu mengurangi stres dan meningkatkan mood",
+        "Lari tidak memiliki manfaat untuk kekuatan jantung atau perbaikan sirkulasi darah",
+        "Lari hanya efektif dalam meningkatkan kekuatan otot, bukan stamina tubuh"
+      ],
+      "correctAnswer": "Lari dapat membantu mengurangi stres dan meningkatkan mood",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, manakah pernyataan yang PASTI SALAH?",
+      "options": [
+        "Puasa hanya bermanfaat untuk kesehatan fisik namun tidak memiliki manfaat spiritual",
+        "Puasa dapat membantu meningkatkan kesehatan pencernaan dan mengurangi berat badan",
+        "Puasa dapat memperbaiki sistem metabolisme tubuh",
+        "Puasa membantu detoksifikasi tubuh",
+        "Puasa dapat meningkatkan kesadaran spiritual dan kedekatan dengan Tuhan"
+      ],
+      "correctAnswer": "Puasa hanya bermanfaat untuk kesehatan fisik namun tidak memiliki manfaat spiritual",
+      "explanation": null
+    },
+    {
+      "text": "Manakah di bawah ini simpulan yang PASTI SALAH berdasarkan teks di atas?",
+      "options": [
+        "Sungai terbentuk melalui proses alami seperti hujan, erosi, dan pergerakan air tanah",
+        "Sungai hanya memiliki satu fungsi, yaitu sebagai jalur transportasi",
+        "Sungai memiliki peran penting dalam ekosistem",
+        "Sungai memberikan sumber daya bagi manusia, seperti air bersih dan irigasi",
+        "Sungai dapat mengalir menuju laut"
+      ],
+      "correctAnswer": "Sungai hanya memiliki satu fungsi, yaitu sebagai jalur transportasi",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan di bawah ini yang paling mungkin dengan informasi di atas?",
+      "options": [
+        "Jika seseorang mengonsumsi buah kiwi sebelum tidur, maka berkemungkinan kualitas tidurnya akan meningkat",
+        "Jika seseorang tidak kurang tidur, maka mereka akan merasa lebih kelelahan di siang hari",
+        "Jika seseorang merasa kelelahan, maka mereka pasti tidak tidur dengan cukup",
+        "Jika seseorang tidur dengan cukup, maka suasana hati mereka akan lebih baik di siang hari",
+        "Jika seseorang mengonsumsi buah kiwi, maka mereka pasti akan tidur nyenyak tanpa gangguan"
+      ],
+      "correctAnswer": "Jika seseorang mengonsumsi buah kiwi sebelum tidur, maka berkemungkinan kualitas tidurnya akan meningkat",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar",
+        "Simpulan tersebut mungkin benar",
+        "Simpulan tersebut pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan tersebut pasti benar",
+      "explanation": null
+    },
+    {
+      "text": "Manakah simpulan berikut yang PASTI BENAR?",
+      "options": [
+        "Tina hanya membeli sayur hijau",
+        "Tina tidak pergi ke pasar",
+        "Tina tidak membeli sayur",
+        "Tina pergi ke pasar membeli yang bukan sayur",
+        "Sayur yang Tina beli adalah Terong"
+      ],
+      "correctAnswer": "Tina tidak membeli sayur",
+      "explanation": null
+    },
+    {
+      "text": "Manakah yang pernyataan yang PALING MUNGKIN benar berdasarkan teks di atas?",
+      "options": [
+        "Gunung X tidak akan meletus lagi dalam waktu dekat",
+        "Warga yang tinggal di sekitar gunung X tidak perlu khawatir tentang letusan",
+        "Pemerintah telah mengingatkan warga sekitar gunung untuk selalu waspada",
+        "Pemerintah daerah tidak memiliki prosedur evakuasi yang baik untuk menghadapi letusan",
+        "Letusan gunung X hanya akan terjadi jika ada gempa besar"
+      ],
+      "correctAnswer": "Pemerintah telah mengingatkan warga sekitar gunung untuk selalu waspada",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang jika benar akan MEMPERKUAT pernyataan pengamat C?",
+      "options": [
+        "Banyak negara belum berhasil mengurangi ketergantungan mereka pada energi fosil dan belum beralih ke energi terbarukan",
+        "Pemerintah telah meningkatkan subsidi untuk energi fosil dan mengurangi anggaran untuk energi terbarukan",
+        "Kesadaran Masyarakat semakin meningkat seiring dengan kampanye pemerintah untuk meningkatkan kesadaran masyarakat",
+        "Beberapa perusahaan besar mulai berinvestasi dalam proyek energi fosil meskipun ada kebijakan pemerintah yang mendukung energi terbarukan",
+        "Harga energi terbarukan terus meningkat dan menjadi lebih mahal daripada energi fosil"
+      ],
+      "correctAnswer": "Kesadaran Masyarakat semakin meningkat seiring dengan kampanye pemerintah untuk meningkatkan kesadaran masyarakat",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar",
+        "Simpulan tersebut mungkin benar",
+        "Simpulan tersebut pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan tersebut pasti salah",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang jika benar akan MEMPERKUAT pernyataan pengamat C?",
+      "options": [
+        "Banyak negara lain telah berhasil meningkatkan penggunaan energi terbarukan sebagai sumber energi utama",
+        "Pemerintah telah memberikan subsidi untuk instalasi panel surya di rumah tangga dan mengurangi pajak untuk penggunaan energi terbarukan",
+        "Penggunaan energi fosil di banyak daerah terus menurun seiring meningkatnya kesadaran masyarakat tentang dampak lingkungan",
+        "Masyarakat tidak terlalu peduli dengan kebijakan pemerintah tentang pengurangan emisi karbon dan pengalihan ke energi terbarukan",
+        "Harga energi fosil terus menurun, sehingga masyarakat memilih untuk tetap menggunakan energi fosil"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang jika benar akan MEMPERLEMAH pernyataan pengamat D?",
+      "options": [
+        "Banyak daerah di negara ini masih kekurangan akses internet yang cepat dan stabil, terutama di pedesaan",
+        "Pemerintah telah memberikan subsidi bagi keluarga dengan pendapatan rendah untuk membeli perangkat teknologi yang dibutuhkan untuk pendidikan online",
+        "Program pendidikan online di negara lain telah terbukti sukses dan mendapatkan partisipasi tinggi dari masyarakat",
+        "Masyarakat di perkotaan sudah semakin terbiasa dengan pendidikan online dan menganggapnya lebih efisien",
+        "Berbagai lembaga pendidikan di seluruh dunia terus meningkatkan kualitas dan metode pendidikan online mereka"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang PALING TEPAT mengenai hasil survei tersebut?",
+      "options": [
+        "Memperkuat pernyataan Pakar A",
+        "Memperlemah pernyataan Pakar A",
+        "Memperkuat pernyataan Pakar B",
+        "Memperlemah pernyataan Pakar B",
+        "Tidak relevan dengan pernyataan Pakar A dan Pakar B"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang PALING TEPAT mengenai hasil survei tersebut?",
+      "options": [
+        "Memperkuat pernyataan Pakar E",
+        "Memperlemah pernyataan Pakar E",
+        "Memperkuat pernyataan Pakar F",
+        "Memperlemah pernyataan Pakar F",
+        "Tidak relevan dengan pernyataan Pakar E dan Pakar F"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang jika benar akan MEMPERLEMAH pernyataan Pengamat X?",
+      "options": [
+        "Penurunan harga baterai kendaraan listrik memang sudah terjadi, tetapi ketersediaan bahan baku untuk baterai masih terbatas dan mahal",
+        "Pemerintah beberapa negara telah menerapkan kebijakan untuk mendukung infrastruktur pengisian daya kendaraan listrik, yang memudahkan adopsi kendaraan listrik",
+        "Beberapa penelitian menunjukkan bahwa kendaraan listrik masih memiliki jejak karbon yang signifikan jika dilihat dari siklus hidup baterai dan proses produksinya",
+        "Penjualan kendaraan listrik terus meningkat setiap tahun, seiring dengan meningkatnya minat konsumen terhadap kendaraan ramah lingkungan",
+        "Banyak produsen otomotif besar telah mengumumkan rencana untuk mengubah sebagian besar lini produk mereka menjadi kendaraan listrik dalam waktu lima tahun ke depan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah toko lapis legit yang berada di posisi pertama?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah toko lapis legit yang berada di posisi terakhir?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah toko skincare menawarkan promo potongan harga. Untuk setiap pembelian produk skincare, pelanggan mendapatkan diskon 25% jika total belanja mencapai 500.000. Jika seorang pelanggan membeli produk skincare dengan total harga 600.000, berapa total yang harus dibayar setelah diskon?",
+      "options": [
+        "450.000",
+        "480.000",
+        "500.000",
+        "400.000",
+        "550.000"
+      ],
+      "correctAnswer": "450.000",
+      "explanation": null
+    },
+    {
+      "text": "Seorang peternak memiliki 5 kandang ayam. Setiap kandang dapat menampung 200 ayam. Jika tingkat kelahiran ayam adalah 90%, berapa jumlah ayam yang berhasil dilahirkan?",
+      "options": [
+        "850",
+        "900",
+        "910",
+        "950",
+        "1.000"
+      ],
+      "correctAnswer": "900",
+      "explanation": "Total kapasitas = 5 x 200 = 1000 ayam. Ayam yang berhasil dilahirkan = 90% x 1000 = 900 ayam."
+    },
+    {
+      "text": "Enam peserta ujian, yaitu F, G, H, I, J, dan K, mengikuti seleksi masuk Perguruan Tinggi Negeri. Nilai Tes Penalaran Umum (PU) mereka sebagai berikut.\nNilai H lebih tinggi dari F dan G, tetapi H lebih rendah dari I.\nNilai F lebih dari G\nNilai J lebih rendah dari G dan lebih tinggi dari K.\nSiapakah yang memiliki nilai Penalaran Umum tertinggi keempat?",
+      "options": [
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "correctAnswer": "G",
+      "explanation": "Urutan dari tertinggi ke terendah berdasarkan kondisi: I > H > F > G > J > K. Peringkat keempat adalah G."
+    },
+    {
+      "text": "Lima peserta ujian, yaitu P, Q, R, S, dan T, mengikuti seleksi masuk Perguruan Tinggi Negeri. Nilai Tes Penalaran Umum (PU) mereka sebagai berikut.\nNilai S lebih tinggi dari R, tetapi S lebih rendah dari P.\nNilai Q lebih tinggi dari T, dan R lebih tinggi dari T.\nSiapakah yang memiliki nilai Penalaran Umum tertinggi kelima?",
+      "options": [
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T"
+      ],
+      "correctAnswer": "T",
+      "explanation": "Dari informasi, kita tahu P > S > R > T. Q juga lebih tinggi dari T. Secara keseluruhan urutan dari tertinggi tidak sepenuhnya mutlak untuk Q, tetapi T dipastikan berada di urutan kelima (terendah) karena nilai T lebih rendah dari R dan Q."
+    },
+    {
+      "text": "Sebuah mobil dapat menempuh jarak 240 km dalam 4 jam. Berapa lama waktu yang diperlukan mobil tersebut untuk menempuh jarak yang sama jika kecepatannya ditingkatkan dua kali lipat?",
+      "options": [
+        "1 jam",
+        "2 jam",
+        "3 jam",
+        "4 jam",
+        "5 jam"
+      ],
+      "correctAnswer": "2 jam",
+      "explanation": "Kecepatan awal = 240 / 4 = 60 km/jam. Jika kecepatan ditingkatkan 2 kali lipat menjadi 120 km/jam, waktu yang diperlukan untuk 240 km adalah 240 / 120 = 2 jam."
+    },
+    {
+      "text": "Di sebuah bengkel, penjualan ban mobil dan velg empat hari berturut-turut membentuk pola seperti: 2, 4, 8, dan 16. Sedangkan pola penjualan velg nya membentuk pola 3, 9, 27, 81. Jika pola ini terus berlanjut, berapa jumlah penjualan ban mobil dan velg pada hari kelima?",
+      "options": [
+        "32 dan 242",
+        "30 dan 243",
+        "32 dan 243",
+        "42 dan 253",
+        "32 dan 240"
+      ],
+      "correctAnswer": "32 dan 243",
+      "explanation": "Pola ban mobil: 2, 4, 8, 16, (16 x 2 = 32). Pola velg: 3, 9, 27, 81, (81 x 3 = 243). Maka hari kelima adalah 32 dan 243."
+    },
+    {
+      "text": "Jumlah antrean di kedai Tuku selama lima hari berturut-turut adalah 13, 16, 19, 22 dan 25. Jika jumlah antrean konstan setiap harinya, berapakah jumlah antrean pada hari ke tujuh?",
+      "options": [
+        "28",
+        "31",
+        "27",
+        "33",
+        "32"
+      ],
+      "correctAnswer": "31",
+      "explanation": "Pola barisan aritmetika dengan beda +3: Hari ke-1 = 13, Hari ke-2 = 16, Hari ke-3 = 19, Hari ke-4 = 22, Hari ke-5 = 25, Hari ke-6 = 28, Hari ke-7 = 31."
+    }
+  ]
+}

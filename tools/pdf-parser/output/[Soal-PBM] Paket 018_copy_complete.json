@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Manakah kata yang penulisannya tidak sesuai dengan kaidah bahasa Indonesia dalam teks di atas?",
+      "options": [
+        "Informasi",
+        "Deras",
+        "Seringkali",
+        "Kritis",
+        "Memilah"
+      ],
+      "correctAnswer": "Seringkali",
+      "explanation": "Kata \"seringkali\" seharusnya ditulis terpisah menjadi \"sering kali\" karena merupakan dua kata yang berdiri sendiri."
+    },
+    {
+      "text": "Pilihlah kata yang paling tepat untuk melengkapi kalimat berikut: \"_________ berpikir kritis menjadi salah satu faktor utama dalam menanggapi arus informasi yang deras.\"",
+      "options": [
+        "Masyarakat",
+        "Keterampilan",
+        "Kemampuan",
+        "Penyebaran",
+        "Pemahaman"
+      ],
+      "correctAnswer": "Kemampuan",
+      "explanation": "Kata \"kemampuan\" paling tepat melengkapi frasa subjek yang berkaitan dengan proses berpikir kritis."
+    },
+    {
+      "text": "Manakah perbaikan yang tepat untuk kalimat berikut? \"Banyak orang seringkali tidak memperhatikan kaidah bahasa yang benar saat menulis di media sosial.\"",
+      "options": [
+        "Banyak orang sering tidak memperhatikan kaidah bahasa yang benar saat menulis di media sosial.",
+        "Banyak orang sering kali tidak memperhatikan kaidah bahasa yang benar saat menulis di media sosial.",
+        "Banyak orang kerapkali tidak memperhatikan kaidah bahasa yang benar saat menulis di media sosial.",
+        "Banyak orang tidak memperhatikan kaidah bahasa yang benar saat menulis di media sosial sering kali.",
+        "Banyak orang tidak memperhatikan kaidah bahasa yang benar sering kali saat menulis di media sosial."
+      ],
+      "correctAnswer": "Banyak orang sering kali tidak memperhatikan kaidah bahasa yang benar saat menulis di media sosial.",
+      "explanation": "Penulisan \"seringkali\" yang merupakan bentuk tidak baku harus diperbaiki menjadi \"sering kali\" sesuai kaidah."
+    },
+    {
+      "text": "Susunlah kalimat berikut agar menjadi paragraf yang padu:\n(1) Kesalahan ejaan, tanda baca, dan struktur kalimat yang tidak tepat dapat mengaburkan makna suatu pesan.\n(2) Oleh karena itu, keterampilan berbahasa yang baik sangat penting dalam menyampaikan informasi dengan jelas.\n(3) Sayangnya, banyak orang tidak memperhatikan kaidah bahasa yang benar saat menulis di media sosial.\n(4) Penggunaan bahasa yang tepat dalam penyampaian informasi juga sangat diperlukan.",
+      "options": [
+        "(4) - (3) - (1) - (2)",
+        "(4) - (1) - (3) - (2)",
+        "(3) - (4) - (1) - (2)",
+        "(1) - (3) - (2) - (4)",
+        "(2) - (3) - (4) - (1)"
+      ],
+      "correctAnswer": "(4) - (1) - (3) - (2)",
+      "explanation": "Susunan yang logis dimulai dari pernyataan pentingnya penggunaan bahasa, diikuti oleh masalah kesalahan, realita di media sosial, dan diakhiri dengan kesimpulan."
+    },
+    {
+      "text": "Susunlah paragraf berikut agar menjadi paragraf yang koheren:\n(1) Dengan keterampilan berpikir kritis, masyarakat dapat memilah informasi yang akurat.\n(2) Di era digital, informasi dapat menyebar dengan cepat melalui media sosial.\n(3) Sayangnya, banyak informasi yang beredar tidak dapat dipastikan kebenarannya.\n(4) Oleh karena itu, berpikir kritis menjadi salah satu faktor penting dalam menerima informasi.",
+      "options": [
+        "(2) - (3) - (4) - (1)",
+        "(3) - (2) - (1) - (4)",
+        "(2) - (4) - (1) - (3)",
+        "(4) - (3) - (2) - (1)",
+        "(1) - (2) - (4) - (3)"
+      ],
+      "correctAnswer": "(2) - (3) - (4) - (1)",
+      "explanation": "Paragraf koheren dimulai dari konteks era digital, masalah penyebaran informasi, solusi berpikir kritis, dan hasil dari berpikir kritis."
+    },
+    {
+      "text": "Pilihlah kata atau frasa yang paling tepat untuk melengkapi kalimat berikut: \"_______ membawa banyak perubahan dalam kehidupan manusia, termasuk dalam kemudahan mengakses informasi.\"",
+      "options": [
+        "Era digital",
+        "Teknologi",
+        "Informasi",
+        "Penyebaran",
+        "Internet"
+      ],
+      "correctAnswer": "Teknologi",
+      "explanation": "Kata \"Teknologi\" merujuk langsung pada subjek utama yang membawa perubahan besar dalam teks."
+    },
+    {
+      "text": "Manakah kata yang bisa dihilangkan tanpa mengubah makna kalimat berikut? \"Banyak orang sering kali menggunakan kata-kata yang kurang tepat atau bahkan berlebihan dalam menulis.\"",
+      "options": [
+        "Banyak",
+        "Sering kali",
+        "Kata-kata",
+        "Bahkan",
+        "Dalam"
+      ],
+      "correctAnswer": "Kata-kata",
+      "explanation": "Kata \"kata-kata\" dapat dihilangkan karena frasa \"menggunakan yang kurang tepat\" sudah dapat dipahami maknanya."
+    },
+    {
+      "text": "Judul manakah yang paling sesuai untuk teks bacaan di atas?",
+      "options": [
+        "Dampak Kemajuan Teknologi pada Media Sosial",
+        "Pentingnya Literasi Digital dan Penggunaan Bahasa yang Tepat",
+        "Pengaruh Informasi Digital terhadap Kehidupan Masyarakat",
+        "Perkembangan Teknologi dan Keterampilan Berkomunikasi",
+        "Bagaimana Teknologi Mempengaruhi Pendidikan"
+      ],
+      "correctAnswer": "Pentingnya Literasi Digital dan Penggunaan Bahasa yang Tepat",
+      "explanation": "Judul ini mencakup dua gagasan utama dari teks yaitu literasi digital dan penggunaan bahasa."
+    },
+    {
+      "text": "Pernyataan berikut jika ditulis kembali, maka yang memiliki makna sama adalah…\nMasyarakat perlu memiliki keterampilan literasi digital agar dapat menyaring informasi dengan baik.",
+      "options": [
+        "Literasi digital membantu masyarakat untuk menyebarkan informasi secara luas.",
+        "Keterampilan digital sangat diperlukan agar masyarakat bisa mendapatkan informasi yang lebih cepat.",
+        "Dengan memiliki literasi digital, masyarakat dapat memilah mana informasi yang benar dan mana yang tidak.",
+        "Literasi digital adalah hal yang sangat penting dalam era teknologi canggih.",
+        "Kemampuan membaca dan menulis digital menjadi kunci dalam memperoleh informasi akurat."
+      ],
+      "correctAnswer": "Dengan memiliki literasi digital, masyarakat dapat memilah mana informasi yang benar dan mana yang tidak.",
+      "explanation": "Pernyataan ini memiliki arti setara dengan menyaring informasi, yaitu memilah informasi yang benar dan salah."
+    },
+    {
+      "text": "Manakah kalimat yang mengandung kesalahan penulisan kata?",
+      "options": [
+        "Dalam era digital, penyebaran informasi menjadi semakin cepat.",
+        "Masyarakat diharapakan mampu menyaring informasi yang mereka terima.",
+        "Banyak pengguna media sosial kurang memperhatikan kaidah kebahasaan.",
+        "Penggunaan bahasa yang benar meningkatkan efektivitas komunikasi.",
+        "Informasi yang tidak akurat dapat menyebabkan kesalahpahaman."
+      ],
+      "correctAnswer": "Masyarakat diharapakan mampu menyaring informasi yang mereka terima.",
+      "explanation": "Kata \"diharapakan\" salah tulis, seharusnya \"diharapkan\"."
+    },
+    {
+      "text": "Di manakah letak yang paling tepat untuk memasukkan kalimat berikut dalam paragraf kedua?\n\"Selain itu, keterbukaan informasi juga diperlukan agar masyarakat dapat mengawasi kinerja pemerintah.\"",
+      "options": [
+        "Sebelum kalimat pertama dalam paragraf kedua",
+        "Setelah kalimat pertama dalam paragraf kedua",
+        "Setelah kalimat kedua dalam paragraf kedua",
+        "Setelah kalimat terakhir dalam paragraf kedua",
+        "Tidak perlu dimasukkan karena tidak relevan"
+      ],
+      "correctAnswer": "Setelah kalimat terakhir dalam paragraf kedua",
+      "explanation": "Kalimat tersebut berfungsi sebagai perluasan atau penambahan argumen di akhir paragraf tentang pengawasan."
+    },
+    {
+      "text": "Manakah kalimat yang tanda komanya digunakan secara tidak tepat?",
+      "options": [
+        "Kasus korupsi di Indonesia masih menjadi permasalahan yang sulit diatasi.",
+        "Setiap tahun, berbagai kasus korupsi terungkap melibatkan pejabat negara hingga pihak swasta.",
+        "Oleh karena itu, diperlukan reformasi dalam sistem hukum, serta pengawasan yang lebih ketat terhadap pejabat publik.",
+        "Dampak dari tindakan korupsi ini sangat luas, mencakup kerugian keuangan negara, serta menurunnya kepercayaan masyarakat terhadap pemerintah.",
+        "Banyak kasus korupsi yang ditangani dalam waktu lama dan tidak jarang pelaku mendapatkan hukuman yang ringan."
+      ],
+      "correctAnswer": "Oleh karena itu, diperlukan reformasi dalam sistem hukum, serta pengawasan yang lebih ketat terhadap pejabat publik.",
+      "explanation": "Tanda koma sebelum kata \"serta\" dalam kalimat tersebut tidak diperlukan karena tidak memisahkan perincian atau klausa majemuk bertingkat."
+    },
+    {
+      "text": "Manakah perbaikan yang paling efektif untuk kalimat berikut?\n\"Banyak kasus korupsi yang ditangani dalam waktu lama dan tidak jarang pelaku mendapatkan hukuman yang ringan.\"",
+      "options": [
+        "Banyak kasus korupsi yang ditangani dalam waktu lama sehingga pelaku tidak jarang mendapatkan hukuman ringan.",
+        "Kasus korupsi sering ditangani dalam waktu lama, menyebabkan pelaku mendapatkan hukuman ringan.",
+        "Banyak kasus korupsi ditangani dalam waktu lama dan pelaku sering mendapatkan hukuman ringan.",
+        "Banyak kasus korupsi yang ditangani dalam waktu lama dan pelaku mendapatkan hukuman ringan.",
+        "Banyak kasus korupsi ditangani lama dan banyak pelaku mendapatkan hukuman ringan."
+      ],
+      "correctAnswer": "Banyak kasus korupsi yang ditangani dalam waktu lama dan pelaku mendapatkan hukuman ringan.",
+      "explanation": "Perbaikan tersebut membuat kalimat lebih ringkas dan efektif tanpa mengurangi informasi inti."
+    },
+    {
+      "text": "Manakah kalimat yang penulisan huruf kapitalnya salah?",
+      "options": [
+        "Komisi Pemberantasan Korupsi (KPK) terus berupaya menangani berbagai kasus yang muncul.",
+        "Pemerintah Indonesia telah mengeluarkan berbagai kebijakan untuk mencegah korupsi.",
+        "Salah satu contoh kasus korupsi terbesar terjadi di Bank Sentral Indonesia.",
+        "Kasus suap yang melibatkan gubernur itu mendapat perhatian dari masyarakat.",
+        "Presiden Republik Indonesia menegaskan pentingnya reformasi hukum."
+      ],
+      "correctAnswer": "Salah satu contoh kasus korupsi terbesar terjadi di Bank Sentral Indonesia.",
+      "explanation": "\"Bank Sentral Indonesia\" bukan nama diri/lembaga resmi yang spesifik seperti Bank Indonesia, melainkan nama generik."
+    },
+    {
+      "text": "Manakah perbaikan yang paling efektif untuk kalimat berikut?\n\"Dampak dari tindakan korupsi ini sangat luas, mencakup kerugian keuangan negara serta menurunnya kepercayaan masyarakat terhadap pemerintah.\"",
+      "options": [
+        "Dampakkah tindakan korupsi ini luas, mencakup kerugian negara dan penurunan kepercayaan masyarakat terhadap pemerintah.",
+        "Dampak dari korupsi ini sangat besar, termasuk kerugian finansial negara dan berkurangnya kepercayaan masyarakat kepada pemerintah.",
+        "Korupsi berdampak luas, mencakup kerugian negara serta hilangnya kepercayaan rakyat terhadap pemerintah.",
+        "Korupsi memiliki dampak luas, mencakup kerugian negara dan menurunnya kepercayaan rakyat terhadap pemerintah.",
+        "Dampak tindakan korupsi ini sangat luas, yang mencakup kerugian keuangan negara dan kepercayaan masyarakat yang menurun terhadap pemerintah."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata \"melibatkan\" dalam teks dapat digantikan dengan kata yang memiliki makna serupa, kecuali...",
+      "options": [
+        "mencakup",
+        "menyertakan",
+        "mengikutsertakan",
+        "mengandung",
+        "mengikutkan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah inti dari kalimat berikut?\n\"Pemerintah telah mengambil berbagai langkah untuk memberantas korupsi, seperti memperketat pengawasan, meningkatkan transparansi, serta memberikan hukuman yang lebih tegas kepada para pelaku.\"",
+      "options": [
+        "Pemerintah mengambil langkah",
+        "Pemerintah memberantas korupsi",
+        "Pemerintah meningkatkan transparansi",
+        "Langkah memberantas korupsi",
+        "Hukuman lebih tegas kepada pelaku"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pilihlah penggabungan yang paling efektif dari dua kalimat berikut:\n1. Upaya pemberantasan korupsi masih menghadapi berbagai tantangan.\n2. Salah satu tantangan adalah lemahnya penegakan hukum.",
+      "options": [
+        "Upaya pemberantasan korupsi masih menghadapi berbagai tantangan, salah satunya lemahnya penegakan hukum.",
+        "Karena lemahnya penegakan hukum, upaya pemberantasan korupsi masih menghadapi berbagai tantangan.",
+        "Salah satu tantangan dalam upaya pemberantasan korupsi adalah lemahnya penegakan hukum.",
+        "Berbagai tantangan dalam pemberantasan korupsi masih terjadi akibat lemahnya penegakan hukum.",
+        "Upaya pemberantasan korupsi yang masih menghadapi tantangan disebabkan oleh lemahnya penegakan hukum."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pilihlah kata yang paling tepat untuk melengkapi kalimat berikut:\n\"Korupsi dapat menyebabkan kemiskinan karena anggaran negara yang seharusnya digunakan untuk pembangunan ______ oleh pihak yang tidak bertanggung jawab.\"",
+      "options": [
+        "dihamburkan",
+        "dikorupsi",
+        "dimanfaatkan",
+        "ditingkatkan",
+        "diperbaiki"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pilihlah kata yang paling tepat untuk melengkapi kalimat berikut:\n\"Pemberantasan korupsi memerlukan ______ antara pemerintah, masyarakat, dan lembaga hukum agar lebih efektif.\"",
+      "options": [
+        "partisipasi",
+        "kerja sama",
+        "perdebatan",
+        "pengawasan",
+        "transparansi"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

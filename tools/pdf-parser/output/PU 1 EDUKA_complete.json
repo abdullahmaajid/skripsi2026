@@ -1,0 +1,964 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan paragraf 1, pernyataan mana yang benar?",
+      "options": [
+        "Persaingan makanan di Indonesia berkembang pesat",
+        "Makanan yang lezat memiliki harga yang tidak terjangkau",
+        "Makanan cepat saji berkembang pesat di Indonesia",
+        "Makanan cepat saji mengandung kontroversi",
+        "Memakan makanan cepat saji berdampak buruk bagi tubuh"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Paragraf 1 menyatakan bahwa 'Junk Food disebut makanan instan atau makanan cepat saji yang kini telah berkembang pesat di persaingan perusahaan makanan di Indonesia'."
+    },
+    {
+      "text": "Berdasarkan paragraf terakhir apa yang akan terjadi apabila lilin masuk ke dalam tubuh?",
+      "options": [
+        "Memperlambat proses pencernaan tubuh",
+        "Menghambat gejala stroke",
+        "Mengalami penyakit ginjal dengan durasi yang lama",
+        "Mengurangi nafsu makan",
+        "Menyebabkan makanan tidak tercerna oleh tubuh"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Pada paragraf terakhir disebutkan bahwa lilin sulit dicerna tubuh, menghancurkan prinsip kerja sistem pencernaan, sehingga makanan yang mengandung lilin akan dicerna dengan waktu minimal dua hari (memperlambat proses pencernaan)."
+    },
+    {
+      "text": "Berdasarkan teks di atas, pernyataan mana tentang micin yang benar....",
+      "options": [
+        "Micin merupakan zat yang berbahaya",
+        "Micin mengurangi kemampuan individu dalam berfikir",
+        "Micin mengawetkan dan menyedapkan makanan",
+        "Micin hanya dikonsumsi remaja dan orang dewasa",
+        "Micin tidak berdampak langsung terhadap tubuh"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Pada paragraf 2 disebutkan bahwa 'di dalam makanan cepat saji terkandung bahan pengawet dan penyedap yang kini disebut micin'."
+    },
+    {
+      "text": "Kata berimbuhan yang salah yang digunakan dalam paragraf terakhir adalah...",
+      "options": [
+        "Menyambar",
+        "Mempengaruhi",
+        "Menimbulkan",
+        "Diprediksi",
+        "Disinari"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Kata baku yang tepat untuk 'mempengaruhi' adalah 'mempengaruhi' dengan huruf dasar p yang harus luluh (memengaruhi)."
+    },
+    {
+      "text": "Pernyataan di bawah ini yang benar menurut paragraf kedua adalah....",
+      "options": [
+        "Semua flora dan fauna tinggal di dalam hutan",
+        "Gedung bertingkat menyebabkan kebakaran hutan",
+        "Flora dan fauna dirugikan dalam kebakaran hutan",
+        "Flora dan fauna mati hangus dalam kebakaran hutan",
+        "Salah satu faktor alam dalam kebakaran hutan adalah munculnya petir saat hujan"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Paragraf kedua membahas mengenai dampak buatan manusia yang merugikan lingkungan hidup dan hutan yang merupakan habitat berbagai spesies."
+    },
+    {
+      "text": "Berdasarkan paragraf ke dua pernyataan manakah yang paling mungkin?",
+      "options": [
+        "Hutan terbakar untuk menciptakan lahan",
+        "Hutan terbakar akibat aktivitas manusia",
+        "Hutan terbakar karena efek rumah kaca",
+        "Hutan terbakar di seluruh Indonesia",
+        "Hutan terbakar hanya karena manusia"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Paragraf kedua menjelaskan bahwa kebakaran hutan di Indonesia disebabkan oleh dua faktor, salah satunya faktor buatan yaitu aktivitas manusia yang merugikan."
+    },
+    {
+      "text": "Berdasarkan teks diatas mengapa banyak hewan liar berkeliaran di pemukiman manusia?",
+      "options": [
+        "Hewan liar tersebut tersesat",
+        "Hewan liar ingin memangsa manusia",
+        "Hewan liar mengalami kepanasan akibat kebakaran hutan",
+        "Hewan liar tersebut mengeksplorasi rumah manusia",
+        "Hewan liar kehilangan habitat aslinya"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Disebutkan bahwa flora dan fauna kehilangan habitat aslinya karena terbakar, sehingga larinya para satwa ke pemukiman penduduk karena merasa tak lagi memiliki rumah."
+    },
+    {
+      "text": "Judul apa yang tepat untuk teks di atas?",
+      "options": [
+        "Kebakaran Hutan di Indonesia",
+        "Faktor Manusia yang Menyebabkan Kebakaran Hutan",
+        "Dampak Kebakaran Hutan bagi Flora dan Fauna",
+        "Faktor-Faktor dalam Kebakaran",
+        "Penyebab Kebakaran Hutan"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Teks secara keseluruhan membahas tentang fenomena kebakaran hutan di Indonesia, faktor penyebab (alam dan buatan), serta dampaknya."
+    },
+    {
+      "text": "Berdasarkan paragraf terakhir, pernyataan di bawah ini yang benar....",
+      "options": [
+        "Sebanyak 426 tanah longsor terjadi di 2018",
+        "Terjadi gempa yang menyebabkan tsunami Selat Sunda",
+        "Puting beliung merupakan bencana yang paling sering terjadi pada 2017",
+        "Meletusnya Anak Krakatau menyebabkan bencana lainnya",
+        "Bencana yang memakan korban terbanyak merupakan bencana yang sering terjadi"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Paragraf terakhir menyatakan kejadian erupsi Gunung Anak Krakatau yang menimbulkan tsunami di Selat Sunda, 22 Desember 2018."
+    },
+    {
+      "text": "Berdasarkan teks di atas, alasan apa yang paling memungkinkan terjadinya lebih banyak korban pada tahun 2018?",
+      "options": [
+        "Terjadi lebih banyak bencana pada tahun 2018",
+        "Terjadi bencana skala besar pada 2018",
+        "Jumlah populasi yang lebih banyak pada tahun 2018",
+        "Kurangnya antisipasi dari masyarakat",
+        "Kurang memadainya pelayanan masyarakat"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Teks menyebutkan bahwa meskipun jumlah kejadian bencana 2018 lebih sedikit, terdapat bencana dengan kekuatan sangat dahsyat (seperti gempa bumi disertai tsunami, likuefaksi, dan erupsi Gunung Anak Krakatau) yang memakan banyak korban jiwa."
+    },
+    {
+      "text": "Berdasarkan grafik di atas, selisih jumlah terjadinya bencana terbanyak antara tahun 2017 dan 2018 terdapat pada bencana….",
+      "options": [
+        "Puting beliung",
+        "Banjir",
+        "Gempa bumi",
+        "Tanah longsor",
+        "Kekeringan"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Berdasarkan grafik batang, selisih paling besar antara tahun 2018 dan 2017 terlihat pada kategori puting beliung."
+    },
+    {
+      "text": "Berdasarkan teks di atas, bencana apa yang paling banyak memakan korban jiwa pada tahun 2018 atau 2017?",
+      "options": [
+        "Banjir",
+        "Longsor",
+        "Tsunami",
+        "Letusan gunung berapi",
+        "Puting beliung"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Bencana seperti gempa bumi dan tsunami (di Palu, Lombok, Selat Sunda) adalah yang memakan korban jiwa terbanyak pada tahun 2018."
+    },
+    {
+      "text": "Perhatikan persamaan dibawah ini! $y = 5$, $2x + z = 7$",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan bersama-sama cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan (2) TIDAK cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": "E",
+      "explanation": "Tidak ada pertanyaan spesifik yang diajukan untuk diselesaikan dengan persamaan tersebut, sehingga kedua pernyataan tidak cukup untuk menentukan nilai variabel lainnya."
+    },
+    {
+      "text": "Pehatikan gambar dibawah ini!\n1. Y = 70\n2. X = Y",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan bersama-sama cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan (2) TIDAK cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah di bawah ini yang memiliki lebih besar sama dengan (\\ge) 6 sisi?",
+      "options": [
+        "Limas segitiga",
+        "Tabung",
+        "Prisma segitiga",
+        "Prisma segiempat",
+        "Limas segiempat"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "1, 3, 5, 7, X, 13, 17\nBerapakah nilai X yang paling memungkinkan?",
+      "options": [
+        "9",
+        "11",
+        "8",
+        "10",
+        "12"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "X, 4, 9, 16, 27, 64, Y, 256, 243\nBerapakah nilai X dan Y berturut-turut?",
+      "options": [
+        "3 & 81",
+        "2 & 78",
+        "2 & 120",
+        "1 & 81",
+        "1 & 144"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "1, 3, 6, 10, 15, 21, X\nBerapakah nilai X?",
+      "options": [
+        "24",
+        "26",
+        "28",
+        "29",
+        "30"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar di bawah ini!\nNilai X adalah..",
+      "options": [
+        "13",
+        "12",
+        "14",
+        "15",
+        "16"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar di bawah ini!\nNilai X adalah...",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "7",
+        "3"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertimbangkan apakah frasa bernomor (1) perlu diperbaiki atau tidak....",
+      "options": [
+        "TIDAK PERLU DIPERBAIKI",
+        "Dilan: Dia adalah Dilanku Tahun 1990",
+        "Dilan: dia adalah dilanku tahun 1990",
+        "Dilan: Dia adalah Dilanku Tahun 1990",
+        "Dilan: Dia Adalah Dilanku Tahun 1990"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertimbangkan apakah frasa bernomor (2) perlu diperbaiki atau tidak....",
+      "options": [
+        "TIDAK PERLU DIPERBAIKI",
+        "ke – 9",
+        "ke 9",
+        "kesembilan",
+        "ke-sembilan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertimbangkan apakah frasa bernomor (3) perlu diperbaiki atau tidak....",
+      "options": [
+        "TIDAK PERLU DIPERBAIKI",
+        "PT. Mizan Pustaka",
+        "PT. MIZAN PUSTAKA",
+        "PT Mizan Pustaka",
+        "\"PT Mizan Pustaka\""
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertimbangkan apakah frasa bernomor (4) perlu diperbaiki atau tidak....",
+      "options": [
+        "TIDAK PERLU DIPERBAIKI",
+        "333 hlm",
+        "333 hlm.",
+        "333 hlm",
+        "tiga ratus tiga puluh tiga halaman"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata yang paling tepat untuk melengkapi titik-titik nomor 5 adalah….",
+      "options": [
+        "berdasar",
+        "berdasarkan",
+        "bedasarkan",
+        "didasarkan",
+        "didasari"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertimbangkan apakah kata bernomor (6) perlu diperbaiki atau tidak....",
+      "options": [
+        "TIDAK PERLU DIPERBAIKI",
+        "1990an",
+        "1990-an",
+        "1990 an",
+        "seribu sembilan ratus sembilan puluhan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata atau tanda baca yang harus diperbaiki dalam teks di atas agar sesuai dengan PUEBI dan menjadi kalimat efektif adalah....",
+      "options": [
+        "Menghapus kata “sebuah” pada kalimat pertama",
+        "Mengganti kata “merupakan” menjadi “adalah” pada kalimat kedua",
+        "Mengganti tanda baca koma (,) menjadi titik (.) setelah frasa “Dilan dan Milea”",
+        "Mengganti tanda baca koma (,) menjadi titik (.) setelah frasa “novel tersebut”",
+        "Menghapus frasa “pada kala itu” pada kalimat dua"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertimbangkan apakah kata bernomor (1) perlu diperbaiki atau tidak....",
+      "options": [
+        "TIDAK PERLU DIPERBAIKI",
+        "Youtube",
+        "You tube",
+        "You tube",
+        "Youtube"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertimbangkan apakah frasa bernomor (2) perlu diperbaiki atau tidak....",
+      "options": [
+        "TIDAK PERLU DIPERBAIKI",
+        "Maret, 2015",
+        "maret 2015",
+        "maret 2015",
+        "Maret 2015"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata yang paling tepat untuk melengkapi titik-titik nomor 3 adalah….",
+      "options": [
+        "mengupload",
+        "meng-upload",
+        "mengupload",
+        "mengunggah",
+        "mengunggahkan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertimbangkan apakah frasa bernomor (4) perlu diperbaiki atau tidak....",
+      "options": [
+        "TIDAK PERLU DIPERBAIKI",
+        "10 ribu video",
+        "10000 video",
+        "10rb video",
+        "sepuluh ribu video"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertimbangkan apakah kata bernomor (5) perlu diperbaiki atau tidak....",
+      "options": [
+        "TIDAK PERLU DIPERBAIKI",
+        "“channel”",
+        "channel",
+        "channel",
+        "“channel”"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertimbangkan apakah frasa bernomor (6) perlu diperbaiki atau tidak....",
+      "options": [
+        "TIDAK PERLU DIPERBAIKI",
+        "Musik, Film, Berita dan Informasi, Olahraga, Gaya Hidup, Gaming, dan Vlog",
+        "Musik, Film, Berita dan informasi, Olahraga, Gaya hidup, Gaming, dan Vlog",
+        "musik, film, berita dan informasi, olahraga, gaya hidup, gaming, dan vlog",
+        "musik, film, berita dan informasi, olahraga, gaya hidup, gaming, dan vlog"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata atau tanda baca yang harus diperbaiki dalam teks di atas agar sesuai dengan PUEBI dan menjadi kalimat efektif adalah....",
+      "options": [
+        "Mengganti kata “milyar” menjadi “miliar”",
+        "Mengganti kata sepertiga menjadi bentuk pecahan 1/3",
+        "Mengganti “lima tahun” menjadi “5 tahun”",
+        "Mengganti “tiap” menjadi “setiap”",
+        "Menghilangkan tanda baca setrip (-) pada kata “lama-kelamaan”"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertimbangkan apakah kata bernomor (1) perlu diperbaiki atau tidak....",
+      "options": [
+        "TIDAK PERLU DIPERBAIKI",
+        "Comic",
+        "comic",
+        "‘comic’",
+        "“comic”"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertimbangkan apakah frasa bernomor (2) perlu diperbaiki atau tidak....",
+      "options": [
+        "TIDAK PERLU DIPERBAIKI",
+        "“Kambing Jantan”",
+        "‘Kambing Jantan’",
+        "Kambing Jantan",
+        "Kambing Jantan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertimbangkan apakah frasa bernomor (3) perlu diperbaiki atau tidak....",
+      "options": [
+        "TIDAK PERLU DIPERBAIKI",
+        "[Raditya Dika]",
+        "“Raditya Dika”",
+        "‘Raditya Dika’",
+        "Raditya Dika"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertimbangkan apakah kata bernomor (4) perlu diperbaiki atau tidak....",
+      "options": [
+        "TIDAK PERLU DIPERBAIKI",
+        "Genre",
+        "genre",
+        "genre",
+        "“genre”"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertimbangkan apakah frasa bernomor (5) perlu diperbaiki atau tidak....",
+      "options": [
+        "TIDAK PERLU DIPERBAIKI",
+        "“Malam Minggu Miko”",
+        "Malam Minggu Miko",
+        "‘Malam Minggu Miko’",
+        "Malam Minggu Miko"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata atau kaidah penulisan yang harus diperbaiki dalam teks di atas agar sesuai dengan PUEBI adalah....",
+      "options": [
+        "TIDAK PERLU DIPERBAIKI",
+        "Mencetak miring kata “Wikipedia”",
+        "Mencetak miring kata “blog” karena tidak terdapat dalam KBBI",
+        "Mengubah kata “masuk” menjadi “termasuk” agar artinya sesuai denga konteks kalimat",
+        "Mengganti huruf kapital pada setiap kata pada stand up comedy pada kalimat terakhir menjadi Stand Up Comedy"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang sesuai dengan isi teks di atas adalah sebagai berikut, kecuali....",
+      "options": [
+        "Dalam pendidikan, penerimaan peserta didik baru adalah tahap awal untuk memulai pendidikan",
+        "Sistem zonasi adalah salah satu upaya pemerintah dalam rangka pemerataan pendidikan",
+        "Pendidikan merupakan bagian yang tidak terpisahkan dalam pembangunan sebuah negara",
+        "Proses seleksi peserta didik berjalan secara objektif, dapat dipertanggungjawabkan, transparan, dan tanpa diskriminasi",
+        "Sistem zonasi mewajibkan calon peserta didik yang berdomisili pada radius zona tertentu dari sekolah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata intergal pada kalimat bergaris bawah pada paragraf 1 teks di atas memiliki arti....",
+      "options": [
+        "Pendidikan adalah bagian yang sangat penting dalam pembangunan",
+        "Pendidikan adalah bagian yang tidak terpisahkan dalam pembangunan",
+        "Pendidikan adalah bagian yang sangat kompleks dalam pembangunan",
+        "Pendidikan adalah bagian yang berhubungan dengan pembangunan",
+        "Pendidikan adalah bagian yang berkesinambungan dengan pembangunan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Gagasan utama pada paragraf 3 teks di atas adalah....",
+      "options": [
+        "Upaya nyata pemerintah dalam pendidikan",
+        "Permendikbud No. 17 Tahun 2017",
+        "Penerimaan calon peserta didik baru",
+        "Aturan baru dalam penerimaan peserta didik",
+        "Sistem zonasi yang diterapkan sekolah dalam penerimaan calon peserta didik"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat di atas tepat jika diletakkan pada paragraf....",
+      "options": [
+        "Awal paragraf 1",
+        "Pertengahan paragraf 2",
+        "Akhir paragraf 2",
+        "Paragraf 3",
+        "Paragraf 4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kerangka penulisan teks di atas adalah....",
+      "options": [
+        "Pengertian RTH menurut UU, pengertian RTH menurut ahli, program pengembangan RTH",
+        "Regulasi tentang RTH, pengertian RTH menurut ahli, program P2KH",
+        "Pengertian RTH menurut UU, penjelasan RTH, program pengembangan RTH",
+        "Regulasi tentang RTH, penjelasan RTH, program pengembangan RTH",
+        "Pengertian RTH menurut UU, pelaku pengelolaan RTH, program pengembangan RTH"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Istilah “konservasi” memiliki arti....",
+      "options": [
+        "Pemeliharaan dan pelindungan sesuatu secara teratur untuk mencegah kerusakan dengan jalan mengawetkan",
+        "Pemeliharaan dan pelindungan sesuatu secara teratur untuk mencegah kerusakan dengan cara membangun kembali",
+        "Pengelolaan sumber daya alam dengan pemanfaatannya secara bijaksana dan menjamin kesinambungan dengan tetap memelihara dan meningkatkan kualitas nilai dan keragamannya",
+        "Penghematan sumber daya alam dengan bijaksana dan bertanggung jawab",
+        "Penghematan sumber daya alam dengan regulasi yang diatur oleh pemerintahan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks di atas, bentuk konservasi dapat berupa...",
+      "options": [
+        "Ruang taman bermain yang aktif untuk anak-anak, pemuda, dan orang dewasa",
+        "Ruang taman bermain untuk anak-anak, dewasa, dan lansia",
+        "Jalur hijau, kebun binatang, dan kebun botani",
+        "Konservasi alamiah di dalam dan luar kota",
+        "Konservasi alamiah dan buatan manusia"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ide pokok pada paragraf 3 teks di atas adalah...",
+      "options": [
+        "Program pengembangan RTH",
+        "Undang-Undang Penataan Ruang",
+        "Langkah nyata pemerintah mengenai RTH",
+        "Inovasi program RTH berbasis komunitas",
+        "Pemenuhan luasan RTH perkotaan dan perubahan iklim"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat di atas tepat jika diletakkan pada....",
+      "options": [
+        "Sebelum kalimat ke dua pada paragraf 2",
+        "Setelah kalimat ke dua pada paragraf 2",
+        "Sebelum kalimat ke empat paragraf 2",
+        "Setelah kalimat ke lima paragraf 2",
+        "Sebelum kalimat terakhir pada paragraf 2"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Istilah “nozel” pada teks di atas memiliki arti....",
+      "options": [
+        "Pipa atau saluran yang ujungnya melebar, digunakan untuk mengarahkan aliran zat cair",
+        "Pipa atau saluran yang ujungnya menyempit, digunakan untuk mengarahkan aliran zat cair atau gas",
+        "Pipa atau saluran yang bercabang, digunakan untuk mengarahkan gas",
+        "Pipa atau saluran yang lurus, digunakan untuk mengarahkan aliran zat cair",
+        "Pipa atau saluran yang tertutup, digunakan untuk mengarahkan gas"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan di bawah ini yang tidak sesuai dengan teks adalah....",
+      "options": [
+        "Zat radioaktif dapat terlepas ke lingkungan disebabkan oleh kegagalan yang tak terprediksi suatu instalasi nuklir",
+        "TRIGA 2000 adalah reaktor yang dimiliki oleh BATAN",
+        "Sistem pendingin primer terdiri atas pompa, penukar panas, dan sistem perpipaan",
+        "Jika terjadi gempa bumi, maka akan terjadi beban berlebih pada nozel yang menyebabkan kegagalan nozel tersebut",
+        "Zat radioaktif akan terlepas ke lingkungan jika nozel rusak"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Tujuan ditulisnya teks tersebut adalah....",
+      "options": [
+        "Untuk mengenenalkan reaktor TRIGA 2000",
+        "Untuk memberikan informasi tentang bencana alam di Bandung",
+        "Untuk menjelaskan sistem kerja TRIGA 2000",
+        "Untuk meneliti tegangan sistem pendingin primer pada reaktor TRIGA 2000",
+        "Untuk memprediksi beban yang terjadi pada nozel peralatan jika terjadi gempa"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "The author’s attitude in this passage is…",
+      "options": [
+        "Pessimistic",
+        "Lighthearted",
+        "Nostalgic",
+        "Dark",
+        "Pompous"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "The word broached in the first paragraph most nearly means…",
+      "options": [
+        "Maintained",
+        "Appraised",
+        "Defined",
+        "Ceased",
+        "Brought up"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "According to the criteria given in paragraph 2, all of the following would be considered a \"true\" sport, EXCEPT…",
+      "options": [
+        "Cheerleading",
+        "Skiing",
+        "Race car driving",
+        "Horse shoes",
+        "Gymnastics"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "What is most likely the author’s main purpose of writing this passage?",
+      "options": [
+        "Discuss the impact of basketball in fashion nowadays",
+        "Relate the tribal history of tattoos",
+        "Tell the reader about the past",
+        "Advise the reader to have his or her own true identity",
+        "Discuss commercialism’s powerful influence upon personal identity"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "The author guesses that religious signs are used less commonly because…",
+      "options": [
+        "The sense of significant connection to fashion is changing",
+        "The feeling of connection to religious signs has been gone",
+        "Internet has made things easier",
+        "The buyers are more aware",
+        "Technology’s impact upon the world"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "In paragraph 2, disposable income refers to…",
+      "options": [
+        "recyclable goods",
+        "spending money",
+        "life savings",
+        "a donation to charity",
+        "garbage"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "The author would agree with all the following statements EXCEPT…",
+      "options": [
+        "In today’s society, being trendy is more important than keeping tradition.",
+        "A person wearing a New York Yankees baseball hat is not necessarily a fan of the team or a resident of New York.",
+        "Pride in our school or community is not as strong today as it was years ago.",
+        "You can tell a lot about somebody by what they are wearing.",
+        "The last resort of the modern world is the marketplace."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Valentino Rossi stopped his motorcycle … the children could cross the road.",
+      "options": [
+        "In order to",
+        "For",
+        "In case",
+        "So that",
+        "Because"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semangka yang beratnya $1,2\\text{ kg}$ dijemur dibawah terik matahari. Jika setelah 1 jam beratnya menjadi $0,9\\text{ kg}$, dan berat bagian semangka yang bukan air sebesar $0,2\\text{ kg}$. Berapa persen kandungan air yang hilang dari total air pada semangka? (Asumsikan proses penjemuran hanya menguapkan air)",
+      "options": [
+        "20%",
+        "25%",
+        "30%",
+        "40%",
+        "70%"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pak Kasir, seorang tukang kayu, dapat memotong 1 balok kayu dalam waktu 6 menit. Setiap hari ia bekerja selama 8 jam, termasuk 60 menit istirahat. Jika suatu ketika ia mendapat pesanan 500 balok kayu, berapa hari waktu minimal yang ia perlukan untuk menyelesaikan pesanan itu? (jumlah hari dibulatkan)",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pekerja A dapat mengecat sebuah dinding dalam waktu 4 jam, pekerja B dapat mengecat dinding yang sama dalam waktu 3 jam. Jika dinding tersebut dikerjakan pekerja A dan B bersama-sama, berapa lama waktu yang mereka perlukan untuk menyelesaikan pekerjaannya?",
+      "options": [
+        "7 Jam",
+        "1/7 Jam",
+        "7/2 Jam",
+        "12/7 Jam",
+        "7/12 Jam"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pengendara A berangkat dari Kota Zeta dengan kecepatan $60\\text{ km/jam}$. 1 jam kemudian, pengendara B berangkat dari Kota Zeta melalui jalur yang sama dengan pengendara A dengan kecepatan $80\\text{ km/jam}$. Jika hingga 2 jam kemudian kedua pengendara masih terus berkendara tanpa berhenti, apakah pengendara B berhasil menyusul Pengendara A dan berapa jarak antara kedua pengendara saat itu?",
+      "options": [
+        "Pengendara B belum berhasil menyusul, jarak keduanya 40km",
+        "Pengendara B belum berhasil menyusul, jarak keduanya 20km",
+        "Pengendara B tepat menyusul pengendara A sehingga jarak keduanya 0km",
+        "Pengendara B berhasil menyusul pengendara A, jarak keduanya 20km",
+        "Pengendara B berhasil menyusul pengendara A, jarak keduanya 40km"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perbandingan luas permukaan dan volume suatu bola adalah A. Jika jari-jarinya menyusut 20%, maka perbandingan luas permukaan dan volume yang baru .... (dalam persen)",
+      "options": [
+        "turun 15%",
+        "turun 20%",
+        "tetap",
+        "naik 20%",
+        "naik 25%"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Mana yang paling besar?",
+      "options": [
+        "(2/3) x 60%",
+        "(4/6) x 30%",
+        "(4/3) x 60%",
+        "(2/3) x 30%",
+        "(1/3) x 90%"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Mana yang paling besar?",
+      "options": [
+        "0,2 x (1/3)",
+        "0,4 x (2/4)",
+        "0,12 x (1/3)",
+        "0,6 x (1/2)",
+        "0,5 x (2/6)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Andi ingin membuat kata sandi untuk brankasnya yang terdiri dari 4 digit angka. Andi memiliki suatu kondisi untuk sandi brankasnya, yakni setiap digitnya bukan merupakan bilangan prima ganjil. Berapa macam sandi berbeda yang bisa andi buat?",
+      "options": [
+        "6",
+        "120",
+        "840",
+        "2.401",
+        "604.800"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui x, y, dan z adalah bilangan real yang memenuhi persamaan x + y + 2z = a. berapakah nilai a ? Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut\\nx + y + z = 9\\ny - z = 1",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) saja tidak cukup.",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) saja tidak cukup.",
+        "DUA pernyataan bersama-sama cukup untuk menjawab pertanyaan, tetapi SATU saja tidak cukup.",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, dan pernyataan (2) saja cukup.",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui x, y, dan z adalah bilangan prima yang memenuhi persamaan $2x + 2y + 3z = 2a$. berapakah nilai a ? Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut: (1) $x + y = 8$, (2) $2x + 2y - z = 14$",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) saja tidak cukup.",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) saja tidak cukup.",
+        "DUA pernyataan bersama-sama cukup untuk menjawab pertanyaan, tetapi SATU saja tidak cukup.",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, dan pernyataan (2) saja cukup.",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Tentukan nilai x dari gambar yang diberikan!",
+      "options": [
+        "32",
+        "34",
+        "35",
+        "36",
+        "38"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Denki memerlukan 2kg tepung untuk membuat 5 kotak kue. Manakah hubungan yang benar antara kuantitas P (Tepung yang diperlukan Denki untuk membuat 3 kotak kue dalam kg) dan Q ($6/7$) berikut berdasarkan informasi yang diberikan?",
+      "options": [
+        "P > Q",
+        "Q > P",
+        "P = Q",
+        "P <= Q",
+        "Informasi yang diberikan tidak cukup untuk menentukan hubungan P dan Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah gelang tersusun atas 10 manik-manik. Manakah hubungan yang benar antara kuantitas P (Banyak cara berbeda menyusun pola manik pada gelang jika hanya 2 dari 10 manik tersebut yang identik) dan Q ($100.000$) berikut berdasarkan informasi yang diberikan?",
+      "options": [
+        "P > Q",
+        "Q > P",
+        "P = Q",
+        "P <= Q",
+        "Informasi yang diberikan tidak cukup untuk menentukan hubungan P dan Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui $x^2 + y^2 = 20$ dan $x - y = 2$. Manakah pernyataan di bawah ini yang benar untuk kuantitas P ($x+y$) dan Q ($10$)?",
+      "options": [
+        "P > Q",
+        "Q > P",
+        "P = Q",
+        "P <= Q",
+        "Informasi yang diberikan tidak cukup untuk menentukan hubungan P dan Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui $x^2 + 2x = 8$ dan $3y^2 - 2xy - 2y = -3$, dengan x dan y merupakan bilangan asli. Manakah pernyataan yang benar untuk kuantitas P ($x^2 + y^2 + 2xy$) dan Q ($8$)?",
+      "options": [
+        "P > Q",
+        "Q > P",
+        "P = Q",
+        "P <= Q",
+        "Informasi yang diberikan tidak cukup untuk menentukan hubungan P dan Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapa panjang BD? Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut! (1) $AB = 3$, (2) $AC = 7$",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup.",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar! ED dan BC sejajar, BE = ED. Jika DC = 20, berapa panjang BC? Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut! (1) $AE = 9$, (2) $BE = 15$",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup.",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bangun berikut yang memiliki 4 titik sudut adalah: (1) Belah ketupat, (2) Limas segitiga, (3) Trapesium, (4) Balok",
+      "options": [
+        "(1), (2), dan (3) SAJA yang benar.",
+        "(1) dan (3) SAJA yang benar.",
+        "(2) dan (4) SAJA yang benar.",
+        "HANYA (4) yang benar.",
+        "SEMUA piliahan benar."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bilangan yang bersisa 3 jika dibagi 33 adalah dari pilihan: a) 6159, b) 564, c) 619, d) 3468",
+      "options": [
+        "(1), (2), dan (3) SAJA yang benar.",
+        "(1) dan (3) SAJA yang benar.",
+        "(2) dan (4) SAJA yang benar.",
+        "HANYA (4) yang benar.",
+        "SEMUA piliahan benar."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bilangan berikut yang faktor primanya paling sedikit adalah...",
+      "options": [
+        "243",
+        "162",
+        "180",
+        "315",
+        "135"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

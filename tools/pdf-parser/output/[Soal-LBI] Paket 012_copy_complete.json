@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Apa yang diungkapkan oleh peneliti dari University of York?",
+      "options": [
+        "Berbagai macam jenis keju",
+        "Orang yang pertama kali membuat keju",
+        "Sejarah perkembangan keju",
+        "Proses pembuatan keju Zaman Neolitik",
+        "Keju yang paling enak"
+      ],
+      "correctAnswer": "Proses pembuatan keju Zaman Neolitik",
+      "explanation": null
+    },
+    {
+      "text": "Hewan yang digunakan untuk membuat keju adalah...",
+      "options": [
+        "Banteng",
+        "Jerapah",
+        "Domba",
+        "Gajah",
+        "Kangguru"
+      ],
+      "correctAnswer": "Domba",
+      "explanation": null
+    },
+    {
+      "text": "Pertanyaan berikut ini yang jawabannya tidak dapat ditemukan dalam tes bacaan adalah...",
+      "options": [
+        "Hewan apa saja yang digunakan untuk produk susu?",
+        "Hal apa yang disampaikan oleh Harry Robson?",
+        "Apa yang dimaksud Intoleransi laktosa?",
+        "Siapa orang pertama yang menemukan keju?",
+        "Apa yang diungkapkan oleh peneliti University of York berdasarkan teks bacaan?"
+      ],
+      "correctAnswer": "Siapa orang pertama yang menemukan keju?",
+      "explanation": null
+    },
+    {
+      "text": "Topik yang mungkin benar dalam teks bacaan tersebut adalah...",
+      "options": [
+        "Orang Eropa Zaman Neolitik",
+        "Keju dari susu banyak hewan",
+        "Keramik Neolitik",
+        "Intoleransi laktosa",
+        "Zaman Perunggu Akhir"
+      ],
+      "correctAnswer": "Keju dari susu banyak hewan",
+      "explanation": null
+    },
+    {
+      "text": "\"Tidak hanya sapi yang digunakan untuk produk susu.\" Pernyataan di atas jika di letakkan dalam teks bacaan maka akan...",
+      "options": [
+        "Memperlemah argumen",
+        "Memperkuat argumen",
+        "Memberi informasi baru",
+        "Mengkritik informasi sebelumnya",
+        "Memperluas argumen"
+      ],
+      "correctAnswer": "Memperkuat argumen",
+      "explanation": null
+    },
+    {
+      "text": "Hal apa yang dapat menjadi bukti bahwa susu telah dikonsumsi sejak Neolitikum?",
+      "options": [
+        "Formula rahasia",
+        "Ukiran di gua",
+        "Sisa keju",
+        "Keramik Neolitik",
+        "Tempat pembuatan keju"
+      ],
+      "correctAnswer": "Keramik Neolitik",
+      "explanation": null
+    },
+    {
+      "text": "Bagaimana sikap penulis dari teks bacaan tersebut...",
+      "options": [
+        "Menyampaikan pendapat pribadi",
+        "Mempertentangkan suatu informasi",
+        "Menyampaikan ketidaksetujuan terhadap suatu hal",
+        "Membandingkan suatu informasi dengan informasi lainnya",
+        "Menyampaikan suatu informasi"
+      ],
+      "correctAnswer": "Menyampaikan suatu informasi",
+      "explanation": null
+    },
+    {
+      "text": "Air beras pada zaman Jepang Kuno digunakan untuk...",
+      "options": [
+        "Pembuatan kue beras",
+        "Campuran obat",
+        "Kesuburan tanaman",
+        "Kesehatan kulit",
+        "Pakan ikan"
+      ],
+      "correctAnswer": "Kesehatan kulit",
+      "explanation": null
+    },
+    {
+      "text": "Siapakah tokoh \"Sahir\" dalam teks bacaan tersebut?",
+      "options": [
+        "Spesialis kecantikan",
+        "Penulis sejarah",
+        "Peneliti",
+        "Kepala daerah",
+        "Penjajah"
+      ],
+      "correctAnswer": "Penulis sejarah",
+      "explanation": null
+    },
+    {
+      "text": "Bagian rumpang dalam paragraf pertama kalimat (6) dapat dilengkapi dengan...",
+      "options": [
+        "Namun",
+        "Sehingga",
+        "Tetapi",
+        "Walaupun",
+        "Kemudian"
+      ],
+      "correctAnswer": "Tetapi",
+      "explanation": null
+    },
+    {
+      "text": "Judul yang mungkin benar dari teks bacaan tersebut adalah...",
+      "options": [
+        "Langkah menuju glowing yang sesungguhnya",
+        "Kulit putih dan halus ala wanita Asia",
+        "Air beras beragam manfaat",
+        "Rahasia kecantikan orang India dan sekitarnya",
+        "Kiat memiliki kulit menawan dengan resep kecantikan kuno"
+      ],
+      "correctAnswer": "Kiat memiliki kulit menawan dengan resep kecantikan kuno",
+      "explanation": null
+    },
+    {
+      "text": "Kesimpulan dari teks bacaan tersebut adalah...",
+      "options": [
+        "Sahir menyampaiakan wanita Jepang dan India menggunakan air beras untuk kecantikan",
+        "Wanita Jepang dulu menggunakan air beras untuk kesehatan kulit",
+        "Air beras dapat dimanfaatkan sebagi obat",
+        "Air beras memiliki ragam manfaat",
+        "Wanita Tiongkok juga menggunakan air beras"
+      ],
+      "correctAnswer": "Air beras memiliki ragam manfaat",
+      "explanation": null
+    },
+    {
+      "text": "Kata \"mereka\" pada kalimat (14) merujuk pada...",
+      "options": [
+        "Wanita periode Heian",
+        "Wanita India",
+        "Wanita Korea",
+        "Wanita Zaman Ottomon",
+        "Wanita Jepang"
+      ],
+      "correctAnswer": "Wanita periode Heian",
+      "explanation": null
+    },
+    {
+      "text": "Paragraf pertama teks bacaan tersebut berperan sebagai...",
+      "options": [
+        "Bagian penjelas",
+        "Konflik",
+        "Penutup teks bacaan",
+        "Perbandingan argumen",
+        "Penjelasan umum"
+      ],
+      "correctAnswer": "Penjelasan umum",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan pemahaman dari membaca teks bacaan tersebut, kita dapat mengetahui bahwa teks bacaan tersebut berjenis...",
+      "options": [
+        "Narasi",
+        "Deskripsi",
+        "Eksposisi",
+        "Persuasi",
+        "Argumentasi"
+      ],
+      "correctAnswer": "Eksposisi",
+      "explanation": null
+    },
+    {
+      "text": "Ilustrasi yang tepat untuk teks bacaan tersebut adalah...",
+      "options": [
+        "Video penjelasan aljabar",
+        "Diagram tingkat kegagalan Mohammad Musa Al Khawarizmi dalam menemukan aljabar",
+        "Dokumentasi kilas balik penemuan aljabar",
+        "Gambar Mohammad Musa Al Khawarizmi",
+        "Data orang yang turut andil dalam penemuan aljabar"
+      ],
+      "correctAnswer": "Dokumentasi kilas balik penemuan aljabar",
+      "explanation": null
+    },
+    {
+      "text": "Gagasan utama dari teks bacaan terseut adalah...",
+      "options": [
+        "Al-Khawarizmi juga dikenal sebagai ahli dalam bidang matematika, astronomi dan geografi",
+        "Al-Khawarizmi menerjemahkan beberapa karya filosofis dan ilmiah Yunani",
+        "Metode dasar untuk memecahkan persamaan",
+        "Mohammad Musa Al Khawarizmi sebagai bapak aljabar",
+        "Pemerintahan penguasa Abbasiyah keenam Al Ma'mun"
+      ],
+      "correctAnswer": "Mohammad Musa Al Khawarizmi sebagai bapak aljabar",
+      "explanation": null
+    },
+    {
+      "text": "Pertanyaan yang jawabannya tidak ditemukan dalam teks bacaan adalah...",
+      "options": [
+        "Siapa sosok Al-Khawarizmi?",
+        "Mengapa Al-Khawarizmi tertarik dengan matematika?",
+        "Dari manakah kata aljabar berasal?",
+        "Karya apa saja yang diterjemahkan Al-Khawarizmi",
+        "Selain matematika, bidang keilmuwan apalagi yang dikuasai Al-Khawarizmi?"
+      ],
+      "correctAnswer": "Mengapa Al-Khawarizmi tertarik dengan matematika?",
+      "explanation": null
+    },
+    {
+      "text": "Informasi terkait apa yang diragukan, tetapi juga diyakini berdasarkan teks bacaan tersebut...",
+      "options": [
+        "Karya-karya Al-Khawarizmi",
+        "Penemu aljabar pertama kali",
+        "Metode aljabar Al-Khawarizmi",
+        "Hasil terjemahan Al-Khawarizmi",
+        "Asal Al-Khawarizmi"
+      ],
+      "correctAnswer": "Asal Al-Khawarizmi",
+      "explanation": null
+    },
+    {
+      "text": "Siapakah sosok \"Mohammad Musa Al Khawarizmi\"?",
+      "options": [
+        "Penemu matematika",
+        "Ilmuwan dari India",
+        "Ahli kitab",
+        "Penemu aljabar",
+        "Ahli tafsir"
+      ],
+      "correctAnswer": "Penemu aljabar",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang diperkenalkan dalam buku al-Kitāb al-Mukhtaṣar fī Ḥisāb al-Jabr wal-Muqābalah?",
+      "options": [
+        "Metode dasar untuk memecahkan persamaan dan mendirikan disiplin aljabar",
+        "Tabel perkalian dan operasi penjumlahan",
+        "Penjelasan terkait planet-planet yang mengintari orbit",
+        "Konsep dan pandangan terhadap Bumi datar dan Bumi bulat",
+        "Metode perhitungan"
+      ],
+      "correctAnswer": "Metode dasar untuk memecahkan persamaan dan mendirikan disiplin aljabar",
+      "explanation": null
+    },
+    {
+      "text": "\"Ilmuwan Rusia pertama kali membuka pintu terhadap metode aljabar yang dilanjuti oleh Al-Khawarizmi.\" Apabila pernyataan di atas ditambahkan ke dalam teks bacaan akan...",
+      "options": [
+        "Menguatkan",
+        "Memperinci",
+        "Membandingkan",
+        "Memperluas",
+        "Melemahkan"
+      ],
+      "correctAnswer": "Melemahkan",
+      "explanation": null
+    },
+    {
+      "text": "Kata \"ia\" dalam kalimat (2) merujuk pada...",
+      "options": [
+        "Muhammad SAW",
+        "Umar",
+        "Abu Bakar",
+        "Khalid",
+        "Bilal"
+      ],
+      "correctAnswer": "Khalid",
+      "explanation": null
+    },
+    {
+      "text": "Inti dari kalimat (22) adalah...",
+      "options": [
+        "Mereka bertemu",
+        "Tentara Bizantium bertemua",
+        "Alih-alih menyerang suku-suku",
+        "Suku-suku yang berafiliasi dengan Bizantium",
+        "Suku-suku diserang"
+      ],
+      "correctAnswer": "Tentara Bizantium bertemua",
+      "explanation": null
+    },
+    {
+      "text": "Bagian rumpang dalam kalimat (8) dapat dilengkapi dengan...",
+      "options": [
+        "Ke",
+        "Di mana",
+        "Pada",
+        "Daripada",
+        "Kepada"
+      ],
+      "correctAnswer": "Pada",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang dimaksud dengan \"Hudaybiyyah\" berdasarkan informasi dalam teks bacaan...",
+      "options": [
+        "Perperangan",
+        "Perjanjian damai",
+        "Penyerahan diri",
+        "Penetapan wilayah",
+        "Perang Huday"
+      ],
+      "correctAnswer": "Perjanjian damai",
+      "explanation": null
+    },
+    {
+      "text": "Topik yang mungkin benar dari teks bacaan tersebut adalah...",
+      "options": [
+        "Khalid ibn al-Walid Berjulukan \"Sang Pedang Tuhan\"",
+        "Khalid ibn al-Walid panglima perang",
+        "Masa kejayaan Khalid ibn al-Walid",
+        "Perang yang ditaklukkan Khalid ibn al-Walid",
+        "Khalid ibn al-Walid penggerak \"Hudaybiyyah\""
+      ],
+      "correctAnswer": "Khalid ibn al-Walid Berjulukan \"Sang Pedang Tuhan\"",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan berikut yang dapat melemahkan teks bacaan adalah...",
+      "options": [
+        "Khalid ibn al-Walid salah satu pemimpin militer muslim paling berpengaruh",
+        "Tentara Quraisy bertemu dengan pasukan muslim",
+        "Sisi kanan pasukan muslim menjadi lemah saat berperang dengan tentara Quraisy",
+        "Perang terjadi saat disampaikannya deklarasi \"Hudaybiyyah\"",
+        "Jumlah pasukan muslim hanyalah sepersepuluh dari rombongan Quraisy"
+      ],
+      "correctAnswer": "Perang terjadi saat disampaikannya deklarasi \"Hudaybiyyah\"",
+      "explanation": null
+    },
+    {
+      "text": "Hubungan antara kalimat (8) dan kalimat (9) adalah...",
+      "options": [
+        "Memperjelas",
+        "Mempersempit",
+        "Mempertentangkan",
+        "Mempertanyakan",
+        "Membandingkan"
+      ],
+      "correctAnswer": "Memperjelas",
+      "explanation": null
+    },
+    {
+      "text": "Bagaimana sikap penulis dalam teks bacaan tersebut...",
+      "options": [
+        "Menyampaikan informasi",
+        "Memberikan pandangan pribadi",
+        "Membandingkan dengan pendapat lain",
+        "Menceritakan pengalaman pribadi",
+        "Merangkum sebuah buku"
+      ],
+      "correctAnswer": "Menyampaikan informasi",
+      "explanation": null
+    }
+  ]
+}

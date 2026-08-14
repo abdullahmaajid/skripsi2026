@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan pemahaman kamu terhadap bacaan tersebut. Manakah pernyataan yang tepat?",
+      "options": [
+        "Harga bir di Davao dan juga di Ho Chi Minh tetap murah di tengah indeks biaya hidup yang tinggi.",
+        "Bagi Vietnam, bir hanya menjadi barang konsumsi.",
+        "Industri bir Vietnam tidak meningkat.",
+        "Hanya ada dua negara yang tidak membatasi iklan minuman beralkohol apapun.",
+        "Bir di Indonesia tidak menjadi polemik."
+      ],
+      "correctAnswer": "Hanya ada dua negara yang tidak membatasi iklan minuman beralkohol apapun.",
+      "explanation": "Berdasarkan teks tersebut, pernyataan yang tepat adalah Hanya ada dua negara yang tidak membatasi iklan minuman beralkohol yaitu Vietnam dan Filipina."
+    },
+    {
+      "text": "Berdasarkan teks tersebut, kota manakah yang mempunyai festival bir?",
+      "options": [
+        "Davao",
+        "Ho Chi Minh",
+        "Penang",
+        "Pattaya",
+        "Hanoi"
+      ],
+      "correctAnswer": "Hanoi",
+      "explanation": "Berdasarkan teks tersebut, kota Hanoi punya festival bir layaknya pesta bir tahunan di Jerman."
+    },
+    {
+      "text": "Kesimpulan yang tepat berdasarkan teks tersebut adalah ...",
+      "options": [
+        "Jika ingin membeli bir murah, datanglah ke Hanoi.",
+        "Indonesia perlu meniru Filipina dan Vietnam dalam hal mengonsumsi bir",
+        "Bagaimanapun manfaat bir, perlu ada pembuktian yang valid.",
+        "Karena bermanfaat bagi kesehatan, kita harus mengonsumsi bir setiap hari.",
+        "Indonesia perlu melegalkan konsumsi bir karena bermanfaat."
+      ],
+      "correctAnswer": "Bagaimanapun manfaat bir, perlu ada pembuktian yang valid.",
+      "explanation": "Kesimpulan untuk teks tersebut diambil berdasarkan tingkat konsumsi bir yang tinggi di negara ASEAN. Lalu dirasionalisasikan berdasarkan paragraf terakhir teks tersebut."
+    },
+    {
+      "text": "Kota Bandung menjadi urutan berapa sebagai kota dengan harga bir termurah di Asia Tenggara?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "6"
+      ],
+      "correctAnswer": "9",
+      "explanation": "Berdasarkan grafik tersebut, Kota Bandung menempati urutan kesembilan sebagai kota dengan harga bir termurah di Asia Tenggara."
+    },
+    {
+      "text": "Jika harga bir di Kota Penang berdasarkan grafik tersebut berkurang 0,5 USD/liter, maka ...",
+      "options": [
+        "Kota Yangon akan menjadi urutan ke-7 sebagai kota dengan harga bir termurah.",
+        "Kota Bandung akan menjadi urutan ke-10 sebagai kota dengan harga bir termurah.",
+        "Kota Chiang Mai akan menjadi urutan ke-10 sebagai kota dengan harga bir termahal.",
+        "Kota Jakarta akan menjadi urutan ke-3 sebagai kota dengan harga bir termahal.",
+        "Kota Phnom Penh akan menjadi urutan ke-4 sebagai kota dengan harga bir termurah."
+      ],
+      "correctAnswer": "Kota Bandung akan menjadi urutan ke-10 sebagai kota dengan harga bir termurah.",
+      "explanation": "Jika harga bir di Kota Penang berdasarkan grafik tersebut berkurang 0,5 USD/liter, maka Kota Penang menjadi 1,22 USD/liter. Hal itu menandakan bahwa Kota Penang menjadi urutan ke-9 sebagai kota dengan harga bir termurah menggeser Kota Bandung ke urutan 10."
+    },
+    {
+      "text": "Di negara manakah bir menjadi polemik karena banyaknya masyarakat yang beragama Islam?",
+      "options": [
+        "Vietnam",
+        "Filipina",
+        "Laos",
+        "Korea",
+        "Indonesia"
+      ],
+      "correctAnswer": "Indonesia",
+      "explanation": "Berdasarkan teks tersebut, Di Indonesia bir menjadi polemik karena banyaknya masyarakat yang beragama Islam."
+    },
+    {
+      "text": "Berdasarkan grafik, selisih persentase Bali dan Phuket ialah...",
+      "options": [
+        "1,2 persen",
+        "0,31 persen",
+        "2,3 persen",
+        "7,6 persen",
+        "0,18 persen"
+      ],
+      "correctAnswer": "0,18 persen",
+      "explanation": "Berdasarkan grafik tersebut, Bali memiliki persentase sebesar 2,14 persen dan Phuket sebesar 1,96 persen, maka selisihnya ialah 0,18 persen."
+    },
+    {
+      "text": "Berdasarkan pemahaman kamu terhadap bacaan tersebut. Manakah pernyataan yang tidak tepat?",
+      "options": [
+        "Alokasi belanja pakaian warga Jakarta itu jauh di atas rata-rata nasional Rp33 ribu per orang setiap bulan.",
+        "Penduduk DKI Jakarta dapat menghabiskan duit Rp57 ribu per orang setiap bulan buat pakaian berikut pemeliharaannya.",
+        "Bagi warga NTT, biaya belanja pakaian sangat penting.",
+        "Penduduk DKI Jakarta menghabiskan belanja pakaian sedikit melebihi belanja makanan pokok.",
+        "Warga NTT lebih memilih belanja makanan pokok dengan mengalokasikan Rp112.275 per orang setiap bulannya."
+      ],
+      "correctAnswer": "Bagi warga NTT, biaya belanja pakaian sangat penting.",
+      "explanation": "Bagi warga NTT berdasarkan teks tersebut, biaya belanja pakaian tidak begitu penting."
+    },
+    {
+      "text": "Berdasarkan teks tersebut, wilayah yang paling doyan belanja pakaian adalah ...",
+      "options": [
+        "NTT",
+        "NTB",
+        "Jawa Barat",
+        "Jakarta",
+        "Banten"
+      ],
+      "correctAnswer": "Jakarta",
+      "explanation": "Berdasarkan teks tersebut, Orang Jakarta, dibandingkan dengan penduduk lain di wilayah Indonesia, termasuk paling doyan belanja pakaian."
+    },
+    {
+      "text": "Berdasarkan grafik tersebut, berapa jumlah pengeluaran untuk pakaian pada tahun 2017?",
+      "options": [
+        "Rp13.564/kapita/bulan",
+        "Rp15.639/kapita/bulan",
+        "Rp39.013/kapita/bulan",
+        "Rp33.321/kapita/bulan",
+        "Rp32.331/kapita/bulan"
+      ],
+      "correctAnswer": "Rp33.321/kapita/bulan",
+      "explanation": "Berdasarkan grafik tersebut, jumlah pengeluaran untuk pakaian pada tahun 2017 sebesar Rp33.321/kapita/bulan"
+    },
+    {
+      "text": "Berdasarkan pemahaman kamu terhadap bacaan tersebut. Manakah pernyataan yang tepat?",
+      "options": [
+        "Menteri Pariwisata Arief Yahya secara tegas menyebut kebijakan ini akan mampu mengangkat kinerja sektor pariwisata yang anjlok.",
+        "Kemampuan beli masyarakat terhadap nilai jual tiket pesawat bakal jadi polemik tak berkesudahan.",
+        "Kebijakan penurunan tarif batas tiket pesawat ekonomi secara langsung membuat ongkos penerbangan berbiaya murah (low cost carrier) turun.",
+        "Tingginya tarif penerbangan domestik bisa membuat orang membandingkan dengan harga tiket pesawat untuk rute internasional yang cenderung lebih mahal.",
+        "Indonesia adalah negara dengan penerbangan domestik paling mahal ketimbang Malaysia, Filipina, Vietnam, dan Thailand."
+      ],
+      "correctAnswer": "Kemampuan beli masyarakat terhadap nilai jual tiket pesawat bakal jadi polemik tak berkesudahan.",
+      "explanation": "Berdasarkan teks tersebut, pernyataan yang tepat adalah kemampuan beli masyarakat terhadap nilai jual tiket pesawat bakal jadi polemik tak berkesudahan."
+    },
+    {
+      "text": "Berdasarkan teks tersebut, negara dengan tarif penerbangan domestik paling mahal di Asia Tenggara adalah?",
+      "options": [
+        "Indonesia",
+        "Malaysia",
+        "Filipina",
+        "Vietnam",
+        "Thailand"
+      ],
+      "correctAnswer": "A. Indonesia",
+      "explanation": "Indonesia adalah negara dengan penerbangan domestik paling mahal ketimbang Malaysia, Filipina, Vietnam, dan Thailand berdasarkan data analisis."
+    },
+    {
+      "text": "Kesimpulan yang tepat berdasarkan teks tersebut adalah ...",
+      "options": [
+        "Jika ingin mudik, hendaklah menaiki pesawat.",
+        "Gunakanlah maskapai penerbangan Thailand agar murah.",
+        "Harga tiket untuk penerbangan domestik perlu disesuaikan agar masyarakat mampu membeli.",
+        "Berlibur ke luar negeri lebih murah dibandingkan berlibur di dalam negeri.",
+        "Perlu ada maskapai domestik yang baru agar lebih murah."
+      ],
+      "correctAnswer": "C. Harga tiket untuk penerbangan domestik perlu disesuaikan agar masyarakat mampu membeli.",
+      "explanation": "Kesimpulan diambil berdasarkan informasi tingginya tarif penerbangan domestik sehingga sepi pengguna dan perlu penyesuaian."
+    },
+    {
+      "text": "Harga tiket domestik termahal pada tahun 2018 ada pada maskapai ...",
+      "options": [
+        "Malaysia AirAsia",
+        "AirAsia Philippines",
+        "AirAsia Indonesia",
+        "Vietjet Air",
+        "Lion Mentari Airlines"
+      ],
+      "correctAnswer": "B. AirAsia Philippines",
+      "explanation": "Berdasarkan grafik, harga tiket domestik termahal pada tahun 2018 ada pada maskapai AirAsia Philippines dengan 0,20 USD/seat/km."
+    },
+    {
+      "text": "Jika Garuda Indonesia memiliki harga tiket domestik sebesar 0.08 USD/seat/km pada tahun 2018, maka ...",
+      "options": [
+        "AirAsia Indonesia akan menjadi maskapai dengan harga tiket domestik termahal pada tahun 2018.",
+        "Thai Smile akan menjadi maskapai dengan harga tiket domestik termahal pada tahun 2018.",
+        "Vietjet akan menjadi maskapai dengan harga tiket domestik termahal pada tahun 2018.",
+        "Garuda Indonesia akan menjadi maskapai dengan harga tiket domestik termurah pada tahun 2018.",
+        "AirAsia Philippines akan menjadi maskapai dengan harga tiket domestik termurah pada tahun 2018."
+      ],
+      "correctAnswer": "D. Garuda Indonesia akan menjadi maskapai dengan harga tiket domestik termurah pada tahun 2018.",
+      "explanation": "Jika Garuda Indonesia memiliki harga tiket domestik sebesar 0,08 USD/seat/km pada tahun 2018, maka Garuda Indonesia akan menjadi maskapai dengan harga tiket domestik termurah pada tahun tersebut."
+    },
+    {
+      "text": "Berdasarkan teks tersebut, maskapai apa saja yang menyediakan penerbangan domestik di Indonesia, kecuali...",
+      "options": [
+        "AirAsia",
+        "Garuda Indonesia",
+        "Lion Air",
+        "SEMUA BENAR",
+        "Vietjet Air"
+      ],
+      "correctAnswer": "Vietjet Air",
+      "explanation": "Berdasarkan teks tersebut, maskapai yang menyediakan penerbangan di Indonesia ialah AirAsia, Lion Air, dan Garuda Indonesia."
+    },
+    {
+      "text": "Berdasarkan grafik tersebut, selisih harga maskapai Vietjet Air pada tahun 2019 dan 2018 ialah...",
+      "options": [
+        "0,019 USD seat/ km",
+        "0,09 USD seat/ km",
+        "0,07 USD seat/ km",
+        "0,03 USD seat/ km",
+        "0,02 USD seat/ km"
+      ],
+      "correctAnswer": "0,09 USD seat/ km",
+      "explanation": "Berdasarkan grafik tersebut, maskapai Vietjet pada tahun 2019 sebesar 0,14 USD/ seat/ km, sedangkan tahun 2018 sebesar 0,05 USD/ seat/ km. Selisihnya ialah 0,09 USD/ seat/ km."
+    },
+    {
+      "text": "Berdasarkan pemahaman kamu terhadap bacaan tersebut. Manakah pernyataan yang tidak tepat?",
+      "options": [
+        "Daerah yang tidak bergantung pada suapan dana pemerintah pusat bisa disebut sebagai daerah yang mandiri.",
+        "Kabupaten Badung, Provinsi Bali, selalu menjadi daerah yang paling mandiri di Indonesia dalam perspektif keuangan daerah.",
+        "Secara nominal, pendapatan daerah Badung sangat fantastis bila dibandingkan daerah kabupaten lainnya.",
+        "Tingginya rasio pajak daerah Badung berasal dari sektor pariwisata.",
+        "Kabupaten Badung menjadi surga bagi para warga Badung."
+      ],
+      "correctAnswer": "Kabupaten Badung menjadi surga bagi para warga Badung.",
+      "explanation": "Badung menjadi surga bagi para pelancong bukan warga Bandung."
+    },
+    {
+      "text": "Daerah yang memiliki rasio PAD tertinggi di Indonesia berdasarkan teks tersebut adalah ...",
+      "options": [
+        "Kota Bandung",
+        "DKI Jakarta",
+        "Kabupaten Bandung",
+        "Kabupaten Badung",
+        "Kabupaten Bandung Barat"
+      ],
+      "correctAnswer": "Kabupaten Badung",
+      "explanation": "Berdasarkan teks, dalam kurun waktu 2010 hingga 2018, Kabupaten Badung, Provinsi Bali, selalu menjadi daerah yang paling mandiri di Indonesia dalam perspektif keuangan daerah dengan rasio PAD sebesar 84,1 persen dari total pendapatannya."
+    },
+    {
+      "text": "Berdasarkan grafik tersebut, daerah mana yang memiliki Pendapatan Asli Daerah tertinggi pada tahun 2018?",
+      "options": [
+        "Kota Surabaya",
+        "Kabupaten Badung",
+        "Kabupaten Tanggerang",
+        "Kabupaten Bogor",
+        "Kota Bandung"
+      ],
+      "correctAnswer": "Kota Surabaya",
+      "explanation": "Berdasarkan grafik tersebut, daerah yang memiliki Pendapatan Asli Daerah tertinggi pada tahun 2018 adalah Kota Surabaya dengan Rp4.973 miliar."
+    }
+  ]
+}

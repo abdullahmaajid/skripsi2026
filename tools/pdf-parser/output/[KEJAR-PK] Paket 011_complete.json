@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "70 adalah $x\\%$ dari 420, dan 6 adalah $y\\%$ dari 36, maka hubungan antara $x$ dan $y$ adalah ...",
+      "options": [
+        "x > y",
+        "x < y",
+        "x = y",
+        "x = 2y",
+        "Hubungan x dan y tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan persamaan berikut ini.\n(1) $3x + 2y - z = 7$\n(2) $6x - 4y = 7z$\n(3) $x = y + z$\nNilai $x + y + z$ adalah ...",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $x$ dan $y$ bilangan bulat, $1 < x < 10$ dan $5 < y < 10$, berapakah nilai $x + y$ yang tidak mungkin?",
+      "options": [
+        "7",
+        "6,5",
+        "8",
+        "13",
+        "20"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "P dan Q adalah bilangan bulat positif kurang dari 10. Berapakah nilai dari P + Q?\n1) P × Q adalah 27\n2) P dan Q merupakan bilangan kelipatan 3",
+      "options": [
+        "pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan persegi panjang ABCD, persegi ADGF dan Segitiga siku-siku CDE! Jika panjang DE = 25 cm,. Jika ruas FG tegak lurus pada ruas BA, berapakah luas persegi yang diarsir?\n1) CE = 7 cm\n2) Luas persegi panjang BCGF = ADGF",
+      "options": [
+        "pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Panjang FA sejajar dengan panjang GH, panjang AB sejajar dengan panjang CE, berapa besar sudut x?",
+      "options": [
+        "108^\\circ",
+        "72^\\circ",
+        "88^\\circ",
+        "82^\\circ",
+        "78^\\circ"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diberikan segienam sebangun, dengan O sebagai pusat segienam. Berapa perbandingan luas segitiga AOF dengan segienam ABCDEF ...",
+      "options": [
+        "1/3",
+        "1/5",
+        "1/6",
+        "1/7",
+        "1/9"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pembelian satu celana memperoleh diskon $30\\%$, sedangkan satu baju memperoleh diskon $10\\%$. Jika harga awal satu celana dan satu baju tersebut sama, yaitu $p$ rupiah, maka jumlah uang yang harus dibayarkan untuk membeli satu celana dan satu baju adalah ... rupiah.",
+      "options": [
+        "\\frac{7}{5}p",
+        "\\frac{7}{10}p",
+        "\\frac{9}{10}p",
+        "\\frac{8}{5}p",
+        "\\frac{8}{5}p"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $m$ adalah bilangan bulat genap, $v$ adalah bilangan bulat ganjil, manakah opsi dibawah ini yang menghasilkan bilangan bulat ganjil?",
+      "options": [
+        "\\frac{m-v}{2}-1",
+        "\\frac{m-v-1}{2}",
+        "\\frac{m-v}{2}",
+        "m - v - 1",
+        "m - v"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jarak lompatan seorang atlet tercatat \\{7,5; 6,6; 6,7; 7,9; 8,2\\}. Berapa mediannya?",
+      "options": [
+        "6,6",
+        "6,7",
+        "7,5",
+        "7,9",
+        "8,2"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Grafik di atas menyajikan jumlah seluruh siswa dan jumlah siswa perempuan pada empat sekolah P, Q, R, dan S. Manakah di antara pernyataan berikut yang benar?\n1) Rasio antara jumlah siswa perempuan dan jumlah siswa laki-laki di sekolah S lebih besar daripada di sekolah R.\n2) Persentase jumlah siswa laki-laki di sekolah R lebih besar daripada di sekolah P.\n3) Persentase jumlah siswa perempuan di sekolah Q paling besar.\n4) Jumlah siswa laki-laki lebih besar daripada jumlah siswa perempuan di empat sekolah tersebut.",
+      "options": [
+        "1, 2, dan 3 benar",
+        "1 dan 3 benar",
+        "2 dan 4 benar",
+        "4 saja benar",
+        "Semua pernyataan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah garis $k$ melalui titik $(1, 2)$ dan mempunyai gradient $2$. Manakah antara titik dengan koordinat berikut yang terletak pada garis itu?\n1) (-1, 0)\n2) (0, 0)\n3) (-6, 12)\n4) (5, 10)",
+      "options": [
+        "1, 2, dan 3 benar",
+        "1 dan 3 benar",
+        "2 dan 4 benar",
+        "4 saja benar",
+        "Semua pernyataan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah di antara pernyataan berikut yang benar untuk semua bilangan ganjil $n$?\n1) $2n^2 + 2n - 1 \\rightarrow$ ganjil\n2) $(n - 1)^2 + n \\rightarrow$ genap\n3) $4n^2 - 2n \\rightarrow$ genap\n4) $(2n - 1)^2 \\rightarrow$ genap",
+      "options": [
+        "1, 2, dan 3 benar",
+        "1 dan 3 benar",
+        "2 dan 4 benar",
+        "4 saja benar",
+        "Semua pernyataan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diberikan pertidaksamaan $x^2 - 9x + 20 \\le 0$. Tentukan hubungan antara kuantitas P dan Q.\nP: 20\nQ: Hasil perkalian nilai maksimum dan minimum dari pertidaksamaan $x^2 - 9x + 20 \\le 0$",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "Informasi yang diberikan tidak cukup"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Harga satu buku dan satu pensil Rp35.000,00. Selisih harga satu buku dan satu pensil adalah Rp5.000,00. Tentukan hubungan antara kuantitas P dan Q.\nP: Rp20.000,00\nQ: Jumlah uang minimal yang cukup untuk membeli salah satu dari buku atau pensil",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "Informasi yang diberikan tidak cukup untuk menentukan hubungan P dan Q."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

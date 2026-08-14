@@ -7,7 +7,7 @@ import { motion, Variants } from "framer-motion"
 import { useState, useEffect } from "react"
 import { 
   Home, FileText, BarChart2, TrendingUp, Target, Bot, Settings, 
-  GraduationCap, LogOut, Sparkles, Activity, Map, Heart, Crown, User, BookOpen
+  GraduationCap, LogOut, Sparkles, Activity, Map, Heart, Crown, User, BookOpen, MessageCircle
 } from "lucide-react"
 
 const NAV_GROUPS = [
@@ -119,7 +119,7 @@ const [profile, setProfile] = useState<{name:string; role:string; avatar?:string
       </motion.div>
 
       {/* Navigation */}
-      <motion.nav variants={stagger} initial="hidden" animate="show" className="flex-1 overflow-y-auto py-4 px-4 space-y-6 no-scrollbar">
+      <motion.nav variants={stagger} initial="hidden" animate="show" className="flex-1 overflow-y-auto pt-4 pb-0 px-4 space-y-5 no-scrollbar">
         {groups.map((group) => (
           <div key={group.title} className="space-y-1">
             <h2 className="px-4 text-[10px] font-bold text-slate-400 mb-2 tracking-wider">{group.title}</h2>
@@ -145,6 +145,27 @@ const [profile, setProfile] = useState<{name:string; role:string; avatar?:string
             })}
           </div>
         ))}
+
+        {/* Developer Contact Card */}
+        <motion.div variants={fadeRight} className="mb-4 p-3.5 rounded-2xl bg-[var(--pastel-purple)]/50 border border-purple-100/50">
+          <div className="flex items-center gap-3 mb-1.5">
+            <div className="w-7 h-7 rounded-xl bg-purple-500/10 text-purple-600 flex items-center justify-center">
+              <MessageCircle className="w-3.5 h-3.5" />
+            </div>
+            <h3 className="text-[11px] font-bold text-slate-800">Bantuan Developer</h3>
+          </div>
+          <p className="text-[9px] text-slate-500 mb-2.5 leading-snug">
+            Sampaikan kendala, pertanyaan, atau masukan untuk pengembangan sistem.
+          </p>
+          <a
+            href="https://wa.me/6281259890076"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center gap-2 w-full py-2 bg-[var(--accent)] hover:bg-[#5b2bd5] text-white rounded-xl text-xs font-semibold shadow-sm shadow-[var(--accent)]/20 transition-all hover:scale-[1.02]"
+          >
+            WhatsApp Developer
+          </a>
+        </motion.div>
       </motion.nav>
 
       {/* Footer */}

@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Kemarin Pak Marman membeli motor baru bersama temannya. Frasa nomina yang terdapat dalam kalimat di atas adalah ....",
+      "options": [
+        "Kemarin Pak Marman",
+        "Motor baru",
+        "Pak Marman membeli",
+        "Pak Marman membeli mobil",
+        "Bersama"
+      ],
+      "correctAnswer": "Motor baru",
+      "explanation": "Frasa nomina adalah kelompok kata yang inti katanya berupa kata benda (nomina). Dalam kalimat tersebut, 'motor baru' merupakan frasa nomina karena intinya adalah 'motor' (kata benda)."
+    },
+    {
+      "text": "Contoh penggunaan frasa verba terdapat dalam kalimat di bawah ini, kecuali…",
+      "options": [
+        "Soal ini sangat mudah",
+        "Guru memeriksa semua siswa yang terlambat.",
+        "Mereka sedang mengerjakan soal tersebut.",
+        "Dian sedang membeli perlengkapan sekolah.",
+        "Pekerjaan tersebut dilaksanakan oleh Rita"
+      ],
+      "correctAnswer": "Soal ini sangat mudah",
+      "explanation": "Frasa 'sangat mudah' merupakan frasa adjektiva (kata sifat), bukan frasa verba (kata kerja)."
+    },
+    {
+      "text": "Kalimat berikut yang tidak menggunakan frasa adjektiva .....",
+      "options": [
+        "Sejak tadi pagi, ia di kelurahan.",
+        "Ia paling rajin di kelasku.",
+        "Banu lebih pintar dari Tini.",
+        "Sakit sekali luka di lenganku.",
+        "Setinggi-tingginya gunung, lebih tinggi cita-citaku."
+      ],
+      "correctAnswer": "Sejak tadi pagi, ia di kelurahan.",
+      "explanation": "Kalimat 'Sejak tadi pagi, ia di kelurahan' hanya menggunakan frasa preposisional ('sejak tadi pagi' dan 'di kelurahan') dan tidak mengandung frasa adjektiva."
+    },
+    {
+      "text": "Di halaman rumah, Beni dan adiknya sedang bermain bola. Kata yang dicetak miring (Di halaman rumah) merupakan jenis frasa....",
+      "options": [
+        "nominal",
+        "verbal",
+        "adjektival",
+        "numeral",
+        "preposisional"
+      ],
+      "correctAnswer": "preposisional",
+      "explanation": "Frasa 'Di halaman rumah' diawali dengan kata depan (preposisi) 'di', sehingga termasuk frasa preposisional."
+    },
+    {
+      "text": "\"Abi membeli minyak goreng dua liter.\" Frasa numeralia pada kalimat berikut adalah.......",
+      "options": [
+        "Abi",
+        "membeli",
+        "minyak goreng",
+        "minyak",
+        "dua liter"
+      ],
+      "correctAnswer": "dua liter",
+      "explanation": "Frasa numeralia adalah frasa yang menyatakan bilangan atau jumlah, dalam hal ini adalah 'dua liter'."
+    },
+    {
+      "text": "Kalimat (5) \"Jika kita rutin bersepeda, maka berat badan kita juga bisa terjaga.\" Identifikasi klausa pada kalimat tersebut…",
+      "options": [
+        "berat badan",
+        "Jika kita rutin bersepeda",
+        "maka berat badan kita juga bisa terjaga.",
+        "bisa terjaga",
+        "berat"
+      ],
+      "correctAnswer": "Jika kita rutin bersepeda",
+      "explanation": "'Jika kita rutin bersepeda' merupakan klausa anak kalimat (klausa subordinatif) yang memiliki subjek (kita) dan predikat (rutin bersepeda)."
+    },
+    {
+      "text": "\"Banyak orang memilih bersepeda sebagai alternatif transportasi untuk mengurangi polusi udara.\" Identifikasi yang termasuk klausa pada kalimat (4)…",
+      "options": [
+        "Banyak orang",
+        "Sedang bersepeda",
+        "mengurangi",
+        "Polusi udara",
+        "Banyak orang memilih bersepeda sebagai alternatif transportasi"
+      ],
+      "correctAnswer": "Banyak orang memilih bersepeda sebagai alternatif transportasi",
+      "explanation": "Klausa harus memiliki unsur subjek dan predikat. 'Banyak orang memilih bersepeda sebagai alternatif transportasi' memenuhi syarat tersebut."
+    },
+    {
+      "text": "Kalimat (6) \"Untuk mendapatkan manfaat maksimal, sebaiknya bersepeda dilakukan secara teratur dan dengan intensitas yang sesuai.\" terdiri dari berapa klausa…",
+      "options": [
+        "satu klausa",
+        "beberapa klausa",
+        "dua klausa",
+        "empat klausa",
+        "Tidak ada"
+      ],
+      "correctAnswer": "dua klausa",
+      "explanation": "Kalimat tersebut terdiri dari dua klausa, yaitu klausa sematan/anak kalimat 'Untuk mendapatkan manfaat maksimal' dan klausa utama 'sebaiknya bersepeda dilakukan secara teratur dan dengan intensitas yang sesuai'."
+    },
+    {
+      "text": "\"Ketika musim hujan tiba, banyak petani mulai menanam padi.\" Frasa yang setipe dengan musim hujan adalah…",
+      "options": [
+        "di siang hari",
+        "sedang berjalan",
+        "dari Jakarta",
+        "meja panjang",
+        "sangat cantik"
+      ],
+      "correctAnswer": "meja panjang",
+      "explanation": "'musim hujan' adalah frasa nominal (benda). Di antara pilihan yang ada, 'meja panjang' juga merupakan frasa nominal."
+    },
+    {
+      "text": "\"Setelah bermain, mereka akan beristirahat sejenak.\" Frasa yang setipe dengan akan beristirahat adalah…",
+      "options": [
+        "Mobil listrik",
+        "Pemerintah Korea Selatan",
+        "Universitas Brawijaya terletak di Malang.",
+        "Telah tidur",
+        "Di rumah sakit"
+      ],
+      "correctAnswer": "Telah tidur",
+      "explanation": "'akan beristirahat' adalah frasa verba (kerja). Di antara pilihan yang ada, 'Telah tidur' juga merupakan frasa verba."
+    },
+    {
+      "text": "Di bawah manakah frasa numeralia…",
+      "options": [
+        "sudah pergi",
+        "gedung sekolah",
+        "baik sekali",
+        "tiga ekor",
+        "di sekolah"
+      ],
+      "correctAnswer": "tiga ekor",
+      "explanation": "'tiga ekor' menunjukkan jumlah atau bilangan, sehingga termasuk frasa numeralia."
+    },
+    {
+      "text": "Di bawah ini manakah yang termasuk frasa nominal, kecuali…",
+      "options": [
+        "kampus bersih",
+        "rumah baru",
+        "sangat rapuh",
+        "baju merah",
+        "tangan panjang"
+      ],
+      "correctAnswer": "sangat rapuh",
+      "explanation": "'sangat rapuh' merupakan frasa adjektiva (sifat), sedangkan pilihan lainnya adalah frasa nominal."
+    },
+    {
+      "text": "Di bawah ini manakah yang termasuk frasa preposisional…",
+      "options": [
+        "makin panas",
+        "harus pergi",
+        "sedang berpikir",
+        "dari samping",
+        "minyak wangi"
+      ],
+      "correctAnswer": "dari samping",
+      "explanation": "Frasa 'dari samping' diawali dengan kata depan 'dari', sehingga merupakan frasa preposisional."
+    },
+    {
+      "text": "(1) bukit indah, (2) agak pendek, (3) mobil mewah, (4) lima hektare. Bentuk frasa nominal terdapat pada nomor…",
+      "options": [
+        "Jika pernyataan 1,2, dan 3 benar.",
+        "Jika pernyataan 1 dan 3 benar.",
+        "Jika pernyataan 2 dan 4 benar.",
+        "Jika pernyataan 4 saja yang benar.",
+        "Jika semua pernyataan benar"
+      ],
+      "correctAnswer": "Jika pernyataan 1 dan 3 benar.",
+      "explanation": "Nomor (1) 'bukit indah' dan (3) 'mobil mewah' adalah frasa nominal. Nomor (2) adalah frasa adjektiva, dan nomor (4) adalah frasa numeralia."
+    },
+    {
+      "text": "(1) di Medan, (2) sejak kemarin, (3) gedung sekolah, (4) karena sakit. Bentuk klausa ditunjukan pada …",
+      "options": [
+        "Jika pernyataan 1, 2, dan 3 benar.",
+        "Jika pernyataan 1 dan 3 benar.",
+        "Jika pernyataan 2 dan 4 benar.",
+        "Jika pernyataan 4 saja yang benar.",
+        "Jika semua pernyataan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": "Tidak ada pilihan yang tepat karena semua poin (1) sampai (4) merupakan frasa, bukan klausa (tidak memiliki struktur subjek dan predikat yang lengkap)."
+    }
+  ]
+}

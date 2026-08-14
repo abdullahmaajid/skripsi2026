@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Perhatikan kalimat berikut! \"Banyak orang yang tidak menyadari pentingnya menjaga kesehatan tubuh sejak dini.\" Kata yang salah dalam kalimat tersebut adalah …",
+      "options": [
+        "yang",
+        "tidak",
+        "pentingnya",
+        "menjaga",
+        "sejak"
+      ],
+      "correctAnswer": "yang",
+      "explanation": "Kata 'yang' tidak diperlukan karena memisahkan subjek dari predikat."
+    },
+    {
+      "text": "Kalimat berikut memiliki bagian rumpang. Pilihlah kata yang tepat untuk melengkapinya! \"Jika kesehatan tidak dijaga dengan baik, berbagai penyakit ___ datang kapan saja.\"",
+      "options": [
+        "dapat",
+        "selalu",
+        "pernah",
+        "hanya",
+        "tentu"
+      ],
+      "correctAnswer": "dapat",
+      "explanation": "Kata 'dapat' adalah kata yang paling tepat secara semantik untuk menyatakan kemungkinan penyakit datang."
+    },
+    {
+      "text": "Perbaikan yang tepat untuk kalimat berikut adalah … \"Banyak orang yang menyesal setelah mengalami gangguan kesehatan, tetapi mereka baru menyadari pentingnya hidup sehat ketika terlambat.\"",
+      "options": [
+        "Banyak orang menyesal setelah mengalami gangguan kesehatan, namun mereka baru menyadari pentingnya hidup sehat ketika semuanya sudah terlambat.",
+        "Banyak orang yang menyesal karena mengalami gangguan kesehatan, tetapi mereka baru sadar pentingnya kesehatan setelahnya.",
+        "Banyak orang menyesal setelah mengalami gangguan kesehatan dan baru menyadari pentingnya hidup sehat ketika sudah terlambat.",
+        "Banyak orang yang mengalami gangguan kesehatan menyesal, lalu mereka baru sadar hidup sehat itu penting.",
+        "Banyak orang mengalami gangguan kesehatan sehingga mereka menyesal dan sadar pentingnya hidup sehat."
+      ],
+      "correctAnswer": "Banyak orang menyesal setelah mengalami gangguan kesehatan dan baru menyadari pentingnya hidup sehat ketika sudah terlambat.",
+      "explanation": "Pilihan tersebut memperbaiki keefektifan kalimat secara gramatikal dan struktur."
+    },
+    {
+      "text": "Urutan paragraf yang tepat untuk membentuk paragraf padu adalah … (1) Oleh karena itu, menjaga pola hidup sehat perlu diterapkan dalam kehidupan sehari-hari. (2) Jika kesehatan tidak dijaga dengan baik, berbagai penyakit bisa datang kapan saja. (3) Banyak orang yang tidak menyadari pentingnya menjaga kesehatan tubuh sejak dini. (4) Gaya hidup sehat, seperti mengonsumsi makanan bergizi dan berolahraga secara rutin, sangat berperan dalam menjaga kebugaran tubuh. (5) Banyak orang yang menyesal setelah mengalami gangguan kesehatan, tetapi mereka baru menyadari pentingnya hidup sehat ketika terlambat.",
+      "options": [
+        "3 - 4 - 1 - 2 - 5",
+        "3 - 1 - 4 - 2 - 5",
+        "3 - 4 - 2 - 1 - 5",
+        "4 - 3 - 1 - 5 - 2",
+        "3 - 4 - 2 - 5 - 1"
+      ],
+      "correctAnswer": "3 - 4 - 2 - 1 - 5",
+      "explanation": "Urutan logis dimulai dari kalimat (3) sebagai pengantar masalah, (4) solusi berupa gaya hidup sehat, (2) akibat jika tidak dijaga, (1) kesimpulan, dan (5) dampak penyesalan di akhir."
+    },
+    {
+      "text": "Perbaikan kata yang tidak baku dalam teks tersebut adalah …",
+      "options": [
+        "kebugaran -> kebugarannya",
+        "pola -> pola hidup",
+        "berperan -> memiliki peran",
+        "menjaga -> memelihara",
+        "tidak ada kesalahan kata baku dalam teks"
+      ],
+      "correctAnswer": "tidak ada kesalahan kata baku dalam teks",
+      "explanation": "Seluruh kata dalam teks sudah menggunakan ejaan dan ragam bahasa baku yang benar."
+    },
+    {
+      "text": "Kata yang dapat menggantikan kata \"beralih\" dalam kalimat (2) tanpa mengubah makna adalah …",
+      "options": [
+        "berubah",
+        "berpindah",
+        "bergeser",
+        "berkembang",
+        "perganti"
+      ],
+      "correctAnswer": "berubah",
+      "explanation": "Kata 'berubah' atau 'berganti' sesuai konteks perpindahan dari manual ke otomatis."
+    },
+    {
+      "text": "Inti dari kalimat (5) dalam teks adalah …",
+      "options": [
+        "Manusia harus mampu mengikuti perkembangan teknologi agar tetap relevan",
+        "Teknologi terus berkembang dan mengubah dunia",
+        "Tanpa teknologi, manusia akan sulit berkembang",
+        "Pekerjaan yang manual semakin tergantikan oleh mesin otomatis",
+        "Perubahan teknologi membawa dampak positif dan negatif bagi manusia"
+      ],
+      "correctAnswer": "Manusia harus mampu mengikuti perkembangan teknologi agar tetap relevan",
+      "explanation": "Kalimat (5) berfokus pada keharusan manusia beradaptasi dengan kemajuan teknologi."
+    },
+    {
+      "text": "Penggabungan yang efektif dari kalimat (3) dan (4) dalam teks adalah …",
+      "options": [
+        "Kemudahan ini tidak hanya memberikan manfaat besar bagi masyarakat, tetapi juga menimbulkan tantangan baru, seperti berkurangnya lapangan pekerjaan akibat otomatisasi.",
+        "Kemudahan ini memberikan manfaat besar bagi masyarakat, oleh karena itu perubahan ini menimbulkan tantangan baru, seperti berkurangnya lapangan pekerjaan.",
+        "Kemudahan ini tentu memberikan manfaat besar bagi masyarakat dan menimbulkan tantangan baru, namun berkurangnya lapangan pekerjaan akibat otomatisasi tetap bisa diatasi.",
+        "Kemudahan ini membawa manfaat besar bagi masyarakat dan menciptakan tantangan baru yang sulit diatasi.",
+        "Kemudahan ini memberikan manfaat besar bagi masyarakat yang mengalami tantangan akibat otomatisasi dalam dunia kerja."
+      ],
+      "correctAnswer": "Kemudahan ini tidak hanya memberikan manfaat besar bagi masyarakat, tetapi juga menimbulkan tantangan baru, seperti berkurangnya lapangan pekerjaan akibat otomatisasi.",
+      "explanation": "Penggunaan konjungsi korelatif 'tidak hanya ... tetapi juga' membuat penggabungan kalimat menjadi padu dan efektif."
+    },
+    {
+      "text": "Pilihlah kata yang tepat untuk melengkapi bagian rumpang berikut! \"Di sisi lain, perubahan ini juga menimbulkan tantangan baru, seperti berkurangnya lapangan pekerjaan akibat __.\"",
+      "options": [
+        "teknologi",
+        "globalisasi",
+        "otomatisasi",
+        "perkembangan",
+        "kemajuan"
+      ],
+      "correctAnswer": "otomatisasi",
+      "explanation": "Berdasarkan kalimat sebelumnya dalam teks, berkurangnya lapangan pekerjaan disebabkan oleh proses otomatisasi."
+    },
+    {
+      "text": "Kalimat berikut yang memiliki makna serupa dengan kalimat (1) adalah …",
+      "options": [
+        "Perkembangan zaman telah membawa perubahan dalam berbagai aspek kehidupan manusia.",
+        "Banyak pekerjaan manual kini digantikan oleh teknologi yang lebih canggih.",
+        "Teknologi berkembang pesat, menciptakan berbagai peluang dan tantangan baru bagi manusia.",
+        "Manusia harus mengikuti perkembangan zaman agar tetap relevan di dunia kerja.",
+        "Kemajuan teknologi membuat manusia semakin bergantung pada alat otomatis."
+      ],
+      "correctAnswer": "Perkembangan zaman telah membawa perubahan dalam berbagai aspek kehidupan manusia.",
+      "explanation": "Kalimat (1) membahas perubahan aspek kehidupan akibat teknologi, yang bersesuaian dengan opsi tersebut."
+    },
+    {
+      "text": "Kalimat yang paling tepat untuk diletakkan setelah kalimat (1) adalah …",
+      "options": [
+        "Bandung juga memiliki beragam tempat wisata yang cocok untuk keluarga.",
+        "Keunikan Kota Bandung membuatnya menarik bagi banyak orang.",
+        "Setiap tahun, ribuan wisatawan datang ke Bandung untuk berlibur.",
+        "Selain itu, banyak wisatawan yang berkunjung ke Bandung untuk menikmati keindahan alamnya.",
+        "Kota ini juga dikenal dengan udaranya yang sejuk dan nyaman."
+      ],
+      "correctAnswer": "Selain itu, banyak wisatawan yang berkunjung ke Bandung untuk menikmati keindahan alamnya.",
+      "explanation": "Kalimat ini melanjutkan pembahasan tentang daya tarik Kota Bandung secara runtut."
+    },
+    {
+      "text": "Perbaikan tanda koma yang benar dalam kalimat (2) adalah … \"Selain itu banyak wisatawan yang berkunjung ke Bandung untuk menikmati keindahan alamnya.\"",
+      "options": [
+        "Selain itu; banyak wisatawan yang berkunjung ke Bandung untuk menikmati keindahan alamnya.",
+        "Selain itu banyak, wisatawan yang berkunjung ke Bandung untuk menikmati keindahan alamnya.",
+        "Selain itu, banyak wisatawan yang berkunjung ke Bandung untuk menikmati keindahan alamnya.",
+        "Selain itu banyak wisatawan, yang berkunjung ke Bandung untuk menikmati keindahan alamnya.",
+        "Selain itu, banyak wisatawan yang berkunjung ke Bandung, untuk menikmati keindahan alamnya."
+      ],
+      "correctAnswer": "Selain itu, banyak wisatawan yang berkunjung ke Bandung untuk menikmati keindahan alamnya.",
+      "explanation": "Frasa transisi di awal kalimat seperti 'Selain itu' harus diikuti oleh tanda koma."
+    },
+    {
+      "text": "Perbaikan yang membuat kalimat (5) lebih efektif adalah … \"Oleh sebab itu, Bandung menjadi salah satu kota favorit untuk dikunjungi saat liburan.\"",
+      "options": [
+        "Oleh sebab itu, Bandung merupakan salah satu kota yang banyak dikunjungi saat liburan.",
+        "Oleh sebab itu, Bandung menjadi salah satu kota wisata favorit.",
+        "Oleh sebab itu, Bandung menjadi pilihan utama wisatawan yang ingin berlibur.",
+        "Oleh sebab itu, Bandung selalu ramai dikunjungi oleh wisatawan saat liburan.",
+        "Oleh sebab itu, Bandung adalah salah satu kota favorit bagi para wisatawan saat liburan."
+      ],
+      "correctAnswer": "Oleh sebab itu, Bandung menjadi salah satu kota wisata favorit.",
+      "explanation": "Pilihan ini lebih ringkas dan efektif menghilangkan kata-kata yang berlebihan."
+    },
+    {
+      "text": "Pilihan penulisan huruf kapital yang benar dalam kalimat berikut adalah … \"di kawasan lembang dan dago, misalnya, pengunjung dapat menemukan berbagai destinasi wisata alam yang menarik.\"",
+      "options": [
+        "Di kawasan Lembang dan dago, misalnya, pengunjung dapat menemukan berbagai destinasi wisata alam yang menarik.",
+        "Di kawasan lembang dan Dago, misalnya, pengunjung dapat menemukan berbagai destinasi wisata alam yang menarik.",
+        "Di kawasan Lembang dan Dago, misalnya, pengunjung dapat menemukan berbagai destinasi wisata alam yang menarik.",
+        "Di kawasan Lembang dan Dago, Misalnya, pengunjung dapat menemukan berbagai destinasi wisata alam yang menarik.",
+        "Di Kawasan Lembang dan Dago, misalnya, Pengunjung dapat menemukan berbagai destinasi wisata alam yang menarik."
+      ],
+      "correctAnswer": "Di kawasan Lembang dan Dago, misalnya, pengunjung dapat menemukan berbagai destinasi wisata alam yang menarik.",
+      "explanation": "Nama geografi seperti Lembang dan Dago harus diawali dengan huruf kapital."
+    },
+    {
+      "text": "Kalimat berikut yang paling efektif dan sesuai dengan isi teks adalah …",
+      "options": [
+        "Banyak orang yang datang ke Bandung untuk menikmati liburan karena keunikan kota tersebut.",
+        "Banyak wisatawan yang datang ke Bandung setiap tahun karena kota ini memiliki banyak tempat wisata dan udara yang sejuk.",
+        "Bandung adalah kota dengan banyak keunikan yang membuat orang tertarik untuk berkunjung ke sana.",
+        "Kota Bandung menarik banyak wisatawan karena kreativitas, wisata alam, dan kulinernya yang terkenal.",
+        "Setiap tahun, Bandung dikunjungi oleh wisatawan yang ingin menikmati suasana liburan yang nyaman dan sejuk."
+      ],
+      "correctAnswer": "Kota Bandung menarik banyak wisatawan karena kreativitas, wisata alam, dan kulinernya yang terkenal.",
+      "explanation": "Merangkum poin-poin utama yang dibahas di dalam teks secara padu dan efektif."
+    },
+    {
+      "text": "Kalimat berikut yang dapat menyempurnakan paragraf di atas adalah ...",
+      "options": [
+        "Sumber daya alam yang tidak dikelola dengan baik dapat menimbulkan bencana alam yang merugikan masyarakat.",
+        "Pengelolaan sumber daya alam harus dilakukan dengan memperhatikan aspek ekonomi dan sosial.",
+        "Oleh sebab itu, pemerintah harus segera mengatasi masalah lingkungan yang terjadi.",
+        "Selain itu, masyarakat harus dilibatkan dalam pengelolaan sumber daya alam agar hasilnya dapat dirasakan secara merata.",
+        "Hasil sumber daya alam yang melimpah tidak akan berguna jika tidak dikelola dengan baik."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata yang sebaiknya dihilangkan dalam kalimat (3) agar lebih efektif adalah ...\n\"Namun, masih ada banyak tantangan dalam pengelolaan sumber daya alam, seperti eksploitasi berlebihan, pencemaran lingkungan, dan ketimpangan distribusi hasil.\"",
+      "options": [
+        "masih",
+        "ada",
+        "banyak",
+        "dalam",
+        "hasil"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Judul yang paling tepat untuk teks tersebut adalah ...",
+      "options": [
+        "Pentingnya Sumber Daya Alam bagi Perekonomian Indonesia",
+        "Sumber Daya Alam: Manfaat dan Tantangannya",
+        "Cara Mengelola Sumber Daya Alam dengan Baik",
+        "Krisis Sumber Daya Alam di Indonesia",
+        "Perekonomian Indonesia dan Tantangan Global"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang memiliki isi yang sama dengan kalimat (4) adalah ...\n\"Oleh karena itu, diperlukan strategi yang tepat agar kekayaan alam dapat dimanfaatkan secara berkelanjutan untuk kesejahteraan masyarakat.\"",
+      "options": [
+        "Pemanfaatan kekayaan alam harus dilakukan dengan strategi yang baik agar bisa berkelanjutan.",
+        "Strategi pemanfaatan sumber daya alam harus segera diterapkan agar tidak terjadi eksploitasi berlebihan.",
+        "Kekayaan alam dapat digunakan untuk kesejahteraan masyarakat jika dikelola secara optimal.",
+        "Agar sumber daya alam tetap lestari, diperlukan strategi pemanfaatan yang tepat untuk mendukung kesejahteraan rakyat.",
+        "Pengelolaan sumber daya alam harus dilakukan secara bijak agar bermanfaat bagi seluruh lapisan masyarakat."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat berikut yang mengandung kesalahan penulisan kata adalah ...",
+      "options": [
+        "Sumber daya alam yang melimpah harus dimanfaatkan dengan bijak.",
+        "Eksploitasi berlebihan dapat merusak keseimbangan lingkungan.",
+        "Pemerintah harus membuat regulasi yang mengatur penggunaan sumber daya alam.",
+        "Pendayagunaan hasil tambang harus mempertimbangkan aspek kelestarian.",
+        "Indonesia kaya akan hasil buminya yang dapat diolah menjadi berbagai produk industri."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

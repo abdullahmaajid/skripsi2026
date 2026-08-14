@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "According to the text, which of the following statements is true?",
+      "options": [
+        "Scientists were concerned about ocean pollution",
+        "There are 11 rare animals being investigated",
+        "Bio-accumulation doesn't occur in humans",
+        "Cetaceans are alpha predators",
+        "Two dolphins found in Florida had the highest liver mercury concentrations"
+      ],
+      "correctAnswer": "Scientists were concerned about ocean pollution",
+      "explanation": "The text states in the first sentence that 'Marine biologists have been sounding the alarm about ocean pollution since the 1950s.'"
+    },
+    {
+      "text": "According to the last paragraph, it can be concluded that...",
+      "options": [
+        "Ocean pollution harms sea creatures",
+        "Transfer contaminants and bio-accumulation happened in ocean-dwelling animals",
+        "Beaked whale's liver had huge amount of arsenic",
+        "Whale and dolphins are chosen to be investigated because they are apex predators",
+        "Cancer in marine mammal is rare"
+      ],
+      "correctAnswer": "Transfer contaminants and bio-accumulation happened in ocean-dwelling animals",
+      "explanation": "The last paragraph concludes with the discussion on the transfer of contaminants and bio-accumulation happening not just in animals, but also humans."
+    },
+    {
+      "text": "Which of the following is false?",
+      "options": [
+        "The rising average temperature is one of the climate change's effects",
+        "Daniel did the first ever study of temperature asymmetries to cover all global lands",
+        "The daytime ecology is literally overstudied, leaving the nighttime ecology",
+        "The team plotted more than 30 years of temperature, cloud cover, humidity, and precipitation data",
+        "The cloud cover has nothing to do with the change in nighttime's temperatures"
+      ],
+      "correctAnswer": "The cloud cover has nothing to do with the change in nighttime's temperatures",
+      "explanation": "The text explicitly states that the change in nighttime temperatures appears to be closely tied to shifts in cloud cover."
+    },
+    {
+      "text": "To put in another word, we can say that this text talks about...",
+      "options": [
+        "There are reduce in the grasshoppers' numbers",
+        "One of climate change's repercussions is rising average temperature",
+        "Wetter regions got cloudier at daytime and warmer at night",
+        "Nowadays climate change is really messed up",
+        "The shift in daily temperature influences how plants and animals cope with climate change"
+      ],
+      "correctAnswer": "The shift in daily temperature influences how plants and animals cope with climate change",
+      "explanation": "The passage highlights temperature asymmetries (nighttime temperatures increasing faster than daytime) and how it affects ecosystems."
+    },
+    {
+      "text": "Based on the passage, it can be inferred that a big advantage AlphaFold has over more traditional methods of predicting the shape of a protein is...",
+      "options": [
+        "its ease of use for biologists.",
+        "the rate at which it can make predictions.",
+        "its ability to always yield fully accurate predictions.",
+        "the usefulness of its predictions.",
+        "its ability to make predictions without any kind of human intervention."
+      ],
+      "correctAnswer": "the rate at which it can make predictions.",
+      "explanation": "The text contrasts traditional lab methods taking weeks or months with AlphaFold predicting shapes in a day or two."
+    },
+    {
+      "text": "Which of the following statements is true according to the passage?",
+      "options": [
+        "DeepMind announced that it has predicted every protein in humans.",
+        "For a prediction to be useful to researchers, it must be accurate down to the atomic level.",
+        "AlphaFold has always been able to estimate how accurate its predictions are.",
+        "AlphaFold can produce results that are highly accurate.",
+        "It could take months for AlphaFold to predict protein shapes in the lab."
+      ],
+      "correctAnswer": "AlphaFold can produce results that are highly accurate.",
+      "explanation": "Paragraph 10 mentions AlphaFold predicted shapes for 36% of human proteins with accuracy correct down to individual atoms."
+    },
+    {
+      "text": "To put in another word, we can know that the text says that...",
+      "options": [
+        "Childcare providers who took precautions while working during the pandemic did not have a heightened risk of catching COVID 19",
+        "Social distancing can reduce the number of COVID 19's cases",
+        "Black, Latino, and Native American childcare workers are at risk of being infected",
+        "Children transmit the novel coronavirus to other kids or adults",
+        "Only less than 1% reported being tested positive with COVID 19"
+      ],
+      "correctAnswer": "Childcare providers who took precautions while working during the pandemic did not have a heightened risk of catching COVID 19",
+      "explanation": "The study found that childcare workers who continued working and taking precautions were not more likely to catch COVID-19 than those out of work."
+    },
+    {
+      "text": "By looking at the text, we can describe that the tone of the author is...",
+      "options": [
+        "Sardonic",
+        "Pessimistic",
+        "Vindictive",
+        "Exuberant",
+        "Cynical"
+      ],
+      "correctAnswer": "Exuberant",
+      "explanation": "The author presents positive findings regarding the safety of childcare workers using precautions during the pandemic with an enthusiastic and encouraging perspective."
+    },
+    {
+      "text": "It could reasonably be inferred from the passage that ...",
+      "options": [
+        "The Japanese gained the support of the Indonesian people gradually from the beginning of its occupation.",
+        "Before the Japanese occupation of Indonesia, there were few to no Indonesians in many administrative positions.",
+        "The policies under the Japanese rule were relatively stable.",
+        "Sukarno refused to collaborate with the Japanese.",
+        "Japan occupied Indonesia with the intention of liberating it."
+      ],
+      "correctAnswer": "Before the Japanese occupation of Indonesia, there were few to no Indonesians in many administrative positions.",
+      "explanation": "The text states that using Indonesians in administrative positions gave them opportunities that had been denied them under the Dutch."
+    },
+    {
+      "text": "The ..... have the lowest psychology well being because of the number of screen time",
+      "options": [
+        "Teenagers",
+        "Moderate users",
+        "Kids",
+        "Adults",
+        "All answers are correct"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Which of the following is not part of the text?",
+      "options": [
+        "Weekly screen time has been going up these past years",
+        "With the occurrence of COVID-19, we have more time to look at screens",
+        "A 2018 Poll states that approximately one-third of American adults are online more than a handful of times a day.",
+        "The research and study have to face some difficulties",
+        "Screen time is not the root of all evil"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "The best choice to describe what this whole text talks about is...",
+      "options": [
+        "How daily screen affects human's well being",
+        "How to create screen-life balance",
+        "The use of screens can affect our sleep cycle",
+        "To what extent is the downside of screen time done",
+        "The increase of weekly screen time for years"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Below are the information depicted from the text above except...",
+      "options": [
+        "Dementia can not be cured",
+        "Establishing socialization for older adults can improve their brain's health",
+        "The micro changes inside brain happen before the loss of the brain cells",
+        "Not all the memory loss is due to dementia",
+        "It is hard for older adults to socialize now in this severe situation"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "By reading the text above, we can say that spending time with friends and family is _____ at all stages of life",
+      "options": [
+        "Meaningless",
+        "Salient",
+        "Insignificant",
+        "Frivolous",
+        "Trivial"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "What does the first sentence from the third paragraph do?",
+      "options": [
+        "It states a problem",
+        "It restates an idea from the last paragraph",
+        "It gives an example",
+        "It tells an opinion",
+        "It analyzes the statement made in the first"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

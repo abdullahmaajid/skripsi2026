@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Selama ini Rudi selalu sekamar dengan Runi, kakak perempuannya itu. Apartemen tempat tinggal mereka sebelumnya hanya memiliki 2 kamar. Satu kamar untuk orang tua, satu kamar lagi untuk anak-anak. Kamar anak-anak yang ditempati Rudi dan Runi dipisahkan oleh 2 meja belajar dan lemari pakaian. Runi sengaja memilih kamar yang menghadap kebun buah karena Runi sangat suka makan buah. Runi suka semua jenis makanan. Di halaman samping rumah ini, ada pohon rambutan, mangga, jambu, jeruk, manggis, dan sawo.\n\nBerdasarkan teks di atas, pernyataan yang BENAR di bawah ini adalah...",
+      "options": [
+        "Rudi tidak pernah tidur sekamar dengan Runi",
+        "Apartemen Rudi sebelumnya terdiri dari satu kamar orang tua dan satu kamar untuk dirinya",
+        "Kamar rudi dipusahkan oleh 3 meja belajar",
+        "Runi tidak menyukai makanan yang berbau asin",
+        "tidak terdapat meja belajar di kamar Rudi"
+      ],
+      "correctAnswer": "Apartemen Rudi sebelumnya terdiri dari satu kamar orang tua dan satu kamar untuk dirinya",
+      "explanation": null
+    },
+    {
+      "text": "Selama ini Rudi selalu sekamar dengan Runi, kakak perempuannya itu. Apartemen tempat tinggal mereka sebelumnya hanya memiliki 2 kamar. Satu kamar untuk orang tua, satu kamar lagi untuk anak-anak. Kamar anak-anak yang ditempati Rudi dan Runi dipisahkan oleh 2 meja belajar dan lemari pakaian. Runi sengaja memilih kamar yang menghadap kebun buah karena Runi sangat suka makan buah. Runi suka semua jenis makanan. Di halaman samping rumah ini, ada pohon rambutan, mangga, jambu, jeruk, manggis, dan sawo.\n\nBerdasarkan teks di atas, pernyataan yang BENAR mengenai kamar Runi adalah...",
+      "options": [
+        "Kamar Runi dan Rudi tidak dipisahkan oleh apa-apa",
+        "Selama ini Runi hanya tidur sendiri di kamarnya",
+        "Jenis kamar yang ditempati Runi adalah kamar anak-anak",
+        "Runi menghadapkan kamarnya ke kebun buah dikarenakan ia tidak menyukai buah",
+        "Tidak terdapat apa-apa di samping kamar Runi"
+      ],
+      "correctAnswer": "Jenis kamar yang ditempati Runi adalah kamar anak-anak",
+      "explanation": null
+    },
+    {
+      "text": "Selama ini Rudi selalu sekamar dengan Runi, kakak perempuannya itu. Apartemen tempat tinggal mereka sebelumnya hanya memiliki 2 kamar. Satu kamar untuk orang tua, satu kamar lagi untuk anak-anak. Kamar anak-anak yang ditempati Rudi dan Runi dipisahkan oleh 2 meja belajar dan lemari pakaian. Runi sengaja memilih kamar yang menghadap kebun buah karena Runi sangat suka makan buah. Runi suka semua jenis makanan. Di halaman samping rumah ini, ada pohon rambutan, mangga, jambu, jeruk, manggis, dan sawo.\n\nBerdasarkan teks di atas, pernyataan yang BENAR adalah...",
+      "options": [
+        "Karena Runi sangat menyukai buah maka ia menghadapkan kamarnya ke kebun buah",
+        "Runi menghadapkan kamarnya ke kebun buah apabila ia tidak menyukai kebun buah",
+        "Runi tidak menyukai buah karena kamarnya tidak menghadap kebun buah",
+        "Jika Runi menyukai Kentang maka ia akan menanamnya",
+        "Runi tidak menyukai kebun yang berisi buah"
+      ],
+      "correctAnswer": "Karena Runi sangat menyukai buah maka ia menghadapkan kamarnya ke kebun buah",
+      "explanation": null
+    },
+    {
+      "text": "Anak-anak sedang membicarakan anggrek hitam milik Bu Silvia, tetangga Taras. Anggrek-anggrek itu menghilang tiba-tiba. Semua ada lima pot. Cukup mahal, tetapi belum sampai berjuta-juta. Meskipun begitu, Bu Silvia merasa sangat kehilangan karena anggrek-anggrek itu adalah kenangan waktu beliau masih menjadi dokter di pedalaman Papua. Dari banyaknya bunga di rumahnya, Bu Silvia paling menyukai Anggrek Bebek, hal itu membuktikan bahwa Anggrek merupakan bunga yang sangat unik sehingga banyak memikat manusia maupun serangga yang berada di sekitarnya. Bentuk bunga dari tanaman ini menyerupai bebek yang sedang terbang maka dari itu spesies anggrek ini kerap dijuluki sebagai Flying Duck Orchid. Selain itu tanaman ini memiliki warna yang sangat estetik.\n\nBerdasarkan teks di atas, manakah pernyataan berikut yang PASTI SALAH?",
+      "options": [
+        "Hilangnya Anggrek tidak diprediksi oleh Bu Silvia",
+        "Bu Silvia memiliki Anggrek berjumlah 5 pot",
+        "Bu Silvia tidak memiliki ikatan emosional yang mendalam dengan bunga-bunga itu",
+        "Bu Silvia paling menyukai tanaman Anggrek Bebek",
+        "Anggrek merupakan bunga yang sangat unik, bunga iini mampu memikat manusia dan serangga yang berada di sekitarnya"
+      ],
+      "correctAnswer": "Bu Silvia tidak memiliki ikatan emosional yang mendalam dengan bunga-bunga itu",
+      "explanation": null
+    },
+    {
+      "text": "Banyaknya tindakan orang membuang sampah sembarangan maka akan menyebabkan banjir.\n\nDesa A terkenal sebagai penyumbang sampah harian tertinggi.\n\nManakah kesimpulan yang dapat ditarik dari informasi tersebut?",
+      "options": [
+        "Banjir terjadi di Desa A",
+        "Warga desa A meerupakan warga yang tertib aturan",
+        "Sampah dikelola dengan baik di desa A",
+        "Hujan deras melanda desa A semalaman",
+        "Hutan di desa A mengalami penggundulan secara ugal-ugalan"
+      ],
+      "correctAnswer": "Banjir terjadi di Desa A",
+      "explanation": null
+    },
+    {
+      "text": "Bagi pemilik kucing, mengelus tubuh kucing adalah hal yang sering dilakukan untuk menunjukkan rasa sayang pada hewan peliharaannya. Kucing suka dielus pada bagian-bagian tubuh tertentu, salah satunya dagu. Apabila kita mengelus dagunya, kucing akan secara alami memejamkan matanya dan tampak nyaman dengan kita.\n\nBerdasarkan teks di atas, apa yang terjadi pada kucing apabila dagunya tidak dielus?",
+      "options": [
+        "Kucing akan tumbuh liar",
+        "Kucing akan susah diatur",
+        "Kucing akan nyaman dengan kita",
+        "Kucing tidak akan memejamkan matanya",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Tidak dapat disimpulkan",
+      "explanation": null
+    },
+    {
+      "text": "Dalam catatan di Herbarium Amboinese (1741), Rumphius menyebut buah sukun ajaib karena berpotensi jadi kudapan bernutrisi tinggi dan serbaguna. Bisa menyelamatkan orang di kala kelaparan dan kesulitan mencari makanan.\n\nBuah sukun dianggap ajaib karena rasa yang enak serta bau yang harum\n\nBerdasarkan informasi tersebut, bagaimana kualitas simpulan di atas?",
+      "options": [
+        "Simpulan tersebut pasti benar",
+        "Simpulan tersebut mungkin benar",
+        "Simpulan tersebut tidak valid",
+        "Simpulan tersebut pasti salah",
+        "Simpulan tersebut tidak relevan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Banyak orang menganjurkan untuk konsumsi minuman dingin, khususnya minuman manis saat berbuka. Tujuannya agar tubuh lebih cepat segar. Padahal, konsumsi minuman manis dingin setelah seharian berpuasa dan saat perut kosong akan membuat lambung ‘kaget’ karena perubahan suhu. Hal ini pasti akan membuat perut terasa perih dan melilit\n\nBerdasarkan wacana di atas, manakah pernyataan berikut yang MEMPERLEMAH wacana tersebut?\n\n1. Orang yang terbiasa minum manis tidak merasakan efek apa-apa meskipun telah seharian berpuasa dan minum minuman manis dan dingin setelah berbuka\n2. Dokter menyarankan agar tidak meminuman manis apalagi disertai dingin setelah berbuka puasa\n3. Minuman manis dan dingin sangat baik dikonsumsi setelah seharian berpuasa karena menyegarkan\n4. Dokter mewanti-wanti masyarakat agar tidak langsung memakan es krim saat berbuka puasa\n5. Minuman dingin apalagi manis tidak baik dikonsumsi saat baru berbuka, dikhawatirkan dapat menyebabkan lambung kaget",
+      "options": [
+        "1, 2, 3 dan 4",
+        "2, 3 dan 4",
+        "1, 2 dan 5",
+        "1 dan 3 saja",
+        "5 saja"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Generative AI dinilai dapat mengubah tatatan industri ritel dengan cepat. Riset konsumen terbaru dari Publicis Sapient menunjukkan bahwa konsumen tidak hanya terbuka untuk menggunakan alat bantu generatif AI untuk meningkatkan pengalaman belanja online mereka akan tetapi mereka juga sangat menyukainya.\n\nBerdasarkan wacana di atas, manakah pernyataan berikut yang MEMPERLEMAH wacana tersebut?\n\n1. Penolakan besar-besaran mengenai penggunaan AI semakin bisa digaungkan di seluruh dunia\n2. Teknologi AI membantu memudahkan pekerjaan manusia\n3. Ketakutan masyarakat akan munculnya kesadaran teknologi AI membuatnya tidak diminati\n4. Donald Dump selaku presiden negeri Sunakagure mengakuisisi projek pengembangan AI, hal ini membuat angin segar bagi perkembangan teknologi\n5. Warga Pulau Sentinel mendengendemi kehadiran teknologi baru AI menjadi permulaan gerakan penolakan terhadap teknologi baru",
+      "options": [
+        "1, 2, 3 dan 4",
+        "2, 3 dan 4",
+        "1, 3 dan 5",
+        "1 dan 3 saja",
+        "5 saja"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sering dikatakan bahwa tidur terlalu lama dapat membuat tubuh terasa lemas dan kurang produktif. Namun, tidur siang dalam durasi pendek justru bisa meningkatkan energi dan konsentrasi. Ketika tubuh beristirahat sejenak, hormon serotonin dan dopamin meningkat, yang membantu meningkatkan suasana hati dan kemampuan kognitif. Studi menunjukkan bahwa tidur siang selama 20-30 menit dapat meningkatkan produktivitas dan mengurangi kelelahan, terutama bagi mereka yang memiliki aktivitas padat sepanjang hari.\n\nTidur siang dengan durasi pendek dapat meningkatkan produktivitas dan mengurangi kelelahan.\n\nBerdasarkan informasi tersebut, bagaimana kualitas simpulan di atas?",
+      "options": [
+        "Simpulan tersebut pasti benar",
+        "Simpulan tersebut mungkin benar",
+        "Simpulan tersebut tidak valid",
+        "Simpulan tersebut pasti salah",
+        "Simpulan tersebut tidak relevan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Meskipun kasus yang dilaporkan tidak sebanyak kasus pada usia dewasa, anak-anak juga bisa mengalami penyakit autoimun. Kondisi ini terjadi ketika sistem kekebalan tubuh yang seharusnya melindungi tubuh justru menyerang sel, jaringan, dan organ tubuh yang sehat.\n\nApabila kekebalan tubuh tidak menyerang sel, jaringan, atau organ tubuh yang sehat, manakah kesimpulan yang tepat?",
+      "options": [
+        "Anak-anak berkemungkinan terkena penyakit autoimun",
+        "Autoimun akan menjangkit pada semua orang",
+        "Kasus autoimun pada anak-anak akan melonjak",
+        "Anak-anak sudah pasti terkena autoimun",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan wacana di atas, manakah pernyataan berikut yang MEMPERLEMAH wacana tersebut?",
+      "options": [
+        "1, 2, 3 dan 4",
+        "2, 3 dan 4",
+        "1, 2 dan 5",
+        "1 dan 4 saja",
+        "5 saja"
+      ],
+      "correctAnswer": "1 dan 4 saja",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan wacana di atas, manakah pernyataan berikut yang MEMPERLEMAH wacana tersebut?",
+      "options": [
+        "1, 2, 3 dan 4",
+        "2, 3 dan 4",
+        "1, 4 dan 5",
+        "1 dan 3 saja",
+        "5 saja"
+      ],
+      "correctAnswer": "1, 4 dan 5",
+      "explanation": null
+    },
+    {
+      "text": "Sering dikatakan bahwa puasa dapat memperlambat metabolisme dan membuat tubuh lebih sulit membakar kalori. Namun, puasa jangka pendek justru bisa meningkatkan metabolisme. Ketika tubuh tidak menerima asupan makanan, hormon norepinefrin meningkat, yang membantu membakar lemak lebih efisien. Ketika kita sedang berpuasa proses pembakaran lemak yang terjadi akan lebih efisien. Berdasarkan informasi tersebut, bagaimana kualitas simpulan di atas?",
+      "options": [
+        "Simpulan tersebut pasti benar",
+        "Simpulan tersebut mungkin benar",
+        "Simpulan tersebut tidak valid",
+        "Simpulan tersebut pasti salah",
+        "Simpulan tersebut tidak relevan"
+      ],
+      "correctAnswer": "Simpulan tersebut mungkin benar",
+      "explanation": null
+    },
+    {
+      "text": "Heri merupakan calon peserta lomba OSN tingkat nasional. Sewaktu belajar di rumah, Tryoutnya mencapai nilai tertinggi dibanding temannya yang lain. Namun, ketika sering belajar di Perpustakaan nilai belajarnya cenderung kurang. Manakah pernyataan di bawah ini yang PALING MUNGKIN menjelaskan perbedaan kedua kondisi tersebut?",
+      "options": [
+        "Ketimbang di rumah, Heri lebih fokus jika belajar di perpustakaan",
+        "Heri merasa terganggu saat belajar di Rumah karena di sebelahnya sedang ada pembangunan gedung baru",
+        "Rumah membuat Heri lebih nyaman dan fokus dalam belajar",
+        "Sumber bacaan di perpustakaan cenderung lebih banyak dibandingkan milik Heri di rumah",
+        "Heri sering diganggu adiknya saat belajar"
+      ],
+      "correctAnswer": "Rumah membuat Heri lebih nyaman dan fokus dalam belajar",
+      "explanation": null
+    },
+    {
+      "text": "Peserta ujian tidak akan lolos apabila mereka tidak belajar. Hal itu terjadi ketika peserta tidak mengatur waktu dengan baik. Manakah simpulan berikut yang PALING BENAR?",
+      "options": [
+        "Peserta tidak lolos apabila peserta mengatur waktu dengan baik",
+        "Peserta lolos ujian apabila tidak mengatur waktu dengan baik",
+        "Peserta ujian tidak akan lolos jika mereka tidak mengatur waktu dengan baik, karena hal itu menyebabkan mereka tidak belajar.",
+        "Peserta mengatur waktu dengan baik apabila peserta lolos",
+        "Peserta tidak mengatur waktu dengan baik apabila peserta lolos ujian"
+      ],
+      "correctAnswer": "Peserta ujian tidak akan lolos jika mereka tidak mengatur waktu dengan baik, karena hal itu menyebabkan mereka tidak belajar.",
+      "explanation": null
+    },
+    {
+      "text": "Hujan terjadi apabila awan terlihat gelap. Tidak terjadi hujan. Berdasarkan teks, manakah simpulan yang benar?",
+      "options": [
+        "Awan tidak terlihat gelap",
+        "Angin bertiup dari sisi barat ke timur",
+        "Tidak ada awan yang tidak gelap",
+        "Angin tidak bertiup dari sisi barat ke timur",
+        "Tidak ada angin yang bertiup"
+      ],
+      "correctAnswer": "Awan tidak terlihat gelap",
+      "explanation": null
+    },
+    {
+      "text": "Menurut penelitian, minum air putih secara teratur pada tubuh dapat menjaga keseimbangan cairan. Jika seseorang tidak minum air putih secara teratur. Manakah kesimpulan logis berdasarkan informasi tersebut?",
+      "options": [
+        "Seseorang tidak sedang menjaga keseimbangan cairan tubuhnya",
+        "Seseorang mungkin sedang menjaga keseimbangan cairan tubuhnya dengan cara lain",
+        "Seseorang akan mengalami dehidrasi",
+        "Seseorang sedang dalam kondisi tubuh yang sehat",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Tidak dapat disimpulkan",
+      "explanation": null
+    },
+    {
+      "text": "A menyatakan: Kebijakan pemberian insentif pajak bagi perusahaan startup merupakan kebijakan strategis dan perlu didukung.\nB menyatakan: Kebijakan yang hanya menguntungkan kelompok tertentu cenderung akan menimbulkan ketidaksetujuan masyarakat.\nData media sosial menunjukkan naiknya tagar #tolakstartup di media sosial sebagai bentuk protes terhadap kebijakan pemerintah\nPernyataan paling tepat mengenai data di atas adalah?",
+      "options": [
+        "Memperkuat pernyataan A",
+        "Memperlemah pernyataan A",
+        "Memperkuat pernyataan B",
+        "Memperlemah pernyataan B",
+        "Tidak relevan dengan pernyataan A dan B"
+      ],
+      "correctAnswer": "Memperkuat pernyataan B",
+      "explanation": null
+    },
+    {
+      "text": "A menyatakan: Kebijakan pembatasan penggunaan plastik sekali pakai merupakan kebijakan strategis dan perlu digaungkan, hal itu sejalan dengan tujuan pemerintah unuk mengurangi polusi.\nB menyatakan: Kebijakan pembatasan penggunaan plastik membuat masyarakat resah dikarenakan belum ada solusi dari pemerintah untuk menciptakan produk pengganti selain plastik\nSurvei menunjukkan tingginya ketidaksetujuan masyarakat terhadap kebijakan yang berlangsung secara terburu-buru\nPernyataan paling tepat mengenai data di atas adalah?",
+      "options": [
+        "Memperkuat pernyataan A",
+        "Memperlemah pernyataan A",
+        "Memperkuat pernyataan B",
+        "Memperlemah pernyataan B",
+        "Tidak relevan dengan pernyataan A dan B"
+      ],
+      "correctAnswer": "Memperkuat pernyataan B",
+      "explanation": null
+    },
+    {
+      "text": "Diantara ke lima siswa tersebut, siswa mana yang paling berprestasi?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Diantara ke lima siswa tersebut, siswa mana yang paling tidak berprestasi?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "Diantara ke lima siswa tersebut, siswa mana yang berada di urutan ke 2 berprestasi?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Harga laptop satu tahun ini lebih mahal $25\\%$ daripada harga laptop tahun lalu. Apabila harga laptop satu tahun yang lalu adalah Rp6.000.000,00, berapakah harga laptop saat ini?",
+      "options": [
+        "Rp7.200.000,00",
+        "Rp6.750.000,00",
+        "Rp7.500.000,00",
+        "Rp8.000.000,00",
+        "Rp7.000.000,00"
+      ],
+      "correctAnswer": "Rp7.500.000,00",
+      "explanation": null
+    },
+    {
+      "text": "Di sebuah toko, harga 3 tas dan 2 dompet adalah Rp30.000,00, sedangkan harga 5 tas dan 1 dompet adalah Rp36.000,00. Berapakah harga 1 tas ditambah 1 dompet?",
+      "options": [
+        "Rp12.000,00",
+        "Rp14.000,00",
+        "Rp10.000,00",
+        "Rp15.000,00",
+        "Rp13.000,00"
+      ],
+      "correctAnswer": "Rp12.000,00",
+      "explanation": null
+    },
+    {
+      "text": "Di sebuah toko, harga 2 buku dan 3 pensil adalah Rp17.000,00, sedangkan harga 4 buku dan 1 pensil adalah Rp19.000,00. Berapakah harga 1 buku ditambah 2 pensil?",
+      "options": [
+        "Rp14.000,00",
+        "Rp12.000,00",
+        "Rp10.000,00",
+        "Rp11.000,00",
+        "Rp16.000,00"
+      ],
+      "correctAnswer": "Rp10.000,00",
+      "explanation": null
+    },
+    {
+      "text": "$2.048, 512, 256, 64, \\dots, 8, 4$\nBerapa nilai yang tepat untuk mengisi barisan tersebut?",
+      "options": [
+        "32",
+        "24",
+        "16",
+        "10",
+        "9"
+      ],
+      "correctAnswer": "32",
+      "explanation": null
+    },
+    {
+      "text": "Rina menjual laptop seharga Rp7.650.000 dan mengalami kerugian sebesar $20\\%$. Harga awal laptop tersebut adalah?",
+      "options": [
+        "Rp9.000.000,00",
+        "Rp9.500.000,00",
+        "Rp9.550.000,00",
+        "Rp9.562.500,00",
+        "Rp10.000.000,00"
+      ],
+      "correctAnswer": "Rp9.562.500,00",
+      "explanation": null
+    },
+    {
+      "text": "$3, 12, 7, 9, 11, 6, 15, 3, x, y$\nBerdasarkan pola bilangan di atas, berapakah hasil $x + y$?",
+      "options": [
+        "21",
+        "19",
+        "17",
+        "23",
+        "20"
+      ],
+      "correctAnswer": "19",
+      "explanation": null
+    },
+    {
+      "text": "$12, 14, 16, 18, 20, 22, x$\nBerdasarkan pola bilangan di atas, berapakah hasil $x$?",
+      "options": [
+        "21",
+        "24",
+        "20",
+        "23",
+        "20"
+      ],
+      "correctAnswer": "24",
+      "explanation": null
+    }
+  ]
+}

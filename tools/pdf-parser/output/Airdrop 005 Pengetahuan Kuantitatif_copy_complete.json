@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Bentuk yang ekuivalen dengan ekspresi $3(x + 5) - 6$ adalah ....",
+      "options": [
+        "3x - 1",
+        "3x - 3",
+        "3x + 9",
+        "15x - 6",
+        "6x - 9"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Solusi $(x, y)$ dari sistem persamaan berikut: \\\\ $\\begin{cases} x = y - 3 \\\\ x^2 + 2y = 6 \\end{cases}$ \\\\ adalah ....",
+      "options": [
+        "(-3, 0)",
+        "(0, 3)",
+        "(6, -3)",
+        "(36, -6)",
+        "(-3, 6)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Misalkan $n$ adalah sebuah bilangan bulat sehingga $n^3$ bernilai 12 lebih besar dari $n^2$. Nilai dari $n$ adalah ....",
+      "options": [
+        "-72",
+        "-36",
+        "-24",
+        "24",
+        "72"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berikut bentuk yang ekuivalen dengan ekspresi $x^2 + 6x + 4$ di atas adalah ....",
+      "options": [
+        "(x + 3)^2 + 5",
+        "(x + 3)^2 - 5",
+        "(x - 3)^2 + 5",
+        "(x - 3)^2 - 5",
+        "(x - 3)^2 + 3"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ekspresi $\\frac{1}{3}x^2 - 2$ dapat dituliskan dalam bentuk $\\frac{1}{3}(x - k)(x + k)$, dimana $k$ adalah konstanta. Nilai dari $k^2$ adalah ....",
+      "options": [
+        "2^2",
+        "6^2",
+        "2",
+        "6",
+        "(\\sqrt{6}^3)^2"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui barisan aritmatika dengan $U_5 = 17$ dan $U_{10} = 32$. Suku ke-20 adalah ....",
+      "options": [
+        "57",
+        "62",
+        "67",
+        "72",
+        "77"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jumlah $n$ suku pertama deret aritmatika dinyatakan dengan $S_n = \\frac{5}{2}n^2 + \\frac{3}{2}n$. Suku ke-10 dari deret aritmatika tersebut adalah ....",
+      "options": [
+        "49",
+        "47,5",
+        "35",
+        "33,5",
+        "29"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kurva $y = ax^2 + 2x + 1$ dengan $a \\neq 0$ memotong sumbu-$x$ di dua titik berbeda. Pernyataan berikut yang pasti benar adalah ....",
+      "options": [
+        "a < 1",
+        "6a < 1",
+        "a > 1",
+        "3a > 1",
+        "3a > 2"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui fungsi $f(x) = x^2 + bx + b$ untuk semua nilai $b$ selalu melewati satu titik yaitu titik $(p, q)$. Hasil dari $p + q$ adalah ....",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "4",
+        "6"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Grafik $g$ dan $f$ adalah garis lurus seperti pada gambar di atas. Jika $f(4) = a$, maka nilai dari $g(a)$ adalah ....",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui $f(x) = ax^2$ dan $g(x) = bx^4$ untuk semua nilai $x$. Jika $a$ dan $b$ adalah konstanta positif bukan nol. Nilai bilangan bulat $x$ yang memenuhi $f(x) = g(x)$ adalah \\\\ 1) $\\sqrt{\\frac{a}{b}}$ \\\\ 2) $1$ \\\\ 3) $-\\sqrt{\\frac{a}{b}}$ \\\\ 4) $0$ \\\\ Pernyataan yang benar adalah ....",
+      "options": [
+        "1, 2, dan 3 benar",
+        "2 dan 3 benar",
+        "1 dan 3 benar",
+        "Hanya 4 benar",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan persamaan berikut! $(2x - 1)^2 = (x + 2)^2$ \\\\ P: Jumlah solusi persamaan \\\\ Q: $\\frac{20}{7}$ \\\\ Pernyataan yang benar di bawah ini adalah ....",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "2P = 3Q",
+        "Tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diberikan persamaan kuadrat $ax^2 - 4x + c = 0$ dimana $a$ dan $c$ adalah konstanta dan tidak memiliki solusi real. Hasil kali $ac > m$. Nilai terkecil $m$ yang memenuhi adalah ....",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "12",
+        "20"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Untuk bilangan bulat $a$ dan $b$, dimana $a > 0$ dan $b \\ge 0$. Misalkan operasi $\\forall$ didefinisikan sebagai $a \\forall b = \\frac{a^b}{a^{-1}}$. Nilai berikut yang dapat menjadi hasil dari $a \\forall b$ adalah \\\\ 1) $a^b \\cdot a^{-1}$ \\\\ 2) $0$ \\\\ 3) $1$ \\\\ Pernyataan yang benar adalah ....",
+      "options": [
+        "Hanya (1) benar",
+        "Hanya (2) benar",
+        "(2) dan (3) benar",
+        "(1) dan (3) benar",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Titik dengan koordinat $(a, 3)$ terletak pada garis yang melewati titik $(0, 2)$ dan $(2, 1)$. Nilai dari $a^2$ adalah ....",
+      "options": [
+        "-2",
+        "-4",
+        "2",
+        "4",
+        "8"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

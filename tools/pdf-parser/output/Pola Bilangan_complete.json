@@ -1,0 +1,202 @@
+{
+  "questions": [
+    {
+      "text": "What number should replace the question mark in question 1 of Exercise 1?",
+      "options": [
+        "12",
+        "15",
+        "17",
+        "18"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "What number should replace the question mark in question 2 of Exercise 1?",
+      "options": [
+        "1",
+        "-1",
+        "-2",
+        "4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "What number should replace the question mark in question 3 of Exercise 1?",
+      "options": [
+        "45",
+        "30",
+        "52",
+        "18"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "What number should replace the question mark in question 4 of Exercise 1?",
+      "options": [
+        "18",
+        "22",
+        "36",
+        "19"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "What number should replace the question mark in question 5 of Exercise 1?",
+      "options": [
+        "216",
+        "316",
+        "117",
+        "215"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "What number should replace the question mark in question 6 of Exercise 1?",
+      "options": [
+        "336",
+        "210",
+        "49",
+        "52"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Which two numbers, one in the top rectangle and one in the bottom rectangle, are the odd ones out?",
+      "options": [
+        "5827 and 1826",
+        "6483 and 8346",
+        "3816 and 6813",
+        "6127 and 7621"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "What numbers should replace the question mark?",
+      "options": [
+        "4, 2 and 12",
+        "5, 11 and 17",
+        "10, 9 and 4",
+        "5, 3 and 2"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Find the missing option from the given figures.",
+      "options": [
+        "Option 1",
+        "Option 2",
+        "Option 3",
+        "Option 4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Find the missing number indicated by the question mark in the figure.",
+      "options": [
+        "18",
+        "17",
+        "19",
+        "12"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Find the missing number indicated by the question mark in the circle.",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "10"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "In each of the following questions, a matrix of certain characters is given. These characters follows a certain trend, row-wise or column-wise. Find out this trend and choose the missing character from the given alternatives.\n$$\\begin{matrix} 5 & 9 & 8 & 7 \\\\ 8 & 6 & 9 & 10 \\\\ 7 & 13 & ? & 19 \\\\ 5 & 7 & 8 & 9 \\\\ \\end{matrix}$$",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "15"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Find the missing number in the matrix:\n$$\\begin{matrix} 23 & 529 & 1024 \\\\ 21 & 441 & 144 \\\\ 19 & 361 & ? \\\\ \\end{matrix}$$",
+      "options": [
+        "1441",
+        "3529",
+        "8281",
+        "9361"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Find the missing number in the matrix:\n$$\\begin{matrix} 72 & 24 & 6 \\\\ 96 & 16 & 12 \\\\ 108 & ? & 18 \\\\ \\end{matrix}$$",
+      "options": [
+        "12",
+        "16",
+        "18",
+        "20"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "In each of the questions, there is some relationship according to some rule between the letters and numerals given in each row. Find the rule in each case and then choose the correct alternative from among the four alternatives given under it satisfying the same rule to fill in the vacant places in the third row.\n$$\\begin{matrix} \\text{FJ} & 25 & 16 & \\text{NS} \\\\ \\text{LZ} & 25 & 196 & \\text{SX} \\\\ \\text{NQ} & ? & ? & \\text{WY} \\\\ \\end{matrix}$$",
+      "options": [
+        "4, 9",
+        "9, 4",
+        "4, 10",
+        "9, 5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Find the value of $X$ in the following figure:\n$$\\begin{matrix} 15 & \\\\ & 33 & 4 \\\\ & 27 & 2 \\\\ & 36 & 2 \\\\ & 32 & X & 8 \\\\ & 18 & 9 \\\\ & 22 & 11 \\\\ & 12 & 3 \\\\ \\end{matrix}$$",
+      "options": [
+        "3",
+        "4",
+        "8",
+        "12"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Find the missing character in each of the following questions.\n$$\\text{Triangle figures with numbers}$$",
+      "options": [
+        "14",
+        "22",
+        "32",
+        "320"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Find the missing character in the table:\n$$\\begin{matrix} \\text{3C} & \\text{27D} & \\text{9E} \\\\ \\text{7I} & \\text{21K} & \\text{3M} \\\\ \\text{4D} & ? & \\text{7J} \\\\ \\end{matrix}$$",
+      "options": [
+        "11E",
+        "28G",
+        "35L",
+        "48F"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "E, D, B, F, F, E, G, H, \\dots, \\dots",
+      "options": [
+        "H, I",
+        "H, K",
+        "I, I",
+        "H, H",
+        "I, J"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "224, 170, 120, 82, 48, 26, \\dots",
+      "options": [
+        "20",
+        "17",
+        "13",
+        "11",
+        "8"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Alisha membagikan kue pia kepada 5 orang adiknya. Semakin muda usia anak, semakin banyak kue pia yang akan diberikan. Jika banyak kue yang diterima adik kedua 11 buah dan adik keempat 19 buah, maka jumlah seluruh kue adalah \\dots",
+      "options": [
+        "60",
+        "55",
+        "80",
+        "75",
+        "85"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Silvia menjatuhkan bola dari lantai 2 sebuah bangunan dengan ketinggian 2 m, dan memantul kembali dengan ketinggian 4/5 kali dari tinggi sebelumnya. Bola itu memantul hingga akhirnya berhenti. Berapakah panjang lintasan bola \\dots",
+      "options": [
+        "64 m",
+        "96 m",
+        "120 m",
+        "180 m",
+        "196 m"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "\\dots, 18, 38, 78, 9, 19, 39, \\dots",
+      "options": [
+        "8 dan 79",
+        "8 dan 86",
+        "9 dan 79",
+        "9 dan 86",
+        "9 dan 89"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Deret selanjurnya dari 13, 22, 30, 37, 43, \\dots",
+      "options": [
+        "48",
+        "54",
+        "57",
+        "62",
+        "64"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "6, 9, 15, 24, 39, 63, 102, \\dots",
+      "options": [
+        "120",
+        "145",
+        "165",
+        "176",
+        "186"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "C, F, D, B, D, B, A, \\dots",
+      "options": [
+        "A",
+        "B",
+        "D",
+        "F",
+        "H"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "C, D, O, E, F, P, G, \\dots",
+      "options": [
+        "Q",
+        "H",
+        "I",
+        "L",
+        "B"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "4, 9, \\dots, 39, 79, 159, 319, 639, 1279",
+      "options": [
+        "16",
+        "19",
+        "21",
+        "29",
+        "36"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "3, 8, 18, \\dots, 78, 4, 9, \\dots, 39",
+      "options": [
+        "30 dan 36",
+        "36 dan 38",
+        "38 dan 19",
+        "42 dan 28",
+        "54 dan 34"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "7, 5, 11, 6, 13, 9, 17, 10, 19, \\dots, \\dots",
+      "options": [
+        "11, 22",
+        "11, 23",
+        "13, 23",
+        "13, 22",
+        "14, 23"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "H, I, M, N, R, S, \\dots, \\dots",
+      "options": [
+        "S, W",
+        "Y, Z",
+        "W, X",
+        "W, Z",
+        "V, X"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "1500, 1000, 2000, 6000, 4000, \\dots, \\dots",
+      "options": [
+        "12000, 16000",
+        "8000, 20000",
+        "12000, 20000",
+        "8000, 24000",
+        "16000, 18000"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "7, 13, 24, 45, 86, \\dots",
+      "options": [
+        "140",
+        "165",
+        "96",
+        "167",
+        "174"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

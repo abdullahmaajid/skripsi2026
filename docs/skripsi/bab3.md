@@ -1,1040 +1,660 @@
-# BAB III. METODE TUGAS AKHIR
+# BAB III
+# METODE TUGAS AKHIR
 
 ## 3.1 Metode Penelitian
-Pada platform Lexica ini, proses pengembangan sistem dilakukan menggunakan metode ADDIE (*Analysis, Design, Development, Implementation*, dan *Evaluation*). Metode ini dipilih karena memiliki tahapan yang sistematis sehingga memudahkan proses analisis, perancangan, pengembangan, implementasi, dan evaluasi sistem. Setiap tahapan dilakukan secara terstruktur sehingga hasil pengembangan dapat dievaluasi sebelum dilanjutkan ke tahap berikutnya. Dengan demikian, sistem yang dihasilkan diharapkan dapat berfungsi sesuai dengan tujuan penelitian.
+Pada aplikasi simulasi Tryout UTBK SNBT ini, proses pengembangan sistem dilakukan menggunakan metode ADDIE (Analysis, Design, Development, Implementation dan Evaluation). Metode ini dipilih karena memiliki tahapan yang sistematis sehingga memudahkan proses analisis, perancangan, pengembangan, implementasi, dan evaluasi sistem. Setiap tahapan dilakukan secara terstruktur sehingga hasil pengembangan dapat dievaluasi sebelum dilanjutkan ke tahap berikutnya. Dengan demikian, sistem yang dihasilkan diharapkan dapat berfungsi sesuai dengan tujuan penelitian.
 
-*Gambar 3.1 Metode Penelitian ADDIE*
-```mermaid
-flowchart LR
-    A([Analysis]) --> D1([Design])
-    D1 --> D2([Development])
-    D2 --> I([Implementation])
-    I --> E([Evaluation])
-
-    style A fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#0d47a1
-    style D1 fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#0d47a1
-    style D2 fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#0d47a1
-    style I fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#0d47a1
-    style E fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#0d47a1
-```
+Gambar 3.1 Metode Pengembangan ADDIE
 
 Berdasarkan Gambar 3.1, tahapan yang dilakukan dalam pengembangan sistem adalah sebagai berikut:
 1. **Analysis (Analisis Kebutuhan)**
-   Pada tahap ini, penulis menentukan fitur-fitur pada sistem sesuai dengan rumusan masalah yang telah ditentukan. Prosesnya meliputi pengumpulan data, analisis kebutuhan pengguna, serta penentuan kebutuhan sistem, baik kebutuhan fungsional maupun kebutuhan non-fungsional. Tahapan analisis dilakukan secara menyeluruh agar sistem yang dikembangkan dapat berjalan sesuai dengan tujuan penelitian.
+Pada tahap ini, penulis menentukan fitur-fitur pada sistem sesuai dengan rumusan masalah yang telah ditentukan. Prosesnya meliputi pengumpulan data, analisis kebutuhan pengguna, serta penentuan kebutuhan sistem, baik kebutuhan fungsional, maupun kebutuhan non-fungsional. Tahapan analisis dilakukan secara menyeluruh agar sistem yang dikembangkan dapat berjalan sesuai dengan tujuan penelitian.
+
 2. **Design System (Desain Sistem)**
-   Tahapan berikutnya merancang sistem yang akan dikembangkan. Perancangan ini dibuat menggunakan *Unified Modeling Language* (UML), seperti *Use Case Diagram*, *Activity Diagram*, dan perancangan basis data. Perancangan ini dirancang untuk menggambarkan bagaimana pengguna (siswa dan superadmin) dapat berinteraksi dengan sistem. Selain itu, dalam tahap ini juga dirancang struktur basis data serta tampilan antarmuka agar platform Lexica mudah digunakan.
+Tahapan berikutnya merancang sistem yang akan dikembangkan. Perancangan ini dibuat menggunakan *Unified Modeling Language* (UML), seperti *Use Case Diagram*, *Activity Diagram*, dan Perancangan Basis Data. Perancangan ini dirancang untuk menggambarkan bagaimana pengguna (Siswa dan Admin) dapat berinteraksi dengan sistem. Selain itu, dalam tahap ini juga dirancang struktur basis data serta tampilan antarmuka agar sistem Tryout mudah digunakan.
+
 3. **Development (Pengembangan)**
-   Pada tahapan ini, rancangan sistem yang telah dibuat sebelumnya diterapkan ke dalam bentuk kode program. Proses pengembangannya meliputi pembuatan logika di bagian *backend*, pengelolaan basis data menggunakan ORM (Prisma), serta pembuatan *frontend* yang interaktif agar sistem dapat berjalan dengan baik dan responsif menggunakan kerangka kerja Next.js.
+Pada tahapan ini, rancangan sistem yang telah dibuat sebelumnya diterapkan ke dalam bentuk kode program. Proses pengembangannya meliputi pembuatan logika di bagian *backend*, pengelolaan basis data, serta pembuatan *frontend* yang interaktif agar sistem dapat berjalan dengan baik dan pengguna dapat mengaksesnya dengan mudah.
+
 4. **Implementation (Implementasi)**
-   Pada tahapan ini, sistem yang telah dikembangkan di-*deploy* ke layanan peladen awan (*cloud serverless*) dan digunakan sesuai dengan skenario yang telah dirancang. Selanjutnya dilakukan pengujian oleh responden sesuai dengan perannya, yaitu siswa dan superadmin, untuk memastikan seluruh fitur dapat digunakan dengan baik sebelum dilakukan evaluasi.
+Pada tahap ini, sistem yang telah selesai dibangun mulai diterapkan ke lingkungan yang sebenarnya agar dapat diakses dan digunakan oleh pengguna. Proses ini meliputi instalasi dan konfigurasi sistem, migrasi basis data, serta pengaturan *environment*, termasuk konfigurasi API key untuk Groq dan OpenRouter. Selain itu, dilakukan pula pengenalan sistem kepada calon pengguna, yaitu Siswa dan Admin, agar mereka memahami cara mengakses dan menggunakan fitur-fitur sesuai dengan perannya masing-masing. Tahap ini menjadi penghubung antara sistem yang telah selesai dikembangkan dengan tahap evaluasi, karena sistem yang telah diimplementasikan tersebut akan langsung digunakan oleh responden sebelum masuk ke pengujian pada tahap berikutnya.
+
 5. **Evaluation (Evaluasi)**
-   Pada tahap ini dilakukan evaluasi terhadap sistem yang telah dikembangkan melalui beberapa jenis pengujian, yaitu:
-   * **Black-Box & Performance Testing:** Pengujian dilakukan untuk memastikan seluruh fungsi sistem berjalan sesuai dengan kebutuhan yang telah ditentukan. Pengujian mencakup fitur autentikasi, pengelolaan bank soal, Mode Belajar, Mode Ujian, AI Tutor, *Learning Analytics*, dan *Learning Path*. Selain itu, dilakukan *stress testing* (menggunakan Autocannon) untuk menguji ketahanan batas beban server (*throughput* dan *latency*).
-   * **System Usability Scale (SUS):** Pengujian dilakukan untuk mengukur tingkat kemudahan penggunaan (*usability*) sistem berdasarkan penilaian responden yang terdiri atas siswa dan superadmin.
-   * **Penetration Testing:** Pengujian keamanan dilakukan menggunakan OWASP ZAP untuk mengidentifikasi potensi kerentanan pada aplikasi *web*, seperti kesalahan konfigurasi keamanan, kelemahan autentikasi, *missing security headers*, serta potensi kerentanan lainnya. Hasil pengujian digunakan sebagai dasar evaluasi dan perbaikan keamanan sistem sebelum aplikasi digunakan.
+Pada tahap ini dilakukan evaluasi terhadap sistem yang telah dikembangkan melalui beberapa jenis pengujian, yaitu:
+   **a. Black-Box Testing**
+   Pengujian dilakukan untuk memastikan seluruh fungsi sistem berjalan sesuai dengan kebutuhan yang telah ditentukan. Pengujian mencakup fitur autentikasi, pengelolaan bank soal, Mode Belajar, Mode Tryout, AI Tutor, *Learning Analytics*, *Personal Plan*, serta proses impor soal dari dokumen Excel.
+   **b. System Usability Scale (SUS)**
+   Pengujian dilakukan untuk mengukur tingkat kemudahan penggunaan (*usability*) sistem berdasarkan penilaian responden yang terdiri atas Siswa dan Admin.
+   **c. Penetration Testing**
+   Pengujian keamanan dilakukan menggunakan OWASP ZAP untuk mengidentifikasi potensi kerentanan pada aplikasi web, seperti kesalahan konfigurasi keamanan, kelemahan autentikasi, *missing security headers*, serta potensi kerentanan lainnya. Hasil pengujian digunakan sebagai dasar evaluasi dan perbaikan keamanan sistem sebelum aplikasi digunakan.
 
-## 3.2 Requirement Analysis (Analisis Kebutuhan)
-Analisis kebutuhan sistem dilakukan melalui studi literatur dan analisis terhadap platform persiapan UTBK sejenis yang telah tersedia. Hasil analisis tersebut digunakan sebagai dasar dalam menyusun kebutuhan fungsional dan non-fungsional yang akan diimplementasikan pada aplikasi sehingga sistem yang dikembangkan sesuai dengan tujuan penelitian.
-
-Pada tahap ini, kebutuhan sistem terbagi menjadi dua jenis, yaitu kebutuhan fungsional dan kebutuhan non-fungsional. Kebutuhan tersebut disusun berdasarkan fitur dan spesifikasi *Intelligent Tutoring System* (ITS) yang dikembangkan.
+## 3.2 Requirement Analysis
+Sebagai tahap awal dari model pengembangan ADDIE, dilakukan analisis kebutuhan sistem melalui studi literatur dan pengamatan terhadap platform Tryout yang sudah ada. Hasil analisis ini menjadi dasar dalam merumuskan kebutuhan sistem, yang nantinya diterapkan pada aplikasi agar sistem yang dibangun sejalan dengan tujuan penelitian. Kebutuhan sistem tersebut terbagi menjadi dua jenis, yaitu kebutuhan fungsional dan kebutuhan non-fungsional, yang disusun berdasarkan fitur dan spesifikasi *Intelligent Tutoring System* (ITS) yang dikembangkan.
 
 ### 3.2.1 Kebutuhan Fungsional
 
-**Aktor: Siswa**
-*Tabel 3.1 Kebutuhan Fungsional Siswa*
-
+**1. Aktor: Siswa**
+Tabel 3.1 Kebutuhan Fungsional Siswa
 | No. | Kebutuhan Fungsional |
 |---|---|
-| 1 | Siswa dapat melakukan registrasi dan *login* ke dalam sistem menggunakan kredensial email dan kata sandi. |
-| 2 | Siswa dapat mengatur target jurusan Perguruan Tinggi Negeri (PTN) sebagai dasar perencanaan pembelajaran dan proyeksi peluang. |
-| 3 | Siswa dapat melihat *dashboard* yang menampilkan capaian *Learning Overview*, proyeksi peluang lulus, target harian, peringkat pesaing (*leaderboard*), Top 3 kelemahan mapel, dan rekomendasi AI. |
-| 4 | Siswa dapat menjelajahi *Learning Path* (Rute Belajar) yang diurutkan secara adaptif berdasarkan skor mata pelajaran terlemah dan bab dengan status "Butuh Perhatian". |
-| 5 | Siswa dapat mengerjakan simulasi ujian yang terdiri dari Uji Diagnostik Awal, Try Out Standar, dan Try Out Adaptif yang dilengkapi pewaktu (*timer*), navigasi soal, dan penilaian berbasis IRT. |
-| 6 | Siswa dapat memulai sesi Mode Belajar (Latihan Bab) mandiri dengan bantuan AI Tutor yang membatasi jumlah percobaan dan memberikan *hint* Socratic saat terjadi kesalahan. |
-| 7 | Siswa dapat melihat analitik dan evaluasi yang mencakup Rapor & Tren Skor, daftar "Bank Soal Salah" (untuk dibahas kembali bersama AI), serta detail *Chancing Engine* (estimasi peluang kelulusan dan rekomendasi jurusan alternatif). |
-| 8 | Siswa dapat mengakses *Ruang Tutor AI* untuk menanyakan soal eksternal dari sekolah/bimbel lain atau membahas kembali soal dari arsip Lexica secara interaktif. |
-| 9 | Siswa dapat melihat riwayat *try out* dan mengevaluasi hasil ujian pasca-pengerjaan. |
-| 10 | Siswa dapat mengelola profil dan mengubah informasi akun melalui halaman Pengaturan. |
+| 1 | Siswa dapat melakukan registrasi dan *login* ke dalam sistem, termasuk menggunakan akun Google (*Google Sign-In*). |
+| 2 | Siswa dapat melakukan proses lupa *password* dan memperbarui *password* melalui *email*. |
+| 3 | Siswa dapat mengatur target nilai belajar, universitas impian, jurusan, dan target harian sebagai dasar perencanaan pembelajaran. |
+| 4 | Siswa dapat melihat *personal plan* dan prioritas materi berdasarkan hasil penguasaan materi yang tersimpan pada sistem. |
+| 5 | Siswa dapat mengerjakan ujian simulasi (*Tryout*) melalui halaman yang dilengkapi *timer* dan navigasi soal. |
+| 6 | Siswa dapat memulai sesi Mode Belajar dengan bantuan AI Tutor yang memberikan *hint* saat terjadi kesalahan. |
+| 7 | Siswa dapat memulai sesi Mode Tryout tanpa bantuan AI Tutor. |
+| 8 | Siswa dapat melihat *dashboard* analitik pembelajaran yang menampilkan statistik belajar, progres, tren nilai, status penguasaan materi, dan rekomendasi belajar. |
+| 9 | Siswa dapat melihat hasil ujian lengkap dengan AI Study Report. |
+| 10 | Siswa dapat melihat riwayat pembelajaran dari seluruh aktivitas pengerjaan ujian dan latihan yang pernah dilakukan. |
+| 11 | Siswa dapat mengelola data profil akun dan mengubah *password*. |
 
-**Aktor: Superadmin**
-*Tabel 3.2 Kebutuhan Fungsional Superadmin*
-
+**2. Aktor: Admin**
+Tabel 3.2 Kebutuhan Fungsional Admin
 | No. | Kebutuhan Fungsional |
 |---|---|
-| 1 | Superadmin dapat melakukan *login* ke dalam sistem. |
-| 2 | Superadmin dapat melihat *dashboard* utama (Panel Kontrol Admin) yang menampilkan rekapitulasi data total siswa, soal, prodi, dan simulasi *try out* yang dikerjakan. |
-| 3 | Superadmin dapat mengelola Bank Soal & Kurikulum, mencakup manajemen Mata Pelajaran, Bab (beserta Rangkuman Materi), dan Soal (termasuk bobot IRT) dengan fitur pencarian. |
-| 4 | Superadmin dapat mengelola data pengguna (Manajemen User), mengubah hak akses (*role*), dan memantau estimasi kemampuan IRT ($\theta$) siswa. |
-| 5 | Superadmin dapat mengelola data Universitas dan Program Studi (PTN) beserta informasi daya tampung kuota dan estimasi skor kelulusan. |
-| 6 | Superadmin dapat mengelola paket ujian (Manajemen Tryout), termasuk mengatur *subtes* ujian dan durasi waktu simulasi. |
-| 7 | Superadmin dapat melihat laporan Statistik Platform yang mencakup grafik aktivitas, distribusi skor, evaluasi performa subtes, dan daftar soal yang paling sering salah. |
+| 1 | Admin dapat *login* ke dalam sistem. |
+| 2 | Admin dapat melihat *dashboard* admin yang menampilkan informasi mengenai jumlah siswa, mata pelajaran, dan ujian yang tersedia di dalam sistem. |
+| 3 | Admin dapat mengelola mata pelajaran (Subject). |
+| 4 | Admin dapat mengelola topik materi (Chapter) sebagai pengelompokan bank soal pada setiap mata pelajaran. |
+| 5 | Admin dapat mengelola bank soal, terutama mengimpor soal dari file Excel, mengunggah media pendukung, serta menyaring soal berdasarkan mata pelajaran. |
+| 6 | Admin dapat memantau hasil sesi belajar dan hasil ujian yang dikerjakan oleh siswa secara keseluruhan. |
+| 7 | Admin dapat mengelola data pengguna, mengatur peran (*role*) pengguna, serta mengonfigurasi pengaturan sistem (batas *token*, akses, dll). |
 
-**Kebutuhan Sistem Secara Umum**
-*Tabel 3.3 Kebutuhan Fungsional Sistem*
-
+**3. Kebutuhan Fungsional Sistem**
+Tabel 3.3 Kebutuhan Fungsional Sistem
 | No. | Kebutuhan Fungsional |
 |---|---|
-| 1 | Sistem dapat memeriksa dan menilai jawaban ujian menggunakan algoritma pembobotan *Item Response Theory* (IRT) layaknya ujian SNBT asli untuk menghasilkan skor akhir. |
-| 2 | Sistem dapat menampilkan simbol maupun rumus matematika menggunakan format LaTeX secara *real-time*. |
-| 3 | Sistem dapat memberikan bantuan pembelajaran secara adaptif pada Mode Belajar, berupa AI Hint, AI Feedback, serta pembatasan jumlah percobaan menjawab (maksimal 2 kali percobaan). |
-| 4 | Sistem menyediakan antarmuka *chat* AI Tutor yang bersifat modular dan global sehingga dapat diakses oleh siswa di berbagai halaman (*Dashboard*, *Learning Path*, Analitik, dll), kecuali pada saat pengerjaan Mode Ujian (*Try Out*). |
-| 5 | Sistem dapat menghitung peluang kelulusan (*Chancing Engine*) secara algoritmis berdasarkan skor siswa dan tingkat keketatan prodi tujuan, serta memberikan rekomendasi prodi alternatif (sebagai tantangan atau pilihan aman). |
-| 6 | Sistem dapat menyusun *Learning Path* dengan memberikan bobot ekstra pada mata pelajaran krusial sesuai rumpun jurusan (Saintek/Soshum) dan memprioritaskan bab yang berstatus "Butuh Perhatian". |
+| 1 | Sistem dapat memeriksa dan menilai jawaban pilihan ganda secara otomatis berdasarkan kunci jawaban yang tersedia. |
+| 2 | Sistem dapat menyimpan dan menampilkan simbol maupun ekspresi matematika menggunakan karakter standar Unicode dan notasi aljabar berbasis teks (LaTeX/KaTeX). |
+| 3 | Sistem dapat memberikan bantuan pembelajaran secara adaptif pada Mode Belajar, berupa AI Hint, AI Feedback, serta pembatasan jumlah percobaan menjawab (*scaffolding*). |
+| 4 | Sistem dapat menghitung skor akhir berdasarkan hasil *Pre-Test*, *Main-Test*, dan *Post-Test* sesuai dengan bobot yang telah ditentukan. |
+| 5 | Sistem dapat menghasilkan AI Personal Study Report setelah siswa menyelesaikan sesi belajar. |
+| 6 | Sistem dapat menyusun *Personal Plan* dan menentukan prioritas belajar berdasarkan hasil nilai yang diperoleh siswa melalui *Chancing Engine*. |
 | 7 | Sistem dapat memperbarui tingkat penguasaan materi (*Mastery Tracking*) secara otomatis berdasarkan hasil pengerjaan siswa. |
+| 8 | Sistem dapat mengirimkan *email* notifikasi untuk membantu pengguna melakukan pembaruan *password*. |
 
 ### 3.2.2 Kebutuhan Non-Fungsional
-Kebutuhan non-fungsional menggambarkan kualitas sistem secara keseluruhan dan tidak dikaitkan dengan aktor tertentu, antara lain:
-1. Sistem dirancang menggunakan arsitektur *serverless* agar dapat melakukan penskalaan (*scaling*) otomatis dan melayani ratusan interaksi pengguna per detik (di atas 140 req/sec) tanpa kendala *timeout*.
-2. Sistem memanfaatkan mekanisme *edge caching* untuk mendistribusikan data statis secara instan dengan waktu muat kurang dari 20 milidetik.
-3. Sistem tetap dapat digunakan secara mandiri untuk berlatih meskipun terdapat kendala koneksi pada layanan eksternal *artificial intelligence* (melalui komponen antarmuka *Fallback Hint* pengganti *chat*).
-4. Antarmuka sistem dibuat dengan memperhatikan kemudahan penggunaan (*user-friendly*) agar setiap pengguna dapat mengoperasikan sistem dengan interaktif dan efisien.
-5. Keamanan data dijaga dengan menerapkan enkripsi kata sandi menggunakan pustaka `bcryptjs` dan proteksi sesi menggunakan standar Auth.js.
+Kebutuhan non-fungsional menggambarkan kualitas sistem secara keseluruhan dan tidak dikaitkan dengan aktor tertentu, seperti:
+a. Sistem tetap dapat digunakan dengan baik meskipun terdapat kendala pada layanan eksternal, seperti layanan *Artificial Intelligence* (AI), dengan adanya mekanisme *fallback* otomatis (dari Groq ke OpenRouter).
+b. Sistem dirancang dapat merespons setiap interaksi pengguna dengan cepat selama proses pembelajaran maupun pelaksanaan ujian (*real-time processing*).
+c. Antarmuka sistem dibuat dengan memperhatikan kemudahan penggunaan (*user-friendly*) agar setiap pengguna dapat mengoperasikan sistem dengan lebih mudah.
+d. Keamanan data dijaga dengan menerapkan metode *hashing* pada *password* sebelum disimpan ke dalam basis data serta melengkapi *Security Headers* standar.
 
 ## 3.3 Desain Sistem
-Bagian ini menjelaskan perancangan sistem yang akan dikembangkan berdasarkan hasil analisis kebutuhan yang telah dilakukan sebelumnya. Perancangan ini bertujuan untuk memberikan gambaran mengenai bagaimana sistem akan bekerja, baik dari sisi proses, pengelolaan data, maupun tampilan antarmuka yang digunakan oleh pengguna. Dalam penelitian ini, perancangan sistem dibagi menjadi beberapa pendekatan utama, yaitu:
+Bagian ini menjelaskan perancangan sistem yang akan dikembangkan berdasarkan hasil analisis kebutuhan yang telah dilakukan sebelumnya. Perancangan ini bertujuan untuk memberikan gambaran mengenai bagaimana sistem akan bekerja, baik dari sisi proses, pengelolaan data, maupun tampilan antarmuka yang digunakan oleh pengguna. Dalam penelitian, perancangan sistem dibagi menjadi 4 pendekatan utama, yaitu:
 
-### 3.3.1 Pemodelan Sistem dengan Unified Modeling Language (UML)
-Pada tahapan perancangan, penulis menggunakan pendekatan berbasis objek dengan *Unified Modeling Language* (UML). UML dipakai untuk menggambarkan dan mendokumentasikan alur kerja *Intelligent Tutoring System* (ITS) ini berjalan. Beberapa diagram UML yang digunakan antara lain:
-1. **Use Case Diagram:** digunakan untuk menggambarkan hubungan antara pengguna dengan sistem yang dibuat. Diagram ini menunjukkan fitur-fitur yang dapat digunakan oleh pengguna serta interaksi yang terjadi di dalam sistem.
-2. **Activity Diagram:** digunakan untuk menjelaskan alur proses yang berjalan di dalam sistem. Diagram ini membantu menggambarkan urutan aktivitas pengguna, mulai dari awal hingga akhir proses. Dalam penelitian ini, Activity Diagram digunakan untuk menggambarkan proses *login*, proses pengerjaan soal, hingga proses sistem memberikan hasil evaluasi kepada pengguna.
+**1. Pemodelan Sistem dengan Unified Modeling Language (UML)**
+Pada tahapan perancangan, penulis menggunakan pendekatan berbasis objek menggunakan *Unified Modeling Language* (UML). UML dipakai untuk menggambarkan dan mendokumentasikan alur kerja *Intelligent Tutoring System* (ITS) ini berjalan. Beberapa diagram UML yang digunakan antara lain:
+a. **Use Case Diagram**
+Use Case Diagram digunakan untuk menggambarkan hubungan antara pengguna dengan sistem yang dibuat. Use Case diagram ini menunjukkan fitur-fitur yang dapat digunakan oleh pengguna serta interaksi yang terjadi di dalam sistem.
+b. **Activity Diagram**
+Activity Diagram digunakan untuk menjelaskan alur proses yang berjalan di dalam sistem. Diagram ini membantu menggambarkan urutan aktivitas pengguna, mulai dari awal hingga akhir proses. Dalam penelitian ini, Activity Diagram digunakan untuk menggambarkan proses Login, proses pengerjaan soal, hingga proses sistem memberikan hasil evaluasi kepada pengguna.
 
-### 3.3.2 Arsitektur Sistem
-Arsitektur sistem digunakan untuk menggambarkan hubungan antar komponen utama yang membangun aplikasi. Pada penelitian ini, sistem dikembangkan menggunakan arsitektur berbasis *web* modern dengan **Next.js (App Router)** sebagai *framework full-stack* utama, **Prisma ORM** sebagai penghubung basis data, dan **PostgreSQL (Neon Serverless DB)** sebagai penyimpanan data utama. Layanan autentikasi menggunakan standar keamanan Auth.js dengan enkripsi bcryptjs.
+**2. Pendekatan Database Diagram**
+Perancangan Database dilakukan untuk menentukan struktur penyimpanan data pada sistem. Database dirancang agar data pengguna, profil siswa, target kampus, data soal, hasil pengerjaan, serta riwayat interaksi (*chat*) dengan AI Tutor dapat tersimpan dengan baik dan terorganisir di dalam *Relational Database Management System*.
 
-Selain itu, sistem juga terintegrasi dengan layanan **Groq API** sebagai penyedia *Large Language Model* (LLM) untuk memproses logika *Socratic Scaffolding*. Pemrosesan instruksi sistem (*system prompt*) dilakukan di sisi *backend* (API Route) agar API Key Groq tetap aman dan tidak terekspos ke klien.
+**3. Arsitektur Sistem**
+Arsitektur sistem digunakan untuk menggambarkan hubungan antar komponen utama yang membangun aplikasi. Pada penelitian ini, sistem dikembangkan menggunakan arsitektur berbasis *web* modern dengan **Next.js** sebagai *framework* utama, **Prisma** sebagai *Object-Relational Mapping* (ORM), serta **PostgreSQL** sebagai basis data. Selain itu, sistem juga terintegrasi dengan layanan Google OAuth 2.0 untuk proses autentikasi. Layanan **Groq API** bertindak sebagai penyedia utama *Large Language Model* (LLM), sedangkan **OpenRouter API** menjadi layanan cadangan (*Fallback*) apabila layanan utama sedang padat (*rate limit*). Perancangan arsitektur sistem bertujuan untuk memberikan gambaran mengenai alur komunikasi antar komponen sehingga proses pengolahan data dan layanan AI dapat berjalan dengan lancar secara *real-time*.
 
-*Gambar 3.2 Arsitektur Sistem*
-```mermaid
-flowchart TD
-    subgraph Client [Klien / Frontend]
-        U((Siswa / Admin)) --> UI[Browser / Web UI]
-        UI <--> State[(State Lokal: Zustand)]
-    end
+**4. Perancangan AI Tutor**
+Perancangan AI Tutor dilakukan untuk menjelaskan mekanisme kerja komponen ITS yang digunakan pada Mode Belajar. Pada bagian ini dijelaskan bagaimana AI Tutor memproses jawaban siswa, menentukan strategi bimbingan berdasarkan jumlah percobaan (*attempt count*), menyesuaikan respons menggunakan nilai *mastery*, serta menyusun *prompt* sebelum dikirimkan ke LLM. Selain itu, bagian ini juga membahas komponen pendukung seperti *Prompt Builder*, *Rule-Based Strategy Selector*, *Blind Mode Architecture*, *Mastery Tracking*, dan *Personal Plan* yang bekerja bersama untuk menghasilkan pengalaman belajar yang adaptif sesuai dengan kemampuan masing-masing siswa.
 
-    subgraph Server [Backend / API Server]
-        UI -- HTTP Request --> NextJS[Next.js App Router]
-        NextJS -- Validasi & Auth --> Auth[Auth.js]
-        NextJS <--> API[API Routes]
-    end
+### 3.3.1 Use Case Diagram
 
-    subgraph Database [Database Layer]
-        API <--> Prisma[Prisma ORM]
-        Prisma <--> DB[(PostgreSQL / Neon DB)]
-    end
+Gambar 3.2 Use Case Diagram
 
-    subgraph AI [Layanan Pihak Ketiga]
-        API -- "Prompt LLM" --> Groq[Groq API (llama-3.1-8b)]
-        Groq -- "Socratic Response" --> API
-    end
-
-    style NextJS fill:#f9f9f9,stroke:#333,stroke-width:2px
-    style Groq fill:#e1bee7,stroke:#8e24aa,stroke-width:2px
-    style DB fill:#c8e6c9,stroke:#388e3c,stroke-width:2px
-    style State fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
-```
-
-Berdasarkan Gambar 3.2, arsitektur sistem menggambarkan alur komunikasi antar komponen utama pada platform Lexica, terutama alur pemrosesan data dari sudut pandang pengguna. Pengguna (siswa dan superadmin) berinteraksi dengan aplikasi melalui peramban web (*browser*). Pada lapisan *Frontend*, aplikasi menggunakan pengelolaan *state* lokal (Zustand) untuk mengelola data sementara secara responsif, seperti antarmuka obrolan AI, *timer*, maupun perpindahan navigasi soal.
-
-Ketika pengguna melakukan tindakan (seperti mengirim jawaban ujian atau menyimpan pengaturan profil), permintaan (*request*) dikirimkan melalui protokol HTTP menuju server Next.js (lapisan *Backend*). Di sini, Auth.js akan memvalidasi sesi keamanan pengguna, lalu API Routes memproses logika bisnis terkait. Apabila data harus disimpan atau diambil secara permanen, API Routes berkomunikasi dengan PostgreSQL (Neon DB) secara efisien melalui Prisma ORM.
-
-Di sisi lain, untuk pemrosesan *Intelligent Tutoring System*, API Routes di *backend* akan menyusun instruksi (*prompt*) secara tertutup agar kredensial API Key tidak terekspos ke publik. Instruksi tersebut kemudian dikirimkan secara asinkron ke Groq API. Layanan kecerdasan buatan kemudian mengembalikan respons Sokratik yang diteruskan oleh *backend* kepada antarmuka pengguna secara *real-time*. Apabila layanan Groq API mengalami gangguan, sistem akan memicu penyangga gagal-aman (*fail-safe fallback*) di *frontend* agar siswa dapat beralih ke Mode Pembahasan Mandiri.
-
-### 3.3.3 Perancangan AI Tutor
-Perancangan AI Tutor dilakukan untuk menjelaskan mekanisme kerja komponen ITS yang digunakan pada Mode Belajar. Pada bagian ini dijelaskan bagaimana AI Tutor memproses jawaban siswa, menentukan strategi bimbingan berdasarkan jumlah percobaan (*attempt count*), serta menyusun *prompt* sebelum dikirimkan ke LLM. Selain itu, bagian ini juga membahas komponen pendukung seperti *Prompt Builder*, *Rule-Based Strategy Selector*, *Zero-Friction Context Injection*, *Mastery Tracking*, dan *Learning Path* yang bekerja bersama untuk menghasilkan pengalaman belajar yang adaptif sesuai dengan kemampuan masing-masing siswa.
-
-#### 3.3.3.1 Flowchart / Use Case AI Tutor
-AI Tutor dirancang sebagai komponen utama dalam *Intelligent Tutoring System* (ITS) yang bertugas memberikan bimbingan kepada siswa selama proses pembelajaran. Mekanisme pengoperasian AI Tutor ini digambarkan melalui sebuah alur atau *flowchart* proses pengambilan keputusan. Ketika siswa mengirimkan jawaban, sistem terlebih dahulu mengevaluasi kebenaran jawaban siswa dan mengumpulkan informasi yang dibutuhkan, seperti soal, jawaban siswa, jumlah percobaan (*attempt count*), serta kunci jawaban yang benar. Selanjutnya, kondisi jawaban digunakan oleh *Rule-Based Strategy Selector* untuk menentukan alur bimbingan yang akan diberikan secara Sokratik. Setelah itu, *Prompt Builder* menyusun instruksi (*prompt*) yang dikirimkan ke LLM (Groq API). Apabila layanan Groq API terputus, sistem akan mengalihkan ke *Fallback Hint* sebagai penyangga.
-
-*Gambar 3.3 Flowchart Proses AI Tutor*
-```mermaid
-flowchart TD
-    Start([Siswa Menjawab Soal]) --> Cek{Cek Kebenaran?}
-    Cek -- Benar --> RBenar[Beri Status 'Benar!' & Tawarkan Pembahasan AI]
-    Cek -- Salah --> CekAtpt{Cek Kesempatan}
-    
-    CekAtpt -- "Sisa 1x (Salah ke-1)" --> RHint[Beri Hint Sokratik & Potong Kesempatan]
-    CekAtpt -- "Sisa 0x (Salah ke-2)" --> RLimit[Batas Habis, Buka Evaluasi Sokratik]
-
-    RBenar --> API[Prompt Builder -> Groq API]
-    RHint --> API
-    RLimit --> API
-    
-    API --> Output([Tampilkan Respons AI ke Siswa])
-
-    style Start fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
-    style Cek fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
-    style CekAtpt fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
-    style API fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
-    style Output fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
-```
-
-#### 3.3.3.2 Prompt Builder
-*Prompt Builder* merupakan komponen yang bertugas menyusun instruksi (*prompt*) berdasarkan kondisi pembelajaran siswa. Informasi yang dimasukkan ke dalam *prompt* meliputi soal, jawaban siswa, jawaban benar, serta strategi bimbingan yang telah dipilih oleh sistem. *Prompt* kemudian dikirimkan ke LLM agar menghasilkan respons yang sesuai dengan kondisi siswa. 
-
-Untuk mendukung proses pembelajaran yang berpusat pada siswa, *Prompt Builder* menerapkan mekanisme **Zero-Friction Context Injection**. Pada mekanisme ini, kunci jawaban yang benar dikirimkan ke LLM di sisi *backend* agar AI mampu memberikan umpan balik yang sangat kontekstual dan spesifik. Namun, di sisi antarmuka (UI) klien, kunci jawaban tersebut di-*masking* menjadi `???` sehingga siswa tidak pernah melihat kunci jawaban secara langsung sebelum batas percobaan habis. Mekanisme ini mengeliminasi *extraneous cognitive load* karena siswa tidak perlu mengetik ulang soal untuk berdiskusi dengan AI.
-
-Selain itu, *Prompt Builder* juga menerima data program studi tujuan utama siswa (`targetMajor1`) dan menyisipkannya ke dalam konteks *prompt* sebagai motivasi makro, agar AI sesekali menghubungkan relevansi soal dengan cita-cita jurusan siswa.
-
-#### 3.3.3.3 Rule-Based Strategy Selector
-*Rule-Based Strategy Selector* merupakan komponen pada AI Tutor yang berfungsi menentukan strategi bimbingan bertingkat (dikelola melalui *state* `useTutorChatStore`) sebelum permintaan dikirimkan ke LLM. Komponen ini menerapkan pendekatan *rule-based system* dengan menggunakan jumlah percobaan sebagai dasar pengambilan keputusan.
-
-*Tabel 3.4 Aturan Pemilihan Strategi Bimbingan AI Tutor*
-
-| Jumlah Percobaan | Level Scaffold | Strategi Bimbingan |
-|---|---|---|
-| **Salah 1x** | SOCRATIC | AI memberikan pertanyaan pemandu (*Socratic question*) untuk memicu pemikiran kritis. Jawaban akhir tidak diberikan. |
-| **Salah 2x** (Batas percobaan habis) | SOLUTION | AI mengakhiri sesi pertanyaan karena batas percobaan habis, dan memberikan opsi pembahasan komprehensif yang terstruktur beserta kunci jawaban dibuka. |
-
-Berdasarkan Tabel 3.4, sistem menentukan strategi bimbingan berdasarkan jumlah percobaan yang dilakukan siswa. Apabila siswa melakukan kesalahan pada percobaan pertama, AI Tutor memberikan SOCRATIC (pertanyaan pemandu) sebagai petunjuk awal tanpa langsung memberikan jawaban. Jika siswa masih belum berhasil menjawab dengan benar setelah percobaan kedua (batas percobaan habis), AI Tutor akan mengakhiri sesi pengerjaan dan mempersilakan siswa mengakses pembahasan lengkap (SOLUTION). Pergantian level ini merupakan penerapan *instructional scaffolding*, yaitu pemberian bantuan yang disesuaikan dengan kondisi belajar siswa.
-
-#### 3.3.3.4 Struktur Penjelasan Level SOLUTION
-Untuk menjamin kualitas pemahaman, LLM diinstruksikan melalui *Prompt Builder* agar memberikan respons terstruktur pada level SOLUTION dalam format berikut:
-1. **Konsep yang Diuji** — identifikasi konsep atau teori inti di balik soal.
-2. **Langkah Penyelesaian** — penjelasan langkah demi langkah pemecahan soal secara logis.
-3. **Kesalahan Umum** — mengidentifikasi jebakan soal yang sering mengecoh siswa.
-4. **Soal Latihan Serupa** — satu soal buatan AI yang serupa untuk memperkuat pemahaman (*active recall*).
-
-#### 3.3.3.5 AI Hint dan AI Feedback
-AI Tutor menghasilkan dua jenis keluaran yang digunakan untuk mendukung proses pembelajaran, yaitu AI Hint dan AI Feedback. AI Hint diberikan ketika siswa masih mengalami kesulitan dalam menjawab soal pada Mode Belajar. Bentuk bantuan yang diberikan disesuaikan dengan level *scaffold* yang telah dipilih oleh *Rule-Based Strategy Selector*, yaitu berupa pertanyaan pemandu (SOCRATIC), petunjuk parsial (HINT), atau pembahasan lengkap (SOLUTION).
-
-AI Feedback diberikan setelah siswa menyelesaikan suatu soal. Umpan balik ini berisi penjelasan mengenai jawaban siswa, konsep yang digunakan, serta alasan mengapa jawaban tersebut benar atau kurang tepat sehingga siswa dapat memahami letak kesalahannya.
-
-#### 3.3.3.6 Modularitas Antarmuka AI Tutor (Global Chat Panel)
-Antarmuka *chat* AI Tutor dirancang sebagai komponen modular dan global yang dikelola menggunakan pustaka *state management* (seperti Zustand). Pendekatan ini memungkinkan panel *chat* AI untuk tetap aktif dan dapat diakses dari hampir seluruh halaman aplikasi (seperti *Dashboard*, *Learning Path*, Analitik, maupun Ruang Tutor AI) tanpa terputus ketika pengguna berpindah halaman. Fleksibilitas ini memastikan bahwa siswa dapat kapan saja berkonsultasi mengenai materi, strategi belajar, maupun evaluasi soal. Satu-satunya pengecualian adalah pada halaman pengerjaan ujian (*Try Out*), di mana komponen AI Tutor akan dikunci secara otomatis untuk menjaga integritas dan objektivitas evaluasi penilaian mandiri siswa.
-
-#### 3.3.3.7 Mastery Tracking
-*Mastery Tracking* merupakan komponen pada sistem yang berfungsi memantau tingkat penguasaan materi setiap siswa secara spesifik per bab. Sistem menggunakan tabel `ChapterProgress` pada basis data untuk mencatat status penguasaan tiap bab dengan label: Dikuasai (*mastery* ≥ 70%), Sedang Dipelajari (*mastery* > 0% tetapi < 70%), dan Belum Mulai (belum ada aktivitas). Nilai *mastery* dihitung berdasarkan akumulasi hasil pengerjaan siswa dengan persamaan berikut:
-
-$$ Mastery = \left( \frac{\text{Total Jawaban Benar}}{\text{Total Soal}} \right) \times 100\% $$
-
-Nilai *mastery* diperbarui secara otomatis setelah siswa menyelesaikan sesi latihan bab, sehingga nilai yang digunakan pada sesi berikutnya merupakan hasil akumulasi pembelajaran sebelumnya. Fitur ini terintegrasi langsung dengan *Learning Path* untuk menyusun prioritas belajar.
-
-#### 3.3.3.8 Learning Path (Rute Belajar Personal)
-*Learning Path* merupakan fitur yang memberikan rekomendasi rute materi belajar yang disesuaikan secara personal berdasarkan hasil Uji Diagnostik dan *Try Out* siswa. Tujuan dari fitur ini adalah membantu siswa menambal kekurangan pada materi yang paling lemah agar pembelajaran lebih terarah dan efisien.
-
-Untuk menentukan urutan prioritas bab, sistem menerapkan algoritma pengurutan multi-tingkat:
-1. **Pembobotan Rumpun Jurusan:** Sistem mengidentifikasi target jurusan siswa (misalnya Soshum atau Saintek) dan memberikan bobot ekstra (contoh: 1.5x) pada mata pelajaran krusial seperti Literasi Bahasa Indonesia dan Literasi Bahasa Inggris, sehingga mata pelajaran ini mendapat penekanan lebih.
-2. **Prioritas Kelemahan Mata Pelajaran:** Mata pelajaran dengan skor asli (skor ujian terkalibrasi) terendah akan ditarik secara otomatis ke urutan paling atas dari struktur *Learning Path* agar siswa fokus memperbaiki nilai terlemahnya terlebih dahulu.
-3. **Klasifikasi Status Bab:** Di dalam setiap mata pelajaran, bab diklasifikasikan dan diurutkan berdasarkan status prioritas berikut:
-   - **Butuh Perhatian (Prioritas 1):** Bab-bab yang sering dijawab salah oleh siswa pada sesi *Try Out* sebelumnya.
-   - **Belum Mulai (Prioritas 2):** Bab-bab yang belum pernah dieksplorasi atau dilatih oleh siswa.
-   - **Sedang Dipelajari / Selesai (Prioritas 3):** Bab yang sedang atau sudah dikerjakan dan mencapai ketuntasan tertentu.
-   - **Terkunci:** Bab lanjutan yang belum dapat diakses sebelum siswa menyelesaikan fondasi bab sebelumnya.
-
-Dengan mekanisme tersebut, materi yang paling menjadi kelemahan siswa (*Butuh Perhatian*) akan selalu direkomendasikan di urutan teratas, menghilangkan kebingungan siswa dalam menentukan prioritas belajar.
-
-#### 3.3.3.9 Logging dan Pemantauan Pemrosesan AI
-Sebagai langkah pengawasan sistematis, seluruh proses eksekusi agen AI (mulai dari *Prompt Builder*, penyesuaian level strategi, injeksi variabel *Zero-Friction Context*, pengiriman parameter ke Groq API, hingga *output* respons Sokratik dan latensi waktu *generate*) didokumentasikan sepenuhnya ke dalam bentuk **Log Proses AI yang tertampil secara lengkap di *Terminal Server*** (untuk kebutuhan pengembangan lokal). Selain di terminal lokal, **log web** ini juga direkam dan dapat dipantau langsung pada lingkungan *production* melalui antarmuka **Runtime Logs pada *dashboard cloud hosting*** (misalnya Vercel Logs). Keberadaan *log* di *backend server* maupun *dashboard cloud* ini memfasilitasi pihak pengembang (atau superadmin teknis) untuk melakukan pelacakan rekam jejak yang mendetail guna keperluan *debugging*, optimisasi efisiensi token, serta memastikan transparansi alur kognisi yang diproses oleh AI Tutor sebelum disajikan kepada pengguna.
-
-### 3.3.4 Use Case Diagram
-*Gambar 3.4 Use Case Diagram Sistem*
-```mermaid
-flowchart LR
-    Siswa((Siswa))
-    Admin((Superadmin))
-
-    subgraph Platform Lexica ITS
-        UC1([Login / Autentikasi])
-        UC2([Mengatur Target Jurusan])
-        UC3([Mengerjakan Learning Path & AI Tutor])
-        UC4([Mengerjakan Simulasi Ujian / Try Out])
-        UC5([Melihat Chancing & Analitik])
-        
-        UC6([Manajemen Soal & Kurikulum])
-        UC7([Manajemen Try Out])
-        UC8([Manajemen User])
-        UC9([Manajemen Universitas & Prodi])
-        UC10([Statistik Keseluruhan Platform])
-    end
-
-    Siswa --- UC1
-    Siswa --- UC2
-    Siswa --- UC3
-    Siswa --- UC4
-    Siswa --- UC5
-
-    Admin --- UC1
-    Admin --- UC6
-    Admin --- UC7
-    Admin --- UC8
-    Admin --- UC9
-    Admin --- UC10
-```
-
-Berdasarkan Gambar 3.4, dijelaskan *Use Case Diagram* yang menggambarkan fungsionalitas pada platform Lexica berbasis *Intelligent Tutoring System* (ITS). Diagram ini menunjukkan aktor yang berinteraksi dengan sistem beserta fungsi-fungsi yang dapat diakses sesuai dengan hak akses masing-masing.
+Gambar 3.2 menjelaskan *Use Case Diagram* yang menggambarkan fungsionalitas pada platform simulasi UTBK SNBT berbasis ITS. Diagram ini menunjukkan aktor yang berinteraksi dengan sistem beserta fungsi-fungsi yang dapat diakses sesuai dengan hak akses masing-masing.
 
 **1. Aktor Utama (Pengguna Sistem)**
-Terdapat 2 aktor utama yang berinteraksi dengan sistem:
-* **Siswa** — Siswa dapat melakukan autentikasi, mengatur profil dan target jurusan, mengerjakan simulasi pada Mode Belajar (didampingi AI Tutor) maupun Mode Ujian (tanpa AI), mengakses halaman analitik personal (radar, tren, evaluasi, chancing), serta mengakses halaman riwayat pembelajaran dan *Learning Path*.
-* **Superadmin** — Superadmin memiliki kendali penuh terhadap manajemen seluruh mata pelajaran, bank soal global, monitoring aktivitas seluruh pengguna, serta pengelolaan data universitas, jurusan, dan hak akses akun.
+Terdapat 2 aktor utama yang berinteraksi dengan sistem, yakni sebagai berikut:
+**a. Siswa**
+Siswa dapat melakukan autentikasi untuk mengakses fitur pembelajaran, seperti mengelola profil, melihat *dashboard*, menyusun rencana belajar (*Personal Plan*), mengerjakan simulasi pada Mode Belajar (didampingi AI Tutor) maupun Mode Tryout (tanpa bantuan AI), berdiskusi secara bebas di Ruang AI Tutor Khusus, serta melihat hasil analitik dan evaluasi (AI Study Report).
 
-**2. Relasi Include dan Extend**
-* **Relasi include:** Sebagian besar *use case* memiliki relasi *include* terhadap Login. Hal ini menunjukkan bahwa pengguna harus melakukan autentikasi terlebih dahulu sebelum dapat mengakses seluruh fitur yang tersedia pada sistem.
-* **Relasi extend:** *Use case* Logout memiliki relasi *extend* terhadap Login, yang menunjukkan bahwa pengguna dapat mengakhiri sesi penggunaan sistem setelah berhasil melakukan *login*.
+**b. Admin**
+Admin merupakan pengelola sistem yang memiliki kendali penuh terhadap manajemen konten dan pengguna. Aktivitas yang dapat dilakukan meliputi pemantauan *dashboard*, pengelolaan mata pelajaran, topik materi, bank soal (termasuk *scrape* data massal), pemantauan aktivitas siswa, pengelolaan parameter sistem (*settings*), serta pengelolaan data akun pengguna.
+
+**2. Relasi include dan extend**
+Pada Gambar 3.2, pemodelan sistem ini menekankan pembatasan akses melalui relasi *include* dan *extend* yang terpusat pada proses autentikasi.
+**a. Relasi include**
+- Relasi *include* terhadap Login: Seluruh *use case* fungsionalitas utama, baik di sisi Admin maupun Siswa wajib melalui proses Login. Hal ini menunjukkan bahwa pengguna wajib melakukan autentikasi terlebih dahulu sebelum dapat mengakses fitur-fitur tersebut.
+- Relasi *include* pada Mode Tryout/Belajar: *Use-Case* Melaksanakan Mode Belajar memiliki relasi *include* yang mengarah ke Penjelasan AI Tutor, menunjukkan bahwa fitur AI Tutor turut disertakan secara wajib dalam alur tersebut.
+**b. Relasi extend**
+*Use-case* Logout memiliki relasi *extend* terhadap Login, yang menunjukkan bahwa pengguna dapat mengakhiri sesi penggunaan sistem setelah berhasil masuk.
 
 **3. Fungsionalitas Berdasarkan Aktor**
-Fungsionalitas Siswa:
-* Mengatur target belajar dan memilih target jurusan PTN impian.
-* Melihat *dashboard* ringkasan yang mencakup *Learning Overview*, peringkat pesaing, dan top 3 kelemahan.
-* Memulai Mode Belajar (Latihan Soal per Bab) melalui *Learning Path* yang didampingi AI Tutor.
-* Mengerjakan Mode Ujian yang mencakup Uji Diagnostik Awal, Try Out Standar, dan Try Out Adaptif.
-* Melihat Analitik & Evaluasi yang mencakup fitur *Chancing Engine* (Peluang Lulus) dan Bank Soal Salah.
-* Mengakses Ruang Tutor AI untuk melakukan konsultasi mandiri terkait soal dari luar sistem atau membahas kembali soal yang sudah berlalu.
-* Mengubah informasi akun melalui fitur Pengaturan.
-
-Fungsionalitas Superadmin:
-* Melihat *dashboard* utama (Panel Kontrol Admin).
-* Mengelola Bank Soal & Kurikulum (Mata Pelajaran, Bab beserta Rangkuman Materi, dan Rincian Soal).
-* Mengelola data pengguna (Manajemen User) dan memantau nilai kemampuan IRT siswa.
-* Mengelola data Universitas & Jurusan (PTN).
-* Mengelola paket ujian (Manajemen Tryout) beserta *subtes* dan alokasi waktu.
-* Melihat laporan Statistik Platform (grafik aktivitas, distribusi skor, dan soal paling sering salah).
-
-### 3.3.5 Activity Diagram
-
-#### 3.3.5.1 Activity Diagram Umum
-
-**1. Daftar Akun Baru (Register)**
-*Gambar 3.4a Activity Diagram Register*
-```mermaid
-flowchart TD
-    A([Mulai]) --> B[Buka Halaman Daftar Akun]
-    B --> C[Isi Form: Nama Lengkap, Email, Password, Konfirmasi Password]
-    C --> D[Klik 'Buat akun gratismu']
-    D --> E{Validasi & Kecocokan Password}
-    E -- Gagal --> F[Tampilkan Pesan Error]
-    F --> C
-    E -- Berhasil --> G[Enkripsi Password & Simpan ke DB]
-    G --> H[Redirect ke Halaman Login/Dashboard]
-    H --> I([Selesai])
-```
-Proses pendaftaran dimulai ketika calon pengguna membuka halaman Daftar Akun Baru. Pengguna harus mengisi informasi esensial berupa Nama Lengkap, Email, Password, dan mengulang konfirmasi Password. Sistem akan memvalidasi kesesuaian sandi dan mengecek apakah email sudah terdaftar. Jika berhasil, sistem melakukan enkripsi dan menyimpan akun baru ke basis data.
-
-**2. Login**
-*Gambar 3.5 Activity Diagram Login*
-```mermaid
-flowchart TD
-    A([Mulai]) --> B[Buka Halaman Login]
-    B --> C[Masukkan Email & Password]
-    C --> D{Autentikasi Auth.js}
-    D -- Valid --> E[Redirect ke Dashboard]
-    D -- Tidak Valid --> F[Tampilkan Pesan Error]
-    F --> B
-    E --> G([Selesai])
-```
-Gambar 3.5 menjelaskan proses *login* pengguna ke dalam sistem. Proses dimulai ketika pengguna membuka halaman *login*, kemudian memasukkan email dan kata sandi untuk proses autentikasi. Sistem akan memverifikasi data yang dimasukkan menggunakan Auth.js. Apabila proses autentikasi berhasil, sistem akan mengarahkan pengguna ke *dashboard* sesuai dengan peran (*role*). Jika gagal, sistem akan menampilkan pesan kesalahan dan mengarahkan kembali ke halaman *login*.
-
-**2. Memperbarui Profil**
-*Gambar 3.6 Activity Diagram Memperbarui Profil*
-```mermaid
-flowchart TD
-    A([Mulai]) --> B[Buka Halaman Pengaturan]
-    B --> C[Ubah Data di Form]
-    C --> D[Klik Simpan]
-    D --> E{Validasi Data}
-    E -- Gagal --> F[Tampilkan Pesan Error]
-    F --> C
-    E -- Berhasil --> G[Update PostgreSQL]
-    G --> H[Tampilkan Notifikasi Sukses]
-    H --> I([Selesai])
-```
-Menggambarkan proses pengguna dalam memperbarui informasi akun melalui halaman Pengaturan. Sistem menyimpan data yang telah diperbarui ke dalam basis data PostgreSQL sehingga informasi profil pengguna berhasil diperbarui.
-
-#### 3.3.5.2 Activity Diagram Siswa
-Berikut adalah rincian fungsionalitas dan alur interaksi terperinci berdasarkan aktivitas aktor Siswa:
-
-**1. Activity Diagram Lihat Learning Overview**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Siswa: Memasukkan kredensial email dan kata sandi, lalu menekan tombol 'Login'.]
-    B[Sistem: Memvalidasi sesi dan mengarahkan ke halaman *Dashboard*.]
-    A --> B
-    C[Siswa: Melihat ringkasan *Learning Overview* di layar *Dashboard*.]
-    B --> C
-    C --> End([Selesai])
-```
-
-**2. Activity Diagram Lihat Learning Path**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Siswa: Melakukan *login* lalu diarahkan ke *Dashboard*.]
-    B[Siswa: Mengklik menu 'Learning Path' pada navigasi *sidebar* kanan.]
-    A --> B
-    C[Sistem: Memuat dan menampilkan hierarki rute pembelajaran yang sudah terpersonalisasi.]
-    B --> C
-    C --> End([Selesai])
-```
-
-**3. Activity Diagram Mengerjakan Latihan Bab**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A[Siswa: Masuk ke halaman *Learning Path*, memilih salah satu bab soal, lalu menekan tombol 'Jawab'.]
-    A --> B[Sistem: Mengevaluasi respons jawaban siswa.]
-    B --> C{Evaluasi Jawaban}
-    
-    C -- "Langsung Benar" --> D1[Sistem: Menampilkan status 'Benar!' beserta opsi pembahasan.]
-    D1 --> D2[AI Tutor: Menampilkan sapaan di panel obrolan.]
-    
-    C -- "Salah Sekali" --> E1[Sistem: Memunculkan notifikasi 'Kesempatan Terakhir Aktif'.]
-    E1 --> E2[AI Tutor: Memberikan *hint* panduan untuk percobaan kedua.]
-    E2 --> E3[Siswa: Menjawab ulang dengan benar.]
-    E3 --> E4[Sistem: Menampilkan status 'Benar!' beserta opsi pembahasan.]
-    E4 --> E5[AI Tutor: Menampilkan sapaan di panel obrolan.]
-    
-    C -- "Salah Dua Kali" --> F1[Sistem: Memunculkan notifikasi 'Dilewati. Batas percobaan habis.']
-    F1 --> F2[AI Tutor: Menyajikan evaluasi sokratik menyeluruh untuk mengoreksi konsep siswa.]
-    
-    D2 --> G[Siswa: Terus berinteraksi modular dengan panel obrolan AI di kanan.]
-    E5 --> G
-    F2 --> G
-    
-    G --> H[Siswa: Menyelesaikan soal dan mengklik lihat hasil.]
-    H --> I[Sistem: Menampilkan halaman rangkuman sesi beserta opsi Latihan/Pembahasan.]
-    I --> End([Selesai])
-```
-
-**4. Activity Diagram Lihat Pembahasan Dari Hasil Belajar**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Siswa: (Melanjutkan dari rekapitulasi 'Sesi Selesai!') Mengklik tombol 'Lihat Pembahasan'.]
-    B[Sistem: Menampilkan panel navigasi evaluasi soal (Review Mode).]
-    A --> B
-    C[Siswa: Dapat mengklik tombol untuk menanyakan pembahasan lebih lanjut ke AI Tutor secara modular jika diperlukan.]
-    B --> C
-    C --> End([Selesai])
-```
-
-**5. Activity Diagram Ulangi Latihan**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Siswa: (Dari laman 'Sesi Selesai!') Mengklik tombol 'Ulangi Latihan'.]
-    B[Sistem: Mengatur ulang sesi dan mengembalikan siswa untuk mengerjakan set *Latihan Bab* yang sama dari awal.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**6. Activity Diagram Pilih Subtes Lain**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Siswa: (Dari laman 'Sesi Selesai!') Mengklik 'Pilih Subtes Lain'.]
-    B[Sistem: Mengarahkan siswa kembali ke beranda Mode Belajar untuk menelusuri mapel baru.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**7. Activity Diagram Lihat Paket Tryout**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Siswa: Masuk ke *Dashboard* dan mengklik 'Try Out' di navigasi *sidebar*.]
-    B[Sistem: Menampilkan halaman *Tryout List* berisi modul paket yang dapat dikerjakan.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**8. Activity Diagram Mengerjakan Tryout**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Siswa: Memilih dan mengklik sebuah paket ujian dari *Tryout List*.]
-    B[Sistem: Menginisiasi antarmuka ujian lengkap dengan blok pewaktu (*timer*).]
-    A --> B
-    C[Siswa: Membaca soal, memilih opsi, menandai (opsional) 'ragu-ragu', dan menekan navigasi 'Selanjutnya'.]
-    B --> C
-    D[Siswa: Menyelesaikan seluruh subtes lalu menekan 'Kumpulkan Ujian'.]
-    C --> D
-    E[Sistem: Menjalankan kalkulasi IRT dan menampilkan hasil instan ('Ujian Selesai' dengan parameter Theta dan Skor SNBT).]
-    D --> E
-    E --> End([Selesai])
-```
-
-**9. Activity Diagram Lihat Review Jawaban Bahas dengan AI Tutor**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Siswa: Mengklik opsi 'Lihat Review Jawaban' dari hasil Try Out.]
-    B[Sistem: Membuka navigasi daftar soal yang salah dan benar.]
-    A --> B
-    C[Siswa: Memilih soal salah dan menekan 'Minta Penjelasan AI Tutor'.]
-    B --> C
-    D[AI Tutor: Memberi respons pancingan awal secara sokratik terkait logika jawaban tersebut.]
-    C --> D
-    E[Siswa: Memilih 'Lanjutkan Diskusi di Chat Panel'.]
-    D --> E
-    F[AI Tutor: Menyambut siswa secara mendalam (*'Hai! Kamu ingin membahas soal...'*) di *side-panel*.]
-    E --> F
-    G[Siswa: Meneruskan interaksi untuk memperbaiki konsepsi.]
-    F --> G
-    G --> End([Selesai])
-```
-
-**10. Activity Diagram Lihat Analisis Kemampuan**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Siswa: Membuka navigasi 'Rapor & Evaluasi' di *sidebar* kanan.]
-    B[Sistem: Mengeksekusi *rendering default* pada *tab* 'Rapor & Tren'. Menampilkan *Insight Analisis Cerdas*, *Radar Kemampuan vs Target*, dan jarak selisih poin per subtes (*Detail Per Subtes*).]
-    A --> B
-    B --> End([Selesai])
-```
-
-**11. Activity Diagram Lihat Bank Soal Salah**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Siswa: Di dalam menu 'Rapor & Evaluasi', mengklik sub-halaman *tab* 'Evaluasi Soal'.]
-    B[Sistem: Memuat dan menyajikan himpunan *Bank Soal Salah* yang diklasifikasikan dari *Top 3 Bab Paling Banyak Salah*.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**12. Activity Diagram Lihat Bahas Soal dari Bank Soal Salah**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Siswa: Pada *tab* 'Evaluasi Soal', menekan eksekutor aksi 'Bahas AI' di salah satu entri soal.]
-    B[AI Tutor: Menginterupsi dan mengambil alih konteks ke *panel obrolan*, menampilkan riwayat kesalahan siswa (*'Jawabanmu: Tidak menjawab, Jawaban benar: C'*).]
-    A --> B
-    C[Siswa: Melakukan interaksi konseptual lanjutan via obrolan modular.]
-    B --> C
-    C --> End([Selesai])
-```
-
-**13. Activity Diagram Lihat Peluang Lolos**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Siswa: Di dalam menu 'Rapor & Evaluasi', mengklik sub-halaman *tab* 'Peluang Lolos'.]
-    B[Sistem: Merender modul *Chancing Engine*, memproyeksikan rasio ketetapan lulus (misal: *5% SANGAT SULIT*) terhadap PTN idaman beserta rekomendasi AI komparatif untuk fakultas setara yang lebih 'aman'.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**14. Activity Diagram Lihat Detail Salah Satu Jurusan**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Siswa: Dari daftar *Peluang Lolos*, melakukan klik pada salah satu *card* jurusan (misal: *STEI - Komputasi*).]
-    B[Sistem: Menampilkan laporan diagnostik jurusan (*Daya Tampung*, *Total Peminat*, rasio *Keketatan*) beserta pilar Prioritas Subtes dari terlemah hingga terkuat.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**15. Activity Diagram Bahas Soal Dalam Aplikasi**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Siswa: Melalui *sidebar*, mengklik 'Ruang Tutor AI'.]
-    B[Sistem: Menampilkan modul arsip, siswa menelusuri kategori (Saintek/Soshum).]
-    A --> B
-    C[Siswa: Mengklik pemicu 'Bahas' pada salah satu soal spesifik di galeri Arsip Soal Lexica.]
-    B --> C
-    D[Sistem: Mengisolasi tampilan soal.]
-    C --> D
-    E[AI Tutor: Secara otomatis membuka diskusi relevan (*'Hai! Kita sedang membahas soal ini...'*).]
-    D --> E
-    F[Siswa: Melakukan transisi interaksi.]
-    E --> F
-    F --> End([Selesai])
-```
-
-**16. Activity Diagram Bahas Soal Luar Aplikasi**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Siswa: Mengakses 'Ruang Tutor AI'.]
-    B[Siswa: Tidak memilih galeri arsip, melainkan secara manual *copy-paste* soal di luar kurikulum ke formulir input pesan AI.]
-    A --> B
-    C[AI Tutor: Menganalisis *prompts*, membangun alur nalar parsial (*'Sendok digunakan untuk...'*), dan perlahan menuntun pengguna menuju konklusi secara logis.]
-    B --> C
-    D[Siswa: Merespons kognitif *feedback* dari agen AI.]
-    C --> D
-    D --> End([Selesai])
-```
-
-**17. Activity Diagram Mengubah Pengaturan**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Siswa: Mengklik navigasi 'Pengaturan' via *sidebar*.]
-    B[Sistem: Memuat preferensi *state* saat ini (*Profil Akun*, *Target UTBK*, *Persona Interaksi AI*).]
-    A --> B
-    C[Siswa: Menyesuaikan variabel bebas dan menyentuh 'Simpan Perubahan'.]
-    B --> C
-    D[Sistem: Melakukan validasi POST dan menembakkan *toast message* konfirmasi sukses.]
-    C --> D
-    D --> End([Selesai])
-```
-
-**18. Activity Diagram Lihat subtes**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Siswa: Melakukan klik pada navigasi *sidebar* 'Practice'.]
-    B[Sistem: Mengembalikan antarmuka beranda mode *Quick Drill* yang menyoroti deret kardus (*cards*) 7 subtes mapel acak.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**19. Activity Diagram Mengerjakan subtes**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A[Siswa: Menekan 'Drill Sekarang' pada salah satu subtes di halaman 'Practice'.]
-    A --> B[Sistem: Menyodorkan representasi soal dan mengunci waktu evaluasi.]
-    B --> C[Siswa: Menjawab soal.]
-    C --> D{Evaluasi Jawaban}
-    
-    D -- "Langsung Benar" --> E1[Sistem: Mengembalikan status 'Benar!' beserta opsi pembahasan.]
-    E1 --> E2[AI Tutor: Menampilkan sapaan diskusi.]
-    
-    D -- "Salah Sekali" --> F1[Sistem: Memotong jatah percobaan. AI Tutor menyisipkan *hint* peringatan dini.]
-    F1 --> F2[Siswa: Menjawab ulang dan berhasil memilih jawaban yang benar.]
-    F2 --> F3[Sistem: Menampilkan status 'Benar!' beserta opsi pembahasan.]
-    F3 --> F4[AI Tutor: Menampilkan sapaan diskusi.]
-    
-    D -- "Salah Dua Kali" --> G1[Sistem: Menampilkan 'Dilewati. Batas percobaan habis.' dan AI Tutor mengoreksi konsep secara sokratik.]
-    
-    E2 --> H[Siswa: Menuntaskan kuota repetisi soal dan menerima *summary* metrik.]
-    F4 --> H
-    G1 --> H
-    H --> End([Selesai])
-```
-
-#### 3.3.5.3 Activity Diagram Superadmin
-Aktivitas aktor Superadmin difokuskan pada pengelolaan entitas CMS tingkat lanjut, dijabarkan ke dalam daftar spesifik sebagai berikut:
-
-**1. Activity Diagram Lihat Learning Overview (Admin)**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Memasukkan kredensial dan kata sandi otorisasi.]
-    B[Sistem: Menampilkan *Panel Kontrol Admin* utama yang menampilkan kompilasi dasbor *Statistik Sistem* agregat secara global.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**2. Activity Diagram Lihat User**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Menyasar navigasi 'Kelola Pengguna' pada *sidebar* sebelah kiri.]
-    B[Sistem: Mendistribusikan senarai pengguna (*Manajemen User*), mencakup identitas, peruntukan *role*, kemampuan IRT ($\theta$), dan total riwayat *try out*.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**3. Activity Diagram Lihat Daftar Soal**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Mengklik tombol pelatuk navigasi 'Kelola Soal' di *sidebar*.]
-    B[Sistem: Merender modul Bank Soal berserta fitur fungsional penyaring taksonomi teks/subtes.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**4. Activity Diagram Lihat Daftar Bab**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Pada modul 'Kelola Soal', menyeleksi antarmuka *tab* sub-halaman 'Daftar Bab (Chapters)'.]
-    B[Sistem: Memuat senarai pemetaan materi tematik kurikulum UTBK.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**5. Activity Diagram Lihat Daftar Mata Pelajaran**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Pada modul 'Kelola Soal', menyeleksi *tab* 'Mata Pelajaran'.]
-    B[Sistem: Menyuguhkan susunan inti kategorisasi subtes ujian (e.g., Literasi Bahasa, Penalaran Matematika).]
-    A --> B
-    B --> End([Selesai])
-```
-
-**6. Activity Diagram Tambah Soal**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Berada di menu 'Kelola Soal', menyentuh ikon aksi 'Tambah Soal'.]
-    B[Sistem: Menarik ekstensi layar panel pengisian (*slide-out*) dari pilar kanan.]
-    A --> B
-    C[Admin: Menginjeksi konten variabel (LaTeX, bobot $b$) dan menyimpan.]
-    B --> C
-    D[Sistem: Mengeksekusi penambahan di dalam blok basis data.]
-    C --> D
-    D --> End([Selesai])
-```
-
-**7. Activity Diagram Tambah Bab**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Mengalihkan tampilan ke *tab* 'Daftar Bab', lalu mengklik 'Tambah Bab'.]
-    B[Sistem: Menarik *form* kanan interaktif untuk pendaftaran metadata.]
-    A --> B
-    C[Admin: Menyelesaikan borang (*form*) dan menyetujui mutasi.]
-    B --> C
-    D[Sistem: Memetakan entitas bab baru ke tabel relasional.]
-    C --> D
-    D --> End([Selesai])
-```
-
-**8. Activity Diagram Tambah Mata Pelajaran**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Masuk ke antarmuka *tab* 'Mata Pelajaran' dan menekan 'Tambah Mapel'.]
-    B[Sistem: Mengekstrak kerangka formulir. Admin menuntaskan isian lalu mematenkan operasi simpan.]
-    A --> B
-    C[Sistem: Mewujudkan modul mata pelajaran turunan yang definitif.]
-    B --> C
-    C --> End([Selesai])
-```
-
-**9. Activity Diagram Edit Soal**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Melakukan komando klik navigasi 'Edit' pada entitas tabel item *Daftar Soal*.]
-    B[Sistem: Menghamparkan antarmuka *slide-out panel* eksklusif yang memuat status terkini item referensi.]
-    A --> B
-    C[Admin: Merevisi detail parameter kemudian menekan 'Simpan'. Sistem mencetak penulisan *update* data.]
-    B --> C
-    C --> End([Selesai])
-```
-
-**10. Activity Diagram Edit Bab**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Menembakkan klik ke aksi 'Edit' di indeks sub-*tab* 'Daftar Bab'.]
-    B[Sistem: Melanjutkan instruksi manipulasi *form*.]
-    A --> B
-    C[Sistem: Melakukan pengikatan mutlak di repositori PostgreSQL terhadap bab terkait.]
-    B --> C
-    C --> End([Selesai])
-```
-
-**11. Activity Diagram Edit Mata Pelajaran**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Mengeksekusi navigasi pembaruan ('Edit') dari koleksi *tab* 'Mata Pelajaran'.]
-    B[Sistem: Memfasilitasi kanvas pengisian asimetris (*right panel*) dan mendokumentasikan modifikasi ketika tersimpan.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**12. Activity Diagram Hapus Soal**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Memantik pelatuk bahaya ('Hapus') di *Daftar Soal*.]
-    B[Sistem: Merilis *interceptor box* 'Hapus soal ini?'.]
-    A --> B
-    C[Admin: Menekan konfirmasi persetujuan 'Ok'. Sistem melakukan pemusnahan dokumen yang diklasifikasi.]
-    B --> C
-    C --> End([Selesai])
-```
-
-**13. Activity Diagram Hapus Bab**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Memicu perintah eliminasi di antarmuka tabel 'Daftar Bab'.]
-    B[Sistem: Mengemisikan *prompt* kepastian, dan menghancurkan referensi entitas hierarkis usai divalidasi otoritas.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**14. Activity Diagram Hapus Mata Pelajaran**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Mengeksekusi skenario identik melalui *tab* 'Mata Pelajaran' untuk meruntuhkan kerangka kategori utama dari kurikulum setelah verifikasi konfirmasi 'Ok'.]
-    A --> End([Selesai])
-```
-
-**15. Activity Diagram Lihat Daftar Universitas**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Mengklik ruas 'Kelola PTN/Prodi' di panel *sidebar* vertikal.]
-    B[Sistem: Mengalihkan penayangan kepada senarai rincian basis data Universitas yang berpartisipasi dalam UTBK-SNBT.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**16. Activity Diagram Lihat Daftar Prodi**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Menavigasi arah menuju sub-halaman *tab* 'Daftar Program Studi (Prodi)'.]
-    B[Sistem: Menyajikan antarmuka tabular inventaris spesialisasi prodi lintas universitas.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**17. Activity Diagram Tambah Universitas**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Mengetuk kontrol interaktif utama 'Tambah Universitas'.]
-    B[Sistem: Menjulurkan pilar form samping. Admin memasukkan properti universitas dasar. Sistem memproses validasi pendaftaran dan menyegarkan hierarki *grid*.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**18. Activity Diagram Tambah Prodi**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Membuka sub-halaman daftar prodi dan menekan 'Tambah Prodi'.]
-    B[Sistem: Menuntut variabel vital (*Estimasi Aman/Passing Grade*, Keketatan, Daya Tampung). Admin menyanggupi *input* dan menyimpan ke kerangka mesin *Chancing*.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**19. Activity Diagram Edit Universitas**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Mengaktifkan perintah 'Edit Universitas' dari elemen baris target.]
-    B[Sistem: Memperlihatkan parameter lampau. Admin menyunting dan memperbarui status referensi di basis data.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**20. Activity Diagram Edit Prodi**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Memanggil fungsionalitas pembaruan melalui 'Edit Prodi'.]
-    B[Sistem: Menyediakan wadah modifikasi parameter keketatan/kapasitas, dan segera mematri perubahan saat 'Simpan' ditekan.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**21. Activity Diagram Hapus Universitas**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Melancarkan perintah penghancuran di tombol 'Hapus' barisan Universitas.]
-    B[Sistem: Menagih verifikasi lapis dua (*'Hapus universitas ini?'*). Admin menyetujui, entri dihapus secara rekursif (termasuk *child prodi* miliknya).]
-    A --> B
-    B --> End([Selesai])
-```
-
-**22. Activity Diagram Hapus Prodi**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Melakukan intervensi di dalam *tab* Daftar Program Studi dan menekan 'Hapus' pada prodi spesifik.]
-    B[Sistem: Menyodorkan pertanyaan mitigasi (*'Hapus prodi ini?'*). Usai konfirmasi 'Ok', komponen tersebut dicabut dari eksistensi referensi mesin rekayasa rekomendasi siswa.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**23. Activity Diagram Lihat Daftar Tryout**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Mengarahkan *pointer* dan mengeklik 'Kelola Tryout' di *sidebar* navigasi.]
-    B[Sistem: Menayangkan modul eksekutif Manajemen Tryout, memuat indeks arsitektur paket ujian.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**24. Activity Diagram Tambah Tryout**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Memicu komando 'Tambah Tryout'.]
-    B[Sistem: Meluncurkan jendela ekstensi kanan. Admin meramu properti nama modul simulasi dan mengonfirmasi peluncurannya.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**25. Activity Diagram Tambah Subtes Tryout**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Menyelam ke relung internal paket *try out* rintisan, lalu mengklik 'Tambah Subtes'.]
-    B[Sistem: Membuka layar modifikasi durasi temporal dan pemetaan tipe soal spesifik. Sistem menyimpan partisi seksi secara struktural ke dalam *parent* Tryout.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**26. Activity Diagram Edit Tryout**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Menemukan utilitas 'Edit Tryout' di barisan modul paket utama.]
-    B[Sistem: Menyiapkan pembedahan data sekunder. Pengubahan ditangkap dan diresmikan ke sistem *backend*.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**27. Activity Diagram Edit Subtes Tryout**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Mendeteksi barisan *section* / subtes tertentu di bagian dalam paket makro ujian, lalu memantik 'Edit Subtes'.]
-    B[Sistem: Membuka keran revisi jumlah dan waktu alokasi, mematri pembaruan setelah persetujuan admin.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**28. Activity Diagram Hapus Tryout**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Mendesak pelatuk eliminasi radikal ('Hapus') di pilar paket ujian sentral.]
-    B[Sistem: Mengevakuasi *prompt* *interceptor* ('Hapus paket ini?'). Admin melakukan otorisasi 'Ok', dan sistem menyapu jejak eksistensi paket secara bersih (*cascading deletion*).]
-    A --> B
-    B --> End([Selesai])
-```
-
-**29. Activity Diagram Hapus Subtes Tryout**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Mendorong utilitas fungsional 'Hapus Subtes' di anatomi internal paket ujian simulasi.]
-    B[Sistem: Melontarkan validasi peredam kelalaian. Setelah afirmatif 'Ok', sistem melucuti seksi tersebut dari cetak biru paket ujian utama.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**30. Activity Diagram Lihat Statistik Ringkasan Platform**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Berpindah orientasi ke menu 'Statistik' pada *sidebar* navigasi.]
-    B[Sistem: Membuka pemandangan komprehensif metrik evaluasi makro dari arsitektur platform secara serempak.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**31. Activity Diagram Lihat Statistik Evaluasi Ujian**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Berada di klaster menu 'Statistik', mengalihkan titik api observasi ke tautan sub-halaman 'Evaluasi Ujian'.]
-    B[Sistem: Menyingkap indikator distribusi kurva peserta dan klasifikasi *Item Response Theory* tingkat kesulitan tes secara bergelombang.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**32. Activity Diagram Lihat Statistik Target Siswa**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Memfokuskan penglihatan pada sub-halaman *tab* 'Target Siswa'.]
-    B[Sistem: Meracik visualisasi agregat sentimen peminatan jurusan yang mendominasi ambisi populasi pelajar Lexica.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**33. Activity Diagram Lihat Statistik Token & AI**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Melemparkan perhatian pada segmen terakhir sub-halaman 'Token & AI'.]
-    B[Sistem: Menyediakan laporan transparansi beban kerja inferensi model LLM dan biaya utilitas *bandwidth* kecerdasan buatan.]
-    A --> B
-    B --> End([Selesai])
-```
-
-**34. Activity Diagram Lihat Pengaturan**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Mendaratkan interaksi pada tautan murni 'Pengaturan' di dasar menu *sidebar*.]
-    B[Sistem: Memuat cetak biru panel instrumen kontrol tertinggi (*superadmin configuration plane*).]
-    A --> B
-    B --> End([Selesai])
-```
-
-**35. Activity Diagram Ubah Pengaturan**
-```mermaid
-flowchart TD
-    Start([Mulai]) --> A
-    A[Admin: Berinteraksi leluasa dengan nilai tetapan yang mengkalibrasi parameter suhu obrolan AI atau koefisien pembobotan IRT platform.]
-    B[Admin: Mengetuk segel pengunci 'Simpan Pengaturan'.]
-    A --> B
-    C[Sistem: Mengabsorbsi modifikasi dan mengesahkan parameter fungsional ke ranah implementasi *real-time*.]
-    B --> C
-    C --> End([Selesai])
-```
-
-### 3.3.6 Database Entity Relationship Diagram
-*Gambar 3.12 Entity Relationship Diagram (ERD)*
-```mermaid
-erDiagram
-    User ||--o{ StudentProfile : "has"
-    User ||--o{ ExamAttempt : "takes"
-    User ||--o{ TutoringSession : "starts"
-    User ||--o{ ChapterProgress : "tracks"
-    
-    Subject ||--o{ Chapter : "contains"
-    Chapter ||--o{ Question : "has"
-    Chapter ||--o{ ChapterProgress : "monitored_by"
-    
-    Question ||--o{ QuestionOption : "provides"
-    Question ||--o{ QuestionResponse : "answered_in"
-    
-    ExamTemplate ||--o{ ExamSection : "divided_into"
-    ExamSection ||--o{ Question : "includes"
-    ExamTemplate ||--o{ ExamAttempt : "attempted_by"
-    
-    ExamAttempt ||--o{ QuestionResponse : "records"
-    
-    QuestionResponse ||--o{ TutoringSession : "discussed_in"
-    TutoringSession ||--o{ TutoringMessage : "contains_messages"
-    
-    University ||--o{ Major : "offers"
-    StudentProfile ||--o{ Major : "targets"
-```
-
-Berdasarkan Gambar 3.12, digambarkan struktur basis data PostgreSQL beserta hubungan antar entitasnya yang dikelola menggunakan Prisma ORM. Relasi tersebut mencakup data pengguna (`User`, `StudentProfile`), bank soal (`Subject`, `Chapter`, `Question`, `QuestionOption`), proses pengerjaan ujian (`ExamTemplate`, `ExamSection`, `ExamAttempt`, `QuestionResponse`), sesi bimbingan AI (`TutoringSession`, `TutoringMessage`), perkembangan *mastery learning* (`ChapterProgress`), serta data target studi (`University`, `Major`). 
+**a. Fungsionalitas Siswa**
+Setelah berhasil *login*, *Use-Case* yang dapat diakses oleh Siswa yakni sebagai berikut:
+- Kelola Profil untuk mengubah informasi data diri, gaya AI (*AI Style*), serta target Universitas & Jurusan.
+- Melihat Dashboard yang menampilkan ringkasan aktivitas belajar siswa.
+- Menyusun Personal Plan (mengatur prioritas belajar).
+- Melaksanakan Mode Belajar yang di dalamnya menyertakan fitur AI Tutor (*Learning Path* & *Quick Drill*).
+- Melaksanakan Mode Tryout.
+- Berinteraksi di Ruang AI Tutor Khusus (*Free-chat* dengan AI Tutor).
+- Melihat Hasil Analitik dan Evaluasi (Riwayat Nilai, *Mastery*, dll).
+- Logout.
+
+**b. Fungsionalitas Admin**
+Setelah berhasil *login*, Admin dapat mengakses fitur administrasi sistem, yaitu:
+- Kelola Profil.
+- Melihat Dashboard yang menampilkan ringkasan statistik aplikasi secara keseluruhan.
+- Kelola Mata Pelajaran (*Subject*).
+- Kelola Topik Materi (*Chapter*).
+- Kelola Bank Soal (*Questions* & *Options*), termasuk fitur Impor via *Scraper*.
+- Melihat Aktivitas Siswa (*Analytics*).
+- Kelola Pengguna dan Pengaturan Sistem.
+- Logout.
+
+### 3.3.2 Activity Diagram
+# Alur Penggunaan Aplikasi Lexica UTBK (Versi Cerita Awam)
+
+Dokumen ini menjelaskan alur cerita bagaimana setiap pihak berinteraksi di dalam platform Lexica UTBK sehari-hari. Kita akan melihat secara jelas apa yang dilakukan oleh Siswa, bagaimana Sistem merespons, dan kapan AI Tutor ikut campur membantu siswa. Jika ada percabangan alur, pilihan akan dijabarkan menggunakan format "Opsi" dan "Konektor". Seluruh 55 alur diagram (19 untuk Siswa & 35 untuk Admin) telah dijabarkan di bawah ini.
+
+---
+
+## 👨🎓 Bagian 1: Pengalaman Belajar Siswa (Student)
+
+### 1. Masuk ke Aplikasi (Login & Lihat Learning Overview)
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Siswa membuka aplikasi, memasukkan email beserta kata sandi, lalu menekan tombol "Login".
+- Sistem mengecek apakah data tersebut benar. Jika cocok, Sistem akan mengarahkan siswa ke halaman utama (Dashboard).
+- Di halaman Dashboard, Sistem menyajikan ringkasan data, seperti nilai tryout sejauh ini dan progres belajar.
+- Siswa kemudian melihat dan membaca ringkasan belajarnya tersebut.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 2. Memilih Materi Belajar (Lihat Learning Path)
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Siswa mengeklik menu "Learning Path" di pinggir layar.
+- Sistem memproses permintaan tersebut dan menampilkan peta jalan belajar siswa yang berisi daftar mata pelajaran dan bab-bab materi.
+- Siswa melihat-lihat dan memilih bab mana yang ingin dipelajari hari ini.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 3. Mengerjakan Latihan Bab
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Siswa memilih bab yang ingin dilatih.
+- Sistem menampilkan lembar soal di layar utama dan memunculkan panel AI Tutor di sebelah kanan.
+- AI Tutor bersiap-siap (standby) menunggu interaksi.
+- Siswa memiliki cabang pilihan awal:
+  - Opsi 1 (Opsional): Bertanya di chat panel AI sebelum menebak jawaban -> (AI Tutor merespons dengan memberikan petunjuk tipis/hint, lalu siswa kembali ke pilihan menebak).
+  - Opsi 2 (Wajib): Memilih opsi A/B/C/D/E dan mengeklik tombol "Jawab" -> (Melangkah ke proses pengecekan jawaban oleh Sistem).
+- Sistem langsung mengecek kebenaran jawaban tersebut.
+  - Jika salah (Percobaan 1): Sistem memunculkan peringatan kuning "Kesempatan Terakhir". AI Tutor otomatis mengirim chat (hint). Siswa memiliki cabang pilihan:
+    - Opsi 1: Langsung menjawab ulang -> (Kembali ke proses pengecekan jawaban oleh Sistem).
+    - Opsi 2: Membalas chat AI Tutor untuk berdiskusi dulu -> (Siswa berdiskusi dengan AI dan tetap berada di soal ini, sebelum akhirnya menebak ulang).
+  - Jika salah (Percobaan 2 / Habis): Sistem mengubah status soal menjadi "Dilewati". AI Tutor otomatis mengirim chat evaluasi. Siswa memiliki cabang pilihan:
+    - Opsi 1: Berdiskusi dengan AI Tutor untuk mencari tahu kesalahannya -> (Siswa tertahan berdiskusi di soal ini).
+    - Opsi 2: Langsung mengeklik "Lanjut" -> (Sistem berpindah dan memuat lembar soal berikutnya).
+  - Jika benar: Sistem memunculkan notifikasi "Benar!" dan tombol "Lihat Pembahasan AI". AI Tutor otomatis mengirim chat apresiasi. Siswa memiliki cabang pilihan:
+    - Opsi 1: Mengobrol dengan AI Tutor -> (Siswa tertahan berdiskusi di soal ini).
+    - Opsi 2: Mengeklik tombol "Lihat Pembahasan AI" -> (Siswa tertahan membaca pembahasan di soal ini).
+    - Opsi 3 (Wajib): Mengeklik tombol "Lanjut" -> (Sistem berpindah dan memuat lembar soal berikutnya).
+- Setelah semua soal habis (atau di-Next sampai soal terakhir), Sistem menampilkan Layar Hasil Akhir yang berisi rekapitulasi nilai.
+- Siswa dihadapkan pada 3 percabangan aksi akhir:
+  - Opsi 1: Mengeklik "Ulangi Latihan" -> (Konektor A) mengarah ke Alur Nomor 5.
+  - Opsi 2: Mengeklik "Lihat Pembahasan" -> (Konektor B) mengarah ke Alur Nomor 4.
+  - Opsi 3: Mengeklik "Pilih Subtes Lain" -> (Konektor C) mengarah ke Alur Nomor 6.
+- Status Akhir Alur: [Konektor A / B / C (Lanjut ke Alur Lain)]
+
+### 4. Lihat Pembahasan Dari Hasil Belajar
+- Status Awal Alur: [Konektor B (Lanjutan dari Alur Nomor 3)]
+- Di layar hasil, Siswa mengeklik tombol "Lihat Pembahasan".
+- Sistem menampilkan halaman evaluasi berisi navigasi daftar soal, status jawaban, dan kunci.
+- Siswa dihadapkan pada percabangan interaksi yang akan terus me-loop (berputar):
+  - Opsi 1: Memilih nomor soal lain di navigasi -> (Sistem memuat detail soal baru tersebut dan siswa bebas berinteraksi lagi).
+  - Opsi 2: Mengeklik tombol "Tanya Pembahasan AI" -> (AI Tutor memberikan penjabaran konsep dan siswa tetap di soal ini).
+  - Opsi 3: Mengirim chat balasan bebas -> (AI Tutor membalas secara interaktif dan siswa tetap di soal ini).
+  - Opsi 4: Mengeklik "Keluar/Kembali" dari halaman pembahasan -> (Menutup mode review dan mengakhiri alur ini).
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 5. Ulangi Latihan
+- Status Awal Alur: [Konektor A (Lanjutan dari Alur Nomor 3)]
+- Di layar hasil, Siswa mengeklik tombol "Ulangi Latihan".
+- Sistem segera menghapus/mereset riwayat sesi tadi dan memuat soal dari nomor 1 lagi.
+- Siswa mulai mengerjakan soal dari awal lagi.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 6. Pilih Subtes Lain (dari Sesi Selesai)
+- Status Awal Alur: [Konektor C (Lanjutan dari Alur Nomor 3)]
+- Di layar hasil, Siswa mengeklik tombol "Pilih Subtes Lain".
+- Sistem mengarahkan layar kembali ke halaman Learning Path.
+- Siswa bebas memilih modul atau subtes pelajaran lainnya.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 7. Lihat Paket Tryout
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Siswa membuka menu Tryout di sidebar.
+- Sistem menarik data ujian dari server dan menampilkan daftar paket tryout SNBT yang bisa diikuti.
+- Siswa melihat-lihat jadwal dan paket yang tersedia.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 8. Mengerjakan Tryout
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Siswa memilih satu paket ujian, lalu mengeklik "Mulai".
+- Sistem menyiapkan lembar soal simulasi dan mulai menjalankan hitung mundur waktu (timer).
+- Siswa membaca soal dan dihadapkan pada aksi navigasi:
+  - Opsi 1: Memilih jawaban dan mengeklik "Selanjutnya" -> (Sistem menyimpan jawaban dan berpindah ke soal berikutnya).
+  - Opsi 2: Mengeklik "Sebelumnya" -> (Sistem berpindah mundur ke soal sebelumnya).
+  - Opsi 3: Mencentang kotak "Ragu-ragu" -> (Sistem memberi tanda peringatan kuning pada nomor navigasi soal tersebut).
+- Setelah ujian selesai, Siswa mengeklik "Kumpulkan" (atau Sistem akan mengumpulkan otomatis jika waktu habis).
+- Sistem memproses hasil menggunakan metode perhitungan rumus IRT yang kompleks untuk mengukur skor.
+- Sistem menampilkan skor akhir ke layar.
+- Siswa dihadapkan pada 2 percabangan aksi akhir:
+  - Opsi 1: Mengeklik "Lihat Review Jawaban" -> (Konektor A) mengarah ke Alur Nomor 9 (Mode Tampilan).
+  - Opsi 2: Mengeklik "Bahas dengan AI Tutor" -> (Konektor B) mengarah ke Alur Nomor 9 (Mode Chat Socratic).
+- Status Akhir Alur: [Konektor A / B (Lanjut ke Alur Lain)]
+
+### 9. Lihat Review Jawaban & Bahas dengan AI Tutor (Tryout)
+- Status Awal Alur: [Konektor A & B (Lanjutan dari Alur Nomor 8)]
+- Siswa masuk ke halaman Review Tryout.
+- Sistem menampilkan lembar review soal.
+- Siswa mengeklik tombol "Bahas dengan AI Tutor".
+- AI Tutor membuka panel chat dan masuk ke mode "Socratic" (menjadi guru yang memancing pemikiran siswa).
+- Siswa merespons, dan AI Tutor akan menganalisis miskonsepsi (kesalahpahaman) siswa secara mendalam.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 10A. Navigasi Fleksibel Modul Rapor & Evaluasi
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Siswa mengeklik menu "Rapor & Evaluasi".
+- Sistem memuat halaman khusus (Analytics).
+- Siswa dihadapkan pada 3 percabangan tab yang bisa dipindah kapan saja secara bebas:
+  - Opsi 1: Tab "Rapor & Tren" -> (Konektor A) mengarah ke Alur Nomor 10B.
+  - Opsi 2: Tab "Evaluasi Soal" -> (Konektor B) mengarah ke Alur Nomor 11.
+  - Opsi 3: Tab "Peluang Lolos" -> (Konektor C) mengarah ke Alur Nomor 13.
+- Sistem langsung mengubah tampilan layar sesuai tab yang dipilih oleh Siswa.
+- Status Akhir Alur: [Konektor A / B / C (Lanjut ke Alur Lain)]
+
+### 10B. Lihat Analisis Kemampuan (Rapor & Tren)
+- Status Awal Alur: [Konektor A (Lanjutan dari Alur Nomor 10A)]
+- Siswa berada di tab "Rapor & Tren".
+- Sistem mengkalkulasi selisih nilai siswa dengan target kampusnya secara otomatis.
+- Sistem menampilkan Diagram Radar (jaring laba-laba), grafik tren nilai Tryout naik/turun, dan rincian kelemahan per subtes.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 11. Lihat Bank Soal Salah (Evaluasi Soal)
+- Status Awal Alur: [Konektor B (Lanjutan dari Alur Nomor 10A)]
+- Siswa berada di tab "Evaluasi Soal".
+- Sistem mengumpulkan semua soal yang pernah dijawab salah atau ragu-ragu oleh siswa dari seluruh latihannya, lalu menampilkannya sebagai "Bank Soal Salah".
+- Siswa meninjau kartu-kartu soal sulit tersebut.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 12. Lihat Bahas Soal dari Bank Soal Salah
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Siswa mengeklik tombol "Bahas AI" pada salah satu kartu soal di Bank Soal Salah.
+- Sistem membuka Panel AI.
+- AI Tutor menyapa siswa dan memuat konteks soal tersebut.
+- Siswa berdiskusi dengan AI Tutor hingga paham.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 13. Lihat Peluang Lolos (Chancing Engine)
+- Status Awal Alur: [Konektor C (Lanjutan dari Alur Nomor 10A)]
+- Siswa berada di tab "Peluang Lolos".
+- Sistem menjalankan mesin Chancing Engine untuk membandingkan skor siswa saat ini dengan rata-rata nilai masuk PTN sasaran.
+- AI Tutor menganalisis angkanya dan memberikan rekomendasi jurusan alternatif jika target dinilai rawan.
+- Sistem menyajikan persentase tingkat kelulusan di layar.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 14. Lihat Detail Salah Satu Jurusan Target
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Siswa mengeklik kartu jurusan (Misalnya: Kedokteran UI).
+- Sistem memunculkan jendela timbul (popup) yang berisi statistik kuota, jumlah peminat, serta prioritas bobot subtes yang perlu dikejar.
+- AI Tutor memberikan saran strategi belajar khusus untuk menembus jurusan tersebut.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 15. Bahas Soal Dalam Aplikasi (Ruang AI Tutor)
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Siswa mengeklik menu "Ruang AI Tutor".
+- Sistem menampilkan arsip seluruh bank soal aplikasi (Katalog Soal).
+- Siswa mengeklik tombol "Bahas" pada salah satu soal.
+- AI Tutor langsung menyapa di panel chat.
+- Siswa dan AI Tutor berdiskusi interaktif terkait soal arsip tersebut.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 16. Bahas Soal Luar Aplikasi (Custom Input)
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Di dalam Ruang AI Tutor, Siswa mengetik bebas atau menempel (copy-paste) naskah soal dari luar aplikasi (seperti tugas sekolah) ke dalam kolom chat.
+- Siswa mengeklik tombol "Kirim".
+- AI Tutor secara cerdas menganalisis struktur pertanyaan liar tersebut, lalu membalas dengan langkah-langkah penjelasan serta kunci jawaban yang tepat.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 17. Mengubah Pengaturan Profil & Target
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Siswa membuka menu "Pengaturan Profil & Target".
+- Sistem menampilkan formulir berisi data diri dan 2 pilihan jurusan target UTBK.
+- Siswa mengubah jurusan targetnya ke kampus lain, lalu mengeklik "Simpan Perubahan".
+- Sistem memvalidasi dan menyimpan data tersebut ke dalam server.
+- Sistem memunculkan notifikasi "Profil berhasil disimpan!".
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 18. Lihat Subtes (Practice / Quick Drill)
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Siswa mengeklik menu "Practice" (Latihan Cepat).
+- Sistem memuat mode Quick Drill dan menyajikan kartu kategori subtes (misal: Literasi Bahasa Indonesia).
+- Siswa meninjau kategori mana yang ingin dipakai pemanasan.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 19. Mengerjakan Subtes (Practice / Quick Drill)
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Siswa mengeklik tombol "Drill Sekarang" di salah satu subtes.
+- Sistem secara acak menyiapkan kumpulan soal dan langsung menampilkannya.
+- Mulai dari sini, alurnya sama persis dengan Mengerjakan Latihan Bab (Nomor 3): Sistem mengecek 2 kesempatan, dan AI Tutor mendampingi sepanjang soal. Di akhir sesi, Siswa juga akan menemui percabangan Konektor A, B, dan C.
+- Status Akhir Alur: [Konektor A / B / C (Lanjut ke Alur Lain)]
+
+---
+
+## 👨💻 Bagian 2: Pengalaman Administrator (Admin)
+
+### 1. Login & Lihat Learning Overview (Admin Dashboard)
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin memasukkan email dan password di halaman login khusus, lalu menekan "Login".
+- Sistem memverifikasi bahwa akun tersebut punya hak akses 'ADMIN'.
+- Sistem lalu membuka Dashboard khusus admin yang menampilkan statistik tingkat tinggi (total pengguna, soal, rata-rata skor).
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 2. Lihat User (Manajemen User)
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin mengeklik menu "Kelola Pengguna".
+- Sistem menarik data dari database dan menyajikannya dalam tabel berisi daftar seluruh siswa terdaftar.
+- Admin memantau status keaktifan dan persebaran rata-rata nilai siswa secara global.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 3. Lihat Daftar Soal (Bank Soal & Kurikulum)
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin mengeklik menu "Kelola Soal".
+- Sistem menampilkan daftar ribuan soal utuh lengkap dengan tipe dan nilai bobot IRT-nya.
+- Admin meninjau daftar pertanyaan-pertanyaan tersebut.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 4. Lihat Daftar Bab (Chapters)
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin bergeser ke tab "Daftar Bab".
+- Sistem menampilkan tabel daftar semua bab (misal: Pecahan, Silogisme, dll).
+- Admin meninjau susunan materi bab.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 5. Lihat Daftar Mata Pelajaran (Mapel)
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin bergeser ke tab "Mata Pelajaran".
+- Sistem menampilkan tabel ketujuh subtes resmi UTBK.
+- Admin meninjau pengelompokkan pelajarannya.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 6. Tambah Soal
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin mengeklik tombol "Tambah Soal".
+- Sistem memunculkan formulir isian panjang.
+- Admin mengetik naskah pertanyaan, opsi jawaban A sampai E, menandai kunci jawaban, memberi bobot kesulitan, dan mengetik pembahasan teks. Kemudian mengeklik "Simpan".
+- Sistem menyuntikkan data soal baru tersebut ke dalam server agar bisa langsung dikerjakan Siswa.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 7. Tambah Bab
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin mengeklik tombol "Tambah Bab".
+- Admin mengetikkan nama bab baru dan memilih masuk ke mapel apa.
+- Sistem menyimpan daftar bab baru.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 8. Tambah Mata Pelajaran
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin mengeklik tombol "Tambah Mata Pelajaran".
+- Admin mengisi nama pelajaran (Jika suatu saat ada kurikulum baru).
+- Sistem menyimpan matpel baru tersebut ke database.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 9. Edit Soal
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin mengeklik ikon pensil (Edit) pada baris salah satu soal.
+- Sistem memuat data soal lama ke dalam formulir.
+- Admin merevisi pertanyaan yang keliru ketik, lalu menekan "Simpan".
+- Sistem menimpa data lama dengan data baru yang sudah direvisi.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 10. Edit Bab
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin mengeklik tombol edit di salah satu bab.
+- Admin memperbaiki nama babnya.
+- Sistem memperbarui namanya di database.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 11. Edit Mata Pelajaran
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin mengeklik tombol edit di daftar mapel.
+- Admin mengoreksi nama mapelnya.
+- Sistem memperbaruinya.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 12. Hapus Soal
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin mengeklik ikon tempat sampah pada baris soal.
+- Sistem memunculkan peringatan pop-up "Yakin ingin menghapus?".
+- Admin mengeklik "Ya, Hapus".
+- Sistem melenyapkan soal tersebut selamanya dari aplikasi.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 13. Hapus Bab
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin mengeklik ikon hapus pada bab.
+- Sistem meminta konfirmasi. Setelah disetujui, Sistem menghapus bab tersebut.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 14. Hapus Mata Pelajaran
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin mengeklik ikon hapus pada mapel.
+- Sistem meminta konfirmasi. Setelah disetujui, Sistem menghapus mapel tersebut beserta segala hierarki di bawahnya.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 15. Lihat Daftar Universitas (Kelola PTN/Prodi)
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin membuka menu "Kelola PTN/Prodi".
+- Sistem menampilkan tabel besar berisi nama-nama kampus dari seluruh Indonesia.
+- Admin memantau daftar tersebut.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 16. Lihat Daftar Prodi (Kelola PTN/Prodi)
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin bergeser ke tab "Daftar Prodi".
+- Sistem menampilkan ribuan daftar jurusan kuliah lengkap dengan skor batas amannya (passing grade).
+- Admin memantau daftar jurusan.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 17. Tambah Universitas
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin mengeklik tombol "Tambah Universitas".
+- Admin memasukkan nama kampus baru (misalnya ITB), lalu klik Simpan.
+- Sistem merekam data kampus baru tersebut ke database.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 18. Tambah Prodi
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin mengeklik tombol "Tambah Prodi".
+- Admin mengisi nama prodi (misalnya Ilmu Komputer), kuota tahun ini, jumlah saingan, dan menautkannya ke Universitas ITB. Lalu klik Simpan.
+- Sistem menyimpan data jurusan baru tersebut untuk dipakai kalkulasi Chancing Engine.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 19. Edit Universitas
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin mengedit nama kampus yang mungkin salah ketik.
+- Sistem memperbaruinya di server.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 20. Edit Prodi
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin mengedit data prodi (misal: memperbarui jumlah kuota mahasiswa yang berkurang di tahun ini).
+- Sistem memperbarui data statistiknya di server.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 21. Hapus Universitas
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin menekan hapus pada nama kampus, mengonfirmasi, dan Sistem menghapusnya secara permanen.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 22. Hapus Prodi
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin menekan hapus pada nama jurusan, mengonfirmasi, dan Sistem menghapusnya dari daftar ketersediaan pendaftaran.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 23. Lihat Daftar Tryout
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin membuka menu "Kelola Tryout".
+- Sistem menampilkan jadwal dan kumpulan paket Tryout SNBT (dari gelombang 1 sampai gelombang terakhir).
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 24. Tambah Tryout
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin mengeklik tombol "Tambah Tryout Baru".
+- Admin mengetikkan nama paket (misalnya "Tryout Akbar Maret") dan tanggal pelaksanaannya.
+- Sistem membuat cangkang paket ujian baru yang masih kosong (belum ada soalnya).
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 25. Tambah Subtes Tryout
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Ke dalam cangkang ujian yang masih kosong, Admin mengeklik "Tambah Subtes" dan memilih blok soal apa saja yang akan masuk ke paket tersebut.
+- Sistem merangkai blok-blok soal tersebut menjadi satu paket Tryout utuh.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 26. Edit Tryout
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin mengeklik edit untuk memundurkan tanggal mulai Tryout.
+- Sistem merevisi jadwalnya.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 27. Edit Subtes Tryout
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin mengedit pengaturan subtes (misalnya mengganti susunan bab yang diujikan).
+- Sistem merevisi kerangka ujiannya.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 28. Hapus Tryout
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin menghapus sebuah paket Tryout secara utuh (mungkin karena sudah terlalu lawas).
+- Sistem membersihkan data pelaksanaan Tryout tersebut dari layar Siswa.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 29. Hapus Subtes Tryout
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin mencopot satu subtes dari dalam paket Tryout.
+- Sistem melepaskan kaitan soal tersebut dari paket Tryout tanpa menghapus soalnya dari Bank Soal utama.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 30. Lihat Statistik Ringkasan Platform
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin membuka halaman "Analytics Admin".
+- Sistem merender bagan visual yang menunjukkan total aktivitas akses server secara real-time.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 31. Lihat Statistik Evaluasi Ujian
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin berpindah ke tab "Ujian".
+- Sistem merangkum sebaran nilai kurva normal (bell curve) dari seluruh nilai ujian peserta.
+- Admin menganalisis apakah ujian bulan ini terlalu sulit atau terlalu gampang.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 32. Lihat Statistik Target Siswa
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin berpindah ke tab "Target Siswa".
+- Sistem menyortir data kampus apa yang paling difavoritkan oleh pengguna secara real-time.
+- Admin melihat minat pengguna bulan ini.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 33. Lihat Statistik Token & AI
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin berpindah ke tab "API & AI".
+- Sistem melaporkan data pemakaian token prompt dari interaksi AI Tutor (berguna untuk pantauan biaya operasional ChatGPT API).
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 34. Lihat Pengaturan System Admin
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin mengeklik tombol "Pengaturan Situs".
+- Sistem menampilkan panel kontrol konfigurasi (misalnya bobot perhitungan, sistem blokir, dan toggle batas token AI).
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 35. Ubah Pengaturan System Admin
+- Status Awal Alur: [Lingkaran Hitam Penuh (Mulai Baru)]
+- Admin menggeser tuas toggle dan mengubah pengaturan sistem.
+- Sistem langsung memberlakukan aturan baru tersebut ke seluruh aplikasi Lexica UTBK pada detik itu juga.
+- Status Akhir Alur: [Lingkaran Hitam Sempurna (Selesai)]
+
+### 3.3.3 Perancangan Basis Data
+**1. Entity Relationship Diagram (ERD)**
+
+Gambar 3.4 Entity Relationship Diagram
+
+Berdasarkan Gambar 3.4, perancangan basis data pada sistem dikembangkan menggunakan **Prisma ORM** yang dihubungkan ke dalam **PostgreSQL**. Struktur relasional ini dirancang khusus untuk mendukung sistem *tutoring* adaptif, gamifikasi, pencatatan respons AI, serta data target Universitas secara terpadu untuk platform UTBK SNBT.
+
+Entitas utama dalam sistem ini adalah tabel **User**, yang berfungsi menyimpan data identitas dan autentikasi pengguna, meliputi nama, email, *password* (yang di-*hash*), serta peran (*role*). Tabel `User` memiliki relasi ke tabel **StudentProfile**, yang menyimpan konfigurasi preferensi khusus siswa seperti gaya percakapan AI (*aiStyle*, *aiEnergy*), asal sekolah, tahun kelulusan, dan relasi langsung ke tabel **Major** (target program studi pertama dan kedua). Tabel **University** dan **Major** merupakan entitas mandiri yang mencatat seluruh daftar universitas dan program studi, lengkap dengan data klaster, daya tampung, serta estimasi *score* (skor rasionalisasi) yang digunakan dalam fitur *Chancing Engine*.
+
+Struktur materi ujian (bank soal) disusun secara bertingkat melalui tiga tabel hierarkis: **Subject** (mata pelajaran UTBK), **Chapter** (topik/subbab materi), dan **Question** (butir soal). Setiap mata pelajaran memiliki beberapa topik (relasi *one-to-many*). Kemudian, setiap topik (Chapter) menaungi banyak butir soal (*Question*). Soal-soal ini mendukung format teks *Markdown* dan KaTeX untuk ekspresi matematika. Tabel *Question* memiliki relasi terhadap **QuestionOption** yang menyimpan pilihan jawaban (A, B, C, D, E) berserta *flag* penanda kebenaran (*isCorrect*). Desain hierarkis ini tidak ditujukan sebagai penyimpanan konten *textbook*, melainkan murni sebagai struktur *question-based learning*.
+
+Aktivitas pengerjaan latihan maupun ujian disimpan dalam tabel **ExamAttempt**, yang mencatat status (*IN_PROGRESS*, *COMPLETED*), waktu pengerjaan, skor mentah, serta skor *Scaled* (skala SNBT). *ExamAttempt* terhubung ke struktur templat ujian pada tabel **ExamTemplate** dan **ExamSection**. Rincian jawaban setiap butir soal yang dikerjakan siswa dipecah ke dalam tabel **QuestionResponse**, yang menyimpan opsi yang dipilih, jumlah waktu pengerjaan (*timeSpent* per soal), status kebenaran (*isCorrect*), serta *flagging* jika siswa menandai ragu-ragu.
+
+Untuk mendukung fitur ITS dan *Adaptive Learning*, sistem menyediakan tabel **ChapterProgress** (sebagai *Mastery Tracking*), yang merekam tingkat persentase pemahaman (*masteryLevel*) setiap pengguna pada topik (*Chapter*) tertentu secara akumulatif. Selain itu, sistem menyimpan riwayat bimbingan *step-by-step* AI ke dalam tabel **TutoringSession** dan **TutoringMessage**, yang menyimpan seluruh *log* obrolan dengan *Role* (*User*, *Assistant*, *System*) agar model LLM memiliki memori kontekstual selama sesi pendampingan (*scaffolding*). Fitur operasional global sistem direkam pada tabel **SystemSetting**, yang memampukan admin mengubah konfigurasi *on-the-fly* tanpa perlu mengubah kode sumber.
+
+### 3.3.4 Arsitektur Sistem
+
+Gambar 3.5 Arsitektur Sistem
+
+Berdasarkan Gambar 3.5, Arsitektur Sistem menunjukkan perancangan arsitektur umum yang menggambarkan alur interaksi secara utuh. Proses dimulai ketika pengguna (Client) mengakses sistem melalui peramban *web*. Antarmuka pengguna dan logika *server-side rendering* ditangani oleh **Next.js** (berbasis React) yang berjalan di atas *runtime* **Node.js**.
+
+Seluruh permintaan data (*query/mutation*) ke *database* dihubungkan melalui perantara **Prisma ORM**, yang berkomunikasi dengan layanan *cloud database* **PostgreSQL**. Mekanisme autentikasi dikelola oleh *library* NextAuth (Auth.js) yang terhubung ke penyedia kredensial lokal dan layanan **Google OAuth 2.0 API** untuk metode masuk cepat.
+
+Pada sisi kecerdasan buatan, sistem mengimplementasikan pola arsitektur *External LLM Integration*. *Backend* Next.js akan mengirimkan *prompt* yang telah disusun oleh *Prompt Builder* ke **Groq API** (yang menjalankan model *Llama-3*). Mengingat responsivitas AI sangat krusial, Groq dipilih karena kemampuan inferensinya yang sangat cepat. Namun, apabila layanan Groq API mengalami gangguan (*timeout*, kegagalan server, atau *rate limit*), sistem mengimplementasikan mekanisme *failover* (cadangan) secara otomatis untuk mengalihkan *request* ke **OpenRouter API** tanpa disadari oleh pengguna. Arsitektur toleransi kesalahan (*fault-tolerant*) ini memastikan layanan AI Tutor pada Mode Belajar UTBK tidak pernah terputus.
+
+### 3.3.5 Perancangan AI Tutor
+
+**1. Flowchart AI Tutor**
+AI Tutor dirancang sebagai komponen utama dalam *Intelligent Tutoring System* (ITS) yang berfungsi memberikan bimbingan adaptif kepada siswa. AI Tutor mengevaluasi jawaban siswa dan menyesuaikan *scaffolding* berdasarkan jumlah percobaan (*attempt count*) dan histori penguasaan (*mastery*).
+
+Gambar 3.6 Flowchart AI
+
+Berdasarkan Gambar 3.6, proses diawali saat siswa mengirimkan jawaban. Sistem memeriksa kesesuaian jawaban. Jika jawaban benar, sistem mengkalkulasi skor, memperbarui *ChapterProgress*, dan AI memberikan penjelasan konfirmasi (*Positive Reinforcement*).
+Jika jawaban salah, sistem mengecek batas percobaan (*attempt limit*). Data percobaan dan nilai penguasaan diteruskan ke *Rule-Based Strategy Selector*. *Prompt Builder* kemudian menyusun konteks (tanpa memberikan kunci jawaban berkat *Blind Mode*) dan mengirimkannya ke LLM (Groq/OpenRouter). LLM memberikan respons berupa *Socratic Hint* atau *Step-by-Step Guidance*, yang kemudian di-*render* di layar untuk memandu siswa pada percobaan selanjutnya.
+
+**2. Prompt Builder & Blind Mode Architecture**
+*Prompt Builder* menggabungkan teks soal, histori *chat* (di tabel `TutoringMessage`), opsi yang dipilih siswa yang salah, jumlah percobaan, dan gaya bahasa AI yang diatur di *StudentProfile*. 
+Untuk memastikan prinsip pembelajaran formatif terjaga, sistem memberlakukan *Blind Mode Architecture*. LLM **tidak pernah disuplai** dengan informasi mana opsi yang benar dari pangkalan data. Hal ini mencegah LLM melakukan *hallucination* yang tak sengaja membocorkan kunci jawaban (A, B, C, etc.) kepada siswa, sehingga memaksa LLM murni fokus pada pembimbingan penalaran konseptual.
+
+**3. Adaptive AI Prompting & Rule-Based Strategy Selector**
+*Rule-Based Strategy Selector* bertindak sebagai pengendali utama tingkat bantuan (*Scaffold Level*). Apabila siswa baru satu kali menjawab salah, tingkat bantuan ditetapkan pada `SOCRATIC` (memberikan pancingan). Apabila siswa salah hingga dua atau tiga kali, tingkat bimbingan bergeser ke `SOLUTION / STEP-BY-STEP` (menuntun logika dari awal sampai akhir).
+Selain itu, *Prompt Builder* menyuntikkan instruksi persona bahasa (misalnya: akademis, ramah, atau bahkan *sarcastic*) bergantung pada konfigurasi profil siswa serta parameter penguasaan (*Mastery Status*). Siswa di tingkat pemula mendapatkan intonasi penyampaian yang lebih sabar dan terperinci, sedangkan siswa tingkat lanjut mendapat penjelasan yang *to-the-point*.
+
+### 3.3.6 Perancangan Learning Analytics dan Personalized Planning
+
+**1. Weighted Scoring (Perhitungan Skor Akhir)**
+Perhitungan skor pada Mode Belajar dirancang sebagai perpaduan antara Asesmen Formatif (Pre-Test, Main-Test) dan Sumatif (Post-Test). Berbeda dengan sistem konvensional, skor sistem ITS memperhitungkan proses pembelajaran siswa.
+Pembobotan dirancang dengan: 20% Pre-Test, 40% Main-Test, dan 40% Post-Test. 
+Nilai akhir ini (*Skor Akhir*) merepresentasikan pemahaman siswa setelah diintervensi oleh AI Tutor. Skor ini juga disimpan untuk mengalkulasi *MasteryLevel* di dalam `ChapterProgress`. Sementara itu, untuk Mode Tryout murni, sistem menerapkan perhitungan skor berbasis *Item Response Theory* (IRT) atau persentase murni tanpa pembobotan tahapan, mensimulasikan lingkungan UTBK SNBT aslinya.
+
+**2. Mastery Tracking**
+Di setiap akhir pengerjaan, nilai siswa diagregasikan ke dalam entitas `ChapterProgress` yang mencatat persentase *MasteryLevel* (0-100) per Topik Materi (Subbab). Nilai ini dihitung berdasar rasio jawaban benar terhadap seluruh soal yang pernah diselesaikan. 
+
+**3. Personal Plan (Chancing Engine Integrations)**
+Fitur *Personal Plan* menyusun urutan materi (*Learning Path*) khusus untuk tiap siswa. Pada aplikasi ini, prioritas materi diukur dengan mengkorelasikan *MasteryLevel* topik siswa dengan data *Estimated Score* dari Universitas dan Jurusan target yang disimpan di `StudentProfile`. Topik materi dengan bobot nilai UTBK SNBT yang sering keluar, namun persentase pemahaman siswa (Mastery) masih sangat rendah (misal < 40%), akan dinaikkan prioritasnya di antarmuka agar dipelajari lebih dahulu (Priority Score tinggi).
 
 ## 3.4 Alat dan Bahan Tugas Akhir
-Alat dan bahan yang digunakan dalam proses pengembangan platform Lexica ini dapat dilihat pada bagian berikut:
+Dalam pengembangan platform simulasi UTBK SNBT ini, alat dan bahan yang digunakan dikelompokkan sebagai berikut:
 
 ### 3.4.1 Perangkat Keras (Hardware)
-*Tabel 3.5 Spesifikasi Perangkat Keras Pengembangan*
-
-| Komponen | Spesifikasi yang Digunakan |
-|---|---|
-| **Jenis Perangkat** | Laptop ASUS TUF Gaming F15 |
-| **Sistem Operasi** | Windows 11 (64-bit) |
-| **Processor** | Intel Core i5-10300H @2.50GHz |
-| **RAM** | 16GB DDR4 |
-| **Penyimpanan** | 512GB SSD |
+**Alat Utama:**
+- OS: Windows 11 (64-bit) / macOS
+- Processor: Setara Intel Core i5 @2.50GHz atau lebih tinggi
+- RAM: Minimum 16GB
+- Penyimpanan: SSD 512GB
 
 ### 3.4.2 Perangkat Lunak (Software)
-1. **Visual Studio Code:** sebagai *Integrated Development Environment* (IDE).
-2. **Node.js & npm:** *runtime environment* dan pengelola paket.
-3. **Next.js (App Router):** *framework full-stack* utama pembangun aplikasi.
-4. **Prisma ORM:** sebagai *Object-Relational Mapper* untuk efisiensi *query* basis data.
-5. **PostgreSQL (Neon DB):** sebagai sistem manajemen basis data relasional berarsitektur *serverless*.
-6. **Vercel:** sebagai platform *cloud hosting* dan *Edge Network*.
-7. **Zustand:** sebagai pustaka *state management* di klien untuk mengelola konteks soal, *timer*, dan riwayat *chat* AI secara reaktif.
-8. **KaTeX:** sebagai *library* untuk me-*render* rumus matematika berformat LaTeX secara *real-time* di sisi antarmuka.
+Pengembangan perangkat lunak memanfaatkan ekosistem berbasis JavaScript/TypeScript dan basis data relasional:
+- **Visual Studio Code**: Sebagai *Integrated Development Environment* (IDE).
+- **Node.js**: Sebagai *runtime environment* eksekusi *server*.
+- **Next.js**: Sebagai *framework* utama aplikasi (*Full-stack React*).
+- **Prisma ORM**: Sebagai alat bantu penghubung dan migrasi struktur ke basis data.
+- **PostgreSQL**: Sebagai basis data relasional utama.
+- **Git**: Sebagai sistem kontrol versi kode (*Version Control System*).
 
 ### 3.4.3 Layanan Kecerdasan Buatan (AI)
-Layanan kecerdasan buatan (AI) yang diintegrasikan adalah **Groq API** dengan memanfaatkan model inferensi `llama-3.1-8b-instant` yang berfungsi sebagai *engine* AI utama. Groq API dipilih karena kemampuannya menghasilkan pemrosesan bahasa alami menggunakan LPU dengan latensi yang sangat rendah (*real-time*), yang esensial untuk membimbing interaksi *chat* siswa tanpa jeda yang panjang pada mode latihan. Untuk memitigasi kegagalan jaringan API atau masalah limit akses, antarmuka menyediakan komponen statis *Fallback Hint* agar siswa tetap bisa melanjutkan evaluasi.
+Integrasi *Intelligent Tutoring System* difasilitasi oleh layanan *Cloud API*:
+- **Groq API**: Digunakan sebagai *engine* AI utama (Model *Llama 3 70B* / *8B*) karena kecepatannya dalam menghasilkan token (*Hint*, *Feedback*, dan *Study Report*) secara instan.
+- **OpenRouter API**: Berperan sebagai layanan API *fallback* (cadangan), yang memiliki *routing* ke berbagai model bahasa mutakhir, menjaga kontinuitas layanan saat penyedia utama bermasalah.
 
-### 3.4.4 Dataset Pihak Ketiga & Pertama
-**Dataset Pihak Ketiga:**
-Dataset dari pihak eksternal yang digunakan dalam tugas akhir ini berupa kumpulan soal latihan UTBK-SNBT dari tahun sebelumnya yang dikurasi dari literatur pendidikan dan sumber publik. Selain itu, digunakan pula dataset publik resmi mengenai daftar Perguruan Tinggi Negeri (PTN), program studi, daya tampung, jumlah peminat, dan rasio keketatan. Dataset PTN ini berperan krusial sebagai referensi utama yang diolah oleh fitur *Chancing Engine* untuk mengestimasi peluang lolos seleksi.
+### 3.4.4 Dataset Pihak Ketiga
+Dataset meliputi referensi daftar Universitas, target Program Studi, serta materi *tryout* UTBK SNBT dari tahun sebelumnya yang didapatkan dari publikasi resmi SNPMB, buku kompilasi soal, dan pangkalan data kampus. Dataset estimasi nilai digunakan untuk simulasi peluang lulus pada modul *Chancing Engine*.
 
-**Dataset Pihak Pertama:**
-Sebagai pelengkap, penulis menyusun dataset soal simulasi mandiri. Kumpulan soal ini distrukturisasi ke dalam format *spreadsheet* Excel (`.xlsx`) agar kompatibel dengan sistem pendaftaran terpusat. Format ini memungkinkan soal dan kunci jawabannya dibaca, divalidasi, dan dimasukkan ke dalam basis data PostgreSQL secara masal melalui fungsi *Bulk Import* yang ada pada dasbor Superadmin.
+### 3.4.5 Dataset Pihak Pertama
+Data bank soal primer dikompilasi secara mandiri ke dalam lembar kerja (*Spreadsheet*). Soal-soal tersebut, yang terdiri dari komponen teks, ekspresi matematis (LaTeX), dan gambar, dikonversi menggunakan piranti parsial (*parser*) otomatis ke dalam format JSON yang kemudian di-*seed* langsung ke basis data PostgreSQL agar dapat di-*render* secara dinamis oleh aplikasi.

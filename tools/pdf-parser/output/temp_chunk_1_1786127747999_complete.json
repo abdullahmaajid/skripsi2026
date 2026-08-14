@@ -1,0 +1,139 @@
+{
+  "questions": [
+    {
+      "text": "Danau Toba adalah danau vulkanik terbesar di dunia.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Berdasarkan teks, Danau Toba merupakan salah satu danau vulkanik terbesar di dunia."
+    },
+    {
+      "text": "Pulau Samosir terletak di tengah Danau Toba dan dihuni oleh suku Batak.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Berdasarkan teks, di tengah danau terdapat Pulau Samosir yang menjadi tempat tinggal bagi suku Batak."
+    },
+    {
+      "text": "Letusan yang membentuk Danau Toba dianggap sebagai salah satu letusan vulkanik terbesar di bumi yang memengaruhi perubahan iklim global.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Berdasarkan teks, letusan supervolcano yang membentuk danau ini merupakan salah satu letusan terbesar yang menyebabkan perubahan iklim global."
+    },
+    {
+      "text": "Danau Toba memiliki panjang sekitar 50 kilometer dan lebar 20 kilometer.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Teks menyatakan bahwa Danau Toba memiliki panjang sekitar 100 kilometer dan lebar 30 kilometer."
+    },
+    {
+      "text": "Suku Batak dikenal dengan tradisi ukiran kayu dan tari-tarian mereka.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Teks menyebutkan bahwa budaya lokal suku Batak dikenal dengan tari-tarian tradisional dan ukiran kayu khas mereka."
+    },
+    {
+      "text": "Aktivitas pariwisata di sekitar Danau Toba tidak berdampak negatif pada lingkungan dan ekosistem lokal.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Teks menyatakan bahwa aktivitas pariwisata yang meningkat serta perubahan penggunaan lahan berdampak pada kualitas air dan ekosistem lokal."
+    },
+    {
+      "text": "Pemerintah dan masyarakat lokal tidak berupaya untuk melestarikan Danau Toba dan mengelola dampak pariwisata.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Teks menyebutkan bahwa usaha pelestarian lingkungan menjadi fokus utama bagi pemerintah dan masyarakat lokal."
+    },
+    {
+      "text": "Letusan Gunung Merapi 2010 merupakan letusan terbesar sepanjang sejarah gunung tersebut.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Teks menyatakan bahwa letusan 2010 adalah salah satu bencana terparah dalam beberapa dekade terakhir, bukan sepanjang sejarahnya."
+    },
+    {
+      "text": "Awan panas atau \"wedhus gembel\" yang keluar dari Gunung Merapi dapat mencapai suhu hingga 1.000 derajat Celcius.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Teks menyatakan bahwa awan panas dapat mencapai suhu hingga 1.000 derajat Celcius."
+    },
+    {
+      "text": "Mbah Maridjan, juru kunci Gunung Merapi, selamat dari letusan 2010 karena mengikuti peringatan evakuasi.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Teks menyebutkan Mbah Maridjan tetap tinggal di rumahnya meskipun telah diperingatkan untuk mengungsi dan menjadi korban."
+    },
+    {
+      "text": "Pasca-letusan 2010, tidak ada upaya yang dilakukan untuk pemulihan daerah yang terkena dampak.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Teks menyatakan bahwa upaya pemulihan dilakukan secara bertahap, mulai dari membangun kembali rumah hingga pemulihan ekosistem."
+    },
+    {
+      "text": "Letusan Gunung Merapi pada 2010 menyebabkan lebih dari 350 orang meninggal dunia.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Teks menyebutkan akibat letusan ini, lebih dari 350 orang meninggal dunia."
+    },
+    {
+      "text": "Sistem peringatan dini sudah ada sebelum letusan 2010, tetapi tidak cukup efektif untuk mencegah korban jiwa.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Teks menyatakan pemerintah meningkatkan sistem peringatan dini setelah bencana untuk meminimalisasi korban."
+    },
+    {
+      "text": "Gunung Merapi terletak di Pulau Sumatra.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Teks menyatakan Gunung Merapi terletak di perbatasan antara Yogyakarta dan Jawa Tengah."
+    },
+    {
+      "text": "Awan panas dari letusan gunung berapi hanya bergerak lambat, sehingga mudah dihindari.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Teks menyatakan bahwa awan panas melaju dengan kecepatan tinggi."
+    }
+  ]
+}

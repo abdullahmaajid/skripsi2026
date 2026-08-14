@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Apa akibat dari naiknya 2 persen cahaya per tahun?",
+      "options": [
+        "Hewan-hewan sulit bergerak di malam hari.",
+        "Kelelawar menjadi sensitif terhadap cahaya biru.",
+        "Tidak perlu lampu karena malam semakin terang.",
+        "Kehidupan hewan nokturnal menjadi terganggu.",
+        "Ekosistem alami menjadi semakin sedikit."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Berdasarkan paragraf 1 kalimat (3), disebutkan bahwa peningkatan intensitas cahaya (polusi cahaya) mengganggu ekosistem alami, dan pada kalimat berikutnya diperjelas dengan terganggunya kehidupan hewan nokturnal (kelelawar)."
+    },
+    {
+      "text": "Jika ditambahkan satu paragraf baru di antara paragraf 1 dan 2, paragraf tersebut kemungkinan akan membahas ....",
+      "options": [
+        "perbandingan tingkat polusi cahaya di berbagai negara",
+        "alasan manusia melakukan penerangan di malam hari",
+        "penelitian tentang cahaya yang tidak mengganggu",
+        "efek penerangan terhadap kelelawar sebagai makhluk nokturnal",
+        "salah satu makhluk yang terganggu, yaitu kelelawar"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Paragraf 1 membahas tentang polusi cahaya secara umum yang mengganggu ekosistem. Paragraf 2 mulai membahas spesifik tentang kelelawar. Paragraf sisipan di antara keduanya harus menjadi jembatan (transisi) yang memperkenalkan salah satu makhluk hidup yang terganggu tersebut, yaitu kelelawar."
+    },
+    {
+      "text": "Sebuah kalimat yang efektif dapat memberikan informasi yang jelas kepada pembaca. Pada kalimat (8), informasi apa yang tidak tercantumkan?\n\n(8) Untuk menguji reaksi kelelawar terhadap spektrum warna, menempatkan sekitar 200 lampu di seluruh negeri yang memancarkan beragam warna.",
+      "options": [
+        "jumlah lampu yang dipasang",
+        "tujuan penempatan lampu",
+        "orang yang menempatkan lampu",
+        "lokasi lampu ditempatkan",
+        "jenis warna yang dipancarkan lampu"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Kalimat (8) tidak menyebutkan subjek atau siapa orang yang menempatkan lampu tersebut."
+    },
+    {
+      "text": "Manakah simpulan yang tepat untuk bacaan di atas?",
+      "options": [
+        "Kelelawar membutuhkan cahaya alami untuk bisa mencari makan di malam hari.",
+        "Mengurangi cahaya dengan spektrum warna biru diperlukan untuk kebaikan semua makhluk hidup.",
+        "Tidak diperlukan penerangan pada malam hari agar tidak menimbulkan polusi cahaya.",
+        "Kelelawar dan manusia memiliki perbedaan kebutuhan cahaya sehingga tidak bisa hidup berdampingan.",
+        "Penerangan yang tepat dengan memperhatikan spektrum warna sangat diperlukan untuk mengurangi gangguan pada hewan malam seperti kelelawar."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Penulisan kata bercetak tebal yang tidak tepat adalah ....",
+      "options": [
+        "intensitas harusnya intensi",
+        "ekologis harusnya ekologi",
+        "aktif harusnya aktivasi",
+        "sekadar harusnya sekedar",
+        "efisiensi harusnya efisien"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Kata 'ekologis' dalam kalimat (4) kurang tepat karena merujuk pada nama bidang ilmu atau profesi, seharusnya menggunakan kata dasar 'ekolog' atau 'ahli ekologi'."
+    },
+    {
+      "text": "Menurut penelitian, pada peradaban Cina bagaimana nasi kering dapat mendeteksi kebohongan?",
+      "options": [
+        "Orang yang berbohong akan dilanda ketakutan sehingga dia akan panik ketika nasi kering dimasukkan ke mulutnya.",
+        "Tingkat kecemasan orang yang berbohong cenderung tinggi. Hal ini dapat dideteksi dengan nasi kering yang dimasukkan ke mulutnya.",
+        "Nasi kering akan membuat mulut menjadi kering sehingga dapat diketahui orang tersebut jujur atau tidak.",
+        "Orang yang berbohong mengalami penurunan air liur. Hal itu dapat dideteksi melalui nasi kering yang dimasukkan ke mulutnya.",
+        "Orang yang berbohong akan menjaga nasi tetap kering di dalam mulutnya. Hal ini membuktikan bahwa dia berbohong."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Berdasarkan teks, orang yang berbohong dilanda ketakutan/kecemasan sehingga mengalami mulut kering, yang diuji dengan melihat apakah nasi kering di dalam mulutnya tetap kering saat dikeluarkan."
+    },
+    {
+      "text": "Poligraf tidak memiliki kemiripan metode dengan pendeteksi kebohongan yang dibuat oleh ....",
+      "options": [
+        "peradaban Cina",
+        "peradaban Yunani",
+        "Daniel Defoe",
+        "Cesare Lombroso",
+        "Vittorio Benussi"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Poligraf merekam proses fisiologi seperti tekanan darah, denyut nadi, dan respirasi. Peradaban Yunani, Daniel Defoe, Cesare Lombroso, dan Vittorio Benussi menggunakan metode yang berkaitan dengan denyut nadi, tekanan darah, atau pernapasan. Sementara peradaban Cina menggunakan metode nasi kering (air liur/kondisi mulut), yang tidak memiliki kemiripan metode pengukuran fisiologis yang sama."
+    },
+    {
+      "text": "Putri kehilangan ponselnya di kelas. Dia ingat, saat jam istirahat, dia menaruh ponselnya di tas. Pada saat itu, hanya ada lima orang di dalam kelas, yaitu Zami, Sani, Selvi, Faathir, dan Andrian. Kelimanya mengaku tidak mengambil ponsel Putri. Kemudian, wali kelas memintai keterangan lima orang tersebut dengan menggunakan poligraf. Berikut adalah hasil yang didapatkan.\n\nBerdasarkan hasil tersebut, siapakah yang kemungkinan besar mengambil ponsel Putri?",
+      "options": [
+        "Zami",
+        "Sani",
+        "Selvi",
+        "Faathir",
+        "Andrian"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Sani menunjukkan perubahan fisiologis yang signifikan (lonjakan tekanan darah dan denyut nadi serta peningkatan respirasi saat ditanya tentang ponsel hilang dibanding saat hal umum)."
+    },
+    {
+      "text": "Berdasarkan semua alat atau metode pendeteksi kebohongan yang disebutkan di dalam teks, dapat disimpulkan bahwa ...",
+      "options": [
+        "perubahan tanda fisiologis pada seseorang dapat mendeteksi kebohongan",
+        "tekanan darah dan denyut nadi paling efektif untuk memvalidasi kebohongan",
+        "kadar air liur tidak bisa digunakan sebagai detektor kebohongan pada masa modern",
+        "reaksi fisiologis seseorang yang berbeda dengan orang lain menandakan bahwa dia berbohong",
+        "perubahan reaksi fisiologis membuat seseorang cenderung lebih mudah berbohong"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Seluruh alat dan metode pendeteksi kebohongan dari masa ke masa (mulai dari mulut kering/air liur, denyut nadi, tekanan darah, hingga poligraf) didasarkan pada perubahan tanda-tanda fisiologis akibat rasa takut atau cemas saat berbohong."
+    },
+    {
+      "text": "Teks tersebut menggambarkan perkembangan ilmu pengetahuan tentang alat atau metode pendeteksi kebohongan. Pernyataan manakah yang sesuai dengan proses perkembangan tersebut?",
+      "options": [
+        "Cesare Lombroso dan Vittorio Benussi adalah penemu yang paling berjasa untuk mengantarkan pada perkembangan penelitian sampai ditemukannya poligraf.",
+        "Sebelum ada poligraf, orang-orang tidak bisa mendeteksi kebohongan karena alat atau metode yang digunakan belum terbukti kebenarannya.",
+        "Poligraf adalah alat yang paling akurat untuk mendeteksi kebohongan karena merekam lebih banyak reaksi fisiologis dibanding alat atau metode sebelumnya.",
+        "Poligraf adalah alat yang lebih kompleks dibanding pendeteksi kebohongan sebelumnya karena tingkat kompleksitas kebohongan manusia meningkat dari masa ke masa.",
+        "Penemuan poligraf membuktikan bahwa alat atau metode pendeteksi kebohongan yang ditemukan sebelumnya tidak menggunakan indikator yang tepat."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pertanyaan yang jawabannya tidak bisa didapatkan dari teks tersebut adalah ....",
+      "options": [
+        "Bagaimana perkembangan alat pendeteksi kebohongan di abad ke-18?",
+        "Bagaimana masyarakat di peradaban kuno mendeteksi kebohongan?",
+        "Apa yang diukur oleh Vittorio Benussi untuk mendeteksi kebohongan?",
+        "Siapa saja peneliti metode pendeteksi kebohongan dari Amerika?",
+        "Di mana William Marston melakukan interogasi?"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apa yang membuat warga desa curiga kepada lelaki tua itu?",
+      "options": [
+        "Tidak ada keluarga yang mengakuinya.",
+        "Dia membawa koper kecil yang mencurigakan.",
+        "Dia menanyakan nama orang-orang yang tidak dikenal.",
+        "Dia pulang dari rantau tanpa membawa harta.",
+        "Dia mampir ke warung, tetapi tidak makan apa-apa."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apa yang dilakukan laki-laki tua itu di warung?",
+      "options": [
+        "Ingin makan, tetapi tidak punya uang.",
+        "Menanyakan nama-nama orang yang dia kenal.",
+        "Menanyakan rumah kepala desa.",
+        "Bertemu dengan orang yang dia kenal.",
+        "Berkenalan dengan warga desa."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Mengapa lelaki tua itu diminta untuk membayar makanan?",
+      "options": [
+        "Ia dianggap memiliki banyak uang setelah sekian lama merantau.",
+        "Sebagai tanda perkenalan dengan warga setelah ia lama merantau.",
+        "Orang yang pulang dari daerah rantau perlu menunjukkan kebaikannya kepada warga desa.",
+        "Orang yang kembali setelah merantau perlu mentraktir orang lain agar tidak dianggap sia-sia.",
+        "Orang yang pulang dari rantauan dan mampir ke warung itu, harus mentraktir orang lain."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apa yang lelaki tua itu dapati ketika ia kembali ke desanya setelah lama merantau?",
+      "options": [
+        "Orang-orang di desa tersebut sekarang bersifat materialistis.",
+        "Budaya di desa tersebut sudah berubah, orang-orang tidak lagi memiliki sopan santun.",
+        "Orang-orang di desa tersebut tidak menerima dia karena dia tidak membawa harta.",
+        "Orang-orang di desa tersebut menjadi individualis, tidak saling mengenal.",
+        "Ia seorang diri karena keluarga dan kerabatnya sudah meninggal atau pergi merantau."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata tersebut pada pada kalimat (3) mengacu pada ....",
+      "options": [
+        "sistem pembelajaran yang tidak bisa dilakukan secara bersama-sama",
+        "sistem pembelajaran yang klasik",
+        "dampak pandemi Covid-19 pada banyak aspek kehidupan",
+        "pandemi Covid-19",
+        "pembelajaran daring"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apakah penggunaan kata optimalisasi pada kalimat (6) tepat?",
+      "options": [
+        "Tepat karena optimalisasi bermakna 'terbaik'. Pembelajaran daring membutuhkan manajemen yang terbaik.",
+        "Tepat karena optimalisasi bermakna 'proses mengoptimalkan'. Pembelajaran daring butuh proses mengoptimalkan agar menjadi baik.",
+        "Tidak tepat karena optimalisasi bermakna 'proses mengoptimalkan', sedangkan maksud kalimat tersebut adalah pembelajaran daring membutuhkan manajemen yang optimal atau terbaik.",
+        "Tidak tepat karena optimalisasi bermakna 'bersifat optimal', sedangkan maksud kalimat tersebut adalah butuh proses mengoptimalkan tujuan pembelajaran daring.",
+        "Tidak tepat karena bermakna 'terbaik', sedangkan maksud kalimat tersebut adalah manajemen pembelajaran daring membutuhkan proses yang optimal."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika Informasi pada kalimat (6) dan (7) dihubungkan dengan kata akan tetapi. Manakah pernyataan yang tepat berdasarkan informasi tersebut?",
+      "options": [
+        "Kebutuhan ideal dari pembelajaran daring bertolak belakang dengan realitasnya.",
+        "Tujuan pembelajaran daring dapat tercapai di tengah berbagai masalah yang dihadapi.",
+        "Pembelajaran daring dapat tetap berjalan optimal dengan keterbatasan geografis.",
+        "Infrastruktur dan jaringan tidak menghambat proses pembelajaran daring.",
+        "Kemampuan menggunakan teknologi IT menjadi kunci suksesnya pembelajaran daring."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Agar informasi pada kalimat (8) dapat tersampaikan dengan jelas, kalimat tersebut perlu diubah menjadi ....",
+      "options": [
+        "Untuk itu, seluruh pemangku kepentingan yang perlu menyiapkan infrastruktur dapat menghasilkan efektivitas dan efisensi pembelajaran daring di tengah pandemi Covid-19",
+        "Untuk itu, seluruh pemangku kepentingan perlu menyiapkan infrastruktur yang dapat menghasilkan efektivitas dan efisien pembelajaran daring di tengah pandemi Covid-19",
+        "Untuk itu, seluruh pemangku kepentingan perlu menyiapkan infrastruktur yang dapat menghasilkan efektivitas dan efisiensi pembelajaran daring di tengah pandemi Covid-19",
+        "Untuk itu, yang perlu dilakukan oleh seluruh pemangku kepentingan 'stakeholder' adalah perlu menyiapkan infrastruktur yang dapat menghasilkan efektivitas dan efisiensi pembelajaran daring di tengah pandemi Covid-19",
+        "Untuk itu, seluruh pemangku kepentingan perlu disiapkan infrastruktur yang dapat menghasilkan efektivitas dan efisiensi pembelajaran daring di tengah pandemi Covid-19"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan yang tidak tepat untuk menggambarkan pembelajaran daring berdasarkan informasi pada teks tersebut?",
+      "options": [
+        "Pelaksanaan pembelajaran daring tidak ada batasan ruang dan waktu.",
+        "Siswa dapat mengakses berbagai macam sumber pembelajaran.",
+        "Pembelajaran daring menjadi solusi belajar saat pandemi.",
+        "Pembelajaran daring tidak cocok untuk daerah yang memiliki keterbatasan geografis.",
+        "Perlu disediakan alat dan media penunjang agar pembelajaran daring berjalan efektif."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

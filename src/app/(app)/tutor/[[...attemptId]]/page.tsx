@@ -240,7 +240,7 @@ function TutorContent({ attemptIdParam }: { attemptIdParam?: string }) {
                     <div className="w-full pl-8 sm:pl-12">
                       <button
                         onClick={() => handleSelectQuestion(q)}
-                        className="w-full flex flex-col sm:flex-row sm:items-center text-left p-4 sm:p-5 border transition-all duration-300 rounded-[1.25rem] relative overflow-hidden bg-white hover:bg-slate-50 border-slate-200 hover:border-[var(--accent)]/30 hover:shadow-md hover:-translate-y-0.5"
+                        className="w-full flex flex-col sm:flex-row sm:items-center text-left p-4 sm:p-5 border transition-all duration-300 rounded-3xl relative overflow-hidden bg-white hover:bg-slate-50 border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.03)] hover:border-slate-200 hover:shadow-md hover:-translate-y-0.5"
                       >
                         <div className={`w-1.5 h-full absolute left-0 top-0 ${colorConfig.tagBg} transition-colors group-hover:bg-[var(--accent)]`}></div>
                         
@@ -341,18 +341,18 @@ function TutorContent({ attemptIdParam }: { attemptIdParam?: string }) {
               const isSelected = selectedQuestion.selectedIds.includes(opt.id)
               const isCorrect  = opt.isCorrect
 
-              let containerCls = "p-4 md:p-5 rounded-[1.25rem] border flex items-start gap-4 transition-all duration-300 bg-white hover:bg-slate-50 border-slate-200 hover:border-[var(--accent)]/30 hover:shadow-sm"
+              let containerCls = "p-4 md:p-5 rounded-3xl border flex items-start gap-4 transition-all duration-300 bg-white hover:bg-slate-50 border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.03)] hover:border-slate-200 hover:shadow-md"
               let labelCls     = "w-10 h-10 md:w-11 md:h-11 rounded-[0.85rem] shrink-0 flex items-center justify-center text-base md:text-lg font-bold border transition-colors duration-300 "
               let textCls      = "text-[15px] md:text-base text-slate-600 font-medium leading-relaxed flex-1 mt-1"
               let statusTag: React.ReactNode = null
 
               if (isCorrect) {
-                containerCls = "p-4 md:p-5 rounded-[1.25rem] border flex items-start gap-4 transition-all duration-300 bg-emerald-50 border-emerald-200 shadow-sm opacity-90"
+                containerCls = "p-4 md:p-5 rounded-3xl border flex items-start gap-4 transition-all duration-300 bg-emerald-50 border-emerald-200 shadow-sm opacity-90"
                 labelCls = "w-10 h-10 md:w-11 md:h-11 rounded-[0.85rem] shrink-0 flex items-center justify-center text-base md:text-lg font-bold border bg-emerald-500 text-white border-emerald-600 shadow-sm"
                 textCls  = "text-[15px] md:text-base text-emerald-900 font-semibold leading-relaxed flex-1 mt-1"
                 statusTag = <span className="text-[10px] ml-auto shrink-0 mt-2 font-bold text-emerald-600 bg-emerald-100/80 px-3 py-1.5 rounded-full uppercase tracking-wider shadow-sm border border-emerald-200/50">Tepat</span>
               } else if (isSelected) {
-                containerCls = "p-4 md:p-5 rounded-[1.25rem] border flex items-start gap-4 transition-all duration-300 bg-rose-50/50 border-rose-200 shadow-sm opacity-90"
+                containerCls = "p-4 md:p-5 rounded-3xl border flex items-start gap-4 transition-all duration-300 bg-rose-50/50 border-rose-200 shadow-sm opacity-90"
                 labelCls = "w-10 h-10 md:w-11 md:h-11 rounded-[0.85rem] shrink-0 flex items-center justify-center text-base md:text-lg font-bold border bg-rose-500 text-white border-rose-600 shadow-sm"
                 textCls  = "text-[15px] md:text-base text-rose-900 font-semibold leading-relaxed flex-1 mt-1"
                 statusTag = <span className="text-[10px] ml-auto shrink-0 mt-2 font-bold text-rose-600 bg-rose-100/80 px-3 py-1.5 rounded-full uppercase tracking-wider shadow-sm border border-rose-200/50">Jawabanmu</span>
@@ -430,10 +430,10 @@ function TutorContent({ attemptIdParam }: { attemptIdParam?: string }) {
                   <button
                     key={q.questionId}
                     onClick={() => handleSelectQuestion(q)}
-                    className={`w-full shrink-0 flex flex-col text-left p-4 border transition-all rounded-[1.25rem] group relative overflow-hidden ${
+                    className={`w-full shrink-0 flex flex-col text-left p-4 border transition-all rounded-3xl group relative overflow-hidden ${
                       isCurrent 
                         ? `bg-[var(--accent)]/5 ${colorConfig.border} shadow-sm ring-1 ring-[var(--accent)]` 
-                        : "bg-white border-slate-200 hover:border-slate-300 hover:shadow-sm"
+                        : "bg-white border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.03)] hover:border-slate-200 hover:shadow-md"
                     }`}
                   >
                     <div className={`w-1.5 h-full absolute left-0 top-0 ${isCurrent ? colorConfig.tagBg : 'bg-slate-200 group-hover:bg-slate-300'} transition-colors`}></div>

@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Terdapat barisan aritmatika $1, 7, 13, 19$. Manakah bentuk yang menyatakan hubungan kuantitas antara nilai $P$ dan nilai $Q$. P: Suku ke-50, Q: Jumlah suku ke-13",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah bentuk yang menyatakan hubungan kuantitas antara nilai $P$ dan nilai $Q$. P: $11,11\\% \\text{ dari } 9 + 12,5\\% \\text{ dari } 8$, Q: $33,33\\% \\text{ dari } 3 + 25\\% \\text{ dari } 4$",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Terdapat barisan geometri dengan suku pertama adalah $2$. Berapakah suku ke-10? 1) Suku ke-3 adalah $8$, 2) Suku ke-2 adalah $4$",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Andi selalu menyisihkan uang jajan sekolahnya sebesar $20\\%$ setiap harinya kecuali sabtu dan minggu. Berapa banyak tabungan Andi saat ini? 1) Uang jajan Andi sebesar Rp20.000/hari, 2) Andi sudah menabung selama $8$ minggu",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ayah ingin lemari berbentuk balok. Berapa panjang kerangka kayu yang Ayah butuhkan? 1) Tinggi lemari adalah $150 \\text{ cm}$, 2) lebar lemari adalah $50 \\text{ cm}$",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Seorang pengrajin kayu ingin membuat $2$ buah Figura berbahan jati dan mahoni. Manakah bentuk yang menyatakan hubungan kuantitas antara nilai $P$ dan nilai $Q$. P: Figura berbahan jati berukuran $11 \\text{ inch} \\times 11 \\text{ inch}$, Q: Figura berbahan mahoni berukuran $30 \\text{ cm} \\times 30 \\text{ cm}$",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Terdapat $10$ siswa dalam kelas yang mengikuti ujian susulan. $4$ orang mendapatkan $90$, $2$ orang mendapatkan $85$, $2$ orang mendapatkan $80$, dan sisanya mendapatkan nilai masing-masing $75$ dan $70$. Manakah kuantitas P dan Q yang benar? P: Nilai median dari nilai ulangan susulan tersebut, Q: Rata-rata ulangan susulan ditambah $5$ siswa dengan nilai $85, 90, 85, 75$, dan $70$",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Terdapat sebuah barisan aritmatika dengan suku kedua ialah $11$, berapakah suku ke-50? 1) $b = 4$, 2) suku ke-5 adalah $27$",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapakah luas dan keliling pada segitiga siku-siku tersebut? 1) Panjang sisi miringnya adalah $40 \\text{ cm}$, 2) Panjang sisi terpendeknya adalah $\\sqrt{576}$",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar di bawah ini. Terdapat persegi panjang $ABCD$ dan garis diagonal $AC$, berapakah luas segitiga $ACD$? 1) Panjang alas persegi adalah $16 \\text{ cm}$, 2) Tinggi persegi adalah $12 \\text{ cm}$",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Untuk membuat satu cangkir kopi, diperlukan kopi $3$ sendok dan krimer $2$ sendok. Telah digunakan kopi $5$ sendok dan krimer $a$ sendok untuk membuat beberapa cangkir kopi. Tentukan hubungan antara kuantitas P dan Q. P: $3a$, Q: $10$",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "Informasi diberikan tidak cukup untuk memutuskan nilai P dan Q."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui besar $\\angle BAO = 45^{\\circ}$, dan segitiga ABO adalah segitiga sama kaki, tentukan kuantitas P dan Q. P: $\\angle OAB$, Q: $\\angle DFE$",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "Informasi yang diberikan tidak cukup untuk menentukan hubungan P dan Q."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapakah volume total dari suatu kubus S? 1) Panjang salah satu sisi dari kubus S adalah $5$, 2) Luas salah satu sisi dari kubus S adalah $20$",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup.",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika diketahui perbandingan panjang $AD = \\frac{1}{2} \\times AC$, dapatkah panjang $DE$ ditentukan? Putuskan apakah pernyataan berikut cukup untuk menjawab pertanyaan tersebut! 1) AE = $2\\text{cm}$, 2) BC = $6\\text{cm}$",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) saja tidak cukup.",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) saja tidak cukup.",
+        "DUA pernyataan bersama – sama cukup untuk menjawab pertanyaan, tetapi SATU saja tidak cukup.",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) saja cukup.",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Suatu himpunan terdapat $3$ bilangan, berapa rata – ratanya? 1) Jumlah dari suatu himpunan bilangan adalah $333$, 2) Bilangan terbesar dan terkecilnya masing – masing adalah $150$ dan $13$.",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.",
+        "DUA pernyataan BERSAMA – SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup.",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

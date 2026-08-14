@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "What made the process of drawing the animals a difficult process?",
+      "options": [
+        "The artist drew on not easily accessible walls as well.",
+        "The paintings showed the image of prehistoric animals.",
+        "Early artist took a long time to finish the paintings.",
+        "The artist used specific tools to make the paintings.",
+        "At first, the artist were not allowed to make paintings."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Early artists carried their painting materials to spaces that required climbing steep walls or crawling into narrow passages."
+    },
+    {
+      "text": "“Although they are not out in the open air, where natural light would have destroyed them long ago, many of the images have deteriorated and are barely recognizable.” (paragraph 2)\nThe word ‘they’ in the sentence above refers to...",
+      "options": [
+        "The caves",
+        "The artist",
+        "The animals",
+        "The entrances",
+        "The paintings"
+      ],
+      "correctAnswer": "E",
+      "explanation": "The pronoun 'they' refers to the images or paintings inside the cave."
+    },
+    {
+      "text": "What is the main topic of the passage?",
+      "options": [
+        "Old caves in the south of France",
+        "Measuring the area of an old cave",
+        "Hidden prehistoric paintings",
+        "Accomplishing a monumental task",
+        "Reconstruction of the damage cave"
+      ],
+      "correctAnswer": "C",
+      "explanation": "The passage discusses the discovery of the Lascaux cave complex and its prehistoric wall paintings."
+    },
+    {
+      "text": "What is the implementation of aquaculture to solve the problem of fish shortage?",
+      "options": [
+        "May make the shortage of wild fish even greater",
+        "Has sharply increased the number of fish",
+        "Enlarges the supply of wild fish for fish feed",
+        "Has only produced carnivorous kinds of fish",
+        "Should immediately be introduced worldwide"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Fish farming relies heavily on fish feed (capturing small wild fish), which further drains wild fish stocks."
+    },
+    {
+      "text": "‘rebuilding from previous over-fishing’ line 3 is an effort...",
+      "options": [
+        "To produce fish feed aquaculture",
+        "To catch fish as much as possible at sea",
+        "To cultivate salmon in controlled farming",
+        "To establish controlled areas for fishing",
+        "To overcome the depletion of the stocks of fish"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Rebuilding fish stocks refers to recovering from depletion."
+    },
+    {
+      "text": "Which of the following is NOT TRUE about the farmed fish?",
+      "options": [
+        "They contaminate the wild fish with diseases",
+        "They may not keep the genetic make up of their offspring",
+        "They mix with wild fish in the ocean",
+        "They do not include salmon found in North Atlantic",
+        "They can escape to the Atlantic ocean"
+      ],
+      "correctAnswer": "D",
+      "explanation": "The text mentions salmon fish escaping and mixing with wild fish, so stating they do not include salmon is false."
+    },
+    {
+      "text": "The false idea that the author may hold about plastic is that...",
+      "options": [
+        "Bacteria or other living things cannot breakdown plastic.",
+        "The plastic waste is accumulated in the sea for decades.",
+        "Plastic contains toxins that are harmful for wildlife.",
+        "Straws is one of plastic products that are most commonly used.",
+        "Plastic straws for medical purpose are allowed to use."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Which paragraph(s) present(s) the dangers of plastic straws?",
+      "options": [
+        "Paragraph 1",
+        "Paragraph 1 and 2",
+        "Paragraph 3",
+        "Paragraph 3 and 4",
+        "Paragraph 4"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Paragraph 3 discusses plastic straws as culprits of unnecessary pollution, non-biodegradability, and breaking into particles releasing harmful chemicals."
+    },
+    {
+      "text": "What is the best summary of the passage?",
+      "options": [
+        "The over-produce, over-use, and over consume of plastic should be limited because it can lead to plastic waste that harms the wildlife. It’s estimated that as many as 70% of seabirds and 30% of turtles have ingested some type of plastic from the ocean.",
+        "The plastic waste is accumulated in the river, sea, and ocean so the wildlife cannot live and die because they consume the toxins exposed by the plastic.",
+        "The use of plastic straws must be banned because five hundred million straws are used each day by people in the United States. Most plastic straws simply break into ever-smaller particles, releasing chemicals into the soil, air, and water.",
+        "Plastic straws should be replaced by the more eco-friendly straws to reduce the plastic waste in the ocean. It can be changed with reusable stainless steel, glass, or biodegradable paper alternatives is an easy way to cut down on plastic pollution.",
+        "Plastic can endanger animals, plants, people, and environment on earth as they are not degradable and can pollue the environment. People can change the plastic straw with the reusable ones to reduce the impact of plastic waste."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Many thousands of hydrocarbon compounds are possible because...",
+      "options": [
+        "The petroleum products vary greatly in physical appearance",
+        "Complicated refining processes rearrange the chemical structure",
+        "The two atoms in the molecule assume many positions",
+        "The preassure needed to force it to the surface causes molecular transformation",
+        "Chemical elements forming petroleum are many in number"
+      ],
+      "correctAnswer": "C",
+      "explanation": "The text states: 'The combination of carbon and hydrogen forms many thousands of compounds which are possible because of the various positions and joinings of these two atoms in the hydrocarbon molecule.'"
+    },
+    {
+      "text": "All the following statements are true, except...",
+      "options": [
+        "Crude oil is found below land and water",
+        "Crude oil is always found a few hundred feet below the surface",
+        "Pumping and pressure force crude oil to the surface",
+        "Many petroleum products are obtained from crude oil",
+        "The chemical composition of petroleum is formed of only two elements"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Crude oil is found from a few hundred feet below the surface to as deep as 25,000 feet, not always just a few hundred feet."
+    },
+    {
+      "text": "How is crude oil brought to the surface?",
+      "options": [
+        "Pressure and pumping",
+        "Expansion of the hydrocarbons",
+        "Vacuum created in the drilling pipe",
+        "Expansion and contraction of the earth’s surface",
+        "Different pressure of surface and the earth’s interior"
+      ],
+      "correctAnswer": "A",
+      "explanation": "The text explicitly mentions: 'Either pressure at the source or pumping forces crude oil to the surface.'"
+    },
+    {
+      "text": "Which of the following sentence is true according to the text?",
+      "options": [
+        "The various petroleum products are produced by filtration",
+        "Chemical separation is used to produce the various products",
+        "Mechanical means, such as centrifuging, are used to produce the various products",
+        "Crude oil wells flow at the same rate all over the world",
+        "Heating and condensing produce the various products"
+      ],
+      "correctAnswer": "E",
+      "explanation": "The text states: 'The various petroleum products are refined by heating crude oil and then condensing the vapours.'"
+    },
+    {
+      "text": "The text above is about...",
+      "options": [
+        "Crude oil",
+        "How to refine crude oil",
+        "Petroleum products",
+        "Chemical elements of crude oil",
+        "Petroleum products are made of two elements"
+      ],
+      "correctAnswer": "C",
+      "explanation": "The passage discusses various petroleum products, their sources, and how they are obtained and refined."
+    },
+    {
+      "text": "Which of the following expresses the main topic of the passage?",
+      "options": [
+        "Vaccines provide immunity to specific disease",
+        "Vaccines contain disease-causing microorganisms",
+        "The classification of vaccines based on their derivation method",
+        "New approaches in administering vaccines are being developed",
+        "The relationship between vaccines and disease"
+      ],
+      "correctAnswer": "C",
+      "explanation": "The passage outlines different types of vaccines and notes that 'The various types of vaccines are classified according to the method by which they are derived.'"
+    },
+    {
+      "text": "Which of the following statements is not true according to the text?",
+      "options": [
+        "Vaccine which contains toxins is the first type of vaccine",
+        "The Sabinoral anti polio vaccine contains living microorganisms",
+        "BCG vaccine stimulate the production of a large number of antigen molecules",
+        "The third type of vaccine provide longer immunity than others",
+        "Diphteria can be prevented by vaccine containing toxin"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Why does vaccine containing living microorganism provide longer immunity? Because...",
+      "options": [
+        "It is the final type of vaccine",
+        "It can prevent tuberculosis",
+        "It makes little damage",
+        "It stimulates the formation of antibodies",
+        "It produces a large number of antigen molecules"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "The two different types of sleep are characterized by different...",
+      "options": [
+        "Lengths of sleep",
+        "Degrees of soundness",
+        "Sleep movements",
+        "Brain wave patterns",
+        "Eye movements"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "The second stage of sleep is called paradoxical sleep because...",
+      "options": [
+        "It comes after the orthodox phase of sleeping",
+        "We sleep but out muscles are tensed",
+        "It is totally different from orthodox sleep",
+        "The brain is active during this phase of sleeping",
+        "We only dreaming during this phase of sleeping"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "From the text we may conclude that...",
+      "options": [
+        "Our brain is restoring our physical and mental condition",
+        "We can really be as active as when we are awake",
+        "The tensed muscles are caused bye the changing phase of sleep",
+        "Orthodox sleep is more important than paradoxical sleep",
+        "Irregular heart rate while sleeping is due to bad dreams"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "11. Terdapat di dalam paragraf 3 kalimat terakhir, \"The combination of carbon and hydrogen forms many thousands of compounds which are possible because of the various positions and unions of these two atoms in the hydrocarbon molecule.\" Many in number memiliki arti yang sama dengan various positions.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Pernyataan D ada di dalam teks pada paragraf 4 kalimat pertama, \"The various petroleum products are refined by heating crude oil and then condensing the vapors.\" Di dalam kalimat tersebut, dijelaskan bahwa petroleum products refined by heating crude oil, berarti secara langsung banyak petroleum products yang disaring dari crude oil."
+    },
+    {
+      "text": "12. Terdapat pada paragraf 1 kalimat terakhir, \"Either pressure at the source or pumping forces crude oil to the surface.\" Sehingga cara minyak mentah di bawa ke permukaan adalah dengan cara pressure and pumping.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "13. Jawaban E benar karena pernyataan tersebut terdapat pada paragraf 4 kalimat pertama, \"The various petroleum products are refined by heating crude oil and then condensing the vapors.\" Melalui pemanasan dan kondensasi, berbagai macam produk di hasilkan. Di dalam kalimat, makna nya sama tetapi susunan katanya di balik.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "14. Di dalam setiap paragraf, kata petroleum products selalu di ada dan di ulang-ulang sehingga jawaban yang tepat adalah teks tersebut membahas mengenai petroleum products. Jawaban A tidak benar karena tidak hanya membahas crude oil; sedangkan jawaban B mendekati tetapi di dalam teks tersebut tidak seluruhnya membahas mengenai bagaimana cara minyak mentah disaring. Jawaban D juga bukan karena tidak membahas mengenai unsur kimia minyak mentah. Sedangkan jawaban E juga bukan karena hanya sebagian kecil informasi mengenai petroleum products.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "15. Pembahasan mengenai klasifikasi jenis vaksin berdasarkan metode derivasi.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Jawaban C benar karena paragraf 2, 3, dan 4 berisi klasifikasi jenis vaksin berdasarkan metode derivasi. Sebenarnya hal tersebut juga sudah dinyatakan dalam paragraf 1 kalimat kedua, \"The various types of vaccines are classified according to the method by which they are derived.\" Setelah kalimat tersebut, berisi klasifikasi berbagai jenis vaksin."
+    },
+    {
+      "text": "16. Jawaban A yang benar karena pernyataan A salah. Vaksin yang mengandung racun merupakan jenis vaksin yang kedua, bukan yang pertama. Jawaban B salah karena pernyataan tersebut benar dan terdapat pada paragraf 4 kalimat pertama, \"A final type of vaccine contains living microorganisms.\" Lalu jawaban C juga salah karena pernyataan tersebut benar, terdapat pada paragraf 4 kalimat terakhir, \"The Sabin oral anti polio vaccine and BCG vaccine against tuberculosis are examples of this type of vaccine.\" Kemudian jawaban D juga merupakan pernyataan yang benar, terdapat paragraf 4 bagian kalimat kedua, \"...and immunity that results is generally longer lasting than the immunity from other types of vaccines.\" Jawaban E juga mengandung pernyataan yang benar, terdapat dalam paragraf 3 kalimat ketiga, \"For example, the bacteria that cause diptheria can thrive in the throat without much harm, but when the toxins are released.\"",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "17. Pernyataan E terdapat di dalam paragraf 4 kalimat kedua, \"With this type of vaccine, a large number of antigen molecules are produced and immunity that results is generally longer lasting from the immunity from other types of vaccines.\" Di dalam kalimat tersebut dijelaskan mengenai alasan tentang vaksin yang mengandung mikroorganisme hidup memberikan kekebalan yang lebih lama karena menghasilkan sejumlah besar molekul antigen.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "18. Pembahasan jika melihat teks, kedua penjelasan mengenai orthodox sleep dan paradoxical sleep di mulai dengan pola gelombang otak (brain wave patterns), bisa di lihat pada kalimat ke 3 dan kalimat ke 7, \"As a person falls asleep, his brain waves develop a slower and less regular pattern than in a waking state\" dan \"After about an hour in this state, the brain waves begin to show a more active pattern again...\" sehingga dapat di ambil kesimpulan bahwa dua jenis tidur di bedakan oleh pola gelombang otak (brain wave patterns).",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "19. Terdapat pada kalimat, \"After about an hour in this state, however, the brain waves begin to show a more active pattern again, even though the person is apparently asleep very deeply. This is called paradoxical sleep because it has much in common with being awake.\" Penjelasan tersebut menyatakan bahwa pola gelombang otak menunjukkan pola yang lebih aktif meskipun seseorang tertidur pulas. Ini di sebut paradoxical sleep karena memiliki banyak kesamaan dengan terjaga. Dari penjelasan tersebut, dapat di ambil kesimpulan bahwa tahapan kedua dari tidur di sebut paradoxical sleep karena otak masih aktif selama fase tidur ini.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "20. Kesimpulan dari teks biasanya terdapat pada paragraf terakhir. Paragraf terakhir dari teks tersebut membahas mengenai pemulihan yang dilakukan karena tidur. Pemulihan tersebut adalah bekerja pada otak dan pada tubuh. Sehingga dapat di ambil kesimpulan bahwa ketika tidur, otak kita memulihkan kondisi fisik dan mental kita.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    }
+  ]
+}

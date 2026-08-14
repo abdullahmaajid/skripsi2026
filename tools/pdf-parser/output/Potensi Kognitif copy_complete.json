@@ -1,0 +1,496 @@
+{
+  "questions": [
+    {
+      "text": "Terdapat lima orang anak Bernama yaitu Andin, Erna, Popi, Heni, dan Sinta memiliki tas dengan jumlah yang berbeda. - Tas milik Sinta lebih banyak dari tas milih Heni dan Popi. - Tas milik Andin sama banyaknya dengan tas milik Popi. - Tas milik Erna lebih banyak dari tas milik Popi, tetapi tidak lebih banyak dari tas Sinta. - Tas milik Heni lebih banyak dari tas milik Andin. Berikut ini pernyataan yang pasti salah adalah…",
+      "options": [
+        "Tas milik Popi lebih banyak dari tas Heni.",
+        "Tas paling sedikit adalah tas milik Popi.",
+        "Tas milik Sinta lebih banyak dari tas milik Erna.",
+        "Tas milik Popi dan Andin sama banyak.",
+        "Tas paling sedikit adalah tas milik Popi dan Andin."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Terdapat lima orang anak Bernama yaitu Andin, Erna, Popi, Heni, dan Sinta memiliki tas dengan jumlah yang berbeda. - Tas milik Sinta lebih banyak dari tas milih Heni dan Popi. - Tas milik Andin sama banyaknya dengan tas milik Popi. - Tas milik Erna lebih banyak dari tas milik Popi, tetapi tidak lebih banyak dari tas Sinta. - Tas milik Heni lebih banyak dari tas milik Andin. Jika tas Erna lebih banyak dari tas milik Heni maka pernyataan yang benar adalah…",
+      "options": [
+        "Tas milik Andin lebih banyak dari tas Heni.",
+        "Tas milik Erna adalah tas paling banyak.",
+        "Tas milik Andin dan Popi adalah tas paling sedikit.",
+        "Tas milik Heni lebih banyak dari tas milik Sinta.",
+        "Jumlah tas milik Popi dan milik Heni lebih banyak dari tas milik Erna."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Yahya, Arma, dan Aska senang basket. Bambang dan Toni tidak suka basket. Arman dan Bambang memakai topi. Siapakan yang topinya jatuh Ketika bermain basket?",
+      "options": [
+        "Yahya",
+        "Arman",
+        "Aska",
+        "Bambang",
+        "Toni"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Lima orang peserta mengikuti sebuah Olimpiade lari tingkat provinsi sejauh $100$ m. joko berhasil melewati Firman, tetapi tidak pernah dapat mengejar Willy. Sedangkan Gagah gagal mengejar David, tetapi berhasil melewati Willy. Peserta yang berada di urutan terakhir adalah…",
+      "options": [
+        "Joko",
+        "Firman",
+        "Willy",
+        "Gagah",
+        "David"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sejumlah $600$ karyawan dikelompokkan berdasarkan gaji per bulan. Kelompok dengan gaji berapakah yang menyebabkan pengeluaran perusahaan paling banyak terhadap gaji $600$ karyawan secara keseluruhan?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "8 dan 9"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Penjual rumah hanya mau menyerahkan kunci rumah bila perjanjian telah ditandatangani. Pembeli rumah berencana segera merenovasi rumah setelah kunci rumah di tangan. Maka kesimpulan yang paling mungkin terjadi adalah sebagai berikut …",
+      "options": [
+        "Jika rumah akan direnovasi, kunci rumah diserahkan penjual kepada pembeli",
+        "Kunci rumah belum diserahkan berarti penjual tidak merenovasi rumah",
+        "Jika kunci rumah sudah di tangan pembeli, perjanjian segera ditandatangani",
+        "Rumah belum direnovasi berarti perjanjian belum ditandatangani",
+        "Jika tidak dilakukan renovasi rumah, maka perjanjian tidak adak ditandatangani"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah yang paling tepat?",
+      "options": [
+        "28 segitiga, 10 kotak",
+        "28 segitiga, 8 kotak",
+        "30 segitiga, 10 kotak",
+        "32 segitiga, 10 kotak",
+        "32 segitiga, 8 kotak"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah gambar yang tepat untuk melengkapi kotak merah?",
+      "options": [
+        "Opsi A",
+        "Opsi B",
+        "Opsi C",
+        "Opsi D",
+        "Opsi E"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Marion berumur $18$ tahun. Usianya setengah dari usia Ana tania enam tahun lebih muda daripada Ana dan lima tahun lebih tua daripada Maria. Siapakah yang paling tua?",
+      "options": [
+        "Marta",
+        "Ana",
+        "Tania",
+        "Maria",
+        "Ana dan tania"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pina, Ketty, Rio, Sinta, dan Toni mengikuti sebuah tes belajar dan hasilnya sebagai berikut: (a) Nilai Rio lebih tinggi daripada nilai Pina dan dua kali nilai Ketty. (b) Jika nilai Pina dan nilai Ketty ditambahkan, hasilnya nilai Sinta. (c) Nilai Pina lebih besar daripada nilai Toni, tetapi hanya sepertiga nilai Sinta. Jika semua nilai berupa bilangan bulat, siswa yang pasti mendapat nilai genap adalah…",
+      "options": [
+        "Pina dan Ketty",
+        "Ketty dan Rio",
+        "Pina dan Sinta",
+        "Rio dan Sinta",
+        "Sinta dan Toni"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pina, Ketty, Rio, Sinta, dan Toni mengikuti sebuah tes belajar dan hasilnya sebagai berikut: (a) Nilai Rio lebih tinggi daripada nilai Pina dan dua kali nilai Ketty. (b) Jika nilai Pina dan nilai Ketty ditambahkan, hasilnya nilai Sinta. (c) Nilai Pina lebih besar daripada nilai Toni, tetapi hanya sepertiga nilai Sinta. Urutan nama siswa yang mempunyai nilai tertinggi sampai nilai terendah adalah…",
+      "options": [
+        "Rio, Sinta, Ketty, Pina, Toni",
+        "Rio, Sinta, Pina, Ketty, Toni",
+        "Sinta, Rio, Ketty, Pina, Toni",
+        "Sinta, Ketty, Rio, Pina, Toni",
+        "Ketty, Rio, Sinta, Pia, Toni"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Tari membuat target belajar yang ingin dicapainya setiap tahun setelah lulus SMA. Setiap satu tahun, ada satu kursus baru yang akan dilakukan Tari. Sebelum mengikuti kursus bicara di depan public, Tari ingin mengikuti kursus kewirausahaan. Kursus Bahasa Inggris akan dilakukan segera setelah lulus SMA. Pada tahun ketiga, paling tidak Tari sudah mengikuti kursus bicara di depan public. Tari berencana menamatkan kuliah empat tahun setelah lulus SMA. Setelah wisuda kuliah, Tari akan segera mengikuti kursus memasak. Setelah kursus memasak, Tari akan mulai berwirausaha. Tari juga ingin mengambil kursus pembukaan yang diperkirakan akan dilaksanakan pada…",
+      "options": [
+        "tahun ke-1 kuliah",
+        "tanun ke-2 kuliah",
+        "tahun ke-3 kuliah",
+        "tahun ke-4 kuliah",
+        "1 tahun pascakuliah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "SMA Maju terus akan mengirimkan tujuh orang peserta tim olimpiade yang akan berangkat ke Jakarta dan kebetulan hanya ada dua mobil untuk perjalanan menuju Jakarta. Mobil pertama dapat memuat empat orang. Amel tidak mau semobil dengan Gita. Dita merasa tertekan jika ada Cici dan Dina. Cici inging semobil dengan Dina. Effy tidak ingin semobil dengan Fitri jika Dina semobil dengan Amel. Berdasarkan kondisi tersebut, bagaimanakah pembagian penempatan peserta dalam mobil yang paling memungkinkan?",
+      "options": [
+        "mobil 1: Gita, Fitri, Effy, CIci mobil 2: Dina, Dita, Amel",
+        "mobil 1: Amel, Fitri, Dina, Effy mobil 2: Gita, Cici, Dita",
+        "mobil 1: Gita, Fitri, Dita, Amel mobil 2: Cici, Dina, Effy",
+        "mobil 1: Amel, Effy, Cici, Dina mobil 2: Gita, Fitri, Dita",
+        "mobil 1: Gita, Dina, Cici, Dita mobil 2: Amel, Effy, Fitri"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Andi sedang memandangi cermin di depannya. Ia melihat sebuah jam yang dilihat dari cermin menujukkan waktu $15$ menit menuju pukul tiga. Jam berapakah waktu sebenarnya yang ditunjukkan jam?",
+      "options": [
+        "8 : 15",
+        "9 : 12",
+        "8 : 17",
+        "9 : 15",
+        "10 : 15"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan: (1) Banyak jenis tanaman yang dapat digunakan untuk obat sehari-hari. (2) Ada $20\\%$ dana APBN yang dialokasikan untuk bidang Pendidikan sebagai dana BOS. Manakah di bawah ini yang menggambarkan hubungan pernyataan (1) dan (2)?",
+      "options": [
+        "Pernyataan (1) adalah penyebab dan pernyataan (2) adalah akibat.",
+        "Pernyataan (2) adalah penyebab dan pernyataan (1) adalah akibat.",
+        "Pernyataan (1) dan (2) adalah penyebab, namun tidak saling berhubungan.",
+        "Pernyataan (1) dan (2) adalah akibat dari dua penyebab yang tidak saling berhubungan.",
+        "Pernyataan (1) dan (2) adalah akibat dari suatu penyebab yang sama."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika bisnis ingin ditemukan di internet, maka Anda harus mendaftarkan nama domain dan memiliki website. Sebelum memiliki website Anda perlu menentukan dulu nama domain yang akan digunakan. Setelah ketemu baru Anda mendaftarkan nama domain baru website pada register domain pilihan Anda. Domain adalah nama unik yang digunakan untuk mengidentifikasi IP Adress pada suatu server. Ibaratnya nama domain ini seperti alamat rumah, jadi satu domain dengan domain lainnya memiliki alamat yang berbeda. Contoh saja domain Qwords.com. yang dipakai untuk alamat domain website ini. Siapapun bisa mendaftarkan nama domain bahkan seorang individu sekalipun bisa memiliki nama domainnya sendiri. Berdasarkan paragraph pertama dari bacaan di atas, pernyataan yang paling tidak mungkin benar adalah…",
+      "options": [
+        "Apabila bisnis ingin ditemukan di internet, Anda harus mendaftarkan nama domain dan memiliki website.",
+        "Anda harus mendaftarkan nama domain dan memiliki website apabila bisnis ingin ditemukan di internet.",
+        "Jika Anda tidak harus mendaftarkan nama domain atau tidak memiliki website, artinya bisnis tidak ingin ditemukan di internet.",
+        "Bisnis ingin ditemukan di internet menyebabkan Anda harus mendaftarkan nama domain dan memiliki website.",
+        "Anda tidak harus mendaftarkan nama domain atau tidak memiliki website karena bisnis ingin ditemukan di internet."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika bisnis ingin ditemukan di internet, maka Anda harus mendaftarkan nama domain dan memiliki website. Sebelum memiliki website Anda perlu menentukan dulu nama domain yang akan digunakan. Setelah ketemu baru Anda mendaftarkan nama domain baru website pada register domain pilihan Anda. Domain adalah nama unik yang digunakan untuk mengidentifikasi IP Adress pada suatu server. Ibaratnya nama domain ini seperti alamat rumah, jadi satu domain dengan domain lainnya memiliki alamat yang berbeda. Contoh saja domain Qwords.com. yang dipakai untuk alamat domain website ini. Siapapun bisa mendaftarkan nama domain bahkan seorang individu sekalipun bisa memiliki nama domainnya sendiri. Manakah pernyataan di bawah ini yang paling setara dengan paragraph pertama pada bacaan di atas…",
+      "options": [
+        "Jika bisnis tidak ingin ditemukan di internet dan Anda harus mendaftarkan nama domain maka Anda harus memiliki website.",
+        "Apabila bisnis ingin ditemukan di internet, Anda harus mendaftarkan nama domain atau memiliki website.",
+        "Jika bisnis tidak ingin ditemukan di internet atau Anda harus mendaftarkan nama domain dan memiliki website.",
+        "Bisnis ingin ditemukan di internet menyebabkan Anda harus mendaftarkan nama domain dan tidak memiliki website.",
+        "Jika bisnis ingin ditemukan di internet, maka Anda harus mendaftarkan nama domain atau memiliki website."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Andry memiliki jadwal les hari Selasa dan Iqbal hari Rabu. Iqbal dan Asfa les pada hari yang sama. Andry bertukar jadwal les dengan Iqbal. Simpulan yang PASTI BENAR adalah…",
+      "options": [
+        "Andry dan Asfa les pada hari Rabu di minggu ini",
+        "Iqbal dan Andry les pada hari yang sama",
+        "Andry les dua kali dalam minggu ini",
+        "Iqbal les dua kali dalam minggu ini",
+        "Asfa dan Iqbal les Bersama pada hari Selasa"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Beberapa guru olah raga bergabung dalam paguyuban guru olah raga. Setiap guru olah raga tidak ada yang menjadi aggota paguyuban lain. Pak Narto adalah anggota paguyuban lain. Simpulan yang MUNGKIN BENAR adalah…",
+      "options": [
+        "Pak Narto adalah anggota paguyuban guru olah raga",
+        "Semua anggota paguyuban guru olah raga adalah anggota paguyuban lain",
+        "Pak Narto bukan anggota paguyuban guru olah raga",
+        "Beberapa guru olah raga bukan anggota paguyuban lain",
+        "Beberapa anggota paguyuban lain adalah anggota paguyuban guru olah raga"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kesebelasan Atletico Madrid menang atas kesebelasan Barcelona dengan skor $3-0$. Kesebelasan Barcelona kalah atas Real Madrid dengan skor $1-2$. Kesebelasan Reat Madrid mendang atas Real Betis. Kesebelasan Almeria menang atas kesebelasan Elche $2-0$. Jika aturan dalam sepak bola yang menang mendapat $3$ poin dan yang kalah $0$. Maka kesebelasan yang menjadi pemenang adalah…",
+      "options": [
+        "Almeria",
+        "Atletico Madrid",
+        "Real Madrid",
+        "Barcelona",
+        "Real Betis"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Lihat pernyataan ke-4, tas Heni > tas Andin, sedangkan tas Andin = tas Popi, maka tidak mungkin jika tas Popi lebih banyak dari tas Heni.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Lihat pernyataan ke-4, tas Heni > tas Andin, sedangkan tas Andin = tas Popi, maka tidak mungkin jika tas Popi lebih banyak dari tas Heni."
+    },
+    {
+      "text": "Jika tas Ema > Heni, maka urutannya menjadi Sinta > Ema > Heni > Popi = Andin. Jadi, tas Andin dan Popi adalah tas yang paling sedikit.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Jika tas Ema > Heni, maka urutannya menjadi Sinta > Ema > Heni > Popi = Andin. Jadi, tas Andin dan Popi adalah tas yang paling sedikit."
+    },
+    {
+      "text": "Berdasarkan di atas, maka dapat dibuat tabel sebagai berikut. Jadi kemungkinan anak yang topinya jatuh ketika bermain basket adalah Arman.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Berdasarkan di atas, maka dapat dibuat tabel sebagai berikut: Yanto, Ari, Arif, Budi, Tomi. Jadi kemungkinan anak yang topinya jatuh ketika bermain basket adalah Arman."
+    },
+    {
+      "text": "(i) Joko (J) berhasil melewati Firman (F), tetapi tidak dapat mengejar Willy (W). Maka J > F, W > J, jadi W > J > F. (ii) Gagah (G) gagal mengejar David (D), tetapi berhasil melewati Willy (W). D > G, G > W, jadi D > G > W. Sehingga diperoleh urutan pelari dari yang tercepat adalah D > G > W > J > F. Jadi peserta yang berada di urutan terakhir adalah Firman.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "B",
+      "explanation": "(i) Joko (J) berhasil melewati Firman (F), tetapi tidak dapat mengejar Willy (W). Maka J > F, W > J, jadi W > J > F. (ii) Gagah (G) gagal mengejar David (D), tetapi berhasil melewati Willy (W). D > G, G > W, jadi D > G > W. Sehingga diperoleh urutan pelari dari yang tercepat adalah D > G > W > J > F. Jadi peserta yang berada di urutan terakhir adalah Firman."
+    },
+    {
+      "text": "Berdasarkan data di atas maka dapat dibuat tabel seperti di bawah ini. Sehingga kelompok dengan gaji yang menyebabkan pengeluaran perusahaan paling banyak terhadap gaji 600 karyawan secara keseluruhan adalah kelompok karyawan yang bergaji 8 dan 9 juta (E).",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Berdasarkan data di atas maka dapat dibuat tabel seperti di bawah ini. Sehingga kelompok dengan gaji yang menyebabkan pengeluaran perusahaan paling banyak terhadap gaji 600 karyawan secara keseluruhan adalah kelompok karyawan yang bergaji 8 dan 9 juta (E)."
+    },
+    {
+      "text": "Urutan kejadian: 1. Perjanjian ditandatangani, 2. Kunci rumah diserahkan ke pembeli, 3. Pembeli merenovasi rumah. Simpulan yang paling mungkin: Rumah belum direnovasi artinya perjanjian belum ditandatangani.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Urutan kejadian: 1. Perjanjian ditandatangani, 2. Kunci rumah diserahkan ke pembeli, 3. Pembeli merenovasi rumah. Simpulan yang paling mungkin: Rumah belum direnovasi artinya perjanjian belum ditandatangani."
+    },
+    {
+      "text": "Kelompok segitiga: 8 segitiga sederhana : IIQ, JKQ, KLQ, LMQ, MNQ, NOQ, OPQ, dan PIQ. 12 segitiga dari dua buah komponen : ABQ, BCQ, CDQ, DEQ, EFQ, FGQ, GHQ, HAQ, IKQ, KMQ, MOQ, dan OIQ. 8 segitiga dari empat buah komponen : ACQ, CEQ, EGQ, GAQ, IKM, KMO, MOI, dan OIK. 4 segitiga dari delapan buah komponen : ACE, CEG, EGA, dan GAC. Maka, kelompok segitiga = 8 + 12 + 8 + 4 = 32 segitiga. Kelompok Kotak: 4 kotak dari dua buah komponen : IJQP, JKLQ, QLMN, dan PQNO. 4 kotak dari empat buah komponen : ABQH, BCDQ, QDEF, dan HQFG. 1 kotak dari delapan buah komponen : IKMO. 1 kotak dari enambelas buah komponen : ACEG. Maka, kelompok kotak= 4 + 4 + 1 + 1 = 10 kotak.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Kelompok segitiga dan kelompok kotak dihitung berdasarkan jumlah komponen."
+    },
+    {
+      "text": "Jika dilihat dari kiri ke kanan, garis bergerak 45° searah jarum jam dan lingkaran putih bergerak 90° berlawanan arah jarum jam pada setiap tahap. Namun, jika dilihat dari atas ke bawah, garis bergerak 90° berlawanan arah jarum jam dari lingkaran putih bergerak 45° searah jarum jam.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Jika dilihat dari kiri ke kanan, garis bergerak 45° searah jarum jam dan lingkaran putih bergerak 90° berlawanan arah jarum jam pada setiap tahap. Namun, jika dilihat dari atas ke bawah, garis bergerak 90° berlawanan arah jarum jam dari lingkaran putih bergerak 45° searah jarum jam."
+    },
+    {
+      "text": "Marion = 18 tahun, Ana = 18 \\times 2 = 36 tahun, Tania = 36 - 6 = 30 tahun, Maria = 30 - 5 = 25 tahun. Jadi, yang paling tua adalah Ana.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Marion = 18 tahun, Ana = 18 \\times 2 = 36 tahun, Tania = 36 - 6 = 30 tahun, Maria = 30 - 5 = 25 tahun. Jadi, yang paling tua adalah Ana."
+    },
+    {
+      "text": "Analisis ilustrasi: T = Toni, P = Pina, R = Rio, S = Sinta, K = Ketty. Dari pernyataan, diperoleh: R > P dan R = 2K, P + K = S, P > T dan P = \\frac{1}{3}S. Maka: R > P > T, 2K > \\frac{1}{3}S > T, 2K > \\frac{1}{3}(P + K) > T. Misal, nilai R = 80, maka nilai K = \\frac{1}{2}, R = 40. P = \\frac{1}{3}S, P = \\frac{1}{3}(P + K), 3P - P = K, 2P = K, P = \\frac{1}{2}, K = \\frac{1}{2} \\cdot 40 = 20, S = P + K = 20 + 40 = 60. Maka, urutannya adalah R > S > K > P > T. Karena semua bilangan adalah bilangan bulat, maka nilai S dan P pasti ganjil sehingga diperoleh: K genap, R genap, T bisa genap bisa ganjil. Jadi, yang pasti genap adalah Ketty dan Rio.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Analisis ilustrasi urutan dan nilai genap ganjil menunjukkan Ketty dan Rio pasti genap."
+    },
+    {
+      "text": "Analisis ilustrasi: T = Toni, P = Pina, R = Rio, S = Sinta, K = Ketty. Urutan siswa yang mendapat nilai tertinggi ke rendah adalah Rio, Sinta, Ketty, Pina, Toni.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Analisis ilustrasi dan urutan siswa dari yang tertinggi ke terendah."
+    },
+    {
+      "text": "Tahun ke-1 kuliah = Kursus Bahasa Inggris, Tahun ke-2 kuliah = Kursus Kewirausahaan, Tahun ke-3 kuliah = Kursus bicara di depan umum, Tahun ke-4 kuliah = Kursus Pembukuan, Pasca Wisuda = Kursus Masak, 1 tahun pasca wisuda = Wirausaha.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Tahun ke-1 kuliah = Kursus Bahasa Inggris, Tahun ke-2 kuliah = Kursus Kewirausahaan, Tahun ke-3 kuliah = Kursus bicara di depan umum, Tahun ke-4 kuliah = Kursus Pembukuan, Pasca Wisuda = Kursus Masak, 1 tahun pasca wisuda = Wirausaha."
+    },
+    {
+      "text": "Analisis soal terkait urutan kejadian setelah wisuda dan perkuliahan.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Analisis soal terkait urutan kejadian setelah wisuda dan perkuliahan."
+    },
+    {
+      "text": "Jika (A) tidak mau semobil dengan Gita (G) = AG, Dita (Dt) merasa tertekan jika ada Cici (C) dan Dina (Dn) = DtCDn, Cici (Ci) ingin semobil dengan Dina (Dn) = CDn, Effy (E) tidak ingin semobil dengan Fitri (F) jika Dina (Dn) semobil dengan Amel (A) = DnA -> EF. Berdasarkan pilihan jawaban, maka:",
+      "options": [
+        "Salah, bertentangan dengan (iv).",
+        "Salah, bertentangan dengan (iv).",
+        "Salah, bertentangan dengan (i).",
+        "Benar",
+        "Salah, bertentangan dengan (ii)."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Jawaban yang benar adalah D."
+    },
+    {
+      "text": "Perhatikan gambar jam! Jelas gambar 1 menunjukkan waktu pukul 2:45 seperti yang tampak di cermin. Dengan begitu, pantulan cerminnya, yaitu gambar 2, menunjukkan waktu sebenarnya, yakni pukul 9:15.",
+      "options": [
+        "Gambar 1 menunjukkan pukul 2:45 dan gambar 2 pukul 9:15.",
+        "Gambar 1 menunjukkan pukul 9:15 dan gambar 2 pukul 2:45.",
+        "Gambar 1 dan 2 menunjukkan waktu yang sama.",
+        "Waktu pada gambar 2 adalah cerminan dari gambar 1.",
+        "Tidak ada jawaban yang benar."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Jawaban yang benar adalah D."
+    },
+    {
+      "text": "Banyaknya jenis tanaman obat merupakan penyebab dari perlunya anak sekolah mempelajarinya. Adanya dana BOS merupakan penyebab dari gratisnya biaya pendidikan SD dan SMP. Jadi, pernyataan (1) dan (2) adalah penyebab, namun tidak saling berhubungan.",
+      "options": [
+        "Pernyataan 1 adalah sebab dan pernyataan 2 adalah akibat.",
+        "Pernyataan 1 dan 2 adalah akibat dari sebab yang sama.",
+        "Pernyataan (1) dan (2) adalah penyebab, namun tidak saling berhubungan.",
+        "Pernyataan 1 adalah akibat dan pernyataan 2 adalah sebab.",
+        "Pernyataan 1 dan 2 saling berhubungan erat."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Jawaban yang benar adalah C."
+    },
+    {
+      "text": "Jika bisnis ingin ditemukan di internet, maka Anda harus mendaftarkan nama domain dan memiliki website. Dari kalimat tersebut, didapatkan premis berikut: p: Bisnis ingin bisa ditemukan di internet, -> : jika, p: anda harus mendaftarkan nama domain, ^ : dan, q: Memiliki website, yang memiliki bentuk p -> (q ^ r). Karena soal memerintahkan kita untuk memilih pernyataan yang paling tidak mungkin benar, artinya kita perlu mencari pernyataan yang tidak ekuivalen dengan bentuk p -> (q ^ r).",
+      "options": [
+        "p -> (q ^ r)",
+        "~p v (q ^ r)",
+        "p v ~(q ^ r)",
+        "(q ^ r) -> p",
+        "~q v ~r -> ~p"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Opsi E adalah opsi yang tepat karena memiliki bentuk yang tidak ekuivalen, yakni (~q v ~r) -> ~p."
+    },
+    {
+      "text": "Dari paragraf pertama di atas, diketahui informasi sebagai berikut: 'Jika bisnis ingin ditemukan di internet, maka Anda harus mendaftarkan nama domain dan memiliki website.' Dari kalimat tersebut, didapatkan premis berikut: p: Bisnis ingin bisa ditemukan di internet, -> : jika, p: anda harus mendaftarkan nama domain, ^ : dan, q: Memiliki website, yang memiliki bentuk p -> (q ^ r). Karena yang diminta di soal adalah pernyataan yang paling setara, artinya kita bisa mencari yang memiliki bentuk ekuivalen dengan p -> (q ^ r), yakni ~p v (q ^ r).",
+      "options": [
+        "p -> (q ^ r)",
+        "~p ^ (q v r)",
+        "~p v (q ^ r)",
+        "p v ~(q ^ r)",
+        "(q ^ r) -> p"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Opsi C adalah opsi yang tepat karena memiliki bentuk ~p v (q ^ r)."
+    },
+    {
+      "text": "Jika Iqbal bertukar jadwal dengan Andry maka Iqbal les hari Selasa dan Andry les hari Rabu. Sedangkan Asfa tetap les pada hari Rabu. Jadi, jawaban yang tepat adalah Andry dan Asfa les pada hari Rabu di minggu ini.",
+      "options": [
+        "Andry dan Asfa les pada hari Rabu di minggu ini.",
+        "Iqbal les pada hari Rabu dan Asfa pada hari Selasa.",
+        "Iqbal dan Andry les pada hari yang sama.",
+        "Tidak ada yang les pada hari Rabu.",
+        "Asfa bertukar jadwal dengan Iqbal."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Jawaban yang benar adalah A."
+    },
+    {
+      "text": "Jika sudah menjadi anggota paguyuban olah raga maka paguyuban lain. Begitu juga sebaliknya: Jika Pak Narto adalah anggota paguyuban olah raga, maka ia bukan paguyuban guru olah raga.",
+      "options": [
+        "Pak Narto adalah anggota paguyuban guru olah raga.",
+        "Pak Narto bukan anggota paguyuban olah raga.",
+        "Jika Pak Narto adalah anggota paguyuban olah raga maka ia bukan paguyuban guru olah raga.",
+        "Semua anggota paguyuban adalah guru olah raga.",
+        "Tidak ada hubungan antara paguyuban olah raga dan guru."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Jawaban yang benar adalah C."
+    },
+    {
+      "text": "Aturan dalam sepak bola jika menang memperoleh poin 3 dan jika kalah 0 poin: AM vs Barca: 3-0 -> AM menang, RM vs RB -> RM menang, Barca vs RM: 1-2 -> RM menang, AL vs Elche -> AL menang. Jadi, di papan skor akan terlihat klasemen sementara.",
+      "options": [
+        "Real Madrid memimpin klasemen dengan 9 poin.",
+        "Barcelona berada di posisi kedua.",
+        "Real Madrid 6 poin (menang 2x), Atletico Madrid 3 poin (menang 1x), Almeria 3 poin (menang 1x), Barcelona 0, Real betis 0, Elche 0.",
+        "Semua tim memiliki poin yang sama.",
+        "Elche memenangkan pertandingan terakhirnya."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Jawaban yang benar adalah C."
+    }
+  ]
+}

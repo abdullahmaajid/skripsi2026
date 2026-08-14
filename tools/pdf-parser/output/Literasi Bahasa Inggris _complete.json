@@ -1,0 +1,304 @@
+{
+  "questions": [
+    {
+      "text": "Based on the text, what factors that can affect interpretation of someone's non-verbal communication?",
+      "options": [
+        "Your personal emotions and relationships to the communicator",
+        "Relationships you have with the communicators' relatives and friends",
+        "How you greet and make eye contact with the listeners",
+        "Your manner and how you come across through verbal communication",
+        "Your personal relationships and experiences with the speaker"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Based on the second paragraph, interpretation often depends on your own experiences and relationships with the communicator."
+    },
+    {
+      "text": "Which of the following statements is CORRECT about non-verbal communication?",
+      "options": [
+        "Non-verbal communication and someone's gestures or body language are two different things",
+        "There is a lot of certainty in how you interpret someone's non-verbal signals",
+        "Non-verbal communication is how others perceive you and how you understand other through their own non-verbal messages",
+        "The attitude and how you are perceived using non-verbal communication are not important to influence people",
+        "Verbal communication includes greeting others with a smile and maintaining eye contact during conversations"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Paragraph 2 states: 'Non-verbal communication, or what is also called a person's signal or body language, is how others perceive you and how you understand others through their own non-verbal messages.'"
+    },
+    {
+      "text": "Which of the following statements best expresses the information in the underlined sentence in the first paragraf?",
+      "options": [
+        "While learning social skills, we are only learning to practice them, so most of us are not fluent in interpreting other people's non-verbal communication.",
+        "The majority of us are not skilled at interpreting non-verbal cues from other people because we are only learning to practise social skills.",
+        "Not only do we learn how to use social skills, but the majority of us also develop the fluency in interpreting non-verbal signals from others.",
+        "While learning social skills, not only do we learn to put them into practice, but most of us remain fluent in interpreting other people's non-verbal communication.",
+        "Not only do we learn how to practice social skills in daily life, but the majority of us are still proficient at interpreting non-verbal signals from others."
+      ],
+      "correctAnswer": "C",
+      "explanation": "The underlined sentence says 'not only do we learn to practice them, but most of us become at some level of fluency in interpreting other people’s non-verbal communications', which means we learn to use them and also develop fluency."
+    },
+    {
+      "text": "What can be concluded from paragragh 3?",
+      "options": [
+        "Humans need to learn social skills because they need to interpret other people's non-verbal communication.",
+        "Non-verbal communication is about how others perceive you and how you understand others.",
+        "Non-verbal communication is important in human life because people often react more to what someone does than what someone says.",
+        "Interpretation often depends on your own experiences and relationships with the communicator.",
+        "There's plenty of ambiguity in how you might interpret someone's signal versus how another person might."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Paragraph 3 discusses the importance of non-verbal communication and emphasizes that people often react more to actions than words."
+    },
+    {
+      "text": "According to the passage, what actions can researchers take after this?",
+      "options": [
+        "Conduct further research that can support the characterization of ASD, namely cellular pathology.",
+        "Determinde wheter researchers can use a computational approach to develop therapies based on reversing the changes in gene expression that researchers have found in ASD.",
+        "Examines how accurately the nerves present in ASD can process information such as touch, pain, and temperature.",
+        "Create a table that contains a database related to differences in Alzheimer's and Parkinson's disease compared to ASD suffers.",
+        "Publishing research in the hope that other researchers will continue research on ASD and find effective treatments for Alzheimer's and Parkinson'."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Which of the following statements in NOT TRUE based on the passage above?",
+      "options": [
+        "A comprehensive effort has been made to describe ASD at the molecular level in the study, which was published today in Nature.",
+        "The new study discovers brain-wide changes in nearly all of the 11 cortial regions examined.",
+        "The presence of molecular pathology makes Parkinson's disease or Alzheimer's disease treatment equivalent to ASD.",
+        "This work Is the result of more than a decade's worth of labor by numerous lab members, which was required to conduct such an in-depth examination of the autism brain.",
+        "In the new study, RNA from each of the four primary cortial lobes was sequenced to examine gene expression in 11 cortial regions."
+      ],
+      "correctAnswer": "C",
+      "explanation": "The text states that autism lacks a defining pathology unlike Alzheimer's or Parkinson's, and the new discovery provides a molecular pathology similar to them as a starting point, not that their treatments are equivalent."
+    },
+    {
+      "text": "Which of the following statements best expresses the information in the underlinde sentence in paragraph 2?",
+      "options": [
+        "Precisely all of the 11 cortial regions examined in the new study showed changes.",
+        "Below all of the 11 cortial regions examined in the new study showed changes.",
+        "The new study found changes throughout the brain in nearly all of the 11 cortial regions analyzed. Attentive of wheter they were higher critical association areas.",
+        "Previous research discovered changes in nearly all of the 11 cortial regions examined.",
+        "Wheter they were higher critical association areas or primary sensory areas, the new study found changes in nearly all of the 11 cortial regions examined."
+      ],
+      "correctAnswer": "E",
+      "explanation": "The underlined sentence states 'brain-wide changes in virtually all of the 11 cortial regions analyzed, regardless of wether they are higher critical association regions... or primary censory regions.'"
+    },
+    {
+      "text": "In presenting the ideas, the writer start by?",
+      "options": [
+        "There are new study findings that contradict previous scientific understanding.",
+        "There are new study findings which state that they are related to the comprehensive efforts made by previous researchers.",
+        "There are new study findings which state that Alzheimer's or Parkinson's disease already has an effective treatment.",
+        "The discovery of new studies that enhance the understanding of previous scientists.",
+        "There is a new study finding that states the emergency of ADS must be addressed immediately by finding molecular pathology."
+      ],
+      "correctAnswer": "D",
+      "explanation": "The passage begins by presenting a new UCLA-led study that significantly refines scientists' understanding of how ASD progresses."
+    },
+    {
+      "text": "Based on the text, what is the priority when working in an emotionally intelligent way?",
+      "options": [
+        "Prioritizing human relationships and our own and other's feelings.",
+        "Prioritizing to-do lists or productivity goals.",
+        "Prioritizing to put your head down while communicating with others.",
+        "Prioritizing to deal with conflict and setbacks.",
+        "Prioritizing to increase the morale, productivity, well-being, and personal impact."
+      ],
+      "correctAnswer": "A",
+      "explanation": "The text states: 'Instead of putting your head down and prioritizing to-do lists or productivity goals, put human relationships and our own and others' feeling first.'"
+    },
+    {
+      "text": "Based on the text, which of the following statements is CORRECT about emotional intelligence?",
+      "options": [
+        "Emotional intelligence includes the capacity to comprehend and control both our own and other people's feelings.",
+        "Leaders nowadays do not seek individuals for jobs who have great emotional intelligence.",
+        "To be hired, each employee needs acquire a high level of emotional intelligence.",
+        "Emotional intelligence brings great benefits such as increasing corporate profits and productivity.",
+        "All of the employees should have a good emotional intelligence in order to get a job."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Paragraph 2 explicitly states that the competency includes our ability to understand and manage our own feelings and those of others."
+    },
+    {
+      "text": "Which of the following statements best expresses the information in the underlined sentence in paragraph 3?",
+      "options": [
+        "Don't rely too heavily on our emotions at work because people are a crucial component of completing a work.",
+        "People are the medium whereby is work is completed and if you are unable to manage your own and other's feelings, achieving your goals will become very challenging.",
+        "Work can be completed through people without having to consider our own or their feelings.",
+        "Even though a task can accomplished without people, their emotions cannot be ignored when accomplishing it.",
+        "people's feelings cannot be ruled out when completing a job even though the work can be completed without people."
+      ],
+      "correctAnswer": "B",
+      "explanation": "The underlined sentence is 'work gets done through people, and if you’re unable to work with your own and other’s emotions, It becomes very difficult to get things done.'"
+    },
+    {
+      "text": "How was paragraph 2 related to paragraph 1?",
+      "options": [
+        "Paragraph 2 provides expert opinion regarding the emotional intelligence described in paragraph 1.",
+        "Paragraph 2 contradicts the information about emotional intelligence that has been explained in paragraph 1.",
+        "Paragraph 2 provides further explanation about emotional intelligence which is discussed in paragraph 1.",
+        "Paragraph 2 provides research evidence about emotional intelligence that hac been explained in paragraph 1.",
+        "Paragraph 2 and paragraph 1 are not related in terms of information relations."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Paragraph 1 introduces emotional intelligence and paragraph 2 elaborates on what it means and how leaders look for it."
+    },
+    {
+      "text": "Refer to the passage, why is the existence of female's sports media needed?",
+      "options": [
+        "Because 74% of fans cannot name a single corporate sponsor of any major women's league.",
+        "Because women athletes receive a big fraction of media coverage.",
+        "Because it's a significant step forwards narrowing the gap in media coverage for female sports.",
+        "Because 79% of U.S. sports fans still clain to not actively follow women's sports.",
+        "Because women's sports are fully funded and invested globally."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Angela Ruggiero states that it is a significant step towards narrowing the gap in media coverage for female athletes and sports."
+    },
+    {
+      "text": "Which one is the incorrect statement based on paragraph 3?",
+      "options": [
+        "Women's sports receive only 5% of media coverage.",
+        "29% of millennials are watching more women's sports than they were a year ago.",
+        "Women's sports typically go under-invested, under-supported, and under-viewed.",
+        "There's a pent-up demand for women's sports.",
+        "The women's Sports Network is exactly what athletes and investors have asked for."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "The word steady in paragraph 2 has the same meaning with...",
+      "options": [
+        "Loose.",
+        "Stable.",
+        "Faint.",
+        "Strong.",
+        "Slight."
+      ],
+      "correctAnswer": "Stable.",
+      "explanation": null
+    },
+    {
+      "text": "The underlined word in paragraph 2 refers to?",
+      "options": [
+        "Women's National Basketball Association.",
+        "Women's Football Alliance.",
+        "Ladies Professional Golf Association.",
+        "The Women's Sports Network.",
+        "Sports Innovation Lab."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "According to this passage, what makes Germany and Iceland submitted a request to hold a special session of the UN Human Rights Council?",
+      "options": [
+        "Because Iran committed human rights violations in Germany and Iceland.",
+        "Iran commits human rights violations in 42 countries around the world.",
+        "They want to address the importance of human rights in Iran.",
+        "Because there are massive demonstrations in Iran.",
+        "They want to address the deteriorating human rights situation in the Islamic Republic of Iran."
+      ],
+      "correctAnswer": "They want to address the deteriorating human rights situation in the Islamic Republic of Iran.",
+      "explanation": null
+    },
+    {
+      "text": "Which is the correct statement based on paragraph 2?",
+      "options": [
+        "Dozens of people are thought to have been killed during the protests in Iran.",
+        "Iran authorities said more than 40 security forces have been injured.",
+        "The United States and Then United Nations have imposed human right sanctions to Iran.",
+        "Iranian officials have released an official tally of the victims of the demonstrations.",
+        "Iran began holding fast-tracked courts for \"leaders of riots\" who could be sentenced to life."
+      ],
+      "correctAnswer": "Dozens of people are thought to have been killed during the protests in Iran.",
+      "explanation": null
+    },
+    {
+      "text": "What is the main idea of paragraph 3?",
+      "options": [
+        "Iran and the UN work together to solve the human rights problem in Iran.",
+        "Iran is furious that the Western government is interfering in its domestic affairs.",
+        "Iran questions the credibility of Western governments in examining Tehran's behavior.",
+        "Iran called Western countries as \"who propagate violence and terror\".",
+        "Iran suspects Western countried involvement in demonstrations in its country."
+      ],
+      "correctAnswer": "Iran questions the credibility of Western governments in examining Tehran's behavior.",
+      "explanation": null
+    },
+    {
+      "text": "Which parties Iran has repeatedly blamed for \"inciting terror and riots\" across the country? (1) The United States (2) The United Nations (3) Saudi Arabia (4) Germany (5) Iceland",
+      "options": [
+        "1 and 2",
+        "1 and 3",
+        "2 and 3",
+        "3 and 4",
+        "4 and 5"
+      ],
+      "correctAnswer": "1 and 3",
+      "explanation": null
+    },
+    {
+      "text": "Paragraf 1 kalimat terakhir menyinggung tentang kecerdasan emosi (emotional intelligence) lalu paragraf 2 membahas lebih lanjut tentang kecerdasan emosi tersebut. Maka, jawaban yang tepat adalah pada pilihan C.",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D",
+        "Pilihan E"
+      ],
+      "correctAnswer": "Pilihan C",
+      "explanation": "Paragraf 1 kalimat terakhir menyinggung tentang kecerdasan emosi (emotional intelligence) lalu paragraf 2 membahas lebih lanjut tentang kecerdasan emosi tersebut. Maka, jawaban yang tepat adalah pada pilihan C."
+    },
+    {
+      "text": "Kehadiran media olahraga wanita dibutuhkan karena masih adanya jarak yang besar akan publikasi media terhadap olahraga wanita. Hal ini dapat kita lihat pada kalimat di paragraf pertama, 'It's a significant step towards narrowing the gap in media coverage for female athletes, for female sports'. Maka dari itu jawaban C adalah jawaban yang tepat.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Kehadiran media olahraga wanita dibutuhkan karena masih adanya jarak yang besar akan publikasi media terhadap olahraga wanita."
+    },
+    {
+      "text": "Women's Sports Network dibutuhkan oleh para atlet dan penggemar, bukan para atlet dan investor. Hal ini bisa kita lihat pada kalimat 'The Women's Sports Network is exactly what athletes, fans and sponsors have been asking for'. Hal ini membuat jawaban E menjadi benar karena yang dicari adalah pernyataan yang TIDAK BENAR dari teks tersebut.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Women's Sports Network dibutuhkan oleh para atlet dan penggemar, bukan para atlet dan investor."
+    },
+    {
+      "text": "Kata steady pada paragraf kedua memiliki arti stabil atau kukuh. Dari semua pilihan jawaban yang ada, hanya stable yang memiliki arti sama atau mendekati dengan steady. Maka dari itu jawaban B adalah jawaban yang tepat.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Kata steady pada paragraf kedua memiliki arti stabil atau kukuh."
+    },
+    {
+      "text": "Kata yang digaris bawahi pada paragraf kedua adalah 'it'. Kata ini merujuk pada kata 'The Women's Sports Network' seperti yang disampaikan penulis pada kalimat, 'The Women's Sports Network has partnerships with the Women's National Basketball Association, Women's Football Alliance, Ladies Professional Golf Association, U.S. Ski and Snowboard, Sports Innovation Lab and World Surf League, among others. It plans to broadcast games starting in january'. Maka dari itu jawaban D adalah jawaban yang tepat.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Kata yang digaris bawahi pada paragraf kedua adalah 'it'."
+    }
+  ]
+}

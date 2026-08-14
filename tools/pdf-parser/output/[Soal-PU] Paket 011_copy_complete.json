@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Manakah pernyataan yang PASTI SALAH dari teks di atas?",
+      "options": [
+        "Vape dan rokok sebaiknya tidak perlu dikonsumsi karena sama-sama memiliki efek buruk bagi kesehatan",
+        "Vape lebih aman daripada rokok karena tidak memiliki efek negatif",
+        "Vape dan rokok memiliki bahaya yang sama",
+        "Vape berpotensi memicu penyakit",
+        "Vape disebut lebih berisiko daripada rokok tradisional"
+      ],
+      "correctAnswer": "Vape lebih aman daripada rokok karena tidak memiliki efek negatif",
+      "explanation": null
+    },
+    {
+      "text": "Simpulan yang tepat adalah ... (Jika di Desa Sukamaju ada panen raya, ibu-ibu berkumpul memasak kue tradisional untuk seluruh warga desa. Di Desa Sukamaju ada panen raya.)",
+      "options": [
+        "Ibu-ibu berkumpul memasak kue tradisional untuk merayakan musim panen",
+        "Ibu-ibu berkumpul memasak kue tradisional untuk seluruh warga desa",
+        "Ibu-ibu memasak kue tradisional dari hasil panen raya di Desa Sukamaju",
+        "Ibu-ibu berkumpul meamsak kue tradisional untuk warga Desa Sukamaju setiap tahun",
+        "Ibu-ibu memasak kue tradisional untuk dibagikan di panen raya"
+      ],
+      "correctAnswer": "Ibu-ibu berkumpul memasak kue tradisional untuk seluruh warga desa",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks di atas, manakah pernyataan berikut yang PASTI SALAH?",
+      "options": [
+        "Posisi tidur yang salah dapat menyebabkan sakit punggung",
+        "Bantal menjadi faktor penting untuk menjamin kenyamanan saat tidur",
+        "Bagian punggung yang sering mengalami sakit adalah bagian tulang sebelah kanan",
+        "Kenyamanan saat tidur menjadi faktor penting untuk mencegah sakit punggung",
+        "Pola konsumsi makanan juga berpengaruh terhadap pertumbuhan tulang"
+      ],
+      "correctAnswer": "Bagian punggung yang sering mengalami sakit adalah bagian tulang sebelah kanan",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang memperkuat teks di atas adalah?",
+      "options": [
+        "Berkembangnya teknologi AI turut membantu mempercepat penyebaran berita positi",
+        "Data terbaru menjelaskan bahwa kepercayaan masyarakat terhadap media masih sangat tinggi",
+        "Produksi berita yang kian cepat serta banyaknya platform yang digunakan media massa membuat masyarakat khawatir akan kredibilitas media",
+        "Perkembangan AI dalam produksi media disambut sangat baik oleh konsumen",
+        "Media yang lebih besar cenderung lebih menghasilkan banyak untung"
+      ],
+      "correctAnswer": "Produksi berita yang kian cepat serta banyaknya platform yang digunakan media massa membuat masyarakat khawatir akan kredibilitas media",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan berikut yang memperlemah teks di atas adalah?",
+      "options": [
+        "AI dari perusahaan X terbukti mendukung propaganda dari negara Y",
+        "Pada perang dunia k-3 AI dipakai untuk mendoktrinasi masyarakat melalui media massa",
+        "Media X telah menggunakan AI untuk memproduksi berita yang menjelekkan salah satu calon presiden",
+        "Semua produk keluaran AI terbaru telah diuji coba sebelum dipasarkan, hal itu guna mencegah bias yang dapat menimbulkan dampak negatif",
+        "Semakin banyak adaptasi media terhadap AI menyebabkan banyaknya sinisime masyarakat terhadap suatu ideologi"
+      ],
+      "correctAnswer": "Semua produk keluaran AI terbaru telah diuji coba sebelum dipasarkan, hal itu guna mencegah bias yang dapat menimbulkan dampak negatif",
+      "explanation": null
+    },
+    {
+      "text": "Kesimpulan berdasarkan premis di atas adalah? (Jika seseorang rajin belajar dan konsisten dalam mengerjakan latihan soal, maka orang tersebut akan memiliki pemahaman yang mendalam terhadap materi pelajaran. Andi adalah seorang siswa yang rajin belajar dan konsisten dalam mengerjakan latihan soal setiap hari.)",
+      "options": [
+        "Andi tidak pernah belajar dan tidak mengerjakan latihan soal",
+        "Andi memiliki pemahaman yang mendalam terhadap materi pelajaran",
+        "Andi hanya rajin belajar tetapi tidak mengerjakan latihan soal",
+        "Andi lebih suka bermain game daripada belajar",
+        "Andi tidak peduli dengan nilai pelajarannya"
+      ],
+      "correctAnswer": "Andi memiliki pemahaman yang mendalam terhadap materi pelajaran",
+      "explanation": null
+    },
+    {
+      "text": "Kesimpulan berdasarkan premis di atas adalah? (Jika seseorang rajin berolahraga dan menjaga pola makan yang sehat, maka orang tersebut akan memiliki tubuh yang bugar dan sehat. Dani rajin berolahraga setiap hari dan selalu menjaga pola makan yang sehat.)",
+      "options": [
+        "Dani tidak peduli dengan kesehatannya",
+        "Dani memiliki tubuh yang bugar dan sehat",
+        "Dani hanya rajin berolahraga tetapi tidak menjaga pola makan",
+        "Dani tidak pernah berolahraga dan pola makannya buruk",
+        "Dani lebih suka tidur daripada berolahraga"
+      ],
+      "correctAnswer": "Dani memiliki tubuh yang bugar dan sehat",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks di atas, maka simpulan yang BENAR adalah...",
+      "options": [
+        "Rasio nilai investasi di Indonesia akan meningkat apabila SBY menjabat lagi",
+        "Birokrasi yang berbelit-belit, kebijakan yang tidak konsisten dapat diselesaikan apabila pemerintah mampu menaikkan rasio nilai investasi di Indonesia",
+        "Rasio nilai investasi di Indonesia akan menurun apabila pemerintah mampu menyelesaikan masalah birokrasi yang berbelit-belit, kebijakan yang tidak konsisten dan lain sebagainya",
+        "Rasio nilai investasi di Indonesia akan meningkat apabila pemerintah mampu menyelesaikan masalah birokrasi yang berbelit-belit, kebijakan yang tidak konsisten dan lain sebagainya",
+        "Rasio nilai investasi di Indonesia akan meningkat apabila masalah yang dihadapi tidak klasik"
+      ],
+      "correctAnswer": "Rasio nilai investasi di Indonesia akan meningkat apabila pemerintah mampu menyelesaikan masalah birokrasi yang berbelit-belit, kebijakan yang tidak konsisten dan lain sebagainya",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks di atas, maka simpulan yang PALING MUNGKIN benar adalah...",
+      "options": [
+        "Kemarahan Jokowi diakibatkan investasi asing yang masuk ke Indonesia dalam periode pertamanya mengalami stagnasi",
+        "Kemarahan Jokowi diakibatkan PMA yang masuk ke Indonesia selama periode pertamanya tidak mengalami stagnasi",
+        "Kemarahan Jokowi karena stagnasi yang dilakukan oleh para menteri yang menghadiri rapat terbatas",
+        "Rata-rata pertumbuhan nilai PMA di era Jokowi hanya naik 1 persen per tahun yang bukan diakibatkan oleh stagnasi",
+        "Tidak ada masalah selama periode pertama presiden Jokowi"
+      ],
+      "correctAnswer": "Kemarahan Jokowi diakibatkan investasi asing yang masuk ke Indonesia dalam periode pertamanya mengalami stagnasi",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan yang paling tepat mengenai hasil penelitian tersebut?",
+      "options": [
+        "Memperkuat pernyataan peserta A",
+        "Memperlemah pernyataan peserta A",
+        "Memperkuat pernyataan peserta B",
+        "Memperlemah pernyataan peserta B",
+        "Tidak relevan dengan pernyataan peserta A dan peserta B"
+      ],
+      "correctAnswer": "Tidak relevan dengan pernyataan peserta A dan peserta B",
+      "explanation": null
+    },
+    {
+      "text": "Peserta A: \"Penggunaan mobil listrik sangat membantu mengurangi polusi udara di perkotaan karena tidak menghasilkan emisi gas buang.\" Peserta B: \"Mayoritas pengguna mobil listrik masih mengisi daya menggunakan listrik yang dihasilkan dari pembakaran batu bara, sehingga tidak benar-benar ramah lingkungan.\" Hasil penelitian menunjukkan bahwa 65% pengguna mobil listrik mengisi daya di stasiun pengisian yang menggunakan sumber energi terbarukan. Manakah pernyataan yang paling tepat mengenai hasil penelitian tersebut?",
+      "options": [
+        "Memperkuat pernyataan peserta A",
+        "Memperlemah pernyataan peserta A",
+        "Memperkuat pernyataan peserta B",
+        "Memperlemah pernyataan peserta B",
+        "Tidak relevan dengan pernyataan peserta A dan peserta B"
+      ],
+      "correctAnswer": "Memperlemah pernyataan peserta B",
+      "explanation": "Pernyataan B menyatakan bahwa mayoritas masih menggunakan batu bara, namun hasil penelitian menunjukkan 65% (mayoritas) menggunakan energi terbarukan, sehingga hal ini memperlemah pernyataan peserta B."
+    },
+    {
+      "text": "Manakah pernyataan-pernyataan berikut yang MEMPERLEMAH pendapat tersebut?",
+      "options": [
+        "A, B dan C",
+        "A, B dan E",
+        "B, D dan E",
+        "B dan D",
+        "E saja"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan di bawah ini yang MUNGKIN BENAR?",
+      "options": [
+        "Tempe GMO tidak dapat menyebabkan asam urat",
+        "Kedelai lokal jauh lebih baik dibanding kedelai impor",
+        "Kedelai lokal memiliki berbagai macam kekurangan dibanding kedelai hasil impor",
+        "Tempe hasil kedelai lokal berukuran besar",
+        "Produk tempe yang dihasilkan oleh kedelai lokal masuk ke dalam produk kualitas super"
+      ],
+      "correctAnswer": "Kedelai lokal memiliki berbagai macam kekurangan dibanding kedelai hasil impor",
+      "explanation": "Pernyataan ini sejalan dengan teks yang menyebutkan kedelai lokal tercampur kerikil dan tidak bisa mengembang."
+    },
+    {
+      "text": "Manakah pernyataan-pernyataan berikut yang MEMPERLEMAH pendapat tersebut?",
+      "options": [
+        "A, B dan C",
+        "A, C dan E",
+        "A, B dan D",
+        "B dan D",
+        "E saja"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada pertemuan itu, Pemerintah Thailand merencanakan agenda utama mencakup pembaruan berbagai program anti-narkoba, seperti kompetisi media kreatif berbasis TikTok yang bertujuan meningkatkan kesadaran, dan laporan situasi narkoba terkini di Bangkok. Laporan kemajuan juga disajikan pada pusat rehabilitasi sosial kota, pencairan anggaran, proyek penguatan masyarakat, dan pemantauan berkelanjutan terhadap tren kratom, ganja, dan rokok elektrik. Simpulan berdasarkan informasi tersebut adalah pemerintah Thailand tidak melakukan upaya penanggulangan penggunaan narkoba dan vape. Manakah pernyataan-pernyataan berikut yang MEMPERLEMAH pendapat tersebut?",
+      "options": [
+        "A, B dan C",
+        "A, B dan E",
+        "A, B dan D",
+        "A dan C",
+        "E saja"
+      ],
+      "correctAnswer": "A dan C",
+      "explanation": "Simpulan menyatakan pemerintah tidak melakukan upaya penanggulangan, sehingga pernyataan yang menunjukkan adanya aksi atau langkah pencegahan/penanggulangan dari pemerintah akan memperlemah simpulan tersebut."
+    },
+    {
+      "text": "Manakah yang menggambarkan kualitas simpulan di atas?",
+      "options": [
+        "Simpulan pasti benar",
+        "Simpulan mungkin benar",
+        "Simpulan Pasti salah",
+        "Simpulan mungkin salah",
+        "Simpulan tidak relevan"
+      ],
+      "correctAnswer": "Simpulan Pasti salah",
+      "explanation": "Simpulan menyatakan tidak ada upaya, padahal teks dengan jelas menyebutkan adanya berbagai program dan pemantauan yang dilakukan pemerintah Thailand."
+    },
+    {
+      "text": "Laporan keuangan perusahaan X yang bergerak dalam bidang industri tekstil menunjukkan biaya operasional yang berlebihan pada tahun ini. Manajer Keuangan perusahaan tersebut menyatakan bahwa keberadaan tenaga ahli asing menjadi penyebab pemborosan anggaran. Manakah pernyataan berikut yang akan MEMPERKUAT argumen Manajer Keuangan tersebut?",
+      "options": [
+        "Anggaran perusahaan tahun ini dialokasikan paling banyak untuk pembayaran honor tenaga ahli asing",
+        "Tidak ada tenaga ahli asing mendapatkan upah yang lebih tinggi daripada tenaga ahli lokal",
+        "Jumlah tenaga ahli asing pada beberapa divisi lebih banyak daripada jumlah tenaga ahli lokal",
+        "Sebagian biaya operasional untuk pengeluaran selain upah tenaga ahli asing mengalami penurunan",
+        "Beberapa tenaga ahli asing memiliki kompetensi yang lebih tinggi dalam bidang industri tekstil"
+      ],
+      "correctAnswer": "Anggaran perusahaan tahun ini dialokasikan paling banyak untuk pembayaran honor tenaga ahli asing",
+      "explanation": "Jika anggaran paling banyak dialokasikan untuk honor tenaga ahli asing, maka argumen bahwa mereka menjadi penyebab pemborosan semakin kuat."
+    },
+    {
+      "text": "Manakah pernyataan berikut yang PALING MUNGKIN menjelaskan peerbedaan kondisi tersebut?",
+      "options": [
+        "Target produksi yang ditetapkan perusahaan X pada dekade ini lebih rendah daripada dekade sebelumnya",
+        "Sebagian peralatan berat yang digunakan perusahaan X mengalami pergantian selama dekade ini",
+        "Aturan tentang prosedur keselamatan kerja yang diberlakukan oleh perusahaan X pada dekade ini jauh lebih kuat daripada dekade sebelumnya",
+        "Perusahaan X banyak menerima pegawai yang bekerja di bagian administrasi",
+        "Selama dekade ini, jumlah pegawai di perusahaan X yang mengikuti asuransi keselamatan kerja lebih besar daripada dekade sebelumnya"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Amin pergi berbelanja ke sebuah pasar tradisional. Sebelum membeli buah-buahan, Amin bertanya kepada salah satu pembeli lain. Pembeli tersebut mengatakan harga total satu buah jeruk dan satu buah mangga adalah Rp60.000. Kemudian, harga total satu buah anggur dan satu buah jeruk adalah Rp90.000. Harga ketiga buah-buahan tersebut berbeda. Berdasarkan informasi tersebut, manakah pernyataan di bawah ini yang pasti benar?",
+      "options": [
+        "Harga Mangga lebih mahal daripada jeruk",
+        "Jeruk lebih mahal daripada Anggur",
+        "Anggur harganya lebih dari Rp30.000",
+        "Jeruk harganya kurang dari Rp30.000",
+        "Tidak ada jawaban yang benar"
+      ],
+      "correctAnswer": "Anggur harganya lebih dari Rp30.000",
+      "explanation": null
+    },
+    {
+      "text": "Diantara ke lima siswa tersebut, siswa mana yang paling berprestasi? (Nilai akademik bobot 80%, non-akademik bobot 20% dari tabel: A(9,7), B(5,6), C(7,8), D(7,5), E(7,6))",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Diantara ke lima siswa tersebut, siswa mana yang paling TIDAK berprestasi?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "Diantara ke lima siswa tersebut, siswa mana yang berada pada urutan ke-3 berprestasi?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "Pilihlah di antara bilangan berikut ini yang bernilai paling kecil!",
+      "options": [
+        "\\frac{1}{9} \\times 240",
+        "0,25 \\times 10",
+        "\\frac{1}{12} \\times 120",
+        "\\frac{1}{3} \\times 60",
+        "\\frac{1}{7} \\times 84"
+      ],
+      "correctAnswer": "0,25 \\times 10",
+      "explanation": null
+    },
+    {
+      "text": "A, B, C, D, dan E adalah lima pekerja yang mencalonkan diri menjadi ketua serikat pekerja. Ada tiga program yang diajukan para calon, yaitu: (i) peningkatan keterampilan oleh A, B, C; (ii) olahraga oleh B, C, D; (iii) kesejahteraan oleh D, E, A. Hasil: 60 pekerja program (i), 45 pekerja program (ii), 90 pekerja program (iii). Jumlah suara terbagi sama rata pada calon dalam program yang sama. Calon yang memperoleh suara tersedikit adalah ...",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "Urutan dengan perolehan tiga suara terbanyak, dimulai dari yang terbanyak, adalah ...",
+      "options": [
+        "ADB",
+        "ABC",
+        "CAB",
+        "DBE",
+        "ECA"
+      ],
+      "correctAnswer": "ADB",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan data di atas (grafik modal dan pendapatan skincare 4 bulan), tahun ke berapa penjualan produk skincare mendapatkan persentase kerugian terbesar?",
+      "options": [
+        "Bulan ke-1",
+        "Bulan ke-2",
+        "Bulan ke-3",
+        "Bulan ke-4",
+        "Bulan ke-2 dan ke-4"
+      ],
+      "correctAnswer": "Bulan ke-3",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan data di atas, tahun ke berapa penjualan produk skincare mendapatkan persentase kerugian terbesar ke 2?",
+      "options": [
+        "Bulan ke-1",
+        "Bulan ke-2",
+        "Bulan ke-3",
+        "Bulan ke-4",
+        "Bulan ke-2 dan ke-4"
+      ],
+      "correctAnswer": "Bulan ke-2",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan data di atas, tahun ke berapa penjualan produk skincare mendapatkan persentase kerugian terbesar ke 3?",
+      "options": [
+        "Bulan ke-1",
+        "Bulan ke-2",
+        "Bulan ke-3",
+        "Bulan ke-4",
+        "Bulan ke-2 dan ke-4"
+      ],
+      "correctAnswer": "Bulan ke-1",
+      "explanation": null
+    },
+    {
+      "text": "Penjualan cat toko Amanah secara berturut-turut adalah 12, 15, 18, 21, 24. Jika penjualan cat bersifat konstan berapakah penjualan cat hari ke 9?",
+      "options": [
+        "33",
+        "36",
+        "32",
+        "39",
+        "35"
+      ],
+      "correctAnswer": "36",
+      "explanation": null
+    },
+    {
+      "text": "Penjualan cat toko Amanah secara berturut-turut adalah 9, 15, 12, 18, 15, 21, 18, 24. Jika penjualan cat bersifat konstan berapakah penjualan cat hari ke 9?",
+      "options": [
+        "21",
+        "24",
+        "26",
+        "25",
+        "27"
+      ],
+      "correctAnswer": "21",
+      "explanation": null
+    }
+  ]
+}

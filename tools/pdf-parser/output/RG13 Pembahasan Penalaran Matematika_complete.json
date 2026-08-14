@@ -1,0 +1,172 @@
+{
+  "questions": [
+    {
+      "text": "Dari informasi pada soal, diketahui bahwa jumlah penari dalam kelompok tari saman adalah $7$ orang dan untuk tari jaipong adalah $2$ orang (berpasangan). Jika jumlah orang yang akan menari adalah $25$ orang, dan dimisalkan $x$ menyatakan jumlah kelompok penari saman yang terpilih serta $y$ menyatakan jumlah kelompok penari jaipong yang terpilih, maka banyak cara menentukan jumlah kelompok yang mungkin adalah ...",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": "2",
+      "explanation": "Persamaan yang terbentuk adalah $7x + 2y = 25$. Pasangan bilangan asli $(x, y)$ yang memenuhi adalah $(1, 9)$ dan $(3, 2)$. Sehingga terdapat $2$ kemungkinan pembagian kelompok."
+    },
+    {
+      "text": "Berdasarkan tabel durasi waktu pelari menyelesaikan perlombaan sejauh $10$ km, pelari manakah yang menyelesaikan perlombaan dalam waktu kurang dari $1$ jam?",
+      "options": [
+        "Pelari A, B, dan C",
+        "Pelari A, C, dan E",
+        "Pelari B, C, dan D",
+        "Pelari B, D, dan E",
+        "Pelari A, D, dan E"
+      ],
+      "correctAnswer": "Pelari B, D, dan E",
+      "explanation": "Pelari B ($56$ menit $40$ detik), D ($48$ menit $20$ detik), dan E ($55$ menit) menyelesaikan perlombaan dalam waktu kurang dari $1$ jam."
+    },
+    {
+      "text": "Diketahui Prinda menyukai $8$ jenis buah ($n(P) = 8$), Qeisya menyukai $12$ jenis buah ($n(Q) = 12$), dan Resti menyukai $11$ jenis buah ($n(R) = 11$). Jika banyak jenis buah favorit ketiganya adalah $2$ ($n(P \\cap Q \\cap R) = 2$), terdapat $2$ jenis buah yang hanya disukai Prinda dan Resti, serta Qeisya menyukai $5$ jenis buah favorit Resti, maka banyak jenis buah yang hanya disukai oleh Qeisya adalah ...",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "5",
+      "explanation": "Dengan menggunakan diagram Venn, diperoleh $n(Q) = 12$ dengan irisan dan bagian-bagian tertentu, sehingga sisa buah yang hanya disukai Qeisya adalah $8 - x = 8 - 3 = 5$ buah."
+    },
+    {
+      "text": "Di toko sembako milik Pak Tono, terdapat $28$ karung gula yang masing-masing beratnya sama. Pak Tono mengirimkan $\\frac{2}{5}$ gulanya ke toko Pak Musri, $\\frac{3}{4}$ dari sisa gulanya dikirimkan ke toko Bu Dhilah, dan $\\frac{1}{2}$ dari sisa berikutnya dikirimkan ke toko Pak Bagus. Jika sisa gula di toko Pak Tono sekarang adalah $294$ kg, maka berat gula di masing-masing karung mula-mula adalah ...",
+      "options": [
+        "$140$ kg",
+        "$150$ kg",
+        "$160$ kg",
+        "$175$ kg",
+        "$180$ kg"
+      ],
+      "correctAnswer": "$140$ kg",
+      "explanation": "Dimisalkan total berat gula $m$. Sisa akhir setelah tiga kali pengiriman adalah $\\frac{3}{40}m = 294$, sehingga $m = 3920$ kg. Berat tiap karung adalah $\\frac{3920}{28} = 140$ kg."
+    },
+    {
+      "text": "Bu Andin, Bu Bunga, Bu Cindra, dan Bu Desi berbelanja di warung Bu Entin berturut-turut setiap $4$ hari sekali, $9$ hari sekali, $3$ hari sekali, dan $6$ hari sekali. Jika mereka berbelanja bersama pada tanggal $20$ Oktober 2022, dan Bu Entin pergi ke pasar dua hari sebelum mereka berbelanja bersama lagi untuk terdekat kalinya, pada tanggal berapakah Bu Entin pergi ke pasar?",
+      "options": [
+        "23 November 2022",
+        "24 November 2022",
+        "25 November 2022",
+        "26 November 2022",
+        "27 November 2022"
+      ],
+      "correctAnswer": "23 November 2022",
+      "explanation": "KPK dari $4, 9, 3, 6$ adalah $36$. Mereka akan berbelanja bersama $36$ hari setelah 20 Oktober 2022, yaitu pada tanggal 25 November 2022. Dua hari sebelumnya adalah 23 November 2022."
+    },
+    {
+      "text": "Berdasarkan grafik volume air pada tangki A dan tangki B, berapakah selisih volume air di tangki A dan tangki B pada pukul 13.00?",
+      "options": [
+        "$350$ liter",
+        "$400$ liter",
+        "$425$ liter",
+        "$450$ liter",
+        "$500$ liter"
+      ],
+      "correctAnswer": "$450$ liter",
+      "explanation": "Setiap garis horizontal berjarak $75$ liter. Pada pukul 13.00, volume tangki A adalah $525$ liter dan tangki B adalah $75$ liter. Selisihnya adalah $525 - 75 = 450$ liter."
+    },
+    {
+      "text": "Isoton adalah atom-atom yang memiliki jumlah neutron yang sama. Isoton dari atom $^{39}_{19}\\text{K}$ adalah ...",
+      "options": [
+        "$^{40}_{20}\\text{Ca}$",
+        "$^{39}_{18}\\text{Ar}$",
+        "$^{84}_{36}\\text{Kr}$",
+        "$^{32}_{16}\\text{S}$",
+        "$^{41}_{19}\\text{K}$"
+      ],
+      "correctAnswer": "$^{40}_{20}\\text{Ca}$",
+      "explanation": "Atom $^{39}_{19}\\text{K}$ memiliki jumlah neutron $39 - 19 = 20$. Atom $^{40}_{20}\\text{Ca}$ juga memiliki jumlah neutron $40 - 20 = 20$."
+    },
+    {
+      "text": "Berdasarkan data perkiraan produksi energi listrik dari PLTN masing-masing negara dari tahun 2010 sampai 2012 (Prancis: $>1200$ TWh, Tiongkok: $<300$ TWh, Rusia: $\\approx 520$ TWh, Jepang: $\\approx 480$ TWh), urutan negara yang memproduksi total energi listrik dari terkecil hingga terbesar adalah ...",
+      "options": [
+        "Prancis, Jepang, Rusia, Tiongkok",
+        "Tiongkok, Rusia, Jepang, Prancis",
+        "Tiongkok, Jepang, Rusia, Prancis",
+        "Rusia, Jepang, Tiongkok, Prancis",
+        "Prancis, Rusia, Jepang, Tiongkok"
+      ],
+      "correctAnswer": "Tiongkok, Jepang, Rusia, Prancis",
+      "explanation": "Urutan dari yang terkecil adalah Tiongkok ($<300$ TWh), Jepang ($\\approx 480$ TWh), Rusia ($\\approx 520$ TWh), dan Prancis ($>1200$ TWh)."
+    },
+    {
+      "text": "Berdasarkan grafik pertumbuhan koloni bakteri, pernyataan manakah yang paling tepat?",
+      "options": [
+        "Selisih jumlah koloni bakteri antara hari ke-20 dan 40 adalah $5 \\times 10^8$",
+        "Jumlah koloni bakteri pada hari ke-10 dan 50 bernilai sama",
+        "Jumlah koloni bakteri mencapai puncaknya pada hari ke-20",
+        "Puncak jumlah koloni bakteri berada di angka $3,5 \\times 10^8$",
+        "Jumlah koloni bakteri pada hari ke-10 adalah $1 \\times 10^9$"
+      ],
+      "correctAnswer": "Selisih jumlah koloni bakteri antara hari ke-20 dan 40 adalah $5 \\times 10^8$",
+      "explanation": "Jumlah koloni pada hari ke-20 adalah $3 \\times 10^9$ dan hari ke-40 adalah $2,5 \\times 10^9$. Selisihnya adalah $3 \\times 10^9 - 2,5 \\times 10^9 = 0,5 \\times 10^9 = 5 \\times 10^8$."
+    },
+    {
+      "text": "Sebuah bangunan berbentuk tabung yang ditutup dengan setengah bola memiliki panjang diameter alas $7$ m dan tinggi bangunan total $6,15$ m. Luas lantai bangunan tersebut adalah ...",
+      "options": [
+        "$35,\\text{5 m}^2$",
+        "$36,\\text{0 m}^2$",
+        "$37,\\text{5 m}^2$",
+        "$38,\\text{0 m}^2$",
+        "$38,\\text{5 m}^2$"
+      ],
+      "correctAnswer": "$38,\\text{5 m}^2$",
+      "explanation": "Luas lantai berbentuk lingkaran dengan diameter $d = 7$ m ($r = 3,5$ m). $L = \\pi r^2 = \\frac{22}{7} \\times (3,5)^2 = 38,5 \\text{ m}^2$."
+    },
+    {
+      "text": "Sarah membeli tiga jenis materai dengan x menyatakan banyak materai 3.000, y menyatakan banyak materai 6.000, dan z menyatakan banyak materai 10.000 dengan x, y, z anggota bilangan bulat positif dan x \\neq y \\neq z. Jika Sarah membayar Rp107.000,00 untuk ketiga jenis materai dan banyaknya masing-masing jenis meterai yang dibeli membentuk bilangan asli berurutan, maka banyak materai yang dibeli Sarah adalah...",
+      "options": [
+        "9 buah",
+        "10 buah",
+        "11 buah",
+        "12 buah",
+        "13 buah"
+      ],
+      "correctAnswer": "12 buah",
+      "explanation": "Dengan memisalkan x, y, dan z membentuk bilangan asli berurutan dan memenuhi persamaan 5x + 8y + 12z = 107, didapat x = 3, y = 4, dan z = 5. Sehingga total materai adalah 3 + 4 + 5 = 12 buah."
+    },
+    {
+      "text": "Di sebuah jalan tol terdapat marka garis utuh dengan luas 60 m^2 dan lebar marka 15 cm. Panjang marka jalan tersebut adalah...",
+      "options": [
+        "300 m",
+        "400 m",
+        "450 m",
+        "500 m",
+        "600 m"
+      ],
+      "correctAnswer": "400 m",
+      "explanation": "Luas dalam cm^2 adalah 600.000 cm^2. Dengan lebar 15 cm, panjangnya adalah 600.000 / 15 = 40.000 cm atau setara dengan 400 m."
+    },
+    {
+      "text": "Pada tahun 2040, diprediksi 40\\% hingga 45\\% penduduk Indonesia berada pada usia produktif antara 18-45 tahun. Jika jumlah penduduk seluruh Indonesia di tahun 2040 adalah 350 juta jiwa, jumlah penduduk di luar usia produktif pada tahun 2040 berada di kisaran...",
+      "options": [
+        "140 - 157,5 juta jiwa",
+        "150 - 170 juta jiwa",
+        "170 - 190 juta jiwa",
+        "180 - 192 juta jiwa",
+        "192,5 - 210 juta jiwa"
+      ],
+      "correctAnswer": "192,5 - 210 juta jiwa",
+      "explanation": "Penduduk usia produktif minimal 140 juta dan maksimal 157,5 juta jiwa. Penduduk di luar usia produktif minimal 350 - 157,5 = 192,5 juta jiwa dan maksimal 350 - 140 = 210 juta jiwa."
+    },
+    {
+      "text": "Sebelum adanya restrukturisasi kredit pada dealer X, besar cicilan kendaraan seorang pelanggan adalah 4 juta per bulan selama 12 bulan. Setelah restrukturisasi, besar cicilannya menjadi 3 juta per bulan selama 18 bulan. Selisih sisa cicilan kendaraan pelanggan tersebut sebelum dan sesudah restrukturisasi adalah...",
+      "options": [
+        "Rp4.000.000,00",
+        "Rp6.000.000,00",
+        "Rp8.000.000,00",
+        "Rp10.000.000,00",
+        "Rp12.000.000,00"
+      ],
+      "correctAnswer": "Rp6.000.000,00",
+      "explanation": "Selisih = (18 \\times 3) - (12 \\times 4) = 54 - 48 = 6 juta rupiah atau Rp6.000.000,00."
+    }
+  ]
+}

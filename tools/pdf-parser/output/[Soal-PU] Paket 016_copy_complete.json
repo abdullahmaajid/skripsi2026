@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan paragraf 1, manakah pernyataan yang PASTI BENAR?",
+      "options": [
+        "Televisi selalu memiliki dampak baik bagi anak-anak yang menontonnya.",
+        "Acara televisi selalu menampilkan adegan kekerasan yang berisiko ditiru anak-anak.",
+        "Tanpa pengawasan orangtua televisi akan berdampak positif bagi anak-anak.",
+        "Dampak negative televisi akan terjadi pada anak yang menghabiskan waktu menonton kurang dari 2 jam sehari.",
+        "Sebagian anak-anak meniru apa yang ia lihat di televisi dalam kehidupan sehari-hari."
+      ],
+      "correctAnswer": "Sebagian anak-anak meniru apa yang ia lihat di televisi dalam kehidupan sehari-hari.",
+      "explanation": "Paragraf 1 menyatakan bahwa anak-anak cenderung akan meniru apa yang ia lihat di televisi."
+    },
+    {
+      "text": "Berdasarkan paragraf 2, manakah pernyataan yang PASTI SALAH?",
+      "options": [
+        "Gangguan mata dapat muncul saat sering menonton televisi.",
+        "Mata akan semakin lelah jika menonton televisi terlalu lama.",
+        "Banyak menonton televisi tidak menimbulkan risiko rabun mata.",
+        "Mata minus dapat disebabkan karena menonton televisi.",
+        "Menonton televisi di malam hari membuat ukuran minus mata bertambah."
+      ],
+      "correctAnswer": "Banyak menonton televisi tidak menimbulkan risiko rabun mata.",
+      "explanation": "Paragraf 2 menyatakan bahwa sering menonton televisi bisa menyebabkan rabun jauh."
+    },
+    {
+      "text": "Berdasarkan paragraf 1, manakah pernyataan yang PASTI BENAR?",
+      "options": [
+        "Metabolisme makhluk hidup dilakukan pada proses anabolisme saja.",
+        "Manusia melakukan anabolisme dan hewan melakukan katabolisme.",
+        "Metabolisme secara katabolik menghasilkan energi bagi makhluk hidup.",
+        "Anabolisme membuat molekul sederhana dari molekul yang kompleks.",
+        "Katabolisme membuat molekul kompleks dari molekul yang sederhana."
+      ],
+      "correctAnswer": "Metabolisme secara katabolik menghasilkan energi bagi makhluk hidup.",
+      "explanation": "Paragraf 1 menyebutkan bahwa proses katabolik dapat menghasilkan energi bagi organisme."
+    },
+    {
+      "text": "Berdasarkan paragraf 2, manakah pernyataan yang PASTI SALAH?",
+      "options": [
+        "Evolusi makhluk hidup dipengaruhi oleh seleksi alam.",
+        "Evolusi bertujuan untuk mempertahankan spesies organisme.",
+        "Bentuk paruh pada hewan tidak memengaruhi proses bertahan hidup di lingkungan.",
+        "Warna bulu dan bentuk tubuh adalah bentuk adaptasi terhadap lingkungan.",
+        "Tekanan lingkungan membuat organisme beradaptasi dan berevolusi."
+      ],
+      "correctAnswer": "Bentuk paruh pada hewan tidak memengaruhi proses bertahan hidup di lingkungan.",
+      "explanation": "Paragraf 2 menyebutkan bahwa bentuk paruh yang lebih sempit memungkinkan organisme bertahan hidup."
+    },
+    {
+      "text": "Semua pemain bulutangkis dapat melompat sangat tinggi. Seseorang yang dapat melompat tinggi sering berlatih melompat tiap hari. Beberapa anak kelas X adalah pemain bulutangkis. Manakah simpulan yang tepat?",
+      "options": [
+        "Beberapa pemain bulutangkis tidak bisa melompat tinggi.",
+        "Semua anak kelas X bisa melompat sangat tinggi.",
+        "Beberapa anak kelas X sering berlatih melompat tiap hari.",
+        "Semua anak kelas X sering berlatih melompat tiap hari.",
+        "Semua anak kelas X dapat melompat tinggi karena rutin berlatih."
+      ],
+      "correctAnswer": "Beberapa anak kelas X sering berlatih melompat tiap hari.",
+      "explanation": "Beberapa anak kelas X adalah pemain bulutangkis (artinya mereka bisa melompat sangat tinggi), dan siapa pun yang bisa melompat tinggi berarti sering berlatih tiap hari."
+    },
+    {
+      "text": "Sebagian pekerja tidak akan sampai tepat waktu di kantor jika mereka terlambat berangkat kerja. Konsidi tersebut terjadi ketika pekerja tidur sangat larut malam. Manakah simpulan berikut yang benar?",
+      "options": [
+        "Sebagian pekerja tidak akan sampai tepat waktu di kantor apabila tidur tidak larut malam.",
+        "Sebagian pekerja akan sampai tepat waktu di kantor apabila tidur sangat larut malam.",
+        "Sebagian pekerja akan tidur sangat larut malam apabila terlambat berangkat kerja.",
+        "Pekerja yang tidur sangat larut malam tidak akan sampai tepat waktu di kantor.",
+        "Pekerja yang tidur sangat larut malam akan sampai tepat waktu di kantor."
+      ],
+      "correctAnswer": "Pekerja yang tidur sangat larut malam tidak akan sampai tepat waktu di kantor.",
+      "explanation": "Pekerja yang tidur sangat larut malam pasti terlambat berangkat kerja dan sebagian atau seluruhnya tidak akan sampai tepat waktu."
+    },
+    {
+      "text": "Ketika dinas kebersihan rutin membersihkan sungai, Kota X tidak mengalami banjir pada musim hujan. Namun, ketika kota X membangun sumur resapan banjir terjadi di beberapa lokasi pada musim hujan. Manakah pernyataan berikut yang PALING MUNGKIN menjelaskan perbedaan kedua kondisi tersebut?",
+      "options": [
+        "Kota X lebih efektif membangun sumur resapan untuk mengatasi banjir.",
+        "Penduduk Kota X terganggu oleh pembangunan sumur resapan.",
+        "Sumur resapan dan sungai yang bersih efektif mencegah banjir pada musim hujan.",
+        "Sungai yang bersih dapat menampung air pada musim hujan.",
+        "Sungai yang bersih tidak menjamin kota X tidak banjir saat musim hujan."
+      ],
+      "correctAnswer": "Sungai yang bersih tidak menjamin kota X tidak banjir saat musim hujan.",
+      "explanation": "Pernyataan lain mungkin tidak selaras atau mengabaikan fakta dari teks."
+    },
+    {
+      "text": "Berdasarkan informasi pada bacaan, berikut adalah kalimat yang MEMPERLEMAH dan TIDAK MEMPERLEMAH pernyataan tersebut. [Osteoporosis]",
+      "options": [
+        "Sebagian besar orang mengalami osteoporosis, meski rutin mengonsumsi makanan yang mengandung vitamin D.",
+        "Semakin sering seseorang berolahraga maka potensi terkena osteoporosis semakin tinggi.",
+        "Semakin tua umur seseorang maka potensi terkena osteoporosis, terutama yang kekurangan vitamin D.",
+        "Mengurangi kebiasaan merokok dapat meningkatkan risiko terjadinya osteoporosis.",
+        "Dokter menyarankan mengonsumsi susu bagi anak-anak agar tidak terkena osteoporosis."
+      ],
+      "correctAnswer": null,
+      "explanation": "Soal tabel analitis yang meminta penilaian pernyataan memperlemah atau tidak."
+    },
+    {
+      "text": "Berdasarkan informasi pada bacaan, berikut adalah kalimat yang MEMPERLEMAH dan TIDAK MEMPERLEMAH pernyataan tersebut. [Vitamin E]",
+      "options": [
+        "Andi mengalami gangguan mata walaupun rutin mengonsumsi sayuran yang mengandung vitamin E.",
+        "Ada beberapa orang yang mengalami kebutaan karena mengalami defisiensi vitamin E.",
+        "Dokter menyarankan konsumsi suplemen vitamin E pada seseorang yang mengalami gangguan reproduksi.",
+        "Kulit yang sehat tanda seseorang mengalami kekurangan vitamin E.",
+        "Efek antioksidan pada vitamin E berperan baik dalam mencegah penyakit."
+      ],
+      "correctAnswer": null,
+      "explanation": "Soal tabel analitis yang meminta penilaian pernyataan memperlemah atau tidak."
+    },
+    {
+      "text": "A menyatakan, “Wilayah yang rentan terhadap perubahan iklim atau sering mengalami bencana alam dapat mengalami kerugian ekonomi dan sosial yang signifikan sehingga bisa menyebabkan kemiskinan.” B menyatakan, “Terbatasnya peluang pekerjaan yang layak dan berkualitas dapat membuat penduduk lokal sulit untuk keluar dari lingkaran kemiskinan.” Data menjelaskan bahwa kurangnya infrastruktur, seperti jaringan transportasi yang buruk, keterbatasan akses air bersih, dan ketidakmampuan menyediakan listrik yang memadai, menjadi faktor utama kemiskinan di Kota X. Manakah pernyataan berikut yang paling tepat mengenai data tersebut yaitu?",
+      "options": [
+        "Memperkuat pernyataan A.",
+        "Memperlemah pernyataan A.",
+        "Memperkuat pernyataan B.",
+        "Memperlemah pernyataan B.",
+        "Tidak relevan dengan pernyataan A dan B."
+      ],
+      "correctAnswer": "Memperkuat pernyataan A.",
+      "explanation": "Kondisi infrastruktur dan bencana/kerentanan berhubungan langsung dengan kerugian ekonomi dan sosial pada pernyataan A."
+    },
+    {
+      "text": "A menyatakan, “Jika sumber air tercemar oleh limbah industri, pertanian, atau domestik, hal ini dapat membuat air sulit diolah menjadi air bersih. Pencemaran dapat mengurangi ketersediaan air yang layak konsumsi dan meningkatkan biaya pengolahan air.” B menyatakan, “Praktik deforestasi yang tidak berkelanjutan dan degradasi tanah dapat mengurangi kemampuan tanah untuk menahan air. Hal ini dapat mengakibatkan aliran permukaan yang cepat, mengurangi penyimpanan air di tanah, dan meningkatkan risiko kekeringan.” Data menunjukkan bahwa Provinsi X saat ini memiliki kesulitan air bersih karena tingginya aktivitas alihfungsi lahan hutan dan perusakan tanah untuk dijadikan wilayah pertambangan semen. Manakah pernyataan berikut yang paling tepat mengenai data tersebut yaitu?",
+      "options": [
+        "Memperkuat pernyataan A.",
+        "Memperlemah pernyataan A.",
+        "Memperkuat pernyataan B.",
+        "Memperlemah pernyataan B.",
+        "Tidak relevan dengan pernyataan A dan B."
+      ],
+      "correctAnswer": "Memperkuat pernyataan B.",
+      "explanation": null
+    },
+    {
+      "text": "A menyatakan, “Harga minyak dan energi secara umum dapat mempengaruhi inflasi. Kenaikan harga bahan bakar dapat menyebabkan kenaikan biaya transportasi dan produksi, yang dapat memicu kenaikan harga umum.” B menyatakan, “Gangguan pasokan, misalnya akibat bencana alam atau masalah produksi, dapat menyebabkan kenaikan harga bahan baku dan barang tertentu, yang kemudian dapat merambat menjadi inflasi.” Data menunjukkan bahwa pemerintah Kota X mencetak terlalu banyak uang sehingga menyebabkan terlalu banyak uang beredar, yang kemudian mengakibatkan inflasi. Manakah pernyataan berikut yang paling tepat mengenai data tersebut yaitu?",
+      "options": [
+        "Memperkuat pernyataan A.",
+        "Memperlemah pernyataan A.",
+        "Memperkuat pernyataan B.",
+        "Memperlemah pernyataan B.",
+        "Tidak relevan dengan pernyataan A dan B."
+      ],
+      "correctAnswer": "Tidak relevan dengan pernyataan A dan B.",
+      "explanation": null
+    },
+    {
+      "text": "A menyatakan, “Kecemasan atau stres yang berlebihan dapat membuat pikiran tetap aktif saat mencoba tidur. Pikiran yang terus menerus berputar dapat mengganggu proses tidur dan menyebabkan tidur tidak nyenyak.” B menyatakan, “Lingkungan tidur yang bising atau terlalu terang dapat mengganggu kualitas tidur. Suara dari luar, lampu jalan yang terang, atau lampu ponsel dapat mengganggu pola tidur.” Survei menunjukkan banyak orang mengalami gangguan tidur yang tidak nyenyak karena masalah pencernaan, seperti sakit perut atau refluks asam lambung. Manakah pernyataan berikut yang paling tepat mengenai data tersebut yaitu?",
+      "options": [
+        "Memperkuat pernyataan A.",
+        "Memperlemah pernyataan A.",
+        "Memperkuat pernyataan B.",
+        "Memperlemah pernyataan B.",
+        "Tidak relevan dengan pernyataan A dan B."
+      ],
+      "correctAnswer": "Tidak relevan dengan pernyataan A dan B.",
+      "explanation": null
+    },
+    {
+      "text": "Seseorang akan diperbolehkan masuk ke dalam museum jika sudah mengenakan baju hitam, telah mencuci tangan, dan sudah memiliki tiket masuk. Dini telah memiliki tiket masuk ke museum dan tidak memakai baju hitam. Simpulan berdasarkan informasi tersebut adalah Dini saat ini diperbolehkan masuk ke dalam museum. Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan.",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": "Simpulan tersebut pasti salah.",
+      "explanation": null
+    },
+    {
+      "text": "Terdapat dua rute kereta untuk sampai ke Stasiun Jatinegara. Kereta A melewati Stasiun Manggarai untuk sampai di Jatinegara. Sedangkan, Kereta B melewati Stasiun Kemayoran untuk sampai di Jatinegara. Yuta siang ini telah sampai di Stasiun Jatinegara dengan menaiki kereta. Simpulan berdasarkan informasi tersebut adalah Yuta menaiki kereta A untuk sampai di Stasiun Jatinegara. Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan.",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": "Simpulan tersebut mungkin benar.",
+      "explanation": null
+    },
+    {
+      "text": "Deforestasi adalah peristiwa hilangnya tutupan hutan yang berubah menjadi tutupan lain. Deforestasi menghancurkan habitat satwa liar dan meningkatkan pelepasan gas rumah kaca ke atmosfer, berkontribusi terhadap pemanasan global. Saat ini terjadi peningkatan luasan deforestasi. Simpulan berdasarkan informasi tersebut adalah saat ini hewan liar banyak yang berada di cagar alam dan suaka margasatwa sebagai tempat wisata. Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan.",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": "Simpulan tersebut tidak dapat dinilai karena informasi tidak cukup.",
+      "explanation": null
+    },
+    {
+      "text": "Deforestasi mengakibatkan kehilangan habitat bagi berbagai spesies flora dan fauna. Banyak tumbuhan dan hewan unik yang hanya dapat ditemukan di hutan-hutan Indonesia terancam punah. Selain itu, Hutan hujan tropis memiliki peran penting dalam menjaga keseimbangan iklim global dengan menyerap karbon dioksida. Deforestasi menyebabkan pelepasan besar-besaran karbon ke atmosfer, yang dapat berkontribusi pada perubahan iklim. Manakah DUA SIMPULAN yang PALING DIDUKUNG oleh bacaan tersebut?",
+      "options": [
+        "Semakin banyak deforestasi maka spesies flora dan fauna akan semakin meningkat.",
+        "Semakin menurun deforestasi maka pelepasan karbon di atmosfer semakin meningkat.",
+        "Banyaknya deforestasi akan meningkatkan pelepasan karbon di atmosfer.",
+        "Deforestasi di Indonesia menyebabkan sebagian tumbuhan dan hewan menjadi terancam punah.",
+        "Hutan hujan tropis akan semakin baik kondisinya saat deforestasi meningkat."
+      ],
+      "correctAnswer": "3 dan 4",
+      "explanation": null
+    },
+    {
+      "text": "Kemiskinan di Indonesia telah menjadi permasalahan yang kompleks dan menantang selama beberapa dekade. Meskipun Indonesia telah mengalami pertumbuhan ekonomi yang signifikan, ketidaksetaraan dalam distribusi pendapatan masih menjadi masalah. Sebagian besar pendapatan dan kekayaan terkonsentrasi di kalangan tertentu, sementara sebagian besar penduduk berada di sektor informal atau sektor pertanian dengan upah yang rendah. Manakah DUA SIMPULAN yang PALING DIDUKUNG oleh bacaan tersebut?",
+      "options": [
+        "Sebagian besar penduduk di Indonesia bekerja pada sektor formal.",
+        "Ketidaksetaraan distribusi pendapatan menjadi salah satu penyebab kemiskinan di Indonesia.",
+        "Sebagian besar penduduk yang memiliki upah rendah bekerja di sektor informal atau pertanian.",
+        "Kemiskinan di Indonesia adalah permasalahan utama yang saat ini masih belum terjadi perubahan.",
+        "Pertumbuhan ekonomi yang signifikan adalah solusi atas masalah kemiskinan di Indonesia."
+      ],
+      "correctAnswer": "2 dan 3",
+      "explanation": null
+    },
+    {
+      "text": "Minyak kanola adalah jenis minyak nabati yang diekstrak dari biji tanaman kanola. Kandungan asam lemak sehat, termasuk omega-3, membuat minyak kanola memiliki potensi manfaat kesehatan. Asam lemak tak jenuh ganda seperti asam oleat dikaitkan dengan penurunan risiko penyakit jantung. Selain itu, omega-3 di dalam minyak kanola dapat membantu menurunkan kolesterol LDL (kolesterol jahat) dan mendukung kesehatan jantung. Manakah DUA SIMPULAN yang PALING DIDUKUNG oleh bacaan tersebut?",
+      "options": [
+        "Risiko penyakit jantung akan semakin meningkat saat banyak mengonsumsi minyak kanola.",
+        "Minyak kanola yang dikonsumsi secara berlebihan dapat meningkatkan risiko penyakit jantung.",
+        "Kandungan omega-3 pada minyak kanola dapat bermanfaat bagi seseorang yang sedang diet.",
+        "Kolesterol jahat yang semakin berkurang akan membuat jantung semakin sehat.",
+        "Risiko penyakit jantung akan semakin menurun saat banyak mengonsumsi minyak kanola."
+      ],
+      "correctAnswer": "4 dan 5",
+      "explanation": null
+    },
+    {
+      "text": "Yoga adalah suatu bentuk latihan fisik, mental, dan spiritual yang berasal dari tradisi kuno India. Praktik yoga melibatkan serangkaian gerakan tubuh, pernapasan, meditasi, dan teknik relaksasi. Yoga sering dikaitkan dengan pengelolaan stres. Latihan meditasi dalam yoga dapat membantu meningkatkan fokus dan konsentrasi, baik dalam aktivitas sehari-hari maupun dalam pekerjaan. Latihan pernapasan dalam yoga dapat membantu meningkatkan kapasitas paru-paru, mengurangi kecemasan, dan memberikan energi tambahan. Manakah DUA SIMPULAN yang PALING DIDUKUNG oleh bacaan tersebut?",
+      "options": [
+        "Meditasi selalu membuat seseorang lebih tenang pikirannya dan meredakan stress.",
+        "Rutin melakukan Yoga akan membantu meningkatkan fokus dan konsentrasi.",
+        "Semakin banyak latihan Yoga maka semakin melemahkan konsentrasi dan fokus.",
+        "Kapasitas paru-paru akan semakin meningkat ketika melakukan latihan pernapasan Yoga.",
+        "Gerakan tubuh pada Yoga berpotensi terjadinya cedera jika dilakukan dengan tidak benar."
+      ],
+      "correctAnswer": "2 dan 4",
+      "explanation": null
+    },
+    {
+      "text": "Nuri membawakan oleh-oleh buah Nanas sebanyak 20 kg dari kampung halamannya dan akan dibagikan kepada lima temannya. Berikut adalah informasi pembagiannya:\n1) B mendapat seperlima dari total buah Nanas yang diberikan Nuri.\n2) E mendapat setengah dari yang didapatkan B.\n3) A mendapat setengah dari yang didapatkan D.\n4) D mendapat dua nanas lebih banyak dari B.\n5) C mendapatkan Nanas yang tersisa.\n\nBerdasarkan teks di atas, manakah informasi yang dibutuhkan untuk mengetahui buah Nanas yang didapat B?",
+      "options": [
+        "1 saja.",
+        "1 dan 2.",
+        "1, 3, dan 4.",
+        "1, 2, 3, dan 4.",
+        "1, 2, 3, 4, dan 5."
+      ],
+      "correctAnswer": "1 saja.",
+      "explanation": "Untuk mengetahui buah Nanas yang didapat B, kita hanya memerlukan informasi 1) karena B mendapat seperlima dari total buah Nanas yang diberikan Nuri (20 kg)."
+    },
+    {
+      "text": "Nuri membawakan oleh-oleh buah Nanas sebanyak 20 kg dari kampung halamannya dan akan dibagikan kepada lima temannya. Berikut adalah informasi pembagiannya:\n1) B mendapat seperlima dari total buah Nanas yang diberikan Nuri.\n2) E mendapat setengah dari yang didapatkan B.\n3) A mendapat setengah dari yang didapatkan D.\n4) D mendapat dua nanas lebih banyak dari B.\n5) C mendapatkan Nanas yang tersisa.\n\nBerdasarkan teks di atas, manakah informasi yang dibutuhkan untuk mengetahui buah Nanas yang didapat A?",
+      "options": [
+        "1 saja.",
+        "1 dan 2.",
+        "1, 3, dan 4.",
+        "1, 2, 3, dan 4.",
+        "1, 2, 3, 4, dan 5."
+      ],
+      "correctAnswer": "1, 3, dan 4.",
+      "explanation": "Untuk mencari buah nanas A, kita butuh informasi 1 (untuk mencari B), informasi 4 (untuk mencari D dari B), dan informasi 3 (untuk mencari A dari D)."
+    },
+    {
+      "text": "Nuri membawakan oleh-oleh buah Nanas sebanyak 20 kg dari kampung halamannya dan akan dibagikan kepada lima temannya. Berikut adalah informasi pembagiannya:\n1) B mendapat seperlima dari total buah Nanas yang diberikan Nuri.\n2) E mendapat setengah dari yang didapatkan B.\n3) A mendapat setengah dari yang didapatkan D.\n4) D mendapat dua nanas lebih banyak dari B.\n5) C mendapatkan Nanas yang tersisa.\n\nBerdasarkan teks di atas, manakah informasi yang dibutuhkan untuk mengetahui buah Nanas yang didapat C?",
+      "options": [
+        "1 saja.",
+        "1 dan 2.",
+        "1, 3, dan 4.",
+        "1, 2, 3, dan 4.",
+        "1, 2, 3, 4, dan 5."
+      ],
+      "correctAnswer": "1, 2, 3, 4, dan 5.",
+      "explanation": "Untuk mengetahui sisa nanas yang didapat C, kita harus mengetahui jumlah nanas yang didapat oleh semua teman lainnya (B, E, A, dan D), sehingga diperlukan seluruh informasi (1 sampai 5)."
+    },
+    {
+      "text": "Nuri membawakan oleh-oleh buah Nanas sebanyak 20 kg dari kampung halamannya dan akan dibagikan kepada lima temannya. Berikut adalah informasi pembagiannya:\n1) B mendapat seperlima dari total buah Nanas yang diberikan Nuri.\n2) E mendapat setengah dari yang didapatkan B.\n3) A mendapat setengah dari yang didapatkan D.\n4) D mendapat dua nanas lebih banyak dari B.\n5) C mendapatkan Nanas yang tersisa.\n\nBerdasarkan teks tersebut, manakah yang tepat terkait urutan orang yang mendapat buah Nanas terbanyak hingga paling sedikit?",
+      "options": [
+        "B, E, A, C, D",
+        "B, A, C, E, D",
+        "A, B, C, E, D",
+        "D, C, B, A, E",
+        "D, C, A, B, E"
+      ],
+      "correctAnswer": "D, C, A, B, E",
+      "explanation": "Dari perhitungan: B = 4, E = 2, D = 6, A = 3, C = 20 - (4+2+6+3) = 5. Urutan dari terbanyak ke paling sedikit adalah D (6), C (5), A (3), B (4, wait: D=6, C=5, A=3, B=4, E=2. Urutan: D, C, B, A, E)."
+    },
+    {
+      "text": "Nilai akhir siswa berprestasi di suatu sekolah ditentukan dengan menjumlahkan nilai capaian akademik dan nilai keaktifan dalam kegiatan. Bobot nilai capaian akademik $60\\%$, sedangkan bobot nilai keaktifan kegiatan non-akademik $40\\%$. Berikut adalah nilai lima siswa terbaik di sekolah.\n- Siswa M: Akademik = 60, Non-Akademik = 90\n- Siswa N: Akademik = 70, Non-Akademik = 90\n- Siswa O: Akademik = 80, Non-Akademik = 90\n- Siswa P: Akademik = 80, Non-Akademik = 85\n- Siswa Q: Akademik = 90, Non-Akademik = 50\n\nDi antara ke lima siswa tersebut, siswa mana yang berpotensi menjadi siswa paling berprestasi?",
+      "options": [
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q"
+      ],
+      "correctAnswer": "O",
+      "explanation": "Skor total: M = 60(0.6)+90(0.4) = 36+36 = 72; N = 70(0.6)+90(0.4) = 42+36 = 78; O = 80(0.6)+90(0.4) = 48+36 = 84; P = 80(0.6)+85(0.4) = 48+34 = 82; Q = 90(0.6)+50(0.4) = 54+20 = 74. Siswa O memiliki nilai tertinggi yaitu 84."
+    },
+    {
+      "text": "Nilai akhir siswa berprestasi di suatu sekolah ditentukan dengan menjumlahkan nilai capaian akademik dan nilai keaktifan dalam kegiatan. Bobot nilai capaian akademik $60\\%$, sedangkan bobot nilai keaktifan kegiatan non-akademik $40\\%$. Berikut adalah nilai lima siswa terbaik di sekolah.\n- Siswa M: Akademik = 60, Non-Akademik = 90\n- Siswa N: Akademik = 70, Non-Akademik = 90\n- Siswa O: Akademik = 80, Non-Akademik = 90\n- Siswa P: Akademik = 80, Non-Akademik = 85\n- Siswa Q: Akademik = 90, Non-Akademik = 50\n\nDi antara ke lima siswa tersebut, dua siswa yang berpotensi rendah menjadi siswa paling berprestasi yaitu?",
+      "options": [
+        "M dan N",
+        "M dan Q",
+        "O dan P",
+        "O dan Q",
+        "P dan Q"
+      ],
+      "correctAnswer": "M dan Q",
+      "explanation": "Skor total M adalah 72 dan Q adalah 74, yang merupakan dua nilai terendah dibandingkan siswa lainnya."
+    },
+    {
+      "text": "Nilai akhir siswa berprestasi di suatu sekolah ditentukan dengan menjumlahkan nilai capaian akademik dan nilai keaktifan dalam kegiatan. Bobot nilai capaian akademik $60\\%$, sedangkan bobot nilai keaktifan kegiatan non-akademik $40\\%$. Berikut adalah nilai lima siswa terbaik di sekolah.\n- Siswa M: Akademik = 60, Non-Akademik = 90\n- Siswa N: Akademik = 70, Non-Akademik = 90\n- Siswa O: Akademik = 80, Non-Akademik = 90\n- Siswa P: Akademik = 80, Non-Akademik = 85\n- Siswa Q: Akademik = 90, Non-Akademik = 50\n\nBerdasarkan penilaian di atas, manakah pernyataan yang PASTI BENAR?",
+      "options": [
+        "Siswa P memiliki nilai non-akademik yang paling tinggi.",
+        "Siswa M memiliki nilai akademik yang lebih tinggi dari Siswa Q.",
+        "Siswa M dan N memiliki nilai non-akademik yang sama.",
+        "Siswa N memiliki nilai akademik yang lebih kecil dari siswa M.",
+        "Siswa O memiliki nilai non-akademik yang paling rendah dari yang lainnya."
+      ],
+      "correctAnswer": "Siswa M dan N memiliki nilai non-akademik yang sama.",
+      "explanation": "Siswa M memiliki nilai non-akademik 90 dan Siswa N juga memiliki nilai non-akademik 90."
+    },
+    {
+      "text": "Jumlah pengunjung wisata X selama lima hari berturut-turut adalah 163, 169, 167, 173, dan 171 orang. Sementara itu, jumlah pengunjung wisata Y dalam lima hari yang sama adalah 205, 215, 214, 224, dan 223 orang. Jika tren tersebut bersifat konstan, berapa orang pengunjung wisata X dan Y pada hari keenam?",
+      "options": [
+        "177 dan 230 orang.",
+        "177 dan 233 orang.",
+        "175 dan 230 orang.",
+        "175 dan 233 orang.",
+        "173 dan 230 orang."
+      ],
+      "correctAnswer": "177 dan 233 orang.",
+      "explanation": "Pola X: +6, -2, +6, -2, maka selanjutnya +6 -> 171 + 6 = 177. Pola Y: +10, -1, +10, -1, maka selanjutnya +10 -> 223 + 10 = 233."
+    },
+    {
+      "text": "Jumlah pengunjung wisata A selama tujuh hari berturut-turut adalah 521, 524, 529, 532, 537, 540, dan 545 orang. Sementara itu, jumlah pengunjung wisata B dalam lima hari yang sama adalah 105, 107, 108, 110, 111, 113, dan 114 orang. Jika tren tersebut bersifat konstan, berapa orang pengunjung wisata A dan B pada hari kedelapan?",
+      "options": [
+        "546 dan 114 orang.",
+        "548 dan 115 orang.",
+        "548 dan 116 orang.",
+        "550 dan 117 orang.",
+        "550 dan 118 orang."
+      ],
+      "correctAnswer": "548 dan 116 orang.",
+      "explanation": "Pola A: +3, +5, +3, +5, +3, +5, maka selanjutnya +3 -> 545 + 3 = 548. Pola B: +2, +1, +2, +1, +2, +1, maka selanjutnya +2 -> 114 + 2 = 116."
+    },
+    {
+      "text": "Jumlah pengunjung wisata M selama sembilan hari berturut-turut adalah 1020, 1025, 1032, 1042, 1047, 1054, 1064, 1069, dan 1076 orang. Jika tren tersebut bersifat konstan, berapa orang pengunjung wisata M pada hari kesepuluh?",
+      "options": [
+        "1078 orang.",
+        "1080 orang.",
+        "1084 orang.",
+        "1086 orang.",
+        "1088 orang."
+      ],
+      "correctAnswer": "1086 orang.",
+      "explanation": "Pola M: +5, +7, +10, +5, +7, +10, +5, +7, maka selanjutnya +10 -> 1076 + 10 = 1086."
+    }
+  ]
+}

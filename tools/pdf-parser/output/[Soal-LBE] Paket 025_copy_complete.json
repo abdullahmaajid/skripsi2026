@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Streaming accounts for about 50% of recorded music revenue in the US",
+        "The average person listens to approximately 2.6 hours of music daily",
+        "Spotify, Apple Music, and YouTube Music collectively host over 100 million tracks",
+        "Users typically spend 60% of their listening time on about 30 songs monthly",
+        "Vinyl record sales have grown for 16 consecutive years"
+      ],
+      "correctAnswer": "Streaming accounts for about 50% of recorded music revenue in the US",
+      "explanation": "The text states streaming accounts for 84% of recorded music revenue."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Baby Boomers discover new music primarily through TikTok",
+        "Gen Z listens to music primarily on smartphones",
+        "Radio remains the primary music discovery method across all generations",
+        "Vinyl sales have steadily declined since the 1990s",
+        "Most listeners explore the full catalog available on streaming platforms"
+      ],
+      "correctAnswer": "Gen Z listens to music primarily on smartphones",
+      "explanation": "The text explicitly states 76% of Gen Z listens primarily on smartphones."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "The minimalist movement gained momentum after the 2008 recession",
+        "Experiential purchases typically produce shorter-lasting happiness than material goods",
+        "The average American household contains approximately 300,000 items",
+        "Digital detoxes are practiced by many millennials",
+        "The FIRE movement emphasizes high savings rates"
+      ],
+      "correctAnswer": "Experiential purchases typically produce shorter-lasting happiness than material goods",
+      "explanation": "The text states experiential purchases produce longer-lasting happiness."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Most Americans practice strict minimalism",
+        "Home organization is a $13 billion industry annually",
+        "Digital minimalism is practiced primarily by Baby Boomers",
+        "The capsule wardrobe concept has been rejected by most adults under 35",
+        "The FIRE movement promotes moderate savings of 10-15% of income"
+      ],
+      "correctAnswer": "Home organization is a $13 billion industry annually",
+      "explanation": "The text mentions home organization represents a $13 billion industry annually."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Global coffee consumption reached 166.3 million 60kg bags in 2020/2021",
+        "Specialty coffee represents approximately 75% of U.S. coffee sales",
+        "The average American coffee drinker consumes 3.1 cups daily",
+        "Black Ivory coffee sells for approximately $1,000 per pound",
+        "Coffee is the primary source of antioxidants in the American diet"
+      ],
+      "correctAnswer": "Specialty coffee represents approximately 75% of U.S. coffee sales",
+      "explanation": "Specialty coffee's market share is 37% of U.S. coffee sales according to the text."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Coffee consumption peaks between 3:00 and 5:00 PM for most Americans",
+        "Traditional Ethiopian coffee ceremonies are typically completed in 15 minutes",
+        "Research has found associations between moderate coffee consumption and reduced risk of certain diseases",
+        "First-wave coffee culture focuses on bean origin and processing methods",
+        "Global coffee consumption represents a $50 billion industry"
+      ],
+      "correctAnswer": "Research has found associations between moderate coffee consumption and reduced risk of certain diseases",
+      "explanation": "The text notes reduced risk of Parkinson's disease, type 2 diabetes, and liver conditions."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Experiential travel has largely replaced traditional sightseeing",
+        "The majority of solo travelers are men according to the Solo Travel Society",
+        "Sustainable tourism has gained popularity among travelers",
+        "Venice has implemented entrance fees for day visitors",
+        "Digital nomadism has increased significantly since pre-pandemic times"
+      ],
+      "correctAnswer": "The majority of solo travelers are men according to the Solo Travel Society",
+      "explanation": "Women represent 72% of solo travelers according to the Solo Travel Society."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Most travelers prioritize relaxation over personal growth",
+        "Solo travel has declined by 42% since 2015",
+        "Regenerative tourism aims to leave destinations better than they were found",
+        "Only about 10% of travelers express interest in sustainable options",
+        "Digital nomad visas are not yet available in any countries"
+      ],
+      "correctAnswer": "Regenerative tourism aims to leave destinations better than they were found",
+      "explanation": "The text defines regenerative tourism as seeking to leave destinations better than they were found."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Houseplant sales increased by 50% between 2016 and 2021",
+        "Biophilic design elements are associated with decreased workplace productivity",
+        "The ZZ plant can survive months without water",
+        "The monstera plant is popular on Instagram",
+        "Some common houseplants contain substances toxic to pets"
+      ],
+      "correctAnswer": "Biophilic design elements are associated with decreased workplace productivity",
+      "explanation": "Biophilic elements are associated with 6% higher productivity."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Indoor plant interest declined during the COVID-19 pandemic",
+        "Studies show interacting with plants can reduce stress and lower cortisol levels",
+        "Biophilic design has been largely rejected by mainstream architecture",
+        "The decorative planter market is worth approximately $2 billion annually",
+        "Veterinarians report declining cases of plant-related pet toxicity"
+      ],
+      "correctAnswer": "Studies show interacting with plants can reduce stress and lower cortisol levels",
+      "explanation": "The text confirms that interacting with indoor plants reduces stress and lowers cortisol levels."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "The percentage of Americans who listen to podcasts monthly has doubled since 2016",
+        "The average podcast listener consumes fifteen shows weekly",
+        "There were over 2.5 million active podcasts in 2023",
+        "Educational content is the most popular podcast category",
+        "Only about 44% of new podcasts produce more than three episodes"
+      ],
+      "correctAnswer": "The average podcast listener consumes fifteen shows weekly",
+      "explanation": "The text states that the average podcast consumer listens to eight shows weekly, making option B false."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Most podcast listening occurs at workplaces",
+        "The podcast industry generated approximately $1.7 billion in advertising revenue in 2022",
+        "The average podcast ad conversion rate is below the digital advertising benchmark",
+        "Top podcasts receive a small fraction of total downloads",
+        "True crime represents the most popular podcast category"
+      ],
+      "correctAnswer": "The podcast industry generated approximately $1.7 billion in advertising revenue in 2022",
+      "explanation": "The text explicitly states that the podcast industry generated approximately $1.7 billion in advertising revenue in 2022."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Culinary tourism is a primary travel motivation for many millennials",
+        "Food tours decreased in popularity between 2019 and 2022",
+        "Many travelers research restaurants on social media before trips",
+        "Culinary tourists generally prefer family-owned establishments to Michelin-starred restaurants",
+        "Japan is mentioned as an influential culinary tourism destination"
+      ],
+      "correctAnswer": "Food tours decreased in popularity between 2019 and 2022",
+      "explanation": "The text states that food tours increased 57% between 2019 and 2022, making option B false."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Culinary tourism represents a $100 billion global market",
+        "Most destination marketing organizations avoid highlighting local cuisine",
+        "Most travelers spend about 5% of their travel budget on food experiences",
+        "Social media \"Instagrammability\" influences many travelers' food choices",
+        "Interest in elevated street food concepts has declined since 2018"
+      ],
+      "correctAnswer": "Social media \"Instagrammability\" influences many travelers' food choices",
+      "explanation": "The text mentions that 69% of travelers select dishes partly based on \"Instagrammability.\""
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Most adults worldwide report getting sufficient sleep",
+        "Blue light from electronic devices can suppress melatonin production",
+        "Sleep medications show greater long-term effectiveness than CBT-I",
+        "Maintaining different sleep-wake times on weekdays and weekends is recommended",
+        "Most Americans prioritize sleep over other activities"
+      ],
+      "correctAnswer": "Blue light from electronic devices can suppress melatonin production",
+      "explanation": "The text states that blue light from electronic devices suppresses melatonin production by up to 50%."
+    }
+  ]
+}

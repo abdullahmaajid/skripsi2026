@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Budi memilik beberapa tanaman kaktus. Manakah simpulan dibawah ini yang benar?",
+      "options": [
+        "Beberapa tanaman Budi tidak bersifat sukulen",
+        "Semua kaktus merupakan tanaman Budi",
+        "Beberapa kaktus bukanlah tanaman Budi",
+        "Semua tanaman Budi memiliki sifat sukulen",
+        "Beberapa tanaman Budi memiliki sifat sukulen"
+      ],
+      "correctAnswer": "Semua tanaman Budi memiliki sifat sukulen",
+      "explanation": "Semua kaktus memiliki sifat sukulen. Karena Budi memiliki tanaman kaktus, maka semua tanaman kaktus milik Budi pasti memiliki sifat sukulen."
+    },
+    {
+      "text": "Sebagian tanaman Andi tidak memiliki sifat sukulen. Manakah simpulan dibawah ini yang benar?",
+      "options": [
+        "Semua tanaman yang tidak memiliki sifat sukulen merupakan tanaman Andi",
+        "Sebagian kaktus tanaman Andi tidak memiliki sifat sukulen",
+        "Semua kaktus yang memiliki sifat sukulen merupakan tanaman Andi",
+        "Sebagian tanaman Andi merupakan kaktus",
+        "Sebagian tanaman Andi bukan kaktus"
+      ],
+      "correctAnswer": "Sebagian tanaman Andi bukan kaktus",
+      "explanation": "Karena sebagian tanaman Andi tidak memiliki sifat sukulen, dan seluruh kaktus pasti memiliki sifat sukulen, maka tanaman yang tidak memiliki sifat sukulen tersebut pastilah bukan kaktus. Dengan kata lain, sebagian tanaman Andi bukan kaktus."
+    },
+    {
+      "text": "Berdasarkan paragraf diatas simpulan dibawah ini yang benar adalah...",
+      "options": [
+        "Jika seseorang mengalami komplikasi penyakit maka orang tersebut memiliki kebiasaan tidur lebih dari satu jam.",
+        "Jika tidak tidur siang lebih dari 60 menit maka tidak akan terkena petaka fatal seperti komplikasi penyakit hingga kematian",
+        "Semua orang yang tidur diatas 60 menit akan mengalami komplikasi penyakit",
+        "Jika tidur selama 75 menit maka bisa menimbulkan petaka fatal seperti komplikasi penyakit hingga kematian",
+        "Tidak ada simpulan yang benar."
+      ],
+      "correctAnswer": "Jika tidur selama 75 menit maka bisa menimbulkan petaka fatal seperti komplikasi penyakit hingga kematian",
+      "explanation": "Tidur siang memiliki aturan paling lama 60 menit (satu jam). Jika melebihi waktu tersebut (seperti 75 menit), dapat menimbulkan petaka fatal."
+    },
+    {
+      "text": "Berdasarkan paragaraf diatas jika budi memiliki kebiasaan tidur siang selama 45 menit, maka simpulan yang benar adalah...",
+      "options": [
+        "Budi akan mengalami kematian",
+        "Budi tidak akan mengalami komplikasi penyakit",
+        "Budi bisa menambah durasi tidurnya selama 15 menit",
+        "Budi sebaiknya mengurangi kebiasaan tidur siang",
+        "Tidak ada simpulan yang benar"
+      ],
+      "correctAnswer": "Tidak ada simpulan yang benar",
+      "explanation": "Aturan tidur siang yang berisiko adalah jika melebihi 60 menit. Durasi 45 menit masih berada di bawah batas waktu tersebut, namun tidak ada kepastian mutlak bahwa Budi dijamin bebas dari risiko kesehatan lain di luar durasi tidur."
+    },
+    {
+      "text": "Berdasarkan paragraf 1, simpulan di bawah ini yang tidak benar adalah..",
+      "options": [
+        "Jika mengalami tekanan yang berlebihan dan mendadak pada sendi maka akan menyebabkan terjadinya sprain",
+        "Jika melakukan penggunaan yang berlebihan yang berulang-ulang pada sendi maka akan menyebabkan terjadinya sprain",
+        "Jika terjadi sprain maka sendi telah mengalami tekanan yang berlebihan dan mendadak",
+        "Jika tidak terjadi sprain maka sendi tidak mengalami tekanan yang berlebihan dan mendadak",
+        "Jika mengalami tekanan yang berlebihan dan mendadak pada sendi maka akan menyebabkan terjadinya sprain dan melakukan penggunaan yang berlebihan yang berulang-ulang pada sendi akan menyebabkan terjadinya sprain"
+      ],
+      "correctAnswer": "Jika tidak terjadi sprain maka sendi tidak mengalami tekanan yang berlebihan dan mendadak",
+      "explanation": "Pernyataan tersebut merupakan kesalahan logika (fallacy of denying the antecedent), karena tekanan berlebihan atau penggunaan berulang dapat terjadi tanpa serta-merta menyebabkan sprain pada setiap orang."
+    },
+    {
+      "text": "Berdasarkan paragraf 2 simpulan yang benar adalah..",
+      "options": [
+        "Jika sendi tidak mudah mengalami dislokasi kembali maka sendi tersebut tidak pernah mengalami dislokasi.",
+        "Semua sendi yang mudah mengalami dislokasi kembali pasti ligament pada sendi tersebut kendor",
+        "Jika ligament pada sendi kendor, maka sendi pernah mengalami dislokasi",
+        "Jika sendi mengalami dislokasi maka sendi akan menjadi kendor",
+        "Semua sendi olahragawan pasti pernah mengalami dislokasi"
+      ],
+      "correctAnswer": "Semua sendi yang mudah mengalami dislokasi kembali pasti ligament pada sendi tersebut kendor",
+      "explanation": "Berdasarkan teks: \"Apabila sebuah sendi pernah mengalami dislokasi, maka ligament pada sendi tersebut akan kendor, sehingga sendi tersebut mudah mengalami dislokasi kembali.\" Ini berarti jika mudah dislokasi kembali, ligamennya pasti kendor."
+    },
+    {
+      "text": "Pernyataan yang tidak mendukung bacaan diatas adalah adalah..",
+      "options": [
+        "Sendi Tono mengalami dislokasi sehingga ligament pada sendinya menjadi kendor",
+        "Semua sendi yang pernah mengalami dislokasi akan mudah mengalami dislokasi kembali",
+        "Sendi Tono ligamentnya kendor namun tidak pernah mengalami dislokasi",
+        "Sendi Andi mengalami dislokasi namun ligamentnya pada sendinya tidak kendor.",
+        "Sendi Sarah mudah mengalami dislokasi kembali namun ligament sendi tersebut tidak kendor"
+      ],
+      "correctAnswer": "Sendi Tono mengalami dislokasi sehingga ligament pada sendinya menjadi kendor",
+      "explanation": "Pernyataan lain melanggar prinsip kausalitas teks di mana dislokasi menyebabkan ligamen kendor, atau ligamen kendor membuat mudah dislokasi."
+    },
+    {
+      "text": "Jika Tono adalah siswa laki-laki yang sedang menempuh pendidikan SMA, maka berdasarkan teks diatas simpulan yang PALING MUNGKIN adalah..",
+      "options": [
+        "Tono menyukai olah raga terutama olah raga basket",
+        "Tono menyukai olah raga dan juga matematika",
+        "Tono suka olah raga namun tidak membenci pelajaran matematika",
+        "Tono suka olah raga dan tidak suka matematika",
+        "Tono suka bermain sepak bola namun tidak menyukai pelajaran olah raga"
+      ],
+      "correctAnswer": "Tono suka olah raga dan tidak suka matematika",
+      "explanation": "Sebagian besar (75%) siswa laki-laki menyukai olahraga, dan dari yang tidak disukai, 90% menjawab matematika, sehingga kemungkinan terbesar Tono menyukai olahraga dan tidak menyukai matematika."
+    },
+    {
+      "text": "Berdasarkan teks diatas simpulan yang benar adalah...",
+      "options": [
+        "Jika kita terhindar penyakit maka kita suka berolah raga",
+        "Jika kita tidak terhindar penyakit maka kita tidak suka berolah raga",
+        "Jika kita memiliki kekebalan tubuh yang baik maka kita pasti suka berolah raga",
+        "Jika kita tidak suka berolah raga maka kita akan terkena penyakit",
+        "Tidak ada simpulan yang benar"
+      ],
+      "correctAnswer": "Tidak ada simpulan yang benar",
+      "explanation": "Pilihan yang ada merupakan bentuk kesalahan logika implikasi dari teks mengenai hubungan olahraga, kekebalan tubuh, dan penyakit."
+    },
+    {
+      "text": "Jika angka yang ada didunia diubah menjadi hanya ada dari 0 sampai 7. Sehingga jika 7+1 akan menjadi 10. Maka nilai dari 5 + 6 adalah?",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "correctAnswer": "13",
+      "explanation": "Sistem bilangan berbasis 8 (oktal). Nilai 5 + 6 = 11 dalam desimal. Dalam basis 8, 11 ditulis sebagai $1 \\times 8^1 + 3 \\times 8^0 = 13$."
+    },
+    {
+      "text": "Berdasarkan teks di atas maka simpulan yang tepat adalah..",
+      "options": [
+        "Semua orang merasa bubur lebih nyaman di perut untuk dikonsumsi pada pagi hari",
+        "Ada orang yang merasa bubur lebih nyaman di perut untuk dikonsumsi pada pagi hari",
+        "Semua orang merasa bubur lebih nyaman di perut untuk dikonsumsi jika buburnya diaduk terlebih dahulu",
+        "Jika bubur dikonsumsi pada pagi hari maka akan membuat orang merasa nyaman",
+        "Dr Anie sering mengkonsumsi bubur tiap hari karena dirasakan nyaman diperut"
+      ],
+      "correctAnswer": "Ada orang yang merasa bubur lebih nyaman di perut untuk dikonsumsi pada pagi hari",
+      "explanation": "Teks menyatakan \"Bagi sebagian orang termasuk dr Anie sendiri, bubur terasa lebih nyaman di perut untuk dikonsumsi pada pagi hari\", yang berarti ada orang yang merasakan hal tersebut."
+    },
+    {
+      "text": "Pernyataan yang tidak mendukung teks di atas adalah...",
+      "options": [
+        "Ada orang yang tidak cocok sarapan bubur sebagai menu utamanya",
+        "Budi merasa tidak cocok sarapan bubur sebagai menu utamanya",
+        "Semua orang tidak cocok sarapan bubur sebagai menu utamanya",
+        "Semua orang tidak sarapan bubur sebagai menu utamanya",
+        "Prof Hardinsyah cocok menjadikan bubur sebagai menu utamanya saat sarapan"
+      ],
+      "correctAnswer": "Semua orang tidak cocok sarapan bubur sebagai menu utamanya",
+      "explanation": "Teks menyebutkan banyak orang Indonesia yang suka bubur dan beberapa orang cocok, sehingga pernyataan bahwa \"semua orang tidak cocok sarapan bubur\" bertentangan dengan isi teks."
+    },
+    {
+      "text": "Jika bubur ayam menggunakan sepotong ayam lengkap maka berdasarkan teks dapat disimpulkan..",
+      "options": [
+        "Bubur ayam tersebut termasuk bubur ayam yang sehat",
+        "Bubur ayam tersebut termasuk bubur ayam yang tidak sehat",
+        "Bubur ayam tersebut termasuk bubur ayam yang setengah sehat",
+        "Bubur ayam tersebut termasuk bubur ayam yang nikmat untuk sarapan",
+        "Tidak ada simpulan yang tepat."
+      ],
+      "correctAnswer": "Tidak ada simpulan yang tepat.",
+      "explanation": "Teks menyatakan menu sehat harus memiliki komposisi seimbang seperti ada potongan ayam, kacang, dan daun-daunan. Hanya memiliki sepotong ayam belum tentu memenuhi seluruh syarat kelengkapan menu sehat secara mutlak tanpa adanya kacang dan daun-daunan."
+    },
+    {
+      "text": "Berdasarkan paragraf diatas simpulan dibawah ini yang benar adalah..",
+      "options": [
+        "Jika swalayan Sari Untung memiliki cabang baru pada tahun 2023 maka swalayan Sari untung mendapat keuntungan lebih dari 270 juta pada tahun 2021 dan 2022",
+        "Jika swalayan Sari Untung tidak memiliki cabang baru pada tahun 2023 maka swalayan Sari Untung tidak mendapat keuntungan lebih dari 270 juta pada tahun 2021 dan 2022",
+        "Swalayan Sari Untung akan memiliki cabang baru pada tahun 2023",
+        "Jika total keuntungan swalayan Sari Untung pada tahun 2021 sampai 2022 diatas 540 juta maka swalayan Sari Untung akan membuat cabang baru",
+        "Swalayan Sari Untung baru akan memiliki cabang baru pada tahun 2024"
+      ],
+      "correctAnswer": "Jika swalayan Sari Untung memiliki cabang baru pada tahun 2023 maka swalayan Sari untung mendapat keuntungan lebih dari 270 juta pada tahun 2021 dan 2022",
+      "explanation": "Syarat buka cabang baru adalah jika dalam 2 tahun kedepan (2021 dan 2022) tetap mendapat keuntungan diatas 270 juta. Maka jika ada cabang baru, syarat tersebut pasti terpenuhi."
+    },
+    {
+      "text": "Berdasarkan paragraf diatas simpulan dibawah ini yang PALING MUNGKIN benar adalah...",
+      "options": [
+        "Keuntungan swalayan Sari Untung pada tahun 2021 akan tetap sebesar 270 juta",
+        "Keuntungan swalayan Sari Untung pada tahun 2021 akan berkurang menjadi 200 juta",
+        "Keuntungan swalayan Sari Untung pada tahun 2021 akan lebih besar dari 270 juta",
+        "Keuntungan swalayan Sari Untung pada tahun 2021 akan bertambah menjadi 600 juta",
+        "Keuntungan swalayan Sari Untung pada tahun 2021 akan berkurang menjadi 250 juta"
+      ],
+      "correctAnswer": "Keuntungan swalayan Sari Untung pada tahun 2021 akan lebih besar dari 270 juta",
+      "explanation": "Berdasarkan syarat pemilik berencana membuka cabang baru jika keuntungan dalam 2 tahun kedepan (2021 dan 2022) tetap mendapat keuntungan diatas 270 juta."
+    }
+  ]
+}

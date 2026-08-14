@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Zeje, Emil, Nino, Ined mengikuti balapan motor. Informasi yang di dapat oleh reporter hanya diketahui bahwa Zeje finish di depan Emil. Berapakah kemungkinan variasi posisi hasil balapan sesuai dengan informasi yang ada?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "14",
+        "15"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sat, Set, dan Sut berencana jalan-jalan pada hari Minggu. Ketiga orang tersebut pasti akan menggunakan salah satu jenis transportasi yang ada. Jenis transportasi yang tersedia adalah: bus, kereta, angkot, ojol dan mobil pribadi. Masing-masing orang memilih jenis transportasi yang berbeda. Jika Sat memilih bus maka Set memilih ojol. Ada satu orang yang memilih kereta. Jika Set memilih mobil pribadi maka pernyataan yang pasti salah adalah ....",
+      "options": [
+        "Sat memilih kereta",
+        "Sut memilih ojol",
+        "Sat memilih angkot",
+        "Sut memilih angkot",
+        "Sat memilih bus"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sabda dan Wisnu ingin mengetahui jurusan dan universitas yang didapat Seth. Seth memberitahu bahwa dia mendapat skor 560. Kemudian, secara terpisah Seth memberi tahu jurusan yang la dapat ke Sabda dan memberi tahu universitas ke Wisnu. Lalu, Sabda dan Wisnu saling bertukar informasi. Sabda: \\\"Kalau infonya hanya begini, saya tidak tahu universitas yang didapat Seth.\\\" Wisnu: \\\"Awalnya saya tidak tahu jurusan yang didapat Seth, tetapi setelah dapat info dari kamu saya sekarang tahu.\\\" Sabda: \\\"Berdasarkan info dari kamu juga, sekarang saya juga tahu universitas yang didapat Seth.\\\" Berdasarkan informasi dan data di samping, manakah jurusan dan universitas yang dipilih oleh Seth?",
+      "options": [
+        "Sastra Inggris UI",
+        "Ekonomi Undip",
+        "Sastra Inggris Undip",
+        "Hukum Unpad",
+        "Tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sepasang pengantin akan jalan-jalan ke Bali dan berencana mengunjungi enam tempat wisata, yaitu: Pantai Pandawa, Pura Tanah Lot, Garuda Wisnu Kencana (GWK), Pura Uluwatu, Obyek Wisata Tanjung Benoa, Obyek Wisata Kintamani. Adapun aturan kunjungannya, yaitu : Pantai Pandawa harus dikunjungi sebelum Garuda Wisnu Kencana dan Obyek Wisata Kintamani. Pura Uluwatu hanya boleh dikunjungi jika Garuda Wisnu Kencana sudah dikunjungi. Objek Wisata Tanjung Benoa harus dikunjungi setelah Pantai Pandawa namun sebelum Pura Tanah Lot. Jika Pura Tanah Lot dikunjungi sebelum Garuda Wisnu Kencana dan Obyek Wisata Tanjung Benoa dikunjungi setelah Obyek Wisata Kintamani, maka yang dikunjungi terakhir adalah ....",
+      "options": [
+        "Pura Tanah Lot",
+        "Garuda Wisnu Kencana (GWK)",
+        "Pura Uluwatu",
+        "Objek Wisata Tanjung Benoa",
+        "Obyek Wisata Kintamani"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sepasang pengantin akan jalan-jalan ke Bali dan berencana mengunjungi enam tempat wisata, yaitu: Pantai Pandawa, Pura Tanah Lot, Garuda Wisnu Kencana (GWK), Pura Uluwatu, Obyek Wisata Tanjung Benoa, Obyek Wisata Kintamani. Adapun aturan kunjungannya, yaitu : Pantai Pandawa harus dikunjungi sebelum Garuda Wisnu Kencana dan Obyek Wisata Kintamani. Pura Uluwatu hanya boleh dikunjungi jika Garuda Wisnu Kencana sudah dikunjungi. Objek Wisata Tanjung Benoa harus dikunjungi setelah Pantai Pandawa namun sebelum Pura Tanah Lot. Yang tidak mungkin dikunjungi setelah Pura Tanah Lot adalah ....",
+      "options": [
+        "Pantai Pandawa dan GBK",
+        "Garuda Wisnu Kencana",
+        "Pulu Uluwatu",
+        "Objek Wisata Tanjung Benoa",
+        "Obyek Wisata Kintamani"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sepasang pengantin akan jalan-jalan ke Bali dan berencana mengunjungi enam tempat wisata, yaitu: Pantai Pandawa, Pura Tanah Lot, Garuda Wisnu Kencana (GWK), Pura Uluwatu, Obyek Wisata Tanjung Benoa, Obyek Wisata Kintamani. Adapun aturan kunjungannya, yaitu : Pantai Pandawa harus dikunjungi sebelum Garuda Wisnu Kencana dan Obyek Wisata Kintamani. Pura Uluwatu hanya boleh dikunjungi jika Garuda Wisnu Kencana sudah dikunjungi. Objek Wisata Tanjung Benoa harus dikunjungi setelah Pantai Pandawa namun sebelum Pura Tanah Lot. Jika Obyek Wisata Kintamani dikunjungi setelah Pura Tanah Lot dan Pura Uluwatu dikunjungi sebelum Obyek Wisata Tanjung Benoa, maka ....",
+      "options": [
+        "Yang dikunjungi kedua adalah Pura Tanah Lot",
+        "Yang terakhir dikunjungi adalah Obyek Wisata Tanjung Benoa",
+        "Yang dikunjungi ketiga adalah Pura Uluwatu",
+        "Yang dikunjungi kedua adalah Obyek Wisata Tanjung Benoa",
+        "Yang terakhir dikunjungi adalah Pura Tanah Lot"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Komposisi susu dan teh untuk membuat Thai Tea adalah 16:4. Jika untuk membuat 10 gelas Thai tea dibutuhkan 120 ml susu, teh yang dibutuhkan untuk membuat 20 gelas Thai tea adalah ....",
+      "options": [
+        "60 ml",
+        "120 ml",
+        "180 ml",
+        "240 ml",
+        "260 ml"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalau si Kecil sudah berusia 2 tahun dan terlihat ciri-ciri sebagai berikut: sering jatuh saat berjalan, tidak mampu mendorong mainan beroda dan tidak merespons saat dipanggil, sebaiknya konsultasikan ke dokter. Simpulan berdasarkan informasi dalam teks tersebut adalah Aden berusia 2 tahun tidak mampu mendorong mainan beroda dan tidak merespons saat dipanggil oleh karena itu sebaiknya konsultasikan ke dokter. Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar",
+        "Simpulan tersebut mungkin benar",
+        "Simpulan tersebut pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Stres menyebabkan naiknya asam lambung. Hal ini karena respon stres menyebabkan ketegangan otot sekitar perut. Ketegangan otot sekitar perut membuat tekanan pada organ meningkat dan mendorong asam naik ke kerongkongan. Manakah pernyataan di bawah ini yang sesuai dengan informasi di atas?",
+      "options": [
+        "Adanya ketegangan otot maka terjadi stres",
+        "Naiknya asam lambung maka seseorang mengalami stres",
+        "Terdorongnya asam naik ke kerongkongan maka terjadilah stres",
+        "Stres meningkatkan tekanan pada organ dan mendorong asam naik ke kerongkongan",
+        "Setres meningkatkan tekanan pada organ dan mendorong asam naik ke kerongkongan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Vitamin A adalah asupan penting untuk si kecil. Jika si kecil mengalami kekurangan vitamin A akan terjadi peningkatan risiko gangguan atau kelainan pada mata, gangguan pertumbuhan dan perkembangan, serta infeksi berat seperti ISPA, pneumonia, diare hingga campak. Untuk memenuhi kelengkapan gizi harian, si kecil disarankan untuk memenuhi sumber makanan yang mengandung vitamin A seperti: ikan, ubi jalar, wortel, susu, telur, hati ayam dan bayam. Manakah pernyataan di bawah ini yang sesuai dengan informasi di atas?",
+      "options": [
+        "Anak kecil yang mengonsumsi bayam akan terhindar dari risiko gangguan pertumbuhan.",
+        "Anak kecil yang mengalami gangguan pertumbuhan dan perkembangan adalah anak yang tidak memakan ikan.",
+        "Seorang anak kecil yang tidak mengalami gangguan pertumbuhan dan perkembangan tidak kekurangan vitamin A",
+        "Seorang anak kecil yang mengonsumsi vitamin A berlebihan fungsi kesehatannya terganggu",
+        "Seorang anak kecil mengalami diare maka anak tersebut kekurangan vitamin A."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Konsumsi air yang cukup dapat membantu darah membawa nutrisi penting dan bersirkulasi di ginjal. Ketika mengalami dehidrasi, sistem sirkulasi akan menjadi terhambat. Apabila terjadi dehidrasi yang parah maka akan membuat kerusakan ginjal.\nManakah pernyataan di bawah ini yang sesuai dengan informasi di atas?",
+      "options": [
+        "Jisoo tidak konsumsi air yang cukup sehingga nutrisi penting tidak terbawa ke ginjal Jisoo",
+        "Seseorang mengalami kerusakan ginjal maka terjadi penghambatan sistem sirkulasi pada ginjal orang tersebut.",
+        "Seseorang mengalami sistem sirkulasi yang terhambat maka terjadi kerusakan ginjal pada orang tersebut.",
+        "Jisoo tidak mengalami kerusakan ginjal maka Jisoo tidak mengalami dehidrasi yang parah.",
+        "Seseorang yang konsumsi airnya terpenuhi maka seseorang tersebut tidak mengalami dehidrasi."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang memperkuat kalimat bercetak tebal pada paragraf 1 adalah...",
+      "options": [
+        "Dengan adanya aplikasi chat semua orang bisa bertukar kabar kapanpun dan dimanapun.",
+        "Pokok pembicaraan yang bersifat sensitif bahkan melukai perasaan seseorang mampu mempengaruhi kesehatan mental.",
+        "Banyaknya informasi-informasi hoaks yang beredar melalui grup chat menyebabkan rasa cemas sehingga mampu mepengaruhi kesehatan mental secara tidak langsung.",
+        "Mudahnya komunikasi menggunakan aplikasi chat membuat seseorang lebih bahagia.",
+        "Dengan adanya grup chat membuat siapa saja yang berada dalam grup yang sama dapat menyimpan nomor kontak tanpa izin pemiliknya."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang melemahkan kalimat bercetak tebal pada paragraf 2 adalah ....",
+      "options": [
+        "Seringkali orangtua melontarkan pertanyaan yang bersifat sensitif dalam grup chat keluarga.",
+        "Untuk meningkatkan harga diri dan merasakan rasa memiliki dalam lingkaran sosial, seringkali orang-orang memposting pencapaiannya di grup keluarga.",
+        "Kesibukan di dunia nyata menyebabkan seseorang lupa atau tidak sempat membalas pesan di grup chat keluarga.",
+        "Kebanyakan grup chat keluarga didominasi oleh orangtua dibandingkan dengan anak muda.",
+        "Banyak anak muda yang memilih mengabaikan pesan dari grup keluarga karena tidak mengerti pokok pembahasan yang dibicarakan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang salah berdasarkan grafik 2 adalah....",
+      "options": [
+        "Persentase pengguna aplikasi chat ketiga terendah adalah usia 45-54 tahun.",
+        "Pengguna aplikasi chat perempuan lebih banyak dibanding laki-laki.",
+        "Pengguna aplikasi chat terbanyak adalah usia 25-34 tahun.",
+        "Laki-laki pengguna aplikasi chat terbanyak adalah usia 18-24 tahun.",
+        "Jumlah pengguna aplikasi chat perempuan di setiap rentang usia tidak pernah lebih sedikit dari pengguna laki- laki, kecuali yang usianya 13-17 tahun."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan grafik 2, apabila jumlah pengguna aplikasi chat perempuan yang usia 25 – 35 taun adalah 38 juta orang, maka pengguna aplikasi chat laki – laki adalah ....",
+      "options": [
+        "2 juta orang",
+        "28 juta orang",
+        "92 juta orang",
+        "110 juta orang",
+        "200 juta orang"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "C, I, F, G, K, E, R, C, A ..., ...",
+      "options": [
+        "A, X",
+        "Z, U",
+        "Z, X",
+        "A, L",
+        "B, U"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Lima orang sahabat pergi bersama ke bioskop dan duduk di satu baris yang sama. Diketahui susunan tempat duduk mereka:\n- Budi duduk di kiri Andi dan Candra\n- Edwin di kanan Andi\n- Dita tepat di kanan Andi\n- Candra di kiri Dita\nMaka yang duduk kedua dari sebelah kiri adalah ....",
+      "options": [
+        "Andi",
+        "Budi",
+        "Candra",
+        "Dita",
+        "Edwin"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "jagung dimakan = junaka asula\nmenanam jagung = asula bulote\nubi ditanam = oletub yubeni\nmemakan ubi = ....",
+      "options": [
+        "yubeni najuka",
+        "junaka yubeni",
+        "yubeni akujan",
+        "oletub najuka",
+        "oletub junaka"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "3, 7, 7, 11, 22, 26, 78, 82, ....",
+      "options": [
+        "86",
+        "90",
+        "114",
+        "164",
+        "328"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang pasti salah berdasarkan paragraf 2 adalah ...",
+      "options": [
+        "Matahari telah padam selama sembilan menit tapi tidak benar bahwa bulan tiba-tiba menghilang karena tidak menghasilkan cahaya.",
+        "Bulan tiba-tiba menghilang karena tidak menghasilkan cahaya tapi tidak benar bahwa matahari telah padam selama sembilan menit.",
+        "Matahari belum padam selama sembilan menit maka bulan tiba-tiba menghilang karena tidak menghasilkan cahaya.",
+        "Matahari belum padam selama sembilan menit apabila bulan tiba-tiba menghilang karena tidak menghasilkan cahaya.",
+        "Tidak benar bahwa bulan tiba-tiba menghilang karena tidak menghasilkan cahaya sehingga tidak benar bahwa matahari telah padam selama sembilan menit."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

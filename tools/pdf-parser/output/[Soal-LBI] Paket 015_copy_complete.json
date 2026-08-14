@@ -1,0 +1,40 @@
+{
+  "questions": [
+    {
+      "text": "Mengapa orang utan disebut sebagai makhluk yang cerdas...",
+      "options": [
+        "Mudah mempelajari hal baru",
+        "Cepat hidup mandiri dan telepas dari orang tua",
+        "Orang utan tidak sulit dilatih",
+        "Ketika berada di lingkungan berbeda ia dapat beradaptasi",
+        "Bisa membedakan mana yang ancaman dan yang mana yang bukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sampai kapan anak orang utan tinggal bersama induknya...",
+      "options": [
+        "Setelah menyusui",
+        "ketika menemukan pasangannya",
+        "Setelah enam bulan",
+        "Ketika menemukan kehidupan baru",
+        "Lebih dari tiga tahun"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Salah satu hal di bawah ini yang diajarkan oleh induk orang utan adalah...",
+      "options": [
+        "Mengajarkan cara membuat rumah",
+        "Memperkenalkan dengan rekan yang lain",
+        "Mengajarkan cara membela diri apabila ada ancaman",
+        "Memperkenalkan lingkungan tepat tinggal",
+        "Memperkenalkan beberapa makanan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

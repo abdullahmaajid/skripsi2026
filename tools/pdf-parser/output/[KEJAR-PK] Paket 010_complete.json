@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Dua buah garis $p$ dan $q$ sejajar, garis p melewati titik $(a, 2)$ dan $(1, b)$. Sedangkan garis $q$ melewati titik $(0, 3)$ dan $(1, 6)$, berapakah nilai $\\frac{5-b}{a} = \\dots$",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar! Jika $P'$ merupakan komplemen dari himpunan $P$, maka daerah arsiran dapat direpresentasikan dengan?",
+      "options": [
+        "$A - B - C$",
+        "$A' \\cap B \\cap C'$",
+        "$A + C - B$",
+        "$A \\cup B \\cup C$",
+        "$A \\cup B \\cup C'$"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapakah hasil kali $\\frac{2020^2 - 2022^2}{2020 + 2021}$ oleh $\\frac{2021^2 - 2022^2}{2021 + 2022}$ adalah \\dots",
+      "options": [
+        "2021",
+        "2022",
+        "0",
+        "1",
+        "-1"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Untuk membuat barang tipe A, diperlukan 4 jam kerja mesin bubut dan 2 jam kerja mesin mill. Sedangkan untuk barang tipe B, diperlukan 5 jam kerja mesin bubut dan 3 jam kerja mesin mill. Setiap hari, kedua mesin tersebut bekerja tidak lebih dari 15 jam. Jika setiap hari dapat dihasilkan $x$ barang tipe A dan $y$ barang tipe B, maka model matematika yang tepat adalah \\dots",
+      "options": [
+        "$4x + 2y \\le 15$ dan $5x + 3y \\le 15$, $x \\ge 0$, $y \\ge 0$",
+        "$4x + 5y \\le 15$ dan $2x + 3y \\le 15$, $x \\ge 0$, $y \\ge 0$",
+        "$3x + 2y \\le 15$ dan $5x + 3y \\le 15$, $x \\ge 0$, $y \\ge 0$",
+        "$4x + 2y \\le 15$ dan $3x + 3y \\le 15$, $x \\ge 0$, $y \\ge 0$",
+        "$3x + 2y \\le 15$ dan $5x + 2y \\le 15$, $x \\ge 0$, $y \\ge 0$"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Operasi $\\#$ pada himpunan bilangan bulat didefinisikan dengan aturan $a \\# b = (a + b)a + m$. Jika nilai $-5 \\# 6 = 10$ berapa nilai $m = \\dots$",
+      "options": [
+        "9",
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar di bawah ini! Berapakah kuantitas $x^\\circ = \\dots$",
+      "options": [
+        "$15^\\circ$",
+        "$30^\\circ$",
+        "$32^\\circ$",
+        "$34^\\circ$",
+        "$36^\\circ$"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika diketahui Panjang $AD = 4$ cm, $BC = 2$ cm, dan $CD = 10$ cm, berapa luas bangun segitiga AEB \\dots",
+      "options": [
+        "\\sqrt{6}",
+        "2\\sqrt{6}",
+        "3\\sqrt{6}",
+        "4\\sqrt{6}",
+        "5\\sqrt{6}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika 4 botol jus apel dicampur dengan 5 botol jus tomat dan 3 botol jus anggur, maka ada berapa bagian jus apel pada campuran tersebut?",
+      "options": [
+        "1/6",
+        "\\frac{1}{4}",
+        "1/3",
+        "4/9",
+        "2/3"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $j$ dan $k$ adalah bilangan bulat positif $j.k$ adalah bilangan genap. Manakah dari pilihan berikut juga genap?",
+      "options": [
+        "k",
+        "j - k",
+        "j + 2k",
+        "jk + j",
+        "jk - 2j"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Seorang Ibu berencana memiliki tiga anak. Peluang seorang ibu memiliki tepat dua anak laki – laki dan perempuan adalah \\dots",
+      "options": [
+        "4/8",
+        "1/8",
+        "2/8",
+        "3/8",
+        "5/8"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Grafik di atas menyajikan data penjualan mobil M dan H di dealer mobil P, Q, R, dan S pada tahun 2018. Manakah di antara pernyataan berikut yang benar? 1) Jumlah penjualan mobil H di dealer Q, R, dan S lebih besar daripada mobil M 2) Jumlah penjualan kedua mobil di dealer R lebih besar daripada di dealer S 3) Rasio antara jumlah semua penjualan mobil M dan H dengan dealer Q lebih besar dengan dealer P 4) Rata – rata jumlah penjualan mobil H di semua dealer lebih besar daripada mobil M",
+      "options": [
+        "1, 2, dan 3 benar",
+        "1 dan 3 benar",
+        "2 dan 4 benar",
+        "Hanya 4 saja yang bener",
+        "Semua pernyataan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah garis $y$ melalui titik $(3, 1)$ dan mempunyai gradient $\\frac{1}{3}$. Manakah di antara titik dengan koordinat berikut yang terletak pada garis itu? 1) (-3, 0) 2) (0, 0) 3) (-6, 4) 4) (6, 2)",
+      "options": [
+        "1, 2, dan 3 benar",
+        "1 dan 3 benar",
+        "2 dan 4 benar",
+        "Pernyataan 4 saja yang benar",
+        "Semua pernyataan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah di antara pernyataan berikut yang benar untuk semua bilangan asli $n$? 1) $2n^2 + 2n - 1 \\to$ ganjil 2) $(n-1)^2 + n \\to$ genap 3) $4n^2 - 2n \\to$ genap 4) $(2n-1)^2 \\to$ genap",
+      "options": [
+        "1, 2, dan 3 benar",
+        "1 dan 3 benar",
+        "2 dan 4 benar",
+        "4 saja yang benar",
+        "Semua pernyataan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada garis bilangan, posisi pecahan $\\frac{a}{4}$ di sebelah kiri pecahan $\\frac{5}{b}$ dengan $a$ dan $b$ positif. Tentukan hubungan antara kuantitas P dan Q. P: 21, Q: ab",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "Informasi yang diberikan tidak cukup."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Untuk membuat satu cangkir kopi, diperlukan kopi 3 sendok dan krimmer 2 sendok. Telah digunakan kopi 5 sendok dan krimmer $a$ sendok untuk membuat beberapa cangkir kopi. Tentukan hubungan antara kuantitas P dan Q. P: 3a, Q: 10",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "Informasi yang diberikan tidak cukup."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

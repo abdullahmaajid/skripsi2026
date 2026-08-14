@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "What is the main idea of the paragraph 1?",
+      "options": [
+        "Many coral islands that define Australia’s maritime boundaries are at risk of disappearing due to climate change",
+        "Australia’s maritime boundaries are stable despite environmental changes",
+        "Rising sea levels and marine heatwaves have little impact on Australia’s coral islands",
+        "Only a few islands in Australia face the threat of climate change",
+        "The disappearance of coral islands will have no significant consequences for Australia"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "What is the main idea of the paragraph 2?",
+      "options": [
+        "The decline of Australia’s coral islands threatens the communities, ecosystems, and industries that rely on them",
+        "Coral islands have no significant role in supporting marine biodiversity or economic activities",
+        "The Australian government has successfully prevented damage to its coral islands",
+        "Fishing, transport, and mineral exploration are not affected by the loss of coral islands",
+        "Coral islands are formed by volcanic activity rather than coral debris"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "What is the main idea of the passage?",
+      "options": [
+        "Climate change is putting Australia’s coral islands at risk, affecting its environment and maritime borders",
+        "Some coral islands are naturally disappearing, while others remain unaffected",
+        "The Great Barrier Reef and other coral islands are undergoing regular ecological changes",
+        "Scientists are studying coral islands to understand their long-term development and sustainability",
+        "Changes in ocean temperatures have influenced marine ecosystems in various ways"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "What is the main idea of the passage?",
+      "options": [
+        "Urban gardening provides more benefits than just growing food",
+        "The best way to reduce food costs is through rooftop gardens",
+        "Gardening in cities is challenging due to pollution and space limitations",
+        "Green spaces in urban areas are mainly for aesthetic purposes",
+        "Urban gardening is a growing trend that contributes to sustainability"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "What is the stated main idea of the passage?",
+      "options": [
+        "Natural resources contribute to economic growth",
+        "Institutional capital helps overcome geographic limitations",
+        "Institutional quality is a major determinant of economic development",
+        "Legal systems are necessary for attracting investment",
+        "Research compares different factors affecting national prosperity"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "What is the main idea of the passage?",
+      "options": [
+        "AI is growing in importance, but its risks are worth it",
+        "AI will eventually dominate all industries and eliminate the need for human labor",
+        "AI has both advantages and challenges as it becomes more integrated into daily life",
+        "The ethical concerns of AI outweigh its technological benefits",
+        "AI's ability to process data makes it superior to human decision-making"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "What is the main idea of the passage?",
+      "options": [
+        "Sleep is essential for both physical and mental well-being",
+        "People should sleep at the same time every night to maintain good health",
+        "The negative effects of sleep deprivation outweigh its benefits",
+        "A lack of sleep is the main reason people develop health issues",
+        "Establishing sleep habits is more important than any other health practice"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "What is the main idea of the passage?",
+      "options": [
+        "The fashion industry contributes to ethical and environmental problems",
+        "The fashion industry’s biggest problem is finding enough workers for mass production",
+        "Water consumption is the only major environmental issue caused by fast fashion",
+        "Consumers are responsible for fixing the problems caused by fast fashion",
+        "Fast fashion impacts the environment and labor conditions through high production and waste"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "What is the main idea of the passage?",
+      "options": [
+        "Plastic pollution is a major threat to marine",
+        "Sea animals are the only ones affected by plastic pollution",
+        "People should completely stop using plastic products",
+        "Microplastics are the biggest environmental issue of our time",
+        "The ocean is naturally able to break down plastic waste"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "What is the main idea of paragraph 1?",
+      "options": [
+        "The primary concern of climate change is its impact on seasonal temperature changes, which affect daily weather patterns",
+        "Scientists agree that climate change is a slow process with minimal immediate effects on ecosystems and human populations.",
+        "Efforts to reduce greenhouse gas emissions have already stabilized extreme weather patterns, minimizing further environmental risks",
+        "Climate change primarily affects coastal regions, while inland areas remain largely unaffected",
+        "The frequency and severity of extreme weather is increased by climate change"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "What is the main idea of the paragraph 2?",
+      "options": [
+        "Climate change disrupts economies through rising costs and threatens social stability by forcing migration",
+        "The rising costs associated with climate change are outweighed by the economic opportunities created in sectors like renewable energy, infrastructure repair, and climate adaptation industries",
+        "The primary consequence of climate change is an increase in government revenue from disaster recovery efforts",
+        "Climate change only affects the environment, with little impact on economies or societies",
+        "Social and economic challenges caused by climate change are temporary and will resolve without intervention"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "What is the main idea of the passage?",
+      "options": [
+        "Climate change affects the environment, economy, and society in multiple ways",
+        "Ecosystems and biodiversity are at risk due to climate change",
+        "Governments and corporations play a key role in addressing climate change",
+        "Rising temperatures contribute to unpredictable weather and natural disasters",
+        "The economic impact of climate change is significant for many countries"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "What is the main idea of the passage?",
+      "options": [
+        "The internet guarantees access to only reliable and accurate information",
+        "People should avoid using online sources because most of them contain misinformation",
+        "Digital media has made critical thinking skills less important in modern society",
+        "Evaluating online information requires careful judgment",
+        "Public opinion is shaped solely by online information, leaving no room for independent thought"
+      ],
+      "correctAnswer": "Evaluating online information requires careful judgment",
+      "explanation": null
+    },
+    {
+      "text": "What is the main idea of the passage?",
+      "options": [
+        "The increasing use of digital devices is affecting people's attention and focus",
+        "The internet is making people less intelligent over time",
+        "Fast-paced digital content is the only reason for shorter attention spans",
+        "People should stop using digital devices to improve their attention spans",
+        "Notifications are the biggest reason why people can't focus"
+      ],
+      "correctAnswer": "The increasing use of digital devices is affecting people's attention and focus",
+      "explanation": null
+    },
+    {
+      "text": "What is the main idea of the passage?",
+      "options": [
+        "Sugar is widely consumed and found in many processed foods",
+        "Consuming too much sugar can lead to serious health problems",
+        "Many processed foods contain hidden sugars that people may not notice",
+        "Reducing sugar intake can be difficult due to its presence in everyday foods",
+        "Sugar is an essential ingredient in many foods and beverages"
+      ],
+      "correctAnswer": "Consuming too much sugar can lead to serious health problems",
+      "explanation": null
+    }
+  ]
+}

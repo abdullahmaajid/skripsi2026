@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Dua buah garis p dan q sejajar, garis p melewati titik (a, 5) dan (2, b), sedangkan garis q melewati (3,6) dan (4,9), berapakah nilai \\frac{11-b}{a} = \\dots",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar! Daerah yang diarsir dapat direpresentasikan dengan \\dots",
+      "options": [
+        "A^{c}",
+        "B^{c}",
+        "(B - A)",
+        "(A - B)",
+        "Tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Di bawah ini nilai yang sama dengan 12\\sqrt{28x}, kecuali \\dots",
+      "options": [
+        "2\\sqrt{1008x}",
+        "6\\sqrt{112x}",
+        "8\\sqrt{63x}",
+        "10\\sqrt{40,32x}",
+        "14\\sqrt{21x}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Daerah penyelesaian yang memenuhi pertidaksamaan y - 2x \\le 3, y + x \\le 2, dan y \\ge 0 berada pada kuadran\\dots",
+      "options": [
+        "I dan II",
+        "I dan III",
+        "II dan III",
+        "II dan IV",
+        "I dan IV"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "16 - 4 \\div \\frac{1}{4} + 1 = \\dots",
+      "options": [
+        "16",
+        "0",
+        "1",
+        "4",
+        "8"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar! Berapakah besar sudut r \\dots",
+      "options": [
+        "45^{\\circ}",
+        "40^{\\circ}",
+        "38^{\\circ}",
+        "36^{\\circ}",
+        "32^{\\circ}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar! Diberikan segienam beraturan, berapakah besar perbandingan luas trapesium ABCG dengan segienam ABCDEF \\dots",
+      "options": [
+        "\\frac{1}{12}",
+        "\\frac{1}{24}",
+        "\\frac{1}{8}",
+        "\\frac{5}{12}",
+        "\\frac{1}{4}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Umur ayah merupakan kebalikan digit umur anak, jumlah umur mereka 55 tahun, berapakah umur ayah?",
+      "options": [
+        "38",
+        "41",
+        "51",
+        "35",
+        "40"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "2 lusin + 1 gross + 2 kodi = \\dots buah",
+      "options": [
+        "180",
+        "188",
+        "200",
+        "208",
+        "216"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Waktu lari seorang atlet tercatat 9,8; 10,1; 10,5; 9,9; 9,7 berapakah rata – ratanya \\dots",
+      "options": [
+        "9,9",
+        "10,0",
+        "10,1",
+        "9,8",
+        "10,2"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika x + y, 2x + y, dan 2x + 6y adalah sudut dari segitiga sembarang. Jika sudut terbesarnya adalah 100. Maka pernyataan manakah yang benar? 1) Sudut terkecil segitiga tersebut adalah 30^{\\circ} 2) x > y 3) Sudut 2x + y lebih kecil dari sudut siku-siku 4) 3y > x",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Umur Aji adalah 3 tahun lebih tua dari Ani, umur Ani lebih tua 2 tahun dari Ari, dan umur Ari lebih muda dari Ami 1 tahun. Jika Umur Ani adalah 21 tahun, manakah pernyataan yang benar di bawah ini? 1) Selisih umur Aji dan Ami adalah 4 tahun 2) Ami seumuran dengan Ani 3) Ari adalah yang termuda 4) Umur Aji ditambah umur Ari lebih tua dibanding umur Ani ditambah umur Ami",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Terdapat sebuah persegi di dalam lingkaran. Jika panjang sisi persegi adalah 10 cm dan diamter lingkaran adalah 14 cm. Manakah pernyataan yang benar 1) Luas persegi < lingkaran 2) Luas persegi adalah 40 cm^2 3) Luas lingkaran adalah 154 cm^2 4) Keliling lingkaran < keliling persegi",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui f(x) = 2x^2 + 3. Manakah pernyataan yang benar antara hubungan P dan Q dengan P = f'(4) dan Q = f'(-6)",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Nilai mata kuliah Anji pada semester I yang lalu adalah Geologi = 77, Meteorolgi = 80, Bahasa Indonesia = 71, Statistika = 80, Bahasa Inggris = 80, Agama = 80, Hidrologi = 90. Dari data tersebut, Manakah hubungan yang benara antara kuantitas P (Nilai Median) dan Q (Nilai Rerata)?",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": [
+        "Jika kita tidak meminum jahe merah saat tubuh pasti tidak nyaman saat menjalankan ibadah apapun",
+        "Jahe merah memang dapat memperlancar pencernaan dan membuat tubuh lebih tidak nyaman karena Jahe membantu merangsang Enzim",
+        "Risiko pencernaan tidak dapat dicegah meskipun sudah meminum Jahe",
+        "Masuk angin pasti terjadi pada orang yang sedang berpuasa",
+        "Sistem pencernaan seseorang akan lebih lancar ketika mengonsumsi Jahe Merah dikarenakan ia membantu merangsang enzim pencernaan"
+      ],
+      "correctAnswer": "Sistem pencernaan seseorang akan lebih lancar ketika mengonsumsi Jahe Merah dikarenakan ia membantu merangsang enzim pencernaan",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": [
+        "Kurma merupakan buah yang sulit sekali untuk disimpan, namun sebaiknya simpan Kurma pada suhu ruangan di atas 35 derajat",
+        "Kurma merupakan buah yang sehat dan wajib ada di setiap buka puasa",
+        "Risiko pembusukan buah Kurma dapat mudah diatasi dan tidak membutuhkan kondisi tertentu",
+        "Jauhkan Kurma dari tempat lembab dan udara panas sehingga Kurma dapat lebih bertahan lama saat ingin dikonsumsi",
+        "Jika kurma diletakkan pada ruangan gelap, maka Kurma akan lebih dapat bertahan lama dibanding buah lain"
+      ],
+      "correctAnswer": "Jauhkan Kurma dari tempat lembab dan udara panas sehingga Kurma dapat lebih bertahan lama saat ingin dikonsumsi",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI SALAH?",
+      "options": [
+        "Obat tradisional memiliki beberapa kelebihan seperti efek samping rendah dan tidak memiliki efek farmakologi",
+        "Terkait sifat jamu, tiap tanaman herbal memiliki efek positif dan juga negatif.",
+        "Jamu memiliki beberapa manfaat seperti pengobatan pembersih darah, penyakit kelamin, ginjal, luka kurap.",
+        "Obat tradisional memiliki beberapa kelebihan seperti efek samping rendah dan lebih sesuai dengan penyakit degeneratif.",
+        "Terkadang, tanaman herbal perlu dinetralisir menggunakan formulasi khusus tanpa menghilangkan khasiat utamanya."
+      ],
+      "correctAnswer": "Obat tradisional memiliki beberapa kelebihan seperti efek samping rendah dan tidak memiliki efek farmakologi",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks, Apabila Andi tidak sengaja menginjak lumpur yang membuat sepatunya tidak mungkin bisa dipakai lagi, manakah kesimpulan yang dapat dinyatakan valid?",
+      "options": [
+        "Andi tidak dapat berangkat ke kampus karena ia malas",
+        "Andi akan berangkat hanya jika Andi dibelikan sepatu baru",
+        "Andi tidak akan berangkat karena sepatu Naiki-nya tidak dapat dipakai",
+        "Andi akan tetap berangkat meskipun tidak memakai sepatu Naiki",
+        "Tidak ada kesimpulan yang valid"
+      ],
+      "correctAnswer": "Andi tidak akan berangkat karena sepatu Naiki-nya tidak dapat dipakai",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks tersebut, apabila saat ini wilayah Qatar dan sekitarnya sedang musim kemarau. Manakah simpulan yang benar?",
+      "options": [
+        "Sebagian besar wilayah di Qatar akan kemarau",
+        "Tidak ada wilayah di Qatar yang akan terbakar",
+        "Penduduk terpaksa akan mengungsi ke tempat yang sejuk",
+        "Sebagian penduduk tidak akan mengungsi karena merasa kebal senjata",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Penduduk terpaksa akan mengungsi ke tempat yang sejuk",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan-pernyataan berikut yang MEMPERLEMAH pendapat ahli psikologi tersebut?",
+      "options": [
+        "Pekerja Gen Z memiliki sedikit ide menarik dan inisiasi untuk tempat kerjanya",
+        "Pekerja Gen Z memiliki etos kerja dan keuletan yang tinggi",
+        "Sedikit perusahaan yang mengeluhkan kinerja dan kontribusi pekerja Gen Z",
+        "Banyak perusahaan merasa kecewa terhadap hasil pekerjaan Gen Z",
+        "Kebanyakan pekerja Gen Z suka berpindah tempat"
+      ],
+      "correctAnswer": "Pekerja Gen Z memiliki etos kerja dan keuletan yang tinggi",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan di bawah ini yang dapat MEMPERKUAT pendapat Ahli mesin?",
+      "options": [
+        "Kabel Air telah terbang selama 12 hari dan dalam prosesnya tidak melewati uji mesin",
+        "Pesawat Citilang baru diizinkan terbang oleh negara Ambarawa hanya jika telah melewati uji mesin",
+        "Seorang teknisi mesin dari negara Jimbabwe menyatakan bahwa uji mesin bukanlah hal yang urgent",
+        "Uji mesin memang diperlukan namun uji terakhir sebelum pesawat dinyatakan dapat terbang adalah uji bahan bakar",
+        "Seorang pakar dari Kongo berpendapat bahwa lebih diperlukan uji emisi karbon ketimbang uji mesin"
+      ],
+      "correctAnswer": "Pesawat Citilang baru diizinkan terbang oleh negara Ambarawa hanya jika telah melewati uji mesin",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan di bawah yang memperkuat pendapat ahli di atas?",
+      "options": [
+        "Pada malam hari Reza mengonsumsi kopi gula aren kemudian ia sulit tidur sehingga akhirnya bergadang hingga pagi",
+        "Amba membeli kopi di Warkop Sarimanjur, kemudian tidak dapat tidur hingga pagi",
+        "Kopi Bali Kintamani selalu menjadi andalan para satpam BCA utnuk tetap melek hingga matahari terbit",
+        "Survei membuktikan bahwa kopi Beruang merupakan kopi terlaris yang dibeli petugas ronda",
+        "Mayoritas pekerja shift malam di dunia tidak percaya terhadap manfaat kopi"
+      ],
+      "correctAnswer": "Kopi Bali Kintamani selalu menjadi andalan para satpam BCA utnuk tetap melek hingga matahari terbit",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf di atas, manakah informasi yang MUNGKIN BENAR?",
+      "options": [
+        "Azriel telah lama mengidap penyakit TBC, namun ia tidak berobat dikarenakan ia tidak percaya bahwa penyakit dapat disembuhkan",
+        "Rusdi percaya bahwa jika ia memakan duri ikan maka akan mudah terkena senjata tajam",
+        "Romi sakit demam hingga tubuhnya panas sehingga ia harus segera dikompres dengan es batu dan daun sirih",
+        "Mas Ambi merupakan pemakan segala, karena ia tidak percaya terhadap korelasi makanan dengan kesehatan dan keselamatan",
+        "Jika kita makan makanan tidak berduri, maka pasti akan terhindar dari bahaya senjata tajam"
+      ],
+      "correctAnswer": "Rusdi percaya bahwa jika ia memakan duri ikan maka akan mudah terkena senjata tajam",
+      "explanation": null
+    },
+    {
+      "text": "Manakah simpulan yang benar dari kedua premis di atas?",
+      "options": [
+        "Robert akan tetap menjadi raja",
+        "Robert tidak akan menjadi raja",
+        "Robert mungkin menjadi raja",
+        "Robert tidak menjadi raja karena tidak terpilih",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Robert tidak akan menjadi raja",
+      "explanation": null
+    },
+    {
+      "text": "Apabila sparepart tidak mudah dicari atau harga turun, maka manakah simpulan yang tepat dari premis di atas?",
+      "options": [
+        "Harga motor murah dan permintaan meningkat",
+        "Harga motor tidak murah dan permintaan meningkat",
+        "Harga motor murah atau permintaan tidak meningkat",
+        "Harga motor tidak murah atau permintaan tidak meningkat",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Harga motor tidak murah atau permintaan tidak meningkat",
+      "explanation": null
+    },
+    {
+      "text": "Manakah simpulan yang benar?",
+      "options": [
+        "Jika mahasiswa menjadwalkan waktunya maka akan meraih nilai ujian tinggi",
+        "Jika mahasiswa tidak menjadwalkan waktunya maka akan meraih nilai tinggi",
+        "Mahasiswa akan meraih nilai tinggi apabila tidak menjadwalkan waktunya",
+        "Mahasiswa menjadwalkan waktunya dan tidak meraih nilai tinggi",
+        "Mahasiswa meraih nilai tinggi meski tidak menjadwalkan waktu"
+      ],
+      "correctAnswer": "Jika mahasiswa menjadwalkan waktunya maka akan meraih nilai ujian tinggi",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks, apabila warga tidak diungsikan ke Jakarta Barat, maka manakah kesimpulan yang tepat?",
+      "options": [
+        "Musim Penghujan sudah terjadi",
+        "Tidak terjadi musim hujan",
+        "Musim hujan terjadi namun warga diungsikan ke daerah lain",
+        "Hal tersebut hanya prediksi, namun berkemungkinan terjadi",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Musim hujan terjadi namun warga diungsikan ke daerah lain",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan premis di atas, manakah simpulan berikut yang tepat?",
+      "options": [
+        "Andriana tidak diizinkan oleh ayahnya",
+        "Andriana tidak dapat membeli roti",
+        "Andriana tetap bekerja",
+        "Andriana dapat membeli roti",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Andriana tidak diizinkan oleh ayahnya",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan berikut yang paling tepat mengenai survei yaitu?",
+      "options": [
+        "Memperkuat pernyataan A",
+        "Memperlemah pernyataan A",
+        "Memperkuat pernyataan B",
+        "Memperlemah pernyataan B",
+        "Tidak relevan dengan pernyataan A dan B"
+      ],
+      "correctAnswer": "Memperkuat pernyataan A",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan berikut yang paling tepat mengenai survei yaitu?",
+      "options": [
+        "Memperkuat pernyataan A",
+        "Memperlemah pernyataan A",
+        "Memperkuat pernyataan B",
+        "Memperlemah pernyataan B",
+        "Tidak relevan dengan pernyataan A dan B"
+      ],
+      "correctAnswer": "Memperkuat pernyataan A",
+      "explanation": null
+    },
+    {
+      "text": "A menyatakan, \"Rasa kantuk dapat timbul karena tidak mengonsumsi kopi.\" B menyatakan, \"Rasa kantuk merupakan bawaan lahir sehingga sifatnya diturunkan.\" Survei menunjukkan bahwa kopi dinyatakan enak jika diroasting dengan tingkat panas 78 derajat celcius. Pernyataan berikut yang paling tepat mengenai survei yaitu?",
+      "options": [
+        "Memperkuat pernyataan A",
+        "Memperlemah pernyataan A",
+        "Memperkuat pernyataan B",
+        "Memperlemah pernyataan B",
+        "Tidak relevan dengan pernyataan A dan B"
+      ],
+      "correctAnswer": "Tidak relevan dengan pernyataan A dan B",
+      "explanation": null
+    },
+    {
+      "text": "Pada tanggal 22 Maret akan diadakan konser Pestapora di Senayan City. Pengunjung diperbolehkan masuk area depan apabila memenuhi syarat seperti berusia di atas 14 tahun, memiliki tiket dan membawa tanda pengenal. Azril telah membeli tiket dan membawa Kartu Keluarganya, namun ia baru berusia 11 tahun. Kesimpulan dari premis di atas adalah Azril tidak diperbolehkan masuk ke area depan. Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar",
+        "Simpulan tersebut mungkin benar",
+        "Simpulan tersebut pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan tersebut pasti benar",
+      "explanation": null
+    },
+    {
+      "text": "Setiap warga Cengkareng pasti memiliki KTP. Andre tidak memiliki KTP. Kesimpulan yang dapat diambil dari premis di atas adalah?",
+      "options": [
+        "Andre pernah tinggal di Cengkareng",
+        "Andre dapat diidentifikasi sebagai warga Cengkareng karena ayah ibunya berasal dari sana",
+        "Andre tidak termasuk dalam bagian warga Cengkareng",
+        "Meskipun tidak memiliki KTP namun Andre tetap menjadi warga Cengkareng",
+        "Tidak bisa disimpulkan"
+      ],
+      "correctAnswer": "Andre tidak termasuk dalam bagian warga Cengkareng",
+      "explanation": null
+    },
+    {
+      "text": "Banyak orang skeptis terhadap macam-macam zodiak dan menganggapnya sebagai hal yang tidak berpengaruh dalam menjalani kehidupan mereka. Mereka berpikir bahwa karakteristik zodiak hanyalah penggolongan umum yang tidak dapat dijadikan patokan pasti dalam menilai seseorang. Namun, apapun pandangan individu terhadap zodiak, tren ini tetap menjadi bagian dari budaya populer. (1) Zodiak masih dianggap sebagai panduan untuk mencari jodoh oleh kebanyakan orang. (2) Hasil survei menyatakan bahwa 96 dari 100 orang sudah tidak mempercayai zodiak. (3) Tren mengenai penggunaan zodiak dalam menentukan jalan hidup semakin berkembang dari masa ke masa dan telah merambah berbagai kalangan di dunia. (4) Zodiak Leo dipakai banyak orang untuk melabeli entitas yang mewakili sifat berani, tangguh, dan bermental baja. (5) Seiring majunya teknologi, kebanyakan orang khawatir pekerjaannya tergantikan oleh AI. Manakah pernyataan di bawah ini yang MEMPERLEMAH pernyataan di atas?",
+      "options": [
+        "1, 3, dan 5",
+        "1, 3, dan 4",
+        "2, 3, dan 4",
+        "2, 3, dan 5",
+        "3, 4, dan 5"
+      ],
+      "correctAnswer": "1, 3, dan 4",
+      "explanation": null
+    },
+    {
+      "text": "Kopi merupakan salah satu minuman populer yang kerap dikonsumsi di pagi hari. Kopi hitam seringkali dianggap sebagai minuman yang cocok untuk meningkatkan energi sebelum beraktivitas. Pakar kesehatan Dr Leana Wen menuturkan bahwa kopi hitam memang memiliki manfaat yang baik untuk kesehatan. Sudah ada banyak penelitian yang menemukan kaitan mengonsumsi kopi dengan menurunnya berbagai risiko penyakit, termasuk penyakit jantung, diabetes, kanker, hingga demensia. (1) Kopi hitam hanya dapat menyembuhkan penyakit jantung. (2) Mengonsumsi kopi menyebabkan peningkatan resiko penyakit. (3) Mr. Number adalah seorang pengidap penyakit demensia. Ia kemudian dilarang mengonsumsi kopi dikarenakan dapat berakibat bahaya untuk penyakitnya. (4) Acin seringkali mengonsumsi kopi di pagi hari, selain meningkatkan energi untuk beraktivitas kopi juga membuat Acin perlahan pulih dari penyakit diabetesnya. (5) Dr. Alex, seorang ahli kanker berpendapat bahwa konsumsi kopi dapat membantu memulihkan penyakit kanker. Manakah pernyataan di bawah ini yang MEMPERLEMAH pernyataan di atas?",
+      "options": [
+        "1, 3, dan 5",
+        "1, 2, dan 3",
+        "2, 3, dan 4",
+        "2, 3, dan 5",
+        "3, 4, dan 5"
+      ],
+      "correctAnswer": "1, 2, dan 3",
+      "explanation": null
+    },
+    {
+      "text": "Beras shirataki kini cukup populer dan banyak dikonsumsi, terutama oleh para pelaku diet. Beras shirataki dinilai lebih rendah kalori dan mengandung serat yang lebih tinggi daripada beras biasa sehingga dianggap bisa membantu menurunkan berat badan. Beras shirataki merupakan jenis beras yang terbuat dari umbi tanaman konjac (Amorphophallus konjac). Konjac sendiri merupakan tanaman yang banyak tumbuh di berbagai negara di Asia, seperti Jepang dan China. Selain menjadi beras, akar tanaman konjac juga sering diolah menjadi mie atau makanan ringan. (1) Tren mengenai penggunaan beras Shirataki semakin populer sejalan dengan kesadaran masyarakat modern untuk menerapkan gaya hidup sehat. (2) Beras Shirataki merupakan jenis beras campuran dan merupakan produk GMO (Genetically Modified Organism). (3) Produksi beras Shirataki berpusat di China dan Jepang karena ubinya banyak tumbuh di sana. (4) Selain untuk beras, tidak ada lagi manfaat umbi konjac. (5) Beras Shirataki banyak digunakan untuk diet karena mengandung lebih rendah kalori dibanding beras biasa. Manakah pernyataan di bawah ini yang MEMPERLEMAH pernyataan di atas?",
+      "options": [
+        "3 dan 5",
+        "2 dan 4",
+        "2, 3, dan 4",
+        "2, 3, dan 5",
+        "4 dan 5"
+      ],
+      "correctAnswer": "2 dan 4",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan diagram di bawah ini! Data di bawah adalah persentase keuntungan Perusahaan Maju Mundur dalam 5 tahun terakhir (dalam Milyar). Berdasarkan data di atas, tahun keberapa Toko A memperoleh persentase keuntungan terbesar?",
+      "options": [
+        "Tahun ke-1",
+        "Tahun ke-2",
+        "Tahun ke-3",
+        "Tahun ke-4",
+        "Tahun ke-5"
+      ],
+      "correctAnswer": "Tahun ke-1",
+      "explanation": null
+    },
+    {
+      "text": "Nilai akhir siswa berprestasi di suatu sekolah ditentukan dengan menjumlahkan nilai capaian akademik dan nilai keaktifan dalam kegiatan. Bobot nilai capaian akademik 80%, sedangkan bobot nilai keaktifan kegiatan non-akademik 20%. Berikut adalah nilai lima siswa terbaik di sekolah: Siswa A (Nilai akademik: 90, Nilai non-akademik: 80), Siswa B (Nilai akademik: 70, Nilai non-akademik: 80), Siswa C (Nilai akademik: 80, Nilai non-akademik: 60), Siswa D (Nilai akademik: 70, Nilai non-akademik: 70), Siswa E (Nilai akademik: 90, Nilai non-akademik: 60). Diantara kelima siswa tersebut, siswa mana yang paling berprestasi?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Nilai akhir siswa berprestasi di suatu sekolah ditentukan dengan menjumlahkan nilai capaian akademik dan nilai keaktifan dalam kegiatan. Bobot nilai capaian akademik $80\\%$, sedangkan bobot nilai keaktifan kegiatan non-akademik $20\\%$. Berikut adalah nilai lima siswa terbaik di sekolah.\n\n| Siswa | Nilai akademik | Nilai non-akademik |\n|---|---|---|\n| A | 80 | 70 |\n| B | 80 | 90 |\n| C | 60 | 70 |\n| D | 70 | 70 |\n| E | 80 | 60 |\n\nDiantara ke lima siswa tersebut, siswa mana yang paling tidak berprestasi?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Nilai akhir siswa A = 0.8(80) + 0.2(70) = 64 + 14 = 78\nNilai akhir siswa B = 0.8(80) + 0.2(90) = 64 + 18 = 82\nNilai akhir siswa C = 0.8(60) + 0.2(70) = 48 + 14 = 62\nNilai akhir siswa D = 0.8(70) + 0.2(70) = 56 + 14 = 70\nNilai akhir siswa E = 0.8(80) + 0.2(60) = 64 + 12 = 76\nSiswa yang paling tidak berprestasi adalah C dengan nilai akhir 62."
+    },
+    {
+      "text": "Untuk membuat kue, Andi memerlukan 3 jenis tepung yakni jagung, maizena dan terigu. Takaran yang dibutuhkan untuk masing-masing tepung adalah $3 : 5 : 12$. Jika sebuah kue memerlukan $900\\text{ g}$ tepung, berpakah tepung Maizena yang dibutuhkan?",
+      "options": [
+        "250",
+        "380",
+        "225",
+        "300",
+        "350"
+      ],
+      "correctAnswer": "225",
+      "explanation": "Jumlah perbandingan = $3 + 5 + 12 = 20$\nTepung Maizena = $\\frac{5}{20} \\times 900\\text{ g} = \\frac{1}{4} \\times 900\\text{ g} = 225\\text{ g}$"
+    },
+    {
+      "text": "Untuk membuat kue, Andi memerlukan 3 jenis tepung yakni jagung, maizena dan terigu. Takaran yang dibutuhkan untuk masing-masing tepung adalah $3 : 5 : 12$. Jika sebuah kue memerlukan $900\\text{ g}$ tepung, berpakah tepung Terigu yang dibutuhkan?",
+      "options": [
+        "600",
+        "540",
+        "640",
+        "680",
+        "520"
+      ],
+      "correctAnswer": "540",
+      "explanation": "Jumlah perbandingan = $3 + 5 + 12 = 20$\nTepung Terigu = $\\frac{12}{20} \\times 900\\text{ g} = \\frac{3}{5} \\times 900\\text{ g} = 3 \\times 180\\text{ g} = 540\\text{ g}$"
+    },
+    {
+      "text": "Untuk membuat kue, Andi memerlukan 3 jenis tepung yakni jagung, maizena dan terigu. Takaran yang dibutuhkan untuk masing-masing tepung adalah $3 : 5 : 12$. Jika sebuah kue memerlukan $900\\text{ g}$ tepung, berpakah tepung Jagung yang dibutuhkan?",
+      "options": [
+        "200",
+        "130",
+        "135",
+        "180",
+        "140"
+      ],
+      "correctAnswer": "135",
+      "explanation": "Jumlah perbandingan = $3 + 5 + 12 = 20$\nTepung Jagung = $\\frac{3}{20} \\times 900\\text{ g} = 3 \\times 45\\text{ g} = 135\\text{ g}$"
+    },
+    {
+      "text": "Jumlah wisatawan yang mengunjungi Perpustakaan Nasional selama enam hari berturut-turut adalah $1110, 1116, 1120, 1132, 1130$, dan $1148$ wisatawan. Jika tren kunjungan tersebut bersifat konstan, berapa jumlah wisatawan berkunjung ke Perpusnas pada hari ke-7?",
+      "options": [
+        "1160",
+        "1140",
+        "1136",
+        "1145",
+        "1150"
+      ],
+      "correctAnswer": "1136",
+      "explanation": "Pola penambahan hari berselang atau tren konstan."
+    },
+    {
+      "text": "Jumlah pendaki yang mengunjungi Gunung Slamet selama enam hari berturut-turut adalah $130, 140, 160, 190, 230$, dan $280$ pendaki. Jika tren kunjungan tersebut bersifat konstan, berapa jumlah pendaki berkunjung ke Gunung Slamet pada hari ke-7?",
+      "options": [
+        "350",
+        "340",
+        "370",
+        "380",
+        "345"
+      ],
+      "correctAnswer": "340",
+      "explanation": "Selisih antar hari bertambah secara konsisten: $+10, +20, +30, +40, +50$. Maka pada hari ke-7 penambahannya adalah $+60$. Jadi, $280 + 60 = 340$."
+    }
+  ]
+}

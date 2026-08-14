@@ -1,0 +1,236 @@
+{
+  "questions": [
+    {
+      "text": "Untuk $x \\neq -3$ dan $x \\neq 3$, hasil pengurangan $\\frac{8x}{x^2-9}$ oleh $\\frac{4}{x+3}$ adalah ....",
+      "options": [
+        "\\frac{4}{x+3}",
+        "\\frac{2}{x+3}",
+        "\\frac{1}{x+3}",
+        "\\frac{4}{x-3}",
+        "\\frac{1}{x-3}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada diagram Venn dibawah ini, daerah yang diarsir merupakan ....",
+      "options": [
+        "A \\cup (B \\cap C)",
+        "B \\cup (A \\cap C)",
+        "C \\cup (A \\cap B)",
+        "A - (B \\cap C)",
+        "B - (A \\cap C)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diantara sistem pertidaksamaan linear di bawah ini yang memiliki daerah penyelesaian tidak berada di kuadran III adalah ....",
+      "options": [
+        "5x + 2y \\le 10",
+        "5x + 2y \\ge 10",
+        "5x - 2y \\le -10",
+        "5x - 2y \\ge -10",
+        "5x - 2y \\ge 10"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui $a \\ast b \\# c = \\frac{a+b}{b-c}$. Jika $(2p+1) \\ast 3 \\# p = 8$ maka nilai $p = ....$",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Harga satu meter kain sutra adalah $\\frac{4}{5}$ kali harga satu meter kain batik. Jika Sandra membeli 3 meter kain sutra dan 5 meter kain batik seharga Rp.700.000,00 maka selisih harga per meter kedua kain tersebut adalah ....",
+      "options": [
+        "Rp.10.000,00",
+        "Rp.15.000,00",
+        "Rp.20.000,00",
+        "Rp.25.000,00",
+        "Rp.30.000,00"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Luas daerah yang diarsir pada gambar di bawah ini adalah ....",
+      "options": [
+        "100\\pi",
+        "50\\pi",
+        "36\\pi",
+        "16\\pi",
+        "4\\pi"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Nilai a pada gambar di bawah ini adalah ....",
+      "options": [
+        "110",
+        "70",
+        "50",
+        "40",
+        "30"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ada lima orang dalam ruangan yang belum saling mengenal. Mereka saling berkenalan dengan cara berjabat tangan sekali dengan setiap orang. Banyak jabatan tangan yang akan terjadi sebanyak ....",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20",
+        "24"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah kotak berisi 3 kelereng putih dan 2 kelereng hitam. Dari dalam kotak pengambilan dua kelereng berurutan. Peluang mendapatkan sebuah kelereng hitam pada pengambilan pertama dan kelereng putih pada pengambilan kedua adalah ....",
+      "options": [
+        "\\frac{4}{5}",
+        "\\frac{1}{2}",
+        "\\frac{2}{5}",
+        "\\frac{3}{10}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Himpunan titik dibawah ini bukan merupakan grafik fungsi kuadrat adalah ....",
+      "options": [
+        "\\{(1,0), (2,3), (3,0), (4,-1), (5,0), (6,3)\\}",
+        "\\{(1,1), (2,2), (3,3), (4,4), (5,5), (6,6)\\}",
+        "\\{(1,-3), (2,0), (3,1), (4,0), (5,-3), (6,-8)\\}",
+        "\\{(1,2), (2,8), (3,-1), (4,5), (5,0), (6,-2)\\}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dua bilangan prima lebih dari 10 dan kurang dari 20. Jika selisih kedua bilangan tersebut adalah 2, maka jumlah kedua bilangan itu adalah ....",
+      "options": [
+        "20",
+        "24",
+        "32",
+        "36"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah garis $g$ melalui titik (2,3) dan tegak lurus dengan garis $x - 4y = 10$. Diantara titik di bawah ini yang dilalui oleh garis $g$ adalah ....",
+      "options": [
+        "(-1,15)",
+        "(1,7)",
+        "(3,-1)",
+        "(4,4)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "$a, b, c, d, e$ adalah bilangan bulat positif yang kurang dari 6 dengan $a > b > c > d > e$. Manakah hubungan yang benar antara kuantitas P dan Q berikut berdasarkan informasi yang diberikan? P: $\\frac{a+e}{2}$, Q: $c$",
+      "options": [
+        "P > Q",
+        "Q > P",
+        "P = Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan salah satu dari tiga pilihan di atas."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Rata-rata dan median dari empat bilangan asli tidak lebih dari 10 adalah 7. Manakah hubungan yang benar antara kuantitas P dan Q berikut berdasarkan informasi yang diberikan? P: Hasil kali bilangan terkecil dan terbesar, Q: 50",
+      "options": [
+        "P > Q",
+        "Q > P",
+        "P = Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan salah satu dari tiga pilihan di atas."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Astrid dapat menuntaskan sebuah pekerjaan dalam waktu 4 hari, sedangkan Chris dapat menuntaskan pekerjaan yang sama dalam waktu 6 hari. Jika Astrid dan Chris bekerja bersama-sama dapat menuntaskan dalam waktu $x$ hari. Manakah hubungan yang benar antara kuantitas P dan Q berikut berdasarkan informasi yang diberikan? P: $x$, Q: 1,5",
+      "options": [
+        "P > Q",
+        "Q > P",
+        "P = Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan salah satu dari tiga pilihan di atas."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jerome, Keenan dan Leitha merupakan tiga orang anak-anak memiliki usia yang berbeda. Jumlah usia Jerome dan Keenan adalah 20 tahun, jumlah usia Jerome dan Leitha adalah 21 tahun sedangkan jumlah usia Keenan dan Leitha adalah 23 tahun. Manakah hubungan yang benar antara kuantitas P dan Q berikut berdasarkan informasi yang diberikan? P: Usia Leitha, Q: 13",
+      "options": [
+        "P > Q",
+        "Q > P",
+        "P = Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan salah satu dari tiga pilihan di atas."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan tabel di bawah ini. Berapakah nilai s? Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut. (1) f(x) fungsi linear bergradien \\frac{3}{2}, (2) m+s=10",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup.",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar dibawah ini. Panjang sisi AB = .... Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut. (1) B titik tengah AO, (2) Luas lingkaran = 64\\pi",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup.",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar di bawah ini. Berapakah nilai y? Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut. (1) CD \\perp AE, (2) ACE segitiga sama kaki dengan CA = CE",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup.",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui x, y dan z merupakan bilangan asli. Berapakah nilai z? Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut. (1) Ketiga bilangan memiliki beda dua, (2) Hasil kali semua bilangan 105",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup.",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

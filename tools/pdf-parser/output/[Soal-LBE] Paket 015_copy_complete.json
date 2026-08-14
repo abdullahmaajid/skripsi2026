@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "What relationship is demonstrated between TEXT 1 and TEXT 2?",
+      "options": [
+        "Text 1 focuses on market statistics while Text 2 examines different regulatory approaches",
+        "Text 2 provides additional evidence confirming the economic value of gig work described in Text 1",
+        "Text 2 presents legal frameworks that contradict the economic advantages outlined in Text 1",
+        "Text 1 explains the growth of gig work that necessitated the regulations described in Text 2",
+        "Text 2 expands on the regulatory challenges of the gig economy introduced in Text 1"
+      ],
+      "correctAnswer": "Text 1 explains the growth of gig work that necessitated the regulations described in Text 2",
+      "explanation": null
+    },
+    {
+      "text": "What relationship best characterizes how TEXT 2 relates to TEXT 1?",
+      "options": [
+        "TEXT 2 offers digital solutions to address the voter participation challenges outlined in TEXT 1",
+        "TEXT 2 provides contradictory evidence that disproves the voter turnout statistics presented in TEXT 1",
+        "TEXT 2 analyzes the historical development of voting systems that TEXT 1 mentions only briefly",
+        "TEXT 2 extends the demographic analysis of voters begun in TEXT 1 with additional age-based data",
+        "TEXT 2 examines an entirely separate aspect of democratic systems with no connection to TEXT 1"
+      ],
+      "correctAnswer": "TEXT 2 offers digital solutions to address the voter participation challenges outlined in TEXT 1",
+      "explanation": null
+    },
+    {
+      "text": "Which of the following best describes how TEXT 2 relates to TEXT 1?",
+      "options": [
+        "TEXT 2 challenges the historical accuracy of the trade routes and cultural exchanges detailed in TEXT 1",
+        "TEXT 2 provides archaeological evidence that supports the economic statistics presented in TEXT 1",
+        "TEXT 2 demonstrates how modern China has created an initiative that draws inspiration from the historical network described in TEXT 1",
+        "TEXT 2 analyzes how ancient trade practices have continued unchanged into the modern era",
+        "TEXT 2 examines how the decline of the ancient Silk Road led to current economic challenges"
+      ],
+      "correctAnswer": "TEXT 2 demonstrates how modern China has created an initiative that draws inspiration from the historical network described in TEXT 1",
+      "explanation": null
+    },
+    {
+      "text": "How does TEXT 2 relate to the information presented in TEXT 1?",
+      "options": [
+        "It provides additional evidence supporting Britain's industrial dominance described in TEXT 1",
+        "It contradicts TEXT 1's assessment of the social impact of industrialization on workers",
+        "It shows how the British industrial model described in TEXT 1 was adapted differently across other countries",
+        "It elaborates on technological innovations briefly mentioned in TEXT 1",
+        "It establishes causal connections between British colonialism and industrial development"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "What is the relationship between TEXT 1 and TEXT 2?",
+      "options": [
+        "Text 1 presents the agricultural achievements of the Green Revolution while Text 2 examines its unintended consequences",
+        "Text 2 provides updated research that proves the statistics in Text 1 were significantly exaggerated",
+        "Text 1 focuses on technological innovations while Text 2 analyzes completely unrelated economic trends",
+        "Text 2 offers solutions to the environmental problems that Text 1 identifies as the main concern",
+        "Text 1 examines failed agricultural approaches while Text 2 presents more successful modern alternatives"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "How would you characterize the relationship between TEXT 1 and TEXT 2?",
+      "options": [
+        "TEXT 2 provides historical information about how coral reefs evolved into the ecosystems described in TEXT 1",
+        "TEXT 1 argues that coral reefs are naturally declining while TEXT 2 presents evidence of their stability",
+        "TEXT 2 reports new scientific discoveries that invalidate the ecological relationships explained in TEXT 1",
+        "TEXT 1 examines coral reef conservation methods while TEXT 2 analyzes their implementation challenges",
+        "TEXT 2 outlines major threats to the coral reef ecosystems whose biodiversity is described in TEXT 1"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "What relationship exists between TEXT 1 and TEXT 2?",
+      "options": [
+        "TEXT 2 provides scientific evidence confirming the migration patterns described in TEXT 1",
+        "TEXT 2 expands on the topic of bird migration by focusing on conservation challenges not addressed in TEXT 1",
+        "TEXT 1 explains the migratory behaviors that make birds vulnerable to the threats outlined in TEXT 2",
+        "TEXT 1 highlights the capabilities of migratory birds while TEXT 2 expand the idea with providing population declines data",
+        "TEXT 1 and TEXT 2 compare different scientific methodologies used to study bird migration"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "What is the relationship between TEXT 1 and TEXT 2?",
+      "options": [
+        "TEXT 2 presents a problem that is caused by the technology described in TEXT 1",
+        "TEXT 2 challenges the scientific validity of the quantum principles outlined in TEXT 1",
+        "TEXT 1 discusses quantum computing history while TEXT 2 focuses exclusively on its future applications",
+        "TEXT 2 provides additional technical information about quantum hardware mentioned in TEXT 1",
+        "TEXT 1 explains quantum computing capabilities while TEXT 2 examines an entirely unrelated technological trend"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "What relationship do you observe between TEXT 1 and TEXT 2?",
+      "options": [
+        "TEXT 1 documents global democratic decline while TEXT 2 examines successful strategies for democratic resilience",
+        "TEXT 2 directly contradicts the statistical trends presented in TEXT 1 with updated research",
+        "TEXT 1 analyzes the historical development of democracy while TEXT 2 focuses on its current state",
+        "TEXT 2 elaborates on specific examples of democratic backsliding only briefly mentioned in TEXT 1",
+        "TEXT 1 presents a politically biased view while TEXT 2 offers a more objective analysis of the same data"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "What is the relationship between TEXT 1 and TEXT 2?",
+      "options": [
+        "TEXT 2 provides additional technical details about the CBDC implementations introduced in TEXT 1",
+        "TEXT 2 offers statistical evidence confirming the economic advantages described in TEXT 1",
+        "TEXT 1 presents potential benefits of CBDCs while TEXT 2 examines concerns and challenges",
+        "TEXT 1 explains early CBDC development while TEXT 2 focuses on more recent implementations",
+        "TEXT 1 identifies economic problems that necessitated the CBDC solutions described in TEXT 2"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "What is the relationship between TEXT 1 and TEXT 2?",
+      "options": [
+        "TEXT 2 contradicts the timeline for technological advancement presented in TEXT 1",
+        "TEXT 1 presents the environmental benefits of autonomous vehicles while TEXT 2 focuses on their safety risks",
+        "TEXT 2 elaborates on specific autonomous vehicle models mentioned briefly in TEXT 1",
+        "TEXT 1 describes the technical development of autonomous vehicles while TEXT 2 explores their potential societal impacts",
+        "TEXT 1 analyzes current market leaders while TEXT 2 predicts which companies will dominate in the future"
+      ],
+      "correctAnswer": "TEXT 1 describes the technical development of autonomous vehicles while TEXT 2 explores their potential societal impacts",
+      "explanation": null
+    },
+    {
+      "text": "What is the relationship between TEXT 1 and TEXT 2?",
+      "options": [
+        "TEXT 2 provides additional evidence that confirms the renewable energy growth trends described in TEXT 1",
+        "TEXT 1 presents an overly optimistic view of renewable energy while TEXT 2 offers a more realistic assessment",
+        "TEXT 2 explains the technical challenges involved in implementing the renewable energy transition described in TEXT 1",
+        "TEXT 1 and TEXT 2 compare different renewable energy technologies using different evaluation criteria",
+        "TEXT 1 identifies climate problems that necessitated the renewable energy solutions described in TEXT 2"
+      ],
+      "correctAnswer": "TEXT 2 explains the technical challenges involved in implementing the renewable energy transition described in TEXT 1",
+      "explanation": null
+    },
+    {
+      "text": "What relationship exists between TEXT 1 and TEXT 2?",
+      "options": [
+        "TEXT 1 documents Arctic sea ice decline while TEXT 2 examines the resulting environmental and societal effects",
+        "TEXT 2 challenges the scientific accuracy of the measurements presented in TEXT 1",
+        "TEXT 1 presents historical data while TEXT 2 focuses exclusively on future projections",
+        "TEXT 2 provides a more detailed explanation of the satellite measurement techniques mentioned in TEXT 1",
+        "TEXT 1 analyzes natural climate cycles while TEXT 2 examines human contributions to climate change"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "What is the relationship between TEXT 1 and TEXT 2?",
+      "options": [
+        "TEXT 1 presents a technology with proven effectiveness while TEXT 2 describes an unproven approach",
+        "TEXT 2 provides additional evidence confirming the economic viability claims made in TEXT 1",
+        "TEXT 2 provides technical details about a specific component of the broader system described in TEXT 1",
+        "TEXT 1 explains problems with traditional carbon reduction that necessitated the innovation in TEXT 2",
+        "Both texts describe different technological approaches to capturing carbon dioxide"
+      ],
+      "correctAnswer": "Both texts describe different technological approaches to capturing carbon dioxide",
+      "explanation": null
+    },
+    {
+      "text": "What is the relationship between TEXT 1 and TEXT 2?",
+      "options": [
+        "TEXT 2 expands on specific adaptation strategies mentioned briefly in TEXT 1",
+        "TEXT 2 provides additional scientific evidence confirming the precipitation changes described in TEXT 1",
+        "TEXT 1 explains how climate change alters precipitation patterns while TEXT 2 describes adaptation responses",
+        "TEXT 1 emphasizes the severity of precipitation changes while TEXT 2 suggests these changes are manageable",
+        "TEXT 1 and TEXT 2 present different scientific methodologies for measuring the same precipitation phenomena"
+      ],
+      "correctAnswer": "TEXT 1 explains how climate change alters precipitation patterns while TEXT 2 describes adaptation responses",
+      "explanation": null
+    }
+  ]
+}

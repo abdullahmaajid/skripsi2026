@@ -1,0 +1,409 @@
+{
+  "questions": [
+    {
+      "text": "Urutan empat bilangan $\\frac{1}{8}; 0{,}1255; \\frac{3}{25}; 12{,}25\\%$ dari yang terkecil ke yang terbesar adalah ...",
+      "options": [
+        "$\\frac{1}{8}; 0{,}1255; \\frac{3}{25}; 12{,}25\\%$",
+        "$0{,}1255; \\frac{3}{25}; \\frac{1}{8}; 12{,}25\\%$",
+        "$12{,}25\\%; \\frac{3}{25}; \\frac{1}{8}; 0{,}1255$",
+        "$\\frac{3}{25}; 12{,}25\\%; \\frac{1}{8}; 0{,}1255$",
+        "$\\frac{3}{25}; \\frac{1}{8}; 12{,}25\\%; 0{,}1255$"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Urutan tiga bilangan $0{,}44; 1 - \\frac{5}{9}; 44{,}4\\%$ dari yang terkecil ke yang terbesar adalah ...",
+      "options": [
+        "$44{,}4\\%; 1 - \\frac{5}{9}; 0{,}44$",
+        "$0{,}44; 44{,}4\\%; 1 - \\frac{5}{9}$",
+        "$0{,}44; 1 - \\frac{5}{9}; 44{,}4\\%$",
+        "$1 - \\frac{5}{9}; 44{,}4\\%; 0{,}44$",
+        "$1 - \\frac{5}{9}; 0{,}44; 44{,}4\\%$"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Tabel berikut menyatakan operasi $\\odot$ dan $\\boxdot$.\n\nOperasi $\\oplus$ didefinisikan dengan $a \\oplus b = 2 \\odot (a \\boxdot b)$.\n\nUntuk semua $a, b \\in \\{0, 1, 2, 3\\}$\nBerdasarkan informasi yang diberikan, manakah hubungan antara kuantitas P dan Q berikut yang benar?\nP: $0 \\oplus 2$ atau $3 \\boxdot 3$\nQ: $2$",
+      "options": [
+        "Kuantitas P lebih besar daripada Q",
+        "Kuantitas P lebih kecil daripada Q",
+        "Kuantitas P sama dengan Q",
+        "Tidak dapat ditentukan hubungan antara kuantitas P dan Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $13 - 3 \\times 8: p^{\\frac{3}{2}} = 1$ maka $p = ...$",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $t \\times 3 + 9: (9)^{\\frac{1}{3}} = 24$ maka $t = ...$",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "14",
+        "21"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Suatu prisma persegi memiliki tinggi 5 dan volume 80.\n\nBerdasarkan informasi diatas, pernyataan berikut yang bernilai BENAR adalah pernyataan...\n1. Luas permukaan prisma sama dengan 112\n2. Panjang diagonal ruang prisma lebih dari 7\n3. Suatu bola berdiameter 6 dapat memuat prisma tersebut",
+      "options": [
+        "1 dan 2",
+        "1 dan 3",
+        "2 dan 3",
+        "1 Saja",
+        "2 Saja"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Suatu bola memiliki volume .\n\nBerdasarkan informasi diatas, pernyataan berikut yang bernilai SALAH adalah pernyataan...\n1. Diameter bola sama dengan 3\n2. Luas permukaan bola lebih dari 100\n3. Suatu kubus dengan panjang rusuk 5 dapat memuat bola tersebut",
+      "options": [
+        "1 dan 2",
+        "1 dan 3",
+        "2 dan 3",
+        "1 Saja",
+        "2 Saja"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Keterangan:\nBilangan asli $m$ dan $n$ memenuhi kedua pernyataan berikut.\nInput $x = 3$ menghasilkan $z = 12$\nInput $x = 4$ menghasilkan $z = 18$\nNilai $m$ adalah ...",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Keterangan:\nBilangan asli $m$ dan $n$ memenuhi kedua pernyataan berikut.\nInput $x = 3$ menghasilkan $z = 12$\nInput $x = 4$ menghasilkan $z = 18$\nNilai $n$ adalah ...",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Keterangan:\nBilangan asli $m$ dan $n$ memenuhi kedua pernyataan berikut.\nInput $x = 3$ menghasilkan $z = 12$\nInput $x = 4$ menghasilkan $z = 18$\nJika diberikan input $x = 6$, dihasilkan $z = ...$",
+      "options": [
+        "15",
+        "18",
+        "21",
+        "24",
+        "30"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Keterangan:\nNotasi $\\max(k + 5, y)$ menyatakan bilangan yang paling besar di antara $k + 5$ dan $y$\nBilangan bulat $b$ dan $k$ memenuhi kedua pernyataan berikut.\nInput $x = 3$ menghasilkan $z = 3$\nInput $x = 2$ menghasilkan $z = 13$\nNilai $b$ adalah ...",
+      "options": [
+        "-3",
+        "-2",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Keterangan:\nNotasi $\\max(k + 5, y)$ menyatakan bilangan yang paling besar di antara $k + 5$ dan $y$\nBilangan bulat $b$ dan $k$ memenuhi kedua pernyataan berikut.\nInput $x = 3$ menghasilkan $z = 3$\nInput $x = 2$ menghasilkan $z = 13$\nNilai $k$ adalah ...",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "8",
+        "11"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Keterangan:\nNotasi $\\max(k + 5, y)$ menyatakan bilangan yang paling besar di antara $k + 5$ dan $y$\nBilangan bulat $b$ dan $k$ memenuhi kedua pernyataan berikut.\nInput $x = 3$ menghasilkan $z = 3$\nInput $x = 2$ menghasilkan $z = 13$\nJika diberikan input $x = 4$, dihasilkan $z = ...$",
+      "options": [
+        "4,5",
+        "8,5",
+        "13",
+        "26",
+        "31"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Fungsi $f$ dengan $f(x) = a - 2x$ untuk suatu bilangan real $a$ memiliki invers $f^{-1}$ yang memenuhi $f^{-1}(a^2 + 2) = -2$. Berdasarkan informasi yang diberikan, manakah hubungan antara kuantitas P dan Q berikut yang benar?\\nP: $a$\\nQ: $-2$",
+      "options": [
+        "Kuantitas P lebih besar daripada Q",
+        "Kuantitas P lebih kecil daripada Q",
+        "Kuantitas P sama dengan Q",
+        "Tidak dapat ditentukan hubungan antara kuantitas P dan Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Misalkan $a$ dan $b$ merupakan dua bilangan real dengan $a \\neq 0$ sehingga fungsi $f$ dengan $f(x) = ax + b$ memiliki invers $f^{-1}$ yang memenuhi $f^{-1}(2a + 2b) = 1$. Berdasarkan informasi yang diberikan, manakah hubungan antara kuantitas P dan Q berikut yang benar?\\nP: $a + b$\\nQ: $0$",
+      "options": [
+        "Kuantitas P lebih besar daripada Q",
+        "Kuantitas P lebih kecil daripada Q",
+        "Kuantitas P sama dengan Q",
+        "Tidak dapat ditentukan hubungan antara kuantitas P dan Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jajaran genjang $PQRS$ memiliki luas $20$. Titik $T$ terletak pada $QR$ sehingga $ST$ tegak lurus terhadap $QR$. Jika $(a, b)$ adalah koordinat $S$, maka nilai $2a + b$ adalah ...",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Garis melalui titik $B$ pada persegi $ABCD$ dan tegak lurus terhadap diagonal $BD$. Jika $(p, q)$ adalah koordinat $B$, nilai $p + q$ adalah ...",
+      "options": [
+        "10",
+        "15",
+        "20",
+        "25",
+        "30"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Persegi $ABCD$ memuat $E$ pada $AD$ sehingga gradien $BE$ sama dengan $2$. Jika koordinat $E$ adalah $(p, q)$, maka $5p - q$ adalah ...",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Persegi $ABCD$ memuat $E$ pada $AD$ sehingga gradien $BE$ sama dengan $2$. Panjang $BE$ adalah ...",
+      "options": [
+        "\\sqrt{2}",
+        "\\sqrt{3}",
+        "2",
+        "\\sqrt{5}",
+        "\\sqrt{6}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Persegi $ABCD$ memuat $E$ pada $AD$ sehingga gradien $BE$ sama dengan $2$. Jarak $C$ ke $BE$ adalah ...",
+      "options": [
+        "\\frac{4}{5}\\sqrt{5}",
+        "\\frac{4}{3}\\sqrt{5}",
+        "\\frac{8}{3}\\sqrt{5}",
+        "\\frac{8}{5}\\sqrt{5}",
+        "3\\sqrt{5}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Banyaknya susunan lima huruf berbeda dari huruf $U, T, B, K$, dan $N$ dari kiri ke kanan dengan huruf $B$ dan $K$ harus berdekatan adalah ...",
+      "options": [
+        "10",
+        "12",
+        "24",
+        "42",
+        "48"
+      ],
+      "correctAnswer": "48",
+      "explanation": null
+    },
+    {
+      "text": "Banyaknya susunan lima huruf berbeda dari huruf $A, B, C, D$, dan $E$ dari kiri ke kanan dengan huruf ketiga $B, C$, atau $D$ serta huruf pertama BUKAN $A$ adalah ...",
+      "options": [
+        "18",
+        "24",
+        "36",
+        "48",
+        "54"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Banyaknya susunan lima angka berbeda dari angka $3, 4, 6, 8, 9$ dari kiri ke kanan dengan urutan pertama angka $3$, serta urutan ketiganya angka $4, 6$, atau $8$ adalah ...",
+      "options": [
+        "9",
+        "18",
+        "25",
+        "27",
+        "36"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Daerah $S$ dari bidang kartesius adalah himpunan semua solusi dari sistem pertidaksamaan linear:\\n$3x + y \\ge 3$\\n$-2x + y \\le -2$\\n$x \\le 5$\\nPernyataan mana saja yang bernilai benar berdasarkan informasi di atas?\\n(1) Batas daerah $S$ merupakan suatu segitiga.\\n(2) Seluruh daerah $S$ terletak di kuadran pertama dan keempat.\\n(3) Garis $y = -x$ memotong daerah $S$\\n(4) Titik $(2, 10)$ terletak di daerah $S$",
+      "options": [
+        "(1), (2), dan (3)",
+        "(1) dan (3)",
+        "(2) dan (4)",
+        "(4)",
+        "(1), (2), (3), dan (4)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Garis $l$ melalui titik $B$ pada persegi $ABCD$ dan tegak lurus terhadap diagonal $BD$. Persamaan garis $l$ adalah ...",
+      "options": [
+        "y = -x + 5",
+        "y = x + 10",
+        "y = -x - 10",
+        "y = x - 10",
+        "y = -x + 10"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Garis l melalui titik B pada persegi ABCD dan tegak lurus terhadap diagonal BD. Jarak A ke garis l adalah ...",
+      "options": [
+        "2",
+        "2\\sqrt{2}",
+        "4",
+        "4\\sqrt{2}",
+        "5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jajaran genjang PQRS memiliki luas 20. Titik T terletak pada QR sehingga ST tegak lurus terhadap QR. Gradien garis SR adalah ...",
+      "options": [
+        "-\\frac{1}{5}",
+        "\\frac{1}{5}",
+        "5",
+        "-5",
+        "Tidak terdefinisi"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Koordinat titik-titik sudut segitiga PQR adalah P(2, 4), Q(2, 6), dan R(4, y). Apakah garis l yang melalui titik (0, 0) dengan gradien m memotong segitiga PQR?\\n1. 8 < y < 16 dan m > 0\\n2. -4 < y < 12 dan m < 2",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+        "Baik Pernyataan (1) SAJA, maupun (2) SAJA cukup untuk menjawab pertanyaan.",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sistem pers linear dalam variabel x, y, dan z:\\n3x + 2y = 8\\n2x + 4z = -2\\n3x + 4z = r\\nMemiliki solusi x = a, y = b, z = c\\nPernyataan mana saja yang bernilai benar berdasarkan informasi di atas?\\n1. 3a + 2b = -8\\n2. b + 2c = -1\\n3. 4c = 3a + 10\\n4. a = 2 jika r = 2",
+      "options": [
+        "(1), (2), (3) benar",
+        "(1), (3) benar",
+        "(2), (4) benar",
+        "(4) saja benar",
+        "SEMUA benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sistem pers linear dalam variabel x, y, dan z:\\nx + 2y - 3z = k\\n2y - 3z = -3\\n3x - z = 2\\nMemiliki solusi x = a, y = b, z = c\\nPernyataan mana saja yang bernilai benar berdasarkan informasi di atas?\\n1. c = 4 jika k = -1\\n2. c = 3a - 2\\n3. a = k + 3\\n4. a + 2b = k + 3c",
+      "options": [
+        "(1), (2), (3) benar",
+        "(1), (3) benar",
+        "(2), (4) benar",
+        "(4) saja benar",
+        "SEMUA benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sekumpulan data disajikan sebagai berikut: 3, 5, 6, 6, 6, 6, 7, 7, 7, 8, 8, 9\\nBerapakah banyaknya dari empat pernyataan berikut yang bernilai benar berdasarkan informasi di atas?\\n1. Median kumpulan data sama dengan modusnyat.\\n2. Rata-rata kumpulan data kurang dari 6.\\n3. Modus kumpulan data kurang dari jangkauannya.\\n4. Median kumpulan data sama dengan rata-ratanya.",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sekumpulan data disajikan sebagai berikut: 20, 30, 30, 35, 40, 45, 50, 55\\nBerapakah banyaknya dari empat pernyataan berikut yang bernilai benar berdasarkan informasi di atas?\\n1. Rata-rata kumpulan data kurang dari 40.\\n2. Median kumpulan data lebih dari modusnyat.\\n3. Modus kumpulan data tersebut lebih dari jangkauannya.\\n4. Jangkauan kumpulan data lebih dari mediannya.",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Fungsi f didefinisikan dengan f(x) = 1 - x^2, grafik fungsi g diperoleh dari pencerminan grafik fungsi f terhadap garis x = 1.\\nBerdasarkan informasi diatas, pernyataan berikut yang bernilai BENAR adalah pernyataan...\\n1. g(3) = 0\\n2. Grafik fungsi f dapat diperoleh dari pergeseran grafik fungsi g dua satuan ke kanan\\n3. Grafik fungsi g memotong sumbu y di (0, -3)",
+      "options": [
+        "1 dan 2",
+        "1 dan 3",
+        "2 dan 3",
+        "1 Saja",
+        "2 Saja"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Fungsi f dan g didefinisikan dengan f(x) = x(x - 1)(x + 1) dan g(x) = f(x - 1)\\nBerdasarkan informasi diatas, pernyataan berikut yang bernilai SALAH adalah pernyataan...\\n1. g(-1) = 0\\n2. Grafik fungsi g diperoleh dari pergeseran grafik fungsi f satu satuan ke kiri\\n3. Grafik fungsi g memotong sumbu x di tiga titik berbeda",
+      "options": [
+        "1 dan 2",
+        "1 dan 3",
+        "2 dan 3",
+        "1 Saja",
+        "2 Saja"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

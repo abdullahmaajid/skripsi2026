@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Manakah pernyataan berikut yang sesuai dengan isi teks?",
+      "options": [
+        "Papeda memiliki tekstur renyah dan berwarna kecokelatan",
+        "Papeda hanya dapat dinikmati dengan ikan kuah kuning",
+        "Papeda berasal dari daerah Sumatra dan Jawa",
+        "Papeda dibuat dari sagu dan memiliki tekstur lengket",
+        "Papeda memiliki rasa yang sangat manis dan gurih"
+      ],
+      "correctAnswer": "Papeda dibuat dari sagu dan memiliki tekstur lengket",
+      "explanation": null
+    },
+    {
+      "text": "Apa simpulan yang paling tepat berdasarkan teks tentang papeda?",
+      "options": [
+        "Papeda adalah makanan khas berbahan dasar sagu yang penting dalam budaya Papua dan Maluku",
+        "Papeda adalah makanan yang sulit dimakan karena terlalu lengket",
+        "Papeda merupakan makanan modern yang berasal dari berbagai daerah di Indonesia",
+        "Papeda tidak memiliki manfaat kesehatan karena rasanya hambar",
+        "Papeda hanya bisa dinikmati oleh masyarakat Papua dan Maluku"
+      ],
+      "correctAnswer": "Papeda adalah makanan khas berbahan dasar sagu yang penting dalam budaya Papua dan Maluku",
+      "explanation": null
+    },
+    {
+      "text": "Apa arti kata \"sagu\" dalam konteks teks?",
+      "options": [
+        "Sejenis ikan laut yang sering dimasak dengan kuah kuning",
+        "Pohon yang menghasilkan tepung yang digunakan sebagai bahan makanan pokok",
+        "Makanan khas Indonesia yang memiliki rasa manis dan gurih",
+        "Alat yang digunakan untuk menggulung papeda saat dimakan",
+        "Bumbu khas yang digunakan dalam masakan Papua dan Maluku"
+      ],
+      "correctAnswer": "Pohon yang menghasilkan tepung yang digunakan sebagai bahan makanan pokok",
+      "explanation": null
+    },
+    {
+      "text": "Apa maksud kata \"lengket\" dalam teks tentang papeda?",
+      "options": [
+        "Papeda memiliki tekstur yang mudah pecah dan kering",
+        "Papeda sulit dikunyah karena terlalu keras",
+        "Papeda memiliki konsistensi kental dan menempel seperti lem",
+        "Papeda lebih keras dibandingkan nasi biasa",
+        "Papeda tidak bisa dikunyah karena teksturnya seperti batu"
+      ],
+      "correctAnswer": "Papeda memiliki konsistensi kental dan menempel seperti lem",
+      "explanation": null
+    },
+    {
+      "text": "Apa tema utama dari teks di atas?",
+      "options": [
+        "Perkembangan sistem ekonomi dunia",
+        "Sejarah perkembangan uang dari barter hingga digital",
+        "Manfaat penggunaan uang dalam kehidupan sehari-hari",
+        "Perbedaan antara uang kertas dan uang logam",
+        "Cara kerja sistem perbankan digital"
+      ],
+      "correctAnswer": "Sejarah perkembangan uang dari barter hingga digital",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks, bagaimana watak manusia dalam menghadapi perkembangan sistem pembayaran?",
+      "options": [
+        "Kreatif dan inovatif dalam menciptakan solusi baru",
+        "Pasif dan menerima perkembangan tanpa perubahan",
+        "Ragu-ragu dalam menggunakan metode pembayaran baru",
+        "Menolak perubahan dan tetap menggunakan sistem lama",
+        "Bergantung sepenuhnya pada sistem barter"
+      ],
+      "correctAnswer": "Kreatif dan inovatif dalam menciptakan solusi baru",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang tidak sesuai dengan isi teks?",
+      "options": [
+        "Sistem barter memiliki kelemahan dalam menemukan pasangan tukar yang sesuai",
+        "Peradaban Yunani dan Romawi mulai menggunakan koin logam sebagai alat tukar",
+        "Uang kertas pertama kali digunakan di Eropa pada abad ke-7",
+        "Cryptocurrency merupakan salah satu bentuk uang digital di era modern",
+        "Uang terus mengalami perubahan sesuai dengan perkembangan zaman"
+      ],
+      "correctAnswer": "Uang kertas pertama kali digunakan di Eropa pada abad ke-7",
+      "explanation": null
+    },
+    {
+      "text": "Apa simpulan utama dari teks di atas?",
+      "options": [
+        "Uang dalam bentuk digital adalah bentuk pembayaran paling aman",
+        "Sistem barter masih menjadi metode transaksi utama di beberapa negara",
+        "Uang mengalami evolusi dari sistem barter hingga bentuk digital",
+        "Koin logam lebih efektif dibandingkan uang kertas dalam transaksi",
+        "Mata uang modern hanya bergantung pada sistem perbankan"
+      ],
+      "correctAnswer": "Uang mengalami evolusi dari sistem barter hingga bentuk digital",
+      "explanation": null
+    },
+    {
+      "text": "Apa ide pokok dari teks di atas?",
+      "options": [
+        "Penyebab dan dampak krisis ekonomi 1998 di Indonesia",
+        "Peran Presiden Soeharto dalam mengatasi krisis 1998",
+        "Cara pemerintah menghindari krisis ekonomi di masa depan",
+        "Pengaruh mata uang baht terhadap rupiah pada tahun 1998",
+        "Reformasi sektor keuangan yang dilakukan oleh B.J. Habibie"
+      ],
+      "correctAnswer": "Penyebab dan dampak krisis ekonomi 1998 di Indonesia",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan yang sesuai dengan isi teks?",
+      "options": [
+        "Krisis ekonomi 1998 hanya berdampak pada sektor keuangan di Indonesia",
+        "Krisis ekonomi 1998 terjadi karena lemahnya sistem pemerintahan di Indonesia",
+        "Mata uang baht mengalami devaluasi sebelum krisis ekonomi melanda Indonesia",
+        "Soeharto tetap menjabat sebagai presiden meskipun terjadi krisis ekonomi",
+        "Reformasi ekonomi oleh B.J. Habibie berhasil menghilangkan dampak krisis dalam waktu satu tahun"
+      ],
+      "correctAnswer": "Mata uang baht mengalami devaluasi sebelum krisis ekonomi melanda Indonesia",
+      "explanation": null
+    },
+    {
+      "text": "Apa makna kata devaluasi dalam teks?",
+      "options": [
+        "Penguatan nilai mata uang suatu negara terhadap mata uang asing",
+        "Penurunan nilai mata uang suatu negara terhadap mata uang asing",
+        "Peningkatan harga barang dalam negeri akibat kenaikan permintaan",
+        "Pemulihan ekonomi setelah mengalami resesi",
+        "Proses mengurangi jumlah uang yang beredar di masyarakat"
+      ],
+      "correctAnswer": "Penurunan nilai mata uang suatu negara terhadap mata uang asing",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks, manakah pernyataan yang benar mengenai krisis 1998?",
+      "options": [
+        "Nilai tukar rupiah terhadap dolar Amerika Serikat menguat selama krisis 1998",
+        "Reformasi sektor keuangan adalah satu-satunya cara pemulihan ekonomi setelah krisis",
+        "Krisis 1998 menyebabkan banyak perusahaan mengalami kebangkrutan",
+        "Krisis ekonomi di Indonesia dimulai lebih dahulu dibandingkan dengan Thailand",
+        "B.J. Habibie menjabat sebagai presiden sebelum krisis ekonomi terjadi"
+      ],
+      "correctAnswer": "Krisis 1998 menyebabkan banyak perusahaan mengalami kebangkrutan",
+      "explanation": null
+    },
+    {
+      "text": "Apa amanat yang dapat diambil dari puisi di atas?",
+      "options": [
+        "Kehidupan selalu berjalan meskipun kehilangan itu menyakitkan",
+        "Ombak adalah simbol dari ketidakpastian dalam hidup",
+        "Harapan akan selalu bertahan dalam setiap keadaan",
+        "Laut adalah tempat yang penuh dengan misteri dan rahasia",
+        "Kehilangan seseorang berarti akhir dari segalanya"
+      ],
+      "correctAnswer": "Kehidupan selalu berjalan meskipun kehilangan itu menyakitkan",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan yang sesuai dengan isi puisi?",
+      "options": [
+        "Puisi ini menggambarkan suasana bahagia di tepi laut",
+        "Penyair menggunakan suasana senja untuk menggambarkan kesedihan",
+        "Laut dalam puisi ini melambangkan kebebasan dan petualangan",
+        "Puisi ini bercerita tentang seseorang yang sedang berlayar ke tempat baru",
+        "Ombak dalam puisi ini menggambarkan suasana penuh semangat dan kegembiraan"
+      ],
+      "correctAnswer": "Penyair menggunakan suasana senja untuk menggambarkan kesedihan",
+      "explanation": null
+    },
+    {
+      "text": "Dalam teks, kata \"monarki\" digunakan untuk menggambarkan sistem pemerintahan yang dipimpin oleh seorang raja. Apa makna yang paling tepat dari kata \"monarki\"?",
+      "options": [
+        "Sistem pemerintahan yang dipimpin oleh rakyat secara langsung",
+        "Sistem pemerintahan yang dikuasai oleh satu partai politik",
+        "Sistem pemerintahan yang dipimpin oleh seorang raja atau ratu",
+        "Sistem pemerintahan yang menempatkan presiden sebagai pemimpin tunggal",
+        "Sistem pemerintahan yang berbasis pada hukum demokrasi langsung"
+      ],
+      "correctAnswer": "Sistem pemerintahan yang dipimpin oleh seorang raja atau ratu",
+      "explanation": null
+    },
+    {
+      "text": "Manakah dari pernyataan berikut yang sesuai dengan isi teks tentang presiden dan raja?",
+      "options": [
+        "Presiden dipilih melalui pemilihan umum, sedangkan raja mendapatkan kekuasaan berdasarkan garis keturunan",
+        "Raja dan presiden memiliki kewenangan yang sama dalam sistem pemerintahan",
+        "Dalam sistem monarki, raja selalu memiliki kekuasaan absolut tanpa batas",
+        "Tidak ada negara di dunia yang masih menggunakan sistem monarki",
+        "Presiden adalah kepala negara di semua sistem pemerintahan"
+      ],
+      "correctAnswer": "Presiden dipilih melalui pemilihan umum, sedangkan raja mendapatkan kekuasaan berdasarkan garis keturunan",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks, apa perbedaan utama antara sistem monarki dan sistem presidensial?",
+      "options": [
+        "Monarki dipimpin oleh presiden, sementara sistem presidensial dipimpin oleh raja",
+        "Dalam sistem presidensial, pemimpin dipilih secara turun-temurun, sedangkan dalam sistem monarki pemimpin dipilih oleh rakyat",
+        "Monarki selalu bersifat absolut, sedangkan sistem presidensial selalu demokratis",
+        "Monarki dipimpin oleh raja atau ratu, sedangkan sistem presidensial dipimpin oleh presiden yang dipilih melalui pemilu",
+        "Tidak ada perbedaan mendasar antara sistem monarki dan sistem presidensial"
+      ],
+      "correctAnswer": "Monarki dipimpin oleh raja atau ratu, sedangkan sistem presidensial dipimpin oleh presiden yang dipilih melalui pemilu",
+      "explanation": null
+    },
+    {
+      "text": "Dalam teks, disebutkan bahwa \"raja dalam monarki konstitusional memiliki peran simbolis\". Apa makna kata \"simbolis\" dalam konteks ini?",
+      "options": [
+        "Memiliki kekuasaan yang mutlak",
+        "Hanya memiliki fungsi sebagai representasi tanpa kewenangan politik penuh",
+        "Bertindak sebagai pemimpin eksekutif utama dalam pemerintahan",
+        "Memiliki kewenangan legislatif dan eksekutif sekaligus",
+        "Berkuasa penuh atas segala aspek pemerintahan"
+      ],
+      "correctAnswer": "Hanya memiliki fungsi sebagai representasi tanpa kewenangan politik penuh",
+      "explanation": null
+    },
+    {
+      "text": "Kata \"siklus\" dalam teks memiliki makna...",
+      "options": [
+        "Perubahan yang terjadi secara tiba-tiba",
+        "Rangkaian peristiwa yang berulang dalam pola tertentu",
+        "Gerakan cepat tanpa pola yang jelas",
+        "Fenomena yang hanya terjadi satu kali dalam Sejarah",
+        "Kejadian alam yang tidak bisa diprediksi"
+      ],
+      "correctAnswer": "Rangkaian peristiwa yang berulang dalam pola tertentu",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang benar berdasarkan teks?",
+      "options": [
+        "Bulan memiliki atmosfer yang tebal dan mampu melindungi permukaannya dari meteorit",
+        "Suhu di Bulan selalu tetap sepanjang waktu karena pengaruh Matahari",
+        "Bulan memiliki sumber cahaya sendiri sehingga tampak bersinar di langit malam",
+        "Neil Armstrong adalah manusia pertama yang menginjakkan kaki di Bulan dalam misi Apollo",
+        "Gravitasi Bulan tidak berpengaruh terhadap fenomena di Bumi"
+      ],
+      "correctAnswer": "Neil Armstrong adalah manusia pertama yang menginjakkan kaki di Bulan dalam misi Apollo",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa suhu di Bulan bisa sangat ekstrem?",
+      "options": [
+        "Karena Bulan memiliki atmosfer yang sangat tipis",
+        "Karena Bulan mengorbit Matahari secara langsung",
+        "Karena Bulan lebih dekat ke Matahari dibandingkan Bumi",
+        "Karena permukaan Bulan dilindungi oleh lapisan es tebal",
+        "Karena Bulan memancarkan panasnya sendiri ke luar angkasa"
+      ],
+      "correctAnswer": "Karena Bulan memiliki atmosfer yang sangat tipis",
+      "explanation": null
+    },
+    {
+      "text": "Apa dampak utama gravitasi Bulan terhadap Bumi?",
+      "options": [
+        "Menyebabkan perubahan iklim yang ekstrem",
+        "Membantu Bumi mendapatkan cahaya pada malam hari",
+        "Mempengaruhi pasang surut air laut",
+        "Membantu manusia memahami sejarah Tata Surya",
+        "Meningkatkan suhu rata-rata di permukaan Bumi"
+      ],
+      "correctAnswer": "Mempengaruhi pasang surut air laut",
+      "explanation": null
+    },
+    {
+      "text": "Apa makna kata \"eksploitasi\" dalam teks?",
+      "options": [
+        "Penghormatan terhadap budaya lain",
+        "Pemanfaatan secara berlebihan tanpa mempertimbangkan akibatnya",
+        "Perdagangan yang menguntungkan kedua belah pihak",
+        "Pengembangan sumber daya alam untuk kesejahteraan Masyarakat",
+        "Peningkatan kualitas tenaga kerja di suatu wilayah"
+      ],
+      "correctAnswer": "Pemanfaatan secara berlebihan tanpa mempertimbangkan akibatnya",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang benar berdasarkan teks?",
+      "options": [
+        "Penjajahan selalu membawa dampak negatif tanpa ada manfaat sama sekali",
+        "Negara jajahan memiliki kebebasan penuh dalam mengatur kebijakan ekonominya",
+        "Penjajahan menyebabkan hilangnya kedaulatan negara yang dijajah",
+        "Negara jajahan tidak mengalami kesulitan setelah memperoleh kemerdekaan",
+        "Semua negara yang pernah dijajah mengalami kemunduran setelah merdeka"
+      ],
+      "correctAnswer": "Penjajahan menyebabkan hilangnya kedaulatan negara yang dijajah",
+      "explanation": null
+    },
+    {
+      "text": "Apa salah satu dampak ekonomi dari penjajahan terhadap negara jajahan?",
+      "options": [
+        "Meningkatkan kesejahteraan penduduk pribumi",
+        "Memberikan kebebasan bagi rakyat dalam menentukan harga pasar",
+        "Menyebabkan ekonomi negara jajahan hanya menguntungkan penjajah",
+        "Membantu negara jajahan membangun industri yang mandiri",
+        "Memberikan kesempatan kepada rakyat untuk mengembangkan usaha mereka"
+      ],
+      "correctAnswer": "Menyebabkan ekonomi negara jajahan hanya menguntungkan penjajah",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa perjuangan melawan penjajah memerlukan waktu yang panjang?",
+      "options": [
+        "Karena penjajah memiliki kekuatan militer dan sistem yang lebih kuat",
+        "Karena negara jajahan tidak memiliki sumber daya alam yang cukup",
+        "Karena rakyat di negara jajahan tidak ingin Merdeka",
+        "Karena penjajah selalu membantu negara jajahan berkembang",
+        "Karena rakyat jajahan tidak memiliki pemimpin yang berani"
+      ],
+      "correctAnswer": "Karena penjajah memiliki kekuatan militer dan sistem yang lebih kuat",
+      "explanation": null
+    },
+    {
+      "text": "Apa makna kata \"antioksidan\" dalam teks?",
+      "options": [
+        "Zat yang dapat membantu tubuh melawan radikal bebas",
+        "Senyawa yang menyebabkan tekanan darah tinggi",
+        "Kandungan dalam makanan yang membuat tubuh lebih cepat Lelah",
+        "Zat yang menambah kadar gula dalam darah",
+        "Senyawa yang meningkatkan risiko peradangan"
+      ],
+      "correctAnswer": "Zat yang dapat membantu tubuh melawan radikal bebas",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang benar berdasarkan teks?",
+      "options": [
+        "Buah mengkudu memiliki aroma yang harum dan disukai banyak orang",
+        "Mengkudu tidak memiliki efek samping meskipun dikonsumsi dalam jumlah banyak",
+        "Daun mengkudu hanya digunakan sebagai bahan makanan dan tidak memiliki manfaat kesehatan",
+        "Mengkudu mengandung zat aktif yang bermanfaat bagi kesehatan, seperti antioksidan dan flavonoid",
+        "Akar dan kulit batang mengkudu tidak digunakan dalam pengobatan tradisional"
+      ],
+      "correctAnswer": "Mengkudu mengandung zat aktif yang bermanfaat bagi kesehatan, seperti antioksidan dan flavonoid",
+      "explanation": null
+    },
+    {
+      "text": "Apa salah satu manfaat utama buah mengkudu dalam pengobatan tradisional?",
+      "options": [
+        "Meningkatkan kadar gula dalam darah",
+        "Meningkatkan kadar gula dalam darah",
+        "Menurunkan tekanan darah dan meningkatkan daya tahan tubuh",
+        "Menyebabkan gangguan pencernaan jika dikonsumsi dalam jumlah sedikit",
+        "Meningkatkan risiko penyakit kronis seperti diabetes"
+      ],
+      "correctAnswer": "Menurunkan tekanan darah dan meningkatkan daya tahan tubuh",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa konsumsi mengkudu perlu diperhatikan dan tidak boleh berlebihan?",
+      "options": [
+        "Karena mengkudu tidak memiliki manfaat Kesehatan",
+        "Karena mengkudu dapat menyebabkan gangguan hati pada beberapa orang",
+        "Karena mengkudu hanya boleh digunakan sebagai obat luar",
+        "Karena mengkudu tidak boleh dikonsumsi oleh siapa pun",
+        "Karena mengkudu akan kehilangan khasiatnya jika dikonsumsi dalam jumlah banyak"
+      ],
+      "correctAnswer": "Karena mengkudu dapat menyebabkan gangguan hati pada beberapa orang",
+      "explanation": null
+    }
+  ]
+}

@@ -135,32 +135,33 @@ export default function LearningPathPage() {
           const color = colorList[sIdx % colorList.length];
 
           return (
-            <motion.div variants={fadeUp} key={subject.id} className="bg-white rounded-3xl p-6 shadow-sm border border-slate-100">
-              <div className="flex items-center justify-between mb-6 pb-4 border-b border-slate-100">
-                <div className="flex items-center gap-3">
-                  <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${color.bg} ${color.text}`}>
-                    <BookOpen className="w-5 h-5" />
+            <motion.div variants={fadeUp} key={subject.id} className="bg-white rounded-3xl p-6 border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.03)]">
+              <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4 mb-6 pb-5 border-b border-slate-100">
+                <div className="flex items-start gap-4">
+                  <div className={`w-12 h-12 rounded-2xl flex items-center justify-center shrink-0 ${color.bg} ${color.text} shadow-sm border border-slate-50`}>
+                    <BookOpen className="w-6 h-6" />
                   </div>
                   <div>
-                    <h2 className="text-lg md:text-xl font-bold text-slate-800 flex flex-col md:flex-row md:items-center gap-1 md:gap-3">
-                      <span>{subject.name}</span>
-                      {subject.latestScaledScore !== null && ctx?.targetScore && (
-                        <span className={`text-[10px] md:text-[11px] px-2.5 py-1 rounded-md font-bold uppercase tracking-wider border flex items-center gap-1 w-max ${
-                          subject.latestScaledScore >= ctx.targetScore ? "bg-emerald-50 text-emerald-700 border-emerald-200" : "bg-rose-50 text-rose-700 border-rose-200"
-                        }`}>
-                          <Target className="w-3 h-3" />
-                          Skor Asli: {subject.latestScaledScore} / {ctx.targetScore}
-                        </span>
-                      )}
+                    <h2 className="text-lg md:text-xl font-bold text-slate-800 leading-tight mb-2 pr-4">
+                      {subject.name}
                     </h2>
+                    {subject.latestScaledScore !== null && ctx?.targetScore && (
+                      <span className={`text-[10px] md:text-[11px] px-2.5 py-1.5 rounded-lg font-bold uppercase tracking-wider border flex items-center gap-1.5 w-max shadow-sm ${
+                        subject.latestScaledScore >= ctx.targetScore ? "bg-emerald-50 text-emerald-700 border-emerald-200" : "bg-rose-50 text-rose-700 border-rose-200"
+                      }`}>
+                        <Target className="w-3.5 h-3.5" />
+                        Skor Asli: {subject.latestScaledScore} / {ctx.targetScore}
+                      </span>
+                    )}
                   </div>
                 </div>
-                <div className="flex items-center gap-3">
-                  <div className="hidden sm:flex flex-col items-end">
+                
+                <div className="flex items-center gap-3 bg-slate-50 border border-slate-100 p-2.5 pr-4 rounded-2xl self-start sm:self-auto shrink-0 w-full sm:w-auto shadow-sm">
+                  <ProgressRing progress={subject.averageMastery || 0} size={40} color={subject.averageMastery >= 70 ? "#10b981" : "var(--accent)"} />
+                  <div className="flex flex-col">
                     <span className="text-[10px] font-bold text-slate-500 uppercase tracking-wider">Penguasaan Keseluruhan</span>
                     <span className="text-sm font-semibold text-slate-700">{Math.round(subject.averageMastery || 0)}% Selesai</span>
                   </div>
-                  <ProgressRing progress={subject.averageMastery || 0} size={42} color={subject.averageMastery >= 70 ? "#10b981" : "var(--accent)"} />
                 </div>
               </div>
             
@@ -171,13 +172,16 @@ export default function LearningPathPage() {
                 const notStarted = chapter.status === "NOT_STARTED"
                 const locked = idx > 0 && subject.chapters[idx-1].status === "NOT_STARTED"
 
+                const accentText = 'text-[var(--accent)]'
+                const accentBg = 'bg-[var(--accent)]'
+
                 return (
-                  <div key={chapter.id} className={`relative p-5 rounded-2xl border-2 transition-all flex flex-col justify-between ${isCompleted ? 'border-emerald-100 bg-emerald-50/30' : inProgress ? 'border-blue-200 bg-blue-50/50 shadow-sm' : 'border-slate-100 bg-slate-50 opacity-80'}`}>
+                  <div key={chapter.id} className={`relative p-5 md:p-6 rounded-3xl border border-slate-100 bg-white shadow-[0_4px_20px_rgba(0,0,0,0.03)] transition-all flex flex-col justify-between ${locked ? 'opacity-60' : 'hover:shadow-md hover:border-slate-200'}`}>
                     <div>
                       <div className="flex items-start justify-between mb-3">
                         <div className="flex items-center gap-2">
-                          {isCompleted ? <CheckCircle className="w-5 h-5 text-emerald-500" /> : inProgress ? <PlayCircle className="w-5 h-5 text-blue-500" /> : locked ? <Lock className="w-4 h-4 text-slate-400" /> : <Circle className="w-4 h-4 text-slate-400" />}
-                          <span className={`text-xs font-bold uppercase tracking-wider ${isCompleted ? 'text-emerald-600' : inProgress ? (chapter.examReadiness !== null && chapter.examReadiness < 70 ? 'text-rose-600' : 'text-blue-600') : 'text-slate-500'}`}>
+                          {isCompleted ? <CheckCircle className="w-5 h-5 text-emerald-500" /> : inProgress || (!locked && notStarted) ? <PlayCircle className={`w-5 h-5 ${accentText}`} /> : locked ? <Lock className="w-4 h-4 text-slate-400" /> : <Circle className="w-4 h-4 text-slate-400" />}
+                          <span className={`text-xs font-bold uppercase tracking-wider ${isCompleted ? 'text-emerald-600' : inProgress ? (chapter.examReadiness !== null && chapter.examReadiness < 70 ? 'text-rose-600' : accentText) : 'text-slate-500'}`}>
                             {isCompleted ? "Dikuasai" : inProgress ? (chapter.examReadiness !== null && chapter.examReadiness < 70 ? "Butuh Perhatian" : "Sedang Dipelajari") : locked ? "Terkunci" : "Belum Mulai"}
                           </span>
                         </div>
@@ -186,17 +190,17 @@ export default function LearningPathPage() {
                         </span>
                       </div>
                       
-                      <h3 className="font-semibold text-slate-800 mb-2 pr-4">{chapter.name}</h3>
+                      <h3 className="text-lg font-semibold text-slate-800 mb-2 pr-4">{chapter.name}</h3>
                       
                       <div className="mt-4 space-y-3">
                         <div>
                           <div className="flex justify-between text-[10px] font-bold text-slate-500 mb-1.5 uppercase">
                             <span>Konsep (Latihan)</span>
-                            <span className={chapter.conceptMastery >= 70 ? "text-emerald-600" : "text-blue-600"}>{chapter.conceptMastery || 0}%</span>
+                            <span className={chapter.conceptMastery >= 70 ? "text-emerald-600" : accentText}>{chapter.conceptMastery || 0}%</span>
                           </div>
-                          <div className="h-1.5 bg-slate-200 rounded-full overflow-hidden">
+                          <div className="h-1.5 bg-slate-100 rounded-full overflow-hidden">
                             <div 
-                              className={`h-full rounded-full transition-all duration-1000 ${chapter.conceptMastery >= 70 ? 'bg-emerald-500' : 'bg-blue-500'}`} 
+                              className={`h-full rounded-full transition-all duration-1000 ${chapter.conceptMastery >= 70 ? 'bg-emerald-500' : accentBg}`} 
                               style={{ width: `${chapter.conceptMastery || 0}%` }} 
                             />
                           </div>
@@ -208,7 +212,7 @@ export default function LearningPathPage() {
                               <span>Kesiapan Ujian (TO)</span>
                               <span className={chapter.examReadiness >= 70 ? "text-emerald-600" : "text-rose-500"}>{chapter.examReadiness}%</span>
                             </div>
-                            <div className="h-1.5 bg-slate-200 rounded-full overflow-hidden">
+                            <div className="h-1.5 bg-slate-100 rounded-full overflow-hidden">
                               <div 
                                 className={`h-full rounded-full transition-all duration-1000 ${chapter.examReadiness >= 70 ? 'bg-emerald-500' : 'bg-rose-500'}`} 
                                 style={{ width: `${chapter.examReadiness}%` }} 
@@ -219,32 +223,32 @@ export default function LearningPathPage() {
                       </div>
                     </div>
 
-                    {!locked && (
-                      <div className="mt-5 space-y-2">
-                        {chapter.theorySummary && (
-                          <button
-                            onClick={() => setSelectedChapter(chapter)}
-                            className="w-full py-2 bg-[var(--pastel-purple)] text-[var(--accent-dark)] hover:bg-[var(--accent)]/10 rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-1.5 shadow-sm border border-[var(--accent)]/10"
-                          >
-                            <FileText className="w-3.5 h-3.5" /> Rangkuman Materi
-                          </button>
-                        )}
-                        <div className="grid grid-cols-2 gap-2">
-                          <button
-                            onClick={() => router.push(`/practice/${chapter.subjectId}?chapterId=${chapter.id}`)}
-                            className="py-2 bg-white border border-slate-200 hover:border-emerald-300 hover:text-emerald-600 rounded-xl text-[10px] font-bold text-slate-600 transition-all flex items-center justify-center gap-1 shadow-sm"
-                          >
-                            <PenTool className="w-3 h-3 text-emerald-500" /> Latihan Bab
-                          </button>
-                          <button
-                            onClick={() => router.push("/tutor")}
-                            className="py-2 bg-white border border-slate-200 hover:border-blue-300 hover:text-blue-600 rounded-xl text-[10px] font-bold text-slate-600 transition-all flex items-center justify-center gap-1 shadow-sm"
-                          >
-                            Tanya AI <Sparkles className="w-3 h-3 text-blue-500" />
-                          </button>
+                      {!locked && (
+                        <div className="mt-5 pt-4 border-t border-slate-100 space-y-2">
+                          {chapter.theorySummary && (
+                            <button
+                              onClick={() => setSelectedChapter(chapter)}
+                              className="w-full py-2 bg-[var(--pastel-purple)] text-[var(--accent-dark)] hover:bg-[var(--accent)]/10 rounded-xl text-[10px] font-bold transition-all flex items-center justify-center gap-1 shadow-sm border border-[var(--accent)]/10"
+                            >
+                              <FileText className="w-3.5 h-3.5" /> Rangkuman Materi
+                            </button>
+                          )}
+                          <div className="grid grid-cols-2 gap-2">
+                            <button
+                              onClick={() => router.push(`/practice/${chapter.subjectId}?chapterId=${chapter.id}`)}
+                              className="py-2 bg-white border border-slate-200 hover:border-emerald-300 hover:text-emerald-600 rounded-xl text-[10px] font-bold text-slate-600 transition-all flex items-center justify-center gap-1 shadow-sm whitespace-nowrap px-1"
+                            >
+                              <PenTool className="w-3 h-3 text-emerald-500 shrink-0" /> Latihan Bab
+                            </button>
+                            <button
+                              onClick={() => router.push("/tutor")}
+                              className="py-2 bg-white border border-slate-200 hover:border-[var(--accent)]/40 hover:text-[var(--accent)] rounded-xl text-[10px] font-bold text-slate-600 transition-all flex items-center justify-center gap-1 shadow-sm whitespace-nowrap px-1"
+                            >
+                              Tanya AI <Sparkles className="w-3 h-3 text-[var(--accent)] shrink-0" />
+                            </button>
+                          </div>
                         </div>
-                      </div>
-                    )}
+                      )}
                   </div>
                 )
               })}

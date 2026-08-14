@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "“Due to a scheduling conflict, the workshop has been rescheduled for next Tuesday.” Which of the following best restates the sentence?",
+      "options": [
+        "The workshop is canceled because of a scheduling conflict, so it will not occur next Tuesday",
+        "Because of a scheduling conflict, the workshop is now set for next Tuesday",
+        "A scheduling conflict has forced the workshop to be permanently postponed until next Tuesday",
+        "Next Tuesday is the only available day for the workshop since there was a scheduling conflict",
+        "The scheduling conflict resulted in the workshop being held earlier than planned—on next Tuesday"
+      ],
+      "correctAnswer": "Because of a scheduling conflict, the workshop is now set for next Tuesday",
+      "explanation": null
+    },
+    {
+      "text": "“For many customers, the new smartphone’s battery life is a significant improvement over previous models.” Which of the following best restates the sentence?",
+      "options": [
+        "Most customers think the new smartphone’s battery life is only marginally better than that of earlier models",
+        "Customers generally agree that the new smartphone’s battery life is similar to previous models",
+        "The majority of customers feel that the new smartphone’s battery life does not differ from older models",
+        "Many customers view the new smartphone’s battery performance as a major upgrade compared to older versions",
+        "Many customers believe that other features are more important than the battery life of the new smartphone"
+      ],
+      "correctAnswer": "Many customers view the new smartphone’s battery performance as a major upgrade compared to older versions",
+      "explanation": null
+    },
+    {
+      "text": "“Recent studies indicate that deforestation is accelerating at an unprecedented rate, posing a threat to global biodiversity.” Which of the following best restates the sentence?",
+      "options": [
+        "Recent studies reveal that deforestation is slowing down and no longer poses a risk to biodiversity",
+        "Studies suggest that deforestation has remained constant, with little impact on the world’s biodiversity",
+        "Recent research shows that deforestation is speeding up more than ever, endangering global biodiversity",
+        "Despite rapid deforestation, global biodiversity appears to be unaffected according to recent research",
+        "Recent findings imply that while deforestation is increasing, it has yet to threaten global biodiversity"
+      ],
+      "correctAnswer": "Recent research shows that deforestation is speeding up more than ever, endangering global biodiversity",
+      "explanation": null
+    },
+    {
+      "text": "“After years of dedicated practice, Elena has become one of the most proficient violinists in the region.” Which of the following best restates the sentence?",
+      "options": [
+        "Elena’s years of focused practice have established her as one of the top violinists in the area",
+        "Even after years of practice, Elena is still not recognized as a skilled violinist in the region",
+        "Despite her extensive practice, Elena’s proficiency as a violinist remains average compared to her peers",
+        "Elena has practiced for years, yet she has not achieved significant proficiency as a violinist in the region",
+        "After only a short period of practice, Elena was immediately acknowledged as a leading violinist"
+      ],
+      "correctAnswer": "Elena’s years of focused practice have established her as one of the top violinists in the area",
+      "explanation": null
+    },
+    {
+      "text": "“The company implemented new eco-friendly policies to reduce waste and conserve energy.” Which of the following best restates the sentence?",
+      "options": [
+        "The company introduced environmentally friendly measures aimed at cutting waste and saving energy",
+        "The company abandoned its previous environmental efforts in favor of increased production",
+        "New company policies now focus solely on profit, disregarding waste reduction and energy conservation",
+        "The company’s new eco-friendly initiatives have resulted in higher waste production and energy use",
+        "The company revised its policies, but the changes have not addressed waste or energy issues"
+      ],
+      "correctAnswer": "The company introduced environmentally friendly measures aimed at cutting waste and saving energy",
+      "explanation": null
+    },
+    {
+      "text": "“The manager is unwilling to say anything because he has not yet had the opportunity to consult his legal adviser.” Which of the following best expresses the same idea?",
+      "options": [
+        "The manager remains silent to avoid any potential legal complications",
+        "The manager's lawyer has instructed him to stay completely silent",
+        "The manager is refraining from speaking until he receives legal guidance",
+        "The manager is directing all questions to his lawyer and refusing to answer them himself",
+        "After consulting with his lawyer, the manager has chosen not to respond to any further questions"
+      ],
+      "correctAnswer": "The manager is refraining from speaking until he receives legal guidance",
+      "explanation": null
+    },
+    {
+      "text": "“The teacher postponed the exam to give the students more time to prepare.” Which of the following best expresses the same idea?",
+      "options": [
+        "The teacher delayed the exam so that students could study longer",
+        "The teacher changed the exam date because the students requested it",
+        "The teacher canceled the exam due to a lack of preparation among students",
+        "The teacher rescheduled the test because the students were not ready",
+        "The teacher gave students extra lessons before administering the test"
+      ],
+      "correctAnswer": "The teacher delayed the exam so that students could study longer",
+      "explanation": null
+    },
+    {
+      "text": "“Despite his efforts, he couldn't convince them to change their decision.” Which of the following best expresses the same idea?",
+      "options": [
+        "He put in little effort, so they ignored his opinion",
+        "Even though he tried, he failed to make them reconsider",
+        "His arguments were so weak that they refused to listen",
+        "They initially changed their decision but later reversed it",
+        "He was able to persuade them after multiple attempts"
+      ],
+      "correctAnswer": "Even though he tried, he failed to make them reconsider",
+      "explanation": null
+    },
+    {
+      "text": "“Unless we start now, we won't be able to finish on time.” Which of the following best expresses the same idea?",
+      "options": [
+        "Even if we start now, we may not finish on time",
+        "We will finish on time only if we work faster",
+        "Starting late will give us more time to plan carefully",
+        "Whether we start now or later, the deadline remains the same",
+        "We must begin immediately if we want to complete it on time"
+      ],
+      "correctAnswer": "We must begin immediately if we want to complete it on time",
+      "explanation": null
+    },
+    {
+      "text": "“He was so exhausted that he fell asleep as soon as he lay down.” Which of the following best expresses the same idea?",
+      "options": [
+        "He fell asleep quickly because he had nothing else to do",
+        "He forced himself to sleep despite being energetic",
+        "He lay down but stayed awake due to exhaustion",
+        "He was extremely tired and immediately fell asleep",
+        "He slept for a short while before waking up again"
+      ],
+      "correctAnswer": "He was extremely tired and immediately fell asleep",
+      "explanation": null
+    },
+    {
+      "text": "“The company decided to reduce its expenses to avoid financial problems.” Which of the following best expresses the same idea?",
+      "options": [
+        "The company cut costs to prevent financial difficulties",
+        "The company saved money by hiring fewer employees",
+        "The company faced financial problems due to high expenses",
+        "The company wanted to invest more, so it reduced costs",
+        "The company raised prices instead of cutting expenses"
+      ],
+      "correctAnswer": "The company cut costs to prevent financial difficulties",
+      "explanation": null
+    },
+    {
+      "text": "“I would have helped you if you had told me earlier.” Which of the following best expresses the same idea?",
+      "options": [
+        "I helped you as soon as you told me",
+        "I didn't help because you informed me too late",
+        "I was unable to help because I didn't know what to do",
+        "You refused my help when I offered it earlier",
+        "Even if you had told me earlier, I couldn't have helped"
+      ],
+      "correctAnswer": "I didn't help because you informed me too late",
+      "explanation": null
+    },
+    {
+      "text": "“Although the scientist's discovery was groundbreaking, it did not receive immediate recognition.” Which of the following best expresses the same idea?",
+      "options": [
+        "The scientist's discovery was considered insignificant at first",
+        "The scientist's work was innovative but was not acknowledged right away",
+        "The scientist refused to share the discovery, delaying recognition",
+        "The discovery was dismissed as unimportant until much later",
+        "The discovery was widely praised as soon as it was made"
+      ],
+      "correctAnswer": "The scientist's work was innovative but was not acknowledged right away",
+      "explanation": null
+    },
+    {
+      "text": "“While his proposal was initially dismissed as impractical, further analysis revealed its potential benefits.” Which of the following best expresses the same idea?",
+      "options": [
+        "His proposal, once considered unfeasible, was later recognized for its advantages",
+        "His proposal was rejected outright and never reconsidered",
+        "The proposal was too ambitious to be taken seriously",
+        "His idea was immediately accepted after thorough analysis",
+        "The proposal’s flaws became more apparent upon closer examination"
+      ],
+      "correctAnswer": "His proposal, once considered unfeasible, was later recognized for its advantages",
+      "explanation": null
+    },
+    {
+      "text": "“The committee reached a decision only after extensive deliberation and debate.” Which of the following best expresses the same idea?",
+      "options": [
+        "The committee made a quick and unanimous decision",
+        "The decision was made without much discussion",
+        "The committee carefully considered the issue before deciding",
+        "The committee was divided and failed to reach a conclusion",
+        "The committee avoided making a decision after long discussions"
+      ],
+      "correctAnswer": "The committee carefully considered the issue before deciding",
+      "explanation": null
+    }
+  ]
+}

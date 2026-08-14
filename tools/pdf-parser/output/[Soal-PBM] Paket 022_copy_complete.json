@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Manakah kalimat yang mengandung kesalahan dalam penulisan kata?",
+      "options": [
+        "Al-Khawarizmi merupakan ilmuwan Muslim yang berjasa dalam bidang matematika.",
+        "Bukunya yang terkenal menjadi rujukan dalam perkembangan ilmu pengetahuan.",
+        "Ia dikenal sebagai bapak al-jabar karena kontribusinya dalam bidang tersebut.",
+        "Ilmuwan ini juga memberikan kontribusi besar dalam bidang astronomi dan geografi.",
+        "Karya-karya nya memberikan pengaruh besar bagi perkembangan ilmu di Eropa."
+      ],
+      "correctAnswer": "E",
+      "explanation": "Penulisan bentuk terikat 'nya' harus dirangkai dengan kata yang mendahuluinya (karyanya), bukan dipisah dengan tanda hubung."
+    },
+    {
+      "text": "Pilihlah kata yang paling tepat untuk mengisi bagian rumpang dalam kalimat berikut:\n\n\"Buku Al-Khawarizmi yang berjudul ______ menjadi dasar bagi perkembangan aljabar modern.\"",
+      "options": [
+        "Aljabar",
+        "Al-Kitab",
+        "Astronomi",
+        "Hisab",
+        "Wal-Muqabala"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Judul lengkap buku tersebut adalah 'Al-Kitab al-Mukhtasar fi Hisab al-Jabr wal-Muqabala'."
+    },
+    {
+      "text": "Pilihlah kalimat yang paling efektif dari pilihan berikut:",
+      "options": [
+        "Al-Khawarizmi adalah seorang ilmuwan yang berasal dari dunia Islam yang memiliki banyak kontribusi dalam bidang ilmu pengetahuan yang berbeda-beda.",
+        "Al-Khawarizmi adalah ilmuwan Muslim yang berkontribusi besar dalam bidang matematika, astronomi, dan geografi.",
+        "Ilmuwan Al-Khawarizmi merupakan seorang tokoh yang memberikan banyak kontribusi dalam bidang yang berbeda-beda, seperti matematika dan bidang ilmu lainnya.",
+        "Dalam bidang ilmu yang beragam, Al-Khawarizmi memberikan berbagai macam sumbangan yang berharga dan bermanfaat bagi ilmu pengetahuan.",
+        "Sebagai seorang ilmuwan Islam, Al-Khawarizmi yang hidup pada abad ke-9 dikenal karena keilmuannya yang banyak dalam berbagai bidang."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Kalimat B memiliki struktur yang paling padat, jelas, tidak redundan, dan langsung pada inti informasi."
+    },
+    {
+      "text": "Susunlah kalimat-kalimat berikut agar menjadi paragraf yang padu!\n1. Karyanya menjadi dasar dalam perkembangan ilmu aljabar yang digunakan hingga saat ini.\n2. Al-Khawarizmi adalah seorang ilmuwan Muslim yang terkenal dalam bidang matematika.\n3. Salah satu bukunya, Al-Kitab al-Mukhtasar fi Hisab al-Jabr wal-Muqabala, berisi konsep-konsep dasar aljabar.\n4. Kontribusinya dalam dunia ilmu pengetahuan sangat berpengaruh bagi peradaban Islam dan Eropa.\n5. Ia juga berperan dalam pengembangan ilmu astronomi dan geografi.\n\nManakah susunan yang paling tepat?",
+      "options": [
+        "2 - 3 - 1 - 5 - 4",
+        "2 - 5 - 3 - 1 - 4",
+        "2 - 3 - 1 - 4 - 5",
+        "2 - 4 - 3 - 1 - 5",
+        "2 - 1 - 3 - 5 - 4"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Susunan yang logis dimulai dari pengenalan tokoh (2), menyebutkan buku dan karyanya (3 dan 1), lalu kontribusi lain di bidang ilmu lain (4), dan penutup peradaban (5)."
+    },
+    {
+      "text": "Manakah kata yang paling tepat untuk menggantikan kata \"berkontribusi\" dalam kalimat berikut?\n\n\"Al-Khawarizmi berkontribusi dalam perkembangan ilmu matematika dan astronomi.\"",
+      "options": [
+        "Membantu",
+        "Memberikan",
+        "Menyumbang",
+        "Meneliti",
+        "Menyediakan"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Kata 'menyumbang' atau 'memberikan sumbangan' merupakan padanan yang paling baku dan setara dengan makna 'berkontribusi' dalam konteks pengembangan ilmu."
+    },
+    {
+      "text": "Pilihlah kata atau frasa yang paling tepat untuk melengkapi kalimat berikut agar menjadi lebih jelas dan efektif:\n\n\"Teknologi dalam pendidikan harus dimanfaatkan dengan bijak agar ...\"",
+      "options": [
+        "Guru dapat memberikan tugas dengan lebih banyak kepada siswa.",
+        "Siswa dan guru tidak terlalu bergantung pada teknologi yang canggih.",
+        "Pembelajaran menjadi lebih efektif tanpa menimbulkan dampak negatif.",
+        "Semua siswa dapat menggunakan teknologi tanpa batasan.",
+        "Teknologi bisa menggantikan peran guru sepenuhnya dalam kelas."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Pemanfaatan secara bijak bertujuan agar tujuan pembelajaran tercapai (efektif) dan terhindar dari dampak buruk (dampak negatif)."
+    },
+    {
+      "text": "Kalimat berikut memiliki kata yang bisa dihilangkan agar lebih efektif. Manakah kata yang seharusnya dihapus?\n\n\"Penggunaan teknologi dalam dunia pendidikan memungkinkan siswa untuk bisa mengakses informasi dengan cepat.\"",
+      "options": [
+        "Penggunaan",
+        "Dalam",
+        "Memungkinkan",
+        "Bisa",
+        "Cepat"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Kata 'bisa' redundan dengan kata 'memungkinkan' karena keduanya menyatakan potensi atau kemampuan."
+    },
+    {
+      "text": "Manakah judul yang paling sesuai untuk teks di atas?",
+      "options": [
+        "Dampak Negatif Teknologi dalam Kehidupan",
+        "Pemanfaatan Teknologi di Dunia Pendidikan",
+        "Cara Menggunakan Teknologi Secara Seimbang",
+        "Perkembangan Teknologi Digital Terkini",
+        "Ketergantungan terhadap Teknologi dalam Pendidikan"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Teks membahas secara umum mengenai pemanfaatan teknologi di bidang pendidikan beserta sisi positif dan tantangannya."
+    },
+    {
+      "text": "Manakah kalimat yang memiliki makna yang sama dengan kalimat berikut?\n\n\"Pemanfaatan teknologi dalam pendidikan harus dilakukan secara bijak agar tidak menimbulkan dampak negatif.\"",
+      "options": [
+        "Teknologi harus digunakan sepuasnya dalam pendidikan agar bermanfaat.",
+        "Penggunaan teknologi dalam dunia pendidikan harus dikendalikan agar tidak membawa pengaruh buruk.",
+        "Semua sekolah harus menggunakan teknologi agar lebih maju.",
+        "Pemanfaatan teknologi yang berlebihan bisa sangat berguna bagi siswa dan guru.",
+        "Pendidikan tanpa teknologi akan lebih efektif dibandingkan dengan pendidikan berbasis digital."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Makna 'dilakukan secara bijak agar tidak menimbulkan dampak negatif' sejalan dengan 'harus dikendalikan agar tidak membawa pengaruh buruk'."
+    },
+    {
+      "text": "Manakah kalimat yang mengandung kesalahan dalam penulisan kata?",
+      "options": [
+        "Teknologi mempermudah siswa dalam mencari informasi secara cepat dan akurat.",
+        "Pemanfaatan teknologi yang bijak akan membawa manfaat besar dalam pendidikan.",
+        "Guru-guru dihimbau untuk mengajarkan siswa cara menggunakan teknologi secara bertanggung jawab.",
+        "Dalam era digital saat ini, banyak sekolah mulai menerapkan sistem pembelajaran berbasis teknologi.",
+        "Ketergantungan terhadap teknologi dapat mengurangi kemampuan siswa dalam berpikir kritis."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Kata 'dihimbau' adalah bentuk tidak baku dari 'diimbau' (sesuai KBBI)."
+    },
+    {
+      "text": "Di mana posisi yang paling tepat untuk menambahkan kalimat berikut dalam teks di atas?\n\n\"Banyak negara telah berkomitmen untuk mengurangi emisi karbon dengan menerapkan kebijakan ramah lingkungan.\"",
+      "options": [
+        "Sebelum kalimat (1)",
+        "Setelah kalimat (3)",
+        "Setelah kalimat (2)",
+        "Setelah kalimat (4)",
+        "Tidak perlu ditambahkan"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Kalimat tersebut sangat cocok diletakkan setelah kalimat (3) sebagai bentuk contoh atau penguatan atas langkah nyata dalam mengurangi emisi gas rumah kaca."
+    },
+    {
+      "text": "Manakah kalimat yang memiliki kesalahan dalam penggunaan tanda koma?",
+      "options": [
+        "Naiknya permukaan air laut, cuaca ekstrem, serta perubahan pola curah hujan merupakan dampak perubahan iklim.",
+        "Jika tidak ada tindakan yang diambil, dampak perubahan iklim akan semakin parah dan sulit untuk dikendalikan.",
+        "Banyak negara telah berkomitmen, untuk mengurangi emisi karbon dengan menerapkan kebijakan ramah lingkungan.",
+        "Oleh karena itu, diperlukan langkah-langkah nyata untuk mengurangi emisi gas rumah kaca.",
+        "Dalam menghadapi perubahan iklim, kita harus beralih ke energi terbarukan."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Penggunaan tanda koma sebelum konjungsi tujuan 'untuk' dalam kalimat C tidak diperlukan karena tidak memisahkan anak kalimat penjelas yang berada di tengah atau awal secara salah."
+    },
+    {
+      "text": "Manakah perbaikan yang paling efektif untuk kalimat berikut?\n\n\"Peningkatan suhu global yang terjadi saat ini menyebabkan munculnya dampak-dampak yang bisa terjadi, seperti naiknya permukaan air laut, cuaca ekstrem, serta perubahan pola curah hujan.\"",
+      "options": [
+        "Peningkatan suhu global menyebabkan berbagai dampak, seperti naiknya permukaan air laut, cuaca ekstrem, dan perubahan pola curah hujan.",
+        "Saat ini peningkatan suhu global terjadi yang mengakibatkan naiknya permukaan air laut, cuaca ekstrem, dan perubahan pola curah hujan.",
+        "Akibat peningkatan suhu global saat ini, menyebabkan berbagai dampak seperti naiknya permukaan air laut, cuaca ekstrem, dan perubahan pola curah hujan.",
+        "Karena suhu global meningkat, maka terjadi dampak seperti naiknya permukaan air laut, cuaca ekstrem, dan perubahan pola curah hujan.",
+        "Peningkatan suhu global menyebabkan dampak yang bisa terjadi, seperti naiknya permukaan air laut, cuaca ekstrem, serta perubahan pola curah hujan."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Opsi A menghilangkan pemborosan kata ('munculnya dampak-dampak yang bisa terjadi') sehingga kalimat menjadi padu, efektif, dan logis."
+    },
+    {
+      "text": "Manakah kalimat dengan penulisan huruf kapital yang benar?",
+      "options": [
+        "Dampak perubahan iklim terjadi di berbagai wilayah, terutama di Eropa, Amerika Utara, dan asia tenggara.",
+        "Menurut laporan dari badan meteorologi dunia, suhu global meningkat tajam dalam sepuluh tahun terakhir.",
+        "PBB telah mengadakan berbagai pertemuan Internasional untuk membahas kebijakan lingkungan.",
+        "Negara-Negara di Asia Tenggara mengalami kenaikan suhu rata rata setiap tahunnya.",
+        "Organisasi Meteorologi Dunia melaporkan bahwa perubahan iklim semakin memburuk."
+      ],
+      "correctAnswer": "E",
+      "explanation": "Nama lembaga resmi internasional (Organisasi Meteorologi Dunia) ditulis dengan huruf kapital setiap unsurnya, sedangkan pilihan lain terdapat kesalahan kapitalisasi (asia tenggara, badan meteorologi dunia, Internasional, dll)."
+    },
+    {
+      "text": "Berikut ini adalah kalimat-kalimat dari sebuah paragraf. Urutan manakah yang paling logis?\n1. Oleh karena itu, para ilmuwan menyarankan penggunaan energi terbarukan.\n2. Perubahan iklim semakin buruk dan menyebabkan banyak bencana alam.\n3. Salah satu penyebab utama perubahan iklim adalah emisi gas rumah kaca dari aktivitas manusia.\n4. Banyak negara mulai beralih ke energi ramah lingkungan sebagai solusi untuk mengurangi emisi karbon.",
+      "options": [
+        "2 - 3 - 4 - 1",
+        "3 - 2 - 1 - 4",
+        "2 - 1 - 3 - 4",
+        "3 - 2 - 4 - 1",
+        "1 - 3 - 2 - 4"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Susunan yang paling logis dimulai dari penyebab utama (3), akibat yang ditimbulkan (2), kesimpulan/saran ilmuwan (1), lalu tindakan nyata negara-negara (4)."
+    },
+    {
+      "text": "Kata \"menerapkan\" dalam teks di atas dapat digantikan dengan kata yang memiliki makna paling mendekati, yaitu...",
+      "options": [
+        "Mengabaikan",
+        "Melakukan",
+        "Menghentikan",
+        "Menolak",
+        "Meninggalkan"
+      ],
+      "correctAnswer": "Melakukan",
+      "explanation": null
+    },
+    {
+      "text": "Manakah inti dari kalimat berikut?\n\n\"Salah satu cara untuk menerapkan pola hidup sehat adalah dengan mengonsumsi makanan bergizi.\"",
+      "options": [
+        "Cara menerapkan pola hidup sehat",
+        "Mengonsumsi makanan bergizi",
+        "Salah satu cara adalah makanan bergizi",
+        "Pola hidup sehat dengan makanan bergizi",
+        "Salah satu cara makanan sehat"
+      ],
+      "correctAnswer": "Mengonsumsi makanan bergizi",
+      "explanation": null
+    },
+    {
+      "text": "Gabungan yang paling efektif dari kalimat berikut adalah...\n\n\"Olahraga secara rutin berperan dalam menjaga kebugaran tubuh. Tanpa pola hidup sehat, tubuh akan rentan terhadap berbagai penyakit.\"",
+      "options": [
+        "Olahraga secara rutin berperan dalam menjaga kebugaran tubuh, tanpa pola hidup sehat tubuh akan rentan terhadap berbagai penyakit.",
+        "Jika tubuh tidak memiliki pola hidup sehat, maka olahraga secara rutin akan menjaga kebugaran tubuh dan mencegah berbagai penyakit.",
+        "Olahraga secara rutin menjaga kebugaran tubuh dan jika tidak dilakukan, tubuh akan rentan terhadap berbagai penyakit.",
+        "Olahraga secara rutin penting untuk kebugaran tubuh, karena tanpa pola hidup sehat, tubuh akan rentan terhadap penyakit.",
+        "Untuk menjaga kebugaran tubuh, seseorang harus olahraga secara rutin, tetapi tanpa pola hidup sehat, tubuh tetap rentan terhadap penyakit."
+      ],
+      "correctAnswer": "Olahraga secara rutin penting untuk kebugaran tubuh, karena tanpa pola hidup sehat, tubuh akan rentan terhadap penyakit.",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang tepat untuk melengkapi teks di atas adalah...\n\n\"Selain itu, ______ juga berperan dalam menjaga kebugaran tubuh.\"",
+      "options": [
+        "Mengonsumsi makanan cepat saji",
+        "Beristirahat yang cukup",
+        "Merokok secara teratur",
+        "Tidak melakukan aktivitas fisik",
+        "Kurang tidur setiap malam"
+      ],
+      "correctAnswer": "Beristirahat yang cukup",
+      "explanation": null
+    },
+    {
+      "text": "Manakah kalimat yang memiliki makna sama dengan pernyataan berikut?\n\n\"Tanpa pola hidup sehat, tubuh akan rentan terhadap berbagai penyakit.\"",
+      "options": [
+        "Tubuh tetap sehat meskipun tanpa pola hidup sehat.",
+        "Jika seseorang menerapkan pola hidup sehat, tubuh akan lebih kuat terhadap penyakit.",
+        "Pola hidup sehat tidak berpengaruh terhadap kesehatan tubuh.",
+        "Jika seseorang tidak menerapkan pola hidup sehat, tubuhnya pasti akan selalu sakit.",
+        "Dengan pola hidup sehat, seseorang akan terbebas dari segala penyakit."
+      ],
+      "correctAnswer": "Jika seseorang menerapkan pola hidup sehat, tubuh akan lebih kuat terhadap penyakit.",
+      "explanation": null
+    }
+  ]
+}

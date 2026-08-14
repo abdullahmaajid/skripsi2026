@@ -1,0 +1,179 @@
+{
+  "questions": [
+    {
+      "text": "Diberikan persamaan garis $k$ adalah $2x - 6y - 2 = 0$. Manakah pernyataan dibawah ini yang SALAH?",
+      "options": [
+        "Gradien garisnya adalah \\frac{1}{3}",
+        "Garis ini memotong sumbu y di titik (0, -\\frac{1}{3})",
+        "Garis ini memotong sumbu x di titik (1,0)",
+        "Gradien garis ini adalah -\\frac{1}{3}",
+        "Persamaan garis lain yang memotong garis k secara tegak lurus adalah -3"
+      ],
+      "correctAnswer": "Gradien garis ini adalah -\\frac{1}{3}",
+      "explanation": "Persamaan $2x - 6y - 2 = 0 \\implies 6y = 2x - 2 \\implies y = \\frac{1}{3}x - \\frac{1}{3}$. Gradiennya adalah $\\frac{1}{3}$."
+    },
+    {
+      "text": "Diberikan sistem persamaan linear \\begin{cases} 2x + y - z = 4 \\\\ x - 3y + 2z = -5 \\\\ 3x + 2y - 4z = 7 \\end{cases} Manakah dibawah ini yang tepat hubungan antara kuantitas P dan Q? \\begin{tabular}{|c|c|} \\hline P & Q \\\\ \\hline 3x - 2y + z & x + y - 3z \\\\ \\hline \\end{tabular}",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "Tidak dapat ditentukan hubungan keduanya"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diberikan persamaan kuadrat: $ax^2 + bx + c = 0$ Dengan nilai $a = 2, b = -5, c = 3$. Dengan akar - akar $x_1$ dan $x_2$. Maka persamaan kuadrat yang akar - akarnya kuadrat dari persamaan diatas adalah....",
+      "options": [
+        "x^2 + 13x + 9 = 0",
+        "x^2 - 13x - 9 = 0",
+        "4x^2 - 13x - 9 = 0",
+        "4x^2 - 13x + 9 = 0",
+        "4x^2 + 13x + 9 = 0"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui fungsi kuadrat $f(x) = px^2 - qx + 5$. Jika diketahui nilai minimum fungsi terjadi ketika $x = 2$. Maka perbandingan $p$ dan $q$ adalah....",
+      "options": [
+        "1 : 4",
+        "4 : 1",
+        "1 : 3",
+        "3 : 1",
+        "2 : 3"
+      ],
+      "correctAnswer": "1 : 4",
+      "explanation": "Turunan pertama $f'(x) = 2px - q$. Nilai minimum terjadi saat $f'(2) = 0 \\implies 4p - q = 0 \\implies q = 4p \\implies \\frac{p}{q} = \\frac{1}{4}$."
+    },
+    {
+      "text": "Jika sebuah semangka bulat sempurna utuh memiliki jari – jari r, dipotong sebanyak seperempat bagian. Maka rasio antara volume bagian terpotong, dengan volume bagian tersisa adalah....",
+      "options": [
+        "\\frac{1}{3}",
+        "\\frac{1}{4}",
+        "\\frac{3}{4}",
+        "\\frac{4}{3}",
+        "\\frac{2}{3}"
+      ],
+      "correctAnswer": "\\frac{1}{3}",
+      "explanation": "Bagian terpotong $\\frac{1}{4}$, bagian tersisa $\\frac{3}{4}$. Rasio = $\\frac{1/4}{3/4} = \\frac{1}{3}$."
+    },
+    {
+      "text": "Jika diberikan matriks: \\begin{pmatrix} y \\\\ x \\end{pmatrix} = \\begin{pmatrix} 2 & -1 \\\\ -3 & 3 \\end{pmatrix}^{-1} \\begin{pmatrix} 6 \\\\ 5 \\end{pmatrix} Dengan $x \\neq \\frac{1}{2}$, maka nilai $\\frac{1}{2}x - y = ...$",
+      "options": [
+        "-3",
+        "-2",
+        "-1",
+        "2",
+        "3"
+      ],
+      "correctAnswer": "-3",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan Kumpulan data berikut: $b, -7, 3, -5$. Pernyataan dibawah ini yang benar: 1) Rata – rata Kumpulan data tersebut -3 jika b=-9. 2) Median Kumpulan data tersebut -5 jika b=-7. 3) Modus Kumpulan data tersebut -5 jika b=-4. 4) Jangkauan Kumpulan data tersebut 10 jika b=-2",
+      "options": [
+        "(1), (2), dan (3) SAJA yang benar",
+        "(1) dan (3) SAJA yang benar",
+        "(2) dan (4) SAJA yang benar",
+        "HANYA (4) yang benar",
+        "SEMUA pilihan yang benar"
+      ],
+      "correctAnswer": "HANYA (4) yang benar",
+      "explanation": null
+    },
+    {
+      "text": "Bilangan prima $p$ dan $q$ berbeda yang tidak lebih dari 8 dengan $p > q$. Jika jumlah keduanya harus bilangan genap. Berapakah banyaknya dari empat pernyataan berikut yang bernilai benar dari kemungkinan p - q? 1) 1, 2) 2, 3) 3, 4) 4",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "2",
+      "explanation": null
+    },
+    {
+      "text": "Fungsi linear $f(x) = ax + b$ dengan $f(\\frac{2}{3}) = 8$ dan $f(-\\frac{5}{3}) = 1$. Maka, $f(x) = \\dots$",
+      "options": [
+        "f(x) = 3x + 6",
+        "f(x) = 3x - 6",
+        "f(x) = 6x - 3",
+        "f(x) = 6x + 3",
+        "f(x) = -3x + 6"
+      ],
+      "correctAnswer": "f(x) = 3x + 6",
+      "explanation": null
+    },
+    {
+      "text": "Sebuah barisan aritmetika memiliki rumus jumlah n suku pertamanya yaitu $S_n = n^2 - 3n$. Beda dari barisan tersebut yaitu …",
+      "options": [
+        "-4",
+        "-2",
+        "1",
+        "2",
+        "4"
+      ],
+      "correctAnswer": "2",
+      "explanation": "$U_1 = S_1 = 1^2 - 3(1) = -2$. $S_2 = 2^2 - 3(2) = 4 - 6 = -2$. $U_2 = S_2 - S_1 = -2 - (-2) = 0$. Beda $b = U_2 - U_1 = 0 - (-2) = 2$."
+    },
+    {
+      "text": "Dipilih bilangan cacah kurang dari 10 sebanyak 4 digit angka secara acak. Berapakah jumlah pernyataan dibawah ini yang benar? 1) Peluang semua terpilih bilangan prima adalah \\frac{1}{210} 2) Peluang semua terpilih bilangan genap adalah \\frac{1}{35} 3) Peluang semua terpilih bilangan ganjil adalah \\frac{1}{210} 4) Jumlah semua peluang dari tiga pernyataan diatas adalah \\frac{1}{30}.",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "1",
+      "explanation": null
+    },
+    {
+      "text": "Sebuah PIN (personal identification number) ingin dibuat sebanyak 4 digit secara acak. Angka yang dipilih adalah bilangan cacah kurang dari 10. Berapakah banyaknya kemungkinan terpilih semua bilangan genap?",
+      "options": [
+        "625"
+      ],
+      "correctAnswer": "625",
+      "explanation": "Bilangan cacah kurang dari 10 adalah {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} (total 10 angka). Bilangan genap ada 5 ({0, 2, 4, 6, 8}). Kemungkinan 4 digit semua genap adalah $5 \\times 5 \\times 5 \\times 5 = 5^4 = 625$."
+    },
+    {
+      "text": "Diberikan persamaan berikut: $\\left(\\frac{1}{128}\\right)^{x+1} = (8)^{\\frac{3}{4}}$. Jika pangkat dari eksponen merupakan persamaan kuadrat yang memiliki akar-akar $x_1$ dan $x_2$. Maka jumlah akar-akarnya adalah....",
+      "options": [
+        "-1",
+        "1",
+        "2",
+        "-2",
+        "0"
+      ],
+      "correctAnswer": "-1",
+      "explanation": "Persamaan dapat diubah menjadi bentuk basis 2: $(2^{-7})^{x+1} = (2^3)^{\\frac{3}{4}} \\Rightarrow -7x - 7 = \\frac{9}{4}x \\Rightarrow -7x^2 - 7x = \\frac{3}{4}$ atau setara dengan persamaan kuadrat. Jumlah akar-akar $x_1 + x_2 = -b/a = -1$."
+    },
+    {
+      "text": "Diberikan gambar seperti berikut. Besar \\angle HEB adalah...",
+      "options": [
+        "75^{\\circ}",
+        "105^{\\circ}",
+        "90^{\\circ}",
+        "60^{\\circ}",
+        "120^{\\circ}"
+      ],
+      "correctAnswer": "105^{\\circ}",
+      "explanation": "Berdasarkan sifat garis dan sudut pada gambar, sudut HEB bersesuaian atau sehadap/bertolak belakang dengan sudut yang bernilai 105^{\\circ}."
+    },
+    {
+      "text": "Diberikan gambar seperti berikut. Jika diketahui luas daerah terpotong adalah $\\frac{25}{4}\\pi$ satuan luas, dan persegi memiliki luas 64 satuan luas. Maka Panjang x adalah....",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": "3",
+      "explanation": "Luas persegi = 64, maka panjang sisi persegi $s = \\sqrt{64} = 8$. Luas juring lingkaran adalah $\\frac{25}{4}\\pi$, didapat jari-jari $r = 5$. Panjang $x = 8 - 5 = 3$."
+    }
+  ]
+}

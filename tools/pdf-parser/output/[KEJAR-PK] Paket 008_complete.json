@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Manakah bentuk yang menyatakan hubungan kuantitas antara nilai P dan nilai Q.\n\n| P | Q |\n|---|---|\n| Jumlah suku ke-10 pada deret $3, 5, 7, 9$ | Suku ke-6 pada barisan aritmatika, Jika $a = 10$ dan $U_{10} = 235$ |",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah bentuk yang menyatakan hubungan kuantitas antara nilai P dan nilai Q.\n\n| P | Q |\n|---|---|\n| Hasil perkalian bilangan prima yang terletak antara $15$ sampai $25$ | $\\sqrt{289 \\times 361 \\times 529}$ |",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui barisan geometri $U_n$ dengan $U_2 = 3$. Berapakah jumlah dari suku ke-10 ?\n1) $U_5 = 9$\n2) $U_1 = 1$",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapakah luas segitiga PQR jika panjang $SQ = 20$ cm dan ST sejajar dengan PQ?\n\nA. $RT = 9$ cm\nB. $PT = 15$ cm",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui $x - z \\geq 2y$ dan $y - z \\leq 2x$, maka ...",
+      "options": [
+        "x \\leq 2y",
+        "x \\leq y",
+        "x \\geq 2y",
+        "x = 2y",
+        "x \\geq y"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Rama membuat kue selama 3 jam dan Rani membuat kue selama 2 jam. Manakah bentuk hubungan yang menyataan kuantitas P dan Q?\n\n| P | Q |\n|---|---|\n| Andi membuat kue selama 2/3 dari waktu Rama | Waktu Joko membuat sama dengan lama Rani dalam membuat kue |",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Terdapat persegi panjang dengan sisi 14 cm dan 48 cm. Manakah bentuk hubungan yang menyataan kuantitas P dan Q?\n\n| P | Q |\n|---|---|\n| Panjang garis diagonal persegi panjang | $7 \\times$ sisi terpendek |",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "$3x + y < 8$ berapakah banyak pasangan bilangan bulat positif $(x, y)$ yang memenuhi pertidaksamaan di atas?",
+      "options": [
+        "1",
+        "3",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $XY = 12$, dengan X dan Y adalah bilangan bulat, berapa nilai maksimum $X + Y = ...$",
+      "options": [
+        "15",
+        "14",
+        "13",
+        "12",
+        "11"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Himpunan penyelesaian dari $-2x - 3 \\geq -5x + 9$, untuk x bilangan bulat adalah ...",
+      "options": [
+        "\\{-3, -2, -1, 0, \\ldots\\}",
+        "\\{-1, 0, 1, 2, \\ldots\\}",
+        "\\{2, 3, 4, \\ldots\\}",
+        "\\{4, 5, 6, 7, \\ldots\\}",
+        "\\{3, 4, 5, 6, \\ldots\\}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Rata-rata dari empat donasi yang diberikan kesebuah badan amal adalah Rp100.000. Dua dari empat donasi tersebut memiliki nilai Rp110.000 dan Rp90.000. Manakah bentuk hubungan yang menyataan kuantitas P dan Q?\n\n| P | Q |\n|---|---|\n| Rata-rata dua donasi lainnya | Rp100.000 |",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapakah 5 dari x?\n1) 8 adalah 2 dari x\n2) 1 dari x adalah 4",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.",
+        "DUA pernyataan BERSAMA – SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+        "Pernyataan (1) SAJA cukup menjawab pertanyaan dan pernyataan (2) SAJA cukup.",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kampus Tesla mengadakan piknik bersama ke desa Nebula. Jumlah mahasiswa wanita 3 kali mahasiswa pria. Biaya piknik yang wajib dibayarkan per mahasiswa adalah Rp 40.000. Jumlah uang yang terkumpul adalah Rp 3.200.000. Berdasarkan data di atas, tentukan hubungan kuantitas P dan Q berikut!\n\n| P | Q |\n|---|---|\n| Jumlah mahasiswa laki – laki yang ikut piknik. | 40 |\n\n1) Q > P\n2) Q < P\n3) Q = 2P\n4) Informasi yang diberikan tidak cukup untuk menetukan hubungan P dan Q.",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $p = q + 2$, $q = r - 1$, dan $r = 5$, maka yang benar adalah ...",
+      "options": [
+        "p < q < r",
+        "p < r < q",
+        "q < r < p",
+        "q < p < r",
+        "r < p < q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika n merupakan bilangan bulat $10 < n < 15$ berapakah nilai n?\n1) n merupakan faktor dari 143\n2) n merupakan faktor dari 187",
+      "options": [
+        "Pernyataan (1) SAJA sudah cukup, namun pernyataan (2) saja tidak cukup.",
+        "Pernyataan (2) SAJA sudah cukup, namun pernyataan (1) saja tidak cukup.",
+        "KEDUA pernyataan BERSAMA sudah cukup, namun SATU pernyataan SAJA tidak cukup",
+        "SATU pernyataan SAJA sudah cukup.",
+        "Pernyataan (1) dan (2) BERSAMA TIDAK cukup."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

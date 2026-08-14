@@ -1,0 +1,55 @@
+## 1. Activity Diagram: Login & Lihat Learning Overview
+## 2. Activity Diagram: Lihat Learning Path
+## 3. Activity Diagram: Mengerjakan Latihan Bab
+## 4. Activity Diagram: Lihat Pembahasan Dari Hasil Belajar
+## 5. Activity Diagram: Ulangi Latihan
+## 6. Activity Diagram: Pilih Subtes Lain (dari Sesi Selesai)
+## 7. Activity Diagram: Lihat Paket Tryout
+## 8. Activity Diagram: Mengerjakan Tryout
+## 9. Activity Diagram: Lihat Review Jawaban & Bahas dengan AI Tutor (Tryout)
+## 10A. Activity Diagram Induk: Navigasi Fleksibel Modul Rapor & Evaluasi (/analytics)
+## 10B. Activity Diagram: Lihat Analisis Kemampuan (Rapor & Tren)
+## 11. Activity Diagram: Lihat Bank Soal Salah (Evaluasi Soal)
+## 12. Activity Diagram: Lihat Bahas Soal dari Bank Soal Salah
+## 13. Activity Diagram: Lihat Peluang Lolos (Chancing Engine)
+## 14. Activity Diagram: Lihat Detail Salah Satu Jurusan Target
+## 15. Activity Diagram: Bahas Soal Dalam Aplikasi (Ruang Tutor AI - Bank Soal Lexica)
+## 16. Activity Diagram: Bahas Soal Luar Aplikasi (Ruang Tutor AI - Custom Input)
+## 17. Activity Diagram: Mengubah Pengaturan Profil & Target
+## 18. Activity Diagram: Lihat Subtes (Practice / Quick Drill)
+## 19. Activity Diagram: Mengerjakan Subtes (Practice / Quick Drill)
+## 1. Activity Diagram: Login & Lihat Learning Overview (Admin Dashboard)
+## 2. Activity Diagram: Lihat User (Manajemen User)
+## 3. Activity Diagram: Lihat Daftar Soal (Bank Soal & Kurikulum - Soal)
+## 4. Activity Diagram: Lihat Daftar Bab (Bank Soal & Kurikulum - Chapters)
+## 5. Activity Diagram: Lihat Daftar Mata Pelajaran (Bank Soal & Kurikulum - Mapel)
+## 6. Activity Diagram: Tambah Soal
+## 7. Activity Diagram: Tambah Bab
+## 8. Activity Diagram: Tambah Mata Pelajaran
+## 9. Activity Diagram: Edit Soal
+## 10. Activity Diagram: Edit Bab
+## 11. Activity Diagram: Edit Mata Pelajaran
+## 12. Activity Diagram: Hapus Soal
+## 13. Activity Diagram: Hapus Bab
+## 14. Activity Diagram: Hapus Mata Pelajaran
+## 15. Activity Diagram: Lihat Daftar Universitas (Kelola PTN/Prodi)
+## 16. Activity Diagram: Lihat Daftar Prodi (Kelola PTN/Prodi)
+## 17. Activity Diagram: Tambah Universitas
+## 18. Activity Diagram: Tambah Prodi
+## 19. Activity Diagram: Edit Universitas
+## 20. Activity Diagram: Edit Prodi
+## 21. Activity Diagram: Hapus Universitas
+## 22. Activity Diagram: Hapus Prodi
+## 23. Activity Diagram: Lihat Daftar Tryout
+## 24. Activity Diagram: Tambah Tryout
+## 25. Activity Diagram: Tambah Subtes Tryout
+## 26. Activity Diagram: Edit Tryout
+## 27. Activity Diagram: Edit Subtes Tryout
+## 28. Activity Diagram: Hapus Tryout
+## 29. Activity Diagram: Hapus Subtes Tryout
+## 30. Activity Diagram: Lihat Statistik Ringkasan Platform
+## 31. Activity Diagram: Lihat Statistik Evaluasi Ujian
+## 32. Activity Diagram: Lihat Statistik Target Siswa
+## 33. Activity Diagram: Lihat Statistik Token & AI
+## 34. Activity Diagram: Lihat Pengaturan System Admin
+## 35. Activity Diagram: Ubah Pengaturan System Admin

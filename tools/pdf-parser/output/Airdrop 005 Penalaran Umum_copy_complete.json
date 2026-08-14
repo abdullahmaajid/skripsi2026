@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Sebuah studi menunjukkan bahwa mendengarkan musik sedih dapat membantu seseorang untuk lebih memahami perasaan mereka sendiri. Santi sering mendengarkan musik sedih saat sedang galau. Apa yang bisa disimpulkan?",
+      "options": [
+        "Santi menjadi lebih sedih setelah mendengarkan musik",
+        "Musik membantu Santi memahami perasaannya",
+        "Santi tidak peduli dengan perasaannya",
+        "Musik membuat Santi melupakan masalahnya",
+        "Santi mendengarkan musik untuk menghibur dirinya"
+      ],
+      "correctAnswer": "Musik membantu Santi memahami perasaannya",
+      "explanation": null
+    },
+    {
+      "text": "Sebuah sekolah menyediakan program khusus untuk membantu siswa yang kesulitan belajar, sehingga tidak memandang latar belakang ekonomi mereka. Dalam menentukan siswa yang berhak mengikuti kelas tambahan, sekolah Y tidak memandang latar belakang. Manakah pernyataan berikut yang PASTI BENAR?",
+      "options": [
+        "Sekolah hanya membantu siswa yang berasal dari keluarga kaya",
+        "Sekolah membantu semua siswa yang membutuhkan",
+        "Sekolah tidak memberikan bantuan kepada siswa dari keluarga kurang mampu",
+        "Siswa dari keluarga kurang mampu tidak bisa mengikuti program tersebut",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Tidak dapat disimpulkan",
+      "explanation": null
+    },
+    {
+      "text": "Riset menunjukkan bahwa musik dengan ritme yang stabil dapat membantu meredakan kecemasan. Budi sering mendengarkan musik dengan ritme stabil saat merasa cemas. Pernyataan mana yang paling mungkin benar?",
+      "options": [
+        "Budi sering merasa lebih cemas setelah mendengarkan musik",
+        "Musik dengan ritme stabil tidak mempengaruhi kecemasan Budi",
+        "Budi merasa lebih tenang setelah mendengarkan musik",
+        "Musik membuat Budi lebih fokus pada kecemasannya",
+        "Budi mendengarkan musik untuk mengalihkan perhatian dari kecemasannya"
+      ],
+      "correctAnswer": "Budi merasa lebih tenang setelah mendengarkan musik",
+      "explanation": null
+    },
+    {
+      "text": "Di Sekolah A, hanya siswa yang berasal dari keluarga kaya yang bisa mengikuti ekstrakurikuler tertentu karena biayanya sangat mahal. Manakah pernyataan yang PASTI BENAR apabila hanya 50% siswa yang dapat mengikuti ekstrakurikuler basket di sekolah A?",
+      "options": [
+        "Sekolah A menerapkan keadilan sosial",
+        "Semua siswa di Sekolah A bisa mengikuti ekstrakurikuler tersebut",
+        "Siswa dari keluarga kurang mampu tidak memiliki kesempatan yang sama",
+        "Sekolah memberikan beasiswa ekstrakurikuler untuk siswa miskin",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Tidak dapat disimpulkan",
+      "explanation": null
+    },
+    {
+      "text": "Penelitian menunjukkan bahwa musik bisa mempengaruhi produktivitas seseorang. Lisa sering mendengarkan musik instrumental saat bekerja. Apa yang mungkin terjadi?",
+      "options": [
+        "Lisa lebih sulit berkonsentrasi saat bekerja",
+        "Lisa lebih produktif saat mendengarkan musik instrumental",
+        "Lisa sering merasa terganggu oleh musik",
+        "Musik membuat Lisa sering istirahat saat bekerja",
+        "Musik instrumental tidak berpengaruh pada Lisa"
+      ],
+      "correctAnswer": "Lisa lebih produktif saat mendengarkan musik instrumental",
+      "explanation": null
+    },
+    {
+      "text": "Pemerintah menerapkan program wajib belajar 12 tahun yang menyebabkan semua anak di Indonesia mendapatkan akses pendidikan dasar yang setara. Seluruh anak di Indonesia mendapatkan akses pendidikan dasar yang setara. Apa yang dapat disimpulkan dari kebijakan ini?",
+      "options": [
+        "Semua anak di Indonesia telah menyelesaikan pendidikan 12 tahun",
+        "Tidak ada anak yang putus sekolah",
+        "Program ini bertujuan untuk memperluas akses pendidikan bagi semua anak",
+        "Program ini hanya berlaku di daerah perkotaan",
+        "Program ini tidak berpengaruh terhadap akses pendidikan"
+      ],
+      "correctAnswer": "Tidak dapat disimpulkan",
+      "explanation": null
+    },
+    {
+      "text": "Mendengarkan musik berirama cepat dapat meningkatkan suasana hati seseorang yang sedang malas. Dani mendengarkan musik berirama cepat di pagi hari. Apa yang bisa disimpulkan?",
+      "options": [
+        "Dani lebih bersemangat setelah mendengarkan musik",
+        "Dani merasa lebih lelah di pagi hari",
+        "Dani tidak terpengaruh oleh musik yang ia dengar",
+        "Dani sering merasa malas di pagi hari",
+        "Musik cepat membuat Dani ingin tidur lebih lama"
+      ],
+      "correctAnswer": "Dani lebih bersemangat setelah mendengarkan musik",
+      "explanation": null
+    },
+    {
+      "text": "Di sebuah sekolah, semua siswa mendapatkan bantuan sama, sehingga siswa mendapatkan bantuan berupa alat tulis dan seragam. Siswa x mendapatkan bantuan alat tulis dan seragam. Apa yang bisa disimpulkan dari kondisi tersebut?",
+      "options": [
+        "Sekolah hanya memperhatikan siswa dari keluarga kaya",
+        "Sekolah berusaha memberikan kesempatan yang adil kepada semua siswa",
+        "Siswa dari keluarga kaya tidak mendapatkan fasilitas yang cukup",
+        "Siswa dari keluarga miskin tidak diperhatikan di sekolah",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Tidak dapat disimpulkan",
+      "explanation": null
+    },
+    {
+      "text": "Sekolah ingin meningkatkan tanggung jawab siswa sehingga menerapkan sistem piket kelas di mana siswa bertanggung jawab menjaga kebersihan ruang kelas. Berdasarkan informasi ini, manakah pernyataan yang PASTI BENAR apabila sekolah tidak ingin meningkatkan tanggung jawab siswa?",
+      "options": [
+        "Siswa akan menjadi lebih malas menjaga kebersihan",
+        "Sistem piket mengajarkan siswa untuk bertanggung jawab terhadap kebersihan",
+        "Piket kelas tidak ada hubungannya dengan pendidikan karakter",
+        "Siswa tidak akan mengikuti sistem piket ini",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Tidak dapat disimpulkan",
+      "explanation": null
+    },
+    {
+      "text": "Pertanian presisi mengakibatkan penggunaan sumber daya seperti pupuk dan pestisida dengan lebih efisien melalui data dari sensor dan satelit. Berdasarkan informasi ini, apabila penggunaan pupuk dan pestisida tidak efisien, manakah pernyataan yang PASTI BENAR?",
+      "options": [
+        "Pertanian presisi meningkatkan penggunaan pupuk dan pestisida secara berlebihan",
+        "Tidak dilaksanakan pertanian yang presisi oleh petani",
+        "Penggunaan teknologi presisi tidak berpengaruh pada efisiensi sumber daya",
+        "Pertanian presisi tidak relevan dalam pengelolaan sumber daya",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Tidak dilaksanakan pertanian yang presisi oleh petani",
+      "explanation": null
+    },
+    {
+      "text": "Pendidikan karakter di sekolah menyebabkan siswa belajar untuk bekerja sama dan menghargai perbedaan melalui kegiatan kelompok. Apa yang bisa disimpulkan jika tidak dilaksanakan pendidikan karakter di sekolah?",
+      "options": [
+        "Kegiatan kelompok membuat siswa tidak bisa bekerja sama",
+        "Pendidikan karakter menyebabkan persaingan yang tidak sehat di antara siswa",
+        "Kegiatan kelompok mendorong siswa untuk bekerja sama dan menghargai perbedaan",
+        "Program ini tidak berdampak pada sikap sosial siswa",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Tidak dapat disimpulkan",
+      "explanation": null
+    },
+    {
+      "text": "Sekolah menerapkan disiplin karakter yang menyebabkan memberi penghargaan bagi siswa yang menunjukkan kejujuran, kedisiplinan, dan tanggung jawab. Berdasarkan informasi ini, manakah pernyataan yang PASTI BENAR apabila sekolah tidak ingin menerapkan disiplin karakter?",
+      "options": [
+        "Penghargaan ini membuat siswa tidak disiplin",
+        "Disiplin karakter tidak berpengaruh pada perkembangan moral siswa",
+        "Penghargaan tersebut mendorong siswa untuk lebih jujur dan disiplin",
+        "Siswa menjadi kurang termotivasi dengan adanya penghargaan ini",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Tidak dapat disimpulkan",
+      "explanation": null
+    },
+    {
+      "text": "Sekolah mengintegrasikan pendidikan karakter dalam kurikulum akademik, sehingga setiap pelajaran menyisipkan nilai-nilai moral seperti kerja keras dan kejujuran. Apa yang bisa disimpulkan apabila sekolah tidak mengintegrasi pendidikan karakter?",
+      "options": [
+        "Pendidikan karakter tidak relevan dalam kurikulum akademik",
+        "Nilai-nilai moral dapat dipelajari terpisah dari kurikulum akademik",
+        "Integrasi pendidikan karakter mendorong siswa untuk belajar nilai-nilai moral melalui pembelajaran sehari-hari",
+        "Siswa tidak akan memahami pentingnya nilai-nilai moral",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Tidak dapat disimpulkan",
+      "explanation": null
+    },
+    {
+      "text": "Sebuah perusahaan agribisnis menggunakan big data untuk menganalisis pola cuaca dan menentukan waktu terbaik untuk menanam. Berdasarkan informasi ini, apabila tidak dapat menganalisis pola cuaca dan menentukan waktu menanam, manakah pernyataan yang PASTI BENAR?",
+      "options": [
+        "Big data tidak mempengaruhi keputusan pertanian",
+        "Penggunaan big data mengurangi produktivitas pertanian",
+        "Big data tidak digunakan dalam menganalisis",
+        "Pola cuaca tidak relevan dengan pengambilan keputusan di pertanian",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Big data tidak digunakan dalam menganalisis",
+      "explanation": null
+    },
+    {
+      "text": "Teknologi bioteknologi digunakan untuk mengembangkan tanaman tahan kekeringan, sehingga dapat bertahan di wilayah dengan sumber air terbatas. Berdasarkan informasi ini, jika tanaman tidak bertahan di wilayah dengan sumber air terbatas, manakah pernyataan yang PASTI BENAR?",
+      "options": [
+        "Teknologi bioteknologi tidak relevan dalam menghadapi kekeringan",
+        "Tanaman tahan kekeringan tidak membantu meningkatkan produksi pangan",
+        "Teknologi bioteknologi tidak dapat dikembangkan di kondisi kekeringan",
+        "Pengembangan tanaman tahan kekeringan mengurangi hasil pertanian",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Tanaman tahan kekeringan tidak membantu meningkatkan produksi pangan",
+      "explanation": null
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan paragraf 1, manakah pernyataan yang PASTI BENAR?",
+      "options": [
+        "Hampir semua buah aprikot memiliki ukuran yang relatif besar.",
+        "Kadar gula dan kolesterol dapat terjaga dengan mengonsumsi buah aprikot.",
+        "Kandungan serat pada buah aprikot berpotensi meningkatakan risiko diabetes.",
+        "Berbagai penyakit serius pasti dapat dihindari jika mengonsumsi banyak buah aprikot.",
+        "Kesehatan organ penting dalam tubuh hanya dapat dijaga dengan konsumsi buah aprikot."
+      ],
+      "correctAnswer": "Kadar gula dan kolesterol dapat terjaga dengan mengonsumsi buah aprikot.",
+      "explanation": "Berdasarkan paragraf 1, serat buah aprikot berfungsi menjaga kadar gula dan kolesterol dalam tubuh tetap normal."
+    },
+    {
+      "text": "Berdasarkan paragraf 2, manakah pernyataan yang PASTI SALAH?",
+      "options": [
+        "Minum air putih delapan gelas sehari dapat memenuhi kebutuhan cairan tubuh.",
+        "Tubuh yang lemas mungkin disebabkan karena dehidrasi.",
+        "Kandungan air dalam buah aprikot dapat menyebabkan tubuh dehidrasi.",
+        "Kandungan air dalam buah aprikot tidak mencukupi kebutuhan air.",
+        "Tubuh akan berisiko merasa lemas dan sakit kepala jika kekurangan cairan."
+      ],
+      "correctAnswer": "Kandungan air dalam buah aprikot dapat menyebabkan tubuh dehidrasi.",
+      "explanation": "Teks menyatakan bahwa buah aprikot yang mengandung banyak air baik dikonsumsi untuk mencegah terjadinya dehidrasi, sehingga pernyataan bahwa buah aprikot menyebabkan dehidrasi adalah pasti salah."
+    },
+    {
+      "text": "Berdasarkan paragraf 1, manakah pernyataan yang MUNGKIN BENAR?",
+      "options": [
+        "Berkurangnya populasi Tuna sirip biru disebabkan karena tingginya kebutuhan konsumsi.",
+        "Tuna sirip biru banyak ditemukan diteluk yang relatif sempit.",
+        "Karena kebutuhan makanan dan habitat yang luas Tuna sirip biru akan punah dalam waktu dekat.",
+        "Tuna sirip biru hanya dapat ditemukan di muara Teluk Tokyo.",
+        "Tuna sirip biru adalah satu-satunya ikan yang dikonsumsi oleh penduduk Jepang."
+      ],
+      "correctAnswer": "Berkurangnya populasi Tuna sirip biru disebabkan karena tingginya kebutuhan konsumsi.",
+      "explanation": "Jepang menyediakan salah satu pasar terbesar untuk penjualan tuna sirip biru, sehingga tingginya kebutuhan konsumsi mungkin menjadi penyebab berkurangnya populasi."
+    },
+    {
+      "text": "Berdasarkan paragraf 2, manakah pernyataan yang MUNGKIN SALAH?",
+      "options": [
+        "Tuna yang dibudidaya tidak berpengaruh terhadap lingkugan pada muara Teluk Tokyo.",
+        "Teknologi yang ada saat ini mempersulit penangkapan ikan dalam jumlah yang banyak.",
+        "Tuna sirip biru di muara Teluk Tokyo sudah tidak ada lagi.",
+        "Teknik budidaya ikan tuna dapat menggantikan Tuna sirip biru yang tidak tersedia di Teluk Tokyo.",
+        "Populasi penduduk Tokyo yang bertambah berdampak pada populasi ikan tuna."
+      ],
+      "correctAnswer": "Teknologi yang ada saat ini mempersulit penangkapan ikan dalam jumlah yang banyak.",
+      "explanation": "Teks menyatakan bahwa teknologi justru mempermudah penangkapan lebih banyak ikan, bukan mempersulit."
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, manakah simpulan yang tepat jika suatu wilayah tidak terjadi perubahan penggunaan lahan, penyempitan dan memperlambat aliran sungai, penurunan permukaan tanah, buruknya sistem drainase, atau kualitas air yang menurun?",
+      "options": [
+        "Wilayah tersebut memiliki kepadatan penduduk yang tinggi.",
+        "Wilayah tersebut tidak memiliki kepadatan penduduk yang tinggi.",
+        "Wilayah tersebut memiliki kepadatan penduduk rendah yang tidak menimbulkan permasalahan.",
+        "Wilayah tersebut memiliki kepadatan penduduk tinggi yang tidak menimbulkan permasalahan.",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Wilayah tersebut tidak memiliki kepadatan penduduk yang tinggi.",
+      "explanation": "Menggunakan kaidah kontraposisi dari implikasi pada teks: Kepadatan penduduk tinggi -> Menimbulkan permasalahan (perubahan lahan, dll). Maka jika tidak terjadi permasalahan tersebut, wilayah tersebut tidak memiliki kepadatan penduduk yang tinggi."
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, manakah simpulan yang tepat jika orang-orang di Venezuela tidak mengalami kesulitan mendapatkan kebutuhan dasar?",
+      "options": [
+        "Melemahnya mata uang di Venezuela.",
+        "Tidak melemahnya mata uang di Venezuela.",
+        "Defisit anggaran negara tidak terkontrol.",
+        "Inflasi di Venezuela semakin parah.",
+        "Tidak dapat disimpulkan."
+      ],
+      "correctAnswer": "Tidak melemahnya mata uang di Venezuela.",
+      "explanation": "Kesulitan mendapatkan kebutuhan dasar disebabkan oleh melemahnya mata uang. Jika tidak mengalami kesulitan tersebut, maka mata uangnya tidak melemah (kontraposisi)."
+    },
+    {
+      "text": "Manakah simpulan yang benar?",
+      "options": [
+        "Mira rajin berlatih melukis.",
+        "Mira menyukai aktivitas melukis.",
+        "Mira berprestasi dalam lomba melukis.",
+        "Mira mendapatkan alat lukis yang mahal dari orangtua nya.",
+        "Mira dapat mengikuti lomba melukis."
+      ],
+      "correctAnswer": "Mira mendapatkan alat lukis yang mahal dari orangtua nya.",
+      "explanation": "Premis 1: Rajin berlatih -> Hasil baik. Premis 2: Hasil baik -> Dapat alat lukis mahal. Fakta: Hari ini hasil baik. Maka konklusinya adalah mendapatkan alat lukis yang mahal."
+    },
+    {
+      "text": "Berdasarkan informasi pada bacaan, berikut adalah kalimat yang MEMPERLEMAH dan TIDAK MEMPERLEMAH pernyataan tersebut.",
+      "options": [
+        "Banyaknya seseorang yang berpendidikan tinggi tidak memengaruhi pertumbuhan ekonomi suatu negara.",
+        "Negara A memiliki penduduk berkualitas karena peningkatan pendidikan non formal.",
+        "Sebagian besar fasilitas pendidikan di negara A memiliki kondisi yang tidak layak.",
+        "Pertumbuhan ekonomi di suatu negara hanya dipengaruhi oleh peningkatan wirausaha saja.",
+        "Sebagian besar penduduk di negara A berpendidikan tinggi membuka banyak lapangan pekerjaan."
+      ],
+      "correctAnswer": null,
+      "explanation": "Soal ini menyajikan tabel penilaian memperlemah/tidak memperlemah berdasarkan teks tentang pertumbuhan ekonomi Negara A."
+    },
+    {
+      "text": "Berdasarkan informasi pada bacaan, berikut adalah kalimat yang MEMPERLEMAH dan TIDAK MEMPERLEMAH pernyataan tersebut.",
+      "options": [
+        "Sebagian besar lahan pemukiman di Kota M adalah hasil alih fungsi lahan hutan.",
+        "Tingginya potensi bencana longsor menimbulkan peningkatan angka kematian di Kota M.",
+        "Tingginya curah hujan di Kota M tidak memengaruhi longsor yang terjadi pada beberapa tahun terakhir.",
+        "Kota M memiliki peningkatan lahan pertanian selama beberapa tahun terakhir.",
+        "Tempat wisata di kota M dibangun berdasarkan prinsip pembangunan berkelanjutan yang tetap menjaga lingkungan alam."
+      ],
+      "correctAnswer": null,
+      "explanation": "Soal ini menilai pernyataan yang memperlemah atau tidak memperlemah teks mengenai penyebab longsor di Kota M akibat alih fungsi lahan oleh manusia."
+    },
+    {
+      "text": "Manakah pernyataan berikut yang paling tepat mengenai data tersebut yaitu?",
+      "options": [
+        "Memperkuat pernyataan A.",
+        "Memperlemah pernyataan A.",
+        "Memperkuat pernyataan B.",
+        "Memperlemah pernyataan B.",
+        "Tidak relevan dengan pernyataan A dan B."
+      ],
+      "correctAnswer": "Memperkuat pernyataan B.",
+      "explanation": "Data menunjukkan orang yang rutin jalan pagi (kardio jalan) sejak usia muda memiliki tulang sehat di atas usia 50 tahun (risiko osteoporosis rendah), yang selaras dan memperkuat pernyataan B."
+    },
+    {
+      "text": "A menyatakan, \"Siswa yang rutin membaca lima buku dalam sebulan akan berpotensi menjadi seorang penulis kelak saat dewasa.\" B menyatakan, \"Rutin membaca buku tiap hari dapat meningkatkan kemampuan kognisi yang membantu seseorang mendapatkan prestasi.\" Data menunjukkan bahwa siswa berprestasi di sekolah A ternyata tidak rutin membaca buku. Manakah pernyataan berikut yang paling tepat mengenai data tersebut yaitu?",
+      "options": [
+        "Memperkuat pernyataan A.",
+        "Memperlemah pernyataan A.",
+        "Memperkuat pernyataan B.",
+        "Memperlemah pernyataan B.",
+        "Tidak relevan dengan pernyataan A dan B."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "A menyatakan, \"Desa yang mampu bertumbuh secara ekonomi akan mendorong penduduk usia produktif untuk tidak melakukan migrasi ke kota-kota besar.\" B menyatakan, \"Penduduk desa yang migrasi ke kota banyak didorong oleh faktor-faktor pendukung di kota terutama fasilitas pendidikan.\" Survei menunjukkan bahwa sebagian besar penduduk desa terutama yang berusia produktif pergi ke Kota karena adanya konflik dengan keluarga. Manakah pernyataan berikut yang paling tepat mengenai data tersebut yaitu?",
+      "options": [
+        "Memperkuat pernyataan A.",
+        "Memperlemah pernyataan A.",
+        "Memperkuat pernyataan B.",
+        "Memperlemah pernyataan B.",
+        "Tidak relevan dengan pernyataan A dan B."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "A menyatakan, \"Suatu wilayah akan berpotensi mengalami bencana longsor saat memasuki musim hujan.\" B menyatakan, \"Faktor manusia seperti alih fungsi lahan hutan untuk dijadikan lahan pemukiman adalah faktor utama bencana longsor.\" Data menunjukkan bahwa sebagian besar wilayah di Negara X mengalami longsor pada saat memasuki musim hujan. Manakah pernyataan berikut yang paling tepat mengenai data tersebut yaitu?",
+      "options": [
+        "Memperkuat pernyataan A.",
+        "Memperlemah pernyataan A.",
+        "Memperkuat pernyataan B.",
+        "Memperlemah pernyataan B.",
+        "Tidak relevan dengan pernyataan A dan B."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Rutin mengonsumsi nanas akan memberikan manfaat bagi tubuh karena mengandung vitamin C. Kandungan vitamin C dalam nanas membantu dalam pembentukan kolagen, yang penting untuk kesehatan kulit. Kolagen tersebut nantinya menjaga kesehatan kulit. Ros sudah beberapa tahun ini rutin mengonsumsi nanas. Simpulan berdasarkan informasi tersebut adalah Ros memiliki kulit yang sehat. Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan.",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ayah bermaksud membelikan makan malam untuk keluarga setelah pulang kerja, Ayah biasanya membeli makanan di Superindo atau Indomaret. Jika Ayah membeli roti, Ayah berarti akan ke Superindo. Jika Ayah membeli onigiri, Ayah berarti akan ke Indomaret. Ternyata Ayah tidak membeli makanan di Indomaret. Simpulan berdasarkan informasi tersebut adalah Ayah membeli makan malam roti. Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan.",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Untuk memasuki pelatnas, seseorang pemain bulutangkis harus sering mengikuti turnamen nasional, terdaftar di klub besar, dan telah lulus jenjang sekolah menengah atas. Jojo saat ini sudah beberapa kali mengikuti turnamen nasional. Simpulan berdasarkan informasi tersebut adalah Jojo telah masuk pelatnas bulutangkis. Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan.",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Peningkatan harga bahan bakar minyak (BBM) dapat memiliki berbagai dampak, baik secara langsung maupun tidak langsung, pada ekonomi, masyarakat, dan sektor-sektor lainnya. Kenaikan harga BBM dapat mendorong peningkatan permintaan terhadap energi alternatif dan ramah lingkungan. Sebaliknya, jika tidak ada transisi energi yang baik, kenaikan harga BBM dapat meningkatkan emisi gas rumah kaca dan memperburuk dampak lingkungan. Manakah DUA SIMPULAN yang PALING DIDUKUNG oleh bacaan tersebut? (Pilih dua dari opsi)",
+      "options": [
+        "Kenaikan harga BBM selalu berdampak pada peningkatan gas rumah kaca yang memperburuk kondisi lingkungan.",
+        "Energi alternatif akan banyak digunakan ketika masyarakat sudah tidak lagi menggunakan bahan bakar minyak.",
+        "Peningkatan harga BBM yang tidak diikuti oleh transisi energi yang baik akan berdampak buruk pada lingkungan.",
+        "Penggunaan energi alternatif dan ramah lingkungan berpotensi meningkat ketika terjadi peningkatan harga bahan bakar minyak.",
+        "Semakin tinggi konsumsi bahan bakar minyak maka penggunaan energi alternatif akan semakin menurun."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "El Niño adalah fenomena alam yang terjadi ketika suhu permukaan laut di Samudera Pasifik tengah dan timur berada di atas rata-rata normal. Suhu permukaan laut yang lebih tinggi selama periode El Niño dapat mengurangi produktivitas perikanan. Beberapa jenis ikan mungkin sulit untuk berkembang biak atau mencari makanan, menyebabkan penurunan hasil tangkapan. Penurunan hasil perikanan dapat mengakibatkan penurunan ketersediaan ikan sebagai sumber pangan bagi masyarakat yang bergantung pada ikan sebagai salah satu sumber protein utama. Manakah DUA SIMPULAN yang PALING DIDUKUNG oleh bacaan tersebut?",
+      "options": [
+        "Penurunan hasil tangkapan ikan dapat berkurang saat terjadi kenaikan suhu permukaan laut di Samudera Pasifik tengah dan timur.",
+        "Ikan adalah satu-satunya sumber pangan yang memiliki protein bagi masyarakat.",
+        "Ketika sedang terjadi El Nino suhu permukaan laut di Samudera Pasifik tengah akan mengalami penurunan.",
+        "Perkembangbiakan ikan di lautan dipengaruhi oleh suhu permukaan lautnya.",
+        "Produktivitas perikanan hanya dipengaruhi oleh kondisi suhu permukaan lautnya."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "La Niña adalah fenomena iklim yang terjadi ketika suhu permukaan laut di Samudera Pasifik tengah dan timur lebih rendah dari rata-rata normal. La Niña cenderung meningkatkan aktivitas siklon tropis di Samudera Atlantik dan Samudera Pasifik. Ini dapat mengakibatkan peningkatan frekuensi dan intensitas badai tropis. Selain itu, La Niña seringkali dikaitkan dengan curah hujan yang lebih tinggi di beberapa wilayah, terutama di daerah-daerah tropis dan subtropis. Hal ini dapat menyebabkan banjir, longsor, dan masalah terkait lainnya. Manakah DUA SIMPULAN yang PALING DIDUKUNG oleh bacaan tersebut?",
+      "options": [
+        "Curah hujan yang tinggi pada saat La Nina akan berdampak pada peningkatan potensi bencana banjir dan longsor.",
+        "Aktivitas siklon tropis banyak terjadi saat suhu permukaan laut di Samudera Pasifik tengah dan timur sedang menurun dari rata-rata normal.",
+        "Frekuensi dan intensitas badai tropis akan meningkat saat terjadi peningkatan suhu permukaan laut di Samudera Pasifik tengah dan timur.",
+        "Curah hujan yang tinggi pada saat La Nina hanya terjadi di daerah-daerah tropis dan subtropis.",
+        "Bencana banjir dan longsor risikonya akan menurun saat terjadi La Nina."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Deforestasi di Indonesia telah menjadi masalah serius selama beberapa dekade dan memiliki dampak yang signifikan terhadap lingkungan, keanekaragaman hayati, dan masyarakat lokal. Ekspansi industri kelapa sawit telah menjadi salah satu penyebab utama deforestasi di Indonesia. Hutan alam seringkali dibuka atau dibakar untuk memberikan ruang bagi perkebunan kelapa sawit, yang merupakan sumber minyak kelapa sawit yang digunakan dalam banyak produk. Manakah DUA SIMPULAN yang PALING DIDUKUNG oleh bacaan tersebut?",
+      "options": [
+        "Ekspansi industri kelapa sawit menjadi satu-satunya penyebab utama deforestasi.",
+        "Minyak kelapa sawit dapat diproduksi pada saat terjadi banyak deforestasi.",
+        "Perkebunan kelapa sawit banyak mengekspansi hutan di Indonesia.",
+        "Beberapa dekade ini banyak terjadi deforestasi untuk ekspansi industri kelapa sawit.",
+        "Semakin banyak ekspansi industri kelapa sawit maka deforestasi akan semakin menurun."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Andi membawakan oleh-oleh buah Kiwi sebanyak lima lusin dari kampung halamannya dan akan dibagikan kepada lima temannya. Berikut adalah informasi pembagiannya: 1) A mendapatkan buah Kiwi tiga kali lebih banyak dari D. 2) B mendapatkan buah Kiwi yang sama dengan E. 3) C mendapatkan setengah buah Kiwi yang didapat E. 4) D mendapat buah Kiwi \\frac{1}{12} dari total buah Kiwi yang diberikan Andi. 5) B mendapat satu buah Kiwi lebih banyak dari A. Berdasarkan teks di atas, manakah informasi yang dibutuhkan untuk mengetahui buah Kiwi yang didapat A?",
+      "options": [
+        "4 saja.",
+        "1 dan 4.",
+        "1, 4, dan 5.",
+        "1, 2, 4, dan 5.",
+        "1, 2, 3, 4, dan 5."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Andi membawakan oleh-oleh buah Kiwi sebanyak lima lusin dari kampung halamannya dan akan dibagikan kepada lima temannya. Berdasarkan informasi pembagian sebelumnya, manakah informasi yang dibutuhkan untuk mengetahui buah Kiwi yang didapat E?",
+      "options": [
+        "4 saja.",
+        "1 dan 4.",
+        "1, 4, dan 5.",
+        "1, 2, 4, dan 5.",
+        "1, 2, 3, 4, dan 5."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Andi membawakan oleh-oleh buah Kiwi sebanyak lima lusin dari kampung halamannya dan akan dibagikan kepada lima temannya. Berdasarkan informasi pembagian sebelumnya, manakah informasi yang dibutuhkan untuk mengetahui buah Kiwi yang didapat C?",
+      "options": [
+        "4 saja.",
+        "1 dan 4.",
+        "1, 4, dan 5.",
+        "1, 2, 4, dan 5.",
+        "1, 2, 3, 4, dan 5."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Andi membawakan oleh-oleh buah Kiwi sebanyak lima lusin dari kampung halamannya dan akan dibagikan kepada lima temannya. Berdasarkan teks tersebut, manakah yang tepat terkait urutan orang yang mendapat buah Kiwi terbanyak hingga paling sedikit?",
+      "options": [
+        "B, E, A, C, D",
+        "B, A, C, E, D",
+        "A, B, C, E, D",
+        "A, B, D, E, C",
+        "C, A, B, D, E"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diagram menunjukkan data modal dan pendapatan (dalam juta) produk di Toko A dalam lima tahun terakhir. Berdasarkan data di atas, tahun keberapa Toko A memperoleh persentase keuntungan terbesar?",
+      "options": [
+        "Tahun ke-1",
+        "Tahun ke-2",
+        "Tahun ke-3",
+        "Tahun ke-4",
+        "Tahun ke-5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan data di atas, berapa total pendapatan yang didapatkan Toko A selama lima tahun?",
+      "options": [
+        "950 juta",
+        "1.010 juta",
+        "1.245 juta",
+        "1.350 juta",
+        "1.500 juta"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan data di atas, berapa keuntungan yang didapatkan Toko A selama lima tahun?",
+      "options": [
+        "310 juta",
+        "320 juta",
+        "330 juta",
+        "340 juta",
+        "350 juta"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan data di atas, manakah pernyataan yang PASTI SALAH?",
+      "options": [
+        "Persentase keuntungan tahun ke-2 lebih tinggi dari tahun ke-3.",
+        "Modal yang dikeluarkan tahun ke-2 adalah yang paling rendah.",
+        "Keuntungan tertinggi terjadi pada tahun ke-5.",
+        "Jumlah keuntungan tahun ke-1 lebih besar dari tahun ke-4.",
+        "Tahun ke-3 menghasilkan pendapatan yang lebih tinggi dari tahun ke-4."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "150, 120, 130, 100, \\dots, 80, 90. Berapa nilai yang tepat untuk mengisi barisan tersebut?",
+      "options": [
+        "120",
+        "110",
+        "100",
+        "90",
+        "80"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "30. 560, 510, 530, 480, 500, 450, \\dots\n\nBerapa nilai yang tepat untuk mengisi barisan tersebut?",
+      "options": [
+        "410",
+        "430",
+        "450",
+        "470",
+        "490"
+      ],
+      "correctAnswer": "470",
+      "explanation": "Pola barisan: 560 (-50) 510 (+20) 530 (-50) 480 (+20) 500 (-50) 450 (+20) = 470."
+    }
+  ]
+}

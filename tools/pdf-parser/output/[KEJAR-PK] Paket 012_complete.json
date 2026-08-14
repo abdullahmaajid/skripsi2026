@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Jika $xy > 0$, tentukan kuantitas P dan Q! \nP: $(2x - y)(x + 4y)$ \nQ: $2x^2 + 8xy - 4y^2$",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "Informasi yang diberikan tidak cukup"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar! \nP: $\\angle ADC + \\angle BCD$ \nQ: $\\angle BED$ \nTentukan kuantitas P dan Q!",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "Informasi diatas tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Segilima ABCED terbentuk dari dua segitiga siku – siku ABC dan BAD dengan AD=3 dan BC=5. Sisi AC dan BD berpotongan di titik E. Jika luas segitiga AEB adalah 12, berapakah jarak E dari AB?\n1) AC=14\n2) BD=12",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.",
+        "DUA pernyataan bersama cukup untuk menjawab pertanyaan, tetapi satu pernyataan saja tidak cukup.",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup.",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Terdapat sebuah barisan aritmatika dengan suku kedua ialah 9, berapakah suku ke-49?\n1) Suku ke-10 adalah 41\n2) Suku ke-5 adalah 21",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sisi CD sejajar dengan sisi AB, sisi AD sejajar dengan sisi BE, dan panjang BF adalah 9. Berapak luas trapezium ABED? Tentukan hubungan kedua pernyataan berikut!\n1) DF = 4 cm\n2) AB = 11 cm",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.",
+        "DUA pernyataan bersama cukup untuk menjawab pertanyaan, tetapi satu pernyataan saja tidak cukup.",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup.",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika x dan y merupakan bilangan bulat positif, tentukan kuantitas P dan Q!\nP: $(4x - y)(x + 5y)$\nQ: $4x^2 + 20xy - 5y^2$",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "Informasi yang diberikan tidak cukup"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar!\nP: $\\angle ACD$\nQ: $\\angle AOB$\nTentukan kuantitas P dan Q!",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "Informasi diatas tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada trapesium siku - siku ABCD, AC=9. Jika luas segitiga ABC=10, berapakah panjang DC?\n1) AB=4\n2) BC=7",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.",
+        "DUA pernyataan bersama – sama cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup.",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika Fikri saat ini memiliki tabungan sebanyak 25 juta, berapa lama kah Fikri sudah menabung?\n1) Fikri menyimpan 10% dari pendapatannya\n2) Fikri bekerja di perusahaan pertamina.",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapakah nilai $\\frac{5-x}{y} = \\dots$\nTentukan hubungan pernyataan dibawah ini!\n1) $2x + y = 5$\n2) $x + 5y = 5$",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Misalkan $f(x) = x^2 - 2x + 7$. Manakah hubungan yang benar antara kuantitas P dan Q berdasarkan informasi yang diberikan?\nP: $f'(9)$\nQ: $f'(-16)$",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Terdapat sebuah persamaan fungsi $f(x, y) = x^2 - 3y + 4$. Manakah bentuk yang menyatakan hubungan kuantitas antara nilai P dan nilai Q.\nP: $x=3, y=-1$\nQ: $x=-1, y=3$",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Di suatu kota terdapat sebuah taman berbentuk belah ketupat dengan sisi sepanjang 75 meter dan sebuah kolama renang umum berbentuk lingkaran dengan jari-jari 42 meter. Manakah bentuk yang menyatakan hubungan kuantitas antara nilai P dan nilai Q?\nP: Luas taman berbentuk belah ketupat\nQ: Luas kolam renang berbentuk lingkaran",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui barisan geometri $U_n$ dengan $U_2 = 3$. Berapakah jumlah dari suku ke-10 ?\n1) $U_5 = 9$\n2) $U_1 = 1$",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada perjalanan terkini dari Jakarta ke Bogor, Ali berkendara selama lima jam. Pada jam pertama, kecepatan rata-ratanya adalah x kilometer per jam dan kecepatan rata-ratanya adalah y kilometer per jam untuk empat jam ke depan. Berapa kecepatan rata-ratanya, dalam kilometer per jam, untuk keseluruhan perjalanannya?\n1) $x + y = 50$\n2) $2x + y = 70$",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan teks di atas, tentukan pernyataan yang benar!",
+      "options": [
+        "Lukisan menggambarkan pemandangan alam yang menegangkan",
+        "Terdapat sungai kecil yang mengalir tenang di tengah lukisan",
+        "Warna yang digunakan dalam lukisan dominan gelap",
+        "Lukisan ini menggambarkan pemandangan kota yang ramai",
+        "Lukisan ini berusaha menunjukkan kesan alami dan menenangkan"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Terdapat sungai kecil yang mengalir tenang di tengah lukisan"
+    },
+    {
+      "text": "Simpulan yang tepat dari teks di atas adalah...",
+      "options": [
+        "Lukisan tersebut menggambarkan pemandangan alam yang penuh kegembiraan dan kebisingan",
+        "Lukisan ini menunjukkan keindahan alam dengan warna cerah dan suasana yang tenang",
+        "Lukisan ini menggambarkan pemandangan kota yang ramai dengan warna gelap",
+        "Lukisan tersebut menggunakan warna gelap untuk menciptakan suasana yang menegangkan",
+        "Lukisan ini menggambarkan kehidupan sehari-hari yang sibuk di tengah kota"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Lukisan ini menunjukkan keindahan alam dengan warna cerah dan suasana yang tenang"
+    },
+    {
+      "text": "Berdasarkan teks di atas, kata \"ekspresi\" dapat diartikan sebagai...",
+      "options": [
+        "Cara seseorang menyampaikan perasaan atau ide",
+        "Lukisan yang memiliki warna cerah",
+        "Penggunaan media dua dimensi dalam seni lukis",
+        "Aliran seni yang menggambarkan pemandangan alam",
+        "Suatu teknik melukis dengan goresan kuas"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Cara seseorang menyampaikan perasaan atau ide"
+    },
+    {
+      "text": "Aliran seni lukis \"realisme\" dalam teks di atas merujuk pada...",
+      "options": [
+        "Lukisan yang menggambarkan dunia dengan cara yang tidak realistis dan penuh imajinasi",
+        "Lukisan yang menggambarkan objek dan pemandangan seperti aslinya, tanpa tambahan fantasi",
+        "Lukisan dengan penggunaan warna-warna cerah dan gaya abstrak",
+        "Lukisan yang berfokus pada ekspresi pribadi seniman, tanpa mengikuti aturan teknis",
+        "Lukisan yang menggambarkan bentuk manusia dengan cara yang sangat detail dan terperinci"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Lukisan yang menggambarkan objek dan pemandangan seperti aslinya, tanpa tambahan fantasi"
+    },
+    {
+      "text": "Tema utama dalam teks ini adalah...",
+      "options": [
+        "Keindahan kota Paris yang kaya budaya dan seni",
+        "Tantangan hidup seorang seniman muda",
+        "Sejarah panjang Paris sebagai ibu kota Prancis",
+        "Perjuangan Pierre untuk menjadi seniman terkenal",
+        "Kehidupan malam di Paris yang penuh kemewahan"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Tantangan hidup seorang seniman muda"
+    },
+    {
+      "text": "Watak Pierre dalam teks ini dapat digambarkan sebagai...",
+      "options": [
+        "Penuh semangat dan penuh harapan meskipun mengalami kesulitan",
+        "Cemas dan pesimis terhadap masa depannya",
+        "Terlalu fokus pada kemewahan kota Paris",
+        "Menghindari tantangan dan lebih memilih untuk tinggal di zona nyaman",
+        "Lebih tertarik pada kehidupan sosial ketimbang seni"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Penuh semangat dan penuh harapan meskipun mengalami kesulitan"
+    },
+    {
+      "text": "Berdasarkan teks di atas, pernyataan yang salah adalah...",
+      "options": [
+        "Paris dikenal dengan keindahan romantis dan budaya yang beragam",
+        "Menara Eiffel adalah ikon terbesar di Paris yang menawarkan pemandangan luar biasa",
+        "Paris terkenal karena seni kuliner yang luar biasa",
+        "Paris tidak menghadapi tantangan, karena semua berjalan lancar",
+        "Banyak wisatawan datang ke Paris untuk menikmati keindahan kota dan seni kulinernya"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Paris tidak menghadapi tantangan, karena semua berjalan lancar"
+    },
+    {
+      "text": "Simpulan yang tepat dari teks di atas adalah...",
+      "options": [
+        "Paris adalah kota yang penuh tantangan dan kemewahan, dengan sedikit manfaat budaya",
+        "Paris adalah kota yang kaya akan budaya, seni, dan kuliner, meskipun ada tantangan tertentu",
+        "Keindahan Paris tidak cukup untuk menarik wisatawan karena biaya hidup yang tinggi",
+        "Semua penduduk Paris menikmati kehidupan tanpa hambatan, tanpa ada tantangan",
+        "Paris hanya dikenal karena Menara Eiffel dan restoran mewahnya"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Paris adalah kota yang kaya akan budaya, seni, dan kuliner, meskipun ada tantangan tertentu"
+    },
+    {
+      "text": "Ide pokok dari teks di atas adalah...",
+      "options": [
+        "Keindahan alam Lombok yang menjadi daya tarik wisatawan",
+        "Tradisi masyarakat Sasak yang menarik wisatawan",
+        "Gunung Rinjani yang menjadi tujuan utama pendakian",
+        "Keunikan pantai-pantai di Lombok yang memukau",
+        "Budaya Sasak yang sangat kaya dan beragam"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Keindahan alam Lombok yang menjadi daya tarik wisatawan"
+    },
+    {
+      "text": "Pernyataan yang benar berdasarkan teks di atas adalah...",
+      "options": [
+        "Lombok hanya dikenal karena Gunung Rinjani dan tidak memiliki daya tarik lain",
+        "Pantai Senggigi menawarkan pemandangan matahari terbit yang mempesona",
+        "Gunung Rinjani adalah salah satu daya tarik utama bagi pendaki dan pecinta alam",
+        "Masyarakat Sasak tidak memiliki tradisi dan budaya yang menarik",
+        "Pantai-pantai di Lombok terkenal dengan pasir hitam dan air laut yang keruh"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Gunung Rinjani adalah salah satu daya tarik utama bagi pendaki dan pecinta alam"
+    },
+    {
+      "text": "Berdasarkan teks di atas, kata \"menakjubkan\" dalam kalimat \"tempat wisata alam yang menakjubkan\" berarti...",
+      "options": [
+        "Membosankan dan tidak menarik",
+        "Luar biasa dan mengesankan",
+        "Tidak sesuai dengan harapan",
+        "Membuat kecewa dan tidak menyenangkan",
+        "Tidak terlalu terkenal atau terkenal sedikit"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Luar biasa dan mengesankan"
+    },
+    {
+      "text": "Pernyataan yang benar berdasarkan teks di atas adalah...",
+      "options": [
+        "Lombok hanya dikenal karena Gunung Rinjani dan tidak memiliki daya tarik lain",
+        "Lombok memiliki banyak pulau kecil yang dapat dijadikan tempat untuk bersantai atau menyelam",
+        "Air Terjun Tiu Kelep adalah salah satu tempat yang terkenal karena keindahan pantainya",
+        "Flora dan fauna di Lombok tidak memiliki daya tarik bagi wisatawan",
+        "Lombok tidak memiliki tempat wisata alam selain Gunung Rinjani"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Lombok memiliki banyak pulau kecil yang dapat dijadikan tempat untuk bersantai atau menyelam"
+    },
+    {
+      "text": "Amanat yang dapat diambil dari puisi di atas adalah...",
+      "options": [
+        "Hidup selalu penuh warna, baik cerah maupun gelap",
+        "Senja adalah waktu yang paling indah untuk merenung",
+        "Kehidupan penuh dengan perubahan yang datang secara tiba-tiba",
+        "Setiap perubahan dalam hidup membawa harapan baru",
+        "Langit senja memberikan pelajaran tentang kehidupan yang penuh warna"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Setiap perubahan dalam hidup membawa harapan baru"
+    },
+    {
+      "text": "Berdasarkan puisi \"Di Ujung Senja,\" pernyataan yang benar adalah...",
+      "options": [
+        "Langit senja tidak berubah warna sepanjang hari",
+        "Puisi ini menggambarkan kehidupan yang selalu cerah tanpa ada kegelapan",
+        "Puisi ini mengajarkan kita untuk selalu menunggu perubahan yang datang",
+        "Teks ini menunjukkan bahwa setiap perubahan dalam hidup ada harapan yang tersembunyi",
+        "Perubahan yang terjadi dalam hidup sering kali hanya bersifat negatif"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Teks ini menunjukkan bahwa setiap perubahan dalam hidup ada harapan yang tersembunyi"
+    },
+    {
+      "text": "Dalam teks di atas, kata \"terestrial\" berarti...",
+      "options": [
+        "Hewan yang hidup di udara",
+        "Hewan yang hidup di air",
+        "Hewan yang hidup di darat",
+        "Hewan yang hidup di hutan tropis",
+        "Hewan yang hidup di kutub"
+      ],
+      "correctAnswer": "Hewan yang hidup di darat",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks di atas, pernyataan yang benar adalah...",
+      "options": [
+        "Jerapah hanya hidup di hutan tropis",
+        "Jerapah memiliki lebih dari tujuh ruas tulang leher",
+        "Jerapah dapat mencapai tinggi 5,5 meter untuk betina dewasa",
+        "Makanan utama jerapah adalah daun pohon akasia",
+        "Jerapah memiliki leher pendek yang hanya digunakan untuk menggigit rumput"
+      ],
+      "correctAnswer": "Makanan utama jerapah adalah daun pohon akasia",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang menjadi keunikan jerapah menurut teks?",
+      "options": [
+        "Leher pendek yang digunakan untuk menggigit rumput",
+        "Leher panjang yang berguna untuk mencapai daun di pohon tinggi",
+        "Jerapah memiliki dua kepala yang bisa bergerak terpisah",
+        "Jerapah adalah hewan yang sangat kecil dan ringan",
+        "Jerapah hanya hidup di hutan hujan tropis"
+      ],
+      "correctAnswer": "Leher panjang yang berguna untuk mencapai daun di pohon tinggi",
+      "explanation": null
+    },
+    {
+      "text": "Dalam teks di atas, kata \"mamalia\" berarti...",
+      "options": [
+        "Hewan yang bertelur",
+        "Hewan yang melahirkan anaknya",
+        "Hewan yang hidup di air",
+        "Hewan yang bisa terbang",
+        "Hewan yang tidak berdarah panas"
+      ],
+      "correctAnswer": "Hewan yang melahirkan anaknya",
+      "explanation": null
+    },
+    {
+      "text": "Dalam teks di atas, kata \"klorofil\" berarti...",
+      "options": [
+        "Pigmen yang memberi warna hijau pada tumbuhan",
+        "Proses yang terjadi di dalam sel tumbuhan",
+        "Sumber energi yang dibutuhkan oleh tumbuhan",
+        "Karbon dioksida yang diserap oleh tumbuhan",
+        "Air yang diserap oleh akar tumbuhan"
+      ],
+      "correctAnswer": "Pigmen yang memberi warna hijau pada tumbuhan",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks di atas, pernyataan yang benar adalah...",
+      "options": [
+        "Tumbuhan hanya menghasilkan karbon dioksida dalam fotosintesis",
+        "Fotosintesis terjadi di dalam kloroplas yang mengandung klorofil",
+        "Proses fotosintesis tidak memerlukan energi matahari",
+        "Glukosa yang dihasilkan oleh fotosintesis digunakan sebagai sumber oksigen",
+        "Oksigen yang dihasilkan dalam fotosintesis digunakan oleh tumbuhan untuk bernapas"
+      ],
+      "correctAnswer": "Fotosintesis terjadi di dalam kloroplas yang mengandung klorofil",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang dihasilkan oleh tumbuhan selama proses fotosintesis?",
+      "options": [
+        "Karbon dioksida dan air",
+        "Glukosa dan oksigen",
+        "Hanya air",
+        "Oksigen dan energi matahari",
+        "Glukosa dan air"
+      ],
+      "correctAnswer": "Glukosa dan oksigen",
+      "explanation": null
+    },
+    {
+      "text": "Dalam teks di atas, kata \"pigmen\" berarti...",
+      "options": [
+        "Proses yang terjadi dalam sel tumbuhan",
+        "Zat yang memberi warna pada benda atau tumbuhan",
+        "Energi yang digunakan dalam fotosintesis",
+        "Gas yang diperlukan dalam fotosintesis",
+        "Proses mengubah karbon dioksida menjadi oksigen"
+      ],
+      "correctAnswer": "Zat yang memberi warna pada benda atau tumbuhan",
+      "explanation": null
+    },
+    {
+      "text": "Dalam teks di atas, kata \"gurih\" berarti...",
+      "options": [
+        "Enak dan memiliki rasa yang kaya",
+        "Rasa yang tidak terlalu pedas",
+        "Rasa yang cenderung hambar",
+        "Makanan yang pedas dan asam",
+        "Tidak berbau"
+      ],
+      "correctAnswer": "Enak dan memiliki rasa yang kaya",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks di atas, pernyataan yang benar adalah...",
+      "options": [
+        "Mie goreng hanya bisa disajikan dengan telur sebagai pelengkap",
+        "Mie goreng adalah hidangan yang hanya populer di Indonesia",
+        "Mie goreng memiliki varian yang berbeda-beda di setiap daerah di Indonesia",
+        "Mie goreng biasanya disajikan dengan rasa manis dan tidak ada variasi rasa",
+        "Mie goreng sangat sulit untuk disiapkan dan memerlukan waktu lama"
+      ],
+      "correctAnswer": "Mie goreng memiliki varian yang berbeda-beda di setiap daerah di Indonesia",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang membuat mie goreng disukai oleh banyak orang menurut teks?",
+      "options": [
+        "Mie goreng hanya disajikan dengan sayuran segar",
+        "Mie goreng mudah dan cepat disiapkan",
+        "Mie goreng tidak mengandung bahan tambahan",
+        "Mie goreng hanya dapat ditemukan di restoran mewah",
+        "Mie goreng selalu disajikan dalam jumlah besar"
+      ],
+      "correctAnswer": "Mie goreng mudah dan cepat disiapkan",
+      "explanation": null
+    },
+    {
+      "text": "Dalam teks di atas, kata \"varian\" berarti...",
+      "options": [
+        "Jenis yang berbeda",
+        "Proses pembuatan",
+        "Tempat penyajian",
+        "Rasa yang berbeda",
+        "Waktu makan"
+      ],
+      "correctAnswer": "Jenis yang berbeda",
+      "explanation": null
+    },
+    {
+      "text": "Dalam teks di atas, kata \"mikroskopis\" berarti...",
+      "options": [
+        "Bisa dilihat dengan mata telanjang",
+        "Berukuran sangat kecil, hanya bisa dilihat dengan mikroskop",
+        "Memiliki ukuran yang besar",
+        "Tidak dapat dilihat sama sekali",
+        "Bisa dilihat dengan bantuan alat bantu biasa"
+      ],
+      "correctAnswer": "Berukuran sangat kecil, hanya bisa dilihat dengan mikroskop",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks di atas, pernyataan yang benar adalah...",
+      "options": [
+        "Zooplankton tidak memakan fitoplankton",
+        "Plankton tidak berperan dalam ekosistem laut",
+        "Fitoplankton menghasilkan oksigen melalui fotosintesis",
+        "Plankton hanya bisa ditemukan di lautan yang sangat dalam",
+        "Zooplankton merupakan produsen utama dalam rantai makanan laut"
+      ],
+      "correctAnswer": "Fitoplankton menghasilkan oksigen melalui fotosintesis",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang dimaksud dengan plankton menurut teks?",
+      "options": [
+        "Organisme mikroskopis yang hidup di permukaan air laut dan sangat penting bagi ekosistem laut",
+        "Organisme besar yang bisa dilihat dengan mata telanjang dan hanya hidup di perairan pesisir",
+        "Organisme yang hanya hidup di perairan laut dalam dan tidak bergerak",
+        "Organisme yang memakan fitoplankton tetapi tidak berperan dalam rantai makanan laut",
+        "Organisme yang berukuran besar dan hanya ditemukan di lautan yang dalam"
+      ],
+      "correctAnswer": "Organisme mikroskopis yang hidup di permukaan air laut dan sangat penting bagi ekosistem laut",
+      "explanation": null
+    },
+    {
+      "text": "Dalam teks di atas, kata \"produsen\" berarti...",
+      "options": [
+        "Organisme yang memakan organisme lain",
+        "Organisme yang menghasilkan sesuatu, seperti makanan atau oksigen",
+        "Organisme yang hidup di dasar laut",
+        "Organisme yang mengonsumsi fitoplankton",
+        "Organisme yang berukuran besar dan memiliki banyak predator"
+      ],
+      "correctAnswer": "Organisme yang menghasilkan sesuatu, seperti makanan atau oksigen",
+      "explanation": null
+    }
+  ]
+}

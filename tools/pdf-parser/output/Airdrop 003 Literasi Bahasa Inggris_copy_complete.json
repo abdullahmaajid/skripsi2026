@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "text": "Which of the following is closest in meaning to \"locked up\" in paragraph 2?",
+      "options": [
+        "restricted",
+        "kept",
+        "limited",
+        "bordered",
+        "secured"
+      ],
+      "correctAnswer": "limited",
+      "explanation": "In this context, \"locked up\" means that the fresh water is confined or limited within polar ice caps and glaciers, making it unavailable for immediate use."
+    },
+    {
+      "text": "According to the passage, which of the following best describes the word \"urge\" in paragraph 4?",
+      "options": [
+        "want",
+        "compassion",
+        "desire",
+        "motivation",
+        "aspiration"
+      ],
+      "correctAnswer": "desire",
+      "explanation": "An \"urge\" is a strong, persistent desire or impulse to do something."
+    },
+    {
+      "text": "Which of the following has the same meaning as the word \"exceed\" in paragraph 5?",
+      "options": [
+        "limit",
+        "rise above",
+        "do better than",
+        "overtake",
+        "go beyond"
+      ],
+      "correctAnswer": "go beyond",
+      "explanation": "\"Exceed\" means to go beyond a set limit, number, or amount."
+    },
+    {
+      "text": "The word \"sojourns\" in paragraph 1 can be best replaced by",
+      "options": [
+        "treatments",
+        "trips",
+        "brief visits",
+        "vacations",
+        "breaks"
+      ],
+      "correctAnswer": "brief visits",
+      "explanation": "A \"sojourn\" is a temporary stay or a brief visit to a place."
+    },
+    {
+      "text": "What does Charakasamhita mean when saying \"Diseases are a sign of the cleansing and healing effect of nature\" in paragraph 4?",
+      "options": [
+        "Your body has its own way to heal from the disease.",
+        "Nature may heal diseases that you suffer from.",
+        "Nature contributes a lot to the diseases that you may have.",
+        "Diseases can cure by themselves.",
+        "When you are sick, your body is cleaning itself."
+      ],
+      "correctAnswer": "When you are sick, your body is cleaning itself.",
+      "explanation": "The statement implies that illness is a natural process through which the body cleanses and heals itself."
+    },
+    {
+      "text": "The word \"whipping\" in paragraph 2 means",
+      "options": [
+        "beating an animal repeatedly",
+        "making an animal regain its strength",
+        "pushing an animal to keep moving",
+        "putting a heavy load on an animal",
+        "diagnosing an animal's disease"
+      ],
+      "correctAnswer": "pushing an animal to keep moving",
+      "explanation": "In the context of \"whipping an already exhausted horse,\" it refers to forcing or pushing someone or something to continue working beyond their limits."
+    },
+    {
+      "text": "The word \"stroll\" in paragraph 2 is closest in meaning to which of the following?",
+      "options": [
+        "run",
+        "walk unhurriedly",
+        "laze around",
+        "sit",
+        "rest"
+      ],
+      "correctAnswer": "walk unhurriedly",
+      "explanation": "A \"stroll\" is a slow, relaxed, and unhurried walk."
+    },
+    {
+      "text": "What does the author mean by \"But in reality, it is less spa town and more boot camp\" in paragraph 2?",
+      "options": [
+        "The institute applies a tight rule for the patients.",
+        "The institute is run by military staff.",
+        "The institute only treats military officers.",
+        "The institute is a relaxing center.",
+        "The institute combines a relaxing center and a camping area."
+      ],
+      "correctAnswer": "The institute applies a tight rule for the patients.",
+      "explanation": "Comparing the institute to a \"boot camp\" indicates that it has strict discipline, rigorous routines, and tight rules rather than being a purely relaxing spa."
+    },
+    {
+      "text": "From the term \"a state of emergency\" in paragraph 1, it can be inferred that it refers to a state where ...",
+      "options": [
+        "Copy-right rules are side-stepped",
+        "Cross-borders copy-right rules cannot be overcome",
+        "WIPO members are unable to come up with a solution",
+        "Diplomats squabble over copy-right",
+        "The blinds are kept in the dark"
+      ],
+      "correctAnswer": "WIPO members are unable to come up with a solution",
+      "explanation": "The term is used to highlight a critical situation where immediate action is required because negotiators have failed to reach a timely agreement."
+    },
+    {
+      "text": "It can be inferred from passage that the word \"light\" in the phrase \"hope and light\" in paragraph 1 refers to ....",
+      "options": [
+        "provision of information",
+        "illumination",
+        "vision",
+        "intellectual property",
+        "Braille audio"
+      ],
+      "correctAnswer": "vision",
+      "explanation": "Since the speech is addressed to helping blind people, \"light\" metaphorically represents vision or the ability to see and perceive the world."
+    }
+  ]
+}

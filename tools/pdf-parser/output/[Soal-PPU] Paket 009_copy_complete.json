@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Kata yang mengandung makna konotasi terdapat pada kata?",
+      "options": [
+        "pemeriksaan (kalimat 1)",
+        "melanggar (kalimat 2)",
+        "mengenakan (kalimat 3)",
+        "membawa (kalimat 3)",
+        "bukti (kalimat 4)"
+      ],
+      "correctAnswer": "membawa (kalimat 3)",
+      "explanation": "Kata membawa pada kalimat 3 bermakna konotasi karena tidak digunakan dalam arti sebenarnya."
+    },
+    {
+      "text": "Kata yang memiliki makna lebih luas dari kata “sepeda motor” kalimat (3) adalah?",
+      "options": [
+        "fasilitas",
+        "kendaraan",
+        "motor listrik",
+        "benda",
+        "mobil"
+      ],
+      "correctAnswer": "kendaraan",
+      "explanation": "Kendaraan merupakan hipernim dari sepeda motor sehingga maknanya lebih luas."
+    },
+    {
+      "text": "Struktur kalimat (2) adalah?",
+      "options": [
+        "S-P-O-K",
+        "S-P-K",
+        "S-P-O-Pel",
+        "S-P-O-K-Pel",
+        "S-P-O"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat (6) dalam bacaan akan memiliki makna jika dilengkapi oleh kata?",
+      "options": [
+        "adalah-yang",
+        "untuk-dengan",
+        "yakni-untuk",
+        "adalah-dengan",
+        "merupakan-yang"
+      ],
+      "correctAnswer": "adalah-dengan",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang sesuai untuk mengisi kelanjutan pada kalimat (7) adalah?",
+      "options": [
+        "gunakan helm yang ber-SNI",
+        "tilang memiliki dasar hukum untuk beroperasi sehingga patuhilah aturan berlalu lintas.",
+        "tilang adalah tindakan yang menyusahkan pengguna jalan.",
+        "aturan yang ada kurang memikat sehingga seringkali tidak dipatuhi",
+        "periksa kendaraan sebelum akan digunakan untuk perjalanan."
+      ],
+      "correctAnswer": "tilang memiliki dasar hukum untuk beroperasi sehingga patuhilah aturan berlalu lintas.",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat tidak logis di bawah ini adalah?",
+      "options": [
+        "Ia memberikan kepada Ancika",
+        "Dinar adalah dosen termuda pada Fakultas Peternakan Undip",
+        "Lia menjadi salah satu murid terbaik di sekolahnya.",
+        "Ibu membeli bayam, wortel, dan kangkung di pasar",
+        "Tiara, anak Fakultas Psikologi UI, adalah primadona kampus"
+      ],
+      "correctAnswer": "Ia memberikan kepada Ancika",
+      "explanation": "Kalimat tidak logis karena kata memberikan merupakan kata transitif yang memerlukan objek, tetapi tidak diikuti objek."
+    },
+    {
+      "text": "Bentuk imbuhan me- pada kata menendang memiliki proses pembentukan yang serupa dengan kata?",
+      "options": [
+        "Mirna memiliki sikap ramah",
+        "Yuki merupakan kucing kesayangannya",
+        "Dinar mencintainya",
+        "Bambang menjalankan tugasnya dengan baik",
+        "Linda membaca buku di perpustakaan"
+      ],
+      "correctAnswer": "Linda membaca buku di perpustakaan",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang mengandung makna generalisasi adalah?",
+      "options": [
+        "Bapak Wahyu adalah dosen terbaik di fakultas tersebut",
+        "Juni seorang sarjana Fakultas Biologi Universitas Gadjah Mada",
+        "Manda anak yang sangat rajin dan santun",
+        "Kepala ayam itu dimasak oleh ibunya",
+        "Andika pemain bola di sekolahnya"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "“Vespa yang merupakan motor nyaman untuk keliling di Yogyakarta.” Perbaikan kalimat di atas menjadi kalimat yang logis adalah?",
+      "options": [
+        "menghilangkan kata “nyaman”",
+        "menambah kata adalah sebelum kata yang",
+        "menghilangkan kata yang",
+        "kata “di Yogyakarta” dipindah ke depan",
+        "menghapus kata merupakan"
+      ],
+      "correctAnswer": "menghilangkan kata yang",
+      "explanation": "Menghilangkan kata 'yang' akan membuat kalimat tersebut memiliki subjek dan predikat yang utuh (tidak dipisahkan)."
+    },
+    {
+      "text": "Kata “lemari” merupakan bentuk hiponim dari kata?",
+      "options": [
+        "alat",
+        "tempat baju",
+        "perabotan",
+        "benda kayu",
+        "penyimpanan"
+      ],
+      "correctAnswer": "perabotan",
+      "explanation": "Perabotan adalah hipernim dari lemari."
+    },
+    {
+      "text": "Kalimat yang tidak logis pada bacaan tersebut terdapat pada?",
+      "options": [
+        "kalimat 10",
+        "kalimat 11",
+        "kalimat 8",
+        "kalimat 13",
+        "kalimat 14"
+      ],
+      "correctAnswer": "kalimat 13",
+      "explanation": null
+    },
+    {
+      "text": "Kata “aus” pada kalimat (3) memiliki makna denotasi?",
+      "options": [
+        "bertekstur kasar",
+        "mulai halus karena dipakai",
+        "sedikit bergelombang",
+        "kasar dan keras",
+        "terlalu kasar sehingga susah dipakai"
+      ],
+      "correctAnswer": "mulai halus karena dipakai",
+      "explanation": null
+    },
+    {
+      "text": "Kata “super”pada kalimat (3) berasosiasi dengan kata?",
+      "options": [
+        "istimewa",
+        "khas",
+        "menarik",
+        "sangat",
+        "khusus"
+      ],
+      "correctAnswer": "sangat",
+      "explanation": null
+    },
+    {
+      "text": "Kata “warga” pada kalimat (10) memiliki makna yang lebih sempit, yakni?",
+      "options": [
+        "instansi",
+        "organisasi",
+        "penduduk",
+        "warga lokal",
+        "individu"
+      ],
+      "correctAnswer": "individu",
+      "explanation": null
+    },
+    {
+      "text": "Frasa yang sepola dengan kata “lebih jauh” pada kalimat 13 adalah?",
+      "options": [
+        "sedang memasak",
+        "panjang umur",
+        "kurang manis",
+        "di perpustakaan",
+        "ke kampus"
+      ],
+      "correctAnswer": "kurang manis",
+      "explanation": "'lebih jauh' dan 'kurang manis' sama-sama merupakan frasa ajektival."
+    },
+    {
+      "text": "Kalimat yang memiliki kata bermakna konotasi adalah?",
+      "options": [
+        "kalimat 14",
+        "kalimat 1",
+        "kalimat 4",
+        "kalimat 10",
+        "kalimat 9"
+      ],
+      "correctAnswer": "kalimat 9",
+      "explanation": "Kalimat 9 memiliki kata 'menjaring' yang bermakna konotasi (menjaring pendapat)."
+    },
+    {
+      "text": "Pola kalimat pada kalimat (14) adalah?",
+      "options": [
+        "S-P-Pel",
+        "S-P-O-K",
+        "S-P-O-PEL",
+        "S-P-O-K-PEL",
+        "S-P-O"
+      ],
+      "correctAnswer": "S-P-Pel",
+      "explanation": null
+    },
+    {
+      "text": "“Rakyat sangat membutuhkan sekali pemimpin yang memiliki integritas dan independensi.” Kalimat di atas agar menjadi kalimat yang logis dengan?",
+      "options": [
+        "menghilangkan kata rakyat",
+        "menghilangkan kata sekali",
+        "menghilangkan kata sangat dan sekali",
+        "menambahkan kata yang sebelum kata sangat",
+        "memberikan tanda koma setelah kata membutuhkan"
+      ],
+      "correctAnswer": "menghilangkan kata sekali",
+      "explanation": "Kata 'sangat' dan 'sekali' adalah bentuk pleonasme (bersinonim dalam menyatakan tingkatan), sehingga salah satunya harus dihilangkan."
+    },
+    {
+      "text": "Kata di bawah ini yang merupakan kata berpasangan tetap adalah?",
+      "options": [
+        "cita rasa",
+        "manusia kuat",
+        "berirama merdu",
+        "kacang polong",
+        "tanggung jawab"
+      ],
+      "correctAnswer": "tanggung jawab",
+      "explanation": "Tanggung jawab merupakan salah satu contoh kata berpasangan tetap yang tidak dapat diganti unsurnya secara bebas."
+    },
+    {
+      "text": "Kata “kota” memiliki makna hiponim, yaitu?",
+      "options": [
+        "provinsi",
+        "kabupaten",
+        "Jakarta",
+        "negara",
+        "wilayah"
+      ],
+      "correctAnswer": "Jakarta",
+      "explanation": "Jakarta adalah bentuk hiponim atau contoh spesifik dari kota."
+    }
+  ]
+}

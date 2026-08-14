@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
   // ── Images ──
   // Allow external image sources if needed (e.g. avatars from Google/GitHub OAuth)
   images: {
+    formats: ['image/avif', 'image/webp'],
     remotePatterns: [
       { protocol: "https", hostname: "**.googleusercontent.com" },
       { protocol: "https", hostname: "avatars.githubusercontent.com" },

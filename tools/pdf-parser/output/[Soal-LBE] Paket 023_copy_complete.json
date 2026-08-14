@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(1)",
+        "(2)",
+        "(4)",
+        "(5)",
+        "(7)"
+      ],
+      "correctAnswer": "(B)",
+      "explanation": "Sentence (2) contains subjective judgment ('most fascinating', 'potential for colonization') rather than objective facts."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(1)",
+        "(3)",
+        "(4)",
+        "(5)",
+        "(7)"
+      ],
+      "correctAnswer": "(D)",
+      "explanation": "Sentence (5) expresses a predictive judgment ('will never completely replace') rather than a verifiable fact."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(1)",
+        "(3)",
+        "(4)",
+        "(5)",
+        "(7)"
+      ],
+      "correctAnswer": "(A)",
+      "explanation": "Sentence (1) contains a subjective value judgment ('superior reading experience')."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(5)",
+        "(7)"
+      ],
+      "correctAnswer": "(C)",
+      "explanation": "Sentence (3) uses prescriptive and subjective language ('are essential', 'should be taken daily')."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(1)",
+        "(3)",
+        "(4)",
+        "(5)",
+        "(6)"
+      ],
+      "correctAnswer": "(E)",
+      "explanation": "Sentence (6) makes a bold, speculative prediction ('represents the most important technological revolution... and will solve currently intractable problems')."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(1)",
+        "(3)",
+        "(4)",
+        "(5)",
+        "(7)"
+      ],
+      "correctAnswer": "(A)",
+      "explanation": "Sentence (1) expresses a strong subjective evaluation and claim ('have failed to adapt... must be completely restructured')."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(1)",
+        "(3)",
+        "(4)",
+        "(5)",
+        "(7)"
+      ],
+      "correctAnswer": "(C)",
+      "explanation": "Sentence (4) presents a policy recommendation or subjective stance ('should be paused immediately')."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(5)",
+        "(7)"
+      ],
+      "correctAnswer": "(C)",
+      "explanation": "Sentence (3) contains a subjective superlative evaluation ('undoubtedly the most impressive architectural achievement')."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(1)",
+        "(2)",
+        "(4)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(E)",
+      "explanation": "Sentence (7) uses prescriptive and moral language ('must take absolute precedence', 'irreversible moral failure')."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(1)",
+        "(3)",
+        "(4)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(E)",
+      "explanation": "Sentence (7) contains a subjective proposal and evaluation ('deserves to be implemented', 'more effectively than any traditional academic subject')."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(1)",
+        "(2)",
+        "(4)",
+        "(5)",
+        "(7)"
+      ],
+      "correctAnswer": "(B)",
+      "explanation": "Sentence (2) contains subjective evaluations such as 'inherently superior' and 'should replace conventional therapy', which represent an opinion rather than a verifiable fact."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(1)",
+        "(3)",
+        "(4)",
+        "(5)",
+        "(6)"
+      ],
+      "correctAnswer": "(E)",
+      "explanation": "Sentence (6) contains subjective claims such as 'most refined flavor profile in the world' and 'should be universally recognized as superior', which reflect an opinion."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(1)",
+        "(3)",
+        "(4)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(D)",
+      "explanation": "Sentence (6) presents a value judgment stating that electric vehicles represent an 'inadequate solution', which is an opinion."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(5)",
+        "(7)"
+      ],
+      "correctAnswer": "(A)",
+      "explanation": "Sentence (1) uses subjective language like 'has become obsolete' and 'should be replaced with', expressing an opinion."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(2)",
+        "(3)",
+        "(4)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(E)",
+      "explanation": "Sentence (7) expresses a subjective value judgment that video games 'have contributed more to the artistic and cultural development... than film, literature, and music combined', which is an opinion."
+    }
+  ]
+}

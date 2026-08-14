@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Dari Desember 2021 sampai Agustus 2022, tingkat inflasi tertinggi terjadi pada bulan ....",
+      "options": [
+        "Desember 2021",
+        "April 2022",
+        "Juli 2022",
+        "Agustus 2022",
+        "Juni 2022"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan grafik, tingkat inflasi berada pada rentang $2,5\\%-4\\%$ selama ... bulan.",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kenaikan tingkat inflasi disebut \"signifikan\" jika kenaikannya lebih dari $0,5\\%$. Dari Desember 2021 sampai Agustus 2022, berapa banyak terjadinya kenaikan tingkat inflasi yang signifikan?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Insi dan Uti membeli makaroni kering bersama-sama setiap ... hari sekali.",
+      "options": [
+        "7",
+        "8",
+        "11",
+        "12",
+        "17"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Setiap kali Insi dan Uti membeli makaroni kering bersama-sama, banyak makaroni kering yang dibeli adalah .... bungkus",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "8",
+        "12"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kesempatan berikutnya Insi dan Uti membeli makaroni kering bersama-sama adalah pada hari ....",
+      "options": [
+        "Senin",
+        "Selasa",
+        "Rabu",
+        "Kamis",
+        "Jumat"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Total uang yang Insi dan Uti keluarkan untuk membeli makaroni kering selama bulan Agustus adalah sebanyak ....",
+      "options": [
+        "Rp10.500,00",
+        "Rp19.500,00",
+        "Rp28.500,00",
+        "Rp32.000,00",
+        "Rp39.000,00"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Hari ketika Insi dan Uti membeli makaroni kering bersama-sama untuk yang ke 100 kalinya adalah hari ....",
+      "options": [
+        "Senin",
+        "Selasa",
+        "Rabu",
+        "Kamis",
+        "Jumat"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Total biaya $B$ (dalam ribu rupiah) untuk menyewa sebuah studio selama $x$ jam dinyatakan oleh $B = 30x + 50$. Apakah yang direpresentasikan oleh angka 30 pada persamaan?",
+      "options": [
+        "Total biaya untuk menyewa studio.",
+        "Biaya sewa studio per jam.",
+        "Biaya administrasi penyewaan studio.",
+        "Waktu minimal untuk menyewa studio.",
+        "Tidak dapat ditentukan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Anita menyewa studio tersebut selama 3 jam dan membayar Rp150.000. Berapakah uang kembalian yang akan diterima Anita?",
+      "options": [
+        "Rp140.000",
+        "Rp110.000",
+        "Rp70.000",
+        "Rp30.000",
+        "Rp10.000"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan hasil survei, berapakah banyaknya siswa yang memiliki hobi olahraga?",
+      "options": [
+        "45",
+        "105",
+        "90",
+        "140",
+        "160"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika seorang siswa dipilih secara acak, peluang terpilihnya siswa perempuan yang hobi musik adalah ....",
+      "options": [
+        "14%",
+        "32%",
+        "50%",
+        "22%",
+        "61%"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan di bawah ini yang tepat?",
+      "options": [
+        "Siswa perempuan lebih banyak daripada siswa laki-laki.",
+        "2 dari 3 siswa perempuan memiliki hobi musik.",
+        "Musik lebih banyak diminati oleh laki-laki.",
+        "Lebih banyak yang hobi musik daripada hobi olahraga.",
+        "3 dari 4 siswa laki-laki memiliki hobi olahraga."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika seorang siswa laki-laki dipilih secara acak, peluang terpilihnya siswa yang hobi olahraga adalah ....",
+      "options": [
+        "75%",
+        "25%",
+        "66%",
+        "50%",
+        "42%"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "250 siswa yang mengikuti survei dibagi menjadi kelompok berdasarkan hobi mereka. Kelompok A untuk yang hobi olahraga dan kelompok B untuk yang hobi musik. Jika dipilih seorang siswa dari kelompok B, peluang yang terpilih adalah siswa perempuan adalah ....",
+      "options": [
+        "61%",
+        "22%",
+        "34%",
+        "47%",
+        "50%"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada salah satu laman situs komunitas pemancing yang dikunjungi Wisnu, Wisnu menemukan bahwa untuk kolam dengan penampang lingkaran, perbandingan besar luas penampang dan besar keliling penampang haruslah $1 : 2$. Ukuran jari-jari penampang kolam yang mungkin dibangun adalah:\nI. $4\\text{ m}$\nII. $3\\text{ m}$\nIII. $2\\text{ m}$\nIV. $1\\text{ m}$",
+      "options": [
+        "I, II, dan III",
+        "I dan II",
+        "III dan IV",
+        "IV saja",
+        "Semua bisa"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada laman situs komunitas pemancing yg lain, Wisnu mendapati bahwa selisih besar keliling penampang dan besar luas penampang tidak boleh lebih dari $\\pi$ untuk mendapatkan kolam berpenampang lingkaran yang ideal. Ukuran jari-jari penampang kolam yang mungkin dibangun adalah:\nV. $4\\text{ m}$\nI. $3\\text{ m}$\nII. $2\\text{ m}$\nIII. $1\\text{ m}$",
+      "options": [
+        "I, II, dan III",
+        "I dan II",
+        "III dan IV",
+        "IV saja",
+        "Semua bisa"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perbandingan volume tanah yang dikeruk seperti pendapat pertama dengan pendapat kedua jika Wisnu menggunakan ukuran yg serupa adalah ....",
+      "options": [
+        "1 : 3",
+        "2 : 3",
+        "3 : 2",
+        "3 : 1",
+        "informasi yang tersedia kurang"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perbandingan massa tanah yang dikeruk seperti pendapat pertama dengan pendapat kedua jika Wisnu menggunakan ukuran yg serupa adalah ....",
+      "options": [
+        "1 : 3",
+        "2 : 3",
+        "3 : 2",
+        "3 : 1",
+        "informasi yang tersedia kurang"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah perusahaan pengerukan tanah menawarkan jasanya kepada Wisnu.\nSkema harga jasa yang ditawarkan adalah sebagai berikut:\nI. Rp100.000,00 per meter kubik untuk $10$ meter kubik pertama.\nII. Rp150.000,00 per meter kubik untuk $10$ meter kubik berikutnya.\nIII. Rp250.000,00 per meter kubik untuk $10$ meter kubik berikutnya.\nIV. Rp7.500.000,00 flat untuk pengerukan lebih dari $30$ meter kubik.\nWisnu sudah menetapkan beberapa ukuran kolam yang akan dibuat, yaitu:\nI. Jari-jari penampang $2\\text{ m}$, berbentuk kerucut terbalik dengan kedalaman $6\\text{ m}$.\nII. Jari-jari penampang $1,5\\text{ m}$, berbentuk prisma dengan kedalaman $4\\text{ m}$.\nIII. Jari-jari penampang $2\\text{ m}$, berbentuk prisma dengan kedalaman $2,25\\text{ m}$.\nIV. Jari-jari penampang $3\\text{ m}$, berbentuk kerucut terbalik dengan kedalaman $4\\text{ m}$.\nKolam yang biaya pengerukannya paling mahal adalah kolam ....",
+      "options": [
+        "I, II, dan III",
+        "I dan II",
+        "III dan IV",
+        "IV saja",
+        "I, II, III, dan IV"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

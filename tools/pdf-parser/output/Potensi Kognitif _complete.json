@@ -1,0 +1,301 @@
+{
+  "questions": [
+    {
+      "text": "Jika Toni rajin belajar, maka nilai ujian Toni bagus\nNilai ujian Toni tidak bagus\nSimpulan yang tepat adalah…",
+      "options": [
+        "Toni rajin belajar",
+        "Toni tidak rajin belajar",
+        "Toni rajin belajar dan nilai ujian Toni bagus",
+        "Toni tidak rajin belajar dan nilai ujian Toni tidak bagus",
+        "Toni rajin belajar dan nilai ujian Toni tidak bagus"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Banyak persegi panjang yang dapat dibuat dari gambar berikut adalah:",
+      "options": [
+        "10",
+        "12",
+        "8",
+        "6",
+        "14"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ketika tinggal di Medan atau Surabaya,\nSemua orang membutuhkan pendingin ruangan.\nDewi tinggal di Medan.\nSimpulan yang paling tepat adalah…",
+      "options": [
+        "Dewi membutuhkan bukan pendingin ruangan",
+        "Dewi membutuhkan pendingin ruangan",
+        "Dewi menggunakan alat kecuali pendingin ruangan",
+        "Bukan Dewi yang menggunakan pendingin ruangan",
+        "Dewi tidak menggunakan pendingin ruangan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pola gambar yang berbeda ditunjukkan dengan gambar nomor…",
+      "options": [
+        "(5)",
+        "(4)",
+        "(3)",
+        "(2)",
+        "(1)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Nilai yang tepat untuk mengisi kotak berlabel X adalah…",
+      "options": [
+        "50",
+        "45",
+        "43",
+        "42",
+        "55"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dono memiliki 5 buah mobil dengan maksimal muatan serta bahan bakar yang berbeda-beda. Di bawah ini merupakan tabel mengenai informasi setiap mobil. Asumsikan setiap mobil akan dikendarai dengan kecepatan yang sama. \n\nMobil | Maksimal muatan (kg) | Bahan bakar | Konsumsi bahan bakar (jam/liter)\n1 | 650 | Pertalite | 2\n2 | 700 | Pertalite | 2.5\n3 | 600 | Pertamina dex | 5\n4 | 700 | Pertamax | 2\n5 | 750 | Pertamina dex | 5\n\nSedangkan tabel di bawah merupakan tabel yang memuat harga setiap bahan bakar untuk mengisi mobil milik Dono.\nBahan bakar | Harga (rupiah/liter)\nPertalite | 12.000\nPertamax | 20.000\nPertamina dex | 25.000\n\nDono akan pergi berlibur dengan membawa 10 orang temannya dan total muatannya adalah 1 ton. Mobil mana sajakah yang paling efektif mengantar Dono berlibur?",
+      "options": [
+        "Mobil 1 dan 2",
+        "Mobil 2 dan 3",
+        "Mobil 1 dan 3",
+        "Mobil 1 dan 4",
+        "Mobil 1 dan 5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Gamma menyatakan bahwa memakan bubur diaduk membuat semua rasa bercampur sempurna.\nEpsilon menyatakan bahwa memakan bubur diaduk membuat selera makan turun. \nHasil penelitian menunjukkan bahwa ketika bubur diaduk, semua komponen dari bubur akan menyatu sempurna.\nManakah pernyataan berikut yang paling tepat mengenai hasil penelitian tersebut?",
+      "options": [
+        "Memperkuat pernyataan Gamma",
+        "Memperlemah pernyataan Gamma",
+        "Memperkuat pernyataan Epsilon",
+        "Memperlemah pernyataan Epsilon",
+        "Tidak relevan dengan pernyataan Gamma dan Epsilon"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Guru fisika menyatakan bahwa Bulan tidak mengerjakan tugas yang harus dikumpulkan hari ini. Namun, Bulan menyanggah dan menyatakan bahwa ia lupa membawa buku tugasnya. Ketika Bintang memeriksa tas Bulan, ditemukan buku tugasnya yang ternyata terselip di antara buku lainnya.\nManakah pernyataan berikut yang paling tepat mengenai hasil temuan Bintang?",
+      "options": [
+        "Memperkuat pernyataan guru fisika",
+        "Memperlemah pernyataan guru fisika",
+        "Memperkuat pernyataan Bulan",
+        "Memperlemah pernyataan Bulan",
+        "Tidak relevan dengan pernyataan Bulan maupun guru fisika"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dina membeli 2 buah rok dan 5 buah celana di sebuah toko baju. Ia membayar dengan uang Rp100.000 sebanyak 6 lembar dan mendapat kembalian sebanyak Rp70.000. Sedangkan itu, Dini membeli 5 buah rok dan 3 buah celana di toko yang sama dengan membayar sebanyak Rp660.000. Jika Rani membeli 10 buah rok dan 10 buah celana dengan mengantongi uang sebanyak Rp2.000.000. Berapa sisa uang Rani?",
+      "options": [
+        "Rp300.000",
+        "Rp350.000",
+        "Rp400.000",
+        "Rp450.000",
+        "Rp500.000"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dalam ujian matematika diberikan 10 soal. Tentukan banyaknya cara mengerjakan soal jika peserta ujian diwajibkan mengerjakan 8 soal dengan sedikitnya 5 soal dari 7 nomor pertama dan sisanya dari 3 nomor terakhir.",
+      "options": [
+        "30",
+        "35",
+        "40",
+        "45",
+        "50"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah bilangan dengan 4 digit yang dapat dibagi 5. Jika semua angkanya dijumlahkan menghasilkan 8 dan jika jumlah dua digit pertama dikurangi jumlah dua digit kedua menghasilkan 2. Bilangan yang mungkin adalah…",
+      "options": [
+        "1435",
+        "1412",
+        "1420",
+        "1430",
+        "1403"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Gambar yang merupakan pencerminan dari gambar berikut adalah…",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua lulusan pesantren memiliki hafalan lebih dari 10 juz atau berhasil masuk ke sekolah favorit.\nIngkaran yang paling tepat dari simpulan teks tersebut adalah…",
+      "options": [
+        "Semua lulusan pesantren yang memiliki hafalan lebih dari 10 juz berhasil masuk ke sekolah favorit.",
+        "Semua lulusan pesantren yang memiliki hafalan lebih dari 10 juz tidak berhasil masuk ke sekolah favorit.",
+        "Ada lulusan pesantren yang memiliki hafalan kurang dari 10 juz dan tidak berhasil masuk ke sekolah favorit.",
+        "Tidak ada lulusan pesantren yang memiliki hafalan kurang dari 10 juz dan tidak berhasil masuk sekolah favorit.",
+        "Semua lulusan pesantren yang tidak berhasil masuk ke sekolah favorit memiliki hafalan lebih dari 10 juz."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada suatu acara api unggun terdapat 8 orang yang berdiri melingkar. Ke delapan orang tersebut adalah A, B, C, D, E, F, G, H. Posisi mereka adalah sebagai berikut.\n- E berdiri bersebrangan dengan A\n- A berdiri di antara D dan F\n- H dan B berdiri berhadapan\n- B berjarak dua orang dari C\n- G berdiri di antara B dan E\n\nDari gambaran di atas, siapakah yang duduk di samping C?",
+      "options": [
+        "H dan E",
+        "F dan G",
+        "B dan C",
+        "H dan D",
+        "H dan C"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Siapakah yang duduk berhadapan dengan C?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah perusahaan tekstil yang memproduksi pakaian memperoleh keuntungan pada bulan Agustus dengan penjualan baju 250 buah dan celana 100 buah dengan total pendapatan Rp100.000.000. Pada bulan September, penjualan hanya terjual 100 baju dan 50 celana dengan total pendapatan hanya Rp65.000.000. Kondisi yang manakah di bawah ini dengan total penjualan terkecil…",
+      "options": [
+        "Penjualan baju 50 buah dan celana 75 buah",
+        "Penjualan baju 75 buah dan celana 50 buah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan teks berikut untuk menjawab soal no 18 dan 19.\nA, B, C, D, dan E adalah lima pekerja yang mencalonkan diri menjadi ketua serikat pekerja. Ada tiga program yang diajukan para calon, yaitu (i) program peningkatan keterampilan pekerja oleh A, B, dan C; (ii) program olahraga oleh B, C, dan D; (iii) program peningkatan kesejahteraan oleh D, E, dan A. Setiap warga hanya diperkenankan memilih satu calon berdasarkan programnya. Hasil pemungutan suara adalah sebagai berikut:\n- 60 pekerja memilih program peningkatan keterampilan pekerja\n- 45 pekerja memilih program olahraga\n- 90 pekerja memilih program peningkatan kesejahteraan\n- Jumlah suara terbagi sama besar pada calon-calon yang memiliki program sama\n\nCalon yang memperoleh suara tersedikit adalah...",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Orang yang memperoleh suara sama banyak adalah...",
+      "options": [
+        "ABC",
+        "BCD",
+        "CDE",
+        "DEA",
+        "EAB"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Rizky Billar menentukan prioritas dalam hidupnya sebagai berikut, Rizky Billar ingin tentram sebelum menikah, melanjutkan pendidikan setelah punya jabatan. Ia juga akan menikah setelah punya pekerjaan. Setelah punya jabatan, ia akan sukses. Jika saat ini telah punya jabatan, maka keinginan yang telah tercapai adalah...",
+      "options": [
+        "Tentram, menikah, sukses",
+        "Tentram, punya pekerjaan, melanjutkan pendidikan",
+        "Punya pekerjaan, menikah, sukses",
+        "Tentram, punya pekerjaan, menikah",
+        "Tentram, menikah, melanjutkan pendidikan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "16. Berdasarkan clue pada gambar, siapakah yang duduk di samping C?",
+      "options": [
+        "H dan E",
+        "A dan F",
+        "D dan B",
+        "F dan H",
+        "G dan E"
+      ],
+      "correctAnswer": "H dan E",
+      "explanation": "Dari clue yang ada, yang duduk di samping C adalah H dan E."
+    },
+    {
+      "text": "17. Berdasarkan clue pada gambar lingkaran, siapakah yang berhadapan dengan C?",
+      "options": [
+        "A",
+        "B",
+        "F",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Dari clue yang ada, yang duduk berhadapan dengan C adalah D."
+    },
+    {
+      "text": "Misalkan $\\text{baju} = x$ dan $\\text{celana} = y$. Jika pada bulan Agustus $250x + 100y = 100.000.000$ dan pada September $100x + 50y = 65.000.000$. Berapakah harga baju dan celana?",
+      "options": [
+        "47.500.000",
+        "40.000.000",
+        "52.500.000",
+        "35.000.000",
+        "Harga baju $200.000$ dan celana $500.000$"
+      ],
+      "correctAnswer": "Harga baju $200.000$ dan celana $500.000$",
+      "explanation": "Dengan melakukan eliminasi persamaan Agustus dan September, didapat harga baju $x = 200.000$ dan celana $y = 500.000$, sehingga opsi D adalah jawaban yang tepat untuk kesimpulan harga satuannya."
+    },
+    {
+      "text": "18. Dari poin tersebut dapat disimpulkan:\nPeningkatan keterampilan kerja - A, B, C = $60 : 3 = 20$\nProgram Olahraga - B, C, D = $45 : 3 = 15$\nProgram Peningkatan Kesejahteraan - D, E, A = $90 : 3 = 30$\nPerolehan Setiap Anggota:\n$A = 20 + 30 = 50$\n$B = 20 + 15 = 35$\n$C = 20 + 15 = 35$\n$D = 15 + 30 = 35$\n$E = 30$\nMaka, suara tersedikit diperoleh oleh e dan BCD memiliki jumlah suara sama banyak.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Berdasarkan analisis perolehan suara setiap anggota, suara paling sedikit diperoleh oleh E."
+    },
+    {
+      "text": "19. Dari poin tersebut dapat disimpulkan:\nPeningkatan keterampilan kerja - A, B, C = $60 : 3 = 20$\nProgram Olahraga - B, C, D = $45 : 3 = 15$\nProgram Peningkatan Kesejahteraan - D, E, A = $90 : 3 = 30$\nPerolehan Setiap Anggota:\n$A = 20 + 30 = 50$\n$B = 20 + 15 = 35$\n$C = 20 + 15 = 35$\n$D = 15 + 30 = 35$\n$E = 30$\nMaka, BCD memiliki jumlah suara sama banyak.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Berdasarkan hasil perhitungan, B, C, dan D masing-masing memiliki jumlah suara 35, sehingga jumlahnya sama banyak."
+    },
+    {
+      "text": "20. Berdasarkan prioritas Rizky Billar:\n$\\text{Tentram} > \\text{Menikah}$\n$\\text{Jabatan} > \\text{Pendidikan}$\n$\\text{Pekerjaan} > \\text{Menikah}$\n$\\text{Jabatan} > \\text{Sukses}$\nKarena melanjutkan pendidikan dan sukses dicapai setelah jabatan maka belum dapat dipastikan apakah sudah tercapai atau belum. Maka, opsi A, B, C, dan E belum tentu benar.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Analisis dari prioritas menunjukkan pilihan yang tepat adalah D."
+    }
+  ]
+}

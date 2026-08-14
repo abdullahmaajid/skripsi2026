@@ -3,6 +3,8 @@ import { prisma } from "@/lib/prisma"
 import { auth } from "@/auth"
 import { getScaffoldResponse, type ScaffoldLevel } from "@/lib/ai/scaffolding"
 
+export const maxDuration = 60; // Allow AI route to run up to 60 seconds on Vercel
+
 // ─── Free chat system prompt (replaces the deleted /api/tutor/chat) ───────────
 const FREE_CHAT_SYSTEM_PROMPT = `Kamu adalah AI Tutor UTBK bernama "Lexica AI". Kamu membantu siswa Indonesia mempersiapkan ujian UTBK/SNBT.
 

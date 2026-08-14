@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Seseorang yang memiliki otot yang bagus akan memiliki tulang yang sehat. Kondisi tersebut terjadi ketika seseorang rutin olahraga angkat beban. Manakah simpulan yang tepat jika saat ini Pak Aldi memiliki tulang yang keropos?",
+      "options": [
+        "Pak Aldi tidak rutin olahraga angkat beban.",
+        "Pak Aldi rutin olahraga angkat beban.",
+        "Pak Aldi memiliki otot yang bagus.",
+        "Pak Aldi sering melatih ototnya.",
+        "Tidak dapat disimpulkan."
+      ],
+      "correctAnswer": "Pak Aldi tidak rutin olahraga angkat beban.",
+      "explanation": "Pernyataan 1: Otot bagus -> Tulang sehat (setara dengan: Tidak tulang sehat -> Tidak otot bagus). Kondisi terjadi jika rutin angkat beban (Tulang sehat -> Rutin angkat beban). Jika Pak Aldi memiliki tulang keropos (tidak sehat), maka berdasarkan silogisme ia tidak rutin olahraga angkat beban."
+    },
+    {
+      "text": "Untuk diterima di Perusahaan A, seseorang harus mampu mengoperasikan komputer, berkomunikasi dengan baik, dan memiliki sertifikat telah menjalani pendidikan atau pelatihan di bidang teknologi. Andi saat ini mampu mengoperasikan komputer dengan baik. Simpulan berdasarkan informasi tersebut adalah Andi layak diterima di Perusahaan A. Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan.",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": "Simpulan tidak dapat dinilai karena informasi tidak cukup.",
+      "explanation": "Syarat diterima di Perusahaan A ada tiga: bisa komputer, komunikasi baik, dan punya sertifikat pelatihan teknologi. Andi baru memenuhi satu syarat (bisa komputer), sedangkan dua syarat lainnya belum diketahui informasinya."
+    },
+    {
+      "text": "Malaria menyebar di lingkungan yang mendukung perkembangbiakan nyamuk Anopheles, yaitu lingkungan yang memiliki sanitasi buruk, banyak sampah menumpuk, dan memiliki musim hujan dengan curah hujan tinggi yang menyebabkan genangan tempat berkembang nyamuk. Desa X adalah wilayah yang memiliki musim hujan dengan curah hujan tinggi, memiliki drainase yang baik, dan pengolahan sampah yang teratur. Simpulan berdasarkan informasi tersebut adalah Desa X berpotensi tinggi terhadap penyebaran penyakit Malaria. Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan.",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": "Simpulan tersebut pasti salah.",
+      "explanation": "Lingkungan yang mendukung penyebaran malaria harus memenuhi sanitasi buruk, banyak sampah, dan curah hujan tinggi. Desa X memiliki drainase yang baik (sanitasi baik) dan pengolahan sampah teratur, sehingga syarat lingkungan penularan malaria tidak terpenuhi."
+    },
+    {
+      "text": "Semua penduduk di Desa Sukakamu bekerja sebagai petani kopi, sebagian penduduk di Desa Sukakamu juga bekerja sebagai pedagang kopi. Azriel adalah penduduk di Desa Sukakamu yang bekerja sebagai pedagang kopi. Simpulan berdasarkan informasi tersebut adalah Azriel juga bekerja sebagai petani kopi. Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan.",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": "Simpulan tersebut pasti benar.",
+      "explanation": "Karena semua penduduk di Desa Sukakamu bekerja sebagai petani kopi, maka siapapun penduduknya (termasuk Azriel) pasti bekerja sebagai petani kopi."
+    },
+    {
+      "text": "Suatu wilayah akan memiliki angka kemiskinan rendah ketika pemerintah mampu memberantas korupsi dan kualitas pendidikan yang baik. Wilayah X tidak pernah memiliki kasus korupsi. Simpulan berdasarkan informasi tersebut adalah Wilayah X memiliki angka kemiskinan yang rendah. Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan.",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": "Simpulan tersebut mungkin benar.",
+      "explanation": "Syarat kemiskinan rendah ada dua: pemberantasan korupsi (bebas korupsi) dan kualitas pendidikan yang baik. Wilayah X baru memenuhi syarat bebas korupsi, sementara informasi tentang kualitas pendidikannya belum diketahui."
+    },
+    {
+      "text": "Berdasarkan data omzet penjualan Kopi Sue dari Januari hingga April 2023, manakah kondisi yang PALING MUNGKIN terkait omzet penjualan setelah bulan April berdasarkan tren yang terjadi selama empat bulan terakhir?",
+      "options": [
+        "Omzet penjualan Machiato akan menjadi yang tertinggi dibanding yang lainnya.",
+        "Omzet penjualan Americano akan meningkat melebihi bulan sebelumnya.",
+        "Omzet penjualan Cafe Latte akan meningkat melebihi bulan April.",
+        "Omzet penjualan ketiga produk akan menurun lebih dari setengahnya.",
+        "Omzet penjualan ketiga produk akan meningkat melebihi 100%."
+      ],
+      "correctAnswer": "Omzet penjualan Americano akan meningkat melebihi bulan sebelumnya.",
+      "explanation": "Dari data, Americano terus mengalami peningkatan dari Januari (4), Februari (9), Maret (10), hingga April (13). Tren ini menunjukkan kemungkinan besar Americano akan terus meningkat di bulan berikutnya."
+    },
+    {
+      "text": "Berdasarkan data tersebut, berapa persentase peningkatan penjualan Americano pada bulan April dibanding bulan sebelumnya?",
+      "options": [
+        "20%",
+        "25%",
+        "30%",
+        "35%",
+        "40%"
+      ],
+      "correctAnswer": "30%",
+      "explanation": "Penjualan Americano Maret = 10, April = 13. Peningkatan = (13 - 10) / 10 * 100% = 3 / 10 * 100% = 30%."
+    },
+    {
+      "text": "Berdasarkan data tersebut, berapa persentase penurunan penjualan Machiato pada bulan Februari dibanding bulan sebelumnya?",
+      "options": [
+        "9%",
+        "15%",
+        "18%",
+        "27%",
+        "33%"
+      ],
+      "correctAnswer": "33%",
+      "explanation": "Penjualan Machiato Januari = 15, Februari = 10. Penurunan = (15 - 10) / 15 * 100% = 5 / 15 * 100% = 33,33% (dibulatkan menjadi 33%)."
+    },
+    {
+      "text": "Berdasarkan data tersebut, manakah pernyataan yang PASTI BENAR?",
+      "options": [
+        "Selalu terjadi peningkatan omzet Machiato selama bulan Januari-April.",
+        "Selalu terjadi peningkatan omzet Cafe Latte selama bulan Januari-April.",
+        "Selalu terjadi peningkatan omzet Americano selama bulan Januari-April.",
+        "Terjadi peningkatan signifikan omzet Machiato pada bulan Januari-Februari.",
+        "Semua menu mengalami peningkatan omzet pada bulan April."
+      ],
+      "correctAnswer": "Selalu terjadi peningkatan omzet Americano selama bulan Januari-April.",
+      "explanation": "Americano dari Januari ke April terus naik (4 -> 9 -> 10 -> 13). Pilihan lain salah karena Machiato turun di Februari, Cafe Latte turun di April."
+    },
+    {
+      "text": "Komposisi warna merah dan hijau untuk cat tembok sebuah rumah adalah 3 : 4. Jika 14 liter cat dapat mewarnai tembok seluas 35 $m^2$, volume cat hijau yang dibutuhkan untuk mewarnai tembok seluas 350 $m^2$ adalah ...",
+      "options": [
+        "50 liter",
+        "55 liter",
+        "60 liter",
+        "75 liter",
+        "80 liter"
+      ],
+      "correctAnswer": "80 liter",
+      "explanation": "Luas tembok yang dicat menjadi 10 kali lipat ($350/35 = 10$). Total cat yang dibutuhkan adalah $14 \\text{ liter} \\times 10 = 140 \\text{ liter}$. Volume cat hijau = $\\frac{4}{3+4} \\times 140$ (atau berdasarkan rasio dan perhitungan yang sesuai)."
+    },
+    {
+      "text": "Toko Kue akan membuat kue lapis dengan mempertimbangkan hal-hal berikut:\n- Jika bahan tersedia lengkap, pekerjaan akan diselesaikan lebih cepat 15%.\n- Jika peralatan tersedia lengkap, pekerjaan dapat diselesaikan lebih cepat \\frac{2}{5} kali.\n- Jika menggunakan pekerja yang berpengalaman, penyelesaian pekerjaan lebih cepat 0,25 kali.\n- Jika menggunakan pekerja amatir, penyelesaian pekerjaan lebih lambat 50%.\n\nManakah kondisi yang perlu dipertimbangkan agar dapat PALING CEPAT menyelesaikan pekerjaan?",
+      "options": [
+        "Menggunakan pekerja amatir dan peralatan tersedia lengkap.",
+        "Pekerja yang berpengalaman dan peralatan tersedia lengkap.",
+        "Bahan tersedia lengkap dan menggunakan pekerja amatir.",
+        "Bahan dan peralatan yang tersedia lengkap.",
+        "Hanya menggunakan pekerja yang berpengalaman."
+      ],
+      "correctAnswer": "Pekerja yang berpengalaman dan peralatan tersedia lengkap.",
+      "explanation": "Untuk membuat pekerjaan paling cepat selesai, kita harus memilih kombinasi yang memberikan waktu tercepat (pengurangan waktu terbesar). Peralatan lengkap memberikan percepatan \\frac{2}{5} (40%) dan pekerja berpengalaman memberikan percepatan 0,25 (25%)."
+    },
+    {
+      "text": "Jumlah penjualan jaket Toko Aji selama enam hari berturut-turut adalah 153, 163, 183, 193, 213, dan 223 jaket. Jika tren tersebut bersifat konstan, berapa jumlah jaket yang terjual pada hari ketujuh?",
+      "options": [
+        "233 jaket",
+        "243 jaket",
+        "253 jaket",
+        "263 jaket",
+        "273 jaket"
+      ],
+      "correctAnswer": "243 jaket",
+      "explanation": "Pola penambahan adalah +10, +20, +10, +20, +10. Maka hari ketujuh ditambah 20 dari 223, yaitu $223 + 20 = 243$."
+    },
+    {
+      "text": "2, 4, 6, 12, 14, \\dots, 30, 60. Berapa nilai yang tepat untuk mengisi barisan tersebut?",
+      "options": [
+        "25",
+        "26",
+        "27",
+        "28",
+        "29"
+      ],
+      "correctAnswer": "28",
+      "explanation": "Pola barisan: +2, \\times 1.5 atau pola bergantian: +2, +2, \\times 2, +2, \\times 2 (berdasarkan pola 2+2=4, 4+2=6, 6\\times2=12, 12+2=14, 14\\times2=28, 28+2=30, 30\\times2=60)."
+    },
+    {
+      "text": "1, 4, 10, 19, \\dots, \\dots, 37, 40, 46, 55. Berapa nilai yang tepat untuk mengisi barisan tersebut?",
+      "options": [
+        "20, 25",
+        "20, 26",
+        "21, 27",
+        "21, 26",
+        "22, 28"
+      ],
+      "correctAnswer": "21, 27",
+      "explanation": "Pola perbedaan antar suku bertambah 3: +3, +6, +9, +12, +15, dst."
+    },
+    {
+      "text": "1045, 1050, 1060, 1075, \\dots, 1120. Berapa nilai yang tepat untuk mengisi barisan tersebut?",
+      "options": [
+        "1080",
+        "1085",
+        "1090",
+        "1095",
+        "1100"
+      ],
+      "correctAnswer": "1095",
+      "explanation": "Pola penambahan suku bertambah 5 setiap langkah: +5, +10, +15, +20, +25. Maka 1075 + 20 = 1095."
+    }
+  ]
+}

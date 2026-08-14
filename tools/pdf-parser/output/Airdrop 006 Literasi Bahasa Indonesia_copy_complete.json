@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Tanda koma digunakan untuk memisahkan…",
+      "options": [
+        "Hari, bulan, dan tahun dalam penulisan tanggal.",
+        "Nama orang dan gelar akademik.",
+        "Kata sapaan dalam kalimat langsung.",
+        "Semua jawaban benar.",
+        "Semua jawaban salah."
+      ],
+      "correctAnswer": "Semua jawaban benar.",
+      "explanation": "Tanda koma digunakan dalam berbagai konteks seperti memisahkan unsur-unsur dalam perincian, nama dan alamat, tanggal, gelar, serta kata sapaan."
+    },
+    {
+      "text": "Manakah kalimat yang menggunakan imbuhan me- dengan tepat?",
+      "options": [
+        "Ayah telah meminumkan teh untuk tamu.",
+        "Kakak meminjamkan kepada temannya.",
+        "Saya akan memasak nasi goreng untuk sarapan.",
+        "Ibu sedang menyiram di taman.",
+        "Mereka sedang membeli untuk saya."
+      ],
+      "correctAnswer": "Saya akan memasak nasi goreng untuk sarapan.",
+      "explanation": "Imbuhan me- pada kata 'memasak' berfungsi membentuk kata kerja aktif transitif yang diikuti oleh objek ('nasi goreng')."
+    },
+    {
+      "text": "Kalimat berikut ini yang menggunakan kata depan \"pada\" dengan benar adalah…",
+      "options": [
+        "Buku itu saya pinjam pada teman kemarin.",
+        "Saya memberikan hadiah itu pada meja di ruang tamu.",
+        "Informasi tentang acara itu akan diumumkan pada papan pengumuman.",
+        "Semua siswa harus menunggu pada luar kelas.",
+        "Kami berbicara pada ruang tamu tentang tugas kelompok."
+      ],
+      "correctAnswer": "Informasi tentang acara itu akan diumumkan pada papan pengumuman.",
+      "explanation": "Kata depan 'pada' digunakan di depan kata benda atau keterangan yang menunjukkan tempat atau waktu yang tepat."
+    },
+    {
+      "text": "Manakah kalimat berikut yang menggunakan konjungsi tujuan dengan benar?",
+      "options": [
+        "Saya belajar setiap hari supaya lulus ujian.",
+        "Merek makan cepat-cepat karena sudah lapar.",
+        "Kami tetap pergi meskipun hujan deras.",
+        "Anak-anak bermain di taman sebelum hujan turun.",
+        "Dia membeli buku agar dimasukkan ke perpustakaan."
+      ],
+      "correctAnswer": "Saya belajar setiap hari supaya lulus ujian.",
+      "explanation": "Konjungsi 'supaya' menyatakan tujuan dari suatu perbuatan."
+    },
+    {
+      "text": "Pilihlah kalimat yang mengandung kata majemuk bukan idiom berikut ini…",
+      "options": [
+        "Ayah memakai kuda-kuda untuk menopang bangunan.",
+        "Anak itu besar kepala karena sering dipuji.",
+        "Kami makan malam bersama di rumah makan itu.",
+        "Ibu menyusun gelas di atas meja bundar.",
+        "Semua jawaban benar."
+      ],
+      "correctAnswer": "Ibu menyusun gelas di atas meja bundar.",
+      "explanation": "Kata majemuk bukan idiom memiliki makna sebenarnya (denotatif)."
+    },
+    {
+      "text": "Manakah kata majemuk yang ditulis secara benar?",
+      "options": [
+        "Ibu membeli saputangan di pasar.",
+        "Kami berjalan melewati kaca mata toko itu.",
+        "Ayah memperbaiki alat tulis di meja kerja.",
+        "Adik memegang jam tangan miliknya.",
+        "Semua jawaban benar."
+      ],
+      "correctAnswer": "Ibu membeli saputangan di pasar.",
+      "explanation": "Kata 'saputangan' merupakan bentuk kata majemuk gabungan terikat yang penulisannya disatukan."
+    },
+    {
+      "text": "Manakah yang merupakan gagasan pokok dari kalimat-kalimat berikut? 1. Olahraga sangat penting bagi kesehatan. 2. Berolahraga secara rutin dapat meningkatkan kebugaran tubuh. 3. Selain itu, olahraga membantu meningkatkan daya tahan tubuh terhadap penyakit.",
+      "options": [
+        "Olahraga sangat penting bagi kesehatan.",
+        "Berolahraga secara rutin dapat meningkatkan kebugaran tubuh.",
+        "Olahraga meningkatkan daya tahan tubuh terhadap penyakit.",
+        "Olahraga meningkatkan kekuatan otot.",
+        "Olahraga memberikan banyak manfaat."
+      ],
+      "correctAnswer": "Olahraga sangat penting bagi kesehatan.",
+      "explanation": "Kalimat pertama bersifat umum dan mencakup gagasan keseluruhan yang diperinci oleh kalimat-kalimat berikutnya."
+    },
+    {
+      "text": "Apa ciri utama gagasan pokok dalam sebuah paragraf?",
+      "options": [
+        "Gagasan pokok hanya berada di akhir paragraf.",
+        "Gagasan pokok berisi ide tambahan atau detail penjelas.",
+        "Gagasan pokok menjelaskan seluruh isi paragraf secara umum.",
+        "Gagasan pokok selalu berupa contoh konkret.",
+        "Gagasan pokok harus ditulis dalam dua kalimat."
+      ],
+      "correctAnswer": "Gagasan pokok menjelaskan seluruh isi paragraf secara umum.",
+      "explanation": "Gagasan pokok atau ide utama adalah gagasan yang menjadi dasar pengembangan sebuah paragraf."
+    },
+    {
+      "text": "Apa gagasan pokok dari teks tersebut? (Manfaat Membaca Buku)",
+      "options": [
+        "Membaca buku membantu meningkatkan keterampilan berpikir kritis.",
+        "Membaca buku memberikan banyak manfaat, termasuk pengetahuan dan keterampilan berpikir.",
+        "Buku mengandung berbagai pengetahuan yang dapat meningkatkan wawasan.",
+        "Kebiasaan membaca perlu diterapkan sejak dini.",
+        "Buku adalah sumber pengetahuan yang sangat penting."
+      ],
+      "correctAnswer": "Membaca buku memberikan banyak manfaat, termasuk pengetahuan dan keterampilan berpikir.",
+      "explanation": "Gagasan pokok terdapat pada kalimat utama di awal paragraf yang bersifat umum."
+    },
+    {
+      "text": "Manakah kalimat yang mengandung gagasan pokok teks di atas?",
+      "options": [
+        "\"Dengan membaca, kita dapat memperoleh informasi tentang sejarah, budaya, ilmu pengetahuan, dan masih banyak lagi.\"",
+        "\"Buku mengandung berbagai pengetahuan yang dapat meningkatkan wawasan pembacanya.\"",
+        "\"Membaca buku adalah kegiatan yang memberikan banyak manfaat.\"",
+        "\"Membaca buku juga dapat meningkatkan keterampilan berpikir kritis.\"",
+        "\"Oleh karena itu, kebiasaan membaca perlu diterapkan sejak dini.\""
+      ],
+      "correctAnswer": "\"Membaca buku adalah kegiatan yang memberikan banyak manfaat.\"",
+      "explanation": "Kalimat utama yang memuat gagasan pokok terletak di awal paragraf."
+    },
+    {
+      "text": "Mengapa membaca buku penting menurut teks tersebut?",
+      "options": [
+        "Karena buku menyediakan informasi yang mudah diakses.",
+        "Karena membaca buku membuat kita lebih pintar.",
+        "Karena membaca buku meningkatkan wawasan dan keterampilan berpikir kritis.",
+        "Karena membaca buku lebih murah dibandingkan dengan menonton televisi.",
+        "Karena membaca buku dapat mengurangi stres."
+      ],
+      "correctAnswer": "Karena membaca buku meningkatkan wawasan dan keterampilan berpikir kritis.",
+      "explanation": "Informasi ini dijelaskan secara langsung pada teks paragraf."
+    },
+    {
+      "text": "Apa yang dapat dicapai dengan kebiasaan membaca buku, menurut teks?",
+      "options": [
+        "Menambah pengetahuan tentang berbagai bidang.",
+        "Menghilangkan rasa bosan.",
+        "Menumbuhkan kebiasaan baik sejak kecil.",
+        "Meningkatkan kemampuan berbicara di depan umum.",
+        "Meningkatkan kemampuan menulis cerita."
+      ],
+      "correctAnswer": "Menambah pengetahuan tentang berbagai bidang.",
+      "explanation": "Membaca buku meningkatkan wawasan dan pengetahuan pembacanya."
+    },
+    {
+      "text": "Manakah kalimat yang menunjukkan saran dalam teks tersebut?",
+      "options": [
+        "\"Buku mengandung berbagai pengetahuan yang dapat meningkatkan wawasan pembacanya.\"",
+        "\"Dengan membaca, kita dapat memperoleh informasi tentang sejarah, budaya, ilmu pengetahuan, dan masih banyak lagi.\"",
+        "\"Oleh karena itu, kebiasaan membaca perlu diterapkan sejak dini agar kita dapat mengembangkan diri.\"",
+        "\"Membaca buku adalah kegiatan yang memberikan banyak manfaat.\"",
+        "\"Selain itu, membaca buku juga dapat meningkatkan keterampilan berpikir kritis.\""
+      ],
+      "correctAnswer": "\"Oleh karena itu, kebiasaan membaca perlu diterapkan sejak dini agar kita dapat mengembangkan diri.\"",
+      "explanation": "Kata 'perlu' menunjukkan adanya saran atau anjuran dalam kalimat tersebut."
+    },
+    {
+      "text": "Manakah di antara opsi berikut yang merupakan kata majemuk dengan makna idiomatik?",
+      "options": [
+        "tinggi hati",
+        "buah tangan",
+        "rumah sakit",
+        "meja makan",
+        "kaki meja"
+      ],
+      "correctAnswer": "buah tangan",
+      "explanation": "Makna idiomatik adalah makna kiasan. 'Buah tangan' artinya oleh-oleh."
+    },
+    {
+      "text": "Manakah di antara opsi berikut yang merupakan kata majemuk dengan makna literal?",
+      "options": [
+        "kambing hitam",
+        "panjang tangan",
+        "anak kunci",
+        "jalan raya",
+        "besar kepala"
+      ],
+      "correctAnswer": "jalan raya",
+      "explanation": "Makna literal adalah makna sebenarnya atau denotatif."
+    }
+  ]
+}

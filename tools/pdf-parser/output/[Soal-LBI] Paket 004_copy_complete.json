@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Gagasan pokok dari teks bacaan tersebut adalah...",
+      "options": [
+        "Lukisan ilahi yang maha dahsyat",
+        "Bukit Kendil",
+        "Penggunungan",
+        "Gupakan, Dusun Kamal desa Giritengah",
+        "Candi Borobudur"
+      ],
+      "correctAnswer": "Bukit Kendil",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks bacaan tersebut apa yang dilakukan oleh tokoh \"kami\"...",
+      "options": [
+        "Berwisata ke Bukit Kendil",
+        "Melakukan suatu ekspedisi",
+        "Berdiskusi dengan masyarakat sekitar",
+        "Mengulik sejarah Borobudur",
+        "Melakukan penelitian di daerah bukit kendil"
+      ],
+      "correctAnswer": "Berwisata ke Bukit Kendil",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan berikut ini yang dapat melemahkan informasi yang ada dalam teks bacaan adalah...",
+      "options": [
+        "Pemandangan Bukit Kendil sangat indah terutama di pagi hari",
+        "Saat menuju Bukit Kendil, kita akan berjalan melalui jalan desa dengan pemandangan yang indah",
+        "Lanskap Borobudur tidak diragukan lagi keindahannya tak heran turis mancanegara juga tertarik",
+        "Perubahan iklim membuat udara pagi di Bukit Kendil tidak terasa lagi",
+        "Bukit Kendil selalu memberi kesan kerinduan setelah berkunjung pasti ingin kembali"
+      ],
+      "correctAnswer": "Perubahan iklim membuat udara pagi di Bukit Kendil tidak terasa lagi",
+      "explanation": null
+    },
+    {
+      "text": "Tema yang mungkin benar bacaan tersebut adalah...",
+      "options": [
+        "Borobudur",
+        "Suparno",
+        "Penggunungan",
+        "Dwi Oblo",
+        "Kami"
+      ],
+      "correctAnswer": "Borobudur",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat pada teks bacaan di atas yang mengandung perumpamaan terdapat dalam kalimat ke...",
+      "options": [
+        "(16)",
+        "(10)",
+        "(15)",
+        "(8)",
+        "(17)"
+      ],
+      "correctAnswer": "(15)",
+      "explanation": null
+    },
+    {
+      "text": "Paragraf kedua teks bacaan tersebut berfungsi sebagai...",
+      "options": [
+        "Pembuka",
+        "Penjelas",
+        "Pembanding",
+        "Konflik",
+        "Penutup"
+      ],
+      "correctAnswer": "Penjelas",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks bacaan di atas yang menemukan Punthuk Stumbu adalah...",
+      "options": [
+        "Tokoh kami",
+        "Tokoh saya",
+        "Tokoh anda",
+        "Dwi Oblo",
+        "Suparno"
+      ],
+      "correctAnswer": "Suparno",
+      "explanation": null
+    },
+    {
+      "text": "Alasan yang mungkin benar menjadi alasan Bapak Suparno disebut sebagai kamus berjalan adalah...",
+      "options": [
+        "Beliau sering mengunjungi berbagai daerah",
+        "Keseharian beliau bersama kamus sehingga beliau tahu segala hal",
+        "Beliau yang membuat jalan-jalan di daerah tersebut",
+        "Beliau hafal lokasi wilayah tersebut",
+        "Sejak kecil beliau punya kemampuan menghafal cepat"
+      ],
+      "correctAnswer": "Beliau hafal lokasi wilayah tersebut",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks bacaan di atas penulis memposisikan dirinya sebagai tokoh...",
+      "options": [
+        "Sudut pandang orang pertama",
+        "Sudut pandang orang kedua",
+        "Sudut pandang orang pertama sampingan",
+        "Sudut pandang orang ketiga",
+        "Sudut pandang campuran"
+      ],
+      "correctAnswer": "Sudut pandang orang pertama",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa pendakian Soe Hok Gie menjadi salah satu pendakian legendaris?",
+      "options": [
+        "Banyak rintangan yang dia lalui",
+        "Dia tinggal abadi di sana",
+        "Pendakian tersebut dalam rangka suatu misi",
+        "Pendakian yang dilakukan saat cuaca ekstrem",
+        "Dia melakukan pendakian seorang diri"
+      ],
+      "correctAnswer": "Dia tinggal abadi di sana",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang menunjukkan opini adalah...",
+      "options": [
+        "(3)",
+        "(4)",
+        "(7)",
+        "(13)",
+        "(15)"
+      ],
+      "correctAnswer": "(13)",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang membuat tokoh \"saya\" dalam teks bacaan termotivasi mendaki Gunung Semeru?",
+      "options": [
+        "Semeru memiliki endemik yang berbeda dari wilayah lain",
+        "Pendakian paling ekstrem",
+        "Pendakian Gunung Semeru sedang viral kala itu",
+        "Berawal dari kisah Soe Hok Gie",
+        "Pemandangannya yang indah dibandingkan dengan penggunungan lainnya"
+      ],
+      "correctAnswer": "Berawal dari kisah Soe Hok Gie",
+      "explanation": null
+    },
+    {
+      "text": "Pertanyaan berikut ini yang jawabannya tidak ditemukan dalam teks bacaan adalah...",
+      "options": [
+        "Di mana letak Gunung Semeru",
+        "Siapa yang menyaksikan Soe Hok Gie menghebuskan napas terakhir?",
+        "Mengapa G.F Clignett mendaki Gunung Semeru?",
+        "Siapakah orang Eropa pertama yang mencapai puncak Semeru?",
+        "Apakah Soe Hok Gie mendaki Gunung Semeru sendirian?"
+      ],
+      "correctAnswer": "Mengapa G.F Clignett mendaki Gunung Semeru?",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang mengandung kata kiasan dalam teks bacaan ditunjukkan dalam kalimat ke...",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(6)"
+      ],
+      "correctAnswer": "(1)",
+      "explanation": null
+    },
+    {
+      "text": "Alasan yang paling mungkin benar mengapa pendakian Semeru sudah tak lagi \"menyeramkan\" adalah...",
+      "options": [
+        "Akhir-akhir ini cuaca di Semeru membaik",
+        "Orang tidak lagi percaya hal-hal mistis saat ini",
+        "Fasilitas pendakian untuk Semeru semua tersedia di sana dan terdapat pengawasan",
+        "Banyak wisatawan yang berdatangan setiap harinya sehingga Semeru selalu ramai",
+        "Gunung Semeru sudah dipastikan tidak aktif lagi"
+      ],
+      "correctAnswer": "Fasilitas pendakian untuk Semeru semua tersedia di sana dan terdapat pengawasan",
+      "explanation": null
+    },
+    {
+      "text": "\"Semua mendadak menjadi saudara.\" Jika kalimat di atas ditambahkan dalam teks bacaan maka posisi paling sesuai berada di...",
+      "options": [
+        "Setelah kalimat (9)",
+        "Awal paragraf kedua",
+        "Setelah kalimat (11)",
+        "Sebelum kalimat (13)",
+        "Akhir paragraf kedua"
+      ],
+      "correctAnswer": "Akhir paragraf kedua",
+      "explanation": null
+    },
+    {
+      "text": "Gagasan pokok teks bacaan tersebut adalah…",
+      "options": [
+        "Gurun Sahara berada di utara Afrika",
+        "Ibnu Batutah adalah penjelajah terbesar pada abad pertengahan",
+        "Ibnu Batutah melakukan perjalanan jauh pertamanya pada tahun 1325",
+        "Ibnu Batutah menjumpai sungai besar seperti Sungai Niger, daerah berawa, dan oasis-oasis yang subur",
+        "Ibnu Batutah termasuk cendekia di negerinya"
+      ],
+      "correctAnswer": "Ibnu Batutah adalah penjelajah terbesar pada abad pertengahan",
+      "explanation": null
+    },
+    {
+      "text": "Jika Ibnu Batutah tidak menjelajahi Gurun Sahara, hal yang paling mungkin benar terjadi adalah…",
+      "options": [
+        "Ibnu Batutah akan menjelajahi Asia",
+        "Ibnu Batutah tidak akan terkenal dan dicatat sejarah seperti saat ini",
+        "Ibnu Batutah akan menjelajahi Kutub Utara",
+        "Ibnu Batutah tidak akan menemukan Pegunungan Ahaggar, Sungai Niger, daerah berawa, dan oasis-oasis yang subur",
+        "Ibnu Batutah akan menjelajahi lautan"
+      ],
+      "correctAnswer": "Ibnu Batutah tidak akan menemukan Pegunungan Ahaggar, Sungai Niger, daerah berawa, dan oasis-oasis yang subur",
+      "explanation": null
+    },
+    {
+      "text": "Ilustrasi yang tepat untuk teks bacaan di atas adalah…",
+      "options": [
+        "Data wilayah yang sudah pernah dikunjungi Ibnu Batutah",
+        "Video dokumentasi perjalanan Ibnu Batutah",
+        "Gambar sosok Ibnu Batutah",
+        "Gambar karya-karya Ibnu Batutah",
+        "Diagram wilayah yang belum pernah dikunjungi Ibnu Batutah"
+      ],
+      "correctAnswer": "Gambar sosok Ibnu Batutah",
+      "explanation": null
+    },
+    {
+      "text": "Tahun berapa Ibnu Batutah melakukan perjalanan jauh pertamanya?",
+      "options": [
+        "1304",
+        "1369",
+        "1325",
+        "1351",
+        "1345"
+      ],
+      "correctAnswer": "1325",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan berikut ini yang dapat mengaburkan informasi dalam teks bacaan adalah…",
+      "options": [
+        "Perjalanan Ibnu Batutah diabadikan dalam karyanya",
+        "Ibnu Batutah adalah sosok cendekiawan yang luar biasa di negerinya",
+        "Penjelajahan Ibnu Batutah dan karya-karyanya membuat ia jadi sosok yang banyak dikagumi hingga saat ini",
+        "Gurun Sahara tidak berhasil dijelajahi keseluruhan oleh Ibnu Batutah",
+        "Ibnu Batutah memiliki tingkat penasaran yang tinggi akan kehidupan di dunia"
+      ],
+      "correctAnswer": "Gurun Sahara tidak berhasil dijelajahi keseluruhan oleh Ibnu Batutah",
+      "explanation": null
+    },
+    {
+      "text": "Pada usia berapa Ibnu Batutah melakukan perjalanan jauh pertamanya…",
+      "options": [
+        "21 tahun",
+        "17 tahun",
+        "30 tahun",
+        "25 tahun",
+        "33 tahun"
+      ],
+      "correctAnswer": "21 tahun",
+      "explanation": null
+    },
+    {
+      "text": "Teks bacaan di atas merupakan jenis teks bacaan…",
+      "options": [
+        "Narasi",
+        "Eksplanasi",
+        "Persuasi",
+        "Deskripsi",
+        "Laporan"
+      ],
+      "correctAnswer": "Narasi",
+      "explanation": null
+    },
+    {
+      "text": "Dari pembacaan teks bacaan di atas dapat kita ketahui kalau penulis dalam menulis teks tersebut menggunakan sudut pandang ke..",
+      "options": [
+        "Sudut pandang pertama",
+        "Sudut pandang kedua",
+        "Sudut pandang ketiga",
+        "Sudut pandang campuran",
+        "Sudut pandang pertama tokoh sampingan"
+      ],
+      "correctAnswer": "Sudut pandang ketiga",
+      "explanation": null
+    },
+    {
+      "text": "Pertanyaan berikut ini yang jawabannya tidak ditemukan dalam teks bacaan adalah…",
+      "options": [
+        "Pada tahun berapa Ibnu Batutah wafat?",
+        "Siapakah sosok Ibnu Batutah?",
+        "Pada umur berapa Ibnu Batutah mulai menjelajah?",
+        "Dari manakah Ibnu Batutah berasal?",
+        "Apa yang Ibnu Batutah dapat di Gurun Sahara?"
+      ],
+      "correctAnswer": "Pada umur berapa Ibnu Batutah mulai menjelajah?",
+      "explanation": null
+    },
+    {
+      "text": "Hubungan dari kalimat (1) dan (2) adalah…",
+      "options": [
+        "Saling bertentangan",
+        "Saling memperjelas",
+        "Kalimat (2) memperinci (1)",
+        "Kalimat (2) merupakan contoh informasi (1)",
+        "Saling memperkuat, tetapi dengan argumen berbeda"
+      ],
+      "correctAnswer": "Kalimat (2) merupakan contoh informasi (1)",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf ketiga apabila wisatawan tertib tidak melakukan pembuangan sampah sembarangan maka kesimpulan paling mungkin benar adalah…",
+      "options": [
+        "Lingkungan akan jauh lebih bersih",
+        "Negara kita berhasil menerapkan keberlanjutan",
+        "Tempat wisata akan jauh lebih lestari",
+        "Tidak akan ada komentar “jangan lagi ke sini karena banyak sampah”",
+        "Indonesia akan dikenal dengan negara yang bersih"
+      ],
+      "correctAnswer": "Tidak akan ada komentar “jangan lagi ke sini karena banyak sampah”",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks bacaan, hal apa yang ditargetkan oleh Menteri Pariwisata Sandiaga Uno?",
+      "options": [
+        "Pengelolaan tempat wisata berkelanjutan",
+        "Penurunan emisi karbon",
+        "Mendorong UMKM siap ekspor",
+        "Aturan bagi wisatawan asing harus ketat",
+        "Indonesia menjadi pusat industri halal"
+      ],
+      "correctAnswer": "Penurunan emisi karbon",
+      "explanation": null
+    },
+    {
+      "text": "Gagasan pokok paragraf pertama teks bacaan tersebut adalah...",
+      "options": [
+        "Komunitas motor trail menerabas masuk lahan Ranca Upas, Bandung",
+        "Emisi karbon dihasilkan dari kendaraan pribadi",
+        "Usaha yang banyak membuka peluang usaha dan lapangan kerja",
+        "Objek dan festival wisata justru dipenuhi sampah",
+        "Kerusakan lingkungan dan dampak perubahan iklim di sektor pariwisata"
+      ],
+      "correctAnswer": "Kerusakan lingkungan dan dampak perubahan iklim di sektor pariwisata",
+      "explanation": null
+    },
+    {
+      "text": "Tema yang paling mungkin benar dari teks bacaan tersebut adalah…",
+      "options": [
+        "Keberlanjutan pariwisata",
+        "Wisatawan tak mematuhi aturan",
+        "Perubahan iklim di dunia pariwisata",
+        "Sampah di tempat pariwisata",
+        "Keberlangsungan UMKM"
+      ],
+      "correctAnswer": "Keberlanjutan pariwisata",
+      "explanation": null
+    }
+  ]
+}

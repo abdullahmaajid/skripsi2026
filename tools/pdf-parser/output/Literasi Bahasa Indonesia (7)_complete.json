@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan artikel tersebut, pemanasan global bisa memicu peristiwa penurunan muka air tanah. Namun, muka air tanah ini bisa menyusut dengan lebih cepat lagi karena ...",
+      "options": [
+        "Adanya limbah industri yang tidak terinfiltrasi.",
+        "Kondisi air permukaan yang tercemar polutan.",
+        "Kebutuhan manusia terhadap air terus meningkat.",
+        "Keterbatasan sumber air minum untuk masyarakat.",
+        "Masuknya polutan air permukaan ke dalam air tanah."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Penurunan muka air tanah menjadi lebih cepat disebabkan oleh pemompaan dan konsumsi air tanah yang terus meningkat seiring pertumbuhan jumlah penduduk."
+    },
+    {
+      "text": "Pernyataan mana yang paling tepat menurut informasi dari teks bacaan?",
+      "options": [
+        "Pencemaran air tanah merupakan masalah pada kualitas air tanah.",
+        "Penurunan curah hujan menyebabkan ketidaktersediaan air tanah",
+        "Pemanasan global hanya akan berpengaruh terhadap kuantitas air tanah.",
+        "Penurunan muka air tanah bisa terjadi karena suplai air ke dalam tanah tinggi.",
+        "Pencemaran air tanah bisa dihindari dengan meningkatkan konsumsi air tanah."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Berdasarkan teks, pencemaran air tanah terjadi karena polutan masuk ke dalam lapisan air tanah yang menyebabkan kualitas air tanah menurun."
+    },
+    {
+      "text": "Apa gagasan utama teks tersebut?",
+      "options": [
+        "Proses terjadinya pencemaran pada lapisan air tanah.",
+        "Dampak pemanasan global terhadap kondisi air tanah.",
+        "Pengaruh kualitas air permukaan terhadap kualitas air tanah.",
+        "Keterkaitan antara pemanasan global dengan air permukaan.",
+        "Hubungan antara pemanasan global dengan kehidupan manusia."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Teks membahas bagaimana pemanasan global berdampak pada kuantitas dan kualitas air tanah."
+    },
+    {
+      "text": "Berikut ini perkiraan yang dapat dibuat setelah membaca teks bacaan tersebut. Jika kekeringan tidak terjadi, curah hujan melimpah, dan konsumsi air tanah dilakukan dengan efektif, ... berkurang.",
+      "options": [
+        "Kualitas air tanah",
+        "Laju perubahan iklim",
+        "Permukaan air tanah",
+        "Pasokan air tanah ke sungai",
+        "Polutan yang masuk ke air tanah"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Konsumsi yang efektif dan pasokan air yang baik akan menjaga muka air tanah agar tidak mengalami penurunan yang cepat."
+    },
+    {
+      "text": "Berdasarkan isi teks tersebut, manakah hal yang paling mungkin terjadi jika masyarakat Indonesia beralih menggunakan electric vehichle (EV)?",
+      "options": [
+        "Tingkat polusi udara menurun",
+        "Cadangan BBM berkurang",
+        "Penerimaan negara meningkat",
+        "Pendapatan masyarakat menurun",
+        "Produsen kendaraan konvensional gulung tikar"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Kendaraan listrik dianggap lebih ramah lingkungan untuk mengurangi polusi yang disebabkan kendaraan bermotor berbahan bakar minyak."
+    },
+    {
+      "text": "Pernyataan manakah yang sesuai dengan isi teks tersebut?",
+      "options": [
+        "Electric vehicle lebih ramah lingkungan dibandingkan kendaraan BBM.",
+        "Electric vehicle lebih mahal jika dibandingkan dengan kendaraan BBM.",
+        "Masyarakat Indonesia menolak penggunaan EV karena harganya mahal.",
+        "Kendaraan BBM lebih irit bahan bakar jika dibandingkan dengan electric vehicle.",
+        "Pemerintah Indonesia mencegah masyarakat menggunakan kendaraan ber-BBM."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Teks menyatakan bahwa kendaraan listrik lebih ramah lingkungan daripada kendaraan konvensional."
+    },
+    {
+      "text": "Mengapa pemerintah Indonesia menyusun Peraturan Menteri Perindustrian Nomor 27 Tahun 2020?",
+      "options": [
+        "Untuk memudahkan produsen asing membuka pabrik electric vehicle di Indonesia.",
+        "Untuk meringankan beban pajak konsumen yang beralih ke electric vehicle.",
+        "Sebagai pedoman perizinan bagi produsen baterai membuka pabriknya di Indonesia.",
+        "Sebagai panduan bagi para pemangku kepentingan untuk pengembangan KBLBB.",
+        "Sebagai peraturan tertinggi penggunaan kendaraan listrik bermotor."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Peraturan tersebut disusun sebagai petunjuk bagi pihak-pihak terkait seperti pelaku industri otomotif, produsen baterai, dan konsumen dalam pengembangan KBLBB."
+    },
+    {
+      "text": "Dalam teks dijelaskan bahwa awal bahasa tercipta menurut teori pertama adalah dengan peniruan bunyi-bunyi di sekitar. Dalam ilmu bahasa, istilah yang digunakan untuk menyebut kata-kata yang terbentuk dari tiruan bunyi adalah onomatope. Manakah di antara kata berikut yang termasuk fenomena onomatope?",
+      "options": [
+        "Dangdut",
+        "Tetikus",
+        "Si kurus",
+        "Kupu-kupu",
+        "Tetamu"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Kata 'dangdut' terbentuk dari tiruan bunyi alat musik (gendang)."
+    },
+    {
+      "text": "Manakah pernyataan berikut ini yang tepat berdasarkan teks tersebut?",
+      "options": [
+        "Setelah berkomunikasi dengan tiruan bunyi, manusia mulai menggunakan isyarat.",
+        "Bahasa isyarat adalah salah satu bahasa tertua yang dimiliki manusia.",
+        "Manusia menirukan bunyi hewan untuk berkomunikasi dengan mereka.",
+        "Salah satu bukti konkret awal mula penciptaan bahasa adalah peniruan bunyi.",
+        "Manusia membutuhkan ratusan tahun untuk membuat bahasa tulis berupa kata."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Teori pertama menyebutkan penciptaan bahasa dimulai dari peniruan bunyi-bunyi di sekitar."
+    },
+    {
+      "text": "Hal yang sebenarnya diinginkan oleh 'Rani_99' ketika memulai forum ini adalah ...",
+      "options": [
+        "Mengenal orang-orang yang memiliki pemikiran sama.",
+        "Mendapat pengetahuan baru terkait Citayam Fashion Week.",
+        "Mengetahui pendapat orang-orang terkait Citayam Fashion Week.",
+        "Mendapat persetujuan bahwa Citayam Fashion Week meresahkan.",
+        "Mengetahui banyaknya orang yang memahami Citayam Fashion Week."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Rani_99 menanyakan pendapat orang lain terkait kemacetan di kawasan Sudirman akibat Citayam Fashion Week."
+    },
+    {
+      "text": "Tokoh di dalam forum yang memberikan pandangan negative terkait Citayam Fashion Week ...",
+      "options": [
+        "Rani_99 & Dikicahya",
+        "Doditmulyadi & Rani_99",
+        "Doditmulyadi & Dikicahya",
+        "Doditmulyadi & Lominus_id",
+        "Dikicahya & Rani_bersamamu"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Rani_99 dan Doditmulyadi sama-sama menganggap fenomena tersebut mengganggu atau membuat macet."
+    },
+    {
+      "text": "Tokoh 'Doditmulyadi' menganggap bahwa fenomena Citayam Fashion Week meresahkan karena ...",
+      "options": [
+        "Merasa resah dengan fesyen yang ditampilkan oleh remaja Citayam.",
+        "Merusak tatanan kota di kawasan Sudirman yang seharusnya elit.",
+        "Merasa terganggu ketika setiap hari melewati kawasan tersebut.",
+        "Menyebabkan kemacetan panjang di kawasan Sudirman.",
+        "Mengubah fungsi ruang public yang menurutnya tidak sesuai aturan."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Doditmulyadi menyatakan bahwa zebra cross digunakan tidak sesuai peruntukannya dan mengganggu lalu lintas."
+    },
+    {
+      "text": "Tujuan 'Lominus_id' memberikan pendapat di luar konteks forum adalah ...",
+      "options": [
+        "Mempromosikan usaha fesyen yang dijalankannya.",
+        "Memberikan diskon kepada orang yang mengeklik link.",
+        "Memberikan harga spesial kepada semua orang di dalam forum.",
+        "Mengharapkan orang-orang mengikuti gaya fesyen remaja Citayam.",
+        "Berusaha meningkatkan jumlah follower akun media sosial."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Lominus_id menyisipkan tautan penawaran khusus untuk gaya keren bagi para remaja."
+    },
+    {
+      "text": "Berdasarkan forum tersebut, Citayam Fashion Week menjadi representative penggunaan yang tepat terkait ruang publik karena ...",
+      "options": [
+        "Menarik perhatian masyarakat yang setiap hari melewati kawasan Sudirman.",
+        "Memberikan kesempatan bagi remaja Citayam untuk mengembangkan bakat.",
+        "Digunakan oleh remaja Citayam yang umumnya menempati kelas sosial bawah.",
+        "Memenuhi tiga dasar penilaian ruang public yang ideal menurut Habermas.",
+        "Dibuat di perkotaan yang ekslusif hanya untuk kalangan menengah ke atas."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Pendapat Rania_bersamamu merujuk pada pemikiran Jurgen Habermas mengenai pemenuhan kriteria ruang publik."
+    },
+    {
+      "text": "Kalimat manakah yang paling tepat dituliskan sebagai simpulan pada teks tersebut?",
+      "options": [
+        "Oleh karena itu, gangguan mental yang disebut post holiday blues mungkin dialami beberapa orang setelah libur karena teringat beban pekerjaan.",
+        "Dapat disimpulkan bahwa bujet untuk liburan yang \"membengkak\" merupakan salah satu penyebab terjadinya gangguan mental yang disebut post holiday blues.",
+        "Jadi, beberapa orang yang telah menghabiskan masa libur panjang mungkin mengalami gangguan mental yang disebut post holiday blues karena beberapa hal.",
+        "Dengan demikian, beberapa orang yang teringat beban pekerjaan, mengalami ketengangan finansial, dan sedih karena kehilangan waktu bersama orang tercinta saat liburan pasti mengalami gangguan mental yang disebut post holiday blues.",
+        "Oleh sebab itu, gangguan mental yang disebut post holiday blues terjadi karena teringat beban pekerjaan, mengalami ketengangan finansial, dan sedih karena kehilangan waktu bersama orang tercinta saat liburan."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Simpulan umum merangkum bahwa post holiday blues dapat dialami seseorang setelah libur panjang karena berbagai faktor penyebab."
+    },
+    {
+      "text": "Dalam teks tersebut terdapat tanda baca yang memiliki fungsinya masing-masing. Akan tetapi, jika kamu perhatikan, terdapat tanda baca yang penggunaannya salah. Kalimat manakah dalam teks yang penggunaan tanda bacanya SALAH?",
+      "options": [
+        "(2)",
+        "(3)",
+        "(4)",
+        "(6)",
+        "(8)"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Kalimat (3) memiliki kesalahan atau kelebihan tanda baca dalam penyebutan nama dan gelar."
+    },
+    {
+      "text": "Frasa tempe kedelai terbentuk dari kata-kata yang berkelas kata sama dengan frasa ...",
+      "options": [
+        "Kehidupan sehari-hari pada kalimat (4)",
+        "Kesempurnaan hidup pada kalimat (4)",
+        "Aspek duniawi pada kalimat (5)",
+        "Perilaku konsumtif pada kalimat (6)",
+        "Tren popular pada kalimat (6)"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Kesempurnaan (benda) hidup (benda) memiliki kelas kata yang setara dengan tempe (benda) kedelai (benda)."
+    },
+    {
+      "text": "Dalam bacaan tersebut, terkandung kata-kata dengan maksud tertentu, salah satunya adalah kata bisa pada kalimat (2). Sebenarnya, ada kata lain yang memiliki kesamaan makna dengan kata tersebut. Berikut adalah kata-kata yang dapat bermakna sama dengan kata bisa pada kalimat (2), KECUALI ...",
+      "options": [
+        "Cakap",
+        "Kuasa",
+        "Mahir",
+        "Pandai",
+        "Sanggup"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Kata 'bisa' dalam konteks kalimat tersebut bermakna mampu atau dapat, di mana 'mahir' berarti sangat pandai/terampil dalam bidang tertentu."
+    },
+    {
+      "text": "Kalimat (3) pada bacaan tersebut memiliki pola yang sama dengan kalimat ...",
+      "options": [
+        "Sopi bersedia untuk membagikan ilmu yang dimilikinya.",
+        "Arumi Mezia mengakhiri hubungannya secara tiba-tiba.",
+        "Dengan hati-hati, mereka melewati jalan itu bersama-sama.",
+        "Oleh karena itu, Catur menghibur Resti yang tengah bersedih.",
+        "Jadi, Almawati tak sabar untuk memamerkan nilainya kepada Isma."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Kalimat (3) memiliki pola Subjek - Predikat - Pelengkap/Keterangan."
+    },
+    {
+      "text": "Bacaan tersebut terdiri atas dua paragraf yang saling berkaitan. Dalam bacaan tersebut, paragraf dua berfungsi untuk ...",
+      "options": [
+        "Menyimpulkan fungsi wabi sabi bagi masyarakat.",
+        "Membuktikan penerapan wabi sabi dalam kehidupan.",
+        "Menjelaskan manfaat wabi sabi bagi manusia modern,",
+        "Memerinci konsep wabi sabi yang cocok bagi kehidupan.",
+        "Menegaskan praktik wabi sabi kepada masyarakat modern."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Paragraf kedua membahas bagaimana filosofi wabi sabi diterapkan dalam kehidupan masyarakat modern untuk mengurangi stres dan perilaku konsumtif."
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Apa inti teks tersebut?",
+      "options": [
+        "Indonesia yang merupakan negara multikulturalisme dapat menjadi berkah sekaligus musibah. Untuk menghindari musibah, kita dapat memulai dari diri sendiri.",
+        "Sebagai negara yang multikultural, Indonesia dapat menjadi berkah atau musibah bergantung dari masing-masing rakyat dalam menyikapinya.",
+        "Diperlukan tindakan secara bertahap untuk menyikapi keberagaman etnis dan agama di Indonesia yang dapat menjadi berkah dan musibah.",
+        "Indonesia memiliki berbagai etnis dan agama sehingga dapat menjadi musibah sekaligus berkah. Perlu kesadaran diri sendiri untuk mewujudkannya.",
+        "Keberagaman etnis dan agama di Indonesia merupakan bentuk multikulturalisme yang dapat menjadi musibah sehingga perlu kesadaran dari diri sendiri untuk menghindari musibahnya."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Inti teks tersebut mencakup gagasan bahwa Indonesia sebagai negara multikultural dapat menjadi berkah atau musibah, dan cara untuk menghindari musibah tersebut dimulai dari kesadaran diri sendiri (menghormati, menganggap tidak ada perbedaan, dan mengontrol emosi)."
+    },
+    {
+      "text": "Kata itu pada kalimat (7) mengacu ke kalimat ....",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5)"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Kata 'itu' pada kalimat (7) mengacu pada hal yang disebutkan sebelumnya mengenai dua kondisi pada kalimat (3) dan (4) yang menghasilkan evolusi dan difusi budaya."
+    },
+    {
+      "text": "Tujuan penulis menghasilkan teks tersebut adalah ....",
+      "options": [
+        "menjelaskan hasil dari penelitian arkeologi yang lama",
+        "mengajak pembaca untuk tertarik dengan Nusantara",
+        "membahas dampak dari adanya keberagaman budaya",
+        "menjabarkan kehidupan masyarakat di Nusantara",
+        "mendeskripsikan dasar multikulturalisme Indonesia"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Teks tersebut menjelaskan faktor-faktor pembentuk keragaman budaya di Nusantara yang menjadi pangkal atau dasar multikulturalisme pada masa prasejarah."
+    },
+    {
+      "text": "Film terhadap Minat Menonton dengan penyesuaian Gagasan pada kalimat (1) dan (2) akan menjadi selaras bila keduanya dihubungkan dengan ....",
+      "options": [
+        "meskipun",
+        "namun",
+        "bahwa",
+        "apalagi",
+        "sehingga"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Kalimat (1) dan (2) menunjukkan pertentangan atau perbedaan konteks sehingga memerlukan konjungsi pertentangan seperti 'namun'."
+    },
+    {
+      "text": "Kata itu pada kalimat (4) mengacu ....",
+      "options": [
+        "manusia perlu berhubungan dengan manusia lainnya",
+        "untuk memenuhi kebutuhan dan keperluan hidupnya",
+        "memerlukan sarana komunikasi yang dapat dimengerti",
+        "agar dapat saling memahami sesuatu yang dimaksud",
+        "untuk berkomunikasi atau berhubungan satu sama lain"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Kata 'itu' pada kalimat (4) merujuk pada sarana komunikasi yang dapat dimengerti yang disebutkan pada kalimat sebelumnya."
+    },
+    {
+      "text": "Kata manakah pada bacaan di atas yang berkandungan jenis kata yang sama dengan jenis kata selain itu pada potongan kalimat ... selain itu, drama Korea menjadi salah satu negara yang menguasai perfilman Indonesia.",
+      "options": [
+        "selanjutnya pada kalimat (8)",
+        "salah satunya pada kalimat (6)",
+        "di sisi lain pada kalimat (4)",
+        "untuk pada kalimat (5)",
+        "berdasarkan pada kalimat (3)"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Frasa 'selain itu' adalah frasa transisi atau konjungsi antarkalimat yang setara fungsinya dengan frasa transisi seperti 'di sisi lain'."
+    },
+    {
+      "text": "Kata yang memiliki makna denotatif 'melakukan kerjasama' adalah ....",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5)"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Kata 'berkolaborasi' pada kalimat (1) memiliki makna denotatif melakukan kerja sama."
+    },
+    {
+      "text": "Berdasarkan bacaan di atas, apa yang akan terjadi kemudian jika lembaga pendidikan tidak segera memanfaatkan media teknologi, seperti YouTube sebagai salah satu media ajarnya?",
+      "options": [
+        "Mahasiswa akan mulai melalaikan tugas-tugasnya.",
+        "Pembelajaran di kelas akan terasa sepi dan membosankan.",
+        "Mahasiswa akan menjadi lebih sering bolos ke kelas karena membosankan.",
+        "Konten hiburan di YouTube akan lebih diminati dibanding konten pendidikan.",
+        "Materi yang diajarkan oleh dosen di kelas akan lebih cepat dilupakan mahasiswa."
+      ],
+      "correctAnswer": "E",
+      "explanation": "Berdasarkan paragraf terakhir (kalimat 20), mahasiswa lebih mudah memahami informasi melalui media teknologi seperti YouTube dibandingkan penyampaian konvensional, sehingga implikasinya jika tidak digunakan adalah materi konvensional lebih cepat dilupakan."
+    },
+    {
+      "text": "Manakah pertanyaan yang jawabannya tidak terdapat di dalam teks?",
+      "options": [
+        "Apa kelebihan yang didapat dengan menyampaikan pesan kampanye melalui YouTube",
+        "Apakah YouTube merupakan sumber berita yang terpercaya terkait pencalonan presiden di USA?",
+        "Bagaimana tanggapan para pendukung Obama terkait video pengumuman yang diunggahnya?",
+        "Apa yang menjadi liputan utama dalam ranah politik di USA pada tahun 2008?",
+        "Bagaimana cara para calon presiden USA melegitimasi YouTube?"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Teks tidak menyebutkan secara spesifik bagaimana tanggapan para pendukung Obama terkait video pengumuman yang diunggahnya, melainkan hanya menyebutkan bahwa pengumuman tersebut diikuti dengan video tanggapan."
+    },
+    {
+      "text": "Pernyataan yang sesuai dengan teks tersebut adalah ....",
+      "options": [
+        "World Wide Web Worm merupakan salah satu mesin pencari awal yang telah menyatakan keberhasilannya mendata 110 laman web, lalu tiga tahun sebelum 1994, mesin pencari telah mengindeks dua juta laman.",
+        "Ekspresi matematis dari 10 pangkat 100 dan merepresentasikan tujuan menciptakan mesin pencari skala besar merupakan makna kata gogool yang merupakan kata asal Google yang memiliki.",
+        "Pada tahun 1998 Page dan Brin membuat makalah yang menjelaskan bahwa PageRank merupakan algoritma yang digunakan untuk memprioritaskan suatu laman dibandingkan laman lainnya.",
+        "Pertemuan Larry Page dan Sergey Brin pada tahun 1995 di Stanford University adalah awal kehebatan Google hingga menjadi mesin pencari yang sudah digunakan lebih dari 1,9 miliar pengguna internet.",
+        "Dalam sebuah makalahnya, Page dan Brin menjelaskan bahwa Google dirancang untuk menjaring dan mengindeks situs web secara efisien karena keefisienan diperlukan untuk meningkatkan signifikansi yang telah terjadi sebelum Google belum lahir."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Pernyataan C sesuai dengan kalimat (11) teks tentang makalah Page dan Brin pada tahun 1998."
+    },
+    {
+      "text": "Pernyataan yang sesuai dengan teks di atas adalah ....",
+      "options": [
+        "Prestasi berhasil ditorehkan pelajar Indonesia di ajang kompetisi ilmiah internasional untuk umum, Intel International Science and Engineering Fair (ISEF) 2019 di Phoenix, Arizona, Amerika Serikat.",
+        "Prestasi berhasil ditorehkan pelajar Indonesia di ajang kompetisi ilmiah internasional untuk pelajar, Intel International Science and Engineering Fair (ISEF) 2019 di Phoenix, Arizona, Amerika Selatan.",
+        "Prestasi berhasil ditorehkan pelajar Indonesia di ajang kompetisi ilmiah nasional untuk pelajar, Intel International Science and Engineering Fair (ISEF) 2019 di Phoenix, Arizona, Amerika Serikat.",
+        "Prestasi berhasil ditorehkan pelajar Indonesia di ajang kompetisi ilmiah internasional untuk umum, International Science and Engineering Fair (ISEF) 2019 di Phoenix, Arizona, Amerika Serikat.",
+        "Prestasi berhasil ditorehkan pelajar Indonesia di ajang kompetisi ilmiah internasional untuk pelajar, Intel International Science and Engineering Fair (ISEF) 2019 di Phoenix, Arizona, Amerika Serikat."
+      ],
+      "correctAnswer": "E",
+      "explanation": "Pernyataan E paling akurat menjelaskan ajang Intel ISEF 2019 di Phoenix, Arizona, Amerika Serikat untuk pelajar."
+    },
+    {
+      "text": "Pernyataan yang salah dengan teks di atas adalah ....",
+      "options": [
+        "LIPI konsisten mengirimkan para pelajar berprestasi ke ajang kompetisi ilmiah sejak tahun 2010.",
+        "Sejak tahun 2010, LIPI secara konsistens mengirimkan para pelajar-pelajar beprestasi ke ajang kompetisi ilmiah internasional ini.",
+        "Kepala LIPI, Laksana Tri Handoko menyebutkan keberhasilan siswa Indonesia pada tahun lalu membuktikan bahwa kreativitas dan inovasi generasi muda kita mampu bersaing secara global.",
+        "LIPI berkomitmen untuk terus mendukung penelitian para remaja Indonesia, khususnya melalui inisiatif open infrastructure baik berupa sumber daya peneliti maupun peralatan riset sehingga publik dapat merealisasikan ide-ide kreatifnya menjadi inovasi yang bermanfaat bagi masyarakat.",
+        "Kepala LIPI, Laksana Tri Handoko menyebutkan keberhasilan siswa Indonesia pada tahun ini membuktikan bahwa kreativitas dan inovasi generasi muda kita mampu bersaing secara global."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Teks menyatakan keberhasilan siswa Indonesia pada 'tahun ini', bukan 'tahun lalu'."
+    },
+    {
+      "text": "Pernyataan yang benar dengan teks di atas adalah ....",
+      "options": [
+        "Pihak SMA Negeri 3 Denpasar menetapkan target yang tinggi pada ajang tersebut.",
+        "Para pelajar SMA Negeri 3 Denpasar tersebut sebelumnya juga berhasil mendapatkan Special Award kategori Physical Science dari Sigma Xii, sebuah organisasi keilmuan internasional.",
+        "Keduanya meneliti potensi zat aktif dari tumbuhan mangrove jenis Rhizophora apiculata yang terdapat di Pantai Seribu untuk bahan baku cat ramah lingkungan pada kapal laut.",
+        "Para pelajar SMA Negeri 30 Denpasar tersebut sebelumnya juga berhasil mendapatkan Special Award kategori Physical Science dari Sigma Xi, sebuah organisasi keilmuan internasional.",
+        "SMAK Penabur Gading Serpong meneliti potensi zat aktif dari tumbuhan mangrove jenis Rhizophora apiculata yang terdapat di Pantai Seribu untuk bahan baku cat ramah lingkungan pada kapal laut."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Pernyataan A sesuai dengan kutipan langsung bahwa mereka tidak menetapkan target yang terlalu tinggi (menyiratkan konteks target tinggi)."
+    },
+    {
+      "text": "Pernyataan yang tidak sesuai dengan teks di atas adalah....",
+      "options": [
+        "Michaela Samanta juga mendapatkan penghargaan.",
+        "Pada tahun ini Intel ISEF diikuti oleh lebih dari 1800 karya ilmiah pelajar",
+        "Lembaga Ilmu Pengetahuan Indonesia (LIPI) mengirimkan delapan pelajar Indonesia tingkat SMA dan Madrasah Tsanawiyah",
+        "Pada tahun ini Intel ISEF diikuti oleh lebih dari 1800 karya ilmiah pelajar yang merupakan perwakilan 423 afiliasi Intel ISEF yang berasal dari 88 negara di seluruh dunia.",
+        "Hanya SMA Negeri 3 Denpasar yang mendapatkan penghargaan."
+      ],
+      "correctAnswer": "E",
+      "explanation": "Pernyataan E salah karena bukan hanya SMA Negeri 3 Denpasar yang mendapat penghargaan, tetapi juga Michaela Samanta dari SMAK Penabur Gading Serpong."
+    },
+    {
+      "text": "Pernyataan yang benar dengan teks di atas adalah.....",
+      "options": [
+        "Keberhasilan siswa Indonesia pada tahun lalu membuktikan bahwa kreativitas dan inovasi generasi muda kita mampu bersaing secara global.",
+        "Pihak SMA Negeri 3 Denpasar tidak menetapkan target yang terlalu tinggi.",
+        "I Made Wiratathya Putramas dan Carolline Mathilda Nggebu berhasil meraih 3th Grand Award Intel ISEF 2019 untuk kategori Earth and Environmental Sciences: Life Sciences.",
+        "LIPI berkomitmen untuk tidak lagi mendukung penelitian para remaja Indonesia.",
+        "Pelajar SMA Negeri 3 Denpasar mendapatkan Special Award dari Patent and Trademark Office Society untuk karyanya C-Rice: Computational and Experimental Design Development of Transgenic Rice."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Pernyataan B sesuai dengan kutipan langsung \"Kami tidak menetapkan target yang terlalu tinggi...\" oleh Dera dari SMA Negeri 3 Denpasar."
+    },
+    {
+      "text": "Manakah hubungan isi antarparagraf dalam teks di atas yang paling tepat?",
+      "options": [
+        "Paragraf ke-2 menjadi penyebab paragraf ke -1.",
+        "Paragraf ke-3 merupakan penyebab paragraf ke-2.",
+        "Paragraf ke-2 memaparkan rincian paragraf ke-1.",
+        "Paragraf ke-4 merupakan pembanding paragraf ke-1.",
+        "Paragraf ke-3 merupakan contoh paragraf ke-2."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Paragraf kedua memperinci atau menjelaskan lebih lanjut hal yang disampaikan pada paragraf pertama mengenai prestasi pelajar."
+    },
+    {
+      "text": "Berdasarkan isinya, kepada siapa penulis teks berpihak?",
+      "options": [
+        "Kepala LIPI",
+        "Intel Foundation",
+        "Penyelenggara kompetisi",
+        "Para pelajar",
+        "Amerika Serikat"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Penulis berpihak kepada para pelajar yang menorehkan prestasi gemilang di kancah internasional."
+    },
+    {
+      "text": "Apa simpulan yang paling tepat untuk teks di atas?",
+      "options": [
+        "Kerja sama LIPI dan Intel Foundation tidak membuahkan hasil pada pelajar Indonesia.",
+        "Kemampuan para pelajar Indonesia dalam bersaing secara global dapat dibuktikan dari sejulah karya dan penghargaan yang telah diraih.",
+        "Intel ISEF diikuti oleh lebih dari 1800 karya ilmiah pelajar yang merupakan perwakilan 423 afiliasi Intel ISEF yang berasal dari 88 negara di seluruh dunia.",
+        "LIPI tidak mendukung penyediaan sumber daya peneliti maupun peralatan riset untuk para remaja.",
+        "Karya yang dihasilkan para pelajar SMA Negeri 3 Denpasar dalam ajang Intel ISEF kurang bermanfaat."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Simpulan B merangkum keseluruhan isi teks tentang prestasi dan kemampuan pelajar Indonesia di ajang global."
+    },
+    {
+      "text": "Kalimat yang tidak efektif ditemukan pada kalimat ....",
+      "options": [
+        "1 dan 3",
+        "2 dan 4",
+        "5 dan 8",
+        "3 dan 9",
+        "2 dan 3"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Kalimat 3 dan 9 memiliki struktur atau pilihan kata yang kurang efektif dalam konteks teks tersebut."
+    },
+    {
+      "text": "Kesalahan penggunaan ejaan ditemukan pada kalimat ....",
+      "options": [
+        "(1) dan (3)",
+        "(5) dan (7)",
+        "(5) dan (2)",
+        "(9) dan (11)",
+        "(9) dan (14)"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Terdapat kesalahan ejaan pada kalimat (5) dan (7) terkait penulisan kata atau tanda baca."
+    },
+    {
+      "text": "Ide pokok yang terdapat pada bacaan tersebut adalah ....",
+      "options": [
+        "Facebook sebuah situs web terbaru",
+        "Facebook sebuah situs web jejaring yang sosial terkenal",
+        "Facebook merupakan situs web tercanggih",
+        "Facebook menjadi media banyak orang",
+        "Facebook sudah lama didirikan"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Ide pokok teks tersebut membahas tentang Facebook sebagai situs web jejaring sosial yang terkenal."
+    },
+    {
+      "text": "Kata \"ini\" pada kalimat ke-4 merujuk kepada ....",
+      "options": [
+        "Mark Zuckerberg",
+        "mahasiswa Harvard",
+        "jejaring sosial",
+        "keleluasaan",
+        "inspirasi"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Kata 'ini' pada akhir kalimat ke-4 merujuk pada tokoh Mark Zuckerberg."
+    },
+    {
+      "text": "Berdasarkan bacaan di atas bagaimana pengaruh facebook bagi banyak orang?",
+      "options": [
+        "Menjadi media pengekspresian imajinasi",
+        "Dapat menyalurkan karya-karya",
+        "Tempat bersosialisasi",
+        "Bisa menemukan pekerjaan",
+        "Pemunculan inspirasi kreatif"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat penutup yang tepat untuk melengkapi bacaan di atas agar menjadi bacaan yang lengkap ialah....",
+      "options": [
+        "Oleh karena itu, bahasa bisa mempersatukan bangsa dalam sebuah negara.",
+        "Kemudian, bahasa Indonesia juga bisa menjadi bahasa yang digunakan orang asing.",
+        "Akhirnya, bahasa menjadi sesuatu yang sangat diperlukan.",
+        "Maka dari itu, cintailah bahasa yang ada dimana pun.",
+        "Melestarikan bahasa sangatlah penting."
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Judul yang tepat untuk teks di atas adalah .…",
+      "options": [
+        "Pentingnya Bahasa",
+        "Manfaat Bahasa",
+        "Kegunaan Bahasa.",
+        "Prinsip Bahasa.",
+        "Faktor penyebab adanya Bahasa"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa penggunaan bahasa Indonesia sangatlah penting?",
+      "options": [
+        "Bahasa Indonesia merupakan lambang negara.",
+        "Bahasa Indonesia merupakan alat komunikasi antar warga.",
+        "Bahasa Indonesia adalah investasi negara.",
+        "Bahasa Indonesia akan mempersatu bangsa.",
+        "Bahasa Indonesia menjadi kebanggaan negara."
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "Apa perbedaan makna kata “bentuk” dan “substansi” yang tertera pada bacaan tersebut?",
+      "options": [
+        "Bentuk adalah sistem sedangkan substansi adalah unsur.",
+        "Bentuk adalah rupa sedangkan subtansi adalah isi.",
+        "Bentuk adalah ukuran sedangkan subtansi adalah makna",
+        "Bentuk adalah ukuran sedangkan subtansi adalah sistem.",
+        "Bentuk adalah sistem sedangkan subtansi adalah isi."
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Opini penulis dalam tajuk rencana tersebut terdapat pada kalimat ....",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "2",
+        "3"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Masalah yang disoroti dalam paragraf tersebut adalah ....",
+      "options": [
+        "Pembatasan kendaraan",
+        "Kemacetan oleh sepeda motor",
+        "Mengurangi kemacetan",
+        "Kemacetan DKI",
+        "Peraturan Pemprov DKI"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Simpulan yang sesuai dengan isi kutipan tajuk rencana di atas adalah ....",
+      "options": [
+        "Jadi, usaha keras dari Pemprov DKI untuk mengurangi kemacetan dan memberi layanan terbaik bagi warganya masih terus dilakukan",
+        "Banyak yang diperlukan untuk mengurangi tingkat kecelakaan yang disebabkan pengguna sepeda motor",
+        "Semoga aneka macam kebijakan yang akan diterapkan mesti dikaji ulang lebih cermatPemprov menentukan jalan yang sejajar dengan jalur koridor",
+        "Pemprov menentukan jalan yang sejajar dengan jalur koridor",
+        "Maka dari itu, banyak usaha yang masih perlu dilakukan Pemprov"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    }
+  ]
+}

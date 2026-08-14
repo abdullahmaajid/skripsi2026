@@ -1,0 +1,268 @@
+{
+  "questions": [
+    {
+      "text": "Tujuh guru privat yakni Ari, Bima, Caca, Dina, Eni, Fika dan Gina akan memberikan les kepada tujuh siswa yakni S1, S2, S3, S4, S5, S6 dan S7.\n- Setiap satu siswa mempunyai guru privat berbeda dan jadwal les privat tiap siswa berbeda yakni dari Senin sampai Minggu.\n- Bima memberikan les privat S4 pada hari Rabu dan Fika memberikan les privat S5 pada hari Jumat.\n- Dina tidak memberikan les privat S1 dan S3 dan jadwal privatnya sehari setelah Eni memberikan les privat S6.\n- Gina menjadi guru privat hari Senin, tetapi bukan untuk S3 dan S7.\nJika jadwal S2 adalah Selasa, maka pernyataan yang pasti benar adalah ...",
+      "options": [
+        "Ari mengajar di hari Kamis",
+        "Ari adalah guru privat S3",
+        "Gina adalah guru privat S1",
+        "Caca adalah guru privat S3",
+        "Caca mengajar di hari Selasa"
+      ],
+      "correctAnswer": "Gina adalah guru privat S1",
+      "explanation": "Karena Eni dan Dina berurutan maka keduanya di Sabtu-Minggu, sehingga Ari dan Caca ada di hari Selasa atau Kamis. Karena Gina dan Dina bukan guru S3 maka jadwal S3 adalah Kamis. Karena Gina bukan guru S7 maka Gina guru S1. Karena Dina bukan guru S1 maka Dina guru S7. Pernyataan yang pasti benar: Gina adalah guru privat S1."
+    },
+    {
+      "text": "Tujuh guru privat yakni Ari, Bima, Caca, Dina, Eni, Fika dan Gina akan memberikan les kepada tujuh siswa yakni S1, S2, S3, S4, S5, S6 dan S7.\n- Setiap satu siswa mempunyai guru privat berbeda dan jadwal les privat tiap siswa berbeda yakni dari Senin sampai Minggu.\n- Bima memberikan les privat S4 pada hari Rabu dan Fika memberikan les privat S5 pada hari Jumat.\n- Dina tidak memberikan les privat S1 dan S3 dan jadwal privatnya sehari setelah Eni memberikan les privat S6.\n- Gina menjadi guru privat hari Senin, tetapi bukan untuk S3 dan S7.\nJika Dina guru privat S2, maka pernyataan yang pasti salah adalah ...",
+      "options": [
+        "Jadwal S1 adalah hari Senin",
+        "Ari adalah guru privat S1",
+        "Jadwal S3 adalah hari Kamis",
+        "Ari adalah guru privat S3",
+        "Jadwal S7 adalah hari Kamis"
+      ],
+      "correctAnswer": "Ari adalah guru privat S1",
+      "explanation": "Karena Eni dan Dina berurutan maka keduanya di Sabtu-Minggu, sehingga Ari dan Caca ada di hari Selasa atau Kamis. Karena Gina bukan guru untuk S3 dan S7 maka Gina adalah guru S1. Jadwal S3 dan S7 ada di hari Selasa atau Kamis. Pernyataan yang pasti salah: Ari adalah guru privat S1."
+    },
+    {
+      "text": "Bu Atika ingin membeli beberapa buah di toko buah.\n- Jenis buah yang dijual adalah: apel (A1, A2, A3), jeruk (J1, J2, J3, J4) dan mangga (M1, M2, M3)\n- Buah A1, J2, J4 dan M2 adalah buah impor dan lainnya adalah buah lokal.\n- Ketentuan memilih adalah sebagai berikut.\n1. hanya ada 1 buah impor yang dipilih.\n2. jika mangga impor dipilih, maka jeruk lokal harus dipilih.\n3. jeruk lokal hanya dapat dipilih bersamaan dengan apel lokal.\nJika Bu Atika membeli jeruk J2, maka pernyataan yang salah adalah …",
+      "options": [
+        "Bu Atika membeli apel A2 dan jeruk J3",
+        "Bu Atika membeli jeruk J1 dan mangga M1",
+        "Bu Atika membeli apel A3 dan mangga M3",
+        "Bu Atika membeli jeruk J3 dan mangga M2",
+        "Bu Atika membeli apel A3 dan jeruk J1"
+      ],
+      "correctAnswer": "Bu Atika membeli jeruk J3 dan mangga M2",
+      "explanation": "Jeruk J2 adalah buah impor. Berdasarkan pernyataan \"hanya ada 1 buah impor yang dipilih\" maka buah impor lain: apel A1, jeruk J4 dan mangga M2 tidak boleh dipilih. Pernyataan yang salah: Bu Atika membeli jeruk J3 dan mangga M2"
+    },
+    {
+      "text": "Bu Atika ingin membeli beberapa buah di toko buah.\n- Jenis buah yang dijual adalah: apel (A1, A2, A3), jeruk (J1, J2, J3, J4) dan mangga (M1, M2, M3).\n- Buah A1, J2, J4 dan M2 adalah buah impor dan lainnya adalah buah lokal.\nKetentuan memilih adalah sebagai berikut.\n1. hanya ada 1 buah impor yang dipilih.\n2. jika mangga impor dipilih, maka jeruk lokal harus dipilih.\n3. jeruk lokal hanya dapat dipilih bersamaan dengan apel lokal.\nJika Bu Atika membeli apel lokal, maka pernyataan yang benar adalah …",
+      "options": [
+        "Bu Atika membeli jeruk J2",
+        "Bu Atika tidak membeli jeruk J1",
+        "Bu Atika membeli mangga M2",
+        "Bu Atika tidak membeli apel A1",
+        "Bu Atika membeli jeruk J3"
+      ],
+      "correctAnswer": "Bu Atika membeli jeruk J3",
+      "explanation": "Berdasarkan pernyataan \"jeruk lokal hanya dapat dipilih bersamaan dengan apel lokal\" maka Bu Atika pasti membeli jeruk J1 atau jeruk J3."
+    },
+    {
+      "text": "Bu Atika ingin membeli beberapa buah di toko buah.\n- Jenis buah yang dijual adalah: apel (A1, A2, A3), jeruk (J1, J2, J3, J4) dan mangga (M1, M2, M3)\n- Buah A1, J2, J4 dan M2 adalah buah impor dan lainnya adalah buah lokal.\nKetentuan memilih adalah sebagai berikut.\n1. hanya ada 1 buah impor yang dipilih.\n2. jika mangga impor dipilih, maka jeruk lokal harus dipilih.\n3. jeruk lokal hanya dapat dipilih bersamaan dengan apel lokal.",
+      "options": [
+        "Bu Atika membeli jeruk J2",
+        "Bu Atika tidak membeli jeruk J1",
+        "Bu Atika membeli mangga M2",
+        "Bu Atika tidak membeli apel A1",
+        "Bu Atika membeli jeruk J3"
+      ],
+      "correctAnswer": "Bu Atika tidak membeli jeruk J1",
+      "explanation": "Karena Bu Atika membeli jeruk lokal dan mangga impor maka harus ada M2 dan J1/J3. Karena hanya ada 1 buah impor dan Bu Atika sudah membeli mangga impor maka apel A1, jeruk J2 dan jeruk J4 tidak dapat dipilih. Keempat buah yang mungkin dipilih adalah: A2, A3, J1, M2"
+    },
+    {
+      "text": "Ketentuan memilih adalah sebagai berikut. 1. hanya ada 1 buah impor yang dipilih. 2. jika mangga impor dipilih, maka jeruk lokal harus dipilih. 3. jeruk lokal hanya dapat dipilih bersamaan dengan apel lokal. Jika Bu Atika ingin memilih jeruk lokal dan mangga impor, maka keempat buah yang mungkin dipilih adalah ...",
+      "options": [
+        "A1, J1, M2, M3",
+        "A2, A3, J1, M2",
+        "A3, J2, J3, M2",
+        "A2, A3, J1, M3",
+        "J3, J4, M1, M2"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika tidak ada seorang pun yang turun di C maupun F dan Dewi turun di D, maka pernyataan yang benar adalah ...",
+      "options": [
+        "Adi turun di A",
+        "Bayu turun di B",
+        "Adi turun di B",
+        "Bayu turun di E",
+        "Adi turun di E"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika Bayu turun di D maka pernyataan yang pasti salah adalah …",
+      "options": [
+        "Adi turun di A",
+        "Dewi turun di A",
+        "Adi turun di B",
+        "Dewi turun di F",
+        "Adi turun di E"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika buah nanas terletak di peti kedua di kanan peti jeruk, maka pernyataan yang salah adalah ...",
+      "options": [
+        "Peti 1 adalah peti kosong",
+        "Peti 2 adalah peti melon",
+        "Peti 3 adalah peti pisang",
+        "Peti 5 adalah peti apel",
+        "Peti 7 adalah peti nanas"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Pernyataan yang salah adalah peti 5 merupakan peti apel padahal seharusnya merupakan peti jeruk."
+    },
+    {
+      "text": "Jika buah apel tidak bersebelahan dengan nanas dan terletak di peti kedua di kiri peti kosong, maka pernyataan yang benar adalah ...",
+      "options": [
+        "Peti nanas terpisah 1 peti dengan peti melon",
+        "Peti pisang terpisah 1 peti dengan peti apel",
+        "Peti apel terpisah 2 peti dengan peti melon",
+        "Peti pisang terpisah 3 peti dengan peti nanas",
+        "Peti jeruk terpisah 4 peti dengan peti nanas"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Pernyataan yang benar adalah peti nanas terpisah 1 peti dengan melon."
+    },
+    {
+      "text": "Jika Adi memilih Lombok dan tidak ada yang memilih Bali maka pernyataan yang benar adalah ...",
+      "options": [
+        "Budi memilih Labuan Bajo",
+        "Dani tidak memilih Flores",
+        "Adi memilih Kupang",
+        "Budi memilih Kupang",
+        "Tidak ada yang memilih Flores"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Karena Adi memilih Lombok maka Dani pasti memilih Flores. Karena ada yang memilih Labuan Bajo maka orang tersebut adalah Budi. Pernyataan yang benar adalah Budi memilih Labuan Bajo"
+    },
+    {
+      "text": "Pada semester ini Budi memiliki tugas pratikum Fisika yaitu tugas A, B, C, D, E dan F. Tugas-tugas ini memiliki keterkaitan satu sama lain\n1) Tugas B hanya boleh dikerjakan bersamaan tugas C.\n2) Tugas A boleh dikerjakan bersama tugas E\n3) Tugas B tidak boleh dikerjakan bersama tugas D\n4) Tugas E dikerjakan jika dan hanya jika tugas F dikerjakan.\nJika pada minggu kedua Budi wajib mengerjakan tugas F dan tidak boleh mengerjakan tugas C maka...",
+      "options": [
+        "Budi juga akan mengerjakan tugas D",
+        "Budi mengerjakan tugas B",
+        "Budi tidak mengerjakan tugas E",
+        "Budi juga akan mengerjakan tugas E",
+        "Budi pasti mengerjakan tugas C"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "Pada semester ini Budi memiliki tugas pratikum Fisika yaitu tugas A, B, C, D, E dan F. Tugas-tugas ini memiliki keterkaitan satu sama lain\n1) Tugas B hanya boleh dikerjakan bersamaan tugas C.\n2) Tugas A boleh dikerjakan bersama tugas E\n3) Tugas B tidak boleh dikerjakan bersama tugas D\n4) Tugas E dikerjakan jika dan hanya jika tugas F dikerjakan.\nJika tugas F tidak dikerjakan maka...",
+      "options": [
+        "Tugas E dikerjakan",
+        "Tugas A dikerjakan",
+        "Tugas A tidak dikerjakan",
+        "Tugas E tidak dikerjakan",
+        "Tugas C pasti dikerjakan"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "Di dalam ruangan terdapat enam buah lampu yaitu lampu 1, 2, 3, 4, 5, dan 6. Lampu tersebut saling terkait satu sama lain.\n(1) Jika lampu 1 mati maka lampu 6 menyala, demikian juga sebaliknya.\n(2) Jika lampu 2 mati maka lampu 5 mati, demikian juga sebaliknya.\n(3) Jika lampu 3 menyala maka lampu 4 mati demikian juga sebaliknya.\n(4) Jika lampu 4 menyala maka lampu 1 menyala dan lampu 5 mati.\n(5) Terdapat tepat satu lampu diantara 1, 2, dan 5 yang mati atau menyala.\nJika lampu 1 mati maka lampu yang mati adalah...",
+      "options": [
+        "6",
+        "5",
+        "4",
+        "3",
+        "2"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Di dalam ruangan terdapat enam buah lampu yaitu lampu 1, 2, 3, 4, 5, dan 6. Lampu tersebut saling terkait satu sama lain.\n(1) Jika lampu 1 mati maka lampu 6 menyala, demikian juga sebaliknya.\n(2) Jika lampu 2 mati maka lampu 5 mati, demikian juga sebaliknya.\n(3) Jika lampu 3 menyala maka lampu 4 mati demikian juga sebaliknya.\n(4) Jika lampu 4 menyala maka lampu 1 menyala dan lampu 5 mati.\n(5) Terdapat tepat satu lampu diantara 1, 2, dan 5 yang mati atau menyala.\nJika lampu 2 menyala maka lampu yang pasti menyala adalah...",
+      "options": [
+        "6",
+        "4 dan 6",
+        "5 dan 6",
+        "3, 5 dan 6",
+        "1"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "Di dalam ruangan terdapat enam buah lampu yaitu lampu 1, 2, 3, 4, 5, dan 6. Lampu tersebut saling terkait satu sama lain.\n(1) Jika lampu 1 mati maka lampu 6 menyala, demikian juga sebaliknya.\n(2) Jika lampu 2 mati maka lampu 5 mati, demikian juga sebaliknya.\n(3) Jika lampu 3 menyala maka lampu 4 mati demikian juga sebaliknya.\n(4) Jika lampu 4 menyala maka lampu 1 menyala dan lampu 5 mati.\n(5) Terdapat tepat satu lampu diantara 1, 2, dan 5 yang mati atau menyala.\nJika lampu 3 mati maka lampu yang akan menyala adalah...",
+      "options": [
+        "2",
+        "1 dan 5",
+        "2 dan 6",
+        "3 dan 4",
+        "1 dan 4"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "Di dalam ruangan terdapat enam buah lampu yaitu lampu 1, 2, 3, 4, 5, dan 6. Lampu tersebut saling terkait satu sama lain.\n(1) Jika lampu 1 mati maka lampu 6 menyala, demikian juga sebaliknya.\n(2) Jika lampu 2 mati maka lampu 5 mati, demikian juga sebaliknya.\n(3) Jika lampu 3 menyala maka lampu 4 mati demikian juga sebaliknya.\n(4) Jika lampu 4 menyala maka lampu 1 menyala dan lampu 5 mati.\n(5) Terdapat tepat satu lampu diantara 1, 2, dan 5 yang mati atau menyala.\nJika lampu 1 mati dan lampu 5 menyala maka...",
+      "options": [
+        "Lampu 4 menyala",
+        "Lampu 6 mati",
+        "Lampu 2 menyala",
+        "Lampu 3 mati",
+        "Lampu 4 mati dan lampu 6 mati"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Di dalam ruangan terdapat enam buah lampu yaitu lampu 1, 2, 3, 4, 5, dan 6. Lampu tersebut saling terkait satu sama lain.\n(1) Jika lampu 1 mati maka lampu 6 menyala, demikian juga sebaliknya.\n(2) Jika lampu 2 mati maka lampu 5 mati, demikian juga sebaliknya.\n(3) Jika lampu 3 menyala maka lampu 4 mati demikian juga sebaliknya.\n(4) Jika lampu 4 menyala maka lampu 1 menyala dan lampu 5 mati.\n(5) Terdapat tepat satu lampu diantara 1, 2, dan 5 yang mati atau menyala.\nJika lampu 1 mati maka...",
+      "options": [
+        "Lampu 6 mati",
+        "Lampu 2 mati",
+        "Lampu 5 mati",
+        "Lampu 4 mati",
+        "Lampu 4 menyala"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "Empat orang sahabat yaitu F, G, H dan I akan masuk ke perguruan tinggi. Ada 5 pilihan yang dituju yaitu Matematika, Fisika, Kimia, Biologi dan Astronomi. Tidak ada diantara mereka yang akan mengambil jurusan yang sama.\n(1) H dan F tidak akan memilih jurusan Matematika\n(2) G akan memilih jurusan Fisika atau Kimia\n(3) I hanya boleh memilih jurusan Matematika atau Biologi\n(4) Jika I memilih jurusan Biologi maka H akan memilih jurusan Kimia.\n(5) Astronomi akan dipilih F jika kimia dan biologi telah terpilih.\nJika I memilih Biologi, maka pernyataan berikut yang benar adalah...",
+      "options": [
+        "H memilih jurusan Astronomi",
+        "F memilih jurusan Kimia",
+        "G memilih jurusan Fisika",
+        "H memilih jurusan Fisika",
+        "F memilih jurusan Fisika"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Empat orang sahabat yaitu F, G, H dan I akan masuk ke perguruan tinggi. Ada 5 pilihan yang dituju yaitu Matematika, Fisika, Kimia, Biologi dan Astronomi. Tidak ada diantara mereka yang akan mengambil jurusan yang sama.\n(1) H dan F tidak akan memilih jurusan Matematika\n(2) G akan memilih jurusan Fisika atau Kimia\n(3) I hanya boleh memilih jurusan Matematika atau Biologi\n(4) Jika I memilih jurusan Biologi maka H akan memilih jurusan Kimia.\n(5) Astronomi akan dipilih F jika kimia dan biologi telah terpilih.\nBila H dapat memilih jurusan apapun selain Kimia dan Astronomi, agar semua dapat dimasukkan ke jurusan yang ada maka F harus memilih jurusan...",
+      "options": [
+        "Biologi",
+        "Astronomi",
+        "Kimia",
+        "Fisika",
+        "Matematika"
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "Empat orang sahabat yaitu F, G, H dan I akan masuk ke perguruan tinggi. Ada 5 pilihan yang dituju yaitu Matematika, Fisika, Kimia, Biologi dan Astronomi. Tidak ada diantara mereka yang akan mengambil jurusan yang sama.\n(1) H dan F tidak akan memilih jurusan Matematika\n(2) G akan memilih jurusan Fisika atau Kimia\n(3) I hanya boleh memilih jurusan Matematika atau Biologi\n(4) Jika I memilih jurusan Biologi maka H akan memilih jurusan Kimia.",
+      "options": [
+        "Biologi",
+        "Astronomi",
+        "Kimia",
+        "Fisika",
+        "Matematika"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "Astronomi akan dipilih F jika kimia dan biologi telah terpilih. Bila H memilih jurusan Kimia maka pernyataan berikut yang salah adalah…",
+      "options": [
+        "I memilih jurusan Biologi",
+        "F memilih Astronomi",
+        "G memilih jurusan Kimia",
+        "G memilih jurusan Fisika",
+        "F memilih jurusan Fisika"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

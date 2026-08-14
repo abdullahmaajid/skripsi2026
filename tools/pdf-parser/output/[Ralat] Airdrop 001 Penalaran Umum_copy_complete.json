@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Perhatikan teks di bawah ini, manakah yang menggunakan format \"Penyebab (_______) Akibat\"?\n(1) Jika hutan terus ditebang secara liar, maka kemampuan alam untuk menyerap karbon dioksida akan berkurang.\n(2) Banyak orang terjebak dalam hutang disebabkan kurangnya pemahaman tentang pengelolaan keuangan.\n(3) Apabila piramida Mesir tidak dibangun, mungkin kita tidak akan mengetahui seberapa maju teknik arsitektur pada masa itu.\n(4) Banyak seniman menggabungkan elemen tradisional dan modern dalam karya mereka akibat pengaruh budaya global",
+      "options": [
+        "(1) dan (3)",
+        "(1), (2), dan (3)",
+        "(2) dan (4)",
+        "(1), (2), (3), dan (4)",
+        "Tidak ada yang benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan teks di bawah ini, manakah yang menggunakan format \"Penyebab (_______) Akibat\"?\n(1) Konsumsi makanan tinggi gula secara berlebihan dapat mengakibatkan peningkatan risiko diabetes tipe 2.\n(2) Rutin berolahraga dapat meningkatkan kesehatan jantung, akibatnya risiko penyakit jantung menjadi lebih rendah.\n(3) Pelanggaran hak asasi manusia menyebabkan ketidakadilan sosial yang meluas dalam masyarakat.\n(4) Ketika seseorang merasa terlalu banyak tekanan, kesehatan mentalnya bisa terganggu dan menyebabkan stres.",
+      "options": [
+        "(1) dan (3)",
+        "(1), (2), dan (3)",
+        "(2) dan (4)",
+        "(1), (2), (3), dan (4)",
+        "Tidak ada yang benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan teks di bawah ini, manakah yang menggunakan format \"Akibat (_______) Penyebab\"?\n(1) Teknologi AI semakin berkembang karena kemampuan komputasi yang semakin canggih.\n(2) Perdagangan dan komunikasi di wilayah kekaisaran mungkin akan terhambat, apabila bangsa Romawi kuno tidak membangun jalan raya yang kuat,\n(3) Banyak orang tertarik mempelajari filsafat sebab ia menawarkan pemahaman yang mendalam tentang makna hidup.\n(4) Makanan olahan yang kaya lemak trans dapat mengakibatkan peningkatan kadar kolesterol jahat dalam darah.",
+      "options": [
+        "(1) dan (3)",
+        "(1), (2), dan (3)",
+        "(2) dan (4)",
+        "(1), (2), (3), dan (4)",
+        "Tidak ada yang benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan teks di bawah ini, manakah yang menggunakan format \"Penyebab (_______) Akibat\"?\n(1) Perilaku agresif anak sering diakibatkan oleh kurangnya pengawasan dan bimbingan dari orang tua.\n(2) Kalau manusia berhasil mendarat di Mars, itu akan menjadi pencapaian besar dalam eksplorasi ruang angkasa.\n(3) Masalah investasi yang gagal sering disebabkan oleh keputusan yang diambil tanpa memahami risiko.\n(4) Mengikuti program kebugaran yang tepat dapat memperkuat otot, akibatnya kemampuan fisik dalam aktivitas sehari-hari menjadi lebih baik.",
+      "options": [
+        "(1) dan (3)",
+        "(1), (2), dan (3)",
+        "(2) dan (4)",
+        "(1), (2), (3), dan (4)",
+        "Tidak ada yang benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan teks di bawah ini, manakah yang menggunakan format \"Akibat (_______) Penyebab\"?\n(1) Jika lapisan es di kutub mencair lebih cepat, maka permukaan air laut akan naik dan mengancam kota-kota pesisir.\n(2) E-commerce terus berkembang pesat, sehingga banyak pelaku usaha beralih dari toko fisik ke platform online.\n(3) Ketika seseorang mengalami kecemasan berlebih, sering kali sulit untuk berkonsentrasi pada tugas-tugas harian.\n(4) Konsumsi garam berlebihan dapat mengakibatkan hipertensi dan masalah kardiovaskular lainnya.",
+      "options": [
+        "(1) dan (3)",
+        "(1), (2), dan (3)",
+        "(2) dan (4)",
+        "(1), (2), (3), dan (4)",
+        "Tidak ada yang benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan teks di bawah ini, manakah yang menggunakan format \"Penyebab (_______) Akibat\"?\n(1) Pemikiran Immanuel Kant sangat berpengaruh dalam etika modern sebab ia memperkenalkan konsep \"kewajiban moral\".\n(2) Penggunaan media sosial sebagai alat pemasaran meningkat, sehingga perusahaan dapat menjangkau audiens yang lebih luas.\n(3) Prestasi akademik yang rendah pada anak biasanya diakibatkan oleh metode pengajaran yang kurang efektif.\n(4) Kalau teknologi antariksa terus berkembang, kita mungkin bisa melakukan perjalanan antarbintang di masa depan.",
+      "options": [
+        "(1) dan (3)",
+        "(1), (2), dan (3)",
+        "(2) dan (4)",
+        "(1), (2), (3), dan (4)",
+        "Tidak ada yang benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan teks di bawah ini, manakah yang menggunakan format \"Akibat (_______) Penyebab\"?\n(1) Teknologi AI menjadi bagian dari kehidupan sehari-hari karena aplikasinya dalam asisten virtual seperti Siri dan Alexa.\n(2) Seniman dapat mengembangkan keterampilan dan gaya unik mereka sendiri akibat pelatihan yang intensif,\n(3) Filsafat sering terhubung dengan ilmu pengetahuan sebab keduanya sama-sama mencari kebenaran dan memahami realitas.\n(4) Jika kita tidak segera bertindak untuk melindungi lingkungan, maka generasi mendatang akan menghadapi tantangan yang lebih besar terkait perubahan iklim.",
+      "options": [
+        "(1) dan (3)",
+        "(1), (2), dan (3)",
+        "(2) dan (4)",
+        "(1), (2), (3), dan (4)",
+        "Tidak ada yang benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan teks di bawah ini, manakah yang menggunakan format \"Penyebab (_______) Akibat\"?\n(1) AI mendapatkan perhatian besar di sektor keamanan siber karena mampu mendeteksi ancaman dengan lebih cepat dan efektif.\n(2) Ekonomi digital tumbuh secara global, sehingga persaingan antar pelaku usaha menjadi semakin ketat.\n(3) Masyarakat menjadi lebih sadar akan pentingnya pelestarian budaya dan seni lokal akibat pertunjukan seni yang mengedukasi,\n(4) Ketika kesehatan mental terjaga, produktivitas dan hubungan sosial biasanya meningkat.",
+      "options": [
+        "(1) dan (3)",
+        "(1), (2), dan (3)",
+        "(2) dan (4)",
+        "(1), (2), (3), dan (4)",
+        "Tidak ada yang benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Seorang petani menanam tomat di lahan yang berada pada ketinggian 800 meter di atas permukaan laut. Tanaman tomat tumbuh subur di dataran tinggi dengan rentang ketinggian antara 500 hingga 1.500 meter di atas permukaan laut. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": [
+        "Semua tomat yang ditanam petani tumbuh subur pada ketinggian 1.500 meter.",
+        "Sebagian tanaman tomat dapat tumbuh subur di ketinggian 1.000 meter.",
+        "Tomat tidak bisa tumbuh di dataran rendah di bawah 500 meter.",
+        "Sebagian tomat yang ditanam petani tidak tumbuh subur pada ketinggian 800 meter.",
+        "Semua tomat yang ditanam petani pasti tumbuh subur di dataran rendah."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Gaya hidup minimalis mengutamakan pengurangan barang yang tidak perlu dan fokus pada hal-hal yang penting dalam kehidupan. Pendekatan ini dapat meningkatkan kesejahteraan mental seseorang dengan mengurangi stres akibat kepemilikan barang yang berlebihan. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI SALAH?",
+      "options": [
+        "Gaya hidup minimalis dapat mengurangi stres.",
+        "Gaya hidup minimalis tidak memiliki dampak terhadap kesejahteraan mental.",
+        "Memiliki barang yang sedikit dapat membantu fokus pada hal yang lebih penting.",
+        "Mengurangi kepemilikan barang dapat meningkatkan kualitas hidup.",
+        "Gaya hidup minimalis bisa mengurangi beban fisik dan emosional."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jeruk adalah salah satu buah yang membutuhkan sinar matahari penuh dan tanah yang subur serta drainase yang baik untuk tumbuh optimal. Jeruk biasanya tumbuh pada ketinggian di bawah 400 meter di atas permukaan laut. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": [
+        "Semua jeruk ditanam di daerah dengan ketinggian di atas 400 meter.",
+        "Sebagian jeruk dapat tumbuh subur pada ketinggian 100 meter.",
+        "Semua jeruk tidak bisa tumbuh pada ketinggian di bawah 400 meter.",
+        "Jeruk hanya bisa tumbuh di daerah pegunungan tinggi.",
+        "Sebagian besar jeruk tumbuh di daerah rendah."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dengan menerapkan gaya hidup minimalis, seseorang dapat menghemat uang dan mengurangi pengeluaran yang tidak perlu. Hal ini bisa membuat individu lebih memiliki kebebasan finansial dan lebih mampu merencanakan masa depan. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI SALAH?",
+      "options": [
+        "Gaya hidup minimalis dapat mengurangi pengeluaran.",
+        "Gaya hidup minimalis tidak dapat berkontribusi pada kebebasan finansial.",
+        "Menghemat uang dapat membantu merencanakan masa depan.",
+        "Memiliki lebih sedikit barang dapat mengurangi beban keuangan.",
+        "Gaya hidup minimalis dapat memberikan keuntungan finansial."
+      ],
+      "correctAnswer": "Gaya hidup minimalis tidak dapat berkontribusi pada kebebasan finansial.",
+      "explanation": "Pernyataan ini bertentangan secara langsung dengan teks yang menyatakan bahwa gaya hidup minimalis membuat individu lebih memiliki kebebasan finansial."
+    },
+    {
+      "text": "Biji kopi Arabika dikenal membutuhkan iklim sejuk dan biasanya ditanam pada ketinggian antara 1.200 hingga 2.000 meter di atas permukaan laut. Tanaman kopi ini tidak bisa tumbuh baik di dataran rendah. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": [
+        "Semua kopi Arabika tumbuh di dataran rendah di bawah 1.200 meter.",
+        "Sebagian kopi Arabika tumbuh subur pada ketinggian 1.500 meter.",
+        "Kopi Arabika dapat tumbuh optimal di dataran rendah dengan kondisi khusus.",
+        "Kopi Arabika hanya bisa ditanam di daerah dengan ketinggian di atas 2.000 meter.",
+        "Kopi Arabika dapat ditanam di dataran rendah dan tinggi."
+      ],
+      "correctAnswer": "Sebagian kopi Arabika tumbuh subur pada ketinggian 1.500 meter.",
+      "explanation": "Ketinggian 1.500 meter berada di dalam rentang 1.200 hingga 2.000 meter yang disebutkan dalam teks."
+    },
+    {
+      "text": "Gaya hidup minimalis mendorong individu untuk lebih menghargai pengalaman dibandingkan barang. Dengan fokus pada pengalaman, orang dapat mengembangkan hubungan sosial yang lebih baik. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI SALAH?",
+      "options": [
+        "Memiliki lebih banyak pengalaman dapat memperkaya hidup.",
+        "Gaya hidup minimalis mendorong penumpukan barang-barang.",
+        "Hubungan sosial yang baik dapat meningkatkan kesejahteraan.",
+        "Menghargai pengalaman dapat mengurangi stres.",
+        "Gaya hidup minimalis berfokus pada pengalaman, bukan barang."
+      ],
+      "correctAnswer": "Gaya hidup minimalis mendorong penumpukan barang-barang.",
+      "explanation": "Teks menyatakan gaya hidup minimalis mendorong penghargaan terhadap pengalaman dibandingkan barang, sehingga mendorong penumpukan barang adalah hal yang bertentangan."
+    },
+    {
+      "text": "Anggrek merupakan tanaman hias yang membutuhkan kelembaban tinggi dan suhu yang sejuk. Anggrek tumbuh optimal pada ketinggian 400 hingga 1.500 meter di atas permukaan laut. Tanaman ini sulit tumbuh di daerah dengan suhu panas ekstrem. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": [
+        "Semua anggrek dapat tumbuh subur di daerah pantai.",
+        "Sebagian anggrek bisa tumbuh subur pada ketinggian 500 meter.",
+        "Anggrek tidak bisa tumbuh di ketinggian di atas 1.500 meter.",
+        "Semua anggrek membutuhkan suhu panas untuk tumbuh.",
+        "Sebagian anggrek tumbuh di dataran rendah di bawah 400 meter."
+      ],
+      "correctAnswer": "Sebagian anggrek bisa tumbuh subur pada ketinggian 500 meter.",
+      "explanation": "Ketinggian 500 meter berada dalam rentang optimal 400 hingga 1.500 meter."
+    }
+  ]
+}

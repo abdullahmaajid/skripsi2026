@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "The opinion that best completes (4) is ...",
+      "options": [
+        "Effort",
+        "Position",
+        "Beginning",
+        "Advantage",
+        "Pathway"
+      ],
+      "correctAnswer": "Pathway",
+      "explanation": "Higher education is referred to as a pathway into the middle class."
+    },
+    {
+      "text": "The opinion that best completes (5) is ...",
+      "options": [
+        "Learning achievement",
+        "Academic capacity",
+        "Completion rate",
+        "Logical understanding",
+        "Intellectual development"
+      ],
+      "correctAnswer": "Completion rate",
+      "explanation": "The text discusses graduating within six years, which relates to the completion rate for low-income students."
+    },
+    {
+      "text": "The opinion that best completes (6) is ...",
+      "options": [
+        "Americans will deserve higher education for their future",
+        "Middle class Americans are invited to provide financial aids",
+        "American students are suggested to take entrepreneurial skill",
+        "The President has set up a new educational goal for the country",
+        "The government recommends Americans for college education"
+      ],
+      "correctAnswer": "The President has set up a new educational goal for the country",
+      "explanation": "President Obama challenged Americans with a goal that America would have the highest proportion of college graduates by 2020."
+    },
+    {
+      "text": "The author’s purpose in writing this article is to ....",
+      "options": [
+        "Compare typical children and children that develop autism at early age",
+        "Illustrate the advanced research in psychiatry due to modern technology",
+        "Argue that autistic infants should receive special treatment from their family",
+        "Explain that autism can be detected early by using an eye-tracking test on infants",
+        "Inform that infants with autism have difficulties in identifying people's intentions"
+      ],
+      "correctAnswer": "Explain that autism can be detected early by using an eye-tracking test on infants",
+      "explanation": "The passage highlights a study using eye-tracking to detect autism in 6-month-old infants."
+    },
+    {
+      "text": "According to the text, infants with ASD ....",
+      "options": [
+        "Gazed at faces more frequently than typical infants",
+        "Stared at all faces without noticing their key features",
+        "Were more attracted to smiling faces than speaking faces",
+        "Avoided looking at main facial features of speaking faces",
+        "Diverted their gaze from speaking faces and smiling faces"
+      ],
+      "correctAnswer": "Avoided looking at main facial features of speaking faces",
+      "explanation": "Infants later diagnosed with ASD diverted their gaze from facial features when the face was speaking."
+    },
+    {
+      "text": "The underlined word “atypical” in paragraph 2 is closest in meaning to ....",
+      "options": [
+        "Illegal",
+        "Unusual",
+        "Important",
+        "Irregular",
+        "Impossible"
+      ],
+      "correctAnswer": "Unusual",
+      "explanation": "Atypical means not typical, which is synonymous with unusual."
+    },
+    {
+      "text": "It can be inferred from the passage that the research ....",
+      "options": [
+        "Succeeded in revealing new important information about autism diagnosis",
+        "Managed to discover the reasons autism causes changes in children's brains",
+        "Found why autism at an early stage was easier to detect than at later stage",
+        "Convinced parents to send their 6-month-old babies to get eye-tracking test",
+        "Required many years of observation and collaboration with various researchers"
+      ],
+      "correctAnswer": "Succeeded in revealing new important information about autism diagnosis",
+      "explanation": "The research isolated an atypical response to speech as a specific characteristic in the first half year after birth associated with ASD."
+    },
+    {
+      "text": "According to the text, which of the following is not expected from research on autism?",
+      "options": [
+        "Shed light on how autistic children have different developmental processes",
+        "Design involvement plan for children with autism to normalize their progress",
+        "Explain the time children with autism develop differently from typical children",
+        "Come up with solutions how to return autistic children's development to normal",
+        "Clarify the effects of autism on children and their relationships with the parents."
+      ],
+      "correctAnswer": "Clarify the effects of autism on children and their relationships with the parents.",
+      "explanation": "The text focuses on developmental processes and interventions, not specifically on the relationships with parents."
+    },
+    {
+      "text": "What does the author mean by writing that the Clovis can be linked to many native peoples in Central and South America?",
+      "options": [
+        "The author means that many native peoples in Central and South America could communicate with the Clovis people",
+        "The author means that many native peoples in Central and South America are related to the Clovis people",
+        "The author means that the Clovis people used the same technology as many native peoples in Central and South America",
+        "The author means that the Clovis people got along well with many native peoples in Central and South America",
+        "The author means that the Clovis people went to war with many native peoples in Central South America"
+      ],
+      "correctAnswer": "The author means that many native peoples in Central and South America are related to the Clovis people",
+      "explanation": "The text states the Clovis people are direct ancestors of many Native Americans."
+    },
+    {
+      "text": "What does the passage say about the effects of e-cigarettes? The passage …",
+      "options": [
+        "Says that the effects are popular",
+        "Says that the research of the effect of e-cigarettes is still insufficient",
+        "Says that the effects are good for teens and teenagers",
+        "Says that the effects are high-tech",
+        "Provides no information about the effects"
+      ],
+      "correctAnswer": "Says that the research of the effect of e-cigarettes is still insufficient",
+      "explanation": "The passage notes that research into the effect of e-cigarettes lags behind their popularity."
+    },
+    {
+      "text": "From the passage above, which sentence is a prediction?",
+      "options": [
+        "Electronic cigarettes: Are they safer than tobacco? Or are they a high-tech way to hook a new generation on a bad nicotine habit?",
+        "Research into the effects of e-cigarettes lags behind their popularity",
+        "It's a booming, billion-dollar industry - on track to outsell tobacco products within a decade",
+        "The number of teens and tweenagers (children between the ages of about 10 and 14) using these products doubled between 2011 and 2012",
+        "Nothing"
+      ],
+      "correctAnswer": "It's a booming, billion-dollar industry - on track to outsell tobacco products within a decade",
+      "explanation": "Being 'on track to outsell within a decade' is a prediction of future events."
+    },
+    {
+      "text": "Which one is TRUE according to the text?",
+      "options": [
+        "Electronic cigarettes are safer than tobacco",
+        "E-cigarette effects are unpopular",
+        "The number of people using e-cigarettes has double between 2011-2012",
+        "The number of e-cigarettes sold is greater than that of normal tobacco products",
+        "Some teens use e-cigarettes"
+      ],
+      "correctAnswer": "Some teens use e-cigarettes",
+      "explanation": "The passage states the number of teens and tweenagers using these products doubled."
+    },
+    {
+      "text": "The author develop some ideas in paragraph 2 by ...",
+      "options": [
+        "Describing parents' chauffeuring followed by its effect",
+        "Explaining reason for chauffeuring and their advantages",
+        "Discussing the function of chauffeuring and the impact",
+        "Arguing for chauffeuring practice for children's safety",
+        "Exposing how parent chauffer and its drawbacks"
+      ],
+      "correctAnswer": "Describing parents' chauffeuring followed by its effect",
+      "explanation": "Paragraph 2 states why parents drop kids off (safety/convenience) and the drawbacks (missing exercise)."
+    },
+    {
+      "text": "By writing the sentence ‐ chauffeuring your kids to school everyday could mean they are missing out on much-needed exercise and other life skills.‐ (paragraph 2), the author implies that ….",
+      "options": [
+        "Taking kids to school makes them deprived individuals when they grow up",
+        "Kids given a lift to school likely lose vital social and physical advantages",
+        "Schooling means not only learning in classes but also socializing with others",
+        "Parents spoil their kids’ future social and physical life by giving them a lift",
+        "When a child needs physical and social training, parent should facilitate them"
+      ],
+      "correctAnswer": "Kids given a lift to school likely lose vital social and physical advantages",
+      "explanation": null
+    },
+    {
+      "text": "The paragraph following the passage above most likely contains information on …",
+      "options": [
+        "Advice to parents for their children to have enough physical activities",
+        "The decreasing trend of children to do physical activities at their will",
+        "Parental motives behind chauffeuring their children to school",
+        "Reasons for children not to do fun and incidental activities",
+        "Effects of having children not to be given a lift to school"
+      ],
+      "correctAnswer": "Advice to parents for their children to have enough physical activities",
+      "explanation": null
+    },
+    {
+      "text": "According to the passage, which of the following best shows the author’s bias?",
+      "options": [
+        "The need of fertilizer to increase agricultural production",
+        "Blooms of algae in spring but leaving polluted waters afterwards",
+        "Change of plants in the forest and forest fire because of nitrogen",
+        "Growing of unwanted plants and plants extinction caused by nitrogen",
+        "Nitrogen as a useful supplement for plant, be it in the air, water, or soil"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "In connecting the idea in paragraph 2 and that in paragraph 3, the author ….",
+      "options": [
+        "Shows evidence why change of plants causes forests more vulnerable from fire",
+        "Gives further impacts of nitrogen not only on soil but also in water and air",
+        "Argues that nitrogen harms not only plants and animals, but also humans",
+        "Provides a reason why the change of plants may occur in forests",
+        "States the characteristics of nitrogen in the nature"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "What is the author’s attitude towards overuse of nitrogen?",
+      "options": [
+        "Pessimistic",
+        "Concerned",
+        "Mindful",
+        "Critical",
+        "Neutral"
+      ],
+      "correctAnswer": "Concerned",
+      "explanation": null
+    },
+    {
+      "text": "The paragraph following the passage will most likely discuss ….",
+      "options": [
+        "a case of polluted water contaminated by nitrogen",
+        "trainings on how to use fertilizers wisely to possible users",
+        "results of testing an area possibly contaminated by nitrogen",
+        "a case of plant change because of nitrogen excess in the soil",
+        "efforts to reduce acid rains to avoid nitrogen contaminating wells"
+      ],
+      "correctAnswer": "trainings on how to use fertilizers wisely to possible users",
+      "explanation": null
+    },
+    {
+      "text": "Based on the passage, it can be hypothesized that the more ….",
+      "options": [
+        "houses, the more nitrogen excesses",
+        "polluted soil, the more crop problems",
+        "fertilizers, the more agricultural products",
+        "nitrogen, the more acid rains and plant shifts",
+        "industrial areas, the more polluted air and soil"
+      ],
+      "correctAnswer": "nitrogen, the more acid rains and plant shifts",
+      "explanation": null
+    }
+  ]
+}

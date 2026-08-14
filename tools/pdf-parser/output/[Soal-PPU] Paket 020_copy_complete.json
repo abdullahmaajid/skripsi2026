@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Apa perumpamaan yang digunakan dalam teks untuk menggambarkan penyebaran fitnah?",
+      "options": [
+        "Seperti duri tajam di jalan",
+        "Layaknya angin kencang",
+        "Sebuah pedang bermata dua",
+        "Seperti air mengalir tanpa henti",
+        "Bak api yang membakar emosi dan logika"
+      ],
+      "correctAnswer": "Layaknya angin kencang",
+      "explanation": null
+    },
+    {
+      "text": "Apa makna dari perumpamaan \"layaknya selembar daun di sungai deras\"?",
+      "options": [
+        "Orang yang mudah terombang-ambing oleh opini",
+        "Orang yang mudah terbawa arus tanpa mempertimbangkan dampaknya",
+        "Orang yang kehilangan arah di tengah banyaknya informasi",
+        "Orang yang mengikuti tren tanpa berpikir kritis",
+        "Orang yang menjadi pasif di dunia digital"
+      ],
+      "correctAnswer": "Orang yang mudah terbawa arus tanpa mempertimbangkan dampaknya",
+      "explanation": null
+    },
+    {
+      "text": "Apa hubungan antara kalimat pertama dan kedua dalam teks?",
+      "options": [
+        "Penegasan",
+        "Pertentangan",
+        "Penjelasan",
+        "Sebab-akibat",
+        "Penguatan"
+      ],
+      "correctAnswer": "Penjelasan",
+      "explanation": null
+    },
+    {
+      "text": "Kata \"diskursus\" memiliki makna yang serupa dengan…",
+      "options": [
+        "Wacana",
+        "Keputusan",
+        "Informasi",
+        "Kekhawatiran",
+        "Pertentangan"
+      ],
+      "correctAnswer": "Wacana",
+      "explanation": null
+    },
+    {
+      "text": "Apa hubungan isi kalimat terakhir dengan seluruh teks?",
+      "options": [
+        "Kalimat terakhir menguatkan ide utama teks",
+        "Kalimat terakhir bertentangan dengan pandangan kritik dalam teks",
+        "Kalimat terakhir memberikan simpulan terhadap berbagai pandangan dalam teks",
+        "Kalimat terakhir menunjukkan akibat dari kritik terhadap proyek IKN",
+        "Kalimat terakhir mempertegas tujuan pembangunan IKN"
+      ],
+      "correctAnswer": "Kalimat terakhir memberikan simpulan terhadap berbagai pandangan dalam teks",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan berikut yang sesuai dengan isi teks adalah…",
+      "options": [
+        "Orang yang membaca buku di tempat umum biasanya mendapat dukungan dari lingkungan sekitar.",
+        "Membaca buku di ruang publik membutuhkan kepercayaan diri karena persepsi masyarakat masih buruk.",
+        "Saat ini sudah tidak ada hambatan bagi masyarakat untuk membaca di ruang terbuka publik.",
+        "Membawa buku ke tempat umum menjadi kebiasaan umum masyarakat Indonesia.",
+        "Komunitas membaca di ruang publik tidak memberikan dampak terhadap kebiasaan membaca masyarakat."
+      ],
+      "correctAnswer": "Membaca buku di ruang publik membutuhkan kepercayaan diri karena persepsi masyarakat masih buruk.",
+      "explanation": null
+    },
+    {
+      "text": "Apa makna dari kalimat: \"Scrolling gawai masih menjadi pilihan utama daripada membaca buku\"?",
+      "options": [
+        "Banyak orang lebih suka menggunakan gawainya untuk membaca buku.",
+        "Aktivitas membaca buku kalah populer dibandingkan dengan menggunakan gawai.",
+        "Penggunaan gawai tidak berhubungan dengan kebiasaan membaca.",
+        "Gawai menjadi sarana utama untuk membaca buku di Indonesia.",
+        "Membaca buku dan scrolling gawai sama sama populer di kalangan masyarakat."
+      ],
+      "correctAnswer": "Aktivitas membaca buku kalah populer dibandingkan dengan menggunakan gawai.",
+      "explanation": null
+    },
+    {
+      "text": "Pola yang serupa dengan petani: padi adalah…",
+      "options": [
+        "belajar: buku",
+        "menulis: pena",
+        "memasak: makanan",
+        "mengemudi: mobil",
+        "melukis: kuas"
+      ],
+      "correctAnswer": "memasak: makanan",
+      "explanation": null
+    },
+    {
+      "text": "Frasa yang setipe dengan “masa panen” adalah…",
+      "options": [
+        "di sawah",
+        "musim hujan",
+        "mereka tanam",
+        "sedang menanam",
+        "bisa bertahan"
+      ],
+      "correctAnswer": "sedang menanam",
+      "explanation": null
+    },
+    {
+      "text": "Kata “memuaskan” bermakna…",
+      "options": [
+        "memberikan hasil yang sesuai harapan",
+        "menghasilkan sesuatu yang melimpah",
+        "menimbulkan kebahagiaan berlebih",
+        "menciptakan hasil yang bermanfaat",
+        "memenuhi kebutuhan sepenuhnya"
+      ],
+      "correctAnswer": "memberikan hasil yang sesuai harapan",
+      "explanation": null
+    },
+    {
+      "text": "Sinonim kata mengatasi dalam kalimat \"Petani harus memikirkan strategi untuk mengatasi risiko tersebut adalah…",
+      "options": [
+        "Menanggulangi",
+        "Melupakan",
+        "Mempermudah",
+        "Memanfaatkan",
+        "Menghapuskan"
+      ],
+      "correctAnswer": "Menanggulangi",
+      "explanation": null
+    },
+    {
+      "text": "Dalam kalimat \"Urbanisasi menyebabkan berbagai masalah, seperti kemacetan lalu lintas dan meningkatnya polusi udara,\" kata \"meningkatnya\" memiliki makna…",
+      "options": [
+        "Bertambah parah",
+        "Menjadi lebih baik",
+        "Berkurang secara perlahan",
+        "Terlihat lebih jelas",
+        "Fluktuatif"
+      ],
+      "correctAnswer": "Bertambah parah",
+      "explanation": null
+    },
+    {
+      "text": "Lengkapi kalimat berikut: \"Berbagai upaya telah dilakukan untuk ______ dampak perubahan iklim, seperti mengurangi emisi dan memanfaatkan energi terbarukan.\"",
+      "options": [
+        "menyelesaikan",
+        "mengatasi",
+        "menekan",
+        "memperbaiki",
+        "memulihkan"
+      ],
+      "correctAnswer": "menekan",
+      "explanation": null
+    },
+    {
+      "text": "Pemisahan yang benar untuk kalimat berikut adalah: \"Salah satu penyebab utama perubahan iklim adalah emisi gas rumah kaca yang dihasilkan oleh aktivitas manusia seperti pembakaran bahan bakar fosil dan deforestasi.\"",
+      "options": [
+        "Salah satu penyebab utama perubahan iklim adalah emisi gas rumah kaca yang dihasilkan oleh aktivitas manusia. Seperti pembakaran bahan bakar fosil dan deforestasi.",
+        "Salah satu penyebab utama perubahan iklim adalah emisi gas rumah kaca yang dihasilkan oleh aktivitas manusia, seperti pembakaran bahan bakar fosil dan deforestasi.",
+        "Salah satu penyebab utama perubahan iklim adalah emisi gas rumah kaca. Yang dihasilkan oleh aktivitas manusia seperti pembakaran bahan bakar fosil dan deforestasi.",
+        "Salah satu penyebab utama perubahan iklim adalah emisi gas rumah kaca. Yang dihasilkan oleh aktivitas manusia, seperti pembakaran bahan bakar fosil dan deforestasi.",
+        "Salah satu penyebab utama perubahan iklim adalah emisi gas rumah kaca yang dihasilkan oleh aktivitas manusia, seperti pembakaran bahan bakar fosil, dan deforestasi."
+      ],
+      "correctAnswer": "Salah satu penyebab utama perubahan iklim adalah emisi gas rumah kaca yang dihasilkan oleh aktivitas manusia, seperti pembakaran bahan bakar fosil dan deforestasi.",
+      "explanation": null
+    },
+    {
+      "text": "Sinonim yang paling sesuai untuk menggantikan kata \"menggalakkan\" dalam kalimat \"Pemerintah menggalakkan penghijauan kota\" adalah…",
+      "options": [
+        "Mengurangi",
+        "Mempercepat",
+        "Meningkatkan",
+        "Mendorong",
+        "Menyediakan"
+      ],
+      "correctAnswer": "Mendorong",
+      "explanation": "Kata menggalakkan bersinonim dengan mendorong (menggiatkan, membangkitkan)."
+    },
+    {
+      "text": "Pilih kata yang tepat untuk melengkapi kalimat berikut: \"Salah satu langkah yang diambil adalah memperluas penggunaan transportasi umum ______ lingkungan.\"",
+      "options": [
+        "hemat",
+        "sehat",
+        "ramah",
+        "bersih",
+        "hijau"
+      ],
+      "correctAnswer": "ramah",
+      "explanation": "Padanan kata yang tepat untuk melengkapi istilah transportasi umum adalah ramah lingkungan."
+    },
+    {
+      "text": "Kelompok kata berpasangan tetap di bacaan di atas adalah…",
+      "options": [
+        "air hujan",
+        "secara berkelanjutan",
+        "wilayah perkotaan",
+        "curah hujan",
+        "sudut kota"
+      ],
+      "correctAnswer": "curah hujan",
+      "explanation": "Curah hujan merupakan kelompok kata berpasangan tetap."
+    },
+    {
+      "text": "Makna kata drainase pada teks adalah…",
+      "options": [
+        "Sistem irigasi untuk pertanian",
+        "Pengelolaan air limbah domestik",
+        "Sistem pengaliran air untuk menghindari genangan",
+        "Sarana penyimpanan air hujan",
+        "Proses penyerapan air oleh tanah"
+      ],
+      "correctAnswer": "Sistem pengaliran air untuk menghindari genangan",
+      "explanation": "Drainase dalam konteks teks adalah sistem pengaliran air untuk menghindari genangan."
+    },
+    {
+      "text": "Kata yang dapat menggantikan kata kolaborasi pada kalimat terakhir \"Kolaborasi antara pemerintah dan masyarakat diperlukan untuk mengatasi masalah ini secara berkelanjutan\" adalah…",
+      "options": [
+        "Sinergi",
+        "Divergensi",
+        "Kompetensi",
+        "Simbiosis",
+        "Asimilasi"
+      ],
+      "correctAnswer": "Sinergi",
+      "explanation": "Kolaborasi bersinonim dengan sinergi (kegiatan gabungan/kerja sama)."
+    },
+    {
+      "text": "Makna imbuhan ber- pada kata berkelanjutan adalah…",
+      "options": [
+        "Menjadikan sesuatu stabil",
+        "Menyebabkan sesuatu untuk bertahan",
+        "Melakukan tindakan secara berulang",
+        "Menghasilkan sesuatu yang baru",
+        "Memiliki sifat yang terus-menerus"
+      ],
+      "correctAnswer": "Memiliki sifat yang terus-menerus",
+      "explanation": "Imbuhan ber- pada kata berkelanjutan bermakna memiliki sifat yang terus-menerus."
+    }
+  ]
+}

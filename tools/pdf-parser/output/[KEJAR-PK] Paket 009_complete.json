@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Dua persamaan garis $ax + by = 11$ dan $ax + by = 10$ masing - masing melewati titik $(2, 5)$ dan $(2, 4)$. Berapakah $a + b = \\dots$",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar! Daerah yang diarsir menyatakan himpunan \\dots",
+      "options": [
+        "(A \\cup B) \\cap (B \\cup C)",
+        "(A \\cup B) \\cup (B \\cup C)",
+        "(A \\cap B) \\cup (B \\cap C)",
+        "(A \\cap B) \\cap (B \\cap C)",
+        "Tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diberikan sebuah persamaan $2y + 18 = 5x$, berapakah nilai dari $\\frac{y+9}{5x} = \\dots$",
+      "options": [
+        "0,5",
+        "1,0",
+        "1,5",
+        "2,0",
+        "2,5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapa banyak cara mebuat empat digit bilangan boleh berulang dari angka $\\{1, 2, 3, 4, 5, 6\\}$?",
+      "options": [
+        "648",
+        "1296",
+        "180",
+        "600",
+        "720"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Operasi $\\#$ pada himpunan bilangan bulat didefinisikan dengan aturan: $a \\# b = a^2 + b^2 + 2$. Nilai $(-2) \\# (-1)$ adalah \\dots",
+      "options": [
+        "7",
+        "12",
+        "10",
+        "16",
+        "25"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar! Berapakah besar sudut $z^\\circ = \\dots$",
+      "options": [
+        "110^\\circ",
+        "105^\\circ",
+        "106^\\circ",
+        "108^\\circ",
+        "112^\\circ"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar! Segienam ABCDKJ dan segienam KEFGHI merupakan segienam sebangun, berapakah perbandingan luas JEDI dengan luas bangun datar ABCFGH?",
+      "options": [
+        "1/5",
+        "1/7",
+        "1/9",
+        "1/11",
+        "1/14"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika 3 botol jus mangga dicampur dengan 4 botol jus jambu dan 2 botol jus nanas, maka ada berapa bagian jus nanas pada campuran tersebut?",
+      "options": [
+        "3/9",
+        "4/9",
+        "2/9",
+        "5/9",
+        "6/9"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $xyz < 0$ dengan $x = z$ maka yang sudah pasti adalah \\dots",
+      "options": [
+        "xy > 0",
+        "xy < 0",
+        "x > 0",
+        "z < 0",
+        "y < 0"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan 2 hal berikut! 1) Bilangan prima berdigit tunggal 2) Faktorisasi prima dari 150. Jika suatu himpunan bilangan dibangun dengan menggunakan bilangan di atas, berapa modusnya?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Nilai $\\frac{a}{2}$ prima, jika $a = \\dots$ 1) Nilai $a = 8$ 2) Nilai $a = 12$ 3) Nilai $a = 20$ 4) Nilai $a = 28$. Pernyataan di atas yang benar adalah \\dots",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja yang benar",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "B, C, E, G, K, \\dots, \\dots, manakah pilihan yang tepat untuk melengkapi urutan tersebut?",
+      "options": [
+        "M dan Q",
+        "L dan M",
+        "N dan P",
+        "N dan O",
+        "P dan Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Toko P menjual barang 10 buah dengan harga Rp5.000,00 per buah, mendapatkan keuntungan total dari penjualan 10 buah sebesar Rp2.000,00. Ketika barang dijual dengan diskon 5\\%, barang terjual sebanyak 50 buah. Manakah pernyataan berikut yang benar?",
+      "options": [
+        "Harga dasar barang adalah Rp4.600,00",
+        "Keuntungan diperoleh setelah diskon Rp15.000,00",
+        "Penjualan dengan diskon 5\\% merugikan",
+        "Penjualan dengan diskon 5\\% menguntungkan 5 kali lipat",
+        "Harga penjualan Rp4.700,00 per buah menguntungkan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perbandingan luas permukaan dan volume suatu bola adalah A. Jika jari - jarinya menyusut 20\\%, maka perbandingan luas permukaan dan volume yang baru \\dots (dalam persen)",
+      "options": [
+        "Turun 15\\%",
+        "Turun 20\\%",
+        "Tetap",
+        "Naik 20\\%",
+        "Naik 25\\%"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $|x + 1| = 100$, pernyataan berikut yang benar adalah \\dots",
+      "options": [
+        "x - |x + 1| > 0",
+        "|x + 1| - x < 0",
+        "|x + 1| + \\frac{x}{2} > 0",
+        "|x + 1| + x > 0",
+        "|x + 1| + (x + 0,1) > 0"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

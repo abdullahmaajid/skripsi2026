@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Pernyataan manakah yang benar berdasarkan teks?",
+      "options": [
+        "Hutan Aokigahara mendapat julukan \"Lautan Pohon\" karena sering terjadi badai besar",
+        "Pemerintah Jepang tidak mengambil langkah apa pun untuk mencegah bunuh diri di hutan ini",
+        "Aokigahara terbentuk di atas aliran lava yang membeku akibat letusan Gunung Fuji",
+        "Pengunjung hutan ini selalu dapat menggunakan GPS tanpa hambatan",
+        "Hutan ini hanya dikunjungi oleh orang-orang yang percaya takhayul"
+      ],
+      "correctAnswer": "Aokigahara terbentuk di atas aliran lava yang membeku akibat letusan Gunung Fuji",
+      "explanation": null
+    },
+    {
+      "text": "Simpulan yang tepat dari teks bacaan adalah...",
+      "options": [
+        "Hutan Aokigahara adalah tempat yang harus dihindari karena penuh dengan energi negatif",
+        "Keindahan dan keunikan geologis Hutan Aokigahara menarik perhatian banyak orang, meskipun memiliki sejarah kelam",
+        "Pemerintah Jepang menutup akses ke Aokigahara karena banyaknya kasus orang tersesat",
+        "Hutan Aokigahara adalah tempat yang terbentuk secara alami tanpa pengaruh letusan gunung berapi",
+        "Semua pengunjung Aokigahara percaya bahwa hutan ini memiliki kekuatan mistis"
+      ],
+      "correctAnswer": "Keindahan dan keunikan geologis Hutan Aokigahara menarik perhatian banyak orang, meskipun memiliki sejarah kelam",
+      "explanation": null
+    },
+    {
+      "text": "Pengertian kata \"geologis\" dalam teks adalah...",
+      "options": [
+        "Berhubungan dengan struktur tanah dan batuan di suatu tempat",
+        "Berkaitan dengan cuaca dan iklim yang ekstrem",
+        "Berhubungan dengan mitos dan legenda suatu daerah",
+        "Berkaitan dengan flora dan fauna yang ada di suatu wilayah",
+        "Berhubungan dengan kepercayaan masyarakat terhadap suatu tempat"
+      ],
+      "correctAnswer": "Berhubungan dengan struktur tanah dan batuan di suatu tempat",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang dimaksud dengan \"medan magnetik\" dalam teks?",
+      "options": [
+        "Suatu area yang memiliki energi mistis dan dapat memengaruhi pikiran manusia",
+        "Kondisi alam yang menyebabkan suhu di hutan lebih tinggi dibandingkan sekitarnya",
+        "Fenomena yang membuat sinyal GPS dan kompas terganggu karena pengaruh batuan vulkanik",
+        "Efek dari banyaknya pepohonan yang membuat suara tidak bisa terdengar dengan jelas",
+        "Sebuah istilah untuk menyebut daya tarik Aokigahara bagi wisatawan dan ilmuwan"
+      ],
+      "correctAnswer": "Fenomena yang membuat sinyal GPS dan kompas terganggu karena pengaruh batuan vulkanik",
+      "explanation": null
+    },
+    {
+      "text": "Tema utama dari cerita \"Sangkuriang\" adalah...",
+      "options": [
+        "Kehebatan seorang pemuda dalam membangun danau",
+        "Kisah cinta yang berakhir tragis karena takdir",
+        "Keberanian seorang ibu dalam menghadapi anaknya",
+        "Petualangan seorang pemuda mencari jati diri",
+        "Persaingan antara ibu dan anak dalam kekuatan supranatural"
+      ],
+      "correctAnswer": "Kisah cinta yang berakhir tragis karena takdir",
+      "explanation": null
+    },
+    {
+      "text": "Watak Sangkuriang dalam cerita ini adalah...",
+      "options": [
+        "Sabar dan penuh kasih sayang",
+        "Bijaksana dan suka menolong",
+        "Keras kepala dan mudah marah",
+        "Penyayang dan pemaaf",
+        "Lemah lembut dan selalu patuh"
+      ],
+      "correctAnswer": "Keras kepala dan mudah marah",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan manakah yang salah berdasarkan teks?",
+      "options": [
+        "Dayang Sumbi masih terlihat muda karena mendapatkan anugerah dari para dewa",
+        "Sangkuriang tidak mengetahui bahwa wanita yang ia cintai adalah ibunya sendiri",
+        "Sangkuriang berhasil menyelesaikan tugasnya sebelum waktu habis",
+        "Dayang Sumbi menggagalkan usaha Sangkuriang dengan cara membuat ayam jantan berkokok lebih awal",
+        "Gunung Tangkuban Perahu terbentuk karena perahu yang ditendang Sangkuriang"
+      ],
+      "correctAnswer": "Sangkuriang berhasil menyelesaikan tugasnya sebelum waktu habis",
+      "explanation": null
+    },
+    {
+      "text": "Simpulan yang tepat dari cerita \"Sangkuriang\" adalah...",
+      "options": [
+        "Cinta yang tidak didasari oleh pengetahuan dan kejujuran dapat berakhir dengan tragedi",
+        "Keberanian seseorang dalam menghadapi rintangan selalu membawa kemenangan",
+        "Seorang ibu harus selalu menuruti keinginan anaknya agar tidak terjadi konflik",
+        "Kekuatan supranatural dapat mengubah takdir seseorang",
+        "Manusia dapat melawan nasibnya jika memiliki tekad yang kuat"
+      ],
+      "correctAnswer": "Cinta yang tidak didasari oleh pengetahuan dan kejujuran dapat berakhir dengan tragedi",
+      "explanation": null
+    },
+    {
+      "text": "Ide pokok teks bacaan adalah...",
+      "options": [
+        "Keanekaragaman hayati di Hutan Amazon",
+        "Peran penting Hutan Amazon bagi lingkungan global",
+        "Upaya manusia dalam melestarikan ekosistem dunia",
+        "Dampak perubahan iklim terhadap keberlangsungan hutan hujan",
+        "Penyebab utama deforestasi di berbagai negara"
+      ],
+      "correctAnswer": "Peran penting Hutan Amazon bagi lingkungan global",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang benar berdasarkan teks adalah...",
+      "options": [
+        "Hutan Amazon hanya berada di satu negara, yaitu Brasil",
+        "Keberadaan Hutan Amazon tidak memiliki dampak bagi perubahan iklim global",
+        "Deforestasi di Hutan Amazon terjadi karena faktor alami saja",
+        "Berbagai upaya konservasi telah dilakukan untuk melindungi Hutan Amazon",
+        "Hutan Amazon tidak memiliki peran dalam menghasilkan oksigen bagi dunia"
+      ],
+      "correctAnswer": "Berbagai upaya konservasi telah dilakukan untuk melindungi Hutan Amazon",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"deforestasi\" dalam teks adalah...",
+      "options": [
+        "Perubahan iklim yang memengaruhi pertumbuhan hutan",
+        "Hilangnya sebagian atau seluruh kawasan hutan akibat berbagai faktor",
+        "Proses alami di mana hutan tumbuh kembali setelah ditebang",
+        "Peningkatan jumlah pohon di suatu kawasan untuk memperbaiki lingkungan",
+        "Hilangnya keanekaragaman hayati karena bencana alam"
+      ],
+      "correctAnswer": "Hilangnya sebagian atau seluruh kawasan hutan akibat berbagai faktor",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang benar mengenai \"paru-paru dunia\" dalam teks adalah...",
+      "options": [
+        "Istilah ini digunakan untuk menggambarkan fungsi Hutan Amazon dalam menghasilkan oksigen",
+        "Hutan Amazon disebut paru-paru dunia karena jumlah hewan yang hidup di dalamnya",
+        "Paru-paru dunia berarti hutan yang paling luas di dunia tanpa adanya ancaman deforestasi",
+        "Istilah ini menunjukkan bahwa semua hutan di dunia memiliki peran yang sama seperti Amazon",
+        "Amazon disebut paru-paru dunia karena memiliki banyak sumber daya mineral yang berharga"
+      ],
+      "correctAnswer": "Istilah ini digunakan untuk menggambarkan fungsi Hutan Amazon dalam menghasilkan oksigen",
+      "explanation": null
+    },
+    {
+      "text": "Amanat yang dapat diambil dari puisi di atas adalah...",
+      "options": [
+        "Setiap perpisahan selalu menyakitkan dan harus dihindari",
+        "Kehidupan penuh dengan kepergian, dan kita harus merelakannya",
+        "Cinta sejati selalu bertahan tanpa adanya perpisahan",
+        "Hidup di tepi laut akan selalu membawa kesedihan",
+        "Keberangkatan seseorang ke tempat lain menandakan kebahagiaan"
+      ],
+      "correctAnswer": "Kehidupan penuh dengan kepergian, dan kita harus merelakannya",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang benar berdasarkan isi puisi adalah...",
+      "options": [
+        "Puisi ini menggambarkan kebahagiaan seseorang yang berangkat ke tempat baru",
+        "Kata \"kapal\" dalam puisi melambangkan kepergian dan perpisahan",
+        "Puisi ini mengisahkan seseorang yang menantikan kekasihnya di pelabuhan",
+        "Kesedihan dalam puisi ini berasal dari kenangan indah di masa lalu",
+        "\"Senja di Pelabuhan Kecil\" adalah puisi yang bertemakan kehidupan nelayan"
+      ],
+      "correctAnswer": "Kata \"kapal\" dalam puisi melambangkan kepergian dan perpisahan",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"navigasi\" dalam teks adalah...",
+      "options": [
+        "Ilmu tentang cuaca di lautan dan angin",
+        "Sistem penunjuk arah untuk kapal dan pesawat",
+        "Kemampuan bertahan hidup di tengah laut",
+        "Proses penelitian terhadap fenomena alam",
+        "Cara menghindari badai dan pusaran air di laut"
+      ],
+      "correctAnswer": "Sistem penunjuk arah untuk kapal dan pesawat",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang benar berdasarkan teks adalah...",
+      "options": [
+        "Semua ilmuwan percaya bahwa Segitiga Bermuda lebih berbahaya dibandingkan wilayah lain di lautan.",
+        "Tidak ada teori ilmiah yang dapat menjelaskan hilangnya kapal di Segitiga Bermuda",
+        "Beberapa ilmuwan berpendapat bahwa hilangnya kapal lebih disebabkan oleh cuaca buruk dan kesalahan navigasi",
+        "Segitiga Bermuda terletak di Samudra Pasifik dan mencakup wilayah dari Hawaii hingga Jepang",
+        "Hilangnya kendaraan di Segitiga Bermuda selalu dapat dijelaskan dengan bukti konkret"
+      ],
+      "correctAnswer": "Beberapa ilmuwan berpendapat bahwa hilangnya kapal lebih disebabkan oleh cuaca buruk dan kesalahan navigasi",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks, teori ekstrem yang dikaitkan dengan hilangnya kendaraan di Segitiga Bermuda adalah...",
+      "options": [
+        "Aktivitas vulkanik di dasar laut",
+        "Gelombang pasang tinggi akibat gempa bumi bawah laut",
+        "Gangguan elektromagnetik dari dasar laut",
+        "Campur tangan makhluk luar angkasa",
+        "Peningkatan kadar karbon dioksida di udara"
+      ],
+      "correctAnswer": "Campur tangan makhluk luar angkasa",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa Segitiga Bermuda masih menjadi misteri hingga saat ini?",
+      "options": [
+        "Karena tidak ada kapal atau pesawat yang pernah melewati wilayah tersebut",
+        "Karena laporan tentang hilangnya kendaraan masih ada dan belum semua kejadian dapat dijelaskan",
+        "Karena ilmuwan menolak untuk meneliti fenomena Segitiga Bermuda",
+        "Karena setiap kapal yang melewati Segitiga Bermuda pasti akan hilang.",
+        "Karena Segitiga Bermuda adalah tempat tinggal makhluk mitologi bawah laut"
+      ],
+      "correctAnswer": "Karena laporan tentang hilangnya kendaraan masih ada dan belum semua kejadian dapat dijelaskan",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"imitasi\" dalam teks adalah...",
+      "options": [
+        "Pengulangan kata-kata dalam suatu bahasa",
+        "Proses meniru atau menyalin sesuatu",
+        "Pengubahan bahasa menjadi lebih sederhana",
+        "Proses penciptaan bahasa baru dari nol",
+        "Cara menyusun kalimat dalam komunikasi lisan"
+      ],
+      "correctAnswer": "Proses meniru atau menyalin sesuatu",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang benar berdasarkan teks adalah...",
+      "options": [
+        "Bahasa pertama kali muncul sekitar 5.000 tahun yang lalu",
+        "Semua bahasa di dunia tetap bertahan hingga saat ini tanpa perubahan",
+        "Latin dan Sanskerta merupakan contoh bahasa yang pernah menjadi bahasa ilmu pengetahuan dan agama",
+        "Tidak ada bahasa yang mengalami kepunahan di dunia ini",
+        "Bahasa tidak memiliki kaitan dengan evolusi manusia"
+      ],
+      "correctAnswer": "Latin dan Sanskerta merupakan contoh bahasa yang pernah menjadi bahasa ilmu pengetahuan dan agama",
+      "explanation": null
+    },
+    {
+      "text": "Apa penyebab utama kepunahan bahasa menurut teks?",
+      "options": [
+        "Bahasa dianggap kuno sehingga ditinggalkan oleh penuturnya",
+        "Globalisasi dan dominasi bahasa-bahasa besar",
+        "Perubahan cara manusia berkomunikasi dari lisan ke tulisan",
+        "Kemajuan teknologi yang menghilangkan kebutuhan berbahasa",
+        "Ketidakmampuan manusia untuk menciptakan bahasa baru"
+      ],
+      "correctAnswer": "Globalisasi dan dominasi bahasa-bahasa besar",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa para ahli linguistik berusaha mendokumentasikan bahasa yang terancam punah?",
+      "options": [
+        "Agar bahasa yang punah dapat diajarkan kembali di sekolah-sekolah",
+        "Untuk menjaga warisan budaya dan pengetahuan manusia",
+        "Supaya bahasa-bahasa kecil dapat menggantikan bahasa besar seperti Inggris dan Mandarin",
+        "Karena bahasa yang terancam punah tidak lagi berguna dalam komunikasi modern",
+        "Karena bahasa yang terdokumentasi dapat dijadikan bahasa internasional"
+      ],
+      "correctAnswer": "Untuk menjaga warisan budaya dan pengetahuan manusia",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata fenomena dalam teks adalah...",
+      "options": [
+        "Peristiwa alam yang luar biasa dan sering terjadi",
+        "Kejadian yang dapat diamati dan dipelajari",
+        "Keadaan yang tidak dapat dijelaskan oleh ilmu pengetahuan",
+        "Suatu hal yang hanya terjadi sekali dalam Sejarah",
+        "Keadaan yang hanya terjadi di wilayah tropis"
+      ],
+      "correctAnswer": "Peristiwa alam yang luar biasa dan sering terjadi",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang benar berdasarkan teks adalah...",
+      "options": [
+        "Fenomena matahari tengah malam hanya terjadi di negara tropis",
+        "Negara di dekat kutub tidak pernah mengalami kegelapan sepanjang tahun",
+        "Fenomena matahari tengah malam terjadi karena kemiringan sumbu bumi",
+        "Matahari tengah malam bisa terjadi sepanjang tahun di Norwegia",
+        "Penduduk di negara tanpa malam tidak terpengaruh oleh fenomena ini"
+      ],
+      "correctAnswer": "Fenomena matahari tengah malam terjadi karena kemiringan sumbu bumi",
+      "explanation": null
+    },
+    {
+      "text": "Berapa lama matahari tidak terbenam di Norwegia selama musim panas?",
+      "options": [
+        "24 jam",
+        "40 hari",
+        "76 hari",
+        "100 hari",
+        "6 bulan"
+      ],
+      "correctAnswer": "76 hari",
+      "explanation": null
+    },
+    {
+      "text": "Bagaimana cara penduduk di negara tanpa malam beradaptasi dengan fenomena ini?",
+      "options": [
+        "Menggunakan tirai tebal untuk tidur dan mengikuti jam biologis dengan disiplin",
+        "Menghindari keluar rumah selama fenomena ini terjadi",
+        "Hanya tidur ketika matahari benar-benar terbenam",
+        "Menggunakan lampu khusus yang menyerupai malam hari",
+        "Berhenti melakukan aktivitas di luar rumah selama musim panas"
+      ],
+      "correctAnswer": "Menggunakan tirai tebal untuk tidur dan mengikuti jam biologis dengan disiplin",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"Dreamtime\" dalam teks adalah...",
+      "options": [
+        "Masa ketika suku Aborigin bermimpi tentang kehidupan mereka",
+        "Konsep spiritual yang menjelaskan penciptaan dunia oleh leluhur mereka",
+        "Periode sejarah ketika suku Aborigin mulai mengenal seni dan musik",
+        "Upacara adat suku Aborigin untuk berkomunikasi dengan roh nenek moyang",
+        "Zaman ketika suku Aborigin pertama kali bertemu dengan bangsa Eropa"
+      ],
+      "correctAnswer": "Konsep spiritual yang menjelaskan penciptaan dunia oleh leluhur mereka",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang benar berdasarkan teks adalah...",
+      "options": [
+        "Suku Aborigin pertama kali tiba di Australia sekitar 1.000 tahun yang lalu",
+        "Dreamtime adalah kepercayaan yang menjelaskan penciptaan dunia menurut suku Aborigin",
+        "Suku Aborigin selalu hidup di kota-kota besar sejak zaman dahulu",
+        "Bangsa Eropa datang ke Australia pada abad ke-15 dan hidup berdampingan dengan suku Aborigin",
+        "Suku Aborigin meninggalkan tradisi berburu setelah kedatangan bangsa Eropa"
+      ],
+      "correctAnswer": "Dreamtime adalah kepercayaan yang menjelaskan penciptaan dunia menurut suku Aborigin",
+      "explanation": null
+    },
+    {
+      "text": "Bagaimana cara hidup suku Aborigin sebelum kedatangan bangsa Eropa?",
+      "options": [
+        "Mereka hidup menetap di kota-kota besar dan bertani secara modern",
+        "Mereka berburu dan meramu, serta sangat menghormati alam",
+        "Mereka hidup sebagai pedagang yang sering bepergian ke luar negeri",
+        "Mereka hanya bertani dan beternak di wilayah gurun Australia",
+        "Mereka membangun kerajaan besar dengan sistem pemerintahan modern"
+      ],
+      "correctAnswer": "Mereka berburu dan meramu, serta sangat menghormati alam",
+      "explanation": null
+    },
+    {
+      "text": "Apa dampak kedatangan bangsa Inggris terhadap suku Aborigin?",
+      "options": [
+        "Suku Aborigin mendapatkan tanah yang lebih luas untuk berburu dan meramu",
+        "Kehidupan suku Aborigin tidak mengalami perubahan apa pun",
+        "Suku Aborigin kehilangan tanah mereka dan mengalami diskriminasi",
+        "Suku Aborigin langsung beradaptasi dengan budaya Inggris tanpa kesulitan",
+        "Suku Aborigin mulai membangun kota-kota modern untuk bersaing dengan bangsa Inggris"
+      ],
+      "correctAnswer": "Suku Aborigin kehilangan tanah mereka dan mengalami diskriminasi",
+      "explanation": null
+    }
+  ]
+}

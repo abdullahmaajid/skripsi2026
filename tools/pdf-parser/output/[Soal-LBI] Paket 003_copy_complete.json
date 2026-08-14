@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Kalimat yang menunjukkan opini ditunjukkan dalam kalimat...",
+      "options": [
+        "(9)",
+        "(10)",
+        "(17)",
+        "(8)",
+        "(12)"
+      ],
+      "correctAnswer": "(E)",
+      "explanation": "Kalimat (12) berisi ungkapan penilain subyektif 'begitu memanjakan mata' dan 'amatlah baik'."
+    },
+    {
+      "text": "Apa yang dilakukan tokoh \"saya\" dalam teks bacaan di atas?",
+      "options": [
+        "Melakukan penelitian ke Pulau Bangka",
+        "Melancong ke Pulau Bangka",
+        "Melakukan pertemuandengan Elbart Efri Katiandagho",
+        "Melakukan ekspedisi alam",
+        "Melakukan perjalanan kerja ke destinasi wisata"
+      ],
+      "correctAnswer": "Melancong ke Pulau Bangka",
+      "explanation": "Pada kalimat (1) disebutkan 'hendak melancong menikmati pesona Pulau Bangka'."
+    },
+    {
+      "text": "Kalimat pada teks bacaan yang mengandung makna kontekstual adalah...",
+      "options": [
+        "(6)",
+        "(8)",
+        "(10)",
+        "(1)",
+        "(9)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Resor apik yang ada di Pulau Bangka memiliki nuansa seperti di luar negeri yang membuat pengunjung betah. Jika kalimat di atas ditambahkan ke dalam teks bacaan maka akan...",
+      "options": [
+        "Memperkuat informasi teks bacaan",
+        "Memperlemah informasi teks bacaan",
+        "Menambah informasi baru",
+        "Mempertentangkan informasi teks bacaan",
+        "Mempersempit permasalahan teks bacaan"
+      ],
+      "correctAnswer": "Memperkuat informasi teks bacaan",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang menunjukkan gagasan pokok dari paragraf kedua teks bacaan tersebut adalah...",
+      "options": [
+        "(12)",
+        "(15)",
+        "(16)",
+        "(17)",
+        "(18)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Selain Elbart, kami ditemani Janri Wanget. Kalimat di atas jika ditambahkan dalam teks bacaan maka posisi paling tepat berada pada...",
+      "options": [
+        "Setelah kalimat (9)",
+        "Di antara kalimat (7) dan (8)",
+        "Akhir paragraf kedua",
+        "Sebelum kalimat (12)",
+        "Sebelum kalimat (14)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat (17) tidak efektif, perbaikan yang tepatnya adalah...",
+      "options": [
+        "Lelaki, yang akrab disapa Pak Me, ini ialah ketua Aliansi Doyot Linekepan, komunitas adat yang bergerak dalam pelestarian adat dan budaya",
+        "Lelaki, yang akrab disapa Pak Me ini ialah ketua Aliansi Doyot Linekepan, Komunitas Adat yang bergerak dalam pelestarian adat dan budaya",
+        "Lelaki, yang akrab disapa Pak Me ini ialah ketua aliansi doyot Linekepan, komunitas adat yang bergerak dalam pelestarian adat dan budaya",
+        "Lelaki yang akrab disapa \"Pak Me\" ini ialah ketua Aliansi Doyot Linekepan, komunitas adat yang bergerak dalam pelestarian adat dan budaya",
+        "Lelaki yang akrab disapa Pak Me ini ialah ketua Aliansi Doyot Linekepan, komunitas adat yang bergerak dalam pelestarian adat dan budaya"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dari teks bacaan di atas dapat kita ketahui bahwa penulis memiliki sudut pandang...",
+      "options": [
+        "Orang kedua",
+        "Orang pertama tokoh",
+        "Orang sudut pandang campuran",
+        "Orang pertama tokoh sampingan",
+        "Orang ketiga"
+      ],
+      "correctAnswer": "Orang pertama tokoh",
+      "explanation": "Penulis menggunakan kata ganti 'saya' dan terlibat langsung sebagai pelaku dalam cerita."
+    },
+    {
+      "text": "Ilustrasi yang tepat untuk teks bacaan di atas adalah...",
+      "options": [
+        "Data jumlah masyarakat Bugis di Belitung",
+        "Video acara adat kampung",
+        "Gambar suasana di kampung masyarakat Bugis",
+        "Diagram pendatang ke kampung Bugis",
+        "Kurva tingkat pelestarian lingkungan masyarakat Bugis"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dari bacaan di atas dapat kita tahu penulis memiliki sudut pandang...",
+      "options": [
+        "Orang kedua",
+        "Orang pertama tokoh",
+        "Orang sudut pandang campuran",
+        "Orang pertama tokoh sampingan",
+        "Orang ketiga"
+      ],
+      "correctAnswer": "Orang pertama tokoh",
+      "explanation": "Penulis menggunakan kata ganti 'saya' dalam narasi teks kedua."
+    },
+    {
+      "text": "Aktifitas apa yang dilakukan masyarakat Bugis saat ada orang yang naik haji...",
+      "options": [
+        "Melakukan yasinan dan doa bersama",
+        "Menggelar acara tarian khas Bugis",
+        "Pemberian sumbangan",
+        "Orang naik haji di bawa keliling kampung",
+        "Memutar lagu khas bugis dan menyatap hidangan"
+      ],
+      "correctAnswer": "Memutar lagu khas bugis dan menyatap hidangan",
+      "explanation": "Berdasarkan teks, saat ada pesta naik haji, diputar lagu bernuansa Bugis dan tetamu asyik menyantap hidangan laut."
+    },
+    {
+      "text": "Guna bedda ricca yang dipakai orang Bugis untuk...",
+      "options": [
+        "Mendinginkan kulit",
+        "Memperbaiki skin baririer",
+        "Mengencangkan kulit",
+        "Membuat kulit putih",
+        "Menutrisi kulit"
+      ],
+      "correctAnswer": "Mendinginkan kulit",
+      "explanation": "Disebutkan di akhir teks bahwa gunanya adalah mendinginkan kulit nelayan yang melaut dan warga yang mengeringkan ikan."
+    },
+    {
+      "text": "Tema yang mungkin benar dari teks bacaan tersebut adalah...",
+      "options": [
+        "Kami",
+        "Adat Bugis",
+        "Wisatawan",
+        "Orang Bugis",
+        "Makasar dan Belitung"
+      ],
+      "correctAnswer": "Adat Bugis",
+      "explanation": "Teks membahas kebudayaan, kebiasaan, dan aktivitas masyarakat keturunan Bugis di Belitung."
+    },
+    {
+      "text": "Kalimat (8) dapat diperluas menjadi kalimat sebagai berikut...",
+      "options": [
+        "Permukiman mereka umumnya terbuat dari kayu dan beberapa sekarang mulai dengan batu bata",
+        "Permukiman mereka umumnya terbuat dari kayu dan juga tanah liat serta bentuk yang beraneka ragam",
+        "Permukiman mereka umumnya terbuat dari kayu menjadi ciri khas masyarakat Bugis yang mencerminkan kehidupan alami",
+        "Permukiman mereka umumnya terbuat dari kayu dan kaca yang memberi kesan mewah",
+        "Permukiman mereka umumnya terbuat dari kayu khususnya masyarakat biasa, tetapi untuk ketua adat terbuat dari batu bata"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Gagasan utama dari paragraf pertama teks bacaan tersebut adalah...",
+      "options": [
+        "Morotai memiliki pesona pantai dan panorama bawah laut memikat",
+        "Tujuh landasan pacu pangkalan sekutu pada Perang Dunia II",
+        "Pesisir yang memukau dengan saujana laut indah",
+        "Ruang publik warga Morotai",
+        "Morotai adalah salah satu basis militer dalam Perang Dunia II antara Sekutu dan Jepang"
+      ],
+      "correctAnswer": "Morotai memiliki pesona pantai dan panorama bawah laut memikat",
+      "explanation": null
+    },
+    {
+      "text": "Ilustrasi yang tepat untuk teks bacaan di atas adalah...",
+      "options": [
+        "Gambar wilayah Morotai",
+        "Data jumlah peninggalan tentara Jepang",
+        "Kurva korban jiwa akibat peperangan Morotai",
+        "Video saat terjadinya peperangan",
+        "Diagram masyarakat Morotai yang ditangkap Jepang"
+      ],
+      "correctAnswer": "Gambar wilayah Morotai",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang menjadikan Laut Morotai menarik menjadi wisata selam...",
+      "options": [
+        "Memiliki banyak terumbu karang",
+        "Menyediakan fasilitas yang baik untuk menyelam",
+        "Memiliki beberapa bangkai kapal",
+        "Memiliki endemik laut yang unik",
+        "Memiliki air yang sangat bersih"
+      ],
+      "correctAnswer": "Memiliki beberapa bangkai kapal",
+      "explanation": null
+    },
+    {
+      "text": "Keberpihakan penulis dalam teks bacaan tersebut kepada...",
+      "options": [
+        "Korban jiwa",
+        "Morotai",
+        "Awak pesawat",
+        "Wisatawan",
+        "Tentara Jepang"
+      ],
+      "correctAnswer": "Morotai",
+      "explanation": null
+    },
+    {
+      "text": "Berapa jumlah korban jiwa dari kejadian 15 September 1944?",
+      "options": [
+        "Lima ribu korban jiwa",
+        "Satu korban jiwa",
+        "Dua puluh satu korban jiwa",
+        "Tidak ada korban jiwa",
+        "Tiga korban jiwa"
+      ],
+      "correctAnswer": "Tidak ada korban jiwa",
+      "explanation": null
+    },
+    {
+      "text": "Tema yang mungkin benar dari teks bacaan tersebut adalah...",
+      "options": [
+        "Morotai",
+        "Perang Jepang",
+        "Korban jiwa",
+        "Bangkai kapal di laut",
+        "Peninggalan Jepang"
+      ],
+      "correctAnswer": "Morotai",
+      "explanation": null
+    },
+    {
+      "text": "“Sebuah upaya panjang dengan bantuan awal seorang pejalan yang juga vlogger, cincin itu akhirnya disambut dengan penuh tangis haru dalam gelaran upacara khusus, di stadion Texas A & M University, dua tahun yang lalu.” Pernyataan di atas jika ditambahkan dalam teks bacaan, maka posisi paling tepat adalah...",
+      "options": [
+        "Pembuka paragraf",
+        "Akhir paragraf kedua",
+        "Setelah kalimat (20)",
+        "Akhir paragraf ketiga",
+        "Sebelum kalimat (15)"
+      ],
+      "correctAnswer": "Akhir paragraf ketiga",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf kedua teks bacaan tersebut, apabila pendaratan pasukan sekutu tidak dilakukan, kesimpulan yang mungkin benar adalah...",
+      "options": [
+        "Tidak akan ada korban jiwa",
+        "Warga akan menyebut wilayah tersebut sebagai Army Dock",
+        "Pantai tersebut akan jauh lebih indah",
+        "Tidak ada peninggalan perang, seperti tank di sana",
+        "Tidak akan menjadi tempat wisata"
+      ],
+      "correctAnswer": "Tidak ada peninggalan perang, seperti tank di sana",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan berikut ini yang tidak sesuai dengan teks bacaan adalah...",
+      "options": [
+        "Gunung Fuji adalah lautan abu vulkanik yang hangus",
+        "Olympus, Kailash, Sinai, Popocatépetl, atau Arafat mengakui kesucian gunung fuji",
+        "Pengenalan agama Buddha ke Jepang secara mendasar mengubah hubungan orang Jepang dengan ruang alam",
+        "Musim gugur banyak orang berkumpul di lereng Gunung Fuji",
+        "Gunung Fuji merupakan gunung tertinggi di Jepang"
+      ],
+      "correctAnswer": "Musim gugur banyak orang berkumpul di lereng Gunung Fuji",
+      "explanation": null
+    },
+    {
+      "text": "Paragraf pertama teks bacaan tersebut berfungsi sebagai...",
+      "options": [
+        "Pembuka",
+        "Penjabaran masalah",
+        "Penjelas",
+        "Konflik",
+        "Penutup"
+      ],
+      "correctAnswer": "Pembuka",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa masyarakat Jepang menganggap Gunung Fuji sebagai gunung suci?",
+      "options": [
+        "Rumah bagi para dewa",
+        "Memiliki sejarah yang panjang",
+        "Penggunungan yang indah",
+        "Satu-satunya gunung di Jepang",
+        "Gunung tertinggi di Jepang"
+      ],
+      "correctAnswer": "Rumah bagi para dewa",
+      "explanation": null
+    },
+    {
+      "text": "Pertanyaan di bawah ini yang jawabannya tidak ditemukan dalam teks bacaan adalah...",
+      "options": [
+        "Pada musim apa warga Jepang melakukan ritual Gunung Fuji?",
+        "Siapa saja yang mengakui kesucian Gunung Fuji?",
+        "Berapa jumlah ketinggian Gunung Fuji?",
+        "Apa makna budaya Gunung Fuji?",
+        "Bagaimana cara melakukan pendakian Gunung Fuji?"
+      ],
+      "correctAnswer": "Bagaimana cara melakukan pendakian Gunung Fuji?",
+      "explanation": null
+    },
+    {
+      "text": "Tema dari teks bacaan tersebut adalah...",
+      "options": [
+        "Jepang",
+        "Gunung Fuji",
+        "Pegunungan di Jepang",
+        "Ritual masyarakat Jepang",
+        "Makna Jepang"
+      ],
+      "correctAnswer": "Gunung Fuji",
+      "explanation": null
+    },
+    {
+      "text": "Apa perubahan yang terjadi pada masyarakat Jepang setelah masuknya agama Buddha?",
+      "options": [
+        "Pemeluk agama sebelumnya menjadi agama Buddha",
+        "Mengubah hubungan orang Jepang dengan ruang alam",
+        "Membuat perang mulut antar masyarakat",
+        "Merubah pola pikir masyarakat Jepang",
+        "Membuat Jepang menjadi beragam kepercayaan"
+      ],
+      "correctAnswer": "Mengubah hubungan orang Jepang dengan ruang alam",
+      "explanation": null
+    },
+    {
+      "text": "“Dikatakan sebagai rumah bagi roh yang memiliki kekuatan untuk mengendalikan elemen seperti api dan air.” Pernyataan di atas jika ditambahkan ke dalam teks bacaan maka posisi paling tepat adalah…",
+      "options": [
+        "Setelah kalimat (8)",
+        "Awal paragraf kedua",
+        "Sebelum kalimat (10)",
+        "Akhir paragraf ketiga",
+        "Akhir paragraf kedua"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ilustrasi yang tepat untuk teks bacaan tersebut adalah…",
+      "options": [
+        "Diagram pengunjung wisata Gunung Fuji per tahun",
+        "Kurva tingkat keberhasilan pendakian Gunung Fuji",
+        "Gambar Gunung Fuji",
+        "Data orang yang melakukanritual Gunung Fuji",
+        "Video daerah sekitar Gunung Fuji"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

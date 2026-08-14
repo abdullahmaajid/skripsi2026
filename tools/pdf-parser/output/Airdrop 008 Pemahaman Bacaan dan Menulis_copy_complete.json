@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Kalimat yang tergolong kalimat logis adalah...",
+      "options": [
+        "kalimat (6)",
+        "kalimat (7)",
+        "kalimat (9)",
+        "kalimat (10)",
+        "kalimat (15)"
+      ],
+      "correctAnswer": "kalimat (15)",
+      "explanation": null
+    },
+    {
+      "text": "Penulisan kata yang bercetak tebal pada teks tersebut yang salah terdapat pada kalimat...",
+      "options": [
+        "(6)",
+        "(9)",
+        "(8)",
+        "(13)",
+        "(16)"
+      ],
+      "correctAnswer": "(16)",
+      "explanation": null
+    },
+    {
+      "text": "Kata sambung yang paling tepat untuk melengkapi kalimat (11) adalah...?",
+      "options": [
+        "Sementara itu,",
+        "Selain itu,",
+        "Dengan demikian,",
+        "Untuk itu,",
+        "Sedangkan,"
+      ],
+      "correctAnswer": "Selain itu,",
+      "explanation": null
+    },
+    {
+      "text": "Kata yang paling tepat untuk menggantikan kata luntur pada kalimat (14) adalah...",
+      "options": [
+        "terjun",
+        "jatuh",
+        "naik",
+        "menurun",
+        "merendah"
+      ],
+      "correctAnswer": "menurun",
+      "explanation": null
+    },
+    {
+      "text": "Bentukan kata yang tidak sesuai dengan maksud yang tertuang dalam kalimatnya ditujukan pada...",
+      "options": [
+        "pengeluaran pada kalimat (8)",
+        "menjalankan pada kalimat (4)",
+        "terbakar pada kalimat (6)",
+        "dianggap pada kalimat (1)",
+        "berbagai pada kalimat (5)"
+      ],
+      "correctAnswer": "terbakar pada kalimat (6)",
+      "explanation": null
+    },
+    {
+      "text": "Pola kalimat pada kalimat (8) adalah....",
+      "options": [
+        "K-S-P-K",
+        "S-P-K",
+        "K-S-P-O",
+        "S-P-O-K",
+        "K-S-P-Pel"
+      ],
+      "correctAnswer": "K-S-P-Pel",
+      "explanation": null
+    },
+    {
+      "text": "Manakah yang paling tepat sebagai inti kalimat dari kalimat (5)?",
+      "options": [
+        "Tidur siang dapat membakar sejumlah kecil kalori tergantung pada berbagai faktor.",
+        "Tidur siang dapat membakar.",
+        "Tidur siang membakar.",
+        "Tidur siang dapat membakar sejumlah kecil kalori.",
+        "Tidur siang tergantung pada berbagai faktor."
+      ],
+      "correctAnswer": "Tidur siang dapat membakar sejumlah kecil kalori.",
+      "explanation": null
+    },
+    {
+      "text": "Kata ini pada kalimat (8) merujuk pada...",
+      "options": [
+        "seseorang yang memiliki berat badan 150 pom",
+        "satu jam tidur siang",
+        "150 pon",
+        "sekitar 63 kalori",
+        "rata-rata"
+      ],
+      "correctAnswer": "satu jam tidur siang",
+      "explanation": null
+    },
+    {
+      "text": "Frasa perpon berat badan perjam saat tidur pada kalimat (6) perlu diperbaiki dengan bentuk...",
+      "options": [
+        "per pon berat badan perjam saat tidur.",
+        "per pon berat badan per jam saat tidur.",
+        "per pon beratbadan per jam saat tidur.",
+        "per pon berat badan, per jam saat tidur.",
+        "/pon berat badan /jam saat tidur."
+      ],
+      "correctAnswer": "per pon berat badan per jam saat tidur.",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang tergolong kalimat baku adalah kecuali...",
+      "options": [
+        "kalimat (1)",
+        "kalimat (2)",
+        "kalimat (3)",
+        "kalimat (4)",
+        "kalimat (5)"
+      ],
+      "correctAnswer": "kalimat (4)",
+      "explanation": null
+    },
+    {
+      "text": "Pola kalimat pada kalimat (9) adalah...",
+      "options": [
+        "S-P-0",
+        "S-K-P-K",
+        "S-P-K",
+        "S-P-Pel",
+        "S-P-O-K"
+      ],
+      "correctAnswer": "S-P-K",
+      "explanation": null
+    },
+    {
+      "text": "Penulisan kata yang salah terdapat pada kalimat?",
+      "options": [
+        "(7)",
+        "(9)",
+        "(10)",
+        "(6)",
+        "(12)"
+      ],
+      "correctAnswer": "(9)",
+      "explanation": null
+    },
+    {
+      "text": "Bentuk perbaikan kalimat (13) adalah...",
+      "options": [
+        "Setelah kejadian tersebut, Departemen Taman Nasional, Satwa Liar, dan Konservasi Tumbuhan (DNP) menerapkan beberapa protokol keselamatan termasuk menutup semua jalur di tempat gajah liar terlihat.",
+        "Setelah kejadian tersebut, Departemen Taman Nasional, Satwa Liar, dan Konservasi Tumbuhan (DNP) menerapkan beberapa protokol keselamatan termasuk, seperti menutup semua jalur di mana gajah liar terlihat.",
+        "Setelah kejadian tersebut, Departemen Taman Nasional, Satwa Liar, dan Konservasi Tumbuhan (DNP), menerapkan beberapa protokol keselamatan termasuk menutup semua jalur di mana gajah liar terlihat.",
+        "Setelah kejadian tersebut, Departemen Taman Nasional, Satwa Liar, dan Konservasi Tumbuhan (DNP) menerapkan beberapa protokol keselamatan termasuk menutup semua jalur dari gajah liar terlihat.",
+        "Setelah kejadian tersebut, Departemen Taman Nasional, Satwa Liar, dan Konservasi Tumbuhan (DNP) menerapkan beberapa protokol keselamatan termasuk menutup semua jalur yang mana gajah liar terlihat."
+      ],
+      "correctAnswer": "Setelah kejadian tersebut, Departemen Taman Nasional, Satwa Liar, dan Konservasi Tumbuhan (DNP) menerapkan beberapa protokol keselamatan termasuk menutup semua jalur di tempat gajah liar terlihat.",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat manakah yang terdapat kesalahan penulisan kata...",
+      "options": [
+        "(9)",
+        "(7)",
+        "(4)",
+        "(2)",
+        "(3)"
+      ],
+      "correctAnswer": "(2)",
+      "explanation": null
+    },
+    {
+      "text": "Kata yang tepat untuk mengisi kalimat rumpang pada kalimat 2 adalah...",
+      "options": [
+        "melalui",
+        "memasuki",
+        "mendekati",
+        "menjauhi",
+        "mengitari"
+      ],
+      "correctAnswer": "melalui",
+      "explanation": null
+    }
+  ]
+}

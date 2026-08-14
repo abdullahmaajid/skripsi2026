@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Perhatikan bacaan di bawah ini untuk menjawab pertanyaan nomor 1—4.\\n\\n(1)Menurut Pakar pendidikan menyatakan bahwa tantangan abad ke-21 menuntut keterampilan berpikir kritis dan kreatif. (2)(…), teknologi tidak hanya menjadi alat bantu, tetapi juga sarana untuk mentransformasi cara belajar dan mengajar. (3)Sekolah-sekolah mulai mengintegrasikan teknologi dalam kurikulum mereka, seperti pemanfaatan perangkat lunak pembelajaran interaktif dan platform digital. (4)Namun, tantangan lain muncul, seperti kesenjangan akses teknologi di berbagai wilayah. (5)Pendidikan berbasis tehnologi diharapkan mampu menjembatani perbedaan tersebut dan mendorong inklusi pendidikan. (6)Generasi muda harus dibekali dengan keterampilan digital agar dapat bersaing di era global. (7)Transformasi ini tidak hanya terjadi di sekolah, tetapi juga pada pelatihan kerja di berbagai sektor. (8)Sebagai hasilnya, muncul paradigma baru bahwa pembelajaran adalah proses seumur hidup.\\n\\nKalimat manakah yang isinya sama dengan kalimat (8)?",
+      "options": [
+        "Sebagai hasilnya, lahir paradigma baru bahwa pembelajaran berlangsung sepanjang hidup.",
+        "Hasil dari transformasi ini adalah paradigma baru bahwa proses belajar terus berlangsung sepanjang hidup.",
+        "Karena transformasi ini, muncul gagasan bahwa pembelajaran adalah proses sepanjang masa.",
+        "Sebagai hasilnya, terjadi perubahan bahwa pembelajaran adalah proses tanpa henti sepanjang usia.",
+        "Dari transformasi ini, lahir pandangan bahwa belajar adalah proses yang tidak pernah berhenti."
+      ],
+      "correctAnswer": "Hasil dari transformasi ini adalah paradigma baru bahwa proses belajar terus berlangsung sepanjang hidup.",
+      "explanation": "Kalimat (8) menyatakan 'Sebagai hasilnya, muncul paradigma baru bahwa pembelajaran adalah proses seumur hidup.' Pilihan B memiliki makna yang paling sepadan dengan penyesuaian redaksi yang tetap mempertahankan inti informasi tersebut."
+    },
+    {
+      "text": "Penulisan kata bercetak tebal yang salah pada teks tersebut terdapat pada kalimat nomor….",
+      "options": [
+        "kalimat 1",
+        "kalimat 3",
+        "kalimat 5",
+        "kalimat 6",
+        "kalimat 7"
+      ],
+      "correctAnswer": "kalimat 5",
+      "explanation": "Kata 'tehnologi' pada kalimat (5) adalah bentuk tidak baku. Bentuk bakunya menurut KBBI adalah 'teknologi'."
+    },
+    {
+      "text": "Kata penghubung yang paling tepat untuk melengkapi kalimat (2)...?",
+      "options": [
+        "padahal",
+        "akan tetapi",
+        "namun",
+        "sebaliknya",
+        "bahkan"
+      ],
+      "correctAnswer": "bahkan",
+      "explanation": "Kata 'bahkan' merupakan konjungsi antarkalimat yang berfungsi untuk menyatakan penguatan atau penambahan informasi dari kalimat sebelumnya."
+    },
+    {
+      "text": "Kalimat manakah yang merupakan perbaikan kalimat (1)?",
+      "options": [
+        "Pakar pendidikan menyatakan kita berada di era tantangan abad ke-21 yang menuntut keterampilan berpikir kritis dan kreatif.",
+        "Pakar pendidikan menyatakan bahwa tantangan abad ke dua puluh satu menuntut keterampilan berpikir kritis dan kreatif.",
+        "Pakar pendidikan, menyebutkan tantangan abad ke-21 yang menuntut keterampilan berpikir kritis dan kreatif.",
+        "Menurut pakar pendidikan, dalam tantangan abad ke-21 menuntut keterampilan berpikir kritis dan kreatif.",
+        "Pakar pendidikan menyebutkan bahwa tantangan abad ke-21, keterampilan berpikir kritis dan kreatif sangat penting."
+      ],
+      "correctAnswer": "Pakar pendidikan menyatakan bahwa tantangan abad ke dua puluh satu menuntut keterampilan berpikir kritis dan kreatif.",
+      "explanation": "Kalimat (1) tidak efektif karena menggunakan kata 'Menurut' di awal kalimat yang diikuti oleh kata kerja 'menyatakan', sehingga menghilangkan subjek kalimat. Perbaikan yang tepat adalah menghilangkan kata 'Menurut' sehingga 'Pakar pendidikan' menjadi subjek yang jelas."
+    },
+    {
+      "text": "“Pemerintah secara eksplisit berniat mengatur agar setiap orang di negara ini mendapatkan layanan kesehatan dasar secara gratis, jaminan hari tua, jaminan pensiun, dan santunan akibat kecelakaan.” Agar menjadi kalimat efektif, perbaikannya…",
+      "options": [
+        "menghilangkan kata “jaminan”",
+        "menghilangkan tanda koma sebelum kata dan",
+        "Kata agar dipindah posisinya menjadi “... di negara ini agar …”",
+        "menghilangkan kata “secara”",
+        "mengganti kata gratis dengan cuma-cuma"
+      ],
+      "correctAnswer": "Kata agar dipindah posisinya menjadi “... di negara ini agar …”",
+      "explanation": "Pemindahan posisi kata 'agar' membuat struktur kalimat menjadi lebih efektif dan memperjelas hubungan tujuan (objek) dalam kalimat tersebut."
+    },
+    {
+      "text": "Bu Veronika mengajari siswanya menulis aksara Jawa.\\n\\nPola kalimat ini adalah….",
+      "options": [
+        "S-P-O-Pel-K",
+        "S-P-O-Pel",
+        "S-P-O",
+        "S-P-O-K",
+        "S-P-Pel"
+      ],
+      "correctAnswer": "S-P-O-Pel",
+      "explanation": "Bu Veronika (Subjek) + mengajari (Predikat) + siswanya (Objek) + menulis aksara Jawa (Pelengkap)."
+    },
+    {
+      "text": "Perhatikan teks di bawah ini, untuk menjawab nomor 7—10.\\n\\n(1)Teknologi pertanian semakin berkembang pesat terutama dalam penggunaan mesin modern untuk membantu petani dalam mengolah lahan mereka. (2)Salah satu inovasi yang sangat membantu adalah mesin pemanen automatis yang dapat meningkatkan hasil panen secara signifikan. (3)Mesin ini bekerja dengan cepat dan efisien sehingga petani tidak perlu menghabiskan banyak waktu dan tenaga. (4)Selain itu, sistem irigasi berbasis teknologi digital juga telah banyak diterapkan yang memudahkan petani untuk mengatur kebutuhan air bagi tanaman. (5)Namun, penerapan teknologi ini memerlukan investasi yang cukup besar, terutama bagi petani kecil. (6)Oleh karena itu, penting bagi pemerintah untuk memberikan dukungan berupa pelatihan dan pembiayaan untuk para petani agar dapat memanfaatkan teknologi ini. (7)Dengan dukungan yang tepat, diharapkan sektor pertanian dapat berkembang dan menghasilkan lebih banyak produk berkualitas tinggi. (8)Selanjutnya, teknologi pertanian diharapkan dapat meningkatkan ketahanan pangan nasional dengan mengurangi ketergantungan pada impor pangan.\\n\\nManakah yang paling tepat sebagai inti kalimat dari kalimat (1)?",
+      "options": [
+        "Teknologi pertanian",
+        "Teknologi pertanian semakin berkembang",
+        "Teknologi pertanian semakin berkembang pesat",
+        "Teknologi pertanian semakin berkembang pesat terutama dalam penggunaan mesin modern",
+        "Teknologi pertanian semakin berkembang pesat dalam mengolah lahan mereka"
+      ],
+      "correctAnswer": "Teknologi pertanian semakin berkembang pesat",
+      "explanation": "Inti kalimat terdiri atas unsur inti berupa Subjek dan Predikat. Subjek kalimat (1) adalah 'Teknologi pertanian' dan predikatnya adalah 'semakin berkembang pesat'."
+    },
+    {
+      "text": "Kalimat manakah yang paling efektif sebagai hasil penggabungan kalimat (6) dan (7)?",
+      "options": [
+        "Dukungan yang tepat dari pemerintah akan memudahkan petani dalam meningkatkan hasil pertanian",
+        "Pemerintah harus memberikan dukungan berupa pelatihan dan pembiayaan agar petani dapat memanfaatkan teknologi ini secara maksimal dalam meningkatkan hasil pertanian yang berkualitas.",
+        "Dukungan pemerintah dalam bentuk pelatihan dan pembiayaan sangat dibutuhkan petani agar dapat mengoptimalkan teknologi pertanian",
+        "Pembiayaan dan pelatihan untuk petani sangat diperlukan agar teknologi pertanian dapat diterapkan dengan baik",
+        "Petani harus mendapatkan dukungan yang tepat dari pemerintah untuk memanfaatkan teknologi pertanian"
+      ],
+      "correctAnswer": "Pemerintah harus memberikan dukungan berupa pelatihan dan pembiayaan agar petani dapat memanfaatkan teknologi ini secara maksimal dalam meningkatkan hasil pertanian yang berkualitas.",
+      "explanation": "Penggabungan pada pilihan B secara logis dan efektif merangkum pesan dari kalimat (6) mengenai dukungan pemerintah dan kalimat (7) mengenai hasil perkembangan sektor pertanian yang berkualitas."
+    },
+    {
+      "text": "Kata yang paling tepat menggantikan kata \"investasi\" dalam kalimat (5) adalah ….",
+      "options": [
+        "Pembiayaan",
+        "Dukungan",
+        "Modal",
+        "Dana",
+        "Subsidi"
+      ],
+      "correctAnswer": "Modal",
+      "explanation": "Dalam konteks kalimat (5), kata 'investasi' merujuk pada penanaman modal atau biaya awal yang dibutuhkan, sehingga kata 'Modal' adalah pengganti yang paling tepat."
+    },
+    {
+      "text": "Kalimat manakah yang mengandung kata tidak baku?",
+      "options": [
+        "kalimat 1",
+        "kalimat 2",
+        "kalimat 4",
+        "kalimat 6",
+        "kalimat 7"
+      ],
+      "correctAnswer": "kalimat 2",
+      "explanation": "Pada kalimat (2) terdapat kata 'automatis' yang merupakan bentuk tidak baku. Bentuk bakunya adalah 'otomatis'."
+    },
+    {
+      "text": "Pemimpin sidang berhak mengingatkan agar peserta sidang berbicara secara teratur.\\n\\nFungsi yang hilang dalam kalimat ini adalah…",
+      "options": [
+        "subjek",
+        "predikat",
+        "objek",
+        "pelengkap",
+        "keterangan"
+      ],
+      "correctAnswer": "objek",
+      "explanation": "Kata kerja 'mengingatkan' merupakan verba transitif yang membutuhkan objek langsung (siapa yang diingatkan) sebelum anak kalimat penjelas 'agar...'."
+    },
+    {
+      "text": "Manakah kalimat yang benar?",
+      "options": [
+        "Menurut Nasrudin, pemasaran adalah proses memasarkan barang hingga berwujud uang.",
+        "Nasrudin menyatakan bahwa pemasaran adalah proses memasarkan barang hingga berwujud uang.",
+        "Menurut Nasrudin menyatakan bahwa pemasaran adalah proses memasarkan barang hingga berwujud uang.",
+        "Menurut Nasrudin menyatakan bahwa pemasaran merupakan proses memasarkan barang hingga berwujud uang.",
+        "Jawaban A dan B benar."
+      ],
+      "correctAnswer": "Jawaban A dan B benar.",
+      "explanation": "Kalimat A dan B memiliki struktur yang benar dan efektif. Kalimat C dan D salah karena menggabungkan kata 'Menurut' dengan kata kerja 'menyatakan' yang merusak struktur subjek-predikat."
+    },
+    {
+      "text": "Perhatikan teks berikut untuk menjawab soal nomor 13 s.d. 15\\n\\n(1)Pendidikan karakter merupakan bagian penting dalam pembentukan kepribadian dan moralitas anak. (2)Di Indonesia, pendidikan karakter mulai diajarkan sejak dini di sekolah-sekolah dengan tujuan untuk membentuk individu yang bertanggung jawab dan peduli terhadap sesama. (3)Selain itu keluarga juga, memegang peranan penting dalam menanamkan nilai-nilai karakter kepada anak. (4)Banyak ahli berpendapat bahwa pendidikan karakter yang kuat dapat membantu mengurangi masalah sosial, seperti kekerasan, perundungan, dan kenakalan remaja. (5)...., penerapan pendidikan karakter di sekolah dan keluarga perlu dilakukan secara berkesinambungan dan konsisten. (6)Beberapa nilai karakter yang sering diajarkan antara lain kejujuran, disiplin, tanggung jawab, dan kerjasama. (7)Tidak hanya di sekolah, masyarakat juga diharapkan dapat mendukung upaya pendidikan karakter untuk menciptakan lingkungan yang lebih baik.\\n\\nPenggunaan tanda koma salah terdapat pada kalimat nomor…",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5)"
+      ],
+      "correctAnswer": "(3)",
+      "explanation": "Pada kalimat (3), penempatan tanda koma setelah kata 'juga' salah ('Selain itu keluarga juga, memegang...'). Seharusnya tanda koma diletakkan setelah konjungsi antarkalimat 'Selain itu' ('Selain itu, keluarga juga memegang...')."
+    },
+    {
+      "text": "Kata hubung yang paling sesuai mengisi kalimat rumpang nomor (5) adalah",
+      "options": [
+        "Namun,",
+        "Oleh karena itu,",
+        "Akan tetapi,",
+        "Sementara itu,",
+        "Jika,"
+      ],
+      "correctAnswer": "Oleh karena itu,",
+      "explanation": "Kalimat (5) menyatakan kesimpulan atau konsekuensi logis dari pernyataan-pernyataan sebelumnya, sehingga konjungsi antarkalimat yang tepat adalah 'Oleh karena itu,'."
+    },
+    {
+      "text": "Kesalahan penulisan kata yang bercetak tebal terdapat pada kalimat…",
+      "options": [
+        "(2)",
+        "(4)",
+        "(5)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(6)",
+      "explanation": "Kata 'kerjasama' pada kalimat (6) seharusnya ditulis terpisah menjadi 'kerja sama' sesuai dengan kaidah ejaan bahasa Indonesia."
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Kalimat yang tidak logis dalam bacaan tersebut adalah kalimat....",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(8)"
+      ],
+      "correctAnswer": "(4)",
+      "explanation": "Kalimat (4) dinilai kurang logis karena struktur kalimatnya memiliki keseragaman frasa yang tidak seimbang atau salah padu."
+    },
+    {
+      "text": "Kata yang bercetak tebal memiliki kesalahan penulisan yang terdapat pada kalimat…",
+      "options": [
+        "(1)",
+        "(4)",
+        "(5)",
+        "(6)",
+        "(8)"
+      ],
+      "correctAnswer": "(4)",
+      "explanation": "Kata 'sub tropis' pada kalimat (4) tidak baku. Penulisan yang benar adalah 'subtropis'."
+    },
+    {
+      "text": "Sinonim kata \"spesies\" dalam teks yang dapat digantikan dengan kata .....",
+      "options": [
+        "jenis",
+        "kelompok",
+        "individu",
+        "populasi",
+        "golongan"
+      ],
+      "correctAnswer": "jenis",
+      "explanation": "Spesies memiliki arti satuan dasar klasifikasi biologi yaitu jenis."
+    },
+    {
+      "text": "Makna imbuhan pada kata \"memainkan\" dalam kalimat (1) adalah ....?",
+      "options": [
+        "membuat sesuatu bergerak",
+        "melakukan suatu peran atau fungsi",
+        "menyampaikan sesuatu kepada orang lain",
+        "mengubah sesuatu menjadi berbeda",
+        "memperlihatkan sesuatu secara jelas"
+      ],
+      "correctAnswer": "melakukan suatu peran atau fungsi",
+      "explanation": "Imbuhan meN-kan pada kata 'memainkan' dalam konteks ini bermakna melakukan suatu peran atau fungsi (sebagai penyerbuk)."
+    },
+    {
+      "text": "Frasa “lebih tinggi” pada kalimat (5) memiliki jenis yang serupa…?",
+      "options": [
+        "penelitian baru",
+        "pohon pisang",
+        "di Amerika",
+        "di wilayah tropis",
+        "sangat luas"
+      ],
+      "correctAnswer": "sangat luas",
+      "explanation": "'Lebih tinggi' adalah frasa ajektiva (kata sifat dengan pembanding), serupa dengan 'sangat luas' yang juga frasa ajektiva."
+    },
+    {
+      "text": "Hubungan antara kalimat (1) dan (2) pada bacaan di atas adalah…",
+      "options": [
+        "Perbandingan",
+        "Penambahan",
+        "sebab-akibat",
+        "Generalisasi",
+        "Pertentangan"
+      ],
+      "correctAnswer": "Penambahan",
+      "explanation": "Kalimat (2) memperjelas atau menambah informasi lanjutan dari gagasan utama di kalimat (1)."
+    },
+    {
+      "text": "Makna kata parasit pada kalimat (8) di teks adalah……",
+      "options": [
+        "Organisme yang hidup mandiri di lingkungan tertentu.",
+        "Tumbuhan yang hidup dari unsur hara yang didapat sendiri.",
+        "Organisme yang hidup dengan merugikan inangnya.",
+        "Tanaman yang tumbuh di lingkungan basah dan lembap.",
+        "Tumbuhan unik yang hidup di hutan tropis."
+      ],
+      "correctAnswer": "Organisme yang hidup dengan merugikan inangnya.",
+      "explanation": "Secara biologis, parasit adalah organisme yang hidup dan menghisap makanan dari organisme lain (inang) dengan merugikannya."
+    },
+    {
+      "text": "Makna yang lebih sempit dari kata \"bunga\" pada kalimat (1) adalah…",
+      "options": [
+        "Tanaman",
+        "Mekar",
+        "Kelopak",
+        "Tanaman hias",
+        "Bunga mawar"
+      ],
+      "correctAnswer": "Bunga mawar",
+      "explanation": "'Bunga mawar' memiliki cakupan makna yang lebih sempit (spesifik) dibandingkan dengan kata umum 'bunga'."
+    },
+    {
+      "text": "Kata \"membangkitkan\" pada kalimat (7) dapat digantikan dengan…",
+      "options": [
+        "Menumbuhkan",
+        "Meningkatkan",
+        "Menambahkan",
+        "Menyebabkan",
+        "Membuat"
+      ],
+      "correctAnswer": "Menumbuhkan",
+      "explanation": "Membangkitkan rasa ingin tahu bersinonim dengan menumbuhkan rasa ingin tahu."
+    },
+    {
+      "text": "Imbuhan ter- pada kata terancam pada kalimat (5) memiliki makna sama dengan kata?",
+      "options": [
+        "Tertutup",
+        "Terhalang",
+        "Terkendala",
+        "Terbuka",
+        "Terserang"
+      ],
+      "correctAnswer": "Terserang",
+      "explanation": "Kata 'terancam' bermakna dikenai ancaman secara tidak sengaja, mirip dengan 'terserang'."
+    },
+    {
+      "text": "Kata “kelam” memiliki beberapa makna, kecuali…",
+      "options": [
+        "Gelap",
+        "Suram",
+        "Penuh misteri",
+        "Jernih",
+        "Muram"
+      ],
+      "correctAnswer": "Jernih",
+      "explanation": "'Jernih' adalah antonim dari kelam, bukan makna dari kata kelam."
+    },
+    {
+      "text": "Kalimat manakah yang tidak mengandung makna denotasi…",
+      "options": [
+        "Dia memiliki senyum yang sangat manis.",
+        "Anak itu berlari cepat menuju pintu.",
+        "Air terjun itu mengalir deras di musim hujan.",
+        "Rumah itu dibangun dengan kokoh dan kuat.",
+        "Mereka duduk di bawah pohon yang rindang."
+      ],
+      "correctAnswer": "Dia memiliki senyum yang sangat manis.",
+      "explanation": "Kata 'manis' pada senyum memiliki makna konotasi (kiasan), bukan makna sebenarnya (denotasi)."
+    },
+    {
+      "text": "Persamaan kata “konservasi” pada teks di atas adalah…",
+      "options": [
+        "Penyimpanan",
+        "Pembaruan",
+        "Pemeliharaan",
+        "Pengembangan",
+        "Perubahan"
+      ],
+      "correctAnswer": "Pemeliharaan",
+      "explanation": "Konservasi berarti pelestarian atau pemeliharaan sumber daya alam."
+    },
+    {
+      "text": "Antonim dari kata \"efisien\" pada kalimat (2) adalah....",
+      "options": [
+        "Lambat",
+        "Telat",
+        "Praktis",
+        "Cepat",
+        "Mubazir"
+      ],
+      "correctAnswer": "Mubazir",
+      "explanation": "Efisien berarti tepat guna atau tidak membuang-buang waktu/biaya, antonimnya adalah mubazir."
+    },
+    {
+      "text": "Frasa pewaktu yang cukup lama dan dana yang besar pada kalimat (4) dapat disempurnakan dengan ….",
+      "options": [
+        "di waktu yang cukup lama dan dana yang besar.",
+        "waktu yang cukup lama dan didanai yang besar.",
+        "pewaktu yang cukup lama dan terdanai yang besar.",
+        "waktu yang cukup lama dan dana yang besar.",
+        "waktu yang cukup lama dan mendanai yang besar."
+      ],
+      "correctAnswer": "waktu yang cukup lama dan dana yang besar.",
+      "explanation": "Untuk menyejajarkan bentuk kalimat, kata 'pewaktu' yang tidak baku diubah menjadi 'waktu' agar sejajar dengan kata 'dana'."
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Dua persamaan garis $ax - by = 13$ dan $ax + by = 20$ masing - masing melewati titik $(1,1)$ dan $(2,1)$. Berapakah $a + b = \\dots$",
+      "options": [
+        "18",
+        "13",
+        "11",
+        "9",
+        "7"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Daerah yang diarsir dapat direpreresentasikan dengan $\\dots$",
+      "options": [
+        "A \\cap C",
+        "B \\cap C",
+        "A \\cup C",
+        "B \\cup C",
+        "C - B"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Hasil $x^{-1} + y^{-1}$ dibagi oleh $x^{-2} - y^{-2}$ adalah $\\dots$",
+      "options": [
+        "xy",
+        "-xy",
+        "\\frac{xy}{x-y}",
+        "\\frac{xy}{y-x}",
+        "\\frac{x-y}{xy}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Rokok X yang harga belinya Rp9.000,00 dijual dengan harga Rp10.000,00 per bungkus sedangkan rokok Y yang harga belinya Rp12.000,00 dijual dengan harga Rp15.000,00 per bungkus. Seorang pedagang rokok yang mempunyai modal Rp2.000.000,00 dan kiosnya dapat menampung 300 bungkus rokok, model matematika yang tepat adalah $\\dots$",
+      "options": [
+        "X + Y \\leq 300, 2X + 3Y \\leq 400, X \\geq 0, Y \\geq 0",
+        "X + Y \\leq 300, X + 2Y \\leq 2000, X \\geq 0, Y \\geq 0",
+        "X + Y \\leq 300, 9X + 12Y \\leq 2000, X \\geq 0, Y \\geq 0",
+        "X + Y \\geq 300, 9X + 12Y \\leq 2000, X \\geq 0, Y \\geq 0",
+        "X + Y \\leq 300, 9X + 12Y \\geq 2000, X \\geq 0, Y \\geq 0"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Operasi @ dan \\# pada himpunan bilangan bulat didefinisikan $a \\text{@} b = (a + b)b + X$, dan $a \\# b = (b + a)a + Y$, jika $(-2) \\text{@} (-1) = 3$ dan $(-3) \\# (-2) = 7$, berapa nilai $X + Y = \\dots$",
+      "options": [
+        "-3",
+        "-7",
+        "-11",
+        "-13",
+        "-8"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Garis J dan garis K sejajar, berapakah besar sudut b $\\dots$",
+      "options": [
+        "60^o",
+        "80^o",
+        "90^o",
+        "85^o",
+        "75^o"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diberikan segienam beraturan, panjang AG sejajar dengan FE, berapakah besar perbandingan luas segitiga ABG dengan segienam ABCDEF $\\dots$",
+      "options": [
+        "\\frac{1}{12}",
+        "\\frac{1}{24}",
+        "\\frac{1}{8}",
+        "\\frac{1}{18}",
+        "\\frac{1}{4}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Harga satu pensil p rupiah dan harga satu buku Rp5.000,00. Budi membeli 4 buku dan 2 pensil. Jika ia membayar Rp50.000,00 maka jumlah uang yang lebih adalah $\\dots$ rupiah.",
+      "options": [
+        "20.000 + 2p",
+        "40.000 + p",
+        "20.000 - p",
+        "30.000 - 2p",
+        "30.000 - p"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bilangan X diperbesar 8% akan bernilai sama dengan bilangan Y diperkecil 16%. Perbandingan bilangan X dan Y adalah $\\dots$",
+      "options": [
+        "5 : 6",
+        "7 : 9",
+        "5 : 8",
+        "7 : 5",
+        "6 : 5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Peluang sukses seseorang memasukkan bola basket adalah \\frac{2}{5}. Jika dia melemparkan bola tersebut tiga kali, maka peluang sukses semua lemparan itu adalah $\\dots$",
+      "options": [
+        "\\frac{1}{125}",
+        "\\frac{8}{125}",
+        "\\frac{16}{125}",
+        "\\frac{24}{125}",
+        "\\frac{32}{125}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Nilai \\frac{a}{4} prima, jika a = $\\dots$ 1) Nilai a = 8 2) Nilai a = 12 3) Nilai a = 20 4) Nilai a = 28 Pernyataan di atas yang benar adalah $\\dots$",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja yang benar",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Nilai x yang diperbolehkan dari \\frac{2}{10-x} jika x = $\\dots$ 1) x > 0 2) x < 10 3) x = 10 4) x > 10 Pernyataan diatas yang benar adalah $\\dots$",
+      "options": [
+        "1, 2, dan 3",
+        "1, dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua pernyataan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah diantara pilihan dibawah ini yang merupakan hasil kali dari dua buah bilangan bulat genap berurutan $\\dots$ 1) 22 2) 36 3) 60 4) 48 Pernyataan diatas yang benar adalah $\\dots$",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua pernyataan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan yang benar antara hubungan P dan Q? P: 5y + 7 | Q: -5y + 7",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "Tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Terdapat sebuah tabung dengan jari - jari tabung 7 cm, dan tinggi tabung 5 cm, manakah hubungan antara P dan Q yang benar? P: Volume tabung | Q: Luas permukaan tabung",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "Tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

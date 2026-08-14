@@ -1,0 +1,139 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan Teks 1, tentukan apakah pernyataan berikut Benar atau Salah:\n\nCurah hujan yang tinggi selama beberapa hari menyebabkan sungai meluap.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Berdasarkan teks, \"Curah hujan yang sangat tinggi selama beberapa hari menyebabkan sungai meluap...\""
+    },
+    {
+      "text": "Berdasarkan Teks 1, tentukan apakah pernyataan berikut Benar atau Salah:\n\nBanjir seperti ini sangat jarang terjadi di Desa Harmoni.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Berdasarkan teks, \"...banjir seperti ini sudah sering terjadi.\""
+    },
+    {
+      "text": "Berdasarkan Teks 1, tentukan apakah pernyataan berikut Benar atau Salah:\n\nPemerintah desa tidak memberikan peringatan kepada warga tentang banjir.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Berdasarkan teks, \"Pemerintah desa segera mengirim peringatan melalui pengeras suara...\""
+    },
+    {
+      "text": "Berdasarkan Teks 1, tentukan apakah pernyataan berikut Benar atau Salah:\n\nSemua warga segera mengungsi ketika diberi peringatan oleh pemerintah desa.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Berdasarkan teks, \"...ada beberapa warga yang tetap bertahan di rumah karena khawatir dengan harta benda mereka.\""
+    },
+    {
+      "text": "Berdasarkan Teks 1, tentukan apakah pernyataan berikut Benar atau Salah:\n\nBanyak rumah di Desa Harmoni terendam hingga ke atap.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Berdasarkan teks, \"...dan banyak rumah terendam hingga ke atap.\""
+    },
+    {
+      "text": "Berdasarkan Teks 1, tentukan apakah pernyataan berikut Benar atau Salah:\n\nHewan ternak dan tanaman padi di desa tidak terkena dampak dari banjir.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Berdasarkan teks, \"Beberapa hewan ternak hanyut terbawa arus, dan tanaman padi yang hampir panen pun rusak total.\""
+    },
+    {
+      "text": "Berdasarkan Teks 1, tentukan apakah pernyataan berikut Benar atau Salah:\n\nBantuan dari pemerintah daerah berupa makanan dan perbaikan infrastruktur.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Berdasarkan teks, \"Pemerintah daerah berjanji akan memberikan bantuan berupa makanan dan perbaikan infrastruktur desa.\""
+    },
+    {
+      "text": "Berdasarkan Teks 1, tentukan apakah pernyataan berikut Benar atau Salah:\n\nTidak ada korban jiwa dalam bencana banjir di Desa Harmoni.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Berdasarkan teks, \"...warga Desa Harmoni tetap bersyukur karena tidak ada korban jiwa dalam bencana ini.\""
+    },
+    {
+      "text": "Berdasarkan Teks 2, tentukan apakah pernyataan berikut Benar atau Salah:\n\nGunung Merapi di dekat Desa Sejahtera tidak pernah meletus sebelumnya.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Berdasarkan teks, \"Warga desa sudah terbiasa dengan aktivitas vulkanik kecil dari gunung ini...\" yang menunjukkan gunung tersebut aktif dan sering mengalami aktivitas vulkanik sebelumnya."
+    },
+    {
+      "text": "Berdasarkan Teks 2, tentukan apakah pernyataan berikut Benar atau Salah:\n\nPemerintah daerah segera mengeluarkan status siaga sebelum letusan terjadi.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Berdasarkan teks, \"Pemerintah daerah segera mengeluarkan status siaga... Malam harinya, letusan besar terjadi.\""
+    },
+    {
+      "text": "Berdasarkan Teks 2, tentukan apakah pernyataan berikut Benar atau Salah:\n\nLahar panas, batuan, dan abu tidak sampai ke Desa Sejahtera.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Berdasarkan teks, \"Lahar panas, batuan, dan abu meluncur deras menuruni lereng gunung. Desa Sejahtera yang terletak tidak jauh dari kaki gunung terkena dampaknya.\""
+    },
+    {
+      "text": "Berdasarkan Teks 2, tentukan apakah pernyataan berikut Benar atau Salah:\n\nSemua warga Desa Sejahtera berhasil mengungsi sebelum letusan terjadi.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Berdasarkan teks, \"Sebagian besar warga sudah berhasil mengungsi...\", bukan semua warga."
+    },
+    {
+      "text": "Berdasarkan Teks 2, tentukan apakah pernyataan berikut Benar atau Salah:\n\nTidak ada korban jiwa yang dilaporkan dalam letusan ini.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Berdasarkan teks, \"...tidak ada korban jiwa yang dilaporkan.\""
+    },
+    {
+      "text": "Berdasarkan Teks 2, tentukan apakah pernyataan berikut Benar atau Salah:\n\nAbu tebal menyelimuti seluruh Desa Sejahtera setelah letusan terjadi.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Benar",
+      "explanation": "Berdasarkan teks, \"...dan abu tebal menyelimuti seluruh desa.\""
+    },
+    {
+      "text": "Berdasarkan Teks 2, tentukan apakah pernyataan berikut Benar atau Salah:\n\nPemerintah tidak memberikan bantuan apapun kepada warga yang terdampak.",
+      "options": [
+        "Benar",
+        "Salah"
+      ],
+      "correctAnswer": "Salah",
+      "explanation": "Berdasarkan teks, \"Pemerintah daerah mengirimkan bantuan berupa makanan, selimut, dan obat-obatan kepada para pengungsi.\""
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Which response presents the most data-driven approach to evaluating UBI?",
+      "options": [
+        "PolicyAnalyst",
+        "HumanRightsAdvocate",
+        "DataScientist",
+        "MarketInnovator",
+        "ConservativeVoice"
+      ],
+      "correctAnswer": "DataScientist",
+      "explanation": null
+    },
+    {
+      "text": "What is the predominant tone of HumanRightsAdvocate's response?",
+      "options": [
+        "Cautiously analytical",
+        "Morally indignant",
+        "Practically concerned",
+        "Neutrally informative",
+        "Humorously skeptical"
+      ],
+      "correctAnswer": "Morally indignant",
+      "explanation": null
+    },
+    {
+      "text": "Which two respondents represent fundamentally opposing value systems in their arguments?",
+      "options": [
+        "PolicyAnalyst and DataScientist",
+        "DataScientist and MarketInnovator",
+        "MarketInnovator and ConservativeVoice",
+        "HumanRightsAdvocate and DataScientist",
+        "PolicyAnalyst and MarketInnovator"
+      ],
+      "correctAnswer": "MarketInnovator and ConservativeVoice",
+      "explanation": null
+    },
+    {
+      "text": "Which logical fallacy is most evident in ConservativeVoice's argument?",
+      "options": [
+        "False dichotomy",
+        "Appeal to tradition",
+        "Straw man argument",
+        "Post hoc reasoning",
+        "Slippery slope"
+      ],
+      "correctAnswer": "False dichotomy",
+      "explanation": null
+    },
+    {
+      "text": "What unstated assumption underlies MarketInnovator's perspective on UBI?",
+      "options": [
+        "That all recipients would use UBI funds productively",
+        "That economic growth primarily comes from entrepreneurship",
+        "That current welfare systems are more expensive than UBI",
+        "That most people dislike their current jobs",
+        "That UBI would be implemented alongside existing programs"
+      ],
+      "correctAnswer": "That all recipients would use UBI funds productively",
+      "explanation": null
+    },
+    {
+      "text": "Which respondent relies most heavily on emotional appeals rather than evidence?",
+      "options": [
+        "Economist101",
+        "PolicyAnalyst",
+        "HumanRightsAdvocate",
+        "DataScientist",
+        "ConservativeVoice"
+      ],
+      "correctAnswer": "HumanRightsAdvocate",
+      "explanation": null
+    },
+    {
+      "text": "How would you best characterize PolicyAnalyst's rhetorical approach?",
+      "options": [
+        "Dismissive of opposing viewpoints",
+        "Grounded in financial pragmatism",
+        "Primarily theoretical and abstract",
+        "Based on personal anecdotes",
+        "Intentionally exaggerating problems"
+      ],
+      "correctAnswer": "Grounded in financial pragmatism",
+      "explanation": null
+    },
+    {
+      "text": "Which respondent's critique of standardized testing focuses primarily on its misalignment with workplace needs?",
+      "options": [
+        "EducationProfessor",
+        "DataDrivenTeacher",
+        "InnovationConsultant",
+        "PolicyResearcher",
+        "IndustryLeader"
+      ],
+      "correctAnswer": "IndustryLeader",
+      "explanation": null
+    },
+    {
+      "text": "What tone best characterizes DataDrivenTeacher's response?",
+      "options": [
+        "Defensively confrontational",
+        "Cautiously pragmatic",
+        "Idealistically visionary",
+        "Dismissively sarcastic",
+        "Nostalgically traditional"
+      ],
+      "correctAnswer": "Cautiously pragmatic",
+      "explanation": null
+    },
+    {
+      "text": "Which respondent employs a personal narrative to support their position?",
+      "options": [
+        "EducationProfessor",
+        "DataDrivenTeacher",
+        "InnovationConsultant",
+        "PolicyResearcher",
+        "ParentAdvocate"
+      ],
+      "correctAnswer": "ParentAdvocate",
+      "explanation": null
+    },
+    {
+      "text": "Which critical thinking error is most evident in InnovationConsultant's argument?",
+      "options": [
+        "False equivalence",
+        "Appeal to novelty",
+        "Oversimplification",
+        "Ad hominem attack",
+        "Circular reasoning"
+      ],
+      "correctAnswer": "Oversimplification",
+      "explanation": null
+    },
+    {
+      "text": "Which respondent presents the most balanced perspective acknowledging merits of multiple viewpoints?",
+      "options": [
+        "EducationProfessor",
+        "DataDrivenTeacher",
+        "InnovationConsultant",
+        "PolicyResearcher",
+        "IndustryLeader"
+      ],
+      "correctAnswer": "PolicyResearcher",
+      "explanation": null
+    },
+    {
+      "text": "What unstated assumption underlies EducationProfessor's argument?",
+      "options": [
+        "That Finland's approach would work in all cultural contexts",
+        "That standardized tests have never been useful",
+        "That teachers are inherently trustworthy without oversight",
+        "That critical thinking cannot be measured objectively",
+        "That education's primary purpose is career preparation"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "How would you characterize the rhetorical strategy used by ParentAdvocate?",
+      "options": [
+        "Appeal to expertise and authority",
+        "Presentation of statistical evidence",
+        "Logical deduction from principles",
+        "Appeal to emotion through personal experience",
+        "Historical analysis of trends"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "What is the main issue discussed in Jordan's post?",
+      "options": [
+        "Finding affordable programming courses",
+        "Choosing between different online learning platforms",
+        "Learning programming without prior experience",
+        "Deciding which programming language to learn first",
+        "Finding programming jobs for beginners"
+      ],
+      "correctAnswer": "Choosing between different online learning platforms",
+      "explanation": null
+    },
+    {
+      "text": "TechExpert responds to Jordan's post primarily to...",
+      "options": [
+        "Promote specific brands of learning platforms",
+        "Provide factors to consider when choosing a platform",
+        "Warn about the difficulties of learning programming",
+        "Share their personal success story",
+        "Explain why free resources are better than paid ones"
+      ],
+      "correctAnswer": "Provide factors to consider when choosing a platform",
+      "explanation": null
+    },
+    {
+      "text": "Who explains their perspective by sharing personal experience with multiple platforms?",
+      "options": [
+        "TechExpert",
+        "SelfTaughtDev",
+        "CourseCreator",
+        "FrustratedLearner",
+        "HiringManager"
+      ],
+      "correctAnswer": "FrustratedLearner",
+      "explanation": null
+    },
+    {
+      "text": "Based on their content and approach, which response would be least helpful for a complete beginner like Jordan?",
+      "options": [
+        "TechExpert",
+        "SelfTaughtDev",
+        "CourseCreator",
+        "FrustratedLearner",
+        "HiringManager"
+      ],
+      "correctAnswer": "HiringManager",
+      "explanation": null
+    },
+    {
+      "text": "The phrase \"production quality\" in FrustratedLearner's post most likely refers to:",
+      "options": [
+        "The coding standards taught in the courses",
+        "The professional-level projects created",
+        "The visual and audio presentation of course materials",
+        "The quality of instructor feedback",
+        "The reliability of the platform's website"
+      ],
+      "correctAnswer": "The visual and audio presentation of course materials",
+      "explanation": null
+    },
+    {
+      "text": "Which two respondents present directly contrasting views on the value of paid versus free resources?",
+      "options": [
+        "TechExpert and CourseCreator",
+        "SelfTaughtDev and CourseCreator",
+        "CourseCreator and FrustratedLearner",
+        "FrustratedLearner and HiringManager",
+        "TechExpert and HiringManager"
+      ],
+      "correctAnswer": "SelfTaughtDev and CourseCreator",
+      "explanation": null
+    },
+    {
+      "text": "According to HiringManager, what factor matters most when learning programming?",
+      "options": [
+        "Getting certificates from recognized institutions",
+        "Learning from industry professionals",
+        "Using platforms with interactive exercises",
+        "Building a portfolio of practical projects",
+        "Understanding multiple programming languages"
+      ],
+      "correctAnswer": "Building a portfolio of practical projects",
+      "explanation": null
+    },
+    {
+      "text": "Which aspect of programming education does CourseCreator emphasize that others don't mention as prominently?",
+      "options": [
+        "The importance of mentorship and community support",
+        "The cost difference between platforms",
+        "The value of watching video tutorials",
+        "The need for academic credentials",
+        "The benefits of in-person learning"
+      ],
+      "correctAnswer": "The importance of mentorship and community support",
+      "explanation": null
+    },
+    {
+      "text": "What shared concern appears in both TechExpert's and FrustratedLearner's responses?",
+      "options": [
+        "The high cost of premium platforms",
+        "The importance of structure in the learning process",
+        "The rapid evolution of programming languages",
+        "The difficulty of finding programming jobs",
+        "The poor quality of free resources"
+      ],
+      "correctAnswer": "The importance of structure in the learning process",
+      "explanation": null
+    },
+    {
+      "text": "What is the overall tone of the responses regarding online learning platforms?",
+      "options": [
+        "Overwhelmingly negative",
+        "Enthusiastically positive",
+        "Pragmatically diverse",
+        "Technically complex",
+        "Financially focused"
+      ],
+      "correctAnswer": "Pragmatically diverse",
+      "explanation": null
+    },
+    {
+      "text": "Which respondent suggests that the learning method itself might matter less than the end result?",
+      "options": [
+        "TechExpert",
+        "SelfTaughtDev",
+        "CourseCreator",
+        "FrustratedLearner",
+        "HiringManager"
+      ],
+      "correctAnswer": "HiringManager",
+      "explanation": null
+    },
+    {
+      "text": "What unstated assumption is present in SelfTaughtDev's response?",
+      "options": [
+        "That all learners have strong self-discipline",
+        "That programming jobs are easy to find",
+        "That paid courses contain exclusive information",
+        "That YouTube will always remain free",
+        "That all programming languages are equally difficult"
+      ],
+      "correctAnswer": "That all learners have strong self-discipline",
+      "explanation": null
+    },
+    {
+      "text": "The word \"accountability\" in FrustratedLearner's post is closest in meaning to ...",
+      "options": [
+        "Financial responsibility",
+        "Being answerable for progress",
+        "Technical accuracy",
+        "Statistical tracking",
+        "Professional certification"
+      ],
+      "correctAnswer": "Being answerable for progress",
+      "explanation": null
+    },
+    {
+      "text": "What common theme appears across multiple responses about successful programming education?",
+      "options": [
+        "The importance of certification",
+        "The superiority of university-affiliated courses",
+        "The need for active practice rather than passive learning",
+        "The requirement for expensive equipment",
+        "The benefit of studying multiple languages simultaneously"
+      ],
+      "correctAnswer": "The need for active practice rather than passive learning",
+      "explanation": null
+    },
+    {
+      "text": "The word \"portability\" in ArtInstructor's post is closest in meaning to:",
+      "options": [
+        "Financial affordability.",
+        "Ease of transport.",
+        "Technical precision.",
+        "Statistical accuracy.",
+        "Professional certification."
+      ],
+      "correctAnswer": "Ease of transport.",
+      "explanation": "Portability refers to how easy it is to carry or move an item around, which corresponds to ease of transport."
+    },
+    {
+      "text": "What is the overall tone of the responses regarding digital art tablets?",
+      "options": [
+        "Overwhelmingly negative.",
+        "Enthusiastically positive.",
+        "Pragmatically diverse.",
+        "Technically complex.",
+        "Artistically focused."
+      ],
+      "correctAnswer": "Pragmatically diverse.",
+      "explanation": "The responses cover various practical aspects, personal experiences, budget considerations, and professional standpoints, showing a diverse yet realistic/pragmatic approach."
+    }
+  ]
+}

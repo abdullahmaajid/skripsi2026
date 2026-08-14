@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Penulisan kata yang salah terdapat pada kalimat?",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5)"
+      ],
+      "correctAnswer": "(2)",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang efektif dalam bacaan di atas terdapat pada?",
+      "options": [
+        "(2)",
+        "(6)",
+        "(7)",
+        "(3)",
+        "(8)"
+      ],
+      "correctAnswer": "(3)",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang sesuai menjadi inti kalimat (8) adalah?",
+      "options": [
+        "Hitam bisa memberikan bayangan kasar yang membuat kita nampak lelah dan lebih tua.",
+        "Hitam bisa memberikan bayangan kasar",
+        "Hitam bisa memberikan bayangan",
+        "Hitam bisa",
+        "Hitam bisa memberikan bayangan kasar yang membuat kita nampak."
+      ],
+      "correctAnswer": "Hitam bisa memberikan bayangan kasar",
+      "explanation": null
+    },
+    {
+      "text": "Perbaikan kata “ menyerap cahaya, pengurang tampilan kontur tubuh, dan ciptakan efek melangsingkan” pada kalimat (5)?",
+      "options": [
+        "penyerap cahaya, pengurangi tampilan kontur tubuh, dan ciptakan efek melangsingkan.",
+        "menyerap cahaya, pengurangi tampilan kontur tubuh, dan ciptakan efek melangsingkan.",
+        "menyerap cahaya, kurangi tampilan kontur tubuh, dan ciptakan efek melangsingkan.",
+        "penyerap cahaya, kekurangan tampilan kontur tubuh, dan ciptakan efek melangsingkan.",
+        "menyerap cahaya, mengurangi tampilan kontur tubuh, dan menciptakan efek melangsingkan."
+      ],
+      "correctAnswer": "menyerap cahaya, mengurangi tampilan kontur tubuh, dan menciptakan efek melangsingkan.",
+      "explanation": null
+    },
+    {
+      "text": "Penulisan judul yang tepat adalah?",
+      "options": [
+        "Analisis ketahanan fans Manchester United dalam menahan pressure publik karena lama tidak juara",
+        "Analisis Ketahanan Fans Manchester United dalam Menahan pressure Publik karena Lama Tidak Juara",
+        "Analisis Ketahanan Fans Manchester United Dalam Menahan Pressure Publik Karena Lama Tidak Juara",
+        "Analisis ketahanan fans Manchester United dalam menahan pressure publik karena lama tidak juara",
+        "Analisis Ketahanan Fans Manchester United dalam Menahan pressure Publik karena Lama Tidak Juara"
+      ],
+      "correctAnswer": "Analisis Ketahanan Fans Manchester United dalam Menahan pressure Publik karena Lama Tidak Juara",
+      "explanation": null
+    },
+    {
+      "text": "Penulisan kata “HIV (human immunodeficiency virus)?",
+      "options": [
+        "HIV (human immunodeficiency virus)",
+        "HIV (Human Immunodeficiency Virus)",
+        "HIV (human immunodeficiency virus)",
+        "HIV (Human immunodeficiency virus)",
+        "Tidak perlu diperbaiki"
+      ],
+      "correctAnswer": "HIV (human immunodeficiency virus)",
+      "explanation": null
+    },
+    {
+      "text": "Penggunaan tanda koma pada kalimat yang sesuai adalah kecuali?",
+      "options": [
+        "(2)",
+        "(3)",
+        "(4)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(7)",
+      "explanation": null
+    },
+    {
+      "text": "Penulisan kata yang tidak sesuai terdapat pada kalimat?",
+      "options": [
+        "(2)",
+        "(1)",
+        "(4)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(1)",
+      "explanation": null
+    },
+    {
+      "text": "Kata yang paling tepat menggantikan kata “kontaminasi” pada kalimat (6) adalah?",
+      "options": [
+        "radang",
+        "jangkitan",
+        "luka",
+        "infeksi",
+        "abses"
+      ],
+      "correctAnswer": "infeksi",
+      "explanation": null
+    },
+    {
+      "text": "Kata hubung yang paling sesuai untuk melengkapi kata rumpang kalimat (12) adalah?",
+      "options": [
+        "namun",
+        "sedangkan",
+        "melainkan",
+        "bahkan",
+        "tetapi"
+      ],
+      "correctAnswer": "tetapi",
+      "explanation": null
+    },
+    {
+      "text": "Penulisan kata yang salah terdapat pada kalimat?",
+      "options": [
+        "(3)",
+        "(4)",
+        "(5)",
+        "(1)",
+        "(2)"
+      ],
+      "correctAnswer": "(1)",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang tepat untuk menjadi inti kalimat (5) adalah?",
+      "options": [
+        "Peredaran bitcoin terjaga dengan adanya halving, yaitu proses pengurangan imbalan bitcoin",
+        "Peredaran bitcoin terjaga dengan adanya halving",
+        "Peredaran bitcoin terjaga",
+        "Peredaran bitcoin, yaitu proses pengurangan imbalan bitcoin",
+        "Peredaran bitcoin"
+      ],
+      "correctAnswer": "Peredaran bitcoin terjaga",
+      "explanation": null
+    },
+    {
+      "text": "Perbaikan pada kalimat (4) adalah?",
+      "options": [
+        "Mengganti kata suplai menjadi suplay",
+        "Mengganti kata menjadikannya dengan dijadikannya",
+        "Menghapus kata sehingga",
+        "Mengganti kata adalah menjadi yakni",
+        "Menambahkan tanda koma sebelum kata sehingga"
+      ],
+      "correctAnswer": "Mengganti kata adalah menjadi yakni",
+      "explanation": null
+    },
+    {
+      "text": "Penulisan pada kalimat (1)?",
+      "options": [
+        "Kawah Ijen berada di gunung Ijen, tepatnya di perbatasan Bondowoso dan Banyuwangi, Jawa Timur.",
+        "Kawah ijen berada di Gunung ijen, tepatnya di Perbatasan Bondowoso dan Banyuwangi, Jawa Timur.",
+        "Kawah Ijen berada di Gunung Ijen, tepatnya di Perbatasan Bondowoso dan Banyuwangi, Jawa timur.",
+        "Kawah Ijen berada di Gunung Ijen, tepatnya di Perbatasan Bondowoso dan Banyuwangi, Jawa Timur.",
+        "Sudah benar"
+      ],
+      "correctAnswer": "Sudah benar",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang efektif dalam bacaan di atas adalah kecuali?",
+      "options": [
+        "(2)",
+        "(4)",
+        "(5)",
+        "(3)",
+        "(9)"
+      ],
+      "correctAnswer": "(3)",
+      "explanation": null
+    },
+    {
+      "text": "Kata yang paling tepat menggantikan kata kegiatan pada kalimat (7) adalah?",
+      "options": [
+        "Campuran",
+        "Reaksi",
+        "Respon",
+        "Aktivitas",
+        "Sikap"
+      ],
+      "correctAnswer": "Reaksi",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat manakah yang menggunakan kata yang beragam nonformal?",
+      "options": [
+        "Kalimat (8)",
+        "Kalimat (7)",
+        "Kalimat (6)",
+        "Kalimat (9)",
+        "Kalimat (2)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Penulisan judul makalah dalam kalimat (3)?",
+      "options": [
+        "Pembiayaan Pendidikan Tinggi di Indonesia: Menilai Fisibilitas Sistem Pinjaman Berbasis Potensi Pendapatan",
+        "Pembiayaan Pendidikan Tinggi di Indonesia: Menilai Fisibilitas Sistem Pinjaman Berbasis Potensi Pendapatan",
+        "Pembiayaan Pendidikan Tinggi di Indonesia: Menilai Fisibilitas Sistem Pinjaman Berbasis Potensi Pendapatan",
+        "Pembiayaan Pendidikan Tinggi di Indonesia: Menilai Fisibilitas Sistem Pinjaman Berbasis Potensi Pendapatan",
+        "Sudah benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Penulisan kata yang salah terdapat pada kalimat?",
+      "options": [
+        "(7)",
+        "(6)",
+        "(5)",
+        "(4)",
+        "(2)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata yang seharusnya dihilangkan dalam kalimat (4)?",
+      "options": [
+        "yang",
+        "sudah",
+        "untuk",
+        "hipotek",
+        "waktu"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

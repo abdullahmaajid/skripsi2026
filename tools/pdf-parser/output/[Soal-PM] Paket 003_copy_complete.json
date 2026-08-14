@@ -1,0 +1,232 @@
+{
+  "questions": [
+    {
+      "text": "Deni bekerja selama 6 hari dengan 4 hari di antaranya lembur dan ia mendapat upah Rp74.000. Mirko bekerja selama 5 hari dengan 2 hari di antaranya lembur dan ia mendapat upah Rp55.000. Bagas bekerja 4 hari dan seluruhnya lembur. Mereka bertiga mendapatkan sistem upah yang sama. Upah yang diperoleh Bagas adalah...",
+      "options": [
+        "Rp76.000",
+        "Rp66.000",
+        "Rp56.000",
+        "Rp46.000",
+        "Rp36.000"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Brett berencana membangun pagar di halaman belakang rumahnya. Desainnya ditunjukkan pada gambar, dengan garis putus-putus mewakili pagar. Brett ingin membuat $x$, lebar pagar, selebar mungkin namun tetap sesuai budget. Jika dia memiliki Rp7.350.000 untuk membeli pagar yang harganya Rp105.000 per meter, berapa nilai $x$ dalam meter?",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada suatu hari, Andi diminta oleh gurunya untuk memilih dua buah bilangan bulat genap positif berurutan. Jumlah kuadrat dari dua buah bilangan genap berurutan tersebut adalah 244. Bilangan yang dipilih Andi adalah...",
+      "options": [
+        "8, 10",
+        "10, 12",
+        "12, 14",
+        "14, 16",
+        "16, 18"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Usia rata-rata tiga anak laki-laki adalah 25 tahun dan perbandingan usia mereka adalah $3 : 5 : 7$. Usia anak termuda adalah...",
+      "options": [
+        "45 tahun",
+        "35 tahun",
+        "25 tahun",
+        "15 tahun",
+        "5 tahun"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Di sebuah sekolah, siswa berencana untuk menanam pohon di dalam dan sekitar sekolah untuk mengurangi polusi udara. Diputuskan bahwa jumlah pohon yang akan ditanam oleh setiap bagian dari setiap kelas sama dengan kelas di mana mereka belajar. Misalnya setiap bagian dari kelas I akan menanam 1 pohon, setiap bagian dari kelas II akan menanam 2 pohon dan seterusnya hingga setiap bagian dari kelas XII akan menanam 12 pohon. Ada 3 bagian dari setiap kelas. Banyak pohon yang ditanam adalah...",
+      "options": [
+        "144",
+        "192",
+        "234",
+        "250",
+        "312"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Rina membaca di perpustakaan tiap 3 hari sekali, sedangkan Reni membaca di perpustakaan tiap 4 hari sekali di perpustakaan yang sama. Bila mereka membaca bersama pertama kali 22 Februari 2023, pada tanggal berapakah Rina dan Reni membaca bersama-sama untuk kedua kalinya?",
+      "options": [
+        "2 Maret 2023",
+        "3 Maret 2023",
+        "4 Maret 2023",
+        "5 Maret 2023",
+        "6 Maret 2023"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diki memiliki sebuah topi berbentuk kerucut dan sebuah bola. Topi dan bola yang dimilikinya memiliki volume dan radius yang sama besar. Jika tinggi topi adalah 36 cm, radius dari kedua benda adalah ... cm.",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Terdapat 60 orang pelamar yang harus mengikuti tes tertulis dan tes wawancara agar dapat diterima sebagai karyawan sebuah perusahaan ritel. Ternyata 32 orang karyawan lulus tes wawancara, 48 orang lulus tes tertulis, dan 6 orang tidak mengikuti tes tersebut. Banyak pelamar yang diterima sebagai karyawan perusahaan adalah...",
+      "options": [],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dalam ujian seleksi olimpiade matematika tingkat SMA di kota Padang, terdapat 100 siswa yang berpartisipasi. Setelah ujian berlangsung, diketahui skor rata-ratanya adalah 80. Banyak siswa kelas X yang mengikuti seleksi tersebut adalah 50% lebih banyak dari siswa kelas XI. Skor rata-rata siswa kelas XI adalah 50% lebih tinggi dari skor rata-rata siswa kelas X. Skor rata-rata siswa kelas XI adalah...",
+      "options": [
+        "75",
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Darah manusia dapat diklasifikasikan menjadi empat golongan darah umum, yakni A, B, AB, dan O. Hal ini juga ditandai dengan adanya (+) atau tidak adanya (-) faktor rhesus. Berdasarkan tabel distribusi (Faktor Rhesus +, A: 77, B: 76, AB: 19, O: 122; Faktor Rhesus -, A: 1, B: x, AB: 1, O: 3), jika salah satu dari orang-orang ini yang rhesus negatif dipilih secara acak, peluang bahwa orang tersebut memiliki golongan darah O adalah \\frac{1}{2}. Nilai x adalah...",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Larutan A mempunyai kadar asam 25% dan larutan B mempunyai kadar asam 65%. Berapa liter larutan masing-masing yang dibutuhkan agar diperoleh 8 liter larutan baru dengan kadar asam 40%?",
+      "options": [
+        "Larutan A 5 liter dan larutan B 3 liter",
+        "Larutan A 3 liter dan larutan B 5 liter",
+        "Larutan A 3 liter dan larutan B 3 liter",
+        "Larutan A 5 liter dan larutan B 5 liter",
+        "Larutan A 7 liter dan larutan B 3 liter"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Aiden memiliki Rp3.000.000 untuk membeli topi dan baju yang akan dijual di penggalangan dana kelasnya. Setiap topi dan baju masing-masing memiliki harga yang sama. Jika Aiden menghabiskan seluruh uangnya untuk topi, dia akan mendapatkan 80 topi. Jika Aiden hanya membeli baju, dia akan mendapatkan 50 baju. Model berikut yang menunjukkan hubungan antara jumlah topi, t, dan jumlah baju, b, yang bisa dibeli Aiden dengan uangnya adalah...",
+      "options": [
+        "4t + 7b = 400",
+        "7t + 4b = 400",
+        "8t + 5b = 400",
+        "5t + 8b = 400",
+        "4t + 5b = 400"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Enam tahun lalu usia Rahul adalah dua kali kuadrat usia Gustav. Empat tahun ke depan, usia Gustav adalah seperempat usia Rahul. Usia Gustav saat ini adalah ... tahun.",
+      "options": [
+        "3",
+        "7",
+        "8",
+        "11",
+        "14"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Resep kue coklat favorit Enzo membutuhkan 1 sendok teh garam untuk setiap cangkir tepung. Saat ini ia memiliki sejumlah cangkir tepung dalam toples tepungnya dan cangkir tepung dalam tas. Jika Enzo ingin menggunakan semua tepungnya untuk membuat kue coklat, berapa sendok teh garam yang ia butuhkan?",
+      "options": [
+        "\\frac{1}{2}",
+        "2\\frac{1}{3}",
+        "2\\frac{2}{3}",
+        "3\\frac{1}{2}",
+        "3\\frac{1}{3}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah bola pingpong dijatuhkan dari ketinggian awal 10 meter dari permukaan lantai. Bola memantul secara kontinu. Setelah itu tinggi pantulan hanyalah \\frac{3}{4} dari tinggi sebelumnya. Jumlah jarak yang ditempuh bola sampai bola berhenti adalah...",
+      "options": [
+        "88,5",
+        "83,5",
+        "80",
+        "74,5",
+        "70"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Seorang pria memiliki hutang kepada temannya senilai \\$3250. Ia berniat untuk menyicil hutangnya dengan membayar \\$20 pada bulan pertama dan meningkat sebesar \\$15 setiap bulannya. Lama waktu dalam bulan yang diperlukan agar hutangnya lunas adalah...",
+      "options": [
+        "12",
+        "14",
+        "16",
+        "18",
+        "20"
+      ],
+      "correctAnswer": "20",
+      "explanation": "Diketahui $S_n = 3250$, $a = 20$, $b = 15$. Menggunakan rumus deret aritmetika $S_n = \\frac{n}{2}(2a + (n-1)b)$, didapatkan $3250 = \\frac{n}{2}(2(20) + (n-1)15) \\Rightarrow 6500 = n(40 + 15n - 15) \\Rightarrow 15n^2 + 25n - 6500 = 0 \\Rightarrow 3n^2 + 5n - 1300 = 0$. Menggunakan rumus kuadrat diperoleh $n = 20$."
+    },
+    {
+      "text": "Sebuah kubus emas dengan panjang sisi $3$ cm dilebur dan direformasi menjadi prisma persegi panjang dengan lebar $2,5$ cm dan tinggi $2$ cm. Jika volumenya tidak berubah selama peleburan, berapa panjang prisma emas dalam cm?",
+      "options": [
+        "4,3",
+        "5,4",
+        "6,2",
+        "7,5",
+        "8,8"
+      ],
+      "correctAnswer": "5,4",
+      "explanation": "Volume kubus = Volume prisma. $3^3 = p \\times 2,5 \\times 2 \\Rightarrow 27 = 5p \\Rightarrow p = \\frac{27}{5} = 5,4$ cm."
+    },
+    {
+      "text": "(Isian Singkat) Sebuah taman komunitas sedang dibangun di lingkungan RT V. Taman tersebut akan berbentuk segitiga dan pagar akan mengelilingi taman tersebut. Panjang dua sisi taman adalah $35$ meter dan $24$ meter. Sudut antara kedua sisi tersebut adalah $60$ derajat. Keliling taman tersebut adalah...",
+      "options": [],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sepuluh anak membentuk 2 kelompok bermain yang masing-masing terdiri dari 4 anak dan 6 anak. Rata-rata usia kelompok yang beranggotakan 4 anak adalah 6 tahun, sedangkan rata-rata usia kelompok lainnya adalah 6,5 tahun. Jika satu anak dari masing-masing kelompok ditukar satu sama lain, maka rata-rata usia kedua kelompok sama. Selisih usia kedua anak yang ditukar tersebut adalah...",
+      "options": [
+        "1,2 tahun",
+        "1 tahun",
+        "0,5 tahun",
+        "0,4 tahun",
+        "0,1 tahun"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bilangan $a$ dipilih dari himpunan bilangan ganjil positif yang kurang dari $10$ serta bilangan $b$ dipilih dari himpunan $\\{1, 2, 3, 7, 9\\}$. Peluang $ab$ bernilai ganjil adalah $\\frac{x}{y}$ dengan $x$ dan $y$ saling koprima. Nilai $x + y$ adalah...",
+      "options": [
+        "12",
+        "11",
+        "10",
+        "9",
+        "8"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Berapa jam yang dibutuhkan Aria untuk memetik $a$ buah apel jika ia bisa memetik $b$ buah apel setiap jamnya?",
+      "options": [
+        "\\frac{a}{b}",
+        "\\frac{b}{a}",
+        "ab",
+        "\\frac{60b}{a}",
+        "\\frac{a}{60b}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $(m + 2)^2 = 900$, maka bilangan yang mungkin menjadi nilai dari $m + 10$ adalah ....",
+      "options": [
+        "-32",
+        "-30",
+        "-22",
+        "28",
+        "30"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $a^2 + b^2 = 2$ dan $ab = -1$, maka nilai $a - b = ....$",
+      "options": [
+        "-2",
+        "2",
+        "4",
+        "-2 atau 2",
+        "-4 atau 4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $\\frac{r+15}{r+3} = r$, Nilai dari $r^2 + 2r - 10$ adalah ....",
+      "options": [
+        "-5",
+        "-3",
+        "0",
+        "3",
+        "5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Para ilmuwan meneliti suatu virus di laboratorium. Mereka menemukan banyaknya virus tersebut mengikuti fungsi eksponen $f(x) = 500 + 2^x$ dengan $x$ menunjukkan lamanya observasi (dalam satuan jam). Manakah yang tidak menunjukkan populasi virus yang tercatat setelah diobservasi selama jam tertentu?",
+      "options": [
+        "504",
+        "524",
+        "628",
+        "756",
+        "1012"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui fungsi kuadrat $f(x) = 2x^2 - 7x - 5$ serta titik $A(2,-11)$, $B(-1,0)$, dan $C(-4,55)$. Titik yang dilalui grafik fungsi $f(x)$ adalah ....",
+      "options": [
+        "Titik A, B, dan C",
+        "Titik A dan B",
+        "Titik A dan C",
+        "Titik A saja",
+        "Titik C saja"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Koordinat titik puncak grafik fungsi kuadrat $y = 2x^2 + 2kx + k + 5$ adalah $(m, m)$. Nilai $k + m = ....$",
+      "options": [
+        "-1 atau \\frac{7}{2}",
+        "-1 atau \\frac{5}{2}",
+        "1 atau -\\frac{5}{2}",
+        "1 atau -\\frac{7}{2}",
+        "1 atau \\frac{5}{2}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui fungsi $f(x) = (a + 1)x^2 - 2ax + (a - 1)$ Definit negatif. Nilai $a$ yang memenuhi adalah ....",
+      "options": [
+        "a < 3",
+        "a > -1",
+        "0 < a < 1",
+        "Tidak ada nilai a yang memenuhi",
+        "Semua a bilangan real memenuhi"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apakah sistem persamaan linear:\nax + y = 3\n3x + by = 9\nMemiliki satu solusi untuk x dan y?\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan berikut.\n1) a + b = 3\n2) b = 1",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika t adalah bilangan real positif yang memenuhi $5^{t^4-1} = 3^{t^4-1}$, maka nilai dari $t^{2020}$ adalah ....",
+      "options": [
+        "-1",
+        "0",
+        "1",
+        "2^{2020}",
+        "2020"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah dari bentuk berikut yang pasti merupakan kelipatan 4 apabila 3a + 5 adalah kelipatan 4 juga?\n1) 3a + 1\n2) 9a + 19\n3) 3a + 9\n4) 6a + 12",
+      "options": [
+        "(1), (2), dan (3) SAJA yang benar",
+        "(1) dan (3) SAJA yang benar",
+        "(2) dan (4) SAJA yang benar",
+        "Hanya (4) yang benar",
+        "SEMUA pilihan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Nia membelikan sepasang sepatu untuk Dhimas seharga RP480.000,00. Ternyatan ukuran sepatu tersebut terlalu kecil untuk Dhimas sehingga Nia menjualnya kembali dengan menawarkan diskon 50% pada temannya. Jika Nia ingin tetep mendapat keuntungan 30%, harga yang dia tawarkan adalah ....",
+      "options": [
+        "Rp624.000,00",
+        "Rp824.000,00",
+        "Rp1.040.000,00",
+        "Rp1.248.000,00",
+        "Rp2.428.000,00"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ditunjukkan pada gambar di atas grafik fungsi f dimana $f(x) = ax^3 + bx^2 + cx + d$ dan a, b, c, dan d adalah konstanta. Jumlah dari nilai x yang memenuhi $f(x) = 0$ adalah ....",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "-8"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Suatu fungsi linear f, $f(0) = 8$ dan $f(1) = 12$. Persamaan yang mendefinisikan $f(x)$ adalah ....",
+      "options": [
+        "f(x) = 12x + 8",
+        "f(x) = 4x",
+        "f(x) = 4x + 12",
+        "f(x) = 4x + 4",
+        "f(x) = 4x + 8"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Lingkaran di atas memiliki titik pusat O, keliling $144\\pi$, dan diameter PR dan QS. Panjang busur PS adalah dua kali panjang busur PQ. Nilai panjang busur QR adalah ....",
+      "options": [
+        "24\\pi",
+        "48\\pi",
+        "72\\pi",
+        "96\\pi",
+        "112\\pi"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

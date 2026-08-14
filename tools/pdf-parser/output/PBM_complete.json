@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "text": "Kalimat (3) perlu disempurnakan dengan cara ....",
+      "options": [
+        "mengganti kata berdasarkan dengan berdasar",
+        "mengganti kata terkait dengan berkaitan",
+        "menghilangkan kata yang",
+        "menghilangkan kata akan",
+        "menambah kata dari setelah 75%"
+      ],
+      "correctAnswer": "d",
+      "explanation": "Kata 'akan' pada kalimat (3) membuat struktur kalimat tidak baku karena predikat ganda ('akan berakhir' dan 'yang akan berakhir'). Menghilangkan kata 'akan' menjadikan kalimat lebih efektif."
+    },
+    {
+      "text": "Kata yang harus dihilangkan pada kalimat (6) adalah ....",
+      "options": [
+        "bahwa",
+        "hanya",
+        "pada",
+        "tetapi",
+        "mencapai"
+      ],
+      "correctAnswer": "c",
+      "explanation": "Penggunaan kata 'pada' setelah kata 'memicu' di kalimat (6) tidak tepat dan membuat struktur kalimat menjadi tidak baku."
+    },
+    {
+      "text": "Pernyataan yang paling tepat untuk melengkapi kalimat (7) adalah ....",
+      "options": [
+        "selayaknya menanggulangi peningkatan limbah dan sampah",
+        "perlu menyediakan dana penangan limbah dan sampah medis",
+        "harus memberi sanksi kepada masyarakat yang membuang sampah",
+        "seharusnya menangani kerusakan lingkungan akibat sampah dan limbah",
+        "seharusnya membuat peraturan tentang pembuangan sampah dan limbah"
+      ],
+      "correctAnswer": "a",
+      "explanation": "Berdasarkan konteks paragraf yang membahas masalah peningkatan limbah dan sampah, kesimpulan yang logis untuk tindakan pemerintah adalah menanggulangi peningkatan tersebut."
+    },
+    {
+      "text": "Penulisan kata bercetak tebal pada teks tersebut yang salah terdapat pada kalimat ....",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5)"
+      ],
+      "correctAnswer": "e",
+      "explanation": "Pada kalimat (5), penulisan kata 'Indek' salah, seharusnya 'Indeks' dengan huruf 's' di akhir."
+    },
+    {
+      "text": "Kata sambung yang paling tepat melengkapi kalimat (7) adalah ....",
+      "options": [
+        "dengan demikian",
+        "oleh karena itu",
+        "di samping itu",
+        "untuk itu",
+        "jadi"
+      ],
+      "correctAnswer": "c",
+      "explanation": "Kata sambung 'di samping itu' (atau selain itu) tepat digunakan untuk menambahkan argumen atau aspek lain (kesehatan masyarakat) di samping pemulihan ekonomi."
+    },
+    {
+      "text": "Kalimat manakah yang penulisan kataya salah?",
+      "options": [
+        "Penanaman kembali daerah pasca longsor merupakan pekerjaan yang tidak mudah.",
+        "Kerja sama masyarakat dan pemerintah harus dijalin agar sungai terbebas dari sampah.",
+        "Pelestarian lingkungan masing-masing sekolah dilakukan melalui kegiatan intrasekolah.",
+        "Penanganan korban bencana banjir di beberapa daerah ditangani antarkementerian.",
+        "Pendidikan lingkungan hidup yang tidak terencana dengan baik akan kontraproduktif."
+      ],
+      "correctAnswer": "a",
+      "explanation": "Penulisan 'pasca longsor' pada pilihan A salah karena 'pasca-' merupakan bentuk terikat yang harus dirangkai dengan kata yang mengikutinya (pascalongsor)."
+    },
+    {
+      "text": "Kata yang paling tepat menggantikan kata baik dalam kalimat (3) adalah ....",
+      "options": [
+        "luhur",
+        "tinggi",
+        "tepat",
+        "bagus",
+        "benar"
+      ],
+      "correctAnswer": "a",
+      "explanation": "Kata 'luhur' lebih tepat digunakan untuk mendeskripsikan ajaran-ajaran atau nilai moral dalam budaya dibandingkan kata 'baik' yang bersifat umum."
+    },
+    {
+      "text": "Kalimat manakah yang paling tepat sebagai kalimat inti nomor (6)?",
+      "options": [
+        "Hilangnya budaya bercerita menyebabkan terjadinya berbagai hal negatif.",
+        "Hilangnya budaya bercerita di dunia pendidikan menyebabkan terjadinya berbagai hal negatif.",
+        "Hilangnya budaya bercerita atau mendongeng di dunia pendidikan, baik di rumah maupun di sekolah, menyebabkan terjadinya berbagai hal negatif.",
+        "Hilangnya budaya bercerita di rumah maupun di sekolah menyebabkan terjadinya berbagai hal negatif, seperti tawuran antarpemuda dan korupsi.",
+        "Hilangnya budaya bercerita atau mendongeng di dunia pendidikan menyebabkan terjadinya berbagai hal negatif."
+      ],
+      "correctAnswer": "a",
+      "explanation": "Kalimat inti (pokok) diperoleh dengan mengambil unsur subjek inti dan predikat inti dari suatu kalimat, yaitu 'Hilangnya budaya bercerita' (S) 'menyebabkan' (P) 'berbagai hal negatif' (O)."
+    },
+    {
+      "text": "Kalimat manakah yang paling efektif sebagai hasil penggabungan kalimat (7) dan (8)?",
+      "options": [
+        "Kemerosotan mental dan karakter bangsa tampak jelas terjadi di mana-mana karena diperlukan kerja keras dan upaya semua pihak untuk memperbaiki kemerosotan mental tersebut.",
+        "Kemerosotan mental dan karakter bangsa tampak jelas terjadi di mana-mana sehingga diperlukan kerja keras dan upaya semua pihak untuk memperbaiki kondisi tersebut.",
+        "Kemerosotan mental dan karakter bangsa tampak jelas terjadi di mana-mana walaupun diperlukan kerja keras dan upaya semua pihak untuk memperbaiki kemerosotan mental tersebut.",
+        "Kemerosotan mental dan karakter bangsa tampak jelas terjadi di mana-mana dan bahkan diperlukan kerja keras dan upaya semua pihak untuk memperbaiki kondisi tersebut.",
+        "Kemerosotan mental dan karakter bangsa tampak jelas terjadi di mana-mana padahal diperlukan kerja keras dan upaya semua pihak untuk memperbaiki kemerosotan mental tersebut."
+      ],
+      "correctAnswer": "b",
+      "explanation": "Hubungan antara kemerosotan mental yang terjadi di mana-mana (akibat) dan dibutuhkannya kerja keras untuk memperbaiki (sebab/tindakan) paling tepat dihubungkan dengan konjungsi akibat 'sehingga'."
+    },
+    {
+      "text": "Pernyataan yang paling tepat untuk melengkapi kalimat (4) adalah ....",
+      "options": [
+        "yang menunjukkan kearifan lokal berbagai wilayah di Indonesia",
+        "yang beredar luas di kalangan masyarakat Indonesia",
+        "yang berasal dari berbagai wilayah di Indonesia",
+        "yang menggambarkan budaya bangsa Indonesia",
+        "yang mencerminkan sikap bangsa Indonesia"
+      ],
+      "correctAnswer": "c",
+      "explanation": "Kalimat (4) membahas 'Cerita rakyat (...) sangatlah banyak' yang merujuk pada keberadaan cerita rakyat yang bersumber atau berasal dari berbagai wilayah di Indonesia."
+    }
+  ]
+}

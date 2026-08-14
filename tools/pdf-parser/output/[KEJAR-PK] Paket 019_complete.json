@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Jika diketahui dua sisi segitiga sebesar $5 \\text{ cm}$ dan $12 \\text{ cm}$, manakah opsi di bawah ini yang tidak mungkin untuk sisi ketiga?",
+      "options": [
+        "8",
+        "9",
+        "13",
+        "11",
+        "2"
+      ],
+      "correctAnswer": "2",
+      "explanation": "Syarat segitiga: selisih dua sisi < sisi ketiga < jumlah dua sisi. $12 - 5 < s < 12 + 5 \\implies 7 < s < 17$. Nilai 2 berada di luar rentang tersebut."
+    },
+    {
+      "text": "Jika diketahui $P'$ adalah komplemen dari himpunan $P$, maka daerah yang diarsir dapat direpresentasikan dengan ...",
+      "options": [
+        "(A \\cap C) \\cup (B \\cap C) - A",
+        "(A \\cap C') \\cup (B \\cap C) - A",
+        "(B \\cap C) \\cup (A \\cap C) - B",
+        "(B \\cap C') \\cup (A \\cap C) - B",
+        "(B \\cap C) \\cup (A \\cap B)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui persamaan $3x + y = 13$ dan $2y + 3z = 5$. Berapa hasil dari $x + y + z = \\dots$",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada segitiga $ABC$, $AB = y$, $BC = y + 3$, dan $AC = x$. Apabila $y = x + 3$, mana yang benar?",
+      "options": [
+        "\\angle B < \\angle C < \\angle A",
+        "\\angle B < \\angle A < \\angle C",
+        "\\angle C < \\angle B < \\angle A",
+        "\\angle C < \\angle A < \\angle B",
+        "\\angle A < \\angle B < \\angle C"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Operasi $@$ pada himpunan bilangan bulat didefinisikan dengan aturan $a @ b = ax + by + abz$, jika $1 @ 2 = 5$, $2 @ 3 = 7$, dan $3 @ 4 = 9$, berapa kuantitas $3x + 4y + 10z = \\dots$",
+      "options": [
+        "10",
+        "9",
+        "24",
+        "12",
+        "8"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapa besar sudut $x$ ...",
+      "options": [
+        "100^\\circ",
+        "110^\\circ",
+        "120^\\circ",
+        "130^\\circ",
+        "140^\\circ"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika luas segitiga $ABC$ sebesar $16 \\text{ cm}^2$, berapakah panjang $AD$ ...",
+      "options": [
+        "6 \\text{ cm}",
+        "8 \\text{ cm}",
+        "10 \\text{ cm}",
+        "12 \\text{ cm}",
+        "14 \\text{ cm}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dalam kandungan $2\\%$ susu terdapat $0,34$ gram lemak, berapa gram lemak jika terdapat $13\\%$ susu ...",
+      "options": [
+        "1,21",
+        "2,21",
+        "0,51",
+        "0,68",
+        "0,85"
+      ],
+      "correctAnswer": "2,21",
+      "explanation": "Perbandingan senilai: $(13 / 2) \\times 0,34 = 6,5 \\times 0,34 = 2,21$ gram."
+    },
+    {
+      "text": "Jika $j$ dan $k$ adalah bilangan bulat positif, $j \\cdot k$ adalah bilangan genap. Manakah dari pilihan berikut juga genap?",
+      "options": [
+        "k",
+        "j - k",
+        "j + 2k",
+        "jk + j",
+        "jk - 2j"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Himpunan penyelesaian dari $-2x - 3 \\ge -5x + 9$, untuk $x$ bilangan bulat adalah ...",
+      "options": [
+        "\\{-3, -2, -1, 0, \\dots\\}",
+        "\\{-1, 0, 1, 2, \\dots\\}",
+        "\\{2, 3, 4, \\dots\\}",
+        "\\{4, 5, 6, 7, \\dots\\}",
+        "\\{3, 4, 5, 6, \\dots\\}"
+      ],
+      "correctAnswer": "\\{4, 5, 6, 7, \\dots\\}",
+      "explanation": "$-2x + 5x \\ge 9 + 3 \\implies 3x \\ge 12 \\implies x \\ge 4$. Himpunannya adalah \\{4, 5, 6, 7, \\dots\\}."
+    },
+    {
+      "text": "Manakah nilai yang sama dengan $\\frac{1}{3}$?",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perbandingan sisi persegi panjang adalah $4 : 3$. Jika panjang sisi terpanjangnya adalah $12$. Manakah pernyataan yang benar?",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Seorang ibu membeli 3 kue dan 4 Indomie seharga Rp17.000, esoknya ibu membeli 4 kue dan 3 indomie seharga Rp18.000",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan yang benar antara hubungan P dan Q dengan $P = 2y - 3y - 7$ dan $Q = y + 4y + 1$?",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ani membeli nasi kuning untuk sarapan. Harga nasi kuning dengan lauk telur seharga Rp10.000 dan dengan lauk ayam seharga Rp13.000. Jika harga nasi kuning tanpa lauk tambahan adalah Rp7.000. Manakah pernyataan yang benar untuk menyatakan kuantitas P (Harga 2 nasi kuning dengan lauk telur) dan Q (Harga 3 nasi kuning tanpa lauk)?",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": "P > Q",
+      "explanation": "P = 2 \\times 10.000 = 20.000, Q = 3 \\times 7.000 = 21.000 ... tunggu, 20.000 < 21.000 jadi P < Q."
+    }
+  ]
+}

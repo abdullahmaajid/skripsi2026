@@ -1,0 +1,183 @@
+{
+  "questions": [
+    {
+      "text": "Jika $x = (\\frac{1}{2})^3$ dan $y = 0,111$, maka hubungan antara $x$ dan $y$ adalah ...",
+      "options": [
+        "x > y",
+        "x < y",
+        "x = y",
+        "2x < y",
+        "Hubungan x dan y tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada tahun 2005 sebuah pabrik gula memproduksi gula pasir sebanyak 1 ton. Apabila kebijakan produksi untuk tahun 2006 dan 2007 ditetapkan kenaikannya sebesar 125% dari produksi tahun 2005, berapa tonkah jumlah produksi gula pasir pabrik tersebut dalam tiga tahun terakhir ini?",
+      "options": [
+        "5,5",
+        "4,5",
+        "3,5",
+        "2,5",
+        "1,5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jumlah dari suatu himpunan adalah 350. Berapakah rata-ratanya?\n1) terdapat 10 bulangan di himpunan itu\n2) Bilangan tersebsarnya adalah 100 dan yang terkecil adalah 15",
+      "options": [
+        "pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "A, B, dan C adalah bilangan prima kurang dari 15 dan bukan 1. Jika C = 11, berapakah nilai dari A + B + C?\n1) A adalah bilangan yang habis dibagi 15 dan 10\n2) B x C = 33",
+      "options": [
+        "pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Operasi @ pada himpunan bilangan bulat didefinisikan dengan aturan: $a \\mathbin{@} b = a^2 + b^2 + 2$. Nilai $(-2) \\mathbin{@} (-1)$ adalah ...",
+      "options": [
+        "7",
+        "12",
+        "10",
+        "16",
+        "25"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika diketahui $\\angle c = 35^\\circ$, berapa $a^\\circ + b^\\circ + c^\\circ + d^\\circ = \\dots$",
+      "options": [
+        "70^\\circ",
+        "105^\\circ",
+        "140^\\circ",
+        "175^\\circ",
+        "210^\\circ"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika panjang sisi persegi sebesar 8 cm, berapa luas area yang di arsir...",
+      "options": [
+        "(4 - \\pi)",
+        "2(4 - \\pi)",
+        "3(4 - \\pi)",
+        "4(4 - \\pi)",
+        "5(4 - \\pi)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Tuan Kaya membeli 50 ekor sapi senilai Rp 600.000 per ekor, dan 2 bulan kemudian membeli 25 ekor sapi seharga Rp 560.000 per ekor. Jika Tuan Kaya menghendaki harga rata-rata sapinya Rp 580.000 per ekor, berapakah harga yang harus dibayar untuk membeli 25 ekor sapi tambahan?",
+      "options": [
+        "Rp 530.000",
+        "Rp 540.000",
+        "Rp 550.000",
+        "Rp 560.000",
+        "Rp 600.000"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Seorang agen koran telah berhasil mejual 1684 buah koran dari 154 lusin koran yang tersedia, maka persentase koran yang terjual adalah ....",
+      "options": [
+        "91,1 %",
+        "72,5 %",
+        "85 %",
+        "88 %",
+        "80%"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Suatu toko mempekerjakan 6 pegawai. Toko tersebut memberi gaji masing-masing Rp.13.000.000 pada 3 orang pegawai, Rp10.000.000 pada 2 pegawai, dan Rp7.000.000 pada seorang pegawai. Berapakah rata-rata gaji keenam pegawai tersebut berkisar pada ...",
+      "options": [
+        "Rp5.000.000",
+        "Rp4.750.000",
+        "Rp4.500.000",
+        "Rp4.250.000",
+        "Rp4.000.000"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika 22 dibagi oleh bilangan bulat positif n bersisa 2, manakah pernyataan n yang pasti benar?\n1) n adalah bilangan genap saja\n2) n adalah kelipatan 4\n3) n adalah faktor dari 15\n4) n adalah kelipatan 5",
+      "options": [
+        "1, 2, dan 3 benar",
+        "1 dan 3 benar",
+        "2 dan 4 benar",
+        "4 saja benar",
+        "Semua jawaban benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diberikan persamaan $2x + 2y = 30$ dan $x + 4y = 39$. Manakah pernyataan dibawah ini yang benar?\nA. x = 7\nB. y = 9\nC. x + y = 15\nD. 2x > 2y",
+      "options": [
+        "1, 2, and 3",
+        "1 and 3",
+        "2 and 4",
+        "4",
+        "Semua pernyataan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $1 < x < 4$ dan $2 < y < 10$, $x$ dan $y$ merupakan bilangan bulat. Manakah yang mungkin merupakan $x + y$?",
+      "options": [
+        "12",
+        "3",
+        "5",
+        "14"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui $f(x) = -4x - 7$. Manakah pernyataan yang benar antara hubungan P dan Q.\nTabel P dan Q:\nP: f(-3)\nQ: f(3)",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ibu membeli dua kue coklat dan tiga kue susu seharga Rp31.000. Andi membeli lima kue coklat dan dua kue susu seharga Rp39.000. Manakah bentuk hubungan yang menyataan kuantitas P dan Q?\nTabel P dan Q:\nP: Harga 10 kue coklat\nQ: Harga 7 kue susu",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

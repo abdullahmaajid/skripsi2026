@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server"
 import { prisma } from "@/lib/prisma"
+import { getCachedSyllabus } from "@/lib/cache"
 import { auth } from "@/auth"
 
 export async function GET() {
@@ -33,7 +34,7 @@ export async function GET() {
     select: { id: true },
   })
 
-  const subjects = await prisma.subject.findMany({ orderBy: { name: "asc" } })
+  const subjects = await getCachedSyllabus()
 
   if (!latestAttempt) {
     return NextResponse.json({ data: subjects.map(s => ({ subject: s.name, score: 0, target: targetScore })) })

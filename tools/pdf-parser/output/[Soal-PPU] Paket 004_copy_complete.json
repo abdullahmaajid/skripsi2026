@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Pernyataan di bawah ini yang tidak terdapat dalam isi bacaan...",
+      "options": [
+        "Standar ESG mengedepankan kegiatan berkelanjutan",
+        "Segala aktivitas hendaknya menerapkan prinsip-prinsip pelestarian lingkungan",
+        "ESG harus menjamin kepastian hukum serta perlindungan hak setiap orang",
+        "Pertumbuhan dan pembangunan ekonomi Indonesia didukung oleh sumberdaya alam",
+        "Implementasi standar ESG di Indonesia sudah cukup baik"
+      ],
+      "correctAnswer": "Implementasi standar ESG di Indonesia sudah cukup baik",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang mengandung opini ditunjukkan dalam kalimat ...",
+      "options": [
+        "(1)",
+        "(2)",
+        "(4)",
+        "(7)",
+        "(9)"
+      ],
+      "correctAnswer": "(9)",
+      "explanation": null
+    },
+    {
+      "text": "Jika dihilangkan, kalimat manakah yang akan mengaburkan orientasi bahwa negara ASEAN lainnya lebih baik pelaksanaan ESG dibanding Indonesia...",
+      "options": [
+        "(1) dan (3)",
+        "(4) dan (5)",
+        "(6) dan (8)",
+        "(8) dan (9)",
+        "(7) dan (10)"
+      ],
+      "correctAnswer": "(8) dan (9)",
+      "explanation": null
+    },
+    {
+      "text": "Hubungan antara kalimat (10) dan (11) adalah...",
+      "options": [
+        "Menunjukan permasalahan yang berbeda",
+        "Merupakan orientasi dari paragraf pertama",
+        "Keduanya saling memperkuat argumentasi",
+        "Sudut pandangan berbeda dari permasalahan yang sama",
+        "Memberikan argumentasi solusi terkait permasalahan dalam bacaan"
+      ],
+      "correctAnswer": "Keduanya saling memperkuat argumentasi",
+      "explanation": null
+    },
+    {
+      "text": "Konjungsi yang tepat untuk mengisi bagian rumpang pada kalimat (10) dan (11)...",
+      "options": [
+        "Tetapi dan tetapi",
+        "Sehingga dan sehingga",
+        "Namun dan namun",
+        "Tetapi dan namun",
+        "Sehingga dan serta"
+      ],
+      "correctAnswer": "Tetapi dan tetapi",
+      "explanation": null
+    },
+    {
+      "text": "Padanan makna dari kata regulator dalam kalimat (9)...",
+      "options": [
+        "Alat pengatur",
+        "Pihak pengaturan",
+        "Pengatur regulasi",
+        "Pihak terkait",
+        "Rangkaian regulasi"
+      ],
+      "correctAnswer": "Pengatur regulasi",
+      "explanation": null
+    },
+    {
+      "text": "Gagasan pokok paragraf kedua bacaan tersebut...",
+      "options": [
+        "Indonesia berada di urutan ke-36 dunia dalam implementasi standar ESG",
+        "ESG di negara-negara lain lebih baik karena adanya dukungan konkret dari regulator",
+        "Implementasi standar ESG di Indonesia cukup memprihatinkan",
+        "Prinsip ESG muncul karena adanya kesadaran terhadap kondisi lingkungan",
+        "Dampak aktivitas bisnis terhadap kehidupan jangka pendek dan panjang"
+      ],
+      "correctAnswer": "Implementasi standar ESG di Indonesia cukup memprihatinkan",
+      "explanation": null
+    },
+    {
+      "text": "Inti dari kalimat (2) adalah...",
+      "options": [
+        "Segala bentuk aktivitas hendaknya dapat menerapkan secara penuh prinsip-prinsip pelestarian lingkungan",
+        "Segala bentuk aktivitas maupun pengambilan keputusan",
+        "Prinsip-prinsip pelestarian lingkungan, tanggung jawab sosial, dan tata kelola yang baik",
+        "Aktivitas pengambilan keputusan",
+        "Bentuk aktivitas harus tepat dalam pengambilan keputusan"
+      ],
+      "correctAnswer": "Segala bentuk aktivitas hendaknya dapat menerapkan secara penuh prinsip-prinsip pelestarian lingkungan",
+      "explanation": null
+    },
+    {
+      "text": "Inti dari kalimat (2) adalah...",
+      "options": [
+        "Badan pariwisata nasional Irlandia mengoperasikan museum",
+        "Failte Ireland mengumumkan penutupan museum",
+        "Penutupan museum secara permanen pada 2022",
+        "Irlandia menutup museum secara pemanen",
+        "Irlandia mengambil alih pengoprasian museum"
+      ],
+      "correctAnswer": "Failte Ireland mengumumkan penutupan museum",
+      "explanation": null
+    },
+    {
+      "text": "Topik yang mungkin benar dari bacaan tersebut...",
+      "options": [
+        "Dublin Writers Museum",
+        "Badan pariwisata nasional Irlandia",
+        "Museum of Literature Ireland",
+        "Artefak sastra Irlandia",
+        "Salinan pertama \"Ulysses\" karya James Joyce"
+      ],
+      "correctAnswer": "Dublin Writers Museum",
+      "explanation": null
+    },
+    {
+      "text": "Jika, penutupan museum secara permanen tidak dilakukan maka pernyataan yang mungkin adalah...",
+      "options": [
+        "Badan pariwisata nasional Irlandia akan memiliki Dublin Writers Museum",
+        "Museum of Literature Ireland tidak dapat dikunjungi",
+        "Artefak sastra Irlandia akan ada di Dublin Writers Museum",
+        "Museum lain menjadi sepi pengunjung",
+        "Pada tahun 2023, Dublin Writers Museum jadi dapat dikunjungi"
+      ],
+      "correctAnswer": "Pada tahun 2023, Dublin Writers Museum jadi dapat dikunjungi",
+      "explanation": null
+    },
+    {
+      "text": "Kesimpulan yang tepat dari bacaan...",
+      "options": [
+        "Warisan sastra Irlandia tersimpan dalam museum",
+        "Dublin Writers Museum telah ditutup secara permanen, untuk menikmati wisata museum kita dapat mengunjungi museum lain seperti Museum of Literature Ireland",
+        "Salinan pertama \"Ulysses\" karya James Joyce dapat dilihat di Museum of Literature Ireland",
+        "Pada Maret 2020, Dublin Writers Museum mengumumkan penutupan sementara",
+        "Failte Ireland, badan pariwisata nasional Irlandia yang memiliki dan mengoperasikan museum, mengumumkan penutupan museum secara permanen pada 2022"
+      ],
+      "correctAnswer": "Dublin Writers Museum telah ditutup secara permanen, untuk menikmati wisata museum kita dapat mengunjungi museum lain seperti Museum of Literature Ireland",
+      "explanation": null
+    },
+    {
+      "text": "Pada paragraf pertama penulis ingin menginformasi hal...",
+      "options": [
+        "Media lelang online untuk UMKM oleh Ditjen Kekayaan Negara",
+        "Digipay selaku marketplace belanja pemerintah yang dikelola oleh Ditjen Perbendaharaan",
+        "Fasilitas akses pembiayaan yang berada dalam pengelolaan Ditjen Perbendaharaan",
+        "Fasilitas perpajakan bagi UMKM yang dalam pengelolaan Ditjen Pajak",
+        "Beberapa program pemberdayaan UMKM dalam lingkup Kementerian Keuangan"
+      ],
+      "correctAnswer": "Beberapa program pemberdayaan UMKM dalam lingkup Kementerian Keuangan",
+      "explanation": null
+    },
+    {
+      "text": "Inti dari kalimat (6) adalah...",
+      "options": [
+        "Pemberdayaan UMKM membutuhkan sinergi berbagai pihak",
+        "Pemerintah Pusat bersentuhan dengan program-program pemberdayaan UMKM",
+        "Dalam lingkup yang lebih luas, pemberdayaan UMKM membutuhkan sinergi",
+        "Sinergi berbagai pihak dari tingkat Pemerintah Pusat, Pemerintah Daerah, Lembaga Pembiayaan, dan pihak-pihak lainnya",
+        "UMKM memerlukan program-program pemberdayaan UMKM"
+      ],
+      "correctAnswer": "Pemberdayaan UMKM membutuhkan sinergi berbagai pihak",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat tidak baku ditunjukkan dalam kalimat...",
+      "options": [
+        "(1)",
+        "(3)",
+        "(4)",
+        "(5)",
+        "(7)"
+      ],
+      "correctAnswer": "(5)",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang bertentangan dengan bacaan...",
+      "options": [
+        "Kesuksesan program pemberdayaan UMKM adalah keberhasilan Kementrian Keuangan",
+        "Perlu kesediaan banyak pihak untuk mengesampingkan ego sektoral dan menyingkirkan keinginan klaim sepihak",
+        "Tanpa sinergi yang nyata, pemberdayaan UMKM hanya akan bergerak di situ-situ saja",
+        "Program Sinergi Pembiayaan Usaha Mikro, Kecil dan Menengah Kementerian Keuangan tercantum dalam Keputusan Menteri Keuangan Nomor 396 Tahun 2022",
+        "Pemberdayaan UMKM membutuhkan sinergi berbagai pihak"
+      ],
+      "correctAnswer": "Kesuksesan program pemberdayaan UMKM adalah keberhasilan Kementrian Keuangan",
+      "explanation": null
+    },
+    {
+      "text": "Padanan kata dari marketplace yang tertera dalam kalimat (2) adalah...",
+      "options": [
+        "Kegiatan jual beli yang dilakukan ditempat penjual",
+        "Fasilitas yang disediakan oleh penjual untuk pembeli",
+        "Perantara penjual dan pembeli di internet",
+        "Transaksi antar konsumen dengan system digital",
+        "Perantara antara penjual khususnya pelaku UMKM dengan kementrian keuangan"
+      ],
+      "correctAnswer": "Perantara penjual dan pembeli di internet",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan konteks bacaan, apa yang terjadi jika tidak ada sinergi nyata dari berbagai pihak dalam pemberdayaan UMKM...",
+      "options": [
+        "Pemberdayaan akan diambil alih oleh pihak pemerintah daerah",
+        "UMKM akan melakukan pemberdayaan mandiri",
+        "UMKM akan bekerja sama dengan pihak-pihak dari Negara lain yang dapat membantu",
+        "Pemberdayaan UMKM akan dikelola penenuh oleh Kementrian Keuangan",
+        "Pemberdayaan UMKM hanya akan bergerak di situ-situ saja"
+      ],
+      "correctAnswer": "Pemberdayaan UMKM hanya akan bergerak di situ-situ saja",
+      "explanation": null
+    },
+    {
+      "text": "Frasa yang tepat untuk dijadikan gagasan pokok dari bacaan tersebut adalah...",
+      "options": [
+        "Pemberdayaan UMKM",
+        "Kementrian Keuangan",
+        "Program pemerintah",
+        "Sinergi berbagai pihak",
+        "Ditjen Kekayaan Negara"
+      ],
+      "correctAnswer": "Pemberdayaan UMKM",
+      "explanation": null
+    },
+    {
+      "text": "Perbaikan kata pada kalimat yang tepat berikut ini adalah...",
+      "options": [
+        "Ditindaklanjuti menjadi ditindak lanjuti pada kalimat (4)",
+        "Seluruh dapat dihilangkan pada kalimat (1)",
+        "Mengesampingkan menjadi mengenyampingkan pada kalimat (8)",
+        "Di situ-situ menjadi disitu pada kalimat (10)",
+        "Di antaranya menjadi diantaranya pada kalimat (2)"
+      ],
+      "correctAnswer": "Seluruh dapat dihilangkan pada kalimat (1)",
+      "explanation": null
+    }
+  ]
+}

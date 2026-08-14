@@ -1,0 +1,240 @@
+{
+  "questions": [
+    {
+      "text": "Di sebuah toko, Mira membeli 4 barang $x$ dan 2 barang $y$ dengan harga Rp38.200. Sonya membeli 10 barang $x$ dan 4 barang $y$ dengan harga Rp87.000. Jika Maya ingin membeli sebuah barang $x$ dan sebuah barang $y$, harga yang harus dibayarkan adalah...",
+      "options": [
+        "Rp10.500",
+        "Rp12.400",
+        "Rp13.800",
+        "Rp15.200",
+        "Rp16.600"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah minuman kemasan berbentuk tabung memiliki jari-jari setengah dari tingginya. Jika kapasitas penuh dari kemasan tersebut adalah $1024\\pi\\text{ cm}^3$. Maka tinggi kemasan adalah ... cm.",
+      "options": [
+        "10",
+        "12",
+        "13",
+        "16",
+        "18"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Tarif telepon rumah yang dibayarkan oleh pelanggan pada suatu wilayah selama satu bulan dirumuskan dengan durasi telepon (dalam menit) selama satu bulan dikalikan dengan tarif telepon, lalu ditambah dengan biaya berlangganan selama satu bulan. Tarif telepon di wilayah tersebut senilai dengan Rp250 lebihnya dari durasi telepon (dalam menit). Jika tarif telepon rumah yang dibayarkan oleh pelanggan selama satu bulan dinyatakan dalam $y$, durasi telepon (menit) dinyatakan dengan $x$, biaya berlangganan selama sebulan dinyatakan dalam $z$, serta biaya berlangganan selama satu bulan sebesar Rp55.000. Jika selama satu bulan seorang di wilayah tersebut memiliki durasi telepon 550 menit, jumlah tagihan yang harus dibayar adalah...",
+      "options": [
+        "Rp375.000",
+        "Rp415.000",
+        "Rp455.000",
+        "Rp495.000",
+        "Rp555.000"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ibu membuat 10 loyang kue nastar membutuhkan 8 kg nanas. Suatu hari, Ibu ingin membuat 15 loyang kue nastar. Berapa kilogram nanas yang dibutuhkan Ibu?",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Arya memperoleh nilai 10 pada ujian pertamanya dan nilai 80 pada ujian ke 15. Nilai yang diperoleh Arya membentuk barisan aritmetika dengan beda positif. Arya memperoleh nilai 50 pada ujian ke...",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dua buah alarm membunyikan alarm secara berkala 72 detik dan 50 detik. Jika mereka berbunyi beep bersama pada pukul 12.00, pada pukul berapa mereka akan berbunyi beep lagi untuk kedua kalinya?",
+      "options": [
+        "12.10",
+        "12.15",
+        "12.30",
+        "12.45",
+        "13.00"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Harga pembelian sebuah buku adalah Rp50.000. Buku tersebut dijual dengan keuntungan 15%. Harga penjualan 75 buah buku adalah...",
+      "options": [
+        "Rp3.575.000",
+        "Rp3.851.000",
+        "Rp4.312.500",
+        "Rp4.425.500",
+        "Rp4.512.500"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Maman berdiri dengan jarak 12 m dari sebuah pohon dan melihat puncak pohon dengan sudut pandang $30^\\circ$. Jika tinggi Maman diukur dari tanah sampai ke mata 150 cm, tinggi pohon adalah...",
+      "options": [
+        "0{,}5 + 2\\sqrt{2}\\text{ m}",
+        "0{,}5 + 3\\sqrt{2}\\text{ m}",
+        "0{,}5 + 4\\sqrt{2}\\text{ m}",
+        "1{,}5 + 4\\sqrt{3}\\text{ m}",
+        "1{,}5 + 3\\sqrt{3}\\text{ m}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bilangan 8, 10, 9, 7, $x$, 5, 5, dan $y$ mempunyai rata-rata 7,8. Nilai rata-rata $x$ dan $y$ adalah...",
+      "options": [
+        "8,8",
+        "9",
+        "9,15",
+        "9,2",
+        "9,25"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dalam rangka olimpiade Matematika, sebuah sekolah akan mengirim sebuah tim yang beranggotakan 3 orang. Jika terdapat 20 kandidat pria dan 20 kandidat wanita, peluang terpilihnya semua anggota pria adalah...",
+      "options": [
+        "\\frac{1}{8}",
+        "\\frac{2}{13}",
+        "\\frac{3}{26}",
+        "\\frac{4}{13}",
+        "\\frac{5}{14}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah paket soal memuat beberapa soal LOTS, MOTS, dan HOTS. Diketahui bahwa 0,2 bagian dari paket soal merupakan soal LOTS, 25% merupakan soal HOTS, dan sisanya soal MOTS. Banyak soal MOTS adalah lima lebihnya dari dua kali banyaknya soal HOTS. Banyak soal LOTS, MOTS, dan HOTS pada pake soal tersebut adalah...",
+      "options": [
+        "20, 55, dan 25",
+        "15, 10, dan 25",
+        "20, 35, dan 45",
+        "15, 30, dan 45",
+        "10, 15, dan 40"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah perusahaan multimedia membeli kamera seharga Rp14.400.000 sebagai alat potretnya. Harga kamera tersebut melemah pada laju yang tetap selama 12 tahun, sebelum dianggap tidak memiliki nilai untuk dijual lagi. Nilai jual kamera tersebut 4 tahun setelah dibeli adalah...",
+      "options": [
+        "Rp7.600.000",
+        "Rp8.400.000",
+        "Rp9.600.000",
+        "Rp10.500.000",
+        "Rp11.500.000"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bu Lopez dan Pak Lopez mempunyai 2 orang anak. Ketika mereka berada dalam mobil keluarga, dua orang duduk di baris depan dan 2 lainnya duduk di baris tengah. Bu Lopez atau Pak Lopez harus duduk di kursi kemudi. Banyaknya susunan duduk yang mungkin adalah...",
+      "options": [
+        "4",
+        "12",
+        "16",
+        "24",
+        "48"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perbandingan umur Meisya dan Niken sekarang adalah 1 : 2. Jika empat tahun lalu perbandingan umur mereka adalah 1 : 4 maka umur Niken lima tahun lalu adalah...",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Olimpiade Matematika akan diadakan di gedung Gelanggang Mahasiswa USU. Tempat duduk gedung diatur sedemikian rupa mulai dari baris terdepan ke belakang dengan banyak baris belakang lebih 4 kursi dari baris di depannya. Bila dalam gedung terdapat 15 baris kursi dan baris terdepan terdapat 20 kursi, kapasitas gedung tersebut adalah...",
+      "options": [
+        "300 kursi",
+        "450 kursi",
+        "600 kursi",
+        "720 kursi",
+        "900 kursi"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dalam perlombaan F1, sebuah mobil balap melaju dengan kecepatan 300 km/jam pada menit pertama. Kecepatan pada menit berikutnya adalah 1 \\frac{1}{2} kali dari kecepatan sebelumnya. Panjang lintasan seluruhnya dalam 5 menit pertama adalah...",
+      "options": [
+        "3.955,50 km",
+        "3.955,75 km",
+        "3.956,25 km",
+        "3.956,50 km",
+        "3.956,75 km"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pak Bara memiliki tiga kelas. Setiap kelas masing-masing memiliki 28, 42, dan 56 siswa. Pak Bara ingin membagi setiap kelas menjadi kelompok-kelompok sehingga setiap kelompok di setiap kelas memiliki jumlah siswa yang sama dan tidak ada siswa yang tersisa. Berapa jumlah maksimum siswa yang dapat dimasukkan Pak Bara ke dalam setiap kelompok?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "correctAnswer": "14",
+      "explanation": "FPB dari 28, 42, dan 56 adalah 14."
+    },
+    {
+      "text": "Dalam sebuah kelompok terdapat 10 siswa yang suka bermain musik dan 20 siswa yang suka bernyanyi. Jika banyak siswa keseluruhan adalah 24 orang, maka banyak siswa yang menyukai keduanya adalah...",
+      "options": [
+        "6"
+      ],
+      "correctAnswer": "6",
+      "explanation": "n(S) = n(A) + n(B) - n(A \\cap B) + n(A \\cup B)^c -> 24 = 10 + 20 - x -> x = 6."
+    },
+    {
+      "text": "Seorang pemain basket melempar sebuah bola basket ke atas dan membentuk sebuah parabola. Tinggi $h$ cm setelah $t$ detik dirumuskan dengan $h(t) = 240t - 5t^2$. Tinggi maksimum yang dapat dicapai bola tersebut adalah...",
+      "options": [
+        "2,88 m",
+        "3,12 m",
+        "3,56 m",
+        "4,08 m",
+        "4,32 m"
+      ],
+      "correctAnswer": "2,88 m",
+      "explanation": "Turunan pertama h'(t) = 240 - 10t = 0 maka t = 24. h(24) = 240(24) - 5(24)^2 = 2800 cm = 2,88 m."
+    },
+    {
+      "text": "Nilai rata-rata suatu kelas pada ulangan matematika adalah 72. Jika rata-rata nilai ulangan untuk siswa laki-laki adalah 64 dan rata-rata nilai ulangan untuk siswa perempuan adalah 78, maka perbandingan banyak siswa laki-laki dan perempuan adalah...",
+      "options": [
+        "4 : 3",
+        "3 : 4",
+        "5 : 3",
+        "3 : 5",
+        "1 : 2"
+      ],
+      "correctAnswer": "3 : 4",
+      "explanation": "72(L + P) = 64L + 78P -> 8L = 6P -> L/P = 6/8 = 3/4."
+    }
+  ]
+}

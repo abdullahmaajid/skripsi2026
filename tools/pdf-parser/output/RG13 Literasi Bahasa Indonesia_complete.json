@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Di antara pernyataan-pernyataan berikut, manakah pernyataan yang paling tepat terkait penyebab munculnya jerawat pasir?",
+      "options": [
+        "Jerawat pasir muncul dalam jumlah banyak dan berbentuk kecil seperti pasir.",
+        "Jerawat pasir sering menyerang pada T-zne alias zona T di wajah, yaitu pipi dan dahi.",
+        "Jerawat pasir timbul akibat komedo putih, papula, dan pustula yang muncul bersamaan.",
+        "Jerawat pasir muncul karena pori-pori di wajah tersumbat oleh sebum dan sel kulit mati.",
+        "Jerawat pasir memicu radang dan menyebabkan bagian kulit yang berjerawat menjadi kemerahan."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Penyebab utama jerawat pasir dijelaskan pada bagian awal teks dan sub-bab penyebab, di mana komedo putih (yang terbentuk dari pori-pori tersumbat sebum dan sel kulit mati), papula, dan pustula menjadi pemicu utamanya, yang mana komedo putih sendiri berakar dari pori-pori yang tersumbat oleh sebum dan sel kulit mati."
+    },
+    {
+      "text": "Kamu diminta untuk menyebarluaskan teks tersebut kepada target pembaca yang sesuai dengan isi teks. Berdasarkan target pembacanya, kepada siapakah kamu akan menyebarkan teks tersebut?",
+      "options": [
+        "Ahli jerawat",
+        "Dokter kulit",
+        "Masyarakat umum",
+        "Peneliti penyakit kulit",
+        "Remaja yang sedang berjerawat"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Teks membahas informasi dasar mengenai jerawat pasir dan cara mengatasinya menggunakan produk bebas (seperti asam salisilat dan benzoil peroksida), yang sangat relevan bagi kalangan remaja yang sering mengalami masalah jerawat."
+    },
+    {
+      "text": "Paragraf pertama pada teks tersebut mengandung kelemahan dan kamu diminta untuk memperbaikinya. Di antara pilihan jawaban berikut, manakah cara yang paling tepat untuk memperbaiki kelemahan tersebut?",
+      "options": [
+        "Mengubah kata pada dalam kalimat pertama menjadi kepada.",
+        "Menambahkan tanda baca koma (,) setelah kata dasarnya pada kalimat kedua.",
+        "Mengubah kata berisi pada kalimat ketiga menjadi kata mengandung.",
+        "Mengubah kalimat ketiga menjadi dua kalimat agar tidak terlalu panjang.",
+        "Menambahkan konjungsi selain itu di awal kalimat keempat."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Kata \"berisi\" kurang tepat digunakan untuk mendeskripsikan kandungan zat dalam jerawat kecil; kata yang lebih tepat adalah \"mengandung\"."
+    },
+    {
+      "text": "Siska memiliki jerawat pasir di wajahnya. Setelah diperhatikan, memang terdapat benjolan berwarna merah dan penuh nanah yang menyebabkan jerawat pasir muncul di wajahnya. Apa hal yang dapat dilakukan oleh Siska untuk mengobati jerawat pasir tersebut?",
+      "options": [
+        "Menggunakan produk yang mengandung asam salisilat",
+        "Menghentika penggunaan produk perawatan rambut",
+        "Menggunakan produk yang mengandung benzoil peroksida",
+        "Menghindari munculnya pori-pori yang menyebabkan peradangan",
+        "Menjaga zona T di wajah dengan sering membersihkan bagian tersebut"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Benjolan berwarna merah dan penuh nanah adalah ciri-ciri pustula (atau papula), yang dalam teks disebutkan dapat ditangani dengan menggunakan produk yang mengandung benzoil peroksida."
+    },
+    {
+      "text": "Berdasarkan teks tersebut, secara ringkas, bagaimana urutan proses transaksi dengan paylater bagi seseorang yang telah mengaktifkan fitur tersebut?",
+      "options": [
+        "Pengguna memilih barang atau jasa yang dibutuhkan, pengguna mengaktifkan fitur paylater, penyedia akan membayar tagihan, kemudian pengguna membayar tagihan sesuai dengan dana yang digunakan.",
+        "Pengguna membeli barang atau jasa yang dibutuhkan, penyedia membayar pembelian sesuai dengan jumlah yang tertera, dan pengguna membayar kepada penyedia sesuai dengan jangka waktu dan total tagihan.",
+        "Pengguna mengaktifkan metode pembayaran paylater, membeli barang atau jasa yang dibutuhkan, menerima tagihan dari penyedia, kemudia membayar tagihan tersebut kepada penyedia.",
+        "Pengguna memilih barang atau jasa yang dibutuhkan dan memberikan tagihan kepada penyedia, penyedia memberikan sejumlah uang kepada pengguna, pengguna membayarkan uang ke toko, kemudia melunasi tagihan sesuai kesepakatan.",
+        "Pengguna mengaktifkan metode pembayaran paylater, memilih barang atau jasa sesuai dengan ketentuan penyedia, penyedia memberikan sejumlah uang kepada toko, toko memberikan tagiha kepada pengguna, dan pengguna membayar tagihan."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Urutan logis penggunaan paylater bagi yang sudah aktif adalah mengaktifkan/menggunakan metode paylater saat membeli barang/jasa, menerima tagihan, lalu membayar kepada penyedia sesuai jangka waktu."
+    },
+    {
+      "text": "Berdasarkan teks tersebut, apa yang menyebabkan paylater digemari oleh masyarakat?",
+      "options": [
+        "Paylater memiliki lebih banyak kemudahan daripada sistem pembayaran lain.",
+        "limit pinjaman yang ada di paylater akan mengikuti intensitas belanja.",
+        "Berbeda dengan layanan lainnya, dalam paylater tidak ada setoran dana di muka.",
+        "Paylater tidak memiliki batasan pinjaman sehingga pengguna bisa bebas berbelanja.",
+        "Dalam paylater, pengguna cukup membayar tagihan sesuai jumlah yang digunakan."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Teks menyatakan bahwa layanan paylater digemari karena berbagai kemudahan, salah satunya ditegaskan melalui kalimat \"Pengguna paylater tidak diminta untuk menyetor dana di muka.\""
+    },
+    {
+      "text": "Meskipun banyak digemari oleh masyarakat, fitur paylater juga memiliki kekurangan. Berdasarkan teks dan ilustrasi tersebut, manakah yang BUKAN kekurangan paylater?",
+      "options": [
+        "Memicu penggunanya untuk berutang",
+        "Bisa meningkatkan sifat konsumtif penggunanya",
+        "Adanya institusi penyelenggara paylater yang tidak aman",
+        "Berpotensi membuat pembengkakan tagihan pinjaman penggunanya",
+        "Tidak aman karena data pribadi pengguna akan dibocorkan penyedia layanan"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Teks dan ilustrasi menunjukkan risiko kebocoran data, sifat konsumtif, pembengkakan tagihan, dan utang, namun tidak menyatakan bahwa ada \"institusi penyelenggara paylater yang tidak aman\" sebagai sifat bawaan sistemnya (kasus Dawn adalah kebocoran data oleh oknum, bukan karena institusinya memang tidak aman)."
+    },
+    {
+      "text": "Hasan merupakan mahasiswa akhir dan saat ini bekerja sebagai pekerja lepas di salah satu perusahaan asing di Bali. Hasan harus membeli laptop baru yang sesuai dengan kebutuhan kerjanya dengan harga Rp15.000.000,00. Karena tabungannya belum cukup, ia ingin mengaktifkan fitur paylater untuk membayarnya. Namun, ia tidak ingin apa yang terjadi kepada Dawn dan Cane dalam ilustrasi tersebut terjadi juga kepadanya. Ia pun meminta saran kepadamu terkait hal yang harus ia lakukan agar bisa menggunakan fitur paylater dengan aman. Sesuai teks dan ilustrasi tersebut, manakah saran yang paling tepat untuk diberikan kepada Hasan?",
+      "options": [
+        "Belilah laptop yang sesuai jumlah tabungan yang dimiliki dan jangan membeli barang hanya karena keinginan semata.",
+        "Pelajari semua layanan paylater yang ada agar terhindar dari kebocoran data dan pilihlah limit pinjaman yang terkecil.",
+        "Belilah barang yang sesuai dengan pendapatan dan pilihlah metode pembayaran lain yang lebih aman.",
+        "Batasi penggunaan paylater sesuai dengan pendapatan dan teruslah menabung untuk membayar tagihannya.",
+        "Pastikan fitur paylater yang digunakan sudah diawasi oleh lembaga keuangan negara untuk meminimalisasi terjadinya kebocoran data."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Untuk menghindari masalah konsumtif seperti Cane dan masalah tagihan berlebih, penggunaan paylater harus dibatasi sesuai kemampuan/pendapatan dan tetap diimbangi dengan kesiapan dana untuk membayar."
+    },
+    {
+      "text": "Apa permasalahan utama yang dibahas pada paragraf 2 teks tersebut?",
+      "options": [
+        "Sepak terjang Tjipto Mangoenkoesoemo dalam Indische Partij (IP)",
+        "Pendirian Indische Partij oleh Tjipto Mangoenkoesoemo dan dua orang lainnya",
+        "Bergabungnya Tjipto Mangoenkoesoemo dengan Indische Partij dan Volksraad",
+        "Pembuangan Tjipto Mangoenkoesoemo ke Banda Neira selama 14 tahun sejak 1927",
+        "Perjalanan hidup Tjipto Mangoenkoesoemo dari tahun 1912 hingga 1927"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Paragraf kedua membahas rentang peristiwa dari pendirian Indische Partij tahun 1912, pembuangan ke Belanda, kembali ke Jawa, bergabung dengan Volksraad, hingga pembuangan ke Banda Neira tahun 1927."
+    },
+    {
+      "text": "Sesuai paragraf ketiga, dalam surat yang dikirimkan Tjipto Mangoenkoesoemo ke majalah Nationale Commentaren, terdapat kalimat yang berbunyi Sekarang kita lebih baik tolong lawan kita itu, Holland. Apa maksud kalimat tersebut?",
+      "options": [
+        "Tjipto Mangoenkoesoemo berempati terhadap kondisi Belanda.",
+        "Tjipto Mangoenkoesoemo membangun hubungan baik dengan Belanda.",
+        "Tjipto Mangoenkoesoemo menunjukkan keterikatan Indonesia dan Belanda.",
+        "Tjipto Mangoenkoesoemo mendukung demokrasi yang diperjuangkan Belanda.",
+        "Tjipto Mangoenkoesoemo berasumsi bahwa Belanda membutuhkan bantuan Indonesia."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Tjipto menyatakan bahwa dalam perjuangan antara demokrasi dan totalitarianisme, kita harus memihak demokrasi, sehingga ia mendukung pihak Belanda yang mewakili kubu demokrasi melawan fasisme/totalitarianisme."
+    },
+    {
+      "text": "Manakah pernyataan yang tepat terkait Tjipto Mangoenkoesoemo berdasarkan teks di atas?",
+      "options": [
+        "Tjipto mendukung Belanda, tetapi menentang fasisme Jepang ketika masuk ke Hindia Belanda.",
+        "Tjipto mulai menentang fasisme ketika Jepang masuk ke Hindia Belanda sampai akhir hayatnya.",
+        "Tjipto dibuang ke Banda Neira karena terlibat dalam pemogokan petani perkebunan di Polanharjo.",
+        "Tjipto ikut serta dalam mengkritik Kerajaan Belanda ketika merayakan 100 tahun kemerdekaannya.",
+        "Tjipto merupakan dokter pemerintah spesialis penyakit dalam yang berhasil mengobati penyakit pes."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Tjipto ikut dibuang akibat tulisan Soewardi Soerjaningrat yang mengkritik Kerajaan Belanda merayakan 100 tahun kemerdekaannya dari Prancis."
+    },
+    {
+      "text": "Kalimat pertama paragraf satu pada teks tersebut berbunyi sebagai berikut. Tjipto Mangoenkoesoemo merupakan seorang dokter lulusan sekolah dokter bumiputra (STOVIA). Kalimat tersebut memiliki pola yang sama dengan salah satu kalimat pada pilihan jawaban berikut. Manakah kalimat yang dimaksud?",
+      "options": [
+        "Dayana akhirnya dilamar oleh pujaan hati yang telah lama ia nanti.",
+        "Ia bertemu dengan kakaknya yang merupakan seorang petinju.",
+        "Dorori yang tak lain adalah seorang dokter kini sedang sakit keras.",
+        "Mereka sangat menginginkan kemenangan itu setelah lulus sekolah.",
+        "Dara berjanji untuk meminjamkan buku sejarah itu kepada adiknya."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Pola kalimat \"Tjipto Mangoenkoesoemo (S) merupakan (P) seorang dokter lulusan sekolah dokter bumiputra (STOVIA) (Pelengkap)\" sama dengan \"Ia (S) bertemu (P) dengan kakaknya yang merupakan seorang petinju (Pelengkap/Keterangan).\""
+    },
+    {
+      "text": "Paragraf keempat pada teks tersebut mengandung kesalahan sehingga perlu memperbaiki. Salah seorang temanmu menyarankan lima cara perbaikan yang ia tuliskan dalam pilihan jawaban berikut. Di antara lima cara yang ada, manakah perbaikan yang paling tepat untuk paragraf tersebut?",
+      "options": [
+        "Menulis kata Antifasis pada kalimat ketiga menjadi Anti Fasis.",
+        "Mengganti tetapi juga pada kalimat kedua menjadi melainkan juga.",
+        "Mengganti komitmen pada kalimat ketiga menjadi tanggung jawab.",
+        "Menulis kata mengembuskan pada kalimat kelima menjadi menghembuskan.",
+        "Menulis kata nafas pada kalimat kelima menjadi napas."
+      ],
+      "correctAnswer": "E",
+      "explanation": "Berdasarkan KBBI, bentuk baku dari kata \"nafas\" adalah \"napas\"."
+    },
+    {
+      "text": "Kalimat ketiga paragraf 1 berbunyi sebagai berikut. Keberhasilan Tjipto dalam memerangi penyakit pes membuat Pemerintah Kolonial Belanda memberinya penghargaan Willem Klas 3, tetapi penghargaan tersebut ditolaknya. Kamu diminta untuk mengganti kata penghargaan pada kalimat tersebut dengan kata lain tanpa mengubah maksud kalimat. Manakah kata yang paling tepat untuk menggantikan kata tersebut?",
+      "options": [
+        "Prestasi",
+        "Hadiah",
+        "Penghormatan",
+        "Pengakuan",
+        "Pujian"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Kata 'penghargaan' dalam konteks pemberian tanda jasa/medali dari pemerintah kolonial dapat disamakan maknanya dengan 'penghormatan'."
+    },
+    {
+      "text": "Sikap Tjipto Mangoenkoesoemo dalam menghadapi masalah sebagaimana dikisahkan dalam teks tersebut dapat dianalogikan seperti peribahasa ...",
+      "options": [
+        "Walau seribu anjing menyalak, gunung takkan runtuh.",
+        "Barang siapa menggali lubang, ia juga terperosok ke dalamnya.",
+        "Di mana bumi dipijak, di situ langit dijunjung.",
+        "Fajar menyingsing, elang menyongsong.",
+        "Menepuk air didulang, tepercik muka sendiri."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Sikap Tjipto yang teguh pendirian, menolak penghargaan kolonial, dan tetap kritis meskipun banyak rintangan serta diejek sejalan dengan peribahasa 'Walau seribu anjing menyalak, gunung takkan runtuh'."
+    },
+    {
+      "text": "Kamu diminta untuk memperbaiki susunan frasa-frasa yang relatif tidak berbahaya, cukup serius, kondisi sangat serius, dan perawatan segera diperlukan yang terdapat pada kalimat (4). Di antara pilihan jawaban berikut, perbaikan yang paling tepat adalah ....",
+      "options": [
+        "Yang relatif tidak ada bahayanya, cukup serius, sangat serius, dan perawatan segera diperlukan",
+        "Yang relatif tidak berbahaya, cukup serius, sangat serius, dan memerlukan perawatan segera",
+        "Yang relatif tidak berbahaya, cukup serius, sangat serius, dan perawatan segera diperlukan",
+        "Yang relatif tidak ada bahayanya, cukup serius, sangat serius, dan perlu segera dirawat",
+        "Yang relatif tidak ada bahaya, cukup serius, sangat serius, dan memerlukan perawatan segera"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Untuk menjaga kesejajaran (pararelitdism) bentuk frasa rincian dalam kalimat (4), bentuk yang paling tepat adalah \"relatif tidak berbahaya, cukup serius, sangat serius, dan memerlukan perawatan segera\"."
+    },
+    {
+      "text": "bahwa Jaenal perlu segera memeriksakan diri ke dokter. Berikut ini manakah alasan yang mendasari saran tersebut?",
+      "options": [
+        "Jaenal mengalami perdarahan di saluran pencernaan bagian bawah.",
+        "Jaenal mengalami perdarahan di saluran GI bagian atas.",
+        "Jaenal mungkin mengalami masalah kesehatan yang serius.",
+        "Jaenal memerlukan perawatan segera agar kondisinya membaik.",
+        "Jaenal terkena gastroentritir, wasir, dan tukak lambung."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bagaimana sikap penulis yang tergambar pada teks tersebut?",
+      "options": [
+        "Cemas",
+        "Prihatin",
+        "Takut",
+        "Waspada",
+        "waswas"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Di antara pilihan jawaban berikut, manakah kalimat yang dapat mengungkapkan gagasan pada kalimat (7)?",
+      "options": [
+        "Kadar kuantitas darah dalam feses menunjukkan sumber perdarahan bagian atas.",
+        "Tingginya sumber perdarahan dapat ditunjukkan oleh intensitas warna darah.",
+        "Gelapnya warna darah akan berdampak pada tingginya sumber perdarahan.",
+        "Warna darah yang makin gelap menunjukkan sumber perdarahan bagian atas.",
+        "Makin pekatnya warna darah belum tentu menunjukkan tingginya sumber perdarahan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah ungkapan yang paling tepat untuk menyimpulkan situasi dalam bacaan tersebut?",
+      "options": [
+        "Waspada feses berdarah",
+        "Gentingnya feses berdarah",
+        "Bahaya feses berdarah",
+        "Sebab feses berdarah",
+        "Intensitas feses berdarah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

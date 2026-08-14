@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Di sebuah kampung terdapat 10 orang yang terjangkit virus menular bernama covid-19. Karena tidak ada sistem karantina yang baik, setiap harinya orang yang terinfeksi akan menulari 2 orang lainnya tetapi di sisi lain setiap hari ada 15 orang yang sembuh. Berdasarkan informasi yang diberikan, manakah hubungan kuantitas P dan Q berikut yang benar? (Tabel: P = Jumlah orang terinfeksi 4 hari mendatang, Q = 600)",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P = Q + 10",
+        "Tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diberikan pola bilangan aritmatika sebagai berikut. 3, 7, 11, 15, ... Berdasarkan informasi yang diberikan, manakah hubungan kuantitas yang benar? (Tabel: P = U_{20}, Q = 80)",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P = Q + 1",
+        "Tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Randi akan membuat sandi 4 angka dari angka berikut. 2, 3, 5, 7, 9 dengan ketentuan tidak boleh berulang. Maka banyak cara membuat sandi tersebut adalah?",
+      "options": [
+        "20",
+        "25",
+        "50",
+        "100",
+        "120"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Angka satuan dari hasil 7^{100} + 2^{100} adalah ...",
+      "options": [
+        "1",
+        "3",
+        "6",
+        "7",
+        "9"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah kelompok yang terdiri atas 110 orang akan menjadi 4 sub kelompok. Jika tiap sub kelompok setidaknya memiliki 2 anggota, manakah berikut ini pernyataan yang pasti benar?",
+      "options": [
+        "Setiap sub kelompok minimal mempunyai 4 anggota",
+        "Tidak ada sub kelompok yang punya jumlah anggota yang sama",
+        "Tidak ada sub kelompok yang memiliki jumlah anggota yang lebih dari 100 orang",
+        "Setidaknya ada 1 sub kelompok yang memiliki anggota lebih dari 25 orang",
+        "Sub kelompok terbesar memiliki 3 anggota lebih banyak daripada kelompok terkecil"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Misalkan titik A (x, y) menyatakan koordinat suatu titik pada koordinat cartesius dengan (x+y) \\neq 0. Apakah titik A berada di kuadran 1? Putuskan apakah pernyataan 1 dan 2 berikut cukup untuk menjawab pertanyaan tersebut? (1) x^2 + 2xy + y^2 = -2(x+y), (2) x + 4 = 2y",
+      "options": [
+        "Pernyataan 1 saja cukup untuk menjawab pertanyaan tetapi pernyataan 2 saja tidak cukup",
+        "Pernyataan 2 saja cukup untuk menjawab pertanyaan tetapi pernyataan 1 saja tidak cukup",
+        "Dua pernyataan bersama-sama cukup untuk menjawab pertanyaan, tetapi satu pernyataan saja tidak cukup.",
+        "Pernyataan 1 saja cukup untuk menjawab pertanyaan dan pernyataan 2 saja cukup",
+        "Pernyataan 1 dan pernyataan 2 tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Nilai maksimum x + 4y untuk x dan y yang memenuhi x + y \\le 8, x - y \\le 4, x \\ge 0 dan y \\ge 0 adalah...",
+      "options": [
+        "30",
+        "31",
+        "32",
+        "33",
+        "34"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diberikan dua buah bilangan m dan n. diketahui m merupakan bilangan yang habis dibagi 4 dan n merupakan tiga kurangnya bilangan m. Berdasarkan informasi tersebut, manakah dari pernyataan berikut yang bernilai benar?",
+      "options": [
+        "m + n bilangan genap",
+        "m - 2n bilangan genap",
+        "mn bilangan ganjil",
+        "m/n bilangan ganjil",
+        "tidak dapat ditentukan nilai m dan n"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan grafik peminat dan penjualan item pada tahun 2015! Berdasarkan grafik tersebut, pernyataan yang benar adalah ...",
+      "options": [
+        "Dapat dipastikan bahwa jumlah peminat berbanding terbalik dengan jumlah item terjual",
+        "Semakin besar jumlah peminat, semakin besar item terjual",
+        "Kenaikan jumlah peminat dari bulan Juni ke Agustus adalah sekitar 20%",
+        "Terjadi penurunan peminat dari bulan Oktober ke November",
+        "Setelah tahun baru, jumlah peminat naik secara pesat"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Andi merupakan salah satu sales minuman kemasan di Pekan Raya Jakarta (PRJ). Pada hari pertama, Andi berhasil menjual 10 botol minuman. Pada hari kedua, Andi berhasil menjual \\frac{1}{2} dari minuman yang tersisa dan pada hari ketiga Andi berhasil menjual 5 botol minuman. Jika tersisa 2 botol minuman dari seluruh minuman yang Andi miliki, maka banyaknya minuman yang Andi miliki untuk dijual di PRJ adalah...",
+      "options": [
+        "24 botol",
+        "12 botol",
+        "10 botol",
+        "15 botol",
+        "20 botol"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada tahun 2002 usia Budi 8 tahun lebih tua dari usia Susi, sedangkan jumlah umur mereka pada tahun 2008 adalah 24 tahun. Pada tahun 2022, usia Bayu adalah...",
+      "options": [
+        "30",
+        "28",
+        "47",
+        "38",
+        "29"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Aloni mengambil 3 kartu dari seperangkat kartu, probabilitas terambil 2 Jack dan 1 hati adalah...",
+      "options": [
+        "\\frac{36}{5525}",
+        "\\frac{24}{5219}",
+        "\\frac{12}{1224}",
+        "\\frac{36}{5535}",
+        "\\frac{24}{5525}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Batas kelulusan yang ditetapkan adalah nilai di atas 70. Berdasarkan data interval nilai pada tabel, pernyataan berikut yang tepat adalah...",
+      "options": [
+        "Siswa yang lulus sebanyak 20 orang",
+        "Siswa yang lulus sebanyak 16 orang",
+        "Siswa yang tidak lulus sebanyak 24 orang",
+        "Banyak siswa adalah 50 orang",
+        "Modus dari data tabel ada pada interval nilai 91 - 100"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Patra merupakan seorang pedagang buah. Data hasil penjualan pada bulan September hingga Desember dapat dilihat pada tabel. Apabila harga apel adalah Rp10.000 dan harga jeruk adalah Rp7.500, pernyataan di bawah ini yang benar adalah...",
+      "options": [
+        "Apabila membeli apel dengan jumlah yang lebih kecil daripada jeruk, harga total jeruk pasti lebih kecil daripada harga total apel.",
+        "Total penjualan terbesar adalah pada bulan November",
+        "Total penjualan bulan Oktober lebih kecil daripada bulan November",
+        "Total penjualan topi dan baju meningkat setiap bulannya dalam 3 bulan terakhir",
+        "Total penjualan bulan Desember lebih tinggi 40,5% daripada bulan September"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dua buah dadu dilempar oleh Budi ke lantai. Masing-masing dadu mempunyai 6 sisi yang memiliki nomor 1 - 6. Berapa probabilitas untuk mendapatkan jumlah dari mata dadu yang lebih dari 10?",
+      "options": [
+        "1/12",
+        "1/36",
+        "1/6",
+        "1/4",
+        "1/2"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kars memiliki dadu yang memiliki 6 sisi dan melemparnya sebanyak 1 kali. (Tabel: P = Peluang angka yang diperoleh adalah angka kelipatan 3, Q = Peluang untuk mendapatkan angka genap). Manakah hubungan antara pernyataan P dan Q yang benar?",
+      "options": [
+        "Kuantitas P lebih besar daripada Q",
+        "Kuantitas P lebih kecil dari pada Q",
+        "Kuantitas P sama dengan Q",
+        "Kuantitas Q lebih kecil daripada P",
+        "Tidak dapat ditentukan hubungan antara kuantitas P dan Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ada sebuah pola bilangan yaitu sebagai berikut: x, 12, 9, 14, 7, 18, 5, 22, 3, y. Berapa angka yang cocok untuk menggantikan nilai x dan y?",
+      "options": [
+        "11 dan 24",
+        "11 dan 26",
+        "10 dan 22",
+        "10 dan 24",
+        "10 dan 26"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dikisahkan bahwa Harley sedang mengikuti ujian kelulusan akademiknya untuk segera lulus dan dapat lolos seleksi yang ia inginkan. Jika peluang Harley untuk mendapatkan nilai A pada pelajaran Kimia adalah 0,8 dan untuk pelajaran Fisika adalah 0,1. Maka peluang Harley untuk hanya mendapatkan satu nilai A dari pelajaran tersebut yaitu...",
+      "options": [
+        "0,08",
+        "0,18",
+        "0,72",
+        "0,80",
+        "0,90"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika terdapat tiga angka yaitu $h$, $i$, dan $j$ membentuk barisan geometri, dimana jumlah ketiganya yaitu $91$ dan jika $j$ dikurangi dengan $13$ maka ketiganya menjadi baris aritmatika, maka...\n\n| P | Q |\n|---|---|\n| Nilai $j$ | $10$ |",
+      "options": [
+        "P lebih besar daripada Q",
+        "P lebih kecil daripada Q",
+        "P lebih besar atau sama dengan Q",
+        "P sama dengan Q",
+        "Hubungan Q dan P tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dalam sebuah cerita, Argi ingin membeli $6$ buah apel, $18$ buah mangga, dan $15$ buah jeruk, maka berapakah biaya minimal yang Argi keluarkan jika harga tersebut tertera pada tabel di bawah?\n\n| Nama Buah | Harga Satuan di Toko P | Harga Per Setengah Lusin di Toko Q | Harga Per Lusin di Toko R | Harga Satuan di Toko S |\n|---|---|---|---|---|\n| Apel | Rp4000 | Rp18600 | Rp30000 | Rp3000 |\n| Mangga | Rp4000 | Rp20000 | Rp38000 | Rp3500 |\n| Jeruk | Rp3000 | Rp17000 | Rp40000* | Rp2500 |\n| Keterangan | Diskon sebesar $20\\%$ jika pembelian melebihi $20000$ | - | Untuk (*) mendapatkan potongan sebesar $10\\%$ | - |",
+      "options": [
+        "106.200,00",
+        "111.200,00",
+        "111.600,00",
+        "121.200,00",
+        "121.600,00"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

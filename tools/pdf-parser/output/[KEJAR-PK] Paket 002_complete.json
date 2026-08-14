@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Dua buah garis $j$ dan $k$ sejajar, garis $j$ melewati titik $(a, 3)$ dan $(2, b)$, sedangkan garis $k$ melewati $(1, 4)$ dan $(2, 7)$, berapakah nilai $\\frac{9-b}{a} = \\dots$",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan grafik berikut! Daerah berwarna abu - abu dapat direpresentasikan sebagai ...",
+      "options": [
+        "A \\cup B \\cap C",
+        "(A \\cap C) - B",
+        "A \\cap B \\cap C",
+        "(A \\cap B) - C",
+        "A \\cup B \\cup C"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Untuk $x \\neq -\\frac{2}{3}$, $x \\neq 1$, $x \\neq 2$ hasil kali $\\frac{x^3+x^2-2x}{3x^2-x-2}$ oleh $\\frac{2}{x+2}$ adalah ...",
+      "options": [
+        "\\frac{3x+2}{2x}",
+        "\\frac{3x-2}{2x}",
+        "\\frac{2x}{3x+2}",
+        "\\frac{2x}{3x-2}",
+        "\\frac{x}{x-1}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $\\log_a b = c$, dan $\\log_c d = e$, dari opsi berikut yang pasti benar adalah ...",
+      "options": [
+        "ac < 0",
+        "be > 0",
+        "bd > 0",
+        "ce > 0",
+        "ae < 0"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika x adalah sebuah bilangan prima yang terletak antara 5 sampai 10, dan y adalah bilangan ganjil kurang dari 6 dan lebih dari 1. Berapakah nilai x + y? 1) y adalah bilangan yang habis dibagi 18 dan 27 2) y adalah faktor dari 9",
+      "options": [
+        "pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi (1) SAJA tidak cukup",
+        "dua pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Andi memiliki simpanan sebesar x dari pendapatan bulanan untuk tabungan, berapakah nilai x? 1) Andi menyimpan 20% dari pendapatannya dan telah menabung selama 1 tahun. 2) Pendapatan Andi Rp10.000.000 per bulan.",
+      "options": [
+        "pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar di bawah ini! Tentukan hubungan kuantitas antara P dan Q. P: Luas segitiga, Q: Keliling segitiga (dengan segitiga siku-siku alas 6, sisi miring 10).",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "2P < Q",
+        "Hubungan P dan Q tidak dapat dijelaskan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah kolam ikan teri berbentuk balok memiliki ukuran 8m x 5m x 1m. Kolam tersebut akan diisi air dengan kecepatan 50 liter/menit Berdasarkan data di atas, tentukan hubungan kuantitas P dan Q berikut! P: Lama waktu mengisi bak, Q: 50.000 detik",
+      "options": [
+        "P > Q",
+        "Q > P",
+        "P = Q",
+        "Informasi yang diberikan tidak cukup untuk menentukan hubungan P dan Q",
+        "2P < Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika hari ini adalah hari selasa, maka \\frac{3}{2} bulan kemudian adalah hari?",
+      "options": [
+        "Selasa",
+        "Rabu",
+        "Kamis",
+        "Jumat",
+        "Sabtu"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dari tahun 2017 ke tahun 2018 saham perusahaan naik sebesar 20%, sedangkan pada tahun 2018 ke 2019 saham tersebut meningkat kembali sebesar 15%. Berapa persen peningkatan saham perusahaan dari tahun 2017 ke tahun 2019?",
+      "options": [
+        "30%",
+        "35%",
+        "38%",
+        "7%",
+        "12%"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan gambar! Berapakah luas segitiga ACD? 1) Panjang BC = 16 cm dan AC = \\sqrt{4225} 2) Sudut ADC dan sudut ABC adalah 90^\\circ",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Indah memperoleh nilai secara berurutan 90, 80, 75, dan 60 untuk 4 mata pelajaran. Di pelajaran ke 5 Indah memperoleh memperoleh nilai 85. 1) Rata-rata 4 mata pelajarannya adalah 77 2) Rata-rata 3 pelajaran pertama adalah 81,67 3) Rata-rata 5 pelajarannya adalah 80 4) Rata-rata 5 pelajarannya adalah 78",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika panjang dua sisi terpendek segitiga siku-siku adalah 7 cm dan 24 cm. Manakah pernyataan di bawah berikut yang benar? 1) Kelilingnya adalah 56 cm 2) Luas segitiga tersebut adalah 84 cm^2 3) Sisi miring segitiga tersebut adalah 25 cm 4) Keliling > luas",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan yang benar antara hubungan P dan Q? P: \\sqrt[3]{12\\sqrt{144}}, Q: \\sqrt{2\\sqrt{15\\sqrt{225}}}",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah bentuk hubungan yang menyataan kuantitas P dan Q? P: 1\\frac{1}{3} dibagi \\frac{1}{6}, Q: \\frac{2}{3} dibagi 1\\frac{1}{6}",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

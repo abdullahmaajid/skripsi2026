@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Materi: Geometri\n\nGambar di bawah adalah peta suatu daerah yang memuat keberadaan Kota A, Kota B, Kota C, Kota E, dan Kota F. Jarak kota C dan Kota F adalah 120 km. Jalan melingkar yang menghubungkan Kota A dan Kota B, serta Kota A dengan Kota D merupakan jalan tol yang berbentuk setengah lingkaran.\n\nPanjang jalan yang menghubungkan Kota B dan Kota C adalah...km",
+      "options": [
+        "20\\sqrt{5}",
+        "30\\sqrt{5}",
+        "40\\sqrt{5}",
+        "50\\sqrt{5}",
+        "60\\sqrt{5}"
+      ],
+      "correctAnswer": "40\\sqrt{5}",
+      "explanation": "Jarak kota C dan Kota F adalah 120 km. Pada peta, jarak C ke F adalah 3 satuan kotak. Maka, 1 satuan kotak = 120 / 3 = 40 km. Jarak B ke C secara horizontal adalah 2 kotak (80 km) dan secara vertikal adalah 1 kotak (40 km). Menggunakan teorema Pythagoras: BC = \\sqrt{40^2 + 80^2} = \\sqrt{1600 + 6400} = \\sqrt{8000} = 40\\sqrt{5} km."
+    },
+    {
+      "text": "Materi: Geometri\n\nGambar di bawah adalah peta suatu daerah yang memuat keberadaan Kota A, Kota B, Kota C, Kota E, dan Kota F. Jarak kota C dan Kota F adalah 120 km. Jalan melingkar yang menghubungkan Kota A dan Kota B, serta Kota A dengan Kota D merupakan jalan tol yang berbentuk setengah lingkaran.\n\nTotal panjang jalan tol pada daerah tersebut adalah...km",
+      "options": [
+        "40\\pi(\\sqrt{8} + \\sqrt{10})",
+        "40\\pi(\\sqrt{3} + 2\\sqrt{2})",
+        "20\\pi(\\sqrt{3} + 2\\sqrt{2})",
+        "20\\pi(2\\sqrt{2} + \\sqrt{10})",
+        "20\\pi(\\sqrt{3} + \\sqrt{6})"
+      ],
+      "correctAnswer": "20\\pi(2\\sqrt{2} + \\sqrt{10})",
+      "explanation": "Jalan tol terdiri dari dua setengah lingkaran dengan diameter AB dan AD. Jarak 1 kotak = 40 km. Koordinat B(1,2), A(2,5), D(4,3). Diameter AB = \\sqrt{40^2 + 120^2} = 40\\sqrt{10} km. Panjang setengah lingkaran AB = 20\\pi\\sqrt{10} km. Diameter AD = \\sqrt{80^2 + 80^2} = 80\\sqrt{2} km. Panjang setengah lingkaran AD = 40\\pi\\sqrt{2} km. Total panjang jalan tol = 20\\pi\\sqrt{10} + 40\\pi\\sqrt{2} = 20\\pi(2\\sqrt{2} + \\sqrt{10}) km."
+    },
+    {
+      "text": "Materi: Geometri\n\nGambar di bawah adalah peta suatu daerah yang memuat keberadaan Kota A, Kota B, Kota C, Kota E, dan Kota F. Jarak kota C dan Kota F adalah 120 km. Jalan melingkar yang menghubungkan Kota A dan Kota B, serta Kota A dengan Kota D merupakan jalan tol yang berbentuk setengah lingkaran.\n\nLuas daerah yang dikelilingi oleh jalan yang menghubungkan Kota D dan Kota F, Kota F dan Kota E, serta Kota E dan Kota D adalah...\\text{km}^2",
+      "options": [
+        "3200\\sqrt{6}",
+        "3200\\sqrt{3}",
+        "4800\\sqrt{6}",
+        "4600\\sqrt{3}",
+        "4800"
+      ],
+      "correctAnswer": "4800",
+      "explanation": "Daerah yang dimaksud berbentuk segitiga DFE dengan koordinat D(4,3), F(6,1), dan E(6,4). Alas segitiga FE = 3 kotak = 120 km. Tinggi segitiga dari D ke garis FE = 2 kotak = 80 km. Luas segitiga = 1/2 * alas * tinggi = 1/2 * 120 * 80 = 4800 km^2."
+    },
+    {
+      "text": "Materi: Geometri\n\nGambar di bawah adalah peta suatu daerah yang memuat keberadaan Kota A, Kota B, Kota C, Kota E, dan Kota F. Jarak kota C dan Kota F adalah 120 km. Jalan melingkar yang menghubungkan Kota A dan Kota B, serta Kota A dengan Kota D merupakan jalan tol yang berbentuk setengah lingkaran.\n\nApabila Dede tinggal di Kota B dan pergi ke Kota E, panjang jalan terpendek yang dilalui Dede adalah...km",
+      "options": [
+        "40\\pi(2\\sqrt{2} + \\sqrt{5} + \\sqrt{10})",
+        "40(\\sqrt{2}\\pi + \\sqrt{5} + \\sqrt{10})",
+        "40(2\\sqrt{2} + \\sqrt{5} + \\sqrt{10})",
+        "240(1 + \\sqrt{5})",
+        "240(\\sqrt{2} + \\sqrt{5} + \\sqrt{10})"
+      ],
+      "correctAnswer": "40(2\\sqrt{2} + \\sqrt{5} + \\sqrt{10})",
+      "explanation": "Rute terpendek dari B ke E adalah melalui jalan lurus B -> A -> D -> E. Panjang AB = 40\\sqrt{10} km, AD = 80\\sqrt{2} km, dan DE = 40\\sqrt{5} km. Total panjang lintasan = 40\\sqrt{10} + 80\\sqrt{2} + 40\\sqrt{5} = 40(2\\sqrt{2} + \\sqrt{5} + \\sqrt{10}) km."
+    },
+    {
+      "text": "Materi: Geometri\n\nDede tinggal di Kota B dan pergi ke Kota A dengan jalan tol. Setelah melewati dua pertiga lintasan tol, mobil Dede tiba-tiba kehabisan bensin. Untuk menolong Dede, Abang membawakan Dede bensin dari Kota B menggunakan jetpack. Panjang lintasan terpendek yang dilalui Abang menggunakan jetpack adalah...km",
+      "options": [
+        "20\\sqrt{30}",
+        "20\\sqrt{10}",
+        "30\\sqrt{30}",
+        "30\\sqrt{20}",
+        "30\\sqrt{10}"
+      ],
+      "correctAnswer": "20\\sqrt{30}",
+      "explanation": "Lintasan tol AB berbentuk setengah lingkaran dengan diameter AB = 40\\sqrt{10} km, sehingga jari-jarinya R = 20\\sqrt{10} km. Posisi Dede berada pada 2/3 lintasan tol, yang setara dengan sudut pusat \\theta = 2/3 * \\pi rad. Jarak lurus (tali busur) dari titik awal B ke posisi Dede adalah d = 2 * R * \\sin(\\theta / 2) = 2 * 20\\sqrt{10} * \\sin(\\pi / 3) = 40\\sqrt{10} * (1/2 * \\sqrt{3}) = 20\\sqrt{30} km."
+    },
+    {
+      "text": "Materi: Fungsi\n\nAndi menaiki wahana roller coaster yang bergerak meliuk-liuk dan naik turun dengan lintasan tertentu. Ketinggian Andi dari atas tanah setelah $t$ menit kereta berjalan didefinisikan oleh fungsi $h(t)$ dalam m.\n\n$$h(t) = \\sin \\left(\\pi t - \\frac{\\pi}{2}\\right) + 1$$\n\nKetinggian maksimal Andi dari atas tanah adalah...m",
+      "options": [
+        "1",
+        "1,5",
+        "2",
+        "2,5",
+        "3"
+      ],
+      "correctAnswer": "2",
+      "explanation": "Nilai maksimum dari fungsi sinus adalah 1. Maka, ketinggian maksimum h(t) = 1 + 1 = 2 m."
+    },
+    {
+      "text": "Materi: Fungsi\n\nAndi menaiki wahana roller coaster yang bergerak meliuk-liuk dan naik turun dengan lintasan tertentu. Ketinggian Andi dari atas tanah setelah $t$ menit kereta berjalan didefinisikan oleh fungsi $h(t)$ dalam m.\n\n$$h(t) = \\sin \\left(\\pi t - \\frac{\\pi}{2}\\right) + 1$$\n\nAndi akan mencapai ketinggian maksimum setiap...menit",
+      "options": [
+        "1",
+        "2",
+        "2,5",
+        "3",
+        "3,5"
+      ],
+      "correctAnswer": "2",
+      "explanation": "Periode dari fungsi h(t) adalah T = 2\\pi / \\pi = 2 menit. Karena ketinggian maksimum dicapai sekali setiap periode, Andi akan mencapai ketinggian maksimum setiap 2 menit."
+    },
+    {
+      "text": "Materi: Fungsi\n\nAndi menaiki wahana roller coaster yang bergerak meliuk-liuk dan naik turun dengan lintasan tertentu. Ketinggian Andi dari atas tanah setelah $t$ menit kereta berjalan didefinisikan oleh fungsi $h(t)$ dalam m.\n\n$$h(t) = \\sin \\left(\\pi t - \\frac{\\pi}{2}\\right) + 1$$\n\nKetinggian Andi dari atas tanah setelah kereta meluncur 50 detik adalah...cm",
+      "options": [
+        "150\\sqrt{3}",
+        "150\\sqrt{2}",
+        "100",
+        "100 + 50\\sqrt{3}",
+        "100 + 50\\sqrt{2}"
+      ],
+      "correctAnswer": "100 + 50\\sqrt{3}",
+      "explanation": "Waktu t = 50 detik = 5/6 menit. Substitusi t ke fungsi h(t): h(5/6) = \\sin(\\pi * 5/6 - \\pi/2) + 1 = \\sin(\\pi/3) + 1 = 1/2 * \\sqrt{3} + 1 meter. Konversi ke cm: (1/2 * \\sqrt{3} + 1) * 100 = 50\\sqrt{3} + 100 cm."
+    },
+    {
+      "text": "Materi: Fungsi\n\nAndi menaiki wahana roller coaster yang bergerak meliuk-liuk dan naik turun dengan lintasan tertentu. Ketinggian Andi dari atas tanah setelah $t$ menit kereta berjalan didefinisikan oleh fungsi $h(t)$ dalam m.\n\n$$h(t) = \\sin \\left(\\pi t - \\frac{\\pi}{2}\\right) + 1$$\n\nAndi menaiki kereta pada pemberhentian pertama yang terletak 1 m di atas tanah dan kemudian akan berhenti pada pemberhentian akhir. Apabila pemberhentian akhir berada di ketinggian 1,5 m di atas tanah, Andi mungkin menaiki kereta tersebut selama...detik",
+      "options": [
+        "40",
+        "50",
+        "70",
+        "80",
+        "90"
+      ],
+      "correctAnswer": "50",
+      "explanation": "Pemberhentian pertama (h = 1 m) terjadi saat \\sin(\\pi t - \\pi/2) = 0, yaitu t = 0.5 menit (30 detik). Pemberhentian akhir (h = 1.5 m) terjadi saat \\sin(\\pi t - \\pi/2) = 0.5, yang memberikan solusi t = 4/3 menit (80 detik) untuk putaran pertama. Durasi perjalanan Andi = 80 detik - 30 detik = 50 detik."
+    },
+    {
+      "text": "Materi: Fungsi\n\nAndi menaiki wahana roller coaster yang bergerak meliuk-liuk dan naik turun dengan lintasan tertentu. Ketinggian Andi dari atas tanah setelah $t$ menit kereta berjalan didefinisikan oleh fungsi $h(t)$ dalam m.\n\n$$h(t) = \\sin \\left(\\pi t - \\frac{\\pi}{2}\\right) + 1$$\n\nApabila kereta bergerak selama 9 menit, kereta Andi akan mencapai tanah sebanyak...kali",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "5",
+      "explanation": "Kereta mencapai tanah saat h(t) = 0, yaitu \\sin(\\pi t - \\pi/2) = -1. Ini terjadi saat t = 2 + 2k menit. Untuk rentang waktu 0 <= t <= 9, nilai t yang memenuhi adalah t = 0, 2, 4, 6, dan 8 menit. Jadi, kereta mencapai tanah sebanyak 5 kali."
+    },
+    {
+      "text": "Materi: KPK dan FPB\n\nGambar di bawah adalah tembok dari sebuah rumah yang akan dipasang keramik berukuran $75 \\times 75 \\text{ cm}^2$. Tembok rumah tersebut berbentuk persegi panjang dengan ukuran $a \\times 9 \\text{ m}$. Keramik harus dibeli per box dengan harga Rp15.000,00.\n\nAgar semua permukaan tembok dapat tertutupi dengan keramik (keramik utuh) maka nilai $a$ yang mungkin adalah...",
+      "options": [
+        "4,9",
+        "5,6",
+        "6,3",
+        "7,0",
+        "7,5"
+      ],
+      "correctAnswer": "7,5",
+      "explanation": "Ukuran keramik adalah 0.75 m x 0.75 m. Agar tertutup dengan keramik utuh, panjang tembok (a) harus merupakan kelipatan dari 0.75 m. Dari pilihan yang ada, hanya 7.5 m yang habis dibagi 0.75 (7.5 / 0.75 = 10)."
+    },
+    {
+      "text": "Materi: KPK dan FPB\n\nGambar di bawah adalah tembok dari sebuah rumah yang akan dipasang keramik berukuran $75 \\times 75 \\text{ cm}^2$. Tembok rumah tersebut berbentuk persegi panjang dengan ukuran $a \\times 9 \\text{ m}$. Keramik harus dibeli per box dengan harga Rp15.000,00.\n\nLuas tembok yang mungkin adalah...\\text{m}^2",
+      "options": [
+        "36",
+        "45",
+        "54",
+        "63",
+        "72"
+      ],
+      "correctAnswer": "54",
+      "explanation": "Luas tembok L = a * 9. Karena a harus merupakan kelipatan dari 0.75 m, maka L = (0.75 * k) * 9 = 6.75 * k. Dari pilihan yang ada, hanya 54 yang menghasilkan nilai k bulat (54 / 6.75 = 8, yang berarti a = 6 m)."
+    },
+    {
+      "text": "Materi: KPK dan FPB\n\nGambar di bawah adalah tembok dari sebuah rumah yang akan dipasang keramik berukuran $75 \\times 75 \\text{ cm}^2$. Tembok rumah tersebut berbentuk persegi panjang dengan ukuran $a \\times 9 \\text{ m}$. Keramik harus dibeli per box dengan harga Rp15.000,00.\n\nApabila nilai $a = 15$ dan setiap box berisi 21 buah keramik, minimal keramik yang harus dibeli adalah...box",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctAnswer": "12",
+      "explanation": "Jumlah keramik arah horizontal = 15 / 0.75 = 20 buah. Jumlah keramik arah vertikal = 9 / 0.75 = 12 buah. Total keramik yang dibutuhkan = 20 * 12 = 240 buah. Jumlah box minimal yang harus dibeli = 240 / 21 = 11.42, dibulatkan ke atas menjadi 12 box."
+    },
+    {
+      "text": "Tembok sebuah rumah yang berbentuk persegi panjang dengan ukuran $a \\times 9\\text{ m}$ akan dipasang keramik berukuran $75 \\times 75\\text{ cm}^2$. Keramik harus dibeli per box dengan harga Rp15.000,00.\n\nApabila nilai $a = 15$ dan setiap box berisi 21 buah keramik, biaya minimal untuk menutupi seluruh permukaan tembok tersebut adalah... ribu rupiah",
+      "options": [
+        "165",
+        "180",
+        "195",
+        "110",
+        "125"
+      ],
+      "correctAnswer": "180",
+      "explanation": "Ukuran tembok: $15\\text{ m} \\times 9\\text{ m}$.\nUkuran keramik: $0,75\\text{ m} \\times 0,75\\text{ m}$.\nBanyak keramik arah mendatar: $15 / 0,75 = 20$ buah.\nBanyak keramik arah vertikal: $9 / 0,75 = 12$ buah.\nTotal keramik yang dibutuhkan: $20 \\times 12 = 240$ buah.\nBanyak box yang harus dibeli: $\\lceil 240 / 21 \\rceil = 12$ box.\nBiaya minimal: $12 \\times \\text{Rp}15.000,00 = \\text{Rp}180.000,00$ atau 180 ribu rupiah."
+    },
+    {
+      "text": "Tembok sebuah rumah yang berbentuk persegi panjang dengan ukuran $a \\times 9\\text{ m}$ akan dipasang keramik berukuran $75 \\times 75\\text{ cm}^2$. Keramik harus dibeli per box dengan harga Rp15.000,00.\n\nApabila $a = 8$, luas tembok minimal yang tidak bisa dipasang keramik adalah... $\\text{m}^2$",
+      "options": [
+        "2,5",
+        "4,5",
+        "5",
+        "7,5",
+        "8"
+      ],
+      "correctAnswer": "4,5",
+      "explanation": "Ukuran tembok: $8\\text{ m} \\times 9\\text{ m}$.\nUkuran keramik: $0,75\\text{ m} \\times 0,75\\text{ m}$.\nBanyak keramik utuh arah mendatar: $\\lfloor 8 / 0,75 \\rfloor = 10$ buah (panjang tertutup = $10 \\times 0,75 = 7,5\\text{ m}$).\nBanyak keramik utuh arah vertikal: $\\lfloor 9 / 0,75 \\rfloor = 12$ buah (panjang tertutup = $12 \\times 0,75 = 9\\text{ m}$).\nLuas tembok yang terpasang keramik utuh: $7,5\\text{ m} \\times 9\\text{ m} = 67,5\\text{ m}^2$.\nLuas tembok minimal yang tidak bisa dipasang keramik utuh: $72\\text{ m}^2 - 67,5\\text{ m}^2 = 4,5\\text{ m}^2$."
+    }
+  ]
+}

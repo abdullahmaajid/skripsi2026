@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Pada suatu semester di sekolah Azik terdapat 3 siswa yaitu Zeze, Eni, dan Uus dengan nilai ujian yang beragam. Nilai Zeze yang paling tinggi adalah 90. Nilai Eni tidak pernah mencapai 71, selalu di bawahnya. Nilai Uus selalu lebih tinggi dari 69. Sistem nilai di sekolah tersebut selalu menggunakan bilangan bulat. Manakah kejadian yang tidak mungkin terjadi pada semester tersebut?",
+      "options": [
+        "Nilai Uus sama dengan nilai Eni dan nilai Zeni lebih kecil dari Uus.",
+        "Nilai Uus lebih tinggi dari Eni tapi lebih rendah dari pada Zeni.",
+        "Nilai Zeni lebih tinggi dari pada Eni tapi lebih rendah dari Uus.",
+        "Nilai Eni lebih tinggi dari pada Uus tapi lebih rendah dari Zeni",
+        "Nilai Uus, Zeni, dan Eni sama."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Waktu istirahat sekolah, Akul bersedia untuk dititipi jajanan sehingga teman-temannya tidak perlu ke kantin. Namun, Akul hanya membolehkan setiap orang menitipkan satu jajanan saja. Bianca, Caca, Dika, dan Era berniat memesan dengan beberapa kondisi. Kalau tidak ada siomay, Bianca ingin seblak. Caca memesan keripik. Jika keripik tidak ada, Caca mau bakso. Dika memesan seblak atau siomay. Era memesan jajanan yang sama dengan Akul. Akul sendiri berniat untuk membeli keripik. Ternyata jajanan yang tidak tersedia adalah siomay, sisanya tersedia. Dengan begitu, apa saja jajanan yang dibeli Akul?",
+      "options": [
+        "Seblak dan keripik.",
+        "Seblak, bakso, dan keripik.",
+        "Siomay dan keripik.",
+        "Keripik dan bakso.",
+        "Tidak ada jawaban yang tepat."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dua tim yang masing-masing terdiri dari 15 orang akan dikirim ke bulan untuk melakukan ekspedisi selama 7 hari. Manakah yang pasti membuat selisih nilai rata-rata tes kesiapan antar kelompok menjadi paling kecil?",
+      "options": [
+        "Memindahkan 2 anggota Graha dengan nilai tertinggi ke kelompok Aktiva.",
+        "Menukar 4 anggota kelompok Graha dengan 4 anggota kelompok Aktiva.",
+        "Menukar 3 anggota Graha dengan nilai terendah dengan 3 anggota Aktiva dengan nilai tertinggi.",
+        "Menukar 2 anggota Aktiva dengan nilai terendah dengan 2 anggota Graha dengan nilai tertinggi.",
+        "Memindahkan 2 anggota Aktiva dengan nilai terendah ke kelompok Graha."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dalam sebuah acara orientasi mahasiswa, mahasiswa harus mengikuti sebuah permainan di malam hari. Kelompok Joni diberikan sebuah permainan menggunakan senter. Di malam itu, panitia A akan mengedipkan cahaya senter setiap 6 detik, sedangkan panitia B akan mengedipkan cahaya senter setiap 8 detik. Panitia A dan B akan mulai permainan ini pada persis pukul 01:04:17 WIB. Kelompok Joni harus berteriak dengan kompak di saat senter dari panitia A dan B berkedip bersamaan untuk yang ketiga kalinya sejak permainan dimulai. Kapankah seharusnya kelompok Joni berteriak?",
+      "options": [
+        "Ketika pukul 01.05.29 WIB",
+        "Ketika pukul 01:05.05 WIB",
+        "Ketika pukul 01.04.41 WIB",
+        "Ketika pukul 01.05.53 WIB",
+        "Ketika pukul 01:04:58 WIB"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "son knitsat chan thi rongreiyn: Aku mengajar matematika di sekolah\nlen bol chan thi rongreiyn: Aku bermain bola di sekolah\nlen kem kheau: Dia bermain game\n\nBerdasarkan informasi di atas, bahasa terjemahan manakah yang artinya \"Insi mengajar biologi di rumah\"?",
+      "options": [
+        "son chiwwithya Insi thi ban",
+        "Insi son chiwwithya thi ban",
+        "len knitsat chan thi ban",
+        "len kem Insi thi rongreiyn",
+        "son knitsat Insi thi rongreiyn"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Miri, Wiri, Kiri, dan Yiri adalah atlet tennis yang akan bertanding di Turnamen Internasional. Mereka bertanding dengan satu sama lain untuk menentukan 1 orang perwakilan. Yiri dikalahkan oleh Miri. Wiri mengalahkan Miri dan Yiri, dan Kiri mengalahkan Wiri, Miri, dan Yiri. Manakah pernyataan di bawah ini yang tidak tepat?",
+      "options": [
+        "Kiri selalu menang",
+        "Miri pernah mengalami kemenangan dan kekalahan",
+        "Wiri pernah mengalami kemenangan dan kekalahan",
+        "Yiri selalu kalah",
+        "Miri peringkat kedua dari hasil pertandingan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Tujuh orang yaitu Aqsa, Boi, Clara, Dazla, Emon, Feanu, dan Gading, melatih tujuh tim olahraga yaitu tim P, Q, R, S, T, U dan V. Tim tersebut berlatih pada hari yang berbeda dari Senin sampai Minggu. Aqsa melatih Tim S pada hari Rabu. Clara tidak melatih Tim P dan R. Jadwal Latihan Clara sehari setelah Dazla melatih Tim U. Feanu melatih Tim T pada hari Jumat. Gading melatih sebuah tim pada hari senin, tetapi bukan Tim R maupun V.\n\nJika Emon melatih tim P pada hari Kamis, kombinasi yang benar adalah ....",
+      "options": [
+        "Dazla – U – Minggu",
+        "Boi – R – Sabtu",
+        "Clara – V – Minggu",
+        "Gading – V – Senin",
+        "Clara – Q – Sabtu"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan Tabel 1, pemerintah berencana menjalankan program vaksinasi dalam jangka waktu 15 bulan, yaitu dari Januari 2021 - Maret 2022, maka berapakah persentase jumlah penduduk yang telah divaksin hingga akhir April 2021 dari total jumlah penduduk Indonesia?",
+      "options": [
+        "19,28%",
+        "22,15%",
+        "32,25%",
+        "44,16%",
+        "28,14%"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan Tabel 1, jika skema vaksinasi Covid-19 tersebut tidak ada perubahan di masa mendatang, manakah kesimpulan di bawah ini yang benar?",
+      "options": [
+        "Jumlah penduduk kelompok petugas publik dan lansia yang divaksin pada periode Januari - April 2021 adalah 37,9 juta",
+        "Total jumlah penduduk yang divaksin pada periode Mei 2021 - Maret 2022 lebih sedikit daripada periode Januari - April 2021",
+        "Selisih kelompok lansia dan masyarakat rentan yang mendapat penyuntikan vaksin adalah 42,4 juta orang",
+        "Jumlah penduduk kelompok masyarakat rentan dan masyarakat lainnya yang divaksin pada periode Mei 2021 - Maret 2022 adalah 140,3 juta",
+        "Persentase jumlah masyarakat lainnya pada skema vaksinasi Covid-19 adalah 48% dari total jumlah penduduk Indonesia"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bilangan yang tepat untuk menggantikan x dan y pada pola bilangan $154, 7, 171, 23, 188, 47, 205, x, y$ di atas adalah ...",
+      "options": [
+        "79 dan 222",
+        "95 dan 246",
+        "159 dan 253",
+        "23 dan 280",
+        "63 dan 232"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Nilai yang tepat menggantikan nilai X pada pola bilangan $X, 100, 202, 541, 1591, 4774$ adalah ....",
+      "options": [
+        "23",
+        "46",
+        "77",
+        "134",
+        "148"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan yang tepat berdasarkan teks tentang seismometer di atas?",
+      "options": [
+        "Jika ada ilmuwan yang mempelajari gempa bumi, dia pasti memantau gempa bumi.",
+        "Jika ada gempa bumi, pasti dipantau seismolog.",
+        "Tidak ada seismolog yang tidak memantau gempa bumi.",
+        "Tidak ada gempa bumi yang dipantau ilmuwan yang mempelajari gempa bumi.",
+        "Semua seismolog memantau gempa bumi di seluruh dunia."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan yang pasti salah berdasarkan teks tentang kuda laut tersebut?",
+      "options": [
+        "Ketika kuda laut dikelola dengan baik, potensi ekonominya dapat dimanfaatkan secara berkelanjutan.",
+        "Kuda laut dikelola dengan baik dan potensi ekonominya tiadk dapat dimanfaarkan secara berkelanjutan.",
+        "Apabila potensi ekonomi kuda laut tidak dapat dimanfaatkan secara berkelanjutan, kuda laut tidak dikelola dengan baik.",
+        "Kuda laut dikelola dengan baik hanya jika potensi ekonominya dapat dimanfaatkan secara berkelanjutan.",
+        "Potensi ekonomi kuda laut dapat dimanfaatkan secara berkelanjutan, apabila kuda laut dikelola dengan baik."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan yang pasti salah berdasarkan teks tentang hewan ruminansia tersebut?",
+      "options": [
+        "Kerbau merupakan hewan yang memamah biak.",
+        "Domba adalah hewan mamalia.",
+        "Semua hewan mamalia merupakan ruminansia.",
+        "Domba adalah hewan mamalia.",
+        "Tidak ada hewan ruminansia yang bukan merupakan hewan mamalia."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan yang pasti benar berdasarkan teks sistem pencernaan hewan ruminansia tersebut?",
+      "options": [
+        "Sistem pencernaan hewan rodensia lebih kompleks dari hewan ruminansia.",
+        "Mikroba yang membantu ruminansia mencerna rumput adalah Escherichia coli.",
+        "Hewan ruminansia hanya memiliki satu lambung.",
+        "Semua mamalia adalah hewan ruminansia.",
+        "Pencernaan ruminansia tidak dibantu oleh protozoa."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Penggunaan platform Steam tidak lagi diperbolehkan bagi seluruh masyarakat Indonesia. Keputusan ini dibuat oleh Otoritas Jasa Keuangan karena Steam tidak mendaftarkan perusahaannya ke PSE Kominfo. Kesimpulan berdasarkan teks di atas adalah Mr Smith bukan masyarakat Indonesia, sehingga dia tetap diperbolehkan menggunakan platform Steam. Manakah kalimat yang tepat menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan pasti benar.",
+        "Simpulan mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan mungkin salah.",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": "Simpulan tidak dapat dinilai karena informasi tidak cukup.",
+      "explanation": null
+    },
+    {
+      "text": "Mahasiswa X berkata, \"Bakteri Escherichia coli tumbuh lebih cepat dengan menggunakan media tumbuh A dibandingkan dengan media tumbuh standar.\" Mahasiswa Y berkata, \"Bakteri Escherichia coli tumbuh lebih lambat dengan menggunakan media tumbuh A dibandingkan dengan media tumbuh B.\" Hasil penelitian ahli menunjukkan bahwa bakteri Escherichia coli tumbuh dengan kecepatan optimum dengan menggunakan media tumbuh B. Manakah pernyataan yang tepat mengenai hasil penelitian ahli tersebut?",
+      "options": [
+        "Memperkuat pernyataan mahasiswa X.",
+        "Memperlemah pernyataan mahasiswa X.",
+        "Memperkuat pernyataan mahasiswa Y.",
+        "Memperlemah pernyataan mahasiswa Y.",
+        "Tidak relevan dengan pernyataan mahasiswa X dan Y."
+      ],
+      "correctAnswer": "Memperkuat pernyataan mahasiswa Y.",
+      "explanation": null
+    },
+    {
+      "text": "Guru Besar Institut Pertanian Bogor (IPB) University Anuraga Jayanegara mengungkapkan keberadaan sekitar 16 juta ekor sapi pedaging dan 600.000 sapi perah di peternakan di Indonesia berdampak pada pemanasan global. Hal itu diungkapkannya saat orasi ilmiah menjelang pengukuhan dirinya sebagai Guru Besar Tetap IPB University oleh Dewan Guru Besar, di Bogor, Kamis (16/9). Manakah yang dapat memperkuat klaim guru besar tersebut?",
+      "options": [
+        "Sapi mengonsumsi rumput dalam jumlah besar.",
+        "Jumlah sapi di Indonesia paling banyak dibandingkan negara lain di seluruh dunia.",
+        "Sapi menggunakan lahan yang paling besar dibandingkan dengan hewan pedaging lainnya.",
+        "Sapi memiliki lambung yang unik dibandingkan dengan hewan yang lainnya.",
+        "Sapi menghasilkan gas penyebab efek rumah kaca terbesar dibandingkan hewan pedaging lainnya."
+      ],
+      "correctAnswer": "Sapi menghasilkan gas penyebab efek rumah kaca terbesar dibandingkan hewan pedaging lainnya.",
+      "explanation": null
+    },
+    {
+      "text": "Perubahan iklim adalah adanya perubahan temperatur dan pola cuaca dalam jangka waktu yang panjang. Sejak tahun 1800, aktivitas manusia adalah penyebab utama dari bertambah cepatnya proses perubahan iklim. Manakah yang dapat memperlemah klaim pada teks di atas?",
+      "options": [
+        "Perubahan iklim sesungguhnya terjadi secara alami, karena adanya variasi siklus matahari.",
+        "Perubahan iklim seharusnya tidak terlalu dipermasalahkan karena kerugiannya baru akan terasa di masa depan.",
+        "Manusia menggunakan bahan bakar fosil yang menyumbang gas penyebab rumah kaca dalam jumlah yang tinggi.",
+        "Dengan ataupun tanpa manusia, perubahan iklim pasti terjadi.",
+        "Bencana alam paling banyak berkontribusi untuk menyumbang gas penyebab rumah kaca."
+      ],
+      "correctAnswer": "Bencana alam paling banyak berkontribusi untuk menyumbang gas penyebab rumah kaca.",
+      "explanation": null
+    },
+    {
+      "text": "Peternak Lele X menyatakan, \"ikan lele yang diberi pakan pelet super memiliki bobot yang lebih besar dibandingkan dengan pelet biasa.\" Peternak Lele Y menyatakan, \"memelihara lele pada kolam besar dapat menampung lele dalam jumlah banyak.\" Survey dari beberapa peternak lele menunjukan bahwa penjualan lele tahun ini meningkat dibandingkan tahun sebelumnya. Manakah pernyataan yang tepat mengenai hasil survei tersebut?",
+      "options": [
+        "Memperkuat pernyataan peternak lele X",
+        "Memperlemah pernyataan peternak lele X",
+        "Memperkuat pernyataan peternak lele Y",
+        "Memperlemah pernyataan peternak lele Y",
+        "Tidak relevan dengan pernyataan peternak lele X dan Y"
+      ],
+      "correctAnswer": "Tidak relevan dengan pernyataan peternak lele X dan Y",
+      "explanation": null
+    }
+  ]
+}

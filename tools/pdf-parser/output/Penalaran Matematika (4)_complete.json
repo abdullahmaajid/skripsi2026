@@ -1,0 +1,243 @@
+{
+  "questions": [
+    {
+      "text": "Interaksi antara wilayah desa dan kota secara dua arah sangat diperlukan agar terbentuk arus permintaan, penawaran, dan pembangunan sehingga kebutuhan di wilayah desa maupun kota saling terpenuhi. Teori Interaksi Desa-Kota adalah teori yang terinspirasi dari Sir Isaac Newton.\nPerumusan dari kekuatan Interaksi Desa-Kota adalah hasil kali antara jumlah penduduk masing-masing wilayah dibagi oleh kuadrat dari jarak mutlak antara kedua wilayah. Semakin besar nilai kekuatan interaksi tersebut, artinya sering terjadi pergerakan penduduk antarwilayah.\n\nWilayah | Banyak Penduduk\nA | 12.000\nB | 15.000\nC | 24.000\n\nJarak Mutlak Antarwilayah (km) | A | B | C\nA | 0 | 30 | 40\nB | 30 | 0 | 80\nC | 40 | 80 | 0\n\nManakah pernyataan yang tepat berkaitan dengan kasus di atas?",
+      "options": [
+        "Pergerakan penduduk wilayah A ke wilayah C sama seringnya dengan ke wilayah B.",
+        "Interaksi A-B lebih besar daripada A-C, dengan kata lain penduduk wilayah A lebih sering berinteraksi dengan penduduk wilayah B dibandingkan dengan C.",
+        "Interaksi A-B lebih besar daripada A-C, dengan kata lain penduduk wilayah A lebih sering berinteraksi dengan penduduk wilayah C dibandingkan dengan B.",
+        "Interaksi A-C lebih besar daripada A-B, dengan kata lain penduduk wilayah A lebih sering berinteraksi dengan penduduk wilayah C dibandingkan dengan B.",
+        "Interaksi A-C lebih besar daripada A-B, dengan kata lain penduduk wilayah A lebih sering berinteraksi dengan penduduk wilayah B dibandingkan dengan C."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada tanggal 1 Mei 2022, sebuah UMKM memproduksi 40 porsi abon kemasan. Sejak saat itu, banyak porsi abon kemasan bertambah 5 porsi setiap harinya. Dengan pegawai yang ada, seharusnya UMKM dapat memproduksi 100 porsi abon kemasan per hari. Jika UMKM selalu konsisten mencapai peningkatan target produksi harian, pada tanggal berapakah mereka harus mulai menambah pegawai?",
+      "options": [
+        "11 Mei 2022",
+        "12 Mei 2022",
+        "13 Mei 2022",
+        "14 Mei 2022",
+        "15 Mei 2022"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah larutan dapat bersifat asam, basa, atau netral. Derajat keasaman digunakan untuk menyatakan tingkat keasaman dari suatu larutan, dinamakan sebagai pH (power of Hydrogen). Nilai pH didefinisikan sebagai negatif dari nilai logaritma dari konsentrasi ion hidrogen $[H^+]$ yang terlarut. Konsentrasi ion hidrogen adalah hasil kali antara nilai valensi $H^+$ dengan molaritas.\nLarutan asam sulfat ($H_2SO_4$) terionisasi menjadi:\n$H_2SO_4 \\rightarrow 2H^+ + SO_4^{2-}$\nValensi $H^+$ dapat diartikan sebagai jumlah ion $H^+$, yaitu koefisien dari $H^+$. Nilai pH larutan asam sulfat dengan molaritas $0,03\\text{ M}$ adalah .... (Bantuan: $\\log 6 = 0,778$)",
+      "options": [
+        "1,128",
+        "1,186",
+        "1,222",
+        "1,451",
+        "1,582"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jennie berencana membuat celana dan rok dari perpaduan antara kain katun dan denim. Setiap celana dibuat dari kain katun dan denim yang sama banyak, begitu juga dengan rok. Jennie memiliki persedian 10 meter katun dan 12 meter denim.\nSatu celana membutuhkan $0,4$ meter katun dan $1$ meter denim. Satu rok membutuhkan $1$ meter katun dan $1,5$ meter denim.\nApakah Jennie memiliki katun dan denim yang cukup untuk membuat 5 celana dan 6 rok?",
+      "options": [
+        "Jennie kekurangan katun dan denim.",
+        "Jennie memiliki cukup katun dan denim.",
+        "Jennie memiliki cukup katun, tapi kekurangan denim.",
+        "Jennie memiliki cukup denim, tapi kekurangan katun.",
+        "Sebaiknya Jennie beli saja celana dan rok dari distributor agar tidak usah menghitung."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Medan magnet adalah daerah di sekitar magnet yang dipengaruhi oleh gaya magnetik. Di sekitar benda yang dialiri listrik, akan muncul juga medan magnet. Kompas merupakan penunjuk arah. Akan tetapi, arah jarum kompas akan menyimpang jika ada sumber magnet lain di dekat kompas, contohnya kabel yang dialiri listrik.\n\nRumus dari besarnya medan magnet adalah $B = \\frac{\\mu_0 I}{2\\pi r}$, dengan:\n- $I = \\text{arus listrik (Ampere atau A)}$\n- $r = \\text{jarak antara pengukur dan sumber magnet (meter atau m)}$\n- $\\mu_0 = 4\\pi \\times 10^{-3} \\text{ (Gm / A)}$\n\nHaechan berdiri $3\\text{ m}$ di bawah kabel yang dialiri listrik berarus $600\\text{ A}$. Ia sedang mengelompokkan penyimpangan jarum kompas.\n\nBesar Medan Magnet (G) | Kondisi Arah Kutub Kompas\n0 | Tidak bereaksi\n$0 < B \\le 0,2$ | Penyimpangan jarum level 1\n$0,2 < B \\le 0,3$ | Penyimpangan jarum level 2\n$0,3 < B \\le 0,4$ | Penyimpangan jarum level 3\n$0,4 < B \\le 0,5$ | Penyimpangan jarum level 4\n\nManakah kategori yang diperoleh Haechan?",
+      "options": [
+        "Arah kompas tidak bereaksi",
+        "Penyimpangan level 1",
+        "Penyimpangan level 2",
+        "Penyimpangan level 3",
+        "Penyimpangan level 4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebanyak 160 pemuda terjebak pinjaman online dari perusahaan bernama “Ekor Naga” demi mengikuti gaya hidup idolanya di TokTok. Untuk itu, Ekor Naga menggunakan jasa debt collector bernama Sakti Mandragon guna menagih pinjaman. Berdasarkan data, dari 8 orang yang ditagih oleh Sakti Mandragon, ada 7 orang yang akan melunasi hutangnya. Berapa pelunasan hutang yang dapat diharapkan oleh Ekor Naga?",
+      "options": [
+        "160 orang.",
+        "140 orang.",
+        "80 orang.",
+        "60 orang.",
+        "30 orang."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah warung kopi kekinian yang baru buka menjual segelas kopi seharga Rp20.000,00. Dalam mencari pelanggan, warung melakukan beragam kegiatan marketing. Ketika melakukan program give away iphone seharga Rp8.000.000,00, ada 500 pelanggan baru yang masing-masing membeli segelas kopi.\nPada bulan berikutnya, warung kopi menggunakan jasa endorsement dari seorang selebritas di instagram dengan biaya Rp5.000.000,00. Melalui kode spesial, terjual 250 gelas kopi.\nSalah satu tolak ukur kesuksesan program marketing adalah Customer Acquisition Cost (CAC). CAC didefinisikan sebagai biaya marketing yang dikeluarkan untuk setiap pelanggan baru yang membeli kopi.\n\nBerapakah CAC dari program give away iphone saja?",
+      "options": [
+        "Rp10.000,00",
+        "Rp16.000,00",
+        "Rp17.333,33",
+        "Rp20.000,00",
+        "Rp32.000,00"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Setelah kedua program marketing dievaluasi, ditemukan bahwa Marketing ROI dari salah satu program lebih tinggi dibandingkan yang lain. Berapakah Marketing ROI dari program tersebut?",
+      "options": [
+        "10%",
+        "15%",
+        "20%",
+        "25%",
+        "30%"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Setiap kali ada investor yang memberikan dana investasi, sebuah perusahaan startup akan menerbitkan lembaran saham baru sehingga jumlah sahamnya bertambah. Setiap lembaran saham ini memiliki nominal yang sama. Kepemilikan sebuah lembaga atau perseorangan terhadap sebuah perusahaan merupakan perbandingan antara jumlah saham yang dimilikinya dengan total saham yang ada di sebuah perusahaan.\n\nInkubator startup bernama Sandbox memberikan investasi sebesar 150.000 USD dan mendapatkan 100 lembar saham dari Samsan Tech. Sebelum mendapat pendanaan dari Sandbox, Samsan Tech memiliki 400 lembar saham. Setelah Sandbox memberikan investasi, Nam So Dan memiliki 60% saham pada Samsan Tech. Selain Nam So Dan dan Sandbox, terdapat Reihan dan Rohim sebagai pemilik saham Samsan Tech.\n\nElon Musk berencana untuk membeli seluruh saham milik Nam So Dan. Berapakah uang yang harus disiapkan Elon Musk?",
+      "options": [
+        "900.000 USD",
+        "750.000 USD",
+        "600.000 USD",
+        "450.000 USD",
+        "300.000 USD"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada awalnya, Elon Musk berencana untuk membeli semua saham Nam So Dan. Ternyata, Nam So Dan tidak tertarik untuk menjualnya kepada Elon Musk. Namun, Reihan dan Rohim bersedia menjual saham mereka kepada Elon Musk. Berapakah jumlah saham yang akan diperoleh oleh Elon Musk jika transaksi ini berhasil?",
+      "options": [
+        "500 lembar",
+        "400 lembar",
+        "300 lembar",
+        "200 lembar",
+        "100 lembar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $-1 \\le a \\le 0,2 \\le b < 5$, dengan $(a, b)$ bilangan bulat dan $c = a - b$.\nManakah hubungan yang benar antara kuantitas P dan Q berikut berdasar informasi yang diberikan?\nP: Banyak c yang mungkin\nQ: 4",
+      "options": [
+        "P > Q",
+        "Q > P",
+        "P = Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan salah satu dari tiga pilihan di atas."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $2019ab + 7 = 2018$ maka $4038ab$ adalah...",
+      "options": [
+        "4018",
+        "4022",
+        "4036",
+        "4040",
+        "4042"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan persamaan matriks berikut!\n$\\begin{pmatrix} -19 & 2 \\\\ 0 & 3 \\end{pmatrix} = \\begin{pmatrix} ab & 8 \\\\ 6 & -2 \\end{pmatrix} - \\begin{pmatrix} -1 & 6 \\\\ 6 & b + 4 \\end{pmatrix}$\nNilai a yang memenuhi persamaan di atas adalah ...",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Farid berencana membeli 22 potong ayam dari toko A maupun toko B dengan pertimbangan harga berikut:\n\nRincian paket | Toko A | Toko B\nHarga paket 3 potong ayam | Rp40.000,00 | Rp35.000,00\nHarga paket 5 potong ayam | Rp55.000,00 | Rp60.000,00\nOngkos ke toko | Rp10.000,00 | Rp30.000,00\n\nJumlah uang yang dibutuhkan Farid agar bisa membeli 22 potong ayam di toko A maupun toko B adalah ....",
+      "options": [
+        "Rp270.000,00",
+        "Rp275.000,00",
+        "Rp280.000,00",
+        "Rp285.000,00",
+        "Rp290.000,00"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Suatu balok memiliki tiga jenis luas sisi, yaitu $32\\text{ cm}^2$, $64\\text{ cm}^2$, dan $128\\text{ cm}^2$. Panjang setiap rusuk balok merupakan bilangan kelipatan 4 yang berbeda. Panjang diagonal sisi maksimum yang mungkin adalah ....",
+      "options": [
+        "$4\\sqrt{5}$",
+        "$4\\sqrt{10}$",
+        "$4\\sqrt{17}$",
+        "$8\\sqrt{5}$",
+        "$8\\sqrt{10}$"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dalam sebuah alur permainan, $A \\rightarrow b$ diterjemahkan sebagai tantangan $b$ dapat dilakukan jika salah satu tantangan di himpunan $A$ sudah dilalui.\nDiketahui:\n{ $\\emptyset$ } $\\rightarrow T_1$\n{ $\\emptyset$ } $\\rightarrow T_2$\n{ $T_1$ } $\\rightarrow T_3$\n{ $T_2, T_3$ } $\\rightarrow T_4$\n{ $T_1, T_4$ } $\\rightarrow T_5$\n{ $T_2, T_3, T_4$ } $\\rightarrow T_6$\n{ $T_1, T_5, T_6$ } $\\rightarrow T_7$\n\nJika permainan dimulai dari simbol himpunan kosong, ada berapa pernyataan benar untuk sampai ke tantangan $T_7$?\n(1) $T_1 \\rightarrow T_3 \\rightarrow T_6 \\rightarrow T_7$\n(2) $T_2 \\rightarrow T_3 \\rightarrow T_4 \\rightarrow T_7$\n(3) $T_1 \\rightarrow T_6 \\rightarrow T_7$\n(4) $T_1 \\rightarrow T_5 \\rightarrow T_7$",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "FPB dari tiga buah bilangan cacah berbeda $k, l, m$ dengan $m > 4$ yaitu 2. Jika $(l + 2) : k = 6$ dan $km = 32$, maka pernyataan yang benar untuk nilai $k, l, m$ yang mungkin ada ...\n(1) Hasil bagi bilangan terbesar dan terkecil dari suatu pasangan $k, l, m$ adalah 5 dan bersisa 2.\n(2) Selisih kedua bilangan terkecil dari suatu pasangan $k, l, m$ adalah 2.\n(3) Ada 3 pasang $k, l, m$ yang mungkin.\n(4) KPK dari ketiga bilangan tersebut kurang dari 100.",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Semua pasangan $(a, b)$ yang $a$ dan $b$ merupakan anggota $\\{0, 2, 4, 5, 6, 7, 9\\}$ memenuhi $\\lim_{x \\to -2} \\frac{ax+b}{x+1} = 8$ berdasarkan informasi di atas, pernyataan yang tepat mengenai nilai $a$ dan $b$ ada...\n(1) $a > b$\n(2) $a = b$\n(3) $2a - b = 8$\n(4) Terdapat tepat tiga pasang nilai $a$ dan $b$ yang memenuhi",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diberikan persamaan $a_{k+2} = a_{k-1} + 2a_k$ dengan $a_4 = 8$ dan $a_5 = 13$. Berapakah nilai $a_2$? Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan. (1) $a_1 = 2$ (2) $a_6 = 21$",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pernyataan, tetapi SATU pernyataan SAJA tidak cukup.",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup.",
+        "Pernyataan (1) dan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup.",
+      "explanation": "Berdasarkan kunci jawaban, jawabannya adalah D."
+    },
+    {
+      "text": "Sekelompok data terdiri dari 4 bilangan prima kurang dari 20. Jika jangkauan data tersebut 2, berapakah rata-ratanya? Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut! (1) Modus = 5 (2) Median = 5",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pernyataan, tetapi SATU pernyataan SAJA tidak cukup.",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup.",
+        "Pernyataan (1) dan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": "Pernyataan (1) dan (2) tidak cukup untuk menjawab pertanyaan.",
+      "explanation": "Berdasarkan kunci jawaban, jawabannya adalah E."
+    }
+  ]
+}

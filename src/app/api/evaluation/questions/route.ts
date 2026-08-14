@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server"
 import { prisma } from "@/lib/prisma"
+import { getCachedSyllabus } from "@/lib/cache"
 import { auth } from "@/auth"
 
 export const dynamic = "force-dynamic"
@@ -35,6 +36,7 @@ export async function GET(request: Request) {
         } : {})
       },
       orderBy: { answeredAt: "desc" },
+      take: 200,
       select: {
         questionId: true,
         flagged: true,
@@ -85,11 +87,8 @@ export async function GET(request: Request) {
 
     const uniqueQuestions = Array.from(uniqueQuestionsMap.values())
 
-    // Also fetch available subjects for filtering
-    const subjects = await prisma.subject.findMany({
-      select: { id: true, name: true },
-      orderBy: { name: "asc" }
-    })
+    // Also fetch available subjects for filtering (from cache)
+    const subjects = await getCachedSyllabus()
 
     return NextResponse.json({
       questions: uniqueQuestions,

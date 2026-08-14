@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "$12{,}5\\% \\text{ dari } 72 + 0{,}111 \\text{ dari } 90 = \\dots$",
+      "options": [
+        "17",
+        "19",
+        "25",
+        "27",
+        "30"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Terdapat sebuah barisan aritmatika dengan suku ketiga adalah 13 dan suku ketujuh adalah 29, berapakah jumlah dari suku ke 5 ...",
+      "options": [
+        "65",
+        "21",
+        "44",
+        "50",
+        "25"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah baju supreme dijual dengan harga awal sebesar Rp250.000, setelah mendapatkan diskon harga menjadi Rp225.000, berapa persenkah diskon baju supreme tersebut?",
+      "options": [
+        "10%",
+        "25%",
+        "30%",
+        "40%",
+        "50%"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "A, B, dan C adalah bilangan prima kurang dari 15 dan bukan 1. Jika C = 11, berapakah nilai dari A + B + C? 1) A adalah bilangan yang habis dibagi 15 dan 10 2) B x C = 33",
+      "options": [
+        "pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan persegi panjang ABCD, persegi ADGF dan Segitiga siku-siku CDE ! Jika panjang DE = 25 cm,. Jika ruas FG tegak lurus pada ruas BA, berapakah luas persegi yang diarsir? 1) CE = 7 cm 2) Luas persegi panjang BCGF = ADGF",
+      "options": [
+        "pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapakah kuantitas $x^0 = \\dots$",
+      "options": [
+        "15°",
+        "30°",
+        "32°",
+        "34°",
+        "36°"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Taman berbentuk persegi panjang dengan ukuran panjang $(2x + 27)$ meter dan lebarnya $(6x - 39)$ meter. Jika kelilingnya tidak kurang dari 120 meter, panjang taman (p) adalah ....",
+      "options": [
+        "p ≥ 45",
+        "p ≥ 60",
+        "p < 45",
+        "p < 60",
+        "p < 70"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Harga sebuah pensil Rp. 5,000 dan harga sebuah buku Rp. 10,000. Berapakah harga tiga pensil dan dua buku?",
+      "options": [
+        "Rp.25,000",
+        "Rp.30,000",
+        "Rp.35,000",
+        "Rp.40,000",
+        "Rp.45,000"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika hari ini adalah hari selasa, maka $\\frac{3}{2}$ bulan kemudian adalah hari?",
+      "options": [
+        "Selasa",
+        "Rabu",
+        "Kamis",
+        "Jumat",
+        "Sabtu"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jarak lompatan seorang atlet tercatat 7,7; 6,8; 6,5; 8,0; 8,5. Berapa mediannya?",
+      "options": [
+        "6,5",
+        "6,8",
+        "7,7",
+        "8,0",
+        "8,5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Nilai $x = 0,4$, $y = 0,36$, dan $z = \\sqrt{10x^2 - 3y}$. Manakah pernyataan di bawah yang benar 1) y < z 2) x > z 3) z = 1 4) x + y = 1",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Indah memperoleh nilai secara berurutan 90, 80, 75, dan 60 untuk 4 mata pelajaran. Di pelajaran ke 5 Indah memperoleh memperoleh nilai 85. 1) Rata-rata 4 mata pelajarannya adalah 77 2) Rata-rata 3 pelajaran pertama adalah 81,67 3) Rata-rata 5 pelajarannya adalah 80 4) Rata-rata 5 pelajarannya adalah 78",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $1 < x < 4$ dan $2 < y < 10$, x dan y merupakan bilangan bulat. Manakah yang mungkin merupakan x + y?",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Terdapat sebuah persamaan fungsi $f(x, y) = x^2 - 3y + 4$. Manakah bentuk yang menyatakan hubungan kuantitas antara nilai P dan nilai Q.",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah hubungan yang benar antara kuantitas P dan Q berdasarkan informasi yang diberikan?",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 0",
+        "tidak dapat ditentukan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

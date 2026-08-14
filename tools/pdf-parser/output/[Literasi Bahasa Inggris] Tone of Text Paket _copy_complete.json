@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "text": "What is the tone of the passage?",
+      "options": [
+        "Humorous",
+        "Argumentative",
+        "Descriptive",
+        "Cynical",
+        "Narrative"
+      ],
+      "correctAnswer": "Descriptive",
+      "explanation": "The passage describes the physical structure and characteristics of amoebas."
+    },
+    {
+      "text": "The tone of this passage could best be described as",
+      "options": [
+        "concerned",
+        "calm",
+        "emotional",
+        "informative",
+        "exaggerated"
+      ],
+      "correctAnswer": "concerned",
+      "explanation": "The author expresses worry and a strong urge to be more efficient with water consumption due to scarcity."
+    },
+    {
+      "text": "The author's attitude towards the text is …",
+      "options": [
+        "Tolerant",
+        "Unhappy",
+        "Worried",
+        "Critical",
+        "Concerned"
+      ],
+      "correctAnswer": "Concerned",
+      "explanation": "The author discusses a crucial problem regarding the right to education and the burden of distance learning costs on the poor."
+    },
+    {
+      "text": "The sentence “Among respondents with family members carrying out distance learning, 67 percent them said it was very or quite costly.” means that …",
+      "options": [
+        "67 percent of distance learning was very costly",
+        "67 percent Family members said distance learning was very costly",
+        "67 percent respondents said distance learning was very costly",
+        "67 family members said distance learning was very costly",
+        "67 respondents said distance learning was very costly"
+      ],
+      "correctAnswer": "67 percent respondents said distance learning was very costly",
+      "explanation": "It refers to the percentage of respondents who reported high costs."
+    },
+    {
+      "text": "The tone of this passage is …",
+      "options": [
+        "Critical",
+        "Amused",
+        "Objective",
+        "Outraged",
+        "Humorous"
+      ],
+      "correctAnswer": "Objective",
+      "explanation": "The text presents scientific facts about plant chemicals and caterpillar cannibalism neutrally."
+    },
+    {
+      "text": "The tone of this passage is. . .",
+      "options": [
+        "Critical",
+        "Pessimistic",
+        "Concerned",
+        "Informative",
+        "Persuasive"
+      ],
+      "correctAnswer": "Informative",
+      "explanation": "The passage provides information regarding how AI is used to study earthquake aftershocks."
+    },
+    {
+      "text": "It can be inferred from the text that. . .",
+      "options": [
+        "prior to 1992, research was focused on measuring the magnitude of the main earthquake.",
+        "an aftershock indicates that the subsurface is undergoing a permanent fault shift.",
+        "due to its limitations, AI most likely cannot perform as fast as it is needed.",
+        "the more powerful an earthquake, the more aftershocks will occur.",
+        "the aftershock almost always immediately follows an earthquake."
+      ],
+      "correctAnswer": "due to its limitations, AI most likely cannot perform as fast as it is needed.",
+      "explanation": "The text states that in the immediate aftermath of a big quake, necessary data wouldn't be available for at least a day."
+    },
+    {
+      "text": "The tone of this passage is ...",
+      "options": [
+        "Critical",
+        "Pessimistic",
+        "Concerned",
+        "Informative",
+        "Persuasive"
+      ],
+      "correctAnswer": "Informative",
+      "explanation": "The passage informs readers about the change in Australia's national anthem and the reasons behind it."
+    },
+    {
+      "text": "Based on paragraph 2, why does the Australian Government need to change some lines of their national anthem …",
+      "options": [
+        "To dissect the indigenous people from Australian culture",
+        "To embrace the diversity in Australia",
+        "To reduce the white centric feeling in Australia",
+        "To provide the history of Australia settlement",
+        "To colonise the indigenous people once again"
+      ],
+      "correctAnswer": "To embrace the diversity in Australia",
+      "explanation": "The change recognizes the nation's multiculturalism and indigenous history."
+    },
+    {
+      "text": "What can be inferred about high-skill jobs?",
+      "options": [
+        "There is a decline in vacancy.",
+        "They are at great risk for automation.",
+        "They require more cognitive skills than social skills.",
+        "They play a role in the automation of low-skill and middle-class jobs.",
+        "They are relatively safe from being automated in the labor market."
+      ],
+      "correctAnswer": "They are relatively safe from being automated in the labor market.",
+      "explanation": "The passage states that high-skill jobs requiring cognitive skills, creative acumen, and leadership expertise have not been affected by automation."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "questions": [
+    {
+      "text": "Pernyataan berikut yang paling tepat mengenai survei yaitu?\n\nA menyatakan, \\( \\text{\\textquotedblleft Tingkat konsumsi makanan cepat saji di Amerika telah melebihi batas wajar sehingga menyebabkan obesitas.\\textquotedblright} \\)\n\nB menyatakan, \\( \\text{\\textquotedblleft Konsumsi makanan cepat saji tidak berpengaruh pada kesehatan warga Amerika.\\textquotedblright} \\)\n\nSurvei menunjukkan bahwa mayoritas warga Amerika yang mengalami obesitas memakan tiga kali lebih banyak porsi makanan cepat saji dibandingkan warga lain di dunia.",
+      "options": [
+        "Memperkuat pernyataan A",
+        "Memperlemah pernyataan A",
+        "Memperkuat pernyataan B",
+        "Memperlemah pernyataan B",
+        "Tidak relevan dengan pernyataan A dan B"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan berikut yang paling tepat mengenai survei yaitu?\n\nOrang yang terpapar musik memiliki kesehatan otak yang lebih baik. Musik dapat mengaktifkan hampir semua jaringan otak, termasuk yang terlibat dalam emosi, memori, dan motorik, yang dapat membantu menjaga jaringan dan jalur otak tetap kuat. musik juga bisa meningkatkan kualitas hidup, meningkatkan pembelajaran, merangsang fungsi kognitif, dan mendorong kebahagiaan. Terlepas dari apakah seseorang aktif atau hanya mendengarkan backround music, musik dapat memberikan manfaat kesehatan mental dan otak yang positif bagi pendengarnya.",
+      "options": [
+        "Memperkuat pernyataan A",
+        "Memperlemah pernyataan A",
+        "Memperkuat pernyataan B",
+        "Memperlemah pernyataan B",
+        "Tidak relevan dengan pernyataan A dan B"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan di bawah ini yang MEMPERLEMAH dan TIDAK MEMPERLEMAH pernyataan di atas?\n\nDalam proyek infrastruktur, Nirwono memproyeksikan investasi yang dilakukan oleh Danantara akan berfokus terhadap pembangunan infrastruktur yang dapat menghasilkan keuntungan secara cepat.",
+      "options": [
+        "1, 2, dan 3",
+        "2, 4, dan 5",
+        "1, 3, dan 5",
+        "2 dan 5",
+        "4 saja"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan di bawah ini yang MEMPERLEMAH dan TIDAK MEMPERLEMAH pernyataan di atas?",
+      "options": [
+        "1, 2, dan 3",
+        "2, 4, dan 5",
+        "1, 3, dan 5",
+        "2 dan 3",
+        "4 saja"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ketika harga barang semakin meningkat, maka penjualan akan semakin menurun. Hal ini berdampak pada masyarakat. Ketika inflasi meningkat, masyarakat pun merespon dengan mulai menyimpan uang dan melakukan penghematan dalam pembelian barang-barang tersier. Hal ini sejalan dengan survei yang dilakukan 3 bulan terakhir, yang menggambarkan bagaimana penjualan barang seperti kendaraan dan pakaian menurun namun penjualan bahan pokok tetap stabil.\n\nBerdasarkan paragraf di atas, manakah simpulan yang paling didukung?",
+      "options": [
+        "Inflasi membuat masyarakat tenang dan tetap membeli barang-barang mewah",
+        "Harga barang elektronik dan makanan mengalami penurunan selama inflasi",
+        "Permintaan terhadap barang non-esensial menurun pada saat inflasi tinggi",
+        "Semua barang mengalami penurunan permintaan selama inflasi",
+        "Masyarakat tetap membeli barang non-esensial dalam jumlah yang sama selama inflasi"
+      ],
+      "correctAnswer": "Permintaan terhadap barang non-esensial menurun pada saat inflasi tinggi",
+      "explanation": null
+    },
+    {
+      "text": "Nilai akhir siswa berprestasi di suatu sekolah ditentukan dengan menjumlahkan nilai capaian akademik dan nilai keaktifan dalam kegiatan. Bobot nilai capaian akademik 70%, sedangkan bobot nilai keaktifan kegiatan non-akademik 30%. Berikut adalah nilai lima siswa terbaik di sekolah:\n\nSiswa | Nilai akademik | Nilai non-akademik\nA | 60 | 70\nB | 50 | 90\nC | 60 | 80\nD | 70 | 80\nE | 80 | 50\n\nDiantara ke lima siswa tersebut, siswa mana yang paling berprestasi?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "Diantara ke lima siswa tersebut, siswa mana berada di urutan ke-3 paling berprestasi?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Diantara ke lima siswa tersebut, siswa mana yang berprestasi terendah?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "Untuk membuat Baso, Andre memerlukan 3 jenis bahan yakni air, daging dan tepung. Takaran yang dibutuhkan untuk masing-masing air, daging dan tepung adalah \\( 2 : 3 : 5 \\) dalam takaran 1 kg.\n\nJika produksi pada hari Senin memerlukan 10kg Baso, berpakah berat tepung yang dibutuhkan?",
+      "options": [
+        "5kg",
+        "4kg",
+        "4.5kg",
+        "4,8kg",
+        "5.2kg"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika produksi pada hari Senin memerlukan 10kg Bakso, berpakah berat daging yang dibutuhkan?",
+      "options": [
+        "3kg",
+        "4kg",
+        "4.5kg",
+        "4,8kg",
+        "5.2kg"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika produksi pada hari Senin memerlukan 10kg Bakso, berpakah berat air dibutuhkan?",
+      "options": [
+        "2kg",
+        "3kg",
+        "2.5kg",
+        "2,8kg",
+        "2.2kg"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan teks berikut untuk menjawab soal nomor 27 - 28.\n\nAndi ingin membeli 4 kebutuhannya untuk bersekolah, berikut adalah ketentuan harga empat kebutuhan yang akan dibeli:\n1) Sepatu memiliki harga setengah dari harga tas.\n2) Tas memiliki harga dua kali dari harga 12 lusin buku.\n3) 12 lusin buku memiliki harga dua pertiga dari harga seragam.\n4) Seragam memiliki harga Rp300.000.\n\nBerdasarkan bacaan tersebut, manakah informasi yang dibutuhkan untuk mengetahui harga tas?",
+      "options": [
+        "4 saja",
+        "3 dan 4",
+        "2, 3, dan 4",
+        "1, 3, dan 4",
+        "1, 2, 3, dan 4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, manakah informasi yang dibutuhkan untuk mengetahui harga sepatu?",
+      "options": [
+        "4 saja",
+        "3 dan 4",
+        "2, 3, dan 4",
+        "1, 3, dan 4",
+        "1, 2, 3, dan 4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Seorang anak mengonsumsi gulali setiap hari. Dari tanggal 9 Januari hingga 13 Januari, jumlah cokelat yang ia makan adalah 3, 5, 7, 9, dan 11 batang per hari. Apabila pola tersebut berlanjut secara konstan, rata-rata jumlah cokelat yang ia konsumsi dari tanggal 9 hingga 15 Januari per hari adalah ... batang.",
+      "options": [
+        "9",
+        "6",
+        "8",
+        "6",
+        "7"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

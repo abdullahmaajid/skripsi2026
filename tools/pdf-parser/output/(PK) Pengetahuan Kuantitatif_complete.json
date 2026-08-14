@@ -1,0 +1,180 @@
+{
+  "questions": [
+    {
+      "text": "Diketahui dalam suatu kelompok terdapat 4 kimiawan dan 3 fisikawan, banyaknya cara membuat tim beranggotakan 3 orang yang terdiri dari 2 kimiawan dan 1 fisikawan adalah...",
+      "options": [
+        "18",
+        "6",
+        "3",
+        "9",
+        "12"
+      ],
+      "correctAnswer": "18",
+      "explanation": "Banyak cara = C(4,2) * C(3,1) = (4! / (2! * 2!)) * (3! / (1! * 2!)) = 6 * 3 = 18."
+    },
+    {
+      "text": "Diketahui 10 orang staf terdiri dari 1 orang sarjana teknik pria, 3 orang sarjana teknik wanita, 2 orang sarjana ekonomi pria, dan 4 orang sarjana ekonomi wanita. Dari 10 staf tersebut akan dipilih secara acak 1 orang untuk menjadi manajer pemasaran.\\nP: Peluang manajer terpilih adalah sarjana teknik pria\\nQ: Peluang manajer terpilih adalah sarjana wanita\\nManakah simpulan yang benar?",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "Tidak dapat ditarik kesimpulan"
+      ],
+      "correctAnswer": "P < Q",
+      "explanation": "P = 1/10 = 0.1. Q (total sarjana wanita = 3 + 4 = 7) = 7/10 = 0.7. Maka P < Q."
+    },
+    {
+      "text": "Diketahui suatu operasi bilangan $a \\Delta b = (a + b)b - 3a$. Jika Burhan menggunakan operasi tersebut pada persamaan berikut $a \\Delta 2 = 3$, maka nilai $a$ yang memenuhi persamaan tersebut adalah ....",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "1",
+      "explanation": "$a \\Delta 2 = (a + 2)(2) - 3a = 2a + 4 - 3a = 4 - a$. Karena $4 - a = 3$, maka $a = 1$."
+    },
+    {
+      "text": "Harga beras dari tiga daerah pada tahun 1990, 1994, dan 1995 disajikan pada tabel berikut:\\n- Beras Bali: 1990 (4.000), 1994 (4.750), 1995 (5.000)\\n- Beras Cianjur: 1990 (3.500), 1994 (4.500), 1995 (4.750)\\n- Beras Medan: 1990 (3.000), 1994 (4.250), 1995 (4.500)\\nManakah pernyataan dibawah ini yang benar berdasarkan tabel diatas?\\n(1) Beras Bali pada tahun 1990 dan 1995 mengalami peningkatan sebesar 30%.\\n(2) Harga beras Cianjur pada tahun 1994 adalah 1,5 kali harga beras Medan pada tahun 1990.\\n(3) Harga beras Bali dan beras Cianjur pada tahun 1994 berbeda sekitar Rp300,-\\n(4) Harga beras Bali cenderung lebih mahal dibandingkan harga beras Cianjur dan beras Medan",
+      "options": [
+        "(1), (2), dan (3)",
+        "(1) dan (3)",
+        "(2) dan (4)",
+        "(4) saja",
+        "Semua benar"
+      ],
+      "correctAnswer": "(2) dan (4)",
+      "explanation": "Analisis: (1) Peningkatan = (5000-4000)/4000 = 25% (Salah). (2) Harga Cianjur 1994 = 4.500, 1,5 x 3.000 = 4.500 (Benar). (3) Bali 1994 = 4.750, Cianjur 1994 = 4.500, selisih 250 (Salah). (4) Beras Bali selalu tertinggi di setiap tahun (Benar)."
+    },
+    {
+      "text": "Data harga perdagangan besar suatu komoditi dari indikator ekonomi tahun 2014 - 2021 adalah sebagai berikut:\\nTahun 2014: 9.366 | 2015: 11.578 | 2016: 22.284 | 2017: 8.339 | 2018: 27.847 | 2019: 27.237 | 2020: 35.805 | 2021: 30.142\\nManakah pernyataan dibawah ini yang benar berdasarkan data diatas?\\n(1) Jangkauan dari data tersebut adalah 27.466.\\n(2) Rata - rata dari data tersebut adalah sekitar 21.574.\\n(3) Jangkauan tahun 2015 dan 2014 lebih kecil daripada jangkauan tahun 2016 dan 2017.\\n(4) Rata - rata 3 tahun pertama lebih kecil daripada rata - rata 3 tahun terakhir",
+      "options": [
+        "(1) dan (3)",
+        "(2) dan (4)",
+        "(4) saja",
+        "Semua benar"
+      ],
+      "correctAnswer": "Semua benar",
+      "explanation": "Semua pernyataan (1), (2), (3), dan (4) bernilai benar setelah dihitung secara matematis."
+    },
+    {
+      "text": "Jika nilai $a > 3$, maka grafik fungsi $f(x) = ax^2 + 4ax + 6 = .....$",
+      "options": [
+        "Berada di bawah sumbu-X",
+        "Berada di atas sumbu-X",
+        "Menyinggung sumbu-X",
+        "Memotong sumbu-X di dua titik berbeda",
+        "Memotong sumbu-X di $(x_1,0)$ dan $(x_2,0)$ dengan $x_1, x_2 > 0$"
+      ],
+      "correctAnswer": "Memotong sumbu-X di dua titik berbeda",
+      "explanation": "Diskriminan $D = b^2 - 4ac = (4a)^2 - 4(a)(6) = 16a^2 - 24a$. Untuk $a > 3$, $D > 0$, sehingga grafik memotong sumbu-X di dua titik berbeda."
+    },
+    {
+      "text": "Jika $f(3x) = \\frac{3}{3+x}, x>0$, maka nilai $f(2) + f(-2)$ adalah...",
+      "options": [
+        "\\frac{77}{162}",
+        "\\frac{9}{7}",
+        "\\frac{18}{77}",
+        "\\frac{77}{9}",
+        "\\frac{162}{77}"
+      ],
+      "correctAnswer": "\\frac{162}{77}",
+      "explanation": "Substitusi nilai untuk mencari f(2) dan f(-2) berdasarkan fungsi yang diberikan menghasilkan pecahan 162/77."
+    },
+    {
+      "text": "Jika $x$ dan $y$ memnuhi pertidaksamaan $y^2 - 2 < x$ dan persamaan $2y - x + 1 = 0$, maka $x - y$ memenuhi pertidaksamaan...",
+      "options": [
+        "0 < x - y < 4",
+        "x - y < 0",
+        "x - y > 0",
+        "0 < x - y < -10",
+        "x - y < 4"
+      ],
+      "correctAnswer": "0 < x - y < 4",
+      "explanation": "Dari $2y - x + 1 = 0$, didapat $x = 2y + 1$. Substitusi ke $y^2 - 2 < x$ menghasilkan $(y-1)(y-3) > 0$, lalu dicari rentang nilai $x - y$."
+    },
+    {
+      "text": "Banyaknya cara 6 kelereng yang memiliki warna berbeda dapat disusun dalam satu baris adalah...",
+      "options": [
+        "120",
+        "720",
+        "360",
+        "240",
+        "480"
+      ],
+      "correctAnswer": "720",
+      "explanation": "Permutasi 6 objek = $6! = 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1 = 720$."
+    },
+    {
+      "text": "Akar - akar persamaan kuadrat $x^2 - 5x + a = 0$ adalah $x_1$ dan $x_2$, dan nilai $\\frac{x_1}{x_2} + \\frac{x_2}{x_1} = -\\frac{73}{24}$\\nP: Nilai a\\nQ: $(-2)^4$\\nManakah simpulan yang benar?",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "P < Q",
+      "explanation": "P diperoleh dari penyelesaian persamaan kuadrat dan identitas akar-akar, sedangkan Q = 16. Didapatkan nilai P lebih kecil dari Q."
+    },
+    {
+      "text": "Seutas tali diketahui dipotong menjadi 6 bagian, tali terpendek berukuran 2 cm dan tali terpanjang berukuran 64 cm.\\nP: $U_2 + 3$\\nQ: $U_5 - 3$\\nManakah simpulan yang benar?",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "P < Q",
+      "explanation": "Barisan geometri dengan $a = 2$ dan $U_6 = ar^5 = 64 \\implies r = 2$. Maka $U_2 = 4$ ($P = 7$) dan $U_5 = 32$ ($Q = 29$). Jadi P < Q."
+    },
+    {
+      "text": "Suatu garis pada bidang $xy$ melalui titik $(\\frac{1}{2}, -2)$ dan mempunyai gradien 2. Manakah titik dengan koordinat berikut yang terletak pada garis tersebut?\\n(1) (0, -3)\\n(2) (1, 1)\\n(3) (2, 1)\\n(4) (-1, 5)",
+      "options": [
+        "(1), (2), dan (3) SAJA yang benar",
+        "(1) dan (3) SAJA yang benar",
+        "(2) dan (4) SAJA yang benar",
+        "HANYA (4) SAJA yang benar",
+        "SEMUA pilihan benar"
+      ],
+      "correctAnswer": "(1) dan (3) SAJA yang benar",
+      "explanation": "Persamaan garis: $y - (-2) = 2(x - \\frac{1}{2}) \\implies y + 2 = 2x - 1 \\implies y = 2x - 3$. Cek titik: (0,-3) dan (2,1) memenuhi persamaan."
+    },
+    {
+      "text": "Jika $A = \\{a, \\{b,c\\}, c, d\\}$, maka $A \\cup \\{\\{b,c\\}\\}$ adalah ...",
+      "options": [
+        "\\{b,c\\}",
+        "\\{a,b,c,d\\}",
+        "\\{a,c,d\\}",
+        "\\{a, \\{b,c\\}, c, d\\}",
+        "\\{a, \\{b\\}, c, d\\}"
+      ],
+      "correctAnswer": "\\{a, \\{b,c\\}, c, d\\}",
+      "explanation": "Gabungan himpunan A dengan elemen tunggal $\\{\\{b,c\\}\\}$ akan menghasilkan himpunan A itu sendiri karena elemen tersebut sudah ada di dalam A."
+    },
+    {
+      "text": "Berapakah digit satuan dari $14^3 \\times 17^3$?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correctAnswer": "2",
+      "explanation": "Digit satuan dari $14^3$ ditentukan oleh $4^3 = 64$ (satuan 4). Digit satuan dari $17^3$ ditentukan oleh $7^3 = 343$ (satuan 3). Hasil perkalian satuan: $4 \\times 3 = 12$ (satuan 2)."
+    },
+    {
+      "text": "Suatu hari di Konoha dilakukan swab test kepada sekelompok ninja yang terdiri dari ninja genin dan jounin dengan rata-rata umur mereka adalah 25 tahun. Jika umur rata-rata para genin adalah 15 tahun dan umur rata-rata para jounin adalah 30 tahun, maka perbandingan banyaknya ninja jounin dan genin secara berurutan adalah....",
+      "options": [
+        "2 : 1",
+        "1 : 2",
+        "3 : 5",
+        "5 : 6",
+        "5 : 3"
+      ],
+      "correctAnswer": "2 : 1",
+      "explanation": "Gunakan aturan alokasi/rata-rata campuran: Jounin/Genin = (25 - 15) / (30 - 25) = 10 / 5 = 2 : 1."
+    }
+  ]
+}

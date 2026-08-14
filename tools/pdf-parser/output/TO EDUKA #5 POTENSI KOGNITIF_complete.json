@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Saran apakah yang paling tepat kita sampaikan kepada orang lain sesuai dengan kutipan teks di atas?",
+      "options": [
+        "Habiskan mayoritas di lingkungan berlatar alam dibandingkan perkotaan.",
+        "Perbanyak mempelajari penelitian tentang kesehatan mental.",
+        "Biasakan berjalan atau duduk di tempat berlatar alam selama 10-50 menit.",
+        "Ubah lingkungan perkotaan menjadi lebih mirip lingkungan berlatar alam.",
+        "Jaga kesehatan dengan meningkatkan suasana hari dan mengurangi kecemasan."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Berdasarkan teks, hanya 10 hingga 20 menit (dan sampai 50 menit) duduk atau berjalan di berbagai tempat berlatar alam akan menyebabkan peningkatan kesehatan yang signifikan."
+    },
+    {
+      "text": "Jika seorang pelajar tidak mengalami masalah psikologis yang signifikan, manakah pernyataan di bawah ini yang paling mungkin benar?",
+      "options": [
+        "Terapi film dengan cara mandiri lebih efektif dibandingkan dengan psikolog.",
+        "Terapi film dengan psikolog lebih efektif dibandingkan dengan cara mandiri.",
+        "Terapi film tidak ada beda signifikan jika dilakukan bersama psikolog atau secara mandiri.",
+        "Terapi film tidak akan efektif dengan metode apapun untuk dilakukan pelajar tersebut.",
+        "Terapi film tidak dibutuhkan oleh pelajar tersebut karena sudah sehat psikologisnya."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Teks menyatakan bahwa Anda pun bisa mencoba melakukan terapi film secara mandiri. Namun, jika ada masalah psikologis signifikan baru membutuhkan psikolog, sehingga untuk yang tidak memiliki masalah signifikan, cara mandiri sudah cukup efektif/bahkan tidak kalah efektif."
+    },
+    {
+      "text": "Berdasarkan paragraf ke-2 tersebut, pernyataan yang paling tepat adalah...",
+      "options": [
+        "Jaringan seluler menyebabkan infrastruktur tidak merata lantaran memakai spectrum frekuensi radio.",
+        "Jaringan seluler mengalami kerentanan gangguan terhadap kualitas jaringan.",
+        "Menurut masyarakat, kualitas bacaan yang diterima masyarakat kurang optimal.",
+        "Perlu adanya kenaikan jaringan seluler agar pemerataan infrastruktur tercapai.",
+        "Masyarakat Indonesia yang tidak umum menggunakan jaringan static broadband."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Paragraf 2 menyatakan bahwa karena jaringan seluler menggunakan spektrum frekuensi radio sebagai media pengantar, ada kerentanan terhadap gangguan sehingga kualitas jaringan yang diterima masyarakat kurang optimal."
+    },
+    {
+      "text": "Berdasarkan kutipan teks di atas, manakah pernyataan berikut ini yang merupakan simpulan yang tepat?",
+      "options": [
+        "Tingkat pengangguran terbuka cenderung menurun dari tahun ke tahun.",
+        "Pekerja sektor informal menyumbang penurunan pengangguran terbesar.",
+        "Tingkat pengangguran terbuka selalu naik turun dari tahun ke tahun.",
+        "Perekonomian Indonesia semakin anjlok disbanding beberapa tahun yang lalu.",
+        "Lapangan pekerjaan meningkat pesat dalam beberapa tahun terakhir."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Teks menyatakan bahwa selama 10 tahun terakhir, Tingkat Pengangguran Terbuka (TPT) Indonesia memperlihatkan tren yang menurun."
+    },
+    {
+      "text": "Penggunaan kosmetik local akhir-akhir ini meningkat seiring banyaknya beauty influencer. Dokter kecantikan menyebutkan bahwa banyak remaja tidak memahami kosmetik yang sesuai kebutuhan kulit wajah. Manakah pernyataan berikut yang akan MEMPERLEMAH pendapat dokter kecantikan tersebut...",
+      "options": [
+        "Khasiat kosmetik lokal dapat dilihat dari kecantikan artis luar negeri yang menjadi brand ambassador-nya.",
+        "Banyak yang membuat thread yang membagikan pengalaman berhasilnya merawat kulit wajah karena kosmetik lokal.",
+        "Manfaat kosmetik lokal lebih banyak daripada kosmetik lainnya.",
+        "Tren beauty influencer merupakan dampak dari banyak artis kpop yang menjadi brand ambassador-nya.",
+        "Banyak yang lebih mempercayai beauty influencer daripada dokter kecantikan."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Pendapat dokter menyatakan remaja tidak memahami kosmetik yang sesuai, sehingga jika banyak yang berhasil merawat kulit wajah dengan kosmetik lokal, hal ini memperlemah anggapan bahwa mereka tidak paham."
+    },
+    {
+      "text": "Berdasarkan paragraf, apakah alasan utama dunia usaha lebih memilih mempekerjakan lulusan pendidikan rendah?",
+      "options": [
+        "Karena pendidikan tinggi hanya dibekali teori yang tidak memasukkan kemampuan yang dibutuhkan industri.",
+        "Karena lulusan pendidikan rendah lebih terampil dalam praktek ketimbang teori.",
+        "Karena jumlah lulusan pendidikan rendah lebih banyak ketimbang lulusan pendidikan tinggi di Indonesia.",
+        "Karena biaya upah yang lebih murah sehingga lebih meringankan beban biaya perusahaan.",
+        "Karena pendidikan tinggi semakin sedikit peminatnya dari tahun ke tahun."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Dunia usaha di Indonesia lebih memilih mempekerjakan tenaga kerja berupah murah... Sehingga biaya yang dibayarkan oleh dunia usaha akan lebih tinggi jika mempekerjakan pendidikan tinggi."
+    },
+    {
+      "text": "Manakah pernyataan berikut yang akan memperkuat argumen sopir angkutan umum tersebut?",
+      "options": [
+        "Jumlah warga yang menggunakan transportasi online lebih banyak dibandingkan jumlah pengguna angkutan umum.",
+        "Jumlah transportasi umum belum memadai untuk seluruh warga.",
+        "Pengguna kendaraan pribadi lebih banyak dibandingkan pengguna transportasi online.",
+        "Transportasi umum sudah menurun sebelum ada transportasi online.",
+        "Jasa transportasi online sudah marak sejak lima tahun terakhir di berbagai kota termasuk di kota A."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Sopir angkutan umum menyatakan penurunan disebabkan oleh transportasi online, sehingga data bahwa pengguna transportasi online lebih banyak akan memperkuat argumen tersebut."
+    },
+    {
+      "text": "Syarat menjadi kepala sekolah yang hanya ada di SMA B adalah memiliki Pendidikan terakhir minimal S2, sedangkan untuk menjadi guru adalah memiliki Pendidikan terakhir minimal S1. Guru D adalah kepala sekolah bergelar doctor. Simpulannya adalah Guru D merupakan kepala sekolah di SMA B. Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan pasti benar",
+        "Simpulan mungkin benar",
+        "Simpulan pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Syarat minimal S2 hanya ada di SMA B, dan guru D bergelar doktor (di atas S2). Namun informasi tidak secara mutlak menyatakan hanya SMA B yang memiliki kepala sekolah bergelar doktor/S2 atau apakah Guru D pasti di SMA B, sehingga simpulan mungkin benar."
+    },
+    {
+      "text": "Manakah pernyataan di bawah ini yang benar sesuai dengan paragraf?",
+      "options": [
+        "Pemerintah daerah Jambi menetapkan pembelajaran luring pada 2021.",
+        "Protokol kesehatan sudah diterapkan pengelola satuan pendidikan.",
+        "Papan pengumuan soal penggunaan masker diperlukan untuk kelengkapan prasarana.",
+        "Universitas Jambi menunda rencana pembelajaran tatap muka.",
+        "Pandemic Covid-19 memaksa sekolah kembali menerapkan pembelajaran daring."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Paragraf menyebutkan kesiapan prasarana protokol kesehatan seperti memasang papan pengumuman soal penggunaan masker untuk mengantisipasi bilamana pembelajaran luring dapat dilaksanakan."
+    },
+    {
+      "text": "Simpulan dari informasi tersebut adalah...",
+      "options": [
+        "Gagal ginjal akut pada anak dijelaskan oleh Menteri Kesehatan.",
+        "EG dan DEG hanya ada pada obat sirop yang beredar di pasaran.",
+        "Obat sirop yang mengandung EG dan DEG menyebabkan gagal ginjal akut pada anak.",
+        "Hanya gagal ginjal akut yang menjadi dampak dari adanya EG dan DEG.",
+        "Tidak ada yang mengalami gagal ginjal akut setelah mengonsumsi obat sirop yang mengandung EG."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Berdasarkan premis, tingginya kadar EG dan DEG pada obat sirop menyebabkan gagal ginjal akut pada anak."
+    },
+    {
+      "text": "Simpulan Berdasarkan informasi dalam teks tersebut adalah suatu negara yang menjalankan pemerintahan pasti memiliki konstitusi yang tertulis. Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan pasti benar",
+        "Simpulan mungkin benar",
+        "Simpulan pasti salah",
+        "Simpulan mungkin salah",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Teks menyatakan konstitusi merupakan peraturan tertulis atau tidak tertulis, dan sebagian negara tidak memiliki konstitusi. Maka simpulan bahwa negara pasti memiliki konstitusi yang tertulis adalah pasti salah."
+    },
+    {
+      "text": "Manakah pernyataan di bawah ini yang bertentangan dengan paragraf terakhir?",
+      "options": [
+        "Lapangan pekerjaan di Indonesia didominasi tenaga kerja tidak terampil",
+        "Mayoritas pekerja di dunia usaha bukan merupakan lulusan pendidikan tinggi",
+        "Tingkat pengangguran universitas masih sangat tinggi",
+        "Dunia usaha tidak menyukai tenaga terdidik dan terampil",
+        "Tidak ada pilihan yang tepat"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Paragraf menyatakan dunia usaha memilih tenaga kerja berupah murah (pendidikan rendah), bukan berarti mereka 'tidak menyukai' secara mutlak, namun opsi D paling bertentangan dengan konteks ekonomi buruh terdidik."
+    },
+    {
+      "text": "Jika buah 1 apel memiliki berat 2 kali dari jeruk. Sedangkan 1 kg jeruk setara dengan 1 semangka. Semangka lebih berat daripada apel. Untuk buah papaya jika ditimbang memiliki berat 100 gram lebih sedikit daripada semangka dan lebih berat 500 gram daripada apel. Maka urutan berat buah yang paling benar dari terbesar adalah ...",
+      "options": [
+        "Semangka, apel, papaya, dan jeruk",
+        "Semangka, jeruk, apel, dan papaya",
+        "Jeruk, apel, papaya, dan semangka",
+        "Semangka, papaya, apel, dan jeruk",
+        "Semangka, apel, papaya, dan jeruk"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Berdasarkan perbandingan berat: Semangka > Pepaya > Apel > Jeruk."
+    },
+    {
+      "text": "Manakah pernyataan di bawah ini yang bertentangan dengan paragraf di atas?",
+      "options": [
+        "Ada perusahaan yang tidak berhasil memaksimalkan ranah digital selama pandemi.",
+        "Ada perusahaan yang berhasil memaksimalkan ranah digital selama pandemi.",
+        "Semua perusahaan tidak berhasil memaksimalkan ranah digital selama pandemi.",
+        "Semua perusahaan berhasil memaksimalkan ranah digital selama pandemi.",
+        "Sebagian perusahaan tidak berhasil memaksimalkan ranah digital selama pandemi."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Teks menyatakan 'Salah satu perusahaan yang telah berhasil...' yang berarti ada yang berhasil. Oleh karena itu, pernyataan 'Semua perusahaan tidak berhasil...' bertentangan secara langsung."
+    },
+    {
+      "text": "Suatu pekerjaan di kantor X dikelompokkan menjadi beberapa jenis pekerjaan... Pekerjaan A tidak boleh dikerjakan bersamaan dengan Pekerjaan C. Pekerjaan B boleh dikerjakan bersama dengan Pekerjaan C. Pekerjaan A hanya boleh dikerjakan bersama dengan Pekerjaan E. Pekerjaan D dikerjakan jika dan hanya jika Pekerjaan B dikerjakan. Jika minggu kedua pekerja wajib mengerjakan pekerjaan D dan tidak boleh mengerjakan pekerjaan A, maka ...",
+      "options": [
+        "Pekerja tidak boleh mengerjakan pekerjaan B",
+        "Pekerja juga mengerjakan pekerjaan B",
+        "Pekerja juga mengerjakan pekerjaan C",
+        "Pekerja tidak boleh mengerjakan pekerjaan C",
+        "Pekerja juga mengerjakan pekerjaan E"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Jika D dikerjakan, maka B wajib dikerjakan (karena 'jika dan hanya jika'). Jadi pekerja juga mengerjakan pekerjaan B."
+    },
+    {
+      "text": "Manakah pernyataan di bawah ini yang sesuai dengan paragraf tiga teks di atas?",
+      "options": [
+        "Pendaftar vaksin tidak memenuhi ketentuan dan berhak nmenerima vaksin",
+        "Pendaftar vaksin memenuhi ketentuan dan berhak menerima vaksin",
+        "Pendaftar vaksin tidak memenuhi ketentuan atau berhak menerima vaksin",
+        "Pendaftar vaksin memenuhi ketentuan atau berhak menerima vaksin",
+        "Pendaftar vaksin tidak memenuhi ketentuan atau tidak berhak vaksin"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apabila orang yang merasa keberatan untuk pulang dengan kapal Belanda dilarang pulang, apa yang paling mungkin terjadi?",
+      "options": [
+        "Semua mahasiswa tinggal di Jepang tanpa bantuan biaya apapun",
+        "Ada mahasiswa yang tinggal di Jepang dengan bantuan biaya",
+        "Ada mahasiswa tinggal di Jepang tanpa bantuan biaya apapun",
+        "Semua mahasiswa akan protes terhadap nahkoda kapal",
+        "Kapal Cibadak hanya berlayar tiga kali selama tahun 1947"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan tabel di atas, apabila Burhan ingin membeli smartphone pada Q2 2020 yang tidak mengalami penurunan penjualan terbesar, maka merk vendor smartphone yang akan dipilih Burhan adalah ...",
+      "options": [
+        "Apple",
+        "Xiaomi",
+        "Huawei",
+        "Merk lain-lain",
+        "Oppo"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan grafik statistic gempa bumi di Indonesia, dari tahun 2008 hingga 2018 kesimpulan yang paling menonjol adalah...",
+      "options": [
+        "Terjadi lonjakan yang drastis dari tahun 2016 ke 2017",
+        "Peristiwa gempa bumi terus meningkat pada tahun 2013 hingga tahun 2018",
+        "Tahun 2011 adalah jumlah peristiwa gempa bumi paling sedikit",
+        "Aktivitas gempa bumi di Indonesia selalu meningkat tiap tahunnya",
+        "Untuk gempa dengan M > 5.0 meningkat pada tahun 2013 hingga tahun 2018"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan di bawah ini yang sesuai dengan grafik di atas?",
+      "options": [
+        "Riau adalah provinsi dengan tingkat kematian tertinggi di Sumatera",
+        "Total kematian DKI Jakarta lebih dari tiga kali lipat Jawa Barat",
+        "30% dari provinsi di Indonesia memiliki total kematian Covi-19 di atas 3.000",
+        "Tingkat kematian di Jawa Timur lebih dari 40% total di Indonesia",
+        "Selisih kematian provinsi tertinggi dan terendah di Indonesia lebih dari 6.000"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

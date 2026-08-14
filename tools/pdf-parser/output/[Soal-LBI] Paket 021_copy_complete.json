@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Pilih pernyataan yang benar berdasarkan teks!",
+      "options": [
+        "Wijen hanya digunakan dalam masakan manis dan tidak memiliki manfaat kesehatan",
+        "Wijen putih memiliki rasa lebih kuat dibandingkan wijen hitam",
+        "Wijen telah dibudidayakan selama ribuan tahun dan digunakan dalam berbagai masakan",
+        "Minyak wijen hanya digunakan dalam pengobatan herbal, bukan dalam memasak",
+        "Konsumsi wijen dapat meningkatkan kadar gula dalam tubuh"
+      ],
+      "correctAnswer": "Wijen telah dibudidayakan selama ribuan tahun dan digunakan dalam berbagai masakan",
+      "explanation": "Berdasarkan teks, kalimat kedua menyatakan bahwa \"Wijen telah dibudidayakan selama ribuan tahun dan digunakan dalam berbagai masakan serta pengobatan tradisional.\""
+    },
+    {
+      "text": "Simpulan yang tepat berdasarkan teks adalah...",
+      "options": [
+        "Wijen tidak memiliki manfaat kesehatan selain sebagai bahan makanan",
+        "Minyak wijen adalah satu-satunya produk yang dapat dihasilkan dari tanaman wijen",
+        "Wijen merupakan biji dengan kandungan gizi tinggi yang bermanfaat bagi kesehatan",
+        "Wijen hanya dapat dikonsumsi dalam bentuk biji utuh dan tidak dapat diolah lebih lanjut",
+        "Konsumsi wijen secara berlebihan dapat menyebabkan tekanan darah tinggi"
+      ],
+      "correctAnswer": "Wijen merupakan biji dengan kandungan gizi tinggi yang bermanfaat bagi kesehatan",
+      "explanation": "Teks secara keseluruhan membahas bahwa wijen kaya akan kandungan gizi dan memberikan banyak manfaat kesehatan seperti menurunkan tekanan darah dan meningkatkan kesehatan jantung."
+    },
+    {
+      "text": "Apa arti kata \"antioksidan\" dalam teks?",
+      "options": [
+        "Senyawa yang membantu melawan kerusakan sel akibat radikal bebas",
+        "Zat yang menyebabkan peningkatan kadar gula dalam darah",
+        "Komponen dalam makanan yang menambah rasa manis alami",
+        "Mineral yang hanya ditemukan dalam biji wijen hitam",
+        "Protein yang membantu mempercepat metabolisme tubuh"
+      ],
+      "correctAnswer": "Senyawa yang membantu melawan kerusakan sel akibat radikal bebas",
+      "explanation": "Antioksidan secara umum dipahami sebagai senyawa yang berfungsi melawan radikal bebas dan mencegah kerusakan sel dalam tubuh."
+    },
+    {
+      "text": "Makna kata \"ekstrak\" dalam teks adalah...",
+      "options": [
+        "Proses menghancurkan suatu bahan menjadi bentuk serbuk halus",
+        "Zat yang diperoleh dengan cara diambil dari bahan asalnya",
+        "Metode memasak bahan makanan dengan cara dikeringkan terlebih dahulu",
+        "Proses mencampurkan dua zat berbeda hingga menyatu sempurna",
+        "Teknik memanaskan bahan makanan agar lebih tahan lama"
+      ],
+      "correctAnswer": "Zat yang diperoleh dengan cara diambil dari bahan asalnya",
+      "explanation": "Kata ekstrak merujuk pada zat atau sari yang diperoleh melalui proses pengambilan dari bahan asalnya (seperti minyak wijen yang diekstrak dari bijinya)."
+    },
+    {
+      "text": "Tema utama dari teks di atas adalah...",
+      "options": [
+        "Pola migrasi ikan sidat dan dampaknya terhadap ekosistem",
+        "Hubungan antara manusia dan legenda tentang sidat",
+        "Cara nelayan menangkap ikan sidat dengan berbagai metode",
+        "Keunikan ikan sidat dan tantangan dalam menjaga populasinya",
+        "Konflik antara Pak Hasan dan para nelayan lainnya dalam menangkap sidat"
+      ],
+      "correctAnswer": "Keunikan ikan sidat dan tantangan dalam menjaga populasinya",
+      "explanation": "Teks membahas karakteristik unik sidat (migrasi), status populasinya yang terancam, serta cara penangkapannya oleh nelayan."
+    },
+    {
+      "text": "Sifat utama yang dimiliki oleh Pak Hasan dalam cerita adalah...",
+      "options": [
+        "Serakah, karena ingin mendapatkan sidat sebanyak mungkin",
+        "Bijaksana, karena menangkap sidat tanpa merusak ekosistem",
+        "Pemalas, karena hanya menangkap sidat dalam jumlah sedikit",
+        "Licik, karena menipu nelayan lain untuk mendapatkan sidat lebih banyak",
+        "Acuh tak acuh, karena tidak peduli dengan kelestarian sidat"
+      ],
+      "correctAnswer": "Bijaksana, karena menangkap sidat tanpa merusak ekosistem",
+      "explanation": "Paragraf terakhir menyatakan bahwa Pak Hasan \"selalu bijak dan peduli terhadap keseimbangan alam\" dalam menangkap sidat."
+    },
+    {
+      "text": "Pilih pernyataan yang salah berdasarkan teks!",
+      "options": [
+        "Sidat memiliki siklus hidup yang melibatkan migrasi dari air tawar ke laut dalam",
+        "Beberapa orang percaya bahwa sidat memiliki kekuatan mistis dan dikaitkan dengan legenda",
+        "Pak Hasan menangkap sidat dengan cara yang tidak merusak keseimbangan alam",
+        "Populasi sidat meningkat akibat banyaknya permintaan di pasar internasional",
+        "Larva sidat mengikuti arus laut sebelum akhirnya kembali ke sungai tempat asalnya"
+      ],
+      "correctAnswer": "Populasi sidat meningkat akibat banyaknya permintaan di pasar internasional",
+      "explanation": "Teks menyebutkan bahwa \"keberadaan sidat semakin terancam akibat penangkapan berlebihan\", bukan meningkat."
+    },
+    {
+      "text": "Kesimpulan yang tepat berdasarkan teks adalah...",
+      "options": [
+        "Sidat adalah ikan yang memiliki keunikan dalam siklus hidupnya dan menghadapi ancaman akibat eksploitasi berlebihan",
+        "Pak Hasan adalah seorang nelayan yang tidak tertarik menangkap sidat karena sulit ditemukan",
+        "Sidat adalah ikan yang tidak memiliki nilai ekonomi, tetapi sering dikaitkan dengan cerita rakyat",
+        "Pemerintah telah melarang perdagangan sidat untuk melindungi populasinya di alam liar",
+        "Larva sidat dapat bertahan di laut dalam tanpa harus kembali ke air tawar"
+      ],
+      "correctAnswer": "Sidat adalah ikan yang memiliki keunikan dalam siklus hidupnya dan menghadapi ancaman akibat eksploitasi berlebihan",
+      "explanation": "Kesimpulan ini merangkum seluruh isi teks mengenai siklus hidup sidat dan ancaman kepunahan akibat eksploitasi."
+    },
+    {
+      "text": "Ide pokok dari paragraf pertama dalam teks di atas adalah...",
+      "options": [
+        "Air terdiri dari dua atom hidrogen dan satu atom oksigen",
+        "Air memiliki banyak manfaat bagi kehidupan",
+        "Tanpa air, makhluk hidup tidak bisa bertahan",
+        "Air memiliki berbagai bentuk seperti cair, padat, dan gas",
+        "Air adalah unsur yang paling penting bagi kehidupan di Bumi"
+      ],
+      "correctAnswer": "Air terdiri dari dua atom hidrogen dan satu atom oksigen",
+      "explanation": "Paragraf pertama diawali dengan definisi kimia air ($H_2O$) sebagai senyawa yang terdiri dari dua atom hidrogen dan satu atom oksigen."
+    },
+    {
+      "text": "Pilih pernyataan yang benar berdasarkan teks di atas!",
+      "options": [
+        "Sebagian besar air di Bumi tersedia dalam bentuk air tawar",
+        "Air tidak memiliki kemampuan untuk melarutkan zat lain",
+        "Air mengalami siklus hidrologi yang mencakup penguapan, kondensasi, dan presipitasi",
+        "Semua negara memiliki akses yang sama terhadap air bersih",
+        "Air hanya dapat ditemukan dalam bentuk cair di alam"
+      ],
+      "correctAnswer": "Air mengalami siklus hidrologi yang mencakup penguapan, kondensasi, dan presipitasi",
+      "explanation": "Pernyataan ini sesuai dengan kalimat pada paragraf kedua teks yang menyatakan bahwa air mengalami siklus hidrologi."
+    },
+    {
+      "text": "Makna kata \"presipitasi\" dalam teks di atas adalah...",
+      "options": [
+        "Proses air berubah menjadi uap akibat panas matahari",
+        "Proses air jatuh ke permukaan bumi dalam bentuk hujan, salju, atau es",
+        "Proses air mengalir dari sungai ke lautan",
+        "Proses penyerapan air oleh tanah dan tanaman",
+        "Proses pembentukan air tanah dari air hujan"
+      ],
+      "correctAnswer": "Proses air jatuh ke permukaan bumi dalam bentuk hujan, salju, atau es",
+      "explanation": "Presipitasi dalam siklus hidrologi merujuk pada jatuhnyai air dari atmosfer ke permukaan bumi (seperti hujan atau salju)."
+    },
+    {
+      "text": "Pilih pernyataan yang benar berdasarkan teks di atas!",
+      "options": [
+        "Air di Bumi hanya dapat digunakan oleh manusia dalam bentuk air laut",
+        "H_2O adalah unsur yang berdiri sendiri tanpa terdiri dari atom lain",
+        "Beberapa negara mengalami krisis air akibat polusi dan penggunaan yang tidak berkelanjutan",
+        "Air tidak mengalami perubahan bentuk di alam",
+        "Air merupakan satu-satunya zat yang dapat melarutkan semua zat lain di dunia"
+      ],
+      "correctAnswer": "Beberapa negara mengalami krisis air akibat polusi dan penggunaan yang tidak berkelanjutan",
+      "explanation": "Pernyataan ini sesuai dengan kalimat di paragraf terakhir: \"Beberapa negara menghadapi krisis air akibat polusi dan penggunaan yang tidak berkelanjutan.\""
+    },
+    {
+      "text": "Amanat yang dapat diambil dari puisi di atas adalah...",
+      "options": [
+        "Kita harus selalu melihat ke masa lalu agar tidak menyesal",
+        "Waktu bisa kembali jika kita menginginkannya",
+        "Gunakan waktu dengan baik karena ia tidak bisa diulang",
+        "Jangan terlalu memikirkan masa depan karena masih misteri",
+        "Semua orang memiliki kesempatan untuk memperbaiki masa lalu"
+      ],
+      "correctAnswer": "Gunakan waktu dengan baik karena ia tidak bisa diulang",
+      "explanation": "Puisi tersebut berpesan agar kita menggunakan hari ini sebaik mungkin karena waktu tidak bisa diputar kembali."
+    },
+    {
+      "text": "Pilih pernyataan yang sesuai dengan isi puisi di atas!",
+      "options": [
+        "Masa lalu dapat diubah jika kita berusaha keras",
+        "Waktu selalu memberi kesempatan kedua bagi setiap orang",
+        "Hari kemarin bisa kembali jika kita mengingatnya dengan baik",
+        "Waktu terus berjalan dan tidak bisa diulang",
+        "Seseorang dapat kembali ke masa lalu jika memahami makna kehidupan"
+      ],
+      "correctAnswer": "Waktu terus berjalan dan tidak bisa diulang",
+      "explanation": "Hal ini sesuai dengan baris \"Waktu berlalu tanpa henti\" dan \"Sebab waktu tak bisa diputar\"."
+    },
+    {
+      "text": "Makna kata \"eksploitasi\" dalam teks di atas adalah...",
+      "options": [
+        "Penggunaan yang wajar sesuai kebutuhan",
+        "Pemanfaatan yang berlebihan tanpa memperhatikan dampaknya",
+        "Pelestarian sumber daya alam agar tetap terjaga",
+        "Pengelolaan hasil bumi dengan bijak",
+        "Peningkatan produksi untuk meningkatkan ekonomi"
+      ],
+      "correctAnswer": "Pemanfaatan yang berlebihan tanpa memperhatikan dampaknya",
+      "explanation": "Dalam konteks lingkungan, eksploitasi merujuk pada pemanfaatan sumber daya secara berlebihan yang dapat mengancam kelestariannya."
+    },
+    {
+      "text": "Pilih pernyataan yang sesuai dengan isi teks di atas!",
+      "options": [
+        "Cengkeh hanya digunakan sebagai bumbu masakan",
+        "Kandungan minyak atsiri dalam cengkeh bermanfaat sebagai antiseptik",
+        "Pohon cengkeh hanya dapat tumbuh di daerah kering dengan sedikit curah hujan",
+        "Cengkeh tidak memiliki manfaat dalam dunia kesehatan",
+        "Eksploitasi cengkeh tidak berdampak pada keberlanjutan tanaman ini"
+      ],
+      "correctAnswer": "Kandungan minyak atsiri dalam cengkeh bermanfaat sebagai antiseptik",
+      "explanation": "Teks menyatakan bahwa \"Kandungan minyak atsiri dalam cengkeh memiliki manfaat sebagai antiseptik alami dan pereda nyeri.\""
+    },
+    {
+      "text": "Apa akibat dari eksploitasi cengkeh yang berlebihan?",
+      "options": [
+        "Meningkatnya jumlah pohon cengkeh di alam",
+        "Berkurangnya jumlah pohon cengkeh akibat pemanfaatan yang tidak terkendali",
+        "Meningkatnya harga cengkeh di pasar internasional",
+        "Cengkeh menjadi lebih mudah dibudidayakan",
+        "Tidak ada dampak yang signifikan terhadap ekosistem"
+      ],
+      "correctAnswer": "Berkurangnya jumlah pohon cengkeh akibat pemanfaatan yang tidak terkendali",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"komoditas\" dalam teks adalah...",
+      "options": [
+        "Barang dagangan yang memiliki nilai jual",
+        "Barang yang tidak memiliki nilai ekonomi",
+        "Produk yang tidak dapat diperjualbelikan",
+        "Barang yang hanya digunakan untuk konsumsi pribadi",
+        "Produk yang hanya tersedia dalam jumlah kecil"
+      ],
+      "correctAnswer": "Barang dagangan yang memiliki nilai jual",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"inflasi\" dalam teks di atas adalah...",
+      "options": [
+        "Penurunan harga barang dan jasa secara terus-menerus",
+        "Kenaikan harga barang dan jasa secara umum dalam periode tertentu",
+        "Penurunan daya beli masyarakat akibat rendahnya suku bunga",
+        "Kenaikan jumlah uang yang beredar tanpa pengaruh terhadap harga",
+        "Peningkatan pendapatan masyarakat akibat kebijakan ekonomi"
+      ],
+      "correctAnswer": "Kenaikan harga barang dan jasa secara umum dalam periode tertentu",
+      "explanation": null
+    },
+    {
+      "text": "Pilih pernyataan yang sesuai dengan isi teks di atas!",
+      "options": [
+        "Bank sentral menaikkan suku bunga agar masyarakat lebih banyak berbelanja",
+        "Jika inflasi terlalu rendah, bank sentral akan menaikkan suku bunga untuk mengendalikannya",
+        "Suku bunga dan inflasi tidak memiliki hubungan dalam kebijakan ekonomi",
+        "Suku bunga yang tinggi dapat mengurangi jumlah uang yang beredar di masyarakat",
+        "Inflasi tidak mempengaruhi daya beli masyarakat"
+      ],
+      "correctAnswer": "Suku bunga yang tinggi dapat mengurangi jumlah uang yang beredar di masyarakat",
+      "explanation": null
+    },
+    {
+      "text": "Apa dampak dari penurunan suku bunga terhadap inflasi?",
+      "options": [
+        "Inflasi akan cenderung meningkat karena daya beli masyarakat bertambah",
+        "Inflasi akan menurun karena jumlah uang yang beredar di masyarakat berkurang",
+        "Tidak ada hubungan antara suku bunga dan inflasi",
+        "Penurunan suku bunga membuat masyarakat lebih memilih menabung dibandingkan berbelanja",
+        "Suku bunga yang rendah menyebabkan harga barang dan jasa turun secara drastis"
+      ],
+      "correctAnswer": "Inflasi akan cenderung meningkat karena daya beli masyarakat bertambah",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"kebijakan\" dalam teks adalah...",
+      "options": [
+        "Tindakan atau langkah yang diambil untuk mencapai tujuan tertentu",
+        "Perubahan harga barang yang terjadi secara tiba-tiba",
+        "Keadaan ekonomi suatu negara yang terus berkembang",
+        "Ketentuan yang tidak dapat diubah dalam sistem perekonomian",
+        "Intervensi pemerintah yang selalu menguntungkan masyarakat"
+      ],
+      "correctAnswer": "Tindakan atau langkah yang diambil untuk mencapai tujuan tertentu",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"serat\" dalam teks di atas adalah...",
+      "options": [
+        "Lembaran tipis yang dihasilkan dari bubur kertas",
+        "Benang-benang halus yang membentuk suatu bahan",
+        "Bahan utama dalam pembuatan plastik dan logam",
+        "Zat tambahan dalam makanan untuk meningkatkan daya tahan tubuh",
+        "Lapisan luar dari batang pohon yang digunakan untuk kertas"
+      ],
+      "correctAnswer": "Benang-benang halus yang membentuk suatu bahan",
+      "explanation": null
+    },
+    {
+      "text": "Pilih pernyataan yang sesuai dengan isi teks di atas!",
+      "options": [
+        "Tisu pertama kali digunakan secara luas pada abad ke-2 Masehi",
+        "Semua jenis tisu dibuat dari bahan daur ulang",
+        "Tisu memiliki dampak lingkungan karena sifatnya yang sekali pakai",
+        "Proses pembuatan tisu tidak melibatkan serat kayu",
+        "Tisu hanya digunakan untuk membersihkan wajah"
+      ],
+      "correctAnswer": "Tisu memiliki dampak lingkungan karena sifatnya yang sekali pakai",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa beberapa produsen mulai memproduksi tisu ramah lingkungan?",
+      "options": [
+        "Untuk meningkatkan jumlah pohon yang ditebang",
+        "Karena tisu biasa tidak laku di pasaran",
+        "Untuk mengurangi dampak negatif tisu terhadap lingkungan",
+        "Agar masyarakat lebih banyak menggunakan tisu",
+        "Karena tisu dari serat kayu lebih sulit ditemukan"
+      ],
+      "correctAnswer": "Untuk mengurangi dampak negatif tisu terhadap lingkungan",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"deforestasi\" yang berhubungan dengan produksi tisu adalah...",
+      "options": [
+        "Penanaman pohon secara besar-besaran untuk pembuatan tisu",
+        "Pengolahan bubur kertas menjadi lembaran tisu",
+        "Pengurangan jumlah hutan akibat penebangan pohon berlebihan",
+        "Proses daur ulang limbah kertas menjadi tisu baru",
+        "Penambahan bahan kimia dalam pembuatan tisu untuk meningkatkan kualitasnya"
+      ],
+      "correctAnswer": "Pengurangan jumlah hutan akibat penebangan pohon berlebihan",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"Omakase\" dalam teks di atas adalah...",
+      "options": [
+        "Memilih makanan sesuai selera pelanggan",
+        "Mempercayakan pemilihan hidangan kepada koki",
+        "Menyajikan makanan dalam porsi besar dan lengkap",
+        "Menyediakan makanan dengan harga yang terjangkau",
+        "Menentukan menu makanan berdasarkan permintaan pelanggan"
+      ],
+      "correctAnswer": "Mempercayakan pemilihan hidangan kepada koki",
+      "explanation": null
+    },
+    {
+      "text": "Pilih pernyataan yang sesuai dengan isi teks di atas!",
+      "options": [
+        "Omakase adalah hidangan Jepang yang hanya terdiri dari sushi dan sashimi",
+        "Harga omakase selalu lebih murah dibandingkan menu biasa",
+        "Dalam omakase, pelanggan memilih sendiri hidangan yang mereka inginkan",
+        "Omakase memberikan pengalaman makan yang lebih eksklusif dan personal",
+        "Omakase hanya disajikan di restoran kelas atas di Jepang"
+      ],
+      "correctAnswer": "Omakase memberikan pengalaman makan yang lebih eksklusif dan personal",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa omakase sering dianggap lebih mahal dibandingkan menu biasa?",
+      "options": [
+        "Karena menggunakan bahan berkualitas tinggi dan bergantung pada kreativitas koki",
+        "Karena pelanggan dapat memilih sendiri hidangan yang mereka inginkan",
+        "Karena omakase hanya tersedia di restoran mewah di Jepang",
+        "Karena omakase menyajikan makanan dalam porsi besar",
+        "Karena omakase adalah konsep makan cepat saji yang populer"
+      ],
+      "correctAnswer": "Karena menggunakan bahan berkualitas tinggi dan bergantung pada kreativitas koki",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"musiman\" dalam teks di atas adalah...",
+      "options": [
+        "Sesuatu yang selalu tersedia sepanjang tahun",
+        "Bahan makanan yang hanya tersedia pada waktu-waktu tertentu",
+        "Hidangan yang selalu disajikan dalam menu tetap",
+        "Jenis makanan yang dimasak menggunakan teknik khusus",
+        "Sajian yang dibuat dengan bahan baku instan"
+      ],
+      "correctAnswer": "Bahan makanan yang hanya tersedia pada waktu-waktu tertentu",
+      "explanation": null
+    }
+  ]
+}

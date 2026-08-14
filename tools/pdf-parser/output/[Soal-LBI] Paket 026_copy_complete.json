@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Istilah gas rumah kaca dalam teks bacaan pada kalimat (1) bermakna...",
+      "options": [
+        "Gas yang dihasilkan dari rumah dengan banyak kaca",
+        "Gas yang terdiri dari karbon dioksida",
+        "Gas yang timbul akibat penumpukkan metana",
+        "Gas dalam atmosfer yang menjebak panas",
+        "Gas yang dihasilkan dari pembangunan gedung pencakar langit"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Penyumbang terbesar dari gas rumah kaca berasal dari...",
+      "options": [
+        "Bangunan tinggi",
+        "Limbah pabrik",
+        "Alat pembangkit listrik tenaga matahari",
+        "Tumpukan sampah",
+        "Hewan ternak, seperti sapi"
+      ],
+      "correctAnswer": "Hewan ternak, seperti sapi",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks bacaan di atas dampak yang dihasilkan dari menjadi vegetarian adalah...",
+      "options": [
+        "Menjadi lebih sehat",
+        "Mendapatkan tubuh ideal",
+        "Mengurangi gas rumah kaca",
+        "Terhindar dari hipertensi",
+        "Berumur panjang"
+      ],
+      "correctAnswer": "Mengurangi gas rumah kaca",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang melandasi gagasan para ilmuwan untuk mengembangkan pola diet hewan ternak...",
+      "options": [
+        "Agar sapi lebih sehat",
+        "Mengurangi gas rumah kaca",
+        "Menciptakan sapi rendah lemak",
+        "Meningkatkan harga sapi",
+        "Agar sapi tidak mengalami PMK"
+      ],
+      "correctAnswer": "Mengurangi gas rumah kaca",
+      "explanation": null
+    },
+    {
+      "text": "Di bawah ini yang merupakan salah satu keuntungan dari pemberian rumput laut kepada sapi adalah...",
+      "options": [
+        "Mengurangi emisi metana peternakan",
+        "Melacarkan sistem pencernaan",
+        "Menambah napsu makan pada hewan ternak",
+        "Menghasilkan daging yang tidak berlemak",
+        "Mengurangi penularan PMK"
+      ],
+      "correctAnswer": "Mengurangi emisi metana peternakan",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa Indonesia gencar melakukan upaya pencegahan krisis iklim...",
+      "options": [
+        "Indonesia salah satu negara yang sangat terdampak dari perubahan iklim",
+        "Indonesia harus melakukan pencegahan sebelum terkena",
+        "Indonesia salah satu negara yang masih aman dari krisis iklim",
+        "Hal ini dilakukan agar tidak merambak ke negara-negara tetangga",
+        "Hal ini menjadi misi semua negara di dunia termasuk Indonesia"
+      ],
+      "correctAnswer": "Indonesia salah satu negara yang sangat terdampak dari perubahan iklim",
+      "explanation": null
+    },
+    {
+      "text": "Siapa yang harus berperan dalam mencegah krisis iklim...",
+      "options": [
+        "Multipihak",
+        "Pemerintah",
+        "Negara-negara Eropa",
+        "Negara-negara Amerika",
+        "Lembaga Iklim Dunia"
+      ],
+      "correctAnswer": "Multipihak",
+      "explanation": null
+    },
+    {
+      "text": "Kapan perdagangan karbon dimulai pertama kali...",
+      "options": [
+        "Rapa Plenon PBB 2013",
+        "Perjanjian Paris 2015",
+        "Kesepakatan PBB 2014",
+        "Kebijakan Lembaga Iklim Dunia 2014",
+        "Konferensi Presiden-Presiden Dunia 2017"
+      ],
+      "correctAnswer": "Perjanjian Paris 2015",
+      "explanation": null
+    },
+    {
+      "text": "Hal apa yang dituangkan dalam Nationally Determined Contribution (NDC)...",
+      "options": [
+        "Negara-negara berkerja sama mengatasi dan memberikan solusi terkait masalah karbon",
+        "Mencegah permasalahan iklim adalah tugas segala pihak",
+        "Negara-negara penghasil karbon terbesar harus berkontribusi, dan negara maju seperti Eropa dan Amerika Serikat harus turut membantu negara berkembang",
+        "Negara-negara yang menghasilkan atau berkontribusi dalam krisis iklim wajib bertanggung jawab",
+        "Solusi dalam pencegahan krisis iklim merupakan tugas masing-masing negara"
+      ],
+      "correctAnswer": "Negara-negara penghasil karbon terbesar harus berkontribusi, dan negara maju seperti Eropa dan Amerika Serikat harus turut membantu negara berkembang",
+      "explanation": null
+    },
+    {
+      "text": "Hal apa yang sedang sangat dikhawatirkan oleh pihak-pihak yang disebut dalam teks bacaan...",
+      "options": [
+        "Rumah kaca",
+        "Penipisan lapisan ozon",
+        "Globalisasi",
+        "Krisis iklim",
+        "Demografis"
+      ],
+      "correctAnswer": "Krisis iklim",
+      "explanation": null
+    },
+    {
+      "text": "Hal apa yang saat ini Indonesia landa selama 2023...",
+      "options": [
+        "Banjir",
+        "Gunung merapi",
+        "Tanah longsor",
+        "Gempa bumi",
+        "Polusi udara"
+      ],
+      "correctAnswer": "Polusi udara",
+      "explanation": null
+    },
+    {
+      "text": "Pada wilayah dengan kepadatan penduduk rendah polusi udara disebakan oleh...",
+      "options": [
+        "Kendaraan bermotor",
+        "Pabrik dan industri",
+        "Pembakaran sampah",
+        "Perkebunan kelapa sawit",
+        "Kebakaran hutan"
+      ],
+      "correctAnswer": "Kebakaran hutan",
+      "explanation": null
+    },
+    {
+      "text": "Di wilayah dengan kepadatan penduduk tinggi polusi udara berasal dari...",
+      "options": [
+        "Kebakaran ruko",
+        "Pembangunan gedung tinggi",
+        "Aktivitas UMKM",
+        "Kebakaran hutan",
+        "Cemaran PLTU"
+      ],
+      "correctAnswer": "Cemaran PLTU",
+      "explanation": null
+    },
+    {
+      "text": "Dampak yang timbul dari polusi udara berdasarkan teks bacaan adalah...",
+      "options": [
+        "Gangguan kesehatan",
+        "Udara tidak bagus",
+        "Gangguan penglihatan",
+        "Tertunda pekerjaan diluar ruangan",
+        "Kesulitan bernapas"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan berikut ini yang tidak sesuai dengan informasi pada teks bacaan adalah...",
+      "options": [
+        "Polusi di wilayah dengan jumlah penduduk padat berasal dari pembakaran sampah",
+        "Industri turut berkontribusi dalam polusi udara",
+        "Kemarau panjang juga bisa menjadi penyebab terjadinya polusi",
+        "Polusi akan menganggu sistem pernapasan saja",
+        "Polusi udara berdampak pada kelahiran prematur"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Mengapa Fugate pindah ke Troublesome?",
+      "options": [
+        "Fugate pindah kerja",
+        "Fugate ingin kembali ke daerah masa kecilnya",
+        "Fugate ingin hidup tenang di desa",
+        "Fugate ingin menikmati masa tua di tempat yang paling berkesan",
+        "Fugate ingin memulai kehidupan baru bersama istri barunya"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sosok istri Fugate digambarkan dengan kondisi fisik yang...",
+      "options": [
+        "Berambut merah dan terkesan pucat",
+        "Berambut merah dan berkulit kuning langsat",
+        "Rambut merah dan berkulit hitam",
+        "Memiliki kalinan kulit",
+        "Kelainan kulit dan berambut ikal"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apa yang membuat Fugate berbeda dengan orang lain?",
+      "options": [
+        "Memiliki penyakit vitiligo",
+        "Memiliki kulit warna biru",
+        "Memiliki kelainan tangan",
+        "Berkulit hitam pekat",
+        "Buta warna"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kulit biru yang dialami oleh Fugate disebabkan oleh...",
+      "options": [
+        "Terpapar bahan kimia",
+        "Keracunan obat",
+        "Faktor genetika",
+        "Efek sering mengonsumsi obat terlarang",
+        "Tersambar petir"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Hal yang dapat memicu Methemoglobinemia adalah...",
+      "options": [
+        "Terpapar bahan kimia",
+        "Keracunan obat",
+        "Alergi makanan",
+        "Tersambar petir",
+        "Kerancunan makanan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apa yang membuat penduduk desa pesisir masih sulit untuk mendapatkan fasilitas kesehatan...",
+      "options": [
+        "Akses menuju fasilitas kesehatan masih sangat sulit",
+        "Belum tersedianya fasilitas kesehatan",
+        "Biaya untuk berobat sangat mahal",
+        "Sedikitnya penduduk shigga tidak diutamakan",
+        "Belum telihat oleh pemerintah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apa tujuan dari disediakannya Rumah Sakit Apung (RSA) Nusa Waluya II...",
+      "options": [
+        "Menjadi terobosan baru dalam dunia kesahatan",
+        "Biaya pengobatan yang lebih murah tersedia",
+        "Mendapatkan penghargaan sebagai rumah sakit apung pertama di dunia",
+        "Dokter di rumah sakit apung lebih baik",
+        "Agar penduduk desa pesisir tidak lagi kesulitan mengakses fasilitas Kesehatan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apa yang membuat Rumah Sakit Apung (RSA) Nusa Waluya II unik...",
+      "options": [
+        "Rumah sakit apung pertama di dunia",
+        "Pelayanan yang baik dan fasilitas memadai",
+        "Doktor yang menangani berasal dari negara lain",
+        "Memiliki halikopter pribadi yang siap berangkat jika keadaan terdesak",
+        "Memiliki desain yang unik"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Siapakah yang menjadi mitra doctorShare...",
+      "options": [
+        "Badan Usaha Milik Negra (BUMN)",
+        "Halodoc",
+        "PT Pertamina International Shipping (PIS)",
+        "UNICEF",
+        "Palang Merah Indonesia (PMI)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apa yang menjadi tantangan dalam menyediakan akses fasilitas kesehatan di negara maritime...",
+      "options": [
+        "Tenaga dokter yang sedikit",
+        "Aksesibilitas yang mahal",
+        "Kualitas dokter yang kurang baik",
+        "Segala biaya mahal karena harus impor",
+        "Fasilitas kurang memadai"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ada berapa jenis vitamin yang sangat dibutuhkan oleh tubuh...",
+      "options": [
+        "Tiga",
+        "Lima",
+        "Enam",
+        "Tujuh",
+        "Delapan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apa fungsi dari vitamin K berdasarkan teks bacaan?",
+      "options": [
+        "Menjaga kesehatan mata",
+        "Menjaga kesehatan pencernaan",
+        "Membantu proses pembekuan darah",
+        "Menjaga kesehatan tulang dan gigi",
+        "Menjaga kesehatan jantung dan hati"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apa yang melandasi penemuan vitamin?",
+      "options": [
+        "Sadarnya butuh energi lain selain mengkonsumsi protein",
+        "Didasarkan pada wabah yang muncul di China pada zaman dulu",
+        "Timbulnya berbagai penyakit sehingga muncul pemikiran untuk mengatasinya",
+        "Adanya ahli bilogi yang mengungkapkan kebutuhan vitamin bagi tubuh manusia",
+        "Pengetahuan manusia berkembang tentang pola makan dan kesehatannya punya hubungan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Eksperimen apa yang dilakukan oleh Rutherford...",
+      "options": [
+        "Eksperimen tentang penyakit yang merangsang tubuh",
+        "Eksperimen terkait makanan dan pengaruh keketahanan tubuh",
+        "Eksperimen nutrisi awal yang berfokus pada nitrogen",
+        "Eksperimen dampak vitamin bagi penyakit",
+        "Eksperimen terkait sistem kekebalan tubuh"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apa khasiat dari vegetasi bagi manusia...",
+      "options": [
+        "Meringankan penyakit kudis",
+        "Mengurangi kolesterol",
+        "Meringankan asma",
+        "Meringankan penyakit kulit",
+        "Membantu menjaga tubuh tetap ideal"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

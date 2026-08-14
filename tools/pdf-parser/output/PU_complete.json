@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "text": "Negara T adalah negara kepulauan dengan biaya logistik yang tinggi. Pakar logistik menyebutkan hal ini disebabkan tidak meratanya infrastruktur di negara T sehingga tidak semua wilayah dapat dijangkau dengan mudah. Manakah pernyataan-pernyataan berikut yang MEMPERLEMAH dan TIDAK MEMPERLEMAH pendapat pakar logistik tersebut? \ni. Pemerintah membangun banyak infrastruktur baru untuk memastikan pemerataan pembangunan. \nii. Pemerintah memberikan kebijakan insentif pajak bagi industri logistik untuk mengurangi beban biaya. \niii. Masyarakat memilih menggunakan jasa logistik saat berada pada pulau yang sama. \niv. Perusahaan logistik saat ini memastikan bahwa semua wilayah dapat dijangkau dengan mudah. \nv. Konsumen memilih perusahaan logistik yang memberikan layanan jangkauan pengiriman yang luas.",
+      "options": [
+        "Pernyataan i, ii, dan iii memperlemah, sedangkan iv dan v tidak memperlemah",
+        "Pernyataan ii dan iii memperlemah, sedangkan i, iv, dan v tidak memperlemah",
+        "Pernyataan ii dan iv memperlemah, sedangkan i, iii, dan v tidak memperlemah",
+        "Pernyataan i, ii, dan iv memperlemah, sedangkan iii dan v tidak memperlemah",
+        "Pernyataan iii dan iv memperlemah, sedangkan i, ii, dan v tidak memperlemah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Buah mangga mengandung vitamin C dan antioksidan sehingga dapat meningkatkan kekebalan tubuh serta membantu melawan infeksi virus. Penelitian terbaru menunjukkan bahwa mengonsumsi buah mangga dapat mencegah kanker dan menurunkan kadar kolesterol. Manakah DUA simpulan yang PALING DIDUKUNG oleh bacaan tersebut?",
+      "options": [
+        "Harga buah mangga menjadi mahal karena memiliki manfaat untuk kesehatan.",
+        "Jumlah buah mangga yang dikonsumsi memengaruhi khasiat buah mangga untuk mencegah kanker.",
+        "Banyak penderita kanker yang mencari buah mangga untuk pengobatan.",
+        "Mengonsumsi mangga disarankan agar dapat terhindar dari risiko penyakit tertentu.",
+        "Banyak produk kesehatan yang menggunakan bahan dasar ekstrak buah mangga."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kebiasaan tidur dengan posisi tengkurap dianggap buruk bagi kesehatan karena dapat memberikan tekanan pada bagian punggung dan leher yang mengakibatkan nyeri. Selain itu, tidur tengkurap juga dapat menyebabkan kesemutan. Meskipun demikian, tidur tengkurap dapat membuka saluran pernapasan sehingga dapat mengurangi dengkuran. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": [
+        "Orang yang mengalami kesemutan tidur dengan posisi tengkurap.",
+        "Kesemutan akibat tidur tengkurap dapat menyebabkan tidur menjadi tidak nyenyak.",
+        "Orang yang memiliki gangguan pernapasan dapat disembuhkan dengan tidur tengkurap",
+        "Nyeri punggung dan leher dialami oleh orang yang mendengkur.",
+        "Dengkuran sebagian orang yang tidur tengkurap berkurang."
+      ],
+      "correctAnswer": "Dengkuran sebagian orang yang tidur tengkurap berkurang.",
+      "explanation": null
+    },
+    {
+      "text": "Apabila sudah siap panen, jeruk akan terasa empuk jika ditekan; kulitnya berwarna kuning langsat; dan jika tergores, keluar aroma wangi. Hal-hal tersebut membuat nilai jual jeruk semakin tinggi. Jika buah jeruk terasa keras jika ditekan, berwarna hijau, dan tidak mengeluarkan aroma, manakah simpulan yang BENAR?",
+      "options": [
+        "Buah jeruk belum siap dipanen.",
+        "Buah jeruk harganya murah.",
+        "Buah jeruk harganya mahal.",
+        "Buah jeruk tidak bisa dijual.",
+        "Buah jeruk rasanya masam."
+      ],
+      "correctAnswer": "Buah jeruk belum siap dipanen.",
+      "explanation": null
+    },
+    {
+      "text": "Hadiah wisata ke luar negeri diberikan oleh perusahaan Z jika pekerjanya memiliki penilaian kinerja sangat baik dua tahun berturut-turut dan dinominasikan oleh rekan kerja dan atasannya. Pekerja C disukai oleh rekan kerjanya serta mendapatkan penilaian kinerja sangat baik tahun kemarin. Simpulan berdasarkan informasi tersebut adalah pekerja C layak mendapat hadiah wisata ke luar negeri di perusahaan Z. Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan.",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": "Simpulan tersebut mungkin benar.",
+      "explanation": null
+    },
+    {
+      "text": "Dewasa ini pemanfaatan kendaraan yang ramah lingkungan banyak digunakan oleh masyarakat. Dengan pemanfaatan ini, konsumsi bahan bakar minyak di masyarakat mampu mendatangkan efisiensi sebesar $20\\% - 30\\%$ setiap tahunnya. Berdasarkan paragraf tersebut, manakah yang PALING MUNGKIN menjadi asumsi yang mendasari argumen di atas?",
+      "options": [
+        "Masyarakat menjadi lebih hemat ketika menggunakan kendaraan yang ramah lingkungan.",
+        "Kendaraan yang ramah lingkungan menjadi pilihan sebagian besar masyarakat.",
+        "Kesadaran masyarakat untuk memanfaatkan teknologi yang ramah lingkungan semakin meningkat.",
+        "Banyak produsen kendaraan menggunakan teknologi ramah lingkungan pada kendaraan produksinya.",
+        "Hemat energi menjadi program yang gencar disosialisasikan oleh pemerintah negara X."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "\\dots, 5, 7, 9, 11, 13. Angka yang paling sesuai untuk melengkapi deret tersebut adalah \\dots",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "3",
+      "explanation": null
+    },
+    {
+      "text": "Tabel berikut menunjukkan jumlah siswa yang lulus dan gagal pada ujian Bahasa Indonesia yang dilaksanakan dalam lima gelombang. \nGelombang I: Lulus 26, Gagal 14 \nGelombang II: Lulus 28, Gagal 12 \nGelombang III: Lulus 32, Gagal 28 \nGelombang IV: Lulus 25, Gagal 15 \nGelombang V: Lulus 14, Gagal 16 \n\nPada gelombang berapa persentase kelulusan TERTINGGI terjadi?",
+      "options": [
+        "I.",
+        "II.",
+        "III.",
+        "IV.",
+        "V."
+      ],
+      "correctAnswer": "II.",
+      "explanation": null
+    },
+    {
+      "text": "Dua dus minuman dibagikan kepada empat kelompok kerja dengan ketentuan sebagai berikut: \n- Kelompok B mendapatkan 2 kali lebih banyak dibandingkan kelompok C. \n- Kelompok A mendapatkan $\\frac{1}{2}$ bagian keseluruhan. \n- Kelompok C dan D mendapatkan pembagian sama rata dari minuman yang tersisa. \n- Setiap dus berisi 24 kotak minuman ringan. \nInformasi yang dapat digunakan untuk mengetahui jumlah kotak minuman yang diterima oleh kelompok A adalah \\dots",
+      "options": [
+        "1 dan 2",
+        "1 dan 3",
+        "2 dan 3",
+        "2 dan 4",
+        "3 dan 4"
+      ],
+      "correctAnswer": "2 dan 4",
+      "explanation": null
+    },
+    {
+      "text": "Berikut ini adalah data pengunjung dua fasilitas umum, yaitu perpustakaan dan museum, pada bulan Januari 2022 dari hari Senin sampai dengan Jumat. \nSenin: Perpustakaan 220, Museum 200 \nSelasa: Perpustakaan 180, Museum 190 \nRabu: Perpustakaan 210, Museum 250 \nKamis: Perpustakaan 250, Museum 200 \nJumat: Perpustakaan 270, Museum 210 \n\nBerdasarkan data tersebut, jumlah pengunjung terendah kedua fasilitas tersebut terjadi pada hari \\dots",
+      "options": [
+        "Senin",
+        "Selasa",
+        "Rabu",
+        "Kamis",
+        "Jumat"
+      ],
+      "correctAnswer": "Selasa",
+      "explanation": null
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Sudut pandang penulis dari teks bacaan tersebut adalah...",
+      "options": [
+        "Orang pertama",
+        "Orang kedua",
+        "Orang pertama sampingan",
+        "Orang ketiga maha tahu",
+        "Orang ketiga campuran"
+      ],
+      "correctAnswer": "Orang ketiga maha tahu",
+      "explanation": null
+    },
+    {
+      "text": "Gagasan utama teks bacaan tersebut terletak pada kalimat...",
+      "options": [
+        "(1)",
+        "(8)",
+        "(9)",
+        "(14)",
+        "(22)"
+      ],
+      "correctAnswer": "(1)",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang melatarbelakangi Edmund Hillary menjadi suka mendaki gunung...",
+      "options": [
+        "Ambisinya menjadi orang pertama mencapai puncak Gunung Everest",
+        "Keindahan Gunung Everest",
+        "Ingin membuktikan kepada semua orang bahwa ia bisa menaklukkan Gunung Everest",
+        "Ingin menunjukkan bahwa Gunung Everest aman didaki",
+        "Perjalanan wisata sekolahnya ke Gunung Ruapehu membuat ia terkesan"
+      ],
+      "correctAnswer": "Perjalanan wisata sekolahnya ke Gunung Ruapehu membuat ia terkesan",
+      "explanation": null
+    },
+    {
+      "text": "Pendakian besar pertama Edmund Hillary dilakukan pada tahun...",
+      "options": [
+        "1953",
+        "1919",
+        "1939",
+        "1920",
+        "1940"
+      ],
+      "correctAnswer": "1939",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf ketiga teks bacaan tersebut jika mereka tidak mampu menaklukkan diri sendiri maka hal yang paling mungkin terjadi adalah...",
+      "options": [
+        "Mereka akan bertengkar",
+        "Mereka akan memaksa terus mendaki walaupun cuaca ekstrem",
+        "Mereka akan tinggal abadi di sana",
+        "Mereka tidak akan mencapai puncak Everest",
+        "Cuaca ekstrem akan terus terjadi"
+      ],
+      "correctAnswer": "Mereka tidak akan mencapai puncak Everest",
+      "explanation": null
+    },
+    {
+      "text": "Kelemahan informasi dari paragraf pertama ditunjukkan oleh...",
+      "options": [
+        "Tidak mencantumkan alasan Edmund Hillary tidak suka disebut sebagai orang pertama mencapai puncak Gunung Everest",
+        "Tidak mencantumkan rekan yang ikut bersamanya mendaki Gunung Everest",
+        "Tidak menyebutkan alasan kenapa Edmund Hillary memutuskan menjadi pendaki gunung",
+        "Tidak mencantumkan dari mana Edmund Hillary berasal",
+        "Tidak disampaikan kehidupan Edmund Hillary sebelumnya, sebelum ia menjadi pendaki gunung"
+      ],
+      "correctAnswer": "Tidak mencantumkan alasan Edmund Hillary tidak suka disebut sebagai orang pertama mencapai puncak Gunung Everest",
+      "explanation": null
+    },
+    {
+      "text": "Bagaimana latar belakang kehidupan Edmund Hillary di masa lalu?",
+      "options": [
+        "Edmund Hillary adalah seorang atlet",
+        "Edmund Hillary seorang YouTuber",
+        "Edmund Hillary dulunya adalah kutu buku",
+        "Edmund Hillary memang seorang pendaki sejak ia kecil bersama ayahnya",
+        "Edmund Hillary merupakan artis"
+      ],
+      "correctAnswer": "Edmund Hillary dulunya adalah kutu buku",
+      "explanation": null
+    },
+    {
+      "text": "Tema yang paling mungkin benar dari teks bacaan tersebut adalah...",
+      "options": [
+        "Gunung Everest",
+        "Edmund Hillary",
+        "Pendakian Gunung",
+        "Sejarah Gunung Everest",
+        "Orang pertama mencapai Gunung Everest"
+      ],
+      "correctAnswer": "Edmund Hillary",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan berikut ini yang tidak sesuai dengan teks bacaan adalah...",
+      "options": [
+        "PBB mengatakan bahwa hanya dalam lima dekade air kemasan telah berkembang menjadi sektor ekonomi utama",
+        "Konsumsi air kemasan terkait dengan kualitas air leding yang buruk",
+        "Penjualan air minum kemasan didorong oleh kurangnya atau tidak adanya pasokan air publik",
+        "Tujuan Pembangunan Berkelanjutan disepakati pada tahun 2015",
+        "Industri air kemasan telah mengalami pertumbuhan 73% dari tahun 2011 hingga 2020"
+      ],
+      "correctAnswer": "Industri air kemasan telah mengalami pertumbuhan 73% dari tahun 2011 hingga 2020",
+      "explanation": null
+    },
+    {
+      "text": "Bagaimana sikap penulis dalam teks bacaan tersebut?",
+      "options": [
+        "Memberikan ketidaksetujuan terhadap suatu hal",
+        "Menyampaikan pendapat pribadi",
+        "Menyampaikan suatu informasi",
+        "Mempertentang suatu informasi",
+        "Membandingkan suatu informasi dengan informasi dari sumber lain"
+      ],
+      "correctAnswer": "Menyampaikan suatu informasi",
+      "explanation": null
+    },
+    {
+      "text": "Hal apa yang dicerminkan oleh banyak air minum kemasan yang beredar saat ini...",
+      "options": [
+        "Musim kemarau yang terjadi di sejumlah wilayah",
+        "Daerah kesulitan air bersih semakin meningkat",
+        "Lebih praktis menggunakan air kemasan",
+        "Kegagalan sistem pasokan air publik",
+        "Pencemaran lingkungan membuat masyarakat beralih ke air kemasan"
+      ],
+      "correctAnswer": "Kegagalan sistem pasokan air publik",
+      "explanation": null
+    },
+    {
+      "text": "Salah satu alasan yang paling mungkin benar berdasarkan teks bacaan orang memilih minum air kemasan adalah...",
+      "options": [
+        "Penggunaan air kemasan lebih praktis dan dapat ditemukan di mana saja",
+        "Air kemasan kebersihan dan keamanannya lebih terjamin",
+        "Gaya hidup sekarang mendorong untuk minum air kemasan",
+        "Air kemasan dijual dengan harga murah dan kualitas terjamin",
+        "Kualitas air leding yang buruk dan sistem pasokan air publik yang seringkali tidak dapat diandalkan"
+      ],
+      "correctAnswer": "Kualitas air leding yang buruk dan sistem pasokan air publik yang seringkali tidak dapat diandalkan",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat opini dari teks bacaan ditunjukkan dalam kalimat",
+      "options": [
+        "(9)",
+        "(14)",
+        "(4)",
+        "(3)",
+        "(5)"
+      ],
+      "correctAnswer": "(14)",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang tidak formal dan tidak efektif ditunjukkan dalam kalimat ke…",
+      "options": [
+        "(1)",
+        "(5)",
+        "(6)",
+        "(12)",
+        "(2)"
+      ],
+      "correctAnswer": "(12)",
+      "explanation": null
+    },
+    {
+      "text": "Paragraf pertama teks bacaan tersebut berperan sebagai…",
+      "options": [
+        "Penjelas",
+        "Pembuka",
+        "Penutup",
+        "Pembanding",
+        "Pembahasan berbeda"
+      ],
+      "correctAnswer": "Pembuka",
+      "explanation": null
+    },
+    {
+      "text": "Perbaikan kalimat (3) teks bacaan tersebut sebagai berikut…",
+      "options": [
+        "Laporan ini mensebutkan, industri air kemasan telah mengalami pertumbuhan 73% dari tahun 2010 hingga 2020",
+        "Laporan ini menyebut industri air kemasan telah mengalami pertumbuhan 73% dari tahun 2010 hingga 2020",
+        "Laporan ini mensebut bahwa industri air kemasan telah mengalami pertumbuhan 73% dari tahun 2010 hingga 2020",
+        "Laporan ini menyebut industri air kemasan, telah mengalami pertumbuhan 73% dari tahun 2010 hingga 2020",
+        "Laporan ini menyebut industri air kemasan telah mengalami pertumbuhan 73%, dari tahun 2010 hingga 2020"
+      ],
+      "correctAnswer": "Laporan ini menyebut industri air kemasan telah mengalami pertumbuhan 73% dari tahun 2010 hingga 2020",
+      "explanation": null
+    },
+    {
+      "text": "Hal apa yang terjadi jika suatu negara angka usia nonproduktifnya lebih tinggi dibandingkan usia produktif?",
+      "options": [
+        "Negara akan banyak mengeluarkan dana",
+        "SDM negara akan berkurang",
+        "Pelaksanaan keperluan negara akan banyak dilakukan oleh SDM luar",
+        "Tidak memasuki era bonus demografis",
+        "Dana untuk kebutuhan masyarakat akan banyak dikeluarkan"
+      ],
+      "correctAnswer": "Tidak memasuki era bonus demografis",
+      "explanation": null
+    },
+    {
+      "text": "Hubungan kalimat (13) dan (14) adalah…",
+      "options": [
+        "Saling bertentang",
+        "Kalimat (14) contoh kalimat (13)",
+        "Saling memperjelas",
+        "Kalimat (13) informasi lanjutan",
+        "Kalimat (14) mempersempit kalimat (13)"
+      ],
+      "correctAnswer": "Saling bertentang",
+      "explanation": null
+    },
+    {
+      "text": "Apa itu bonus demografi?",
+      "options": [
+        "Kondusi di mana suatu negara terebebas dari hutang negara",
+        "Kondisi ketika di suatu negara, masyarakat berusia produktifnya lebih banyak daripada masyarakat berusia nonproduktif",
+        "Populasi masyarakat lebih sedikit dan keproduktifan meningkat",
+        "Negara berhasil mendongkrak perekonomian dan mempu membuka lapangan kerja seluas-luasnya",
+        "Negara berkembang beralih menjadi negara maju dan tidak ada lagi masyrakat miskin"
+      ],
+      "correctAnswer": "Kondisi ketika di suatu negara, masyarakat berusia produktifnya lebih banyak daripada masyarakat berusia nonproduktif",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang menunjukkan opini ditunjukkan dalam kalimat…",
+      "options": [
+        "(5)",
+        "(7)",
+        "(13)",
+        "(9)",
+        "(8)"
+      ],
+      "correctAnswer": "(13)",
+      "explanation": null
+    },
+    {
+      "text": "Hal apa yang paling mungkin terjadi apabila Korsel tidak memanfaatkan bonus demografi…",
+      "options": [
+        "Korsel akan memanfaatkan hal lain untuk berkembang",
+        "Korsel akan bergambung dengan Korut",
+        "Perperangan Korut dan Korsel tidak akan terjadi lagi",
+        "Korsel akan tetap menjadi negara termiskin",
+        "Korsel akan terus berperang dengan Korut"
+      ],
+      "correctAnswer": "Korsel akan tetap menjadi negara termiskin",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks bacaan yang dimaksud dengan nonproduktif adalah…",
+      "options": [
+        "Usia di atas 50 tahun",
+        "Usia di bawah 15 tahun dan di atas 64 tahun",
+        "Usia di atas 60 tahun",
+        "Usia di bawah 17 tahun dan di atas 60 tahun",
+        "Usia di bawah 10 tahun dan di atas 60 tahun"
+      ],
+      "correctAnswer": "Usia di bawah 15 tahun dan di atas 64 tahun",
+      "explanation": null
+    },
+    {
+      "text": "Hal apa yang menyebabkan dulunya Korsel negara miskin…",
+      "options": [
+        "Perang Korea",
+        "Bencana alam",
+        "Inflasi besar-besaran",
+        "Penjajahan",
+        "Tidak memiliki SDA"
+      ],
+      "correctAnswer": "Perang Korea",
+      "explanation": null
+    },
+    {
+      "text": "Frasa \"bonus demografi\" dalam kalimat (9) merujuk kepada…",
+      "options": [
+        "SDA",
+        "Peningkatan ekspor",
+        "Masyarakat nonproduktif",
+        "Pertumbuhan ekonomi",
+        "Masyarakat usia produktif"
+      ],
+      "correctAnswer": "Masyarakat usia produktif",
+      "explanation": null
+    },
+    {
+      "text": "Apa keuntungan berinvestasi di dunia pendidikan?",
+      "options": [
+        "Keberhasilan pasti akan terjamin",
+        "Menjadi tenaga kerja untuk negara",
+        "Siap mengabdi untuk negara",
+        "Akan menjadikan kita sebagai SDM berkualitas",
+        "Masa depan diri sendiri, keluarga, dan bangsa akan baik"
+      ],
+      "correctAnswer": "Akan menjadikan kita sebagai SDM berkualitas",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang mengandung kata informal ditunjukkan dalam kalimat…",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5)"
+      ],
+      "correctAnswer": "(2)",
+      "explanation": null
+    },
+    {
+      "text": "Tema paling mungkin benar dari teks bacaan tersebut adalah…",
+      "options": [
+        "Bonus demografis",
+        "Pelaksana tugas (Plt.) Direktur Jenderal (Dirjen) Pendidikan Tinggi, Riset, dan Teknologi Kemendikbudristek Nizam",
+        "SDA Indonesia",
+        "SDM Indonesia berdaya saing global",
+        "Pentingnya dunia pendidikan"
+      ],
+      "correctAnswer": "Pentingnya dunia pendidikan",
+      "explanation": null
+    },
+    {
+      "text": "Hal apa yang paling mungkin terjadi apabila penduduk Indonesia tidak tertarik berinvestasi di bidang pendidikan…",
+      "options": [
+        "Bidang lain diprediksi akan berkembang",
+        "Kemiskinan akan terus meningkat",
+        "Ekonomi Indonesia sulit maju",
+        "Angka pengangguran akan meningkat",
+        "SDA Indonesia akan lebih termanfaatkan"
+      ],
+      "correctAnswer": "Ekonomi Indonesia sulit maju",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan pernyataan yang disampaikan Pelaksana tugas (Plt.) Direktur Jenderal (Dirjen) Pendidikan Tinggi, Riset, dan Teknologi Kemendikbudristek Nizam secara tidak langsung mengajak untuk...",
+      "options": [
+        "Berinvestasi sejak dini",
+        "Menempuh pendidikan",
+        "Siap menjadi utusan untuk keperluan luar negeri",
+        "Mampu bersaing dengan SDM luar",
+        "Menjadi SDM terbaik bangsa"
+      ],
+      "correctAnswer": "Menempuh pendidikan",
+      "explanation": null
+    },
+    {
+      "text": "Judul yang paling sesuai untuk teks bacaan tersebut adalah...",
+      "options": [
+        "Indonesia siap maju!",
+        "Maju tidaknya suatu bangsa, ada di tangan anak muda dan SDA!",
+        "Berinvestasi di dunia pendidikan, ciptakan SDM berdaya saing global!",
+        "Indonesia siap menjawab tantangan global",
+        "Selamat datang era demografis"
+      ],
+      "correctAnswer": "Berinvestasi di dunia pendidikan, ciptakan SDM berdaya saing global!",
+      "explanation": null
+    }
+  ]
+}

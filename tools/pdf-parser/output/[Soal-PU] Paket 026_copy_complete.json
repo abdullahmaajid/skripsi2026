@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Didit akan membagikan buku kepada empat teman di sekitar rumahnya, berikut adalah ketentuan pembagiannya:\n1) B mendapat baju tiga kali lipat dari yang didapatkan C.\n2) C mendapat baju yang paling sedikit daripada yang lainnya.\n3) D mendapat sepertiga dari yang didapatkan A.\n4) A mendapat setengah bagian dari total baju yang diberikan.\n5) Didit membagikan empat lusin baju kepada keempat temannya.\nBerdasarkan bacaan tersebut, manakah informasi yang dibutuhkan untuk mengetahui baju yang didapatkan D?",
+      "options": [
+        "5 saja.",
+        "4 dan 5.",
+        "3, 4 dan 5.",
+        "1, 3, 4 dan 5.",
+        "1, 2, 3, 4 dan 5."
+      ],
+      "correctAnswer": "3, 4 dan 5.",
+      "explanation": null
+    },
+    {
+      "text": "Didit akan membagikan buku kepada empat teman di sekitar rumahnya, berikut adalah ketentuan pembagiannya:\n1) B mendapat baju tiga kali lipat dari yang didapatkan C.\n2) C mendapat baju yang paling sedikit daripada yang lainnya.\n3) D mendapat sepertiga dari yang didapatkan A.\n4) A mendapat setengah bagian dari total baju yang diberikan.\n5) Didit membagikan empat lusin baju kepada keempat temannya.\nBerdasarkan bacaan tersebut, manakah informasi yang dibutuhkan untuk mengetahui baju yang didapatkan B?",
+      "options": [
+        "5 saja.",
+        "4 dan 5.",
+        "3, 4 dan 5.",
+        "1, 3, 4 dan 5.",
+        "1, 2, 3, 4 dan 5."
+      ],
+      "correctAnswer": "1, 2, 3, 4 dan 5.",
+      "explanation": null
+    },
+    {
+      "text": "Didit akan membagikan buku kepada empat teman di sekitar rumahnya, berikut adalah ketentuan pembagiannya:\n1) B mendapat baju tiga kali lipat dari yang didapatkan C.\n2) C mendapat baju yang paling sedikit daripada yang lainnya.\n3) D mendapat sepertiga dari yang didapatkan A.\n4) A mendapat setengah bagian dari total baju yang diberikan.\n5) Didit membagikan empat lusin baju kepada keempat temannya.\nBerdasarkan bacaan tersebut, urutan yang mendapat baju paling sedikit hingga yang paling banyak yaitu?",
+      "options": [
+        "C, A, B, D",
+        "C, A, D, B",
+        "C, D, B, A",
+        "C, D, B, A",
+        "C, B, D, A"
+      ],
+      "correctAnswer": "C, D, B, A",
+      "explanation": null
+    },
+    {
+      "text": "Gita baru saja membuka toko bunga selama satu bulan, berikut adalah daya terkait modal dan omzet (dalam ribu) yang didapat dari penjualan lima bunga yang dijual. \nBunga A: Modal 9,0, Omzet 12,0\nBunga B: Modal 6,0, Omzet 7,5\nBunga C: Modal 5,0, Omzet 6,5\nBunga D: Modal 2,0, Omzet 2,8\nBunga E: Modal 10,0, Omzet 13,5\nManakah bunga yang menghasilkan hasil keuntungan paling tinggi?",
+      "options": [
+        "Bunga A.",
+        "Bunga B.",
+        "Bunga C.",
+        "Bunga D.",
+        "Bunga E."
+      ],
+      "correctAnswer": "Bunga E.",
+      "explanation": null
+    },
+    {
+      "text": "Gita baru saja membuka toko bunga selama satu bulan, berikut adalah daya terkait modal dan omzet (dalam ribu) yang didapat dari penjualan lima bunga yang dijual. \nBunga A: Modal 9,0, Omzet 12,0\nBunga B: Modal 6,0, Omzet 7,5\nBunga C: Modal 5,0, Omzet 6,5\nBunga D: Modal 2,0, Omzet 2,8\nBunga E: Modal 10,0, Omzet 13,5\nManakah bunga yang menghasilkan persentase keuntungan paling tinggi?",
+      "options": [
+        "Bunga A.",
+        "Bunga B.",
+        "Bunga C.",
+        "Bunga D.",
+        "Bunga E."
+      ],
+      "correctAnswer": "Bunga D.",
+      "explanation": null
+    },
+    {
+      "text": "Jumlah pengunjung wisata X selama lima hari berturut-turut adalah 120, 124, 131, 141, dan 154 orang. Sementara itu, jumlah pengunjung wisata Y dalam lima hari yang sama adalah 70, 71, 75, 82, dan 92 orang. Jika tren tersebut bersifat konstan, berapa orang pengunjung wisata X dan Y pada hari keenam?",
+      "options": [
+        "170 dan 100 orang.",
+        "170 dan 105 orang.",
+        "170 dan 110 orang.",
+        "180 dan 100 orang.",
+        "180 dan 105 orang."
+      ],
+      "correctAnswer": "170 dan 105 orang.",
+      "explanation": null
+    },
+    {
+      "text": "Jumlah pengunjung museum X selama lima hari berturut-turut adalah 251, 256, 255, 260, dan 259 orang. Sementara itu, jumlah pengunjung museum Y dalam lima hari yang sama adalah 302, 303, 305, 309, dan 317 orang. Jika tren tersebut bersifat konstan, berapa orang pengunjung museum X dan Y pada hari keenam?",
+      "options": [
+        "264 dan 333 orang.",
+        "264 dan 334 orang.",
+        "265 dan 333 orang.",
+        "265 dan 334 orang.",
+        "266 dan 333 orang."
+      ],
+      "correctAnswer": "264 dan 333 orang.",
+      "explanation": null
+    },
+    {
+      "text": "Antioksidan merupakan molekul yang berada dalam sel, molekul ini bekerja dengan mengambil elektron, sehingga radikal bebas tidak mengakibatkan adanya kerusakan sel. Dengan adanya kandungan antioksidan dalam tubuh, radikal bebas akan aman terkendali. Ini karena perannya yang sangat penting, kamu perlu memperbanyak jumlahnya untuk mencegah bahaya dari radikal bebas.\n\nSebenarnya, tubuh sendiri menghasilkan antioksidan alami, tetapi jumlahnya tidak akan mencukupi untuk menangkal kandungan radikal bebas yang ada dalam tubuh. Mengonsumsi buah-buahan secara rutin dapat membuat kebutuhan antioksidan menjadi tercukupi, hal itu nantinya membuat tubuh menjadi lebih sehat dan tidak mudah terinfeksi oleh penyakit akibat radikal bebas.\n\nBerdasarkan paragraf 1, manakah pernyataan yang PASTI SALAH?",
+      "options": [
+        "Molekul dalam sel dapat mencegah kerusakan sel.",
+        "Semakin tinggi kandungan oksigen radikal bebas menjadi aman terkendali.",
+        "Radikal bebas dapat dicegah dengan molekul antikosidan.",
+        "Kerusakan sel tidak dipengaruhi oleh radikal bebas di tubuh.",
+        "Kerusakan sel tidak dipengaruhi oleh radikal bebas di tubuh."
+      ],
+      "correctAnswer": "Kerusakan sel tidak dipengaruhi oleh radikal bebas di tubuh.",
+      "explanation": null
+    },
+    {
+      "text": "Antioksidan merupakan molekul yang berada dalam sel, molekul ini bekerja dengan mengambil elektron, sehingga radikal bebas tidak mengakibatkan adanya kerusakan sel. Dengan adanya kandungan antioksidan dalam tubuh, radikal bebas akan aman terkendali. Ini karena perannya yang sangat penting, kamu perlu memperbanyak jumlahnya untuk mencegah bahaya dari radikal bebas.\n\nSebenarnya, tubuh sendiri menghasilkan antioksidan alami, tetapi jumlahnya tidak akan mencukupi untuk menangkal kandungan radikal bebas yang ada dalam tubuh. Mengonsumsi buah-buahan secara rutin dapat membuat kebutuhan antioksidan menjadi tercukupi, hal itu nantinya membuat tubuh menjadi lebih sehat dan tidak mudah terinfeksi oleh penyakit akibat radikal bebas.\n\nBerdasarkan paragraf 2, manakah simpulan yang tepat jika tubuh seseorang mudah terinfeksi oleh penyakit akibat radikal bebas?",
+      "options": [
+        "Antioksidan alami dalam tubuh sudah mencukupi kebutuhan untuk menangkal.",
+        "Tidak mengonsumsi buah-buahan secara rutin.",
+        "Telah mengonsumsi buah-buahan seara rutin.",
+        "Kebutuhan antioksidan telah tercukupi.",
+        "Tubuh kekurangan antioksidan karena rutin mengonsumsi buah."
+      ],
+      "correctAnswer": "Tidak mengonsumsi buah-buahan secara rutin.",
+      "explanation": null
+    },
+    {
+      "text": "Antioksidan merupakan molekul yang berada dalam sel, molekul ini bekerja dengan mengambil elektron, sehingga radikal bebas tidak mengakibatkan adanya kerusakan sel. Dengan adanya kandungan antioksidan dalam tubuh, radikal bebas akan aman terkendali. Ini karena perannya yang sangat penting, kamu perlu memperbanyak jumlahnya untuk mencegah bahaya dari radikal bebas.\n\nSebenarnya, tubuh sendiri menghasilkan antioksidan alami, tetapi jumlahnya tidak akan mencukupi untuk menangkal kandungan radikal bebas yang ada dalam tubuh. Mengonsumsi buah-buahan secara rutin dapat membuat kebutuhan antioksidan menjadi tercukupi, hal itu nantinya membuat tubuh menjadi lebih sehat dan tidak mudah terinfeksi oleh penyakit akibat radikal bebas.\n\nBerdasarkan bacaan tersebut, manakah yang pernyataan yang MEMPERLEMAH isi bacaan?",
+      "options": [
+        "Dokter menyarankan konsumsi buah untuk pasien yang sering terinfeksi penyakit.",
+        "Seseorang yang rutin mengonsumsi buah-buahan lebih mudah terkena dampak radikal bebas.",
+        "Tingginya kadar antioksidan dalam tubuh akan membuat seseorang lebih sehat.",
+        "Jika tidak mengonsumsi buah seseorang dapat mudah terkenal penyakit.",
+        "Selain dikonsumsi buah juga dapat diminum dalam bentuk jus untuk menjaga kesehatan."
+      ],
+      "correctAnswer": "Seseorang yang rutin mengonsumsi buah-buahan lebih mudah terkena dampak radikal bebas.",
+      "explanation": null
+    },
+    {
+      "text": "A menyatakan, \"Negara yang maju biasanya memiliki kualitas SDM tinggi dan ilmuwan hebat.\"\nB menyatakan, \"Kualitas pendidikan dan pemerintahan yang bersih dari korupsi akan membuat penduduk negara menjadi makmur.\"\n\nData menunjukkan bahwa negara X saat ini memiliki permasalahan lingkungan karena penduduk negara tidak Makmur.\n\nManakah pernyataan berikut yang paling tepat mengenai data tersebut?",
+      "options": [
+        "Memperkuat pernyataan A.",
+        "Memperlemah pernyataan A.",
+        "Memperkuat pernyataan B.",
+        "Memperlemah pernyataan B.",
+        "Tidak relevan dengan pernyataan A dan B."
+      ],
+      "correctAnswer": "Tidak relevan dengan pernyataan A dan B.",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, manakah pernyataan yang PASTI BENAR?",
+      "options": [
+        "Jumlah kalori pada nanas tidak baik dikonsumsi orang yang sedang diet.",
+        "Untuk mencegah penyakit pada kulit seseorang dapat mengonsumsi nanas sebagai obat alami.",
+        "Kandungan kalori yang rendah pada nanas bagus sebagai makanan diet.",
+        "Nanas hanya dapat ditemukan di daerah tropis, yaitu Indonesia.",
+        "Seseorang yang sedang batuk pasti dapat disembuhkan hanya dengan mengonsumsi nanas."
+      ],
+      "correctAnswer": "Kandungan kalori yang rendah pada nanas bagus sebagai makanan diet.",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan pernyataan di atas manakah simpulan yang tepat?",
+      "options": [
+        "Sebagian sekolah suka mengikuti kompetisi olahraga antarsekolah.",
+        "Semua sekolah tidak suka mengikuti kompetisi olahraga, tetapi suka mengadakan pertunjukan teater.",
+        "Semua sekolah suka mengadakan pertunjukan teater, tetapi tidak suka mengadakan bakti sosial.",
+        "Sebagian sekolah suka mengadakan bakti sosial dan tidak suka mengadakan pertunjukan teater.",
+        "Semua sekolah tidak suka mengikuti kompetisi olahraga tetapi suka mengadakan pertunjukan teater."
+      ],
+      "correctAnswer": "Semua sekolah tidak suka mengikuti kompetisi olahraga tetapi suka mengadakan pertunjukan teater.",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan pernyataan di atas manakah simpulan yang tepat?",
+      "options": [
+        "Ada bunga hijau yang lebih mahal dan lebih banyak dibeli orang.",
+        "Bunga putih yang tidak lebih harum dari bunga hijau harganya murah.",
+        "Bunga yang lebih banyak dibeli orang belum tentu harum.",
+        "Bunga putih lebih banyak dibeli orang walaupun harganya lebih mahal.",
+        "Ada bunga putih yang harganya lebih mahal tidak banyak dibeli orang."
+      ],
+      "correctAnswer": "Ada bunga putih yang harganya lebih mahal tidak banyak dibeli orang.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": "Simpulan tersebut pasti salah.",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, manakah informasi yang dibutuhkan untuk mengetahui umur A saat ini?",
+      "options": [
+        "1 saja.",
+        "1 dan 2.",
+        "1, 2, dan 3.",
+        "1, 3, dan 4.",
+        "1, 2, 3, dan 4."
+      ],
+      "correctAnswer": "1 dan 2.",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, manakah informasi yang dibutuhkan untuk mengetahui umur C saat ini?",
+      "options": [
+        "1 saja.",
+        "1 dan 2.",
+        "1, 2, dan 3.",
+        "1, 3, dan 4.",
+        "1, 2, 3, dan 4."
+      ],
+      "correctAnswer": "1, 2, 3, dan 4.",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, urutan usia termuda hingga tertua yaitu?",
+      "options": [
+        "D, C, A, B",
+        "D, B, A, C",
+        "B, A, D, C",
+        "B, D, A, C",
+        "C, B, D, A"
+      ],
+      "correctAnswer": "B, D, A, C",
+      "explanation": null
+    },
+    {
+      "text": "Manakah buku yang menghasilkan hasil keuntungan paling tinggi?",
+      "options": [
+        "Buku M.",
+        "Buku N.",
+        "Buku O.",
+        "Buku P.",
+        "Buku Q."
+      ],
+      "correctAnswer": "Buku Q.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah bunga yang menghasilkan persentase keuntungan paling tinggi?",
+      "options": [
+        "Buku M.",
+        "Buku N.",
+        "Buku O.",
+        "Buku P.",
+        "Buku Q."
+      ],
+      "correctAnswer": "Buku M.",
+      "explanation": null
+    },
+    {
+      "text": "2, 4, 8, 7, 9, 13, \\dots, 14, 18, 17\\nManakah nilai yang tepat untuk mengisi barisan tersebut?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "correctAnswer": "12",
+      "explanation": null
+    },
+    {
+      "text": "120, 135, 145, 140, 155, 165, 160, \\dots\\nManakah nilai yang tepat untuk mengisi barisan tersebut?",
+      "options": [
+        "165",
+        "170",
+        "175",
+        "180",
+        "185"
+      ],
+      "correctAnswer": "175",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, manakah pernyataan yang PASTI BENAR?",
+      "options": [
+        "Meminum kopi hitam dengan gula mengandung kalori dalam jumlah yang rendah.",
+        "Untuk mempercepat metabolisme dan pembakaran lemak seseorang tidak disarankan meminum kopi.",
+        "Meminum lebih dari dua cangkir kopi per hari dapat menurunkan risiko terjadinya diabetes.",
+        "Meminum kopi hitam tanpa gula dapat membantu penurunan berat badan.",
+        "Kemungkinan terkena diabetes akan semakin tinggi jika sering mengonsumsi kopi hitam."
+      ],
+      "correctAnswer": "Meminum kopi hitam tanpa gula dapat membantu penurunan berat badan.",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf 2, manakah simpulan yang tepat jika seseorang tidak rutin meminum dua cangkir kopi hitam per hari?",
+      "options": [
+        "Menurunnya risiko terkena diabetes.",
+        "Meningkatnya risiko terkena diabetes.",
+        "Terjadinya resistensi insulin.",
+        "Resistensi insulin tidak terhindar.",
+        "Tidak dapat disimpulkan."
+      ],
+      "correctAnswer": "Tidak dapat disimpulkan.",
+      "explanation": null
+    },
+    {
+      "text": "Susanti mengikuti lomba melukis. Ia mewakili sekolahnya dalam lomba melukis antarsekolah. Diana, adik Susanti mengikuti lomba melukis di balaikota bersama teman sekolahnya.\n\nManakah simpulan yang benar?",
+      "options": [
+        "Susanti dan Diana sering bersaing dalam lomba.",
+        "Susanti dan Diana mengikuti lomba melukis.",
+        "Susanti dan Diana mengikuti lomba melukis di balaikota.",
+        "Susanti dan Diana mewakili lomba antarsekolah.",
+        "Susanti dan Diana berlomba di sekolah yang sama."
+      ],
+      "correctAnswer": "Susanti dan Diana mengikuti lomba melukis.",
+      "explanation": "Susanti mengikuti lomba melukis dan Diana juga mengikuti lomba melukis, sehingga keduanya sama-sama mengikuti lomba melukis."
+    },
+    {
+      "text": "Jika terjadi kebakaran hutan, maka hutan akan gundul. Jika hutan gundul, maka terjadi longsor di dekat hutan. Minggu ini banyak terjadi penggundulan hutan di wilayah A.\n\nManakah simpulan yang benar?",
+      "options": [
+        "Hutan di wilayah A gundul karena kebakaran.",
+        "Terjadi longsor dekat hutan di wilayah A.",
+        "Di dekat hutan wilayah A rawan terjadi kebakaran.",
+        "Longsor menyebabkan hutan di wilayah A menjadi gundul.",
+        "Terjadi kebakaran hutan di wilayah A."
+      ],
+      "correctAnswer": "Terjadi longsor dekat hutan di wilayah A.",
+      "explanation": "Premis menyatakan bahwa jika hutan gundul, maka terjadi longsor di dekat hutan. Minggu ini hutan di wilayah A gundul (penggundulan hutan), sehingga terjadi longsor di dekat hutan wilayah A."
+    },
+    {
+      "text": "Penduduk Desa A akan sejahtera jika banyak wisatawan yang datang berkunjung ke wisata air terjun. Wisatawan akan berkunjung jika jalan raya menuju air terjun telah diperbaiki dan banyak penginapan di sekitar air terjun. Desa A sudah banyak penginapan di sekitar air terjun dan pemerintah masih memperbaiki akses jalan raya menuju air terjun.\n\nSimpulan berdasarkan informasi tersebut adalah penduduk Desa A belum sejahtera.\n\nManakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": "Simpulan tersebut pasti benar.",
+      "explanation": "Wisatawan baru akan berkunjung jika jalan raya sudah diperbaiki DAN banyak penginapan. Saat ini jalan masih diperbaiki (belum selesai), sehingga wisatawan belum berkunjung, akibatnya penduduk belum sejahtera."
+    },
+    {
+      "text": "Ketika sedang malam bulan purnama pesisir akan mengalami pasang air laut, saat sedang pasang air laut maka dermaga akan tenggelam, sehingga nelayan tidak dapat pergi melaut mencari ikan. Saat ini sedang malam bulan purnama.\n\nSimpulan berdasarkan informasi dalam teks tersebut adalah nelayan dapat pergi melaut mencari ikan.\n\nManakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar.",
+        "Simpulan tersebut mungkin benar.",
+        "Simpulan tersebut pasti salah.",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": "Simpulan tersebut pasti salah.",
+      "explanation": "Saat malam bulan purnama, pesisir pasang, dermaga tenggelam, dan nelayan tidak dapat pergi melaut. Simpulan menyatakan nelayan dapat pergi melaut, yang bertolak belakang dengan fakta tersebut."
+    },
+    {
+      "text": "Saat ini terjadi peningkatan jumlah mahasiswa baru di Universitas A. Pihak universitas menyebutkan bahwa mahasiswa baru di Universitas A cenderung memiliki tingkat keaktifan yang rendah.\n\nBerdasarkan informasi pada bacaan, berikut adalah kalimat yang MEMPERLEMAH dan TIDAK MEMPERLEMAH pernyataan tersebut.\n1. Mahasiswa baru sering melakukan penelitian bersama dosen.\n2. Mahasiswa baru memberikan banyak gagasan dalam perkuliahan.\n3. Banyak mahasiswa baru yang tidak mengerjakan tugas perkuliahan dengan baik.\n4. Banyak dosen yang mengapresiasi ide dan gagasan mahasiswa baru.\n5. Banyak dosen yang mengeluhkan tugas makalah mahasiswa baru.",
+      "options": [
+        "Memperlemah: 1, 2, 4 | Tidak Memperlemah: 3, 5",
+        "Memperlemah: 3, 5 | Tidak Memperlemah: 1, 2, 4",
+        "Memperlemah: 1, 3 | Tidak Memperlemah: 2, 4, 5",
+        "Memperlemah: 2, 4 | Tidak Memperlemah: 1, 3, 5",
+        "Memperlemah: semua | Tidak Memperlemah: tidak ada"
+      ],
+      "correctAnswer": "Memperlemah: 1, 2, 4 | Tidak Memperlemah: 3, 5",
+      "explanation": "Pernyataan utama: mahasiswa baru tingkat keaktifannya rendah. Kalimat 1, 2, dan 4 menunjukkan keaktifan (penelitian, memberi gagasan, diapresiasi idenya) sehingga memperlemah. Kalimat 3 dan 5 menunjukkan ketidakaktifan atau hal negatif, sehingga tidak memperlemah."
+    },
+    {
+      "text": "Negara A saat ini mengalami pertumbuhan ekonomi yang cukup pesat. Ahli ekonomi menyebutkan bahwa pertumbuhan ekonomi yang pesat tersebut terjadi karena berkembangnya sumber daya manusia dalam beberapa tahun terakhir.\n\nBerdasarkan informasi pada bacaan, berikut adalah kalimat yang MEMPERLEMAH dan TIDAK MEMPERLEMAH pernyataan tersebut.\n1. Pemerintah Negara A melakukan banyak pembangunan infrastruktur pendidikan.\n2. Pemerintah Negara A menggratiskan sekolah dari tingkat dasar hingga sekolah tinggi.\n3. Terjadi ketimpangan kualitas tenaga pendidik yang cukup besar antar wilayah di Negara A.\n4. Banyak sekolah di Negara A yang belum memiliki kurikulum yang memadai.\n5. Beberapa tahun terakhir banyak peserta didik di Negara A mengalami putus sekolah.",
+      "options": [
+        "Memperlemah: 1, 2 | Tidak Memperlemah: 3, 4, 5",
+        "Memperlemah: 3, 4, 5 | Tidak Memperlemah: 1, 2",
+        "Memperlemah: 1, 2, 3 | Tidak Memperlemah: 4, 5",
+        "Memperlemah: semua | Tidak Memperlemah: tidak ada",
+        "Memperlemah: tidak ada | Tidak Memperlemah: semua"
+      ],
+      "correctAnswer": "Memperlemah: 3, 4, 5 | Tidak Memperlemah: 1, 2",
+      "explanation": "Pernyataan utama: pertumbuhan ekonomi pesat karena berkembangnya sumber daya manusia. Kalimat 3, 4, dan 5 menunjukkan masalah kualitas dan kuantitas pendidikan (ketimpangan, kurikulum belum memadai, putus sekolah) yang menunjukkan SDM bermasalah, sehingga memperlemah argumen. Kalimat 1 dan 2 mendukung perkembangan SDM."
+    }
+  ]
+}

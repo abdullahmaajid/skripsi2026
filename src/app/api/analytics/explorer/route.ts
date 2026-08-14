@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server"
 import { prisma } from "@/lib/prisma"
+import { getCachedSyllabus } from "@/lib/cache"
 import { auth } from "@/auth"
 
 export const dynamic = "force-dynamic"
@@ -12,11 +13,8 @@ export async function GET() {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
   }
 
-  // Also fetch available subjects first to build a map
-  const subjectsList = await prisma.subject.findMany({
-    select: { id: true, name: true },
-    orderBy: { name: "asc" }
-  })
+  // Also fetch available subjects first to build a map (from cache)
+  const subjectsList = await getCachedSyllabus()
   const subjectMap = Object.fromEntries(subjectsList.map(s => [s.id, s.name]))
 
   // Get all completed attempts ordered by date ascending

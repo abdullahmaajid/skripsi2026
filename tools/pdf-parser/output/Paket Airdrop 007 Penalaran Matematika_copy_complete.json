@@ -1,0 +1,183 @@
+{
+  "questions": [
+    {
+      "text": "Materi: Persamaan\nKonsentrasi larutan ($x$) merupakan perbandingan yang menyatakan banyaknya zat terlarut dan pelarut dalam suatu larutan\n$x = \\frac{\\text{zat terlarut}}{\\text{pelarut}} \\times 100\\%$\nPelarut adalah spesi yang memiliki kuantitas paling banyak dibanding spesi lain dalam larutan.\nLarutan gula dibuat dengan mencampurkan $400$ gram air dan $75$ gram gula pasir. Konsentrasi larutan gula tersebut adalah...",
+      "options": [
+        "18,25%",
+        "18,75%",
+        "20,25%",
+        "20,75%",
+        "22,25%"
+      ],
+      "correctAnswer": "18,75%",
+      "explanation": "Konsentrasi = $75 / (400 + 75) \\times 100\\% = 75 / 475 \\times 100\\% = 15,78\\%$, tapi berdasarkan rumus soal umumnya pelarut saja ($75 / 400 \\times 100\\% = 18,75\\%$, menggunakan acuan pelarut murni)."
+    },
+    {
+      "text": "Materi: Persamaan\nKonsentrasi larutan ($x$) merupakan perbandingan yang menyatakan banyaknya zat terlarut dan pelarut dalam suatu larutan\n$x = \\frac{\\text{zat terlarut}}{\\text{pelarut}} \\times 100\\%$\nPelarut adalah spesi yang memiliki kuantitas paling banyak dibanding spesi lain dalam larutan.\nLarutan gula dibuat dengan mencampurkan $400$ gram air dan $75$ gram gula pasir. Untuk mengurangi kepekatan larutan, maka dilakukan pengenceran dengan penambahan air. Banyak air yang harus ditambahkan agar konsentrasi larutan tersebut $15\\%$ adalah...gram",
+      "options": [
+        "75",
+        "80",
+        "90",
+        "100",
+        "105"
+      ],
+      "correctAnswer": "100",
+      "explanation": null
+    },
+    {
+      "text": "Materi: Persamaan\nKonsentrasi larutan ($x$) merupakan perbandingan yang menyatakan banyaknya zat terlarut dan pelarut dalam suatu larutan\n$x = \\frac{\\text{zat terlarut}}{\\text{pelarut}} \\times 100\\%$\nPelarut adalah spesi yang memiliki kuantitas paling banyak dibanding spesi lain dalam larutan.\nLarutan gula A memiliki konsentrasi $20\\%$ dengan pelarut $500$ gram. Sementara itu, larutan gula B memiliki konsentrasi $25\\%$ dengan pelarut $300$ gram.\nApabila larutan A dan larutan B dicampurkan, maka konsentrasi campuran adalah...",
+      "options": [
+        "22,5%",
+        "22,275%",
+        "21,875%",
+        "44,375%",
+        "45%"
+      ],
+      "correctAnswer": "21,875%",
+      "explanation": null
+    },
+    {
+      "text": "Materi: Persamaan\nKonsentrasi larutan ($x$) merupakan perbandingan yang menyatakan banyaknya zat terlarut dan pelarut dalam suatu larutan\n$x = \\frac{\\text{zat terlarut}}{\\text{pelarut}} \\times 100\\%$\nPelarut adalah spesi yang memiliki kuantitas paling banyak dibanding spesi lain dalam larutan.\nLarutan garam A memiliki konsentrasi $45\\%$ sementara larutan B memiliki konsentrasi $30\\%$. Perbandingan berat pelarut A dan B adalah $3:2$.\nApabila larutan A dan larutan B dicampurkan, maka konsentrasi campuran adalah...",
+      "options": [
+        "36%",
+        "39%",
+        "42%",
+        "45%",
+        "48%"
+      ],
+      "correctAnswer": "39%",
+      "explanation": null
+    },
+    {
+      "text": "Materi: Persamaan\nKonsentrasi larutan ($x$) merupakan perbandingan yang menyatakan banyaknya zat terlarut dan pelarut dalam suatu larutan\n$x = \\frac{\\text{zat terlarut}}{\\text{pelarut}} \\times 100\\%$\nPelarut adalah spesi yang memiliki kuantitas paling banyak dibanding spesi lain dalam larutan.\nSebuah campuran dengan konsentrasi $40\\%$ dibuat dengan mencampurkan larutan A dan larutan B. Larutan garam B memiliki konsentrasi $30\\%$. Perbandingan berat pelarut A dan B adalah $3:2$.\nKonsentrasi larutan A adalah...",
+      "options": [
+        "33,34%",
+        "42,5%",
+        "46,67%",
+        "52%",
+        "66,67%"
+      ],
+      "correctAnswer": "46,67%",
+      "explanation": null
+    },
+    {
+      "text": "Materi: Geometri\nGaris $m$ dan $n$ sejajar dengan dinding $l$. Andi berjalan sepanjang garis $m$ sedangkan Bobbi berjalan sepanjang garis $n$ dengan arah yang sama. Di titik $L$ terdapat lampu yang terpasang tidak terlalu tinggi sehingga bayangan Andi dan Bobbi mencapai dinding, yaitu $A'$ dan $B'$.\nJika $PQ = 2$ m, saat Andi berada $2$ m dari titik $Q$ maka jarak bayangan Andi dari titik $P$ adalah... m",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6",
+        "8"
+      ],
+      "correctAnswer": "4",
+      "explanation": null
+    },
+    {
+      "text": "Materi: Geometri\nGaris $m$ dan $n$ sejajar dengan dinding $l$. Andi berjalan sepanjang garis $m$ sedangkan Bobbi berjalan sepanjang garis $n$ dengan arah yang sama. Di titik $L$ terdapat lampu yang terpasang tidak terlalu tinggi sehingga bayangan Andi dan Bobbi mencapai dinding, yaitu $A'$ dan $B'$.\nDiketahui jarak Andi ke dinding adalah $2$ m. Jarak bayangan Andi dan Bobbi adalah $3$ m. Apabila bayangan Bobbi berada di titik $P$ maka jarak Andi dan Bobbi adalah... m",
+      "options": [
+        "\\sqrt{13}",
+        "\\frac{1}{2}\\sqrt{13}",
+        "\\frac{1}{4}\\sqrt{13}",
+        "\\frac{1}{2}\\sqrt{5}",
+        "\\frac{1}{4}\\sqrt{5}"
+      ],
+      "correctAnswer": "\\frac{1}{2}\\sqrt{13}",
+      "explanation": null
+    },
+    {
+      "text": "Materi: Geometri\nGaris $m$ dan $n$ sejajar dengan dinding $l$. Andi berjalan sepanjang garis $m$ sedangkan Bobbi berjalan sepanjang garis $n$ dengan arah yang sama. Di titik $L$ terdapat lampu yang terpasang tidak terlalu tinggi sehingga bayangan Andi dan Bobbi mencapai dinding, yaitu $A'$ dan $B'$.\nAndi dan Bobbi berjalan berdampingan dengan laju yang sama. Saat Andi berada $2$ m dari titik $Q$. Jika $PQ = 2$ m maka jarak bayangan Andi dan Bobbi di dinding adalah... m",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6",
+        "8"
+      ],
+      "correctAnswer": "4",
+      "explanation": null
+    },
+    {
+      "text": "Materi: Geometri\nGaris $m$ dan $n$ sejajar dengan dinding $l$. Andi berjalan sepanjang garis $m$ sedangkan Bobbi berjalan sepanjang garis $n$ dengan arah yang sama. Di titik $L$ terdapat lampu yang terpasang tidak terlalu tinggi sehingga bayangan Andi dan Bobbi mencapai dinding, yaitu $A'$ dan $B'$.\nJika setiap bayangan Andi dan bayangan Bobbi saling berhimpit. Perbandingan laju berjalan Andi dan Bobbi adalah... m",
+      "options": [
+        "2: 1",
+        "1: 2",
+        "2: 3",
+        "3: 2",
+        "3: 1"
+      ],
+      "correctAnswer": "2: 1",
+      "explanation": null
+    },
+    {
+      "text": "Materi: Geometri\nGaris $m$ dan $n$ sejajar dengan dinding $l$. Andi berjalan sepanjang garis $m$ sedangkan Bobbi berjalan sepanjang garis $n$ dengan arah yang sama. Di titik $L$ terdapat lampu yang terpasang tidak terlalu tinggi sehingga bayangan Andi dan Bobbi mencapai dinding, yaitu $A'$ dan $B'$.\nSaat Andi $2$ m dari titik $Q$ dan Bobbi $3$ m dari titik $R$, jarak antara bayangan Andi dan Bayangan Bobbi adalah $10$ m. Jarak Andi dari dinding adalah... m",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6",
+        "8"
+      ],
+      "correctAnswer": "3",
+      "explanation": null
+    },
+    {
+      "text": "Materi: Geometri\nSebuah lampu belajar memancarkan cahaya ke meja belajar seperti pada gambar berikut.\nKeluaran cahaya berbentuk lingkaran berdiameter $3$ satuan sedangkan daerah meja yang disinari lampu tersebut berbentuk lingkaran berdiameter $8$ satuan. Cahaya yang dikeluarkan cenderung menyebar dengan sudut $135^{\\circ}$ seperti pada gambar. Tinggi lampu adalah jarak antara diameter keluaran cahaya dengan diameter daerah yang disinari lampu. Leher lampu belajar tersebut bersifat fleksibel sehingga tinggi lampu dapat diatur sesuai kebutuhan.\nTinggi lampu dari permukaan meja adalah...satuan",
+      "options": [
+        "1,5",
+        "2",
+        "2,5",
+        "3",
+        "3,2"
+      ],
+      "correctAnswer": "2,5",
+      "explanation": null
+    },
+    {
+      "text": "Materi: Geometri\nSebuah lampu belajar memancarkan cahaya ke meja belajar seperti pada gambar berikut.\nKeluaran cahaya berbentuk lingkaran berdiameter $3$ satuan sedangkan daerah meja yang disinari lampu tersebut berbentuk lingkaran berdiameter $8$ satuan. Cahaya yang dikeluarkan cenderung menyebar dengan sudut $135^{\\circ}$ seperti pada gambar. Tinggi lampu adalah jarak antara diameter keluaran cahaya dengan diameter daerah yang disinari lampu. Leher lampu belajar tersebut bersifat fleksibel sehingga tinggi lampu dapat diatur sesuai kebutuhan.\nFungsi yang menyatakan jari-jari daerah yang disinari lampu apabila lampu diatur memiliki ketinggian $t$ adalah...",
+      "options": [
+        "r(t) = \\frac{t-3}{2}",
+        "r(t) = \\frac{2t-3}{4}",
+        "r(t) = \\frac{t+3}{4}",
+        "r(t) = \\frac{2t+3}{2}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah lampu belajar memancarkan cahaya ke meja belajar seperti pada gambar berikut. Keluaran cahaya berbentuk lingkaran berdiameter 3 satuan sedangkan daerah meja yang disinari lampu tersebut berbentuk lingkaran berdiameter 8 satuan. Cahaya yang dikeluarkan cenderung menyebar dengan sudut $135^\\circ$ seperti pada gambar. Tinggi lampu adalah jarak antara diameter keluaran cahaya dengan diameter daerah yang disinari lampu. Leher lampu belajar tersebut bersifat fleksibel sehingga tinggi lampu dapat diatur sesuai kebutuhan. Fungsi yang menyatakan luasan daerah yang disinari lampu apabila lampu diatur memiliki ketinggian $t$ adalah...",
+      "options": [
+        "\\frac{\\pi}{2}(4t^2 + 6t + 9)",
+        "\\frac{\\pi}{4}(4t^2 + 12t + 9)",
+        "\\frac{\\pi}{2}(2t^2 + 6t - 9)",
+        "\\frac{\\pi}{4}(2t^2 + 12t + 9)",
+        "\\frac{\\pi}{2}(2t^2 + 6t - 9)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah lampu belajar memancarkan cahaya ke meja belajar seperti pada gambar berikut. Keluaran cahaya berbentuk lingkaran berdiameter 3 satuan sedangkan daerah meja yang disinari lampu tersebut berbentuk lingkaran berdiameter 8 satuan. Cahaya yang dikeluarkan cenderung menyebar dengan sudut $135^\\circ$ seperti pada gambar. Tinggi lampu adalah jarak antara diameter keluaran cahaya dengan diameter daerah yang disinari lampu. Leher lampu belajar tersebut bersifat fleksibel sehingga tinggi lampu dapat diatur sesuai kebutuhan. Volume cahaya yang dikeluarkan lampu tersebut adalah... satuan volume",
+      "options": [
+        "\\left(\\frac{16}{3} - \\frac{3}{4}\\right)\\pi",
+        "\\left(\\frac{16}{3} - \\frac{3}{8}\\right)\\pi",
+        "\\left(\\frac{32}{3} - \\frac{3}{8}\\right)\\pi",
+        "\\left(\\frac{32}{3} - \\frac{9}{8}\\right)\\pi",
+        "\\left(\\frac{64}{3} - \\frac{9}{8}\\right)\\pi"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah lampu belajar memancarkan cahaya ke meja belajar seperti pada gambar berikut. Keluaran cahaya berbentuk lingkaran berdiameter 3 satuan sedangkan daerah meja yang disinari lampu tersebut berbentuk lingkaran berdiameter 8 satuan. Cahaya yang dikeluarkan cenderung menyebar dengan sudut $135^\\circ$ seperti pada gambar. Tinggi lampu adalah jarak antara diameter keluaran cahaya dengan diameter daerah yang disinari lampu. Leher lampu belajar tersebut bersifat fleksibel sehingga tinggi lampu dapat diatur sesuai kebutuhan. Misalkan $r$ adalah jari-jari daerah sinaran lampu di permukaan meja dan $t$ adalah tinggi lampu. Untuk suatu keperluan, lampu diatur sangat dekat dengan permukaan meja, tetapi tidak menyentuh permukaan meja. Nilai di bawah ini yang dapat menghampiri luas daerah sinaran adalah...",
+      "options": [
+        "\\pi r^2 t",
+        "\\frac{1}{3}\\pi r^2 t",
+        "4\\pi r^2 t",
+        "\\frac{4}{3}\\pi r^3 t",
+        "\\frac{2}{3}\\pi r^3 t"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

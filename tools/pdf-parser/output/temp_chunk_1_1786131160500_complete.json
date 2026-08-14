@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Kalimat berikut menggunakan tanda koma dengan benar, kecuali:",
+      "options": [
+        "Setelah makan, ia langsung pergi ke sekolah.",
+        "Dia suka bermain gitar, bernyanyi, dan menulis lagu.",
+        "Ayah sedang membaca koran, ibu sedang memasak di dapur.",
+        "Karena hujan deras, perjalanan kami tertunda.",
+        "Saat pesta pernikahan, kami memakai pakaian terbaik."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Kalimat C menggunakan koma di antara dua klausa independen tanpa konjungsi, yang seharusnya menggunakan titik koma atau dipisah dengan konjungsi."
+    },
+    {
+      "text": "Pilih kata yang berimbuhan ter- dan digunakan dengan benar:",
+      "options": [
+        "Pintu itu terkunci karena lupa dibuka.",
+        "Dia terlari karena mengejar bus.",
+        "Rumahnya terjatuh akibat gempa bumi.",
+        "Mereka tertolong setelah bantuan tiba.",
+        "Bola itu terpukul oleh adik."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Kata 'terkunci' bermakna keadaan yang dihasilkan secara tidak sengaja atau selesai dikunci, yang merupakan penggunaan imbuhan ter- yang tepat."
+    },
+    {
+      "text": "Manakah penggunaan imbuhan ke-an yang benar?",
+      "options": [
+        "Andi merasa kepanasan saat berlibur di pantai.",
+        "Mereka sedang berkejaran di taman.",
+        "Buku ini kehitung sebagai koleksi lama.",
+        "Kami harus kecepatan agar tidak terlambat.",
+        "Tanaman itu kekeringan karena musim panas."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Imbuhan ke-an pada 'kepanasan' bermakna 'terkena keadaan panas' secara tidak sengaja."
+    },
+    {
+      "text": "Manakah kalimat berikut yang menggunakan kata depan \"untuk\" dengan benar?",
+      "options": [
+        "Buku ini saya beli untuk meja belajar saya.",
+        "Ayah pergi untuk toko membeli bahan makanan.",
+        "Kakak memberikan kado ulang tahun untuk ibu.",
+        "Kami sedang membuat surat untuk dinding kelas.",
+        "Andi membawa hadiah untuk atas meja."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Kata depan 'untuk' digunakan secara tepat untuk menunjukkan peruntukan penerima kado."
+    },
+    {
+      "text": "Manakah penggunaan kata depan \"dari\" yang benar?",
+      "options": [
+        "Dia baru saja datang dari pasar.",
+        "Mereka akan pergi dari rumah sakit ke taman.",
+        "Surat ini dikirimkan dari ibu untuk Ayah.",
+        "Saya meminjam buku dari atas meja kerja.",
+        "Kami menerima kabar itu dari tembok tetangga."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Kata depan 'dari' digunakan untuk menunjukkan tempat asal atau arah datangnya seseorang (dari pasar)."
+    },
+    {
+      "text": "Pilih kalimat dengan konjungsi akibat yang benar:",
+      "options": [
+        "Dia berlari sangat kencang sehingga jatuh.",
+        "Kami tetap pergi walaupun hujan.",
+        "Mereka bermain di taman karena cuaca cerah.",
+        "Dia belajar keras agar bisa mendapatkan beasiswa.",
+        "Ibu memasak sebelum tamu datang."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Konjungsi 'sehingga' menyatakan akibat dari perbuatan sebelumnya (berlari sangat kencang)."
+    },
+    {
+      "text": "Manakah kalimat dengan konjungsi pertentangan yang benar?",
+      "options": [
+        "Kami tetap berangkat meskipun hujan turun.",
+        "Dia pergi ke sekolah supaya belajar dengan tenang.",
+        "Mereka berlari ke lapangan ketika bel berbunyi.",
+        "Kami membeli tiket karena ingin menonton film.",
+        "Adik membaca buku agar bisa menyelesaikan tugas."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Konjungsi 'meskipun' menyatakan hubungan pertentangan atau konsensif."
+    },
+    {
+      "text": "Pilih kata majemuk yang berfungsi sebagai nama benda.",
+      "options": [
+        "Adik bermain di rumah sakit.",
+        "Kami melihat burung hantu di pohon.",
+        "Ibu menata barang di lemari pakaian.",
+        "Ayah mengendarai sepeda motor ke kantor.",
+        "Semua jawaban benar."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Sepeda motor adalah kata majemuk yang merupakan nama benda."
+    },
+    {
+      "text": "Manakah kalimat yang tidak mengandung kata majemuk?",
+      "options": [
+        "Adik membawa tas sekolah ke kelas.",
+        "Kakak membaca novel di atas meja belajar.",
+        "Ibu membeli sapu lidi di pasar.",
+        "Ayah sedang membaca buku.",
+        "Mereka bermain bola di lapangan hijau."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Kalimat 'Ayah sedang membaca buku' tidak mengandung gabungan dua kata yang membentuk arti baru (kata majemuk)."
+    },
+    {
+      "text": "Manakah kalimat yang tidak berisi gagasan pokok?",
+      "options": [
+        "Teknologi membantu mempermudah kehidupan manusia.",
+        "Ponsel adalah salah satu alat teknologi modern.",
+        "Internet memungkinkan orang berkomunikasi dengan cepat.",
+        "Robot mulai digunakan untuk menggantikan pekerjaan manusia.",
+        "Semua alat teknologi memberikan manfaat besar."
+      ],
+      "correctAnswer": null,
+      "explanation": "Biasanya kalimat penjelas atau pendukung memberikan rincian khusus."
+    },
+    {
+      "text": "Bagaimana cara memilih judul yang sesuai dengan tema sebuah teks?",
+      "options": [
+        "Pilih judul yang menarik perhatian pembaca, meskipun tidak terkait dengan teks.",
+        "Pilih judul yang mencerminkan topik yang dibahas dalam teks.",
+        "Pilih judul yang menggunakan bahasa yang sulit untuk menantang pembaca.",
+        "Pilih judul yang panjang agar memberikan banyak informasi.",
+        "Pilih judul yang tidak perlu mencerminkan isi teks."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Judul yang baik harus mencerminkan keseluruhan topik utama yang dibahas di dalam teks."
+    },
+    {
+      "text": "Topik \"Perubahan Iklim\" dapat dibahas dalam tema…",
+      "options": [
+        "Teknologi",
+        "Kesehatan",
+        "Lingkungan",
+        "Pendidikan",
+        "Ekonomi"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Perubahan iklim berkaitan erat dengan tema lingkungan."
+    },
+    {
+      "text": "\"Proses fotosintesis pada tumbuhan terjadi di daun yang mengandung klorofil. Fotosintesis membutuhkan cahaya matahari, karbon dioksida, dan air sebagai bahan utama. Hasil dari proses ini adalah oksigen dan ___ (4), yang menjadi sumber energi bagi tumbuhan.\"\nPilihan untuk melengkapi (4):",
+      "options": [
+        "Nitrogen",
+        "Gula",
+        "Protein",
+        "Karbon",
+        "Asam"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Hasil utama fotosintesis selain oksigen adalah glukosa atau gula sebagai sumber energi."
+    },
+    {
+      "text": "Urutkan paragraf berikut agar menjadi teks yang padu:\n1. Dalam foto tersebut, terlihat seekor harimau sumatra sedang berada di dalam hutan.\n2. Harimau sumatra adalah salah satu hewan langka yang dilindungi di Indonesia.\n3. Namun, habitatnya semakin terancam oleh aktivitas manusia, seperti penebangan hutan secara liar.\n4. Baru-baru ini, sebuah foto harimau sumatra diambil oleh kamera pengintai di kawasan konservasi.",
+      "options": [
+        "4-2-1-3",
+        "2-1-4-3",
+        "4-1-3-2",
+        "2-4-3-1",
+        "1-4-3-2"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Urutan logis dimulai dari pengenalan umum subjek (2), penemuan atau kejadian terbaru (4), permasalahan (3), hingga deskripsi visual foto (1)."
+    },
+    {
+      "text": "\"Olahraga memiliki banyak manfaat bagi tubuh. Salah satunya adalah meningkatkan kebugaran fisik. Selain itu, olahraga juga dapat meningkatkan kesehatan mental karena tubuh memproduksi hormon ___ (6) yang membuat seseorang merasa bahagia.\"\nPilihan untuk melengkapi (6):",
+      "options": [
+        "Adrenalin",
+        "Endorfin",
+        "Insulin",
+        "Melatonin",
+        "Dopamin"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Hormon yang memicu perasaan bahagia dan mengurangi rasa sakit saat berolahraga adalah endorfin."
+    }
+  ]
+}

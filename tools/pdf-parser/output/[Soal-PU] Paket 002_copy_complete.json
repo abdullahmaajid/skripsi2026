@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": [
+        "Komersialisasi pertama produk GMO terjadi di Amerika Serikat",
+        "GMO pada awalnya ditujukan untuk menghasilkan produk sebanyak-banyaknya",
+        "GMO digunakan untuk mengatasi permasalahan pangan pada tumbuhan yang bisa dikonsumsi",
+        "GMO tidak solutif bagi petani",
+        "Produk Pertama GMO berupa tomat"
+      ],
+      "correctAnswer": "GMO digunakan untuk mengatasi permasalahan pangan pada tumbuhan yang bisa dikonsumsi",
+      "explanation": "Pada teks disebutkan bahwa 'Umumnya, GMO digunakan untuk mengatasi permasalahan pangan pada tumbuhan yang bisa dikonsumsi'."
+    },
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI SALAH?",
+      "options": [
+        "Diabetes adalah penyakit kronis yang membutuhkan perhatian tidak khusus",
+        "Daun Insulin seringkali disebut tanaman ajaib",
+        "Asam corosolic dapat merangsang sel untuk menyerap glukosa, hal itu mmbantu menurunkan gula darah",
+        "Daun Insulin dapat mengatur gula darah secara alami",
+        "Daun Insulin mengandung senyawa penting yakni corosolic"
+      ],
+      "correctAnswer": "Diabetes adalah penyakit kronis yang membutuhkan perhatian tidak khusus",
+      "explanation": "Teks menyatakan bahwa 'Diabetes adalah penyakit kronis yang membutuhkan perhatian khusus', sehingga pernyataan yang menyebutkan tidak khusus adalah pasti salah."
+    },
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI SALAH?",
+      "options": [
+        "Puasa bisa berdampak positif juga negatif bagi seseorang",
+        "Jika seseorang berpuasa dengan pola makan tidak sehat, gula darah berkemungkinan stabil",
+        "Jika saat berbuka terlalu banyak memakan karbohidrat sederhana maka efek positif puasa bisa berkurang",
+        "Jika seseorang berpuasa dengan pola makan sehat, gula darah berkemungkinan stabil",
+        "Puasa memiliki banyak manfaat, meskipun begitu efeknya bisa berkurang tergantung pada nutrisi apa yang dimakan"
+      ],
+      "correctAnswer": "Jika seseorang berpuasa dengan pola makan tidak sehat, gula darah berkemungkinan stabil",
+      "explanation": "Teks menyatakan bahwa jika mengonsumsi makanan tinggi karbohidrat sederhana (pola makan tidak sehat), efek positif puasa berkurang (gula darah tidak stabil)."
+    },
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": [
+        "Klaim manfaat air lemon terhadap kesehatan adalah fakta",
+        "Rekomendasi meminum air lemon hangat berasal dari nenek moyang suku Aztec",
+        "Air lemon panas sangat bermanfaat untuk menghidrasi dan menjaga suhu tubuh",
+        "Tubuh manusia tidak memerlukan hidrasi",
+        "Hidrasi tubuh tidak berhubungan dengan kesehatan yang lain"
+      ],
+      "correctAnswer": "Air lemon panas sangat bermanfaat untuk menghidrasi dan menjaga suhu tubuh",
+      "explanation": "Teks menyatakan 'aset nutrisi utama air lemon panas adalah menghidrasi tubuh' dan 'Tubuh perlu terhidrasi untuk menjaga suhu'."
+    },
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": [
+        "Permen coklat berkemungkinan besar bermanfaat bagi jantung",
+        "Coklat putih pasti mengandung biji kakao",
+        "Dalam proses pembuatan coklat, tidak ada kandungan zat yang turun",
+        "Permen coklat standar cenderung berkemungkinan kecil berpengaruh pada kesehatan jantung",
+        "Coklat tidak memiliki kandungan flavanol"
+      ],
+      "correctAnswer": "Permen coklat standar cenderung berkemungkinan kecil berpengaruh pada kesehatan jantung",
+      "explanation": "Teks menyatakan 'permen cokelat standar kecil kemungkinan akan bermanfaat bagi kesehatan jantung'."
+    },
+    {
+      "text": "Berdasarkan teks, apabila Andre tidak bisa membeli es krim Nanas, Manakah simpulan yang benar?",
+      "options": [
+        "Andre tidak memiliki uang",
+        "Andre memiliki uang, namun malas moodnya berubah",
+        "Andre enggan membeli es krim",
+        "Andre tidak membantu ibunya mencuci piring",
+        "Ibunya tidak membantu Andre mencuci piring"
+      ],
+      "correctAnswer": "Andre tidak membantu ibunya mencuci piring",
+      "explanation": "Dengan menggunakan silogisme modus tollens dari kondisi bersyarat, jika tidak bisa beli -> tidak punya uang -> tidak membantu ibu."
+    },
+    {
+      "text": "Berdasarkan teks, apabila kita mengunyah permen karet di pagi hari, Manakah kesimpulan yang benar?",
+      "options": [
+        "Jika mengunyah permen karet di pagi hari maka pasti tidak akan kelelahan",
+        "Jika tidak mengunyah permen karet di pagi hari pasti tidak hilang fokus",
+        "Jika mengunyah permen karet pagi hari maka akan memperbesar kemungkinan untuk berkonsentrasi",
+        "Rasa kelelahan seketika hilang jika memakan permen karet",
+        "Jika mengunyah permen karet pagi hari maka akan susah berkonsentrasi"
+      ],
+      "correctAnswer": "Jika mengunyah permen karet pagi hari maka akan memperbesar kemungkinan untuk berkonsentrasi",
+      "explanation": "Teks menyebutkan 'tak bisa berkonsentrasi di pagi hari, cobalah mengunyah permen karet' untuk mengatasinya."
+    },
+    {
+      "text": "Berdasarkan informasi di atas, apabila mereka sama- sama melakukan tes ujian, manakah kesimpulan yang sesuai?",
+      "options": [
+        "Jika Andri lolos, maka Andre pasti lolos",
+        "Andri lolos sedangkan Andre tidak lolos",
+        "Apabila Andre lolos, maka Andri juga lolos",
+        "Keduanya tidak ada yang diloloskan",
+        "Tidak ada kesimpulan"
+      ],
+      "correctAnswer": "Apabila Andre lolos, maka Andri juga lolos",
+      "explanation": "Analisis syarat: Andre memenuhi semua syarat (usia 18, tinggi 171 cm > 170 cm, berat 63.5 kg tidak > 64 kg, tapi dia atlet). Andri memenuhi (usia 19, tinggi 172, berat 65 kg > 64 kg). Andre lolos karena status atlet sebagai nilai lebih."
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut manakah pernyataan yang BENAR?",
+      "options": [
+        "Jika wilayah tersebut tidak kering, maka pasti memiliki spesies tanaman yang homogen",
+        "Jika wilayah tersebut memiliki curah hujan tidak rendah maka memiliki spesies tanaman yang tidak bervariasi",
+        "Suatu wilayah yang memiliki iklim kering dan gurun cenderung memiliki spesies tanaman yang homogen",
+        "Suatu wilayah tidak dapat dikatakan kering hanya karena curah hujan",
+        "Tanaman di tempat curah hujan rendah cenderung lebih subur dan heterogen dibanding tanaman di tempat dengan curah hujan tinggi."
+      ],
+      "correctAnswer": "Suatu wilayah yang memiliki iklim kering dan gurun cenderung memiliki spesies tanaman yang homogen",
+      "explanation": "Pernyataan ini sesuai langsung dengan kalimat pertama dan kedua pada teks."
+    },
+    {
+      "text": "Berdasarkan pemahaman logika, kesimpulan kalimat di atas adalah?",
+      "options": [
+        "Semua mahasiswa senang memakan nasi goreng",
+        "Sebagian mahasiswa senang memakan nasi goreng",
+        "Semua mahasiswa tidak menyukai nasi goreng",
+        "Tidak ada mahasiswa yang menyukai nasi goreng",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctAnswer": "Sebagian mahasiswa senang memakan nasi goreng",
+      "explanation": "Premis 1: Semua X (jaket kuning) adalah M (Mahasiswa). Premis 2: Sebagian X (jaket kuning) adalah S (nasi goreng). Konklusi: Sebagian Mahasiswa senang memakan nasi goreng."
+    },
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan yang mendukung isi bacaan?",
+      "options": [
+        "Stigmatisasi keburukan terhadap gula jauh lebih lekat dibandingkan rokok",
+        "Rokok jauh lebih berbahaya daripada gula karena gula hanya merusak sebagian tubuh, sedangkan rokok dapat menjangkit semua bagian tubuh",
+        "Baik rokok maupun gula sama-sama memiliki efek seperti alkohol yang mengganggu sistem kerja otak hingga organ",
+        "Merokok lebih baik daripada memakan makanan penutup yang penuh gula",
+        "Orang yang terkena diabetes lebih baik mengonsumsi rokok daripada gula"
+      ],
+      "correctAnswer": "Baik rokok maupun gula sama-sama memiliki efek seperti alkohol yang mengganggu sistem kerja otak hingga organ",
+      "explanation": "Teks menyatakan bahwa gula dan rokok bisa merusak tubuh karena keduanya seperti alkohol yang mengganggu sistem kerja mulai dari otak hingga organ."
+    },
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan yang mendukung isi bacaan?",
+      "options": [
+        "Jika kita melakukan olahraga maka pasti akan diiringi dengan penurunan berat badan",
+        "Pola makan tidak mempengaruhi berat badan",
+        "Jika seseorang ingin menurunkan berat badan, maka harus melakukan olahraga dengan keras",
+        "Untuk menurunkan berat badan maka harus mengombinasikan olahraga dan mengatur pola makan",
+        "Jika ingin menurunkan berat badan, maka harus berolahraga atau mengatur pola makan"
+      ],
+      "correctAnswer": "Untuk menurunkan berat badan maka harus mengombinasikan olahraga dan mengatur pola makan",
+      "explanation": "Teks menyatakan bahwa 'olahraga-- jika tidak dikombinasikan dengan perubahan pola makan, tidak akan membantu menurunkan berat badan'."
+    },
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan yang menegasikan isi bacaan?",
+      "options": [
+        "Berpikir optimis memungkinkan kita berumur lebih panjang",
+        "Kebahagiaan mengakibatkan manusia berpikir positif",
+        "Lebih baik berpikir optimis ketimbang pesimis",
+        "Berpikir positif mengakibatkan dampak besar pada kebahagiaan sehingga membantu hidup lebih lama",
+        "Apabila seorang pasien jantung lebih optimis mengenai pengobatannya maka berkemungkinan untuk hidup lama"
+      ],
+      "correctAnswer": "Kebahagiaan mengakibatkan manusia berpikir positif",
+      "explanation": "Teks menyatakan bahwa berpikir positif mengakibatkan kebahagiaan (sebaliknya dari opsi B)."
+    },
+    {
+      "text": "Berdasarkan paragraf di atas, pernyataan yang PASTI BENAR adalah...",
+      "options": [
+        "Sarapan bergizi dapat membantu meningkatkan konsentrasi anak saat belajar.",
+        "Anak yang tidak sarapan akan cenderung lebih aktif menjalani hari.",
+        "Sarapan pagi tidak terlalu penting bagi perkembangan anak.",
+        "Kadar gula darah yang stabil cenderung membuat anak lemas dan mengantuk sepanjang hari",
+        "Semua anak yang sarapan pasti menjadi lebih pintar."
+      ],
+      "correctAnswer": "Sarapan bergizi dapat membantu meningkatkan konsentrasi anak saat belajar.",
+      "explanation": "Teks menyatakan 'Sarapan sehat... dapat meningkatkan konsentrasi'."
+    },
+    {
+      "text": "Pernyataan yang menegasikan teks di atas adalah...",
+      "options": [
+        "Ritual Padaw Tuju Dulung bertujuan untuk menjaga keharmonisan dengan alam dan leluhur",
+        "Ritual Padaw Tuju Dulung bersifat sangat eksklusif",
+        "Ritual dilangsungkan dengan doa dan harapan bagi mayarakat.",
+        "Ritual dianggap sukses karena telah dilangsungkan oleh seluruh lapisan masyarakat",
+        "Semua warga masyarakat melakukannya dengan penuh doa dan harapan"
+      ],
+      "correctAnswer": "Ritual Padaw Tuju Dulung bersifat sangat eksklusif",
+      "explanation": "Teks menyatakan ritual dilangsungkan secara bersama oleh seluruh lapisan masyarakat (inklusif), sehingga negasinya adalah bersifat sangat eksklusif."
+    },
+    {
+      "text": "Pernyataan berikut yang paling tepat mengenai survei yaitu?\nA menyatakan, \"Tingkat konsumsi makanan cepat saji di Amerika telah melebihi batas wajar sehingga menyebabkan obesitas.\"\nB menyatakan, \"Konsumsi makanan cepat saji tidak berpengaruh pada kesehatan warga Amerika.\"\nSurvei menunjukkan bahwa mayoritas warga Amerika yang mengalami obesitas memakan tiga kali lebih banyak porsi makanan cepat saji dibandingkan warga lain di dunia.",
+      "options": [
+        "Memperkuat pernyataan A",
+        "Memperlemah pernyataan A",
+        "Memperkuat pernyataan B",
+        "Memperlemah pernyataan B",
+        "Tidak relevan dengan pernyataan A dan B"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan berikut yang paling tepat mengenai survei yaitu?\nOrang yang terpapar musik memiliki kesehatan otak yang lebih baik. Musik dapat mengaktifkan hampir semua jaringan otak, termasuk yang terlibat dalam emosi, memori, dan motorik, yang dapat membantu menjaga jaringan dan jalur otak tetap kuat. musik juga bisa meningkatkan kualitas hidup, meningkatkan pembelajaran, merangsang fungsi kognitif, dan mendorong kebahagiaan. Terlepas dari apakah seseorang aktif atau hanya mendengarkan backround music, musik dapat memberikan manfaat kesehatan mental dan otak yang positif bagi pendengarnya.",
+      "options": [
+        "Memperkuat pernyataan A",
+        "Memperlemah pernyataan A",
+        "Memperkuat pernyataan B",
+        "Memperlemah pernyataan B",
+        "Tidak relevan dengan pernyataan A dan B"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan di bawah ini yang MEMPERLEMAH dan TIDAK MEMPERLEMAH pernyataan di atas?\nDalam proyek infrastruktur, Nirwono memproyeksikan investasi yang dilakukan oleh Danantara akan berfokus terhadap pembangunan infrastruktur yang dapat menghasilkan keuntungan secara cepat.",
+      "options": [
+        "1, 2, dan 3",
+        "2, 4, dan 5",
+        "1, 3, dan 5",
+        "2 dan 5",
+        "4 saja"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan di bawah ini yang MEMPERLEMAH dan TIDAK MEMPERLEMAH pernyataan di atas?",
+      "options": [
+        "1, 2, dan 3",
+        "2, 4, dan 5",
+        "1, 3, dan 5",
+        "2 dan 3",
+        "4 saja"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf di atas, manakah simpulan yang paling didukung?\nKetika harga barang semakin meningkat, maka penjualan akan semakin menurun. Hal ini berdampak pada masyarakat. Ketika inflasi meningkat, masyarakat pun merespon dengan mulai menyimpan uang dan melakukan penghematan dalam pembelian barang-barang tersier. Hal ini sejalan dengan survei yang dilakukan 3 bulan terakhir, yang menggambarkan bagaimana penjualan barang seperti kendaraan dan pakaian menurun namun penjualan bahan pokok tetap stabil.",
+      "options": [
+        "Inflasi membuat masyarakat tenang dan tetap membeli barang-barang mewah",
+        "Harga barang elektronik dan makanan mengalami penurunan selama inflasi",
+        "Permintaan terhadap barang non-esensial menurun pada saat inflasi tinggi",
+        "Semua barang mengalami penurunan permintaan selama inflasi",
+        "Masyarakat tetap membeli barang non-esensial dalam jumlah yang sama selama inflasi"
+      ],
+      "correctAnswer": "Permintaan terhadap barang non-esensial menurun pada saat inflasi tinggi",
+      "explanation": null
+    },
+    {
+      "text": "Diantara ke lima siswa tersebut, siswa mana yang paling berprestasi?\nNilai akhir siswa berprestasi di suatu sekolah ditentukan dengan menjumlahkan nilai capaian akademik dan nilai keaktifan dalam kegiatan. Bobot nilai capaian akademik 70%, sedangkan bobot nilai keaktifan kegiatan non-akademik 30%. Berikut adalah nilai lima siswa terbaik di sekolah:\nSiswa | Nilai akademik | Nilai non-akademik\nA | 60 | 70\nB | 50 | 90\nC | 60 | 80\nD | 70 | 80\nE | 80 | 50",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "Diantara ke lima siswa tersebut, siswa mana berada di urutan ke-3 paling berprestasi?\nNilai akhir siswa berprestasi di suatu sekolah ditentukan dengan menjumlahkan nilai capaian akademik dan nilai keaktifan dalam kegiatan. Bobot nilai capaian akademik 70%, sedangkan bobot nilai keaktifan kegiatan non-akademik 30%. Berikut adalah nilai lima siswa terbaik di sekolah:\nSiswa | Nilai akademik | Nilai non-akademik\nA | 60 | 70\nB | 50 | 90\nC | 60 | 80\nD | 70 | 80\nE | 80 | 50",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Diantara ke lima siswa tersebut, siswa mana yang berprestasi terendah?\nNilai akhir siswa berprestasi di suatu sekolah ditentukan dengan menjumlahkan nilai capaian akademik dan nilai keaktifan dalam kegiatan. Bobot nilai capaian akademik 70%, sedangkan bobot nilai keaktifan kegiatan non-akademik 30%. Berikut adalah nilai lima siswa terbaik di sekolah:\nSiswa | Nilai akademik | Nilai non-akademik\nA | 60 | 70\nB | 50 | 90\nC | 60 | 80\nD | 70 | 80\nE | 80 | 50",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "Jika produksi pada hari Senin memerlukan 10kg Baso, berpakah berat tepung yang dibutuhkan?\nUntuk membuat Baso, Andre memerlukan 3 jenis bahan yakni air, daging dan tepung. Takaran yang dibutuhkan untuk masing-masing air, daging dan tepung adalah 2 : 3 : 5 dalam takaran 1 kg.",
+      "options": [
+        "5kg",
+        "4kg",
+        "4.5kg",
+        "4,8kg",
+        "5.2kg"
+      ],
+      "correctAnswer": "5kg",
+      "explanation": null
+    },
+    {
+      "text": "Jika produksi pada hari Senin memerlukan 10kg Bakso, berpakah berat daging yang dibutuhkan?\nUntuk membuat Baso, Andre memerlukan 3 jenis bahan yakni air, daging dan tepung. Takaran yang dibutuhkan untuk masing-masing air, daging dan tepung adalah 2 : 3 : 5 dalam takaran 1 kg.",
+      "options": [
+        "3kg",
+        "4kg",
+        "4.5kg",
+        "4,8kg",
+        "5.2kg"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika produksi pada hari Senin memerlukan 10kg Bakso, berpakah berat air dibutuhkan?\nUntuk membuat Baso, Andre memerlukan 3 jenis bahan yakni air, daging dan tepung. Takaran yang dibutuhkan untuk masing-masing air, daging dan tepung adalah 2 : 3 : 5 dalam takaran 1 kg.",
+      "options": [
+        "2kg",
+        "3kg",
+        "2.5kg",
+        "2,8kg",
+        "2.2kg"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, manakah informasi yang dibutuhkan untukmengetahui harga tas?\nAndi ingin membeli 4 kebutuhannya untuk bersekolah, berikut adalah ketentuan harga empat kebutuhan yang akan dibeli:\n1) Sepatu memiliki harga setengah dari harga tas.\n2) Tas memiliki harga dua kali dari harga 12 lusin buku.\n3) 12 lusin buku memiliki harga dua pertiga dari harga seragam.\n4) Seragam memiliki harga Rp300.000.",
+      "options": [
+        "4 saja",
+        "3 dan 4",
+        "2, 3, dan 4",
+        "1, 3, dan 4",
+        "1, 2, 3, dan 4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, manakah informasi yang dibutuhkan untuk mengetahui harga sepatu?\nAndi ingin membeli 4 kebutuhannya untuk bersekolah, berikut adalah ketentuan harga empat kebutuhan yang akan dibeli:\n1) Sepatu memiliki harga setengah dari harga tas.\n2) Tas memiliki harga dua kali dari harga 12 lusin buku.\n3) 12 lusin buku memiliki harga dua pertiga dari harga seragam.\n4) Seragam memiliki harga Rp300.000.",
+      "options": [
+        "4 saja",
+        "3 dan 4",
+        "2, 3, dan 4",
+        "1, 3, dan 4",
+        "1, 2, 3, dan 4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Seorang anak mengonsumsi gulali setiap hari. Dari tanggal 9 Januari hingga 13 Januari, jumlah cokelat yang ia makan adalah 3, 5, 7, 9, dan 11 batang per hari. Apabila pola tersebut berlanjut secara konstan, rata-rata jumlah cokelat yang ia konsumsi dari tanggal 9 hingga 15 Januari per hari adalah ... batang.",
+      "options": [
+        "9",
+        "6",
+        "8",
+        "6",
+        "7"
+      ],
+      "correctAnswer": "9",
+      "explanation": null
+    },
+    {
+      "text": "Seorang anak mengonsumsi crackers setiap hari. Dari tanggal 9 Januari hingga 13 Januari, jumlah crackers yang ia makan adalah 4, 6, 8, 10, dan 12 batang per hari. Apabila pola tersebut berlanjut secara konstan, rata-rata jumlah crackers yang ia konsumsi dari tanggal 9 hingga 14 Januari per hari adalah ... batang.",
+      "options": [
+        "9",
+        "8",
+        "12",
+        "10",
+        "7"
+      ],
+      "correctAnswer": "9",
+      "explanation": "Jumlah crackers dari tanggal 9 hingga 13 Januari adalah 4, 6, 8, 10, 12. Karena pola berlanjut konstan dengan selisih 2, maka pada tanggal 14 Januari jumlahnya adalah 14. Total dari 9 sampai 14 Januari (6 hari) adalah 4 + 6 + 8 + 10 + 12 + 14 = 54. Rata-ratanya adalah 54 / 6 = 9."
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "questions": [
+    {
+      "text": "Dua buah pipa dapat mengisi kolam renang dalam $12$ jam. Jika pipa dengan diameter lebih besar digunakan selama $4$ jam dan pipa dengan diameter lebih kecil digunakan selama $9$ jam, hanya setengah dari kolam yang dapat diisi. Lama pengisian kolam renang jika hanya digunakan pipa dengan diameter yang lebih besar adalah ... jam.",
+      "options": [
+        "15",
+        "20",
+        "25",
+        "30",
+        "44"
+      ],
+      "correctAnswer": "20",
+      "explanation": null
+    },
+    {
+      "text": "Dua orang karyawan swasta mendaftar sebagai peserta asuransi kesehatan dengan besar premi yang sama. Guna membayar premi asuransi tersebut, karyawan I yang memiliki gaji $\\text{Rp}6.000.000,00$ akan dikenakan potongan gaji sebesar $4\\%$, sedangkan karyawan II dikenakan potongan gaji sebesar $6\\%$. Besar gaji karyawan II adalah...",
+      "options": [
+        "Rp3.500.000",
+        "Rp4.000.000",
+        "Rp4.500.000",
+        "Rp5.000.000",
+        "Rp5.500.000"
+      ],
+      "correctAnswer": "Rp4.000.000",
+      "explanation": null
+    },
+    {
+      "text": "Teater Ejawantah mengadakan pementasan drama di suatu Gedung teater. Dalam Gedung tersebut terdapat $11$ baris kursi. Baris pertama berisi $10$ kursi, baris kedua berisi $15$ kursi, baris ketiga berisi $17$ kursi, baris keempat berisi $22$ kursi, baris kelima berisi $24$ kursi, dan seterusnya mengikuti pola yang sama. Apabila dalam suatu pertunjukan teater hanya terisi setengah dari total kapasitas gedung, maka banyaknya kursi yang kosong dalam gedung teater tersebut adalah...",
+      "options": [
+        "310",
+        "255",
+        "155",
+        "85",
+        "75"
+      ],
+      "correctAnswer": "155",
+      "explanation": null
+    },
+    {
+      "text": "Alternatifa Project membangun sebuah gedung kantor baru. Diperkirakan akan selesai dalam waktu $12$ bulan apabila mempekerjakan $20$ orang. Ternyata pihak Alternatifa Project ingin pekerjaan lebih cepat selesai menjadi $8$ bulan. Tambahan pekerja yang dibutuhkan agar gedung selesai dalam $8$ bulan adalah...",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctAnswer": "10",
+      "explanation": null
+    },
+    {
+      "text": "Pandemi COVID-19 pada tahun $2020$ menyebabkan penurunan ekonomi yang signifikan. Warung Ngenyangin menjadi salah satu yang terdampak. Sejak tahun $2020$ terjadi penurunan omzet sebesar $50\\%$ dari tahun sebelumnya. Jika pada tahun $2020$ omzet yang diperoleh warung Ngenyangin adalah $\\text{Rp}120.000.000,00$. Maka jumlah omzet yang diperoleh dalam kurun waktu $4$ tahun adalah...",
+      "options": [
+        "Rp225.000.000",
+        "Rp250.000.000",
+        "Rp350.000.000",
+        "Rp450.000.000",
+        "Rp550.000.000"
+      ],
+      "correctAnswer": "Rp225.000.000",
+      "explanation": null
+    },
+    {
+      "text": "Enam buah lonceng mulai berdentang bersama dan berdentang dengan interval waktu masing-masing $2, 4, 6, 8, 10$ dan $12$ detik. Dalam $30$ menit, berapa kali mereka berdentang bersama setelah mereka berdentang bersama pertama kali?",
+      "options": [
+        "9 kali",
+        "11 kali",
+        "13 kali",
+        "15 kali",
+        "17 kali"
+      ],
+      "correctAnswer": "15 kali",
+      "explanation": null
+    },
+    {
+      "text": "Seorang pemain golf memukul bola golf dengan sudut tertentu. Lintasan bola berbentuk parabola di mana ketinggian bola dari atas tanah dimodelkan oleh fungsi $h(t) = -4t^2 + 8t + 32$ di mana $h$ dalam meter dan $t$ dalam detik. Bola yang dipukul oleh pemain tersebut masuk ke dalam lubang. Setelah berapa detik bola akan masuk ke lubang?",
+      "options": [
+        "3 detik",
+        "4 detik",
+        "5 detik",
+        "6 detik",
+        "7 detik"
+      ],
+      "correctAnswer": "4 detik",
+      "explanation": null
+    },
+    {
+      "text": "Suatu kotak berbentuk kubus dengan panjang rusuk $9$ cm. Sebanyak $\\frac{2}{3}$ dari volume kotak tersebut berisi air. Jika air tersebut dituangkan ke dalam balok yang berukuran $5 \\text{ cm} \\times 7 \\text{ cm} \\times 8 \\text{ cm}$ hingga kotak kosong, maka...",
+      "options": [
+        "bagian dari balok akan terisi oleh air",
+        "bagian dari balok akan terisi oleh air",
+        "Volume air yang tumpah lebih dari volume air dalam balok",
+        "Volume air yang tumpah kurang dari volume air dalam balok",
+        "20% dari volume air akan tumpah"
+      ],
+      "correctAnswer": "Volume air yang tumpah lebih dari volume air dalam balok",
+      "explanation": null
+    },
+    {
+      "text": "Diberikan dua buah tabung dengan deskripsi sebagai berikut: Tabung I: Jari-jari $3$ cm dan tinggi $4$ cm. Tabung II: Jari-jarinya dua kali lipat dari tabung I dan tingginya $\\frac{1}{2}$ kali lipat dari tabung I. Perbandingan luas permukaan tabung I dan tabung II adalah...",
+      "options": [
+        "1 : 3",
+        "3 : 7",
+        "4 : 9",
+        "8 : 9",
+        "7 : 16"
+      ],
+      "correctAnswer": "7 : 16",
+      "explanation": null
+    },
+    {
+      "text": "Nilai rata-rata ujian akhir semester mata kuliah Teori Peluang dari kelas IA adalah $77$. Jika dua orang mahasiswa yang nilainya $60$ dan $80$ diabaikan, maka rata-rata nilai ujian kelas tersebut menjadi $78$. Banyak mahasiswa di kelas tersebut adalah...",
+      "options": [
+        "16 orang",
+        "17 orang",
+        "18 orang",
+        "19 orang",
+        "20 orang"
+      ],
+      "correctAnswer": "16 orang",
+      "explanation": null
+    },
+    {
+      "text": "Seorang penjaga toko memberikan buku untuk dipinjam. Ia menetapkan biaya tetap untuk $2$ hari pertama dan biaya tambahan untuk hari-hari setelahnya. Latika membayar $\\text{Rp}22.000$ untuk meminjam buku selama $6$ hari. Anand membayar $\\text{Rp}16.000$ untuk meminjam selama $4$ hari. Biaya tetap dan biaya tambahan untuk hari-hari setelah hari kedua secara berturut-turut adalah...",
+      "options": [
+        "Rp10.000 dan Rp3.000",
+        "Rp6.000 dan Rp2.500",
+        "Rp9.000 dan Rp4.500",
+        "Rp10.000 dan Rp2.000",
+        "Rp11.000 dan Rp1.000"
+      ],
+      "correctAnswer": "Rp10.000 dan Rp3.000",
+      "explanation": null
+    },
+    {
+      "text": "Seorang pengusaha tempe membeli $10$ karung kacang kedelai seberat $1$ ton di mana setiap karung berisi berat kacang kedelai yang sama. Tara untuk karung $2,5\\%$ dan potongan harga $5\\%$. Jika harga kedelai $\\text{Rp}4.000$ per kg. Berapakah uang yang harus dibayarkan pengusaha tersebut?",
+      "options": [
+        "Rp4.400.000",
+        "Rp4.105.000",
+        "Rp3.705.000",
+        "Rp3.445.000",
+        "Rp3.250.000"
+      ],
+      "correctAnswer": "Rp3.705.000",
+      "explanation": null
+    },
+    {
+      "text": "Romi memiliki tempat minum berbentuk balok. Diketahui bahwa luas permukaan dan volumenya sama. Jika panjang sisi-sisi dari tempat minumnya adalah $\\log_2 x$, $\\log_3 x$, dan $\\log_4 x$, maka nilai $x$ adalah...",
+      "options": [
+        "2\\sqrt{6}",
+        "24",
+        "48",
+        "96",
+        "576"
+      ],
+      "correctAnswer": "576",
+      "explanation": null
+    },
+    {
+      "text": "Perbandingan banyaknya kelereng Adri dan Badri adalah $2 : 3$, sedangkan perbandingan banyak kelereng Badri dan Cadri adalah $2 : 5$. Jika jumlah kelereng mereka bertiga adalah $75$, banyak kelereng Adri adalah...",
+      "options": [
+        "45",
+        "36",
+        "24",
+        "18",
+        "12"
+      ],
+      "correctAnswer": "12",
+      "explanation": null
+    },
+    {
+      "text": "Mondy sedang menjumlahkan seluruh nomor halaman ganjil sebuah buku. Nomor halaman yang Mondy hitung mulai dari halaman $1$ sampai dengan halaman $61$. Hasil penjumlahan seluruh halaman yang Mondy peroleh adalah $978$. Ternyata dalam perhitungannya terdapat kekeliruan di mana terdapat suatu halaman yang terhitung dua kali. Nomor halaman yang dihitung dua kali adalah...",
+      "options": [
+        "11",
+        "17",
+        "25",
+        "41",
+        "51"
+      ],
+      "correctAnswer": "17",
+      "explanation": null
+    },
+    {
+      "text": "Dua pelari berlari di sekitar trek melingkar. Pelari 1 membutuhkan waktu $20$ menit untuk menyelesaikan satu putaran, sedangkan Pelari 2 menyelesaikan putaran dalam $25$ menit. Jika keduanya mulai secara bersamaan dan berjalan ke arah yang sama, setelah berapa jam mereka akan bertemu kembali di titik awal?",
+      "options": [
+        "2 jam",
+        "1 jam 50 menit",
+        "1 jam 40 menit",
+        "1 jam 30 menit",
+        "1 jam 20 menit"
+      ],
+      "correctAnswer": "1 jam 40 menit",
+      "explanation": "KPK dari $20$ dan $25$ adalah $100$ menit. $100$ menit setara dengan $1$ jam $40$ menit."
+    },
+    {
+      "text": "Maman adalah seorang pengusaha sukses. Di halaman rumahnya, ia memiliki sebuah taman berbentuk belah ketupat. Maman ingin menanam pohon jati di sekeliling taman tersebut. Jika jarak dari ujung utara ke ujung Selatan adalah $6\\text{ m}$, jarak dari ujung timur ke ujung barat adalah $8\\text{ m}$, dan jarak antar pohon jati adalah $2\\text{ m}$, maka banyak pohon jati yang akan ditanam adalah … pohon.",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "40",
+        "50"
+      ],
+      "correctAnswer": "10",
+      "explanation": "Panjang sisi belah ketupat dihitung menggunakan teorema Pythagoras: $s = \\sqrt{3^2 + 4^2} = 5\\text{ m}$. Keliling taman adalah $4 \\times 5 = 20\\text{ m}$. Banyak pohon jati = $20 / 2 = 10$ pohon."
+    },
+    {
+      "text": "Pak Samuel mempunyai sebuah lahan berbentuk lingkaran sempurna. Pada pinggir lahan tersebut akan diletakkan $12$ buah titik. Dari $12$ titik tersebut, Pak Samuel ingin membagi lahan untuk menanam jagung yang berbentuk segitiga. Banyaknya bagian lahan untuk menanam jagung yang dapat dibuat adalah…",
+      "options": [
+        "220"
+      ],
+      "correctAnswer": "220",
+      "explanation": "Banyaknya bagian lahan dihitung dengan kombinasi $C(12, 3) = \\frac{12!}{3!(12-3)!} = 220$."
+    },
+    {
+      "text": "Maureen mencatat rata-rata nilai kuisnya semester ini. Jika Maureen mendapat nilai $11$ pada kuis berikutnya, rata-ratanya akan meningkat $1$. Jika dia mendapat nilai $11$ pada masing-masing dari tiga kuis berikutnya, rata-ratanya akan meningkat $2$. Rata-rata kuisnya saat ini adalah…",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": "7",
+      "explanation": "Misalkan banyak kuis awal adalah $n$ dan rata-rata saat ini adalah $x$. Dari kondisi pertama: $\\frac{nx + 11}{n+1} = x + 1$. Dari kondisi kedua: $\\frac{nx + 33}{n+3} = x + 2$. Diperoleh nilai $n = 3$ dan $x = 7$."
+    },
+    {
+      "text": "Suatu tumpukan kartu hanya terdiri atas kartu berwarna merah dan hitam. Peluang terpilihnya sebuah kartu merah secara acak adalah $\\frac{1}{3}$. Ketika empat buah kartu hitam ditambahkan ke tumpukan, peluang terpilihnya sebuah kartu merah menjadi $\\frac{1}{4}$. Banyak kartu pada tumpukan semula adalah…",
+      "options": [
+        "6",
+        "9",
+        "12",
+        "15",
+        "18"
+      ],
+      "correctAnswer": "12",
+      "explanation": "Misalkan banyak kartu merah adalah $x$ dan banyak kartu hitam adalah $y$. Peluang awal $\\frac{x}{x+y} = \\frac{1}{3}$ atau $y = 2x$. Setelah $4$ kartu hitam ditambahkan, peluangnya menjadi $\\frac{x}{x+y+4} = \\frac{1}{4}$, yang menghasilkan $3x = x + y + 4$. Dengan substitusi $y = 2x$, didapat $x = 4$ dan $y = 8$. Total kartu semula adalah $4 + 8 = 12$."
+    }
+  ]
+}

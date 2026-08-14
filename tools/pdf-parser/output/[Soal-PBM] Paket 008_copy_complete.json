@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Penulisan kata yang salah terdapat pada kalimat?",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5)"
+      ],
+      "correctAnswer": "(4)",
+      "explanation": "Kata 'kenaikkan' pada kalimat (4) salah, yang benar adalah 'kenaikan' karena berasal dari kata dasar 'naik'."
+    },
+    {
+      "text": "Kalimat (1) perlu disempurnakan dengan cara?",
+      "options": [
+        "mengganti kata adalah menjadi yaitu",
+        "menghilangkan kata dalam",
+        "menghilangkan kata adalah",
+        "menghilangkan tanda hubung (-) di antara kata terus menerus",
+        "menambahkan kata untuk setelah kata adalah"
+      ],
+      "correctAnswer": "menghilangkan kata adalah",
+      "explanation": "Kalimat (1) 'Dalam inflasi adalah kenaikan...' mengalami peluluh subjek atau fungsi ganda akibat kata 'Dalam' di awal dan 'adalah' sehingga kata 'adalah' harus dihilangkan."
+    },
+    {
+      "text": "Penulisan kata Indeks Harga Konsumen (IHK)",
+      "options": [
+        "TIDAK PERLU DIPERBAIKI",
+        "indeks harga konsumen (IHK)",
+        "INDEKS HARGA KONSUMEN (IHK",
+        "Indek Harga Konsumen (IHK)",
+        "-Indeks harga konsumen-"
+      ],
+      "correctAnswer": "TIDAK PERLU DIPERBAIKI",
+      "explanation": "Indeks Harga Konsumen (IHK) merupakan penulisan nama dokumen/indeks resmi yang sudah tepat menggunakan huruf kapital pada setiap unsur kata."
+    },
+    {
+      "text": "Penggunaan tanda koma yang tidak tepat terdapat pada kalimat?",
+      "options": [
+        "(1)",
+        "(11)",
+        "(3)",
+        "(4)",
+        "(6)"
+      ],
+      "correctAnswer": "(4)",
+      "explanation": "Pada kalimat (4), penggunaan koma setelah kata 'Piprim' tidak diperlukan karena tidak ada unsur aposisi yang memisahkan subjek dengan predikat secara salah."
+    },
+    {
+      "text": "Kalimat manakah yang paling tepat menjadi kalimat inti nomor (9)?",
+      "options": [
+        "Piprim menyatakan susu sapi",
+        "Piprim menyatakan susu sapi baik untuk dikonsumsi",
+        "Piprim menyatakan susu sapi baik",
+        "sumber protein hewani, Piprim menyatakan baik untuk dikonsumsi",
+        "Piprim menyatakan susu sapi baik dikonsumsi"
+      ],
+      "correctAnswer": "Piprim menyatakan susu sapi",
+      "explanation": "Inti kalimat (9) 'Bicara soal sumber protein hewani, Piprim menyatakan susu sapi baik untuk dikonsumsi' terdiri atas subjek pelaku dan predikat serta objek utamanya: 'Piprim menyatakan susu sapi'."
+    },
+    {
+      "text": "Penulisan kata dr. Piprim Basarah Yanuarso, Sp. A (K)...",
+      "options": [
+        "TIDAK PERLU DIPERBAIKI",
+        "dr. Piprim Basarah Yanuarso, Sp.A (K)",
+        "Dr. Piprim Basarah Yanuarso, Sp. A (K)",
+        "dr. Piprim Basarah Yanuarso,Sp. A (K)",
+        "dr. Piprim Basarah Yanuarso, Sp. A K."
+      ],
+      "correctAnswer": "dr. Piprim Basarah Yanuarso, Sp.A (K)",
+      "explanation": "Penulisan singkatan gelar yang benar untuk Sp.A tanpa spasi antara titik dan huruf A."
+    },
+    {
+      "text": "Kata terbawa pada kalimat (3) seharusnya?",
+      "options": [
+        "dibiarkan saja (sudah benar)",
+        "diganti kebawa",
+        "diganti pembawa",
+        "dihilangkan",
+        "diganti dibawa"
+      ],
+      "correctAnswer": "diganti dibawa",
+      "explanation": "Konteks kalimat (3) menyatakan pasien anak stunting perlu dibawa ke rumah sakit, sehingga kata 'terbawa' harus diubah menjadi 'dibawa'."
+    },
+    {
+      "text": "Kata yang harus dihilangkan pada kalimat (6) adalah?",
+      "options": [
+        "yang",
+        "pada",
+        "bahwa",
+        "sejak",
+        "benar"
+      ],
+      "correctAnswer": "bahwa",
+      "explanation": "Kata 'bahwa' dalam kalimat (6) bersifat redundan atau tidak diperlukan karena frasa setelahnya sudah langsung menjelaskan objek."
+    },
+    {
+      "text": "Kata hubung yang sesuai untuk melengkapi kalimat (10) adalah?",
+      "options": [
+        "sedangkan",
+        "tetapi",
+        "untuk itu",
+        "namun",
+        "sementara itu"
+      ],
+      "correctAnswer": "namun",
+      "explanation": "Hubungan antar kalimat (9) dan (10) menunjukkan pertentangan, sehingga kata hubung yang tepat adalah 'namun'."
+    },
+    {
+      "text": "Penulisan kata baku yang benar adalah?",
+      "options": [
+        "marjinalisasi, menteri, saputangan",
+        "komplementer, anduk, dukacita",
+        "kerjasama, cokelat, legitimasi",
+        "intervensi, difusi, kacamata",
+        "interprestasi, afdol, apotek"
+      ],
+      "correctAnswer": "intervensi, difusi, kacamata",
+      "explanation": "Seluruh kata dalam pilihan (D) ditulis sesuai dengan kaidah EYD yang tercantum dalam KBBI (intervensi, difusi, kacamata)."
+    },
+    {
+      "text": "Penulisan kata yang bercetak tebal kurang tepat terdapat pada kalimat?",
+      "options": [
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5)",
+        "(6)"
+      ],
+      "correctAnswer": "(6)",
+      "explanation": "Pada kalimat (6), kata 'diantaranya' seharusnya dipisah menjadi 'di antaranya' karena menunjukkan tempat/posisi yang merujuk pada anteseden."
+    },
+    {
+      "text": "Kalimat manakah yang paling tepat menjadi inti kalimat (1)?",
+      "options": [
+        "Sejumlah akademisi Universitas Gadjah Mada menyampaikan Petisi Bulaksumur sebagai bentuk keprihatinan",
+        "Sejumlah akademisi Universitas Gadjah Mada menyampaikan Petisi Bulaksumur",
+        "akademisi Universitas Gadjah Mada menyampaikan Petisi Bulaksumur sebagai bentuk keprihatinan",
+        "Sejumlah akademisi Universitas Gadjah Mada menyampaikan",
+        "akademisi Universitas Gadjah Mada"
+      ],
+      "correctAnswer": "Sejumlah akademisi Universitas Gadjah Mada menyampaikan Petisi Bulaksumur",
+      "explanation": "Inti kalimat mencakup unsur inti Subjek, Predikat, dan Objek tanpa keterangan tambahan yang panjang, yaitu 'Sejumlah akademisi Universitas Gadjah Mada menyampaikan Petisi Bulaksumur'."
+    },
+    {
+      "text": "Penulisan “pemilu presiden 2024” yang benar adalah?",
+      "options": [
+        "SUDAH BENAR",
+        "Pemilu presiden 2024",
+        "PEMILU PRESIDEN 2024",
+        "Pemilu Presiden 2024",
+        "pemilu presiden-2024"
+      ],
+      "correctAnswer": "Pemilu Presiden 2024",
+      "explanation": "Nama pesta demokrasi merupakan bentuk nama khas kegiatan resmi, sehingga huruf awalnya ditulis kapital: Pemilu Presiden 2024."
+    },
+    {
+      "text": "Kata “penyampaian” pada kalimat (5) seharusnya?",
+      "options": [
+        "menyampaikan",
+        "disampaikan",
+        "kesampaian",
+        "sampai",
+        "mempersampaikan"
+      ],
+      "correctAnswer": "menyampaikan",
+      "explanation": "Kalimat (5) membutuhkan predikat aktif verba, sehingga kata 'penyampaian' harus diubah menjadi 'menyampaikan'."
+    },
+    {
+      "text": "Penggunaan tanda koma yang kurang tepat pada kalimat?",
+      "options": [
+        "(2)",
+        "(5)",
+        "(4)",
+        "(3)",
+        "(1)"
+      ],
+      "correctAnswer": "(4)",
+      "explanation": "Pada kalimat (4), penggunaan koma sebelum kata 'dan' tidak diperlukan karena perincian hanya terdiri dari dua unsur (tepung sagu, air dan gula)."
+    },
+    {
+      "text": "Penulisan “Hari Raya Imlek” pada kalimat (1)?",
+      "options": [
+        "Sudah benar",
+        "hari raya imlek",
+        "hari raya Imlek",
+        "Hari raya Imlek",
+        "hari Raya Imlek"
+      ],
+      "correctAnswer": "Sudah benar",
+      "explanation": "Penulisan 'Hari Raya Imlek' sudah tepat karena merujuk pada hari besar keagamaan atau perayaan nasional yang ditulis dengan huruf kapital di setiap unsur katanya."
+    },
+    {
+      "text": "Kata yang paling tepat untuk melengkapi kalimat (2)?",
+      "options": [
+        "sementara itu",
+        "namun",
+        "tetapi",
+        "oleh karena itu",
+        "demikian"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang perlu diperbaiki penulisannya adalah?",
+      "options": [
+        "(5)",
+        "(4)",
+        "(3)",
+        "(2)",
+        "(1)"
+      ],
+      "correctAnswer": null,
+      "explanation": "Kalimat (2) perlu dicetak miring karena menggunakan istilah asing."
+    },
+    {
+      "text": "Pernyataan yang paling tepat untuk melengkapi kalimat (7)?",
+      "options": [
+        "sunscreen mahal harganya sesuai dengan SPF yang dimilikinya.",
+        "sunscreen perlu digunakan dan disesuaikan dengan nilai SPF yang dibutuhkan.",
+        "sunscreen memberi sensasi perih di mata.",
+        "sunscreen hanya untuk wanita saja.",
+        "perlu pengaplikasian secara berulang untuk mendapat hasil yang maksimal."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat (6) perlu disempurnakan dengan cara?",
+      "options": [
+        "menghilangkan kata maka",
+        "menghilangkan kata saat",
+        "mengganti kata meningkat dengan menambah",
+        "mengganti kata juga dengan serta",
+        "menambahkan tanda koma setelah kata perlindungan"
+      ],
+      "correctAnswer": null,
+      "explanation": "Kalimat (6) menggunakan konjungsi ganda 'saat' dan 'maka', sehingga kata 'maka' harus dihilangkan."
+    }
+  ]
+}

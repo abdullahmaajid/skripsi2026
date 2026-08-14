@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Birds navigate primarily using visual landmarks",
+        "European robins can detect extremely weak magnetic fields",
+        "Young birds rely primarily on learning from adult birds",
+        "Birds use only their magnetic sense for navigation",
+        "Bar-tailed godwits rest several times during migration"
+      ],
+      "correctAnswer": "European robins can detect extremely weak magnetic fields",
+      "explanation": "Text 1 states that Research from Oxford University demonstrated that European robins can perceive magnetic fields as weak as 0.005% of Earth's strength."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Cities are typically cooler than surrounding rural areas",
+        "The urban heat island effect is caused primarily by industrial emissions",
+        "Phoenix experiences temperature differences up to 6\\textdegree\\text{C} compared to nearby desert areas",
+        "Singapore has decreased its urban greenery since 2000",
+        "Tree canopy has minimal impact on neighborhood temperatures"
+      ],
+      "correctAnswer": "Phoenix experiences temperature differences up to 6\\textdegree\\text{C} compared to nearby desert areas",
+      "explanation": "Text 2 mentions Phoenix, Arizona demonstrates an extreme case, with summer evening temperatures up to 6°C higher than nearby desert areas."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Roman concrete deteriorates quickly in seawater",
+        "Modern Portland cement is more durable than Roman concrete",
+        "The Pantheon dome is 43.3 meters in diameter",
+        "Roman concrete requires regular maintenance to prevent degradation",
+        "Volcanic ash has no significant effect on concrete durability"
+      ],
+      "correctAnswer": "The Pantheon dome is 43.3 meters in diameter",
+      "explanation": "Text 3 specifies that the Pantheon in Rome features the world's largest unreinforced concrete dome (43.3 meters in diameter)."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Göbekli Tepe was built by established agricultural societies",
+        "The site is younger than Stonehenge",
+        "Göbekli Tepe features T-shaped limestone pillars",
+        "The site was accidentally buried by natural processes",
+        "Only a small portion of the site has been scientifically dated"
+      ],
+      "correctAnswer": "Göbekli Tepe features T-shaped limestone pillars",
+      "explanation": "Text 4 notes that the site features massive T-shaped limestone pillars arranged in circular formations."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Fingerprint patterns change significantly throughout a person's life",
+        "Loop patterns occur in approximately 60-65% of fingerprints",
+        "The average fingerprint contains about 500 minutiae",
+        "Fingerprints can only be recovered from non-porous surfaces",
+        "DNA evidence has completely replaced fingerprint analysis"
+      ],
+      "correctAnswer": "Loop patterns occur in approximately 60-65% of fingerprints",
+      "explanation": "Text 5 indicates that these patterns fall into three main categories: arches (occurring in about 5% of fingerprints), loops (60-65%), and whorls (30-35%)."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Fingerprint patterns form randomly with no genetic influence",
+        "Most fingerprints fall into the whorl pattern category",
+        "Vacuum metal deposition can detect fingerprints on fabric",
+        "India's Aadhaar system contains approximately 500 million fingerprint records",
+        "Ultrasonic sensors primarily detect chemical composition of fingerprints"
+      ],
+      "correctAnswer": "Vacuum metal deposition can detect fingerprints on fabric",
+      "explanation": "Text 5 states that latent fingerprints from crime scenes can now be analyzed using vacuum metal deposition techniques that detect residues on challenging surfaces like fabric and paper."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Alexander Fleming discovered penicillin in 1950",
+        "Beta-lactam antibiotics disrupt bacterial protein synthesis",
+        "Drug-resistant infections cause at least 1.27 million deaths annually",
+        "The WHO considers AMR a minor public health concern",
+        "Most outpatient antibiotic prescriptions in the US are necessary"
+      ],
+      "correctAnswer": "Drug-resistant infections cause at least 1.27 million deaths annually",
+      "explanation": "Text 6 notes that drug-resistant infections directly cause at least 1.27 million deaths annually."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "New antibiotic classes are being discovered at an increasing rate",
+        "Bacteriophage treatments use bacteria to target viruses",
+        "CRISPR-based antimicrobials can eliminate resistance genes",
+        "Agricultural use of antibiotics has minimal impact on resistance",
+        "Complete treatment courses contribute significantly to resistance"
+      ],
+      "correctAnswer": "CRISPR-based antimicrobials can eliminate resistance genes",
+      "explanation": "Text 6 mentions promising approaches including CRISPR-based antimicrobials that can selectively eliminate resistance genes from bacterial populations."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "Wolf packs typically consist of unrelated individuals",
+        "Constant dominance struggles characterize natural wolf packs",
+        "Wolf howls can travel over 10 kilometers in favorable conditions",
+        "Wolves typically hunt alone rather than collaboratively",
+        "Wolves have minimal impact on broader ecosystem dynamics"
+      ],
+      "correctAnswer": "Wolf howls can travel over 10 kilometers in favorable conditions",
+      "explanation": "Text 7 details that wolves possess at least 12 distinct vocalizations, with howls traveling over 10 kilometers in favorable conditions."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "MRI uses ionizing radiation to create images",
+        "Typical clinical MRI magnets are 1.5-3 Tesla in strength",
+        "fMRI directly measures electrical activity in neurons",
+        "PET scanning requires no radioactive materials",
+        "Modern imaging systems cannot combine multiple modalities"
+      ],
+      "correctAnswer": "Typical clinical MRI magnets are 1.5-3 Tesla in strength",
+      "explanation": "The text states: 'The technology works by aligning hydrogen atoms in the body using a powerful magnetic field (typically 1.5-3 Tesla)'."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "FDG resembles glucose and concentrates in metabolically active tissues",
+        "PET scanners detect alpha particles emitted during radioactive decay",
+        "Total-body PET scanners have lower sensitivity than conventional systems",
+        "MRI primarily visualizes bone structures rather than soft tissues",
+        "Earth's magnetic field is stronger than clinical MRI magnets"
+      ],
+      "correctAnswer": "FDG resembles glucose and concentrates in metabolically active tissues",
+      "explanation": "The text states: 'The most common tracer, fluorodeoxyglucose (FDG), resembles glucose and concentrates in tissues with high metabolic activity'."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "The 1918 influenza pandemic infected approximately one-tenth of the world's population",
+        "Philadelphia implemented more effective pandemic controls than St. Louis",
+        "The smallpox eradication campaign employed ring vaccination rather than mass vaccination",
+        "Smallpox was eradicated in the early 1950s",
+        "The smallpox campaign failed to achieve international cooperation"
+      ],
+      "correctAnswer": "The smallpox eradication campaign employed ring vaccination rather than mass vaccination",
+      "explanation": "The text states: 'The effort employed a surveillance-containment strategy rather than mass vaccination... This \"ring vaccination\" approach proved highly effective'."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "The last naturally occurring smallpox case was documented in Somalia",
+        "Early pandemic interventions showed minimal effect on death rates",
+        "The Soviet Union refused to participate in smallpox eradication efforts",
+        "Smallpox caused approximately 30 million deaths in the 20th century",
+        "The WHO began the smallpox eradication campaign in 1980"
+      ],
+      "correctAnswer": "The last naturally occurring smallpox case was documented in Somalia",
+      "explanation": "The text states: '...with the last naturally occurring case documented in Somalia in 1977.'"
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "The world's first subway opened in New York City",
+        "Modern train systems can recover energy during deceleration",
+        "Copenhagen's metro has poor on-time performance",
+        "Autonomous vehicles are the primary focus of Singapore's transit system",
+        "Urban transportation planning typically focuses on single-mode solutions"
+      ],
+      "correctAnswer": "Modern train systems can recover energy during deceleration",
+      "explanation": "The text states: 'Modern metros employ sophisticated technologies including... regenerative braking that recovers up to 30% of energy during deceleration'."
+    },
+    {
+      "text": "Which of the following statements about the text is TRUE?",
+      "options": [
+        "London's first subway used electric locomotives",
+        "Barcelona's superblocks increased noise pollution",
+        "Walking is the least common urban transportation mode globally",
+        "Vienna, Copenhagen, and Zurich invest heavily in pedestrian infrastructure",
+        "Modern metros typically maintain 5-minute headways at minimum"
+      ],
+      "correctAnswer": "Vienna, Copenhagen, and Zurich invest heavily in pedestrian infrastructure",
+      "explanation": "The text states: '...with cities like Vienna, Copenhagen, and Zurich investing heavily in pedestrian infrastructure that prioritizes safety and comfort'."
+    }
+  ]
+}

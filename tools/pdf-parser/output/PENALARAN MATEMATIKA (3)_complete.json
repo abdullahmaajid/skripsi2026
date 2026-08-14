@@ -1,0 +1,256 @@
+{
+  "questions": [
+    {
+      "text": "Setiap dua bilangan dari bilangan asli $a$, $b$ dan $c$ memiliki empat faktor yang beririsan. Diketahui $c = 2b - 20$, $c - a = 16$ dan $c$ adalah bilangan kelipatan $8$ kurang dari $48$ yang memiliki $6$ hingga $8$ faktor. Nilai $a + b + c$ yang tepat adalah ...",
+      "options": [
+        "54",
+        "72",
+        "74",
+        "94",
+        "96"
+      ],
+      "correctAnswer": "94",
+      "explanation": null
+    },
+    {
+      "text": "Mahasiswa Pahami University terbagi menjadi jurusan A, B, C, D, dan E dengan persentase sebagai berikut. Mahasiswa jurusan A terbagi menjadi yang mendapat beasiswa dan yang tidak. Jika 30% dari mahasiswa jurusan A atau setara dengan 60 orang mendapat beasiswa, maka selisih banyaknya mahasiswa jurusan D dan B adalah ... orang.",
+      "options": [
+        "5",
+        "10",
+        "20",
+        "40",
+        "50"
+      ],
+      "correctAnswer": "20",
+      "explanation": null
+    },
+    {
+      "text": "Seorang bisnis analis sedang memperkirakan besar biaya produksi sejumlah n produk, dalam rupiah, dengan ekspresi $80.000n + 15.900.000$. Setiap produk dijual dengan harga Rp100.000. Perusahaan akan mendapat untung jika hasil penjualan melebihi biaya produksi. Perkiraan jumlah barang yang mungkin diproduksi agar perusahaan mendapat untung adalah ...",
+      "options": [
+        "n < 785",
+        "n < 815",
+        "n > 795",
+        "n > 805",
+        "n > 815"
+      ],
+      "correctAnswer": "n > 795",
+      "explanation": null
+    },
+    {
+      "text": "Daerah yang diarsir adalah daerah penyelesaian dari pertidaksamaan ...",
+      "options": [
+        "2y - 3x \\le 12; 2x + 3y \\le 12; 2x + y \\ge 4; y > 0",
+        "2x - 3y \\ge 12; 3x + 2y \\le 12; x + 2y \\le 4; y > 0",
+        "2y - 3x \\le 12; 3x + 2y \\le 12; x + 2y \\ge 4; y > 0",
+        "2y - 3x \\le 12; 2x + 3y \\ge 12; x + 2y \\le 4; y > 0",
+        "2x - 3y \\ge 12; 3x + 2y \\ge 2; 2x + y \\ge 4; y > 0"
+      ],
+      "correctAnswer": "2y - 3x \\le 12; 3x + 2y \\le 12; x + 2y \\ge 4; y > 0",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan himpunan di bawah ini! $A = \\{x | \\frac{x^2 - 3x + 5}{x - 5} \\le 0, x \\in \\text{bilangan cacah\\}$. Banyaknya himpunan bagian A yang memiliki paling banyak 4 anggota dan bukan himpunan kosong adalah...",
+      "options": [
+        "14",
+        "15",
+        "30",
+        "31",
+        "36"
+      ],
+      "correctAnswer": "30",
+      "explanation": null
+    },
+    {
+      "text": "Jika ^x \\log \\left(\\frac{1}{a+1}\\right) + ^x \\log(a^2 - 1) = y, dan a = \\sqrt{5} + 1, maka nilai dari x^{2022y} adalah ...",
+      "options": [
+        "(\\sqrt{5} + 1)^{2022}",
+        "5^{2022}",
+        "(\\sqrt{5} + 1)^{1011}",
+        "5^{1011}",
+        "1"
+      ],
+      "correctAnswer": "5^{1011}",
+      "explanation": null
+    },
+    {
+      "text": "Toko Syenel membebankan pajak sebesar 15% setiap pembelian produk tas dan 25% setiap pembelian produk perhiasan. Toko tersebut juga memberikan diskon untuk tas dan perhiasan masing-masing sebesar 20% dan 16%. Jimin membeli tas seharga x dan harus membayar sebesar y. Jungkook membeli perhiasan dan total yang harus ia bayar adalah 6y. Harga perhiasan yang dibeli Jungkook adalah ....",
+      "options": [
+        "\\frac{425x}{102}",
+        "\\frac{560x}{120}",
+        "\\frac{558x}{110}",
+        "\\frac{552x}{105}",
+        "\\frac{565x}{103}"
+      ],
+      "correctAnswer": "\\frac{552x}{105}",
+      "explanation": null
+    },
+    {
+      "text": "Terdapat dua keranjang buah yang masing-masing berisi beberapa buah manggis. Sebanyak 6 buah manggis dari keranjang pertama dipindahkan ke dalam keranjang kedua. Lalu, setengah dari jumlah buah manggis di keranjang kedua, dipindahkan ke dalam keranjang pertama. Sekarang terdapat 27 buah manggis di keranjang pertama dan 15 buah manggis di keranjang kedua. Pada awalnya, buah manggis di keranjang pertama ada sebanyak.....buah.",
+      "options": [
+        "18",
+        "21",
+        "24",
+        "27",
+        "30"
+      ],
+      "correctAnswer": "18",
+      "explanation": null
+    },
+    {
+      "text": "Jika (\\frac{1}{\\sqrt{x}} + \\frac{1}{\\sqrt{y}}) = 24 dan x - y = 168xy, maka 3\\sqrt{x} - 3\\sqrt{y} = ...",
+      "options": [
+        "\\sqrt{xy}",
+        "49\\sqrt{xy}",
+        "\\sqrt{7xy}",
+        "3\\sqrt{x} + y",
+        "\\sqrt{21xy}"
+      ],
+      "correctAnswer": "\\sqrt{21xy}",
+      "explanation": null
+    },
+    {
+      "text": "Diketahui a, b adalah bilangan real positif dan bukan 1, serta memenuhi a = b^2. Berdasarkan informasi tersebut, empat pernyataan berikut yang bernilai benar ada .... (1) b = -\\sqrt{a} (2) ^b \\log a^3 = 9 (3) \\frac{\\log b}{\\log a} = \\frac{1}{2} (4) ^a \\log b \\cdot \\frac{1}{^b \\log a^2} = -1",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "1",
+      "explanation": null
+    },
+    {
+      "text": "Diketahui persamaan logaritma berikut: ^{8^2} \\log(x) \\cdot ^{(x)^2} \\log(x + 1) \\cdot ^{(x+1)^2} \\log(x + 2) \\dots ^{(x+27)^2} \\log(x + 28) = \\frac{7}{3 \\cdot 2^{29}}. Berdasarkan informasi di atas, pernyataan di bawah ini yang benar ada ... (1) Ruas kiri persamaan di atas memuat perkalian 28 bentuk logaritma. (2) Hasil ^{8^2} \\log(x) adalah \\frac{1}{\\log 8} (3) x = 100 (4) x = 128",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "2",
+      "explanation": null
+    },
+    {
+      "text": "Sekelompok data terdiri dari $5$ bilangan bulat non negatif. Jika kuartil bawah dan modus data tersebut adalah $4$, serta simpangan kuartilnya $\\frac{3}{2}$. Maka pernyataan yang benar untuk median data tersebut yang mungkin ada....\n(1) $4$\n(2) $5$\n(3) $6$\n(4) $7$",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "c",
+      "explanation": null
+    },
+    {
+      "text": "Pada bidang-$xy$ terdapat sebuah garis yang melalui empat titik berbeda, yaitu $P, Q, R, S$. Jika titik $P(-2,1), R(4,3), Q$ terletak pada perpanjangan $PR$ dan berada di kuadran I sehingga $PQ : PR = 3 : 2$, sedangkan panjang $PR = PS$, maka:\n(1) Koordinat titik $Q$ adalah $(6,5)$\n(2) Titik $S$ terletak di paling kiri\n(3) Koordinat titik $S$ adalah $(-8, -1)$\n(4) Panjang $PR = 5$ satuan\n\nDari keempat pernyataan di atas, ada berapa pernyataan yang benar?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "c",
+      "explanation": null
+    },
+    {
+      "text": "Afgan pergi dari rumah ke studio rekaman menggunakan motor. Kecepatan Afgan berkendara diilustrasikan dengan grafik.\n\n$P =$ Kecepatan rata-rata perjalanan Afgan pergi ke studio\n$Q =$ Kecepatan Afgan berkendara di menit ke 20\n\nHubungan $P$ dan $Q$ yang tepat adalah...",
+      "options": [
+        "P > Q",
+        "Q > P",
+        "P = Q",
+        "\\frac{1}{100} P = Q",
+        "P = \\frac{1}{100} Q"
+      ],
+      "correctAnswer": "c",
+      "explanation": null
+    },
+    {
+      "text": "Garis $x + 2y = 4$ dan $\\frac{1}{2}x + ay = 3$ berpotongan di sebelah kiri sumbu $y$.\n$P$: nilai $a$\n$Q$: $1,25$\nHubungan $P$ dan $Q$ yang tepat adalah ....",
+      "options": [
+        "P > Q",
+        "Q > P",
+        "P = Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan salah satu dari ketiga pilihan di atas",
+        "Opsi ini hanya pelengkap (ninuninuuu jangan dipilih)"
+      ],
+      "correctAnswer": "d",
+      "explanation": null
+    },
+    {
+      "text": "Diketahui $-1 \\le x \\le 1$\n\n$P = \\frac{(\\frac{1}{4})^{2x-2} - (\\frac{1}{4})^{2x+2}}{(\\frac{1}{4})^{x-1} - (\\frac{1}{4})^{x+1}}$\n\n$Q = (\\frac{1}{4})^{2x-1} - (\\frac{1}{4})^{2x+1}$\n\nHubungan yang tepat antara $P$ dan $Q$ berdasarkan informasi berikut adalah...",
+      "options": [
+        "P > Q",
+        "Q > P",
+        "P = Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan salah satu dari ketiga pilihan di atas",
+        "Opsi ini hanya pelengkap, kalo masih dipilih… kamu officially tergocek"
+      ],
+      "correctAnswer": "d",
+      "explanation": null
+    },
+    {
+      "text": "Haechan berencana membeli suatu barang untuk hadiah Yuta. Namun, ia bingung harus membeli di toko A atau toko B. Di kedua toko tersebut, harga barang yang akan dibeli Haechan itu sama, namun setiap toko memberi diskon yang berbeda. Toko A memberikan diskon $10\\%$ untuk semua barang, dan untuk minimal pembelian Rp100.000 akan mendapat diskon lagi sebesar $30\\%$. Toko B memberikan diskon $20\\%$ untuk semua barang, dan untuk minimal pembelian Rp100.000 akan mendapat diskon lagi sebesar $20\\%$. Manakah hubungan $P$ dan $Q$ berikut yang sesuai dengan informasi di atas?\n\n$P$: total yang dibayarkan Haechan jika membeli barang seharga Rp150.000 di toko A\n$Q$: total yang dibayarkan Haechan jika membeli barang seharga Rp150.000 di toko B",
+      "options": [
+        "P > Q",
+        "Q > P",
+        "P = Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan salah satu dari ketiga pilihan di atas",
+        "-"
+      ],
+      "correctAnswer": "b",
+      "explanation": null
+    },
+    {
+      "text": "Kimo dan Kimi sepasang suami istri yang mempunyai $3$ orang anak. Saat ini umur anak kedua adalah $\\frac{2}{3}$ dari kakaknya. Berapa umur anak kedua tiga tahun mendatang?\n\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut?\n(1) Saat ini anak terakhir berumur seperempat dari jumlah umur kedua kakaknya.\n(2) Satu tahun lalu umur anak kedua dua kali umur adiknya.",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan bersama-sama cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": "c",
+      "explanation": null
+    },
+    {
+      "text": "Suatu data yang terdiri dari tujuh bilangan bulat memiliki $mean = Q_2 = Q_3 = 5$. Berapakah jangkauan data?\n\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut.\n(1) $Q_1 = 4$\n(2) Jika data diurutkan dari yang terkecil sampai terbesar, jumlah data ke-$3$ dan dua kali data ke-$7$ adalah $21$.",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan bersama-sama cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": "c",
+      "explanation": null
+    },
+    {
+      "text": "Apakah $a$ dan $b$ bilangan bulat positif?\n\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut.",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan bersama-sama cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "1) $a + b$ bilangan bulat positif.\\n2) $\\frac{a}{b}$ bilangan rasional positif.",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+        "DUA pernyataan bersama-sama cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan",
+      "explanation": null
+    }
+  ]
+}

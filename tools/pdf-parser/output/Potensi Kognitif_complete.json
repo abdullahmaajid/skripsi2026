@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Pada sebuah kelas, akan diadakan kelompok belajar bahasa. Setiap kelompok harus mengandung seorang anak yang pandai Bahasa inggris dan juga seorang anak yang pandai Bahasa Indonesia. Setiap kelompok minimal terdiri dari 3 orang. Jumlah anak pada kelas tersebut adalah 60 orang. Anak yang pandai Bahasa Inggris ada 15 orang. Anak yang hanya pandai Bahasa Indonesia ada 5 orang. Anak yang pandai keduanya ada 5 orang. Berapa jumlah maksimal kelompok yang dapat dibuat?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jam tangan milik Eni bermasalah, jarum jam tangannya terlambat bergerak sehingga terdapat perbedaan antara waktu yang ditunjukkan jam tangannya dengan gawainya. Eni menyesuaikan waktu pada jam tangannya dengan gawainya pada pukul 23:00:00. Kemudian ketika gawainya menunjukkan pukul 04:00:00, jam tangan Eni menunjukkan pukul 03:35:00. Eni lalu menyesuaikan jam tangannya dengan gawai kembali. Kemudian ketika gawainya menunjukkan pukul 08:00:00, jam tangan Eni menunjukkan pukul 07:40:00. Berdasarkan informasi tersebut, jam tangan Eni terlambat 1 detik setiap … detik pada jam di gawainya.",
+      "options": [
+        "5",
+        "6",
+        "12",
+        "20",
+        "25"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Zeni menjual jus mangga dengan harga Rp12.000,00 untuk pembeli umum, namun untuk teman-teman Zeni, harga jus mangga tersebut menjadi Rp9.000,00. Zeni tidak mencatat berapa orang pembeli jus mangganya yang merupakan pembeli umum dan yang merupakan teman-temannya. Pada hari tersebut Zeni mendapatkan uang Rp177.000,00 dan Zeni yakin ada pembeli umum yang membeli jus mangganya. Berapakah total jus mangga yang terjual?",
+      "options": [
+        "16",
+        "18",
+        "20",
+        "23",
+        "27"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Tabel di atas menunjukkan poin akhir yang didapatkan setiap kelas pada pertandingan futsal sekolah. Lima kelas tersebut bertanding melawan satu sama lain sebanyak satu kali. Kelas yang menang mendapatkan tiga poin, seri mendapatkan 1 poin, dan yang kalah tidak mendapatkan poin. Berapa banyak pertandingan yang seri?",
+      "options": [
+        "8",
+        "7",
+        "6",
+        "5",
+        "4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Rehan, Syusi, Shahneera, Klana, Queenzy, dan Budi akan pergi menonton ke bioskop. Mereka semua berangkat dari kampus dengan menggunakan kendaraan Rehan, Klana, dan kendaraan umum. Rehan akan menggunakan kendaraannya sendiri dan ada 1 kursi kosong yang dapat ditumpangi. Klana akan menggunakan kendaraannya sendiri dan ia memiliki 2 kursi kosong yang dapat ditumpangi. Queenzy mau berangkat dengan kendaraan yang sama dengan Shahneera. Syusi tidak mau berangkat dengan Queenzy. Budi mau mengalah, daripada teman-temannya menggunakan kendaraan umum, lebih baik dia saja. Siapa yang akan menumpang kepada Rehan?",
+      "options": [
+        "Budi",
+        "Queenzy",
+        "Klana",
+        "Shahneera",
+        "Syusi"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Rehan, Syusi, Shahneera, Klana, Queenzy, dan Budi akan pergi menonton ke bioskop. Mereka akan duduk pada 6 kursi sejajar, dari nomor 1 sampai 6. Rehan tidak mau duduk di samping Budi. Shahneera mau duduk di paling ujung. Klana tidak mau duduk di ujung. Queenzy mau duduk di samping Shahneera. Syusi mau duduk sejauh mungkin dari Queenzy. Jika Budi duduk di kursi nomor 5, Klana pasti duduk di kursi nomor ….",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Agnes : “Aku memiliki 5 kalimat petunjuk lainnya.” Ramon : “Aku memiliki 5 kalimat petunjuk lainnya.” Set : “Ramon tidak memiliki 5 kalimat petunjuk lainnya.” Pada sebuah permainan, 3 orang yaitu Agnes, Ramon, dan Set masing-masing memberikan satu kalimat petunjuk kepada Insi. Di antara ketiga orang tersebut, satu orang memberikan kalimat petunjuk yang benar dan sisanya memberikan kalimat petunjuk yang salah. Jika Insi dapat menebak siapa yang memberikan kalimat petunjuk yang benar, maka Insi menang. Siapa yang memberikan kalimat petunjuk yang benar?",
+      "options": [
+        "Agnes",
+        "Ramon",
+        "Set",
+        "Agnes dan Set",
+        "Tidak ada jawaban yang tepat."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Lingkungan hidup berperan penting dan strategis dalam mengamankan serta menjamin keseluruhan pembangunan berkelanjutan. Kerusakan lingkungan hidup akibat pemanfaatan sumber daya yang berlebihan dapat menimbulkan bencana. Oleh karena itu, masyarakat harus mulai menerapkan usaha-usaha untuk pelestarian lingkungan hidup.\nSumber: kompas.com (dengan modifikasi)\nBerdasarkan paragraf tersebut, pernyataan yang benar di bawah ini adalah ….-",
+      "options": [
+        "kalimat 1 merupakan klaim, sedangkan kalimat 2 dan 3 merupakan premis",
+        "kalimat 3 merupakan klaim, sedangkan kalimat 1 dan 2 merupakan premis",
+        "kalimat 2 merupakan klaim, sedangkan kalimat 1 dan 3 merupakan premis",
+        "kalimat 1 merupakan klaim, kalimat 2 merupakan premis, dan kalimat 3 tidak relevan terhadap klaim",
+        "paragraf tidak memiliki klaim dan premis karena bukan merupakan argumen"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Situasi COVID-19 di Yogyakarta semakin memburuk. Jumlah pasien terus melonjak namun fasilitas kesehatan kewalahan menampung pasien COVID-19. Tak sedikit pasien harus mengantri berhari-hari untuk memperoleh ruang perawatan. Sebagian dari mereka tak tertolong karena terlalu lama menunggu.\nSumber: tirto.id (dengan modifikasi)\nManakah yang merupakan klaim pada paragraf di atas?",
+      "options": [
+        "Sebagian dari mereka tak tertolong karena terlalu lama menunggu",
+        "Situasi COVID-19 di Yogyakarta semakin memburu",
+        "Tak sedikit pasien harus mengantri berhari-hari untuk memperoleh ruang perawatan",
+        "Jumlah pasien terus melonjak namun fasilitas kesehatan kewalahan menampung pasien COVID-19",
+        "Tidak terdapat klaim pada pernyataannya"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf 1, manakah simpulan di bawah ini yang benar?",
+      "options": [
+        "Tidak ada tenaga kesehatan yang tidak mendapat stok vaksin gratis dari pemerintah",
+        "Beberapa masyarakat tidak mendapat stok vaksin gratis dari pemerintah",
+        "Beberapa tenaga kesehatan mendapat stok vaksin gratis dari pemerintah",
+        "Semua yang mendapat stok vaksin gratis dari pemerintah adalah tenaga kesehatan",
+        "Tidak semua tenaga kesehatan mendapat stok vaksin gratis dari pemerintah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan di bawah ini yang mengingkari isi dari paragraf 1?",
+      "options": [
+        "Indonesia tidak dapat mencapai target 181,5 juta orang tervaksin dalam waktu lebih kurang setengah tahun apabila kurang dari 900 ribu orang yang divaksin setiap hari tanpa jeda libur",
+        "Apabila ada 900 ribu orang yang divaksin setiap hari tanpa jeda libur, maka Indonesia tidak dapat mencapai target 181,5 juta orang tervaksin dalam waktu lebih kurang setengah tahun",
+        "Ada 900 ribu orang yang divaksin setiap hari tanpa jeda libur tetapi Indonesia tidak dapat mencapai target 181,5 juta orang tervaksin dalam waktu lebih kurang setengah tahun",
+        "Apabila Indonesia tidak dapat mencapai target 181,5 juta orang tervaksin dalam waktu lebih kurang setengah tahun, maka kurang dari 900 ribu orang yang divaksin setiap hari tanpa jeda libur",
+        "Ada 900 ribu orang yang divaksin setiap hari tanpa jeda libur atau Indonesia tidak dapat mencapai target 181,5 juta orang tervaksin dalam waktu lebih kurang setengah tahun"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf 2, apabila penyuntikan vaksin tidak ditunda, maka manakah simpulan dibawah ini yang benar?",
+      "options": [
+        "Peserta vaksinasi tidak memiliki penyakit kronis dan tidak pernah terkonfirmasi menderita Covid-19",
+        "Peserta vaksinasi memiliki penyakit kronis atau pernah terkonfirmasi menderita Covid-19",
+        "Peserta vaksinasi tidak dirujuk untuk melakukan pengobatan dan menunggu jadwal vaksinasi sampai tiga bulan berikutnya",
+        "Peserta vaksinasi tidak dirujuk untuk melakukan pengobatan atau tidak menunggu jadwal vaksinasi sampai tiga bulan berikutnya",
+        "Tidak ada kesimpulan yang benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan paragraf 3, apabila akses terhadap vaksin ditentukan sesuai kemampuan finansial, maka manakah simpulan di bawah ini yang benar?",
+      "options": [
+        "Program vaksinasi gratis tidak terganggu",
+        "Jumlah vaksinator semakin terbatas dan kelompok rentan kemungkinan tidak memperoleh vaksin lebih dulu",
+        "Setiap perusahaan membeli vaksin melalui jalur mandiri",
+        "Jumlah vaksinator tidak semakin terbatas atau kelompok rentan kemungkinan memperoleh vaksin lebih dulu",
+        "Tidak benar bahwa setiap perusahaan membeli vaksin melalui jalur mandiri"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah di bawah ini pernyataan yang tepat yang sesuai tabel dan pernyataan di samping?",
+      "options": [
+        "Jumlah penduduk miskin negara A lebih banyak dibandingkan negara B",
+        "Distribusi penduduk berdasarkan pendapatan lebih merata di negara B dibandingkan di negara A",
+        "Perbandingan antara penduduk kaya dan miskin di negara B lebih tinggi dibandingkan di negara A",
+        "Jumlah penduduk kaya negara B lebih sedikit dibandingkan negara A",
+        "Persentase penduduk miskin di negara B lebih sedikit dari negara A"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Lisa penduduk A dengan penghasilan 85.000 dolar per tahun. Rose penduduk B dengan penghasilan 90.000 dolar per tahun. Manakah pernyataan di bawah ini yang benar....",
+      "options": [
+        "Lisa adalah penduduk kaya di negaranya",
+        "Lisa dan Rose adalah penduduk kaya di masing-masing negaranya.",
+        "Lisa masuk kategori 10% orang terkaya di negaranya.",
+        "Jika Lisa menjadi warga negara B, Maka Lisa adalah orang kaya",
+        "Rose adalah orang kaya di negara B."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "P = \\frac{108^7}{6^{50}} dan Q = \\frac{3^7}{6^{36}}. Pernyataan yang tepat adalah ....",
+      "options": [
+        "P lebih besar dari Q",
+        "Q lebih besar dari P",
+        "Keduanya sama besar",
+        "Hubungan keduanya tidak bisa ditemukan",
+        "P \\times 3^7 = Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "jagung dimakan = junaka asula, menanam jagung = asula bulote, ubi ditanam = oletub yubeni, memakan ubi = ....",
+      "options": [
+        "yubeni najuka",
+        "junaka yubeni",
+        "yubeni akujan",
+        "oletub najuka",
+        "oletub junaka"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Mual dan muntah cukup sering dialami oleh anak. Penyebab umumnya adalah infeksi virus dan keracunan makanan. Biasanya mual dan muntah dialami selama 1-2 hari. Salah satu tindakan yang dapat mengatasi mual dan muntah adalah ketika anak muntah, orang tua tidak memberikan makanan atau minuman selama 30-60 menit setelahnya. Hal ini juga dapat mengistirahatkan dan memulihkan perut anak. Berdasarkan informasi tersebut, manakah pernyataan berikut ini yang PASTI SALAH?",
+      "options": [
+        "Kazi adalah anak-anak tetapi Ia tidak mengalami mual dan muntah.",
+        "Seorang anak mengalami mual dan muntah karena mabuk laut.",
+        "Zen tidak memberikan makanan atau minuman selama 30-60 menit setelah anaknya muntah tetapi anak Zen masih mengalami mual dan muntah.",
+        "Nius mengalami mual dan muntah selama 3 hari.",
+        "Mual dan muntah teratasi tapi bukan dengan cara tidak memberikan makanan selama 30-60 menit setelah muntah."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pembaca A menyatakan, \"Membaca lewat buku fisik lebih baik untuk kesehatan dibandingkan dengan e-book.\" Pembaca B menyatakan, \"Membaca e-book lebih menarik dibandingkan dengan buku fisik.\" Hasil penelitian menunjukkan: \"Seseorang sulit tidur pulas karena paparan blue light dari gadget yang bisa membuat mata lelah\". Manakah pernyataan berikut yang PALING TEPAT mengenai hasil survei tersebut?",
+      "options": [
+        "Memperkuat pernyataan pembaca A.",
+        "Memperkuat pernyataan pembaca B.",
+        "Memperlemah pernyataan pembaca A.",
+        "Memperlemah pernyataan pembaca B.",
+        "Tidak relevan dengan pernyataan pembaca A dan pembaca B"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Memberikan air putih pada bayi di bawah 6 bulan dapat menggangu kemampuan tubuhnya untuk menyerap nutrisi dalam ASI. Minum air putih juga dapat membuat perut bayi merasa kenyang. Risiko lain memberikan air putih pada bayi di bawah usia 6 bulan adalah terjadinya keracunan air, diare dan kurang gizi. Berdasarkan informasi di atas, manakah pernyataan sebab-akibat berikut yang PALING MUNGKIN BENAR?",
+      "options": [
+        "Anak-anak yang mengonsumsi air putih cenderung merasa perutnya terasa kenyang.",
+        "Bayi di bawah 6 bulan yang tidak diberikan air putih tumbuh kembangnya optimal.",
+        "Bayi di atas 6 bulan yang diberikan air putih tidak mengalami diare.",
+        "Bayi di bawah 6 bulan yang diberikan air putih mengalami kekurangan berat badan.",
+        "Bayi mengalami keracunan, maka orang tua memberikan air putih kepada bayinya."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Deforestasi atau penggundulan hutan merupakan salah satu penyebab utama terjadinya kerusakan lingkungan. Akibat deforestasi, banyak spesies flora dan fauna kehilangan habitatnya, sehingga beberapa di antaranya ___ (1).",
+      "options": [
+        "Menjadi punah",
+        "Bertambah banyak",
+        "Bermigrasi ke kota",
+        "Menjadi lebih kuat",
+        "Bertahan dengan mudah"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Salah satu cara mengurangi sampah plastik adalah dengan menggunakan barang-barang yang dapat ___ (2). Contohnya adalah penggunaan tas belanja kain yang dapat digunakan berulang kali.",
+      "options": [
+        "Didaur ulang",
+        "Dibuang",
+        "Dibakar",
+        "Diganti",
+        "Digunakan kembali"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "Urutkan paragraf berikut agar menjadi teks yang padu:\n1. Dengan begitu, siswa dapat memahami materi dengan lebih baik.\n2. Salah satu metode yang digunakan adalah pembelajaran berbasis proyek.\n3. Dalam dunia pendidikan, inovasi metode pembelajaran sangat penting.\n4. Pembelajaran berbasis proyek mendorong siswa untuk aktif dan kreatif dalam memecahkan masalah.",
+      "options": [
+        "3-2-4-1",
+        "2-4-3-1",
+        "4-1-3-2",
+        "3-4-2-1",
+        "1-3-2-4"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "\"Budi membaca buku di kamar.\" Kalimat tersebut memiliki pola:",
+      "options": [
+        "S-P-O-K",
+        "S-P-O",
+        "S-P-K",
+        "S-P-Pel",
+        "S-P"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat berikut memiliki pola apa? \"Kakak sedang tidur di kamar.\"",
+      "options": [
+        "S-P",
+        "S-P-K",
+        "S-P-O",
+        "S-P-O-K",
+        "S-P-Pel"
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "Manakah kalimat berikut yang menggunakan kata serapan dengan benar?",
+      "options": [
+        "Saya harus meng-copy file ini sebelum menghapusnya.",
+        "Proyek ini membutuhkan dana yang cukup untuk mengimplementasikan ide tersebut.",
+        "Kita harus segera membuat sketch desain rumah ini.",
+        "Para siswa sedang mem-discuss materi pelajaran.",
+        "Dia ingin menjadi seorang chief dalam sebuah perusahaan."
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "Pilihlah kalimat yang menggunakan kata serapan dengan tepat!",
+      "options": [
+        "Saya ingin mem-check ulang tugas ini.",
+        "Tim kita perlu memanage waktu lebih baik.",
+        "Program ini perlu evaluasi setiap bulan.",
+        "Kami sedang prepare untuk acara besar.",
+        "Guru meminta siswa untuk melakukan correct soal ujian."
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Manakah kalimat yang menggunakan kata serapan dengan benar?",
+      "options": [
+        "Kami sedang memformulasikan strategi baru.",
+        "Dia mem-delete file penting secara tidak sengaja.",
+        "Penampilan tim ini sangat impressive.",
+        "Mereka harus change cara bekerja.",
+        "Saya akan mem-call Anda nanti malam."
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat manakah yang menggunakan kata serapan yang benar?",
+      "options": [
+        "Tim marketing sedang mempromosikan produk baru.",
+        "Dia akan mem-download dokumen nanti.",
+        "Kami harus membuat schedule untuk kegiatan ini.",
+        "Tugas ini membutuhkan focus lebih besar.",
+        "Dia merasa sangat confident dalam presentasi tadi."
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Manakah kalimat berikut yang menggunakan kata serapan dengan benar?",
+      "options": [
+        "Dia sedang melakukan investigasi terhadap kasus itu.",
+        "Kami akan mem-install aplikasi baru.",
+        "Dia sangat talented dalam seni lukis.",
+        "Saya akan meng-upgrade perangkat lunak komputer ini.",
+        "Kami harus follow arahan pimpinan."
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang menjadikan Indonesia unik di mata dunia berdasarkan teks?",
+      "options": [
+        "Indonesia memiliki ekonomi terkuat di Asia Tenggara.",
+        "Indonesia memiliki lebih dari 17.000 pulau.",
+        "Indonesia adalah produsen utama beras di dunia.",
+        "Indonesia hanya dikenal melalui sektor pariwisata.",
+        "Indonesia memiliki penduduk yang paling sedikit di dunia."
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "Menurut teks, apa saja komoditas utama yang dihasilkan Indonesia?",
+      "options": [
+        "Beras, gandum, dan jagung.",
+        "Kopi, kelapa sawit, dan karet.",
+        "Emas, batu bara, dan minyak bumi.",
+        "Kakao, teh, dan kedelai.",
+        "Sayur, buah, dan daging sapi."
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "Apa tantangan besar yang dihadapi Indonesia berdasarkan teks?",
+      "options": [
+        "Kurangnya destinasi wisata.",
+        "Tingginya jumlah ekspor komoditas.",
+        "Kemiskinan, kesenjangan sosial, dan kerusakan lingkungan.",
+        "Kekurangan tenaga kerja di sektor pertanian.",
+        "Minimnya kekayaan budaya dan tradisi."
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Apa peran sektor pariwisata bagi Indonesia menurut teks?",
+      "options": [
+        "Sektor pariwisata menjadi penopang utama ekonomi Indonesia.",
+        "Pariwisata hanya penting di Bali dan Yogyakarta.",
+        "Pariwisata membantu meningkatkan perekonomian Indonesia.",
+        "Sektor pariwisata mendominasi semua sektor ekonomi Indonesia.",
+        "Pariwisata tidak memberikan kontribusi yang signifikan."
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks, apa yang menjadi kekuatan utama Indonesia?",
+      "options": [
+        "Kekayaan budaya, bahasa, dan tradisi.",
+        "Infrastruktur yang maju di seluruh wilayah.",
+        "Penduduk dengan tingkat pendidikan tinggi.",
+        "Ekonomi yang bergantung sepenuhnya pada pariwisata.",
+        "Produksi komoditas hanya untuk kebutuhan domestik."
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    }
+  ]
+}

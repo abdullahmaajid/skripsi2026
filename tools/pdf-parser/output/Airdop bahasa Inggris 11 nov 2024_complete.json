@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "To place a dead body in the ground.",
+      "options": [
+        "Drown",
+        "Bury",
+        "Flip",
+        "Throw",
+        "Abandon"
+      ],
+      "correctAnswer": "Bury",
+      "explanation": "To bury means to put a dead body into the ground."
+    },
+    {
+      "text": "An accepted way of behaving or of doing things in a society or a community.",
+      "options": [
+        "Law",
+        "Custom",
+        "Mores",
+        "Convention",
+        "Rule"
+      ],
+      "correctAnswer": "Custom",
+      "explanation": "A custom is an accepted way of behaving or of doing things in a society or a community."
+    },
+    {
+      "text": "A person who is qualified to perform religious duties and ceremonies in the Roman Catholic, Anglican and Orthodox Churches.",
+      "options": [
+        "Priest",
+        "Pope",
+        "Minister",
+        "Preacher",
+        "Leader"
+      ],
+      "correctAnswer": "Priest",
+      "explanation": "A priest is a person who is qualified to perform religious duties and ceremonies in the Roman Catholic, Anglican, and Orthodox Churches."
+    },
+    {
+      "text": "Public or religious occasion that includes a series of formal or traditional actions.",
+      "options": [
+        "Ceremony",
+        "Baptist",
+        "Pray",
+        "Event",
+        "Fill"
+      ],
+      "correctAnswer": "Ceremony",
+      "explanation": "A ceremony is a formal public or religious occasion, typically one celebrating a particular event or anniversary."
+    },
+    {
+      "text": "Words that you say to God giving thanks or asking for help.",
+      "options": [
+        "Prayer",
+        "Offer",
+        "Complain",
+        "Ask",
+        "Argue"
+      ],
+      "correctAnswer": "Prayer",
+      "explanation": "A prayer consists of words that you say to God giving thanks or asking for help."
+    },
+    {
+      "text": "The belief in the existence of a god or gods, and the activities that are connected with the worship of them, or in the teachings of a spiritual leader.",
+      "options": [
+        "Religion",
+        "Doctrine",
+        "Sect",
+        "Faith",
+        "Spirit"
+      ],
+      "correctAnswer": "Religion",
+      "explanation": "Religion is the belief in and worship of a superhuman controlling power, especially a personal God or gods."
+    },
+    {
+      "text": "The main church of a district, under the care of a bishop.",
+      "options": [
+        "Church",
+        "Mosque",
+        "Cathedral",
+        "Chapel",
+        "Sanctuary"
+      ],
+      "correctAnswer": "Cathedral",
+      "explanation": "A cathedral is the principal church of a diocese, with which the bishop is officially associated."
+    },
+    {
+      "text": "Public holiday in the US (on the fourth Thursday in November) and in Canada (on the second Monday in October), originally to give thanks to God for the harvest and for health.",
+      "options": [
+        "Thanksgiving",
+        "Christmass",
+        "Easter",
+        "Ramadan",
+        "Autumn"
+      ],
+      "correctAnswer": "Thanksgiving",
+      "explanation": "Thanksgiving is a public holiday celebrated in the US and Canada to give thanks for the harvest and preceding year."
+    },
+    {
+      "text": "A woman who stays at home to cook, clean, take care of the children, etc. while her husband or partner goes out to work.",
+      "options": [
+        "Housewife",
+        "Mother",
+        "Household assistant",
+        "Grandmother",
+        "Aunt"
+      ],
+      "correctAnswer": "Housewife",
+      "explanation": "A housewife is a woman whose main occupation is caring for her family, managing household affairs, and doing housework."
+    },
+    {
+      "text": "The legal relationship between two people who are married to each other.",
+      "options": [
+        "Date",
+        "Marriage",
+        "Prom",
+        "Friendship",
+        "Acquaintanceship"
+      ],
+      "correctAnswer": "Marriage",
+      "explanation": "Marriage is the legally or formally recognized union of two people as partners in a personal relationship."
+    },
+    {
+      "text": "Why you do something or why something exists.",
+      "options": [
+        "Reason",
+        "Background",
+        "Purpose",
+        "Target",
+        "Passion"
+      ],
+      "correctAnswer": "Purpose",
+      "explanation": "Purpose is the reason for which something is done or created or for which something exists."
+    },
+    {
+      "text": "A marriage ceremony and any celebrations such as a meal or a party that follow it.",
+      "options": [
+        "Party",
+        "Wedding",
+        "Meeting",
+        "Feast",
+        "Ceremony"
+      ],
+      "correctAnswer": "Wedding",
+      "explanation": "A wedding is a marriage ceremony, especially considered as including the associated celebrations."
+    },
+    {
+      "text": "A very strong feeling of love, hate, anger, enthusiasm, etc.",
+      "options": [
+        "Desire",
+        "Passion",
+        "Wish",
+        "Hope",
+        "Want"
+      ],
+      "correctAnswer": "Passion",
+      "explanation": "Passion is a very strong feeling of love, hate, anger, enthusiasm, etc."
+    },
+    {
+      "text": "All the people who were born at about the same time",
+      "options": [
+        "Group",
+        "Culture",
+        "Individual",
+        "Society",
+        "Generation"
+      ],
+      "correctAnswer": "Generation",
+      "explanation": "A generation refers to all of the people born and living at about the same time, regarded collectively."
+    },
+    {
+      "text": "To separate into parts; to make something separate into parts",
+      "options": [
+        "Divorce",
+        "Melt",
+        "Gather",
+        "Difference",
+        "Divide"
+      ],
+      "correctAnswer": "Divide",
+      "explanation": "To divide means to separate or be separated into parts."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "questions": [
+    {
+      "text": "Berapakah selisih yang paling mungkin antara proyek transportasi dengan proyek telekomunikasi?",
+      "options": [
+        "1-2 proyek",
+        "5 proyek",
+        "4 proyek",
+        "6 proyek",
+        "7 proyek"
+      ],
+      "correctAnswer": "1-2 proyek",
+      "explanation": "Jika kita lihat dari grafik, kemungkinan besar proyek transportasi adalah sebanyak 6 proyek, sedangkan proyek telekomunikasi adalah 5 proyek. Maka selisihnya adalah sekitar 1-2 proyek saja."
+    },
+    {
+      "text": "Berapakah total proyek pembuatan jalan, kesehatan, pelabuhan, transportasi, telekomunikasi, pengelolaan air, bandara, kawasan, dan transmisi yang paling mungkin?",
+      "options": [
+        "106",
+        "115",
+        "116",
+        "120",
+        "125"
+      ],
+      "correctAnswer": "106",
+      "explanation": "Berdasarkan grafik diatas, Sektor bandara = 3 proyek, Sektor kawasan = 3 proyek, Sektor kesehatan = 15 proyek, Sektor jalan = 57 proyek, Sektor pelabuhan = 10 proyek, Sektor transmisi = 2 proyek, Sektor transportasi = 6 proyek, Sektor pengelolaan air = 5 proyek, Sektor telekomunikasi = 5 proyek. Total = 106 proyek yang paling mungkin"
+    },
+    {
+      "text": "Jika pada proyek pembuatan jalan, dana yang diberikan dibagi secara merata, berapakah biaya setiap proyek yang dikeluarkan?",
+      "options": [
+        "10 Triliun",
+        "15 Triliun",
+        "8.31 Triliun",
+        "9 Triliun",
+        "11 Triliun"
+      ],
+      "correctAnswer": "8.31 Triliun",
+      "explanation": "Nilai proyek jalan = 465,4 triliun. Menghasilkan 56 proyek. Maka tinggal dibagi saja: 465,4 triliun dibagi 56 proyek = 8.31 Triliun setiap proyeknya"
+    }
+  ]
+}

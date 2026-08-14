@@ -1,0 +1,412 @@
+{
+  "questions": [
+    {
+      "text": "Diketahui terdapat pipa air lurus di bawah tanah yang menghubungkan Desa A dan C. Panjang minimal pipa tersebut adalah ... km",
+      "options": [
+        "\\sqrt{13}",
+        "2\\sqrt{13}",
+        "3\\sqrt{13}",
+        "4\\sqrt{13}",
+        "5\\sqrt{13}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jarak terpendek yang dapat ditempuh suatu kendaraan dari Desa B ke Desa D adalah ... km",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "14",
+        "24"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Suatu kendaraan berangkat dari Desa A pada pukul 07.00 menuju ke Desa D melalui Desa C. Jika diketahui kendaraan tiba di desa D pada pukul 08.30, kecepatan rata-rata minimal kendaraan tersebut adalah...km/jam",
+      "options": [
+        "6",
+        "9",
+        "12",
+        "22",
+        "24"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jarak Kota C ke Kota E adalah ... km.",
+      "options": [
+        "40\\sqrt{5}",
+        "50\\sqrt{5}",
+        "30\\sqrt{10}",
+        "40\\sqrt{10}",
+        "50\\sqrt{10}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Panjang jalan tol yang menghubungkan Kota D dan Kota C adalah ... km.",
+      "options": [
+        "20\\pi\\sqrt{2}",
+        "40\\pi\\sqrt{2}",
+        "20\\pi\\sqrt{5}",
+        "40\\pi\\sqrt{5}",
+        "50\\pi\\sqrt{5}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika luas daerah yang berada di antara dua jalan yang menghubungkan secara langsung Kota A dan Kota B adalah $L \\times \\pi$ km2, maka nilai L adalah...",
+      "options": [
+        "800",
+        "1200",
+        "1600",
+        "2000",
+        "2600"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika laju rata-rata kendaraan Dimas di jalan tol adalah 40 km/jam, sedangkan di jalan blasa adalah 40 km/jam, waktu tempuh tersingkat yang dibutuhkan Dimas untuk melakukan perjalanan dari Kota D ke Kota A adalah .... Jam.",
+      "options": [
+        "2\\sqrt{10} + \\sqrt{5}",
+        "\\sqrt{10} + 2\\sqrt{5}",
+        "\\sqrt{2} + 2\\sqrt{5}",
+        "2\\sqrt{2} + \\sqrt{5}",
+        "\\sqrt{2} + \\sqrt{5}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika PQ = 2 m, saat Andi berada 1 m dari titik Q, jarak bayangan Andi dari titik P adalah ... m",
+      "options": [
+        "2",
+        "2\\frac{1}{3}",
+        "2\\frac{2}{3}",
+        "3",
+        "4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui PQ = 2 m. Andi dan Bobbi berjalan berdampingan dengan laju yang sama. Saat Andi berada 2 m dari titik Q, jarak bayangan Andi dan bayangan Bobbi di dinding adalah ... m",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika setiap saat bayangan Andi dan bayangan Bobbi selalu berimpit, perbandingan laju berjalan Andi dan Bobbi adalah ...",
+      "options": [
+        "1:3",
+        "1:2",
+        "3:2",
+        "2:1",
+        "3:1"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "saat Andi 2 m dari titik Q dan Bobbi 3 m dari titik R, jarak antara bayangan Andi dan bayangan Bobbi adalah 10 m. Jarak Andi dari dinding adalah ... m",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah batu dilemparkan tepat di tengah kolam berbentuk persegi dengan Panjang sisi 4 m. Akibat batu yang dilempar tersebut, terjadi riak berbentuk lingkaran dengan jari-jari yang bertambah dengan kecepatan 10 cm/detik. Riak diasumsikan berhenti setelah mencapai tepi kolam. Jika $D_L$ adalah domain fungsi luas lingkaran sebagai fungsi dari waktu t (detik), maka $D_L$ =",
+      "options": [
+        "\\{t \\in R \\mid 0 \\le t \\le 10\\}",
+        "\\{t \\in R \\mid 0 \\le t \\le 15\\}",
+        "\\{t \\in R \\mid 0 \\le t \\le 20\\}",
+        "\\{t \\in R \\mid 0 \\le t \\le 30\\}",
+        "\\{t \\in R \\mid 0 \\le t \\le 40\\}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah batu dilemparkan tepat di tengah kolam berbentuk persegi dengan Panjang sisi 4 m. Akibat batu yang dilempar tersebut, terjadi riak berbentuk lingkaran dengan jari-jari yang bertambah dengan kecepatan 10 cm/detik. Riak diasumsikan berhenti setelah mencapai tepi kolam. Jika R(t) adalah jari-jari ingkaran riak pail waktu t (detik), maka R(t) =",
+      "options": [
+        "6t",
+        "10t",
+        "14t",
+        "20t",
+        "40t"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah batu dilemparkan tepat di tengah kolam berbentuk persegi dengan Panjang sisi 4 m. Akibat batu yang dilempar tersebut, terjadi riak berbentuk lingkaran dengan jari-jari yang bertambah dengan kecepatan 10 cm/detik. Riak diasumsikan berhenti setelah mencapai tepi kolam. Jika L(t) adalah luas lingkaran yang terbentuk pada waktu t(detik), maka L(t) = ... cm²",
+      "options": [
+        "\\pi t^2",
+        "10\\pi t^2",
+        "36\\pi t^2",
+        "100\\pi t^2",
+        "1600\\pi t^2"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah batu dilemparkan tepat di tengah kolam berbentuk persegi dengan panjang sisi 4 m. Akibat batu yang dilemparkan tersebut, terjadi riak berbentuk lingkaran dengan jari-jari yang bertambah dengan kecepatan 10 cm/detik. Riak diasumsikan berhenti setelah mencapai tepi kolam. Luas permukaan air kolam yang berada di luar lingkaran pada saat $t = 10$ adalah ... $\text{cm}^2$",
+      "options": [
+        "(16 - \\pi) \\times 10^4",
+        "10^4 \\pi",
+        "40 \\times 10^4 \\pi",
+        "(16 - \\pi) \\times 10^3",
+        "16 \\times 10^4 \\pi"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Seorang pemain akrobat menyajikan atraksinya dengan cara mengeluarkan asap berbentuk lingkaran sempurna yang terus membesar dan menjauh dari mulutnya dengan jari-jari asap bertambah dengan kecepatan 0,5 cm/detik. Asap akan menghilang dengan sendirinya setelah 10 detik. Diameter lingkaran asap pada waktu $t$ detik adalah ...... cm.",
+      "options": [
+        "0,5t",
+        "t",
+        "1,5t",
+        "5t",
+        "10t"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Seorang pemain akrobat menyajikan atraksinya dengan cara mengeluarkan asap berbentuk lingkaran sempurna yang terus membesar dan menjauh dari mulutnya dengan jari-jari asap bertambah dengan kecepatan 0,5 cm/detik. Asap akan menghilang dengan sendirinya setelah 10 detik. Luas lingkaran asap yang terbentuk pada waktu $t$ detik.... $\text{cm}^2$",
+      "options": [
+        "0,25\\pi t^2",
+        "\\pi t^2",
+        "2,25\\pi t^2",
+        "25\\pi t^2",
+        "100\\pi t^2"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Seorang pemain akrobat menyajikan atraksinya dengan cara mengeluarkan asap berbentuk lingkaran sempurna yang terus membesar dan menjauh dari mulutnya dengan jari-jari asap bertambah dengan kecepatan 0,5 cm/detik. Asap akan menghilang dengan sendirinya setelah 10 detik. Jika pembesaran asap lingkaran membentuk kerucut dengan perbandingan jari-jari dan tinggi adalah 13, volume kerucut pada detik ke-6 adalah ... $\text{cm}^3$.",
+      "options": [
+        "\\pi",
+        "8\\pi",
+        "27\\pi",
+        "81\\pi",
+        "108\\pi"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Seorang pemain akrobat menyajikan atraksinya dengan cara mengeluarkan asap berbentuk lingkaran sempurna yang terus membesar dan menjauh dari mulutnya dengan jari-jari asap bertambah dengan kecepatan 0,5 cm/detik. Asap akan menghilang dengan sendirinya setelah 10 detik. Dua pemain akrobat yang saling berhadapan, menyemburkan asap berbentuk lingkaran sempurna bersamaan secara horizontal. Diketahui juga pembesaran jari-jari lingkaran asap semburan sama sebesar 0,5 cm/detik. Jika kedua lingkaran asap saling bertemu pada saat $t = 10$ detik dan volume masing-masing kerucut yang terbentuk adalah $250\\pi$, jarak antara kedua pemain akrobat pada saat menyemburkan asap adalah... cm.",
+      "options": [
+        "30",
+        "40",
+        "50",
+        "60",
+        "70"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada suatu toko ponsel, harga resmi ponsel merek X adalah $\\text{Rp}10.000.000,00$ dan toko memberi diskon $20\\%$. Ponsel tersebut juga dapat dibeli dengan diangsur setiap bulan (dengan besar sama, mulai bulan kedua), dikenakan Bunga Tunggal $6\\%$ per tahun, dan uang muka minimal $10\\%$ dari harga resmi. Toko juga menjual antigores dengan harga $\\text{Rp}150.000,00$ dan casing ponsel dengan harga $\\text{Rp}90.000,00$. Pak Budi ingin membeli ponsel X dengan mengangsur. Ia juga ingin membeli antigores, casing, dan nomor perdana beserta pulsanya. Jika ia membawa uang $\\text{Rp}1.500.000,00$, uang yang dapat digunakan untuk membeli nomor perdana beserta pulsanya maksimal adalah ... ribu rupiah.",
+      "options": [
+        "240",
+        "250",
+        "260",
+        "270",
+        "280"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada suatu toko ponsel, harga resmi ponsel merek X adalah $\\text{Rp}10.000.000,00$ dan toko memberi diskon $20\\%$. Ponsel tersebut juga dapat dibeli dengan diangsur setiap bulan (dengan besar sama, mulai bulan kedua), dikenakan Bunga Tunggal $6\\%$ per tahun, dan uang muka minimal $10\\%$ dari harga resmi. Toko juga menjual antigores dengan harga $\\text{Rp}150.000,00$ dan casing ponsel dengan harga $\\text{Rp}90.000,00$. Jika Pak Budi membeli ponsel dengan uang muka minimal dan mengangsur sebanyak 20 kali, angsuran yang dibayarkan adalah ... ribu rupiah.",
+      "options": [
+        "350",
+        "385",
+        "400",
+        "425",
+        "495"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada suatu toko ponsel, harga resmi ponsel merek X adalah $\\text{Rp}10.000.000,00$ dan toko memberi diskon $20\\%$. Ponsel tersebut juga dapat dibeli dengan diangsur setiap bulan (dengan besar sama, mulai bulan kedua), dikenakan Bunga Tunggal $6\\%$ per tahun, dan uang muka minimal $10\\%$ dari harga resmi. Toko juga menjual antigores dengan harga $\\text{Rp}150.000,00$ dan casing ponsel dengan harga $\\text{Rp}90.000,00$. Bu Atik ingin membeli ponsel X dengan uang muka minimal dan mengangsur setiap bulan $\\text{Rp}400.000,00$, kecuali angsuran bulan terakhir yang mungkin kurang dari angsuran sebelumnya, karena sudah memenuhi harga pokok ditambah bunganya. Bu Atik perlu mengangsur sebanyak... kali.",
+      "options": [
+        "23",
+        "22",
+        "21",
+        "20",
+        "19"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada suatu toko ponsel, harga resmi ponsel merek X adalah $\\text{Rp}10.000.000,00$ dan toko memberi diskon $20\\%$. Ponsel tersebut juga dapat dibeli dengan diangsur setiap bulan (dengan besar sama, mulai bulan kedua), dikenakan Bunga Tunggal $6\\%$ per tahun, dan uang muka minimal $10\\%$ dari harga resmi. Toko juga menjual antigores dengan harga $\\text{Rp}150.000,00$ dan casing ponsel dengan harga $\\text{Rp}90.000,00$. Untuk meningkatkan penjualan, toko menawarkan pembelian ponsel X dengan mengangsur tanpa uang muka, dengan angsuran bulan pertama pertama, kedua, ketiga, keempat, dan seterusnya berturut-turut $\\text{Rp}1.400.000,00$, $\\text{Rp}1.300.000,00$, $\\text{Rp}1.200.000,00$, $\\text{Rp}1.100.000,00$, dan seterusnya hingga nol rupiah, Harga ponsel X dengan cara pembelian tersebut dibandingkan dengan harga resmi menjadi ...",
+      "options": [
+        "lebih mahal $\\text{Rp}100.000,00$",
+        "lebih mahal $\\text{Rp}200.000,00$",
+        "lebih mahal $\\text{Rp}300.000,00$",
+        "lebih mahal $\\text{Rp}400.000,00$",
+        "lebih mahal $\\text{Rp}500.000,00$"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Di suatu kantor tempat kerja Ani, Budi, Citra, dan Doni, terdapat koperasi yang melayani penjualan barang dan jasa simpan-pinjam. Jika seorang anggota menabung, ia akan mendapat bunga (majemuk) $12\\%$ per tahun, yang dihitung bulanan. Jika seorang anggota meminjam, ia dapat mengembalikan pinjamannya dengan mengangsur, angsurannya tetap setiap bulan, mulai awal bulan berikutnya, dan kenaikan bunga Tunggal (tetap) $15\\%$ per tahun. Ani akan membeli barang A seharga $\\text{Rp}7.000.000,00$. Ia mempunyai uang $\\text{Rp}1.000.000,00$. Untuk menutupi kekurangannya, ia akan meminjam ke koperasi dengan pengembalian diangsur selama enam bulan. Besar bunga yang dikenakan kepada Ani sebesar..... ribu rupiah.",
+      "options": [
+        "420",
+        "450",
+        "480",
+        "510",
+        "540"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Di suatu kantor tempat kerja Ani, Budi, Citra, dan Doni, terdapat koperasi yang melayani penjualan barang dan jasa simpan-pinjam. Jika seorang anggota menabung, ia akan mendapat bunga (majemuk) $12\\%$ per tahun, yang dihitung bulanan. Jika seorang anggota meminjam, ia dapat mengembalikan pinjamannya dengan mengangsur, angsurannya tetap setiap bulan, mulai awal bulan berikutnya, dan kenaikan bunga Tunggal (tetap) $15\\%$ per tahun. Dimulai pada Januari, Budi setiap awal bulan menabung sebesar $\\text{Rp}2.000.000,00$. Pada awal April, Budi tidak bisa menabung, tetapi mengambil uang tabungannya untuk membeli barang seharga $\\text{Rp}6.000.000,00$. Uang Budi masih tersisa ... ribu rupiah.",
+      "options": [
+        "45.100",
+        "60.602",
+        "78.600",
+        "96.400",
+        "120.802"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Di suatu kantor tempat kerja Ani, Budi, Citra, dan Doni, terdapat koperasi yang melayani penjualan barang dan jasa simpan-pinjam. Jika seorang anggota menabung, ia akan mendapat bunga (majemuk) $12\\%$ per tahun, yang dihitung bulanan. Jika seorang anggota meminjam, ia dapat mengembalikan pinjamannya dengan mengangsur, angsurannya tetap setiap bulan, mulai awal bulan berikutnya, dan kenaikan bunga Tunggal (tetap) $15\\%$ per tahun. Citra meminjam uang di koperasi. Ia mengembalikannya dengan cara mengangsur setiap bulan sebesar $\\text{Rp}440.000,00$ sebanyak 8 kali. Uang yang dipinjam Citra sebesar ... ribu rupiah.",
+      "options": [
+        "3.520",
+        "3.360",
+        "3.200",
+        "3.000",
+        "2.800"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Di suatu kantor tempat kerja Ani, Budi, Citra, dan Doni, terdapat koperasi yang melayani penjualan barang dan jasa simpan-pinjam. Jika seorang anggota menabung, ia akan mendapat bunga (majemuk) $12\\%$ per tahun, yang dihitung bulanan. Jika seorang anggota meminjam, ia dapat mengembalikan pinjamannya dengan mengangsur, angsurannya tetap setiap bulan, mulai awal bulan berikutnya, dan kenaikan bunga Tunggal (tetap) $15\\%$ per tahun. Harga barang C adalah $\\text{Rp}5.000.000,00$ dan akan diberi diskon $20\\%$ jika dibeli secara tunai. Doni akan membeli barang C tersebut pada Maret secara tunai. Ia menabung lebih dulu pada koperasi setiap awal Januari, Februari, dan Maret dengan jumlah yang sama. Uang yang ditabung Doni setiap bulan adalah.... Ribu rupiah.",
+      "options": [
+        "1.305",
+        "1.310",
+        "1.315",
+        "1.321",
+        "1.333"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi di atas, pernyataan berikut yang BENAR adalah\n1. Jumlah pelamar yang lolos seleksi berkas untuk posisi profesional lebih banyak dari posisi administrasi.\n2. Jumlah pelamar posisi pemasaran yang lulus seleksi TKD adalah 2.200 orang.\n3. Jumlah pelamar posisi administrasi yang lulus seleksi TKD adalah 900 orang.",
+      "options": [
+        "1 saja",
+        "2 saja",
+        "3 saja",
+        "1 dan 2",
+        "1 dan 3"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Peluang pelamar posisi profesional akan diterima adalah ...",
+      "options": [
+        "\\frac{3}{400}",
+        "\\frac{1}{200}",
+        "\\frac{1}{100}",
+        "\\frac{3}{200}",
+        "\\frac{1}{50}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diantara pelamar posisi pemasaran yang diterima akan dipilih dua orang untuk mengikuti pelatihan digital marketing. Jumlah cara untuk memilih dua orang tersebut adalah…",
+      "options": [
+        "44",
+        "231",
+        "462",
+        "550",
+        "635"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jumlah pelamar yang diterima untuk semua posisi adalah",
+      "options": [
+        "52",
+        "70",
+        "88",
+        "92",
+        "100"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi di atas, pernyataan berikut yang SALAH adalah\n1. Rata-rata pembelian kertas per bulan dengan pembayaran nontunai adalah 1.250 rim\n2. Biaya tembahan dari pembayaran non tunai pada bulan ke-2 adalah Rp3.000.000\n3. Pajak yang harus dibayarkan dari pembayaran nontunai pada bulan ke-3 adalah Rp4.545.000",
+      "options": [
+        "1 saja",
+        "2 saja",
+        "3 saja",
+        "1 dan 2",
+        "1 dan 3"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika salah satu pelanggan dari toko alat tulis tersebut membeli kertas sebanyak 400 rim dengan pembayaran tunai, total pembayaran yang dilakukan pelanggan tersebut adalah...",
+      "options": [
+        "Rp10.800.000,00",
+        "Rp11.880.000,00",
+        "Rp12.000.000,00",
+        "Rp12.800.000,00",
+        "Rp13.240.000,00"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika 50% dari transaksi dengan pembayaran tunai melakukan pembelian setidaknya 500 rim dan 50% dari sisanya merupakan pembelian kurang dari 200 rim, total penjualan sebelum pajak toko tersebut pada bulan ke-2 adalah ...",
+      "options": [
+        "Rp109.050.000,00",
+        "Rp111.300.000,00",
+        "Rp112.500.000,00",
+        "Rp113.250.000,00",
+        "Rp114.125.000,00"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "questions": [
+    {
+      "text": "What can be concluded about snake bites in Queensland?",
+      "options": [
+        "Snake bites are becoming more frequent each year.",
+        "Most snake bites happen due to human attempts to keep snakes.",
+        "Fatal snake bites are a leading cause of death in Australia.",
+        "Queensland has no proper medical response to snake bites.",
+        "The number of reported snake bites has remained relatively stable over the years."
+      ],
+      "correctAnswer": "The number of reported snake bites has remained relatively stable over the years.",
+      "explanation": null
+    },
+    {
+      "text": "What can be concluded about handling snakes?",
+      "options": [
+        "It is illegal, dangerous, and should be left to professionals.",
+        "People should relocate snakes themselves to prevent bites.",
+        "Killing snakes is the best way to ensure safety.",
+        "Snakes are slow-moving and easy to handle safely.",
+        "Handling snakes is only dangerous for people without experience."
+      ],
+      "correctAnswer": "It is illegal, dangerous, and should be left to professionals.",
+      "explanation": null
+    },
+    {
+      "text": "What is the passage's main point about snake bite prevention?",
+      "options": [
+        "Snake bites are unavoidable and should not be a major concern.",
+        "Carrying a snake repellent spray is the best way to stay safe.",
+        "Avoiding long grass and wearing sturdy shoes can help reduce risks.",
+        "Keeping snakes as pets can help people learn how to handle them.",
+        "Snakes usually do not bite unless provoked, so precautions are unnecessary."
+      ],
+      "correctAnswer": "Avoiding long grass and wearing sturdy shoes can help reduce risks.",
+      "explanation": null
+    },
+    {
+      "text": "What does the passage conclude about the role of snakes in the ecosystem?",
+      "options": [
+        "They help control rat populations, making them important to the environment.",
+        "They serve no real purpose and are mostly a danger to humans.",
+        "The best way to maintain balance in nature is to remove venomous snakes.",
+        "Snakes are overpopulated and should be controlled by the government.",
+        "The ecosystem can function just as well without venomous snakes."
+      ],
+      "correctAnswer": "They help control rat populations, making them important to the environment.",
+      "explanation": null
+    },
+    {
+      "text": "What can be concluded about first aid for snake bites?",
+      "options": [
+        "Compression bandages help slow venom spread and buy time for medical treatment.",
+        "Washing the wound immediately is the most important step.",
+        "Moving as much as possible after a bite increases the chance of survival.",
+        "Most snake bites require no medical attention if treated quickly at home.",
+        "Snake bites are untreatable if the victim does not reach a hospital in 30 minutes."
+      ],
+      "correctAnswer": "Compression bandages help slow venom spread and buy time for medical treatment.",
+      "explanation": null
+    },
+    {
+      "text": "What can be inferred about why snake encounters seem more frequent today?",
+      "options": [
+        "The snake population is rapidly increasing across Australia.",
+        "More people live near bushland and document encounters on social media.",
+        "Climate change has made snakes more aggressive and active.",
+        "Government policies have led to more snakes being released into urban areas.",
+        "People are less educated about snake safety than they were before."
+      ],
+      "correctAnswer": "More people live near bushland and document encounters on social media.",
+      "explanation": null
+    },
+    {
+      "text": "What is an implied reason why some people still die from snake bites despite available medical treatment?",
+      "options": [
+        "They may not receive first aid or medical help quickly enough.",
+        "Antivenom is not effective against most Australian snakes.",
+        "Many hospitals refuse to treat snake bite victims.",
+        "The government does not fund enough snake bite research.",
+        "Compression bandages are too expensive for most Australians."
+      ],
+      "correctAnswer": "They may not receive first aid or medical help quickly enough.",
+      "explanation": null
+    },
+    {
+      "text": "Why might more people be at risk of snake bites now compared to the past?",
+      "options": [
+        "Urban development is expanding into snake habitats.",
+        "Snake migration patterns have shifted due to human activity.",
+        "People are actively attracting snakes by feeding them.",
+        "Government protection laws have led to an increase in snake populations.",
+        "Hospitals are less prepared to treat snake bites than they used to be."
+      ],
+      "correctAnswer": "Urban development is expanding into snake habitats.",
+      "explanation": null
+    },
+    {
+      "text": "What can be inferred about the effectiveness of Australia's emergency response to snake bites?",
+      "options": [
+        "It is well-developed and helps prevent most deaths.",
+        "It is outdated and does not effectively prevent fatalities.",
+        "It only works well in urban areas with access to hospitals.",
+        "It has not improved in the last decade.",
+        "It is the least effective in regions with a high snake population."
+      ],
+      "correctAnswer": "It is well-developed and helps prevent most deaths.",
+      "explanation": null
+    },
+    {
+      "text": "What is an unstated benefit of increased awareness about snakes?",
+      "options": [
+        "More people are learning how to react safely in snake encounters.",
+        "Snake populations are decreasing due to better removal methods.",
+        "People are no longer afraid of venomous snakes.",
+        "The government has banned snake removals to protect them.",
+        "Social media posts about snakes have made people panic unnecessarily."
+      ],
+      "correctAnswer": "More people are learning how to react safely in snake encounters.",
+      "explanation": null
+    },
+    {
+      "text": "What conclusion does the passage present about saliva's role in food perception?",
+      "options": [
+        "Saliva is primarily composed of enzymes that digest food.",
+        "Saliva serves as a lubricant with no significant effect on flavor or texture.",
+        "Saliva mediates and enhances the sensory experience of food, including taste, aroma, and texture.",
+        "Differences in salivary flow rates lead to identical flavor experiences among individuals.",
+        "Saliva's role is limited to providing hydration for the mouth."
+      ],
+      "correctAnswer": "Saliva mediates and enhances the sensory experience of food, including taste, aroma, and texture.",
+      "explanation": null
+    },
+    {
+      "text": "Based on the passage, what can be inferred about the potential for future food design?",
+      "options": [
+        "Future food designs will focus solely on reducing astringency in foods like wine.",
+        "Researchers may develop foods that consider saliva's role to improve flavor and texture.",
+        "Saliva composition is irrelevant to creating enjoyable food experiences.",
+        "The interaction between saliva and food is too complex to be practically applied in food design.",
+        "Flavor preferences are determined entirely by the ingredients of the food, not saliva."
+      ],
+      "correctAnswer": "Researchers may develop foods that consider saliva's role to improve flavor and texture.",
+      "explanation": null
+    },
+    {
+      "text": "What can be concluded from the relationship between saliva and tastants?",
+      "options": [
+        "Saliva prevents tastants from dissolving in the mouth.",
+        "Tastants dissolve in saliva to reach taste buds and trigger flavor sensations.",
+        "Tastants bypass saliva to directly reach the taste buds.",
+        "Tastants are unaffected by the enzymes in saliva.",
+        "Tastants are the primary component of saliva."
+      ],
+      "correctAnswer": "Tastants dissolve in saliva to reach taste buds and trigger flavor sensations.",
+      "explanation": null
+    },
+    {
+      "text": "What can be inferred about how individuals perceive flavors differently?",
+      "options": [
+        "Everyone perceives flavors the same way, regardless of saliva composition.",
+        "Variations in saliva flow rate and protein composition contribute to different flavor experiences.",
+        "Saliva composition has no measurable effect on flavor perception.",
+        "Flavors are entirely determined by the ingredients in food and unrelated to saliva.",
+        "People with high saliva flow rates cannot detect taste molecules."
+      ],
+      "correctAnswer": "Variations in saliva flow rate and protein composition contribute to different flavor experiences.",
+      "explanation": null
+    },
+    {
+      "text": "What can be concluded about saliva's role in texture perception?",
+      "options": [
+        "Saliva determines whether food tastes sweet or sour.",
+        "Saliva influences the feeling of dryness or lubrication in the mouth.",
+        "Saliva dissolves food molecules for the taste buds to detect.",
+        "Saliva prevents bubbles from blocking taste receptors.",
+        "Saliva regulates the flow of aromatic molecules into the nasal cavity."
+      ],
+      "correctAnswer": "Saliva influences the feeling of dryness or lubrication in the mouth.",
+      "explanation": null
+    },
+    {
+      "text": "What can be inferred about flat soda tasting sweeter than fizzy soda?",
+      "options": [
+        "Saliva prevents sugar molecules in flat soda from reaching taste buds.",
+        "Saliva allows sugar molecules in flat soda to reach taste buds more effectively due to the absence of bubbles.",
+        "Saliva blocks all taste sensations in fizzy soda.",
+        "Flat soda lacks the enzymes necessary to trigger sweetness detection.",
+        "Bubbles in fizzy soda amplify the sweetness by interacting with saliva."
+      ],
+      "correctAnswer": "Saliva allows sugar molecules in flat soda to reach taste buds more effectively due to the absence of bubbles.",
+      "explanation": null
+    },
+    {
+      "text": "What can be inferred about saliva's influence on the design of healthier foods?",
+      "options": [],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "What role do tannins in wine play, as explicitly stated in the passage?",
+      "options": [
+        "Tannins dissolve in saliva and enhance lubrication in the mouth.",
+        "Tannins reduce saliva’s lubricating properties, causing a dry mouthfeel.",
+        "Tannins block saliva from reaching the taste buds.",
+        "Tannins amplify the sweetness of wine by interacting with saliva.",
+        "Tannins neutralize the enzymes in saliva."
+      ],
+      "correctAnswer": "Tannins reduce saliva’s lubricating properties, causing a dry mouthfeel.",
+      "explanation": null
+    },
+    {
+      "text": "What does the passage suggest about red wine’s astringent texture?",
+      "options": [
+        "The wine’s tannins directly dry out the mouth.",
+        "Saliva's lubrication is reduced because tannins precipitate its proteins.",
+        "Tannins neutralize enzymes in saliva, creating the dry sensation.",
+        "Astringency is caused by saliva amplifying the wine’s acidity.",
+        "Red wine interacts with saliva to enhance sweetness rather than texture."
+      ],
+      "correctAnswer": "Saliva's lubrication is reduced because tannins precipitate its proteins.",
+      "explanation": null
+    },
+    {
+      "text": "What can be concluded about the enzymes in saliva?",
+      "options": [
+        "They dissolve all flavor molecules in food.",
+        "They help begin the digestion process in the mouth.",
+        "They neutralize acids in food to protect the teeth.",
+        "They enhance the aromas of food.",
+        "They are the only components of saliva influencing flavor."
+      ],
+      "correctAnswer": "They help begin the digestion process in the mouth.",
+      "explanation": null
+    }
+  ]
+}

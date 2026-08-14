@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Perhatikan kalimat berikut! Selama beberapa tahun terakhir, cancel culture telah menjadi gagasan yang acap kali diperdepatkan dalam wacana politik. Kalimat tersebut berpola ....",
+      "options": [
+        "K-S-P-O-K",
+        "K-S-P-Pel-K",
+        "K-S-P-O-K-P-K",
+        "K-S-P-K",
+        "K-S-P-O"
+      ],
+      "correctAnswer": "K-S-P-Pel-K",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan kalimat berikut! Meningkatnya isu hoaks yang beredar luas dan sangat cepat makin menguatkan bahwa publik saat ini tengah berada dalam era pascakebenaran atau post-truth. Kalimat tersebut berpola ....",
+      "options": [
+        "P-S-K",
+        "P-S-O-K",
+        "S-P-K",
+        "S-P-O",
+        "S-P-O-K"
+      ],
+      "correctAnswer": "S-P-O-K",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan kalimat berikut! Dikutip dari kompas.com (12/9/2020), Dosen Ilmu Komputer Universitas Sebelas Maret (UNS), Rosihan Ari Yuana, menyampaikan bahwa doxing dapat berakibat rusaknya privasi seseorang. Kalimat tersebut berpola ....",
+      "options": [
+        "K-S-P-K",
+        "K-S-P-Pel",
+        "K-S-P-O-K",
+        "K-S-P-O",
+        "K-S-P-O-Pel"
+      ],
+      "correctAnswer": "K-S-P-O-Pel",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan kalimat berikut! Blended learning adalah metode yang menggabungkan pembelajaran online dengan tatap muka. Kalimat tersebut berpola ....",
+      "options": [
+        "S-P-Pel",
+        "S-P-O-K",
+        "S-P-Pel-K",
+        "S-P",
+        "S-P-K"
+      ],
+      "correctAnswer": "S-P-Pel",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan kalimat berikut! Ekspor beras dilepas secara langsung oleh Gubernur DKI Jakarta Anies Baswedan di Gudang Penyimpanan Beras Food Station di Cipinang, Jakarta Timur. Kalimat tersebut berpola ....",
+      "options": [
+        "S-P-K-K",
+        "S-P-K-Pel-K",
+        "S-P-K-O-K",
+        "S-P-O-K",
+        "S-P-Pel-K"
+      ],
+      "correctAnswer": "S-P-K-Pel-K",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan kalimat berikut! Badan Pengembangan dan Pembinaan Bahasa (Badan Bahasa), Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi (Kemendikbudristek), melalui Pusat Pengembangan dan Pelindungan Bahasa dan Sastra, menyelenggarakan kegiatan Konsinyasi Pemutakhiran II Kamus Besar Bahasa Indonesia (KBBI). Kalimat tersebut berpola ....",
+      "options": [
+        "S-K-P-O",
+        "S-K-P-Pel",
+        "S-K-P-K",
+        "S-P-O",
+        "S-P-Pel"
+      ],
+      "correctAnswer": "S-K-P-O",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan kalimat berikut! Meskipun closure telah menjadi kata kunci yang populer dalam beberapa tahun terakhir, kata ini pertama kali digunakan pada tahun 1990-an. Kalimat yang berpola sama dengan kalimat tersebut adalah ...",
+      "options": [
+        "Di momen ini, kamu dan mantan secara jujur akan memberi dan menerima penjelasan tentang alasan mengapa hubungan kalian harus berakhir.",
+        "Saat dihadapkan dengan berbagai masalah atau perbedaan, banyak pasangan biasanya sulit mengalah karena mementingkan egonya.",
+        "Saat memberikan closure, tujuan utamanya adalah memberikan dan menerima penjelasan tentang alasan putus serta menyelesaikan masalah yang mungkin menggantung.",
+        "Walau tidak nyaman, kita harus menyampaikan kebenaran yang mungkin akan menyakiti hati mantan pasanganmu.",
+        "Kesimpulannya, closure bisa memberi kesempatan bagi seseorang untuk move on."
+      ],
+      "correctAnswer": "Saat dihadapkan dengan berbagai masalah atau perbedaan, banyak pasangan biasanya sulit mengalah karena mementingkan egonya.",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan kalimat berikut! Saat lari pagi, tubuh akan terpapar sinar matahari yang dapat merangsang produksi vitamin D di dalam tubuh. Kalimat yang berpola sama dengan kalimat tersebut adalah ...",
+      "options": [
+        "Berdasarkan penelitian, manfaat lari pagi yang pertama adalah membuat tidur kamu di malam hari lebih berkualitas.",
+        "Dilansir dari Livestrong, sebuah studi 2014 yang diterbitkan dalam jurnal Vascular Health and Risk Management menemukan bahwa olahraga pagi berkontribusi pada lebih banyak waktu dalam tidur nyenyak daripada olahraga sore atau malam hari.",
+        "Sebuah studi tahun 2012 yang diterbitkan dalam jurnal Medicine and Science in Sports and Exercise menemukan bahwa berolahraga selama 45 menit di pagi hari menurunkan nafsu makan yang dapat mencegah makan berlebihan.",
+        "Meskipun sepertinya pagi hari adalah waktu yang ideal, berolahraga di sore hari juga tidak ada salahnya.",
+        "Jika kamu atau anggota keluargamu memiliki masalah kesehatan seperti masalah jantung, tekanan darah tinggi, atau masalah sendi, kamu perlu mendiskusikannya dengan dokter sebelum memulai program jogging."
+      ],
+      "correctAnswer": "Berdasarkan penelitian, manfaat lari pagi yang pertama adalah membuat tidur kamu di malam hari lebih berkualitas.",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan kalimat berikut! Umumnya, culture shock yang dialami pertama kali terjadi pada proses berkomunikasi, yaitu pengalaman berbicara bahasa asing yang akan sangat berbeda ketika mempraktikkannya langsung di negara asal. Kalimat yang berpola sama dengan kalimat tersebut adalah ...",
+      "options": [
+        "Dalam hal travelling, culture shock muncul saat seseorang merasa kesulitan untuk beradaptasi dengan kebiasaan-kebiasaan asing di daerah atau negara yang sedang ia kunjungi.",
+        "Biasanya, seseorang yang berada di luar negeri dengan latar belakang budaya yang berbeda harus menyesuaikan diri.",
+        "Ketika seseorang berada di tempat yang baru dikunjungi, culture shock atau budaya sering terjadi.",
+        "Pada tahun 1960, Languages Alive menjelaskan istilah culture shock atau gegar budaya.",
+        "Melansir dari Now Health International, gegar budaya terbagi dalam empat sampai lima tahapan."
+      ],
+      "correctAnswer": "Dalam hal travelling, culture shock muncul saat seseorang merasa kesulitan untuk beradaptasi dengan kebiasaan-kebiasaan asing di daerah atau negara yang sedang ia kunjungi.",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan kalimat berikut! Banyak video yang tersebar di media sosial yang menggambarkan angin kencang telah merobohkan pepohonan, kendaraan roda empat terguling, dan material bangunan terangkat ke angkasa di Rancaekek, Bandung. Kalimat yang berpola sama dengan kalimat tersebut adalah ...",
+      "options": [
+        "Warga yang bermukim di perbatasan Kabupaten Bandung dan Sumedang, sepertinya belum bisa melupakan suasana mencekam yang terjadi pada Rabu, 21 Februari 2024 silam.",
+        "Badan Riset dan Inovasi Nasional (BRIN) menjelaskan soal peristiwa yang terjadi di Rancaekek, Bandung, beberapa waktu lalu.",
+        "Sebanyak 534 bangunan mengalami rusak ringgan hingga berat akibat bencana tornado yang terjadi Rabu sore (21/02) di Kabupaten Sumedang dan Kabupaten Bandung, Jawa Barat.",
+        "Ada sejumlah fakta unik tentang cuaca ekstrem yang merusak di kawasan Sumedang-Bandung yang sempat diklaim sebagai tornado.",
+        "BMKG terus memantau dan memberikan peringatan dini terkait potensi cuaca ekstrem."
+      ],
+      "correctAnswer": "Ada sejumlah fakta unik tentang cuaca ekstrem yang merusak di kawasan Sumedang-Bandung yang sempat diklaim sebagai tornado.",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan kalimat berikut! Iklim berubah secara terus-menerus karena interaksi antara komponen-komponennya dan faktor eksternal seperti erupsi vulkanik, variasi sinar matahari, dan faktor-faktor lain. Kalimat yang berpola sama dengan kalimat tersebut adalah ...",
+      "options": [
+        "Peneliti mengamati pola perubahan iklim secara menyeluruh.",
+        "Suhu menjadi lebih ekstrem akibat pemanasan global.",
+        "Para ilmuwan telah menyelidiki dampak pemanasan global terhadap keanekaragaman hayati.",
+        "Organisasi lingkungan meminimalkan emisi karbon untuk melindungi masa depan planet.",
+        "Suhu di kawasan pesisir cenderung meningkat seiring dengan naiknya permukaan air laut akibat proses polarisasi es."
+      ],
+      "correctAnswer": "Suhu di kawasan pesisir cenderung meningkat seiring dengan naiknya permukaan air laut akibat proses polarisasi es.",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan kalimat berikut! Sebelum gerakan nol sampah anorganik dilakukan, sampah dari Kota Yogyakarta yang dibuang ke TPA Piyungan sangat melimpah. Kalimat yang berpola sama dengan kalimat tersebut adalah ...",
+      "options": [
+        "Di kota metropolitan, penanganan sampah belum optimal.",
+        "Dengan peningkatan kesadaran lingkungan, masyarakat makin aktif memilah sampah.",
+        "Dalam upaya menjaga lingkungan, pemerintah setempat menggalakkan program pengelolaan sampah yang berkelanjutan di seluruh wilayahnya.",
+        "Pemulung mengumpulkan sampah plastik untuk dijual ke pabrik daur ulang.",
+        "Pengelolaan sampah menjadi tanggung jawab bersama bagi semua elemen masyarakat."
+      ],
+      "correctAnswer": "Di kota metropolitan, penanganan sampah belum optimal.",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan kalimat berikut! Dubes RI juga secara khusus mengapresiasi upaya komunitas Diaspora Indonesia di Arab Saudi yang telah turut mendukung upaya meyakinkan pengusaha Arab Saudi terhadap kualitas beras Indonesia. Bentuk pasif dari kalimat di atas sama dengan pola kalimat …",
+      "options": [
+        "Petani lokal makin merasa terancam karena impor beras terus meningkat.",
+        "Dari Thailand, Indonesia melakukan impor beras untuk memenuhi kebutuhan nasional.",
+        "Impor beras secara ketat diatur oleh pemerintah.",
+        "Negara negara Asia Tenggara saling melakukan impor beras untuk menjaga stabilitas harga.",
+        "Peningkatan produksi beras lokal diiringi dengan berkurangnya volume impor untuk mendukung kemandirian pangan."
+      ],
+      "correctAnswer": "Impor beras secara ketat diatur oleh pemerintah.",
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan kalimat berikut!\n\nPemerintah mengalokasikan dana besar untuk memperkuat infrastruktur pendidikan.\n\nBentuk pasif dari kalimat di atas sama dengan pola kalimat …",
+      "options": [
+        "Pemerintah menyalurkan investasi besar-besaran ke sektor pertanian untuk meningkatkan produksi beras secara nasional.",
+        "Dengan teknologi pertanian yang inovatif, perusahaan swasta memperluas pangsa pasarnya di sektor produksi beras secara internasional.",
+        "Petani di daerah pedalaman mulai melihat manfaat dari investasi alat pertanian modern untuk meningkatkan hasil panen beras mereka.",
+        "Kementerian Pertanian telah menetapkan strategi jangka panjang untuk mencapai swasembada beras dengan dukungan penuh dari sektor investasi.",
+        "Investor lokal menjadi pemain utama dalam mendukung modernisasi industri beras."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan kalimat berikut!\n\nDengan mendukung program beasiswa, perusahaan meningkatkan akses pendidikan bagi masyarakat.\n\nBentuk pasif dari kalimat di atas sama dengan pola kalimat …",
+      "options": [
+        "Setelah menyelesaikan proses seleksi ketat, mahasiswa menerima beasiswa penuh untuk menempuh studi di luar negeri.",
+        "Melalui kerjasama dengan lembaga donor, pemerintah memberikan beasiswa prestasi kepada siswa berprestasi dari daerah terpencil.",
+        "Dengan makin terbatasnya akses ke pendidikan tinggi, pemerintah terus meningkatkan alokasi dana untuk program beasiswa nasional.",
+        "Banyak lembaga memberikan beasiswa pendidikan kepada siswa berprestasi dari berbagai latar belakang.",
+        "Karena diberikan kesempatan untuk mengejar impian akademis mereka, para penerima beasiswa merasa bersyukur."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

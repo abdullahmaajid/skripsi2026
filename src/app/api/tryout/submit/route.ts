@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server"
 import { prisma } from "@/lib/prisma"
 import { estimateTheta, scaleToSNBT } from "@/lib/irt/scoring"
 
+export const maxDuration = 60; // Allow heavy batch insertions to take up to 60 seconds on Vercel
+
 export async function POST(req: NextRequest) {
   try {
     const { attemptId, responses } = await req.json()

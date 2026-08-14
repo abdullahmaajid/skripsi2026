@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(2)",
+        "(3)",
+        "(5)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(5)",
+      "explanation": "Sentence (5) expresses a subjective recommendation ('should be a primary goal') which is an opinion, whereas the other sentences state historical facts, study findings, or objective descriptions."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(1)",
+        "(4)",
+        "(5)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(6)",
+      "explanation": "Sentence (6) uses 'I believe that', indicating a personal viewpoint and value judgment, making it an opinion."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(2)",
+        "(3)",
+        "(5)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(7)",
+      "explanation": "Sentence (7) contains subjective evaluations like 'should encourage' and 'clearly superior', which represent personal opinions rather than verifiable facts."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(1)",
+        "(3)",
+        "(5)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(7)",
+      "explanation": "Sentence (7) expresses a strong subjective claim ('Everyone must be concerned', 'most significant economic threat'), which constitutes an opinion."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(3)",
+        "(6)",
+        "(5)",
+        "(7)",
+        "(4)"
+      ],
+      "correctAnswer": "(7)",
+      "explanation": "Sentence (7) offers a prescriptive recommendation ('can be a way to build'), representing a subjective viewpoint or opinion."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(1)",
+        "(3)",
+        "(4)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(6)",
+      "explanation": "Sentence (6) contains value judgments ('fundamentally misguided', 'cultural failure that needs correction'), making it an opinion."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(2)",
+        "(3)",
+        "(5)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(6)",
+      "explanation": "Sentence (6) makes a grandiose prediction and subjective evaluation ('greatest scientific achievement', 'will inevitably solve'), which is an opinion."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(2)",
+        "(3)",
+        "(4)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(6)",
+      "explanation": "Sentence (6) contains subjective superlative claims ('unquestionably greatest', 'pinnacle of Western literature'), representing an opinion."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(1)",
+        "(3)",
+        "(5)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(6)",
+      "explanation": "Sentence (6) makes a moral judgment ('was morally indefensible'), which is subjective and thus an opinion."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(2)",
+        "(4)",
+        "(5)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(6)",
+      "explanation": "Sentence (6) advocates for how someone should be viewed globally ('should be recognized... rather than merely as'), which is a subjective opinion."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(1)",
+        "(3)",
+        "(4)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(E) (7)",
+      "explanation": "Sentence (7) expresses a subjective evaluation ('vastly superior', 'greatest example'), which is an opinion."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(2)",
+        "(4)",
+        "(5)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(E) (7)",
+      "explanation": "Sentence (7) includes a value judgment ('represents the perfect educational model and should replace...') which is an opinion."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(1)",
+        "(3)",
+        "(5)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(E) (7)",
+      "explanation": "Sentence (7) contains subjective claims ('essential cultural treasure that deserves government funding') constituting an opinion."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(2)",
+        "(3)",
+        "(5)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(E) (7)",
+      "explanation": "Sentence (7) expresses a subjective value judgment ('deserves significantly more funding... because understanding our past is more important...') which is an opinion."
+    },
+    {
+      "text": "Which of the following numbered sentences from the text is an opinion?",
+      "options": [
+        "(2)",
+        "(3)",
+        "(5)",
+        "(6)",
+        "(7)"
+      ],
+      "correctAnswer": "(E) (7)",
+      "explanation": "Sentence (7) contains interpretive and moral claims ('inevitable and entirely deserved', 'representing a necessary moral correction') which represent an opinion."
+    }
+  ]
+}

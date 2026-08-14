@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "The Himalayas grow about 5 millimeters annually",
+        "The Indian plate collides with the Eurasian plate",
+        "The mountain-building process is called orogeny",
+        "India moved northward at a rate of 25 centimeters per year",
+        "The collision began approximately 50 million years ago"
+      ],
+      "correctAnswer": "India moved northward at a rate of 25 centimeters per year",
+      "explanation": "Text 1 states that India moved northward at a rate of 15 centimeters per year, not 25."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "The Himalayas contain over 30 peaks exceeding 7,500 meters",
+        "Compression forces push sedimentary rock upward",
+        "Permanent snow and ice exist above 5,500 meters",
+        "The ecological gradient includes tropical forests",
+        "The International Mountain Research Institute is located in Nepal"
+      ],
+      "correctAnswer": "The International Mountain Research Institute is located in Nepal",
+      "explanation": "The text mentions geologists from the International Mountain Research Institute, but does not state its location is in Nepal."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Quantum computers use qubits instead of traditional bits",
+        "Qubits can exist in multiple states simultaneously",
+        "Quantum computers can currently solve all problems faster than classical computers",
+        "Quantum decoherence involves the loss of quantum information",
+        "Quantum computing leverages phenomena like superposition"
+      ],
+      "correctAnswer": "Quantum computers can currently solve all problems faster than classical computers",
+      "explanation": "Text 2 states that quantum computers can solve certain problems exponentially faster, not all problems."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Quantum systems require cooling to near absolute zero",
+        "IBM and Google have achieved quantum advantage for specific problems",
+        "Practical quantum computers are available for commercial use today",
+        "The temperature near absolute zero is approximately -273.15°C",
+        "Quantum entanglement is mentioned as a quantum mechanical phenomenon"
+      ],
+      "correctAnswer": "Practical quantum computers are available for commercial use today",
+      "explanation": "Text 2 states that practical, error-corrected quantum computers remain years away."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Sucrose is composed of glucose and fructose",
+        "The enzyme sucrase breaks down sucrose in the small intestine",
+        "Fructose is metabolized primarily by the kidneys",
+        "Excessive fructose can be converted to fat in the liver",
+        "The process of converting fructose to fat is called de novo lipogenesis"
+      ],
+      "correctAnswer": "Fructose is metabolized primarily by the kidneys",
+      "explanation": "Text 3 states that fructose is primarily processed by the liver, not the kidneys."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "The WHO recommends limiting added sugar to less than 10% of daily calories",
+        "Studies have conclusively proven that sugar causes hyperactivity in children",
+        "High sugar consumption is linked to metabolic disorders",
+        "The ideal sugar consumption is below 25 grams per day",
+        "Non-alcoholic fatty liver disease is mentioned as a potential risk"
+      ],
+      "correctAnswer": "Studies have conclusively proven that sugar causes hyperactivity in children",
+      "explanation": "Text 3 states that contrary to popular belief, studies have NOT conclusively demonstrated that sugar directly causes hyperactivity in children."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Schizophrenia affects approximately 1% of the global population",
+        "The disorder is characterized by changes in perception and thought processes",
+        "Most effective antipsychotic medications target serotonin receptors",
+        "Brain imaging shows reduced gray matter in the prefrontal cortex",
+        "Enlarged ventricles are mentioned as a brain abnormality"
+      ],
+      "correctAnswer": "Most effective antipsychotic medications target serotonin receptors",
+      "explanation": "Text 4 states that most effective antipsychotic medications function as dopamine receptor antagonists, not serotonin receptors."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Modern treatment combines medication with psychosocial interventions",
+        "Second-generation antipsychotics have fewer extrapyramidal side effects",
+        "Early intervention improves long-term outcomes",
+        "Most individuals with schizophrenia are highly violent",
+        "Olanzapine and risperidone are second-generation antipsychotics"
+      ],
+      "correctAnswer": "Most individuals with schizophrenia are highly violent",
+      "explanation": "Text 4 states that despite misconceptions, most individuals with schizophrenia are NOT violent."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "The Gulf Stream transfers heat from the Gulf of Mexico to the North Atlantic",
+        "Ocean currents are driven in part by the Coriolis effect",
+        "The global ocean conveyor belt circulates water between major ocean basins",
+        "Without the Gulf Stream, Europe would be approximately 10°C colder",
+        "The Gulf Stream moderates Europe's climate"
+      ],
+      "correctAnswer": "Without the Gulf Stream, Europe would be approximately 10°C colder",
+      "explanation": "Text 5 states that without this thermal regulation, regions would experience temperatures as much as 5°C colder, not 10°C."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Ocean currents distribute nutrients across oceanic regions",
+        "Salinity variations help drive ocean currents",
+        "Rising temperatures might slow the Atlantic Meridional Overturning Circulation",
+        "The Scripps Institution of Oceanography is mentioned in the text",
+        "The text states that ocean currents have no effect on biodiversity"
+      ],
+      "correctAnswer": "The text states that ocean currents have no effect on biodiversity",
+      "explanation": "Text 5 states that currents distribute nutrients and larvae, supporting biodiversity across vast oceanic regions."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Black holes form primarily from collapsed cores of massive stars",
+        "Light cannot escape once it passes the event horizon",
+        "Stellar black holes typically have masses 5-100 times that of our Sun",
+        "Black holes function similarly to vacuum cleaners in space",
+        "The Milky Way contains a supermassive black hole"
+      ],
+      "correctAnswer": "Black holes function similarly to vacuum cleaners in space",
+      "explanation": "Text 6 explicitly states: Black holes don't 'suck' matter like vacuum cleaners."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "The first direct image of a black hole was captured in 2019",
+        "Einstein's general theory of relativity predicted how light bends around black holes",
+        "Matter approaching a black hole forms an accretion disk",
+        "Accretion disks emit X-rays and other radiation",
+        "The average black hole has the exact same mass as our Sun"
+      ],
+      "correctAnswer": "The average black hole has the exact same mass as our Sun",
+      "explanation": "Text 6 distinguishes stellar black holes (5-100 times the mass of our Sun) and supermassive ones (millions or billions of times), and does not state any average black hole equals the Sun's exact mass."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Sugar was originally a luxury available only to the wealthy",
+        "Sugar production involved the forced migration of enslaved Africans",
+        "Sugar was first introduced to European diets in the 12th century",
+        "Sugar plantations were established throughout the Caribbean",
+        "Sugar played a role in the triangular slave trade"
+      ],
+      "correctAnswer": "Sugar was first introduced to European diets in the 12th century",
+      "explanation": "Text 7 states that sugar was introduced to European diets in the 15th century, not the 12th century."
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Sugarcane cultivation originated in New Guinea",
+        "Sugar beet processing reduced dependence on tropical cane sugar",
+        "Brazil is mentioned as a major sugar producer",
+        "The average American consumes 71 grams of added sugar daily",
+        "Global sugar production is approximately 70 million metric tons annually"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Which of the following statements about the text is FALSE?",
+      "options": [
+        "Schizophrenia has a heritability estimated between 60-80%",
+        "The disorder involves a single gene mutation",
+        "Over 100 genetic loci are associated with schizophrenia",
+        "Many genes involved relate to immune function",
+        "Schizophrenia has a complex polygenic inheritance pattern"
+      ],
+      "correctAnswer": "The disorder involves a single gene mutation",
+      "explanation": "The text states that unlike single-gene disorders, schizophrenia involves complex polygenic inheritance patterns."
+    }
+  ]
+}

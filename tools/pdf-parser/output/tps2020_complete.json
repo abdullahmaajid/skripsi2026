@@ -1,0 +1,906 @@
+{
+  "questions": [
+    {
+      "text": "Jika matriks $\\begin{pmatrix} 4-x & -1 \\\\ 2 & 1 \\end{pmatrix}$ memiliki determinan 8, maka nilai $x$ adalah....",
+      "options": [
+        "-4",
+        "-3",
+        "-2",
+        "-1",
+        "0"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diberikan 4 bagun datar: (1) segilima beraturan, (2) belah ketupat, bukan persegi (2) segitiga samakaki, bukan sama sisi, (4) layang layang. Banyaknya bangun yang memiliki tepat 2 simetri putar dan tepat 2 simetri lipat adalah ....",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Fungsi $\\beta$ didefinisikan oleh $\\beta (w \\oplus x \\otimes y \\otimes z) = 2z + y : x - (-w)$. Nilai $\\beta (1 \\oplus 2 \\otimes 4 \\otimes 3)$ adalah....",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $x_1$ dan $x_2$ memenuhi $(f(x))^2 + 10 = -7 f(x)$ untuk $f(x) = 3 - x$, maka $x_1 + x_2 = ...$",
+      "options": [
+        "-13",
+        "-8",
+        "5",
+        "8",
+        "13"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dik $a_1, a_2, a_3, ....$ Memenuhi $a_1 = -1, a_3 = 1$, dan $a_{n+1} = a_n x a_{n+2}$ untuk setiap bilangan asli $n$. nilai $a_2 x a_4$ adalah ....",
+      "options": [
+        "-2",
+        "-1",
+        "0",
+        "1",
+        "2"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata sandi 4 simbol berbeda disusun dari 2 angka dan 2 huruf vocal dengan pola seperti gambar susunan kata sandi tersebut memenuhi ketentuan: - angka pertama genap, - angka kedua berasa dari \\{0, 1, 2, 4, 6\\}, - huruf pertama bukan U; dan - huruf kedua bukan E. Banyaknya semua kata sandi yang dapat disusun adalah....",
+      "options": [
+        "48",
+        "54",
+        "60",
+        "63",
+        "64"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Dari 1200 pelajar, 750 pelajar menyukai olahraga badminton dan 650 pelajar menyukai sepakbola jika $x$ dan $y$ berturut-turut menyatakan minimum yang mungkin dan maksimum yang mungkin jumlah pelajar yang menyukai keduanya, maka $X+y$ adalah ....",
+      "options": [
+        "450",
+        "600",
+        "650",
+        "850",
+        "1200"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bilangan asli $n$ bersisa 2 jika dibagi 7 dan bersisa 3 dibagi 4 . Di antara bilangan berikut yang mungkin merupakan nilai untuk $n$.... (1) 23, (2) 51, (3) 79, (4) 87",
+      "options": [
+        "(1), (2) dan (3) saja yang benar",
+        "(1) dan (3) saja yang benar",
+        "(2) dan (4) saja yang benar",
+        "Hanya (4) yang benar",
+        "Semua pilihan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jarak bus dari posisi awal berangkat disajikan dengan garis. Diinfokan bahwa bus tersebut berhenti pada pukul 09.20-10.00. (1) kecepatan rata-rata bus pada pukul 10.40-11.20 dua kali kecepatan rata-rata bus pada pukul 08.00-08.40. (2) jarak yang ditempuh bus selama perjalanan tersebut adalah 35 km. (3) kecepatan rata-rata tertinggi bus terjadi pada pukul 10.40-11.20. (4) kecepatan rata-rata terendah bus terjadi pada pukul 08.00-08.40",
+      "options": [
+        "(1), (2) dan (3) saja yang benar",
+        "(1) dan (3) saja yang benar",
+        "(2) dan (4) saja yang benar",
+        "Hanya (4) yang benar",
+        "Semua pilihan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diantara pernyataan berikut, manakah yang menunjukan kesalahan gambar grafik fungsi $f(x) = x + 6$ dan $g(x) = 2^{-x} + 1$? (1) Grafik $y = f(x)$ dan $y = g(x)$ berpotongan di kuadran II. (2) Grafik $y = f(x)$ memotong sumbu y di titik $(0,7)$. (3) Grafik $y = g(x)$ selalu berada di atas sumbu x. (4) Grafik $y = f(x)$ diatas grafik $y = g(x)$ untuk $-2 < x < 0$",
+      "options": [
+        "(1), (2) dan (3) saja yang benar",
+        "(1) dan (3) saja yang benar",
+        "(2) dan (4) saja yang benar",
+        "Hanya (4) yang benar",
+        "Semua pilihan benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ekspor suatu komoditas naik 0,2 ton perminggu. Minggu ini jumlah ekspor komoditas 90 ton. Manakah hubungan yang benar antara kuantitas $p$ dan $Q$ berikut berdasarkan informasi yang diberikan? P: $91,3$. Q: Jumlah ekspor komoditas 4-7 minggu yang akan dating (ton)",
+      "options": [
+        "Kuantitas p lebih besar dari pada kuantitas Q",
+        "Kuantitas p lebih kecil daripada kuantitas Q",
+        "Kuantitas p sama dengan Kuantitas Q.",
+        "Informasi yang diberikan tidak cukup untuk memutuskan hubungan kuantitas p dan Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Lima bilangan asli memiliki rata-rata 8. Setelah 2 dari 5 bilangan tersebut diambil, rata-rata menjadi 6. Manakah hubungan yang benar antara kuantitas P dan Q berikut berdasarkan informasi yang diberikan? P: Median lima bilangan tersebut. Q: $14$",
+      "options": [
+        "Kuantitas p lebih besar dari pada kuantitas Q",
+        "Kuantitas p lebih kecil daripada kuantitas Q",
+        "Kuantitas p sama dengan Kuantitas Q.",
+        "Informasi yang diberikan tidak cukup untuk memutuskan hubungan kuantitas p dan Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diberikan $2 < x < 3$. Manakah hubungan yang benar antara kuantitas p dan Q berikut berdasarkan informasi yang diberikan? P: $\\frac{1 - 3^x}{1 - (3^{x+2})(3^{-x-2})}$. Q: $3^{-x}$",
+      "options": [
+        "Kuantitas p lebih besar dari pada kuantitas Q",
+        "Kuantitas p lebih kecil daripada kuantitas Q",
+        "Kuantitas p sama dengan Kuantitas Q.",
+        "Informasi yang diberikan tidak cukup untuk memutuskan hubungan kuantitas p dan Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Segitiga ABC, $\\overline{CF}$, $\\overline{AD}$, dan $\\overline{BE}$ berpotongan di tepat satu titik, Berapakah besar $\\angle ACF + \\angle ABE + \\angle DAC$? Putuskan apakah Pernyataan (1) dan (2) Berikut cukup untuk menjawab pernyataan tersebut: (1) $\\angle BCF = 30^{\\circ}$, (2) $\\overline{AD}$ dan $\\overline{BE}$ adalah garis bagi",
+      "options": [
+        "Pernyataan (1) saja cukup untuk menjawab penyatanyaan, tetapi pertanyaan (2) saja tidak cukup",
+        "Pernyataan (2) saja cukup untuk menjawab penyatanyaan, tetapi pertanyaan (1) saja tidak cukup",
+        "Dua pernyataan bersama sama cukup untuk menjawab penyatanyaan, tetapi satu pernyataan saja tidak cukup",
+        "Pernyataan (1) saja cukup untuk menjawab dan pernyataan (2) saja cukup",
+        "pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Diketahui garis $l_1 : y = -mx + k$ dan $l_2 : y = 2x-5$. Garis $l_1$ memotong sumbu x di $p(-1,0)$ apakah kedua garis berpotongan di Kuadran ketiga? Putuskan apakah pernyatian (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut: (1) $k < -5$, (2) $m = -5$.",
+      "options": [
+        "Pernyataan (1) saja cukup untuk menjawab penyatanyaan, tetapi pernyataan (2) saja tidak cukup",
+        "Pernyataan (2) saja cukup untuk menjawab penyatanyaan, tetapi pernyataan (1) saja tidak cukup"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Titik P terletak pada kurva $y = x^2 - 4x + 7$ serta dua titik berbeda Q dan R terletak pada garis $y = 5 - 2x$. jika titik P dan Q terletak pada $y = 7$, apa koordinat titik R ? Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut. (1) Garis P R sejajar sumbu Y. (2) titik R berada pada kuadran IV",
+      "options": [
+        "Pernyataan (1) saja cukup untuk menjawab penyatanyaan, tetapi pertanyaan (2) saja tidak cukup",
+        "Pernyataan (2) saja cukup untuk menjawab penyatanyaan, tetapi pertanyaan (1) saja tidak cukup",
+        "Dua pernyataan bersama sama cukup untuk menjawab pertanyaan , tetapi satu pernyataan saja tidak cukup",
+        "Pernyataan (1) saja cukup untuk menjawab pertanyaan (2) saja cukup",
+        "pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut, manakah simpulan berikut yang benar?",
+      "options": [
+        "Fungsi hutan tidak dialihkan menjadi lahan pertanian jika harga kayu jati mahal.",
+        "Fungsi hutan dialihkan menjadi lahan pertanian jika harga kayu jati tidak mahal",
+        "Harga kayu jati semakin mahal jika fungsi hutan dialihkan menjadi lahan pertanian",
+        "Harga kayu jati semakin mahal jika fungsi hutan tidak dialihkan menjadi lahan pertanian.",
+        "Harga kayu jati tidak semakin mahal jika fungsi hutan dialihkan menjadi lahan pertanian"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah informasi erikut yang dapat memperkua pernyataan \"Mahalnya harga kayu jati tidak menurunkan permintaan kayu jati\" ?",
+      "options": [
+        "Kayu Jati adalah salah satu komoditas penting bagi Negara",
+        "Mebel berbahan kayu jati yang dibuat perajin selalu habis terjual",
+        "Belakangan ini, banyak perajin kayu jati mengganti kayu jati dengan kayu jenis lainnya",
+        "Tinggi rendahnya permintaan jatu jati ditentukan oleh stratefi pemasarannya",
+        "Pemerintah membuat aturan yang mempermudah perajin kayu jati untuk mendapatkan bahan baku kayu jati."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan bacaan tersebut apabila kayu jati memiliki batang lurus dan pola unik manakah kesimpulan berikut yang paling mungkin benar?",
+      "options": [
+        "Kayu jati hanya tumbuh di Pulau Jawa",
+        "Kayu jati lebih kuat dari kayu lainnya",
+        "Kayu jati diimpor ke luar negeri",
+        "Kayu jati berasal dari Indonesia",
+        "Kayu jati banyak dicari orang."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah informasi berikut yang dapat memperlemah pernyataan \"Kayu jati merupakan jenis kayu pertukangan yang sangat mudah diolah\" ?",
+      "options": [
+        "Perajin kayu jati banyak yang merugi karena tingkat kegagalan saat mengelola kayu jati untuk mebel tinggi",
+        "Penjualan kayu jati yang telah menjadi mebel lebih menguntungkan dibandingkan kayu mentah",
+        "Perajin pemula dapat membuat mebel berbahan kayu jati dalam waktu singkat",
+        "Makin tua umurnya, kayu jati makin mudah dipotong.",
+        "Hasil olahan kayu jati terutama berupa mebel."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jeruk nipis banyak mengandung antioksidan, asam sitrat dan vitamin C yang mempercepat metabolism tubuh. Sistem metabolisme yang cepat mengubah lemak dan gula menjadi sumber energy dengan cepat. Lemak dan gula yang berubah cepat menjadi sumber energi akan memperlambat penumpukan lemak dalam tubuh. Meskipun banyak mengonsumsi karbohidrat berat badan tidak akan bertambah akiban penumpukan lemak dalam tubuh yang lambat. Berdasarkan informasi tersebut, manakah pernyataan berikut yang benar?",
+      "options": [
+        "Lemak dan gula yang berubah cepat akan mempercepat system metabolism tubuh.",
+        "Penumpukan lemak dalam tubuh akan mempercepat system metabolism tubuh.",
+        "Kandungan di dalam jeruk nipis meningkatkankonsumsi karbohidrat",
+        "Makan dalam jumlah banyak mempercepat system metabolism tubuh.",
+        "Kandungan jeruk nipis memperlambat penumpukan lemak dalam tubuh"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pemerintah mengatur penggunaan ... Merek dagang dan lembaga ... Indonesia. Meskipun demikian ... Keagamaan dapat menggunakan .... Simpulan berdasarkan informasi ... sejarah wajib menggunakan ... Manakah pernyataan berikut yang ....",
+      "options": [
+        "Simpulan pasti benar",
+        "Simpulan mungkin benar",
+        "Simpulan pasti salah",
+        "Simpulan mungkin salah",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sampah plastic merupakan sampah yang lebih sulit terurai jika dibandingkansampah lainnya. Makin sulit suatu sampah terurai, sampah tersebut makin mencemari lingkungan. Berdasarkan pernyatan tersebut, manakah yang mungkin menjadi akibat dari sulit terurainya sampah plastic ?",
+      "options": [
+        "Banyak orang membatasi penggunaan plastic dalam kehidupan sehari-hari.",
+        "Sampah plastic banyak ditemukan di lingkungan yang tercemar",
+        "Sampah plastic sering kali dibuang kesungai dan dikubur",
+        "Sampah plastic didaur ulang dan digunakan kembali.",
+        "Lingkungan yang tercemar sampah plastic mengganggu kesehatan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Konstitusi merupakan peraturan tertulis atau tidak tertulis tang menggambarkan system ketatanegaraan dan biasanya berisi aturan untuk melanjalkan pemerintahan. Setiap Negara memiliki perbedaan dan persamaan dalam hal konstitusi. Sebagian Negara tidak memiliki konstitusi Simpulan berdasarkan informasi dalam teks tersebut adalah suatu Negara yang menjalankan pemerintahan pasti memiliki konstitusi yang tertulis Manakah perntaan berikut yang menggambarkan kualitas simpulan tersebut",
+      "options": [
+        "Simpulan pasti benar",
+        "Simpulan mungkin benar",
+        "Simpulan pasti salah",
+        "Simpulan mungkin salah",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Saat ini, pemerintah daerah A sedang giat membangun hotel untuk. meningkatkan pariwisata. Pemerintah berpendapat bahwa hotel dapat menarik minat wisatawan untuk berkunjung Manakah pernyataan berikut yang akan memperlemah pendapat pemerintah tersebut?",
+      "options": [
+        "Banyak wisatawan yang lebih tertarik berwisata ke daerah yang tidak memiliki fasilitas hotel",
+        "Banyak hotel di di daerah wisata yang menetapkan biaya sewa yang mahal",
+        "Banyak wilayah permukiman yang terkena dampak pembangunan hotel,",
+        "Pembangunan hotel membutuhkan wakiu cukup lama.",
+        "Semua hotel yang baru dibangun telah penuh terisi olch wisatawan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Macan tutul adalah salah satu dari empat kucing besar, yang dikenal dengan sebutan harimau dahan karena kermampuannya memanjat.Macan tutul memiliki panjang tubuh antara 1-2 meter dengan bulu berwarna kuning kecoklatan dan bintik hitam. Macan tutul banyak terdapat di benua Asia dan Afrika. Macan jenis ini memburu mangsa dengan berbagai ukuran Berdasarkan informasi tersebut, manakah pernyataan berikut yang pasti salah",
+      "options": [
+        "Semua hewan yang memakan mangsa berbagai ukuran adalah kucing besar",
+        "Hewan yang berwarna kuning kecoklatan pandai memanjat dahan.",
+        "Pemburu menangkap macan tutul karena bulunya indah dan kuning kecoklatan",
+        "Macan tutul adalah jenis kucing berukuran lebih dari 2 m yang Bandai memanjat dahan.",
+        "Macan tutul yang terdapat di Eropa memiliki panjang tubuh lebih dari 2m."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jumlah pengguna angkutan umum di kota A tahun ini mengalami penurunan dibandingkan tahun sebelumnya. Saat diwawancarai, salah seorang sopir angkutan umum mengungkapkan bahwa penyebab dari penurunan pengguna angkutan umum adalah adanya jasa transportasi online. Manakah pernyataan berikut yang akan memperkuat argument sopir angkutan umum tersebut ....",
+      "options": [
+        "Jumlah warga yang menggunakan transportasi online lebih banyak dibandingkan jumlah penggunaan angkutan umum",
+        "Jumlah transportasi umum belum memadai untuk seluruh warga.",
+        "Pengguna kendaraan pribadi lebih banyak dibandingkan pengguna transportasi online",
+        "Penumpang transportasi umum sudah menurun sebelum ada transportasi online",
+        "Jasa trasportasi online sudah marak sejak 5 tahun terakhir di berbagai kota termasuk di Kota A"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan data tersebut , persentase kenaikan produksi kertas terbesar terjadi pada ....",
+      "options": [
+        "Pabrik A, Maret- April",
+        "Pabrik A, April- Mei",
+        "Pabrik B Juni - juli",
+        "Pabrik C, Maret- April",
+        "Pabrik C April - Mei"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Tingkat kecanduan anak terhadap game pada gawai ... Banyak peneliti yang berpendapat bahwa kecanduan ... orang tua terhadap pemakaian gawaj. Manakah pernyataan berikut yang akan memperlemah ....",
+      "options": [
+        "Kecanduan game pada gawai membuat hubungan ....",
+        "Anak-anak yang kecanduan game pada gawai ...",
+        "Anak yang orang tuanya selalu mengendalikan ... gawai",
+        "Banyak anak yang kecanduan game pada gawai diawasi secara ketat oleh orang tua.",
+        "Anak-anak memilih bermain game pada gawai seorang diri dibandingkan bersama orang tua."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Seseorang menukarkan 425 poin kupon belanja dengan dua jenis barang yaitu barang A dan B Dia menukarkan 7 Barang A dengan harga 25 Poin perbarang . Jika harga setiap barang B adalah 2 kali poin barang A jumlah barang B yang akan diperoleh adalah....",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "8",
+        "10"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah tempat dapat dicapai dalam waktu $9$ jam dengan kecepatan $15\\text{ km/jam}$ jika akan sampai dengan waktu $4$ jam lebih cepat, kecepatan yang dibutuhkan adalah...",
+      "options": [
+        "23 km/jam",
+        "25 km/jam",
+        "27 km/jam",
+        "28 km/jam",
+        "30 km/jam"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berikut ini adalah daftar anggota ekstrakurikuler dari kelas A dan kelas B yang direkomendasikan untuk mengikuti perlombaan.\n\nSiswa | Kelas A (orang) | Kelas B (orang)\n--- | --- | ---\nPerempuan anggota basket | 3 | 5\nLaki-laki anggota basket | 2 | 2\nPerempuan anggota futsal | 1 | 2\nLaki-laki anggota futsal | 4 | 1\n\nJika kepala sekolah memilih siswa dari kelas A dan B masing-masing secara acak, manakah peristiwa yang mungkin terjadi?",
+      "options": [
+        "Kepala sekolah memilih dua orang siswa laki-laki.",
+        "Kepala sekolah memilih dua orang sisawa anggota futsal.",
+        "Kepala sekolah memilih dua orang siswa perempuan",
+        "Kepala sekolah memilih dua orang siswa anggota basket",
+        "Kepala sekolah memilih dua orang siswa perempuan anggota basket"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "(1) Secara umum pemeliharaan kesehatan pada anak usia dini bertujuan agar tidak terjadi penyakit yang dapat mengganggu belajar dan kecerdasan anak. (2) pemeliharaan kesehatan itu bias dilakukan dengan penjagaan kebersihan diri anak dan lingkungannya, penjagaan jenis makanan yang dikonsumsi, imunisasi tepat waktu, pembiasaan perawatan diri yang baik, dan pembiasaan mengatur pola hidup anak yang baik. (3)Pemeliharaan kesehatan pada anak usia dini dapat diawali dengan dua cara, yaitu memberikan makanan yang sehat dan menjaga kebersihan. (4) mendidik anak sejak dini untuk menjaga kebersihan akan memberikan manfaat bagi kesehatananya yang harus didukung oleh orang-orang sekitarnya. (5) Makanan yang diberikan anak harus sesuai dengan kebutuhan gizi anak usia dini. (6) Dalam pemberian makanan pada anak, usahakan makanan tersebut terlihan menarik agar anak tertarik untukmemakannya (7) ketika anak tidak menyukai suatu makanan, kita dapat memanipulasi makanan tersebut dngan bentuk dan warna yang menarik.\n\nKata manipulasi dalam kalimat (7) bermakna....",
+      "options": [
+        "Mengolah",
+        "Mengubah",
+        "Memasak",
+        "Memvariasikan",
+        "Memberikan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apa inti teks tersebut?",
+      "options": [
+        "Kesehatan anak usia dini dijaga dengan menjaga kebersihan anak dan memberikan makanan yang sesuai dengan kebutuhan gizi.",
+        "Pemeliharaan kesehatan pada anak usia dini dapat dilakukan dengan cara mendidik anak untuk menjaga kebersihan lingkungannya",
+        "Cara menjaga kesehatan anak usia dini dapat dilakukan dengan cara memberikan makanan yang bergizi dan berwarna menarik",
+        "Pemeliharaan kesehatan anak usia dini dapat dilakukan dengan memberikan makanan yang baik, sehat, dan tidak membahayakan anak itu sndiri",
+        "kesehatan anak usia dini dapat dijaga dengan memelihara lingkungan , memberikan makanan, memberikan perawatan dan mengatur pola hidup anak."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "mengapa pada paragraph kedua perlu ditambahkan kalimat?",
+      "options": [
+        "Makanan yang sehat dalam kalimat 3 perlu dijelaskan",
+        "Pentingnya mendidik anak pada kalimat 4 perlu didahului penjelasan",
+        "Cara mendidik anak dalam kalimat 4 perlu didahului penjelasan",
+        "diperlukan uraian penjelas tentang gizi antara kalimat 5 dan 6",
+        "konsep tidak membayakan dalam kalimat 6 belum dijelaskan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "(1) Era globalisasi yang ditandai dengan kemajuan \"ilmu pengetahuan dan teknologi\" (IPTEK) memberikan perubahan dan tekanan dalam kehidupan. (2) pengaruh globalisasi setidaknya telahmerusakwatak dan karakter anak didik yang cenderung mengabaikan oendidikan moral. (3)tujuan ideal pendidikan tidak sekedar membentuk anak didik memiliki moral sehingga memiliki kepribadianluhur sesuai dengankarakter bangsa.\n(4) pendidikan moral di zaman sekarang sangat penting karena banyak kasus kenakalan remaja. (5) oleh karena hal tiu , orang tua harus selalu memberikan nasihat ilmu agama kepada anak-anaknya. (6) pendidikan moral sangat penting diajarkan kepada anak-anak sejak dini supaya tercipra akhlak yang baikdari anak tersebut memiliki pengetahuan tentang agama yang kuat dan mengetahuiperbedaan perbuatan yang baik dengan perbuatan yang tidak baik. (7) dengan demikian , setiap keluarga, terutamaorang tua, bias memberikan pelajaran pendidikan moral kepada anak-anaknya (8) contoh yang bagus dalam menjalani kehidupan dengan penuh siakp dan moral yang positif, sangat berpengaruh untuk anak.\n\nTanda baca yang salah terdapat pada kalimat?",
+      "options": [
+        "Kalimat 2",
+        "Kalimat 3",
+        "Kalimat 6",
+        "Kalimat 7",
+        "Kalimat 8"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata itu pada kalimat 5 mengacu ...",
+      "options": [
+        "pengaruh globalisasi",
+        "tekanan kehidupan",
+        "pendidikan moral",
+        "kerusakan moral",
+        "tujuan pendidikan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Anda perlu menambahkan kalimat berikut dalam paragraph kedua. Akan semakin bagus dan efektif jika pendidikan moral dimasukan ke kalimat tersebut ditempatkan setelah...",
+      "options": [
+        "Kalimat 4",
+        "Kalimat 5",
+        "Kalimat 6",
+        "Kalimat 7",
+        "Kalimat 8"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Penulisan kata \"Ilmu Pengetahuan dan Teknologi\" (IPTEK) pada kalimat 1 seharusnya...",
+      "options": [
+        "ilmu pengetahuan dan teknologi (IPTEK)",
+        "Ilmu pengetahuan dan teknologi (Iptek)",
+        "Ilmu Pengetahuan dan Teknologi (Iptek)",
+        "ilmu pengetahuan dan teknologi (Iptek)",
+        "Ilmu Pengetahuan dan Teknologi (IPTEK)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "(1) Bersekolah merupakan proses pembelajaran menjadi manusia sesungguhnya yang ... berbudaya. (2) manusia berguna dan bermakna bagi manusia sehingga sekolah merupakan salah satu sarana efektif untuk membangun karakter generasi muda yang sadar lingkungan. (3) sekolah sadar bahwa kebutuhan memelihara lingkungan merupakan upaya baik demi masa depan.\n\n(4) untuk mewujudkan sekolah sadar lingkungan, setidaknya diperlukan ... penting, yaitu inisiatif dan pelembagaan. (5) inisiatif dari semua orang warga sekolah perlu ditumbuhkan demi terciptanya budaya sekolah yang sadar lingkungan. (6) inisiatif yang disertai komitmen dapat menjadi kunci keberhasilan menumbuhkan budaya sadar lingkungan. (7) hal itu dapat dating dari mana saja. (8) pelembagaan dapat dilakukan dengan menempatkan sekolah sebagai ajang kerja sama antar personel di sekolah untuk mewujudkan budaya sekolah yang sejalan dengan tujuan pembangunan berkelanjutan, terutama yang berkaitan dengan tumbuhnya kesadaran lingkungan.\n\nKata itu pada kalimat 7 mengacu ....",
+      "options": [
+        "Inisiatif yang disertai komitmen",
+        "Kunci keberhasilan",
+        "Tumbuhnya budaya sadar lingkungan",
+        "Inisiatif dan pelembagaan",
+        "Terciptanya budaya sekolah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "(1) Generasi milenial perlu berperan dalam menjaga kelestarian alam Indonesia. (2) Dengan kemudahan akses teknologi informasi, generasi milenial bisa menyebarkan pesan-pesan konservasi ke khalayak luas. (3) Kepala Balai Taman Nasional (TN) Taka Bonerate menjelaskan bahwa generasi milenial sebaiknya memberikan contoh kepada masyarakat sekitar untuk menjaga lingkungan. (4) Generasi milenial bisa memulai. (5) Generasi milenial juga bisa melakukan upaya konservasi atau memiliki gaya hidup yang tidak menguras atau merusak sumber daya alam hayati yang ada di alam baik di Taman Nasional Takabonerate sendiri maupun di tempat tinggal mereka masing-masing. (6) Teknologi informasi saat ini, khususnya media sosial, bisa dimanfaatkan untuk berbagi informasi konservasi sumber daya alam dan ekosistem. (7) Generasi milenial diharapkan dapat membagikan informasi tersebut melalui media sosial.\n\nKata menjelaskan pada kalimat (3) tidak tepat sehingga harus diganti dengan kata ...",
+      "options": [
+        "Mengemukakan",
+        "Menyebutkan",
+        "Mengharapkan",
+        "Memaparkan",
+        "Menguraikan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat manakah yang paling tepat sebagai perluasan kalimat (4) agar padu dengan kalimat yang lain?",
+      "options": [
+        "Sebagai contoh, generasi milenial bisa memulai dengan kegiatan sederhana.",
+        "Dalam skala kecil, generasi milenial bisa memulai dari lingkungan keluarga.",
+        "Dalam konteks kehidupan, generasi milenial bisa memulai dari dirinya sendiri.",
+        "Oleh karena itu, generasi milenial harus bisa memulai melakukan konservasi.",
+        "Dengan demikian, generasi milenial bisa memulai melestarikan alam."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apa makna kalimat (5) dalam teks tersebut?",
+      "options": [
+        "Generasi milenial melakukan upaya konservasi dan gaya hidup yang tidak menguras atau merusak sumber daya alam yang ada di Taman Nasional Takabonerate dan di lingkungan masing-masing.",
+        "Generasi milenial juga berupaya untuk memelihara lingkungan dengan memiliki gaya hidup yang selaras dengan lingkungan Taman Nasional Takabonerate dan tempat tinggal masing-masing.",
+        "Generasi milenial mengatasi kerusakan lingkungan sehingga tidak merusak sumber daya alam hayati di Taman Nasional Takabonerate dan di tempat tinggal masing-masing.",
+        "Generasi milenial harus aktif menjaga lingkungan dan bergaya hidup tidak merusak lingkungan di Taman Nasional Takabonerate dan di tempat tinggal masing-masing.",
+        "Generasi milenial dapat melestarikan lingkungan dengan tidak merusak sumber daya alam baik di Taman Nasional Takabonerate maupun di lingkungan masing-masing."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Implikasi penting dari penelitian yang berkaitan dengan pohon keluarga virus dan pola perpindahananya adalah semakin banyak diketahuinya virus varu yang berkeliaran di sekitar kita (2) dengan demikian besar kemungkinannya kita akan meneemukan semakin banyak contoh spesies virus yang berpindah dari bertebaran ke berbagai tempat (3) berpindah dari satu inang ke inang lain, cara ini dilakukan oleh banyak virus RNA agar dapat hidup berdampingan dengan inang (4) Namun penelitian ini dilakukan terhadap keluarga virus, bukan pada spesies virus individu (5) Ada beranggapan bahwa temuan ini belum tuntas (6) Oleh karenanya studi lebih lanjut dengan jumlah data yang lebih besar diharapkan dapat membantu mengonfirmasi temuan penelitian ini dan memberikan wawasan lebih tentang evolusi virus.\n\nImbuhan ber-an pada kata bersamaan pada kalimat... proses adaptasi spesies terjadi bersamaan dengan invasi spesies ke suatu wilayah... memiliki makna yang sama dengan imbuhan ber-an pada kata bernomor..",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan kutipan berikut. Berpindah dari satu inang ke inang lain,... kutipan tersebut menjadi kalimat logis jika dilanjutkan dengan ...",
+      "options": [
+        "Hidup berdampingan adalah cara agar banyak virus RNA bertahan hidup",
+        "banyak cara afar inang bertahan hidup berdampingan dengan virus RNA",
+        "dengan banyak virus RNA inang dapat bertahan hidup berdampingan",
+        "banyak virus RNA yang dapat bertahan hidup berdampingan dengan inang",
+        "bertahan hidup berdampingan dilakukan oleh virus RNA terhadap inang"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Di manakah sebaiknya posisi kalimat Canonical babbling merupakan tahap dari perkembangan kemampuan bicara anak pada bacaan di atas?",
+      "options": [
+        "Sebelum kalimat (2)",
+        "Sebelum kalimat (3)",
+        "Sebelum kalimat (4)",
+        "Sebelum kalimat (5)",
+        "Sebelum kalimat (6)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Tujuan penulisan ungkapan seperti menggumam dan tertawa pada kalimat (2) bacaan di atas adalah untuk ...",
+      "options": [
+        "menyatakan suatu proses dalam perkembangan bahasa bayi",
+        "menyimpulkan tahapan-tahapan dalam perkembangan bahasa bayi",
+        "memberikan informasi tentang tahapan-tahapan perkembangan bahasa bayi",
+        "mengungkapkan pendapat penulis tentang perkembangan bahasa bayi",
+        "memberikan contoh tentang bahasa yang dihasilkan bayi"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Lawan kata mengatasi yang tepat dalam kalimat 3 adalah...",
+      "options": [
+        "Menambahkan",
+        "Meniadakan",
+        "Mempersulit",
+        "Mendalami",
+        "Menyepelekan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat manakah pada bacaan yang memiliki pola dasar sama dengan pola dasar pada kalimat secara sederhana, para peneliti menggunakan berbagai metode untuk mempertinggi tingkat validitas temuan mereka?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Apa judul yang tepat untuk teks tersebut ...?",
+      "options": [
+        "Keanekaragaman Budaya Indonesia",
+        "Kekhasan Budaya Indonesia",
+        "Macam-macam Budaya Indonesia",
+        "Perlunya Pelestarian Budaya Indonesia",
+        "Perkembangan Budaya Indonesia"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat mana yang merupakan hasil pemaduan kalimat (1) dan (2) ?",
+      "options": [
+        "Indonesia memiliki bermacam-macam budaya sehingga memiliki kekhasan budaya masing-masing",
+        "Indonesia memiliki mermacam-macam budaya karena meiliki banyak daerah dengan kekhasan budaya-masing",
+        "Indonesia memiliki bermacam-macam budaya dan banyak daerah memiliki kekhasan budaya masing-masing",
+        "Indonesia yang memiliki banyak daerah dengan kekhasan budaya masing-masing, memiliki bermacam-macam budaya.",
+        "Indonesia, yang emiliki bermaacm-macam budaya, meiliki banyak daerah dengan kekhasan budaya masing-masing."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang menyebabkan ketidakpaduan ide paragraph pertama adalah....",
+      "options": [
+        "Kalimat 2",
+        "Kalimat 4",
+        "Kalimat 5",
+        "Kalimat 8",
+        "kalimat 7"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat mana yang merupakan hasil perbaikan kalimat 3?",
+      "options": [
+        "Ada banyak kekhasan di Indonesia mulai dari bahasa, ras, suku, dan adat istiadat.",
+        "Indonesia memiliki bermacam-macam bahasa, budaya, ras, suku, dan adat istiadat.",
+        "Maing-masing daerah mimiliki bahasa,budaya, ras, suku,dan adat istiadat.",
+        "Indonesia memiliki kekhasan bahasa, budaya, ras, suku, dan adat istiadat.",
+        "Kekhasan mulai dari bahasa, budaya, ras, suku, hingga adat istiadat."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Ungkapan yang digunakan penulis untuk mengibaratkan sesuatu seperti manusia oada bacaan di atas adalah...",
+      "options": [
+        "pahat yang menari-nari dalam kalimat 2",
+        "profesi yang terhormat yang terhormat dalam kalimat 2",
+        "nilaiestetika yang tinggi dalam kalimat 5",
+        "harga yang sangat tinggi dalam kalimat 5",
+        "symbol-simbol religi dalam kalimat 6"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bentuk pasif dari kalimat Perajin kayu jati menguasai seni pahat memiliki pola yang sama dengan kalimat....",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "7"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata manakah pada bacaan di atas yang berkandungan jenis kata yang sama dengan jenis kata agar pada potongan kalimat agar setiap orang hidup sehat ?",
+      "options": [
+        "Kata adalah dalam kalimat 1",
+        "Kata selain dalam kalimat 2",
+        "Kata betapa dalam kalimat 3",
+        "Kata shinggai dalam kalimat 5",
+        "Kata dapat dalam kalimat 6"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kalimat (6) pada bacaan di atas mewadahi maksud penulis untuk .....",
+      "options": [
+        "merangkum pendapat bahwa sekolah favorit memici orang pindah sekolah ke kota.",
+        "mendukung pendapat para ahli bahwa fasilitas pendidikan tidak menjamin kualitas pendidikan",
+        "merangkum temuan penelitian bahwa fasilitas pendidikan menentukanjumlah anak putus sekolah.",
+        "Memandingkan hasil penelitian tentang ketimbangan fasilitas di lembaga pendidikan.",
+        "menyajikan fakta kuantitatif tentang tingginya angka anak putus sekolah."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Gagasan oada paragraph 1 akan menjadi runtut apabila uraian kalimat-kalimatnya adalah...",
+      "options": [
+        "1, 2, 3, 4, 5, 6",
+        "1, 3, 2, 4, 6, 5",
+        "1, 2, 4, 3, 5, 6",
+        "1, 3, 4, 2, 5, 6",
+        "1, 4, 2, 3, 5, 6"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Cara lain untuk menyampaikan gagasan pada kalimat 4 adalah...",
+      "options": [
+        "perhatian terhadap tubuh kita belum tentu diperlukan agar jenis diet terkesan efektif.",
+        "jenis diet yang terkesan sesuai bagi tubuh kita perlu diperhatikan afar efektif.",
+        "jenis diet yang terkesan efektif namun belum tentu sesuai bagi tubuh perlu kita perhatikan.",
+        "kita peril memperhatikan tubuh kita agar jenis diet menjadi terkesan efektif",
+        "kita perlu memperhatikan jenis diet yang sesuai bagi tubuh agar terkesan efektif"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "(1)Beragam plastik baru yang digunakan saat ini dibuat ... sebuah alat yang disebut cracker di pabrik metrokimia. (2) ... molekul- molekul sederhana dibuat. (3) Unit - unit ini kemuadian ... berbeda-beda.\n\n(4) Untuk menerapkan proses yang sama terhadapp sampah plastic, ... (5). Para peneliti di Universitas Chalmers sedang mengusahakan ... dirancang dan diintegrasikan di pabrik metrokimia yang ada. Tetapi dengan ... pengembangan semacam ini memungkinkan perubahan signifikan ... ulang di masa depan\n\nkalimat manakah pada bacaan diatas yang memiliki pola dasar sama dengan pola dasar pada kalimat Agar tercapai hasil optimal dari proses penanganan sampah, sebaiknya dibuat panduan lengkap yang efektif?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "imbuhan ke-an pada kata kelautan dalam kalimat telah banyak upaya dilakukan untuk meningkatkan kesadaran masyarakat atas isu-isu kelautan memiliki makna yang sama dengan imbuhan ke-an pada kata bernomor ....",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Penyakit jantung dan stroke merupakan dua penyakit yang paling berbahaya di dunia (2) Penyakit ini menjadi penyebab kematian no satu dan dua di Indonesia. (3) ... jenis kelamin dan usia penderitanya. (4) bahkan, penyakit stroke ... (5) sedangkan penyakit jantung pernah diidentifikasi menyerang ...\n\n(6) Ada beberapa factor penyebab penyakit ini pada manusia, ... seperti mengonsumsi makanan sembarangan, rokok secara berlebihan, ... (7) ...menyerang kapanpun secara tiba-tiba, kapan pun dan di mana pun. (8) untuk ... penyakit ini merupakan tindakan yang bijaksana.\n\nDalam kalimat (6), frasa mengonsumsi makanan sembarangan, ... minuman keras akan memiliki kesejajaran bentuk jika diperbaiki menjadi ...",
+      "options": [
+        "Mengonsumsi makanan sembarangan, rokok secara berlebihan, dan meminum minuman keras",
+        "Mengonsumsi makanan sembarangan, merokok secara berlebihan, dan minuman keras",
+        "Konsumsi makanan sembarangan, rokok secara berlebihan, dan minum minuman keras",
+        "Konsumsi makanan sembarangan, merokok secara berlebihan, dan minum minuman keras",
+        "Mengonsumsi makanan sembarangan, merokok secara berlebihan, dan minum minuman keras"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "(1) Telepon genggam atau computer biasanya dikendalikan hanya ... (2) pengguna jaringan internet dalam satu rumah tangga umumnya lebih dari satu orang (3) masing-masing pengguna ingin mengendalikan perangkat secara bersamaan. (4) penelitian tentang control akses atas ... rumah tangga yang terhubung ke internet telah dilakukan ... universitas Chicago, dan Universitas Washington. (5) mereka mewawancarai 125 pengguna di Amerika ... preferensi mereka dan mendapatkan saran untuk mengelola akses para pengguna tersebut. (6) diperoleh sejumlah factor kontekstual yang mempengaruhi hak akses, seperti ...perangkat itu berada, apakah perangkat itu telah digunakan sebelumnya, waktu dalam sehari dan biaya yang dikeluarkan untuk menggunakannya.\n\nGagasan pada kalimat 5 dan 6 akan menjadi selaras bila keduanya dihubungkan dengan ...",
+      "options": [
+        "Hasilnya",
+        "Artinya",
+        "Jelasnya",
+        "Akibatnya",
+        "Sanksinya"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata yang memiliki makna denotative pilihan terdapat pada kalimat ...",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Masa remaja adalah masa pertumbuhan yang terjadi ... nutrisi yang lebih banyak untuk dapat mendukung pertumbuhan perkembangan jaringan otak.\n\nSalah satu nutrisi utama yang dibutuhkan remaja adalah ... (4) bisa dikonsumsi remaja adalah susu. (5) remaja perlu mengoptimalkan ... risiko lebih rendah mengalami osteoporosis saat dewasa. (6) risiko ini ... wanita. (7) remaja harus mendapatkan kalsium yang cukup untuk digunakan ...\n\ncara lain untuk menyampaikan gagasan pada kalimat 5 adalah ....",
+      "options": [
+        "Remaja yang memiliki risiko rendah mengalami osteoporosis mengoptimalkan kesehatan tulangnya saat dewasa",
+        "Saat dewasa kesehatan tulang yang memiliki risiko rendah mengalami osteoporosis harus optimal pada remaja",
+        "Risiko kesehatan tulang remaja dioptimalkan agar tidak mengalami osteoporosis...",
+        "Risiko kesehatan tulang minimal jika dioptimalkan sejak remaja"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan data bahasa hipotesis berikut :\nGamutts - kumbang, seekor kumbang\nMbexox - banyak capung\nMbexoxxn - capung, seekor capung\nTyronx gamutts kambexoxu - kumbang terbang didepan banyak capung\n\nBerdasarkan data diatas, bagaimana cara mengatakan 'banyak capung terbang di depan kumbang' dengan menggunakan bahasa tersebut?",
+      "options": [
+        "Mbexox tyronx kagamuttsu",
+        "Tyronx mbexox kagamuttsu",
+        "Katyonxu mbexox gamutts",
+        "Mbexox katyronxu gamutts",
+        "Katyonxu gamutts mbexox"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Credit and credit cards are special types of loans. When you use a credit card to buy things, ... of paying for them immediately, each purchase goesonto a big list. At the end of the mounth, the credit card company adds everything on the list together and sends you a bill for the total amount of money you spent that month.\n\nThe special feature of credit cards is that you do not have to pay back the ... bill right away. Imagineyou spent 5.000 last month. When you get the bil, you might only have to use your 1.000 to pay the bill, but you still have all 5.000 worth of stuff you bought\n\nThis functions as a loan because the credit card company has, in a round about way, loaned you that leftover 4.000. as with a loan, you will still have to pay that 4.000 back eventually, and the credit card company will charge you interest on it. Therefore, in the end, you might over 4.500 (plus the 1.000 you used to pay the minimum part of the original bill).\n\nThe underline word eventually in the passage means ...",
+      "options": [
+        "Suddenly",
+        "Previously",
+        "Immediately",
+        "Ultimately",
+        "Directly"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Based on the passage, credit cards provide a service that makes it possible for customers not to pay the ... of their purchase.",
+      "options": [
+        "Fund",
+        "Loan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "The irrelevant sentence in paragraph 2 is ...",
+      "options": [
+        "Sentence 1",
+        "Sentence 2",
+        "Sentence 3",
+        "Sentence 4",
+        "Sentence 6"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "What is the relationship between sentence 4 and sentence 5 in paragraph 3",
+      "options": [
+        "Sentence 4 explains the differences in communicstion across cultures examplified in sentence 5",
+        "Sentence 4 explain the reasons for communication, and sentence 5 explain about using language to think and reason",
+        "Sentence 4 explains about communication strategies, and sentence 5 explains about hoe the strategis are elaborated",
+        "Sentence 4 is a restatement of sentence 5 about how culture influences couverstation style",
+        "Sentence 4 explain cultural difference which are challenged in sentence 5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Which part of the passage explain the impacts of interacting with children from an early age//?",
+      "options": [
+        "Paragraph 1",
+        "Paragraph 2",
+        "Paragraph 1 and 2",
+        "Paragraph 2 and 3",
+        "Paragraph 4"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "The paragraph following the passage will most likely discuss ...",
+      "options": [
+        "Ways to study BPA exposure in our daily lives",
+        "Alternative substances to replace plastic in our daily lives",
+        "Regulation issued by other countries to limit the usage of BPA",
+        "Possible health risks posed by a high level of plastic in a human body",
+        "Campaigns done by animal activis to fight the use of animal for BPA testing"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "The authors attitude regarding BPA is ...",
+      "options": [
+        "Doubtful",
+        "Surpised",
+        "Indifferent",
+        "Concerned",
+        "Pessimistic"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Which of the following is the best summary of the passage?",
+      "options": [
+        "Bisphenol A (BPA) is a chemical created to produce polycarbonate plastic. This substance is easily absorbed by the human body, so it leads to several health risks,particularly for ... and children",
+        "A synthetic chemical called Bisphenol A (BPA) is found in more than 80% teenagers. It has demonstrated negative effects in mice, such as liver and kidney disease.",
+        "One of the most dangerous chemicals in the world is Bisphenol A (BPA). As is may harm human health, food ang drug administration has investigated its use",
+        "Various daily products are made from plastics mixed with Bisphenol A (BPA). These plastics are found to be dangerous if they are exposed to animal.",
+        "Plasticts, such as Bisphenol A (BPA), is harmful to human health. High levels of BPA in human body may lead to metabolism problems."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "The underline word \"can\" in the passage means ...",
+      "options": [
+        "Possibility",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "... plays an important role in the rise and success of resale business",
+      "options": [
+        "Consumption",
+        "Environment",
+        "Application",
+        "Technology",
+        "Performance"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

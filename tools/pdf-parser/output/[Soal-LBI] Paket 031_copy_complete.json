@@ -1,0 +1,304 @@
+{
+  "questions": [
+    {
+      "text": "Fakta dalam teks tersebut adalah …",
+      "options": [
+        "Perbaikan sekolah akibat gempa Cianjur selesai dalam 3 bulan",
+        "Kerusakan infrastruktur di Cianjur sebanyak 245 sekolah",
+        "Sekolah harus dibangun di 7 kecamatan",
+        "Sebanyak 200 unit sekolah akan selesai pada bulan Desember",
+        "Sebanyak 4 unit RISHA telah selesai dibangun"
+      ],
+      "correctAnswer": "Kerusakan infrastruktur di Cianjur sebanyak 245 sekolah",
+      "explanation": "Berdasarkan teks, survei per 29 November 2022 menunjukkan kerusakan infrastruktur pendidikan akibat gempa di Cianjur sebanyak 245 sekolah yang tersebar di 7 kecamatan."
+    },
+    {
+      "text": "Pertanyaan apakah yang bisa dibuat berdasarkan teks tersebut …",
+      "options": [
+        "Dimana saja terjadi kerusakan infrastruktur sekolah akibat gempa bumi Cianjur?",
+        "Kapan sisa 4 unit RISHA selesai dibangun?",
+        "Siapa yang terlibat dalam pembangunan RISHA?",
+        "Berapa besar gempa yang terjadi di Cianjur?",
+        "Mengapa presiden memerintahkan Menteri PUPR menyelesaikan sekolah dasar dalam 3 bulan?"
+      ],
+      "correctAnswer": "Dimana saja terjadi kerusakan infrastruktur sekolah akibat gempa bumi Cianjur?",
+      "explanation": "Pertanyaan yang paling relevan dan jawabannya terdapat dalam teks adalah mengenai lokasi terjadinya kerusakan infrastruktur."
+    },
+    {
+      "text": "Pernyataan yang bertentangan dengan teks tersebut adalah …",
+      "options": [
+        "Bendungan Semantok berada di Dusun Kedungpingit, Desa Sambikerep, Kecamatan Rejoso, Kabupaten Nganjuk",
+        "Bendungan Semantok saat ini merupakan bendungan terpanjang di Asia Tenggara dengan panjang 3,1 kilometer",
+        "Bendungan Semantok",
+        "Bendungan Semantok hanya berfungsi sebagai irigasi dan pencegahan banjir",
+        "Bendungan Semantok dapat menampung air sebanyak 32,6 juta meter kubik air"
+      ],
+      "correctAnswer": "Bendungan Semantok hanya berfungsi sebagai irigasi dan pencegahan banjir",
+      "explanation": "Pernyataan ini bertentangan karena teks menyebutkan Bendungan Semantok juga berfungsi menjaga ketersediaan air baku dan menjadi destinasi wisata."
+    },
+    {
+      "text": "Gagasan utama paragraf pertama adalah …",
+      "options": [
+        "Peresmian Bendungan Semantok oleh Presiden Joko Widodo",
+        "Kapasitas tamping Bendungan Semantok",
+        "Bendungan Semantok dapat memenuhi suplai air di wilayah sekitar",
+        "Bendungan Semantok menjadi bendungan ke 30 yang diresmikan pemerintah",
+        "Bendungan Semantok dapat mengairi sawah 1.900 hektar"
+      ],
+      "correctAnswer": "Peresmian Bendungan Semantok oleh Presiden Joko Widodo",
+      "explanation": "Paragraf pertama secara keseluruhan membahas peresmian Bendungan Semantok di Nganjuk oleh Presiden Jokowi beserta detail lokasi dan kapasitasnya."
+    },
+    {
+      "text": "Dari teks di atas dapat disimpulkan bahwa …",
+      "options": [
+        "Bendungan Semantok memberikan penghidupan bagi masyarakat Kabupaten Nganjuk",
+        "Bendungan Semantok selain menjadi bendungan terpanjang di Asia Tenggara juga memiliki beragam fungsi",
+        "Bendungan Semantok dengan luas genangan 365 hektar yang kurang lebih akan mengairi sawah 1.900 hektar",
+        "Bendungan Semantok berfungsi sebagai irigasi persawahan warga, menjaga ketersediaan air baku, dan mencegah banjir",
+        "Bendungan Semantok menjadi destinasi wisata baru di Kabupaten Nganjuk"
+      ],
+      "correctAnswer": "Bendungan Semantok selain menjadi bendungan terpanjang di Asia Tenggara juga memiliki beragam fungsi",
+      "explanation": "Kesimpulan yang mencakup keseluruhan isi teks adalah bahwa bendungan ini memegang rekor terpanjang sekaligus memiliki banyak fungsi bagi warga."
+    },
+    {
+      "text": "Berdasarkan isi teks di atas, pernyataan berikut ini benar, kecuali",
+      "options": [
+        "Istilah bale tani memiliki arti rumah petani",
+        "Struktur rumah bale tani memiliki dua ruangan",
+        "Seluruh lantai rumah bale dilapisi oleh kotoran sapi",
+        "Kotoran sapi yang digunakan tidak hanya berasal dari sapi dalam kurun waktu 1-2 jam",
+        "Kotoran sapi digunakan sebagai bentuk rasa syukur"
+      ],
+      "correctAnswer": "Kotoran sapi yang digunakan tidak hanya berasal dari sapi dalam kurun waktu 1-2 jam",
+      "explanation": "Teks menyatakan bahwa proses pelapisan diawali dengan mengambil kotoran sapi yang masih segar dalam kurun waktu 1-2 jam, sehingga pernyataan yang mengecualikan hal ini atau menyatakan sebaliknya adalah salah."
+    },
+    {
+      "text": "Berdasarkan teks di atas, alasan dilakukannya pelapisan lantai dengan kotoran sapi adalah …",
+      "options": [
+        "Sebagai kebiasaan mendinginkan lantai di rumah",
+        "Sebagai pembatas bagian rumah",
+        "Sebagai langkah menjaga tradisi leluhur",
+        "Sebagai bentuk rasa syukur atas jasa sapi digunakan dalam traktor manual",
+        "Sebagai tradisi dalam masyarakat Sasak Ende"
+      ],
+      "correctAnswer": "Sebagai bentuk rasa syukur atas jasa sapi digunakan dalam traktor manual",
+      "explanation": "Teks menyebutkan bahwa penggunaan kotoran sapi pada lantai merupakan ungkapan rasa syukur atas jasa sapi di masa lalu yang digunakan untuk membajak sawah."
+    },
+    {
+      "text": "Padanan kata \\( \\text{“akomodasi”} \\) dalam paragraf tersebut adalah...",
+      "options": [
+        "Tempat wisata",
+        "Tempat sementara",
+        "Tempat tinggal",
+        "Rumah tangga",
+        "Rumah warga"
+      ],
+      "correctAnswer": "Tempat tinggal",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan manakah di bawah ini yang bertentangan dengan bacaan tersebut …",
+      "options": [
+        "minuman anggur zaman modern berbeda dengan zaman kuno",
+        "Posca memiliki kadar alkohol yang lebih rendah",
+        "Posca memiliki manfaat kesehatan dengan vitamin C dan membunuh bakteri berbahaya",
+        "Masyarakat Roma kuno menganggap anggur murni sebagai aktivitas yang beradab",
+        "Posca menjadi minuman yang umum dikonsumsi masyarakat miskin"
+      ],
+      "correctAnswer": "Masyarakat Roma kuno menganggap anggur murni sebagai aktivitas yang beradab",
+      "explanation": null
+    },
+    {
+      "text": "Kata dahaga pada paragraf pertama memiliki sinonim dengan….",
+      "options": [
+        "Puas",
+        "Haus",
+        "Kenyang",
+        "Panas",
+        "Penuh"
+      ],
+      "correctAnswer": "Haus",
+      "explanation": null
+    },
+    {
+      "text": "Dalam bacaan terdapat pernyataan \\( \\text{“Ada fakta baru terungkap yang menunjukkan penelitian terbaru bahwa posca sebenarnya cukup sehat untuk dikonsumsi.”} \\) Pernyataan berikut ini yang merupakan penjelas yang tepat atas pernyataan tersebut adalah …",
+      "options": [
+        "Minuman ini biasanya dijadikan pelepas dahaga dan penat bagi para prajurit, kelas bawah dan budak Romawi kuno",
+        "Selain itu, bahan-bahan yang terkandung dalam posca adalah tambahan bumbu penyedap dan rempah-rempah, terutama biji ketumbar, sehingga membuat rasa posca jauh lebih enak",
+        "Hal ini lantaran minuman tersebut memiliki manfaat kesehatan karena mengandung vitamin C dan keasamannya yang kuat dengan mudah membunuh semua bakteri berbahaya",
+        "Minuman ini biasanya dijadikan pelepas dahaga dan penat bagi para prajurit, kelas bawah dan budak Romawi kuno",
+        "Di Roma kuno, minum anggur murni dianggap biadab"
+      ],
+      "correctAnswer": "Hal ini lantaran minuman tersebut memiliki manfaat kesehatan karena mengandung vitamin C dan keasamannya yang kuat dengan mudah membunuh semua bakteri berbahaya",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang memuat fakta mengenai ayam dalam teks di atas dapat ditemukan pada ...",
+      "options": [
+        "kalimat (1) paragraf pertama",
+        "kalimat (3) paragraf pertama",
+        "kalimat (5) paragraf pertama",
+        "kalimat (7) paragraf kedua",
+        "kalimat (9) paragraf kedua"
+      ],
+      "correctAnswer": "kalimat (5) paragraf pertama",
+      "explanation": null
+    },
+    {
+      "text": "Popularitas ayam dalam kebudayaan manusia, menurut teks di atas, tidak hanya terjadi sekarang karena ...",
+      "options": [
+        "ayam mudah diternakkan",
+        "ayam mudah dijinakkan daripada unggas liar lain",
+        "berperan penting dalam tradisi masyarakat",
+        "memiliki hubungan mutualistis dengan manusia",
+        "ayam mendukung perkembangan peradaban manusia"
+      ],
+      "correctAnswer": "berperan penting dalam tradisi masyarakat",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks tersebut, respon keluarga kerajaan adalah …",
+      "options": [
+        "Menolak memberikan tanggapan atas dokumenter Netflix",
+        "Menolak pernyataan Pangeran Harry dan Megan Markle",
+        "Memberikan dukungan tayangan documenter Netflix",
+        "Memutus hak siar dengan Netflix",
+        "Memblokir hubungan dengan Pangeran Harry"
+      ],
+      "correctAnswer": "Menolak memberikan tanggapan atas dokumenter Netflix",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks tersebut, siapakah Ruhollah Ajamian …",
+      "options": [
+        "Pembunuh anggota pasukan paramiliter Iran",
+        "Penerima vonis mati atas tuduhan pembunuhan",
+        "Saksi pembunuhan di Karaj, dekat Teheran",
+        "Penyerang yang menggunakan pisau dan batu",
+        "Anggota pasukan paramiliter yang berafiliasi dengan Pengawal Revolusi Islam Iran"
+      ],
+      "correctAnswer": "Anggota pasukan paramiliter yang berafiliasi dengan Pengawal Revolusi Islam Iran",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks tersebut, apa yang dimaksud dengan program Takeover Melbourne ...",
+      "options": [
+        "Program untuk menceritakan identitas asal lewat bercerita di Australia",
+        "Program untuk merehabilitasi kehidupan anak-anak di Australia",
+        "Program untuk memberikan tempat pada imigran di Australia",
+        "Program untuk menyatukan masyarakat Toraja di Australia",
+        "Program untuk mengapresiasi para imigran di Australia"
+      ],
+      "correctAnswer": "Program untuk menceritakan identitas asal lewat bercerita di Australia",
+      "explanation": null
+    },
+    {
+      "text": "Kata \"identitas\" pada paragraf kedua memiliki arti ...",
+      "options": [
+        "Kekhususan suatu bangsa",
+        "Pemberian label pada seseorang",
+        "Pengenalan keadaan seseorang",
+        "Ciri-ciri atau keadaan khusus seseorang",
+        "Sisi positif seseorang"
+      ],
+      "correctAnswer": "Ciri-ciri atau keadaan khusus seseorang",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks tersebut, pernyataan berikut ini benar, kecuali ...",
+      "options": [
+        "Departemen Lingkungan Hidup Tasmania menghubungi Kate untuk menanyakan dimana dirinya membeli bibit tanaman opium",
+        "Tanaman opium yang ditanam berwarna merah muda",
+        "Bunga opium dapat ditanam secara bebas di Tasmania",
+        "Departemen Lingkungan Hidup Tasmania memeriksa tanaman opium untuk diuji sampelnya",
+        "Bahan alkaloid tidak bisa diekstrak secara bebas di Tasmania"
+      ],
+      "correctAnswer": "Bunga opium dapat ditanam secara bebas di Tasmania",
+      "explanation": null
+    },
+    {
+      "text": "Padanan kata komersial pada paragraf pertama adalah ...",
+      "options": [
+        "Merusak",
+        "Memberikan",
+        "Menawarkan",
+        "Menguntungkan",
+        "Merugikan"
+      ],
+      "correctAnswer": "Menguntungkan",
+      "explanation": null
+    },
+    {
+      "text": "Sinonim kata ultimatum pada paragraf pertama adalah ...",
+      "options": [
+        "Ancaman",
+        "Geraman",
+        "Serangan",
+        "Agresi",
+        "Invasi"
+      ],
+      "correctAnswer": "Ancaman",
+      "explanation": null
+    },
+    {
+      "text": "Padanan kata \"anonim\" pada paragraf kedua adalah ...",
+      "options": [
+        "Tanpa tujuan",
+        "Tanpa nama",
+        "Tanpa identitas",
+        "Tanpa suara",
+        "Tanpa kehadiran"
+      ],
+      "correctAnswer": "Tanpa nama",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang benar berkaitan dengan teks tersebut adalah ...",
+      "options": [
+        "Tambahan kasus aktif COVID mencapai 7.822 kasus di Indonesia",
+        "Terdapat 60.471 pasien meninggal dalam COVID varian XXB",
+        "COVID kasus XXB merupakan varian yang berbeda dari Omicron",
+        "Terdapat 6.590.113 kasus sembuh COVID XXB",
+        "Akan terbentuk kekebalan dari varian COVID XXB menurut Dr. Senayake"
+      ],
+      "correctAnswer": "Tambahan kasus aktif COVID mencapai 7.822 kasus di Indonesia",
+      "explanation": null
+    },
+    {
+      "text": "Kata \"varian\" dalam paragraf pertama berarti",
+      "options": [
+        "Jenis",
+        "Ukuran",
+        "Spesies",
+        "Kuantitas",
+        "Kualitas"
+      ],
+      "correctAnswer": "Jenis",
+      "explanation": null
+    },
+    {
+      "text": "Telah diprediksikan bahwa bukan hanya universitas yang besar yang membangun kehadirannya di daerah. Makna prediksi dalam kalimat tersebut adalah ...",
+      "options": [
+        "dihitung",
+        "diramal",
+        "dikira",
+        "diperkirakan",
+        "perkiraan"
+      ],
+      "correctAnswer": "diperkirakan",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata sensasional pada kalimat di atas adalah ....",
+      "options": [
+        "menarik hati",
+        "bersifat menggemparkan",
+        "bersifat menyedihkan",
+        "membuat bahagia",
+        "membuat perasaan terharu"
+      ],
+      "correctAnswer": "bersifat menggemparkan",
+      "explanation": null
+    }
+  ]
+}

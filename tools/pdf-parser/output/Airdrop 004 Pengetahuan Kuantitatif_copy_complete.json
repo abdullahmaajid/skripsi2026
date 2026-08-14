@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Hasil dari \\frac{6 \\times [3 + (2^3 - 4^2)]}{9 \\div 3 + 2} + 5^2 \\times \\left(\\frac{8}{2} - 3\\right) \\text{ adalah ....}",
+      "options": [
+        "19",
+        "21",
+        "23",
+        "27",
+        "31"
+      ],
+      "correctAnswer": "19",
+      "explanation": null
+    },
+    {
+      "text": "Bentuk paling sederhana dari ekspresi $3(2x + 5) - 4(x - 3) + 7$ adalah ....",
+      "options": [
+        "x + 34",
+        "2x + 34",
+        "2x + 17",
+        "\\frac{1}{2}x + 17",
+        "\\frac{1}{2}x + 34"
+      ],
+      "correctAnswer": "2x + 34",
+      "explanation": null
+    },
+    {
+      "text": "Bentuk sederhana dari ekspresi berikut $\\frac{x^2 - 9}{x - 3} \\times \\frac{2x + 6}{x + 3}$ adalah ....",
+      "options": [
+        "x + 3",
+        "x - 3",
+        "x - 9",
+        "x + 9",
+        "2x + 6"
+      ],
+      "correctAnswer": "2x + 6",
+      "explanation": null
+    },
+    {
+      "text": "Jika persamaan kuadrat $x^2 + px + q = 0$ memiliki akar-akar $3$ dan $2$, maka nilai dari $p + q - pq$ adalah ....",
+      "options": [
+        "-29",
+        "31",
+        "-15",
+        "23",
+        "41"
+      ],
+      "correctAnswer": "-29",
+      "explanation": null
+    },
+    {
+      "text": "Untuk fungsi eksponensial $f$, nilai dari $f(1)$ adalah $m$, dengan $m$ adalah konstanta bilangan bulat. Fungsi $f$ berikut yang dapat memenuhi syarat $m$ adalah ....",
+      "options": [
+        "f(x) = 52(1,24)^{x+1}",
+        "f(x) = 90(1,24)^x",
+        "f(x) = 152(1,24)^{x-1}",
+        "f(x) = 265(1,24)^{x-2}",
+        "f(x) = 313(1,24)^{x+2}"
+      ],
+      "correctAnswer": "f(x) = 90(1,24)^x",
+      "explanation": null
+    },
+    {
+      "text": "4^3 + 4^3 + 4^3 + 4^3 = 2^x. Dari persamaan di atas, nilai x adalah ....",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "16",
+        "3"
+      ],
+      "correctAnswer": "8",
+      "explanation": null
+    },
+    {
+      "text": "Diberikan f(x) = c^x, c merupakan konstanta pada fungsi f dan nilai f(5) = 16f(3). Nilai dari c adalah ....",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16",
+        "32"
+      ],
+      "correctAnswer": "4",
+      "explanation": null
+    },
+    {
+      "text": "f(x) = 36.(1,24)^x. Untuk fungsi f yang diberikan di atas, nilai f(x) meningkat k% untuk kenaikan nilai x setiap 1. Nilai dari k - 4 adalah ....",
+      "options": [
+        "16",
+        "20",
+        "24",
+        "28",
+        "32"
+      ],
+      "correctAnswer": "20",
+      "explanation": null
+    },
+    {
+      "text": "Persamaan 7|x - 4| = n, n adalah konstanta, hanya memiliki satu solusi. Nilai berikut bisa menjadi nilai dari \\frac{n}{7}: 1) -4, 2) 2, 3) 4, 4) 0. Pernyataan yang benar adalah ....",
+      "options": [
+        "1, 2, dan 3 benar",
+        "2 dan 4 benar",
+        "1 dan 3 benar",
+        "Hanya 4 benar",
+        "Semua benar"
+      ],
+      "correctAnswer": "Hanya 4 benar",
+      "explanation": null
+    },
+    {
+      "text": "Penyelesaian pertidaksamaan \\left| \\frac{x + 3}{x - 3} \\right| \\le 1 adalah ....",
+      "options": [
+        "x < 3",
+        "x < 0",
+        "x \\le 0",
+        "x > 1",
+        "x \\ge 1"
+      ],
+      "correctAnswer": "x \\le 0",
+      "explanation": null
+    },
+    {
+      "text": "Banyaknya bilangan bulat x yang memenuhi |x| \\le 2\\pi adalah ....",
+      "options": [
+        "6",
+        "11",
+        "12",
+        "13",
+        "Lebih dari 13"
+      ],
+      "correctAnswer": "13",
+      "explanation": null
+    },
+    {
+      "text": "Pada sebuah tes seleksi yang diikuti oleh 80 peserta, rata-rata perolehan nilainya adalah 60. Diketahui terdapat dua peserta yang didiskualifikasi karena melakukan kecurangan. Jika nilai kedua peserta tersebut tidak diikutsertakan, maka nilai rata-rata tes tersebut adalah 61. Nilai rata-rata kedua peserta tersebut adalah ....",
+      "options": [
+        "21,0",
+        "21,5",
+        "22,0",
+        "22,5",
+        "23,0"
+      ],
+      "correctAnswer": "21,0",
+      "explanation": null
+    },
+    {
+      "text": "Diberikan sebuah persegi panjang sebangun, persegi panjang A memiliki keliling 16 dan persegi panjang B memiliki keliling 48. Luas dari persegi panjang A adalah 15. Besaran luas dari persegi panjang B adalah ....",
+      "options": [
+        "90",
+        "135",
+        "180",
+        "60",
+        "45"
+      ],
+      "correctAnswer": "135",
+      "explanation": null
+    },
+    {
+      "text": "Pada sebuah segitiga siku-siku PQR, siku-siku pada R dan PQ adalah sisi miring. Panjang QR adalah 54. Panjang dari PQ adalah ....",
+      "options": [
+        "54 \\cos Q",
+        "54 \\sin Q",
+        "\\frac{54}{\\cos Q}",
+        "\\frac{54}{\\sin Q}",
+        "54 \\tan Q"
+      ],
+      "correctAnswer": "\\frac{54}{\\cos Q}",
+      "explanation": null
+    },
+    {
+      "text": "Jika k < 0 dan \\frac{(2k)^2}{8} + \\frac{k}{2} = 1. Nilai dari k adalah ....",
+      "options": [
+        "-4",
+        "-3",
+        "-2",
+        "-1",
+        "0"
+      ],
+      "correctAnswer": "-2",
+      "explanation": null
+    }
+  ]
+}

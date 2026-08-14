@@ -30,16 +30,30 @@ interface PracticeQuestion {
   options: PracticeOption[]
 }
 
+import useSWR from "swr"
+
+const fetcher = (url: string) => fetch(url).then(r => r.json())
+
 export default function PracticeSessionPage({ params }: { params: Promise<{ subjectId: string }> }) {
   const { subjectId } = use(params)
   const router = useRouter()
   const searchParams = useSearchParams()
   const chapterId = searchParams.get("chapterId")
 
+  // Fetch questions using SWR
+  const query = chapterId 
+    ? `?subjectId=${subjectId}&chapterId=${chapterId}&limit=10` 
+    : `?subjectId=${subjectId}&limit=10`
+  
+  const { data, isLoading: loading } = useSWR(`/api/practice/questions${query}`, fetcher, {
+    revalidateOnFocus: false, // Prevent re-shuffling on window focus
+    revalidateIfStale: false
+  })
+
+  const questions: PracticeQuestion[] = data?.questions || []
+
   // Questions & progress
-  const [questions, setQuestions] = useState<PracticeQuestion[]>([])
   const [currentIndex, setCurrentIndex] = useState(0)
-  const [loading, setLoading] = useState(true)
   const [selectedOptionId, setSelectedOptionId] = useState<string | null>(null)
   const [hasSubmitted, setHasSubmitted] = useState(false)
   const [sessionDone, setSessionDone] = useState(false)
@@ -65,27 +79,6 @@ export default function PracticeSessionPage({ params }: { params: Promise<{ subj
   useEffect(() => {
     return () => clearQuestion()
   }, [clearQuestion])
-
-  // Fetch questions
-  useEffect(() => {
-    async function load() {
-      try {
-        const query = chapterId 
-          ? `?subjectId=${subjectId}&chapterId=${chapterId}&limit=10` 
-          : `?subjectId=${subjectId}&limit=10`
-        const res = await fetch(`/api/practice/questions${query}`)
-        if (res.ok) {
-          const data = await res.json()
-          setQuestions(data.questions || [])
-        }
-      } catch (err) {
-        console.error("Failed to load practice questions:", err)
-      } finally {
-        setLoading(false)
-      }
-    }
-    load()
-  }, [subjectId, chapterId])
 
   // Auto-select question for AI Tutor in Review Mode
   useEffect(() => {

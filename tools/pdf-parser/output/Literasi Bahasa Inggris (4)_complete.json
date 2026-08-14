@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "What is the main idea of paragraph 2?",
+      "options": [
+        "Pineapple’s enzyme called Bromelain.",
+        "How to use pineaplle on cooking recipe.",
+        "Pineapple on medical scenes.",
+        "Pineapple’s origin in England.",
+        "The history of pineapple."
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "How is Bromelain effective for cancer treatment?",
+      "options": [
+        "Consuming pineapple that contains Bromelain continuosly can help body producing cells that kill breast cancer cells.",
+        "Using bromelain as a cancer treatment agent is not recommended since it hasn’t been tested clinically.",
+        "It has been indicated that Bromelain has antitumor properties, and has been found to stimulate death of several cancer cells.",
+        "Bromelain cannot be used as the main cancer treatment, thus other alternatives are necessary.",
+        "Some cancer cells that can be treated using Bromelain are breast cancer and ovarian cancer."
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "What is the purpose of the passage?",
+      "options": [
+        "To encourage people to consume pineapple regularly",
+        "To entertain readers with history of pineapple",
+        "To introduce a new potential agent in medical treatment",
+        "To popularize the benefits of Bromelain enzyme",
+        "To provide information about pineapple and its enzyme"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "What does ‘meat tenderiser’ in paragraph 3 mean?",
+      "options": [
+        "A tool used to cook meat",
+        "A spice in a pack of meat",
+        "An agent to help softening meat",
+        "A special criteria of premium meat",
+        "A certain way of cooking meat"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Which of the following options best represent the author’s opinion regarding biomeat and chicken meat nuggets?",
+      "options": [
+        "Plant-based meat tastes better than the traditional meat",
+        "Even though the new KFC chicken nuggets aren’t made of chicken, the taste is very similar with the original one",
+        "Plant-based meat is cleaner because no animals are harmed in the making of it",
+        "Plant-based meat will lower the harmful impact on the environment",
+        "Energy consumption and greenhouse gas emissions can be minimalized using the foregone method"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "The author's attitude towards the economic rate in Indonesia which has decreased by 5.3% can be described as which of the following?",
+      "options": [
+        "Shifty",
+        "Disdainful",
+        "Optimistic",
+        "Indignant",
+        "Pessimistic"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "The word sluggishness in paragraph 1 can be replaced with?",
+      "options": [
+        "Promptness",
+        "Inaction",
+        "Ambition",
+        "Sprightliness",
+        "Briskness"
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "According to the text above, what must parents do to help their children avoid toxic positivity?",
+      "options": [
+        "To avoid children from toxic positivity, parents must support and respond to them by giving a hug to their children.",
+        "Parents must let them feel and express how they are feeling in order for them to keep away from toxic positivity.",
+        "Parents must tighten the family relationship and make it more intimate in order for them to be more open to the family.",
+        "Parents must explain to children that toxic positivity is harmful, and parents must introduce the kinds of mental issues.",
+        "In order to prevent children from toxic positivity, parents must tell them that toxic positivity affects mental health."
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "The underlined phrase in “... a DBT therapist will advise you to ride the wave” means …",
+      "options": [
+        "Overcome the pain",
+        "Enjoy any emotions",
+        "Express the pain",
+        "Tell someone the pain",
+        "Avoid the sadness"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "The text mainly discusses about ...",
+      "options": [
+        "soundHound becomes an alternative music instrument.",
+        "Audeo comes up as a fresh innovation for the music industry,",
+        "Piano is gonna be replaced with SoundHound and Synthesizer.",
+        "Artificial intelligence can be involved in orchestra performances.",
+        "Music currently becomes everyone’s hobby and interests."
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "The word “it” in the sentence “First, it has to detect which keys are pressed in each video frame to create a diagram over time.” refers to ...",
+      "options": [
+        "Music Instrument",
+        "soundHound",
+        "artificial Intelligence",
+        "Audeo",
+        "Synthesizer"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "The word \"cues\" in paragraph 1 has the closest meaning to ...",
+      "options": [
+        "Tools",
+        "Face",
+        "Sign",
+        "Steps",
+        "Appearances"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "What can we infer from the last paragraph?",
+      "options": [
+        "The big cost is needed to invent the Audeo along with its monthly maintenance and developments ahead.",
+        "Audeo fully supports in detecting the fast-dance move and high skill of playing music instrument.",
+        "The student's music productivity will be in a very full-helped way as it offers innovations.",
+        "Students will easily get bored through this tool since there are no students that are attracted to music.",
+        "The Audeo will only assess the result, not the process of the students in learning music instruments."
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "What does the author intend to deliver through the passage?",
+      "options": [
+        "To inform people about the danger of the natural phenomenon.",
+        "To inform people in various areas about the occurrence of the natural phenomenon.",
+        "To explain how the natural phenomenon is happening.",
+        "To warn people about the possible consequence of the natural phenomenon.",
+        "To warn people to get ready for the natural phenomenon."
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "Which of the following is NOT CORRECT according to the sentence?",
+      "options": [
+        "The phenomenon only occurs at noon on the day.",
+        "The phenomenon can be seen in most cities in West Sumatra.",
+        "This phenomenon occurs for several days.",
+        "This phenomenon happens annually.",
+        "The phenomenon occurs at a different time in a different place."
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "According to the passage, what drives \"the phenomenon of days without shadow\" to occur?",
+      "options": [
+        "The sun doesn't shine too bright.",
+        "The moon cast a shadow on the earth's surface.",
+        "The weather is clear and sunny.",
+        "The sun revolves slower than usual.",
+        "The sun is exactly above, so it won't cast a shadow underneath."
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "Which of the following tones can be used to describe the passage above...",
+      "options": [
+        "Persuassive",
+        "Informative",
+        "Convincing",
+        "Critical",
+        "Dissapointed"
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "The word \"prominence\" in paragraph 3 is closest in meaning to ...",
+      "options": [
+        "Fame",
+        "Necessity",
+        "Obligation",
+        "Regulation",
+        "Anonymity"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "The main idea of the last paragraph is...",
+      "options": [
+        "There is no specific duration to groom a cat because the grooming session depends on the cat's comfort.",
+        "The cat is usually comfortable when the brush is placed nearby along with some strokes on its favorite body part.",
+        "Admist the grooming session, the owner must check the cat's comfort by stroking the cat's face.",
+        "During the groomming session, the owner, or someone who grooms a cat, has to be familiar with their touch.",
+        "Before grooming a cat, the cat must smell and rub its face to the tool in order to keep its scent there."
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "The author mentions the following statements, EXCEPT ...",
+      "options": [
+        "The grooming can start with letting the cat leave its scent.",
+        "The owner should spare some time to comfort the cat.",
+        "It is a must to brush the cat in accordance with its fur direction.",
+        "Grooming a cat should be done once every three weeks.",
+        "It is advised to stroke around its face instead of the tummy area."
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    }
+  ]
+}

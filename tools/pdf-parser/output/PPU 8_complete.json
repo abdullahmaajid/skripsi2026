@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Kesalahan penggunaan tanda baca TIDAK terdapat pada ....",
+      "options": [
+        "kalimat (1)",
+        "kalimat (2)",
+        "kalimat (3)",
+        "kalimat (4)",
+        "kalimat (6)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kesalahan penulisan huruf kapital TIDAK ditemukan pada ....",
+      "options": [
+        "kalimat (1)",
+        "kalimat (3)",
+        "kalimat (4)",
+        "kalimat (5)",
+        "kalimat (6)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Simpulan Bacaan 1 di atas adalah ....",
+      "options": [
+        "Ada isu penghilangan upah minimum dalam omnibus law.",
+        "Haiyani berpandangan bahwa rencana penghapusan upah minimum dan sejumlah hak pekerja dalam omnibus law itu kurang tepat.",
+        "Hayani mengatakan bahwa penghapusan upah minimum dan sejumlah hak pekerja dalam Omnibus Law itu tidak benar.",
+        "Selain penghapusan upah minimum dan sejumlah hak pekerja dalam omnibus law, terdapat juga isu penyederhanaan undang-undang (UU) terkait pembiayaan upah dan cuti.",
+        "Direktorat Jenderal Pembinaan Hubungan Industrial dan Jaminan Sosial Tenaga Kerja (Ditjen PHI JSK) Kemenaker, Haiyani Rumondang, menerangkan sekitar isu penghapusan upah minimum dan sejumlah hak pekerja dalam Omnibus Lawhal dalam IDX Economic Forum."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Melalui Bacaan 1 di atas, penulis ... tanggapan sekitar isu penghapusan upah minimum dan sejumlah hak pekerja dalam omnibus law. Kata yang TEPAT mengisi elipsis di atas adalah ....",
+      "options": [
+        "mengisahkan",
+        "menegaskan",
+        "membuktikan",
+        "memaparkan",
+        "menggambarkan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Bacaan 2 di atas merupakan ....",
+      "options": [
+        "sanggahan penulis tentang peristiwa kemarau yang merisaukannya",
+        "ungkapan perasaan penulis tentang peristiwa kemarau yang merisaukannya",
+        "gambaran penulis tentang peristiwa kemarau yang merisaukannya",
+        "kisah penulis tentang peristiwa kemarau yang merisaukannya",
+        "pembuktian penulis tentang peristiwa kemarau yang merisaukannya"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata Emosi pada kalimat (13) PALING MUNGKIN berpadanan makna dengan ....",
+      "options": [
+        "luapan kemarahan",
+        "luapan kejengkelan",
+        "luapan perasaan",
+        "luapan keberanian",
+        "luapan kecintaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata-kata berikut ini membuat kalimat yang ditempatinya TIDAK baku, KECUALI ....",
+      "options": [
+        "di pada kalimat (1)",
+        "menengok pada kalimat (3)",
+        "pemukiman pada kalimat (5)",
+        "ekstrimnya pada kalimat (10)",
+        "meluap-luap pada kalimat (13)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Relasi penegas terdapat pada ....",
+      "options": [
+        "kalimat (5)",
+        "kalimat (6)",
+        "kalimat (8)",
+        "kalimat (11)",
+        "kalimat (12)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kesalahan penulisan ditunjukkan pada kata berikut, KECUALI pada ....",
+      "options": [
+        "berinvestasi pada kalimat (1)",
+        "capital gain pada kalimat (2)",
+        "anda pada kalimat (2)",
+        "trading pada kalimat (2)",
+        "trader pada kalimat (6)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Gagasan inti Bacaan 3 di atas terletak pada ....",
+      "options": [
+        "kalimat (1)",
+        "kalimat (2)",
+        "kalimat (3)",
+        "kalimat (4)",
+        "kalimat (5)"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan yang TEPAT berdasarkan isi Bacaan 3 di atas?",
+      "options": [
+        "Waktu bisa sangat cepat memilih menjadi seorang trading dalam setiap sesi perdagangan merupakan daya tarik untuk berinvestasi di pasar modal.",
+        "Banyak sekali orang kaya, bahkan kaya raya, dengan hanya menekuni investasi di pasar modal.",
+        "Kecenderungan masyarakat Indonesia berinvestasi di pasar modal semakin meningkat dari waktu ke waktu disebabkan untung besar yang akan menjadi kenyataan.",
+        "Dengan kejelian, ketelitian serta kehati-hatian yang tinggi, peluang untuk mendulang untung besar akan menjadi kenyataan.",
+        "Baik sebagai investor maupun sebagai trader, sama-sama memberi peluang untuk mendulang untung besar."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan isi Bacaan 3 di atas, seseorang tertarik berinvestasi di pasar modal, khususnya di lantai Bursa Efek, PALING MUNGKIN disebabkan hal berikut, KECUALI ....",
+      "options": [
+        "kemungkinan mendapatkan capital gain yang tinggi",
+        "waktunya bisa sangat cepat dalam setiap sesi perdagangan bila memilih menjadi seorang trading",
+        "peluang untuk mendulang untung besar sangat mungkin menjadi kenyataan",
+        "sudah banyak kisah orang yang sangat sukses dan berhasil menjadi kaya, bahkan kaya raya",
+        "mudahnya menjadi sebagai seorang trader"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Which of the following best describes the organization of the passage?",
+      "options": [
+        "A description of the sequence of steps involved in plovers nest building.",
+        "A generalization about plover behavior followed by specific examples.",
+        "A comparison and contrast of the nesting behavior of plovers and other ground nesting birds.",
+        "A cause and effect analysis of the relationship between a prey and a predator.",
+        "A study about the nest building techniques of plovers"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Which of the following is mentioned in the passage about plovers?",
+      "options": [
+        "Their eggs and chicks are difficult to find.",
+        "They are generally defenseless when away from their nests.",
+        "They are slow to react in dangerous situations.",
+        "They are pretending to search of prey.",
+        "Their nests are on the surface of the ground"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "In the deception of techniques described in paragraph 2. The plover tries to ...",
+      "options": [
+        "stay close to her nest.",
+        "warn other plovers of danger.",
+        "attract the predator’s attention.",
+        "appear to be injured.",
+        "frighten the approaching predator."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Based on paragraph 3 which of the following aspects of the plover’s behavior gives the appearance that it is frightened?",
+      "options": [
+        "Abnormal body position.",
+        "Irregular escape route.",
+        "Unnatural wing movement.",
+        "Unusual amount of time away from the nest.",
+        "Sounding like another animal."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "What is the author main purpose in the passage?",
+      "options": [
+        "To show how technology influenced basic science.",
+        "To describe the scientific base of nineteenth century American industries.",
+        "To tell the readers about changes brought by technology.",
+        "To correct misunderstandings about the connections between science, technology, and industry.",
+        "To argue that basic science has no practical application."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "The understanding of research and development in the midle nineteenth century is based on which of the following?",
+      "options": [
+        "The needs of upgrading application of engineering science.",
+        "Engineering science is not very important.",
+        "Fundamental science naturally leads to economic benefits.",
+        "The relationship between research and development should be criticized.",
+        "Industrial needs should determine what areas fundamental science focuses on."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Why does the author mention “consultants” in the last sentence of paragraph 2?",
+      "options": [
+        "To show how new areas of science have given rise to new professions.",
+        "To distinguish between scientists who work in industry and those who do not.",
+        "To explain the ways in which scientists find financial support for their work.",
+        "To show how scientists who work in basic research contribute to applied science.",
+        "To tell some important reader that used scientific technique."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Which of the following statements does the passage support?",
+      "options": [
+        "The development of science and of industry is now interdependent.",
+        "Basic scientific research cannot generate practical applications.",
+        "Industries should spend less money on research and development .",
+        "Science and technology are becoming more separate.",
+        "The interrelation among science, technology and industries is hardly true."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

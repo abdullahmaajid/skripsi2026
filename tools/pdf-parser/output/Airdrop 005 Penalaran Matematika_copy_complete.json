@@ -1,0 +1,183 @@
+{
+  "questions": [
+    {
+      "text": "Pada suatu taman berbentuk persegi digunakan 2 buah penyiram rumput otomatis. Luas jangkauan siraman penyiram rumput A dan B digambarkan pada ilustrasi di bawah ini. Luasan siram membentuk lingkaran dengan jari-jari $a$ dan $b$ seperti pada gambar. Jarak antara penyiram A dan B adalah $10\\text{ m}$. Perbandingan luas siraman penyiram A dan B adalah $9:4$. Jarak titik D ke titik C adalah $10\\sqrt{3}\\text{ m}$. Nilai dari $a$ adalah...m",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada suatu taman berbentuk persegi digunakan 2 buah penyiram rumput otomatis. Luas jangkauan siraman penyiram rumput A dan B digambarkan pada ilustrasi di bawah ini. Luasan siram membentuk lingkaran dengan jari-jari $a$ dan $b$ seperti pada gambar. Jarak antara penyiram A dan B adalah $10\\text{ m}$. Perbandingan luas siraman penyiram A dan B adalah $9:4$. Jarak titik D ke titik C adalah $10\\sqrt{3}\\text{ m}$. Luas rumput yang terkena siraman adalah...$\\text{m}^2$",
+      "options": [
+        "16\\pi",
+        "36\\pi",
+        "52\\pi",
+        "64\\pi",
+        "72\\pi"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada suatu taman berbentuk persegi digunakan 2 buah penyiram rumput otomatis. Luas jangkauan siraman penyiram rumput A dan B digambarkan pada ilustrasi di bawah ini. Luasan siram membentuk lingkaran dengan jari-jari $a$ dan $b$ seperti pada gambar. Jarak antara penyiram A dan B adalah $10\\text{ m}$. Perbandingan luas siraman penyiram A dan B adalah $9:4$. Jarak titik D ke titik C adalah $10\\sqrt{3}\\text{ m}$. Jarak titik D dengan titik temu air dari kedua penyiram adalah...m",
+      "options": [
+        "5\\sqrt{3}",
+        "6\\sqrt{3}",
+        "4\\sqrt{3}",
+        "3\\sqrt{3}",
+        "3\\sqrt{3}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada suatu taman berbentuk persegi digunakan 2 buah penyiram rumput otomatis. Luas jangkauan siraman penyiram rumput A dan B digambarkan pada ilustrasi di bawah ini. Luasan siram membentuk lingkaran dengan jari-jari $a$ dan $b$ seperti pada gambar. Jarak antara penyiram A dan B adalah $10\\text{ m}$. Perbandingan luas siraman penyiram A dan B adalah $9:4$. Jarak titik D ke titik C adalah $10\\sqrt{3}\\text{ m}$. Nilai $\\alpha$ adalah...(dalam derajat)",
+      "options": [
+        "100",
+        "115",
+        "120",
+        "145",
+        "150"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada suatu taman berbentuk persegi digunakan 2 buah penyiram rumput otomatis. Luas jangkauan siraman penyiram rumput A dan B digambarkan pada ilustrasi di bawah ini. Luasan siram membentuk lingkaran dengan jari-jari $a$ dan $b$ seperti pada gambar. Jarak antara penyiram A dan B adalah $10\\text{ m}$. Perbandingan luas siraman penyiram A dan B adalah $9:4$. Jarak titik D ke titik C adalah $10\\sqrt{3}\\text{ m}$. Luas taman tersebut adalah...$\\text{m}^2$",
+      "options": [
+        "100",
+        "144",
+        "169",
+        "196",
+        "225"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada suatu taman berbentuk persegi digunakan 2 buah penyiram rumput otomatis. Luas jangkauan siraman penyiram rumput A dan B digambarkan pada ilustrasi di bawah ini. Luasan siram membentuk lingkaran dengan jari-jari $a$ dan $b$ seperti pada gambar. Jarak antara penyiram A dan B adalah $10\\text{ m}$. Perbandingan luas siraman penyiram A dan B adalah $9:4$. Jarak titik D ke titik C adalah $10\\sqrt{3}\\text{ m}$. Luas taman yang tidak tersiram air adalah...$\\text{m}^2$",
+      "options": [
+        "100 - 36\\pi",
+        "225 - 16\\pi",
+        "144 - 52\\pi",
+        "225 - 52\\pi",
+        "100 - 72\\pi"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah pabrik roti memproduksi roti dengan bahan baku tepung terigu. Banyaknya roti yang dihasilkan dengan $x$ kg tepung terigu didefinisikan oleh $R(x) = x^2 + 3x$. Tepung terigu yang digunakan pabrik tersebut diperoleh dari proses penggilingan gandum. Banyaknya tepung yang diperoleh dari $x$ kg gandum didefinisikan oleh $T(x) = \\frac{2}{3}x$ dalam kg. Sementara itu, besar biaya untuk membeli $x$ kg gandum didefinisikan oleh $G(x) = 2x - 1$ dalam ribu rupiah. Banyak tepung yang diperlukan untuk menghasilkan 18 buah roti adalah...kg",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah pabrik roti memproduksi roti dengan bahan baku tepung terigu. Banyaknya roti yang dihasilkan dengan $x$ kg tepung terigu didefinisikan oleh $R(x) = x^2 + 3x$. Tepung terigu yang digunakan pabrik tersebut diperoleh dari proses penggilingan gandum. Banyaknya tepung yang diperoleh dari $x$ kg gandum didefinisikan oleh $T(x) = \\frac{2}{3}x$ dalam kg. Sementara itu, besar biaya untuk membeli $x$ kg gandum didefinisikan oleh $G(x) = 2x - 1$ dalam ribu rupiah. Banyak gandum yang diperoleh dengan biaya $n$ ribu rupiah adalah...",
+      "options": [
+        "n + \\frac{1}{2}",
+        "\\frac{n+1}{2}",
+        "\\frac{n-1}{2}",
+        "n - \\frac{1}{2}",
+        "n - 2"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah pabrik roti memproduksi roti dengan bahan baku tepung terigu. Banyaknya roti yang dihasilkan dengan $x$ kg tepung terigu didefinisikan oleh $R(x) = x^2 + 3x$. Tepung terigu yang digunakan pabrik tersebut diperoleh dari proses penggilingan gandum. Banyaknya tepung yang diperoleh dari $x$ kg gandum didefinisikan oleh $T(x) = \\frac{2}{3}x$ dalam kg. Sementara itu, besar biaya untuk membeli $x$ kg gandum didefinisikan oleh $G(x) = 2x - 1$ dalam ribu rupiah. Banyak roti yang dapat dihasilkan dengan menggiling $m$ kg gandum adalah...",
+      "options": [
+        "\\frac{4}{9}m^2 + 2m",
+        "\\frac{4}{9}m^2 - 2m",
+        "\\frac{2}{9}m^2 + 2m",
+        "\\frac{2}{3}m^2 - 2m",
+        "\\frac{2}{3}m^2 + 2m"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah pabrik roti memproduksi roti dengan bahan baku tepung terigu. Banyaknya roti yang dihasilkan dengan $x$ kg tepung terigu didefinisikan oleh $R(x) = x^2 + 3x$. Tepung terigu yang digunakan pabrik tersebut diperoleh dari proses penggilingan gandum. Banyaknya tepung yang diperoleh dari $x$ kg gandum didefinisikan oleh $T(x) = \\frac{2}{3}x$ dalam kg. Sementara itu, besar biaya untuk membeli $x$ kg gandum didefinisikan oleh $G(x) = 2x - 1$ dalam ribu rupiah. Biaya yang digunakan untuk membuat 28 buah roti adalah...ribu rupiah",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Sebuah pabrik roti memproduksi roti dengan bahan baku tepung terigu. Banyaknya roti yang dihasilkan dengan $x$ kg tepung terigu didefinisikan oleh $R(x) = x^2 + 3x$. Tepung terigu yang digunakan pabrik tersebut diperoleh dari proses penggilingan gandum. Banyaknya tepung yang diperoleh dari $x$ kg gandum didefinisikan oleh $T(x) = \\frac{2}{3}x$ dalam kg. Sementara itu, besar biaya untuk membeli $x$ kg gandum didefinisikan oleh $G(x) = 2x - 1$ dalam ribu rupiah. Apabila setiap roti dijual dengan harga Rp1.000,00, keuntungan yang diperoleh dengan menggiling 9 kg gandum yang dibeli adalah...ribu rupiah",
+      "options": [
+        "27",
+        "29",
+        "33",
+        "37",
+        "41"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Intensitas suatu lampu pada titik tertentu ditentukan oleh daya lampu ($L$) dalam watt dan jarak titik tersebut ke lampu ($x$) dalam m. $I = \\frac{L}{x^2}$. Pada langit-langit ruangan terpasang lampu. Tinggi ruangan tersebut adalah $4\\text{ m}$. Intensitas cahaya lampu pada titik P apabila daya lampu adalah $100\\text{ watt}$ adalah...$\\text{watt}/\\text{m}^2$",
+      "options": [
+        "5 \\frac{1}{4}",
+        "6 \\frac{1}{4}",
+        "5 \\frac{3}{4}",
+        "6 \\frac{3}{4}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Intensitas suatu lampu pada titik tertentu ditentukan oleh daya lampu ($L$) dalam watt dan jarak titik tersebut ke lampu ($x$) dalam m. $I = \\frac{L}{x^2}$. Pada langit-langit ruangan terpasang lampu. Tinggi ruangan tersebut adalah $4$ m. Jika daya lampu $100$ watt luas daerah pada lantai yang setiap titiknya menerima intensitas cahaya minimal $4$ watt/m$^2$ adalah... $\\pi$ m$^2$",
+      "options": [
+        "9",
+        "16",
+        "25",
+        "36",
+        "49"
+      ],
+      "correctAnswer": "25",
+      "explanation": "Intensitas minimum $I = 4$, $L = 100$. Maka $4 \\ge \\frac{100}{x^2} \\implies x^2 \\le 25 \\implies x \\le 5$. Jari-jari alas $r = \\sqrt{5^2 - 4^2} = 3$. Luas daerah = $\\pi r^2 = 9\\pi$?"
+    },
+    {
+      "text": "Intensitas suatu lampu pada titik tertentu ditentukan oleh daya lampu ($L$) dalam watt dan jarak titik tersebut ke lampu ($x$) dalam m. $I = \\frac{L}{x^2}$. Pada langit-langit ruangan terpasang lampu. Tinggi ruangan tersebut adalah $4$ m. Jika daya lampu $100$ watt luas daerah pada lantai yang setiap titiknya menerima intensitas cahaya antara $4$ watt/m$^2$ dan $5$ watt/m$^2$ adalah... m",
+      "options": [
+        "\\sqrt{18} \\le x \\le 5",
+        "\\sqrt{20} \\le x \\le 4",
+        "\\sqrt{15} \\le x \\le 4",
+        "\\sqrt{18} \\le x \\le 4",
+        "\\sqrt{20} \\le x \\le 5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada langit-langit ruangan terpasang lampu. Tinggi ruangan tersebut adalah $4$ m. Jika daya lampu $100$ watt luas daerah pada lantai yang setiap titiknya menerima intensitas cahaya antara $4$ watt/m$^2$ dan $5$ watt/m$^2$ adalah... m$^2$",
+      "options": [
+        "4\\pi",
+        "5\\pi",
+        "6\\pi",
+        "7\\pi",
+        "8\\pi"
+      ],
+      "correctAnswer": "7\\pi",
+      "explanation": "Untuk $I = 5$, $5 = \\frac{100}{x_1^2} \\implies x_1^2 = 20 \\implies r_1^2 = 20 - 4^2 = 4 \\implies r_1 = 2$. Luas 1 = $4\\pi$. Untuk $I = 4$, $4 = \\frac{100}{x_2^2} \\implies x_2^2 = 25 \\implies r_2^2 = 25 - 4^2 = 9 \\implies r_2 = 3$. Luas 2 = $9\\pi$. Luas daerah cincin = $9\\pi - 4\\pi = 7\\pi$."
+    }
+  ]
+}

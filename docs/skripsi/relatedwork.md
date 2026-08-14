@@ -94,7 +94,7 @@ Berdasarkan analisis gap di atas, **kebaruan** yang ditawarkan Lexica adalah:
 1. **Integrasi End-to-End:** Menggabungkan CBT Simulator, IRT Scoring, AI Tutor (Socratic Scaffolding), Chancing Engine, dan Learning Path dalam satu platform terpadu — sesuatu yang belum ada pada penelitian terdahulu.
 2. **Context-Aware AI Tutoring:** Implementasi konkret *zero-friction context injection* di mana AI menerima konteks soal secara otomatis tanpa intervensi pengguna, dengan masking kunci jawaban (`???`) untuk mencegah kebocoran.
 3. **Cognitive Load-Aware UX Design:** Desain antarmuka yang secara eksplisit mengaplikasikan prinsip *Cognitive Load Theory* — mulai dari konsolidasi 9 menu menjadi 5, hingga *auto-trigger* pembahasan AI berdasarkan batas percobaan (2-Attempt Rule).
-4. **Lokalisasi Konteks UTBK Indonesia:** Seluruh fitur dirancang khusus untuk ekosistem UTBK-SNBT Indonesia, termasuk database PTN/prodi, kluster Saintek/Soshum, dan skala skor 200–800.
+4. **Lokalisasi Konteks UTBK Indonesia:** Seluruh fitur dirancang khusus untuk ekosistem UTBK-SNBT Indonesia, termasuk database PTN/prodi, kluster TPS/Literasi, dan skala skor 200–800.
 
 ---
 

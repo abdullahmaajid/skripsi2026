@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "Manakah kalimat yang mengandung kesalahan dalam penulisan kata?",
+      "options": [
+        "Damar membawa burung itu pulang dan merawatnya dengan penuh kasih sayang.",
+        "Setiap pagi, Damar pergi kehutan untuk mencari kayu bakar dan berburu.",
+        "Burung itu ternyata bukan burung biasa.",
+        "Sejak saat itu, hidupnya berubah.",
+        "Kabar tentang keberuntungannya menyebar dengan cepat."
+      ],
+      "correctAnswer": "Setiap pagi, Damar pergi kehutan untuk mencari kayu bakar dan berburu.",
+      "explanation": "Kata 'kehutan' seharusnya ditulis terpisah 'ke hutan' karena 'ke' berfungsi sebagai kata depan."
+    },
+    {
+      "text": "Pilihlah kata yang paling tepat untuk melengkapi kalimat berikut:\n\n\"Damar merasa sangat terkejut ketika burung itu tiba-tiba berbicara dan mengucapkan ____ kepadanya.\"",
+      "options": [
+        "Maaf",
+        "Terima kasih",
+        "Selamat",
+        "Sampai jumpa",
+        "Semoga sukses"
+      ],
+      "correctAnswer": "Terima kasih",
+      "explanation": "Berdasarkan konteks teks, burung tersebut berterima kasih kepada Damar karena telah merawatnya."
+    },
+    {
+      "text": "Manakah kalimat yang paling efektif sebagai perbaikan dari kalimat berikut?\n\"Karena Damar adalah seorang pemuda yang pemberani dan baik hati, maka dia selalu menolong makhluk yang membutuhkan pertolongan.\"",
+      "options": [
+        "Karena Damar adalah pemuda yang pemberani dan baik hati, dia selalu menolong makhluk yang membutuhkan.",
+        "Damar adalah seorang pemuda baik hati dan pemberani yang selalu menolong makhluk.",
+        "Damar, seorang pemuda pemberani dan baik hati, selalu menolong siapa saja yang membutuhkan.",
+        "Damar adalah pemuda yang selalu menolong makhluk yang membutuhkan karena baik hati dan pemberani.",
+        "Karena Damar pemberani dan baik hati, maka dia selalu menolong yang membutuhkan."
+      ],
+      "correctAnswer": "Damar, seorang pemuda pemberani dan baik hati, selalu menolong siapa saja yang membutuhkan.",
+      "explanation": "Kalimat ini lebih efektif karena menghilangkan pemborosan kata dan struktur konjungsi yang bertumpuk."
+    },
+    {
+      "text": "Susunlah urutan yang paling logis untuk paragraf berikut:\n1. Damar yang melihat ini langsung berlari untuk menyelamatkan burung itu\n2. Saat sedang mengumpulkan kayu bakar, Damar melihat seekor burung yang terjebak di semak berduri.\n3. Dengan hati-hati, Damar membebaskan burung itu dan membawanya pulang untuk dirawat.\n4. Burung itu tampak lemah dan terluka sehingga tidak bisa terbang.",
+      "options": [
+        "2 - 1 - 4 - 3",
+        "2 - 4 - 1 - 3",
+        "2 - 3 - 1 - 4",
+        "1 - 2 - 3 - 4",
+        "4 - 3 - 1 - 2"
+      ],
+      "correctAnswer": "2 - 4 - 1 - 3",
+      "explanation": "Urutan yang logis dimulai dari latar kejadian (2), kondisi burung (4), tindakan merespons (1), hingga proses penyelamatan akhir (3)."
+    },
+    {
+      "text": "Manakah judul yang paling sesuai untuk teks bacaan di atas?",
+      "options": [
+        "Keajaiban di Hutan Lebat",
+        "Damar dan Burung Ajaib",
+        "Harta Karun di Tengah Hutan",
+        "Perjalanan Seorang Pemuda",
+        "Keberanian dan Ketulusan Hati"
+      ],
+      "correctAnswer": "Damar dan Burung Ajaib",
+      "explanation": "Judul ini merangkum subjek utama dan elemen penting dalam cerita."
+    },
+    {
+      "text": "Pilihlah kalimat yang lebih efektif sebagai perbaikan dari kalimat berikut:\n\n\"Albert Einstein yang lahir di Jerman pada tahun 1879, dikenal sebagai salah satu ilmuwan hebat, yang menemukan teori relativitas dan juga dia mendapatkan Nobel Fisika pada tahun 1921.\"",
+      "options": [
+        "Albert Einstein lahir di Jerman pada tahun 1879 dan dikenal sebagai ilmuwan hebat yang menemukan teori relativitas serta mendapatkan Nobel Fisika pada tahun 1921.",
+        "Albert Einstein adalah ilmuwan yang lahir di Jerman tahun 1879, dia juga menemukan teori relativitas dan memenangkan Hadiah Nobel Fisika di tahun 1921.",
+        "Albert Einstein yang lahir di Jerman pada tahun 1879 dikenal sebagai seorang ilmuwan besar dan ia menemukan teori relativitas serta memenangkan hadiah Nobel.",
+        "Albert Einstein, seorang ilmuwan besar yang lahir di Jerman tahun 1879, menemukan teori relativitas serta memenangkan Hadiah Nobel pada tahun 1921.",
+        "Albert Einstein adalah seorang ilmuwan yang lahir di Jerman pada tahun 1879 dan ia memenangkan Hadiah Nobel Fisika di tahun 1921 setelah menemukan teori relativitas."
+      ],
+      "correctAnswer": "Albert Einstein lahir di Jerman pada tahun 1879 dan dikenal sebagai ilmuwan hebat yang menemukan teori relativitas serta mendapatkan Nobel Fisika pada tahun 1921.",
+      "explanation": "Pilihan ini menghilangkan tanda koma yang berlebihan dan menyederhanakan struktur kalimat agar lebih padu."
+    },
+    {
+      "text": "Pilihlah kata yang dapat dihilangkan tanpa mengubah makna kalimat berikut:\n\"Selain teori relativitas, Einstein juga memberikan kontribusi besar dalam bidang mekanika kuantum dan termodinamika.\"",
+      "options": [
+        "Selain",
+        "Juga",
+        "Besar",
+        "Bidang",
+        "Dan"
+      ],
+      "correctAnswer": "Juga",
+      "explanation": "Kata 'juga' bersifat redundan karena fungsi penambahan sudah diwakili oleh kata 'Selain'."
+    },
+    {
+      "text": "Manakah judul yang paling tepat untuk teks bacaan di atas?",
+      "options": [
+        "Albert Einstein: Ilmuwan yang Mengubah Dunia",
+        "Misteri di Balik Teori Relativitas",
+        "Perjalanan Seorang Ahli Fisika di Jerman",
+        "Albert Einstein dan Perjuangan Hidupnya",
+        "Penemu Teori Relativitas yang Kontroversial"
+      ],
+      "correctAnswer": "Albert Einstein: Ilmuwan yang Mengubah Dunia",
+      "explanation": "Judul ini mencakup keseluruhan esensi isi teks mengenai kehidupan dan kontribusi besar Einstein."
+    },
+    {
+      "text": "Pilihlah kalimat yang memiliki makna sama dengan kalimat berikut:\n\"Einstein dikenal bukan hanya sebagai ilmuwan, tetapi juga sebagai seorang pemikir humanis yang menentang perang dan mendukung perdamaian.\"",
+      "options": [
+        "Einstein tidak hanya dikenal sebagai ilmuwan, tetapi juga sebagai pemikir yang mencintai kedamaian.",
+        "Einstein adalah ilmuwan hebat yang memiliki banyak pemikiran humanis dalam dirinya.",
+        "Einstein terkenal karena pemikirannya yang selalu menolak perang dalam segala bentuknya.",
+        "Einstein memiliki kontribusi besar dalam ilmu pengetahuan serta mendukung perdamaian dunia.",
+        "Einstein bukan hanya seorang ilmuwan terkenal, tetapi juga seorang tokoh yang memiliki jiwa kemanusiaan."
+      ],
+      "correctAnswer": "Einstein bukan hanya seorang ilmuwan terkenal, tetapi juga seorang tokoh yang memiliki jiwa kemanusiaan.",
+      "explanation": "Makna 'pemikir humanis yang menentang perang dan mendukung perdamaian' sejalan dengan 'tokoh yang memiliki jiwa kemanusiaan'."
+    },
+    {
+      "text": "Manakah kalimat yang mengandung kesalahan dalam penulisan kata?",
+      "options": [
+        "Einstein menerima Hadiah Nobel Fisika pada tahun 1921 atas kontribusinya dalam ilmu pengetahuan.",
+        "Albert Einstein banyak menghabiskan waktunya di Amerika Serikat untuk mengembangkan riset ilmiahnya.",
+        "Pada masa tua, ia bekerja di Institut Studi Lanjutan di Princeton, sebuah lembaga pendidikan tinggi yang bergengsi.",
+        "Sejak kecil, Einstein telah menunjukkan minat pada sains dan selalu memiliki ketertarikan terhadap hukum alam.",
+        "Kontribusi Einstein dalam dunia fisika sangatlah signifikan, khususnya dalam bidang mekanika kwantum dan teori relativitas."
+      ],
+      "correctAnswer": "Kontribusi Einstein dalam dunia fisika sangatlah signifikan, khususnya dalam bidang mekanika kwantum dan teori relativitas.",
+      "explanation": "Kata 'kwantum' adalah bentuk tidak baku, seharusnya ditulis 'kuantum'."
+    },
+    {
+      "text": "Di mana posisi yang paling tepat untuk menempatkan kalimat berikut dalam teks bacaan di atas?\n\"Jupiter merupakan planet kelima dari Matahari dan memiliki medan magnet yang sangat kuat.\"",
+      "options": [
+        "Setelah kalimat pertama paragraf pertama",
+        "Setelah kalimat terakhir paragraf pertama",
+        "Sebelum kalimat pertama paragraf kedua",
+        "Setelah kalimat terakhir paragraf kedua",
+        "Sebelum kalimat pertama paragraf pertama"
+      ],
+      "correctAnswer": "Setelah kalimat pertama paragraf pertama",
+      "explanation": "Kalimat tersebut sangat cocok diletakkan setelah kalimat 'Jupiter adalah planet terbesar di Tata Surya' untuk melanjutkan fakta dasar mengenai karakteristik orbit dan sifat fisik planet."
+    },
+    {
+      "text": "Manakah kalimat berikut yang menggunakan tanda koma dengan benar?",
+      "options": [
+        "Planet Jupiter memiliki cincin tipis, lebih dari 75 satelit alami dan memiliki medan magnet yang kuat.",
+        "Sebagai planet terbesar di Tata Surya Jupiter memiliki gravitasi yang sangat kuat.",
+        "Bintik Merah Besar adalah badai raksasa, yang telah berlangsung selama berabad-abad di atmosfer Jupiter.",
+        "Jupiter memiliki empat satelit terbesar, yaitu, Io, Europa, Ganymede, dan Callisto.",
+        "Sebagai planet gas raksasa, Jupiter tidak memiliki permukaan padat seperti Bumi."
+      ],
+      "correctAnswer": "Sebagai planet gas raksasa, Jupiter tidak memiliki permukaan padat seperti Bumi.",
+      "explanation": "Penggunaan tanda koma setelah frasa keterangan di awal kalimat sudah tepat."
+    },
+    {
+      "text": "Pilihlah kalimat yang lebih efektif sebagai perbaikan dari kalimat berikut:\n\"Jupiter merupakan sebuah planet gas raksasa yang sangat besar ukurannya dan tidak memiliki permukaan yang padat.\"",
+      "options": [
+        "Jupiter merupakan planet gas raksasa yang memiliki ukuran besar dan tidak mempunyai permukaan padat.",
+        "Jupiter adalah planet gas raksasa berukuran besar dan tidak memiliki permukaan padat.",
+        "Jupiter merupakan planet gas yang sangat besar dan tidak mempunyai permukaan padat.",
+        "Jupiter adalah planet raksasa yang sangat besar dan tidak memiliki permukaan.",
+        "Jupiter adalah salah satu planet raksasa dengan ukuran sangat besar dan tidak memiliki permukaan yang padat."
+      ],
+      "correctAnswer": "Jupiter adalah planet gas raksasa berukuran besar dan tidak memiliki permukaan padat.",
+      "explanation": "Kalimat ini menghilangkan pemborosan kata dan menjadi jauh lebih padat serta efektif."
+    },
+    {
+      "text": "Manakah kalimat berikut yang menggunakan huruf kapital dengan benar?",
+      "options": [
+        "Jupiter adalah planet kelima dari matahari dan merupakan yang terbesar di tata surya.",
+        "Bintik merah besar merupakan badai yang telah ada selama ratusan tahun.",
+        "Jupiter memiliki empat satelit terbesar yang disebut Satelit Galilean, yaitu Io, Europa, Ganymede, dan Callisto.",
+        "Di atmosfer Jupiter terdapat Gas Hidrogen dan Helium yang mendominasi.",
+        "Gravitasi jupiter sangat kuat sehingga mampu menarik benda luar angkasa."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah kalimat yang mengandung kesalahan dalam penulisan kata?",
+      "options": [
+        "Jupiter memiliki lebih dari 75 satelit alami yang mengorbit di sekelilingnya.",
+        "Sebagai planet gas raksasa, Jupiter tidak memiliki permukaan yang kokoh.",
+        "Gravitasi Jupiter mampu menarik benda-benda luar angkasa yang mendekatinya.",
+        "Jupiter memiliki lapisan atmosfer yang sangat tebal, yang terdiri dari hidrogen dan helium.",
+        "Planet ini sering disebut sebagai \"rajasa gas\" karena ukurannya yang sangat besar."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Kata \"memudar\" dalam paragraf terakhir dapat digantikan dengan kata yang memiliki makna serupa, yaitu...",
+      "options": [
+        "Menghilang",
+        "Melemah",
+        "Menguap",
+        "Memburuk",
+        "Meredup"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah inti dari kalimat berikut? \\n\\n\"Para bangsawan menjalani kehidupan mewah dengan berbagai fasilitas yang tidak dimiliki oleh rakyat biasa.\"",
+      "options": [
+        "Para bangsawan memiliki berbagai fasilitas.",
+        "Bangsawan menjalani kehidupan mewah.",
+        "Bangsawan dan rakyat biasa memiliki fasilitas berbeda.",
+        "Kehidupan mewah hanya dimiliki oleh bangsawan.",
+        "Bangsawan adalah golongan sosial tinggi."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Gabungkan dua kalimat berikut menjadi satu kalimat yang lebih efektif: \\n\"Sebagian bangsawan berperan sebagai pemimpin yang adil. Beberapa dari mereka turut serta dalam peperangan untuk mempertahankan kerajaan.\"",
+      "options": [
+        "Sebagian bangsawan adalah pemimpin yang adil dan berperang untuk mempertahankan kerajaan.",
+        "Sebagian bangsawan menjadi pemimpin adil serta mereka juga ikut berperang demi kerajaan.",
+        "Sebagian bangsawan tidak hanya menjadi pemimpin yang adil, tetapi juga ikut serta dalam peperangan untuk mempertahankan kerajaan.",
+        "Beberapa bangsawan memimpin dengan adil, tetapi sebagian lain ikut berperang demi kerajaan.",
+        "Pemimpin yang adil dari kalangan bangsawan selalu berperang demi kerajaan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pilihlah kata yang paling tepat untuk melengkapi kalimat berikut: \\n\"Bangsawan pada masa lalu memiliki kekuasaan dan hak istimewa karena mereka __________ sebagai bagian dari kelas sosial tertinggi.\"",
+      "options": [
+        "Dikenal",
+        "Dianggap",
+        "Disebutkan",
+        "Diketahui",
+        "Dibandingkan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah kalimat yang mengandung kesalahan dalam penulisan kata?",
+      "options": [
+        "Para bangsawan memiliki kekuasaan yang besar di zaman kerajaan dahulu.",
+        "Sebagian bangsawan hidup dalam kemewahan, sementara yang lain berjuang di medan perang.",
+        "Banyak bangsawan yang memegang peranan penting dalam sejarah kerajaan kuno.",
+        "Pada masa lalu, seorang bangsawan memiliki status sosial yang lebih tinggi dibanding rakyat biasa.",
+        "Kaum bangsawan kerap menghadiri acara-acara kerajaan dengan megah dan anggun, mengelilingi istana dengan penuh keaormatan."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

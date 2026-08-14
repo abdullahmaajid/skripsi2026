@@ -21,6 +21,7 @@ export async function GET() {
         },
       },
       orderBy: { answeredAt: "desc" },
+      take: 200,
       select: {
         questionId: true,
         isCorrect: true,

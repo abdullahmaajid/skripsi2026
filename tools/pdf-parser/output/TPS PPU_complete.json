@@ -1,0 +1,460 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan isi bacaan di atas, pernyataan berikut ini benar adalah",
+      "options": [
+        "Mata uang Asia turut menguat seiring naiknya minat investor",
+        "Penguatan rupiah mulai terlihat seiring kenaikan dollar AS",
+        "Rupiah mengalami penguatan yang cukup signifikan terhadap dollar AS",
+        "Ruang penguatan rupiah mengecil seiring kenaikan dollar AS",
+        "Ruang penguatan mata uang asia melampaui target awal"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Ruang penguatan itu hari ini terlihat mengecil seiring kenaikan indeks dollar AS."
+    },
+    {
+      "text": "Gagasan utama teks tersebut adalah",
+      "options": [
+        "Rupiah malemah di perdagangan Asia",
+        "Rupiah melemah terhadap dollar AS",
+        "Rupiah mengalami penguatan walaupun tipis",
+        "Ruang penguatan rupiah melampaui target awal",
+        "Ruang penguatan rupiah menipis"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Teks membahas mengenai ruang penguatan rupiah yang semakin menipis."
+    },
+    {
+      "text": "Hubungan isi antarparagraf yang paling tepat adalah",
+      "options": [
+        "Paragraf ke-2 merupakan rincian paragraf ke-1",
+        "Paragraf ke-2 merupakan solusi paragraf ke-1",
+        "Paragraf ke-2 merupakan akibat paragraf ke-1",
+        "Paragraf ke-2 merupakan pembanding paragraf ke-1",
+        "Paragraf ke-2 merupakan memaparkan contoh paragraf ke-1"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Paragraf kedua merinci dan memberikan data pendukung terkait kinerja DPR."
+    },
+    {
+      "text": "Pernyataan manakah yang paling sesuai dengan tabel di atas?",
+      "options": [
+        "Kinerja DPR paling bergairah terjadi pada tahun 2011 dan 2010",
+        "Kinerja DPR cenderung rendah di tahun 2009 dan 2014",
+        "Kinerja DPR cenderung jauh dari target setiap tahunnya",
+        "Standar penyelesaian target RUU cenderung naik pada setiap tahunnya",
+        "Standar penyelesaian target RUU cenderung menurun pada setiap tahunnya"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Persentase kinerja DPR berkisar antara 8% hingga 19%, yang berarti selalu jauh dari target 100% setiap tahunnya."
+    },
+    {
+      "text": "Apakah simpulan dari teks di atas?",
+      "options": [
+        "Rapor merah kinerja DPR menggambarkan kegagalan fungsinya sebagai lembaga legislatif negara selama 5 tahun jabatan.",
+        "Rapor merah kinerja DPR menggambarkan rekam jejak mereka sebagai lembaga legislatif negara selama 5 tahun jabatan.",
+        "DPR sebagai lembaga legislatif negara gagal menjalankan fungsinya selama 5 tahun jabatan",
+        "DPR sebagai lembaga legislatif Negara gagal mencapai target kinerja selama 5 tahun jabatan",
+        "Selama 5 tahun jabatan DPR tidak menunjukkan mampu menjalankan fungsi pengawasan, penganggaran, dan legislasi dengan baik."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Simpulan keseluruhan mencakup rapor merah kinerja DPR dan kegagalan fungsinya."
+    },
+    {
+      "text": "Kelemahan Paragraf ke-2 teks di atas adalah",
+      "options": [
+        "Gagasan utamanya terletak di tengah",
+        "Gagasan utamanya ada diseluruh paragraf",
+        "Tidak ada gagasan utama",
+        "Mengandung kalimat sumbang",
+        "Tidak ada gagasan penjelas"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Terdapat kalimat yang kurang padu atau sumbang dalam alur pemaparan."
+    },
+    {
+      "text": "Manakah rangkuman yang tepat untuk teks di atas?",
+      "options": [
+        "Pemerintah tengah merumuskan sistem hukuman berlapis untuk para pembakar lahan dan hutan yang menyebabkan bencana kabut asap di Indonesia. Kabut asap pembakaran ini ialah kejahatan kemanusiaan. Masyarakat sangat terganggu dalam menjalankan aktivitas sehari-hari.",
+        "Pemerintah tengah merumuskan sistem hukuman berlapis untuk para pembakar lahan dan hutan yang menyebabkan bencana kabut asap di Indonesia. Masyarakat sangat terganggu dalam menjalankan aktivitas sehari-hari. Presiden mengancam tidak akan segan-segan menindak tegas pelaku yang melanggarnya.",
+        "Pemerintah tengah merumuskan sistem hukuman berlapis untuk para pembakar lahan dan hutan yang menyebabkan bencana kabut asap di Indonesia. Kabut asap pembakaran ini ialah kejahatan kemanusiaan. Negara juga akan menuntut secara pidana dan perdata terkait gugatan ganti perusakan ekosistem dan biaya pemulihan lingkungan.",
+        "Pemerintah tengah merumuskan sistem hukuman berlapis untuk para pembakar lahan dan hutan yang menyebabkan bencana kabut asap di Indonesia. Presiden mengancam tidak akan segan-segan menindak tegas pelaku yang melanggarnya. Selain pidana, negara juga akan menuntut secara perdata terkait gugatan ganti kerugian ekosistem dan biaya pemulihan lingkungan.",
+        "Pemerintah tengah merumuskan sistem hukuman berlapis untuk para pembakar lahan dan hutan yang menyebabkan bencana kabut asap di Indonesia. Kabut asap pembakaran ini ialah kejahatan kemanusiaan. Presiden mengancam tidak akan segan-segan menindak tegas pelaku yang melanggarnya."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Rangkuman harus mencakup ide utama tentang hukuman berlapis, ancaman tegas, serta tuntutan pidana dan perdata."
+    },
+    {
+      "text": "Kalimat yang tidak efektif ditemukan pada",
+      "options": [
+        "1 dan 13",
+        "2 dan 7",
+        "3 dan 8",
+        "4 dan 6",
+        "9 dan 10"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Kalimat 3 dan 8 memiliki struktur yang kurang efektif dalam penalaran kalimat."
+    },
+    {
+      "text": "Penulis teks di atas berpihak pada",
+      "options": [
+        "Pemerintah",
+        "Pelaku pembakaran",
+        "Pembaca",
+        "Masyarakat",
+        "Tidak berpihak"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Penulis cenderung mendukung langkah dan kebijakan pemerintah dalam menindak pembakar hutan."
+    },
+    {
+      "text": "Pernyataan berikut yang sesuai dengan paragraf tersebut adalah",
+      "options": [
+        "Pemerintah sudah merumuskan hukuman berlapis bagi pelaku pembakaran hutan.",
+        "Pelaku pembakaran dihukum dengan pasal berlapis.",
+        "Pasal berlapis tengah dirumuskan untuk menjerat pelaku pembakaran hutan.",
+        "Pihak pelanggar peraturan akan diberi sangsi yang tegas",
+        "Pemerintah tengah menghukum pelaku pembakaran hutan secara tegas"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Teks menyatakan bahwa sistem hukuman berlapis masih 'tengah merumuskan' / 'tengah dirumuskan'."
+    },
+    {
+      "text": "Kalimat utama paragraf tersebut adalah ....",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5)"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Kalimat (1) memuat gagasan utama mengenai pengembangan kreativitas siswa dalam Kurikulum KTSP."
+    },
+    {
+      "text": "Kalimat yang tidak padu pada paragraf Tersebut adalah kalimat nomor ....",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5)"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Kalimat (4) membahas kondisi fisik dan psikis yang tertekan, yang keluar dari konteks pembahasan utama tentang kreativitas dan peran guru."
+    },
+    {
+      "text": "Di Jakarta, misalnya mereka yang tidak mengenakan masker di tempat umum akan dikenakan denda sebesar 200 ribu. Pada kata yang dicetak tebal merupakan konjungsi ....",
+      "options": [
+        "Hubungan penyebaban",
+        "Hubungan pengandaian",
+        "Hubungan konsesif",
+        "Hubungan pemiripan",
+        "Hubungan penegasan"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Kata 'misalnya' berfungsi sebagai konjungsi penegasan/ilustrasi."
+    },
+    {
+      "text": "Pemimpin tersebut \"sangat kikir dan sangat kuasa\". Arti tersebut merupakan pribahasa dari ....",
+      "options": [
+        "Dangkal telah keseberangan, dalam telah keajukan",
+        "Dalam laut boleh diajuk, dalam hati siapa tau",
+        "Diam seribu Bahasa",
+        "Di mana bumi dipijak, di sana langit dijunjung",
+        "Dibakar tak hangus direndam tak basah"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Peribahasa 'Dibakar tak hangus direndam tak basah' bermakna pemimpin yang sangat berkuasa dan kikir atau sulit dikalahkan."
+    },
+    {
+      "text": "Susunan penulisan daftar pustaka yang baik dan benar adalah....",
+      "options": [
+        "Nama pengarang. Tahun terbit. Judul buku (ditulis miring). Kota terbit: Penerbit.",
+        "Nama pengarang. Tahun terbit. Judul buku. Kota terbit: Penerbit.",
+        "Nama pengarang (dibalik). Tahun terbit. Judul buku (ditulis miring). Kota terbit: Penerbit.",
+        "Nama pengarang (dibalik), tahun terbit, judul buku (ditulis miring), Kota terbit: Penerbit.",
+        "Nama pengarang (dibalik). Judul buku (ditulis miring). Tahun terbit. Kota terbit: Penerbit."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Format baku daftar pustaka menempatkan nama pengarang dibalik, diikuti tahun, judul miring, kota, dan penerbit."
+    },
+    {
+      "text": "Pernyataan yang sesuai dengan teks di atas adalah ....",
+      "options": [
+        "Produksi rumput laut sangat baik untuk kawasan perairan",
+        "1.192 pulau di NTT sangat berpotensi untuk mengembangkan rumput laut",
+        "Nelayan terlibat budidaya rumput laut, sementara petani tidak",
+        "Harga rumput laut cenderung stabil sehingga produksi berjalan baik",
+        "Produksi rumput laut selalu banyak tiap bulannya"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Sesuai dengan isi teks bahwa NTT dengan jumlah 1.192 pulau memiliki potensi pantai untuk mengembangkan rumput laut."
+    },
+    {
+      "text": "Antonim kata anjlok adalah ....",
+      "options": [
+        "Naik",
+        "Merosot",
+        "Jatuh",
+        "Terban",
+        "Drop"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Anjlok berarti turun drastis, sehingga antonimnya adalah naik."
+    },
+    {
+      "text": "Fakta di bawah ini berdasarkan teks di atas benar, kecuali ....",
+      "options": [
+        "Pemprov membantu 4.050 keluarga yang berdiam di pesisir untuk pengembangan rumput laut pada tahun 2019",
+        "Produksi rumput laut mendekati dari target 14 juta ton per tahun",
+        "Pemprov memberi bantuan berupa bibit rumput laut 50 kg per keluarga",
+        "8.050 keluarga di Nusa Tenggara Timur (NTT) mendapat bantuan dari pemerintah provinsi untuk mengembangkan rumput laut",
+        "Salah satu tempat sasaran bantuan pemprov adalah Rote Ndao"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Produksi rumput laut baru mencapai 2,3 juta ton per tahun, yang berarti masih jauh dari target 14 juta ton."
+    },
+    {
+      "text": "Pertanyaan di bawah ini yang jawabannya tidak terdapat di dalam teks adalah ....",
+      "options": [
+        "Bantuan apa yang diberikan pemprov untuk penduduk setempat?",
+        "Apa pengertian dari rumput laut?",
+        "Apa manfaat dari produksi rumput laut?",
+        "Kabupaten mana saja yang diberikan bantuan oleh Pemrov NTT?",
+        "Berapa jumlah petani yang terlibat budidaya rumput laut?"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Teks tidak mendefinisikan apa itu rumput laut."
+    },
+    {
+      "text": "1",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "2",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "3",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "4",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "5",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "6",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "7",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "8",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "9",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "10",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "11",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "12",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "13",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "14",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "15",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "16",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "17",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "18",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "19",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    }
+  ]
+}

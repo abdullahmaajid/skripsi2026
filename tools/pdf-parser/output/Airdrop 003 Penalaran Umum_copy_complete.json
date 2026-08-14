@@ -1,0 +1,147 @@
+{
+  "questions": [
+    {
+      "text": "Banyak perusahaan pakaian saat ini mulai beralih menggunakan bahan ramah lingkungan karena dapat mengurangi dampak negatif terhadap lingkungan. Kalimat negasi yang tepat dari pernyataan tersebut adalah…",
+      "options": [
+        "banyak perusahaan pakaian tidak beralih menggunakan bahan ramah lingkungan dan mengurangi dampak negatif terhadap lingkungan.",
+        "Banyak perusahaan pakaian beralih menggunakan bahan ramah lingkungan tetapi tidak mengurangi dampak negatif terhadap lingkungan.",
+        "Banyak perusahaan pakaian tidak beralih menggunakan bahan ramah lingkungan atau tidak mengurangi dampak negatif terhadap lingkungan.",
+        "Banyak perusahaan pakaian tidak beralih menggunakan bahan ramah lingkungan atau mengurangi dampak negatif terhadap lingkungan.",
+        "Banyak perusahaan pakaian tidak beralih menggunakan bahan ramah lingkungan dan terus meningkatkan dampak negatif terhadap lingkungan."
+      ],
+      "correctAnswer": "Banyak perusahaan pakaian beralih menggunakan bahan ramah lingkungan tetapi tidak mengurangi dampak negatif terhadap lingkungan.",
+      "explanation": "Pernyataan asli berbentuk implikasi $P \\rightarrow Q$ (Jika beralih menggunakan bahan ramah lingkungan, maka dapat mengurangi dampak negatif). Negasi dari $P \\rightarrow Q$ adalah $P \\land \\neg Q$ (Beralih menggunakan bahan ramah lingkungan tetapi tidak mengurangi dampak negatif)."
+    },
+    {
+      "text": "Seorang pemimpin di era ketidakpastian perlu beradaptasi dengan cepat terhadap perubahan situasi. Salah satu caranya adalah dengan mendorong tim untuk terus belajar dan berinovasi agar mampu menghadapi tantangan yang tak terduga. Kalimat negasi yang tepat dari pernyataan tersebut adalah…",
+      "options": [
+        "Seorang pemimpin tidak perlu beradaptasi dengan cepat terhadap perubahan situasi dan tidak mendorong tim untuk belajar.",
+        "Seorang pemimpin tidak perlu beradaptasi dengan cepat terhadap perubahan situasi atau mendorong tim untuk belajar.",
+        "Seorang pemimpin tidak mendorong tim untuk belajar dan tidak beradaptasi dengan cepat terhadap perubahan situasi.",
+        "Seorang pemimpin tidak mendorong tim untuk terus belajar atau tidak berinovasi",
+        "Seorang pemimpin tidak beradaptasi dengan cepat atau mendorong tim untuk terus belajar."
+      ],
+      "correctAnswer": "Seorang pemimpin tidak mendorong tim untuk terus belajar atau tidak berinovasi",
+      "explanation": "Pernyataan fokus pada bagian \"mendorong tim untuk terus belajar dan berinovasi\" ($A \\land B$). Negasi dari konjungsi $A \\land B$ adalah $\\neg A \\lor \\neg B$ (\"tidak mendorong tim untuk terus belajar atau tidak berinovasi\")."
+    },
+    {
+      "text": "Di era ketidakpastian, pemimpin adaptif dituntut untuk mampu membuat keputusan cepat dan fleksibel. Mereka juga perlu menciptakan lingkungan yang mendukung kolaborasi agar organisasi tetap responsif terhadap perubahan. Kalimat negasi yang tepat dari pernyataan tersebut adalah…",
+      "options": [
+        "Pemimpin tidak membuat keputusan cepat atau tidak fleksibel dalam bertindak.",
+        "Pemimpin tidak mampu membuat keputusan cepat dan fleksibel serta tidak mendukung kolaborasi.",
+        "Pemimpin tidak mampu menciptakan lingkungan yang mendukung kolaborasi atau membuat keputusan cepat.",
+        "Pemimpin tidak fleksibel dan tidak menciptakan lingkungan yang mendukung kolaborasi.",
+        "Pemimpin tidak fleksibel dalam bertindak atau tidak mampu menciptakan lingkungan kolaboratif."
+      ],
+      "correctAnswer": "Pemimpin tidak membuat keputusan cepat atau tidak fleksibel dalam bertindak.",
+      "explanation": "Pernyataan \"mampu membuat keputusan cepat dan fleksibel\" ($P \\land Q$) memiliki negasi $\\neg P \\lor \\neg Q$ (\"tidak membuat keputusan cepat atau tidak fleksibel\")."
+    },
+    {
+      "text": "Premis 1: Semua generasi milenial menyukai konten visual dan interaktif.\nPremis 2: Semua konten visual dan interaktif berbentuk video pendek",
+      "options": [
+        "Semua generasi milenial menyukai video pendek.",
+        "Sebagian generasi milenial tidak menyukai video pendek.",
+        "Semua konten interaktif adalah video pendek.",
+        "Video pendek tidak disukai oleh generasi milenial.",
+        "Generasi milenial tidak menyukai konten selain video pendek."
+      ],
+      "correctAnswer": "Semua generasi milenial menyukai video pendek.",
+      "explanation": "Menggunakan silogisme: Jika semua $A$ adalah $B$, dan semua $B$ adalah $C$, maka semua $A$ adalah $C$."
+    },
+    {
+      "text": "Premis 1: Sebagian besar generasi milenial membaca berita melalui aplikasi seluler.\nPremis 2: Semua aplikasi seluler dapat digunakan untuk mengakses berita online.",
+      "options": [
+        "Semua generasi milenial membaca berita melalui aplikasi seluler.",
+        "Sebagian generasi milenial tidak membaca berita melalui aplikasi seluler.",
+        "Sebagian besar generasi milenial mengakses berita online.",
+        "Semua aplikasi seluler digunakan oleh generasi milenial untuk membaca berita.",
+        "Semua berita online diakses melalui aplikasi seluler oleh generasi milenial."
+      ],
+      "correctAnswer": "Sebagian besar generasi milenial mengakses berita online.",
+      "explanation": "Karena sebagian besar milenial membaca berita lewat aplikasi seluler, dan semua aplikasi seluler dapat digunakan untuk mengakses berita online, maka sebagian besar milenial mengakses berita online."
+    },
+    {
+      "text": "Bermain game online secara berlebihan dapat mempengaruhi kesehatan mental anak, seperti meningkatkan risiko kecemasan atau depresi. Kalimat negasi yang tepat dari pernyataan tersebut adalah…",
+      "options": [
+        "Bermain game online tidak mempengaruhi kesehatan mental anak dan tidak meningkatkan risiko kecemasan serta depresi.",
+        "Bermain game online tidak mempengaruhi kesehatan mental anak atau meningkatkan risiko kecemasan dan depresi.",
+        "Bermain game online tidak meningkatkan risiko kecemasan atau depresi.",
+        "Bermain game online tidak mempengaruhi kesehatan mental anak atau tidak meningkatkan risiko kecemasan serta depresi.",
+        "Bermain game online tidak meningkatkan risiko kecemasan dan mempengaruhi kesehatan mental anak."
+      ],
+      "correctAnswer": "Bermain game online tidak mempengaruhi kesehatan mental anak dan tidak meningkatkan risiko kecemasan serta depresi.",
+      "explanation": "Negasi dari pernyataan majemuk yang dihubungkan dengan kata hubung tertentu."
+    },
+    {
+      "text": "Banyak orang yang terjebak dalam gaya hidup digital, di mana sebagian besar waktu mereka dihabiskan di depan layar, baik untuk bekerja, bermain, maupun berinteraksi sosial. Aktivitas ini menyebabkan penurunan aktivitas fisik secara signifikan, yang pada gilirannya meningkatkan risiko obesitas dan masalah kesehatan lainnya. Semua orang yang kurang bergerak dan mengalami penurunan aktivitas fisik lebih berisiko mengalami masalah kesehatan seperti obesitas. Kesimpulan yang sesuai adalah",
+      "options": [
+        "Semua orang yang terjebak dalam gaya hidup digital pasti mengalami obesitas.",
+        "Sebagian orang yang terjebak dalam gaya hidup digital berisiko mengalami masalah kesehatan.",
+        "Hanya orang yang terjebak dalam gaya hidup digital yang berisiko mengalami obesitas.",
+        "Semua orang yang mengalami obesitas pasti terjebak dalam gaya hidup digital.",
+        "Orang yang tidak terjebak dalam gaya hidup digital tidak mengalami obesitas."
+      ],
+      "correctAnswer": "Sebagian orang yang terjebak dalam gaya hidup digital berisiko mengalami masalah kesehatan.",
+      "explanation": "Berdasarkan premis bahwa gaya hidup digital menyebabkan penurunan aktivitas fisik yang meningkatkan risiko masalah kesehatan, maka sebagian orang yang terjebak dalam gaya hidup digital berisiko mengalami masalah kesehatan."
+    },
+    {
+      "text": "Penggunaan perangkat digital yang berlebihan, seperti bermain video game atau bekerja di depan komputer dalam waktu lama, menyebabkan postur tubuh yang buruk dan tekanan pada otot serta tulang belakang. Semua orang yang posturnya buruk akibat penggunaan perangkat digital dalam jangka waktu panjang cenderung mengalami nyeri punggung dan masalah tulang belakang lainnya. Kesimpulan yang sesuai adalah",
+      "options": [
+        "Semua orang yang menggunakan perangkat digital berlebihan mengalami nyeri punggung.",
+        "Sebagian orang yang menggunakan perangkat digital berlebihan mengalami postur tubuh yang buruk.",
+        "Semua orang yang mengalami nyeri punggung menggunakan perangkat digital secara berlebihan.",
+        "Semua orang yang beresiko mengalami nyeri punggung dan masalah tulang belakang akibat penggunaan perangkat digital yang berlebihan.",
+        "Hanya orang dengan postur tubuh yang baik yang tidak mengalami masalah tulang belakang."
+      ],
+      "correctAnswer": "Semua orang yang beresiko mengalami nyeri punggung dan masalah tulang belakang akibat penggunaan perangkat digital yang berlebihan.",
+      "explanation": "Menghubungkan premis penggunaan perangkat digital berlebihan yang menyebabkan postur tubuh buruk dengan kecenderungan mengalami nyeri punggung."
+    },
+    {
+      "text": "Penggunaan teknologi daur ulang dalam produksi pakaian menyebabkan pengurangan limbah tekstil dan memperpanjang masa pakai pakaian. Kalimat negasi yang paling tepat dari pernyataan tersebut adalah…",
+      "options": [
+        "Penggunaan teknologi daur ulang mengurangi limbah tekstil tetapi tidak memperpanjang masa pakai pakaian.",
+        "Penggunaan teknologi daur ulang tidak memperpanjang masa pakai pakaian atau mengurangi limbah tekstil.",
+        "Penggunaan teknologi daur ulang memperpanjang masa pakai pakaian dan tidak mengurangi limbah tekstil.",
+        "Penggunaan teknologi daur ulang tidak mengurangi limbah tekstil atau memperpanjang masa pakai pakaian.",
+        "Penggunaan teknologi daur ulang mengurangi limbah tekstil dan tidak memperpanjang masa pakai pakaian."
+      ],
+      "correctAnswer": "Penggunaan teknologi daur ulang mengurangi limbah tekstil dan tidak memperpanjang masa pakai pakaian.",
+      "explanation": "Pernyataan asli berbentuk implikasi $P \\rightarrow (Q \\land R)$. Negasinya adalah $P \\land \\neg(Q \\land R)$, yang salah satu bentuk penyederhanaannya adalah mengurangi limbah tekstil tetapi tidak memperpanjang masa pakai pakaian."
+    },
+    {
+      "text": "Interaksi sosial anak yang banyak bermain game online seringkali terganggu atau mereka lebih memilih bermain di dunia maya dibandingkan berinteraksi dengan teman di dunia nyata. Kalimat negasi yang tepat dari pernyataan tersebut adalah…",
+      "options": [
+        "Interaksi sosial anak tidak terganggu dan mereka tidak lebih memilih bermain di dunia maya dibandingkan di dunia nyata.",
+        "Interaksi sosial anak terganggu dan mereka tidak lebih memilih bermain di dunia maya dibandingkan di dunia nyata.",
+        "Interaksi sosial anak tidak terganggu atau mereka tidak lebih memilih bermain di dunia maya dibandingkan di dunia nyata.",
+        "Interaksi sosial anak tidak terganggu atau lebih memilih bermain di dunia maya dibandingkan di dunia nyata.",
+        "Interaksi sosial anak tidak terganggu atau mereka lebih memilih bermain di dunia nyata dibandingkan di dunia maya."
+      ],
+      "correctAnswer": "Interaksi sosial anak tidak terganggu dan mereka tidak lebih memilih bermain di dunia maya dibandingkan di dunia nyata.",
+      "explanation": "Pernyataan asli berbentuk disjungsi $P \\lor Q$. Negasi dari $P \\lor Q$ adalah $\\neg P \\land \\neg Q$ (Interaksi sosial anak tidak terganggu DAN mereka tidak lebih memilih bermain di dunia maya)."
+    },
+    {
+      "text": "Bermain game online secara moderat dapat meningkatkan keterampilan kognitif atau strategi anak. Kalimat negasi yang tepat dari pernyataan tersebut adalah…",
+      "options": [
+        "Bermain game online secara moderat tidak meningkatkan keterampilan kognitif dan tidak meningkatkan strategi anak.",
+        "Bermain game online tidak meningkatkan keterampilan kognitif atau berdampak negatif pada kesehatan mental anak.",
+        "Bermain game online tidak meningkatkan keterampilan kognitif dan strategi anak.",
+        "Bermain game online secara moderat tidak meningkatkan keterampilan kognitif dan tidak berdampak negatif pada kesehatan mental.",
+        "Bermain game online secara moderat tidak meningkatkan keterampilan strategi anak atau berdampak negatif pada kesehatan mental mereka."
+      ],
+      "correctAnswer": "Bermain game online secara moderat tidak meningkatkan keterampilan kognitif dan tidak meningkatkan strategi anak.",
+      "explanation": "Pernyataan asli berbentuk disjungsi $P \\lor Q$. Negasinya adalah $\\neg P \\land \\neg Q$ (tidak meningkatkan keterampilan kognitif DAN tidak meningkatkan strategi anak)."
+    },
+    {
+      "text": "Gaya hidup digital sering kali membuat orang duduk dalam waktu lama tanpa jeda. Semua orang yang duduk dalam waktu lama tanpa jeda berisiko mengalami penurunan sirkulasi darah, yang dapat memicu berbagai masalah kesehatan, termasuk pembekuan darah. Oleh karena itu, semua orang yang menerapkan gaya hidup digital berisiko mengalami penurunan sirkulasi darah jika mereka tidak aktif bergerak. Kesimpulan yang sesuai adalah",
+      "options": [
+        "Semua orang yang menerapkan gaya hidup digital pasti mengalami penurunan sirkulasi darah.",
+        "Semua orang yang menerapkan gaya hidup digital berisiko mengalami penurunan sirkulasi darah.",
+        "Orang yang duduk dalam waktu lama tanpa jeda selalu menerapkan gaya hidup digital.",
+        "Semua orang yang mengalami penurunan sirkulasi darah pasti menerapkan gaya hidup digital."
+      ],
+      "correctAnswer": "Semua orang yang menerapkan gaya hidup digital berisiko mengalami penurunan sirkulasi darah.",
+      "explanation": "Berdasarkan premis yang diberikan, kesimpulan yang paling tepat dan logis adalah semua orang yang menerapkan gaya hidup digital berisiko mengalami penurunan sirkulasi darah."
+    }
+  ]
+}

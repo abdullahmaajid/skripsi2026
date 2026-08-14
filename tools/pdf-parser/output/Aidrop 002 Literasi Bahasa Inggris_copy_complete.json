@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "text": "The word \"efficacy\" in paragraph 4 is closest in meaning to which of the following?",
+      "options": [
+        "effectiveness",
+        "use",
+        "consumption",
+        "result",
+        "strength"
+      ],
+      "correctAnswer": "effectiveness",
+      "explanation": null
+    },
+    {
+      "text": "The word \"nature\" in paragraph 2 is closest in meaning to which of the following?",
+      "options": [
+        "characteristic",
+        "existence",
+        "quality",
+        "state",
+        "kind"
+      ],
+      "correctAnswer": "characteristic",
+      "explanation": null
+    },
+    {
+      "text": "The word \"amazing\" in paragraph 2 is closest meaning to which of the following?",
+      "options": [
+        "well-known",
+        "outstanding",
+        "striking",
+        "surprising",
+        "unusual"
+      ],
+      "correctAnswer": "surprising",
+      "explanation": null
+    },
+    {
+      "text": "The word \"exacerbate\" in paragraph 3 is closest in meaning to which of the following?",
+      "options": [
+        "exaggerate",
+        "evoke",
+        "worsen",
+        "cause",
+        "irritate"
+      ],
+      "correctAnswer": "worsen",
+      "explanation": null
+    },
+    {
+      "text": "The word \"discarded\" in paragraph 1 is closest in meaning to",
+      "options": [
+        "thrown away",
+        "taken from",
+        "collected from",
+        "pulled out",
+        "put into"
+      ],
+      "correctAnswer": "thrown away",
+      "explanation": null
+    },
+    {
+      "text": "The word \"disorders\" in paragraph 2 can best be replaced by ...",
+      "options": [
+        "abnormalities",
+        "troubles",
+        "disturbances",
+        "difficulties",
+        "irregularities"
+      ],
+      "correctAnswer": "disturbances",
+      "explanation": null
+    },
+    {
+      "text": "Which of the following is closest in meaning to \"stern\" in paragraph 1?",
+      "options": [
+        "uncompromising",
+        "strict",
+        "frightening",
+        "lenient",
+        "ruthless"
+      ],
+      "correctAnswer": "strict",
+      "explanation": null
+    },
+    {
+      "text": "According to the passage, which of the following best describes the word \"bullying\" in paragraph 1?",
+      "options": [
+        "nuisance",
+        "unfairness",
+        "intimidation",
+        "verbal abuse",
+        "insults"
+      ],
+      "correctAnswer": "intimidation",
+      "explanation": null
+    },
+    {
+      "text": "In paragraph 2, the word \"regard\" could best be replaced by",
+      "options": [
+        "consider",
+        "ignore",
+        "doubt",
+        "conclude",
+        "presume"
+      ],
+      "correctAnswer": "consider",
+      "explanation": null
+    },
+    {
+      "text": "Which of the following has the same meaning as the word \"acknowledged\" in paragraph 3?",
+      "options": [
+        "denied",
+        "allowed",
+        "knew",
+        "recognized",
+        "admitted"
+      ],
+      "correctAnswer": "admitted",
+      "explanation": null
+    }
+  ]
+}

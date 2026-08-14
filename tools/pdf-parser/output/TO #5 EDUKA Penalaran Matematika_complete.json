@@ -1,0 +1,242 @@
+{
+  "questions": [
+    {
+      "text": "Perhatikan gambar berikut. Daerah yang diarsir menyatakan himpunan ...",
+      "options": [
+        "A \\cap (B \\cup C)",
+        "A \\cup (B \\cap C)",
+        "(A \\cup C) - B",
+        "(A \\cap B) - C",
+        "A - (B \\cap C)"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Daerah yang diarsir adalah irisan antara himpunan A dan B, kemudian dikurangi dengan himpunan C, sehingga dinotasikan sebagai (A \\cap B) - C."
+    },
+    {
+      "text": "Buwhan membeli 30 bungkus cemilan dari toserba di sekitar rumahnya. Kemudian, sesampai dirumah ternyata ada tiga orang teman Buwhan sedang berkunjung. Akhirnya Buwhan memberikan cemilan tersebut dan menyisakannya sebanyak 18 bungkus. Berapa bungkus cemilan yang diberikan kepada ketiga teman Buwhan?",
+      "options": [
+        "12",
+        "18",
+        "20",
+        "4",
+        "6"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Jumlah awal = 30 bungkus. Sisa = 18 bungkus. Banyak cemilan yang diberikan = 30 - 18 = 12 bungkus."
+    },
+    {
+      "text": "Luas daerah yang berwarna pink pada gambar di bawah ini adalah ...",
+      "options": [
+        "16 \\text{ cm}^2",
+        "64 \\text{ cm}^2",
+        "70 \\text{ cm}^2",
+        "72 \\text{ cm}^2",
+        "80 \\text{ cm}^2"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Luas daerah pink dihitung dari dimensi persegi panjang dan persegi yang diberikan pada gambar."
+    },
+    {
+      "text": "Manakah dibawah ini yang merupakan macam-macam persamaan peluang kejadian majemuk? \\n(1) Peluang gabungan dua kejadian saling beririsan \\rightarrow p(A \\cup B) = p(A) + p(B) + p(A \\cap B) \\n(2) Peluang dua kejadian saling bebas \\rightarrow p(A \\cap B) = p(A) + p(B) \\n(3) Peluang gabungan dua kejadian saling lepas \\rightarrow p(A \\cup B) = p(A) - p(B) \\n(4) Peluang gabungan dua kejadian saling beririsan \\rightarrow p(A \\cup B) = p(A) + p(B) - p(A \\cap B)",
+      "options": [
+        "(1), (2), dan (3)",
+        "(1) dan (3)",
+        "(2) dan (4)",
+        "(4)",
+        "Semua Benar"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Rumus peluang kejadian majemuk yang benar dan sesuai adalah (4) p(A \\cup B) = p(A) + p(B) - p(A \\cap B)."
+    },
+    {
+      "text": "Hasil pengurangan \\frac{2x - 2y}{4} oleh \\frac{3y - 3x}{2} adalah ...",
+      "options": [
+        "2y - 2x",
+        "2x - 2y",
+        "2x + 2y",
+        "y - x",
+        "x - y"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Penyederhanaan dan pengurangan aljabar menghasilkan 2x + 2y."
+    },
+    {
+      "text": "Fungsi R didefinisikan oleh R(a \\oplus b \\otimes c \\odot d) = -d + c : (-b) - 2a. Nilai dari R(3 \\oplus 2 \\otimes 6 \\odot 4) adalah ...",
+      "options": [
+        "-13",
+        "-10",
+        "-7",
+        "-4",
+        "6"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Substitusi nilai a=3, b=2, c=6, d=4 ke dalam definisi fungsi R memberikan hasil -13."
+    },
+    {
+      "text": "Misalkan x, y, dan z menyatakan bilangan real yang memenuhi persamaan x + 2y + 3z = 10. Berapakah nilai x? Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut. \\n(1) z = 1 \\n(2) x + y = 5",
+      "options": [
+        "Pernyataan (1) saja cukup untuk menjawab pertanyaan, tetapi pernyataan (2) saja tidak cukup",
+        "Pernyataan (2) saja cukup untuk menjawab pertanyaan, tetapi pernyataan (1) saja tidak cukup",
+        "Dua pernyataan bersama-sama cukup untuk menjawab pertanyaan, tetapi satu saja tidak cukup",
+        "Pernyataan (1) atau (2) saja cukup untuk menjawab pertanyaan",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Dibutuhkan kedua persamaan (1) dan (2) secara bersama-sama untuk mendapatkan nilai x secara unik."
+    },
+    {
+      "text": "Jika x + y = 14 dan 2(x - y) = 4. Maka nilai dari \\frac{x^2 - y^2}{4x + 4y} adalah ...",
+      "options": [
+        "0",
+        "\\frac{1}{8}",
+        "\\frac{1}{4}",
+        "\\frac{1}{2}",
+        "2 \\frac{1}{4}"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Dengan memfaktorkan pembilang dan menyederhanakan penyebut, diperoleh nilai \\frac{1}{2}."
+    },
+    {
+      "text": "Misalkan, f(x) = 2x + 1, untuk 0 < x < 1, dan x^2 + 1 untuk x yang lain. Berapakah nilai f(5) \\cdot f(-2) + f(\\frac{1}{2}) \\cdot f(4)?",
+      "options": [
+        "125",
+        "-164",
+        "164",
+        "130",
+        "-130"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Evaluasi fungsi berdasarkan interval nilai x yang dimasukkan lalu hitung operasinya."
+    },
+    {
+      "text": "Jika h(x^2) - 6h(x) = 4 dan h(x) = 2x + 1, maka hasil dari x_1 dan x_2 adalah ...",
+      "options": [
+        "-6",
+        "9/2",
+        "2",
+        "6",
+        "-9/2"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Substitusikan h(x) ke dalam persamaan dan selesaikan persamaan kuadrat yang terbentuk."
+    },
+    {
+      "text": "Banyaknya cara memilih 3 baju dari 10 baju yang ada untuk dipakai saat liburan adalah ...",
+      "options": [
+        "240",
+        "120",
+        "180",
+        "720",
+        "360"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Menggunakan kombinasi C(10, 3) = \\frac{10!}{3!7!} = 120."
+    },
+    {
+      "text": "Lima bilangan asli memiliki rata-rata dan median sama dengan 4. Manakah hubungan yang benar antara kuantitas P dan Q berikut berdasarkan informasi yang diberikan? \\nP: Selisih bilangan terbesar dan terkecil \\nQ: 10",
+      "options": [
+        "Kuantitas P lebih besar daripada kuantitas Q.",
+        "Kuantitas P lebih kecil daripada kuantitas Q",
+        "Kuantitas P sama dengan kuantitas Q",
+        "Informasi yang diberikan tidak cukup untuk memutuskan hubungan P dan Q"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Informasi yang diberikan belum cukup untuk menentukan selisih bilangan terbesar dan terkecil secara pasti."
+    },
+    {
+      "text": "Perhatikan gambar berikut! (Pilih notasi himpunan yang tepat sesuai arsiran kompleks pada soal)",
+      "options": [
+        "C \\cup (A \\cup B)^c \\cup (A \\cap B)^c",
+        "C \\cup (A \\cap B)^c \\cup (A \\cup B)^c",
+        "C \\cup (A \\cap B) \\cup (A \\cup B)^c",
+        "(C \\cup (A \\cap B)^c) \\cup (A \\cup B)",
+        "C \\cup (A \\cap B) \\cap (A \\cup B)^c"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Berdasarkan daerah arsiran pada diagram Venn yang kompleks."
+    },
+    {
+      "text": "Bilangan asli n bersisa 2 jika dibagi 7 dan bersisa 3 jika dibagi 4. Diantara bilangan berikut yang mungkin merupakan nilai n adalah ... \\n① 23 \\n② 51 \\n③ 79 \\n④ 87",
+      "options": [
+        "(1), (2), dan (3) SAJA yang benar",
+        "(1) dan (3) SAJA yang benar",
+        "(2) dan (4) SAJA yang benar",
+        "HANYA (4) SAJA yang benar",
+        "SEMUA pilihan benar"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Bilangan yang memenuhi adalah bilangan dengan bentuk KPK(7, 4)k + sisa khusus."
+    },
+    {
+      "text": "Diketahui sebuah segitiga siku-siku ABC. Panjang alasnya bertambah 20% sedangkan tingginya berkurang 10%. Kesimpulan apa yang bisa kamu peroleh?",
+      "options": [
+        "Luas daerahnya tetap",
+        "Luas daerahnya bertambah 54%",
+        "Luas daerahnya berkurang 46%",
+        "Luas daerahnya bertambah 8%",
+        "Luas daerahnya berkurang 5%"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Luas baru = 1.2 \\times 0.9 = 1.08 dari luas awal, artinya bertambah 8%."
+    },
+    {
+      "text": "Koordinat titik balik fungsi f(x) = x^2 + 2x - 3 adalah ...",
+      "options": [
+        "(-1, -4)",
+        "(1, 4)",
+        "(1, 5)",
+        "(-1, 3)",
+        "(-1, -4) (opsi duplikat/koreksi)"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Titik balik x = -b/(2a) = -2/2 = -1, dan f(-1) = (-1)^2 + 2(-1) - 3 = -4."
+    },
+    {
+      "text": "Diketahui beberapa himpunan: A = {x | 1 < x < 12, x \\in \\mathbb{Z}}, B = {x | -4 \\le x < 4, x \\text{ habis dibagi } 2 \\text{ dan } x \\in \\mathbb{Z}}, C = {x | 0 < x \\le 12, x \\in \\text{Prima dan } x \\in \\mathbb{Z}}. Tentukan hubungan P dan Q jika P = \\text{Bilangan kardinal dari } \\{A \\cap (C - B)\\} dan Q = 5.",
+      "options": [
+        "P > Q",
+        "Q > P",
+        "P = Q",
+        "Hubungan P dan Q tidak dapat ditentukan"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Dihitung anggota himpunan dan kardinalitasnya bernilai sama dengan 5."
+    },
+    {
+      "text": "Pada suatu hari, Hana diberikan tugas oleh guru matematikanya. Dia memperhatikannya terus dan mencoba mengerjakannya, soalnya seperti berikut: 1 + 5 + 12 + 22 + 35 + ... Hana ingin mencari selisih dari suku ke-10 dan suku ke-11, lalu dia mendapatkan x. Maka berapakah nilai dari x tersebut?",
+      "options": [
+        "3",
+        "27",
+        "28",
+        "31",
+        "34"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Pola deret bertingkat menghasilkan selisih suku ke-11 dan ke-10 sebesar 34."
+    },
+    {
+      "text": "Pak Tom memiliki 7 kelereng di kantongnya dengan 3 warna merah, 2 warna biru dan 2 warna hijau. Jika Pak Tom akan memberikan 1 kelereng untuk Cruise kemudian 1 kelereng untuk Jerry, maka peluang Cruise dan Jerry mendapatkan kelereng sama-sama berwarna merah adalah ...",
+      "options": [
+        "\\frac{39}{42}",
+        "\\frac{9}{42}",
+        "\\frac{6}{42}",
+        "\\frac{9}{49}",
+        "\\frac{6}{49}"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Peluang = \\frac{3}{7} \\times \\frac{2}{6} = \\frac{6}{42}."
+    },
+    {
+      "text": "Mio, Yui, Ritsu, dan Mugi sedang berdiskusi mengenai kemungkinan perpotongan dua garis berbeda. Pernyataan siapakah yang benar?",
+      "options": [
+        "Mio",
+        "Yui",
+        "Ritsu",
+        "Mugi",
+        "Tidak ada yang benar"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Dua garis berbeda dapat berpotongan di nol titik (jika sejajar) atau satu titik (jika berpotongan), sehingga pernyataan Mio yang benar."
+    }
+  ]
+}

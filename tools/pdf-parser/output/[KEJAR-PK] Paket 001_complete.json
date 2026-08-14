@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "text": "Diberikan dua persamaan garis $ax + by = 12$ dan $ax + by = 18$ masing – masing melewati titik $(1,1)$ dan $(2,3)$. Cari nilai $a + b = \\dots$",
+      "options": [
+        "20",
+        "18",
+        "16",
+        "12",
+        "8"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perhatikan grafik berikut! Daerah yang di arsir dapat direpresentasikan sebagai ...",
+      "options": [
+        "$A \\cup B \\cap C$",
+        "$(A \\cap C) - B$",
+        "$A \\cap B \\cap C$",
+        "$(A \\cup B) - C$",
+        "$A \\cup B \\cup C$"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "$(\\frac{1}{\\sqrt{13}} + \\frac{1}{\\sqrt{13}})^2 = \\dots$",
+      "options": [
+        "\\frac{1}{169}",
+        "\\frac{1}{52}",
+        "\\frac{4}{13}",
+        "\\frac{1}{26}",
+        "\\frac{4}{\\sqrt{13}}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Nilai $x$ yang diperbolehkan dari $\\frac{2}{10 - x}$ adalah ...",
+      "options": [
+        "x > 0",
+        "x < 20",
+        "0 < x < 20",
+        "x = 10",
+        "x < 10 dan x > 10"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Operasi $@$ pada himpunan bilangan bulat didefinisikan dengan aturan $a@b = ax + by - 5$, jika $1@2 = 5$ dan $2@3 = 9$, berapa kuantitas $x = \\dots$",
+      "options": [
+        "6",
+        "4",
+        "2",
+        "0",
+        "-2"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapakah besaran presentase simpanan pendapatan Erwin setiap bulannya?\n1) Pendapatan Erwin sebesar Rp8.000.000\n2) Tabungan Erwin selama 10 bulan adalah Rp8.000.000",
+      "options": [
+        "pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi (1) SAJA tidak cukup",
+        "dua pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berapakah nilai dari 1/3 dari x?\n1) 1/5 dari x adalah adalah 9\n2) 1/9 dari x adalah 5",
+      "options": [
+        "pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+        "pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi (1) SAJA tidak cukup",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+        "pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $\\frac{1}{8} + \\frac{1}{4} = n$, maka $n = \\dots$",
+      "options": [
+        "0,450",
+        "0,375",
+        "0,250",
+        "0,490",
+        "0,550"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Armi melempar sebuah mata uang logam sebanyak 200 kali. Muncul sisi angka sebanyak 120 kali. Berdasarkan data di atas, tentukan hubungan kuantitas P dan Q berikut! (P = Frekuensi munculnya angka, Q = Frekuensi munculnya huruf)",
+      "options": [
+        "P > Q",
+        "Q > P",
+        "P = Q",
+        "Informasi yang diberikan tidak cukup untuk menentukan hubungan P dan Q",
+        "2P < Q"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jarak lompatan seorang atlet tercatat 7,7; 6,8; 6,5; 8,0; 8,5. Berapa mediannya?",
+      "options": [
+        "6,5",
+        "6,8",
+        "7,7",
+        "8,0",
+        "8,5"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika $x, 2x, 3x$ adalah sudut dari segitiga dan $y$ adalah setengah dari salah satu sudut persegi panjang maka pernyataan manakah yang benar.\n1) Sudut terbesar segitiga tersebut adalah 90°\n2) $y > 2x$\n3) $y = 45°$\n4) $3x > y$",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Perbandingan sisi miring dan salah satu sisi dari segitiga siku-siku adalah 5 : 3. Jika keliling segitiga tersebut adalah 36 cm. Manakah pernyataan yang benar?\n1) Panjang sisi miringnya adalah 15 cm\n2) Panjang sisi terpendeknya adalah 9 cm\n3) Panjang sisi siku lainnya adalah 12 cm\n4) Luas segitiga tersebut adalah 54 cm²",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Jika a + b = 40. Manakah pertanyaan di bawah ini yang benar?\n1) Hasil kali minimumnya adalah 39\n2) Hasil kali minimumnya adalah 0\n3) Hasil kali maksimumnya adalah 399\n4) Hasil kali maksimumnya adalah 400",
+      "options": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah diantara pilihan dibawah ini yang merupakan hasil kali dari dua buah bilangan bulat genap berurutan?",
+      "options": [
+        "22",
+        "36",
+        "48",
+        "60",
+        "72"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pada sebuah pabrik Masker, setiap x orang dapat menghasilkan y produk masker setiap z menit. Jika setiap orang bekerja, berapa jam diperlukan untuk menghasilkan 1.000 produk masker?",
+      "options": [
+        "\\frac{1.000z}{60xy}",
+        "\\frac{1.000xy}{60z}",
+        "\\frac{1.000xy}{60z}",
+        "\\frac{60xy}{1.000z}",
+        "\\frac{60yz}{1.000x}"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "questions": [
+    {
+      "text": "Makna kata yang bercetak miring pada kalimat di atas \"menggeleng-gelengkan\" sama dengan makna kata pada kalimat...?",
+      "options": [
+        "Buah-buahan segar sangat baik untuk kesehatan",
+        "Sedua pihak tarik-menarik dalam perlombaan itu.",
+        "Foto dilakukan secara berdua-dua dalam ruangan itu.",
+        "Aku hanya bisa mengangguk-anggukkan kepala mendengarkan ceritanya.",
+        "Pejabat itu membawa-bawa anaknya."
+      ],
+      "correctAnswer": "Aku hanya bisa mengangguk-anggukkan kepala mendengarkan ceritanya.",
+      "explanation": "Kata 'menggeleng-gelengkan' menunjukkan pengulangan tindakan yang berkaitan dengan gerakan kepala, yang serupa dengan 'mengangguk-anggukkan'."
+    },
+    {
+      "text": "Apa makna gramatikal dari kata membaca dalam kalimat tersebut?…",
+      "options": [
+        "Melihat sesuatu dengan cepat",
+        "Memahami informasi dari tulisan",
+        "Menyusun buku menjadi lebih rapi",
+        "Mengabaikan informasi yang ada",
+        "Menulis informasi baru"
+      ],
+      "correctAnswer": "Memahami informasi dari tulisan",
+      "explanation": "Makna gramatikal kata 'membaca' dalam konteks belajar atau persiapan ujian adalah proses memahami isi atau informasi yang terkandung dalam tulisan."
+    },
+    {
+      "text": "Kalimat manakah yang imbuhannya bermakna ‘mempunyai’ adalah…?",
+      "options": [
+        "Ayah memiliki rumah yang sangat besar di pinggir kota.",
+        "Dia menemukan solusi untuk masalah tersebut.",
+        "Saya memikirkan cara terbaik untuk menyelesaikan tugas ini.",
+        "Kami sedang mencari informasi lebih lanjut tentang acara tersebut.",
+        "Ibu membeli bahan makanan untuk persiapan pesta."
+      ],
+      "correctAnswer": "Ayah memiliki rumah yang sangat besar di pinggir kota.",
+      "explanation": "Kata 'memiliki' berasal dari dasar 'milik' dengan awalan 'me-' yang menyatakan makna 'mempunyai'."
+    },
+    {
+      "text": "Manakah yang mengandung hubungan hipernim dan hiponim yang tepat…?",
+      "options": [
+        "Mobil → sepeda, motor, dan truk",
+        "Pesawat → pramugari, pilot, dan penumpang",
+        "Rumah → ayah, ibu, dan anak",
+        "Hewan peliharaan → kucing, anjing, dan ikan hias",
+        "Gedung → rumah sakit, jembatan, dan sekolah"
+      ],
+      "correctAnswer": "Hewan peliharaan → kucing, anjing, dan ikan hias",
+      "explanation": "Hipernim adalah kata umum (hewan peliharaan) yang mencakup kata khusus atau hiponim (kucing, anjing, dan ikan hias)."
+    },
+    {
+      "text": "Makna bertingkat pada kata paus dalam bacaan di atas adalah…?",
+      "options": [
+        "ovipar",
+        "omnivora",
+        "amfibi",
+        "mamalia",
+        "hewan"
+      ],
+      "correctAnswer": "mamalia",
+      "explanation": "Paus biru digolongkan secara spesifik sebagai mamalia laut di dalam teks."
+    },
+    {
+      "text": "Kata “nutrisi” pada kalimat (1) memiliki hubungan hierarkis dengan kata…",
+      "options": [
+        "Makanan",
+        "Energi",
+        "Karbohidrat",
+        "Kandungan",
+        "Kesehatan"
+      ],
+      "correctAnswer": "Karbohidrat",
+      "explanation": "Karbohidrat merupakan bagian dari kelompok atau jenis nutrisi, sehingga memiliki hubungan hierarkis."
+    },
+    {
+      "text": "Kata “kategori” pada kalimat (2) dapat digantikan dengan kata …",
+      "options": [
+        "Jenis",
+        "Manfaat",
+        "Fungsi",
+        "Tujuan",
+        "Sumber"
+      ],
+      "correctAnswer": "Jenis",
+      "explanation": "Kata 'kategori' di sini bermakna pengelompokan atau jenis utama dari nutrisi."
+    },
+    {
+      "text": "Frasa memperbaiki dan pertumbuhan sel tubuh pada kalimat (4) dapat diperbaiki menjadi …",
+      "options": [
+        "memperbaiki dan bertumbuh sel tubuh",
+        "perbaikan dan menumbuhkan sel tubuh",
+        "perbaikan dan pertumbuhan sel tubuh.",
+        "diperbaiki dan pertumbuhan sel tubuh",
+        "perbaikan dan ditumbuhkan sel tubuh."
+      ],
+      "correctAnswer": "perbaikan dan pertumbuhan sel tubuh.",
+      "explanation": "Frasa harus dibuat sejajar bentuknya (paralelisasi), yakni bentuk nomina 'perbaikan' dan 'pertumbuhan'."
+    },
+    {
+      "text": "Majas personifikasi terdapat pada kalimat…",
+      "options": [
+        "Dia bekerja keras, dia berdoa keras, dia berusaha keras.",
+        "Dia sudah berpulang ke rahmatullah.",
+        "Saya hanya sedikit mencintaimu.",
+        "Aku sudah menunggu seratus tahun.",
+        "Pohon-pohon itu berdiri tegak, berbaris dengan rapi di sepanjang jalan."
+      ],
+      "correctAnswer": "Pohon-pohon itu berdiri tegak, berbaris dengan rapi di sepanjang jalan.",
+      "explanation": "Majas personifikasi adalah gaya bahasa yang melekatkan sifat-sifat manusia kepada benda mati, seperti pohon yang 'berbaris'."
+    },
+    {
+      "text": "Makna imbuhan ter- pada kalimat \"Dia tergoda untuk membeli barang itu\" sama dengan makna imbuhan ter- pada kalimat …?",
+      "options": [
+        "Mobil itu terparkir di tempat yang salah.",
+        "Mereka terlatih untuk bekerja dalam tim.",
+        "Kucing itu terjerat di pagar kawat.",
+        "Dia terdiam melihat hasil ujian."
+      ],
+      "correctAnswer": "Kucing itu terjerat di pagar kawat.",
+      "explanation": "Imbuhan ter- pada 'tergoda' dan 'terjerat' menyatakan makna tidak sengaja atau dikenai suatu hal secara tak terduga."
+    },
+    {
+      "text": "Kata “galat” memiliki beberapa makna, kecuali…",
+      "options": [
+        "Ketidaktepatan",
+        "Kekeliruan",
+        "Kesalahan",
+        "Kecacatan",
+        "Kehati-hatian"
+      ],
+      "correctAnswer": "Kehati-hatian",
+      "explanation": "Galat bersinonim dengan kesalahan, kekeliruan, atau ketidaktepatan, bukan kehati-hatian."
+    },
+    {
+      "text": "Kalimat manakah yang tidak mengandung makna konotasi…",
+      "options": [
+        "Hidupnya seperti roda yang terus berputar.",
+        "Angin malam itu seakan-akan menyanyikan lagu kesedihan.",
+        "Buku itu ada di atas meja belajar.",
+        "Harapannya mulai pudar seperti lilin yang ditiup angin.",
+        "Hatinya sekeras batu, tak mudah luluh oleh bujukan."
+      ],
+      "correctAnswer": "Buku itu ada di atas meja belajar.",
+      "explanation": "Kalimat tersebut menggunakan makna denotatif (sebenarnya) tanpa ada hiasan kiasan atau konotasi."
+    },
+    {
+      "text": "Persamaan kata “respons” pada teks di atas adalah…",
+      "options": [
+        "akibat",
+        "tindakan",
+        "perhatian",
+        "bantuan",
+        "reaksi"
+      ],
+      "correctAnswer": "reaksi",
+      "explanation": "Respons memiliki arti yang paling dekat dengan reaksi atau tanggapan."
+    },
+    {
+      "text": "Antonim dari kata \"skeptis\" pada kalimat (1) adalah....",
+      "options": [
+        "Percaya",
+        "Pasti",
+        "Optimis",
+        "Tenang",
+        "Nyata"
+      ],
+      "correctAnswer": "Optimis",
+      "explanation": "Skeptis berarti ragu-ragu atau kurang percaya, sehingga antonimnya yang paling tepat dalam konteks teks adalah optimis atau percaya."
+    },
+    {
+      "text": "Makna kata \"membuahkan\" pada kalimat (3) mengandung makna konotasi, yakni….",
+      "options": [
+        "Menanam pohon yang menghasilkan buah",
+        "Menciptakan sesuatu yang merugikan",
+        "Mengumpulkan sesuatu secara perlahan",
+        "Membeli sesuatu yang bernilai tinggi",
+        "Menghasilkan sesuatu yang bermanfaat"
+      ],
+      "correctAnswer": "Menghasilkan sesuatu yang bermanfaat",
+      "explanation": "Kata 'membuahkan hasil' bermakna kiasan menghasilkan suatu hal yang berguna atau bermanfaat dari sebuah proses."
+    }
+  ]
+}

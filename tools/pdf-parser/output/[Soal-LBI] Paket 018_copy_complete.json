@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Manakah pernyataan berikut yang benar berdasarkan teks?",
+      "options": [
+        "Hutan hujan Amazon hanya terdapat di Brasil",
+        "Deforestasi tidak berdampak pada keseimbangan ekosistem Amazon",
+        "Amazon disebut sebagai \"paru-paru Bumi\" karena menghasilkan oksigen dan menyerap karbon dioksida",
+        "Semua spesies yang ada di Amazon telah diidentifikasi oleh para ilmuwan",
+        "Tidak ada ancaman serius terhadap hutan Amazon saat ini"
+      ],
+      "correctAnswer": "Amazon disebut sebagai \"paru-paru Bumi\" karena menghasilkan oksigen dan menyerap karbon dioksida",
+      "explanation": "Teks menyatakan: 'Hutan hujan Amazon adalah ekosistem terbesar di dunia dan sering disebut sebagai \"paru-paru Bumi\" karena berperan penting dalam menghasilkan oksigen dan menyerap karbon dioksida.'"
+    },
+    {
+      "text": "Simpulan yang paling tepat berdasarkan teks adalah...",
+      "options": [
+        "Hutan hujan Amazon tidak memiliki peran penting bagi lingkungan global",
+        "Upaya perlindungan Amazon tidak diperlukan karena ekosistemnya tetap stabil",
+        "Amazon merupakan ekosistem yang kaya keanekaragaman hayati tetapi terancam oleh deforestasi",
+        "Semua negara sepakat untuk berhenti melakukan deforestasi di wilayah Amazon",
+        "Deforestasi di Amazon tidak akan berdampak pada generasi mendatang"
+      ],
+      "correctAnswer": "Amazon merupakan ekosistem yang kaya keanekaragaman hayati tetapi terancam oleh deforestasi",
+      "explanation": "Teks membahas bahwa Amazon adalah rumah bagi jutaan spesies tetapi menghadapi ancaman serius dari deforestasi dan perubahan iklim."
+    },
+    {
+      "text": "Apakah pengertian kata ajaib dalam teks di atas?",
+      "options": [
+        "Sesuatu yang biasa terjadi dalam kehidupan sehari-hari",
+        "Hal yang tidak masuk akal dan tidak dapat dipercaya",
+        "Sesuatu yang luar biasa dan memiliki kekuatan khusus",
+        "Benda yang berbahaya dan harus dihindari",
+        "Cermin yang hanya bisa digunakan oleh orang tertentu"
+      ],
+      "correctAnswer": "Sesuatu yang luar biasa dan memiliki kekuatan khusus",
+      "explanation": "Kata \"ajaib\" merujuk pada sesuatu yang luar biasa, tidak seperti biasanya, dan memiliki kekuatan khusus."
+    },
+    {
+      "text": "Apa yang dimaksud dengan menampilkan cahaya yang menenangkan dalam teks?",
+      "options": [
+        "Cermin memancarkan cahaya terang yang menyilaukan mata",
+        "Cahaya yang muncul dari cermin membuat orang merasa tenang dan damai",
+        "Cermin mengeluarkan kilatan petir yang menakutkan",
+        "Cermin mencerminkan gambar yang sangat gelap",
+        "Cahaya dari cermin hanya dapat dilihat oleh orang yang memiliki kekuatan sihir"
+      ],
+      "correctAnswer": "Cahaya yang muncul dari cermin membuat orang merasa tenang dan damai",
+      "explanation": "Kalimat tersebut mendeskripsikan reaksi cermin terhadap orang yang berhati tulus dengan menampilkan cahaya yang memberikan ketenangan."
+    },
+    {
+      "text": "Tema utama dalam cerita di atas adalah...",
+      "options": [
+        "Kesabaran dan kerja keras dalam menghadapi kesulitan",
+        "Keserakahan dapat membawa kehancuran",
+        "Persahabatan antara manusia dan makhluk laut",
+        "Pentingnya bekerja sama dalam keluarga",
+        "Keajaiban laut dan kehidupan di dalamnya"
+      ],
+      "correctAnswer": "Keserakahan dapat membawa kehancuran",
+      "explanation": "Cerita mengenai Bardo dan istrinya yang serakah menunjukkan bagaimana keserakahan istri Bardo akhirnya menghancurkan segala sesuatu yang telah diberikan."
+    },
+    {
+      "text": "Watak tokoh Bardo yang paling menonjol adalah...",
+      "options": [
+        "Tamak dan egois",
+        "Penakut dan lemah",
+        "Jujur dan sederhana",
+        "Licik dan penuh tipu muslihat",
+        "Ambisius dan haus kekuasaan"
+      ],
+      "correctAnswer": "Jujur dan sederhana",
+      "explanation": "Teks secara eksplisit menyatakan bahwa Bardo adalah orang yang jujur dan selalu bersyukur meskipun hidupnya sederhana."
+    },
+    {
+      "text": "Manakah pernyataan berikut yang salah berdasarkan teks?",
+      "options": [
+        "Bardo menemukan seekor ikan emas yang dapat berbicara",
+        "Bardo awalnya tidak meminta apa pun kepada ikan emas",
+        "Istri Bardo meminta kekayaan, kekuasaan, dan ingin menjadi ratu laut",
+        "Ikan emas tetap mengabulkan semua permintaan istri Bardo tanpa konsekuensi apa pun",
+        "Setelah ikan emas menghilang, Bardo dan istrinya kembali hidup sederhana"
+      ],
+      "correctAnswer": "Ikan emas tetap mengabulkan semua permintaan istri Bardo tanpa konsekuensi apa pun",
+      "explanation": "Pernyataan ini salah karena ikan emas akhirnya marah dan menghilangkan semua yang telah diberikan akibat permintaan terakhir yang terlalu serakah."
+    },
+    {
+      "text": "Simpulan yang paling tepat berdasarkan teks adalah...",
+      "options": [
+        "Orang yang selalu bersyukur akan mendapatkan lebih banyak kekayaan",
+        "Keserakahan dapat berujung pada kehilangan segalanya",
+        "Semua orang memiliki kesempatan untuk menjadi kaya jika mereka meminta dengan baik",
+        "Tidak ada yang bisa mengubah nasib, bahkan dengan keajaiban",
+        "Jika seseorang memiliki keberanian, ia bisa mendapatkan segala yang diinginkannya"
+      ],
+      "correctAnswer": "Keserakahan dapat berujung pada kehilangan segalanya",
+      "explanation": "Pesan moral dari cerita fabel ini adalah keserakahan akan berujung pada hilangnya seluruh pemberian."
+    },
+    {
+      "text": "Ide pokok dari teks di atas adalah...",
+      "options": [
+        "Atlantis adalah kota bawah laut yang penuh misteri",
+        "Banyak ekspedisi yang dilakukan untuk mencari Atlantis",
+        "Atlantis adalah mitos yang dibuat oleh Plato",
+        "Atlantis tenggelam karena letusan gunung berapi",
+        "Teknologi Atlantis lebih maju dibandingkan peradaban lain"
+      ],
+      "correctAnswer": "Banyak ekspedisi yang dilakukan untuk mencari Atlantis",
+      "explanation": "Teks membahas peradaban Atlantis, berbagai teori tentang keberadaannya, serta upaya ekspedisi yang dilakukan orang-orang untuk mencarinya."
+    },
+    {
+      "text": "Manakah pernyataan berikut yang benar berdasarkan teks?",
+      "options": [
+        "Plato menemukan Atlantis dan mendokumentasikan semua peninggalannya",
+        "Semua ilmuwan percaya bahwa Atlantis ada di Laut Mediterania",
+        "Atlantis dikatakan tenggelam dalam satu malam karena bencana besar",
+        "Para arkeolog telah menemukan bukti nyata keberadaan Atlantis",
+        "Atlantis adalah satu-satunya peradaban maju di zaman kuno"
+      ],
+      "correctAnswer": "Atlantis dikatakan tenggelam dalam satu malam karena bencana besar",
+      "explanation": "Teks menyebutkan: \"Namun, dalam satu malam yang tragis, bencana besar menenggelamkan kota tersebut.\""
+    },
+    {
+      "text": "Apa makna kata mitos dalam teks?",
+      "options": [
+        "Kisah yang memiliki bukti sejarah yang kuat",
+        "Cerita yang diwariskan turun-temurun dan belum tentu benar",
+        "Fakta ilmiah yang dapat dibuktikan dengan penelitian",
+        "Sebuah teori yang telah terbukti kebenarannya",
+        "Catatan sejarah yang ditemukan dalam dokumen kuno"
+      ],
+      "correctAnswer": "Cerita yang diwariskan turun-temurun dan belum tentu benar",
+      "explanation": "Mitos adalah cerita tradisional atau legenda yang sering kali tidak memiliki bukti ilmiah atau faktual yang nyata."
+    },
+    {
+      "text": "Manakah pernyataan berikut yang benar berdasarkan teks?",
+      "options": [
+        "Para ilmuwan telah menemukan lokasi pasti dari Atlantis",
+        "Atlantis tenggelam karena serangan pasukan musuh",
+        "Legenda Atlantis masih menarik perhatian banyak orang hingga kini",
+        "Tidak ada yang percaya bahwa Atlantis pernah ada",
+        "Atlantis ditemukan di Pulau Santorini dan telah diteliti secara menyeluruh"
+      ],
+      "correctAnswer": "Legenda Atlantis masih menarik perhatian banyak orang hingga kini",
+      "explanation": "Teks menyatakan: \"Meskipun belum ditemukan bukti nyata, legenda Atlantis tetap menarik perhatian banyak orang.\""
+    },
+    {
+      "text": "Amanat yang terkandung dalam puisi tersebut adalah...",
+      "options": [
+        "Kenangan dari masa lalu tidak boleh dilupakan",
+        "Hidup harus dijalani dengan penuh kesedihan",
+        "Setiap akhir adalah awal yang baru, maka jangan menyerah",
+        "Malam lebih indah daripada siang karena memberikan ketenangan",
+        "Masa lalu lebih berharga dibandingkan masa depan"
+      ],
+      "correctAnswer": "Setiap akhir adalah awal yang baru, maka jangan menyerah",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang benar berdasarkan puisi?",
+      "options": [
+        "Matahari digambarkan sebagai simbol kenangan dalam puisi ini",
+        "Angin dalam puisi melambangkan kebahagiaan yang terus tumbuh",
+        "Puisi ini hanya berisi tentang kesedihan tanpa harapan",
+        "Malam dalam puisi melambangkan kesengsaraan yang abadi",
+        "Puisi ini menunjukkan bahwa masa lalu lebih berharga daripada masa depan"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"fenomena\" dalam teks adalah...",
+      "options": [
+        "Kejadian luar biasa yang sulit dijelaskan",
+        "Peristiwa alami yang dapat diamati",
+        "Cahaya yang muncul pada malam hari",
+        "Efek visual yang diciptakan manusia",
+        "Ledakan besar yang terjadi di langit"
+      ],
+      "correctAnswer": "Peristiwa alami yang dapat diamati",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang benar berdasarkan teks?",
+      "options": [
+        "Aurora hanya dapat dilihat di Kutub Utara",
+        "Aurora terbentuk akibat interaksi antara partikel matahari dan atmosfer bumi",
+        "Semua negara di dunia dapat melihat aurora dengan jelas",
+        "Aurora diciptakan oleh manusia untuk keperluan hiburan",
+        "Aurora tidak berdampak pada sistem komunikasi atau navigasi"
+      ],
+      "correctAnswer": "Aurora terbentuk akibat interaksi antara partikel matahari dan atmosfer bumi",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang menyebabkan aurora memiliki warna yang berbeda-beda?",
+      "options": [
+        "Pantulan cahaya dari laut di sekitar kutub",
+        "Efek dari perubahan cuaca di daerah kutub",
+        "Jenis partikel dan gas di atmosfer yang bereaksi dengan partikel matahari",
+        "Radiasi matahari yang membakar lapisan atmosfer bumi",
+        "Pencampuran warna dari matahari yang mengenai awan di langit"
+      ],
+      "correctAnswer": "Jenis partikel dan gas di atmosfer yang bereaksi dengan partikel matahari",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa orang-orang dari seluruh dunia tertarik untuk melihat aurora?",
+      "options": [
+        "Aurora hanya terjadi sekali dalam 100 tahun",
+        "Warna-warna aurora sangat unik dan jarang ditemukan di alam",
+        "Aurora menghasilkan suara khas yang bisa didengar dari kejauhan",
+        "Aurora dipercaya sebagai tanda akan datangnya bencana besar",
+        "Aurora memiliki energi yang bisa dimanfaatkan sebagai sumber listrik"
+      ],
+      "correctAnswer": "Warna-warna aurora sangat unik dan jarang ditemukan di alam",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"pemutihan\" dalam teks adalah...",
+      "options": [
+        "Proses perubahan warna karang menjadi putih akibat kehilangan alga simbion",
+        "Upaya manusia dalam membersihkan terumbu karang dari kotoran",
+        "Fenomena ketika karang berubah warna karena tertutup pasir laut",
+        "Proses alami yang terjadi pada semua jenis terumbu karang setiap tahun",
+        "Perubahan warna karang akibat polusi udara di sekitar laut"
+      ],
+      "correctAnswer": "Proses perubahan warna karang menjadi putih akibat kehilangan alga simbion",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang benar berdasarkan teks?",
+      "options": [
+        "Terumbu karang hanya berfungsi sebagai tempat tinggal bagi ikan",
+        "Suhu air laut yang meningkat dapat menyebabkan pemutihan karang",
+        "Terumbu karang dapat bertahan hidup tanpa adanya alga simbion",
+        "Penangkapan ikan tidak berpengaruh pada kelangsungan hidup terumbu karang",
+        "Terumbu karang terbentuk dari fosil hewan laut yang sudah mati"
+      ],
+      "correctAnswer": "Suhu air laut yang meningkat dapat menyebabkan pemutihan karang",
+      "explanation": null
+    },
+    {
+      "text": "Apa dampak dari hilangnya terumbu karang bagi ekosistem laut?",
+      "options": [
+        "Tidak ada dampak signifikan karena laut memiliki banyak ekosistem lain",
+        "Mengurangi populasi ikan dan mengganggu keseimbangan ekosistem laut",
+        "Meningkatkan jumlah plankton di laut sehingga membuat laut lebih bersih",
+        "Membantu mempercepat regenerasi ikan di perairan dangkal",
+        "Membantu mencegah pencemaran laut akibat aktivitas manusia"
+      ],
+      "correctAnswer": "Mengurangi populasi ikan dan mengganggu keseimbangan ekosistem laut",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa konservasi terumbu karang sangat penting?",
+      "options": [
+        "Agar manusia bisa mengambil terumbu karang untuk bahan bangunan",
+        "Karena terumbu karang merupakan satu-satunya ekosistem di laut",
+        "Untuk menjaga keseimbangan ekosistem laut dan melindungi habitat ikan",
+        "Supaya nelayan dapat menangkap ikan lebih banyak dalam waktu singkat",
+        "Agar semua pantai memiliki warna air laut yang lebih biru"
+      ],
+      "correctAnswer": "Untuk menjaga keseimbangan ekosistem laut dan melindungi habitat ikan",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"deforestasi\" dalam teks adalah...",
+      "options": [
+        "Proses penghijauan kembali hutan yang telah rusak",
+        "Upaya melindungi hutan dari kerusakan akibat aktivitas manusia",
+        "Penggundulan hutan akibat aktivitas manusia seperti perkebunan dan penebangan liar",
+        "Penyebaran spesies tumbuhan dan hewan ke daerah hutan yang baru",
+        "Proses alami yang menyebabkan pohon-pohon di hutan mati secara bertahap"
+      ],
+      "correctAnswer": "Penggundulan hutan akibat aktivitas manusia seperti perkebunan dan penebangan liar",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang benar berdasarkan teks?",
+      "options": [
+        "Hutan hujan tropis hanya ditemukan di wilayah Asia Tenggara",
+        "Deforestasi berdampak positif bagi lingkungan karena memperluas lahan pertanian",
+        "Hutan hujan tropis membantu mengurangi karbon dioksida di atmosfer",
+        "Reboisasi adalah penyebab utama hilangnya keanekaragaman hayati di hutan hujan tropis",
+        "Hutan hujan tropis tidak memiliki peran dalam mencegah bencana alam"
+      ],
+      "correctAnswer": "Hutan hujan tropis membantu mengurangi karbon dioksida di atmosfer",
+      "explanation": null
+    },
+    {
+      "text": "Apa dampak utama deforestasi terhadap ekosistem?",
+      "options": [
+        "Meningkatkan populasi satwa liar di hutan karena habitatnya semakin luas",
+        "Mengurangi jumlah karbon dioksida di atmosfer sehingga suhu bumi menurun",
+        "Menyebabkan banyak spesies kehilangan habitatnya dan mengganggu keseimbangan ekosistem",
+        "Meningkatkan pertumbuhan tanaman liar yang lebih kuat dibandingkan pohon hutan",
+        "Membantu menjaga kestabilan iklim global dan mempercepat pertumbuhan hutan baru"
+      ],
+      "correctAnswer": "Menyebabkan banyak spesies kehilangan habitatnya dan mengganggu keseimbangan ekosistem",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang dapat dilakukan untuk mengatasi masalah deforestasi?",
+      "options": [
+        "Membiarkan masyarakat membuka lahan hutan tanpa aturan yang jelas",
+        "Melakukan penebangan pohon secara besar-besaran untuk keperluan industri",
+        "Meningkatkan program konservasi seperti reboisasi dan edukasi masyarakat",
+        "Menghentikan semua aktivitas pertanian dan perkebunan di sekitar hutan",
+        "Membakar hutan secara berkala agar pertumbuhan pohon baru lebih cepat"
+      ],
+      "correctAnswer": "Meningkatkan program konservasi seperti reboisasi dan edukasi masyarakat",
+      "explanation": null
+    },
+    {
+      "text": "Makna kata \"terisolasi\" dalam teks adalah...",
+      "options": [
+        "Terhubung dengan wilayah lain secara langsung",
+        "Tersembunyi di dalam hutan yang lebat",
+        "Terpisah dari daerah lain tanpa interaksi langsung",
+        "Terancam punah akibat aktivitas manusia",
+        "Terpapar bahaya lingkungan yang ekstrem"
+      ],
+      "correctAnswer": "Terpisah dari daerah lain tanpa interaksi langsung",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang benar berdasarkan teks?",
+      "options": [
+        "Pulau Ular adalah satu-satunya tempat di dunia yang dihuni oleh golden lancehead viper",
+        "Pemerintah Brasil mengizinkan wisatawan mengunjungi Pulau Ular tanpa batasan",
+        "Golden lancehead viper memiliki bisa yang lebih lemah dibandingkan ular di daratan Brasil",
+        "Pulau Ular terbentuk karena naiknya permukaan laut yang memisahkannya dari daratan utama",
+        "Keberadaan ular di Pulau Ular tidak memiliki dampak terhadap ekosistem"
+      ],
+      "correctAnswer": "Pulau Ular terbentuk karena naiknya permukaan laut yang memisahkannya dari daratan utama",
+      "explanation": null
+    },
+    {
+      "text": "Mengapa golden lancehead viper memiliki bisa yang sangat mematikan?",
+      "options": [
+        "Karena mereka sering bertarung dengan pemangsa di pulau tersebut",
+        "Karena mereka terisolasi dan berevolusi tanpa pemangsa alami",
+        "Karena mereka beradaptasi untuk berburu mamalia besar seperti rusa dan babi hutan",
+        "Karena mereka hidup di lingkungan dengan suhu yang sangat ekstrem",
+        "Karena manusia sering memberikan makanan beracun kepada mereka"
+      ],
+      "correctAnswer": "Karena mereka terisolasi dan berevolusi tanpa pemangsa alami",
+      "explanation": null
+    },
+    {
+      "text": "Apa upaya yang dilakukan untuk melindungi populasi golden lancehead viper?",
+      "options": [
+        "Mengizinkan lebih banyak wisatawan untuk datang ke Pulau Ular",
+        "Menangkap ular-ular tersebut dan memindahkannya ke kebun binatang",
+        "Melakukan konservasi dengan melarang perburuan ilegal dan penelitian tanpa izin",
+        "Mengeringkan lahan di Pulau Ular agar ular-ularnya mati secara alami",
+        "Meningkatkan perburuan ular untuk mengurangi jumlah populasinya"
+      ],
+      "correctAnswer": "Melakukan konservasi dengan melarang perburuan ilegal dan penelitian tanpa izin",
+      "explanation": null
+    }
+  ]
+}

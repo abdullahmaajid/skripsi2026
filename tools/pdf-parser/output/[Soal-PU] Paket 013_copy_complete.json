@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan teks di atas, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": [
+        "Daun kelor hanya digunakan sebagai bahan makanan, bukan untuk pengobatan",
+        "Daun kelor mengandung senyawa berguna dan kaya nutrisi pada setiap bagiannya",
+        "Tanaman kelor tidak memiliki kandungan antioksidan yang signifikan",
+        "Daun kelor hanya digunakan dalam pengobatan modern, bukan tradisional",
+        "Kandungan vitamin dan mineral dalam daun kelor lebih rendah dibandingkan tanaman lain"
+      ],
+      "correctAnswer": "Daun kelor mengandung senyawa berguna dan kaya nutrisi pada setiap bagiannya",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks di atas, manakah pernyataan berikut yang MUNGKIN BENAR?",
+      "options": [
+        "Kelor adalah tanaman yang sulit tumbuh di daerah beriklim panas",
+        "Kelor dapat mencapai tinggi yang signifikan dalam waktu singkat",
+        "Tanaman kelor hanya berbunga pada musim tertentu",
+        "Daun kelor memiliki bentuk segitiga dan berwarna merah",
+        "Kelor tidak populer di Indonesia karena sulit ditanam"
+      ],
+      "correctAnswer": "Kelor dapat mencapai tinggi yang signifikan dalam waktu singkat",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks di atas, manakah pernyataan berikut yang BENAR?",
+      "options": [
+        "Buah mengkudu tidak mengandung vitamin apa pun",
+        "Mengkudu sulit ditemukan di Indonesia",
+        "Buah mengkudu mengandung vitamin A, C, dan B kompleks serta memiliki manfaat antioksidan",
+        "Tidak ada penelitian yang berfokus pada buah mengkudu",
+        "Mengkudu tidak dimanfaatkan oleh masyarakat Indonesia"
+      ],
+      "correctAnswer": "Buah mengkudu mengandung vitamin A, C, dan B kompleks serta memiliki manfaat antioksidan",
+      "explanation": null
+    },
+    {
+      "text": "Jika daun singkong memiliki manfaat potensial bagi kesehatan, maka manakah simpulan yang pasti benar?",
+      "options": [
+        "Daun singkong tidak bisa dimasak",
+        "Daun singkong tidak banyak ditemui di Indonesia",
+        "Daun singkong hanya bisa dimasak melalui tiga cara",
+        "Daun singkong menjadi populer",
+        "Daun singkong mungkin banyak dikonsumsi di Indonesia"
+      ],
+      "correctAnswer": "Daun singkong mungkin banyak dikonsumsi di Indonesia",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan di bawah ini yang MEMPERLEMAH pernyataan di atas?",
+      "options": [
+        "1, 4, dan 5",
+        "1, 3, dan 4",
+        "2, 3, dan 4",
+        "2 dan 3",
+        "5 saja"
+      ],
+      "correctAnswer": "2 dan 3",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan di bawah ini yang MEMPERLEMAH pernyataan di atas?",
+      "options": [
+        "1, 3, dan 5",
+        "1, 3, dan 4",
+        "2, 3, dan 4",
+        "2 dan 4",
+        "5 saja"
+      ],
+      "correctAnswer": "2 dan 4",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar",
+        "Simpulan tersebut mungkin benar",
+        "Simpulan tersebut pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan tersebut pasti salah",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar",
+        "Simpulan tersebut mungkin benar",
+        "Simpulan tersebut pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan tersebut mungkin benar",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar",
+        "Simpulan tersebut mungkin benar",
+        "Simpulan tersebut pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan tersebut mungkin benar",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?",
+      "options": [
+        "Simpulan tersebut pasti benar",
+        "Simpulan tersebut mungkin benar",
+        "Simpulan tersebut pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan tersebut pasti salah",
+      "explanation": null
+    },
+    {
+      "text": "Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua siswa yang rajin belajar mendapatkan beasiswa",
+        "Sebagian siswa yang rajin belajar mendapatkan beasiswa",
+        "Semua siswa yang mendapatkan beasiswa adalah siswa yang rajin belajar",
+        "Sebagian siswa yang rajin belajar tidak mendapatkan beasiswa",
+        "Tidak ada siswa yang rajin belajar mendapatkan beasiswa"
+      ],
+      "correctAnswer": "Sebagian siswa yang rajin belajar mendapatkan beasiswa",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks di atas, apabila seorang remaja rutin terlibat dalam kegiatan seni, maka manakah simpulan yang tepat?",
+      "options": [
+        "Remaja akan menjadi lebih kreatif, sabar, dan tekun dalam menghadapi tantangan kehidupan",
+        "Remaja akan lebih fokus pada kegiatan akademis dan mengabaikan kegiatan seni",
+        "Remaja akan kehilangan minat terhadap kegiatan fisik seperti olahraga",
+        "Remaja akan mengembangkan sikap negatif seperti malas dan tidak disiplin",
+        "Remaja akan menjadi kurang peka terhadap lingkungan sekitarnya"
+      ],
+      "correctAnswer": "Remaja akan menjadi lebih kreatif, sabar, dan tekun dalam menghadapi tantangan kehidupan",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang PALING MUNGKIN menjelaskan perbedaan kedua kondisi tersebut?",
+      "options": [
+        "Sektor teknologi membutuhkan biaya investasi yang sangat besar",
+        "Sektor teknologi menciptakan lapangan kerja dan inovasi baru",
+        "Investasi di sektor teknologi hanya menguntungkan perusahaan besar",
+        "Sektor teknologi tidak berpengaruh terhadap pertumbuhan ekonomi",
+        "Investasi di sektor teknologi meningkatkan ketergantungan pada impor"
+      ],
+      "correctAnswer": "Sektor teknologi menciptakan lapangan kerja dan inovasi baru",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang PALING MUNGKIN menjelaskan hubungan antara pekerjaan tambahan dan gangguan perkuliahan mahasiswa X?",
+      "options": [
+        "Pekerjaan tambahan dilakukan pada siang hari, sehingga mengganggu jadwal kuliah X",
+        "Waktu belajar X berkurang karena pekerjaan tambahan, sehingga perkuliahannya terganggu",
+        "X bekerja pada malam hari karena perkuliahannya sudah terganggu",
+        "Pekerjaan tambahan X tidak memengaruhi waktu belajarnya",
+        "Perkuliahan X terganggu karena ia tidak memiliki pekerjaan tambahan"
+      ],
+      "correctAnswer": "Waktu belajar X berkurang karena pekerjaan tambahan, sehingga perkuliahannya terganggu",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": [
+        "Menaikkan suku bunga dapat meningkatkan inflasi",
+        "Inflasi yang tinggi dapat meningkatkan daya beli masyarakat",
+        "Daya beli masyarakat stabil jika inflasi dikendalikan melalui kenaikan suku bunga",
+        "Mengurangi jumlah uang beredar tidak berpengaruh pada inflasi",
+        "Peningkatan daya beli masyarakat terjadi karena inflasi yang tinggi"
+      ],
+      "correctAnswer": "Daya beli masyarakat stabil jika inflasi dikendalikan melalui kenaikan suku bunga",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan di bawah ini yang MEMPERLEMAH pernyataan di atas?",
+      "options": [
+        "1, 3, dan 5",
+        "1, 2, dan 4",
+        "1, 4, dan 5",
+        "Hanya 1 dan 4",
+        "Hanya 3 saja"
+      ],
+      "correctAnswer": "1, 4, dan 5",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang PALING TEPAT mengenai data tersebut?",
+      "options": [
+        "Memperkuat pernyataan pakar ekonomi A",
+        "Memperlemah pernyataan pakar ekonomi A",
+        "Memperkuat pernyataan pakar ekonomi B",
+        "Memperlemah pernyataan pakar ekonomi B",
+        "Tidak relevan dengan pernyataan pakar ekonomi A dan B"
+      ],
+      "correctAnswer": "Memperkuat pernyataan pakar ekonomi B",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang PALING TEPAT mengenai data tersebut?",
+      "options": [
+        "Memperkuat pernyataan pakar pendidikan A",
+        "Memperlemah pernyataan pakar pendidikan A",
+        "Memperkuat pernyataan pakar pendidikan B",
+        "Memperlemah pernyataan pakar pendidikan B",
+        "Tidak relevan dengan pernyataan pakar pendidikan A dan B"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?",
+      "options": [
+        "Membatasi waktu penggunaan gadget dapat meningkatkan kelelahan mata",
+        "Penggunaan gadget berlebihan dapat mengurangi risiko gangguan tidur",
+        "Risiko gangguan tidur dan kelelahan mata berkurang jika aturan 20-20-20 diterapkan",
+        "Menerapkan aturan 20-20-20 tidak berpengaruh pada kesehatan mata",
+        "Peningkatan risiko kelelahan mata terjadi karena membatasi penggunaan gadget"
+      ],
+      "correctAnswer": "Risiko gangguan tidur dan kelelahan mata berkurang jika aturan 20-20-20 diterapkan",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan teks, simpulan yang dapat diambil adalah kebugaran fisik dapat mempengaruhi kesehatan jasmani seseorang. Bagaimana kualitas simpulan di atas?",
+      "options": [
+        "Simpulan tersebut pasti benar",
+        "Simpulan tersebut mungkin benar",
+        "Simpulan tersebut pasti salah",
+        "Simpulan tidak relevan dengan informasi yang diberikan",
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup"
+      ],
+      "correctAnswer": "Simpulan tidak relevan dengan informasi yang diberikan",
+      "explanation": null
+    },
+    {
+      "text": "Seorang pedagang buah membeli 5\\text{ kg} apel dengan harga \\text{Rp } 75.000,00. Jika pedagang tersebut ingin membeli 12\\text{ kg} apel dengan kualitas yang sama, berapa harga yang harus dibayarkan?",
+      "options": [
+        "\\text{Rp } 185.000,00",
+        "\\text{Rp } 192.000,00",
+        "\\text{Rp } 186.000,00",
+        "\\text{Rp } 180.000,00",
+        "\\text{Rp } 182.000,00"
+      ],
+      "correctAnswer": "\\text{Rp } 180.000,00",
+      "explanation": null
+    },
+    {
+      "text": "Sebuah mobil dapat menempuh jarak 240\\text{ km} dengan menghabiskan 20-liter bensin. Jika mobil tersebut memiliki tangki bensin berkapasitas 35 liter, berapa jarak maksimal yang dapat ditempuh mobil tersebut?",
+      "options": [
+        "230\\text{ km}",
+        "240\\text{ km}",
+        "420\\text{ km}",
+        "320\\text{ km}",
+        "350\\text{ km}"
+      ],
+      "correctAnswer": "420\\text{ km}",
+      "explanation": null
+    },
+    {
+      "text": "Diantara kelima siswa tersebut, siswa mana yang paling berprestasi? (Nilai akhir = 60\\% Akademik + 40\\% Non-Akademik. Siswa A: 9 dan 7; B: 5 dan 6; C: 6 dan 8; D: 9 dan 5; E: 8 dan 6)",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Diantara kelima siswa tersebut, siswa mana yang paling tidak berprestasi?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan data di atas, tahun keberapa Perusahaan Maju Mundur memperoleh persentase keuntungan terbesar?",
+      "options": [
+        "Tahun ke-1",
+        "Tahun ke-2",
+        "Tahun ke-3",
+        "Tahun ke-4",
+        "Tahun ke-5"
+      ],
+      "correctAnswer": "Tahun ke-1",
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan data di atas, tahun keberapa Perusahaan Maju Mundur memperoleh persentase keuntungan terkecil?",
+      "options": [
+        "Tahun ke-1",
+        "Tahun ke-2",
+        "Tahun ke-3",
+        "Tahun ke-4",
+        "Tahun ke-5"
+      ],
+      "correctAnswer": "Tahun ke-4",
+      "explanation": null
+    },
+    {
+      "text": "Manakah nilai berikut yang terkecil?",
+      "options": [
+        "5\\% dari 10",
+        "15\\% dari 3",
+        "10\\% dari 5",
+        "25\\% dari 2",
+        "20\\% dari 4"
+      ],
+      "correctAnswer": "15\\% dari 3",
+      "explanation": null
+    },
+    {
+      "text": "Di sebuah toko, harga 3 buku dan 2 pensil adalah \\text{Rp} 22.000,00, sedangkan harga 5 buku dan 1 pensil adalah \\text{Rp} 25.000,00. Berapakah harga 1 buku ditambah 3 pensil?",
+      "options": [
+        "\\text{Rp} 12.000,00",
+        "\\text{Rp} 14.000,00",
+        "\\text{Rp} 16.000,00",
+        "\\text{Rp} 19.000,00",
+        "\\text{Rp} 20.000,00"
+      ],
+      "correctAnswer": "\\text{Rp} 19.000,00",
+      "explanation": null
+    },
+    {
+      "text": "Jumlah pengunjung toko Koffe dari awal pembukaannya secara berturut-turut adalah 6, 9, 12, 15, 18, 21, 24. Jika jumlah pengunjung toko berubah secara konstan, berapa pengunjung yang datang pada hari ke 9?",
+      "options": [
+        "24",
+        "28",
+        "26",
+        "30",
+        "32"
+      ],
+      "correctAnswer": "30",
+      "explanation": null
+    },
+    {
+      "text": "Jumlah pengunjung toko Koffe dari awal pembukaannya secara berturut-turut adalah 6, 9, 12, 15, 18, 21, 24. Jika jumlah pengunjung toko berubah secara konstan, berapa pengunjung yang datang pada hari ke 8?",
+      "options": [
+        "24",
+        "27",
+        "26",
+        "30",
+        "32"
+      ],
+      "correctAnswer": "27",
+      "explanation": null
+    }
+  ]
+}

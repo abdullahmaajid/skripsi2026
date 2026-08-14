@@ -1,0 +1,250 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan paragraf 1, manakah pernyataan yang PASTI BENAR?",
+      "options": [
+        "Menggosok gigi berdampak positif pada kesehatan mulut saja.",
+        "Bau mulut dapat dicegah dengan meyikat gigi satu kali sehari.",
+        "Gigi berlubang dan gingivitis dapat disebabkan oleh karang gigi.",
+        "Bakteri di mulut hanya bisa dibersihkan dengan menyikat gigi.",
+        "Sisa-sisa makanan sulit dihilangkan dengan menyikat gigi dua kali sehari."
+      ],
+      "correctAnswer": "Gigi berlubang dan gingivitis dapat disebabkan oleh karang gigi.",
+      "explanation": "Paragraf 1 menyatakan bahwa plak yang dibiarkan dapat mengeras menjadi karang gigi, yang berisiko menyebabkan berbagai masalah seperti gigi berlubang dan radang gusi (gingivitis)."
+    },
+    {
+      "text": "Berdasarkan paragraf 2, manakah pernyataan yang PASTI SALAH?",
+      "options": [
+        "Kesehatan tubuh dapat terjaga dengan menjaga kesehatan mulut.",
+        "Risiko penyakit jantung dan diabetes tidak meningkat ketika terjadi infeksi pada gusi.",
+        "Infeksi pada gusi dapat memicu terjadinya penyakit jantung dan diabetes.",
+        "Menyikat gigi dapat membantu menjaga kesehatan tubuh secara keseluruhan.",
+        "Peradangan di berbagai organ tubuh dapat terjadi karena adanya bakteri dari mulut."
+      ],
+      "correctAnswer": "Risiko penyakit jantung dan diabetes tidak meningkat ketika terjadi infeksi pada gusi.",
+      "explanation": "Paragraf 2 menyatakan bahwa infeksi pada gusi dapat meningkatkan risiko penyakit serius seperti penyakit jantung dan diabetes, sehingga pernyataan bahwa risikonya tidak meningkat adalah pasti salah."
+    },
+    {
+      "text": "Berdasarkan paragraf 1, manakah pernyataan yang PASTI BENAR?",
+      "options": [
+        "Iritasi kulit karena penggunaan sunscreen dapat memicu jerawat.",
+        "Sunscreen hanya bermanfat untuk melindungi kuli dari jerawat.",
+        "Jerawat dapat semakin parah walaupun rutin memakai sunscreen.",
+        "Semakin sering terkena sinar UV matahari bisa memicu kanker kulit.",
+        "Sinar UV matahari dapat menyebabkan iritasi yang memicu jerawat."
+      ],
+      "correctAnswer": "Sinar UV matahari dapat menyebabkan iritasi yang memicu jerawat.",
+      "explanation": "Paragraf 1 menyatakan bahwa sunscreen berfungsi melindungi kulit dari sinar UV matahari penyebab iritasi, dan iritasi tersebut bisa memicu jerawat."
+    },
+    {
+      "text": "Berdasarkan paragraf 2, manakah pernyataan yang PASTI SALAH?",
+      "options": [
+        "Kandungan antiperadangan pada sunscreen mampu mencerahkan kulit.",
+        "Jerawat bisa dicegah dengan menghindari sunscreen yang mengandung minyak berlebih.",
+        "Kandungan alkohol dalam sunscreen tidak mempengaruhi jerawat pada wajah.",
+        "Asam ferulat adalah zat antiperadangan yang melindungi kulit dari iritasi.",
+        "Kemerahan pada kulit dapat disebabkan paparan sinar matahari."
+      ],
+      "correctAnswer": "Kandungan alkohol dalam sunscreen tidak mempengaruhi jerawat pada wajah.",
+      "explanation": "Paragraf 2 menyatakan bahwa kita harus menghindari sunscreen yang mengandung alkohol karena bisa memicu munculnya jerawat, sehingga pernyataan bahwa alkohol tidak memengaruhi adalah salah."
+    },
+    {
+      "text": "Manakah DUA SIMPULAN yang PALING DIDUKUNG oleh bacaan tersebut ... \n1) Menjaga tubuh dari infeksi cacing dapat mencegah penyakit anemia.\n2) Menstruasi dan wasir pasti menyebabkan anemia secara perlahan.\n3) Perdarahan berat secara perlahan menyebabkan anemia yang lebih parah.\n4) Anemia dapat terjadi ketika seseorang mengalami kecelakaan yang menyebabkan cidera.\n5) Cacing tambang yang menghisap darah dapat menyebabkan penurunan selera makan.",
+      "options": [
+        "1 dan 4",
+        "1 dan 2",
+        "2 dan 3",
+        "3 dan 5",
+        "4 dan 5"
+      ],
+      "correctAnswer": "1 dan 4",
+      "explanation": "Simpulan 1 didukung oleh kalimat mengenai infeksi cacing tambang penyebab anemia, dan simpulan 4 didukung oleh kalimat bahwa anemia seketika dapat disebabkan oleh cedera akibat kecelakaan."
+    },
+    {
+      "text": "Manakah DUA SIMPULAN yang PALING DIDUKUNG oleh bacaan tersebut ... \n1) Perkembangan teknologi selalu mendorong perubahan ke arah yang positif.\n2) Kemajuan yang signifikan suatu bangsa dapat dapat didorong oleh pendidikan yang baik dan merata.\n3) Pendidikan yang baik dapat mengurangi angka kemiskinan dan ketimpangan.\n4) Kemajuan suatu bangsa hanya ditentukan oleh kualitas pendidikannya.\n5) Stabilitas dan perdamaian dalam masyarakat dapat dijangkau tanpa didorong pendidikan.",
+      "options": [
+        "2 dan 3",
+        "1 dan 4",
+        "3 dan 5",
+        "1 dan 2",
+        "4 dan 5"
+      ],
+      "correctAnswer": "2 dan 3",
+      "explanation": "Simpulan 2 didukung oleh kalimat tentang pendidikan yang membawa kemajuan signifikan, dan simpulan 3 didukung oleh kalimat tentang pendidikan yang mengurangi kemiskinan."
+    },
+    {
+      "text": "A menyatakan “Telur adalah makanan yang rendah karbohidrat dan tinggi protein sehingga bagus dikonsumsi oleh orang yang sedang menjalani proses diet”\nB menyatakan “ Telur mengandung vitamin D yang berperan penting dalam memperkuat tulang, gigi, dan mempermudah penyerapan kalsium.”\n\nData menjelaskan bahwa sebagian besar orang yang mengalami permasalahan tulang rutin mengonsumsi telur.\nManakah pernyataan berikut yang paling tepat mengenai survei tersebut yaitu?",
+      "options": [
+        "Memperkuat pernyataan A.",
+        "Memperlemah pernyataan A.",
+        "Memperkuat pernyataan B.",
+        "Memperlemah pernyataan B.",
+        "Tidak relevan dengan pernyataan A dan B."
+      ],
+      "correctAnswer": "Memperlemah pernyataan B.",
+      "explanation": "Pernyataan B menyatakan telur memperkuat tulang dan gigi, namun data menunjukkan orang yang mengalami masalah tulang justru rutin mengonsumsi telur, yang memperlemah klaim B."
+    },
+    {
+      "text": "A menyatakan “Wilayah yang sering mengalami banjir sering menciptakan genangan air yang berpotensi tinggi terhadap penyakit malaria.”\nB menyatakan “Tempat dengan sanitasi yang buruk dapat menyebabkan genangan air yang menjadi sarang nyamuk penyebab malaria.”\n\nData menjelaskan bahwa Kota X memiliki sistem drainase yang buruk dan jumlah penyakit malaria yang tinggi sepanjang tahun.\nManakah pernyataan berikut yang paling tepat mengenai survei tersebut yaitu?",
+      "options": [
+        "Memperkuat pernyataan A.",
+        "Memperlemah pernyataan A.",
+        "Memperkuat pernyataan B.",
+        "Memperlemah pernyataan B.",
+        "Tidak relevan dengan pernyataan A dan B."
+      ],
+      "correctAnswer": "Memperkuat pernyataan B.",
+      "explanation": "Data mengenai sistem drainase yang buruk (bagian dari sanitasi) dihubungkan dengan tingginya penyakit malaria, memperkuat pernyataan B."
+    },
+    {
+      "text": "A menyatakan “Melihat kehidupan orang lain yang tampak sempurna di media sosial bisa membuat seseorang merasa kurang percaya diri dan mengalami kecemasan.”\nB menyatakan “Menghabiskan terlalu banyak waktu di media sosial dapat menyebabkan kecanduan, sehingga mengganggu produktivitas dan kehidupan nyata.”\n\nData menjelaskan bahwa saat ini kasus pencurian identitas, peretasan akun, dan penyebaran informasi pribadi sering terjadi di media sosial.\nManakah pernyataan berikut yang paling tepat mengenai survei tersebut yaitu?",
+      "options": [
+        "Memperkuat pernyataan A.",
+        "Memperlemah pernyataan A.",
+        "Memperkuat pernyataan B.",
+        "Memperlemah pernyataan B.",
+        "Tidak relevan dengan pernyataan A dan B."
+      ],
+      "correctAnswer": "Tidak relevan dengan pernyataan A dan B.",
+      "explanation": "Data membahas pencurian identitas dan peretasan akun, sedangkan pernyataan A dan B membahas kecemasan psikologis dan kecanduan, sehingga tidak relevan."
+    },
+    {
+      "text": "Dalam satu tahun terakhir Kota X menjadi wilayah dengan pertumbuhan ekonomi yang lebih tinggi dari kota lainnya. Menurut seorang ahli, Kota X telah berhasil mengembangkan infrastruktur pariwisata.\nBerdasarkan informasi pada bacaan, berikut adalah kalimat yang memperlemah dan tidak memperlemah bacaan.",
+      "options": [
+        "Pernyataan 1 memperlemah, sedangkan pernyataan 2, 3, 4, 5 tidak memperlemah",
+        "Pernyataan 1 dan 2 memperlemah",
+        "Semua pernyataan memperlemah",
+        "Semua pernyataan tidak memperlemah",
+        "Pernyataan 5 memperlemah"
+      ],
+      "correctAnswer": "Pernyataan 1 memperlemah, sedangkan pernyataan 2, 3, 4, 5 tidak memperlemah",
+      "explanation": "Akses jalan yang belum bisa diakses kendaraan (Pernyataan 1) memperlemah klaim pengembangan pariwisata, sementara sisanya mendukung atau tidak bertentangan."
+    },
+    {
+      "text": "Berdasarkan informasi pada bacaan, berikut adalah kalimat yang memperlemah dan tidak memperlemah bacaan. No 1: Banyak pengendara di Kota N memiliki kondisi kendaraan yang kurang layak untuk digunakan.",
+      "options": [
+        "Memperlemah",
+        "Tidak Memperlemah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi pada bacaan, berikut adalah kalimat yang memperlemah dan tidak memperlemah bacaan. No 2: Hampir semua pengendara di Kota N sudah memiliki surat izin layak berkendara.",
+      "options": [
+        "Memperlemah",
+        "Tidak Memperlemah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi pada bacaan, berikut adalah kalimat yang memperlemah dan tidak memperlemah bacaan. No 3: Banyak pengendara di Kota N yang tidak memakai kelengkapan berkendara.",
+      "options": [
+        "Memperlemah",
+        "Tidak Memperlemah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi pada bacaan, berikut adalah kalimat yang memperlemah dan tidak memperlemah bacaan. No 4: Sebagian besar kecelakaan lalu lintas di Kota N disebabkan oleh rasa kantuk.",
+      "options": [
+        "Memperlemah",
+        "Tidak Memperlemah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi pada bacaan, berikut adalah kalimat yang memperlemah dan tidak memperlemah bacaan. No 5: Sebagian besar kecelakaan lalu lintas di Kota N terjadi karena rambu lalu lintas yang buruk.",
+      "options": [
+        "Memperlemah",
+        "Tidak Memperlemah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi pada bacaan, berikut adalah kalimat yang memperlemah dan tidak memperlemah bacaan. No 1: Beberapa orang yang rutin mengonsumsi wortel memiliki tulang yang sehat.",
+      "options": [
+        "Memperlemah",
+        "Tidak Memperlemah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi pada bacaan, berikut adalah kalimat yang memperlemah dan tidak memperlemah bacaan. No 2: Banyak orang yang mengalami tulang keropos rutin mengonsumsi wortel.",
+      "options": [
+        "Memperlemah",
+        "Tidak Memperlemah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi pada bacaan, berikut adalah kalimat yang memperlemah dan tidak memperlemah bacaan. No 3: Sebagian besar orang yang mengonsumsi wortel memiliki penglihatan yang kurang baik.",
+      "options": [
+        "Memperlemah",
+        "Tidak Memperlemah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi pada bacaan, berikut adalah kalimat yang memperlemah dan tidak memperlemah bacaan. No 4: Banyak mengonsumsi wortel membantu penyembuhan saat mengalami luka akibat cidera.",
+      "options": [
+        "Memperlemah",
+        "Tidak Memperlemah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Berdasarkan informasi pada bacaan, berikut adalah kalimat yang memperlemah dan tidak memperlemah bacaan. No 5: Untuk mempercepat penyembuhan disarankan banyak mengonsumsi wortel.",
+      "options": [
+        "Memperlemah",
+        "Tidak Memperlemah"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang PALING MUNGKIN menjelaskan perbedaan kedua kondisi tersebut? Ketika menempuh perjalanan dengan Transjakarta, Andre sampai di kampus tepat waktu. Namun, ketika menempuh perjalanan dengan Kereta, Ia sampai terlambat sampai di kampusnya.",
+      "options": [
+        "Perjalanan dengan Transjakarta melewati jalan yang lebih dekat.",
+        "Perjalanan dengan Transjakarta akan mengalami kemacetan.",
+        "Perjalanan dengan Kereta tidak mengalami gangguan perbaikan jalan.",
+        "Perjalanan dengan Kereta tidak akan mengalami kemacetan.",
+        "Perjalanan dengan Kereta lebih tidak nyaman daripada Transjakarta."
+      ],
+      "correctAnswer": "Perjalanan dengan Transjakarta melewati jalan yang lebih dekat.",
+      "explanation": null
+    },
+    {
+      "text": "Manakah pernyataan berikut yang PALING MUNGKIN menjelaskan perbedaan kedua kondisi tersebut? Ketika rutin mengonsumsi lemon hangat, Ilham memiliki kondisi tubuh yang sehat dan jarang sakit. Namun, ketika Ilham lebih rutin meminum kopi susu kepalanya lebih sering pusing.",
+      "options": [
+        "Lemon hangat rendah akan kandungan zat peningkat kekebalan tubuh.",
+        "Lemon hangat lebih kaya akan zat peningkat kekebalan tubuh daripada kopi susu.",
+        "Lemon hangat tinggi kafein penyebab tingginya tekanan darah penyebab pusing.",
+        "Kopi susu rendah kafein penyebab tingginya tekanan darah penyebab pusing.",
+        "Kopi susu tidak mengandung kafein penyebab tingginya tekanan darah penyebab pusing."
+      ],
+      "correctAnswer": "Lemon hangat lebih kaya akan zat peningkat kekebalan tubuh daripada kopi susu.",
+      "explanation": null
+    },
+    {
+      "text": "Jika saat ini Andi mengalami insomnia, maka simpulan yang tepat yaitu? Insomnia ditandai dengan sulit tidur atau tidur yang tidak nyenyak. Sulit tidur dapat membuat penderita insomnia kurang konsentrasi yang berpotensi menimbulkan gangguan kesehatan, seperti tekanan darah tinggi (hipertensi).",
+      "options": [
+        "Andi memiliki konsentrasi tinggi.",
+        "Andi berpotensi memiliki hipertensi.",
+        "Andi mungkin tidak mengalami tekanan darah tinggi.",
+        "Andi tidak berpotensi memiliki hipertensi.",
+        "Tidak dapat disimpulkan."
+      ],
+      "correctAnswer": "Andi berpotensi memiliki hipertensi.",
+      "explanation": null
+    }
+  ]
+}

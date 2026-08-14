@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "What can we conclude from the effects of taking a nap discussed in paragraph 5?",
+      "options": [
+        "The effects of napping include both psychological and physiological advantages.",
+        "If done correctly, napping can have a huge range of health benefits.",
+        "Taking a nap does not only help with metabolism, but also with mood regulation.",
+        "Children are more affected by naps than adults are.",
+        "The advantages of napping for the human brain are its most significant effects."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Paragraph 5 discusses various benefits of napping, which include cognitive/psychological improvements (mood, creativity, brain power) and physiological advantages (cardiovascular disease risk reduction, endurance, preventing cognitive decline)."
+    },
+    {
+      "text": "The author uses the word 'daily' in the 2nd paragraph mainly to....",
+      "options": [
+        "demonstrate the intensity of drowsiness",
+        "put forward an idea about drowsiness",
+        "emphasize the importance of the word drowsiness",
+        "show that the drowsiness must occur everyday",
+        "indicate which specific drowsiness"
+      ],
+      "correctAnswer": "D",
+      "explanation": "The word 'daily' is used to show that the drowsiness occurs every day as part of normal biological processes."
+    },
+    {
+      "text": "What do the processes in paragraph 3 tell us about our body?",
+      "options": [
+        "The sleep pressure is one of our body’s weaknesses.",
+        "Sleep is a relaxing mechanism of the brain.",
+        "The body regulates sleep through biological processes.",
+        "There are two ways for our body to take a nap.",
+        "We can control the body’s need for sleep in two days."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Paragraph 3 explains the circadian and homeostatic systems, showing how the body naturally regulates sleep through these biological processes."
+    },
+    {
+      "text": "Which question is answered by paragraph 5?",
+      "options": [
+        "Why do many people take naps?",
+        "What are the benefits of naps?",
+        "What are the drawbacks of taking naps?",
+        "What makes naps better than sleeping overnight?",
+        "Why does our body need naps?"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Paragraph 5 outlines various positive effects and advantages of napping, which answers what the benefits of naps are."
+    },
+    {
+      "text": "Which information indicates the assertion that the early human survived the suggested amputation?",
+      "options": [
+        "The skeleton does not include a lower leg part.",
+        "The bone of the amputated leg shrunk in size.",
+        "The amputated part was cleanly removed.",
+        "The remaining part of the leg shows no signs of infection.",
+        "There could have been a post-op care."
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text mentions that the bone developed atrophy and remodeling over six to nine years, indicating healing and survival after the amputation."
+    },
+    {
+      "text": "What is the significance of the expression “the find took on a whole new level of intrigue”?",
+      "options": [
+        "To emphasize the importance of the information that follows",
+        "To provide an example for the findings of the early human remains in Liang Tebo",
+        "To elaborate the finding of the oldest modern human burial site",
+        "To introduce the information about the finding of an advanced surgery method",
+        "To introduce the comparison between early and modern methods of amputation"
+      ],
+      "correctAnswer": "D",
+      "explanation": "The phrase introduces the surprising discovery that the lower leg was cleanly removed and survived, pointing to prehistoric surgical knowledge."
+    },
+    {
+      "text": "What can be inferred from the passage?",
+      "options": [
+        "Putting people in isolated cells damages their brain.",
+        "Possession of power and control alters human behavior.",
+        "People enjoy pleasure from others' stress and anxiety.",
+        "The researchers had planned the outcome of the experiment.",
+        "Money incentives don't help people to endure torture."
+      ],
+      "correctAnswer": "Possession of power and control alters human behavior.",
+      "explanation": "Based on the text, guards given total freedom began to behave in ways they normally wouldn't, and prisoners became passive and depressed, demonstrating how power and situation alter behavior."
+    },
+    {
+      "text": "What is the main idea of paragraph 4?",
+      "options": [
+        "The experiment was stopped early due to dangerous reactions of the participants.",
+        "Prison guards will always be hostile toward prisoners.",
+        "The researchers had already predicted how the guards and prisoners would behave.",
+        "The guards and prisoners showed wholesome behavior towards each other.",
+        "The experiment was stopped because it did not produce the desired results."
+      ],
+      "correctAnswer": "The experiment was stopped early due to dangerous reactions of the participants.",
+      "explanation": "Paragraph 4 discusses how the experiment slated for 14 days had to be stopped after 6 days because guards became abusive and prisoners showed severe stress and anxiety."
+    },
+    {
+      "text": "What can be concluded from the behavior of the participants?",
+      "options": [
+        "Their behavior was influenced by the situation they were put into.",
+        "Both the guards' and the prisoners' behavior took an unexpected turn.",
+        "The participants are well-adjusted to their new environment.",
+        "The prisoners had a hard time developing an assertive behavior.",
+        "The guards' unpredictable behavior was probably brought on by past trauma."
+      ],
+      "correctAnswer": "Their behavior was influenced by the situation they were put into.",
+      "explanation": "According to Zimbardo, the roles and situations (guards given total freedom, prisoners with no control) directly shaped their behavior."
+    },
+    {
+      "text": "The sentence \"... the interactions were hostile or even dehumanizing\" implies ....",
+      "options": [
+        "the isolated condition of prisoners was dangerous for their mental health",
+        "the prisoners rebelled and started attacking the guards",
+        "the guards became aggressive and abusive toward the prisoners",
+        "both the guards and the prisoners felt depressed and anxious",
+        "the guards started to sympathize more with the prisoners"
+      ],
+      "correctAnswer": "the guards became aggressive and abusive toward the prisoners",
+      "explanation": "Hostile and dehumanizing interactions directly relate to the abuse and negative behavior exhibited by the guards toward the prisoners."
+    },
+    {
+      "text": "If we were to add a beginning paragraph preceding the text, what would it most likely talk about?",
+      "options": [
+        "The researchers’ academic credentials",
+        "The psychology faculty of Stanford University",
+        "The selection of the volunteers",
+        "The background of the experiment",
+        "The mechanism of the experiment"
+      ],
+      "correctAnswer": "The background of the experiment",
+      "explanation": "A preceding introductory paragraph would typically set the context and background of the Stanford Prison Experiment before detailing the methodology and events."
+    },
+    {
+      "text": "Which of the following is true about the experiment?",
+      "options": [
+        "The participants must be free of criminal records and not have any health issues.",
+        "The guards were divided into three teams that worked eight-hour shifts.",
+        "The experiment was cancelled not even halfway ot the intial schedule.",
+        "The prisoners started to get abusive due to the excessive freedom they had.",
+        "The researchers doing the experiment used the volunteer guards to observe the prisoners."
+      ],
+      "correctAnswer": "The experiment was cancelled not even halfway ot the intial schedule.",
+      "explanation": "The experiment was originally slated for 14 days and was stopped after just six days, which is less than halfway."
+    },
+    {
+      "text": "The experiment involved volunteers who _______ to take part as guards and prisoners in exchange for money. Which of the following best fills the blank?",
+      "options": [
+        "Consented",
+        "Yielded",
+        "Dissented",
+        "Abided",
+        "Obeyed"
+      ],
+      "correctAnswer": "Consented",
+      "explanation": "Volunteers willingly agreed or gave consent to participate in the experiment."
+    },
+    {
+      "text": "People often mistakenly classify coffee as a type of plant to which peanuts, chickpeas or lentils belong. Is this statement supported by the passage? Which information can prove it?",
+      "options": [
+        "Supported, the passage mentions that coffee is grown in Ethiopia, a place where the other plants are mentioned to not grow in.",
+        "Supported, the passage states that coffee is not a legume, unlike the other plants which fit the definition of the word.",
+        "Not supported, the passage mentions how coffee was spread to the westerners through the Middle East, same as the other plants.",
+        "Not supported, coffee was stated to be able to reduce someone’s risk of dying from heart problems, much like the other plants.",
+        "Supported, it is mentioned that coffee is beguiling, which is a quality the other plants are not exactly known for."
+      ],
+      "correctAnswer": "Supported, the passage states that coffee is not a legume, unlike the other plants which fit the definition of the word.",
+      "explanation": null
+    },
+    {
+      "text": "Which of the following statements is incorrect about coffee based on the text?",
+      "options": [
+        "China is gradually becoming an emerging market for coffee.",
+        "Coffee became more popular in the western world thanks to the Yemeni Sufis that drank coffee outside Africa.",
+        "How coffee first got produced and consumed outside Ethiopia is still a question yet to be answered.",
+        "Coffee can prevent us from getting some dangerous diseases such as diabetes.",
+        "Coffee had come out of Africa even before the westerners found out about it."
+      ],
+      "correctAnswer": "Coffee became more popular in the western world thanks to the Yemeni Sufis that drank coffee outside Africa.",
+      "explanation": null
+    },
+    {
+      "text": "Which sentence below is the best fit for the blank in paragraph three?",
+      "options": [
+        "Many businesses grew out of these specialized coffee houses.",
+        "The early drinkers were firm believers in its medicinal properties.",
+        "Not only did the patrons drink coffee and engage in conversation, but they also listened to music, watched performers, played chess and kept current on the news.",
+        "Coffee began to replace the common breakfast drink beverages of the time — beer and wine.",
+        "Missionaries and travelers, traders and colonists continued to carry coffee seeds to new lands, and coffee trees were planted worldwide."
+      ],
+      "correctAnswer": "Not only did the patrons drink coffee and engage in conversation, but they also listened to music, watched performers, played chess and kept current on the news.",
+      "explanation": null
+    },
+    {
+      "text": "\"Coffee was first spread and consumed outside of Ethiopia by the sufis in Yemen.\" Is it possible to dispute this statement using information mentioned in the passage?",
+      "options": [
+        "Yes, since it’s mentioned that the Middle East and Ottoman Empire also contributed to its spread.",
+        "Yes, as it is stated that the Oromo people were the first to discover the benefits of coffee.",
+        "No, as it is especially stressed how the historic records indicated that they were the first drinkers of coffee.",
+        "No, because all other peoples mentioned in the passage started consuming coffee after the Sufis.",
+        "Yes, since it is hinted that there exist mixed accounts about how coffee spread outside of Africa."
+      ],
+      "correctAnswer": "Yes, since it is hinted that there exist mixed accounts about how coffee spread outside of Africa.",
+      "explanation": null
+    },
+    {
+      "text": "If coffee houses ______ to the middle east and Ottoman Empire, Western traders probably wouldn’t have brought coffee back home.",
+      "options": [
+        "Didn’t spread",
+        "Hadn’t spread",
+        "Wouldn’t spread",
+        "Wouldn’t have spread",
+        "Were not spread"
+      ],
+      "correctAnswer": "Hadn’t spread",
+      "explanation": null
+    },
+    {
+      "text": "\"More than two billion cups of coffee are drunk every day and for many, working life would feel impossible without it.\" What meaning does the modal ‘would’ carry in this context?",
+      "options": [
+        "it shows a possibility",
+        "it shows a request",
+        "it shows a habit in the past",
+        "it shows a hypothetical situation",
+        "it shows a wish"
+      ],
+      "correctAnswer": "it shows a hypothetical situation",
+      "explanation": null
+    },
+    {
+      "text": "According to the passage, coffee is proven to have many _____ including association with lower risk of getting diabetes and death from heart diseases.\n\nWhich one is the best fit to fill the blank?",
+      "options": [
+        "Perks",
+        "Gratifications",
+        "Comforts",
+        "Welfares",
+        "Conveniences"
+      ],
+      "correctAnswer": "Perks",
+      "explanation": "Based on the answer key, the correct option is A (Perks)."
+    }
+  ]
+}

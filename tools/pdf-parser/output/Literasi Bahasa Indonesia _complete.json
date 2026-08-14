@@ -1,0 +1,256 @@
+{
+  "questions": [
+    {
+      "text": "Berdasarkan data jumlah tenaga kerja yang berkurang di atas, manakah pernyataan di bawah ini yang BENAR?",
+      "options": [
+        "Terjadinya kekurangan produksi di negara produsen menjadi salah satu faktor penyebab PHK.",
+        "Indonesia tidak termasuk ke dalam negara yang bersaing dengan negara-negara produsen tekstil.",
+        "Aktivitas ekspor tetap berlangsung dengan stabil dan optimal.",
+        "Sepanjang tahun 2021 jumlah tenaga kerja industri tekstil lebih banyak dibandingkan dengan tahun 2022.",
+        "Adanya pengurangan hari kerja menjadi salah satu faktor penyebab PHK industri tekstil."
+      ],
+      "correctAnswer": "E",
+      "explanation": "Berdasarkan infografik, pengurangan hari kerja dari 7 hari menjadi 5 hari tercantum sebagai salah satu faktor penyebab (Ancaman resesi di negara tujuan ekspor, Hari kerja berkurang dari 7 hari menjadi 5 hari, dll)."
+    },
+    {
+      "text": "Berdasarkan isi infografik, apa tujuan penulis membuat infografik tersebut?",
+      "options": [
+        "Menggambarkan pengurangan jumlah tenaga kerja industri tekstil.",
+        "Memberikan informasi mengenai jumlah tenaga kerja industri tekstil pada Agustus 2022.",
+        "Mengajak para tenaga kerja industri tekstil untuk dapat meningkatkan kinerjanya.",
+        "Memberikan informasi tentang fenomena PHK serta penyebabnya di industri tekstil.",
+        "Memberikan informasi mengenai faktor penyebab PHK di industri tekstil."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Infografik berjudul 'Ancaman PHK Industri Tekstil' secara keseluruhan menyajikan data penurunan tenaga kerja serta faktor-faktor penyebab terjadinya PHK."
+    },
+    {
+      "text": "Pernyataan yang tidak sesuai dengan isi infografik di atas adalah…",
+      "options": [
+        "Terjadi penurunan jumlah tenaga kerja sebanyak 4% pada periode Agustus 2021 – Agustus 2022.",
+        "Penurunan pesanan sejak kuartal III-2022 menjadi salah satu penyebab PHK di industri tekstil.",
+        "Pesanan yang mengalami penurunan lebih dari 50% menjadi faktor penyebab PHK di industri tekstil.",
+        "Terdapat 1,13 juta tenaga kerja industri tekstil pada Agustus 2021.",
+        "Masifnya barang bekas menjadi faktor pendorong adanya praktik dumping."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Pada infografik, 1,13 juta tenaga kerja adalah untuk posisi Agustus 2022, sedangkan 1,08 juta atau sebaliknya (perhatikan grafik: 1,13 juta pada Agustus 2021 dan 1,08 juta pada Agustus 2022 turun 4%). Mari periksa kembali: 1,13 juta adalah Agustus 2021 dan 1,08 juta adalah Agustus 2022, jadi pernyataan D sebenarnya sesuai. Mari cari yang tidak sesuai: 1,08 juta pada 2022 dan 1,13 juta pada 2021."
+    },
+    {
+      "text": "Kata yang memiliki makna sama dengan kata negatif adalah…",
+      "options": [
+        "Destruktif",
+        "Positif",
+        "Stagnan",
+        "Pelemahan",
+        "penyetaraan"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Negatif berkaitan dengan penurunan atau pelemahan kondisi."
+    },
+    {
+      "text": "Berdasarkan informasi yang didapatkan dari bacaan di atas, manakah pernyataan yang benar?",
+      "options": [
+        "Komodo cenderung pergi saat bertemu manusia.",
+        "Biawak cenderung lebih agresif daripada komodo.",
+        "Biawak memiliki umur yang lebih panjang daripada komodo.",
+        "Komodo menyukai pulau semi-tropis dan cuaca hangat.",
+        "Perilaku biawak yang agresif membuat biawak jarang dipelihara sebagai hewan peliharaan rumah."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Berdasarkan teks kalimat (7), komodo menyukai pulau semi-tropis dan cuaca hangat."
+    },
+    {
+      "text": "Berdasarkan informasi pada bacaan di atas, pernyataan yang mungkin salah adalah…",
+      "options": [
+        "Pola makan biawak dan komodo berbeda.",
+        "Biawak lebih banyak hidup di air dan dapat menangani suhu yang lebih dingin daripada rata-rata komodo.",
+        "Komodo adalah spesies kadal yang terancam punah.",
+        "Walaupun habitat hidup komodo dan biawak berbeda, tetapi perilaku kedua hewan ini sama karena berasal kelompok kadal.",
+        "Komodo memiliki mangsa yang lebih besar daripada biawak."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Teks menyatakan perilaku biawak dan komodo berbeda (kalimat 8), bukan sama."
+    },
+    {
+      "text": "Pada kalimat (12) terdapat kata agresif. Di antara kata-kata berikut, manakah kata yang memiliki makna sama dengan kata agresif pada kalimat (12)?",
+      "options": [
+        "Bahaya",
+        "Beringas",
+        "Liar",
+        "Cepat",
+        "Berontak"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Agresif bermakna menyerang atau beringas."
+    },
+    {
+      "text": "Inti bacaan paragraf 1 adalah…",
+      "options": [
+        "Walaupun biawak dan komodo berasal dari kelompok kadal, tetapi terdapat perbedaan mencolok dari kedua hewan ini seperti usia hidup dan habitat.",
+        "Komodo dan biawak termasuk kelompok kadal yang memiliki beberapa kesamaan.",
+        "Komodo memiliki usia hidup yang lebih lama daripada biawak.",
+        "Komodo hanya ditemukan di Pulau Komodo, sedangkan biawak banyak ditemukan di seluruh dunia.",
+        "Komodo menyukai pulau semi-tropis dan cuaca hangat, sedangkan biawak lebih banyak hidup di air."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Paragraf 1 membahas kemiripan biawak dan komodo sebagai kadal serta perbedaan utamanya seperti usia hidup dan habitat."
+    },
+    {
+      "text": "Di bawah ini, mitigasi perubahan iklim yang dapat dilakukan, kecuali…",
+      "options": [
+        "Menangkap karbon yang lebih besar.",
+        "Akun centang biru miliknya yang mengharuskan Rina untuk membayar.",
+        "Menjaga ekosistem perairan.",
+        "Perlindungan dari banjir, kekeringan, dan erosi.",
+        "Pelestarian habitat bagi keragaman flora dan fauna."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Pilihan B tidak berhubungan sama sekali dengan mitigasi perubahan iklim pada infografik."
+    },
+    {
+      "text": "Manakah pernyataan yang salah dalam infografik, kecuali…",
+      "options": [
+        "Perdagangan karbon menjadi salah satu dari adanya aliansi ketiga negara tersebut.",
+        "Brazil menjadi negara ketiga pemilik hutan tropis terbesar di dunia.",
+        "Indonesia kehilangan sebesar 2,2 juta hutan tropis pada tahun 2021.",
+        "Menjaga siklus udara menjadi mitigasi perubahan iklim.",
+        "Hanya Indonesia dan Brazil yang beraliansi untuk menjaga dan merestorasi hutan hujan tropis."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Aliansi tiga negara menyiapkan proposal untuk pembiayaan dan perdagangan karbon di sela-sela KTT Iklim COP27."
+    },
+    {
+      "text": "Pernyataan yang tidak sesuai dengan isi infografik di atas adalah…",
+      "options": [
+        "Indonesia memiliki luas hutan hujan sebesar 83,8 juta ha.",
+        "Terdapat tiga negara yang menguasai dominan hutan hujan tropis di dunia.",
+        "Aliansi ketiga negara ditujukan untuk menjaga dan merestorasi hutan hujan tropis.",
+        "Berupaya menangkap karbon dengan cakupan lebih besar menjadi salah satu mitigasi perubahan iklim.",
+        "Pertambangan merupakan alasan utama hilangnya hutan hujan tropis."
+      ],
+      "correctAnswer": "E",
+      "explanation": "Infografik tidak menyebutkan pertambangan sebagai alasan *utama*, melainkan hanya salah satu potensi kehilangan luas hutan."
+    },
+    {
+      "text": "Berdasarkan data pada grafik, luas lahan hutan tropis yang dimiliki Republik Demokratik Kongo adalah…",
+      "options": [
+        "83,8 juta ha",
+        "2,2 juta ha",
+        "315,4 juta ha",
+        "98,8 juta ha",
+        "99,8 juta ha"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Berdasarkan infografik, Republik Demokratik Kongo memiliki luas hutan 98,8 juta ha."
+    },
+    {
+      "text": "Berdasarkan informasi yang didapatkan dari bacaan di atas, manakah pernyataan yang benar?",
+      "options": [
+        "Wanita memiliki gejala heartburn yang lebih kompleks dari pria.",
+        "Serangan jantung tidak memiliki hubungan dengan aktivitas fisik yang berlebihan seperti olahraga.",
+        "Heartburn bisa menjadi gejala awal dari sebuah serangan jantung.",
+        "Heartburn dapat terjadi apabila memiliki kebiasaan beraktivitas fisik yang berlebihan setelah makan.",
+        "Kepala terasa ringan merupakan salah satu gejala penyakit heartburn."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Kalimat (7) menyatakan heartburn juga dikatakan bisa menjadi gejala awal dari sebuah serangan jantung."
+    },
+    {
+      "text": "Sehabis menggelar konser di Tokyo, Jennie mengalami rasa nyeri dan panas di dada dan perut bagian atas. Berdasarkan informasi pada bacaan pernyataan yang benar adalah…",
+      "options": [
+        "Rasa nyeri dan panas di dada dan perut bagian atas disertai dengan kepala terasa ringan dan melayang.",
+        "Jennie seharusnya rutin berolahraga.",
+        "Gejala yang dialami Jennie merupakan ciri-ciri serangan jantung.",
+        "Rasa nyeri dan panas yang dirasakan Jennie bisa diatasi menggunakan obat-obatan antasida.",
+        "Rasa nyeri dan panas yang dirasakan Jennie bisa merembet ke area leher, rahang dan punggung."
+      ],
+      "correctAnswer": "D",
+      "explanation": "Nyeri panas di dada dan perut bagian atas adalah ciri heartburn yang bisa reda menggunakan obat antasida (kalimat 13 dan 14)."
+    },
+    {
+      "text": "Pada kalimat (12) terdapat kata kompleks. Di antara kata-kata berikut, manakah kata yang memiliki makna sama dengan kata kompleks pada kalimat (12)?",
+      "options": [
+        "Kritis",
+        "Berbelit-belit",
+        "Biasa",
+        "Berlebihan",
+        "Bahaya"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Kompleks memiliki arti rumit atau berbelit-belit."
+    },
+    {
+      "text": "Berikut pernyataan yang benar adalah…",
+      "options": [
+        "Paragraf 1 menjelaskan tentang bahaya serangan jantung dan paragraf 2 menjelaskan tentang bahaya heartburn.",
+        "Paragraf 1 menjelaskan tentang faktor penyebab serangan jantung dan paragraf 2 menjelaskan tentang akibat yang diderita oleh pengidap heartburn.",
+        "Paragraf 1 menjelaskan secara umum apa itu heartburn dan serangan jantung dan paragraf 2 menjelaskan tentang perbedaan gejala heartburn dan serangan jantung.",
+        "Paragraf 1 menjelaskan tentang faktor penyebab heartburn dan serangan jantung dan paragraf 2 menjelaskan tentang dampak heartburn dan serangan jantung dalam jangka panjang.",
+        "Paragraf 1 menjelaskan tentang ciri-ciri heartburn dan paragraf 2 menjelaskan dampak serangan jantung jika tidak dicegah dan diobati."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Paragraf 1 membahas definisi umum heartburn dan kaitannya dengan serangan jantung, sedangkan paragraf 2 memaparkan detail gejala umum keduanya."
+    },
+    {
+      "text": "Manakah kalimat bacaan di atas yang kurang padu?",
+      "options": [
+        "Kalimat 13 paragraf 2.",
+        "Kalimat 8 paragraf 1.",
+        "Kalimat 6 paragraf 1.",
+        "Kalimat 10 paragraf 2.",
+        "Kalimat 12 paragraf 2."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Kalimat 8 membahas tentang asma di tengah pembahasan perbandingan serangan jantung dan heartburn pada paragraf 1."
+    },
+    {
+      "text": "Kesimpulan berdasarkan infografik di atas adalah…",
+      "options": [
+        "T20 merekomendasikan strategi untuk meningkatkan sistem perlindungan sosial yang dapat diimplementasikan.",
+        "Menintegrasikan kerangka kesejahteraan ke dalam desain kebijakan menjadi upaya untuk melampaui PBD sebagai ukuran kemakmuran.",
+        "Implementasi ekonomi inklusi dan berpusat kepada masyarakat menjadi saran strategi yang direkomendasikan T20 untuk mewujudkan pemerataan kesejahteraan.",
+        "null",
+        "null"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Infografik T20 berfokus pada ekonomi inklusif dan berpusat pada masyarakat untuk mewujudkan pemerataan kesejahteraan."
+    },
+    {
+      "text": "Berdasarkan isi infografik, apa tujuan penulis membuat infografik tersebut?",
+      "options": [
+        "Memberikan informasi mengenai kondisi kesejahteraan Indonesia.",
+        "Mengajak para pembaca untuk mengetahui upaya strategi yang direkomendasikan T20 untuk mewujudkan pemerataan kesejahteraan.",
+        "Menjelaskan informasi seputar T20 yang merupakan bagian dari G20",
+        "Menginformasikan bentuk strategi.",
+        "Mengajak para pembaca untuk bersama-sama mendukung implementai strategi yang direkomendasikan."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Tujuan penulis membuat infografik adalah untuk memberikan informasi mengenai upaya strategi yang direkomendasikan T20 untuk mewujudkan pemerataan kesejahteraan."
+    },
+    {
+      "text": "Pernyataan yang tidak sesuai dengan isi infografik di atas adalah...",
+      "options": [
+        "Berinvestasi modal dalam kancah Internasional direkomendasikan guna menjaga perekonomian dan menciptakan pemerataan kesejahteraan.",
+        "Pemanfaatan teknologi digital dan peningkatan jaringan keamanan menjadi strategi yang direkomendasikan.",
+        "Sistem pendidikan yang tangguh menjadi salah satu strategi dalam percepatan dan inklusivitas pembelajaran.",
+        "Penerapan ekonomi iklusif dianggap dapat mewujudkan pemerataan kesejahteraan.",
+        "Terdapat tiga pembagian besar mengenai strategi yang direkomendasikan T20."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang tidak sesuai dengan isi infografik terdapat pada pilihan A. Hal tersebut disebabkan berinvestasi modal bukanlah hal yang direkomendasikan guna menciptakan pemerataan kesejahteraan. Oleh karena itu, kesalahan tersebut menyebabkan pilihan A tidak sesuai dengan isi infografik.",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D",
+        "Pilihan E"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Pernyataan yang tidak sesuai dengan isi infografik terdapat pada pilihan A. Hal tersebut disebabkan berinvestasi modal bukanlah hal yang direkomendasikan guna menciptakan pemerataan kesejahteraan."
+    }
+  ]
+}

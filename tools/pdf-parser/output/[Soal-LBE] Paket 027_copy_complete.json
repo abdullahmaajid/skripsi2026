@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "What is DesignerBeginner's main concern?",
+      "options": [
+        "Building a professional design portfolio.",
+        "Choosing the best online graphic design course platform.",
+        "Finding free design tutorials online.",
+        "Learning design software without prior experience.",
+        "Networking with professional designers."
+      ],
+      "correctAnswer": "Choosing the best online graphic design course platform.",
+      "explanation": null
+    },
+    {
+      "text": "What does DesignExpert advise when selecting a platform?",
+      "options": [
+        "Choosing the cheapest option.",
+        "Focusing solely on community feedback.",
+        "Considering budget, learning style, and goals.",
+        "Only looking at courses from universities.",
+        "Learning only from free tutorials."
+      ],
+      "correctAnswer": "Considering budget, learning style, and goals.",
+      "explanation": null
+    },
+    {
+      "text": "Which platform is highlighted for its structured university courses?",
+      "options": [
+        "Skillshare.",
+        "Coursera.",
+        "Udemy.",
+        "Domestika.",
+        "YouTube."
+      ],
+      "correctAnswer": "Coursera.",
+      "explanation": null
+    },
+    {
+      "text": "What does PortfolioBuilder emphasize for those looking to build a portfolio?",
+      "options": [
+        "The platform’s reputation.",
+        "The instructors’ credentials.",
+        "Platforms offering practical projects.",
+        "Platforms with the lowest cost.",
+        "Certifications from a governing body."
+      ],
+      "correctAnswer": "Platforms offering practical projects.",
+      "explanation": null
+    },
+    {
+      "text": "What does CareerChanger suggest is important for career transition?",
+      "options": [
+        "Learning only from free tutorials.",
+        "Learning from well known figures.",
+        "Curriculum structure and certification.",
+        "Using only the most expensive platform.",
+        "Building an extremely wide skill set."
+      ],
+      "correctAnswer": "Curriculum structure and certification.",
+      "explanation": null
+    },
+    {
+      "text": "Which platform is repeatedly mentioned for having a strong community?",
+      "options": [
+        "Coursera.",
+        "Udemy.",
+        "Skillshare.",
+        "Domestika.",
+        "None are mentioned."
+      ],
+      "correctAnswer": "Domestika.",
+      "explanation": null
+    },
+    {
+      "text": "What is the overall main theme of the discussion?",
+      "options": [
+        "Where to find cheap stock photos.",
+        "How to build a freelance design career.",
+        "Technical software questions.",
+        "Choosing the right platform for online design education.",
+        "Choosing the right platform for online design education."
+      ],
+      "correctAnswer": "Choosing the right platform for online design education.",
+      "explanation": null
+    },
+    {
+      "text": "What is Alex's main concern?",
+      "options": [
+        "Finding the cheapest travel backpack.",
+        "Choosing the best travel backpack for a long trip.",
+        "Learning how to pack a travel backpack.",
+        "Finding travel destinations.",
+        "Learning about different travel accessories."
+      ],
+      "correctAnswer": "Choosing the best travel backpack for a long trip.",
+      "explanation": null
+    },
+    {
+      "text": "What does Beth suggest Alex consider when choosing a backpack?",
+      "options": [
+        "Only the brand name.",
+        "Size, weight, and organization features.",
+        "The color of the backpack.",
+        "Only the price.",
+        "The aesthetic design."
+      ],
+      "correctAnswer": "Size, weight, and organization features.",
+      "explanation": null
+    },
+    {
+      "text": "Who emphasizes comfort and functionality over brand names?",
+      "options": [
+        "Alex",
+        "Beth",
+        "Chris",
+        "Diana",
+        "Ethan"
+      ],
+      "correctAnswer": "Chris",
+      "explanation": null
+    },
+    {
+      "text": "What feature does Diana highlight as essential for organization?",
+      "options": [
+        "External pockets.",
+        "Dedicated compartments for electronics and documents.",
+        "A bright color.",
+        "A small size.",
+        "A heavy weight."
+      ],
+      "correctAnswer": "Dedicated compartments for electronics and documents.",
+      "explanation": null
+    },
+    {
+      "text": "What does Ethan suggest as a key factor for frequent flyers?",
+      "options": [
+        "A large size.",
+        "Water resistance.",
+        "Strong zippers.",
+        "Carry-on size compliance.",
+        "Multiple straps."
+      ],
+      "correctAnswer": "Carry-on size compliance.",
+      "explanation": null
+    },
+    {
+      "text": "What does Chris suggest as an alternative to buying a new backpack?",
+      "options": [
+        "Buying expensive backpacks.",
+        "Borrowing or buying used backpacks.",
+        "Not using a backpack at all.",
+        "Only buying from specific brands.",
+        "Only buying from online retailers."
+      ],
+      "correctAnswer": "Borrowing or buying used backpacks.",
+      "explanation": null
+    },
+    {
+      "text": "What is the overall main theme of the discussion?",
+      "options": [
+        "How to find the best travel deals.",
+        "The best travel destinations.",
+        "Choosing the right travel backpack.",
+        "How to pack efficiently.",
+        "How to find travel insurance."
+      ],
+      "correctAnswer": "Choosing the right travel backpack.",
+      "explanation": null
+    },
+    {
+      "text": "What is the main question posed in Alex's initial post?",
+      "options": [
+        "How to find remote work",
+        "How to be productive while working remotely",
+        "What equipment is needed for a home office",
+        "Whether remote work is better than office work",
+        "How to get a stipend for home office equipment"
+      ],
+      "correctAnswer": "What equipment is needed for a home office",
+      "explanation": null
+    },
+    {
+      "text": "Jordan responds to Alex's post primarily to...",
+      "options": [
+        "Share personal struggles with remote work",
+        "Provide a comprehensive list of essential equipment",
+        "Recommend specific brands of office furniture",
+        "Discuss the psychological aspects of remote work",
+        "Warn about potential health issues"
+      ],
+      "correctAnswer": "Provide a comprehensive list of essential equipment",
+      "explanation": null
+    },
+    {
+      "text": "Who emphasizes the importance of psychological boundaries in remote work?",
+      "options": [
+        "Jordan",
+        "Priya",
+        "Marcus",
+        "Lin",
+        "Zoe"
+      ],
+      "correctAnswer": "Priya",
+      "explanation": null
+    },
+    {
+      "text": "Which response includes negative personal experience with remote work?",
+      "options": [
+        "Jordan",
+        "Priya",
+        "Marcus",
+        "Lin",
+        "Zoe"
+      ],
+      "correctAnswer": "Marcus",
+      "explanation": null
+    },
+    {
+      "text": "The term \"tech stack\" in Zoe's post most likely refers to",
+      "options": [
+        "A pile of electronic devices",
+        "The collection of software tools used by a company",
+        "A storage solution for technology",
+        "Technical support staff",
+        "Computer processing power"
+      ],
+      "correctAnswer": "The collection of software tools used by a company",
+      "explanation": null
+    },
+    {
+      "text": "Who suggests that equipment choices should be influenced by company-specific factors?",
+      "options": [
+        "Jordan",
+        "Priya",
+        "Marcus",
+        "Lin",
+        "Zoe"
+      ],
+      "correctAnswer": "Zoe",
+      "explanation": null
+    },
+    {
+      "text": "What is the main question Sara is asking in her post?",
+      "options": [
+        "How to identify different houseplant species",
+        "Where to buy quality houseplants",
+        "How to care for her first houseplant as a beginner",
+        "How to grow prize-winning plants",
+        "Which houseplant species are easiest to maintain"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "PlantProfessor responds to Sara primarily to...",
+      "options": [
+        "Sell plant care products",
+        "Provide step-by-step beginner advice",
+        "Share personal plant disasters",
+        "Recommend expensive equipment",
+        "Invite Sara to a workshop"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Who uses their extensive experience as evidence for their advice?",
+      "options": [
+        "PlantProfessor",
+        "GreenThumb42",
+        "JungleDweller",
+        "Botanica",
+        "NewLeafNurture"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Which response is least helpful for Sara as a complete beginner?",
+      "options": [
+        "PlantProfessor",
+        "GreenThumb42",
+        "JungleDweller",
+        "Botanica",
+        "NewLeafNurture"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "The term \"plant parenthood\" in PlantProfessor's post most closely suggests?",
+      "options": [
+        "A scientific approach to botany",
+        "A business opportunity",
+        "A caring relationship with plants",
+        "A difficult responsibility",
+        "A competitive hobby"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Who suggests using technology to simplify plant care?",
+      "options": [
+        "PlantProfessor",
+        "GreenThumb42",
+        "JungleDweller",
+        "Botanica",
+        "NewLeafNurture"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "What is the overall tone of the responses to Sara's question?",
+      "options": [
+        "Unanimously scientific",
+        "Consistently negative",
+        "Varied approaches with different perspectives",
+        "Exclusively commercial",
+        "Overly technical for a beginner"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "What is the main issue Marcos is expressing concern about?",
+      "options": [
+        "How to recycle properly",
+        "Ocean plastic pollution",
+        "Climate change",
+        "Endangered marine species",
+        "Personal carbon footprint"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "EcoWarrior responds to Marcos primarily to...",
+      "options": [
+        "Question the documentary's accuracy",
+        "Suggest specific individual actions to reduce plastic use",
+        "Promote an environmental organization",
+        "Argue that individual actions are meaningless",
+        "Share information about ocean ecosystems"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Who bases their perspective primarily on professional experience?",
+      "options": [
+        "EcoWarrior",
+        "IndustryInsider",
+        "PracticalGreen",
+        "SciTeacher",
+        "MinimalistMom"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

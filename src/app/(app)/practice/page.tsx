@@ -103,7 +103,7 @@ export default function PracticePage() {
           <Loader2 className="w-8 h-8 animate-spin text-slate-400" />
         </div>
       ) : subjects.length === 0 ? (
-        <motion.div variants={fadeUp} initial="hidden" animate="show" className="flex-1 flex flex-col items-center justify-center text-slate-500 bg-white rounded-3xl border border-slate-100 p-8 shadow-sm">
+        <motion.div variants={fadeUp} initial="hidden" animate="show" className="flex-1 flex flex-col items-center justify-center text-slate-500 bg-white rounded-3xl border border-slate-100 p-8 shadow-[0_4px_20px_rgba(0,0,0,0.03)]">
           <BookOpen className="w-16 h-16 text-slate-300 mb-4" />
           <p className="mb-2 font-medium text-slate-700">Belum ada soal tersedia.</p>
           <p className="text-sm text-slate-400">Tambahkan soal lewat Admin terlebih dahulu.</p>
@@ -129,7 +129,7 @@ export default function PracticePage() {
                 key={s.id}
                 onClick={() => router.push(`/practice/${s.id}`)}
                 disabled={s.totalQuestions === 0}
-                className={`group relative flex flex-col text-left bg-white rounded-3xl p-5 shadow-[0_2px_10px_rgba(0,0,0,0.02)] border border-slate-100 ${color.hover} transition-all hover:shadow-md disabled:opacity-50 disabled:cursor-not-allowed`}
+                className={`group relative flex flex-col text-left bg-white rounded-3xl p-5 border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.03)] hover:border-slate-200 hover:shadow-md transition-all disabled:opacity-50 disabled:cursor-not-allowed`}
               >
                 <div className="flex items-start justify-between mb-6 w-full">
                   <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 ${color.bg} ${color.text}`}>

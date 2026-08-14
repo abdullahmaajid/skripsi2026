@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "text": "What does the expression \"... others are in the galley below rowing\" in paragraph 1 mean?",
+      "options": [
+        "The ship is going to sink sooner than expected.",
+        "The lower class of society are preparing to riot and disrupt the situation.",
+        "The lower class of society are gravely struggling to get by.",
+        "The upper class is safe because society will eventually survive the crisis.",
+        "The upper class should support the lower class in the middle of crisis."
+      ],
+      "correctAnswer": "C",
+      "explanation": "The context contrasts first-class and third-class passengers on the Titanic with those in the galley below rowing, representing the disadvantaged and struggling lower class during the pandemic."
+    },
+    {
+      "text": "What is the purpose of paragraph 2 and 3?",
+      "options": [
+        "To justify the sacrifices made by the lower class with economic growth",
+        "To show the indistinguishable situations between lower and upper class",
+        "To provide context of why the elites need to be protected for the economy",
+        "To exhibit the earnings of billionaires in the United States",
+        "To contrast the divergent situation between the elite class and everyone else"
+      ],
+      "correctAnswer": "E",
+      "explanation": "Paragraphs 2 and 3 contrast the extreme wealth gained by billionaires and their shielded lives with the widespread job loss and struggle faced by ordinary people."
+    },
+    {
+      "text": "What can be inferred from the text above?",
+      "options": [
+        "The socioeconomic inequality in the US is atrocious.",
+        "Billionaires are heartless sociopaths that leech off society, especially in the US.",
+        "The current economic system is detrimental to the upper class.",
+        "Socioeconomic inequality has slightly improved during the crisis.",
+        "During the crisis, the US economy came crumbling down."
+      ],
+      "correctAnswer": "A",
+      "explanation": "The text highlights a massive disparity where US billionaires accumulated huge wealth while millions lost jobs and suffered, reflecting severe socioeconomic inequality."
+    },
+    {
+      "text": "Which paragraph shows the best evidence for the answer in the previous question?",
+      "options": [
+        "Paragraph 1",
+        "Paragraph 2",
+        "Paragraph 3",
+        "Paragraph 4",
+        "Paragraph 5"
+      ],
+      "correctAnswer": "Paragraph 3",
+      "explanation": "Paragraph 3 explicitly contrasts the huge financial gains of billionaires (like Jeff Bezos) with 40 million Americans out of work and millions at risk of hunger."
+    },
+    {
+      "text": "What is the writer's stance regarding billionaires?",
+      "options": [
+        "Billionaires should not exist to equalize society.",
+        "Billionaires should redistribute their huge wealth to society.",
+        "The elites do not deserve any of their wealth.",
+        "In the middle of crisis, they should stop gaining more profits.",
+        "The worthiness of their ridiculous wealth needs to be challenged."
+      ],
+      "correctAnswer": "E",
+      "explanation": "The writer questions whether the acumen of entrepreneurs is really worth so much more than everyone else's labor, challenging the narrative of their immense fortunes."
+    },
+    {
+      "text": "The word 'acumen' in the last paragraph most nearly means ....",
+      "options": [
+        "Belligerence",
+        "Intelligence",
+        "Immorality",
+        "Ineptness",
+        "Guile"
+      ],
+      "correctAnswer": "Intelligence",
+      "explanation": "Acumen refers to the ability to make good judgments and quick decisions, typically in a particular domain, aligning with intelligence or brilliance."
+    },
+    {
+      "text": "According to the text, a part of the rich is reveling in even more wealth than any time before the pandemic. Is this statement true? Which part supports this statement?",
+      "options": [
+        "Yes, it’s mentioned that they’re shielded from the pandemic effect by their wealth.",
+        "No, it’s mentioned that more than 40 million people in the US are losing their jobs.",
+        "Yes, it’s mentioned that Jeff Bezos even added 35 billion dollar to his wealth during the pandemic.",
+        "No, it’s not mentioned nor implied anywhere in the text that the rich are gaining more than before.",
+        "Yes, it’s mentioned that some of the rich are even enjoying an unprecedented bounty."
+      ],
+      "correctAnswer": "Yes, it’s mentioned that some of the rich are even enjoying an unprecedented bounty.",
+      "explanation": "Paragraph 2 explicitly states that some of the super-rich are \"even enjoying an unprecedented bounty during these difficult times.\""
+    },
+    {
+      "text": "What can be inferred from the passage above?",
+      "options": [
+        "Gamers are more likely to have brain damage due to the change in their brain structures.",
+        "Given its benefits, gaming will now be continuously praised on the media.",
+        "Gamers will find it easier to focus on tasks that require a lot of energy or attention.",
+        "Gaming will continue to become increasingly popular and will render other forms of entertainment useless.",
+        "Gamers are healthier and happier compared to people who don’t play video games."
+      ],
+      "correctAnswer": "Gamers will find it easier to focus on tasks that require a lot of energy or attention.",
+      "explanation": "The text states that gamers show improvements in sustained and selective attention, and their brain regions for attention are more efficient and require less activation on demanding tasks."
+    },
+    {
+      "text": "Why does the writer use the word \"sensationalist\" in paragraph 2?",
+      "options": [
+        "Because video games are getting more popular among adults",
+        "Because games have been praised and demonized",
+        "Because games have been covered a lot by the media",
+        "Because video games are a sensational phenomenon",
+        "Because the media has made extreme claims, usually with no actual evidence"
+      ],
+      "correctAnswer": "Because the media has made extreme claims, usually with no actual evidence",
+      "explanation": "The text notes that the media made various sensationalist claims about video games 'often without real data backing up those claims'."
+    },
+    {
+      "text": "What can we say about the author’s objective in writing this article?",
+      "options": [
+        "The writer denies any claims on the negative effects of games.",
+        "The writer agrees that games ruin our brain functions.",
+        "The writer proves the media’s claims on the negative effects of games.",
+        "The writer explains how video games change the brain’s performance.",
+        "The writer shows that video games alter the brain’s performance and structure."
+      ],
+      "correctAnswer": "The writer shows that video games alter the brain’s performance and structure.",
+      "explanation": "The article's main focus is summarizing scientific studies showing that playing video games changes how our brains perform and their structure."
+    },
+    {
+      "text": "Which of the following questions cannot be answered by the passage?",
+      "options": [
+        "How did the media frame video games over the years?",
+        "What are video games criticized for?",
+        "Are video games gaining popularity among adults?",
+        "Why are video games so polarizing?",
+        "What are the advantages of playing video games?"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Which option uses the word \"committed\" in the same way that it is used in sentence 6?",
+      "options": [
+        "Ken committed a peculiar and uncharacteristic mistake.",
+        "After throwing a tantrum in public, Amber is finally committed to a psych ward.",
+        "Felix is committed to continuing his study in the education field.",
+        "Charlie has committed much of his career is the gaming industry.",
+        "My family has been committed members of the city council."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "What can we say about the result of the study?",
+      "options": [
+        "The researchers collected the results from previous studies examining brain structure and functionality.",
+        "More than changing how our brains perform, playing games can also alter brain structure.",
+        "The study shows that gamers have better performance in conducting cognitive tasks compared to non-gamers.",
+        "The number of gamers is increasing due to the inclusion of the new type of gamers who play on mobile devices.",
+        "Playing video games on mobile devices can alter the functionality and structure of the brain."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "What is the significance of the expression \"...but a new breed of casual gamers has emerged...\"?",
+      "options": [
+        "To illustrate the important role of mobile gamers in the study",
+        "To introduce one of the types of gamers examined in the study",
+        "To introduce the group that promotes the expansion of video games",
+        "To specify which type of gamers is included in the study",
+        "To introduce the group of gamers that is on the rise in popularity"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "Which of the following statements best expresses the main idea of the passage?",
+      "options": [
+        "Changes to humpback whale song may occur when males embellish their own song through addition, substitution or deletion at any hierarchical level.",
+        "Humpback songs can morph and migrate within and between whale populations in a stepwise fashion.",
+        "Underwater recordings have revealed that humpback males sing during migration between breeding and feeding habitats.",
+        "Whale songs travel in a linear pattern with certain variances as some individuals are sung differently with very minor differences.",
+        "When songs have significant changes performed by an individual whale, other pod members apply the said changes."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "All of the following can be inferred from the passage, except ...",
+      "options": [
+        "Male humpback whales go through a cultural revolution by picking up new songs when sharing the same space as other whales.",
+        "During the song, humpbacks produce an intricate series of sounds that can be deconstructed into hierarchical elements.",
+        "Some song learning can occur between whale populations that are in close proximity and may be able to hear the other population's song.",
+        "Humpback whales can learn an entire song pattern from another population very quickly, without leaving anything out.",
+        "One whale finds mating success by tinkering with the song style, the rest of the guys imitate it to better their chances."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "According to the passage, humpback songs have similar structure to that of a language because ....",
+      "options": [
+        "it is organized in a specific pattern using a clear set of rules",
+        "it displays variations among geographically separated populations",
+        "it can convey information and assert dominance with other males",
+        "it evolves and spreads across populations over course of years",
+        "it is made up of repeated phrases and themes"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "As used in the last paragraph, the word \"embellishing\" is closest in meaning to ....",
+      "options": [
+        "taking something without permission and without intending to return it",
+        "forming something by putting parts together or combining elements",
+        "creating something more difficult by causing it to be more complex",
+        "making something more interesting by adding extra features",
+        "representing something as being than it really is"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "It is most reasonable to conclude that the complexity of humpback songs can be analyzed by measuring I. the sound the whales make II. the length of the sound patterns III. the duration of a song session IV. the distance of whale migratory route",
+      "options": [
+        "I and II",
+        "II and III",
+        "III and IV",
+        "I, II, and III",
+        "All of the above"
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    },
+    {
+      "text": "\"When they hear his radically different song, they may borrow some themes or steal the entire song.\" What meaning does the modal 'may' carry in this context?",
+      "options": [
+        "It shows permission.",
+        "It shows suggestion.",
+        "It shows possibility.",
+        "It shows polite offer.",
+        "It shows ability."
+      ],
+      "correctAnswer": null,
+      "explanation": null
+    }
+  ]
+}

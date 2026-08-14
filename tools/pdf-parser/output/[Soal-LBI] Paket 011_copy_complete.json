@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "text": "Hal apa yang timbul dari bersilaturahmi?",
+      "options": [
+        "Kebersamaan",
+        "Cara tubuh berfungsi",
+        "Komunikasi yang baik",
+        "Kepedulian",
+        "Menjaga hubungan"
+      ],
+      "correctAnswer": "Cara tubuh berfungsi",
+      "explanation": "Berdasarkan kalimat (1) teks bacaan, silaturahmi, hubungan sosial dan pengalaman positifnya dapat memengaruhi cara tubuh berfungsi."
+    },
+    {
+      "text": "Pertanyaan di bawah ini yang jawabannya dapat ditemukan dalam teks bacaan adalah…",
+      "options": [
+        "Hubungan negatif dan positif dalam hubungan antarsesama berkontribusi pada?",
+        "Dengan siapa kita perlu menjalin silaturahmi?",
+        "Apa makna dari silaturahmi?",
+        "Kapan waktu yang tepat untuk bersilaturahmi?",
+        "Bagaimana cara menjaga silaturahmi?"
+      ],
+      "correctAnswer": "Hubungan negatif dan positif dalam hubungan antarsesama berkontribusi pada?",
+      "explanation": "Informasi mengenai kontribusi pengalaman hubungan positif dan negatif dapat ditemukan pada paragraf kedua dan ketiga."
+    },
+    {
+      "text": "Ilustrasi yang tepat untuk teks bacaan tersebut adalah…",
+      "options": [
+        "Swafoto para peneliti",
+        "Data orang yang mengalami masalah karena tidak bersilaturahmi",
+        "Kurva tingkat orang yang bersilaturahmi zaman ini",
+        "Video penelitian peneliti",
+        "Gambar suasana silaturahmi"
+      ],
+      "correctAnswer": "Gambar suasana silaturahmi",
+      "explanation": "Teks membahas tentang silaturahmi dan pengaruhnya, sehingga ilustrasi yang relevan adalah gambar suasana silaturahmi atau interaksi sosial."
+    },
+    {
+      "text": "Tema yang mungkin benar untuk teks bacaan adalah…",
+      "options": [
+        "Silaturahmi",
+        "Fungsi tubuh",
+        "Hasil penelitian",
+        "Teori fisik",
+        "Kesehatan"
+      ],
+      "correctAnswer": "Silaturahmi",
+      "explanation": "Teks secara keseluruhan membahas mengenai silaturahmi serta dampaknya terhadap fungsi tubuh dan kesehatan."
+    },
+    {
+      "text": "Gagasan utama dari teks bacaan tersebut adalah…",
+      "options": [
+        "Konsekuensi kesehatan fisik jangka panjang",
+        "Pengalaman relasional positif dan negatif",
+        "Silaturahmi memengaruhi cara tubuh berfungsi",
+        "4.005 peserta menyelesaikan check-in harian melalui",
+        "Detak jantung dan tekanan darah dinilai menggunakan sensor optik"
+      ],
+      "correctAnswer": "Silaturahmi memengaruhi cara tubuh berfungsi",
+      "explanation": "Gagasan utama teks terletak pada awal paragraf pertama yang menyatakan bahwa silaturahmi memengaruhi cara tubuh berfungsi."
+    },
+    {
+      "text": "Jika ingin menulis satu paragraf baru setelah paragraf akhir, maka hal yang tepat untuk ditulis adalah…",
+      "options": [
+        "Dampak bagi orang yang tidak bersilaturahmi",
+        "Efek jangka panjang bagi yang tidak menjaga hubungan baik",
+        "Tanggapan para peneliti lainnya terkait hal ini",
+        "Hasil dari penelitian tersebut",
+        "Hubungan yang baik berpengaruh terhadap kesehatan"
+      ],
+      "correctAnswer": "Hasil dari penelitian tersebut",
+      "explanation": "Paragraf akhir membahas proses penelitian yang dilakukan selama tiga minggu, sehingga paragraf selanjutnya secara logis dapat memuat hasil dari penelitian tersebut."
+    },
+    {
+      "text": "Kekurangan dari teks bacaan tersebut adalah…",
+      "options": [
+        "Tidak menyampaikan penyakit apa yang timbul dari tidak berhubungan baik",
+        "Tidak adanya informasi pembuka",
+        "Tidak menyampaikan hubungan dekat mempengaruhi kesehatan fisik",
+        "Tidak menyampaikan berapa orang yang dilibatkan dalam penelitian tersebut",
+        "Tidak menyampaikan hasil akhir dari penelitian yang dilakukan"
+      ],
+      "correctAnswer": "Tidak menyampaikan hasil akhir dari penelitian yang dilakukan",
+      "explanation": "Teks hanya memaparkan proses dan tujuan penelitian yang melibatkan 4.005 peserta selama tiga minggu tanpa menyertakan hasil akhir dari penelitian tersebut."
+    },
+    {
+      "text": "Judul yang mungkin benar untuk teks bacaan adalah…",
+      "options": [
+        "Ayo Jaga Silaturahmi!",
+        "Jaga Kesehatan, Jaga Hubungan Baik!",
+        "Mau Jiwa Sehat Lahir Batin? Ayo Jaga Hubungan Baik!",
+        "Hubungan Baik Membuat Jiwa Lebih Tenang",
+        "Silaturahmi dan Pengalaman Positifnya Memengaruhi Cara Tubuh Berfungsi"
+      ],
+      "correctAnswer": "Silaturahmi dan Pengalaman Positifnya Memengaruhi Cara Tubuh Berfungsi",
+      "explanation": "Judul tersebut sesuai dengan judul sumber asli artikel yang dibahas pada teks bacaan."
+    },
+    {
+      "text": "Hubungan antara kalimat (1) dan (2) adalah…",
+      "options": [
+        "Saling bertentang",
+        "Kalimat (2) contoh kalimat (1)",
+        "Saling memperjelas",
+        "Kalimat (2) informasi lanjutan",
+        "Kalimat (2) mempersempit kalimat (1)"
+      ],
+      "correctAnswer": "Kalimat (2) informasi lanjutan",
+      "explanation": "Kalimat (2) memberikan informasi lanjutan atau penjelasan lebih rinci dari temuan studi yang disebutkan pada kalimat (1)."
+    },
+    {
+      "text": "Jika angka kelahiran melambat, maka hal yang paling mungkin terjadi berdasarkan paragraf satu adalah…",
+      "options": [
+        "Masa akan datang jumlah penduduk banyak",
+        "Populasi dunia akan menurun",
+        "Angka kematian akan tinggi",
+        "Akan ada tahun di mana tidak ada angka kelahiran",
+        "Populasi manusia tetap akan sama"
+      ],
+      "correctAnswer": "Populasi dunia akan menurun",
+      "explanation": "Berdasarkan paragraf pertama, penurunan jumlah anak yang lahir (angka kelahiran) menyebabkan populasi dunia terhenti dan terus menurun."
+    },
+    {
+      "text": "Pernyataan yang menunjukkan opini ditunjukkan dalam kalimat ke…",
+      "options": [
+        "(14)",
+        "(13)",
+        "(1)",
+        "(3)",
+        "(15)"
+      ],
+      "correctAnswer": "(1)",
+      "explanation": "Kalimat (1) memuat kata 'meramalkan' yang menunjukkan sebuah bentuk pendapat atau pandangan (opini) dari studi pemodelan baru."
+    },
+    {
+      "text": "Jika populasi manusia berkurang, hal yang dapat disimpulkan berdasarkan informasi dalam paragraf kedua adalah…",
+      "options": [
+        "Tidak ada lagi masyarakat usia produktif",
+        "Negara akan tidak berkembang",
+        "Meringankan masalah lingkungan Bumi",
+        "Menuju kepunahan",
+        "Beban negara semakin meningkat"
+      ],
+      "correctAnswer": "Meringankan masalah lingkungan Bumi",
+      "explanation": "Berdasarkan kalimat (11) pada paragraf kedua, populasi yang anjlok akan sedikit meringankan masalah lingkungan Bumi."
+    },
+    {
+      "text": "Frasa populasi manusia dalam kalimat (11) pada teks bacaan memiliki pola yang sama dengan frasa…",
+      "options": [
+        "Sakit hati",
+        "Jejak petualang",
+        "Tinggal nama",
+        "Merasa kecewa",
+        "Tempat pulang"
+      ],
+      "correctAnswer": "Jejak petualang",
+      "explanation": "Frasa 'populasi manusia' terdiri atas unsur (M - K) atau (Noun - Noun). Pola yang sama terdapat pada frasa 'jejak petualang'."
+    },
+    {
+      "text": "Inti dari kalimat (15) adalah...",
+      "options": [
+        "Anggota kolektif Earth4All yang terdiri dari ilmuwan lingkungan dan ekonom",
+        "Peneliti menerbitkan temuan pada 27 Maret",
+        "Anggota kolektif Earth4All yang terdiri dari ilmuwan lingkungan dan ekonom menerbitkan temuan di Working Paper People and Planet",
+        "Temuan mereka diterbitkan",
+        "Para peneliti menerbitkan temuan mereka"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Kata “hal ini” dalam kalimat (5) merujuk pada hal dalam kalimat...",
+      "options": [
+        "(3)",
+        "(4)",
+        "(6)",
+        "(7)",
+        "(2)"
+      ],
+      "correctAnswer": "B",
+      "explanation": null
+    },
+    {
+      "text": "Peletakkan kata yang tidak tepat dapat ditemukan dalam kalimat...",
+      "options": [
+        "(8)",
+        "(9)",
+        "(10)",
+        "(11)",
+        "(12)"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "Paragraf pertama teks bacaan tersebut membahas...",
+      "options": [
+        "Konsep mesaharty",
+        "Cara berpuasa di India",
+        "Kebiasaan masyarakat",
+        "Tradisi di India",
+        "Gambaran umum Ramadan di India"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "Bagaimana sikap penulis berdasarkan teks bacaan tersebut...",
+      "options": [
+        "Memberikan ketidaksetujuan terhadap suatu hal",
+        "Menyampaikan pendapat pribadi",
+        "Menyampaikan suatu informasi",
+        "Mempertentang suatu informasi",
+        "Membandingkan suatu informasi dengan informasi dari sumber lain"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Apa yang dilakukan masyarakat India pada saat melakukan kegiatan 'mesaharaty'...",
+      "options": [
+        "Menari",
+        "Masak bersama",
+        "Doa bersma",
+        "Menabuh gendang",
+        "Membaca Al Quran"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "Hal yang paling mungkin terjadi, apabila masyarakat India seluruhnya Hindu berdasarkan informasi teks bacaan adalah...",
+      "options": [
+        "Berpuasa di India tidak boleh dilakukan",
+        "Tidak akan ada buka puasa dan sahur",
+        "Tidak akan ada perayaan 'mesaharaty'",
+        "Tidak akan ada pengunjung muslim",
+        "Tidak akan ada bulan Ramadan"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang mengandung pemborosan kata dapat ditemukan dalam kalimat...",
+      "options": [
+        "(7)",
+        "(8)",
+        "(9)",
+        "(10)",
+        "(11)"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Pernyataan yang tepat untuk mengakhiri paragraf terakhir adalah...",
+      "options": [
+        "Oleh karena itu, bulan Ramadan di India juga terasa walaupun bukan mayoritas muslim",
+        "Dengan demikian, semua masakan terasa nikmat",
+        "Puasa di India terasa hangat",
+        "Ini dilakukan sepanjang Ramadan",
+        "Sehingga masyarakat di India kompak"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang menunjukkan pernyataan opini ditunjukkan dalam kalimat...",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)",
+        "(5)"
+      ],
+      "correctAnswer": "C",
+      "explanation": null
+    },
+    {
+      "text": "Hal paling unik selama Ramadan yang dilakukan oleh masyarakat India yang membedakan dari masyarakat negara lain adalah...",
+      "options": [
+        "Menabuh gendang",
+        "Berbuka bersama",
+        "Menari bersama",
+        "Berbuka dan sholat bersama",
+        "Berbuka puasa dengan garam sebelum makan apa pun"
+      ],
+      "correctAnswer": "E",
+      "explanation": null
+    },
+    {
+      "text": "Ilustrasi yang tepat untuk teks bacaan tersebut adalah...",
+      "options": [
+        "Video kilas balik Kota Craco",
+        "Diagram populasi Kota Craco",
+        "Kurva tingka kemiskinan masyarakat Kota Craco",
+        "Gambar Kota Craco",
+        "Data pengunjung Kota Craco"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "Topik yang mungkin benar dari teks bacaan tersebut adalah...",
+      "options": [
+        "Kota Craco",
+        "Orang Yunani",
+        "Pusat Militer",
+        "Pertumpahan dara",
+        "Tanah longsor"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Pertanyaan di bawah ini yang jawabannya tidak dapat ditemukan dalam teks bacaan adalah...",
+      "options": [
+        "Sejak kapan Kota Craco sudah dihuni?",
+        "Kenapa Kota Craco pada tahun 1532 populasinya melonjak?",
+        "Bagaimana kondisi saat ini Kota Craco?",
+        "Siapa pemimpin pertama Kota Craco?",
+        "Di manakah letak Kota Craco?"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "Kalimat yang mengandung kata bermakna kiasan ditunjukkan dalam kalimat...",
+      "options": [
+        "(13)",
+        "(14)",
+        "(15)",
+        "(16)",
+        "(17)"
+      ],
+      "correctAnswer": "A",
+      "explanation": null
+    },
+    {
+      "text": "Bagaimana kondisi kota Craco hingga hari ini...",
+      "options": [
+        "Kota Craco saat ini sangat maju",
+        "Kota Craco menjadi bagian dari Italia",
+        "Populasi masyarakat di Kota Craco semakin meningkat",
+        "Hanya dijadikan objek wisata dan lokasi syuting film",
+        "Kota Craco menjadi salah satu kota termaju di dunia"
+      ],
+      "correctAnswer": "D",
+      "explanation": null
+    },
+    {
+      "text": "Penggunaan tanda baca yang tidak tepat ditunjukkan dalam kalimat…",
+      "options": [
+        "(16)",
+        "(17)",
+        "(18)",
+        "(19)",
+        "(20)"
+      ],
+      "correctAnswer": "(18)",
+      "explanation": null
+    }
+  ]
+}
