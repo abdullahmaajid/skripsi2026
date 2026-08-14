@@ -167,8 +167,15 @@ export default function AdminTryoutsPage() {
         title="Manajemen Tryout"
         subtitle="Buat paket simulasi Tryout SNBT dan susun subtes/seksi materi ujian beserta alokasi waktu menitnya."
         icon={<NotebookPen className="w-8 h-8" />}
+        badgeText="KELOLA UJIAN"
         stats={[
           { label: "Total Paket", value: tryouts.length, icon: <BookOpen className="w-3.5 h-3.5" /> },
+        ]}
+        infoTitle="Penting untuk diketahui saat menyusun Tryout:"
+        infoList={[
+          "Tryout yang diset sebagai DIAGNOSTIC TEST akan digunakan untuk kalibrasi kemampuan awal siswa.",
+          "Pastikan setiap subtes memiliki alokasi waktu yang sesuai dengan standar UTBK asli.",
+          "Hasil ujian akan menggunakan model IRT jika bobot soal (difficulty) sudah terkalibrasi."
         ]}
       />
 

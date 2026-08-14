@@ -170,6 +170,13 @@ export default function AdminScraperPage() {
         title="Universitas & Jurusan (PTN)"
         subtitle="Kelola data universitas negeri/swasta beserta daftar program studi, kuota tampung, dan nilai passing grade."
         icon={<Building className="w-8 h-8" />}
+        badgeText="DATA KAMPUS"
+        infoTitle="Informasi Sistem Chancing (Peluang Lulus):"
+        infoList={[
+          "Nilai Passing Grade (Target Aman) digunakan untuk membandingkan skor tryout siswa.",
+          "Setiap Prodi memiliki klaster (SOSHUM/SAINTEK) yang mempengaruhi pembobotan soal (IRT) pada tryout.",
+          "Jika data Prodi tidak lengkap, rekomendasi jurusan di dasbor siswa tidak akan akurat."
+        ]}
         stats={[
           { label: "Universitas", value: universities.length, icon: <GraduationCap className="w-3.5 h-3.5" /> },
           { label: "Total Prodi", value: majors.length, icon: <BookOpen className="w-3.5 h-3.5" /> },

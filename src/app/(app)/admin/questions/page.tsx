@@ -230,6 +230,13 @@ export default function AdminQuestionsPage() {
         title="Bank Soal & Kurikulum"
         subtitle="Kelola konten materi ujian UTBK yang mencakup mata pelajaran, bab belajar, dan detail soal."
         icon={<Database className="w-8 h-8" />}
+        badgeText="KELOLA KONTEN"
+        infoTitle="Struktur Kurikulum UTBK:"
+        infoList={[
+          "Mata Pelajaran (Subject) adalah level teratas (Misal: Penalaran Umum, Literasi Bahasa).",
+          "Setiap Subject memiliki banyak Bab Materi (Chapters) yang spesifik.",
+          "Soal dikelompokkan ke dalam Bab Materi tertentu untuk memastikan sebaran tryout merata."
+        ]}
         stats={[
           { label: "Mata Pelajaran", value: subjects.length, icon: <BookOpen className="w-3.5 h-3.5" /> },
           { label: "Total Bab", value: chapters.length, icon: <Layers className="w-3.5 h-3.5" /> },

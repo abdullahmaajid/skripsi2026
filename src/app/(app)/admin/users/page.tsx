@@ -272,6 +272,13 @@ export default function AdminUsersPage() {
         title="Manajemen User"
         subtitle="Kelola akun siswa dan administrator, ubah hak akses, dan pantau performa IRT siswa."
         icon={<Users className="w-8 h-8" />}
+        badgeText="AKUN & AKSES"
+        infoTitle="Panduan Manajemen Pengguna:"
+        infoList={[
+          "Siswa dengan role ADMIN dapat mengakses seluruh panel kelola.",
+          "Nilai Rata-rata Theta (IRT) menunjukkan estimasi kemampuan populasi siswa aktif.",
+          "Hapus pengguna hanya jika benar-benar melanggar ketentuan, karena aksi ini permanen."
+        ]}
         stats={[
           { label: "Total Siswa", value: totalStudents, icon: <User className="w-3.5 h-3.5" /> },
           { label: "Admin", value: totalAdmins, icon: <Shield className="w-3.5 h-3.5" /> },
