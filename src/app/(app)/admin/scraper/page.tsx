@@ -44,40 +44,78 @@ export default function AdminScraperPage() {
 
   // Search & Filter
   const [searchQuery, setSearchQuery] = useState("")
+  const [debouncedSearch, setDebouncedSearch] = useState("")
   const [filterUniId, setFilterUniId] = useState("")
   const [filterLocation, setFilterLocation] = useState("")
   
-  // Pagination
+  // Pagination & Meta
   const [currentPage, setCurrentPage] = useState(1)
+  const [totalUniPages, setTotalUniPages] = useState(1)
+  const [totalMajorPages, setTotalMajorPages] = useState(1)
+  const [totalUniCount, setTotalUniCount] = useState(0)
+  const [totalMajorCount, setTotalMajorCount] = useState(0)
   const itemsPerPage = 20
+
+  // For Dropdowns
+  const [allUnisForDropdown, setAllUnisForDropdown] = useState<University[]>([])
+
+  // Debounce search
+  useEffect(() => {
+    const timer = setTimeout(() => setDebouncedSearch(searchQuery), 500)
+    return () => clearTimeout(timer)
+  }, [searchQuery])
 
   useEffect(() => {
     setCurrentPage(1)
-  }, [activeTab, filterLocation, filterUniId, searchQuery])
+  }, [activeTab, filterLocation, filterUniId, debouncedSearch])
 
   const openPanel = useAdminPanelStore(s => s.openPanel)
   const closePanel = useAdminPanelStore(s => s.closePanel)
 
   useEffect(() => {
     fetchData()
-  }, [activeTab])
+  }, [activeTab, currentPage, debouncedSearch, filterLocation, filterUniId])
 
   async function fetchData() {
     setLoading(true)
     try {
+      const params = new URLSearchParams({
+        page: currentPage.toString(),
+        limit: itemsPerPage.toString(),
+      })
+      if (debouncedSearch) params.append("search", debouncedSearch)
+
       if (activeTab === "universities") {
-        const res = await fetch("/api/admin/universities")
+        if (filterLocation) params.append("location", filterLocation)
+        const res = await fetch(`/api/admin/universities?${params.toString()}`)
         const data = await res.json()
         setUniversities(data.data || [])
+        if (data.meta) {
+          setTotalUniPages(data.meta.totalPages || 1)
+          setTotalUniCount(data.meta.total || 0)
+        }
       } else {
-        const [resMajors, resUnis] = await Promise.all([
-          fetch("/api/admin/majors"),
-          fetch("/api/admin/universities")
-        ])
-        const dataMajors = await resMajors.json()
-        const dataUnis = await resUnis.json()
+        if (filterUniId) params.append("universityId", filterUniId)
+        
+        // Also fetch universities for the dropdown if not loaded yet
+        const fetchPromises = [fetch(`/api/admin/majors?${params.toString()}`)]
+        if (allUnisForDropdown.length === 0) {
+          fetchPromises.push(fetch(`/api/admin/universities?limit=1000`))
+        }
+
+        const responses = await Promise.all(fetchPromises)
+        const dataMajors = await responses[0].json()
+        
         setMajors(dataMajors.data || [])
-        setUniversities(dataUnis.data || [])
+        if (dataMajors.meta) {
+          setTotalMajorPages(dataMajors.meta.totalPages || 1)
+          setTotalMajorCount(dataMajors.meta.total || 0)
+        }
+
+        if (responses[1]) {
+          const dataUnis = await responses[1].json()
+          setAllUnisForDropdown(dataUnis.data || [])
+        }
       }
     } catch (e) {
       console.error(e)
@@ -156,26 +194,12 @@ export default function AdminScraperPage() {
     }
   }
 
-  // Filtering lists
-  const uniqueLocations = Array.from(new Set(universities.map(u => u.location))).sort()
+  // Filtering lists is now done server-side
+  // We can just hardcode or deduce unique locations from allUnisForDropdown (if available) or a static list
+  const uniqueLocations = Array.from(new Set(allUnisForDropdown.map(u => u.location))).sort()
   
-  const filteredUnis = universities.filter(u => {
-    const matchSearch = u.name.toLowerCase().includes(searchQuery.toLowerCase()) || u.code.includes(searchQuery)
-    const matchLoc = filterLocation ? u.location === filterLocation : true
-    return matchSearch && matchLoc
-  })
-
-  const filteredMajors = majors.filter(m => {
-    const matchSearch = m.name.toLowerCase().includes(searchQuery.toLowerCase()) || m.code.includes(searchQuery)
-    const matchUni = filterUniId ? m.universityId === filterUniId : true
-    return matchSearch && matchUni
-  })
-  
-  const paginatedUnis = filteredUnis.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage)
-  const totalUniPages = Math.ceil(filteredUnis.length / itemsPerPage)
-  
-  const paginatedMajors = filteredMajors.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage)
-  const totalMajorPages = Math.ceil(filteredMajors.length / itemsPerPage)
+  const paginatedUnis = universities
+  const paginatedMajors = majors
 
   return (
     <div className="p-6 md:p-8 space-y-6 h-full overflow-y-auto no-scrollbar">
@@ -192,8 +216,8 @@ export default function AdminScraperPage() {
           "Jika data Prodi tidak lengkap, rekomendasi jurusan di dasbor siswa tidak akan akurat."
         ]}
         stats={[
-          { label: "Universitas", value: universities.length },
-          { label: "Total Prodi", value: majors.length },
+          { label: "Universitas", value: activeTab === "universities" ? totalUniCount : allUnisForDropdown.length },
+          { label: "Total Prodi", value: activeTab === "majors" ? totalMajorCount : "-" },
         ]}
       />
 
@@ -240,7 +264,7 @@ export default function AdminScraperPage() {
             <div className="w-64 shrink-0">
               <select value={filterUniId} onChange={e => setFilterUniId(e.target.value)} className="w-full bg-white border border-slate-200 text-slate-700 text-sm rounded-xl px-3 py-2.5 outline-none cursor-pointer shadow-sm">
                 <option value="">Semua Universitas</option>
-                {universities.map(u => <option key={u.id} value={u.id}>{u.name}</option>)}
+                {allUnisForDropdown.map(u => <option key={u.id} value={u.id}>{u.name}</option>)}
               </select>
             </div>
           )}
@@ -288,7 +312,7 @@ export default function AdminScraperPage() {
                   </div>
                 </div>
               ))}
-                {filteredUnis.length === 0 && (
+                {!loading && paginatedUnis.length === 0 && (
                   <div className="col-span-2 text-center py-16 text-slate-400 border border-dashed border-slate-200 rounded-2xl">Tidak ada universitas ditemukan</div>
                 )}
               </div>
@@ -361,7 +385,7 @@ export default function AdminScraperPage() {
                         </td>
                       </tr>
                     ))}
-                    {filteredMajors.length === 0 && (
+                    {!loading && paginatedMajors.length === 0 && (
                       <tr><td colSpan={8} className="py-10 text-center text-slate-400 font-medium">Belum ada jurusan ditemukan</td></tr>
                     )}
                   </tbody>

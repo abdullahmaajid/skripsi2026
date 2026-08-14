@@ -17,13 +17,45 @@ export async function GET(req: NextRequest) {
   if (deny === "FORBIDDEN") return NextResponse.json({ error: "Forbidden" }, { status: 403 })
 
   try {
-    const search = req.nextUrl.searchParams.get("search") || ""
-    const universities = await prisma.university.findMany({
-      where: search ? { name: { contains: search, mode: "insensitive" } } : {},
-      include: { _count: { select: { majors: true } } },
-      orderBy: { name: "asc" },
+    const { searchParams } = new URL(req.url)
+    const page = parseInt(searchParams.get("page") || "1")
+    const limit = parseInt(searchParams.get("limit") || "20")
+    const search = searchParams.get("search") || ""
+    const location = searchParams.get("location") || ""
+
+    const skip = (page - 1) * limit
+
+    const where: any = {}
+    if (search) {
+      where.OR = [
+        { name: { contains: search, mode: "insensitive" } },
+        { code: { contains: search, mode: "insensitive" } }
+      ]
+    }
+    if (location) {
+      where.location = location
+    }
+
+    const [universities, total] = await Promise.all([
+      prisma.university.findMany({
+        where,
+        skip,
+        take: limit,
+        include: { _count: { select: { majors: true } } },
+        orderBy: { name: "asc" },
+      }),
+      prisma.university.count({ where })
+    ])
+
+    return NextResponse.json({ 
+      data: universities,
+      meta: {
+        total,
+        page,
+        limit,
+        totalPages: Math.ceil(total / limit)
+      }
     })
-    return NextResponse.json({ data: universities })
   } catch (error) {
     console.error("GET admin universities error:", error)
     return NextResponse.json({ error: "Gagal memuat PTN" }, { status: 500 })

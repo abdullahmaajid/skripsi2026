@@ -59,15 +59,25 @@ export default function AdminQuestionsPage() {
   const [filterSubjectId, setFilterSubjectId] = useState("")
   const [filterChapterId, setFilterChapterId] = useState("")
   const [searchQuery, setSearchQuery] = useState("")
+  const [debouncedSearch, setDebouncedSearch] = useState("")
   
   // Pagination
   const [currentPage, setCurrentPage] = useState(1)
+  const [totalQPages, setTotalQPages] = useState(1)
+  const [totalCPages, setTotalCPages] = useState(1)
+  const [totalQCount, setTotalQCount] = useState(0)
   const itemsPerPage = 20
+
+  // Debounce search
+  useEffect(() => {
+    const timer = setTimeout(() => setDebouncedSearch(searchQuery), 500)
+    return () => clearTimeout(timer)
+  }, [searchQuery])
 
   // Reset page when filter changes
   useEffect(() => {
     setCurrentPage(1)
-  }, [filterSubjectId, filterChapterId, searchQuery])
+  }, [filterSubjectId, filterChapterId, debouncedSearch, activeTab])
 
   const openPanel = useAdminPanelStore(s => s.openPanel)
   const closePanel = useAdminPanelStore(s => s.closePanel)
@@ -75,34 +85,49 @@ export default function AdminQuestionsPage() {
   // Loading triggers
   useEffect(() => {
     fetchData()
-  }, [activeTab])
+  }, [activeTab, currentPage, debouncedSearch, filterSubjectId, filterChapterId])
 
   async function fetchData() {
     setLoading(true)
     try {
+      const params = new URLSearchParams({
+        page: currentPage.toString(),
+        limit: itemsPerPage.toString(),
+      })
+      if (filterSubjectId) params.append("subjectId", filterSubjectId)
+
       if (activeTab === "subjects") {
         const res = await fetch("/api/admin/subjects")
         const data = await res.json()
         setSubjects(data.data || [])
       } else if (activeTab === "chapters") {
         const [resChapters, resSubjects] = await Promise.all([
-          fetch("/api/admin/chapters"),
+          fetch(`/api/admin/chapters?${params.toString()}`),
           fetch("/api/admin/subjects")
         ])
         const dataChapters = await resChapters.json()
         const dataSubjects = await resSubjects.json()
         setChapters(dataChapters.data || [])
+        if (dataChapters.meta) setTotalCPages(dataChapters.meta.totalPages || 1)
         setSubjects(dataSubjects.data || [])
       } else {
+        if (debouncedSearch) params.append("search", debouncedSearch)
+        if (filterChapterId) params.append("chapterId", filterChapterId)
+        
         const [resQuestions, resChapters, resSubjects] = await Promise.all([
-          fetch("/api/admin/questions"),
-          fetch("/api/admin/chapters"),
+          fetch(`/api/admin/questions?${params.toString()}`),
+          fetch("/api/admin/chapters"), // load all chapters for filter dropdown (can optimize later)
           fetch("/api/admin/subjects")
         ])
         const dataQ = await resQuestions.json()
         const dataC = await resChapters.json()
         const dataS = await resSubjects.json()
+        
         setQuestions(dataQ.data || [])
+        if (dataQ.meta) {
+          setTotalQPages(dataQ.meta.totalPages || 1)
+          setTotalQCount(dataQ.meta.total || 0)
+        }
         setChapters(dataC.data || [])
         setSubjects(dataS.data || [])
       }
@@ -220,23 +245,10 @@ export default function AdminQuestionsPage() {
     }
   }
 
-  // Question Filters calculation
-  const filteredQuestions = questions.filter(q => {
-    const matchSubject = filterSubjectId ? q.chapter.subject.id === filterSubjectId : true
-    const matchChapter = filterChapterId ? q.chapterId === filterChapterId : true
-    const matchSearch = searchQuery ? q.text.toLowerCase().includes(searchQuery.toLowerCase()) : true
-    return matchSubject && matchChapter && matchSearch
-  })
+  // Question Filters calculation is now done server-side
+  const paginatedQuestions = questions
 
-  const paginatedQuestions = filteredQuestions.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage)
-  const totalPages = Math.ceil(filteredQuestions.length / itemsPerPage)
-
-  const filteredChapters = chapters.filter(c => {
-    return filterSubjectId ? c.subjectId === filterSubjectId : true
-  })
-  
-  const paginatedChapters = filteredChapters.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage)
-  const totalChapterPages = Math.ceil(filteredChapters.length / itemsPerPage)
+  const paginatedChapters = chapters
 
   return (
     <div className="p-6 md:p-8 space-y-6 h-full overflow-y-auto no-scrollbar">
@@ -365,7 +377,7 @@ export default function AdminQuestionsPage() {
               </div>
               
               {/* Pagination Controls */}
-              {totalChapterPages > 1 && (
+              {totalCPages > 1 && (
                 <div className="flex justify-center items-center gap-4 py-4">
                   <button 
                     onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
@@ -375,11 +387,11 @@ export default function AdminQuestionsPage() {
                     Sebelumnya
                   </button>
                   <span className="text-sm font-bold text-slate-400">
-                    Halaman <span className="text-slate-700">{currentPage}</span> dari <span className="text-slate-700">{totalChapterPages}</span>
+                    Halaman <span className="text-slate-700">{currentPage}</span> dari <span className="text-slate-700">{totalCPages}</span>
                   </span>
                   <button 
-                    onClick={() => setCurrentPage(p => Math.min(totalChapterPages, p + 1))}
-                    disabled={currentPage === totalChapterPages}
+                    onClick={() => setCurrentPage(p => Math.min(totalCPages, p + 1))}
+                    disabled={currentPage === totalCPages}
                     className="px-5 py-2.5 bg-white border border-slate-200 hover:bg-slate-50 text-slate-600 rounded-xl text-sm font-bold disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-sm"
                   >
                     Selanjutnya
@@ -420,7 +432,7 @@ export default function AdminQuestionsPage() {
               </div>
 
               <div className="flex justify-between items-center">
-                <h3 className="text-sm font-bold text-slate-400 uppercase tracking-wider">{filteredQuestions.length} Soal Ditemukan</h3>
+                <h3 className="text-sm font-bold text-slate-400 uppercase tracking-wider">{totalQCount} Soal Ditemukan</h3>
                 <button onClick={openAddQuestion} className="flex items-center gap-2 px-4 py-2 bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white font-bold text-sm rounded-xl transition-all shadow-sm">
                   <Plus className="w-4 h-4" /> Tambah Soal
                 </button>
@@ -466,12 +478,12 @@ export default function AdminQuestionsPage() {
                     </div>
                   </div>
                 ))}
-                {filteredQuestions.length === 0 && (
+                {!loading && paginatedQuestions.length === 0 && (
                   <div className="text-center py-16 text-slate-400 border border-dashed border-slate-200 rounded-2xl">Tidak ada soal yang sesuai filter</div>
                 )}
                 
                 {/* Pagination Controls */}
-                {totalPages > 1 && (
+                {totalQPages > 1 && (
                   <div className="flex justify-center items-center gap-4 py-6">
                     <button 
                       onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
@@ -481,11 +493,11 @@ export default function AdminQuestionsPage() {
                       Sebelumnya
                     </button>
                     <span className="text-sm font-bold text-slate-400">
-                      Halaman <span className="text-slate-700">{currentPage}</span> dari <span className="text-slate-700">{totalPages}</span>
+                      Halaman <span className="text-slate-700">{currentPage}</span> dari <span className="text-slate-700">{totalQPages}</span>
                     </span>
                     <button 
-                      onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
-                      disabled={currentPage === totalPages}
+                      onClick={() => setCurrentPage(p => Math.min(totalQPages, p + 1))}
+                      disabled={currentPage === totalQPages}
                       className="px-5 py-2.5 bg-white border border-slate-200 hover:bg-slate-50 text-slate-600 rounded-xl text-sm font-bold disabled:opacity-50 disabled:cursor-not-allowed transition-all"
                     >
                       Selanjutnya

@@ -11,17 +11,52 @@ async function requireAdmin() {
   return null
 }
 
-export async function GET() {
+export async function GET(req: NextRequest) {
   const deny = await requireAdmin()
   if (deny === "UNAUTHENTICATED") return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
   if (deny === "FORBIDDEN") return NextResponse.json({ error: "Forbidden" }, { status: 403 })
 
   try {
-    const questions = await prisma.question.findMany({
-      include: { options: true, chapter: { include: { subject: true } } },
-      orderBy: { id: "desc" },
+    const { searchParams } = new URL(req.url)
+    const page = parseInt(searchParams.get("page") || "1")
+    const limit = parseInt(searchParams.get("limit") || "20")
+    const search = searchParams.get("search") || ""
+    const chapterId = searchParams.get("chapterId") || ""
+    const subjectId = searchParams.get("subjectId") || ""
+
+    const skip = (page - 1) * limit
+
+    const where: any = {}
+    if (search) {
+      where.text = { contains: search, mode: "insensitive" }
+    }
+    if (chapterId) {
+      where.chapterId = chapterId
+    }
+    if (subjectId) {
+      where.chapter = { subjectId }
+    }
+
+    const [questions, total] = await Promise.all([
+      prisma.question.findMany({
+        where,
+        skip,
+        take: limit,
+        include: { options: true, chapter: { include: { subject: true } } },
+        orderBy: { id: "desc" },
+      }),
+      prisma.question.count({ where })
+    ])
+
+    return NextResponse.json({ 
+      data: questions,
+      meta: {
+        total,
+        page,
+        limit,
+        totalPages: Math.ceil(total / limit)
+      }
     })
-    return NextResponse.json({ data: questions })
   } catch (error) {
     console.error("GET questions error:", error)
     return NextResponse.json({ error: "Gagal memuat soal" }, { status: 500 })

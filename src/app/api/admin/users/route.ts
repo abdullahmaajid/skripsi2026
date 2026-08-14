@@ -12,26 +12,75 @@ async function requireAdmin() {
   return null
 }
 
-export async function GET() {
+export async function GET(req: NextRequest) {
   const deny = await requireAdmin()
   if (deny === "UNAUTHENTICATED") return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
   if (deny === "FORBIDDEN") return NextResponse.json({ error: "Forbidden" }, { status: 403 })
 
   try {
-    const users = await prisma.user.findMany({
-      select: {
-        id: true,
-        name: true,
-        email: true,
-        avatar: true,
-        role: true,
-        irtAbility: true,
-        createdAt: true,
-        _count: { select: { attempts: true } },
-      },
-      orderBy: { irtAbility: "desc" },
+    const { searchParams } = new URL(req.url)
+    const page = parseInt(searchParams.get("page") || "1")
+    const limit = parseInt(searchParams.get("limit") || "20")
+    const search = searchParams.get("search") || ""
+    const role = searchParams.get("role") || ""
+
+    const skip = (page - 1) * limit
+
+    const where: any = {}
+    if (search) {
+      where.OR = [
+        { name: { contains: search, mode: "insensitive" } },
+        { email: { contains: search, mode: "insensitive" } }
+      ]
+    }
+    if (role) {
+      where.role = role
+    }
+
+    const [users, total] = await Promise.all([
+      prisma.user.findMany({
+        where,
+        skip,
+        take: limit,
+        select: {
+          id: true,
+          name: true,
+          email: true,
+          avatar: true,
+          role: true,
+          irtAbility: true,
+          createdAt: true,
+          _count: { select: { attempts: true } },
+        },
+        orderBy: { irtAbility: "desc" },
+      }),
+      prisma.user.count({ where })
+    ])
+    
+    // Calculate global stats (always for all users, unfiltered)
+    const [totalStudents, totalAdmins, avgThetaAgg] = await Promise.all([
+      prisma.user.count({ where: { role: "STUDENT" } }),
+      prisma.user.count({ where: { role: "ADMIN" } }),
+      prisma.user.aggregate({
+        where: { role: "STUDENT", attempts: { some: {} } },
+        _avg: { irtAbility: true }
+      })
+    ])
+
+    return NextResponse.json({ 
+      data: users,
+      meta: {
+        total,
+        page,
+        limit,
+        totalPages: Math.ceil(total / limit),
+        globalStats: {
+          totalStudents,
+          totalAdmins,
+          avgTheta: avgThetaAgg._avg.irtAbility || 0
+        }
+      }
     })
-    return NextResponse.json({ data: users })
   } catch (error) {
     console.error("GET users error:", error)
     return NextResponse.json({ error: "Gagal memuat pengguna" }, { status: 500 })

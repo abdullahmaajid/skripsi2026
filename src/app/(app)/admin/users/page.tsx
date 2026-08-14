@@ -153,29 +153,51 @@ export default function AdminUsersPage() {
   const [users, setUsers] = useState<UserData[]>([])
   const [loading, setLoading] = useState(true)
   const [searchQuery, setSearchQuery] = useState("")
+  const [debouncedSearch, setDebouncedSearch] = useState("")
   const [filterRole, setFilterRole] = useState("")
 
-  // Pagination
+  // Pagination & Meta
   const [currentPage, setCurrentPage] = useState(1)
+  const [totalPages, setTotalPages] = useState(1)
+  const [globalStats, setGlobalStats] = useState({ totalStudents: 0, totalAdmins: 0, avgTheta: 0 })
   const itemsPerPage = 20
+
+  // Debounce search
+  useEffect(() => {
+    const timer = setTimeout(() => setDebouncedSearch(searchQuery), 500)
+    return () => clearTimeout(timer)
+  }, [searchQuery])
 
   useEffect(() => {
     setCurrentPage(1)
-  }, [searchQuery, filterRole])
+  }, [debouncedSearch, filterRole])
 
   const openPanel = useAdminPanelStore(s => s.openPanel)
   const closePanel = useAdminPanelStore(s => s.closePanel)
 
   useEffect(() => {
     fetchUsers()
-  }, [])
+  }, [currentPage, debouncedSearch, filterRole])
 
   async function fetchUsers() {
     setLoading(true)
     try {
-      const res = await fetch("/api/admin/users")
+      const params = new URLSearchParams({
+        page: currentPage.toString(),
+        limit: itemsPerPage.toString(),
+      })
+      if (debouncedSearch) params.append("search", debouncedSearch)
+      if (filterRole) params.append("role", filterRole)
+
+      const res = await fetch(`/api/admin/users?${params.toString()}`)
       const data = await res.json()
       setUsers(data.data || [])
+      if (data.meta) {
+        setTotalPages(data.meta.totalPages || 1)
+        if (data.meta.globalStats) {
+          setGlobalStats(data.meta.globalStats)
+        }
+      }
     } catch (e) {
       console.error(e)
     } finally {
@@ -258,23 +280,8 @@ export default function AdminUsersPage() {
     }
   }
 
-  // Filter & Search
-  const filteredUsers = users.filter(u => {
-    const matchSearch = u.name.toLowerCase().includes(searchQuery.toLowerCase()) || u.email.toLowerCase().includes(searchQuery.toLowerCase())
-    const matchRole = filterRole ? u.role === filterRole : true
-    return matchSearch && matchRole
-  })
-  
-  const paginatedUsers = filteredUsers.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage)
-  const totalPages = Math.ceil(filteredUsers.length / itemsPerPage)
-
-  // Summary Stats
-  const totalStudents = users.filter(u => u.role === "STUDENT").length
-  const totalAdmins = users.filter(u => u.role === "ADMIN").length
-  const activeStudentsList = users.filter(u => u.role === "STUDENT" && u._count.attempts > 0)
-  const activeStudentsCount = activeStudentsList.length
-  const sumTheta = activeStudentsList.reduce((acc, u) => acc + u.irtAbility, 0)
-  const avgTheta = activeStudentsCount > 0 ? (sumTheta / activeStudentsCount) : 0
+  // Filter & Search is now done server-side
+  const paginatedUsers = users
 
   return (
     <div className="p-6 md:p-8 space-y-8 h-full overflow-y-auto no-scrollbar">
@@ -291,8 +298,8 @@ export default function AdminUsersPage() {
           "Hapus pengguna hanya jika benar-benar melanggar ketentuan, karena aksi ini permanen."
         ]}
         stats={[
-          { label: "Total Siswa", value: totalStudents },
-          { label: "Rata-rata Theta", value: avgTheta.toFixed(2) },
+          { label: "Total Siswa", value: globalStats.totalStudents },
+          { label: "Rata-rata Theta", value: globalStats.avgTheta.toFixed(2) },
         ]}
       />
 
@@ -419,7 +426,7 @@ export default function AdminUsersPage() {
                     </td>
                   </tr>
                 ))}
-                {filteredUsers.length === 0 && (
+                {!loading && paginatedUsers.length === 0 && (
                   <tr>
                     <td colSpan={6} className="py-16 text-center text-slate-400 font-medium">Tidak ada user ditemukan</td>
                   </tr>

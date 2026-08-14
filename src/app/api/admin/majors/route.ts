@@ -17,24 +17,45 @@ export async function GET(req: NextRequest) {
   if (deny === "FORBIDDEN") return NextResponse.json({ error: "Forbidden" }, { status: 403 })
 
   try {
-    const universityId = req.nextUrl.searchParams.get("universityId") || ""
-    const search = req.nextUrl.searchParams.get("search") || ""
+    const { searchParams } = new URL(req.url)
+    const page = parseInt(searchParams.get("page") || "1")
+    const limit = parseInt(searchParams.get("limit") || "20")
+    const search = searchParams.get("search") || ""
+    const universityId = searchParams.get("universityId") || ""
+
+    const skip = (page - 1) * limit
 
     const where: any = {}
     if (universityId) {
       where.universityId = universityId
     }
     if (search) {
-      where.name = { contains: search, mode: "insensitive" }
+      where.OR = [
+        { name: { contains: search, mode: "insensitive" } },
+        { code: { contains: search, mode: "insensitive" } }
+      ]
     }
 
-    const majors = await prisma.major.findMany({
-      where,
-      include: { university: { select: { name: true } } },
-      orderBy: [{ name: "asc" }],
-    })
+    const [majors, total] = await Promise.all([
+      prisma.major.findMany({
+        where,
+        skip,
+        take: limit,
+        include: { university: { select: { name: true } } },
+        orderBy: [{ name: "asc" }],
+      }),
+      prisma.major.count({ where })
+    ])
 
-    return NextResponse.json({ data: majors })
+    return NextResponse.json({ 
+      data: majors,
+      meta: {
+        total,
+        page,
+        limit,
+        totalPages: Math.ceil(total / limit)
+      }
+    })
   } catch (error) {
     console.error("GET admin majors error:", error)
     return NextResponse.json({ error: "Gagal memuat prodi" }, { status: 500 })
