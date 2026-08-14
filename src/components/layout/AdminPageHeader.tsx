@@ -30,8 +30,8 @@ export function AdminPageHeader({
       </div>
       
       <div className="relative z-10 space-y-6">
-        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
-          <div className="flex-1">
+        <div className="flex flex-wrap xl:flex-nowrap items-start xl:items-center justify-between gap-6">
+          <div className="flex-1 min-w-[280px]">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-[var(--accent)]/10 text-[var(--accent-dark)] text-xs font-bold rounded-full uppercase tracking-wider mb-3 shadow-sm border border-[var(--accent)]/10">
               <Sparkles className="w-3.5 h-3.5" /> {badgeText}
             </span>
@@ -41,7 +41,7 @@ export function AdminPageHeader({
             <p className="text-slate-500 font-medium mt-1 leading-relaxed">{subtitle}</p>
           </div>
           
-          <div className="flex flex-wrap items-center gap-4 shrink-0">
+          <div className="flex flex-wrap items-center gap-4 w-full xl:w-auto">
             {children}
             
             {stats && stats.length > 0 && (
