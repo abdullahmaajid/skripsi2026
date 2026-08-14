@@ -43,7 +43,7 @@ export default function MarkdownRenderer({ content, className = "", variant = "l
   const body = isDark ? "text-white/90 font-medium" : "text-slate-700 font-medium"
   const bold = isDark ? "text-white" : "text-slate-800"
   const italic = isDark ? "text-white/70" : "text-slate-600"
-  const bullet = isDark ? "text-white/60" : "text-[var(--accent)]"
+  const bullet = isDark ? "marker:text-white/60" : "marker:text-[var(--accent)]"
   const codeBg = isDark ? "bg-white/10 text-white/90 border-white/10" : "bg-slate-100 text-[var(--accent-dark)] border-slate-200/60"
   const codeBlockBg = isDark ? "bg-white/10 text-white/90 border-white/10" : "bg-slate-50 text-slate-700 border-slate-100"
   const quoteBg = isDark ? "border-white/40 bg-white/5" : "border-[var(--accent)] bg-[var(--pastel-purple)]"
@@ -80,15 +80,14 @@ export default function MarkdownRenderer({ content, className = "", variant = "l
           ),
 
           ul: ({ children }) => (
-            <ul className="space-y-1.5 mb-3 last:mb-0 ml-1">{children}</ul>
+            <ul className={`space-y-2 mb-3 last:mb-0 ml-4 list-disc list-outside ${bullet}`}>{children}</ul>
           ),
           ol: ({ children }) => (
-            <ol className={`space-y-1.5 mb-3 last:mb-0 ml-1 list-decimal list-inside ${body}`}>{children}</ol>
+            <ol className={`space-y-2 mb-3 last:mb-0 ml-4 list-decimal list-outside ${bullet} ${body}`}>{children}</ol>
           ),
           li: ({ children }) => (
-            <li className={`text-[13.5px] md:text-[14px] ${body} leading-[1.8] flex gap-2`}>
-              <span className={`${bullet} font-bold mt-0.5 shrink-0`}>•</span>
-              <span className="flex-1">{children}</span>
+            <li className={`text-[13.5px] md:text-[14px] ${body} leading-[1.8] pl-1`}>
+              {children}
             </li>
           ),
 
