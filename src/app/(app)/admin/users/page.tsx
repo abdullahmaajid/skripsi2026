@@ -283,12 +283,7 @@ export default function AdminUsersPage() {
           { label: "Total Siswa", value: totalStudents },
           { label: "Rata-rata Theta", value: avgTheta.toFixed(2) },
         ]}
-      >
-        <div className="flex-1"></div>
-        <button onClick={openAddUser} className="flex items-center gap-2 px-5 py-2.5 bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white font-bold text-sm rounded-xl transition-all shadow-sm shrink-0">
-          <Plus className="w-4 h-4" /> Tambah User
-        </button>
-      </AdminPageHeader>
+      />
 
       {/* Summary Cards */}
       {!loading && users.length > 0 && (
@@ -332,24 +327,27 @@ export default function AdminUsersPage() {
         </div>
       )}
 
-      {/* Filter and Search Bar */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-        <div className="sm:col-span-2">
+      {/* Actions and Filters Bar */}
+      <div className="flex flex-col md:flex-row gap-4">
+        <div className="flex-1">
           <input
             type="text"
             placeholder="Cari nama atau email..."
             value={searchQuery}
             onChange={e => setSearchQuery(e.target.value)}
-            className="w-full bg-white border border-slate-200 text-slate-800 text-sm rounded-xl px-4 py-2.5 outline-none focus:border-[var(--accent)]"
+            className="w-full bg-white border border-slate-200 text-slate-800 text-sm rounded-xl px-4 py-2.5 outline-none focus:border-[var(--accent)] shadow-sm"
           />
         </div>
-        <div>
-          <select value={filterRole} onChange={e => setFilterRole(e.target.value)} className="w-full bg-white border border-slate-200 text-slate-700 text-sm rounded-xl px-3 py-2.5 outline-none cursor-pointer">
+        <div className="w-full md:w-56 shrink-0">
+          <select value={filterRole} onChange={e => setFilterRole(e.target.value)} className="w-full bg-white border border-slate-200 text-slate-700 text-sm rounded-xl px-3 py-2.5 outline-none cursor-pointer shadow-sm">
             <option value="">Semua Hak Akses (Role)</option>
             <option value="STUDENT">STUDENT (Siswa)</option>
             <option value="ADMIN">ADMIN (Administrator)</option>
           </select>
         </div>
+        <button onClick={openAddUser} className="w-full md:w-auto px-5 py-2.5 bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white font-bold text-sm rounded-xl transition-all shadow-sm flex items-center justify-center gap-2 shrink-0">
+          <Plus className="w-4 h-4" /> Tambah User
+        </button>
       </div>
 
       {/* Users table */}

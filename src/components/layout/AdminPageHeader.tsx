@@ -6,7 +6,6 @@ interface AdminPageHeaderProps {
   subtitle: string
   icon: React.ReactNode
   stats?: { label: string; value: string | number; icon?: React.ReactNode }[]
-  children?: React.ReactNode // Usually action buttons (Tambah, etc.)
   infoTitle?: string
   infoList?: React.ReactNode[]
   badgeText?: string
@@ -17,7 +16,6 @@ export function AdminPageHeader({
   subtitle, 
   icon, 
   stats, 
-  children,
   infoTitle,
   infoList,
   badgeText = "ADMIN PANEL"
@@ -39,11 +37,6 @@ export function AdminPageHeader({
               {title}
             </h2>
             <p className="text-slate-500 font-medium mt-1 leading-relaxed">{subtitle}</p>
-            {children && (
-              <div className="mt-4">
-                {children}
-              </div>
-            )}
           </div>
           
           {stats && stats.length > 0 && (
