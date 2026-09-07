@@ -21,9 +21,9 @@ export function AdminPageHeader({
   badgeText = "ADMIN PANEL"
 }: AdminPageHeaderProps) {
   return (
-    <div className="bg-gradient-to-br from-[var(--pastel-purple)] to-white border border-[var(--accent)]/20 rounded-3xl p-6 md:p-8 shadow-sm relative overflow-hidden mb-8">
+    <div className="bg-[var(--pastel-purple)] border border-[var(--accent)]/20 rounded-3xl p-6 md:p-8 shadow-sm relative overflow-hidden mb-8">
       {/* Background Icon */}
-      <div className="absolute top-0 right-0 p-8 opacity-[0.03] pointer-events-none -mr-4 -mt-4 [&>svg]:w-48 [&>svg]:h-48">
+      <div className="absolute top-0 right-0 p-8 opacity-[0.03] pointer-events-none -mr-4 -mt-4 [&>svg]:w-48 [&>svg]:h-48 text-[var(--accent)]">
         {icon}
       </div>
       

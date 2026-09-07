@@ -58,9 +58,10 @@ export async function GET(req: NextRequest) {
     ])
     
     // Calculate global stats (always for all users, unfiltered)
-    const [totalStudents, totalAdmins, avgThetaAgg] = await Promise.all([
+    const [totalStudents, totalAdmins, activeStudents, avgThetaAgg] = await Promise.all([
       prisma.user.count({ where: { role: "STUDENT" } }),
       prisma.user.count({ where: { role: "ADMIN" } }),
+      prisma.user.count({ where: { role: "STUDENT", attempts: { some: {} } } }),
       prisma.user.aggregate({
         where: { role: "STUDENT", attempts: { some: {} } },
         _avg: { irtAbility: true }
@@ -77,6 +78,7 @@ export async function GET(req: NextRequest) {
         globalStats: {
           totalStudents,
           totalAdmins,
+          activeStudents,
           avgTheta: avgThetaAgg._avg.irtAbility || 0
         }
       }
@@ -96,6 +98,11 @@ export async function POST(req: NextRequest) {
     const { name, email, password, role } = await req.json()
     if (!name || !email || !password || !role) {
       return NextResponse.json({ error: "Semua field wajib diisi" }, { status: 400 })
+    }
+
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
+    if (!emailRegex.test(email)) {
+      return NextResponse.json({ error: "Format email tidak valid" }, { status: 400 })
     }
 
     // Check unique email
@@ -140,6 +147,11 @@ export async function PUT(req: NextRequest) {
     const { id, name, email, password, role, irtAbility } = await req.json()
     if (!id || !name || !email || !role) {
       return NextResponse.json({ error: "ID, Nama, Email, dan Role wajib diisi" }, { status: 400 })
+    }
+
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
+    if (!emailRegex.test(email)) {
+      return NextResponse.json({ error: "Format email tidak valid" }, { status: 400 })
     }
 
     // Check unique email (exclude current user)

@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 import { prisma } from "@/lib/prisma"
+import crypto from "crypto"
 import { auth } from "@/auth"
 import { getScaffoldResponse, type ScaffoldLevel } from "@/lib/ai/scaffolding"
 
@@ -35,33 +36,31 @@ export async function POST(req: NextRequest) {
         return NextResponse.json({ error: "Pesan tidak boleh kosong." }, { status: 400 })
       }
 
-      const apiKey = process.env.GROQ_API_KEY
+      const apiKey = process.env.OPENROUTER_API_KEY
       if (!apiKey) {
-        return NextResponse.json({
-          response:
-            "Hai! Aku AI Tutor Lexica. Sayangnya koneksi AI sedang offline sementara. Coba lagi nanti ya! 😊",
-        })
+        return NextResponse.json(
+          { response: "[Mode Offline - API Key Belum Diisi]\n\nSepertinya kunci API AI belum dikonfigurasi. Hubungi admin." },
+          { status: 200 }
+        )
       }
 
-      // Fetch student's target major and AI preferences
-      const user = await prisma.user.findUnique({
-        where: { id: session.user.id },
-        select: { 
-          profile: { 
-            select: { 
-              targetMajor1: { select: { name: true } },
-              aiStyle: true,
-              aiEnergy: true,
-              aiLength: true
-            } 
-          } 
-        }
-      })
+      // Fetch student's AI preferences directly from session (Zero DB Hit Optimization)
+      // Fallback to DB if session doesn't have it (e.g., old session token)
+      let aiStyle = (session.user as any)?.aiStyle;
+      let aiEnergy = (session.user as any)?.aiEnergy;
+      let aiLength = (session.user as any)?.aiLength;
+      let targetMajor = (session.user as any)?.targetMajor;
 
-      const aiStyle = user?.profile?.aiStyle || "default"
-      const aiEnergy = user?.profile?.aiEnergy || "default"
-      const aiLength = user?.profile?.aiLength || "normal"
-      const targetMajor = user?.profile?.targetMajor1?.name || undefined
+      if (!aiStyle) {
+        const user = await prisma.user.findUnique({
+          where: { id: session.user.id },
+          select: { profile: { select: { targetMajor1: { select: { name: true, university: { select: { name: true } } } }, aiStyle: true, aiEnergy: true, aiLength: true } } }
+        });
+        aiStyle = user?.profile?.aiStyle || "default";
+        aiEnergy = user?.profile?.aiEnergy || "default";
+        aiLength = user?.profile?.aiLength || "normal";
+        targetMajor = user?.profile?.targetMajor1 ? `${user.profile.targetMajor1.name} — ${user.profile.targetMajor1.university.name}` : undefined;
+      }
 
       let stylePrompt = ""
       switch (aiStyle) {
@@ -106,19 +105,65 @@ export async function POST(req: NextRequest) {
       ]
 
       const startTime = performance.now()
-      const groqRes = await fetch("https://api.groq.com/openai/v1/chat/completions", {
-        method: "POST",
-        headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
-        body: JSON.stringify({ model: "llama-3.1-8b-instant", messages, temperature: 0.6, max_tokens: 350 }),
-      })
+      const shuffledModels = [
+        "google/gemini-2.5-flash",
+        "meta-llama/llama-3.1-8b-instruct:free",
+        "qwen/qwen-2.5-7b-instruct:free"
+      ].sort(() => Math.random() - 0.5)
 
-      if (!groqRes.ok) {
-        const errText = await groqRes.text()
-        console.error("Groq API error (free chat):", errText)
-        throw new Error(`Groq returned ${groqRes.status}`)
+      // Caching logic
+      const promptHash = crypto.createHash('sha256').update(JSON.stringify(messages)).digest('hex')
+      const cachedResponse = await prisma.aiResponseCache.findUnique({ where: { promptHash } })
+
+      if (cachedResponse) {
+        const duration = Math.round(performance.now() - startTime)
+        console.log(`\n===========================================`)
+        console.log(`🧠 [AI TUTOR LOG - FREE CHAT MODE] [CACHE HIT]`)
+        console.log(`===========================================`)
+        console.log(`📅 Waktu       : ${new Date().toLocaleString('id-ID')}`)
+        console.log(`⏱️ Latensi     : ${duration}ms (0 Token)`)
+        console.log(`-------------------------------------------`)
+        console.log(`🤖 OUTPUT AI: \n${cachedResponse.response}`)
+        console.log(`===========================================\n`)
+        
+        return NextResponse.json({ 
+          response: cachedResponse.response, 
+          aiLog: { mode: "FREE CHAT (CACHED)", latencyMs: duration, timestamp: new Date().toLocaleString('id-ID') } 
+        })
       }
 
-      const data = await groqRes.json()
+      const fetchWithRetry = async (url: string, options: RequestInit, maxRetries = 3) => {
+        for (let i = 0; i < maxRetries; i++) {
+          const res = await fetch(url, options)
+          if (res.ok) return res
+          if (res.status === 429 || res.status >= 500) {
+            if (i === maxRetries - 1) return res
+            await new Promise(r => setTimeout(r, Math.pow(2, i) * 1000))
+            continue
+          }
+          return res
+        }
+        throw new Error("Fetch failed completely")
+      }
+
+      const openRouterRes = await fetchWithRetry("https://openrouter.ai/api/v1/chat/completions", {
+        method: "POST",
+        headers: { 
+          Authorization: `Bearer ${apiKey}`, 
+          "Content-Type": "application/json",
+          "HTTP-Referer": "http://localhost:3000",
+          "X-Title": "UTBK App Skripsi"
+        },
+        body: JSON.stringify({ models: shuffledModels, messages, temperature: 0.6, max_tokens: 350 }),
+      })
+
+      if (!openRouterRes.ok) {
+        const errText = await openRouterRes.text()
+        console.error("OpenRouter API error (free chat):", errText)
+        throw new Error(`OpenRouter returned ${openRouterRes.status}`)
+      }
+
+      const data = await openRouterRes.json()
       const duration = Math.round(performance.now() - startTime)
 
       console.log(`\n===========================================`)
@@ -126,12 +171,12 @@ export async function POST(req: NextRequest) {
       console.log(`===========================================`)
       console.log(`📅 Waktu       : ${new Date().toLocaleString('id-ID')}`)
       console.log(`⏱️ Latensi     : ${duration}ms`)
-      console.log(`📊 Model       : llama-3.1-8b-instant (Temp: 0.6, Max Tokens: 350)`)
+      console.log(`📊 Models      : ${shuffledModels.map(m => m.split('/')[1].split(':')[0]).join(' -> ')} (Shuffled Fallback)`)
       if (data.usage) {
         console.log(`🪙 Token       : Prompt (${data.usage.prompt_tokens}) | Completion (${data.usage.completion_tokens}) | Total (${data.usage.total_tokens})`)
       }
       console.log(`-------------------------------------------`)
-      console.log(`📥 PROSES KE GROQ API (Full Messages Payload):`)
+      console.log(`📥 PROSES KE OPENROUTER API (Full Messages Payload):`)
       messages.forEach((msg: any) => {
         console.log(`[${msg.role.toUpperCase()}]\n${msg.content}\n`)
       })
@@ -143,11 +188,18 @@ export async function POST(req: NextRequest) {
         mode: "FREE CHAT",
         timestamp: new Date().toLocaleString('id-ID'),
         latencyMs: duration,
-        model: "llama-3.1-8b-instant",
+        models: shuffledModels,
         usage: data.usage,
         messages: messages,
         output: data.choices[0].message.content
       }
+
+      // Save to cache (non-blocking)
+      prisma.aiResponseCache.upsert({
+        where: { promptHash },
+        update: {},
+        create: { promptHash, response: data.choices[0].message.content }
+      }).catch(err => console.error("Cache save error:", err))
 
       return NextResponse.json({ response: data.choices[0].message.content, aiLog })
     }
@@ -169,15 +221,20 @@ if (!question) {
 
     let resolvedCorrectAnswer = correctAnswer;
 
-    // ── PARALLEL: fetch correctAnswer (if missing) + targetMajor simultaneously ─
+    let aiStyle = (session.user as any)?.aiStyle;
+    let aiEnergy = (session.user as any)?.aiEnergy;
+    let aiLength = (session.user as any)?.aiLength;
+    let targetMajor = (session.user as any)?.targetMajor;
+
+    // ── PARALLEL: fetch correctAnswer (if missing) + DB fallback simultaneously ─
     const [dbQuestion, userProfile] = await Promise.all([
       (!resolvedCorrectAnswer && questionId)
         ? prisma.question.findUnique({ where: { id: questionId }, include: { options: true } })
         : Promise.resolve(null),
-      prisma.user.findUnique({
+      (!aiStyle) ? prisma.user.findUnique({
         where: { id: session.user.id },
         select: { profile: { select: { aiStyle: true, aiEnergy: true, aiLength: true, targetMajor1: { select: { name: true, university: { select: { name: true } } } } } } },
-      }),
+      }) : Promise.resolve(null),
     ])
 
     if (!resolvedCorrectAnswer) {
@@ -189,14 +246,14 @@ if (!question) {
       return NextResponse.json({ error: "Jawaban benar tidak tersedia." }, { status: 400 })
     }
 
-    let targetMajor: string | undefined
-    if (userProfile?.profile?.targetMajor1) {
-      targetMajor = `${userProfile.profile.targetMajor1.name} — ${userProfile.profile.targetMajor1.university.name}`
+    if (!aiStyle) {
+      aiStyle = userProfile?.profile?.aiStyle || "default"
+      aiEnergy = userProfile?.profile?.aiEnergy || "default"
+      aiLength = userProfile?.profile?.aiLength || "normal"
+      if (userProfile?.profile?.targetMajor1) {
+        targetMajor = `${userProfile.profile.targetMajor1.name} — ${userProfile.profile.targetMajor1.university.name}`
+      }
     }
-    
-    const aiStyle = userProfile?.profile?.aiStyle || "default"
-    const aiEnergy = userProfile?.profile?.aiEnergy || "default"
-    const aiLength = userProfile?.profile?.aiLength || "normal"
     // ─────────────────────────────────────────────────────────────────────────
 
     const scaffoldResult = await getScaffoldResponse(

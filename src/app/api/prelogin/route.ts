@@ -9,6 +9,11 @@ export async function POST(request: NextRequest) {
     if (!email || !password) {
       return NextResponse.json({ error: "Email dan password diperlukan" }, { status: 400 })
     }
+
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
+    if (!emailRegex.test(email)) {
+      return NextResponse.json({ error: "Format email tidak valid." }, { status: 400 })
+    }
     
     const user = await prisma.user.findUnique({
       where: { email }

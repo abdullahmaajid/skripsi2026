@@ -24,7 +24,9 @@ export function estimateTheta(responses: {difficulty: number, correct: boolean}[
 
     if (sumInfo === 0) break; // Avoid division by zero
 
-    const delta = sumResidual / sumInfo;
+    let delta = sumResidual / sumInfo;
+    // Cap step size to prevent Newton-Raphson divergence when probabilities approach 0 or 1
+    delta = Math.max(-1.0, Math.min(1.0, delta));
     theta += delta;
 
     if (Math.abs(delta) < TOLERANCE) break;

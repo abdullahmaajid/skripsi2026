@@ -106,7 +106,7 @@ export default function LandingPage() {
               </button>
               
               <button 
-                onClick={() => router.push("/tryout/list")}
+                onClick={() => router.push("/demo")}
                 className="px-8 py-4 bg-white hover:bg-slate-50 text-slate-700 font-semibold rounded-2xl transition-all flex items-center justify-center gap-3 text-lg border border-slate-200 shadow-sm hover:shadow-md"
               >
                 <PlayCircle className="w-5 h-5 text-slate-400" /> Lihat Demo
@@ -169,14 +169,14 @@ export default function LandingPage() {
                   </div>
                   {/* Right Main Content (AI Chat Mockup) */}
                   <div className="w-2/3 flex flex-col gap-4">
-                    <div className="h-32 bg-white rounded-xl border border-slate-100 p-5 shadow-sm">
+                    <div className="bg-white rounded-xl border border-slate-100 p-5 shadow-sm">
                       <div className="flex items-center gap-3 mb-3">
                         <div className="w-8 h-8 rounded-full bg-indigo-100 flex items-center justify-center"><Brain className="w-4 h-4 text-indigo-600"/></div>
                         <div className="font-semibold text-sm">AI Tutor</div>
                       </div>
                       <div className="text-sm text-slate-600 leading-relaxed">"Pilihan A salah karena mengasumsikan variabel x konstan. Coba ingat kembali sifat eksponensial saat grafiknya menurun..."</div>
                     </div>
-                    <div className="h-12 w-3/4 self-end bg-[var(--accent)] text-white rounded-xl p-3 px-4 text-sm shadow-md">
+                    <div className="w-3/4 self-end bg-[var(--accent)] text-white rounded-xl p-3 px-4 text-sm shadow-md">
                       "Oh, jadi harus diturunkan dulu ya fungsinya?"
                     </div>
                     <div className="mt-auto h-12 w-full bg-slate-100 rounded-xl flex items-center px-4">

@@ -288,7 +288,7 @@ export default function AdminScraperPage() {
             <div className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {paginatedUnis.map(u => (
-                <div key={u.id} className="bg-white border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.01)] rounded-2xl p-5 flex justify-between items-center group">
+                <div key={u.id} className="bg-white border border-slate-100 shadow-[0_4px_24px_rgba(0,0,0,0.02)] rounded-3xl p-6 flex justify-between items-center group">
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 rounded-xl bg-slate-50 flex items-center justify-center border border-slate-100 overflow-hidden">
                       {u.logoUrl ? (
@@ -313,7 +313,7 @@ export default function AdminScraperPage() {
                 </div>
               ))}
                 {!loading && paginatedUnis.length === 0 && (
-                  <div className="col-span-2 text-center py-16 text-slate-400 border border-dashed border-slate-200 rounded-2xl">Tidak ada universitas ditemukan</div>
+                  <div className="col-span-2 text-center py-16 text-slate-400 border border-dashed border-slate-200 rounded-3xl">Tidak ada universitas ditemukan</div>
                 )}
               </div>
               
@@ -344,7 +344,7 @@ export default function AdminScraperPage() {
 
           {/* MAJORS LIST */}
           {activeTab === "majors" && (
-            <div className="bg-white border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.01)] rounded-2xl overflow-hidden">
+            <div className="bg-white border border-slate-100 shadow-[0_4px_24px_rgba(0,0,0,0.02)] rounded-3xl overflow-hidden">
               <div className="overflow-x-auto">
                 <table className="w-full text-left text-sm">
                   <thead className="bg-slate-50 border-b border-slate-100 text-slate-400 uppercase tracking-wider text-[10px] font-bold">

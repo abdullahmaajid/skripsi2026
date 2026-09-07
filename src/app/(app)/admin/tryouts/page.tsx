@@ -201,7 +201,7 @@ export default function AdminTryoutsPage() {
                 <div 
                   key={t.id} 
                   onClick={() => loadSections(t)}
-                  className={`bg-white border rounded-[2rem] p-5 cursor-pointer transition-all flex justify-between items-center group ${selectedTryout?.id === t.id ? "border-[var(--accent)] shadow-[0_8px_30px_rgba(193,119,249,0.06)]" : "border-slate-100 hover:border-slate-200 shadow-[0_4px_20px_rgba(0,0,0,0.01)]"}`}
+                  className={`bg-white border rounded-3xl p-6 cursor-pointer transition-all flex justify-between items-center group ${selectedTryout?.id === t.id ? "border-[var(--accent)] shadow-[0_8px_30px_rgba(193,119,249,0.06)]" : "border-slate-100 hover:border-slate-200 shadow-[0_4px_24px_rgba(0,0,0,0.02)]"}`}
                 >
                   <div className="space-y-1.5">
                     <div className="flex items-center gap-2 flex-wrap">
@@ -226,7 +226,7 @@ export default function AdminTryoutsPage() {
                 </div>
               ))}
               {tryouts.length === 0 && (
-                <div className="text-center py-16 text-slate-400 border border-dashed border-slate-200 rounded-[2rem]">Belum ada paket Tryout terdaftar</div>
+                <div className="text-center py-16 text-slate-400 border border-dashed border-slate-200 rounded-3xl">Belum ada paket Tryout terdaftar</div>
               )}
               
               {/* Pagination Controls */}
@@ -259,7 +259,7 @@ export default function AdminTryoutsPage() {
             <h2 className="text-lg font-bold text-slate-700">Subtes / Seksi Ujian</h2>
             
             {selectedTryout ? (
-              <div className="bg-white border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.02)] rounded-[2rem] p-5 space-y-4">
+              <div className="bg-white border border-slate-100 shadow-[0_4px_24px_rgba(0,0,0,0.02)] rounded-3xl p-6 space-y-4">
                 <div className="pb-3 border-b border-slate-50 flex justify-between items-center">
                   <div>
                     <h3 className="font-bold text-slate-800 text-sm">{selectedTryout.name}</h3>
@@ -300,7 +300,7 @@ export default function AdminTryoutsPage() {
                 )}
               </div>
             ) : (
-              <div className="bg-slate-50/50 border border-dashed border-slate-200 rounded-[2rem] p-8 text-center text-slate-400 flex flex-col items-center justify-center min-h-[300px]">
+              <div className="bg-slate-50/50 border border-dashed border-slate-200 rounded-3xl p-8 text-center text-slate-400 flex flex-col items-center justify-center min-h-[300px]">
                 <Layers className="w-12 h-12 text-slate-200 mb-4" />
                 <p className="text-xs font-bold uppercase tracking-wider">Pilih Paket Tryout</p>
                 <p className="text-[11px] text-slate-400 max-w-[180px] mt-1.5 leading-relaxed">Pilih salah satu simulasi tryout di sebelah kiri untuk melihat dan menyusun subtes di dalamnya.</p>

@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict 2wMZs0rI6XOS0pOqBEb8irdOXpw1WdP4hKrnfN8BlCtbfukwEApaGd8sZhBfgyr
+\restrict yG4X4sjjPEChOT5qNQXUaQMgqoJIiY0SfJCHumSEFTrtDtiVeDkKeAIk4NLqhrs
 
 -- Dumped from database version 18.4 (Postgres.app)
 -- Dumped by pg_dump version 18.4 (Postgres.app)
@@ -102,23 +102,21 @@ DROP TYPE IF EXISTS public."Cluster";
 DROP TYPE IF EXISTS public."AttemptStatus";
 -- *not* dropping schema, since initdb creates it
 --
--- Name: public; Type: SCHEMA; Schema: -; Owner: abdullahmaajid
+-- Name: public; Type: SCHEMA; Schema: -; Owner: -
 --
 
 -- *not* creating schema, since initdb creates it
 
 
-ALTER SCHEMA public OWNER TO abdullahmaajid;
-
 --
--- Name: SCHEMA public; Type: COMMENT; Schema: -; Owner: abdullahmaajid
+-- Name: SCHEMA public; Type: COMMENT; Schema: -; Owner: -
 --
 
 COMMENT ON SCHEMA public IS '';
 
 
 --
--- Name: AttemptStatus; Type: TYPE; Schema: public; Owner: abdullahmaajid
+-- Name: AttemptStatus; Type: TYPE; Schema: public; Owner: -
 --
 
 CREATE TYPE public."AttemptStatus" AS ENUM (
@@ -129,10 +127,8 @@ CREATE TYPE public."AttemptStatus" AS ENUM (
 );
 
 
-ALTER TYPE public."AttemptStatus" OWNER TO abdullahmaajid;
-
 --
--- Name: Cluster; Type: TYPE; Schema: public; Owner: abdullahmaajid
+-- Name: Cluster; Type: TYPE; Schema: public; Owner: -
 --
 
 CREATE TYPE public."Cluster" AS ENUM (
@@ -142,10 +138,8 @@ CREATE TYPE public."Cluster" AS ENUM (
 );
 
 
-ALTER TYPE public."Cluster" OWNER TO abdullahmaajid;
-
 --
--- Name: Degree; Type: TYPE; Schema: public; Owner: abdullahmaajid
+-- Name: Degree; Type: TYPE; Schema: public; Owner: -
 --
 
 CREATE TYPE public."Degree" AS ENUM (
@@ -155,10 +149,8 @@ CREATE TYPE public."Degree" AS ENUM (
 );
 
 
-ALTER TYPE public."Degree" OWNER TO abdullahmaajid;
-
 --
--- Name: MasteryStatus; Type: TYPE; Schema: public; Owner: abdullahmaajid
+-- Name: MasteryStatus; Type: TYPE; Schema: public; Owner: -
 --
 
 CREATE TYPE public."MasteryStatus" AS ENUM (
@@ -168,10 +160,8 @@ CREATE TYPE public."MasteryStatus" AS ENUM (
 );
 
 
-ALTER TYPE public."MasteryStatus" OWNER TO abdullahmaajid;
-
 --
--- Name: MessageRole; Type: TYPE; Schema: public; Owner: abdullahmaajid
+-- Name: MessageRole; Type: TYPE; Schema: public; Owner: -
 --
 
 CREATE TYPE public."MessageRole" AS ENUM (
@@ -181,10 +171,8 @@ CREATE TYPE public."MessageRole" AS ENUM (
 );
 
 
-ALTER TYPE public."MessageRole" OWNER TO abdullahmaajid;
-
 --
--- Name: QuestionType; Type: TYPE; Schema: public; Owner: abdullahmaajid
+-- Name: QuestionType; Type: TYPE; Schema: public; Owner: -
 --
 
 CREATE TYPE public."QuestionType" AS ENUM (
@@ -194,10 +182,8 @@ CREATE TYPE public."QuestionType" AS ENUM (
 );
 
 
-ALTER TYPE public."QuestionType" OWNER TO abdullahmaajid;
-
 --
--- Name: Role; Type: TYPE; Schema: public; Owner: abdullahmaajid
+-- Name: Role; Type: TYPE; Schema: public; Owner: -
 --
 
 CREATE TYPE public."Role" AS ENUM (
@@ -206,10 +192,8 @@ CREATE TYPE public."Role" AS ENUM (
 );
 
 
-ALTER TYPE public."Role" OWNER TO abdullahmaajid;
-
 --
--- Name: ScaffoldLevel; Type: TYPE; Schema: public; Owner: abdullahmaajid
+-- Name: ScaffoldLevel; Type: TYPE; Schema: public; Owner: -
 --
 
 CREATE TYPE public."ScaffoldLevel" AS ENUM (
@@ -219,10 +203,8 @@ CREATE TYPE public."ScaffoldLevel" AS ENUM (
 );
 
 
-ALTER TYPE public."ScaffoldLevel" OWNER TO abdullahmaajid;
-
 --
--- Name: UniType; Type: TYPE; Schema: public; Owner: abdullahmaajid
+-- Name: UniType; Type: TYPE; Schema: public; Owner: -
 --
 
 CREATE TYPE public."UniType" AS ENUM (
@@ -231,14 +213,12 @@ CREATE TYPE public."UniType" AS ENUM (
 );
 
 
-ALTER TYPE public."UniType" OWNER TO abdullahmaajid;
-
 SET default_tablespace = '';
 
 SET default_table_access_method = heap;
 
 --
--- Name: Chapter; Type: TABLE; Schema: public; Owner: abdullahmaajid
+-- Name: Chapter; Type: TABLE; Schema: public; Owner: -
 --
 
 CREATE TABLE public."Chapter" (
@@ -250,10 +230,8 @@ CREATE TABLE public."Chapter" (
 );
 
 
-ALTER TABLE public."Chapter" OWNER TO abdullahmaajid;
-
 --
--- Name: ChapterProgress; Type: TABLE; Schema: public; Owner: abdullahmaajid
+-- Name: ChapterProgress; Type: TABLE; Schema: public; Owner: -
 --
 
 CREATE TABLE public."ChapterProgress" (
@@ -266,10 +244,8 @@ CREATE TABLE public."ChapterProgress" (
 );
 
 
-ALTER TABLE public."ChapterProgress" OWNER TO abdullahmaajid;
-
 --
--- Name: ExamAttempt; Type: TABLE; Schema: public; Owner: abdullahmaajid
+-- Name: ExamAttempt; Type: TABLE; Schema: public; Owner: -
 --
 
 CREATE TABLE public."ExamAttempt" (
@@ -285,10 +261,8 @@ CREATE TABLE public."ExamAttempt" (
 );
 
 
-ALTER TABLE public."ExamAttempt" OWNER TO abdullahmaajid;
-
 --
--- Name: ExamSection; Type: TABLE; Schema: public; Owner: abdullahmaajid
+-- Name: ExamSection; Type: TABLE; Schema: public; Owner: -
 --
 
 CREATE TABLE public."ExamSection" (
@@ -301,10 +275,8 @@ CREATE TABLE public."ExamSection" (
 );
 
 
-ALTER TABLE public."ExamSection" OWNER TO abdullahmaajid;
-
 --
--- Name: ExamTemplate; Type: TABLE; Schema: public; Owner: abdullahmaajid
+-- Name: ExamTemplate; Type: TABLE; Schema: public; Owner: -
 --
 
 CREATE TABLE public."ExamTemplate" (
@@ -318,10 +290,8 @@ CREATE TABLE public."ExamTemplate" (
 );
 
 
-ALTER TABLE public."ExamTemplate" OWNER TO abdullahmaajid;
-
 --
--- Name: Major; Type: TABLE; Schema: public; Owner: abdullahmaajid
+-- Name: Major; Type: TABLE; Schema: public; Owner: -
 --
 
 CREATE TABLE public."Major" (
@@ -339,10 +309,8 @@ CREATE TABLE public."Major" (
 );
 
 
-ALTER TABLE public."Major" OWNER TO abdullahmaajid;
-
 --
--- Name: Question; Type: TABLE; Schema: public; Owner: abdullahmaajid
+-- Name: Question; Type: TABLE; Schema: public; Owner: -
 --
 
 CREATE TABLE public."Question" (
@@ -357,10 +325,8 @@ CREATE TABLE public."Question" (
 );
 
 
-ALTER TABLE public."Question" OWNER TO abdullahmaajid;
-
 --
--- Name: QuestionOption; Type: TABLE; Schema: public; Owner: abdullahmaajid
+-- Name: QuestionOption; Type: TABLE; Schema: public; Owner: -
 --
 
 CREATE TABLE public."QuestionOption" (
@@ -373,10 +339,8 @@ CREATE TABLE public."QuestionOption" (
 );
 
 
-ALTER TABLE public."QuestionOption" OWNER TO abdullahmaajid;
-
 --
--- Name: QuestionResponse; Type: TABLE; Schema: public; Owner: abdullahmaajid
+-- Name: QuestionResponse; Type: TABLE; Schema: public; Owner: -
 --
 
 CREATE TABLE public."QuestionResponse" (
@@ -391,10 +355,8 @@ CREATE TABLE public."QuestionResponse" (
 );
 
 
-ALTER TABLE public."QuestionResponse" OWNER TO abdullahmaajid;
-
 --
--- Name: StudentProfile; Type: TABLE; Schema: public; Owner: abdullahmaajid
+-- Name: StudentProfile; Type: TABLE; Schema: public; Owner: -
 --
 
 CREATE TABLE public."StudentProfile" (
@@ -410,10 +372,8 @@ CREATE TABLE public."StudentProfile" (
 );
 
 
-ALTER TABLE public."StudentProfile" OWNER TO abdullahmaajid;
-
 --
--- Name: Subject; Type: TABLE; Schema: public; Owner: abdullahmaajid
+-- Name: Subject; Type: TABLE; Schema: public; Owner: -
 --
 
 CREATE TABLE public."Subject" (
@@ -423,10 +383,8 @@ CREATE TABLE public."Subject" (
 );
 
 
-ALTER TABLE public."Subject" OWNER TO abdullahmaajid;
-
 --
--- Name: SubjectScore; Type: TABLE; Schema: public; Owner: abdullahmaajid
+-- Name: SubjectScore; Type: TABLE; Schema: public; Owner: -
 --
 
 CREATE TABLE public."SubjectScore" (
@@ -440,10 +398,8 @@ CREATE TABLE public."SubjectScore" (
 );
 
 
-ALTER TABLE public."SubjectScore" OWNER TO abdullahmaajid;
-
 --
--- Name: SystemSetting; Type: TABLE; Schema: public; Owner: abdullahmaajid
+-- Name: SystemSetting; Type: TABLE; Schema: public; Owner: -
 --
 
 CREATE TABLE public."SystemSetting" (
@@ -454,10 +410,8 @@ CREATE TABLE public."SystemSetting" (
 );
 
 
-ALTER TABLE public."SystemSetting" OWNER TO abdullahmaajid;
-
 --
--- Name: TutoringMessage; Type: TABLE; Schema: public; Owner: abdullahmaajid
+-- Name: TutoringMessage; Type: TABLE; Schema: public; Owner: -
 --
 
 CREATE TABLE public."TutoringMessage" (
@@ -469,10 +423,8 @@ CREATE TABLE public."TutoringMessage" (
 );
 
 
-ALTER TABLE public."TutoringMessage" OWNER TO abdullahmaajid;
-
 --
--- Name: TutoringSession; Type: TABLE; Schema: public; Owner: abdullahmaajid
+-- Name: TutoringSession; Type: TABLE; Schema: public; Owner: -
 --
 
 CREATE TABLE public."TutoringSession" (
@@ -484,10 +436,8 @@ CREATE TABLE public."TutoringSession" (
 );
 
 
-ALTER TABLE public."TutoringSession" OWNER TO abdullahmaajid;
-
 --
--- Name: University; Type: TABLE; Schema: public; Owner: abdullahmaajid
+-- Name: University; Type: TABLE; Schema: public; Owner: -
 --
 
 CREATE TABLE public."University" (
@@ -502,10 +452,8 @@ CREATE TABLE public."University" (
 );
 
 
-ALTER TABLE public."University" OWNER TO abdullahmaajid;
-
 --
--- Name: User; Type: TABLE; Schema: public; Owner: abdullahmaajid
+-- Name: User; Type: TABLE; Schema: public; Owner: -
 --
 
 CREATE TABLE public."User" (
@@ -522,10 +470,8 @@ CREATE TABLE public."User" (
 );
 
 
-ALTER TABLE public."User" OWNER TO abdullahmaajid;
-
 --
--- Name: _prisma_migrations; Type: TABLE; Schema: public; Owner: abdullahmaajid
+-- Name: _prisma_migrations; Type: TABLE; Schema: public; Owner: -
 --
 
 CREATE TABLE public._prisma_migrations (
@@ -540,10 +486,8 @@ CREATE TABLE public._prisma_migrations (
 );
 
 
-ALTER TABLE public._prisma_migrations OWNER TO abdullahmaajid;
-
 --
--- Data for Name: Chapter; Type: TABLE DATA; Schema: public; Owner: abdullahmaajid
+-- Data for Name: Chapter; Type: TABLE DATA; Schema: public; Owner: -
 --
 
 COPY public."Chapter" (id, name, "subjectId", "order", "theorySummary") FROM stdin;
@@ -587,7 +531,7 @@ cmsq3ud130000q5x7rup8lr0g	membaca naskah	cmsohqlf20008wmx7fo8wuyyc	2	berisikanxm
 
 
 --
--- Data for Name: ChapterProgress; Type: TABLE DATA; Schema: public; Owner: abdullahmaajid
+-- Data for Name: ChapterProgress; Type: TABLE DATA; Schema: public; Owner: -
 --
 
 COPY public."ChapterProgress" (id, "userId", "chapterId", status, "masteryLevel", "updatedAt") FROM stdin;
@@ -615,7 +559,7 @@ cms77f0d50018ghx77z1nbwkn	cms39h3em001aqdx7y28l76gv	cmqaroplz002jbxx7ms0qktgg	IN
 
 
 --
--- Data for Name: ExamAttempt; Type: TABLE DATA; Schema: public; Owner: abdullahmaajid
+-- Data for Name: ExamAttempt; Type: TABLE DATA; Schema: public; Owner: -
 --
 
 COPY public."ExamAttempt" (id, "userId", "templateId", status, "startedAt", "finishedAt", "rawScore", "irtScore", "scaledScore") FROM stdin;
@@ -627,7 +571,7 @@ cmsrhahze0008q5x7jsdsxpae	cmsrdakql0005q5x7oqj2o65q	cmsomjv1j0000mpx7ybb9rj70	CO
 
 
 --
--- Data for Name: ExamSection; Type: TABLE DATA; Schema: public; Owner: abdullahmaajid
+-- Data for Name: ExamSection; Type: TABLE DATA; Schema: public; Owner: -
 --
 
 COPY public."ExamSection" (id, "templateId", "subjectId", "itemCount", "order", duration) FROM stdin;
@@ -677,7 +621,7 @@ cmsomjv3p001bmpx7po2txmi1	cmsomjv3o0014mpx79wgnir5d	cmsohqlf6000cwmx7bgkftzpd	20
 
 
 --
--- Data for Name: ExamTemplate; Type: TABLE DATA; Schema: public; Owner: abdullahmaajid
+-- Data for Name: ExamTemplate; Type: TABLE DATA; Schema: public; Owner: -
 --
 
 COPY public."ExamTemplate" (id, name, description, duration, "totalItems", cluster, "isDiagnostic") FROM stdin;
@@ -691,7 +635,7 @@ cmsomjv3o0014mpx79wgnir5d	Try Out SNBT #5 (Grand Tryout)	Simulasi 100% format as
 
 
 --
--- Data for Name: Major; Type: TABLE DATA; Schema: public; Owner: abdullahmaajid
+-- Data for Name: Major; Type: TABLE DATA; Schema: public; Owner: -
 --
 
 COPY public."Major" (id, name, code, "universityId", faculty, degree, quota, applicants, "estimatedScore", cluster, year) FROM stdin;
@@ -1226,7 +1170,7 @@ cmsol8bkn00g09qx7mau7aatn	Ilmu Politik	ILMUP-26479	cmsol8bkf00fq9qx7n9ocrtxt	Fis
 
 
 --
--- Data for Name: Question; Type: TABLE DATA; Schema: public; Owner: abdullahmaajid
+-- Data for Name: Question; Type: TABLE DATA; Schema: public; Owner: -
 --
 
 COPY public."Question" (id, "chapterId", text, "imageUrl", difficulty, discrimination, guessing, type) FROM stdin;
@@ -6993,7 +6937,7 @@ cmsoinq8e0qeeoax7tiqzrlfo	cmqaroply002hbxx7k7ofoqvl	Tentukan solusi (x, y) dari 
 
 
 --
--- Data for Name: QuestionOption; Type: TABLE DATA; Schema: public; Owner: abdullahmaajid
+-- Data for Name: QuestionOption; Type: TABLE DATA; Schema: public; Owner: -
 --
 
 COPY public."QuestionOption" (id, "questionId", label, text, "imageUrl", "isCorrect") FROM stdin;
@@ -35462,7 +35406,7 @@ cmsoinq8e0qejoax7unu1otcg	cmsoinq8e0qeeoax7tiqzrlfo	E	(3, 1)	\N	f
 
 
 --
--- Data for Name: QuestionResponse; Type: TABLE DATA; Schema: public; Owner: abdullahmaajid
+-- Data for Name: QuestionResponse; Type: TABLE DATA; Schema: public; Owner: -
 --
 
 COPY public."QuestionResponse" (id, "attemptId", "questionId", "selectedIds", "isCorrect", "timeSpent", flagged, "answeredAt") FROM stdin;
@@ -35610,7 +35554,7 @@ cmsrirm2u00etq5x7v0etyw6v	cmsrhahze0008q5x7jsdsxpae	cmsoinq3w0p9moax7dh5s3y1z	{}
 
 
 --
--- Data for Name: StudentProfile; Type: TABLE DATA; Schema: public; Owner: abdullahmaajid
+-- Data for Name: StudentProfile; Type: TABLE DATA; Schema: public; Owner: -
 --
 
 COPY public."StudentProfile" (id, "userId", school, "graduationYear", "targetMajor1Id", "targetMajor2Id", "aiEnergy", "aiStyle", "aiLength") FROM stdin;
@@ -35639,7 +35583,7 @@ cmsrdbyxp0006q5x7pvy8l8x5	cmsrdakql0005q5x7oqj2o65q	SMA 1 Yogyakarta	2025	cmsol8
 
 
 --
--- Data for Name: Subject; Type: TABLE DATA; Schema: public; Owner: abdullahmaajid
+-- Data for Name: Subject; Type: TABLE DATA; Schema: public; Owner: -
 --
 
 COPY public."Subject" (id, name, cluster) FROM stdin;
@@ -35655,7 +35599,7 @@ cmsq4lcx80002q5x7kusmhs1u	jgjjhcgcgvg	CAMPURAN
 
 
 --
--- Data for Name: SubjectScore; Type: TABLE DATA; Schema: public; Owner: abdullahmaajid
+-- Data for Name: SubjectScore; Type: TABLE DATA; Schema: public; Owner: -
 --
 
 COPY public."SubjectScore" (id, "attemptId", "subjectId", correct, total, "irtTheta", "scaledScore") FROM stdin;
@@ -35677,7 +35621,7 @@ cmsrirm3k00f7q5x7kg12wuzu	cmsrhahze0008q5x7jsdsxpae	cmsohqlf6000cwmx7bgkftzpd	6	
 
 
 --
--- Data for Name: SystemSetting; Type: TABLE DATA; Schema: public; Owner: abdullahmaajid
+-- Data for Name: SystemSetting; Type: TABLE DATA; Schema: public; Owner: -
 --
 
 COPY public."SystemSetting" (key, value, description, "updatedAt") FROM stdin;
@@ -35690,7 +35634,7 @@ UTBK_DATE	2025-04-30	Setting for UTBK_DATE	2026-07-21 08:08:35.817
 
 
 --
--- Data for Name: TutoringMessage; Type: TABLE DATA; Schema: public; Owner: abdullahmaajid
+-- Data for Name: TutoringMessage; Type: TABLE DATA; Schema: public; Owner: -
 --
 
 COPY public."TutoringMessage" (id, "sessionId", role, content, "createdAt") FROM stdin;
@@ -35904,7 +35848,7 @@ cmrula7hb0007aex7kxthvkcf	cmrrgvm900000u7x75u5czln3	ASSISTANT	Sangat tidak efekt
 
 
 --
--- Data for Name: TutoringSession; Type: TABLE DATA; Schema: public; Owner: abdullahmaajid
+-- Data for Name: TutoringSession; Type: TABLE DATA; Schema: public; Owner: -
 --
 
 COPY public."TutoringSession" (id, "userId", "questionId", level, "createdAt") FROM stdin;
@@ -35943,7 +35887,7 @@ cmrrgvm900000u7x75u5czln3	cmqjalfp10000q8x7ln97hv13	cmqaropt300cgbxx72pnvh2bt	HI
 
 
 --
--- Data for Name: University; Type: TABLE DATA; Schema: public; Owner: abdullahmaajid
+-- Data for Name: University; Type: TABLE DATA; Schema: public; Owner: -
 --
 
 COPY public."University" (id, name, code, location, type, "logoUrl", "createdAt", "updatedAt") FROM stdin;
@@ -36002,7 +35946,7 @@ cmsq5okmp0003q5x7uzkm9osz	universitas muhammadiyah yogyakarta	333	daerah istimew
 
 
 --
--- Data for Name: User; Type: TABLE DATA; Schema: public; Owner: abdullahmaajid
+-- Data for Name: User; Type: TABLE DATA; Schema: public; Owner: -
 --
 
 COPY public."User" (id, name, email, password, avatar, role, "createdAt", "updatedAt", "irtAbility", "lastActivityAt") FROM stdin;
@@ -36033,7 +35977,7 @@ cmqjalfp10000q8x7ln97hv13	jediyyy	tiara@gmail.com	$2b$10$EY7xgpAzY.tY8O6hV9siTOD
 
 
 --
--- Data for Name: _prisma_migrations; Type: TABLE DATA; Schema: public; Owner: abdullahmaajid
+-- Data for Name: _prisma_migrations; Type: TABLE DATA; Schema: public; Owner: -
 --
 
 COPY public._prisma_migrations (id, checksum, finished_at, migration_name, logs, rolled_back_at, started_at, applied_steps_count) FROM stdin;
@@ -36043,7 +35987,7 @@ COPY public._prisma_migrations (id, checksum, finished_at, migration_name, logs,
 
 
 --
--- Name: ChapterProgress ChapterProgress_pkey; Type: CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: ChapterProgress ChapterProgress_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."ChapterProgress"
@@ -36051,7 +35995,7 @@ ALTER TABLE ONLY public."ChapterProgress"
 
 
 --
--- Name: Chapter Chapter_pkey; Type: CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: Chapter Chapter_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."Chapter"
@@ -36059,7 +36003,7 @@ ALTER TABLE ONLY public."Chapter"
 
 
 --
--- Name: ExamAttempt ExamAttempt_pkey; Type: CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: ExamAttempt ExamAttempt_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."ExamAttempt"
@@ -36067,7 +36011,7 @@ ALTER TABLE ONLY public."ExamAttempt"
 
 
 --
--- Name: ExamSection ExamSection_pkey; Type: CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: ExamSection ExamSection_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."ExamSection"
@@ -36075,7 +36019,7 @@ ALTER TABLE ONLY public."ExamSection"
 
 
 --
--- Name: ExamTemplate ExamTemplate_pkey; Type: CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: ExamTemplate ExamTemplate_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."ExamTemplate"
@@ -36083,7 +36027,7 @@ ALTER TABLE ONLY public."ExamTemplate"
 
 
 --
--- Name: Major Major_pkey; Type: CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: Major Major_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."Major"
@@ -36091,7 +36035,7 @@ ALTER TABLE ONLY public."Major"
 
 
 --
--- Name: QuestionOption QuestionOption_pkey; Type: CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: QuestionOption QuestionOption_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."QuestionOption"
@@ -36099,7 +36043,7 @@ ALTER TABLE ONLY public."QuestionOption"
 
 
 --
--- Name: QuestionResponse QuestionResponse_pkey; Type: CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: QuestionResponse QuestionResponse_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."QuestionResponse"
@@ -36107,7 +36051,7 @@ ALTER TABLE ONLY public."QuestionResponse"
 
 
 --
--- Name: Question Question_pkey; Type: CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: Question Question_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."Question"
@@ -36115,7 +36059,7 @@ ALTER TABLE ONLY public."Question"
 
 
 --
--- Name: StudentProfile StudentProfile_pkey; Type: CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: StudentProfile StudentProfile_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."StudentProfile"
@@ -36123,7 +36067,7 @@ ALTER TABLE ONLY public."StudentProfile"
 
 
 --
--- Name: SubjectScore SubjectScore_pkey; Type: CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: SubjectScore SubjectScore_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."SubjectScore"
@@ -36131,7 +36075,7 @@ ALTER TABLE ONLY public."SubjectScore"
 
 
 --
--- Name: Subject Subject_pkey; Type: CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: Subject Subject_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."Subject"
@@ -36139,7 +36083,7 @@ ALTER TABLE ONLY public."Subject"
 
 
 --
--- Name: SystemSetting SystemSetting_pkey; Type: CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: SystemSetting SystemSetting_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."SystemSetting"
@@ -36147,7 +36091,7 @@ ALTER TABLE ONLY public."SystemSetting"
 
 
 --
--- Name: TutoringMessage TutoringMessage_pkey; Type: CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: TutoringMessage TutoringMessage_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."TutoringMessage"
@@ -36155,7 +36099,7 @@ ALTER TABLE ONLY public."TutoringMessage"
 
 
 --
--- Name: TutoringSession TutoringSession_pkey; Type: CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: TutoringSession TutoringSession_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."TutoringSession"
@@ -36163,7 +36107,7 @@ ALTER TABLE ONLY public."TutoringSession"
 
 
 --
--- Name: University University_pkey; Type: CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: University University_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."University"
@@ -36171,7 +36115,7 @@ ALTER TABLE ONLY public."University"
 
 
 --
--- Name: User User_pkey; Type: CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: User User_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."User"
@@ -36179,7 +36123,7 @@ ALTER TABLE ONLY public."User"
 
 
 --
--- Name: _prisma_migrations _prisma_migrations_pkey; Type: CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: _prisma_migrations _prisma_migrations_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public._prisma_migrations
@@ -36187,133 +36131,133 @@ ALTER TABLE ONLY public._prisma_migrations
 
 
 --
--- Name: ChapterProgress_userId_chapterId_key; Type: INDEX; Schema: public; Owner: abdullahmaajid
+-- Name: ChapterProgress_userId_chapterId_key; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE UNIQUE INDEX "ChapterProgress_userId_chapterId_key" ON public."ChapterProgress" USING btree ("userId", "chapterId");
 
 
 --
--- Name: ChapterProgress_userId_status_idx; Type: INDEX; Schema: public; Owner: abdullahmaajid
+-- Name: ChapterProgress_userId_status_idx; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE INDEX "ChapterProgress_userId_status_idx" ON public."ChapterProgress" USING btree ("userId", status);
 
 
 --
--- Name: Chapter_subjectId_idx; Type: INDEX; Schema: public; Owner: abdullahmaajid
+-- Name: Chapter_subjectId_idx; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE INDEX "Chapter_subjectId_idx" ON public."Chapter" USING btree ("subjectId");
 
 
 --
--- Name: ExamAttempt_userId_startedAt_idx; Type: INDEX; Schema: public; Owner: abdullahmaajid
+-- Name: ExamAttempt_userId_startedAt_idx; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE INDEX "ExamAttempt_userId_startedAt_idx" ON public."ExamAttempt" USING btree ("userId", "startedAt");
 
 
 --
--- Name: ExamAttempt_userId_status_idx; Type: INDEX; Schema: public; Owner: abdullahmaajid
+-- Name: ExamAttempt_userId_status_idx; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE INDEX "ExamAttempt_userId_status_idx" ON public."ExamAttempt" USING btree ("userId", status);
 
 
 --
--- Name: Major_cluster_estimatedScore_idx; Type: INDEX; Schema: public; Owner: abdullahmaajid
+-- Name: Major_cluster_estimatedScore_idx; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE INDEX "Major_cluster_estimatedScore_idx" ON public."Major" USING btree (cluster, "estimatedScore");
 
 
 --
--- Name: Major_code_key; Type: INDEX; Schema: public; Owner: abdullahmaajid
+-- Name: Major_code_key; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE UNIQUE INDEX "Major_code_key" ON public."Major" USING btree (code);
 
 
 --
--- Name: Major_universityId_idx; Type: INDEX; Schema: public; Owner: abdullahmaajid
+-- Name: Major_universityId_idx; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE INDEX "Major_universityId_idx" ON public."Major" USING btree ("universityId");
 
 
 --
--- Name: QuestionOption_questionId_idx; Type: INDEX; Schema: public; Owner: abdullahmaajid
+-- Name: QuestionOption_questionId_idx; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE INDEX "QuestionOption_questionId_idx" ON public."QuestionOption" USING btree ("questionId");
 
 
 --
--- Name: QuestionResponse_attemptId_idx; Type: INDEX; Schema: public; Owner: abdullahmaajid
+-- Name: QuestionResponse_attemptId_idx; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE INDEX "QuestionResponse_attemptId_idx" ON public."QuestionResponse" USING btree ("attemptId");
 
 
 --
--- Name: QuestionResponse_attemptId_questionId_key; Type: INDEX; Schema: public; Owner: abdullahmaajid
+-- Name: QuestionResponse_attemptId_questionId_key; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE UNIQUE INDEX "QuestionResponse_attemptId_questionId_key" ON public."QuestionResponse" USING btree ("attemptId", "questionId");
 
 
 --
--- Name: Question_chapterId_difficulty_idx; Type: INDEX; Schema: public; Owner: abdullahmaajid
+-- Name: Question_chapterId_difficulty_idx; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE INDEX "Question_chapterId_difficulty_idx" ON public."Question" USING btree ("chapterId", difficulty);
 
 
 --
--- Name: StudentProfile_userId_key; Type: INDEX; Schema: public; Owner: abdullahmaajid
+-- Name: StudentProfile_userId_key; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE UNIQUE INDEX "StudentProfile_userId_key" ON public."StudentProfile" USING btree ("userId");
 
 
 --
--- Name: SubjectScore_attemptId_subjectId_key; Type: INDEX; Schema: public; Owner: abdullahmaajid
+-- Name: SubjectScore_attemptId_subjectId_key; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE UNIQUE INDEX "SubjectScore_attemptId_subjectId_key" ON public."SubjectScore" USING btree ("attemptId", "subjectId");
 
 
 --
--- Name: Subject_name_key; Type: INDEX; Schema: public; Owner: abdullahmaajid
+-- Name: Subject_name_key; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE UNIQUE INDEX "Subject_name_key" ON public."Subject" USING btree (name);
 
 
 --
--- Name: University_code_key; Type: INDEX; Schema: public; Owner: abdullahmaajid
+-- Name: University_code_key; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE UNIQUE INDEX "University_code_key" ON public."University" USING btree (code);
 
 
 --
--- Name: University_name_key; Type: INDEX; Schema: public; Owner: abdullahmaajid
+-- Name: University_name_key; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE UNIQUE INDEX "University_name_key" ON public."University" USING btree (name);
 
 
 --
--- Name: User_email_key; Type: INDEX; Schema: public; Owner: abdullahmaajid
+-- Name: User_email_key; Type: INDEX; Schema: public; Owner: -
 --
 
 CREATE UNIQUE INDEX "User_email_key" ON public."User" USING btree (email);
 
 
 --
--- Name: ChapterProgress ChapterProgress_chapterId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: ChapterProgress ChapterProgress_chapterId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."ChapterProgress"
@@ -36321,7 +36265,7 @@ ALTER TABLE ONLY public."ChapterProgress"
 
 
 --
--- Name: ChapterProgress ChapterProgress_userId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: ChapterProgress ChapterProgress_userId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."ChapterProgress"
@@ -36329,7 +36273,7 @@ ALTER TABLE ONLY public."ChapterProgress"
 
 
 --
--- Name: Chapter Chapter_subjectId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: Chapter Chapter_subjectId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."Chapter"
@@ -36337,7 +36281,7 @@ ALTER TABLE ONLY public."Chapter"
 
 
 --
--- Name: ExamAttempt ExamAttempt_templateId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: ExamAttempt ExamAttempt_templateId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."ExamAttempt"
@@ -36345,7 +36289,7 @@ ALTER TABLE ONLY public."ExamAttempt"
 
 
 --
--- Name: ExamAttempt ExamAttempt_userId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: ExamAttempt ExamAttempt_userId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."ExamAttempt"
@@ -36353,7 +36297,7 @@ ALTER TABLE ONLY public."ExamAttempt"
 
 
 --
--- Name: ExamSection ExamSection_subjectId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: ExamSection ExamSection_subjectId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."ExamSection"
@@ -36361,7 +36305,7 @@ ALTER TABLE ONLY public."ExamSection"
 
 
 --
--- Name: ExamSection ExamSection_templateId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: ExamSection ExamSection_templateId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."ExamSection"
@@ -36369,7 +36313,7 @@ ALTER TABLE ONLY public."ExamSection"
 
 
 --
--- Name: Major Major_universityId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: Major Major_universityId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."Major"
@@ -36377,7 +36321,7 @@ ALTER TABLE ONLY public."Major"
 
 
 --
--- Name: QuestionOption QuestionOption_questionId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: QuestionOption QuestionOption_questionId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."QuestionOption"
@@ -36385,7 +36329,7 @@ ALTER TABLE ONLY public."QuestionOption"
 
 
 --
--- Name: QuestionResponse QuestionResponse_attemptId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: QuestionResponse QuestionResponse_attemptId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."QuestionResponse"
@@ -36393,7 +36337,7 @@ ALTER TABLE ONLY public."QuestionResponse"
 
 
 --
--- Name: QuestionResponse QuestionResponse_questionId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: QuestionResponse QuestionResponse_questionId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."QuestionResponse"
@@ -36401,7 +36345,7 @@ ALTER TABLE ONLY public."QuestionResponse"
 
 
 --
--- Name: Question Question_chapterId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: Question Question_chapterId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."Question"
@@ -36409,7 +36353,7 @@ ALTER TABLE ONLY public."Question"
 
 
 --
--- Name: StudentProfile StudentProfile_targetMajor1Id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: StudentProfile StudentProfile_targetMajor1Id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."StudentProfile"
@@ -36417,7 +36361,7 @@ ALTER TABLE ONLY public."StudentProfile"
 
 
 --
--- Name: StudentProfile StudentProfile_targetMajor2Id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: StudentProfile StudentProfile_targetMajor2Id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."StudentProfile"
@@ -36425,7 +36369,7 @@ ALTER TABLE ONLY public."StudentProfile"
 
 
 --
--- Name: StudentProfile StudentProfile_userId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: StudentProfile StudentProfile_userId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."StudentProfile"
@@ -36433,7 +36377,7 @@ ALTER TABLE ONLY public."StudentProfile"
 
 
 --
--- Name: SubjectScore SubjectScore_attemptId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: SubjectScore SubjectScore_attemptId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."SubjectScore"
@@ -36441,7 +36385,7 @@ ALTER TABLE ONLY public."SubjectScore"
 
 
 --
--- Name: SubjectScore SubjectScore_subjectId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: SubjectScore SubjectScore_subjectId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."SubjectScore"
@@ -36449,7 +36393,7 @@ ALTER TABLE ONLY public."SubjectScore"
 
 
 --
--- Name: TutoringMessage TutoringMessage_sessionId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: abdullahmaajid
+-- Name: TutoringMessage TutoringMessage_sessionId_fkey; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY public."TutoringMessage"
@@ -36457,15 +36401,8 @@ ALTER TABLE ONLY public."TutoringMessage"
 
 
 --
--- Name: SCHEMA public; Type: ACL; Schema: -; Owner: abdullahmaajid
---
-
-REVOKE USAGE ON SCHEMA public FROM PUBLIC;
-
-
---
 -- PostgreSQL database dump complete
 --
 
-\unrestrict 2wMZs0rI6XOS0pOqBEb8irdOXpw1WdP4hKrnfN8BlCtbfukwEApaGd8sZhBfgyr
+\unrestrict yG4X4sjjPEChOT5qNQXUaQMgqoJIiY0SfJCHumSEFTrtDtiVeDkKeAIk4NLqhrs
 

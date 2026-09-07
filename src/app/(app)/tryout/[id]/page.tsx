@@ -219,10 +219,15 @@ function TryoutPreparation({ templateId, onStart }: { templateId: string, onStar
             <motion.button
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              onClick={onStart}
+              onClick={() => {
+                if (document.documentElement.requestFullscreen) {
+                  document.documentElement.requestFullscreen().catch(() => {});
+                }
+                onStart();
+              }}
               className="w-full py-4 bg-[var(--accent)] hover:bg-[#5b2bd5] text-white font-bold rounded-2xl shadow-[0_4px_14px_rgba(100,52,246,0.25)] hover:shadow-[0_6px_20px_rgba(100,52,246,0.35)] transition-all flex items-center justify-center gap-2 text-lg group"
             >
-              Mulai Ujian <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              Mulai Ujian dalam Layar Penuh <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </motion.button>
             <p className="text-center text-xs text-slate-400 mt-4 font-medium">Hanya bisa dikerjakan 1 kali percobaan per sesi.</p>
           </div>
@@ -248,6 +253,9 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
   const [error, setError] = useState<string | null>(null)
   const [submitting, setSubmitting] = useState(false)
   const [result, setResult] = useState<{ rawScore: number; theta: number; scaledScore: number; correct: number; total: number } | null>(null)
+  const [cheatCount, setCheatCount] = useState(0)
+  const [showCheatModal, setShowCheatModal] = useState(false)
+  const [needsFullscreen, setNeedsFullscreen] = useState(false)
 
   // Fetch questions from API on mount
   useEffect(() => {
@@ -292,6 +300,79 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
     const timer = setInterval(() => { decrementTime() }, 1000)
     return () => clearInterval(timer)
   }, [loading, isFinished, decrementTime])
+
+  // Anti-Cheat: Detect Tab Switching, Window Unfocus (Split Screen), and Disable Copy/Right-Click
+  useEffect(() => {
+    if (loading || isFinished) return
+    const handleViolation = () => {
+      setCheatCount(prev => prev + 1)
+    }
+    const handleVisibilityChange = () => {
+      if (document.hidden) handleViolation()
+    }
+    const handleBlur = () => {
+      handleViolation()
+    }
+    const preventAction = (e: Event) => e.preventDefault()
+
+    const handleFullscreenChange = () => {
+      if (!document.fullscreenElement) {
+        setNeedsFullscreen(true)
+      } else {
+        setNeedsFullscreen(false)
+      }
+    }
+
+    // Trik Rahasia: Monitor Suspensi Tab (Menangkap Swipe 4 Jari di Mac)
+    let lastTime = performance.now()
+    let rafId: number
+    const checkHeartbeat = (time: number) => {
+      const delta = time - lastTime
+      // Jika jarak antar frame lebih dari 2 detik (2000ms), artinya Chrome menidurkan tab ini
+      // karena layarnya tidak terlihat (seperti digeser ke Desktop/Space lain di Mac)
+      if (delta > 2000) {
+        handleViolation()
+      }
+      lastTime = time
+      rafId = requestAnimationFrame(checkHeartbeat)
+    }
+    rafId = requestAnimationFrame(checkHeartbeat)
+
+    document.addEventListener("visibilitychange", handleVisibilityChange)
+    window.addEventListener("blur", handleBlur)
+    document.addEventListener("contextmenu", preventAction) // Disable right-click
+    document.addEventListener("copy", preventAction) // Disable copy
+    document.addEventListener("fullscreenchange", handleFullscreenChange)
+    
+    return () => {
+      cancelAnimationFrame(rafId)
+      document.removeEventListener("visibilitychange", handleVisibilityChange)
+      window.removeEventListener("blur", handleBlur)
+      document.removeEventListener("contextmenu", preventAction)
+      document.removeEventListener("copy", preventAction)
+      document.removeEventListener("fullscreenchange", handleFullscreenChange)
+    }
+  }, [loading, isFinished])
+
+  // Anti-Cheat: Handle violations
+  useEffect(() => {
+    if (cheatCount >= 3) {
+      finishExam()
+    } else if (cheatCount > 0) {
+      setShowCheatModal(true)
+    }
+  }, [cheatCount, finishExam])
+
+  // Anti-Cheat: Prevent reloading or exiting route
+  useEffect(() => {
+    if (loading || isFinished) return
+    const handleBeforeUnload = (e: BeforeUnloadEvent) => {
+      e.preventDefault()
+      e.returnValue = ''
+    }
+    window.addEventListener('beforeunload', handleBeforeUnload)
+    return () => window.removeEventListener('beforeunload', handleBeforeUnload)
+  }, [loading, isFinished])
 
   // Submit answers when exam finishes
   const [submitError, setSubmitError] = useState<string | null>(null)
@@ -541,8 +622,81 @@ function CbtEngineContent({ templateId }: { templateId: string }) {
   const isFlagged = flagged[currentQ.id]
 
   return (
-    <div className="h-screen flex w-full font-sans bg-white overflow-hidden relative">
+    <div className="h-screen flex w-full font-sans bg-white overflow-hidden relative select-none">
       
+      {/* Anti-Cheat Modal */}
+      <AnimatePresence>
+        {showCheatModal && (
+          <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
+            <motion.div 
+              initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
+              className="absolute inset-0 bg-slate-900/80 backdrop-blur-md"
+            />
+            <motion.div 
+              initial={{ scale: 0.9, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} exit={{ scale: 0.9, opacity: 0 }}
+              className="relative bg-white rounded-3xl p-8 max-w-md w-full shadow-2xl border-2 border-rose-500 text-center"
+            >
+              <div className="w-20 h-20 bg-rose-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <AlertTriangle className="w-10 h-10 text-rose-600" />
+              </div>
+              <h2 className="text-2xl font-black text-slate-900 mb-3">Peringatan Pelanggaran!</h2>
+              <p className="text-slate-600 mb-6 font-medium leading-relaxed">
+                Sistem mendeteksi Anda memindahkan fokus ke luar ujian. Ini adalah pelanggaran ujian.
+                <br/><br/>
+                Pelanggaran: <span className="font-bold text-rose-600 text-lg">{cheatCount}/3</span>
+                <br/><br/>
+                Jika mencapai 3 kali, ujian akan dihentikan dan disubmit secara otomatis.
+              </p>
+              <button 
+                onClick={() => {
+                  setShowCheatModal(false)
+                  if (document.documentElement.requestFullscreen) {
+                    document.documentElement.requestFullscreen().catch(() => {})
+                  }
+                }}
+                className="w-full py-4 bg-rose-600 hover:bg-rose-700 text-white font-bold rounded-xl transition-colors shadow-lg shadow-rose-600/20"
+              >
+                Saya Mengerti, Lanjutkan Ujian
+              </button>
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
+
+      {/* Fullscreen Enforcer Modal */}
+      <AnimatePresence>
+        {needsFullscreen && !showCheatModal && (
+          <div className="fixed inset-0 z-[110] flex items-center justify-center p-4">
+            <motion.div 
+              initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
+              className="absolute inset-0 bg-slate-900/95 backdrop-blur-xl"
+            />
+            <motion.div 
+              initial={{ scale: 0.9, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} exit={{ scale: 0.9, opacity: 0 }}
+              className="relative bg-white rounded-3xl p-8 max-w-md w-full shadow-2xl text-center"
+            >
+              <div className="w-20 h-20 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <LayoutGrid className="w-10 h-10 text-indigo-600" />
+              </div>
+              <h2 className="text-2xl font-black text-slate-900 mb-3">Ujian Dijeda!</h2>
+              <p className="text-slate-600 mb-6 font-medium leading-relaxed">
+                Anda keluar dari Mode Layar Penuh (Fullscreen). Sistem keamanan mewajibkan ujian dilakukan dalam layar penuh untuk mencegah kecurangan (Split Screen).
+              </p>
+              <button 
+                onClick={() => {
+                  if (document.documentElement.requestFullscreen) {
+                    document.documentElement.requestFullscreen().catch(() => {})
+                  }
+                }}
+                className="w-full py-4 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl transition-colors shadow-lg shadow-indigo-600/20"
+              >
+                Kembali ke Layar Penuh
+              </button>
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
+
       {/* LEFT PANEL */}
       <div className="flex-1 relative bg-slate-50 border-r border-slate-100 flex-col md:pb-0 pb-[calc(40px+env(safe-area-inset-bottom))] md:overflow-hidden overflow-y-auto">
         {/* Blurred gradient background */}

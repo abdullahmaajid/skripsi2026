@@ -46,7 +46,7 @@ export async function POST(req: NextRequest) {
 
       const correctIds = question.options.filter((o: { isCorrect: boolean }) => o.isCorrect).map((o: { id: string }) => o.id)
       const selected = r.selectedIds || []
-      const isCorrect = correctIds.length === selected.length && correctIds.every((id: string) => selected.includes(id))
+      const isCorrect = correctIds.length > 0 && correctIds.length === selected.length && correctIds.every((id: string) => selected.includes(id))
 
       responseRecords.push({
         attemptId,

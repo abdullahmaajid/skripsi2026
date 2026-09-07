@@ -13,6 +13,14 @@ export async function POST(req: NextRequest) {
       )
     }
 
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
+    if (!emailRegex.test(email)) {
+      return NextResponse.json(
+        { error: "Format email tidak valid (contoh: nama@gmail.com)." },
+        { status: 400 }
+      )
+    }
+
     if (password.length < 6) {
       return NextResponse.json(
         { error: "Password minimal 6 karakter." },

@@ -84,19 +84,17 @@ Agar LLM mematuhi batasan *scaffolding*, digunakan rekayasa *Prompt Engineering*
 **2.2.8 Application Programming Interface (API)**
 API merupakan spesifikasi arsitektur perangkat lunak yang bertindak sebagai makelar komputasi. Menggunakan pola arsitektur REST (*Representational State Transfer*), API memfasilitasi komunikasi transfer data terstruktur (biasanya dalam sintaks JSON) antara peramban web (*Client-Side*) dengan peladen (*Server-Side*) (Fielding, 2000). Desain API memastikan pemisahan fungsi (*Separation of Concerns*), sehingga logika kalkulasi probabilitas berat tetap terisolasi dengan aman di sisi server.
 
-**2.2.9 Layanan Cloud Inference LLM (Groq API)**
-Memproses LLM secara mandiri (*self-hosting*) membutuhkan memori GPU tingkat tinggi. Sebagai substitusi terkelola, ekosistem menggunakan layanan pihak ketiga, salah satunya Groq API (Groq, 2024). Berbeda dengan eksekusi GPU standar, Groq mendemonstrasikan arsitektur *Language Processing Unit* (LPU) sirkuit terintegrasi (ASIC) yang dioptimasi eksklusif untuk mengeksekusi komputasi bahasa *Transformer* tanpa interupsi komunikasi antar inti. Kecepatan baca (*tokens per second*) ekstrem pada LPU memitigasi isu latensi yang menghambat ilusi interaksi "*real-time*" dalam simulasi dialog ITS.
+**2.2.9 Layanan Cloud Inference LLM (OpenRouter API)**
+Memproses LLM secara mandiri (*self-hosting*) membutuhkan memori GPU tingkat tinggi. Sebagai substitusi terkelola, ekosistem menggunakan layanan agregator pihak ketiga, salah satunya OpenRouter API. Berbeda dengan penyedia tunggal, OpenRouter memfasilitasi akses terpadu ke berbagai model bahasa mutakhir secara instan (seperti Gemini 2.0 Flash Lite) dengan mengabstraksi kompleksitas otentikasi antar-penyedia. Pemilihan agregator ini memitigasi isu *rate limit* yang sering menghambat pada satu penyedia tunggal, sehingga menjaga stabilitas interaksi "*real-time*" dalam simulasi dialog ITS.
 
-**Tabel 2.4 Profil Teknologi Groq API**
+**Tabel 2.4 Profil Teknologi OpenRouter API**
 
-| Spesifikasi | Keterangan |
+| **Komponen** | **Keterangan** |
 |---|---|
-| **Pengembang** | Groq Inc. |
-| **Tipe Layanan** | Cloud Inference untuk LLM (Language Processing Unit) |
-| **Tautan Resmi** | https://groq.com |
-| **Dokumentasi** | https://console.groq.com/docs |
-
-
+| **Pengembang** | OpenRouter Inc. |
+| **Versi/API** | v1 (OpenAI-compatible endpoints) |
+| **Tautan Resmi** | https://openrouter.ai |
+| **Dokumentasi** | https://openrouter.ai/docs |
 
 **2.2.10 Algoritma Prediksi Kelulusan (Chancing Engine)**
 Seleksi akademik komersial tidak menetapkan *passing grade* mutlak. Penentu penerimaan bertumpu pada hukum persaingan probabilitas. *Chancing Engine* diformulasikan sebagai mesin kalkulasi probabilitas distribusi logistik (kurva *Sigmoid*) komputasional (Hosmer & Lemeshow, 2013). Algoritma ini menarik *input* skor $\theta$ subjek yang sudah dikonversi (skala 200-800), kemudian memetakan selisih (*deficit*) margin berbanding skor aman historis (*estimated score*) program studi target.
@@ -145,18 +143,19 @@ PostgreSQL (PostgreSQL Global Development Group, 2024) adalah *Relational Databa
 | **Tautan Resmi** | https://www.postgresql.org |
 | **Dokumentasi** | https://www.postgresql.org/docs/ |
 
+**2.2.14 Connection Pooling (PgBouncer)**
+Batas bawaan koneksi simultan (*max_connections*) pada pangkalan data PostgreSQL umumnya dibatasi pada kisaran 100 koneksi agar mencegah kehabisan memori server (*Out of Memory*). Untuk aplikasi berskala besar dengan interaksi lalu lintas tinggi (*high-traffic*), membiarkan peramban klien membuka koneksi baru setiap saat akan memicu penolakan (*Crash/Fatals: too many clients*). *Connection Pooling* mengatasi masalah ini dengan menyediakan lapisan *middleware* (contoh: PgBouncer) di depan basis data. PgBouncer berfungsi sebagai "makelar" yang mendaur ulang (*recycle*) koneksi-koneksi yang sedang *idle* (menganggur) untuk dipakai secara bergantian oleh ribuan permintaan klien (*multiplexing*). Hal ini menjamin stabilitas (*resilience*) arsitektur data tanpa membebani memori pangkalan data secara berlebihan (Vasi, 2011).
 
-
-**2.2.14 Pengujian Perangkat Lunak (Black-Box Testing)**
+**2.2.15 Pengujian Perangkat Lunak (Black-Box Testing)**
 *Black-Box Testing* merupakan metodologi verifikasi perangkat lunak empiris yang dijalankan dengan memeriksa luaran (*output*) fungsi sistem berdasarkan variasi parameter masukan (*input*), tanpa mengevaluasi atau membedah logika kode internal (*source code*) (Nidhra & Dondeti, 2012). Pengujian ini bertujuan untuk memastikan bahwa setiap fitur dapat beroperasi selaras dengan spesifikasi kebutuhan perangkat lunak. Pada metode ini, penguji berfokus secara eksklusif pada bagaimana sistem merespons interaksi pengguna akhir. Jika keluaran yang dihasilkan pada antarmuka sesuai dengan harapan komputasional, maka fungsi tersebut divalidasi berhasil. Metodologi ini memastikan integrasi antar fungsi eksternal (seperti navigasi soal dan respons kelulusan API) bertingkah stabil sesuai skenario *edge-case* yang ditetapkan.
 
-**2.2.15 System Usability Scale (SUS)**
+**2.2.16 System Usability Scale (SUS)**
 *System Usability Scale* (SUS) yang dikembangkan oleh John Brooke pada 1996 (Brooke, 1996) merupakan instrumen evaluasi ergonomi perangkat lunak untuk mengukur tingkat kemudahan penggunaan (*usability*) berdasarkan persepsi pengguna. Konsep ini mendayagunakan sepuluh proporsi butir pertanyaan afirmatif dan negatif secara bolak-balik menggunakan kerangka skala persetujuan lima tingkat (*Likert-scale*). Formulasi matematika dari kuesioner ini mengonversi bobot jawaban menjadi skor akhir dengan rentang 0 hingga 100. Semakin tinggi skor yang terakumulasi, semakin baik tingkat penerimaan sistem tersebut. Standarisasi metrik ini secara luas diandalkan untuk mengevaluasi kualitas interaksi antarmuka dan pengalaman pengguna (*user experience*) secara objektif.
 
-**2.2.16 Pengujian Keamanan (Penetration Testing)**
+**2.2.17 Pengujian Keamanan (Penetration Testing)**
 *Penetration Testing* (Uji Penetrasi) merupakan metode pengujian keamanan agresif yang dieksekusi dengan cara mensimulasikan serangan siber terhadap suatu arsitektur sistem secara legal dan terkontrol (OWASP, 2024a). Pengujian ini didesain untuk mengidentifikasi celah kerentanan (*vulnerability*) pada infrastruktur jaringan maupun level aplikasi yang berpotensi dieksploitasi oleh entitas ancaman (*threat actor*). Berbeda dengan *Black-Box Testing* yang memvalidasi integritas fungsi, *Penetration Testing* difokuskan secara eksklusif untuk mengevaluasi tingkat ketahanan (*resilience*) dan postur keamanan sistem terhadap berbagai vektor serangan siber modern.
 
-**2.2.17 Otomatisasi Pemindaian Keamanan (OWASP ZAP)**
+**2.2.18 Otomatisasi Pemindaian Keamanan (OWASP ZAP)**
 *Zed Attack Proxy* (ZAP) merupakan perangkat lunak *open-source* yang dipelihara oleh *Open Web Application Security Project* (OWASP, 2024b) untuk memfasilitasi proses *Penetration Testing* pada aplikasi berbasis web. OWASP ZAP beroperasi dengan mencegat lalu lintas komunikasi sebagai proksi *man-in-the-middle* antara peramban klien dan peladen aplikasi. Melalui interseptor ini, sistem dapat memantau muatan data (*payload*) secara langsung serta menjalankan rutinitas pemindaian otomatis guna mendeteksi berbagai potensi kerentanan keamanan, seperti injeksi kode lintas-situs (*Cross-Site Scripting* / XSS), manipulasi basis data (*SQL Injection*), ketiadaan tajuk keamanan (*Missing Security Headers*), serta anomali konfigurasi server.
 
 **Tabel 2.8 Profil Alat Keamanan OWASP ZAP**
@@ -169,4 +168,9 @@ PostgreSQL (PostgreSQL Global Development Group, 2024) adalah *Relational Databa
 | **Tautan Resmi** | https://www.zaproxy.org |
 | **Dokumentasi** | https://www.zaproxy.org/docs/ |
 
-
+**2.2.19 Browser Security APIs & Kiosk Mode**
+*Kiosk Mode* adalah istilah yang merujuk pada penguncian antarmuka aplikasi sedemikian rupa sehingga mencegah pengguna dari berinteraksi dengan sistem operasi atau aplikasi sekunder lainnya. Dalam konteks aplikasi ujian berbasis web (CBT), teknik ini direplikasi menggunakan kombinasi *Browser APIs*. Beberapa API yang digunakan untuk menegakkan *Kiosk Mode* meliputi:
+1. **Fullscreen API**: Digunakan untuk menyembunyikan *taskbar* OS dan *tab* lain, dengan memaksa representasi layar penuh secara absolut.
+2. **Page Visibility API (`visibilitychange`)**: Mendeteksi secara spesifik kapan sebuah *tab browser* diminimalkan (*minimized*) atau disembunyikan.
+3. **Focus Events (`blur` dan `focus`)**: Mengidentifikasi perpindahan kursor atau aktivitas *keyboard* di luar *frame DOM* (*Document Object Model*) aplikasi (contoh: ketika mengklik aplikasi lain).
+4. **requestAnimationFrame**: Fungsi ini idealnya digunakan untuk menyesuaikan *frame rate* animasi di web. Namun, mekanisme penghematan daya (seperti pada *engine* Chromium/Webkit) akan memberhentikan sementara eksekusi fungsi ini jika elemen secara grafis tidak lagi terlihat (misalnya digeser ke *Desktop Space* virtual lain pada sistem operasi macOS). Perilaku ini menjadikannya sangat andal untuk difungsikan sebagai monitor detak (*Heartbeat Monitor*) guna menangkap celah keamanan yang luput dari sensor konvensional.

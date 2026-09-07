@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { motion, Variants } from "framer-motion";
 import { Loader2, Users, BookOpen, FileText, TrendingUp, XCircle, BarChart3, GraduationCap, Crown, Activity, Trophy, Target, Lightbulb, AlertCircle, Info, AlertTriangle, CheckCircle2, Bot, Layers, Sparkles } from "lucide-react";
 import MarkdownRenderer from "@/components/ui/MarkdownRenderer";
+import { AdminPageHeader } from "@/components/layout/AdminPageHeader";
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
   BarChart, Bar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar,
@@ -144,8 +145,18 @@ export default function AdminStatsPage() {
         
         {/* Header */}
         <motion.div variants={fadeUp}>
-          <h1 className="text-3xl font-bold text-slate-800 tracking-tight">Statistik Platform</h1>
-          <p className="text-sm text-slate-500 mt-1">Ringkasan kondisi platform, metrik siswa, dan analitik ujian UTBK.</p>
+          <AdminPageHeader
+            title="Statistik Platform"
+            subtitle="Ringkasan kondisi platform, metrik siswa, dan analitik ujian UTBK."
+            icon={<BarChart3 className="w-8 h-8" />}
+            badgeText="ANALITIK SISTEM"
+            infoTitle="Panduan Analitik:"
+            infoList={[
+              "Ringkasan Platform menampilkan pertumbuhan pengguna dan partisipasi ujian.",
+              "Evaluasi Subtes membantu Anda melihat rata-rata nilai nasional per bab.",
+              "Top Student & Target memetakan kompetisi dan kampus favorit siswa."
+            ]}
+          />
         </motion.div>
 
         {/* Tabs Menu */}
@@ -183,36 +194,36 @@ export default function AdminStatsPage() {
             {/* Advanced Analytics */}
             {advancedStats && (
               <>
-                <motion.div variants={fadeUp} className="col-span-1 md:col-span-4 bg-indigo-500 rounded-[2rem] p-6 text-white flex flex-col justify-between relative overflow-hidden">
+                <motion.div variants={fadeUp} className="col-span-1 md:col-span-4 bg-white border border-slate-100 shadow-[0_4px_24px_rgba(0,0,0,0.02)] rounded-3xl p-6 flex flex-col justify-between relative overflow-hidden">
                   <div>
-                    <h3 className="text-indigo-100 font-medium text-sm">Ketercapaian Target</h3>
-                    <p className="text-indigo-50 text-xs mt-1 leading-relaxed opacity-80">Prediksi menembus passing grade PTN impian.</p>
+                    <h3 className="text-slate-800 font-bold text-sm">Ketercapaian Target</h3>
+                    <p className="text-slate-500 text-xs mt-1 leading-relaxed">Prediksi menembus passing grade PTN impian.</p>
                   </div>
-                  <div className="mt-6 flex items-baseline gap-1">
+                  <div className="mt-6 flex items-baseline gap-1 text-[var(--accent)]">
                     <span className="text-4xl font-black">{Math.round(advancedStats.passingProbability)}</span>
-                    <span className="text-indigo-200 font-bold">%</span>
+                    <span className="font-bold">%</span>
                   </div>
                 </motion.div>
 
-                <motion.div variants={fadeUp} className="col-span-1 md:col-span-4 bg-emerald-500 rounded-[2rem] p-6 text-white flex flex-col justify-between relative overflow-hidden">
+                <motion.div variants={fadeUp} className="col-span-1 md:col-span-4 bg-white border border-slate-100 shadow-[0_4px_24px_rgba(0,0,0,0.02)] rounded-3xl p-6 flex flex-col justify-between relative overflow-hidden">
                   <div>
-                    <h3 className="text-emerald-100 font-medium text-sm">Penyelesaian Ujian</h3>
-                    <p className="text-emerald-50 text-xs mt-1 leading-relaxed opacity-80">Rasio siswa menuntaskan seluruh modul UTBK.</p>
+                    <h3 className="text-slate-800 font-bold text-sm">Penyelesaian Ujian</h3>
+                    <p className="text-slate-500 text-xs mt-1 leading-relaxed">Rasio siswa menuntaskan seluruh modul UTBK.</p>
                   </div>
-                  <div className="mt-6 flex items-baseline gap-1">
+                  <div className="mt-6 flex items-baseline gap-1 text-[var(--accent)]">
                     <span className="text-4xl font-black">{Math.round(advancedStats.completionRate.rate)}</span>
-                    <span className="text-emerald-200 font-bold">%</span>
+                    <span className="font-bold">%</span>
                   </div>
                 </motion.div>
 
-                <motion.div variants={fadeUp} className="col-span-1 md:col-span-4 bg-amber-500 rounded-[2rem] p-6 text-white flex flex-col justify-between relative overflow-hidden">
+                <motion.div variants={fadeUp} className="col-span-1 md:col-span-4 bg-white border border-slate-100 shadow-[0_4px_24px_rgba(0,0,0,0.02)] rounded-3xl p-6 flex flex-col justify-between relative overflow-hidden">
                   <div>
-                    <h3 className="text-amber-100 font-medium text-sm">Waktu Ujian (Rata-rata)</h3>
-                    <p className="text-amber-50 text-xs mt-1 leading-relaxed opacity-80">Durasi aktual dari alokasi 195 menit SNBT.</p>
+                    <h3 className="text-slate-800 font-bold text-sm">Waktu Ujian (Rata-rata)</h3>
+                    <p className="text-slate-500 text-xs mt-1 leading-relaxed">Durasi aktual dari alokasi 195 menit SNBT.</p>
                   </div>
-                  <div className="mt-6 flex items-baseline gap-1">
+                  <div className="mt-6 flex items-baseline gap-1 text-[var(--accent)]">
                     <span className="text-4xl font-black">{Math.round(advancedStats.timeManagement.averageDurationMinutes)}</span>
-                    <span className="text-amber-200 font-bold">mnt</span>
+                    <span className="font-bold">mnt</span>
                   </div>
                 </motion.div>
               </>
@@ -241,23 +252,19 @@ export default function AdminStatsPage() {
                 <motion.div variants={fadeUp} className="col-span-1 md:col-span-12">
                   <div className="flex flex-col gap-3">
                     {insights.map((insight, idx) => (
-                      <div key={idx} className={`p-4 rounded-r-2xl flex items-start gap-4 bg-white shadow-[0_2px_10px_rgba(0,0,0,0.02)] border-l-4 ${
-                        insight.type === 'critical' ? 'border-rose-500' :
-                        insight.type === 'warning' ? 'border-amber-500' :
-                        insight.type === 'success' ? 'border-emerald-500' : 'border-sky-500'
-                      }`}>
-                        <div className="shrink-0 mt-0.5">
-                          {insight.type === 'critical' ? <AlertTriangle className="w-5 h-5 text-rose-500" /> :
-                           insight.type === 'warning' ? <AlertCircle className="w-5 h-5 text-amber-500" /> :
-                           insight.type === 'success' ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> :
-                           <Info className="w-5 h-5 text-sky-500" />}
+                      <div key={idx} className="p-5 rounded-3xl flex items-start gap-4 bg-white shadow-[0_4px_24px_rgba(0,0,0,0.02)] border border-slate-100">
+                        <div className={`shrink-0 mt-0.5 p-2 rounded-xl ${
+                          insight.type === 'critical' ? 'bg-rose-50 text-rose-500' :
+                          insight.type === 'warning' ? 'bg-amber-50 text-amber-500' :
+                          insight.type === 'success' ? 'bg-emerald-50 text-emerald-500' : 'bg-[var(--accent)]/10 text-[var(--accent)]'
+                        }`}>
+                          {insight.type === 'critical' ? <AlertTriangle className="w-5 h-5" /> :
+                           insight.type === 'warning' ? <AlertCircle className="w-5 h-5" /> :
+                           insight.type === 'success' ? <CheckCircle2 className="w-5 h-5" /> :
+                           <Info className="w-5 h-5" />}
                         </div>
                         <div>
-                          <h4 className={`text-sm font-bold mb-1 ${
-                            insight.type === 'critical' ? 'text-rose-700' :
-                            insight.type === 'warning' ? 'text-amber-700' :
-                            insight.type === 'success' ? 'text-emerald-700' : 'text-sky-700'
-                          }`}>{insight.title}</h4>
+                          <h4 className="text-sm font-bold mb-1 text-slate-800">{insight.title}</h4>
                           <p className="text-xs text-slate-500 leading-relaxed max-w-4xl">{insight.desc}</p>
                         </div>
                       </div>

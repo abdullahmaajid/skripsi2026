@@ -48,8 +48,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
   const isAIChatVisible = isAIChatContext && rightOpen
   const isAdminPanelVisible = isAdminContext && rightOpen
   const showRightPanel = isAIChatVisible || isAdminPanelVisible
-  const showLeftPanel = !(isActiveTryout && isDiagnosticOnboarding)
-
+  const showLeftPanel = !isActiveTryout
   return (
     <div className="h-screen flex flex-col overflow-hidden bg-[var(--background)]">
       <Toaster position="top-center" reverseOrder={false} />
@@ -228,7 +227,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         </AnimatePresence>
 
         {/* Mobile Bottom Navigation */}
-        <MobileNavbar />
+        {!isActiveTryout && <MobileNavbar />}
 
       </div>
     </div>

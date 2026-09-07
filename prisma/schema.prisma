@@ -3,7 +3,7 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
+  provider  = "postgresql"
 }
 
 // ============================================
@@ -230,6 +230,7 @@ model QuestionResponse {
 
   @@unique([attemptId, questionId])
   @@index([attemptId])
+  @@index([questionId])
 }
 
 // ============================================
@@ -260,6 +261,9 @@ model TutoringSession {
   level      ScaffoldLevel     @default(SOCRATIC)
   messages   TutoringMessage[]
   createdAt  DateTime          @default(now())
+
+  @@index([userId])
+  @@index([questionId])
 }
 
 enum ScaffoldLevel {
@@ -276,6 +280,8 @@ model TutoringMessage {
   createdAt DateTime    @default(now())
 
   session TutoringSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+
+  @@index([sessionId])
 }
 
 enum MessageRole {
@@ -318,4 +324,16 @@ model SystemSetting {
   value       String   @db.Text
   description String?  @db.Text
   updatedAt   DateTime @updatedAt
+}
+
+// ============================================
+// AI RESPONSE CACHE
+// ============================================
+model AiResponseCache {
+  id        String   @id @default(cuid())
+  promptHash String   @unique // SHA-256 hash of the request prompt/messages
+  response  String   @db.Text
+  createdAt DateTime @default(now())
+  
+  @@index([promptHash])
 }

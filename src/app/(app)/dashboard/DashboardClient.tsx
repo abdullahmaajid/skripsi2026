@@ -303,7 +303,6 @@ export default function DashboardClient({ userName, targetName, latestScore, irt
   }
 
   const fetcher = (url: string) => fetch(url).then((res) => res.json())
-  const { data: focusData } = useSWR("/api/analytics/focus-today", fetcher)
 
   // Peluang label
   const peluangLabel = peluangLulus >= 80 ? "Sangat baik!" : peluangLulus >= 60 ? "Cukup baik" : peluangLulus >= 40 ? "Perlu usaha" : peluangLulus > 0 ? "Masih jauh" : "Belum ada data"

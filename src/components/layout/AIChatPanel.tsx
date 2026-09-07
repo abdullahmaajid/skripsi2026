@@ -18,6 +18,27 @@ import { motion } from "framer-motion";
 import { useTutorChatStore } from "@/store/useTutorChatStore";
 import MarkdownRenderer from "@/components/ui/MarkdownRenderer";
 
+
+const printPrettyAILog = (aiLog: any) => {
+  if (!aiLog) return;
+  console.log("%c===========================================", "color: #bf5af2; font-weight: bold;");
+  console.log(`%c🧠 [AI TUTOR LOG - ${aiLog.mode}]`, "color: #bf5af2; font-weight: bold; font-size: 14px;");
+  console.log("%c===========================================", "color: #bf5af2; font-weight: bold;");
+  
+  console.log(`%cQuestion ID:%c ${aiLog.question_id || 'N/A'}`, "font-weight: bold; color: #0a84ff;", "color: inherit;");
+  console.log(`%cAttempt:%c ${aiLog.attempt || 'N/A'}`, "font-weight: bold; color: #0a84ff;", "color: inherit;");
+  console.log(`%cAnswer Status:%c ${aiLog.answer_status || 'N/A'}`, "font-weight: bold; color: #0a84ff;", "color: inherit;");
+  console.log(`%cSelected Strategy:%c ${aiLog.strategy || 'N/A'}`, "font-weight: bold; color: #0a84ff;", "color: inherit;");
+  
+  console.log("%c-------------------------------------------", "color: gray;");
+  console.log(`%c[Analysis Internal]:\n%c${aiLog.analisis_internal || JSON.stringify(aiLog.messages, null, 2)}`, "color: gray; font-style: italic; font-weight: bold;", "color: inherit; font-style: normal;");
+  
+  console.log("%c-------------------------------------------", "color: gray;");
+  console.log(`%c[AI Response]:
+%c${aiLog.output}`, "color: #32d74b; font-weight: bold;", "color: inherit; font-size: 13px;");
+  console.log("%c===========================================", "color: #bf5af2; font-weight: bold;");
+};
+
 interface Message {
   role: "user" | "assistant";
   content: string;
@@ -46,6 +67,8 @@ const scaleIn = {
     transition: { duration: 0.3, ease: "easeOut" },
   },
 } as any;
+
+let globalLastFetchedKey = '';
 
 export default function AIChatPanel({ onClose }: { onClose?: () => void }) {
   const router = useRouter();
@@ -88,8 +111,8 @@ export default function AIChatPanel({ onClose }: { onClose?: () => void }) {
     const cacheKey = selectedQuestion
       ? `${qId}-${selectedQuestion.selectedAnswer}-${selectedQuestion.attemptCount}-${selectedQuestion.isReview}-${resetTrigger}`
       : `free-${resetTrigger}`;
-    if (cacheKey !== prevQuestionRef.current) {
-      prevQuestionRef.current = cacheKey;
+    if (cacheKey !== globalLastFetchedKey) {
+      globalLastFetchedKey = cacheKey;
       if (selectedQuestion) {
         if (selectedQuestion.autoTriggerExplanation) {
           const initMsg: Message = { role: "user", content: "Tolong berikan pembahasan lengkap untuk soal ini." };
@@ -122,22 +145,97 @@ export default function AIChatPanel({ onClose }: { onClose?: () => void }) {
             },
           ]);
           setScaffoldLevel("SOLUTION");
+        } else if (selectedQuestion.selectedAnswer === selectedQuestion.correctAnswer) {
+          setMessages([
+            {
+              role: "assistant",
+              content: `Sedang menyusun Positive Reinforcement...`,
+            },
+          ]);
+          setScaffoldLevel("SOLUTION");
+          setLoading(true);
+          
+          fetch("/api/tutor/ask", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              questionId: selectedQuestion.questionId,
+              question: selectedQuestion.text,
+              studentAnswer: selectedQuestion.selectedAnswer,
+              correctAnswer: selectedQuestion.correctAnswer,
+              currentLevel: "SOLUTION",
+              history: []
+            })
+          }).then(res => res.json()).then(data => {
+            printPrettyAILog(data.aiLog);
+            setMessages([
+              {
+                role: "assistant",
+                content: data.response,
+              },
+            ]);
+          }).catch(err => console.error("AI Log error:", err)).finally(() => setLoading(false));
+          
         } else if (selectedQuestion.attemptCount === 1) {
           setMessages([
             {
               role: "assistant",
-              content: `Hai! Jawabanmu **(${selectedQuestion.selectedAnswer})** masih belum tepat. Kamu masih punya 1 kesempatan lagi untuk mencoba.\n\nCoba perhatikan baik-baik pertanyaan dan informasinya. Butuh petunjuk (hint)? Tanya saja di sini!`,
+              content: `Sedang menyusun Socratic Hint...`,
             },
           ]);
-          setScaffoldLevel("HINT");
+          setScaffoldLevel("SOCRATIC");
+          setLoading(true);
+          fetch("/api/tutor/ask", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              questionId: selectedQuestion.questionId,
+              question: selectedQuestion.text,
+              studentAnswer: selectedQuestion.selectedAnswer,
+              correctAnswer: selectedQuestion.correctAnswer,
+              currentLevel: "SOCRATIC",
+              history: []
+            })
+          }).then(res => res.json()).then(data => {
+            printPrettyAILog(data.aiLog);
+            setMessages([
+              {
+                role: "assistant",
+                content: data.response,
+              },
+            ]);
+          }).catch(err => console.error("AI Log error:", err)).finally(() => setLoading(false));
+
         } else if (selectedQuestion.attemptCount === 2) {
           setMessages([
             {
               role: "assistant",
-              content: `Sayang sekali, jawabanmu **(${selectedQuestion.selectedAnswer})** masih salah. Kesempatanmu sudah habis untuk soal ini.\n\nMari kita bedah kenapa bisa salah. Coba jelaskan konsep yang kamu pakai untuk menjawab tadi, biar aku bantu koreksi!`,
+              content: `Sedang menyusun Step-by-Step Guidance...`,
             },
           ]);
-          setScaffoldLevel("SOCRATIC");
+          setScaffoldLevel("HINT");
+          setLoading(true);
+          fetch("/api/tutor/ask", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              questionId: selectedQuestion.questionId,
+              question: selectedQuestion.text,
+              studentAnswer: selectedQuestion.selectedAnswer,
+              correctAnswer: selectedQuestion.correctAnswer,
+              currentLevel: "HINT",
+              history: []
+            })
+          }).then(res => res.json()).then(data => {
+            printPrettyAILog(data.aiLog);
+            setMessages([
+              {
+                role: "assistant",
+                content: data.response,
+              },
+            ]);
+          }).catch(err => console.error("AI Log error:", err)).finally(() => setLoading(false));
+
         } else {
           setMessages([
             {
@@ -194,13 +292,7 @@ export default function AIChatPanel({ onClose }: { onClose?: () => void }) {
           }),
         });
         const data = await res.json();
-        if (data.aiLog) {
-          console.groupCollapsed(`🧠 [AI TUTOR LOG - ${data.aiLog.mode}]`);
-          console.log(`⏱️ Latency: ${data.aiLog.latencyMs}ms | 🪙 Tokens: ${data.aiLog.usage?.total_tokens || 0}`);
-          console.log(`📥 Payload (Messages):`, data.aiLog.messages);
-          console.log(`🤖 Output:`, data.aiLog.output);
-          console.groupEnd();
-        }
+        printPrettyAILog(data.aiLog);
         if (!res.ok) throw new Error(data.error || "Server error");
         setMessages((prev) => [
           ...prev,
@@ -220,13 +312,7 @@ export default function AIChatPanel({ onClose }: { onClose?: () => void }) {
           }),
         });
         const data = await res.json();
-        if (data.aiLog) {
-          console.groupCollapsed(`🧠 [AI TUTOR LOG - ${data.aiLog.mode}]`);
-          console.log(`⏱️ Latency: ${data.aiLog.latencyMs}ms | 🪙 Tokens: ${data.aiLog.usage?.total_tokens || 0}`);
-          console.log(`📥 Payload (Messages):`, data.aiLog.messages);
-          console.log(`🤖 Output:`, data.aiLog.output);
-          console.groupEnd();
-        }
+        printPrettyAILog(data.aiLog);
         if (!res.ok) throw new Error(data.error || "Server error");
         setMessages((prev) => [
           ...prev,

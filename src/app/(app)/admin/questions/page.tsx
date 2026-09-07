@@ -317,7 +317,7 @@ export default function AdminQuestionsPage() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {subjects.map(s => (
-                  <div key={s.id} className="bg-white border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.01)] rounded-2xl p-5 flex justify-between items-center">
+                  <div key={s.id} className="bg-white border border-slate-100 shadow-[0_4px_24px_rgba(0,0,0,0.02)] rounded-3xl p-6 flex justify-between items-center">
                     <div>
                       <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${s.cluster === 'SAINTEK' ? 'bg-sky-50 text-sky-600 border border-sky-100' : s.cluster === 'SOSHUM' ? 'bg-orange-50 text-orange-600 border border-orange-100' : 'bg-purple-50 text-purple-600 border border-purple-100'}`}>
                         {s.cluster}
@@ -352,7 +352,7 @@ export default function AdminQuestionsPage() {
                 </button>
               </div>
 
-              <div className="bg-white border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.01)] rounded-2xl overflow-hidden">
+              <div className="bg-white border border-slate-100 shadow-[0_4px_24px_rgba(0,0,0,0.02)] rounded-3xl overflow-hidden">
                 <table className="w-full text-left text-sm">
                   <thead className="bg-slate-50 border-b border-slate-100 text-slate-400 uppercase tracking-wider text-[10px] font-bold">
                     <tr>
@@ -449,7 +449,7 @@ export default function AdminQuestionsPage() {
 
               <div className="space-y-4">
                 {paginatedQuestions.map((q, idx) => (
-                  <div key={q.id} className="bg-white border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.01)] rounded-2xl p-5 hover:border-slate-200 transition-all">
+                  <div key={q.id} className="bg-white border border-slate-100 shadow-[0_4px_24px_rgba(0,0,0,0.02)] rounded-3xl p-6 hover:border-slate-200 transition-all">
                     <div className="flex justify-between items-start gap-4">
                       <div className="flex-1 space-y-3">
                         <div className="flex flex-wrap items-center gap-2 text-[10px] font-bold">
@@ -488,7 +488,7 @@ export default function AdminQuestionsPage() {
                   </div>
                 ))}
                 {!loading && paginatedQuestions.length === 0 && (
-                  <div className="text-center py-16 text-slate-400 border border-dashed border-slate-200 rounded-2xl">Tidak ada soal yang sesuai filter</div>
+                  <div className="text-center py-16 text-slate-400 border border-dashed border-slate-200 rounded-3xl">Tidak ada soal yang sesuai filter</div>
                 )}
                 
                 {/* Pagination Controls */}

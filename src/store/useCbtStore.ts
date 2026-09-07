@@ -1,6 +1,6 @@
 import { create } from 'zustand'
 
-export interface Option {
+interface Option {
   id: string
   label: string
   text: string
@@ -14,7 +14,7 @@ export interface Question {
   subject: string // Subtest name
 }
 
-export interface Section {
+interface Section {
   subjectName: string
   duration: number // in minutes
   itemCount: number

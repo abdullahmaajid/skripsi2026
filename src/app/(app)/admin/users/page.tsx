@@ -38,6 +38,13 @@ function UserFormPanel({
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
+
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
+    if (!emailRegex.test(form.email)) {
+      alert("Format email tidak valid (contoh: nama@gmail.com).")
+      return
+    }
+
     setSubmitting(true)
     
     const method = editingUser ? "PUT" : "POST"
@@ -68,7 +75,7 @@ function UserFormPanel({
   return (
     <div className="h-full flex flex-col p-6 space-y-6">
       <h3 className="text-xl font-bold text-slate-800">{editingUser ? "Ubah Akun User" : "Tambah User Baru"}</h3>
-      <form onSubmit={handleSubmit} className="flex-1 flex flex-col space-y-4">
+      <form onSubmit={handleSubmit} className="flex-1 flex flex-col min-h-0 space-y-4">
         <div className="flex-1 space-y-4">
           <div>
             <label className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1.5">Nama Lengkap</label>
@@ -159,7 +166,7 @@ export default function AdminUsersPage() {
   // Pagination & Meta
   const [currentPage, setCurrentPage] = useState(1)
   const [totalPages, setTotalPages] = useState(1)
-  const [globalStats, setGlobalStats] = useState({ totalStudents: 0, totalAdmins: 0, avgTheta: 0 })
+  const [globalStats, setGlobalStats] = useState({ totalStudents: 0, totalAdmins: 0, activeStudents: 0, avgTheta: 0 })
   const itemsPerPage = 20
 
   // Debounce search
@@ -306,39 +313,39 @@ export default function AdminUsersPage() {
       {/* Summary Cards */}
       {!loading && users.length > 0 && (
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <div className="bg-white border border-slate-100 p-4 rounded-[1.5rem] flex items-center gap-4 shadow-[0_4px_20px_rgba(0,0,0,0.02)]">
+          <div className="bg-white border border-slate-100 p-4 rounded-3xl flex items-center gap-4 shadow-[0_4px_24px_rgba(0,0,0,0.02)]">
             <div className="w-12 h-12 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center shrink-0">
               <Users className="w-6 h-6" />
             </div>
             <div>
-              <p className="text-2xl font-black text-slate-800">{totalStudents}</p>
+              <p className="text-2xl font-black text-slate-800">{globalStats.totalStudents}</p>
               <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Total Siswa</p>
             </div>
           </div>
-          <div className="bg-white border border-slate-100 p-4 rounded-[1.5rem] flex items-center gap-4 shadow-[0_4px_20px_rgba(0,0,0,0.02)]">
+          <div className="bg-white border border-slate-100 p-4 rounded-3xl flex items-center gap-4 shadow-[0_4px_24px_rgba(0,0,0,0.02)]">
             <div className="w-12 h-12 bg-purple-50 text-purple-600 rounded-2xl flex items-center justify-center shrink-0">
               <Shield className="w-6 h-6" />
             </div>
             <div>
-              <p className="text-2xl font-black text-slate-800">{totalAdmins}</p>
+              <p className="text-2xl font-black text-slate-800">{globalStats.totalAdmins}</p>
               <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Total Admin</p>
             </div>
           </div>
-          <div className="bg-white border border-slate-100 p-4 rounded-[1.5rem] flex items-center gap-4 shadow-[0_4px_20px_rgba(0,0,0,0.02)]">
+          <div className="bg-white border border-slate-100 p-4 rounded-3xl flex items-center gap-4 shadow-[0_4px_24px_rgba(0,0,0,0.02)]">
             <div className="w-12 h-12 bg-orange-50 text-orange-600 rounded-2xl flex items-center justify-center shrink-0">
               <Flame className="w-6 h-6" />
             </div>
             <div>
-              <p className="text-2xl font-black text-slate-800">{activeStudentsCount}</p>
+              <p className="text-2xl font-black text-slate-800">{globalStats.activeStudents}</p>
               <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Siswa Aktif</p>
             </div>
           </div>
-          <div className="bg-white border border-slate-100 p-4 rounded-[1.5rem] flex items-center gap-4 shadow-[0_4px_20px_rgba(0,0,0,0.02)]">
+          <div className="bg-white border border-slate-100 p-4 rounded-3xl flex items-center gap-4 shadow-[0_4px_24px_rgba(0,0,0,0.02)]">
             <div className="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center shrink-0">
               <Activity className="w-6 h-6" />
             </div>
             <div>
-              <p className="text-2xl font-black text-slate-800">{avgTheta > 0 ? `+${avgTheta.toFixed(2)}` : avgTheta.toFixed(2)}</p>
+              <p className="text-2xl font-black text-slate-800">{globalStats.avgTheta > 0 ? `+${globalStats.avgTheta.toFixed(2)}` : globalStats.avgTheta.toFixed(2)}</p>
               <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Avg Theta Siswa</p>
             </div>
           </div>
@@ -372,7 +379,7 @@ export default function AdminUsersPage() {
       {loading ? (
         <div className="flex justify-center py-20"><Loader2 className="w-8 h-8 text-[var(--accent)] animate-spin" /></div>
       ) : (
-        <div className="bg-white border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.01)] rounded-[2rem] overflow-hidden">
+        <div className="bg-white border border-slate-100 shadow-[0_4px_24px_rgba(0,0,0,0.02)] rounded-3xl overflow-hidden">
           <div className="overflow-x-auto">
             <table className="w-full text-left text-sm">
               <thead className="bg-slate-50 border-b border-slate-100 text-slate-400 uppercase tracking-wider text-[10px] font-bold">

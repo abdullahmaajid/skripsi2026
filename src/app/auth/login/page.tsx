@@ -17,6 +17,13 @@ export default function LoginPage() {
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
+
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    if (!emailRegex.test(email)) {
+      setError("Format email tidak valid.");
+      return;
+    }
+
     setLoading(true);
     try {
       const preloginRes = await fetch("/api/prelogin", {

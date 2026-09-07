@@ -23,6 +23,12 @@ export default function RegisterPage() {
       setError("Password tidak cocok.")
       return
     }
+
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
+    if (!emailRegex.test(email)) {
+      setError("Format email tidak valid (contoh: nama@gmail.com).")
+      return
+    }
     if (password.length < 6) {
       setError("Password minimal 6 karakter.")
       return
