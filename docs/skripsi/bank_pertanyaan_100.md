@@ -211,3 +211,36 @@ Gunakan dokumen ini sebagai *Flashcard* (tanya-jawab cepat) untuk persiapan sida
     Jawaban: Tentu, apalagi Role Admin skor SUS-nya mencapai *Best Imaginable* (92,5), artinya interfacenya setara kemudahan aplikasi populer.
 100. **Pesan terpenting skripsi ini?**
      Jawaban: "Masa depan Tryout bukan tentang siapa yang tercepat mengeluarkan kunci jawaban, melainkan siapa yang terbaik dalam menemani proses berpikir siswa (Scaffolding)."
+
+
+## KELOMPOK 6: FILOSOFI TERMINOLOGI & PENAMAAN (Pertanyaan Kritis Dosen)
+101. **Kenapa istilahnya harus "Scaffolding"? Kenapa tidak disebut "Bantuan", "Hint", atau "Tips" saja?**
+     Jawaban: Karena dalam dunia akademik (psikologi pendidikan), kata "Bantuan/Hint" bermakna pasif dan satu arah. "Scaffolding" secara harfiah berarti "perancah/steger" (kerangka besi penyangga saat membangun gedung). Artinya, bantuan AI ini sifatnya sementara sebagai penyangga; ketika fondasi pemahaman siswa sudah kuat, bantuan AI akan dilepas agar siswa mandiri.
+102. **Kenapa disebut "Socratic Scaffolding"? Siapa itu Socrates?**
+     Jawaban: Socrates adalah filsuf Yunani Kuno yang tidak pernah langsung menjawab pertanyaan muridnya, melainkan membalasnya dengan pertanyaan baru yang menuntun muridnya berpikir. AI di sistem ini diprogram meniru gaya mengajar Socrates tersebut.
+103. **Di arsitektur, kenapa menggunakan nama "Blind Mode"? Memangnya AI-nya buta?**
+     Jawaban: Ya, AI-nya sengaja "dibutakan" (disembunyikan) dari kunci jawaban akhir (A/B/C/D/E) pada prompt *backend*. Jika AI tahu jawabannya A, ia berpotensi keceplosan. Dengan *Blind Mode*, AI dipaksa menganalisis langkah penyelesaiannya saja.
+104. **Di codebase ada fitur "Chancing Engine". Kenapa dinamakan demikian, bukan "Kalkulator Kelulusan"?**
+     Jawaban: "Chancing Engine" adalah istilah industri standar di dunia EdTech (seperti di Ivy League) untuk mendeskripsikan mesin probabilitas probabilistik, bukan sebuah kalkulator statis. Ia menghitung "peluang" (chances) berdasarkan model regresi statistik.
+105. **Kenapa repository dan nama proyeknya "Lexica UTBK"? (lexica_utbkapp)**
+     Jawaban: Lexica berasal dari kata *Lexicon* yang berarti kamus atau perbendaharaan pengetahuan. Nama ini melambangkan sistem yang kaya akan ilmu penalaran layaknya perpustakaan cerdas bagi siswa UTBK.
+106. **Kenapa disebut "Intelligent Tutoring System (ITS)", kenapa tidak disebut "E-Learning" biasa?**
+     Jawaban: E-Learning (seperti Google Classroom/Moodle) sifatnya pasif (guru menaruh materi, siswa membaca). ITS adalah sistem cerdas yang aktif berinteraksi dan mengadaptasi gaya belajarnya sesuai respons *real-time* siswa layaknya tutor sungguhan.
+107. **Apa maksud dari penamaan "Priority Score" pada fitur Learning Path?**
+     Jawaban: Karena sistem tidak sekadar mengurutkan materi dari Bab 1 ke Bab 2. Sistem menghitung "Skor Prioritas" menggunakan rumus; bab yang skor uijiannya paling hancur dan paling lama tidak dibuka akan mendapat "Priority Score" tertinggi untuk dipelajari hari ini.
+108. **Kenapa dinamakan "Forgetting Curve"? Kenapa tidak "Kurva Belajar" saja?**
+     Jawaban: Karena ini mengacu pada hukum *Ebbinghaus Forgetting Curve*, sebuah fakta medis bahwa ingatan otak manusia akan merosot tajam (lupa) dalam hitungan hari jika tidak ada pengulangan (*spaced repetition*).
+109. **Apa arti "Item Response Theory"? Kenapa tidak disebut "Teori Bobot Soal"?**
+     Jawaban: Kata "Item" merujuk pada "Butir Soal", dan "Response" merujuk pada "Pola Jawaban Siswa". Teori ini tidak sekadar membobot soal, tetapi melihat interaksi (respon) antara seberapa pintar siswa melawan seberapa sulit item tersebut.
+110. **Kenapa ada istilah "Theta" (θ) dalam rumus penilaian Anda di Bab 2?**
+    Jawaban: Dalam statistik pengukuran psikometri, simbol Yunani Theta (θ) adalah standar internasional baku yang digunakan untuk melambangkan *Laten Trait* (tingkat kemampuan kognitif tak kasat mata dari seorang peserta ujian).
+111. **Di codebase, kenapa menggunakan library bernama "Zustand"? Apa artinya?**
+    Jawaban: Zustand adalah bahasa Jerman yang berarti "State" (Keadaan/Kondisi). Sesuai namanya, library ini bertugas menjaga *state* (kondisi memori) agar jawaban siswa tidak hilang saat browser me-refresh halaman.
+112. **Di codebase ada nama `evaluate-answers.ts`. Kenapa menamainya dalam bahasa Inggris, kenapa tidak `hitung-nilai.ts`?**
+    Jawaban: Menggunakan bahasa Inggris adalah *best practice* (standar industri) dalam penulisan *Software Engineering*. Ini memastikan kode dapat dibaca, dikelola (*maintainable*), dan di-*review* oleh *developer* manapun secara global.
+113. **Apa arti penamaan "PgBouncer" di arsitektur Anda?**
+    Jawaban: "Pg" singkatan dari PostgreSQL, dan "Bouncer" berarti "Tukang Pukul/Penjaga Pintu" di klub malam. Fungsinya persis seperti *bouncer*: menjaga pintu masuk database agar tidak semua koneksi masuk berdesakan yang bisa membuat server *down*.
+114. **Kenapa nama frameworknya Next.js? Apa "Next" di sana?**
+    Jawaban: Dinamakan "Next" karena framework ini dirancang untuk menjadi generasi lanjutan (*the next evolution*) dari React.js, yang menutup kelemahan React (yaitu ketiadaan Server-Side Rendering dan kerentanan keamanan API).
+115. **Apa arti dari nama "Prisma ORM" di database Anda?**
+    Jawaban: Prisma dinamakan demikian karena layaknya kaca prisma yang mengubah satu cahaya putih menjadi berbagai spektrum warna; Prisma mengubah kode database SQL yang kaku menjadi berbagai objek TypeScript yang fleksibel dan mudah dibaca (ORM).
