@@ -84,17 +84,17 @@ Soal-soal di bawah ini telah dikelompokkan secara murni berdasarkan Kategori/Fok
 38. **Kenapa evaluasi saja tidak cukup?**
    Jawaban: Evaluasi hanya memberitahu "Kamu salah", tapi *scaffolding* memberitahu "Ini cara berpikir yang benar agar ke depan kamu tidak salah lagi".
 39. **Apa itu Item Response Theory (IRT)?**
-   Jawaban: Teori pengukuran probabilitas benar/salah berdasarkan parameter soal dan kemampuan siswa.
+   Jawaban: Teori pengukuran berbasis probabilitas. IRT tidak sekadar melihat "jumlah benar", melainkan memodelkan peluang siswa menjawab benar lewat fungsi logistik matematika yang mempertimbangkan karakteristik per butir soal.
 40. **Beda IRT dan CTT (Skor Klasik)?**
-   Jawaban: CTT menghargai semua soal sama. IRT menghargai jawaban benar di soal sulit lebih tinggi daripada jawaban benar di soal mudah.
-41. **Apa itu Tingkat Kesulitan (b) di IRT?**
-   Jawaban: Nilai yang menunjukkan seberapa sulit soal tersebut (semakin tinggi, semakin susah ditebak benar).
-42. **Apa itu Daya Pembeda (a) di IRT?**
-   Jawaban: Kemampuan soal membedakan mana siswa pintar dan mana siswa yang kurang paham.
-43. **Kenapa IRT lebih adil?**
-   Jawaban: Mencegah siswa lulus murni karena kebetulan menebak soal mudah.
-44. **Bagaimana regresi logistik dipakai di Chancing Engine?**
-   Jawaban: Menghitung persentase probabilitas kelulusan ke kampus tujuan berdasarkan nilai evaluasi (theta).
+   Jawaban: CTT (Skor Klasik) menghargai semua soal sama rata. IRT lebih presisi karena menghitung kemampuan laten siswa ($\theta$) di mana jawaban benar pada soal sulit dihargai jauh lebih tinggi daripada soal mudah.
+41. **Coba jelaskan rumus IRT Model Rasch (1-PL) yang Anda pakai!**
+   Jawaban: Rumusnya adalah probabilitas $P_i(\theta) = \frac{1}{1 + e^{-(\theta - b_i)}}$. Di mana $\theta$ (Theta) adalah skor kemampuan siswa, $b_i$ adalah bobot kesulitan soal ke-$i$, dan $e$ adalah konstanta eksponensial.
+42. **Bagaimana cara *backend* Anda menghitung nilai akhir ($\theta$)?**
+   Jawaban: Menggunakan *Maximum Likelihood Estimation* (MLE) melalui algoritma komputasi numerik **Newton-Raphson**. Sistem akan melakukan perulangan turunan pertama dan *Fisher Information* (negatif turunan kedua) hingga nilai $\theta$ konvergen.
+43. **Setelah nilai $\theta$ ketemu (misal: 1.5), bagaimana mengubahnya jadi skor UTBK 200-800?**
+   Jawaban: Menggunakan transformasi linear skala standar. Rumusnya: `Skor = (Theta × 100) + 500`. Jika melampaui batas, nilainya di-*cap* maksimal 800 dan minimal 200.
+44. **Lalu bagaimana Regresi Logistik dipakai di *Chancing Engine*?**
+   Jawaban: Regresi logistik menggunakan skor akhir tadi sebagai input *variabel independen* untuk menghasilkan kurva Sigmoid. Hasilnya berupa output probabilitas (0% sampai 100%) lolos ke PTN incaran.
 45. **Berapa rata-rata skor SUS?**
    Jawaban: Keseluruhan 67,26.
 46. **Kenapa skor SUS Admin tinggi (92,5)?**
