@@ -1,6 +1,6 @@
-# Tinjauan Pustaka & Penelitian Terdahulu (Related Work)
+# Tinjauan Pustaka & Tugas Akhir Terdahulu (Related Work)
 
-Dokumen ini merangkum kajian literatur dan penelitian terdahulu yang menjadi landasan teori serta pembanding bagi pengembangan platform Lexica UTBK-SNBT.
+Dokumen ini merangkum kajian literatur dan tugas akhir terdahulu yang menjadi landasan teori serta pembanding bagi pengembangan platform Lexica UTBK-SNBT.
 
 ---
 
@@ -42,26 +42,25 @@ Dokumen ini merangkum kajian literatur dan penelitian terdahulu yang menjadi lan
 
 ---
 
-## BAGIAN II: PENELITIAN TERDAHULU
+## BAGIAN II: TUGAS AKHIR TERDAHULU
 
-### Tabel Komparasi Penelitian Terdahulu
+### Tabel Komparasi Tugas Akhir Terdahulu
 
 | No | Peneliti (Tahun) | Judul | Metode | Hasil | Gap yang Diisi Lexica |
 |----|------------------|-------|--------|-------|----------------------|
-| 1 | Puspita dkk. (2025) | Perancangan *Website* ITS Berbasis *Rule-Based Reasoning* menggunakan Gemini AI... | SDLC, ITS, Gemini AI | Sistem memberikan penjelasan otomatis. | Belum diterapkan pada sistem TryOut UTBK; belum ada scaffolding bertingkat maupun IRT. |
-| 2 | Wiselee dkk. (2025) | *Empowering Independent Learning in Web Development Using ITS* | SDLC, ITS | Membantu pembelajaran mandiri secara interaktif. | Terbatas pada web development; belum menggunakan LLM dan belum ada fitur TryOut. |
-| 3 | Nugraha & Hardiyanti (2025) | Rancang Bangun Sistem Tryout UTBK SNBT... | *Waterfall*, Web CBT | Tryout & rekomendasi jurusan. | Belum memiliki fitur ITS, scaffolding AI, maupun IRT. |
-| 4 | Affan & Elhanafi (2025) | Perancangan Aplikasi Tryout *Online* Berbasis Web... | *Waterfall*, Web CBT | Manajemen tryout terpusat. | Fokus administrasi; belum mendukung pembelajaran adaptif. |
-| 5 | Kasneci dkk. (2023) | *ChatGPT for good? On opportunities and challenges...* | Literature Review | LLM mendukung pembelajaran adaptif. | Belum ada implementasi spesifik pada TryOut UTBK. |
-| 6 | Yan dkk. (2023) | *Practical and Ethical Challenges of Large Language Models...* | Systematic Review | Tantangan akurasi dan kontrol LLM. | Lexica mewujudkan kontrol lewat scaffolding bertingkat. |
-| 7 | Peláez-Sánchez dkk. (2024)| *The impact of large language models on higher education* | Literature Review | LLM meningkatkan interaksi. | Belum membahas integrasi LLM pada TryOut UTBK & Chancing Engine. |
+| 1 | Wiselee dkk. (2025) | *Empowering Independent Learning in Web Development Using ITS* | SDLC, ITS | Membantu pembelajaran mandiri secara interaktif. | Terbatas pada web development; belum menggunakan LLM dan belum ada fitur TryOut. |
+| 2 | Nugraha & Hardiyanti (2025) | Rancang Bangun Sistem Tryout UTBK SNBT... | *Waterfall*, Web CBT | Tryout & rekomendasi jurusan. | Belum memiliki fitur ITS, scaffolding AI, maupun IRT. |
+| 3 | Affan & Elhanafi (2025) | Perancangan Aplikasi Tryout *Online* Berbasis Web... | *Waterfall*, Web CBT | Manajemen tryout terpusat. | Fokus administrasi; belum mendukung pembelajaran adaptif. |
+| 4 | Kasneci dkk. (2023) | *ChatGPT for good? On opportunities and challenges...* | Literature Review | LLM mendukung pembelajaran adaptif. | Belum ada implementasi spesifik pada TryOut UTBK. |
+| 5 | Yan dkk. (2023) | *Practical and Ethical Challenges of Large Language Models...* | Systematic Review | Tantangan akurasi dan kontrol LLM. | Lexica mewujudkan kontrol lewat scaffolding bertingkat. |
+| 6 | Peláez-Sánchez dkk. (2024)| *The impact of large language models on higher education* | Literature Review | LLM meningkatkan interaksi. | Belum membahas integrasi LLM pada TryOut UTBK & Chancing Engine. |
 
 ### Analisis Gap Research
 
 ```mermaid
 graph LR
-    subgraph "Penelitian Sebelumnya"
-        A["ITS Terbatas<br/>(Puspita, Wiselee)"]
+    subgraph "Tugas Akhir Sebelumnya"
+        A["ITS Terbatas<br/>(Wiselee)"]
         B["Sistem TryOut<br/>(Nugraha, Affan)"]
         C["LLM in Edu<br/>(Kasneci, Yan)"]
     end
@@ -73,7 +72,7 @@ graph LR
         G4["Tidak ada IRT + Chancing Engine"]
     end
 
-    subgraph "Lexica (Penelitian Ini)"
+    subgraph "Lexica (Tugas Akhir Ini)"
         L["Platform Terpadu:<br/>CBT + IRT + AI Scaffolding<br/>+ Chancing + Learning Path"]
     end
 
@@ -87,11 +86,11 @@ graph LR
     G4 --> L
 ```
 
-### Novelty (Kebaruan) Penelitian Ini
+### Novelty (Kebaruan) Tugas Akhir Ini
 
 Berdasarkan analisis gap di atas, **kebaruan** yang ditawarkan Lexica adalah:
 
-1. **Integrasi End-to-End:** Menggabungkan CBT Simulator, IRT Scoring, AI Tutor (Socratic Scaffolding), Chancing Engine, dan Learning Path dalam satu platform terpadu — sesuatu yang belum ada pada penelitian terdahulu.
+1. **Integrasi End-to-End:** Menggabungkan CBT Simulator, IRT Scoring, AI Tutor (Socratic Scaffolding), Chancing Engine, dan Learning Path dalam satu platform terpadu — sesuatu yang belum ada pada tugas akhir terdahulu.
 2. **Context-Aware AI Tutoring:** Implementasi konkret *zero-friction context injection* di mana AI menerima konteks soal secara otomatis tanpa intervensi pengguna, dengan masking kunci jawaban (`???`) untuk mencegah kebocoran.
 3. **Cognitive Load-Aware UX Design:** Desain antarmuka yang secara eksplisit mengaplikasikan prinsip *Cognitive Load Theory* — mulai dari konsolidasi 9 menu menjadi 5, hingga *auto-trigger* pembahasan AI berdasarkan batas percobaan (2-Attempt Rule).
 4. **Lokalisasi Konteks UTBK Indonesia:** Seluruh fitur dirancang khusus untuk ekosistem UTBK-SNBT Indonesia, termasuk database PTN/prodi, kluster TPS/Literasi, dan skala skor 200–800.
@@ -109,12 +108,11 @@ Berdasarkan analisis gap di atas, **kebaruan** yang ditawarkan Lexica adalah:
 7. Brooke, J. (1996). SUS: A 'Quick and Dirty' Usability Scale. *Usability Evaluation in Industry*, 189–194.
 8. De Ayala, R. J. (2009). *The Theory and Practice of Item Response Theory*. Guilford Press.
 9. BP3 SNPMB. (2024). *Panduan UTBK-SNBT 2024*. Badan Pengelolaan Pengujian Pendidikan.
-10. Puspita, D. D., Eugie, A. N., Isnaeny, S. N., & Yasin, M. (2025). Perancangan Website Intelligent Tutoring Systems (ITS) Berbasis Rule-Based Reasoning Menggunakan Gemini AI untuk Pembelajaran Kombinatorika pada Siswa SMA Kelas 12. *Preprint, Universitas Negeri Malang*.
-11. Wiselee, D., Yanto, A., Warnars, L. S., Warnars, H. L. H., & Razak, F. H. A. (2025). Empowering Independent Learning in Web Development Using Intelligent Tutoring Systems. *2025 4th International Conference on Creative Communication and Innovative Technology (ICCIT)*.
-12. Nugraha, R. A., & Hardiyanti, M. (2025). Rancang Bangun Sistem Tryout UTBK SNBT Berbasis Web dengan Fitur Rekomendasi Jurusan (Studi Kasus: Integral Education). *Journal of Internet and Software Engineering (JISE)*, 6(2).
-13. Affan, M. I., & Elhanafi, A. M. (2025). Perancangan dan Implementasi Aplikasi Tryout Online Berbasis Web dengan Fitur Manajemen Soal dan Pendaftaran Terintegrasi. *Jurnal Kecerdasan Buatan dan Teknologi Informasi (JKBTI)*, 4(3).
-14. Yan, L., Sha, L., Zhao, L., dkk. (2023). Practical and Ethical Challenges of Large Language Models in Education: A Systematic Scoping Review. *British Journal of Educational Technology*, 54(6), 2258–2278.
-15. Peláez-Sánchez, I. C., Velarde-Camaqui, D., & Glasserman-Morales, L. D. (2024). The impact of large language models on higher education: exploring the connection between AI and Education 4.0. *Frontiers in Education*, 9.
+10. Wiselee, D., Yanto, A., Warnars, L. S., Warnars, H. L. H., & Razak, F. H. A. (2025). Empowering Independent Learning in Web Development Using Intelligent Tutoring Systems. *2025 4th International Conference on Creative Communication and Innovative Technology (ICCIT)*.
+11. Nugraha, R. A., & Hardiyanti, M. (2025). Rancang Bangun Sistem Tryout UTBK SNBT Berbasis Web dengan Fitur Rekomendasi Jurusan (Studi Kasus: Integral Education). *Journal of Internet and Software Engineering (JISE)*, 6(2).
+12. Affan, M. I., & Elhanafi, A. M. (2025). Perancangan dan Implementasi Aplikasi Tryout Online Berbasis Web dengan Fitur Manajemen Soal dan Pendaftaran Terintegrasi. *Jurnal Kecerdasan Buatan dan Teknologi Informasi (JKBTI)*, 4(3).
+13. Yan, L., Sha, L., Zhao, L., dkk. (2023). Practical and Ethical Challenges of Large Language Models in Education: A Systematic Scoping Review. *British Journal of Educational Technology*, 54(6), 2258–2278.
+14. Peláez-Sánchez, I. C., Velarde-Camaqui, D., & Glasserman-Morales, L. D. (2024). The impact of large language models on higher education: exploring the connection between AI and Education 4.0. *Frontiers in Education*, 9.
 
 ---
 

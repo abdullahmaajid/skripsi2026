@@ -4,7 +4,7 @@ import 'dotenv/config'
 const API_KEY = process.env.GROQ_API_KEY
 const BATCH_SIZE = 40
 
-async function callAI(batch) {
+async function callAI(batch: any[]) {
   const prompt = `You are an expert UTBK SNBT tutor. Below is a JSON array of questions. For each question, determine the correct option label (A, B, C, D, or E). 
 Return ONLY a valid JSON array of objects with "id" and "answer" (e.g. [{"id": "cuid1", "answer": "B"}, ...]). DO NOT return markdown or explanation.
 

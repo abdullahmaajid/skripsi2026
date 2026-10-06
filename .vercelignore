@@ -1,0 +1,7 @@
+scripts/
+docs/
+__tests__/
+result.json
+inputs.json
+*.py
+scratch/

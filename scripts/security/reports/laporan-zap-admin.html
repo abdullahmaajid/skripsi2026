@@ -192,6 +192,12 @@ td {
 .alwayswhite {
 	color: white
 }
+
+.script-diagnostic-screenshot {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
 </style>
 </head>
 <body>
@@ -215,7 +221,7 @@ td {
 	</h2>
 
 	<h3>
-		Generated on Mon, 27 Jul 2026 18:13:32
+		Generated on Tue, 6 Oct 2026 11:43:09
 	</h3>
 
 	<h3>
@@ -248,7 +254,7 @@ td {
 					<div>Medium</div>
 				</td>
 				<td align="center">
-					<div>5</div>
+					<div>6</div>
 				</td>
 			</tr>
 			<tr>
@@ -256,7 +262,7 @@ td {
 					<div>Low</div>
 				</td>
 				<td align="center">
-					<div>0</div>
+					<div>1</div>
 				</td>
 			</tr>
 			<tr>
@@ -264,7 +270,7 @@ td {
 					<div>Informational</div>
 				</td>
 				<td align="center">
-					<div>4</div>
+					<div>5</div>
 				</td>
 			</tr>
 			<tr>
@@ -281,6 +287,7 @@ td {
 	
 	
 		<h3 class="left-header">Insights</h3>
+		
 		<table class="summary100">
 			<tr>
 				<th height="24">Level</th>
@@ -304,7 +311,7 @@ td {
 					<div>ZAP errors logged - see the zap.log file for details</div>
 				</td>
 				<td align="center">
-					<div>2   </div>
+					<div>1   </div>
 				</td>
 				</tr>
 			
@@ -322,7 +329,25 @@ td {
 					<div>ZAP warnings logged - see the zap.log file for details</div>
 				</td>
 				<td align="center">
-					<div>5   </div>
+					<div>10   </div>
+				</td>
+				</tr>
+			
+				<tr>
+				<td class="risk-0">
+					<div>Info</div>
+				</td>
+				<td>
+					<div>Informational</div>
+				</td>
+				<td>
+					<div></div>
+				</td>
+				<td>
+					<div>Percentage of network failures</div>
+				</td>
+				<td align="center">
+					<div>1 %</div>
 				</td>
 				</tr>
 			
@@ -340,7 +365,7 @@ td {
 					<div>Percentage of responses with status code 2xx</div>
 				</td>
 				<td align="center">
-					<div>77 %</div>
+					<div>42 %</div>
 				</td>
 				</tr>
 			
@@ -358,7 +383,7 @@ td {
 					<div>Percentage of responses with status code 3xx</div>
 				</td>
 				<td align="center">
-					<div>3 %</div>
+					<div>4 %</div>
 				</td>
 				</tr>
 			
@@ -376,7 +401,43 @@ td {
 					<div>Percentage of responses with status code 4xx</div>
 				</td>
 				<td align="center">
-					<div>18 %</div>
+					<div>53 %</div>
+				</td>
+				</tr>
+			
+				<tr>
+				<td class="risk-0">
+					<div>Info</div>
+				</td>
+				<td>
+					<div>Informational</div>
+				</td>
+				<td>
+					<div>http://127.0.0.1:3000</div>
+				</td>
+				<td>
+					<div>Percentage of endpoints with content type application/javascript</div>
+				</td>
+				<td align="center">
+					<div>75 %</div>
+				</td>
+				</tr>
+			
+				<tr>
+				<td class="risk-0">
+					<div>Info</div>
+				</td>
+				<td>
+					<div>Informational</div>
+				</td>
+				<td>
+					<div>http://127.0.0.1:3000</div>
+				</td>
+				<td>
+					<div>Percentage of endpoints with content type text/css</div>
+				</td>
+				<td align="center">
+					<div>4 %</div>
 				</td>
 				</tr>
 			
@@ -394,7 +455,7 @@ td {
 					<div>Percentage of endpoints with content type text/html</div>
 				</td>
 				<td align="center">
-					<div>57 %</div>
+					<div>16 %</div>
 				</td>
 				</tr>
 			
@@ -430,7 +491,7 @@ td {
 					<div>Count of total endpoints</div>
 				</td>
 				<td align="center">
-					<div>14   </div>
+					<div>24   </div>
 				</td>
 				</tr>
 			
@@ -448,12 +509,14 @@ td {
 					<div>Percentage of slow responses</div>
 				</td>
 				<td align="center">
-					<div>1 %</div>
+					<div>2 %</div>
 				</td>
 				</tr>
 			
 		</table>
 		<div class="spacer-lg"></div>
+	
+
 	
 
 	
@@ -481,48 +544,72 @@ td {
 				<td><a href="#10055">CSP: Failure to Define Directive with No Fallback</a></td>
 				<td align="center" class="risk-2">Medium</td>
 				
-				<td align="center">Systemic</td>
 				
+				<td align="center">5</td>
 				
 			</tr>
 			<tr>
 				<td><a href="#10055">CSP: Wildcard Directive</a></td>
 				<td align="center" class="risk-2">Medium</td>
 				
-				<td align="center">Systemic</td>
 				
+				<td align="center">5</td>
 				
 			</tr>
 			<tr>
 				<td><a href="#10055">CSP: script-src unsafe-eval</a></td>
 				<td align="center" class="risk-2">Medium</td>
 				
-				<td align="center">Systemic</td>
 				
+				<td align="center">5</td>
 				
 			</tr>
 			<tr>
 				<td><a href="#10055">CSP: script-src unsafe-inline</a></td>
 				<td align="center" class="risk-2">Medium</td>
 				
-				<td align="center">Systemic</td>
 				
+				<td align="center">5</td>
 				
 			</tr>
 			<tr>
 				<td><a href="#10055">CSP: style-src unsafe-inline</a></td>
 				<td align="center" class="risk-2">Medium</td>
 				
-				<td align="center">Systemic</td>
 				
+				<td align="center">5</td>
+				
+			</tr>
+			<tr>
+				<td><a href="#90003">Sub Resource Integrity Attribute Missing</a></td>
+				<td align="center" class="risk-2">Medium</td>
+				
+				
+				<td align="center">4</td>
+				
+			</tr>
+			<tr>
+				<td><a href="#10096">Timestamp Disclosure - Unix</a></td>
+				<td align="center" class="risk-1">Low</td>
+				
+				
+				<td align="center">1</td>
 				
 			</tr>
 			<tr>
 				<td><a href="#10019">Content-Type Header Missing</a></td>
 				<td align="center" class="risk-0">Informational</td>
 				
-				<td align="center">Systemic</td>
 				
+				<td align="center">1</td>
+				
+			</tr>
+			<tr>
+				<td><a href="#10027">Information Disclosure - Suspicious Comments</a></td>
+				<td align="center" class="risk-0">Informational</td>
+				
+				
+				<td align="center">41</td>
 				
 			</tr>
 			<tr>
@@ -530,7 +617,7 @@ td {
 				<td align="center" class="risk-0">Informational</td>
 				
 				
-				<td align="center">2</td>
+				<td align="center">5</td>
 				
 			</tr>
 			<tr>
@@ -538,7 +625,7 @@ td {
 				<td align="center" class="risk-0">Informational</td>
 				
 				
-				<td align="center">12</td>
+				<td align="center">4</td>
 				
 			</tr>
 			<tr>
@@ -607,18 +694,21 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src.</td>
+						<td width="80%">
+							<div>The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src.</div>
+							
+						</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/admin">http://127.0.0.1:3000/admin</a></td>
+						<td width="80%"><a href="http://127.0.0.1:3000/">http://127.0.0.1:3000/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/admin</td>
+						<td width="80%">http://127.0.0.1:3000/</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -643,18 +733,21 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src.</td>
+						<td width="80%">
+							<div>The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src.</div>
+							
+						</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/admin/users">http://127.0.0.1:3000/admin/users</a></td>
+						<td width="80%"><a href="http://127.0.0.1:3000/auth/login?callbackUrl=%2Fadmin">http://127.0.0.1:3000/auth/login?callbackUrl=%2Fadmin</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/admin/users</td>
+						<td width="80%">http://127.0.0.1:3000/auth/login (callbackUrl)</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -679,7 +772,10 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src.</td>
+						<td width="80%">
+							<div>The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src.</div>
+							
+						</td>
 					</tr>
 				
 					<tr>
@@ -715,7 +811,10 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src.</td>
+						<td width="80%">
+							<div>The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src.</div>
+							
+						</td>
 					</tr>
 				
 					<tr>
@@ -751,14 +850,17 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src.</td>
+						<td width="80%">
+							<div>The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src.</div>
+							
+						</td>
 					</tr>
 				
 				<tr>
 					<td width="20%">Instances</td>
 					
-					<td width="80%">Systemic</td>
 					
+					<td width="80%">5</td>
 					
 				</tr>
 				<tr>
@@ -855,19 +957,24 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:
-img-src, connect-src</td>
+						<td width="80%">
+							<div>The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:</div>
+							<br />
+						
+							<div>img-src, connect-src</div>
+							
+						</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/admin">http://127.0.0.1:3000/admin</a></td>
+						<td width="80%"><a href="http://127.0.0.1:3000/">http://127.0.0.1:3000/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/admin</td>
+						<td width="80%">http://127.0.0.1:3000/</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -892,19 +999,24 @@ img-src, connect-src</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:
-img-src, connect-src</td>
+						<td width="80%">
+							<div>The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:</div>
+							<br />
+						
+							<div>img-src, connect-src</div>
+							
+						</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/admin/users">http://127.0.0.1:3000/admin/users</a></td>
+						<td width="80%"><a href="http://127.0.0.1:3000/auth/login?callbackUrl=%2Fadmin">http://127.0.0.1:3000/auth/login?callbackUrl=%2Fadmin</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/admin/users</td>
+						<td width="80%">http://127.0.0.1:3000/auth/login (callbackUrl)</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -929,8 +1041,13 @@ img-src, connect-src</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:
-img-src, connect-src</td>
+						<td width="80%">
+							<div>The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:</div>
+							<br />
+						
+							<div>img-src, connect-src</div>
+							
+						</td>
 					</tr>
 				
 					<tr>
@@ -966,8 +1083,13 @@ img-src, connect-src</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:
-img-src, connect-src</td>
+						<td width="80%">
+							<div>The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:</div>
+							<br />
+						
+							<div>img-src, connect-src</div>
+							
+						</td>
 					</tr>
 				
 					<tr>
@@ -1003,15 +1125,20 @@ img-src, connect-src</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:
-img-src, connect-src</td>
+						<td width="80%">
+							<div>The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:</div>
+							<br />
+						
+							<div>img-src, connect-src</div>
+							
+						</td>
 					</tr>
 				
 				<tr>
 					<td width="20%">Instances</td>
 					
-					<td width="80%">Systemic</td>
 					
+					<td width="80%">5</td>
 					
 				</tr>
 				<tr>
@@ -1108,18 +1235,21 @@ img-src, connect-src</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">script-src includes unsafe-eval.</td>
+						<td width="80%">
+							<div>script-src includes unsafe-eval.</div>
+							
+						</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/admin">http://127.0.0.1:3000/admin</a></td>
+						<td width="80%"><a href="http://127.0.0.1:3000/">http://127.0.0.1:3000/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/admin</td>
+						<td width="80%">http://127.0.0.1:3000/</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1144,18 +1274,21 @@ img-src, connect-src</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">script-src includes unsafe-eval.</td>
+						<td width="80%">
+							<div>script-src includes unsafe-eval.</div>
+							
+						</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/admin/users">http://127.0.0.1:3000/admin/users</a></td>
+						<td width="80%"><a href="http://127.0.0.1:3000/auth/login?callbackUrl=%2Fadmin">http://127.0.0.1:3000/auth/login?callbackUrl=%2Fadmin</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/admin/users</td>
+						<td width="80%">http://127.0.0.1:3000/auth/login (callbackUrl)</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1180,7 +1313,10 @@ img-src, connect-src</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">script-src includes unsafe-eval.</td>
+						<td width="80%">
+							<div>script-src includes unsafe-eval.</div>
+							
+						</td>
 					</tr>
 				
 					<tr>
@@ -1216,7 +1352,10 @@ img-src, connect-src</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">script-src includes unsafe-eval.</td>
+						<td width="80%">
+							<div>script-src includes unsafe-eval.</div>
+							
+						</td>
 					</tr>
 				
 					<tr>
@@ -1252,14 +1391,17 @@ img-src, connect-src</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">script-src includes unsafe-eval.</td>
+						<td width="80%">
+							<div>script-src includes unsafe-eval.</div>
+							
+						</td>
 					</tr>
 				
 				<tr>
 					<td width="20%">Instances</td>
 					
-					<td width="80%">Systemic</td>
 					
+					<td width="80%">5</td>
 					
 				</tr>
 				<tr>
@@ -1356,18 +1498,21 @@ img-src, connect-src</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">script-src includes unsafe-inline.</td>
+						<td width="80%">
+							<div>script-src includes unsafe-inline.</div>
+							
+						</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/admin">http://127.0.0.1:3000/admin</a></td>
+						<td width="80%"><a href="http://127.0.0.1:3000/">http://127.0.0.1:3000/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/admin</td>
+						<td width="80%">http://127.0.0.1:3000/</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1392,18 +1537,21 @@ img-src, connect-src</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">script-src includes unsafe-inline.</td>
+						<td width="80%">
+							<div>script-src includes unsafe-inline.</div>
+							
+						</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/admin/users">http://127.0.0.1:3000/admin/users</a></td>
+						<td width="80%"><a href="http://127.0.0.1:3000/auth/login?callbackUrl=%2Fadmin">http://127.0.0.1:3000/auth/login?callbackUrl=%2Fadmin</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/admin/users</td>
+						<td width="80%">http://127.0.0.1:3000/auth/login (callbackUrl)</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1428,7 +1576,10 @@ img-src, connect-src</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">script-src includes unsafe-inline.</td>
+						<td width="80%">
+							<div>script-src includes unsafe-inline.</div>
+							
+						</td>
 					</tr>
 				
 					<tr>
@@ -1464,7 +1615,10 @@ img-src, connect-src</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">script-src includes unsafe-inline.</td>
+						<td width="80%">
+							<div>script-src includes unsafe-inline.</div>
+							
+						</td>
 					</tr>
 				
 					<tr>
@@ -1500,14 +1654,17 @@ img-src, connect-src</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">script-src includes unsafe-inline.</td>
+						<td width="80%">
+							<div>script-src includes unsafe-inline.</div>
+							
+						</td>
 					</tr>
 				
 				<tr>
 					<td width="20%">Instances</td>
 					
-					<td width="80%">Systemic</td>
 					
+					<td width="80%">5</td>
 					
 				</tr>
 				<tr>
@@ -1604,18 +1761,21 @@ img-src, connect-src</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">style-src includes unsafe-inline.</td>
+						<td width="80%">
+							<div>style-src includes unsafe-inline.</div>
+							
+						</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/admin">http://127.0.0.1:3000/admin</a></td>
+						<td width="80%"><a href="http://127.0.0.1:3000/">http://127.0.0.1:3000/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/admin</td>
+						<td width="80%">http://127.0.0.1:3000/</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1640,18 +1800,21 @@ img-src, connect-src</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">style-src includes unsafe-inline.</td>
+						<td width="80%">
+							<div>style-src includes unsafe-inline.</div>
+							
+						</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/admin/users">http://127.0.0.1:3000/admin/users</a></td>
+						<td width="80%"><a href="http://127.0.0.1:3000/auth/login?callbackUrl=%2Fadmin">http://127.0.0.1:3000/auth/login?callbackUrl=%2Fadmin</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/admin/users</td>
+						<td width="80%">http://127.0.0.1:3000/auth/login (callbackUrl)</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1676,7 +1839,10 @@ img-src, connect-src</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">style-src includes unsafe-inline.</td>
+						<td width="80%">
+							<div>style-src includes unsafe-inline.</div>
+							
+						</td>
 					</tr>
 				
 					<tr>
@@ -1712,7 +1878,10 @@ img-src, connect-src</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">style-src includes unsafe-inline.</td>
+						<td width="80%">
+							<div>style-src includes unsafe-inline.</div>
+							
+						</td>
 					</tr>
 				
 					<tr>
@@ -1748,14 +1917,17 @@ img-src, connect-src</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">style-src includes unsafe-inline.</td>
+						<td width="80%">
+							<div>style-src includes unsafe-inline.</div>
+							
+						</td>
 					</tr>
 				
 				<tr>
 					<td width="20%">Instances</td>
 					
-					<td width="80%">Systemic</td>
 					
+					<td width="80%">5</td>
 					
 				</tr>
 				<tr>
@@ -1803,6 +1975,301 @@ img-src, connect-src</td>
 		
 			<table class="results">
 				<tr height="24">
+					<th width="20%" class="risk-2"><a
+						id="90003"></a>
+						<div>Medium</div></th>
+					<th class="risk-2">Sub Resource Integrity Attribute Missing</th>
+				</tr>
+				<tr>
+					<td width="20%">Description</td>
+					<td width="80%">
+							<div>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</div>
+							
+						</td>
+				</tr>
+				<TR vAlign="top">
+					<TD colspan="2"></TD>
+				</TR>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000">http://127.0.0.1:3000</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;link rel=&quot;preload&quot; as=&quot;image&quot; href=&quot;https://api.dicebear.com/7.x/notionists/svg?seed=Farel A.&amp;amp;backgroundColor=e2e8f0&quot;/&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000">http://127.0.0.1:3000</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;link rel=&quot;preload&quot; as=&quot;image&quot; href=&quot;https://api.dicebear.com/7.x/notionists/svg?seed=Khiara B.&amp;amp;backgroundColor=e2e8f0&quot;/&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/">http://127.0.0.1:3000/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;link rel=&quot;preload&quot; as=&quot;image&quot; href=&quot;https://api.dicebear.com/7.x/notionists/svg?seed=Farel A.&amp;amp;backgroundColor=e2e8f0&quot;/&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/">http://127.0.0.1:3000/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;link rel=&quot;preload&quot; as=&quot;image&quot; href=&quot;https://api.dicebear.com/7.x/notionists/svg?seed=Khiara B.&amp;amp;backgroundColor=e2e8f0&quot;/&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+				<tr>
+					<td width="20%">Instances</td>
+					
+					
+					<td width="80%">4</td>
+					
+				</tr>
+				<tr>
+					<td width="20%">Solution</td>
+					<td width="80%">
+							<div>Provide a valid integrity attribute to the tag.</div>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">Reference</td>
+					<td width="80%">
+							<a href="https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Subresource_Integrity">https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Subresource_Integrity</a>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">CWE Id</td>
+					<td width="80%"><a
+						href="https://cwe.mitre.org/data/definitions/345.html">345</a></td>
+				</tr>
+				<tr>
+					<td width="20%">WASC Id</td>
+					<td width="80%">15</td>
+				</tr>
+				<tr>
+					<td width="20%">Plugin Id</td>
+					<td width="80%"><a
+						href="https://www.zaproxy.org/docs/alerts/90003/">90003</a></td>
+				</tr>
+			</table>
+			<div class="spacer"></div>
+		
+			<table class="results">
+				<tr height="24">
+					<th width="20%" class="risk-1"><a
+						id="10096"></a>
+						<div>Low</div></th>
+					<th class="risk-1">Timestamp Disclosure - Unix</th>
+				</tr>
+				<tr>
+					<td width="20%">Description</td>
+					<td width="80%">
+							<div>A timestamp was disclosed by the application/web server. - Unix</div>
+							
+						</td>
+				</tr>
+				<TR vAlign="top">
+					<TD colspan="2"></TD>
+				</TR>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">2080374784</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>2080374784, which evaluates to: 2035-12-04 16:53:04.</div>
+							
+						</td>
+					</tr>
+				
+				<tr>
+					<td width="20%">Instances</td>
+					
+					
+					<td width="80%">1</td>
+					
+				</tr>
+				<tr>
+					<td width="20%">Solution</td>
+					<td width="80%">
+							<div>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</div>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">Reference</td>
+					<td width="80%">
+							<a href="https://cwe.mitre.org/data/definitions/200.html">https://cwe.mitre.org/data/definitions/200.html</a>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">CWE Id</td>
+					<td width="80%"><a
+						href="https://cwe.mitre.org/data/definitions/497.html">497</a></td>
+				</tr>
+				<tr>
+					<td width="20%">WASC Id</td>
+					<td width="80%">13</td>
+				</tr>
+				<tr>
+					<td width="20%">Plugin Id</td>
+					<td width="80%"><a
+						href="https://www.zaproxy.org/docs/alerts/10096/">10096</a></td>
+				</tr>
+			</table>
+			<div class="spacer"></div>
+		
+			<table class="results">
+				<tr height="24">
 					<th width="20%" class="risk-0"><a
 						id="10019"></a>
 						<div>Informational</div></th>
@@ -1822,48 +2289,12 @@ img-src, connect-src</td>
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/analytics">http://127.0.0.1:3000/analytics</a></td>
+						<td width="80%"><a href="http://127.0.0.1:3000/admin">http://127.0.0.1:3000/admin</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/analytics</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">content-type</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/learning-path">http://127.0.0.1:3000/learning-path</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/learning-path</td>
+						<td width="80%">http://127.0.0.1:3000/admin</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1894,8 +2325,8 @@ img-src, connect-src</td>
 				<tr>
 					<td width="20%">Instances</td>
 					
-					<td width="80%">Systemic</td>
 					
+					<td width="80%">1</td>
 					
 				</tr>
 				<tr>
@@ -1932,6 +2363,1749 @@ img-src, connect-src</td>
 			<table class="results">
 				<tr height="24">
 					<th width="20%" class="risk-0"><a
+						id="10027"></a>
+						<div>Informational</div></th>
+					<th class="risk-0">Information Disclosure - Suspicious Comments</th>
+				</tr>
+				<tr>
+					<td width="20%">Description</td>
+					<td width="80%">
+							<div>The response appears to contain suspicious comments which may help an attacker.</div>
+							
+						</td>
+				</tr>
+				<TR vAlign="top">
+					<TD colspan="2"></TD>
+				</TR>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_0yjw1oe._.js">http://127.0.0.1:3000/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_0yjw1oe._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_0yjw1oe._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">// TODO: Only run this in t</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bTODO\b and was detected in likely comment: &quot;// TODO: Only run this in test environments (gate by `process.env.__NEXT_TEST_MODE`)&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_0gqmww5._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_0gqmww5._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_0gqmww5._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"> Build searchParams query object and URL sear</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bQUERY\b and was detected in likely comment: &quot;// Build searchParams query object and URL search string from sample&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_0gqmww5._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_0gqmww5._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_0gqmww5._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"> In the simple case where there&#39;s only</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bWHERE\b and was detected 2 times, the first in likely comment: &quot;// parallel route slots. In the simple case where there&#39;s only&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_0gqmww5._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_0gqmww5._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_0gqmww5._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"> is skipped, try to select the next sibling an</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bSELECT\b and was detected 2 times, the first in likely comment: &quot;// If the element is skipped, try to select the next sibling and try again.&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_0gqmww5._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_0gqmww5._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_0gqmww5._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">// TODO: Once we start trac</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bTODO\b and was detected 19 times, the first in likely comment: &quot;// TODO: Once we start tracking back/forward history at each route level,&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_0gqmww5._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_0gqmww5._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_0gqmww5._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">gment by reading it from the parent segment&#39;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bFROM\b and was detected 16 times, the first in likely comment: &quot;// Get the CacheNode for this segment by reading it from the parent segment&#39;s&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_0gqmww5._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_0gqmww5._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_0gqmww5._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">ion component if no user-defined boundary is</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bUSER\b and was detected 6 times, the first in likely comment: &quot;// wrap in an extra function component if no user-defined boundary is&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_0gqmww5._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_0gqmww5._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_0gqmww5._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">is already caused a bug where the first chi</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bBUG\b and was detected 2 times, the first in likely comment: &quot;// This already caused a bug where the first child was a &lt;link/&gt; in head.&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">            * Reset debug counts. Manually re</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bDEBUG\b and was detected 4 times, the first in likely comment: &quot;/**</div>
+							<br />
+						
+							<div>                 * Reset debug counts. Manually resetting rather than creating a new</div>
+							<br />
+						
+							<div>                 * object each frame.</div>
+							<br />
+						
+							<div> &quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"> is visible, if the user switches tabs</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bUSER\b and was detected 10 times, the first in likely comment: &quot;// Listen for when the page is visible, if the user switches tabs&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"> the base target to later animate back to. Th</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bLATER\b and was detected 5 times, the first in likely comment: &quot;/**</div>
+							<br />
+						
+							<div>     * Set the base target to later animate back to. This is currently</div>
+							<br />
+						
+							<div>     * only hydrated on creation and when we first re&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">* (input, textarea, select, contenteditable) w</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bSELECT\b and was detected in likely comment: &quot;/**</div>
+							<br />
+						
+							<div>             * Only block drag if clicking on a text input child element</div>
+							<br />
+						
+							<div>             * (input, textarea, select, contentedi&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">/** @todo */</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bTODO\b and was detected 31 times, the first in likely comment: &quot;/** @todo */&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">if there are events from other tabs/windows</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bFROM\b and was detected 60 times, the first in likely comment: &quot;// or if there are events from other tabs/windows&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">o avoid Safari zoom bug)</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bBUG\b and was detected 2 times, the first in likely comment: &quot;// Build the dash offset (unitless to avoid Safari zoom bug)&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">s set in the `code` query parameter of the re</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bQUERY\b and was detected in likely comment: &quot;/**</div>
+							<br />
+						
+							<div>         * The error code that is set in the `code` query parameter of the redirect URL.</div>
+							<br />
+						
+							<div>         *</div>
+							<br />
+						
+							<div>         *</div>
+							<br />
+						
+							<div>         * ⚠ &quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_0pbm0c2._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">y in the situations where it&#39;s
+ * actually re</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bWHERE\b and was detected 8 times, the first in likely comment: &quot;/**</div>
+							<br />
+						
+							<div> * Emotion and Styled Components both allow users to pass through arbitrary props to their components</div>
+							<br />
+						
+							<div> * to dynamically gene&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"> find the pathname, query and hash and return</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bQUERY\b and was detected in likely comment: &quot;/**</div>
+							<br />
+						
+							<div> * Given a path this function will find the pathname, query and hash and return</div>
+							<br />
+						
+							<div> * them. This is useful to parse full paths &quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"> with null captured later.</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bLATER\b and was detected in likely comment: &quot;// (e.g., in onRecoverableError) with null captured later.&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">// TODO: We should hoist th</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bTODO\b and was detected 16 times, the first in likely comment: &quot;// TODO: We should hoist the search params out of the FlightRouterState&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">// from user code generated by W</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bUSER\b and was detected 7 times, the first in likely comment: &quot;// from user code generated by Webpack. For more information see&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">// where rust does not have </td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bWHERE\b and was detected 7 times, the first in likely comment: &quot;// where rust does not have easy way to repreesnt js&#39;s 53-bit float number type for the matching&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">ntime expose Object from vm, being that kind</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bFROM\b and was detected 32 times, the first in likely comment: &quot;/**</div>
+							<br />
+						
+							<div>   * this used to be previously:</div>
+							<br />
+						
+							<div>   *</div>
+							<br />
+						
+							<div>   * `return prototype === null || prototype === Object.prototype`</div>
+							<br />
+						
+							<div>   *</div>
+							<br />
+						
+							<div>   * but Edge &quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">to report this as a bug in Next.js.</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bBUG\b and was detected 2 times, the first in likely comment: &quot;// user to report this as a bug in Next.js.&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"> if that&#39;s what the user passed in, hence th</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bUSER\b and was detected 7 times, the first in likely comment: &quot;/**</div>
+							<br />
+						
+							<div>   * Note that we intentionally do not use `url.searchParams.set` here:</div>
+							<br />
+						
+							<div>   *</div>
+							<br />
+						
+							<div>   * const url = new URL(&#39;https://example.com/s&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">// (where these errors can oc</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bWHERE\b and was detected 38 times, the first in likely comment: &quot;// (where these errors can occur), we will get the correct pathname.&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">// Logs replayed from the server look lik</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bFROM\b and was detected 157 times, the first in likely comment: &quot;// Logs replayed from the server look like this:&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">// TODO: Dispatch error eve</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bTODO\b and was detected 109 times, the first in likely comment: &quot;// TODO: Dispatch error event&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">// `__nextppronly` query is present. This is</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bQUERY\b and was detected 8 times, the first in likely comment: &quot;// `__nextppronly` query is present. This is only enabled when the&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">he the Promise with debug info.</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bDEBUG\b and was detected 12 times, the first in likely comment: &quot;// away when we suspend. So we use a WeakMap to cache the Promise with debug info.&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">it didn&#39;t, due to a bug or race condition, </td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bBUG\b and was detected in likely comment: &quot;// by a navigation. If for some reasons it didn&#39;t, due to a bug or race condition, then on&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">ly; they&#39;re evicted later in</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bLATER\b and was detected 11 times, the first in likely comment: &quot;// max size. We don&#39;t evict entries immediately; they&#39;re evicted later in&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">// TODO: rename these field</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bTODO\b and was detected 3 times, the first in likely comment: &quot;// TODO: rename these fields to something more meaningful.&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">ogic is copy-pasted from similar logic in th</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bFROM\b and was detected 4 times, the first in likely comment: &quot;// This logic is copy-pasted from similar logic in the DevTools backend.&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/turbopack-_0p44nws._.js">http://127.0.0.1:3000/_next/static/chunks/turbopack-_0p44nws._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/turbopack-_0p44nws._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"> a Refresh Boundary later.</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bLATER\b and was detected in likely comment: &quot;// still a Refresh Boundary later.&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/turbopack-_0p44nws._.js">http://127.0.0.1:3000/_next/static/chunks/turbopack-_0p44nws._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/turbopack-_0p44nws._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">/ same URL: https://bugs.webkit.org/show_bug</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bBUGS\b and was detected in likely comment: &quot;// same URL: https://bugs.webkit.org/show_bug.cgi?id=187726&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/turbopack-_0p44nws._.js">http://127.0.0.1:3000/_next/static/chunks/turbopack-_0p44nws._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/turbopack-_0p44nws._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">// TODO(alexkirsz) Do we ne</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bTODO\b and was detected 5 times, the first in likely comment: &quot;// TODO(alexkirsz) Do we need this check?&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/turbopack-_0p44nws._.js">http://127.0.0.1:3000/_next/static/chunks/turbopack-_0p44nws._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/turbopack-_0p44nws._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">ative to the origin where a chunk can be fetc</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bWHERE\b and was detected 4 times, the first in likely comment: &quot;/**</div>
+							<br />
+						
+							<div> * Returns the URL relative to the origin where a chunk can be fetched from.</div>
+							<br />
+						
+							<div> */&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/turbopack-_0p44nws._.js">http://127.0.0.1:3000/_next/static/chunks/turbopack-_0p44nws._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/turbopack-_0p44nws._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">ead of accessing it from the module object t</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bFROM\b and was detected 25 times, the first in likely comment: &quot;// We need to store this here instead of accessing it from the module object to:&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/turbopack-_0p44nws._.js">http://127.0.0.1:3000/_next/static/chunks/turbopack-_0p44nws._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/turbopack-_0p44nws._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">emove fragments and query parameters since th</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bQUERY\b and was detected 6 times, the first in likely comment: &quot;/**</div>
+							<br />
+						
+							<div> * Remove fragments and query parameters since they are never part of the context map keys</div>
+							<br />
+						
+							<div> *</div>
+							<br />
+						
+							<div> * This matches how we parse p&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/_next/static/chunks/turbopack-_0p44nws._.js">http://127.0.0.1:3000/_next/static/chunks/turbopack-_0p44nws._.js</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/_next/static/chunks/turbopack-_0p44nws._.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">es the HMR API that user code calls (module.</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>The following pattern was used: \bUSER\b and was detected 2 times, the first in likely comment: &quot;/**</div>
+							<br />
+						
+							<div> * Creates the module.hot API object and its internal state.</div>
+							<br />
+						
+							<div> * This provides the HMR API that user code calls (module.hot.a&quot;, see evidence field for the suspicious comment/snippet.</div>
+							
+						</td>
+					</tr>
+				
+				<tr>
+					<td width="20%">Instances</td>
+					
+					
+					<td width="80%">41</td>
+					
+				</tr>
+				<tr>
+					<td width="20%">Solution</td>
+					<td width="80%">
+							<div>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</div>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">Reference</td>
+					<td width="80%"></td>
+				</tr>
+				<tr>
+					<td width="20%">CWE Id</td>
+					<td width="80%"><a
+						href="https://cwe.mitre.org/data/definitions/615.html">615</a></td>
+				</tr>
+				<tr>
+					<td width="20%">WASC Id</td>
+					<td width="80%">13</td>
+				</tr>
+				<tr>
+					<td width="20%">Plugin Id</td>
+					<td width="80%"><a
+						href="https://www.zaproxy.org/docs/alerts/10027/">10027</a></td>
+				</tr>
+			</table>
+			<div class="spacer"></div>
+		
+			<table class="results">
+				<tr height="24">
+					<th width="20%" class="risk-0"><a
 						id="10109"></a>
 						<div>Informational</div></th>
 					<th class="risk-0">Modern Web Application</th>
@@ -1939,13 +4113,130 @@ img-src, connect-src</td>
 				<tr>
 					<td width="20%">Description</td>
 					<td width="80%">
-							<div>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</div>
+							<div>The application appears to be a modern web application. If you need to explore it automatically then the Client Spider may well be more effective than the standard one.</div>
 							
 						</td>
 				</tr>
 				<TR vAlign="top">
 					<TD colspan="2"></TD>
 				</TR>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000">http://127.0.0.1:3000</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;a href=&quot;#&quot; class=&quot;hover:text-[var(--accent)] transition-colors&quot;&gt;Bank Soal &amp;amp; Tryout&lt;/a&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/">http://127.0.0.1:3000/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;a href=&quot;#&quot; class=&quot;hover:text-[var(--accent)] transition-colors&quot;&gt;Bank Soal &amp;amp; Tryout&lt;/a&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/auth/login?callbackUrl=%2Fadmin">http://127.0.0.1:3000/auth/login?callbackUrl=%2Fadmin</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/auth/login (callbackUrl)</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;a href=&quot;#&quot; class=&quot;hover:text-slate-600 transition-colors&quot;&gt;Privacy&lt;/a&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</div>
+							
+						</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1980,7 +4271,10 @@ img-src, connect-src</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">No links have been found while there are scripts, which is an indication that this is a modern web application.</td>
+						<td width="80%">
+							<div>No links have been found while there are scripts, which is an indication that this is a modern web application.</div>
+							
+						</td>
 					</tr>
 				
 					<tr>
@@ -2016,14 +4310,17 @@ img-src, connect-src</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">No links have been found while there are scripts, which is an indication that this is a modern web application.</td>
+						<td width="80%">
+							<div>No links have been found while there are scripts, which is an indication that this is a modern web application.</div>
+							
+						</td>
 					</tr>
 				
 				<tr>
 					<td width="20%">Instances</td>
 					
 					
-					<td width="80%">2</td>
+					<td width="80%">5</td>
 					
 				</tr>
 				<tr>
@@ -2104,9 +4401,55 @@ img-src, connect-src</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">cookie:authjs.csrf-token
-cookie:authjs.session-token
-cookie:authjs.callback-url</td>
+						<td width="80%">
+							<div>cookie:authjs.csrf-token</div>
+							<br />
+						
+							<div>cookie:authjs.callback-url</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="http://127.0.0.1:3000/">http://127.0.0.1:3000/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">http://127.0.0.1:3000/</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">authjs.csrf-token</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">authjs.csrf-token</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>cookie:authjs.csrf-token</div>
+							<br />
+						
+							<div>cookie:authjs.callback-url</div>
+							
+						</td>
 					</tr>
 				
 					<tr>
@@ -2142,20 +4485,24 @@ cookie:authjs.callback-url</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">cookie:authjs.csrf-token
-cookie:authjs.session-token
-cookie:authjs.callback-url</td>
+						<td width="80%">
+							<div>cookie:authjs.csrf-token</div>
+							<br />
+						
+							<div>cookie:authjs.callback-url</div>
+							
+						</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/admin/questions">http://127.0.0.1:3000/admin/questions</a></td>
+						<td width="80%"><a href="http://127.0.0.1:3000/auth/login?callbackUrl=%2Fadmin">http://127.0.0.1:3000/auth/login?callbackUrl=%2Fadmin</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/admin/questions</td>
+						<td width="80%">http://127.0.0.1:3000/auth/login (callbackUrl)</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2180,358 +4527,20 @@ cookie:authjs.callback-url</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">cookie:authjs.csrf-token
-cookie:authjs.session-token
-cookie:authjs.callback-url</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/admin/stats">http://127.0.0.1:3000/admin/stats</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/admin/stats</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">authjs.csrf-token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">authjs.csrf-token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">cookie:authjs.csrf-token
-cookie:authjs.session-token
-cookie:authjs.callback-url</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/admin/tryouts">http://127.0.0.1:3000/admin/tryouts</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/admin/tryouts</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">authjs.csrf-token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">authjs.csrf-token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">cookie:authjs.csrf-token
-cookie:authjs.session-token
-cookie:authjs.callback-url</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/admin/users">http://127.0.0.1:3000/admin/users</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/admin/users</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">authjs.csrf-token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">authjs.csrf-token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">cookie:authjs.csrf-token
-cookie:authjs.session-token
-cookie:authjs.callback-url</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/analytics">http://127.0.0.1:3000/analytics</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/analytics</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">authjs.csrf-token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">authjs.csrf-token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">cookie:authjs.csrf-token
-cookie:authjs.session-token
-cookie:authjs.callback-url</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/dashboard">http://127.0.0.1:3000/dashboard</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/dashboard</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">authjs.csrf-token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">authjs.csrf-token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">cookie:authjs.csrf-token
-cookie:authjs.session-token
-cookie:authjs.callback-url</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/learning-path">http://127.0.0.1:3000/learning-path</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/learning-path</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">authjs.csrf-token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">authjs.csrf-token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">cookie:authjs.csrf-token
-cookie:authjs.session-token
-cookie:authjs.callback-url</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/practice">http://127.0.0.1:3000/practice</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/practice</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">authjs.csrf-token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">authjs.csrf-token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">cookie:authjs.csrf-token
-cookie:authjs.session-token
-cookie:authjs.callback-url</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/settings">http://127.0.0.1:3000/settings</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/settings</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">authjs.csrf-token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">authjs.csrf-token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">cookie:authjs.csrf-token
-cookie:authjs.session-token
-cookie:authjs.callback-url</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/tutor">http://127.0.0.1:3000/tutor</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/tutor</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">authjs.csrf-token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">authjs.csrf-token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">cookie:authjs.csrf-token
-cookie:authjs.session-token
-cookie:authjs.callback-url</td>
+						<td width="80%">
+							<div>cookie:authjs.csrf-token</div>
+							<br />
+						
+							<div>cookie:authjs.callback-url</div>
+							
+						</td>
 					</tr>
 				
 				<tr>
 					<td width="20%">Instances</td>
 					
 					
-					<td width="80%">12</td>
+					<td width="80%">4</td>
 					
 				</tr>
 				<tr>
@@ -2621,12 +4630,12 @@ cookie:authjs.callback-url</td>
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/admin">http://127.0.0.1:3000/admin</a></td>
+						<td width="80%"><a href="http://127.0.0.1:3000/">http://127.0.0.1:3000/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/admin</td>
+						<td width="80%">http://127.0.0.1:3000/</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2657,12 +4666,12 @@ cookie:authjs.callback-url</td>
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="http://127.0.0.1:3000/admin">http://127.0.0.1:3000/admin</a></td>
+						<td width="80%"><a href="http://127.0.0.1:3000/">http://127.0.0.1:3000/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Node Name</td>
-						<td width="80%">http://127.0.0.1:3000/admin</td>
+						<td width="80%">http://127.0.0.1:3000/</td>
 					</tr>
 					<tr>
 						<td width="20%"

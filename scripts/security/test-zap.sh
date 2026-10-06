@@ -51,4 +51,13 @@ echo "✅ Menjalankan ZAP Scan untuk SISWA..."
 
 echo "✅ Scan Siswa Selesai. Laporan disimpan di folder zap/reports."
 echo "========================================================="
-echo "🎉 Semua test selesai! Buka folder zap/reports untuk melihat hasilnya."
+echo "🎉 Semua test selesai! Sedang membuka laporan HTML di browser..."
+
+# Membuka laporan HTML otomatis menggunakan default browser di Mac
+if [ -f "$WORK_DIR/reports/laporan-zap-admin.html" ]; then
+    open "$WORK_DIR/reports/laporan-zap-admin.html"
+fi
+
+if [ -f "$WORK_DIR/reports/laporan-zap-student.html" ]; then
+    open "$WORK_DIR/reports/laporan-zap-student.html"
+fi

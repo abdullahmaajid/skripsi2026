@@ -235,7 +235,7 @@ export default function LearningPathPage() {
                           )}
                           <div className="grid grid-cols-2 gap-2">
                             <button
-                              onClick={() => router.push(`/practice/${chapter.subjectId}?chapterId=${chapter.id}`)}
+                              onClick={() => router.push(`/learning-path/${chapter.subjectId}?chapterId=${chapter.id}`)}
                               className="py-2 bg-white border border-slate-200 hover:border-emerald-300 hover:text-emerald-600 rounded-xl text-[10px] font-bold text-slate-600 transition-all flex items-center justify-center gap-1 shadow-sm whitespace-nowrap px-1"
                             >
                               <PenTool className="w-3 h-3 text-emerald-500 shrink-0" /> Latihan Bab
@@ -321,7 +321,7 @@ export default function LearningPathPage() {
                   onClick={() => {
                     const ch = selectedChapter;
                     setSelectedChapter(null);
-                    router.push(`/practice/${ch.subjectId}?chapterId=${ch.id}`);
+                    router.push(`/learning-path/${ch.subjectId}?chapterId=${ch.id}`);
                   }}
                   className="px-5 py-2.5 bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-xs font-bold text-white rounded-xl transition-all shadow-sm flex items-center gap-1.5"
                 >

@@ -2,7 +2,7 @@
 
 import { useState, useEffect, use } from "react"
 import { useRouter } from "next/navigation"
-import { CheckCircle2, XCircle, MessageCircle, Loader2, ArrowLeft, LayoutGrid, BrainCircuit, MessageSquareShare } from "lucide-react"
+import { CheckCircle2, XCircle, MessageCircle, Loader2, ArrowLeft, LayoutGrid, BrainCircuit, MessageSquareShare, TrendingUp, TrendingDown } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 import MarkdownRenderer from "@/components/ui/MarkdownRenderer"
 import { useTutorChatStore } from "@/store/useTutorChatStore"
@@ -30,6 +30,14 @@ interface AttemptResult {
   startedAt: string
   finishedAt: string | null
   questions: ReviewQuestion[]
+}
+
+interface SubjectStat {
+  subject: string
+  total: number
+  correct: number
+  accuracy: number
+  questions: { idx: number; q: ReviewQuestion }[]
 }
 
 export default function ReviewPage({ params }: { params: Promise<{ id: string }> }) {
@@ -134,18 +142,46 @@ export default function ReviewPage({ params }: { params: Promise<{ id: string }>
   const totalCount = data.questions.length
   const currentQ = data.questions[selectedIndex]
 
+  // Hitung statistik per subtes
+  const subjectsMap = new Map<string, SubjectStat>()
+  data.questions.forEach((q, idx) => {
+    if (!subjectsMap.has(q.subject)) {
+      subjectsMap.set(q.subject, { subject: q.subject, total: 0, correct: 0, accuracy: 0, questions: [] })
+    }
+    const stat = subjectsMap.get(q.subject)!
+    stat.total += 1
+    if (q.isCorrect) stat.correct += 1
+    stat.questions.push({ idx, q })
+  })
+
+  const subjectStats = Array.from(subjectsMap.values()).map(s => {
+    s.accuracy = Math.round((s.correct / s.total) * 100)
+    return s
+  })
+
+  const sortedByAccuracy = [...subjectStats].sort((a, b) => b.accuracy - a.accuracy)
+  const strongest = sortedByAccuracy[0]
+  const weakest = sortedByAccuracy[sortedByAccuracy.length - 1]
+
   return (
     <div className="h-full flex flex-col md:flex-row font-sans overflow-hidden bg-white">
       {/* Sidebar (Grid & Score) */}
       <aside className="w-full md:w-[280px] lg:w-[340px] flex flex-col border-b md:border-b-0 md:border-r border-slate-100 bg-slate-50/50 shrink-0 h-[35vh] md:h-full overflow-y-auto no-scrollbar relative">
         <div className="p-6 md:p-8">
           
-          {/* Score Card */}
-          <div className="bg-white rounded-3xl p-5 border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.03)] mb-8">
-             <h2 className="font-bold text-slate-800 text-base mb-4 leading-tight">{data.templateName}</h2>
+          {/* Header & Back Button */}
+          <div className="flex items-center gap-3 mb-6">
+            <button onClick={() => router.push("/analytics")} className="w-8 h-8 rounded-full bg-white hover:bg-slate-100 border border-slate-200 flex items-center justify-center text-slate-500 hover:text-slate-800 transition-colors shadow-sm">
+              <ArrowLeft className="w-4 h-4" />
+            </button>
+            <h2 className="font-bold text-slate-800 text-base leading-tight truncate pr-4">{data.templateName}</h2>
+          </div>
+
+          {/* Score Card Overall */}
+          <div className="bg-white rounded-3xl p-5 border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.03)] mb-6">
              <div className="grid grid-cols-2 gap-3">
                <div className="bg-emerald-50/80 rounded-xl p-3 border border-emerald-100/50">
-                 <p className="text-[10px] uppercase tracking-wider text-emerald-600 font-bold mb-1">Benar</p>
+                 <p className="text-[10px] uppercase tracking-wider text-emerald-600 font-bold mb-1">Benar Total</p>
                  <p className="text-xl font-extrabold text-emerald-700">{correctCount}/{totalCount}</p>
                </div>
                <div className="bg-[var(--pastel-purple)] rounded-xl p-3 border border-purple-100/50">
@@ -155,37 +191,64 @@ export default function ReviewPage({ params }: { params: Promise<{ id: string }>
              </div>
           </div>
 
-          {/* Grid */}
-          <h3 className="font-bold text-slate-800 text-sm mb-4 flex items-center gap-2">
-            <LayoutGrid className="w-4 h-4 text-slate-400" /> Navigasi Soal
-          </h3>
-          <div className="grid grid-cols-5 gap-2.5">
-             {data.questions.map((q, idx) => {
-               const isCurrent = idx === selectedIndex
-               const isCorrect = q.isCorrect === true
-               const isWrong = q.isCorrect === false
-               
-               let bg = "bg-white text-slate-500 border-slate-200" // Unanswered
-               if (isCorrect) bg = "bg-emerald-50 text-emerald-600 border-emerald-200"
-               if (isWrong) bg = "bg-rose-50 text-rose-600 border-rose-200"
-               
-               if (isCurrent) {
-                 bg += " ring-2 ring-[var(--accent)] ring-offset-2 ring-offset-slate-50 border-transparent shadow-sm"
-               }
+          {/* Insights */}
+          {subjectStats.length > 0 && (
+            <div className="grid grid-cols-2 gap-3 mb-8">
+              <div className="bg-indigo-50 rounded-2xl p-4 border border-indigo-100 flex flex-col justify-between h-full">
+                <p className="text-[10px] uppercase tracking-wider text-indigo-600 font-bold mb-2 flex items-center gap-1.5 leading-tight"><TrendingUp className="w-3.5 h-3.5" /> Kekuatan Utama</p>
+                <div>
+                  <p className="text-xs font-bold text-indigo-900 leading-tight mb-1">{strongest?.subject}</p>
+                  <p className="text-xs font-semibold text-indigo-600/80 bg-indigo-100/50 w-max px-2 py-0.5 rounded-md">{strongest?.accuracy}% Benar</p>
+                </div>
+              </div>
+              <div className="bg-rose-50 rounded-2xl p-4 border border-rose-100 flex flex-col justify-between h-full">
+                <p className="text-[10px] uppercase tracking-wider text-rose-600 font-bold mb-2 flex items-center gap-1.5 leading-tight"><TrendingDown className="w-3.5 h-3.5" /> Prioritas Evaluasi</p>
+                <div>
+                  <p className="text-xs font-bold text-rose-900 leading-tight mb-1">{weakest?.subject}</p>
+                  <p className="text-xs font-semibold text-rose-600/80 bg-rose-100/50 w-max px-2 py-0.5 rounded-md">{weakest?.accuracy}% Benar</p>
+                </div>
+              </div>
+            </div>
+          )}
 
-               return (
-                 <motion.button
-                   whileHover={{ scale: 1.05 }}
-                   whileTap={{ scale: 0.95 }}
-                   key={q.questionId}
-                   onClick={() => setSelectedIndex(idx)}
-                   className={`aspect-square rounded-xl flex items-center justify-center font-bold text-xs border transition-all ${bg}`}
-                 >
-                   {idx + 1}
-                 </motion.button>
-               )
-             })}
+          {/* Grid per Subtes */}
+          <div className="space-y-6">
+            {subjectStats.map(stat => (
+              <div key={stat.subject} className="space-y-3">
+                <div className="flex items-center justify-between pb-2 border-b border-slate-200/60">
+                  <h3 className="font-bold text-slate-700 text-[11px] uppercase tracking-wide truncate pr-2">{stat.subject}</h3>
+                  <span className={`text-[10px] font-bold px-2 py-0.5 rounded-md shrink-0 ${stat.accuracy >= 70 ? 'bg-emerald-100 text-emerald-700' : stat.accuracy >= 40 ? 'bg-amber-100 text-amber-700' : 'bg-rose-100 text-rose-700'}`}>
+                    {stat.correct}/{stat.total}
+                  </span>
+                </div>
+                <div className="grid grid-cols-5 gap-2.5">
+                  {stat.questions.map(({ idx, q }) => {
+                    const isCurrent = idx === selectedIndex
+                    const isCorrect = q.isCorrect === true
+                    const isWrong = q.isCorrect === false
+                    
+                    let bg = "bg-white text-slate-500 border-slate-200"
+                    if (isCorrect) bg = "bg-emerald-50 text-emerald-600 border-emerald-200 shadow-sm"
+                    if (isWrong) bg = "bg-rose-50 text-rose-600 border-rose-200 shadow-sm"
+                    if (isCurrent) bg += " ring-2 ring-[var(--accent)] ring-offset-2 ring-offset-slate-50 border-transparent shadow-md scale-105"
+
+                    return (
+                      <motion.button
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.95 }}
+                        key={q.questionId}
+                        onClick={() => setSelectedIndex(idx)}
+                        className={`aspect-square rounded-xl flex items-center justify-center font-bold text-xs border transition-all ${bg}`}
+                      >
+                        {idx + 1}
+                      </motion.button>
+                    )
+                  })}
+                </div>
+              </div>
+            ))}
           </div>
+
         </div>
       </aside>
 
@@ -326,9 +389,9 @@ export default function ReviewPage({ params }: { params: Promise<{ id: string }>
                </div>
 
              </motion.div>
-            </AnimatePresence>
-          )}
-        </div>
-      </div>
+           </AnimatePresence>
+         )}
+       </div>
+     </div>
   )
 }

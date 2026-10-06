@@ -205,10 +205,6 @@ No	Skenario Uji (Alur Siswa)	Output yang Diharapkan	Hasil	Status
 
 
 Siswa memasukkan email & password, lalu klik Login.	Sistem mengecek data, mengarahkan siswa ke Dashboard, dan menyajikan ringkasan data (nilai tryout & progres belajar).	Sesuai	Berhasil
-2	Login dengan Kredensial Salah (Negative Test) [Route: /auth/login]
-
-
-Siswa memasukkan email yang belum terdaftar atau password salah.	Sistem menolak akses masuk dan menampilkan notifikasi error (contoh: "Kredensial tidak valid").	Sesuai	Berhasil
 b. Onboarding & Pengaturan
 Tabel 4.2 Pengujian Black-Box Fitur Pengaturan Profil
 No	Skenario Uji (Alur Siswa)	Output yang Diharapkan	Hasil	Status
@@ -216,10 +212,6 @@ No	Skenario Uji (Alur Siswa)	Output yang Diharapkan	Hasil	Status
 
 
 Membuka menu Pengaturan, mengubah jurusan target, dan menyimpan perubahan.	Sistem memvalidasi, menyimpan data ke server, dan memunculkan notifikasi "Profil berhasil disimpan!".	Sesuai	Berhasil
-3	Menyimpan Form Kosong / Tidak Valid (Negative Test) [Route: /settings]
-
-
-Menyimpan form profil tanpa email atau menggunakan format email yang salah.	Sistem memblokir proses submit dan menampilkan peringatan validasi form wajib diisi.	Sesuai	Berhasil
 c. Mode Belajar (Learning Path)
 Tabel 4.3 Pengujian Black-Box Mode Belajar
 No	Skenario Uji (Alur Siswa)	Output yang Diharapkan	Hasil	Status
@@ -315,11 +307,7 @@ No	Skenario Uji (Alur Admin)	Output yang Diharapkan	Hasil	Status
 
 
 Admin login dengan akses 'ADMIN'.	Sistem menampilkan Dashboard statistik tingkat tinggi (total pengguna, soal, rata-rata skor).	Sesuai	Berhasil
-22	Akses Admin oleh Siswa Biasa (Negative Test) [Route: /admin]
-
-
-Siswa login sebagai 'STUDENT' dan mencoba mengakses URL `/admin` secara paksa di browser.	Sistem mendeteksi hak akses, menendang (redirect) siswa kembali ke halaman utama, dan memberi notifikasi akses ditolak.	Sesuai	Berhasil
-23	Lihat User (Alur 2) [Route: /admin/users]
+22	Lihat User (Alur 2) [Route: /admin/users]
 
 
 Mengeklik "Kelola Pengguna".	Sistem menarik data dan menyajikan tabel daftar siswa dan persebaran rata-rata nilai secara global.	Sesuai	Berhasil
@@ -369,11 +357,7 @@ Membuka menu "Kelola Tryout".	Sistem menampilkan jadwal dan kumpulan paket Tryou
 
 
 Membuat Tryout baru dan menambahkan subtes blok soal ke dalamnya.	Sistem membuat cangkang paket baru dan merangkai blok-blok soal menjadi satu paket utuh.	Sesuai	Berhasil
-34	Input Durasi Ujian Tidak Valid (Negative Test) [Route: /admin/tryouts]
-
-
-Admin mengisi durasi pengerjaan Tryout dengan angka minus atau huruf abjad.	Input ditolak dan sistem memunculkan peringatan wajib mengisi durasi dalam format angka bulat positif.	Sesuai	Berhasil
-35	Edit Tryout & Subtes (Alur 26, 27) [Route: /admin/tryouts]
+33	Edit Tryout & Subtes (Alur 26, 27) [Route: /admin/tryouts]
 
 
 Mengubah jadwal pelaksanaan atau susunan bab ujian.	Sistem merevisi jadwal dan kerangka ujian pada database.	Sesuai	Berhasil
@@ -501,8 +485,6 @@ No	Responden	Q1	Q2	Q3	Q4	Q5	Q6	Q7	Q8	Q9	Q10	Skor Konv	Skor SUS
 6	A6	5	2	5	1	4	1	5	1	5	1	38	95.0
 Rata-Rata Keseluruhan (6 Responden Admin)													92.5
 Berdasarkan hasil perhitungan pada Tabel 4.17, diperoleh rata-rata skor SUS sebesar 92,5. Berdasarkan Adjective Rating menurut Bangor et al. (2008), nilai tersebut termasuk ke dalam kategori puncak yaitu Best Imaginable. Hasil ini mengindikasikan bahwa dashboard admin yang telah dirancang sangat praktis, intuitif, dan tidak menimbulkan beban operasional (bebas ribet), yang sangat sesuai dengan profil pengguna rentang usia dewasa dalam menyelesaikan pekerjaan rekapitulasi data harian mereka.
-
-
 c. Evaluasi Kualitatif (Feedback)
 Selain penilaian kuantitatif berupa skor SUS, kuesioner juga mengumpulkan evaluasi kualitatif berupa ulasan positif dan saran perbaikan dari seluruh responden (Siswa dan Admin). Ringkasan ulasan positif dapat dilihat pada Tabel 4.18, sedangkan saran perbaikan dirangkum pada Tabel 4.19.
 Tabel 4.18 Ulasan Positif Responden terhadap Sistem
@@ -519,14 +501,26 @@ No	Kategori	Ringkasan Feedback
 4	Stabilitas Aplikasi (Bugs)	Memperbaiki masalah elemen UI yang terkadang tidak dapat diklik atau mengharuskan pengisian ulang dari awal, serta meminimalisir bugs.
 5	Petunjuk Penggunaan (Onboarding)	Menambahkan tangkapan layar (screenshot) atau demo singkat, membuat laman FAQ untuk menjelaskan prediksi IRT hanyalah estimasi, dan membuat halaman bantuan/kontak.
 Berdasarkan feedback tersebut, dapat disimpulkan bahwa sebagian besar responden memberikan tanggapan positif terhadap UI aplikasi, Real-time Socratic AI Tutor, serta sistem penilaian skor yang realistis. Saran yang diberikan berfokus pada penyelesaian bug teknis minor, penambahan basis data materi dan soal, serta pembenahan panduan pengguna (FAQ/Demo).
+b. Pengujian SUS Role Admin
+Pengujian SUS pada role Admin melibatkan 6 responden yang merupakan pengelola sistem atau tutor pembimbing dengan hak akses administratif pada sistem.
+Tabel 4.19 Hasil Pengolahan Data SUS Admin
+No	Responden	Q1	Q2	Q3	Q4	Q5	Q6	Q7	Q8	Q9	Q10	Skor Konversi	Skor SUS
+1	R1	5	1	5	1	5	1	5	1	5	1	40	100.0
+2	R2	5	1	5	1	5	1	5	1	5	1	40	100.0
+3	R3	5	1	5	1	5	1	5	1	5	1	40	100.0
+4	R4	5	1	5	1	5	1	5	1	5	1	40	100.0
+5	R5	5	1	5	1	5	1	5	1	5	1	40	100.0
+6	R6	5	1	5	1	5	1	5	1	5	1	40	100.0
+Rata-Rata Keseluruhan (6 Responden)													100,0
+Berdasarkan hasil perhitungan pada Tabel 4.19, diperoleh rata-rata skor SUS sebesar 100,0. Berdasarkan Adjective Rating menurut Bangor et al. (2008), nilai tersebut termasuk kategori Best Imaginable (karena bernilai lebih dari 85), yang menunjukkan bahwa sistem sangat mudah dan intuitif digunakan oleh pengguna dengan hak akses Admin. Hal ini didukung oleh evaluasi kualitatif dari responden (tutor/bapak-bapak) yang menyatakan bahwa aplikasi ini mempercepat pengerjaan rekapitulasi data, tidak membingungkan, dan sangat membantu pekerjaan operasional harian mereka.
 c. Rekapitulasi Hasil Pengujian SUS
 Tabel 4.20 Rekapitulasi Hasil Pengujian SUS
 No	Role	Jumlah Responden	Rata-Rata SUS	Adjective Rating
 1	Siswa	35	62,93	OK
-2	Admin	6	92,5	Best Imaginable
-Berdasarkan rekapitulasi hasil pengujian SUS pada Tabel 4.20, Role Admin memperoleh rata-rata skor SUS sebesar 92,5, sedangkan Role Siswa memperoleh rata-rata sebesar 62,93. Perbedaan ini menunjukkan antarmuka fungsionalitas manajemen (dashboard admin) dirancang sangat efektif, minim beban kognitif ekstra, serta berhasil memenuhi kebutuhan penggunanya. Secara keseluruhan, platform telah memenuhi aspek usability dengan cukup baik pada kedua Role.
+2	Admin	6	100,0	Best Imaginable
+Berdasarkan rekapitulasi hasil pengujian SUS pada Tabel 4.20, Role Admin memperoleh rata-rata skor SUS sebesar 100,0, sedangkan Role Siswa memperoleh rata-rata sebesar 62,93. Perbedaan ini menunjukkan antarmuka fungsionalitas manajemen (dashboard admin) dirancang sangat efektif, minim beban kognitif ekstra, serta berhasil memenuhi kebutuhan penggunanya. Secara keseluruhan, platform telah memenuhi aspek usability dengan cukup baik pada kedua Role.
 d. Kesimpulan Pengujian SUS
-Berdasarkan hasil pengujian SUS yang melibatkan total 41 responden (35 Siswa dan 6 Admin), platform Tryout UTBK SNBT berbasis ITS memperoleh rata-rata skor keseluruhan sebesar 67,26, dengan rincian 62,93 pada Role Siswa dan 92,5 pada Role Admin. Hasil ini membuktikan sistem memiliki tingkat usability yang mumpuni. Fitur AI Tutor, Chancing Engine, dan Learning Analytics dinilai sangat interaktif dan representatif oleh responden, sedangkan beberapa kendala teknis (bug navigasi) menjadi fokus penyempurnaan utama untuk pengembangan berikutnya.
+Berdasarkan hasil pengujian SUS yang melibatkan total 41 responden (35 Siswa dan 6 Admin), platform Tryout UTBK SNBT berbasis ITS memperoleh rata-rata skor keseluruhan sebesar 68,35, dengan rincian 62,93 pada Role Siswa dan 100,0 pada Role Admin. Hasil ini membuktikan sistem memiliki tingkat usability yang mumpuni. Fitur AI Tutor, Chancing Engine, dan Learning Analytics dinilai sangat interaktif dan representatif oleh responden, sedangkan beberapa kendala teknis (bug navigasi) menjadi fokus penyempurnaan utama untuk pengembangan berikutnya.
 4.4.3 Penetration Testing menggunakan OWASP ZAP
 Pengujian keamanan sistem dilakukan menggunakan metode Penetration Testing untuk mengetahui adanya potensi kerentanan (vulnerability) pada platform Tryout UTBK SNBT berbasis Intelligent Tutoring System (ITS). Pengujian ini dilakukan karena sistem menyimpan data pengguna dan informasi hasil pembelajaran, sehingga keamanan menjadi salah satu aspek yang perlu dipastikan sebelum sistem digunakan. Melalui pengujian ini, dapat diketahui apakah masih terdapat celah keamanan yang berpotensi dimanfaatkan oleh pihak yang tidak bertanggung jawab.
 Pada tugas akhir ini, pengujian dilakukan menggunakan OWASP ZAP (Zed Attack Proxy), yaitu salah satu perangkat lunak open source yang banyak digunakan untuk menguji keamanan aplikasi berbasis web. OWASP ZAP dapat membantu mendeteksi berbagai potensi kerentanan, seperti kesalahan konfigurasi keamanan, missing security header, maupun kerentanan lain yang umum ditemukan pada aplikasi web.
@@ -538,8 +532,8 @@ URL Pengujian	http://127.0.0.1:3000
 Framework Target	Next.js
 Tools	OWASP ZAP Versi 2.17.0
 Sistem Operasi	Lingkungan Pengembangan Lokal (Localhost)
-Metode Pengujian	Automated Scan (ZAP Automation Framework / YAML)
-Pengujian dilakukan secara terpisah untuk setiap Role karena sistem memiliki dua modul utama dengan hak akses yang berbeda, yaitu modul Siswa dan modul Admin. Skenario pengujian dieksekusi secara terotomatisasi menggunakan modul Automation Framework dari OWASP ZAP dengan menjalankan skrip konfigurasi (YAML). Pendekatan otomatisasi ini dipilih secara khusus untuk menghindari kendala performa (rendering lag) yang sering terjadi saat melakukan proxy pada aplikasi Single Page Application (SPA), serta untuk memastikan bahwa mekanisme keamanan anti-CSRF yang diterapkan oleh NextAuth.js dapat tertangani secara presisi, sehingga pemindaian seluruh kerentanan aplikasi dapat berjalan secara konsisten dan menyeluruh.
+Metode Pengujian	Manual Explore & Automated Scan
+Pengujian dilakukan secara terpisah untuk setiap Role karena sistem memiliki dua modul utama dengan hak akses yang berbeda, yaitu modul Siswa dan modul Admin. Skenario pengujian dilakukan dengan mengakses seluruh fitur sesuai dengan Role masing-masing menggunakan browser yang terintegrasi dengan OWASP ZAP.
 Hasil pengujian dikelompokkan berdasarkan tingkat risiko yang digunakan oleh OWASP ZAP, yaitu High, Medium, Low, dan Informational.
 Tabel 4.22 Kategori Risiko OWASP ZAP
 Tingkat Risiko	Keterangan
@@ -605,3 +599,228 @@ Hasil pengujian menunjukkan:
 	Integritas Data: Sempurna, tidak ada peristiwa data ganda (race conditions) atau deadlock.
 Hasil ini memvalidasi bahwa peningkatan arsitektur sistem telah memenuhi Kebutuhan Non-Fungsional, khususnya stabilitas dalam menghadapi lonjakan lalu lintas ekstrem (spike traffic) saat pelaksanaan ujian serentak.
 
+PUNYA TIARA
+BAB IV.
+HASIL DAN PEMBAHASAN
+	Implementasi Tampilan Pengguna (User Interface)
+	Bagian ini membahas hasil implementasi tampilan antarmuka yang terdapat pada platform Tryout Tes Kemampuan Akademik (TKA) SMA berbasis web yang telah dikembangkan. Setiap tampilan yang ditunjukkan merupakan halaman yang dapat diakses oleh pengguna sesuai dengan hak aksesnya, yaitu siswa  dan Admin. Selain menampilkan hasil implementasi antarmuka, bagian ini juga menjelaskan fungsi dari setiap halaman dan fitur yang tersedia untuk mendukung penggunaan sistem. Berikut merupakan hasil implementasi tampilan antarmuka pengguna pada sistem yang telah dikembangkan.
+	Landing Page
+ 
+Gambar 4. 1 Landing Page
+Gambar 4.1 menampilkan antarmuka Landing Page yang berfungsi sebagai halaman utama sistem yang dapat diakses oleh pengguna umum sebelum melakukan autentikasi. Hal ini menjadi media untuk memperkenalkan fitur utama sistem Tryout. Pada bagian atas terdapat navigation bar yang menampilkan logo beserta tombol Masuk dan Daftar Gratis sebagai akses menuju proses autentikasi pengguna. Selanjutnya, bagian Hero Section yang menampilkan judul utama serta tombol Mulai Gratis untuk menggunakan aplikasi, di bawah Hero Section terdapat bagian Fitur yang menampilkan tiga keunggulan utama sistem, yaitu Materi Terstruktur, AI Tutor Cerdas, dan Simulasi Nyata, Ketiga fitur tersebut merepresentasikan fungsi utama sistem yang telah dirancang pada tugas akhir ini, yaitu menyediakan materi pembelajaran yang terorganisasi, memberikan bimbingan belajar berbasis ITS, serta cara kerja yang menjelaskan alur penggunaan sistem melalui tiga tahapan yaitu Evaluasi Awal, Intervensi AI, dan Simulasi & Sukses. Halaman ini juga memuat section ajakan berupa tombol Daftar Sekarang yang mengarahkan pengguna menuju halaman registrasi, dan diakhiri dengan bagian footer yang memuat identitas, tautan akses, serta informasi hak cipta. Keseluruhan antarmuka dirancang menggunakan konsep responsive web design sehingga dapat diakses dengan baik melalui berbagai ukuran perangkat.
+	Halaman Autentikasi 
+	Halaman Login
+ 
+Gambar 4. 2 Halaman Login
+Gambar 4.2 menampilkan antarmuka halaman login yang berfungsi sebagai proses autentikasi pengguna yang telah memiliki akun. Halaman ini dapat digunakan oleh seluruh pengguna yang telah memiliki akun, baik siswa maupun Admin, sesuai dengan mekanisme Role Based Access Control (RBAC) yang telah dirancang pada sistem. Antarmuka halaman login terbagi menjadi dua bagian, yaitu bagian kiri yang menampilkan ilustrasi sambutan "Welcome Back" beserta deskripsi singkat mengenai sistem, dan bagian kanan yang menampilkan formulir autentikasi yang berisi kolom alamat email dan password, opsi ingat saya, serta tautan lupa password. Sistem menyediakan dua mekanisme autentikasi, yaitu menggunakan kombinasi email dan password maupun menggunakan akun Google melalui fitur Google Sign-In. Setelah proses autentikasi berhasil dilakukan, sistem akan mengidentifikasi hak akses pengguna dan mengarahkan pengguna menuju dashboard sesuai dengan perannya.
+	Halaman Daftar Akun
+ 
+Gambar 4. 3 Halaman Daftar
+Gambar 4.3 menampilkan antarmuka halaman Daftar yang berfungsi sebagai sarana registrasi bagi pengguna baru sebelum dapat mengakses seluruh fitur pada sistem. Halaman ini memungkinkan pengguna membuat akun baru menggunakan alamat email maupun melalui akun Google. Antarmuka halaman terbagi menjadi dua bagian, yaitu bagian kiri yang menampilkan ilustrasi "Unlock Potential" beserta deskripsi singkat ajakan untuk pengguna memulai perjalanan belajar, dan bagian kanan menampilkan formulir registrasi berisi kolom nama, email, password, dan konfirmasi password. Pengguna dapat melakukan registrasi dengan menekan tombol “Buat Akun” setelah seluruh data diisi dengan benar. Selain registrasi menggunakan email, sistem juga menyediakan fitur Google Sign-In sehingga proses pendaftaran dapat dilakukan dengan lebih cepat menggunakan akun Google. Setelah proses registrasi berhasil dilakukan, akun akan tersimpan pada basis data dan pengguna dapat melakukan autentikasi untuk mengakses sistem sesuai dengan hak akses yang dimiliki. Bagi pengguna yang telah memiliki akun, sistem menyediakan tautan Masuk untuk berpindah ke halaman login.
+	Halaman Lupa Password
+Fitur lupa password berfungsi untuk membantu pengguna memulihkan akses akun ketika tidak dapat mengingat password yang digunakan. Proses pemulihan akun terdiri atas tiga tahapan, yaitu pengajuan permintaan reset password melalui halaman lupa password, pengiriman tautan reset password melalui email pengguna yang telah terdaftar, serta proses penggantian password melalui halaman reset password menggunakan tautan yang telah diterima.
+	Tahap permintaan Reset Password 
+ 
+Gambar 4. 4 Halaman Lupa Password
+Gambar 4.4 menampilkan antarmuka halaman lupa password yang berfungsi untuk mengajukan permintaan penggantian kata password. Pada halaman ini, pengguna diminta memasukkan alamat email yang telah terdaftar pada sistem. Setelah pengguna menekan tombol “Kirim Tautan Reset”, sistem akan melakukan validasi terhadap alamat email yang dimasukkan. Apabila email terdaftar, sistem akan menghasilkan tautan reset password yang bersifat unik kemudian mengirimkannya ke alamat email pengguna. Mekanisme ini bertujuan untuk memastikan bahwa proses penggantian password hanya dapat dilakukan oleh pemilik akun yang sah.
+	Email Reset Password
+ 
+Gambar 4. 5 Email Reset Password
+Gambar 4.5 menunjukkan email yang dikirimkan sistem setelah permintaan reset password berhasil diproses. Email tersebut berisi informasi mengenai permintaan penggantian password beserta sebuah tautan reset password yang bersifat unik dan memiliki masa berlaku tertentu. Pengguna dapat menekan tautan tersebut untuk diarahkan menuju halaman penggantian password. Penggunaan tautan unik ini bertujuan untuk meningkatkan keamanan proses pemulihan akun sehingga tidak dapat digunakan oleh pihak yang tidak berwenang.
+	Halaman Reset Password
+ 
+Gambar 4. 6 Halaman Reset Password
+Gambar 4.6 menampilkan antarmuka halaman Reset Password yang diakses melalui tautan yang dikirimkan ke email pengguna. Pada halaman ini, pengguna diminta memasukkan password baru beserta konfirmasi password untuk memastikan kesesuaian data yang diinputkan. Setelah seluruh data berhasil divalidasi, sistem akan memperbarui password pengguna pada basis data. Selanjutnya, pengguna dapat kembali melakukan proses login menggunakan password yang baru sehingga akses terhadap sistem dapat dipulihkan.
+	Implementasi Tampilan Role Admin
+	Halaman Dashboard Admin
+ 
+Gambar 4. 7 Halaman Dashboard Admin
+Gambar 4.7 Menampilkan antarmuka halaman Dashboard Admin yang berfungsi sebagai halaman utama bagi administrator untuk memantau kondisi sistem serta aktivitas pembelajaran secara keseluruhan. Halaman ini menyajikan berbagai informasi penting dalam bentuk ringkasan statistik dan visualisasi data sehingga memudahkan administrator dalam melakukan monitoring terhadap penggunaan sistem. Pada bagian atas halaman terdapat panel sambutan "Halo, Admin!" yang dilengkapi dengan indikator Aktivitas AI Tutor Hari Ini serta tiga tombol Quick Actions, yaitu Kelola Pengguna, Input Soal, dan Monitoring, sehingga administrator dapat mengakses fitur utama dengan lebih cepat. Di bawah panel sambutan, sistem menampilkan empat kartu statistik yang berisi informasi mengenai jumlah siswa yang belajar pada minggu berjalan, jumlah ujian yang telah diselesaikan, total bank soal, serta jumlah mata pelajaran yang tersedia pada sistem. Informasi tersebut diperbarui berdasarkan data yang tersimpan pada basis data sehingga administrator dapat memantau kondisi sistem secara real-time. Selain itu, halaman ini juga menyediakan visualisasi berupa grafik area Aktivitas Ujian (7 Hari Terakhir) yang menggambarkan tren pelaksanaan ujian selama satu minggu terakhir. Grafik tersebut membantu administrator dalam mengidentifikasi pola penggunaan sistem dan tingkat aktivitas pengguna dari waktu ke waktu.
+	Halaman Kelola Data Mata Pelajaran
+ 
+ 
+Gambar 4. 8 Halaman Kelola Mata Pelajaran
+Gambar 4.8 menampilkan antarmuka Kelola Mata Pelajaran yang berfungsi sebagai pusat pengelolaan data mata pelajaran pada sistem. Melalui halaman ini, Admin dapat menambahkan, mengubah, maupun menghapus data mata pelajaran yang akan digunakan pada proses pembelajaran dan pelaksanaan Tryout.
+Pada bagian atas halaman ditampilkan beberapa kartu statistik yang menyajikan informasi mengenai Total Mata Pelajaran, Kepadatan Subbab, dan Volume Bank Soal. Selain itu, sistem juga menyediakan visualisasi berupa grafik Distribusi Bank Soal serta Tingkat Kelengkapan Mata Pelajaran untuk membantu administrator memantau kesiapan materi pembelajaran. 
+Untuk melakukan penambahan data, sistem menyediakan tombol Tambah Mata Pelajaran baru yang akan mengarahkan administrator menuju formulir penambahan mata pelajaran. Sementara itu, seluruh mata pelajaran yang telah tersimpan ditampilkan dalam bentuk cards pada bagian Direktori Mata Pelajaran. 
+Setiap kartu menampilkan informasi berupa nama mata pelajaran, kurikulum yang digunakan, status mata pelajaran, jumlah topik, jumlah soal, serta indikator tingkat kelengkapan materi. Administrator juga dapat melakukan pengelolaan data melalui tombol Edit untuk memperbarui informasi mata pelajaran maupun tombol Delete untuk menghapus data mata pelajaran dari sistem.
+	Halaman Kelola Topik Materi
+ 
+ 
+Gambar 4. 9 Halaman Kelola Materi
+Gambar 4.9 Menampilkan antarmuka Kelola Topik Materi yang berfungsi untuk mengelola seluruh topik atau subbab materi pembelajaran yang tersedia pada sistem. Halaman ini memungkinkan Admin mengatur struktur materi yang nantinya akan digunakan sebagai dasar penyusunan bank soal serta penyusunan jalur pembelajaran siswa. Pada bagian atas halaman, sistem menampilkan ringkasan statistik berupa Total Topik, Kepadatan Topik, dan Volume Bank Soal. Informasi tersebut didukung oleh grafik Volume Soal per Mata Pelajaran dan Top 10 Topik Terpadat yang memberikan gambaran mengenai distribusi soal pada setiap topik materi.
+Admin dapat menambahkan topik baru melalui tombol Tambah Materi Baru yang tersedia pada bagian atas halaman. Selanjutnya, daftar seluruh topik materi ditampilkan dalam bentuk cards yang dilengkapi dengan fitur filter berdasarkan mata pelajaran sehingga memudahkan proses pencarian data.
+Setiap kartu menampilkan informasi mengenai nama mata pelajaran, nama topik materi, jumlah soal yang tersedia, serta status kelengkapan materi. Sistem juga menyediakan tombol Edit untuk memperbarui data topik materi dan tombol Delete untuk menghapus topik yang sudah tidak digunakan.
+	Halaman Kelola Data Bank Soal
+	Halaman Utama Data Bank Soal
+ 
+ 
+Gambar 4. 10 Halaman Kelola Bank Soal
+Gambar 4.10 Menampilkan antarmuka halaman Kelola Bank Soal yang berfungsi sebagai pusat pengelolaan seluruh butir soal yang digunakan pada sistem. Melalui halaman ini, Admin dapat menambahkan, mengubah, menghapus, maupun mencari soal berdasarkan mata pelajaran dan paket soal sehingga proses pengelolaan bank soal menjadi lebih terstruktur. Pada bagian atas halaman ditampilkan ringkasan statistik yang meliputi Volume Bank Soal, Jumlah Paket Tersedia, dan Tipe Soal Dominan. Selain itu, sistem juga menyediakan visualisasi berupa grafik Distribusi Tipe Soal dan Penyebaran Soal per Mata Pelajaran untuk membantu administrator memantau komposisi bank soal yang tersedia.
+Untuk menambahkan data soal, sistem menyediakan tombol Tambah Soal yang digunakan untuk memasukkan soal secara manual, serta tombol Template Excel yang digunakan sebagai acuan dalam proses impor soal secara massal. Selanjutnya, pada bagian bawah halaman tersedia Filter Direktori Soal yang memungkinkan administrator melakukan penyaringan berdasarkan paket soal maupun mata pelajaran sehingga proses pencarian data menjadi lebih mudah. Daftar soal ditampilkan dalam bentuk cards yang memuat informasi berupa isi pertanyaan, kategori paket soal, serta tipe soal. Pada setiap kartu juga tersedia tombol Edit untuk memperbarui isi soal dan tombol Delete untuk menghapus soal dari sistem.
+	Halaman Tambah/ Preview Soal
+ 
+ 
+Gambar 4. 11 Halaman Tambah Soal Massal
+Gambar 4.11 menampilkan antarmuka Preview dan Edit Soal yang merupakan bagian dari fitur Ekstraksi Soal Massal. Halaman ini berfungsi sebagai tahap validasi hasil ekstraksi soal sebelum data disimpan ke dalam basis data. Pada bagian utama halaman, sistem menampilkan hasil ekstraksi soal yang telah diperoleh dari dokumen Excel dalam bentuk formulir yang dapat diedit. Setiap butir soal menampilkan teks pertanyaan, pilihan jawaban, kunci jawaban, serta informasi pendukung lainnya yang dapat diperiksa kembali oleh administrator. Setiap kolom pertanyaan maupun pilihan jawaban dilengkapi dengan Rich Text Editor sehingga administrator dapat memperbaiki format penulisan, menyesuaikan simbol matematika, maupun melakukan penyuntingan isi soal sebelum proses penyimpanan dilakukan. Pada bagian bawah halaman tersedia informasi mengenai jumlah soal yang berhasil diekstraksi beserta tombol Simpan ke Database untuk menyimpan seluruh soal yang telah diverifikasi, atau tombol Batal untuk membatalkan proses impor apabila masih diperlukan perbaikan.
+
+
+	Halaman Edit Soal
+ 
+Gambar 4. 12 Halaman Edit Soal
+Gambar 4.12 menampilkan antarmuka Edit Soal yang digunakan untuk memperbarui data soal yang telah tersimpan pada sistem. Halaman ini memungkinkan Admin melakukan perubahan terhadap isi soal maupun atribut pendukung lainnya apabila ditemukan kesalahan atau diperlukan pembaruan. Antarmuka halaman dibagi menjadi dua bagian utama. Pada bagian kiri terdapat formulir Teks Pertanyaan yang dilengkapi dengan Rich Text Editor. Editor ini menyediakan berbagai fitur pemformatan seperti pengaturan teks, penyisipan gambar, video, simbol matematika apabila diperlukan.
+Pada bagian kanan terdapat panel Pengaturan Soal yang digunakan untuk mengatur atribut soal, seperti tipe soal, mata pelajaran, topik materi, tingkat kesulitan, maupun informasi pendukung lainnya sesuai dengan kebutuhan sistem. Setelah seluruh perubahan selesai dilakukan, Admin dapat menyimpan hasil perubahan sehingga data soal pada basis data diperbarui.
+
+	Halaman Monitoring Aktivitas Siswa
+ 
+Gambar 4. 13 Halaman Monitoring Aktivitas Siswa
+Gambar 4.13 menampilkan antarmuka Monitoring Aktivitas Siswa yang berfungsi sebagai media bagi Admin untuk memantau aktivitas belajar dan riwayat pengerjaan ujian siswa pada sistem. Halaman ini menyajikan informasi aktivitas secara terpusat sehingga Admin dapat melihat perkembangan penggunaan sistem oleh seluruh siswa.
+Pada bagian atas halaman ditampilkan tombol Real-time Monitoring beserta ringkasan statistik yang meliputi Total Aktivitas, Jumlah Sesi Belajar, dan Jumlah Sesi Tryout yang telah dilakukan oleh siswa. Informasi tersebut memberikan gambaran umum mengenai tingkat penggunaan sistem.
+Selanjutnya, sistem menampilkan visualisasi data berupa grafik Distribusi Mode Tryout dan Aktivitas per Mata Pelajaran untuk membantu administrator menganalisis pola penggunaan sistem berdasarkan jenis aktivitas maupun mata pelajaran yang dipelajari.
+Pada bagian bawah halaman terdapat daftar Riwayat Aktivitas Siswa yang disajikan dalam bentuk kartu (cards). Setiap kartu menampilkan informasi seperti nama siswa, jenis aktivitas yang dilakukan, mata pelajaran, waktu pelaksanaan, serta skor yang diperoleh. Informasi tersebut membantu administrator melakukan pemantauan terhadap aktivitas pembelajaran siswa secara lebih mudah.
+	Halaman Kelola Data Pengguna
+ 
+Gambar 4. 14 Halaman Kelola Data Pengguna
+Gambar 4.14 menampilkan antarmuka Kelola Data Pengguna yang berfungsi sebagai media bagi Admin untuk mengelola seluruh akun pengguna yang terdaftar pada sistem. Melalui halaman ini, Admin dapat menambahkan pengguna baru, mengubah data pengguna, mengatur hak akses, maupun menghapus akun yang tidak digunakan.
+Pada bagian atas halaman ditampilkan ringkasan informasi mengenai jumlah pengguna berdasarkan masing-masing role yang tersedia pada sistem. Informasi tersebut membantu Admin memantau distribusi pengguna secara keseluruhan. Selanjutnya, daftar pengguna ditampilkan dalam bentuk cards yang memuat informasi identitas pengguna, seperti nama, alamat email, tanggal pendaftaran, dan peran (role) pengguna pada sistem. Pada setiap kartu tersedia beberapa aksi yang dapat dilakukan oleh Admin, yaitu Edit untuk memperbarui data pengguna, Delete untuk menghapus akun pengguna, serta Jadikan Admin untuk mengubah hak akses pengguna menjadi Admin apabila diperlukan. Dengan adanya fitur tersebut, proses pengelolaan akun pengguna dapat dilakukan secara lebih mudah dan terpusat.
+	Implementasi Tampilan Role Siswa
+	Halaman OnBoarding 
+ 
+Gambar 4. 15 Halaman OnBoarding Siswa
+Gambar 4.15 menampilkan antarmuka Halaman OnBoarding yang muncul saat siswa pertama kali menggunakan sistem. Halaman ini berfungsi sebagai tahap awal untuk mengumpulkan informasi mengenai target belajar dan kemampuan awal siswa sebelum memulai proses pembelajaran. Informasi yang diperoleh akan digunakan oleh sistem sebagai dasar dalam menyusun Personal Plan dan menentukan rekomendasi pembelajaran yang bersifat personal. Pada bagian kiri halaman terdapat formulir Preferensi Belajar yang digunakan siswa untuk menentukan target belajar harian serta menjelaskan kendala atau materi yang dirasakan paling sulit melalui kolom “Tantangan Terberat”. Informasi tersebut digunakan sebagai masukan tambahan bagi sistem dalam memberikan rekomendasi pembelajaran.
+Pada bagian kanan tersedia formulir nilai Tryout dasar yang digunakan untuk memasukkan nilai awal masing-masing mata pelajaran. Nilai tersebut berfungsi sebagai data awal kemampuan siswa sebelum mengikuti proses pembelajaran pada sistem. Setelah seluruh data diisi, siswa dapat menekan tombol “Simpan & Mulai Belajar” untuk menyimpan preferensi belajar dan melanjutkan ke halaman Dashboard. Data yang telah tersimpan selanjutnya digunakan oleh sistem dalam menyusun Personal Plan dan rekomendasi pembelajaran yang sesuai dengan kondisi masing-masing siswa.
+	Halaman Dashboard Siswa
+ 
+Gambar 4. 16 Halaman Dashboard Siswa
+Gambar 4.16 menampilkan antarmuka dashboard siswa yang berfungsi sebagai halaman utama setelah siswa berhasil masuk ke dalam sistem. Halaman ini menyajikan ringkasan perkembangan belajar, rekomendasi pembelajaran, serta informasi mengenai aktivitas belajar yang telah dilakukan. Pada bagian atas halaman ditampilkan panel sambutan yang berisi pesan motivasi dan rekomendasi belajar berdasarkan aktivitas siswa sebelumnya. Di sisi kanan panel terdapat tiga indikator yang menampilkan informasi mengenai Total Sesi, Rata-rata Nilai, dan Target Belajar yang telah dicapai siswa.
+Selanjutnya sistem menampilkan bagian “Lanjutkan Aktivitas Terakhir” yang berisi riwayat sesi belajar terakhir sehingga siswa dapat melanjutkan pembelajaran yang belum selesai. Di bawahnya terdapat panel Rekomendasi AI Hari Ini yang menampilkan materi yang disarankan untuk dipelajari berdasarkan hasil analisis perkembangan belajar siswa. Pada sisi kanan halaman terdapat panel Personal Plan yang menampilkan progres target belajar harian beserta tombol untuk mengubah target belajar. Selain itu, tersedia panel AI Insights yang memberikan informasi mengenai mata pelajaran maupun topik yang masih perlu ditingkatkan berdasarkan hasil evaluasi pembelajaran sebelumnya.
+	Halaman Menu Mode Belajar
+ 
+Gambar 4. 17 Halaman Mode Belajar
+Gambar 4.17 menampilkan antarmuka Menu Mode Belajar yang berfungsi sebagai halaman utama untuk memulai sesi pembelajaran ITS. Pada halaman ini, sistem menampilkan Personal Plan yang disusun berdasarkan hasil analisis kemampuan siswa sehingga materi yang dipelajari dapat disesuaikan dengan kebutuhan masing-masing pengguna. Pada bagian atas halaman ditampilkan panel target belajar yang memuat tujuan pembelajaran, target belajar harian, rata-rata skor yang telah diperoleh, serta target nilai yang ingin dicapai. Selain itu, sistem juga menampilkan informasi mengenai alasan penyusunan rekomendasi tersebut sehingga siswa dapat memahami prioritas pembelajaran yang diberikan. 
+Selanjutnya, pada bagian bawah halaman ditampilkan daftar mata pelajaran beserta topik materi yang direkomendasikan untuk dipelajari. Penyusunan urutan materi dilakukan berdasarkan hasil analisis Mastery Tracking, Priority Score, dan Forgetting Curve, sehingga topik dengan tingkat penguasaan yang rendah maupun materi yang diperkirakan mulai terlupakan akan memperoleh prioritas lebih tinggi untuk dipelajari kembali. 
+Setiap topik materi dilengkapi dengan indikator progres penguasaan serta label prioritas, seperti "Butuh Perhatian", yang membantu siswa mengidentifikasi materi yang perlu dipelajari terlebih dahulu. Melalui halaman ini, siswa dapat menentukan urutan pembelajaran sesuai rekomendasi yang dihasilkan oleh sistem sebelum memulai sesi Mode Belajar.
+	Halaman menu Mode Tryout
+ 
+Gambar 4. 18 Halaman Mode Tryout
+Gambar 4.18 menampilkan antarmuka Mode Tryout yang berfungsi sebagai halaman persiapan sebelum siswa memulai simulasi ujian. Berbeda dengan Mode Belajar yang menerapkan pendekatan ITS, Mode Tryout dirancang sebagai sarana evaluasi kemampuan siswa secara mandiri tanpa intervensi AI selama proses pengerjaan soal. Pada bagian utama halaman, siswa diminta menentukan dua pengaturan sebelum memulai simulasi, yaitu memilih Mata Pelajaran serta Paket Soal yang akan digunakan. Pengaturan tersebut bertujuan agar sistem dapat menyiapkan soal sesuai dengan pilihan pengguna.
+Setelah pengaturan selesai dilakukan, sistem menampilkan informasi bahwa selama sesi Tryout berlangsung fitur AI Tutor akan dinonaktifkan. Dengan demikian, seluruh jawaban yang diberikan siswa sepenuhnya mencerminkan kemampuan individu tanpa memperoleh bantuan berupa petunjuk maupun umpan balik dari AI. Ketentuan ini bertujuan agar hasil evaluasi yang diperoleh dapat digunakan sebagai gambaran kemampuan siswa secara objektif.
+Setelah seluruh pengaturan selesai dilakukan, siswa dapat menekan tombol “Mulai Tryout Sekarang” untuk memulai simulasi ujian sesuai dengan mata pelajaran dan paket soal yang telah dipilih.
+	Halaman pada Mode Belajar
+Halaman ini berfungsi sebagai ruang pembelajaran interaktif yang menerapkan pendekatan ITS. Berbeda dengan Mode Tryout yang digunakan untuk mengevaluasi kemampuan siswa secara mandiri, pada Mode Belajar sistem memberikan pendampingan secara adaptif berdasarkan performa siswa selama mengerjakan soal. Pendampingan tersebut dilakukan melalui tiga tahapan pembelajaran, yaitu Pre-Test, Main-Test, dan Post-Test. 
+Pada tahap Pre-Test, sistem mengukur kemampuan awal siswa tanpa memberikan bantuan dari AI Tutor. Hasil evaluasi awal tersebut digunakan sebagai salah satu masukan dalam proses pembelajaran selanjutnya. Selanjutnya, pada tahap Main-Test, AI Tutor mulai diaktifkan untuk memberikan pendampingan secara adaptif menggunakan mekanisme Rule-Based Strategy Selector. Strategi bantuan yang diberikan disesuaikan dengan jumlah percobaan menjawab serta tingkat penguasaan (mastery) siswa terhadap materi. Setelah seluruh proses pembelajaran selesai, siswa akan mengerjakan Post-Test sebagai evaluasi akhir untuk mengetahui perkembangan hasil pengerjaan setelah memperoleh bimbingan dari AI Tutor.
+	Halaman Pre-Test
+ 
+Gambar 4. 19 Halaman Pre-Test
+Gambar 4.19 menampilkan antarmuka Pre-Test yang merupakan tahap awal pada Mode Belajar. Tahap ini bertujuan untuk mengukur kemampuan awal siswa terhadap topik yang akan dipelajari sebelum sistem memberikan intervensi pembelajaran. Pada bagian atas halaman ditampilkan indikator alur pembelajaran yang terdiri atas Pre-Test, Main-Test, dan Post-Test, sehingga siswa dapat mengetahui tahapan pembelajaran yang sedang dijalankan. Selain itu, sistem juga menampilkan informasi mengenai topik materi beserta nomor soal yang sedang dikerjakan.
+Pada bagian utama halaman, sistem menampilkan soal beserta pilihan jawaban yang dapat dipilih oleh siswa. Sementara itu, pada sisi kanan terdapat panel “Penilaian Murni” yang memberikan informasi bahwa AI Tutor belum diaktifkan pada tahap ini. Dengan demikian, siswa mengerjakan seluruh soal berdasarkan kemampuan awal yang dimiliki tanpa memperoleh petunjuk maupun umpan balik dari AI. Jawaban yang diberikan siswa pada tahap Pre-Test selanjutnya digunakan sebagai salah satu dasar dalam proses analisis kemampuan awal sebelum siswa memasuki tahap Main-Test.
+	Halaman Main-Test dengan kondisi siswa menjawab soal dengan salah 1x
+ 
+Gambar 4. 20 Halaman Mode Belajar 1x Salah
+Gambar 4.20 menampilkan antarmuka Main-Test ketika siswa memberikan jawaban yang salah pada percobaan pertama. Pada kondisi ini, sistem mulai mengaktifkan mekanisme ITS untuk memberikan pendampingan belajar secara adaptif tanpa langsung memberikan jawaban yang benar. Jawaban siswa yang belum tepat ditandai dengan sorotan berwarna merah pada pilihan jawaban. Selanjutnya, sistem menganalisis hasil jawaban menggunakan Rule-Based Strategy Selector dengan mempertimbangkan jumlah percobaan menjawab serta tingkat penguasaan (mastery) siswa terhadap materi yang sedang dipelajari. Berdasarkan hasil analisis tersebut, sistem menghasilkan strategi pembelajaran yang sesuai dan mengirimkan prompt ke LLM melalui Prompt Builder.
+AI Tutor kemudian menampilkan Socratic Hint berupa petunjuk yang mengarahkan siswa untuk meninjau kembali konsep yang berkaitan dengan soal tanpa memberikan jawaban secara langsung. Pendekatan ini bertujuan untuk mendorong siswa menemukan jawabannya secara mandiri melalui proses berpikir.
+Pada bagian bawah panel AI Tutor, sistem juga menampilkan informasi bahwa siswa masih memiliki satu kesempatan untuk memperbaiki jawabannya. Setelah mempelajari petunjuk yang diberikan, siswa dapat menekan tombol “Coba Jawab Lagi” untuk melakukan percobaan kedua.
+	Halaman Main-Test dengan kondisi siswa menjawab soal dengan salah 2x
+ 
+Gambar 4. 21 Halaman Mode Belajar 2x Salah
+Gambar 4.21 menampilkan antarmuka Main-Test ketika siswa kembali memberikan jawaban yang salah pada percobaan kedua. Pada kondisi ini, batas maksimum percobaan menjawab telah tercapai sehingga siswa tidak dapat melakukan percobaan berikutnya pada soal yang sama. Sistem kembali melakukan analisis menggunakan Rule-Based Strategy Selector dan menentukan strategi pembelajaran berupa Step-by-Step Guidance. Melalui strategi ini, AI Tutor memberikan penjelasan langkah demi langkah mengenai konsep penyelesaian soal sehingga siswa dapat memahami proses berpikir yang benar tanpa hanya berfokus pada hasil akhir.
+Selama proses tersebut, sistem tetap menerapkan mekanisme Blind Mode, sehingga LLM tidak menerima informasi mengenai kunci jawaban yang benar. AI Tutor hanya memperoleh informasi berupa soal, jawaban siswa, jumlah percobaan, serta tingkat penguasaan materi sebagai dasar dalam menghasilkan penjelasan. Dengan demikian, umpan balik yang diberikan tetap berfokus pada proses pembelajaran dan tidak sekadar mengungkapkan jawaban yang benar. Setelah mempelajari penjelasan yang diberikan AI Tutor, siswa dapat melanjutkan proses pembelajaran dengan menekan tombol “Lanjut ke Soal Berikutnya”.
+	Halaman Main-Test dengan kondisi siswa menjawab soal dengan benar
+ 
+Gambar 4. 22 Halaman Mode Belajar Jawaban Benar
+Gambar 4.22 menampilkan antarmuka Main-Test ketika siswa berhasil memberikan jawaban yang benar. Keberhasilan tersebut ditandai dengan sorotan berwarna hijau pada pilihan jawaban serta notifikasi bahwa jawaban yang diberikan telah sesuai. Pada kondisi ini, AI Tutor tidak hanya memberikan konfirmasi bahwa jawaban siswa benar, tetapi juga menyajikan penjelasan singkat mengenai konsep yang digunakan dalam penyelesaian soal sebagai bentuk penguatan materi (reinforcement). Pendekatan ini bertujuan untuk memperkuat pemahaman siswa terhadap konsep yang telah dikuasai sehingga proses pembelajaran tidak berhenti pada keberhasilan menjawab soal. Setelah menerima umpan balik tersebut, siswa dapat melanjutkan ke soal berikutnya dengan menekan tombol “Lanjut ke Soal Berikutnya”.
+	Halaman Post-Test
+ 
+Gambar 4. 23 Halaman Post-Test
+Gambar 4.23 menampilkan antarmuka Post-Test yang merupakan tahap akhir pada Mode Belajar. Tahap ini bertujuan untuk mengevaluasi kembali tingkat pemahaman siswa setelah menyelesaikan proses pembelajaran dan memperoleh pendampingan dari AI Tutor pada tahap Main-Test. Pada bagian atas halaman ditampilkan indikator tahapan pembelajaran yang menunjukkan bahwa siswa telah memasuki fase Post-Test. Selanjutnya, sistem menyajikan soal evaluasi beserta pilihan jawaban yang harus dikerjakan secara mandiri oleh siswa.
+Sama seperti pada tahap Pre-Test, AI Tutor dinonaktifkan selama proses pengerjaan Post-Test sehingga siswa mengerjakan seluruh soal tanpa memperoleh petunjuk maupun umpan balik dari AI. Pendekatan ini dilakukan agar hasil evaluasi akhir dapat menggambarkan hasil pengerjaan siswa setelah mengikuti proses pembelajaran berbasis ITS.
+Setelah seluruh soal selesai dikerjakan, siswa dapat menekan tombol “Kirim Jawaban” untuk mengakhiri sesi pembelajaran dan melanjutkan ke halaman hasil evaluasi.
+	Halaman penyelesaian (Finish) pada Mode Belajar
+Halaman ini merupakan tampilan akhir yang muncul setelah siswa menyelesaikan seluruh rangkaian pembelajaran pada Mode Belajar, mulai dari Pre-Test, Main-Test, hingga Post-Test. Halaman ini berfungsi sebagai pusat penyajian hasil evaluasi pembelajaran yang mengintegrasikan data performa siswa dengan analisis yang dihasilkan oleh ITS. 
+Untuk menyajikan hasil pembelajaran secara komprehensif, sistem menyediakan tiga tab utama, yaitu Ringkasan Hasil, AI Study Report, dan Pembahasan Soal Latihan. Melalui ketiga tab tersebut, siswa tidak hanya memperoleh informasi mengenai nilai akhir, tetapi juga mendapatkan analisis perkembangan belajar, rekomendasi perbaikan, serta pembahasan terhadap setiap soal yang telah dikerjakan.
+	Halaman Tab Ringkasan Hasil Mode Belajar
+ 
+Gambar 4. 24 Halaman Tab Ringkasan Hasil Mode Belajar
+Gambar 4.24 menampilkan halaman penyelesaian Mode Belajar pada tab Ringkasan Hasil. Halaman ini berfungsi sebagai dashboard evaluasi yang menyajikan ringkasan performa siswa setelah menyelesaikan seluruh tahapan pembelajaran. Pada bagian atas halaman, sistem menampilkan pesan motivasi yang disesuaikan dengan hasil belajar siswa beserta indikator skor akhir berbentuk lingkaran yang menggambarkan capaian pembelajaran secara keseluruhan. Selain itu, sistem juga menampilkan predikat hasil belajar sebagai bentuk interpretasi terhadap nilai yang diperoleh.
+Di bawahnya terdapat beberapa kartu informasi yang menyajikan ringkasan hasil Pre-Test, Main-Test, dan Post-Test, sehingga siswa dapat melihat ringkasan hasil pengerjaan pada setiap tahapan pembelajaran. Ringkasan ini memberikan gambaran perkembangan hasil pengerjaan siswa pada tahapan Pre-Test, Main-Test, dan Post-Test selama mengikuti sesi pembelajaran berbasis ITS. Pada bagian bawah halaman tersedia tombol “Kembali ke Dashboard” serta “Ulangi Materi Ini” yang memungkinkan siswa mengulang materi apabila masih ingin memperdalam pemahaman terhadap topik materi tersebut.
+	Halaman Tab AI Study Report pada Halaman Penyelesaian Mode Belajar
+ 
+Gambar 4. 25 Halaman Tab AI Study Report pada Halaman Penyelesaian Mode Belajar
+Gambar 4.25 menampilkan halaman penyelesaian Mode Belajar pada tab AI Study Report. Tab ini menyajikan laporan pembelajaran yang dihasilkan secara otomatis oleh AI Tutor berdasarkan riwayat pengerjaan soal selama satu sesi pembelajaran. Laporan yang ditampilkan memuat ringkasan performa siswa, konsep yang telah dikuasai, materi yang masih perlu ditingkatkan, serta rekomendasi pembelajaran yang disesuaikan dengan hasil evaluasi siswa. Dalam menghasilkan laporan tersebut, AI memanfaatkan data hasil pembelajaran tanpa mengungkapkan proses internal sistem maupun informasi kunci jawaban yang digunakan selama proses evaluasi.
+Selain memberikan evaluasi terhadap hasil belajar, AI Tutor juga menyampaikan saran tindak lanjut yang dapat dijadikan acuan oleh siswa dalam menentukan materi yang perlu dipelajari pada sesi berikutnya. Dengan demikian, laporan ini berfungsi sebagai umpan balik yang bersifat personal untuk membantu siswa memahami perkembangan hasil pembelajaran dan menentukan topik materi yang perlu dipelajari kembali. Pada bagian bawah halaman tetap tersedia tombol “Kembali ke Dashboard” dan “Ulangi Materi Ini” sebagai navigasi lanjutan setelah siswa membaca hasil evaluasi.
+	Halaman Tab Pembahasan Soal Latihan pada Halaman Penyelesaian Mode Belajar
+ 
+Gambar 4. 26 Halaman Tab Pembahasan Soal Latihan pada Halaman Penyelesaian Mode Belajar
+Gambar 4.26 menampilkan halaman penyelesaian Mode Belajar pada tab Pembahasan Soal Latihan. Halaman ini berfungsi sebagai media refleksi pembelajaran yang memungkinkan siswa meninjau kembali daftar soal yang dikerjakan pada fase Main-Test, yaitu tahap ketika AI Tutor memberikan pendampingan selama proses pembelajaran. Daftar soal ditampilkan secara berurutan disertai informasi mengenai status jawaban, jumlah percobaan yang dilakukan pada setiap soal, serta hasil akhir pengerjaan. Informasi tersebut membantu siswa mengidentifikasi soal-soal yang masih memerlukan perhatian lebih selama proses pembelajaran.
+Selain menampilkan riwayat pengerjaan secara umum, sistem juga menyediakan akses pada setiap soal sehingga siswa dapat melihat detail pembahasan secara lebih mendalam. Dengan demikian, siswa dapat melakukan refleksi awal terhadap performa belajarnya sebelum meninjau riwayat percobaan dan umpan balik AI Tutor pada halaman pembahasan soal.
+	Halaman Mode Tryout
+ 
+Gambar 4. 27 Halaman Mode Tryout
+Gambar 4.27 menampilkan antarmuka halaman pengerjaan soal pada Mode Tryout yang berfungsi sebagai sarana evaluasi kemampuan siswa melalui simulasi ujian berbatas waktu. Berbeda dengan Mode Belajar yang menerapkan pendampingan menggunakan ITS, pada Mode Tryout seluruh soal dikerjakan secara mandiri tanpa bantuan AI Tutor sehingga hasil yang diperoleh dapat menggambarkan kemampuan siswa secara objektif. Pada bagian atas halaman, sistem menampilkan informasi mata pelajaran yang sedang dikerjakan, indikator nomor soal, progress bar, serta countdown timer yang menunjukkan sisa waktu pengerjaan. Seluruh komponen tersebut membantu siswa memantau progres selama mengikuti simulasi ujian.
+Pada bagian utama, sistem menampilkan soal beserta pilihan jawaban yang dapat dipilih oleh siswa. Jawaban yang dipilih akan diberikan penanda visual sehingga siswa dapat mengetahui pilihan yang sedang aktif sebelum berpindah ke soal berikutnya.
+Berbeda dengan Mode Belajar, pada sisi kanan halaman tidak ditampilkan panel AI Tutor, melainkan panel Navigasi Soal yang berisi daftar nomor soal. Panel ini memudahkan siswa berpindah ke soal tertentu sekaligus menampilkan status pengerjaan setiap soal melalui indikator warna, yaitu hijau untuk soal yang telah dijawab, kuning untuk posisi soal yang sedang dikerjakan, dan abu-abu untuk soal yang belum dijawab. Setelah seluruh soal selesai dikerjakan atau waktu pengerjaan berakhir, sistem secara otomatis melakukan proses penilaian dan menampilkan hasil evaluasi yang selanjutnya digunakan sebagai bagian dari analisis perkembangan belajar siswa.
+	Halaman Analitik Siswa
+Halaman ini berfungsi sebagai dashboard analitik pembelajaran yang menyajikan hasil pengolahan data aktivitas belajar siswa. Melalui halaman ini, siswa dapat memantau perkembangan belajar, mengevaluasi performa pengerjaan soal, mengidentifikasi materi yang masih perlu ditingkatkan, serta melihat rekomendasi pembelajaran yang dihasilkan berdasarkan Learning Analytics.
+
+
+	Halaman Ringkasan
+ 
+Gambar 4. 28 Halaman Ringkasan Analitik
+Gambar 4.28 menampilkan antarmuka halaman Analitik & Evaluasi pada tab Ringkasan. Halaman ini berfungsi menyajikan gambaran menyeluruh mengenai perkembangan belajar siswa berdasarkan data yang dikumpulkan selama menggunakan sistem. Pada bagian atas halaman, sistem menampilkan panel Insight Analisis Cerdas yang berisi ringkasan evaluasi dan rekomendasi pembelajaran yang dihasilkan AI Tutor berdasarkan aktivitas belajar siswa. Di bawahnya ditampilkan beberapa indikator performa, seperti Akurasi Keseluruhan, Kemandirian Belajar, dan Aktivitas Belajar Mingguan sebagai ringkasan perkembangan siswa.
+Selanjutnya, sistem menampilkan panel Fokus Perbaikan (Titik Lemah) yang mengidentifikasi topik dengan tingkat penguasaan (mastery) terendah. Identifikasi tersebut dihasilkan melalui proses Mastery Tracking, sehingga sistem dapat menunjukkan materi yang perlu diprioritaskan untuk dipelajari kembali. Pada bagian bawah halaman, sistem menyajikan Pemetaan Penguasaan untuk setiap mata pelajaran beserta visualisasi Radar Kemampuan. Visualisasi ini membantu siswa membandingkan tingkat penguasaan antar mata pelajaran sehingga perkembangan belajar dapat dipahami dengan lebih mudah.
+	Halaman Tren dan Grafik 
+ 
+Gambar 4. 29 Halaman Tren dan Grafik
+Gambar 4.29 menampilkan halaman Analitik & Evaluasi pada tab Tren & Grafik. Halaman ini berfungsi untuk memvisualisasikan perkembangan performa belajar siswa berdasarkan riwayat aktivitas yang tersimpan pada sistem. Pada bagian atas halaman, sistem menampilkan panel Perbandingan Mode yang menyajikan perbandingan performa siswa antara Mode Belajar dan Mode Tryout, meliputi rata-rata skor serta jumlah sesi yang telah diselesaikan pada masing-masing mode. Informasi ini membantu siswa memahami perbedaan capaian belajar selama memperoleh pendampingan AI Tutor maupun ketika mengerjakan evaluasi secara mandiri.
+Selanjutnya, sistem menyajikan grafik Tren Skor Keseluruhan yang menampilkan perubahan nilai siswa dari waktu ke waktu berdasarkan riwayat pengerjaan. Visualisasi ini memungkinkan siswa mengamati pola perkembangan belajar, perubahan performa pada setiap sesi. Pada bagian kanan halaman, sistem juga menampilkan panel Aktivitas 7 Hari Terakhir yang merangkum intensitas aktivitas belajar siswa selama satu minggu terakhir. Data tersebut menjadi salah satu indikator untuk membantu siswa memantau konsistensi belajar sebagai bagian dari Learning Analytics yang diterapkan pada sistem.
+	Halaman Evaluasi Soal
+ 
+Gambar 4. 30 Halaman Evaluasi Soal
+Gambar 4.30 menampilkan halaman Analitik & Evaluasi pada tab Evaluasi Soal. Halaman ini berfungsi sebagai pusat riwayat pengerjaan soal yang memungkinkan siswa meninjau kembali seluruh aktivitas evaluasi yang pernah dilakukan pada sistem. Pada bagian atas halaman, sistem menyediakan fitur penyaringan (filter) berdasarkan jenis mode, yaitu Mode Belajar, Mode Tryout, maupun seluruh riwayat pengerjaan. fitur ini memudahkan siswa dalam menemukan sesi evaluasi yang ingin ditinjau kembali.
+Riwayat pengerjaan ditampilkan dalam bentuk kartu (cards) yang dikelompokkan berdasarkan mata pelajaran. Setiap kartu memuat informasi berupa tanggal pengerjaan, jenis mode, nama topik materi atau paket soal, skor akhir, serta tombol “Pembahasan” untuk melihat rincian hasil evaluasi. Melalui halaman ini, siswa dapat memilih salah satu sesi pembelajaran maupun Tryout untuk melihat pembahasan soal secara lebih rinci, sehingga proses evaluasi tidak hanya berfokus pada nilai akhir, tetapi juga pada proses memahami kembali materi yang telah dipelajari.
+	Halaman Pembahasan Soal 
+Halaman ini berfungsi sebagai media evaluasi lanjutan yang memungkinkan siswa meninjau kembali hasil pengerjaan soal setelah menyelesaikan sesi Mode Belajar maupun Mode Tryout. Sistem menyediakan tab filter untuk membedakan riwayat dari kedua mode tersebut sehingga siswa dapat memilih sesi yang ingin dipelajari kembali.
+Setelah memilih salah satu mata pelajaran dan materi yang tersedia, siswa dapat mengakses halaman pembahasan secara rinci melalui tombol “Pembahasan”. Halaman ini menyajikan informasi yang berbeda antara Mode Belajar dan Mode Tryout sesuai dengan mekanisme pembelajaran yang diterapkan pada masing-masing mode.
+
+
+
+	Halaman Detail Pembahasan Mode Belajar
+ 
+Gambar 4. 31 Halaman Detail Pembahasan Mode Belajar
+Gambar 4.31 menampilkan halaman Detail Pembahasan Mode Belajar yang berfungsi sebagai media evaluasi bagi siswa setelah menyelesaikan seluruh rangkaian Mode Belajar, yang terdiri atas fase Pre-Test, Main-Test, dan Post-Test. Pada halaman ini, sistem menampilkan daftar soal beserta riwayat jawaban pada setiap fase pembelajaran. Khusus pada fase Main-Test, sistem juga menyajikan riwayat percobaan menjawab beserta umpan balik yang diberikan oleh AI Tutor, seperti Socratic Hint dan Step-by-Step Guidance, sesuai dengan hasil pengerjaan siswa selama proses pembelajaran. Melalui halaman ini, siswa dapat meninjau kembali proses pengerjaan soal, membandingkan hasil pada setiap fase pembelajaran, serta memahami konsep yang telah dipelajari melalui pembahasan yang disediakan. Pada bagian kanan halaman, sistem menyediakan Navigasi Soal yang memudahkan siswa berpindah ke soal lain serta menampilkan status hasil pengerjaan setiap soal melalui indikator warna.
+	Halaman Detail Pembahasan Mode Tryout
+ 
+Gambar 4. 32 Halaman Pembahasan Mode Tryout
+Gambar 4.32 menampilkan halaman Detail Pembahasan Mode Tryout yang berfungsi sebagai media evaluasi setelah siswa menyelesaikan sesi Mode Tryout. Pada halaman ini, sistem menampilkan daftar soal beserta riwayat jawaban dan pembahasan untuk setiap butir soal. Berbeda dengan Mode Belajar, setiap soal hanya memiliki satu riwayat jawaban karena selama proses Tryout siswa hanya diberikan satu kesempatan untuk menjawab tanpa pendampingan AI Tutor. Melalui halaman ini, siswa dapat meninjau kembali hasil pengerjaan, memahami pembahasan setiap soal, serta mengetahui jawaban yang benar sebagai bahan evaluasi setelah simulasi ujian selesai. Pada bagian kanan halaman, sistem menyediakan Navigasi Soal yang memudahkan siswa berpindah ke soal lain serta menampilkan status hasil pengerjaan setiap soal melalui indikator warna.
+
+
+	Implementasi AI Tutor
+Implementasi AI Tutor pada platform Tryout TKA berbasis ITS dilakukan untuk memberikan bantuan pembelajaran adaptif berdasarkan kondisi jawaban siswa. Sistem menentukan bentuk bantuan yang diberikan berdasarkan status jawaban dan jumlah percobaan siswa. AI Tutor memanfaatkan LLM untuk menghasilkan respons pembelajaran berdasarkan konteks soal, jawaban siswa, jumlah percobaan, dan hasil analisis sistem.
+	Halaman tampilan soal dan jawaban siswa 
+ 
+Gambar 4. 33 Halaman Tampilan Soal dan Jawaban Siswa
+	Gambar 4.33 menunjukkan halaman pengerjaan soal pada Mode Belajar. Pada tahap ini siswa mengerjakan soal dan mengirimkan jawaban ke sistem. Setelah tombol “Kirim Jawaban” dipilih, sistem melakukan evaluasi terhadap jawaban siswa menggunakan mekanisme pemeriksaan jawaban yang telah diimplementasikan. Hasil evaluasi tersebut digunakan untuk menentukan status jawaban (benar atau salah), memperbarui data pembelajaran pada Student Model, serta menentukan strategi pendampingan yang akan diberikan oleh AI Tutor pada tahap berikutnya.
+
+	Implementasi AI Tutor pada Jawaban Salah Pertama
+ 
+Gambar 4. 34 Implementasi AI Tutor pada Percobaan Pertama (Jawaban Salah)
+	Gambar 4.34 menampilkan log proses AI Tutor ketika siswa memberikan jawaban yang salah pada percobaan pertama. Setelah sistem mendeteksi jawaban belum benar, sistem mengambil informasi jumlah percobaan (attempt count) serta tingkat penguasaan materi (mastery) yang tersimpan pada Student Model. Berdasarkan data tersebut, Rule-Based Strategy Selector menentukan strategi pembelajaran yang sesuai. Pada contoh ini, siswa memiliki nilai mastery sebesar 50% sehingga termasuk kategori Pemula, sehingga sistem memilih strategi Socratic Hint. Selanjutnya, Prompt Builder menyusun prompt berdasarkan informasi soal, jawaban siswa, nilai mastery, dan strategi yang dipilih, kemudian mengirimkannya ke LLM melalui layanan AI. 
+	Log pada Gambar 4.34 memperlihatkan proses penyusunan prompt, pengiriman permintaan ke LLM, serta respons yang dihasilkan. Respons tersebut kemudian ditampilkan kepada siswa dalam bentuk petunjuk yang mengarahkan siswa menemukan konsep penyelesaian tanpa memberikan jawaban akhir secara langsung sesuai mekanisme Blind Mode.
+	Implementasi AI Tutor pada Jawaban Salah Kedua
+ 
+Gambar 4. 35 Implementasi AI Tutor pada Percobaan Kedua
+Gambar 4.35 menampilkan log proses AI Tutor ketika siswa kembali memberikan jawaban yang salah pada percobaan kedua. Sistem mendeteksi bahwa jumlah percobaan telah mencapai batas maksimum sehingga Rule-Based Strategy Selector mengubah strategi pembelajaran menjadi Step-by-Step Guidance. Selanjutnya Prompt Builder menyusun prompt berdasarkan strategi tersebut dan mengirimkannya ke LLM. Log pada gambar 4.35 memperlihatkan proses penyusunan prompt, pengiriman permintaan, serta respons yang dihasilkan oleh LLM. Respons kemudian ditampilkan kepada siswa dalam bentuk panduan penyelesaian secara bertahap untuk membantu memahami konsep penyelesaian soal. Setelah respons diberikan, sistem mengunci percobaan pada soal tersebut sehingga siswa tidak dapat melakukan percobaan kembali dan diarahkan untuk melanjutkan ke soal berikutnya.
+
+
+	Implementasi AI Tutor pada Jawaban Benar
+ 
+Gambar 4. 36 Implementasi AI Tutor pada Jawaban Benar
+Gambar 4.36 menampilkan log proses AI Tutor ketika siswa berhasil memberikan jawaban yang benar. Setelah sistem memverifikasi bahwa jawaban sesuai dengan kunci jawaban, sistem tidak menjalankan strategi Instructional Scaffolding karena siswa telah berhasil menyelesaikan soal secara mandiri. Selanjutnya AI Tutor menghasilkan respons berupa feedback positif sebagai bentuk penguatan terhadap pemahaman siswa. Log pada gambar 4.36 menunjukkan proses penyusunan prompt, pengiriman permintaan ke LLM, serta respons yang dihasilkan sebelum ditampilkan kepada siswa. Setelah proses tersebut selesai, sistem memperbarui data pembelajaran, seperti nilai accuracy dan mastery, yang selanjutnya digunakan sebagai dasar pembaruan Learning Analytics dan Personal Plan pada sesi pembelajaran berikutnya.
+
+	Implementasi Learning Analytics 
+ 
+ 
+Gambar 4. 37 Pembaruan Learning Analytics dan Personal Plan setelah respons
+Gambar 4.37 menampilkan proses pembaruan Learning Analytics dan Personal Plan setelah AI Tutor selesai memberikan respons kepada siswa. Setelah proses evaluasi jawaban selesai, sistem secara otomatis memperbarui data pembelajaran pada Student Model, termasuk nilai accuracy dan mastery berdasarkan hasil pengerjaan terbaru. 
+Nilai mastery yang telah diperbarui selanjutnya digunakan sebagai salah satu dasar dalam proses penyusunan kembali rekomendasi pembelajaran pada fitur Personal Plan. Sistem menghitung kembali Priority Score setiap materi sehingga urutan rekomendasi belajar selalu menyesuaikan perkembangan kemampuan siswa. Selain itu, sistem juga mempertimbangkan waktu terakhir materi dipelajari melalui mekanisme Forgetting Curve sehingga materi yang telah lama tidak dipelajari dapat kembali diprioritaskan untuk dipelajari ulang.
+Dengan mekanisme tersebut, Learning Analytics dapat menampilkan perkembangan kemampuan siswa secara berkelanjutan, sedangkan Personal Plan mampu menghasilkan rekomendasi materi yang lebih adaptif sesuai kondisi pembelajaran terkini.

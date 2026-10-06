@@ -1,6 +1,6 @@
-# Kerangka Penelitian Skripsi — Lexica UTBK-SNBT
+# Kerangka Tugas Akhir Skripsi — Lexica UTBK-SNBT
 
-> **Judul Penelitian:**
+> **Judul Tugas Akhir:**
 > Pengembangan Platform Persiapan UTBK-SNBT untuk Siswa SMA dengan Metode Socratic Scaffolding Berbasis Large Language Model
 
 ---
@@ -16,7 +16,7 @@
 
 ---
 
-## 2. Tujuan Penelitian (Research Objectives)
+## 2. Tujuan Tugas Akhir (Research Objectives)
 
 | Kode | Tujuan |
 |------|--------|
@@ -42,14 +42,14 @@
 2. **Kalibrasi IRT Empiris:** Parameter kesulitan soal ($b$) tidak dikalibrasi melalui uji coba lapangan berskala besar; menggunakan penilaian ahli (*expert judgment*).
 3. **Data Resmi SNPMB:** Batas nilai kelulusan resmi tidak tersedia secara publik; menggunakan estimasi.
 4. **Fitur Kolaboratif:** Tidak ada ruang diskusi siswa, fitur peer-review, atau fitur sosial.
-5. **Perbandingan Eksperimental:** Penelitian ini bersifat *development research*, bukan eksperimen komparatif dengan kelompok kontrol.
+5. **Perbandingan Eksperimental:** Tugas Akhir ini bersifat *development research*, bukan eksperimen komparatif dengan kelompok kontrol.
 
 ---
 
-## 4. Metode Penelitian
+## 4. Metode Tugas Akhir
 
 ### 4.1 Model Pengembangan: SDLC Waterfall (Modifikasi)
-Penelitian ini menggunakan model *Software Development Life Cycle* (SDLC) **Waterfall** dengan modifikasi iteratif pada tahap implementasi. Pemilihan Waterfall didasarkan pada kejelasan *scope* dan kebutuhan sistem yang telah terdefinisi sejak awal.
+Tugas Akhir ini menggunakan model *Software Development Life Cycle* (SDLC) **Waterfall** dengan modifikasi iteratif pada tahap implementasi. Pemilihan Waterfall didasarkan pada kejelasan *scope* dan kebutuhan sistem yang telah terdefinisi sejak awal.
 
 #### Tahapan:
 
@@ -121,4 +121,4 @@ graph TB
 
 ---
 
-*Dokumen ini mencerminkan kerangka penelitian per 15 Juni 2026.*
+*Dokumen ini mencerminkan kerangka tugas akhir per 15 Juni 2026.*

@@ -1,0 +1,501 @@
+{
+    "metadata": {
+        "title": "Template Black-Box Testing",
+        "description": "Template skenario pengujian 54 alur yang belum dieksekusi.",
+        "version": "2.0.0"
+    },
+    "rekap_hasil": {
+        "total_test_cases": 54,
+        "total_pass": 0,
+        "total_fail": 0,
+        "persentase_keberhasilan": "0.00%"
+    },
+    "detail_pengujian": [
+        {
+            "id": "TEST-SISWA-001",
+            "modul": "Fitur Autentikasi",
+            "jenis_pengujian": "Positif",
+            "skenario": "Siswa melakukan registrasi dengan email valid",
+            "ekspektasi": "Akun terdaftar dan masuk ke halaman onboarding",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-SISWA-002",
+            "modul": "Fitur Autentikasi",
+            "jenis_pengujian": "Negatif",
+            "skenario": "Siswa melakukan registrasi dengan email yang sudah terdaftar",
+            "ekspektasi": "Sistem menolak dan menampilkan error 'Email sudah digunakan'",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-SISWA-003",
+            "modul": "Fitur Autentikasi",
+            "jenis_pengujian": "Positif",
+            "skenario": "Siswa login menggunakan kredensial yang benar",
+            "ekspektasi": "Siswa berhasil masuk ke Dashboard utama",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-SISWA-004",
+            "modul": "Fitur Autentikasi",
+            "jenis_pengujian": "Negatif",
+            "skenario": "Siswa login dengan password salah",
+            "ekspektasi": "Muncul pesan error kredensial tidak valid",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-SISWA-005",
+            "modul": "Fitur Pengaturan Profil",
+            "jenis_pengujian": "Positif",
+            "skenario": "Siswa memperbarui profil dan target PTN",
+            "ekspektasi": "Data profil berhasil disimpan ke database",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-SISWA-006",
+            "modul": "Fitur Pengaturan Profil",
+            "jenis_pengujian": "Negatif",
+            "skenario": "Siswa mengganti password dengan konfirmasi password yang tidak cocok",
+            "ekspektasi": "Sistem menolak dengan pesan error 'Password tidak cocok'",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-SISWA-007",
+            "modul": "Mode Belajar",
+            "jenis_pengujian": "Positif",
+            "skenario": "Siswa mengakses peta jalan (Learning Path)",
+            "ekspektasi": "Sistem menampilkan daftar bab sesuai target UTBK",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-SISWA-008",
+            "modul": "Mode Belajar",
+            "jenis_pengujian": "Positif",
+            "skenario": "Siswa menjawab soal dengan benar di percobaan pertama",
+            "ekspektasi": "Sistem memunculkan notifikasi Benar dan AI Tutor memberikan apresiasi",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-SISWA-009",
+            "modul": "Mode Belajar",
+            "jenis_pengujian": "Positif",
+            "skenario": "Siswa menjawab soal salah di percobaan pertama",
+            "ekspektasi": "Sistem memunculkan peringatan dan AI Tutor memberikan Socratic Hint",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-SISWA-010",
+            "modul": "Mode Belajar",
+            "jenis_pengujian": "Positif",
+            "skenario": "Siswa menjawab soal salah dua kali beruntun",
+            "ekspektasi": "Sistem mengunci soal dan memberikan Step-by-Step Guidance",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-SISWA-011",
+            "modul": "Mode Belajar",
+            "jenis_pengujian": "Positif",
+            "skenario": "Siswa menekan tombol 'Lihat Pembahasan'",
+            "ekspektasi": "Halaman evaluasi terbuka dengan opsi navigasi soal",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-SISWA-012",
+            "modul": "Mode Belajar",
+            "jenis_pengujian": "Positif",
+            "skenario": "Siswa menekan tombol 'Ulangi Latihan'",
+            "ekspektasi": "Sesi sebelumnya di-reset dan soal kembali ke nomor 1",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-SISWA-013",
+            "modul": "Mode Tryout",
+            "jenis_pengujian": "Positif",
+            "skenario": "Siswa memilih paket tryout SNBT",
+            "ekspektasi": "Sistem memuat daftar paket tryout yang tersedia",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-SISWA-014",
+            "modul": "Mode Tryout",
+            "jenis_pengujian": "Positif",
+            "skenario": "Siswa memulai pengerjaan Tryout",
+            "ekspektasi": "Sistem memulai hitung mundur waktu ujian (timer)",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-SISWA-015",
+            "modul": "Mode Tryout",
+            "jenis_pengujian": "Negatif",
+            "skenario": "Siswa mengumpulkan Tryout tanpa mengisi semua soal",
+            "ekspektasi": "Sistem menampilkan pop-up peringatan ada soal yang belum dijawab",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-SISWA-016",
+            "modul": "Rapor & Evaluasi",
+            "jenis_pengujian": "Positif",
+            "skenario": "Siswa membuka tab Rapor & Tren",
+            "ekspektasi": "Sistem merender Diagram Radar dan grafik tren evaluasi",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-SISWA-017",
+            "modul": "Rapor & Evaluasi",
+            "jenis_pengujian": "Positif",
+            "skenario": "Siswa membuka tab Evaluasi Soal",
+            "ekspektasi": "Sistem menyajikan daftar bank soal yang dijawab salah",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-SISWA-018",
+            "modul": "Rapor & Evaluasi",
+            "jenis_pengujian": "Positif",
+            "skenario": "Siswa melihat fitur Peluang Lolos (Chancing Engine)",
+            "ekspektasi": "Persentase kelulusan dikalkulasi dan ditampilkan",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-SISWA-019",
+            "modul": "Ruang AI Tutor",
+            "jenis_pengujian": "Negatif",
+            "skenario": "Siswa mengirim prompt kosong ke AI Tutor",
+            "ekspektasi": "Sistem menonaktifkan tombol kirim atau memberi peringatan",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-001",
+            "modul": "Dashboard Admin",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin login dengan akses kredensial valid",
+            "ekspektasi": "Berhasil masuk ke Dashboard statistik utama",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-002",
+            "modul": "Dashboard Admin",
+            "jenis_pengujian": "Negatif",
+            "skenario": "Admin login dengan akun Siswa",
+            "ekspektasi": "Akses ditolak (Forbidden) dan dialihkan",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-003",
+            "modul": "Dashboard Admin",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin melihat ringkasan total pengguna dan skor",
+            "ekspektasi": "Grafik dan metrik dasar termuat secara real-time",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-004",
+            "modul": "Kelola Pengguna",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin melihat daftar pengguna terdaftar",
+            "ekspektasi": "Tabel daftar siswa dengan paginasi berfungsi normal",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-005",
+            "modul": "Kelola Pengguna",
+            "jenis_pengujian": "Negatif",
+            "skenario": "Admin mencari pengguna dengan email yang tidak ada",
+            "ekspektasi": "Tabel menampilkan 'Data tidak ditemukan'",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-006",
+            "modul": "Kelola Pengguna",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin mengubah role siswa menjadi admin",
+            "ekspektasi": "Akses pengguna diperbarui seketika di database",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-007",
+            "modul": "Kelola Pengguna",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin menghapus akun pengguna (Ban/Delete)",
+            "ekspektasi": "Akun terhapus dan tidak bisa login lagi",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-008",
+            "modul": "Kelola Pengguna",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin mereset password pengguna",
+            "ekspektasi": "Link reset atau password default berhasil dibuat",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-009",
+            "modul": "Bank Soal",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin melihat daftar mata pelajaran",
+            "ekspektasi": "Hierarki daftar mata pelajaran UTBK tampil sempurna",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-010",
+            "modul": "Bank Soal",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin menambah bab materi baru",
+            "ekspektasi": "Bab materi baru tersimpan dan muncul di daftar",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-011",
+            "modul": "Bank Soal",
+            "jenis_pengujian": "Negatif",
+            "skenario": "Admin menambah bab materi tanpa nama (kosong)",
+            "ekspektasi": "Sistem menampilkan validasi error 'Nama bab wajib diisi'",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-012",
+            "modul": "Bank Soal",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin mengedit nama bab materi",
+            "ekspektasi": "Perubahan nama bab berhasil diterapkan",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-013",
+            "modul": "Bank Soal",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin menghapus bab materi",
+            "ekspektasi": "Bab beserta soal di dalamnya terhapus/diarsipkan",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-014",
+            "modul": "Bank Soal",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin menambah soal baru dengan teks LaTeX",
+            "ekspektasi": "Soal tersimpan dan render LaTeX berjalan normal",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-015",
+            "modul": "Bank Soal",
+            "jenis_pengujian": "Negatif",
+            "skenario": "Admin menambah soal tanpa kunci jawaban",
+            "ekspektasi": "Sistem menolak dan meminta kunci jawaban dipilih",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-016",
+            "modul": "Bank Soal",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin menentukan tingkat kesulitan (bobot) soal",
+            "ekspektasi": "Bobot tersimpan dan memengaruhi kalkulasi IRT",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-017",
+            "modul": "Bank Soal",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin mengedit redaksi soal yang ada",
+            "ekspektasi": "Perubahan soal langsung terupdate di sistem",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-018",
+            "modul": "Bank Soal",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin menghapus soal tertentu",
+            "ekspektasi": "Soal dihapus permanen dari bank soal",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-019",
+            "modul": "Kelola PTN/Prodi",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin melihat daftar kampus negeri",
+            "ekspektasi": "Tabel daftar PTN beserta kuotanya ditampilkan",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-020",
+            "modul": "Kelola PTN/Prodi",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin menambah universitas baru",
+            "ekspektasi": "Data kampus baru berhasil terekam",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-021",
+            "modul": "Kelola PTN/Prodi",
+            "jenis_pengujian": "Negatif",
+            "skenario": "Admin menambah program studi dengan daya tampung minus",
+            "ekspektasi": "Sistem memunculkan pesan error invalid number",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-022",
+            "modul": "Kelola PTN/Prodi",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin menambah program studi baru ke kampus tertentu",
+            "ekspektasi": "Program studi beserta passing grade-nya tersimpan",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-023",
+            "modul": "Kelola PTN/Prodi",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin mengubah daya tampung prodi",
+            "ekspektasi": "Pembaruan daya tampung memengaruhi Chancing Engine",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-024",
+            "modul": "Kelola PTN/Prodi",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin menghapus program studi",
+            "ekspektasi": "Prodi tidak lagi muncul di pilihan siswa",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-025",
+            "modul": "Manajemen Tryout",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin melihat daftar paket Tryout",
+            "ekspektasi": "Menampilkan list paket Tryout yang telah dikonfigurasi",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-026",
+            "modul": "Manajemen Tryout",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin membuat kerangka paket Tryout baru",
+            "ekspektasi": "Paket kosong berhasil dibuat dan dijadwalkan",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-027",
+            "modul": "Manajemen Tryout",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin mengaitkan bank soal ke dalam paket Tryout",
+            "ekspektasi": "Soal berhasil dilampirkan ke paket Tryout",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-028",
+            "modul": "Manajemen Tryout",
+            "jenis_pengujian": "Negatif",
+            "skenario": "Admin menetapkan durasi negatif pada ujian",
+            "ekspektasi": "Sistem menolak form durasi tidak valid",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-029",
+            "modul": "Manajemen Tryout",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin mengubah status paket menjadi Publish",
+            "ekspektasi": "Tryout menjadi live dan bisa dikerjakan siswa",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-030",
+            "modul": "Manajemen Tryout",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin mengubah status paket menjadi Draft",
+            "ekspektasi": "Tryout ditarik dan tidak terlihat oleh siswa",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-031",
+            "modul": "Manajemen Tryout",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin menghapus paket Tryout utuh",
+            "ekspektasi": "Data sesi ujian terhapus tanpa merusak Bank Soal",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-032",
+            "modul": "Analytics & Monitor",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin melihat penggunaan kuota API OpenRouter",
+            "ekspektasi": "Grafik penggunaan token LLM tampil normal",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-033",
+            "modul": "Pengaturan Sistem",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin mengatur kalibrasi skor IRT global",
+            "ekspektasi": "Parameter skor (mean/std dev) diperbarui di backend",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-034",
+            "modul": "Pengaturan Sistem",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin mengubah batas sesi maksimum PgBouncer",
+            "ekspektasi": "Konfigurasi pooling database berhasil diterapkan",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        },
+        {
+            "id": "TEST-ADMIN-035",
+            "modul": "Pengaturan Sistem",
+            "jenis_pengujian": "Positif",
+            "skenario": "Admin memperbarui aturan Content Security Policy (CSP)",
+            "ekspektasi": "Header CSP yang baru terinjeksi di aplikasi",
+            "hasil_aktual": "",
+            "status": "Belum Dieksekusi"
+        }
+    ]
+}

@@ -64,7 +64,7 @@ jobs:
       maxDuration: 5
       maxCrawlDepth: 10
       numberOfBrowsers: 2
-      browserId: "firefox-headless"
+      browserId: "chrome-headless"
       clickDefaultElems: true
       clickElemsOnce: true
       eventWait: 1000
@@ -99,7 +99,7 @@ jobs:
       reportFile: "laporan-zap-admin.html"
       reportTitle: "Laporan Audit Keamanan ZAP (Admin)"
       reportDescription: "Hasil pemindaian keamanan DAST untuk modul Admin pada UTBK App."
-      displayReport: false
+      displayReport: true
 
   - type: report
     parameters:

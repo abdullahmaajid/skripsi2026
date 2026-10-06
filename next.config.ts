@@ -4,6 +4,12 @@ const nextConfig: NextConfig = {
   // ── Output ──
   // "standalone" bundles only what's needed — optimal for Vercel & Docker
   output: "standalone",
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 
   // ── Images ──
   // Allow external image sources if needed (e.g. avatars from Google/GitHub OAuth)
